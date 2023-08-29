@@ -31,6 +31,8 @@ FongMi影视、TVBox配置文件。所有资源均来自于各路大神无私分
 
 （10）cat.json  cat源，资源来源于CatVodOpen仓库和tloook大佬，适配FongMi影视播放。
 
+（11）lf.json  极简配置，点播共包含5个路飞的js源和2个俊于的T4源。
+
 2. APP推荐:
 
 （1）FongMi版本  项目地址：https://github.com/FongMi/TV 支持直播多线路、支持自动换源、支持直播倍速，手机版支持投屏；

@@ -1,4 +1,6 @@
-﻿{"sites":[
+﻿{
+"lives":[{"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
+"sites":[
 {"key":"wogg","name":"影视 | 玩偶哥哥[cat]","type":3,"api":"./js/wogg_open.js","ext":"http://127.0.0.1:9978/file/tvfan/token.txt","timeout":30},
 {"key":"kunyu77","name":"影视 | 七七[cat]","type":3,"api":"./js/kunyu77_open.js"},
 {"key":"czzy","name":"影视 | 厂长[cat]","type":3,"api":"./js/czzy_open.js"},
@@ -18,4 +20,6 @@
 {"key":"drpy_js_dj0898_open","name":"音频 | 世纪DJ[cat]","type":3,"api":"./js/dj0898_open.js"},
 {"key":"kuqimv","name":"MV | 酷奇[cat]","type":3,"api":"./js/kuqimv_open.js"},
 {"key":"230ts","name":"听书 | 听书[cat]","type":3,"api":"./js/230ts_open.js"}
-]}
+],
+"rules":[{"name":"lz","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"ff","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"bf","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"hs","hosts":["huoshan.com"],"regex":["item_id="]},{"name":"dy","hosts":["douyin.com"],"regex":["is_play_url="]},{"name":"cl","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]}]
+}

@@ -258,10 +258,6 @@ playGroups.forEach(function(it){
 		LISTS.push(newd);
 	}
 	if (Object.keys(it["ali"]).length==1){
-		if (!haveMag && !haveDelay){
-			haveDelay = true;
-			LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
-		}
 		let d = [];
 		for(const key in it["ali"]){
 			if (it["ali"].hasOwnProperty(key)){
@@ -271,15 +267,15 @@ playGroups.forEach(function(it){
 				log('meijumi ali title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
 				log('meijumi ali burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 				d.push(title + '$' + burl);
+				if (!haveMag && !haveDelay){
+					haveDelay = true;
+					LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
+				}
 			}
 		}
 		LISTS.push(d);
 	}
 	if (Object.keys(it["quark"]).length==1){
-		if (!haveMag && !haveDelay){
-			haveDelay = true;
-			LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
-		}
 		let d = [];
 		for(const key in it["quark"]){
 			if (it["quark"].hasOwnProperty(key)){
@@ -289,6 +285,10 @@ playGroups.forEach(function(it){
 				log('meijumi quark title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
 				log('meijumi quark burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 				d.push(title + '$' + burl);
+				if (!haveMag && !haveDelay){
+					haveDelay = true;
+					LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
+				}
 			}
 		}
 		LISTS.push(d);

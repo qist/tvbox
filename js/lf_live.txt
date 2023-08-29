@@ -24,10 +24,6 @@ http://home.jundie.top:81/Cat/tv/live.txt
 https://ghproxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/radio.txt
 #范明明•电台
 https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u
-#YanG•斗鱼
-https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/yu.m3u
-#YanG•虎牙
-https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/ya.m3u
 #肥羊•斗鱼
 https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/douyuyqk.m3u
 #肥羊•虎牙

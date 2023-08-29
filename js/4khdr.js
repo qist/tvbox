@@ -37,7 +37,7 @@ var rule = {
 		tabs:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 TABS=[]
-let d = pdfa(html, 'table.t_table a');
+let d = pdfa(html, 'div.pcb table.t_table a');
 let tabsa = [];
 let tabsq = [];
 let tabsm = false;
@@ -80,7 +80,7 @@ log('4khdr TABS >>>>>>>>>>>>>>>>>>' + TABS);
 log(TABS);
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 LISTS = [];
-let d = pdfa(html, 'table.t_table a');
+let d = pdfa(html, 'div.pcb table.t_table a');
 let lista = [];
 let listq = [];
 let listm = [];
