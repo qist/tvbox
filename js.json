@@ -270,6 +270,9 @@
 ],
 "parses":[
 {"name":"Json聚合","type":3,"url":"Demo"},
+{"name": "🌐Ⓤ","type": 0,"url": "","header": {"User-Agent": "Mozilla/5.0"}},
+{"name": "轮询","type": 2,"url": "Sequence","header": {"User-Agent": "Mozilla/5.0"}},
+{"name": "并发","type": 2,"url": "Parallel","header": {"User-Agent": "Mozilla/5.0"}},
 {"name":"Web聚合","type":3,"url":"Web"},
 {"name":"虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","imgo","rx","ltnb","bilibili","1905","xigua"]}},
 {"name":"小新","type":1,"url":"http://xiaoxin.1080p.fun/home/api?type=ys&uid=91198&key=bhntuwyAJLMTUY1478&url="},
