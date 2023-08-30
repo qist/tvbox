@@ -178,14 +178,14 @@ playGroups.forEach(function (it) {
 			haveDelay = true;
 		}
 		if (aliCount === 1){
-			if (!haveMag && !haveDelay){
+			if (false && !haveMag && !haveDelay){
 				haveDelay = true;
 				TABS.push("選擇右側綫路");
 			}
 			TABS.push("阿里雲盤" + groupIndex);
 		}
 		if (quarkCount === 1){
-			if (!haveMag && !haveDelay){
+			if (false && !haveMag && !haveDelay){
 				haveDelay = true;
 				TABS.push("選擇右側綫路");
 			}
@@ -268,12 +268,12 @@ playGroups.forEach(function(it){
 		for(const key in it["ali"]){
 			if (it["ali"].hasOwnProperty(key)){
 				let title = it["ali"][key];
-				//let burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(key);
-				let burl = "push://" + key;
+				let burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(key);
+				//let burl = "push://" + key;
 				log('meijumi ali title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
 				log('meijumi ali burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 				d.push(title + '$' + burl);
-				if (!haveMag && !haveDelay){
+				if (false && !haveMag && !haveDelay){
 					haveDelay = true;
 					LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
 				}
@@ -286,12 +286,12 @@ playGroups.forEach(function(it){
 		for(const key in it["quark"]){
 			if (it["quark"].hasOwnProperty(key)){
 				let title = it["quark"][key];
-				//let burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&url=" + encodeURIComponent(key);
-				let burl = "push://" + key;
+				let burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&url=" + encodeURIComponent(key);
+				//let burl = "push://" + key;
 				log('meijumi quark title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
 				log('meijumi quark burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 				d.push(title + '$' + burl);
-				if (!haveMag && !haveDelay){
+				if (false && !haveMag && !haveDelay){
 					haveDelay = true;
 					LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
 				}
