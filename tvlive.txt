@@ -229,7 +229,7 @@ CCTV14,https://live.goodiptv.club/api/bestv.php?id=cctvsehd8m/8000000
 CCTV15,https://live.goodiptv.club/api/bestv.php?id=cctv15hd8m/8000000
 CCTV16,https://live.goodiptv.club/api/bestv.php?id=cctv16hd8m/8000000
 CCTV16-4K,https://live.goodiptv.club/api/bestv.php?id=cctv16hd4k/15000000
-CCTV16-4k,https://tv.iill.top/bestv/cctv16hd4k/15000000
+CCTV16-4K,https://tv.iill.top/bestv/cctv16hd4k/15000000
 CCTV-4K,https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
 CCTV-4K,https://tv.iill.top/bestv/cctv4k/15000000
 CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
