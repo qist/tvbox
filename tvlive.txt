@@ -229,9 +229,9 @@ CCTV14,https://live.goodiptv.club/api/bestv.php?id=cctvsehd8m/8000000
 CCTV15,https://live.goodiptv.club/api/bestv.php?id=cctv15hd8m/8000000
 CCTV16,https://live.goodiptv.club/api/bestv.php?id=cctv16hd8m/8000000
 CCTV16-4K,https://live.goodiptv.club/api/bestv.php?id=cctv16hd4k/15000000
-CCTV16-4K,https://tv.iill.top/bestv/cctv16hd4k/15000000
+CCTV16-4K,http://127.0.0.1:9978/proxy?do=yt&url=https://tv.iill.top/bestv/cctv16hd4k/15000000
 CCTV-4K,https://live.goodiptv.club/api/bestv.php?id=cctv4k/15000000
-CCTV-4K,https://tv.iill.top/bestv/cctv4k/15000000
+CCTV-4K,http://127.0.0.1:9978/proxy?do=yt&url=https://tv.iill.top/bestv/cctv4k/15000000
 CCTV17,https://live.goodiptv.club/api/bestv.php?id=cctv17hd8m/8000000
 CHC动作电影,http://113.62.253.22/live.aishang.ctlcdn.com/00000110240324_1/playlist.m3u8?CONTENTID=00000110240324_1&AUTHINFO=FABqh274XDn8fkurD5614t%2B1RvYajgx%2Ba3PxUJe1SMO4OjrtFitM6ZQbSJEFffaD35hOAhZdTXOrK0W8QvBRom%2BXaXZYzB%2FQfYjeYzGgKhP%2Fdo%2BXpr4quVxlkA%2BubKvbU1XwJFRgrbX%2BnTs60JauQUrav8kLj%2FPH8LxkDFpzvkq75UfeY%2FVNDZygRZLw4j%2BXtwhj%2FIuXf1hJAU0X%2BheT7g%3D%3D&USERTOKEN=eHKuwve%2F35NVIR5qsO5XsuB0O2BhR0KR
 CHC动作电影,http://bytedance.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f//index.m3u8
@@ -1112,13 +1112,13 @@ CCTV5-高清,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32
 翡翠台,http://r.jdshipin.com/n90gt
 翡翠台,http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=MA3A7166615971666159&ct=19226&tsum=abeff4c5d0d1ad10147a21ebc6cc5182
 翡翠台,http://r.jdshipin.com/62WM7
-翡翠台,https://yeslivetv.com/tvphp/tvb-jade.php
+翡翠台,http://127.0.0.1:9978/proxy?do=yt&url=https://yeslivetv.com/tvphp/tvb-jade.php
 翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://113.117.74.12:8081/hls/25/index.m3u8
 翡翠台,http://66.181.39.224/ml.php?id=jade_twn
 翡翠台,http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=MDAD1890217018902170&ct=19249&tsum=36346362d72a1e85802fa5d3eee3861c
 明珠台,http://113.117.74.12:8081/hls/26/index.m3u8
-明珠台,https://yeslivetv.com/tvphp/tvb-pearl.php
+明珠台,http://127.0.0.1:9978/proxy?do=yt&url=https://yeslivetv.com/tvphp/tvb-pearl.php
 明珠台,http://198.16.100.90:8278/pearl_twn/playlist.m3u8?tid=MC6C7041327570413275&ct=19226&tsum=681972baf66d69caf7cccc92a90e5aad
 TVB星河,http://113.117.74.12:8081/hls/135/index.m3u8
 星空卫视,http://113.117.74.12:8081/hls/87/index.m3u8
