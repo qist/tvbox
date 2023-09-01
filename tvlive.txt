@@ -1212,8 +1212,8 @@ CCTV5-高清,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32
 广东体育,http://fyld.eatuo.com:9901/tsfile/live/1012_1.m3u8
 
 港澳台综合,#genre#
-凤凰中文,http://115.231.143.224/playtv-live.ifeng.com/live/06OLEGEGM4G.flv
 凤凰中文,http://r.jdshipin.com/cCCzW
+凤凰中文,http://115.231.143.224/playtv-live.ifeng.com/live/06OLEGEGM4G.flv
 凤凰中文,http://playtimeshift-live.ifeng.com/timeshift/live/06OLEGEGM4G/timeshift.m3u8?txKbps=702&delay=1
 凤凰中文,http://hz752.live:63/vvs/hk.php?id=fhzw
 凤凰资讯,http://113.117.74.19:8081/hls/36/index.m3u8
@@ -1233,6 +1233,7 @@ CCTV5-高清,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32
 翡翠台,http://113.117.74.12:8081/hls/25/index.m3u8
 翡翠台,http://66.181.39.224/ml.php?id=jade_twn
 翡翠台,http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=MDAD1890217018902170&ct=19249&tsum=36346362d72a1e85802fa5d3eee3861c
+明珠台,http://r.jdshipin.com/ZQ4kN
 明珠台,http://113.117.74.12:8081/hls/26/index.m3u8
 明珠台,https://yeslivetv.com/tvphp/tvb-pearl.php
 明珠台,http://198.16.100.90:8278/pearl_twn/playlist.m3u8?tid=MC6C7041327570413275&ct=19226&tsum=681972baf66d69caf7cccc92a90e5aad
