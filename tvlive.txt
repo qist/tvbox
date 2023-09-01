@@ -1226,7 +1226,7 @@ CCTV5-高清,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32
 凤凰资讯,http://162.19.247.76:22222/live/fenghuangzhixun/index.m3u8
 凤凰香港,http://66.181.39.224/ml.php?id=hkphoenix_twn
 凤凰香港,http://113.117.74.12:8081/hls/38/index.m3u8
-凤凰电影,http://218.202.220.2:5000/nn_live.ts?id=NEWSASIA
+凤凰电影,mitv://generationnexxxt.com:19806/2df8c6787b0a4f08bee3dcccd49aef8b
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0 
 翡翠台,http://r.jdshipin.com/qClQf
