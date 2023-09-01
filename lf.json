@@ -5,6 +5,7 @@
 {"key":"lf_js_ikanbot","name":"点播 | lf_ikanbot","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_ikanbot_min.js"},
 {"key":"荐片","name":"点播 | 荐片[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_JP","searchable":1,"quickSearch":1,"filterable":1, "timeout":30},
 {"key":"csp_wogg_cli","name":"阿里 | 玩偶哥哥[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
+{"key":"小纸条_cli","name":"阿里 | 小纸条[T4]","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
 {"key":"lf_js_p2p","name":"磁力 | lf_p2p","type":3,"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","timeout":30},
 {"key":"lf_js_lf_live","name":"直播 | lf_live","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":0,"filterable":1,"ext":"./js/lf_live.txt"},
 {"key":"push_agent","name":"推送 | lf_push","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_pushagent_min.js","timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt"}

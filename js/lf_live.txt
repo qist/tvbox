@@ -7,7 +7,7 @@
 以/开头，存储卡的根目录
 
 #初秋语•综合
-https://ghproxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt
+../list.txt
 #YanG•综合
 https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 #范明明•综合
@@ -21,7 +21,7 @@ https://xhdwc.tk/tvlive.txt
 #俊于•综合
 http://home.jundie.top:81/Cat/tv/live.txt
 #初秋语•电台
-https://ghproxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/radio.txt
+../radio.txt
 #范明明•电台
 https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/radio/m3u/index.m3u
 #肥羊•斗鱼
@@ -31,7 +31,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/huyay
 #肥羊•YY
 https://ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/yylunbo.m3u
 #初秋语•哔哩
-https://ghproxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/bili.m3u
+../bili.m3u
 #16万MV
 https://ghproxy.com/https://raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt
 #YuanHsing•油管

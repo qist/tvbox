@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;e202ef069c4742cadfd707f4b144ed2a",
+  "spider": "./jar/custom_spider.jar;md5;0cd8dd32e89511058fd8e6bceb586a28",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "key": "bili_open",
-      "name": "哔哩(open)",
+      "name": "哔哩猫",
       "type": 3,
       "api": "./js/bili_open.js",
       "searchable": 1,
@@ -75,6 +75,15 @@
         "token": "http://127.0.0.1:9978/file/tvfan/token.txt",
         "filter": "./json/wogg.json"
       }
+    },
+    {
+      "key": "紙條",
+      "name": "紙條",
+      "type": 4,
+      "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "44160c32d4ca40c6b7cebf66ce40e7e1"
     },
     {
       "key": "星星",
@@ -167,6 +176,15 @@
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
+      "key": "易搜",
+      "name": "易搜",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+    },
+    {
       "key": "雲搜",
       "name": "雲搜",
       "type": 3,
@@ -185,8 +203,8 @@
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
-      "key": "小紙條",
-      "name": "小紙條",
+      "key": "紙條搜",
+      "name": "紙條搜",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
