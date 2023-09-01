@@ -1225,11 +1225,11 @@ CCTV5-高清,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32
 凤凰电影,http://218.202.220.2:5000/nn_live.ts?id=NEWSASIA
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0 
+翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://r.jdshipin.com/n90gt
 翡翠台,http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=MA3A7166615971666159&ct=19226&tsum=abeff4c5d0d1ad10147a21ebc6cc5182
 翡翠台,http://r.jdshipin.com/62WM7
 翡翠台,https://yeslivetv.com/tvphp/tvb-jade.php
-翡翠台,http://r.jdshipin.com/qClQf
 翡翠台,http://113.117.74.12:8081/hls/25/index.m3u8
 翡翠台,http://66.181.39.224/ml.php?id=jade_twn
 翡翠台,http://198.16.100.90:8278/jade_twn/playlist.m3u8?tid=MDAD1890217018902170&ct=19249&tsum=36346362d72a1e85802fa5d3eee3861c
