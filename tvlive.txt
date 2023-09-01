@@ -360,11 +360,11 @@ CGTN阿语,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 天津卫视,http://221.213.43.82:8888/newlive/live/hls/42/live.m3u8
 天津卫视,http://111.59.63.32:9901/tsfile/live/1047_1.m3u8
 天津卫视,http://125.210.152.19:9120/live/hzgq-tjwsgq-h264.m3u8
+重庆卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226680/1.m3u8
 重庆卫视,http://61.160.152.68/live.aishang.ctlcdn.com/00000110240397_1/encoder/0/playlist.m3u8?CONTENTID=00000110240397_1&AUTHINFO=FABqh274XDn8fkurD5614vXukv%2Bllu6MCULXDoxJ6upZMyB3BTGL8Fz1cBrzuGpUOEVg8724ObgLgS2tj%2FSq8xWZ1p4rvSaCId2u7KLjn%2F46Kf00Xa0UUCbNAV9EWdHyJMhivxx1S8fcvB8Encq%2Br2%2FNnfOdizLLGdg97cAjQVBrJ5ycvSCIUdxWiGJJfFI3hgreSH2tPUplkub%2BeFttIQ%3D%3D&USERTOKEN=OcdSKDHIYJi7z1i4zpgoeOB0O2BhR0KR
 重庆卫视,http://39.134.136.151:6610/000000001000/1000000002000018937/index.m3u8?channel-id=ystenlive&Contentid=1000000002000018937&livemode=1&stbId=00
 重庆卫视,https://live.goodiptv.club/api/bestv.php?id=cqws8m/8000000
 重庆卫视,http://221.213.43.82:8888/newlive/live/hls/31/live.m3u8
-重庆卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226680/1.m3u8
 重庆卫视,http://125.210.152.19:9120/live/hzgq-cqwsgq-h264.m3u8
 广东卫视,http://61.160.152.68/live.aishang.ctlcdn.com/00000110240137_1/encoder/0/playlist.m3u8?CONTENTID=00000110240137_1&AUTHINFO=FABqh274XDn8fkurD5614vXukv%2Bllu6MCULXDoxJ6upZMyB3BTGL8Fz1cBrzuGpUOEVg8724ObgLgS2tj%2FSq8xWZ1p4rvSaCId2u7KLjn%2F46Kf00Xa0UUCbNAV9EWdHyJMhivxx1S8fcvB8Encq%2Br2%2FNnfOdizLLGdg97cAjQVBrJ5ycvSCIUdxWiGJJfFI3hgreSH2tPUplkub%2BeFttIQ%3D%3D&USERTOKEN=OcdSKDHIYJi7z1i4zpgoeOB0O2BhR0KR
 广东卫视,https://live.goodiptv.club/api/bestv.php?id=gdwshd8m/8000000
@@ -377,6 +377,7 @@ CGTN阿语,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 东南卫视,http://api3.52tb.xyz/info?id=29&token=20230227aesvnb
 东南卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226670/1.m3u8?
 东南卫视,http://61.160.152.68/live.aishang.ctlcdn.com/00000110240588_1/encoder/0/playlist.m3u8?CONTENTID=00000110240588_1&AUTHINFO=FABqh274XDn8fkurD5614vXukv%2Bllu6MCULXDoxJ6upZMyB3BTGL8Fz1cBrzuGpUOEVg8724ObgLgS2tj%2FSq8xWZ1p4rvSaCId2u7KLjn%2F46Kf00Xa0UUCbNAV9EWdHyJMhivxx1S8fcvB8Encq%2Br2%2FNnfOdizLLGdg97cAjQVBrJ5ycvSCIUdxWiGJJfFI3hgreSH2tPUplkub%2BeFttIQ%3D%3D&USERTOKEN=OcdSKDHIYJi7z1i4zpgoeOB0O2BhR0KR
+大湾区卫视,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226218/index.m3u8?
 大湾区卫视,http://39.134.136.151:6610/000000001000/1000000002000011619/index.m3u8?channel-id=ystenlive&Contentid=1000000002000011619&livemode=1&stbId=00
 湖北卫视,http://39.134.136.151:6610/000000001000/1000000001000010355/index.m3u8?channel-id=ystenlive&Contentid=1000000001000010355&livemode=1&stbId=00
 湖北卫视,http://61.160.152.68/live.aishang.ctlcdn.com/00000110240135_1/encoder/0/playlist.m3u8?CONTENTID=00000110240135_1&AUTHINFO=FABqh274XDn8fkurD5614vXukv%2Bllu6MCULXDoxJ6upZMyB3BTGL8Fz1cBrzuGpUOEVg8724ObgLgS2tj%2FSq8xWZ1p4rvSaCId2u7KLjn%2F46Kf00Xa0UUCbNAV9EWdHyJMhivxx1S8fcvB8Encq%2Br2%2FNnfOdizLLGdg97cAjQVBrJ5ycvSCIUdxWiGJJfFI3hgreSH2tPUplkub%2BeFttIQ%3D%3D&USERTOKEN=OcdSKDHIYJi7z1i4zpgoeOB0O2BhR0KR
@@ -481,10 +482,10 @@ CGTN阿语,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 广西卫视,https://live.goodiptv.club/api/bestv.php?id=gxwshd8m/8000000
 广西卫视,http://221.213.43.82:8888/newlive/live/hls/26/live.m3u8
 广西卫视,http://111.59.63.32:9901/tsfile/live/1003_1.m3u8
+贵州卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226672/1.m3u8
 贵州卫视,http://39.134.136.151:6610/000000001000/1000000002000003169/index.m3u8?channel-id=ystenlive&Contentid=1000000002000003169&livemode=1&stbId=00
 贵州卫视,http://61.160.152.68/live.aishang.ctlcdn.com/00000110240318_1/encoder/0/playlist.m3u8?CONTENTID=00000110240318_1&AUTHINFO=FABqh274XDn8fkurD5614vXukv%2Bllu6MCULXDoxJ6upZMyB3BTGL8Fz1cBrzuGpUOEVg8724ObgLgS2tj%2FSq8xWZ1p4rvSaCId2u7KLjn%2F46Kf00Xa0UUCbNAV9EWdHyJMhivxx1S8fcvB8Encq%2Br2%2FNnfOdizLLGdg97cAjQVBrJ5ycvSCIUdxWiGJJfFI3hgreSH2tPUplkub%2BeFttIQ%3D%3D&USERTOKEN=OcdSKDHIYJi7z1i4zpgoeOB0O2BhR0KR
 贵州卫视,https://live.goodiptv.club/api/bestv.php?id=gzwshd8m/8000000
-贵州卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226672/1.m3u8
 贵州卫视,http://111.59.63.32:9901/tsfile/live/1036_1.m3u8
 贵州卫视,http://221.213.43.82:8888/newlive/live/hls/29/live.m3u8
 甘肃卫视,http://39.134.136.151:6610/000000001000/1000000002000017827/index.m3u8?channel-id=ystenlive&Contentid=1000000002000017827&livemode=1&stbId=00
@@ -762,7 +763,7 @@ CGTN阿语,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 贵州卫视,http://hz752.live:63/vvs/bfgd.php?id=101
 大湾区卫视,http://hz752.live:63/vvs/gdtv.php?id=nfws
 大湾区卫视,http://hz752.live:63/vvs/migu.php?id=dwqws
-大湾区卫视,http://39.134.24.161/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226218/index.m3u8?
+
 大湾区卫视,http://hz752.live:63/vvs/chud.php?pk=1197
 澳亚卫视,https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
 青海卫视,http://hz752.live:63/vvs/astv.php?id=qhws
