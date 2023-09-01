@@ -627,6 +627,7 @@ CGTN阿语,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 天津卫视,http://hz752.live:63/vvs/yst.php?id=tianjinstv
 天津卫视,http://59.49.41.39/live.aishang.ctlcdn.com/00000110240136_1/playlist.m3u8?CONTENTID=00000110240136_1
 天津卫视,http://hz752.live:63/vvs/bfgd.php?id=084
+凤凰中文,http://kkwk1122.top/fh.php?id=fhzw
 凤凰中文,http://115.231.143.224/playtv-live.ifeng.com/live/06OLEGEGM4G.flv
 凤凰中文,http://r.jdshipin.com/cCCzW
 凤凰中文,http://playtimeshift-live.ifeng.com/timeshift/live/06OLEGEGM4G/timeshift.m3u8?txKbps=702&delay=1
