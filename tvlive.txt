@@ -1212,6 +1212,9 @@ CCTV5-高清,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32
 广东体育,http://fyld.eatuo.com:9901/tsfile/live/1012_1.m3u8
 
 港澳台综合,#genre#
+凤凰资讯,http://kkwk1122.top/fh.php?id=fhzx
+凤凰中文,http://kkwk1122.top/fh.php?id=fhzw
+凤凰香港,http://kkwk1122.top/fh.php?id=fhhk
 凤凰中文,http://r.jdshipin.com/cCCzW
 凤凰中文,http://115.231.143.224/playtv-live.ifeng.com/live/06OLEGEGM4G.flv
 凤凰中文,http://playtimeshift-live.ifeng.com/timeshift/live/06OLEGEGM4G/timeshift.m3u8?txKbps=702&delay=1
@@ -1271,9 +1274,6 @@ VIU6,http://198.16.100.90:8278/viusix_twn/playlist.m3u8?tid=MF0F4217630642176306
 有线,http://185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=153396&extension=ts&play_token=ICdnbP1fWe
 有线新,http://61.10.2.140/live_freedirect/freehd209_h.live/chunklist_w135209556.m3u8
 香港32,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
-凤凰资讯台,http://kkwk1122.top/fh.php?id=fhzx
-凤凰中文台,http://kkwk1122.top/fh.php?id=fhzw
-凤凰香港台,http://kkwk1122.top/fh.php?id=fhhk
 澳門蓮花,https://p.ggiptv.com/v/macaulotustv.php
 澳門蓮花,http://anren.live/HK/BiIOU11uLA.m3u8
 澳門蓮花,http://nettvpro.live/hls/lotustv.php?zgangd
