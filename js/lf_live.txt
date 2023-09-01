@@ -16,6 +16,8 @@ https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m
 https://ghproxy.com/https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 #Yoursmile•综合
 https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt
+#饭太硬•综合
+https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt
 #Ray•综合
 https://xhdwc.tk/tvlive.txt
 #俊于•综合

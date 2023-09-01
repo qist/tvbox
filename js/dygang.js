@@ -1,36 +1,36 @@
 var rule = {
-	title: '电影港[磁]',
-	编码: 'gb2312',
-	搜索编码: 'gb2312',
-	host: 'https://www.dygang.tv',
-	homeUrl: '/',
+	title:'电影港[磁]',
+	编码:'gb2312',
+	搜索编码:'gb2312',
+	host:'https://www.dygang.tv',
+	homeUrl:'/',
 	url: '/fyclass/index_fypage.htm?',
-	filter_url: '{{fl.class}}',
-	filter: {
+	filter_url:'{{fl.class}}',
+	filter:{
 	},
 	searchUrl: '/e/search/index123.php#tempid=1&tbname=article&keyborad=**&show=title%2Csmalltext&Submit=%CB%D1%CB%F7;post',
-	searchable: 2,
-	quickSearch: 0,
-	filterable: 0,
-	headers: {
+	searchable:2,
+	quickSearch:0,
+	filterable:0,
+	headers:{
 		'User-Agent': 'MOBILE_UA',
 		'Referer': 'https://www.dygang.tv/'
 	},
-	timeout: 5000,
-	class_name: '最新电影&经典高清&国配电影&经典港片&国剧&日韩剧&美剧&综艺&动漫&纪录片&高清原盘&4K高清区&3D电影&电影专题',
-	class_url: 'ys&bd&gy&gp&dsj&dsj1&yx&zy&dmq&jilupian&1080p&4K&3d&dyzt',
-	play_parse: true,
-	play_json: [{
-		re: '*',
-		json: {
-			parse: 0,
-			jx: 0
+	timeout:5000,
+	class_name:'最新电影&经典高清&国配电影&经典港片&国剧&日韩剧&美剧&综艺&动漫&纪录片&高清原盘&4K高清区&3D电影&电影专题',
+	class_url:'ys&bd&gy&gp&dsj&dsj1&yx&zy&dmq&jilupian&1080p&4K&3d&dyzt',
+	play_parse:true,
+	play_json:[{
+		re:'*',
+		json:{
+			parse:0,
+			jx:0
 		}
 	}],
-	lazy: '',
-	limit: 6,
-	推荐: 'div#tl tr:has(>td>table.border1>tbody>tr>td>a>img);table.border1 img&&alt;table.border1 img&&src;table:eq(2)&&Text;a&&href',
-	一级: `js:
+	lazy:'',
+	limit:6,
+	推荐:'div#tl tr:has(>td>table.border1>tbody>tr>td>a>img);table.border1 img&&alt;table.border1 img&&src;table:eq(2)&&Text;a&&href',
+	一级:`js:
 		pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 		let d = [];
 		let turl = (MY_PAGE === 1)? '/' : '/index_'+ MY_PAGE + '.htm';
@@ -50,12 +50,12 @@ var rule = {
 		})
 		setResult(d);
 	`,
-	二级: {
-		title: "div.title a&&Text",
-		img: "#dede_content img&&src",
-		desc: "#dede_content&&Text",
-		content: "#dede_content&&Text",
-		tabs: `js:
+	二级:{
+		title:"div.title a&&Text",
+		img:"#dede_content img&&src",
+		desc:"#dede_content&&Text",
+		content:"#dede_content&&Text",
+		tabs:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 TABS=[]
 let d = pdfa(html, '#dede_content table tbody tr a');
@@ -107,7 +107,7 @@ tabm3u8.forEach(function(it){
 });
 log('dygang TABS >>>>>>>>>>>>>>>>>>' + TABS);
 `,
-		lists: `js:
+		lists:`js:
 log(TABS);
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 LISTS = [];
@@ -212,7 +212,7 @@ for ( const key in listm3u8 ){
 `,
 
 	},
-	搜索: `js:
+	搜索:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 let params = 'tempid=1&tbname=article&keyboard=' + KEY + '&show=title%2Csmalltext&Submit=%CB%D1%CB%F7';
 let _fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));

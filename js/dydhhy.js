@@ -1,39 +1,39 @@
 var rule = {
-	title: 'dydhhy',
-	host: 'http://www.dydhhy.com',
-	homeUrl: '/',
-	url: '/tag/fyclass/page/fypage?',
-	filter_url: '{{fl.class}}',
-	filter: {},
-	searchUrl: '/?s=**',
-	searchable: 2,
-	quickSearch: 1,
-	filterable: 0,
-	headers: {
-		'User-Agent': 'MOBILE_UA',
-		'Cookie': ''
-	},
-	timeout: 5000,
-	class_name: '电视剧&电影&美剧&韩剧&日剧&英剧&2023&2022&2021',
-	class_url: 'tv&movie&美剧&韩剧&日剧&英剧&2023&2022&2021',
-	play_parse: true,
-	play_json: [{
-		re: '*',
-		json: {
-			parse: 0,
-			jx: 0
-		}
-	}],
-	lazy: '',
-	limit: 6,
-	推荐: 'div.clear:gt(1):has(img);.entry-title&&Text;img&&src;;a&&href',
-	一级: 'div.clear:gt(1):has(img);.entry-title&&Text;img&&src;;a&&href',
-	二级: {
-		title: ".single-excerpt&&Text",
-		img: "img&&src",
-		desc: ".entry-date&&Text",
-		content: "p&&Text",
-		tabs: `js: pdfh = jsp.pdfh;
+    title: 'dydhhy',
+    host: 'http://www.dydhhy.com',
+    homeUrl: '/',
+    url: '/tag/fyclass/page/fypage?',
+    filter_url: '{{fl.class}}',
+    filter: {},
+    searchUrl: '/?s=**',
+    searchable: 2,
+    quickSearch: 1,
+    filterable: 0,
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+        'Cookie': ''
+    },
+    timeout: 5000,
+    class_name: '电视剧&电影&美剧&韩剧&日剧&英剧&2023&2022&2021',
+    class_url: 'tv&movie&美剧&韩剧&日剧&英剧&2023&2022&2021',
+    play_parse: true,
+    play_json: [{
+        re: '*',
+        json: {
+            parse: 0,
+            jx: 0
+        }
+    }],
+    lazy: '',
+    limit: 6,
+    推荐: 'div.clear:gt(1):has(img);.entry-title&&Text;img&&src;;a&&href',
+    一级: 'div.clear:gt(1):has(img);.entry-title&&Text;img&&src;;a&&href',
+    二级: {
+        title: ".single-excerpt&&Text",
+        img: "img&&src",
+        desc: ".entry-date&&Text",
+        content: "p&&Text",
+        tabs: `js: pdfh = jsp.pdfh;
         pdfa = jsp.pdfa;
         pd = jsp.pd;
 TABS=[]
@@ -60,7 +60,7 @@ if (tabsm === true){
 if (tabse === true){
 	TABS.push("電驢");
 }
-if (tabsa.length + tabsq.length > 1){
+if (false && tabsa.length + tabsq.length > 1){
 	TABS.push("選擇右側綫路");
 }
 let tmpIndex;
@@ -75,7 +75,7 @@ tabsq.forEach(function(it){
 	tmpIndex = tmpIndex + 1;
 });
 log('xzys TABS >>>>>>>>>>>>>>>>>>' + TABS);`,
-		lists: `js: log(TABS);
+lists: `js: log(TABS);
 pdfh = jsp.pdfh;
 pdfa = jsp.pdfa;
 pd = jsp.pd;
@@ -92,7 +92,7 @@ d.forEach(function(it){
 	log('dygang burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 	let loopresult = title + '$' + burl;
 	if (burl.startsWith("https://www.aliyundrive.com/s/")){
-		if (false){
+		if (true){
 		if (TABS.length==1){
 			burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&confirm=0&url=" + encodeURIComponent(burl);
 		}else{
@@ -104,7 +104,7 @@ d.forEach(function(it){
 		loopresult = title + '$' + burl;
 		lista.push(loopresult);
 	}else if (burl.startsWith("https://pan.quark.cn/s/")){
-		if (false){
+		if (true){
 		if (TABS.length==1){
 			burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&confirm=0&url=" + encodeURIComponent(burl);
 		}else{
@@ -127,7 +127,7 @@ if (listm.length>0){
 if (liste.length>0){
 	LISTS.push(liste);
 }
-if (lista.length + listq.length > 1){
+if (false && lista.length + listq.length > 1){
 	LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
 }
 lista.forEach(function(it){
@@ -138,5 +138,5 @@ listq.forEach(function(it){
 
 });`,
 
-	}, 搜索: 'div.clear:gt(0):has(img);img&&alt;img&&data-src;;a&&href',
+}, 搜索: 'div.clear:gt(0):has(img);img&&alt;img&&data-src;;a&&href',
 }
