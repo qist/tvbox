@@ -1238,7 +1238,6 @@ CCTV5-高清,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/32
 明珠台,https://yeslivetv.com/tvphp/tvb-pearl.php
 明珠台,http://198.16.100.90:8278/pearl_twn/playlist.m3u8?tid=MC6C7041327570413275&ct=19226&tsum=681972baf66d69caf7cccc92a90e5aad
 TVB星河,http://r.jdshipin.com/sXuuD
-TVB星河,https://us.dispatch.ulivetv.net/v/live/cl7c95iovqo0.m3u8?stream_id=cl7c95iovqo0&token=c0vzuc7wqkzk
 TVB星河,http://113.117.74.12:8081/hls/135/index.m3u8
 星空卫视,http://113.117.74.12:8081/hls/87/index.m3u8
 功夫台,https://cn-hbyc2-dx-live-01.bilivideo.com/live-bvc/545768/live_179302204_68184269.m3u8
