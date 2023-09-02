@@ -21,7 +21,6 @@
 {"key":"drpy_js_ikanbot2","name":"影视 | 爱看机器人2[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot2.js"},
 {"key":"drpy_js_ikanbot3","name":"影视 | 爱看机器人3[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
 {"key":"drpy_js_荐片","name":"影视 | 荐片[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js", "timeout":30},
-{"key":"迷你库","name":"影视 | 迷你库[jar]","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 {"key":"drpy_js_酷云77","name":"影视 | 酷云77[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/酷云77.js"},
 {"key":"drpy_js_快看","name":"影视 | 快看[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/快看.js"},
 {"key":"drpy_js_爱看","name":"影视 | 爱看[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱看.js"},
@@ -39,6 +38,7 @@
 {"key":"drpy_js_双十电影","name":"影视 | 双十电影[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/双十电影.js"},
 {"key":"drpy_js_蓝光影院","name":"影视 | 蓝光影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蓝光影院.js"},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
+{"key":"drpy_js_迷你库[V2]","name":"影视 | 迷你库[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/迷你库[V2].js"},
 {"key":"drpy_js_在线之家","name":"影视 | 在线之家[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/在线之家.js"},
 
 {"key":"drpy_js_热播库","name":"影视 | 热播库[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/热播库.js"},
@@ -92,10 +92,6 @@
 {"key":"drpy_js_美剧迷","name":"磁力 | 美剧迷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/meijumi.js", "quickSearch":1, "changeable":1, "timeout":30},
 {"key":"drpy_js_dydhhy","name":"影视 | dydhhy[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/dydhhy.js", "quickSearch":1, "changeable":1, "timeout":30},
 {"key":"drpy_js_yyets","name":"影视 | 人人影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/yyets.js", "quickSearch":1, "changeable":1, "timeout":30},
-{"key":"drpy_js_yyetsp","name":"影视 | 人人影视p[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/yyetsp.js", "quickSearch":1, "changeable":1, "timeout":30},
-{"key":"drpy_js_极影网P","name":"磁力 | 极影网P[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/jiyingwp.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
-{"key":"drpy_js_磁力熊p","name":"磁力 | 磁力熊p[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiongp.js","searchable":0,"quickSearch":0,"changeable":1, "timeout":30},
-{"key":"drpy_js_美剧迷p","name":"磁力 | 美剧迷p[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/meijumip.js", "quickSearch":1, "changeable":1, "timeout":30},
 {"key":"drpy_js_kkpans","name":"夸克 | kk盘[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/kkpans.js", "quickSearch":1, "changeable":1, "timeout":30},
 {"key":"drpy_js_校长影视","name":"夸克 | 校长影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/xzys.js", "quickSearch":1, "changeable":1, "timeout":30},
 {"key":"drpy_js_愛盤搜","name":"夸克 | 爱盘搜[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aipanso.js", "quickSearch":1, "changeable":1, "timeout":30},
@@ -270,6 +266,7 @@
 {"key":"drpy_js_欧乐影院[飞]","name":"起飞 | 欧乐影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/欧乐影院[飞].js"},
 {"key":"drpy_js_唐人街影视[飞]","name":"起飞 | 唐人街影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/唐人街影视[飞].js"},
 {"key":"drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
+{"key":"迷你库","name":"影视 | 迷你库[jar]","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
 
 {"key":"bb","name":"配置接口完全免费","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
 {"key":"cc","name":"请勿相信视频中任何广告","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"}
@@ -294,7 +291,7 @@
     {"name":"盘古","url":"https://www.pangujiexi.cc/jiexi.php?url=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}},"header":{"User-Agent":"Mozilla/5.0"}},
     {"name":"夜幕","type":0,"url":"https://www.yemu.xyz/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
     {"name":"麒麟","type":0,"url":"https://www.cygqw.com/jiexi/jiekou-2/?url="},
-    {"name":"zui","type":0,"url":"https://jx.zui.cm/?url=","ext":{"flag":["ltnb"]}},
+    {"name":"zui","type":0,"url":"https://jx.zui.cm/?url="},
     {"name":"1717云","url":"https://www.1717yun.com/jx/ty.php?url=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}},"header":{"User-Agent":"Mozilla/5.0"}},
     {"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="}
 ],
