@@ -7,6 +7,7 @@
 {"key": "csp_WoGG","name": "👽玩偶哥哥┃4K","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/tvbox.txt","ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/"},
 {"key":"drpy_js_厂长资源","name":"影视 | 厂长资源[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/厂长资源.js"},
 {"key":"drpy_js_酷云77","name":"影视 | 酷云77[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/酷云77.js"},
+{"key":"zxzj","name":"影视 | 在线之家[直连]","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/tvbox.txt","ext":"https://www.zxzj.pro/"},
 {"key": "新6V","name": "🧲新6V磁力┃慎用","type": 3,"api": "csp_SixV","searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/tvbox.txt","ext": "http://www.xb6v.com/"},
 {"key": "哈喽","name": "影视 | 迷你库[app]","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"changeable": 1,"jar":"./jar/tvbox.txt","ext": "http://www.miniku.cc/xgapp.php/v1/"},
 {"key": "贱贱","name": "影视 | 贱贱[p2p]","type": 3,"searchable": 1,"quickSearch": 1,"changeable": 1,"playerType": "1","jar":"./jar/tvbox.txt","api": "./lib/drpy1.min.js","ext": "./js/jp.js"},
