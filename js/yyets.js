@@ -13,7 +13,8 @@ var rule = {
 	headers:{
 		'User-Agent': PC_UA,
 		'Accept': '*/*',
-		'Referer': 'https://yyets.click/'
+		'Referer': 'https://yyets.click/',
+         	'Cookie':'http://127.0.0.1:9978/file/tvfan/yyets.txt',
 	},
 	timeout:5000,
 	class_name:'',
@@ -38,8 +39,18 @@ VOD.vod_content = MY_URL;
 VOD.vod_play_url = "雲盤$" + detailUrl;
 `,
 	搜索:`js:
-let new_html=request(rule.homeUrl + 'api/resource?keyword=' + encodeURIComponent(KEY) + '&type=default');
-log("yyets search result>>>>>>>>>>>>>>>" + new_html);
+pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+if (rule_fetch_params.headers.Cookie.startsWith("http")){
+	rule_fetch_params.headers.Cookie=fetch(rule_fetch_params.headers.Cookie);
+	let cookie = rule_fetch_params.headers.Cookie;
+	setItem(RULE_CK, cookie);
+};
+log('yyets search cookie>>>>>>>>>>>>>>>' + rule_fetch_params.headers.Cookie);
+let _fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
+_fetch_params.headers.Referer = 'http://yyets.click/search?keyword=' + encodeURIComponent(KEY) + '&type=default';
+log('yyets search params>>>>>>>>>>>>>>>' + JSON.stringify(_fetch_params));
+let new_html=request(rule.homeUrl + 'api/resource?keyword=' + encodeURIComponent(KEY) + '&type=default', _fetch_params);
+//log("yyets search result>>>>>>>>>>>>>>>" + new_html);
 let json=JSON.parse(new_html);
 let d=[];
 for(const it in json.comment){

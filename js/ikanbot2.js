@@ -18,7 +18,11 @@ VOD.vod_name = pdfh(html1, "h2&&Text");
 	VOD.vod_director = "";
 	VOD.vod_content = "";
 	log(VOD);
-	input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2";
+	var v_tks = '';
+	let script = pdfa(html1,'script').find(it=>it.includes('v_tks+=')).replace(/<script>|<\\/script>/g,'');
+    eval(script);
+	input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2"+"&token="+v_tks;
+	// input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2";
 	let html = request(input, {
         headers: {
 			'User-Agent':'PC_UA',

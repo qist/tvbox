@@ -32,7 +32,6 @@ var rule = {
 	lazy:'',
 	limit:6,
 	推荐:'',
-	一级:'',
 	一级:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 let d = [];

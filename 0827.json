@@ -77,15 +77,6 @@
       }
     },
     {
-      "key": "紙條",
-      "name": "紙條",
-      "type": 4,
-      "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "44160c32d4ca40c6b7cebf66ce40e7e1"
-    },
-    {
       "key": "星星",
       "name": "星星",
       "type": 3,

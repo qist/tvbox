@@ -6,8 +6,8 @@ var rule = {
 	title:'LIBVIO',
 	模板:'首图2',
 	// host:'https://tv.libvio.cc',
-	host:'https://libvio.app',
-	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"li:eq(0)&&a:eq(0)&&href");print(src);HOST=src',
+	host:'https://tv.libvio.cc',
+	//hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"li:eq(0)&&a:eq(0)&&href");print(src);HOST=src',
 	// url:'/type/fyclass-fypage.html',
 	url:'/show/fyclassfyfilter.html',
 	// url:'/show_fyclassfyfilter.html',
@@ -26,23 +26,109 @@ var rule = {
 	},
 	class_parse:'.stui-header__menu li:gt(0):lt(7);a&&Text;a&&href;/(\\d+).html',
 	// class_parse:'.stui-header__menu li;a&&Text;a&&href;/.*_(\\d+).html',
-	tab_exclude:'夸克网盘|百度云盘',
+	tab_exclude: '百度',
 	pagecount:{"27":1},
-	lazy:`js: var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+	二级: {
+		"title": ".stui-content__detail .title&&Text;.stui-content__detail p:eq(-2)&&Text",
+		"img": ".stui-content__thumb .lazyload&&data-original",
+		"desc": ".stui-content__detail p:eq(0)&&Text;.stui-content__detail p:eq(1)&&Text;.stui-content__detail p:eq(2)&&Text",
+		"content": ".detail&&Text",
+		"tabs": `js:
+pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+TABS=[];
+let tabsq=[];
+let tabsm3u8=[];
+let d = pdfa(html, 'div.stui-vodlist__head');
+d.forEach(function(it) {
+	let name = pdfh(it, 'h3&&Text');
+	if (!/(猜你|喜欢|剧情|热播)/.test(name)){
+		log("libvio tabs name>>>>>>>>>>>>>>>" + name);
+		if (name.includes("夸克")){
+			tabsq.push("夸克雲盤");
+		}else if (name.includes("阿里")){
+			tabsq.push("阿里雲盤");
+		}else{
+			tabsm3u8.push(name);
+		}
+	}
+});
+if (tabsq.length==1){
+	TABS=TABS.concat(tabsq);
+}else{
+	let tmpIndex=1;
+	tabsq.forEach(function(it){
+		TABS.push(it+tmpIndex);
+		tmpIndex++;
+	});
+}
+TABS=TABS.concat(tabsm3u8);
+log('libvio TABS >>>>>>>>>>>>>>>>>>' + TABS);
+`,
+		"lists":`js:
+pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
+LISTS = [];
+let listq=[];
+let listm3u8=[];
+let d = pdfa(html, 'div.stui-vodlist__head');
+d.forEach(function(it){
+	let name = pdfh(it, 'h3&&Text');
+	if (!/(猜你|喜欢|剧情|热播)/.test(name)){
+		log("libvio tabs name>>>>>>>>>>>>>>>" + name);
+		let durl = pdfa(it, 'ul li');
+		let dd = [];
+		durl.forEach(function(it1){
+			let dhref = pd(it1, 'a&&href', HOST);
+			let dname = pdfh(it1, 'a&&Text');
+			dd.push(dname + "$" + dhref);
+		});
+		if (/(夸克|阿里)/.test(name)){
+			listq.push(dd);
+		}else{
+			listm3u8.push(dd);
+		}
+	}
+});
+LISTS=LISTS.concat(listq);
+LISTS=LISTS.concat(listm3u8);
+`,
+	},
+	lazy:`js: 
+log("libvio lazy player input>>>>>>>>>>>>"+input);
+var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+log("libvio lazy player json>>>>>>>>>>>>"+JSON.stringify(html));
 var url = html.url;
 var from = html.from;
 var next = html.link_next;
 var id = html.id;
 var nid = html.nid;
-var paurl = request("https://libvio.cc/static/player/" + from + ".js").match(/ src="(.*?)'/)[1];
-if (/https/.test(paurl)) {
-	var purl = paurl + url + "&next=" + next + "&id=" + id + "&nid=" + nid;
+if (/(www.aliyundrive.com|pan.quark.cn)/.test(url)){
+	let confirm = "";
+	if (TABS.length==1){
+		confirm="&confirm=0";
+	}
+	let type="ali";
+	if (url.includes("www.aliyundrive.com")){
+		type = "ali";
+	}else if (url.includes("pan.quark.cn")){
+		type = "quark";
+	}
 	input = {
 		jx: 0,
-		url: request(purl).match(/var .* = '(.*?)'/)[1],
+		url: 'http://127.0.0.1:9978/proxy?do=' + type +'&type=push' + confirm + '&url=' + encodeURIComponent(url),
 		parse: 0
 	}
-}`,
+}else{
+	var paurl = request("https://libvio.cc/static/player/" + from + ".js").match(/ src="(.*?)'/)[1];
+	if (/https/.test(paurl)) {
+		var purl = paurl + url + "&next=" + next + "&id=" + id + "&nid=" + nid;
+		input = {
+			jx: 0,
+			url: request(purl).match(/var .* = '(.*?)'/)[1],
+			parse: 0
+		}
+	}
+}
+`,
 	searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
 	detailUrl:'/detail/fyid.html', //非必填,二级详情拼接链接
 	// detailUrl:'/detail_fyid.html', //非必填,二级详情拼接链接
