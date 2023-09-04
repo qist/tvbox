@@ -1,5 +1,5 @@
 {
-"spider":"./jar/tvbox.txt;md5;c80207edebbe5019a688fd2eb653e005",
+"spider":"./jar/fty.jar;md5;4d1c769684cc9b85f8adf54f8b43abb6",
 "lives":[{"name":"live","type":0,"url":"./tvboxtv.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://tool.weetai.cn/api",
 "sites":[
@@ -17,7 +17,7 @@
 {"key": "AppMr","name": "👻明明┃App","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key": "YQKAPP","name": "🎉一起┃App","type": 3,"api": "csp_YQKAPP","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://api-aws.11ty.top"},
 {"key": "Cokemv","name": "📕可乐┃直连","type": 3,"api": "csp_Cokemv","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1},
-{"key": "csp_Nmys","name": "🌾农民┃直连","type": 3,"api": "csp_Nmys","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "http://饭太硬.top/x/json/nmys.json"},
+{"key": "csp_Nmys","name": "🌾农民┃直连","type": 3,"api": "csp_Nmys","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "./json/nmys.json"},
 {"key": "csp_Ysgc","name": "🏭工场┃直连","type": 3,"api": "csp_Ysgc","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.ysgc1.cc/"},
 {"key": "csp_SP33","name": "📺三三┃解析","type": 3,"api": "csp_SP33","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0},
 {"key": "Qtv","name": "🐧腾腾┃解析","type": 3,"api": "csp_Qtv","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0},
