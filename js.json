@@ -292,11 +292,11 @@
 {"key":"cc","name":"请勿相信视频中任何广告","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"}
 ],
 "parses":[
-    {"name":"Json聚合","type":3,"url":"Demo"},
-    {"name":"Web聚合","type":3,"url":"Web"},
-    {"name": "🌐Ⓤ","type": 0,"url": "","header": {"User-Agent": "Mozilla/5.0"}},
-    {"name": "轮询","type": 2,"url": "Sequence","header": {"User-Agent": "Mozilla/5.0"}},
-    {"name": "并发","type": 2,"url": "Parallel","header": {"User-Agent": "Mozilla/5.0"}},
+    {"name":"Json聚合","type":3,"url":"Demo","jar":"./jar/tvbox.txt"},
+    {"name":"Web聚合","type":3,"url":"Web","jar":"./jar/tvbox.txt"},
+    {"name": "🌐Ⓤ","type": 0,"url": "","header": {"User-Agent": "Mozilla/5.0"},"jar":"./jar/tvbox.txt"},
+    {"name": "轮询","type": 2,"url": "Sequence","header": {"User-Agent": "Mozilla/5.0"},"jar":"./jar/tvbox.txt"},
+    {"name": "并发","type": 2,"url": "Parallel","header": {"User-Agent": "Mozilla/5.0"},"jar":"./jar/tvbox.txt"},
     {"name":"2449","type":1,"url":"http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="},
     {"name":"m3u8tv","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
     {"name":"ckplayer","type":0,"url":"https://www.ckplayer.vip/jiexi/?url="},
