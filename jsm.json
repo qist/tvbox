@@ -24,7 +24,7 @@
 {"key":"drpy_js_酷云77","name":"影视 | 酷云77[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/酷云77.js"},
 {"key": "新6V","name": "🧲新6V磁力┃慎用","type": 3,"api": "csp_SixV","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://www.xb6v.com/"},
 {"key": "哈喽","name": "✌哈喽┃App","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "http://www.miniku.cc/xgapp.php/v1/"},
-{"key": "贱贱","name": "🐭贱贱┃p2p","type": 3,"searchable": 1,"quickSearch": 1,"changeable": 1,"playerType": "1","api": "https://agit.ai/fantaiying/fty/raw/branch/master/JS/drpy1.min.js","ext": "https://agit.ai/fantaiying/fty/raw/branch/master/JS/js/jp.js"},
+{"key": "贱贱","name": "🐭贱贱┃p2p","type": 3,"searchable": 1,"quickSearch": 1,"changeable": 1,"playerType": "1","api": "./lib/drpy1.min.js","ext": "./js/jp.js"},
 {"key": "Vofl","name": "🎈VOF┃直连","type": 3,"api": "csp_Voflix","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key": "77","name": "影视 | 酷云77[app]","type":3,"api":"csp_Kunyu77","searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key": "Lib","name": "🌟利播┃直连","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.libvio.fun/"},
