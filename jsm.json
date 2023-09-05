@@ -53,7 +53,7 @@
 {"key":"drpy_js_南瓜影视","name":"影视 | 南瓜影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/南瓜影视.js"},
 {"key":"drpy_js_Auete","name":"影视 | Auete[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Auete.js"},
 {"key":"drpy_js_cokemv","name":"影视 | cokemv[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cokemv.js"},
-{"key":"drpy_js_LIBVIO","name":"影视 | LIBVIO[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/LIBVIO.js"},
+{"key":"drpy_js_LIBVIO","name":"影视 | LIBVIO[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/libvio.js"},
 {"key":"drpy_js_voflix","name":"影视 | voflix[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/voflix.js"},
 {"key":"drpy_js_乐猪TV","name":"影视 | 乐猪TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/乐猪TV.js"},
 {"key":"drpy_js_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
