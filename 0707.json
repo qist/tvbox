@@ -2,53 +2,43 @@
   "urls": [
     {
       "url": "./0821.json",
-      "name": "高天流云 No.1",
-      "time": "2023-04-19"
+      "name": "高天流云 No.1"
     },
     {
       "url": "./0825.json",
-      "name": "高天流云 PG",
-      "time": "2023-04-19"
+      "name": "高天流云 PG"
     },
     {
       "url": "./0826.json",
-      "name": "高天流云 FTY",
-      "time": "2023-04-19"
+      "name": "高天流云 FTY"
     },
     {
       "url": "./0827.json",
-      "name": "高天流云 FM",
-      "time": "2023-04-19"
+      "name": "高天流云 FM"
     },
     {
       "url": "./0828.json",
-      "name": "高天流云 TS",
-      "time": "2023-04-19"
+      "name": "高天流云 TS"
     },
     {
       "url": "./js.json",
-      "name": "高天流云 JS",
-      "time": "2023-04-19"
+      "name": "高天流云 JS"
     },
     {
       "url": "./XBPQ.json",
-      "name": "高天流云 XBPQ",
-      "time": "2023-04-19"
+      "name": "高天流云 XBPQ"
     },
     {
       "url": "./XYQ.json",
-      "name": "高天流云 XYQ",
-      "time": "2023-04-19"
+      "name": "高天流云 XYQ"
     },
     {
       "url": "./cat.json",
-      "name": "高天流云 CAT",
-      "time": "2023-04-19"
+      "name": "高天流云 CAT"
     },
     {
       "url": "./lf.json",
-      "name": "高天流云 LF",
-      "time": "2023-04-19"
+      "name": "高天流云 LF"
     }
   ]
 }

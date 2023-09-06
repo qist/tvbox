@@ -1,66 +1,28 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;0cd8dd32e89511058fd8e6bceb586a28",
+  "spider": "./jar/custom_spider.jar;md5;37e03cb1531bf4b163bf0b366bc9aa6c",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
-      "key": "本地",
-      "name": "本地",
+      "key": "影視",
+      "name": "影視",
       "type": 3,
-      "api": "csp_Local",
-      "searchable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
+      "api": "csp_YingShi",
       "searchable": 1,
-      "changeable": 0,
-      "ext": "./json/alist.json"
-    },
-    {
-      "key": "WebDAV",
-      "name": "WebDAV",
-      "type": 3,
-      "api": "csp_WebDAV",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "./json/webdav.json"
-    },
-    {
-      "key": "bili_open",
-      "name": "哔哩猫",
-      "type": 3,
-      "api": "./js/bili_open.js",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "categories": "沙雕动画#沙雕穿越#沙雕",
-        "cookie": "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7"
-      }
-    },
-    {
-      "key": "哔哩",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/chuqiuyu1.json",
-        "cookie": "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7"
-      }
+      "changeable": 1
     },
     {
       "key": "泥巴",
       "name": "泥巴",
       "type": 3,
       "api": "csp_NiNi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "星星",
+      "name": "星星",
+      "type": 3,
+      "api": "csp_Star",
       "searchable": 1,
       "changeable": 1
     },
@@ -77,14 +39,6 @@
       }
     },
     {
-      "key": "星星",
-      "name": "星星",
-      "type": 3,
-      "api": "csp_Star",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "獨播",
       "name": "獨播",
       "type": 3,
@@ -97,7 +51,7 @@
       "key": "廠長",
       "name": "廠長",
       "type": 3,
-      "api": "./js/czzy_open.js",
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -105,7 +59,7 @@
       "key": "愛看",
       "name": "愛看",
       "type": 3,
-      "api": "./js/ikanbot_open.js",
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/ikanbot_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -113,7 +67,7 @@
       "key": "快看",
       "name": "快看",
       "type": 3,
-      "api": "./js/kkys_open.js",
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kkys_open.js",
       "searchable": 1,
       "changeable": 1
     },
@@ -158,13 +112,67 @@
       "changeable": 1
     },
     {
+      "key": "哔哩",
+      "name": "哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./json/chuqiuyu1.json",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "bili_open",
+      "name": "哔哩貓",
+      "type": 3,
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "categories": "沙雕动画#沙雕穿越#沙雕",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "本地",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "AList",
+      "name": "AList",
+      "type": 3,
+      "api": "csp_AList",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./json/alist.json"
+    },
+    {
+      "key": "WebDAV",
+      "name": "WebDAV",
+      "type": 3,
+      "api": "csp_WebDAV",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./json/webdav.json"
+    },
+    {
       "key": "七夜",
       "name": "七夜",
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
       "key": "易搜",
@@ -173,7 +181,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
       "key": "雲搜",
@@ -182,7 +190,7 @@
       "api": "csp_UpYun",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
       "key": "盤搜",
@@ -191,7 +199,7 @@
       "api": "csp_PanSou",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
       "key": "紙條搜",
@@ -200,7 +208,7 @@
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
       "key": "盤搜索",
@@ -209,7 +217,7 @@
       "api": "csp_PanSearch",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
     },
     {
       "key": "找資源",
@@ -227,7 +235,7 @@
       "api": "csp_Push",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt"
+      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
     }
   ],
   "doh": [

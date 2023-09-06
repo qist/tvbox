@@ -230,7 +230,7 @@ let dlist = pdfa(search_html, 'table.border1');
 dlist.forEach(function(it){
 	let title = pdfh(it, 'img&&alt');
 	if (searchObj.quick === true){
-		if (title.includes(KEY)){
+		if (false && title.includes(KEY)){
 			title = KEY;
 		}
 	}

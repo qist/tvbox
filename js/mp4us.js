@@ -157,7 +157,7 @@ let dlist = pdfa(search_html, 'div#list_all li');
 dlist.forEach(function(it){
 	let title = pdfh(it, 'img.lazy&&alt');
 	if (searchObj.quick === true){
-		if (title.includes(KEY)){
+		if (false && title.includes(KEY)){
 			title = KEY;
 		}
 	}

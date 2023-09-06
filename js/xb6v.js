@@ -258,7 +258,7 @@ let dlist = pdfa(search_html, 'div.mainleft&&ul#post_container&&li');
 dlist.forEach(function(it){
 	let title = pdfh(it, 'div.thumbnail img&&alt').replace( /(<([^>]+)>)/ig, '');
 	if (searchObj.quick === true){
-		if (title.includes(KEY)){
+		if (false && title.includes(KEY)){
 			title = KEY;
 		}
 	}

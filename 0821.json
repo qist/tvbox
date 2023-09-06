@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;4d1c769684cc9b85f8adf54f8b43abb6",
+"spider":"./jar/fan.txt;md5;f20b74480c058b1ff6236601f92d65a8",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"YanG•综合","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"范明明•综合","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
@@ -36,6 +36,7 @@
 
 {"key":"迪迪","name":"迪迪┃App","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
 {"key":"Czsapp","name":"厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"率率","name":"率率┃App","type":3,"api":"csp_AppYsV2","playerType":1,"searchable": 1, "quickSearch": 1, "changeable":1, "ext": "http://s.ether-mine.com/api.php/app/"},
 {"key":"Auete","name":"奥特┃直连","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"zxzj","name":"在线┃直连","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzj.pro/"},
 {"key":"探探","name":"影探┃App","type":3,"playerType":"1","api":"csp_YTVIP","searchable":1,"quickSearch":1,"changeable":1,"ext":"vip.lyyytv.cn"},

@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;4d1c769684cc9b85f8adf54f8b43abb6",
+"spider":"./jar/fan.txt;md5;f20b74480c058b1ff6236601f92d65a8",
 "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
 
 "sites":[
@@ -18,7 +18,7 @@
 {"key":"迪迪","name":"😎迪迪┃App","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
 {"key":"Czsapp","name":"📔厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 
-//{"key":"率率","name":"💡率率┃App","type":3,"api":"csp_AppYsV2","playerType":1,"searchable": 1, "quickSearch": 1, "changeable":1, "ext": "http://11111111.moguys.xyz/api.php/app/"},
+{"key":"率率","name":"💡率率┃App","type":3,"api":"csp_AppYsV2","playerType":1,"searchable": 1, "quickSearch": 1, "changeable":1, "ext": "http://s.ether-mine.com/api.php/app/"},
 {"key":"Auete","name":"🏝奥特┃直连","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"zxzj","name":"📗在线┃直连","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzj.pro/"},
 
