@@ -109,7 +109,7 @@ var rule = {
         "Referer": "https://www.bilibili.com",
         // "Cookie":"$bili_cookie"
         // "Cookie":"https://ghproxy.net/https://github.com/FongMi/CatVodSpider/raw/main/txt/cookie.txt"
-        "cookie": "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7"
+        "cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"
     },
     timeout:5000,
     limit:8,

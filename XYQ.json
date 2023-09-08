@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/XYQ.jar;md5;d4a66c0f42281a803c8bc048240789cd",
+    "spider": "./jar/XYQ.jar;md5;5f97911cc7630b48ed3c69ba545818b5",
     "lives": [
         {
           "name": "直播",
@@ -64,6 +64,7 @@
         {"key": "csp_XYQHiker_电影港","name":"🧲电影港(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/电影港磁力.json"},
         {"key": "csp_XYQHiker_BT天堂","name":"🧲✈️BT天堂(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/BT天堂.json"},
         {"key": "csp_XYQHiker_极影网","name":"🧲极影网(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/极影网.json"},
+        {"key": "csp_XYQHiker_高清MP4","name":"🧲高清MP4(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/高清MP4.json"},
         {"key":"csp_Bili","name":"🐞哔哩综合","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./biliext/Bili.json"},
         {"key":"csp_Bili幼儿","name":"🐞哔哩幼儿","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./biliext/幼儿乐园.json"},
         {"key":"csp_Bili少儿","name":"🐞哔哩少儿","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/少儿教育.json"},
@@ -175,6 +176,7 @@
     "parses": [
         //{"name":"Json并发","type":2,"url":"Parallel"},
         //{"name":"Json轮询","type":2,"url":"Sequence"},
+        //{"name":"解析聚合","type":3,"url":"Demo"},
         {"name":"Web聚合","type":3,"url":"Web"},
         {"name":"-虾米-","type":0,"url":"https://jx.xmflv.com/?url="},
         {"name":"-爱酷-","type":0,"url":"https://jx.zhanlangbu.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},

@@ -58,14 +58,14 @@ var rule = {
 		tabs:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 TABS=[]
-let d = pdfa(html, '#dede_content table tbody tr a');
+let d = pdfa(html, '#dede_content table tbody tr');
 let tabsa = [];
 let tabsq = [];
 let tabsm = false;
 let tabse = false;
 let tabm3u8 = [];
 d.forEach(function(it) {
-	let burl = pdfh(it, 'a&&href');
+	let burl = pd(it, 'a&&href',HOST);
 	if (burl.startsWith("https://www.aliyundrive.com/s/")){
 		tabsa.push("阿里云盤");
 	}else if (burl.startsWith("https://pan.quark.cn/s/")){
@@ -111,14 +111,14 @@ log('dygang TABS >>>>>>>>>>>>>>>>>>' + TABS);
 log(TABS);
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 LISTS = [];
-let d = pdfa(html, '#dede_content table tbody tr a');
+let d = pdfa(html, '#dede_content table tbody tr');
 let lista = [];
 let listq = [];
 let listm = [];
 let liste = [];
 let listm3u8 = {};
 d.forEach(function(it){
-	let burl = pdfh(it, 'a&&href');
+	let burl = pd(it, 'a&&href',HOST);
 	let title = pdfh(it, 'a&&Text');
 	log('dygang title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
 	log('dygang burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
@@ -153,50 +153,11 @@ d.forEach(function(it){
 		liste.push(loopresult);
 	}
 });
-if (false){
-d = pdfa(html, 'div:has(>div#post_content) div.widget:has(>h3)');
-d.forEach(function(it){
-	let index = pdfh(it, 'h3&&Text');
-	let burl = pd(it, 'a&&href', HOST);
-	let title = pdfh(it, 'a&&Text');
-	log('xb6v title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-	log('xb6v burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-	let m3u8_html = request(burl);
-	let playerUrl = pd(m3u8_html, 'div.video&&iframe&&src', HOST);
-	log('xb6v playerUrl >>>>>>>>>>>>>>>>>>>>>>>>>>' + playerUrl);
-	if (!listm3u8.hasOwnProperty(index)){
-		listm3u8[index] = [];
-	}
-	let loopresult = title + '$' + ' ';
-	if (/(\/player\/|\/share\/)/.test(playerUrl)){
-		let player_html = request(playerUrl);
-		let m3u8Url="";
-		try{
-			m3u8Url = player_html.match(/'([^']*.m3u8)'/)[1];
-		}catch(e){
-			try{
-				m3u8Url = player_html.match(/"([^"]*.m3u8)"/)[1];
-			}catch(e){
-				m3u8Url = "";
-			}
-		}
-		if (m3u8Url !== ""){
-			m3u8Url = urljoin2(playerUrl, m3u8Url);
-			log('xb6v m3u8Url >>>>>>>>>>>>>>>>>>>>>>>>>>' + m3u8Url);
-			loopresult = title + '$' + m3u8Url;
-		}
-	}
-	listm3u8[index].push(loopresult);
-});
-}
 if (listm.length>0){
 	LISTS.push(listm);
 }
 if (liste.length>0){
 	LISTS.push(liste);
-}
-if (false && lista.length + listq.length > 1){
-	LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
 }
 lista.forEach(function(it){
 	LISTS.push([it]);

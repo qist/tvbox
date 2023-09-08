@@ -124,7 +124,7 @@
       },
       "ext": {
         "json": "./json/chuqiuyu1.json",
-        "cookie": ""
+        "cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"
       }
     },
     {
@@ -136,7 +136,7 @@
       "changeable": 0,
       "ext": {
         "categories": "沙雕动画#沙雕穿越#沙雕",
-        "cookie": ""
+        "cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"
       }
     },
     {
@@ -305,7 +305,8 @@
       "name": "量子",
       "hosts": [
         "vip.lz",
-        "hd.lz"
+        "hd.lz",
+        "v.cdnlz"
       ],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",

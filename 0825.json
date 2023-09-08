@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fm.jar;md5;5d0c3b405db6cef91758441b28e04ec5",
+"spider":"./jar/fm.jar;md5;4fe0a8f0284727298f73e3ff9fc4c9ab",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
@@ -10,7 +10,7 @@
 {"key":"lf_js_search","name":"搜索lf","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js"},
 {"key":"drpy_js_新片场","name":"片场","type":3,"api":"./lib/drpy2.min.js","ext":"./js/新片场.js","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"csp_YGP","name":"新片","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
-{"key":"csp_WoGG","name":"哥哥","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.json$$$http://www.wogg.xyz/", "timeout":30},
+{"key":"csp_WoGG","name":"哥哥","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.json$$$https://www.wogg.xyz/", "timeout":30},
 {"key":"drpy_js_ikanbot3","name":"爱姬","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
 {"key":"drpy_js_荐片","name":"荐片","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js", "timeout":30},
 {"key":"csp_wogg_cli","name":"玩偶jun","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
@@ -26,7 +26,7 @@
 {"key":"csp_Kuaikan","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"changeable":1,"ext":"0;socks5://192.168.1.9:4592"},
 {"key":"星星","name":"星星","type":3,"api":"csp_Star","searchable":1,"changeable":1,"ext":"socks5://192.168.1.9:4592"},
-{"key":"影视","name":"影视","type":3,"api":"csp_YingShi","searchable":1,"changeable":1},
+{"key":"影视","name":"影视","type":3,"api":"csp_YingShi","searchable":1,"changeable":1,"ext":"socks5://192.168.1.9:4592"},
 {"key":"櫻花","name":"櫻花","type":3,"api":"csp_Ying","searchable":1,"changeable":1},
 {"key":"巴士","name":"巴士","type":3,"api":"csp_Dm84","searchable":1,"changeable":1},
 {"key":"哈喽","name":"哈喽","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
@@ -69,7 +69,7 @@
 {"key":"MeijuTT","name":"美剧天天","type":3,"api":"csp_MeijuTT","playerType":"1", "changeable":0},
 {"key":"SeedHub","name":"SeedHub","type":3,"api":"csp_SeedHub","playerType":"1", "changeable":0},
 
-{"key":"csp_Bili","name":"哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"recordable":0,"style":{"type":"rect","ratio":1.755},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7"}},
+{"key":"csp_Bili","name":"哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"recordable":0,"style":{"type":"rect","ratio":1.755},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"}},
 {"key":"獨播","name":"獨播","type":3,"api":"csp_XPathMacFilter","searchable":1,"changeable":1,"ext":"./json/duboku.json$$$socks5://192.168.1.9:4592"},
 {"key":"量子","name":"量子","type":0,"api":"http://127.0.0.1:10079/?thread=0&proxy=socks5://192.168.1.9:4592&url=https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=socks5://192.168.1.9:4592&url=","categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","香港剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","体育","足球","篮球","网球","斯诺克"]},
 {"key":"非凡","name":"非凡","type":0,"api":"http://127.0.0.1:10079/?thread=0&proxy=socks5://192.168.1.9:4592&url=http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=socks5://192.168.1.9:4592&url=","categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","香港剧","欧美剧","记录片","台湾剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫"]},
@@ -90,7 +90,7 @@
 {"name":"暴风廣告","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 {"name":"星星","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-{"name":"量子廣告","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"量子廣告","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]}
