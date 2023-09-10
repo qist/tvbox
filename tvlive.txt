@@ -3519,7 +3519,7 @@ CCTV-4K,http://[2409:8087:3408:20:5040::106]:18890/PLTV/88888888/224/3221226998/
 CCTV-4K,http://[2409:8087:3428:20:500::100f]:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
 4KUHD,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225786/2/index.m3u8
 4KUHD,http://[2409:8087:3428:20:500::1009]:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=RR423820220409134714119178
-CGTN记录,https://livedoc.cgtn.com/500d/prog_index.m3u8
+CGTN-记录,https://livedoc.cgtn.com/500d/prog_index.m3u8
 CGTN-英语,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001058/index.m3u8
 CGTN-俄语,https://liveru.cgtn.com/1000r/prog_index.m3u8
 CGTN-法语,https://livefr.cgtn.com/1000f/prog_index.m3u8
