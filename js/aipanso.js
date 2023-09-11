@@ -38,7 +38,7 @@ var rule = {
 		tabs:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 TABS=[]
-TABS.push("夸克雲盤");
+TABS.push("夸克網盤");
 log('meijumi TABS >>>>>>>>>>>>>>>>>>' + TABS);
 `,
 		lists:`js:

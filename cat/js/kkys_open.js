@@ -259,10 +259,6 @@ async function play(flag, id, flags) {
         var result = jsonParse(id, JSON.parse(res).data);
         if (result.url) {
             result.parse = 0;
-            // demo of block hls ads
-            if (/vip\.lz|hd\.lz/.test(result.url)) {
-                result.url = await js2Proxy(true, siteType, siteKey, 'lzm3u8/' + base64Encode(result.url), {});
-            }
             return JSON.stringify(result);
         }
         return JSON.stringify({
@@ -279,41 +275,6 @@ async function play(flag, id, flags) {
     }
 }
 
-async function proxy(segments, headers) {
-    let what = segments[0];
-    let url = base64Decode(segments[1]);
-    if (what == 'lzm3u8') {
-        const resp = await req(url, {});
-        let hls = resp.content;
-        const jsBase = await js2Proxy(false, siteType, siteKey, 'lzm3u8/', {});
-        const baseUrl = url.substr(0, url.lastIndexOf('/') + 1);
-        console.log(hls.length);
-        hls = hls.replace(/#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.433333,[\s\S]*?#EXT-X-DISCONTINUITY/, '');
-        console.log(hls.length);
-        hls = hls.replace(/(#EXT-X-KEY\S+URI=")(\S+)("\S+)/g, function (match, p1, p2, p3) {
-            let up = (!p2.startsWith('http') ? baseUrl : '') + p2;
-            return p1 + up + p3;
-        });
-        hls = hls.replace(/(#EXT-X-STREAM-INF:.*\n)(.*)/g, function (match, p1, p2) {
-            let up = (!p2.startsWith('http') ? baseUrl : '') + p2;
-            return p1 + jsBase + base64Encode(up);
-        });
-        hls = hls.replace(/(#EXTINF:.*\n)(.*)/g, function (match, p1, p2) {
-            let up = (!p2.startsWith('http') ? baseUrl : '') + p2;
-            return p1 + up;
-        });
-        return JSON.stringify({
-            code: resp.code,
-            content: hls,
-            headers: resp.headers,
-        });
-    }
-    return JSON.stringify({
-        code: 500,
-        content: '',
-    });
-}
-
 async function search(wd, quick) {
     let data = JSON.parse(await request(url + '/api.php/Search/getSearch', { key: wd, type_id: 0, p: 1 })).data;
     let videos = [];
@@ -328,14 +289,6 @@ async function search(wd, quick) {
     return JSON.stringify({
         list: videos,
     });
-}
-
-function base64Encode(text) {
-    return Crypto.enc.Base64.stringify(Crypto.enc.Utf8.parse(text));
-}
-
-function base64Decode(text) {
-    return Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(text));
 }
 
 const charStr = 'abacdefghjklmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789';
@@ -406,7 +359,6 @@ export function __jsEvalReturn() {
         category: category,
         detail: detail,
         play: play,
-        proxy: proxy,
         search: search,
     };
 }

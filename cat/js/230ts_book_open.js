@@ -81,10 +81,10 @@ async function category(tid, pg, filter, extend) {
         const img = $(item).find('img:first')[0];
         const remarks = $($(item).find('div.book-meta')[0]).text().trim();
         return {
-            vod_id: it.attribs.href.replace(/.*?\/tingshu\/(.*)/g, '$1'),
-            vod_name: it.attribs.title.replace('有声小说',''),
-            vod_pic: HOST + img.attribs['data-original'],
-            vod_remarks: remarks.replace('佚名（著）','').replace('佚名（播）','').replace('未知（著）','').replace('未知（播）','') || '',
+            book_id: it.attribs.href.replace(/.*?\/tingshu\/(.*)/g, '$1'),
+            book_name: it.attribs.title.replace('有声小说',''),
+            book_pic: HOST + img.attribs['data-original'],
+            book_remarks: remarks.replace('佚名（著）','').replace('佚名（播）','').replace('未知（著）','').replace('未知（播）','') || '',
         };
     });
     const hasMore = $('div.paging > a:contains(下一页)').length > 0;
@@ -103,34 +103,42 @@ async function detail(id) {
     const $ = load(html);
     const detail = $('div.book-cell:first > div');
     let vod = {
-        vod_id: id,
-        vod_name: $('h1:first').text().trim().replace('有声小说',''),
-        vod_pic: HOST + $('div.myui-content__thumb img:first').attr('data-original'),
-        vod_content: $('div.ellipsis').text().trim(),
+        book_id: id,
+        type_name: $('h1:first').text().trim().replace('有声小说',''),
+        // vod_pic: HOST + $('div.myui-content__thumb img:first').attr('data-original'),
+        // vod_content: $('div.ellipsis').text().trim(),
+        book_year: '',
+        book_area: '',
+        book_remarks: '',
+        book_actor: '',
+        book_director: '',
+        book_content: '',
     };
-    for (const info of detail) {
-        const i = $(info).text().trim();
-        if (i.startsWith('类型：')) {
-            vod.vod_type = _.map($(info).find('a'), (a) => {
-                return a.children[0].data;
-            }).join('/');
-        } else if (i.startsWith('作者：')) {
-            vod.vod_director = _.map($(info).find('a'), (a) => {
-                return a.children[0].data;
-            }).join('/');
-        } else if (i.startsWith('演播：')) {
-            vod.vod_actor = _.map($(info).find('a'), (a) => {
-                return a.children[0].data;
-            }).join('/');
-        } else if (i.startsWith('连载中')) {
-            vod.vod_remarks = i.substring(3);
-        }
-    }
+    // for (const info of detail) {
+    //     const i = $(info).text().trim();
+    //     if (i.startsWith('类型：')) {
+    //         vod.vod_type = _.map($(info).find('a'), (a) => {
+    //             return a.children[0].data;
+    //         }).join('/');
+    //     } else if (i.startsWith('作者：')) {
+    //         vod.vod_director = _.map($(info).find('a'), (a) => {
+    //             return a.children[0].data;
+    //         }).join('/');
+    //     } else if (i.startsWith('演播：')) {
+    //         vod.vod_actor = _.map($(info).find('a'), (a) => {
+    //             return a.children[0].data;
+    //         }).join('/');
+    //     } else if (i.startsWith('连载中')) {
+    //         vod.vod_remarks = i.substring(3);
+    //     }
+    // }
     const playlist = _.map($('#playlist > ul > li > a'), (it) => {
         return it.children[0].data + '$' + it.attribs.href.replace(/\/mp3\/(.*).html/g, '$1');
-    });
-    vod.vod_play_from = '道长在线';
-    vod.vod_play_url = playlist.join('#');
+    }).join("#");
+    vod.volumes = '道长在线';
+    vod.urls = playlist;
+    // vod.vod_play_from = '道长在线';
+    // vod.vod_play_url = playlist.join('#');
     return JSON.stringify({
         list: [vod],
     });
@@ -229,10 +237,10 @@ async function search(wd, quick) {
         const img = $(item).find('img:first')[0];
         const remarks = $($(item).find('div.book-meta')[0]).text().trim();
         return {
-            vod_id: it.attribs.href.replace(/.*?\/tingshu\/(.*)/g, '$1'),
-            vod_name: it.attribs.title.replace('有声小说',''),
-            vod_pic: img.attribs['data-original'],
-            vod_remarks: remarks.replace('佚名（著）','').replace('佚名（播）','').replace('未知（著）','').replace('未知（播）','') || '',
+            book_id: it.attribs.href.replace(/.*?\/tingshu\/(.*)/g, '$1'),
+            book_name: it.attribs.title.replace('有声小说',''),
+            book_pic: img.attribs['data-original'],
+            book_remarks: remarks.replace('佚名（著）','').replace('佚名（播）','').replace('未知（著）','').replace('未知（播）','') || '',
         };
     });
     return JSON.stringify({

@@ -12,6 +12,7 @@ async function request(reqUrl, agentSp) {
         method: 'get',
         headers: {
             'User-Agent': agentSp || UA,
+            'referer': url
         },
     });
     return res.content;
@@ -54,7 +55,22 @@ async function home(filter) {
 }
 
 async function homeVod() {
-    return '{}';
+    const html = await request(url);
+    const $ = load(html);
+    const items = $('div.v-list a.item');
+    var jsBase = await js2Proxy(true, siteType, siteKey, 'img/', {});
+    let videos = _.map(items, (item) => {
+        const img = $(item).find('img:first')[0];
+        return {
+            vod_id: item.attribs.href,
+            vod_name: img.attribs.alt,
+            vod_pic: jsBase + base64Encode(img.attribs['data-src']),
+            vod_remarks: '',
+        };
+    });
+    return JSON.stringify({
+        list: videos,
+    });
 }
 
 async function category(tid, pg, filter, extend) {
@@ -85,50 +101,85 @@ async function category(tid, pg, filter, extend) {
 }
 
 async function detail(id) {
-    const html = await request(url + id);
-    const $ = load(html);
-    var jsBase = await js2Proxy(true, siteType, siteKey, 'img/', {});
-    const detail = $('div.detail > .meta');
-    let vod = {
-        vod_id: id,
-        vod_pic: jsBase + base64Encode($('div.item-root > img')[0].attribs['data-src']),
-        vod_remarks: '',
-    };
-    for (const info of detail) {
-        if ($(info).hasClass('title')) {
-            vod.vod_name = info.children[0].data;
-        } else if ($(info).hasClass('year')) {
-            vod.vod_area = info.children[0].data;
-        } else if ($(info).hasClass('country')) {
-            vod.vod_area = info.children[0].data;
-        } else if ($(info).hasClass('celebrity')) {
-            vod.vod_actor = info.children[0].data;
-        }
-    }
-
-    const res = await req(url + '/api/getResN?videoId=' + id.substring(id.lastIndexOf('/') + 1) + '&mtype=2', {
-        headers: {
-            Referer: url,
-            'User-Agent': UA,
-        },
-    });
-    const list = JSON.parse(res.content).data.list;
-    let playlist = {};
-    for (const l of list) {
-        const flagData = JSON.parse(l.resData);
-        for (const f of flagData) {
-            const from = f.flag;
-            const urls = f.url;
-            if (!from || !urls) continue;
-            if (playlist[from]) continue;
-            playlist[from] = urls;
-        }
-    }
-    vod.vod_play_from = _.keys(playlist).join('$$$');
-    vod.vod_play_url = _.values(playlist).join('$$$');
-    return JSON.stringify({
-        list: [vod],
-    });
+	const html = await request(url + id);
+	const $ = load(html);
+	var jsBase = await js2Proxy(true, siteType, siteKey, 'img/', {});
+	const detail = $('div.detail');
+	const remarks = $('span#line-tips').text();
+	let vod = {
+		vod_id: id,
+		vod_pic: jsBase + base64Encode($('div.item-root > img')[0].attribs['data-src']),
+		vod_remarks: '',
+        vod_content: remarks || '',
+		vod_name: $(detail).find('h2').text().trim(),
+		vod_year: $(detail).find('h3:nth-child(3)').text(),
+		vod_area: $(detail).find('h3:nth-child(4)').text(),
+		vod_actor: $(detail).find('h3:nth-child(5)').text(),
+	};
+	const res = await req(url + '/api/getResN?videoId=' + id.substring(id.lastIndexOf('/') + 1) + '&mtype=2&token=9109590b194731fde643ce27924fcf6f', {
+		headers: {
+			Referer: 'play',
+			'User-Agent': UA,
+		},
+	});
+	const list = JSON.parse(res.content).data.list;
+	let playlist = {};
+	let arr = []
+	for (const l of list) {
+		const flagData = JSON.parse(l.resData);
+		for (const f of flagData) {
+			const from = f.flag;
+			const urls = f.url;
+			if (!from || !urls) continue;
+			if (playlist[from]) continue;
+			playlist[from] = urls;
+		}
+	}
+	for (var key in playlist) {
+		if ('kuaikan' == key) {
+			arr.push({
+				flag: '快看',
+				url: playlist[key],
+				sort: 1
+			})
+		} else if ('bfzym3u8' == key) {
+			arr.push({
+				flag: '暴风',
+				url: playlist[key],
+				sort: 2
+			})
+		} else if ('ffm3u8' == key) {
+			arr.push({
+				flag: '非凡',
+				url: playlist[key],
+				sort: 3
+			})
+		} else if ('lzm3u8' == key) {
+			arr.push({
+				flag: '量子',
+				url: playlist[key],
+				sort: 4
+			})
+		} else {
+			arr.push({
+				flag: key,
+				url: playlist[key],
+				sort: 5
+			})
+		}
+	}
+	arr.sort((a, b) => a.sort - b.sort);
+	let playFrom = [];
+	let playList = [];
+	arr.map(val => {
+		playFrom.push(val.flag);
+		playList.push(val.url);
+	})
+	vod.vod_play_from = playFrom.join("$$$");
+	vod.vod_play_url = playList.join("$$$");
+	return JSON.stringify({
+		list: [vod],
+	});
 }
 
 function base64Encode(text) {
@@ -170,21 +221,28 @@ async function play(flag, id, flags) {
     });
 }
 
-async function search(wd, quick) {
-    const html = await request(url + '/search?q=' + wd);
+async function search(wd, quick, pg) {
+    if (pg <= 0 || typeof(pg) == 'undefined') pg = 1;
+    const html = await request(url + '/search?q=' + wd + '&p=' + pg);
     const $ = load(html);
-    const items = $('div.media > div.media-left > a');
+    const items = $('div.media');
     var jsBase = await js2Proxy(true, siteType, siteKey, 'img/', {});
     let videos = _.map(items, (item) => {
+        const a = $(item).find('a:first')[0];
         const img = $(item).find('img:first')[0];
+        const remarks = $($(item).find('span.label')[0]).text().trim();
         return {
-            vod_id: item.attribs.href,
+            vod_id: a.attribs.href,
             vod_name: img.attribs.alt,
             vod_pic: jsBase + base64Encode(img.attribs['data-src']),
-            vod_remarks: '',
+            vod_remarks: remarks || '',
         };
     });
+    const hasMore = $('div.page-more > a:contains(下一页)').length > 0;
+    const pgCount = hasMore ? parseInt(pg) + 1 : parseInt(pg);
     return JSON.stringify({
+        page: parseInt(pg),
+        pagecount: pgCount,
         list: videos,
     });
 }

@@ -44,7 +44,7 @@ d.forEach(function(it) {
 	if (!/(猜你|喜欢|剧情|热播)/.test(name)){
 		log("libvio tabs name>>>>>>>>>>>>>>>" + name);
 		if (name.includes("夸克")){
-			tabsq.push("夸克雲盤");
+			tabsq.push("夸克網盤");
 		}else if (name.includes("阿里")){
 			tabsq.push("阿里雲盤");
 		}else{

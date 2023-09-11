@@ -1,7 +1,7 @@
 import { Crypto, load, _, jinja2 } from './lib/cat.js';
 
 let key = 'duboku';
-let url = 'https://www.duboku.tv';
+let url = 'https://u.duboku.io';
 let siteKey = '';
 let siteType = 0;
 

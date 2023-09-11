@@ -6,7 +6,7 @@ var rule = {
 	filter_url:'{{fl.class}}',
 	filter:{
 	},
-	searchUrl: '/?s=**',
+	searchUrl: '/?s=**&type=post',
 	searchable:2,
 	quickSearch:0,
 	filterable:0,
@@ -29,7 +29,6 @@ var rule = {
 	}],
 	lazy:'',
 	limit:6,
-//	推荐:'main#main article:has(img);a&&title;img&&data-src;div.entry-wrapper a&&Text;a&&href',
 	推荐:'*',
 	一级:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
@@ -37,35 +36,31 @@ let d = [];
 log("tzfiles input>>>>>>>>>>>>>>"+input);
 let html = request(input);
 //log("tzfiles 1level html>>>>>>>>>>>>>>"+html);
-let list = pdfa(html, 'main#main article:has(img)');
+let list = pdfa(html, '#primary-home ul li:has(img)');
 list.forEach(function(it) {
 	d.push({
-		title: pdfh(it, 'a&&title'),
-		desc: pdfh(it, 'div.entry-wrapper a&&Text'),
-		pic_url: 'http://127.0.0.1:10079/i/0/s/'+pd(it, 'img&&data-src', HOST),
+		title: pdfh(it, 'img&&alt'),
+		desc: pdfh(it, 'div.post-info div.list-footer time.b2timeago&&Text') + '/' + pdfh(it, 'div.post-info div.list-footer a&&Text'),
+		pic_url: 'http://127.0.0.1:10079/i/0/s/'+pd(it, 'img&&src', HOST),
 		url: pd(it, 'a&&href', HOST)
 	});
 })
 setResult(d);
 `,
-	//一级:`js:
-	//let html=request(input);
-	//log("html>>>>>>>>>>>>>>>>"+html);
-	//`,
 	二级:{
-		title:"#app .container header h1&&Text",
-		img:"#main article div.entry-content img&&src",
-		desc:"#app .container header .meta-date time&&datetime",
-		content:"#main article .entry-content&&Text",
+		title:"#primary-home h1&&Text",
+		img:"#primary-home article div.entry-content img&&src",
+		desc:"#primary-home .post-meta li.single-date&&Text",
+		content:"#primary-home article .entry-content&&Text",
 		tabs:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 TABS=[];
-let d = pdfa(html, '#main article div.entry-content p');
+let d = pdfa(html, '#primary-home article div.entry-content p');
 let tabsq=[];
 d.forEach(function(it) {
 	let purl = pd(it, 'a&&href', HOST);
 	if (purl.includes("pan.quark.cn")){
-		tabsq.push("夸克雲盤");
+		tabsq.push("夸克網盤");
 	} else if (purl.includes("www.aliyundrive.com")){
 		tabsq.push("阿里雲盤");
 	}
@@ -85,7 +80,7 @@ log('tzfile TABS >>>>>>>>>>>>>>>>>>' + TABS);
 log(TABS);
 LISTS=[];
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-let d = pdfa(html, '#main article div.entry-content p');
+let d = pdfa(html, '#primary-home article div.entry-content p');
 d.forEach(function(it) {
 	let purl = pd(it, 'a&&href', HOST);
 	if (/(pan.quark.cn|www.aliyundrive.com)/.test(purl)){
@@ -105,5 +100,5 @@ d.forEach(function(it) {
 `,
 
 	},
-	搜索:'main#main div.container article:has(img);a&&title;img&&data-src;div.entry-wrapper a&&Text;a&&href',
+	搜索:'#primary-home ul li:has(img);img&&alt;img&&src;div.post-info div.list-fotter time.b2timeago&&Text;a&&href',
 }

@@ -1,6 +1,6 @@
-import { load, _ } from "assets://js/lib/cat.js";
+import { load, _ } from "./lib/cat.js";
 
-let key = "世纪DJ音乐网";
+let key = "世纪DJ音乐网_book";
 let HOST = "http://m.dj0898.com";
 let siteKey = "";
 let siteType = 0;
@@ -70,10 +70,10 @@ async function category(tid, pg, filter, extend) {
         const tt = $(it).find("strong:first")[0];
         const remarks = $(it).find("font")[5];
         return {
-            vod_id: a.attribs.href,
-            vod_name: tt.children[0].data,
-            vod_pic: img.attribs["src"],
-            vod_remarks: "🎵" + remarks.children[0].data || "",
+            book_id: a.attribs.href,
+            book_name: tt.children[0].data,
+            book_pic: img.attribs["src"],
+            book_remarks: "🎵" + remarks.children[0].data || "",
         };
     });
     const hasMore = $("ul.page_link > li > a:contains(\u00a0)").length > 0;
@@ -89,12 +89,18 @@ async function category(tid, pg, filter, extend) {
 
 async function detail(id) {
     const vod = {
-        vod_id: id,
-        vod_remarks: "",
+        book_id: id,
+        type_name: '',
+        book_year: '',
+        book_area: '',
+        book_remarks: '',
+        book_actor: '',
+        book_director: '',
+        book_content: '',
     };
-    const playlist = ["点击播放" + "$" + vod.vod_id];
-    vod.vod_play_from = "道长在线";
-    vod.vod_play_url = playlist.join("#");
+    const playlist = ["点击播放" + "$" + vod.book_id];
+    vod.volumes = "道长在线";
+    vod.urls = playlist.join("#");
     return JSON.stringify({
         list: [vod],
     });
@@ -124,10 +130,10 @@ async function search(wd, quick, pg) {
         const tt = $(it).find("strong:first")[0];
         const remarks = $(it).find("font:first")[0];
         return {
-            vod_id: a.attribs.href,
-            vod_name: tt.children[0].data,
-            vod_pic: img.attribs["src"],
-            vod_remarks: "🎵" + remarks.children[0].data || "",
+            book_id: a.attribs.href,
+            book_name: tt.children[0].data,
+            book_pic: img.attribs["src"],
+            book_remarks: "🎵" + remarks.children[0].data || "",
         };
     });
     const hasMore = $("ul.page_link > li > a:contains(\u00a0)").length > 0;

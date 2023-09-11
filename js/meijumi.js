@@ -189,7 +189,7 @@ playGroups.forEach(function (it) {
 				haveDelay = true;
 				TABS.push("選擇右側綫路");
 			}
-			TABS.push("夸克雲盤" + groupIndex);
+			TABS.push("夸克網盤" + groupIndex);
 		}
 		groupIndex = groupIndex + 1;
 	}

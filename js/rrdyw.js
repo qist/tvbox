@@ -1,23 +1,21 @@
 var rule = {
-    title: 'kk小站',
-    host: 'http://127.0.0.1:10079',
-    homeUrl: '/p/0/socks5:%252F%252F192.168.101.1:1080/https://kkxz.vip/',
-    url: '/p/0/socks5:%252F%252F192.168.101.1:1080/https://kkxz.vip/t/fyclass?',
+    title: 'RRDY網',
+    host: 'https://www.rrdynb.com',
+    homeUrl: '/',
+    url: '/fyclass_fypage.html?',
     filter_url: '{{fl.class}}',
     filter: {},
-    searchUrl: '/p/0/socks5:%252F%252F192.168.101.1:1080/https://kkxz.vip/?q=**',
+    searchUrl: '/plus/search.php?q=**&pagesize=10&submit=',
     searchable: 2,
     quickSearch: 1,
     filterable: 0,
     headers: {
-        'User-Agent': PC_UA,
-        'Accept': '*/*',
-	'Cookie':'http://127.0.0.1:9978/file:///tvbox/JS/lib/kkxz.txt',
-        'Referer': 'https://kkxz.vip/'
+        'User-Agent': 'PC_UA',
+        'Cookie': ''
     },
-
-    class_name: '電視劇&電影',
-    class_url: 'tv&movie',
+    timeout: 5000,
+    class_name: '影视&電視劇&老電影&動漫',
+    class_url: 'movie/list_2&dianshiju/list_6&zongyi/list_10&dongman/list_13',
     play_parse: true,
     play_json: [{
         re: '*',
@@ -29,17 +27,17 @@ var rule = {
     lazy: '',
     limit: 6,
     推荐: '',
-    一级: 'div.DiscussionList li;h3&&Text;img&src;;a&&href',
+    一级: 'li:has(img);img&&alt;img&&data-original;;a&&href',
     二级: {
-        title: "h2&&Text",
+        title: "h1&&Text",
         img: "img&&src",
-        desc: "p&&Text",
-        content: "p&&Text",
+        desc: "",
+        content: "span&&Text",
         tabs: `js: pdfh = jsp.pdfh;
         pdfa = jsp.pdfa;
         pd = jsp.pd;
-        TABS = [];
-        let d = pdfa(html, '.Post-body p a');
+        TABS = []
+        let d = pdfa(html, 'span a');
         let tabsa = [];
         let tabsq = [];
         let tabsm = false;
@@ -47,9 +45,9 @@ var rule = {
         d.forEach(function(it) {
             let burl = pdfh(it, 'a&&href');
             if (burl.startsWith("https://www.aliyundrive.com/s/")) {
-                tabsa.push("阿里云盤");
+                tabsa.push("阿里雲盤");
             } else if (burl.startsWith("https://pan.quark.cn/s/")) {
-                tabsq.push("夸克云盤");
+                tabsq.push("夸克網盤");
             } else if (burl.startsWith("magnet")) {
                 tabsm = true;
             } else if (burl.startsWith("ed2k")) {
@@ -79,7 +77,7 @@ var rule = {
         pdfa = jsp.pdfa;
         pd = jsp.pd;
         LISTS = [];
-        let d = pdfa(html, '.Post-body p a');
+        let d = pdfa(html, 'span a');
         let lista = [];
         let listq = [];
         let listm = [];
@@ -100,8 +98,10 @@ var rule = {
                 lista.push(loopresult);
             } else if (burl.startsWith("https://pan.quark.cn/s/")) {
                 if (TABS.length == 1) {
+                    burl = burl.replace("?entry=sjss", ""),
                     burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&confirm=0&url=" + encodeURIComponent(burl);
                 } else {
+                    burl = burl.replace("?entry=sjss", ""),
                     burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&url=" + encodeURIComponent(burl);
                 }
                 loopresult = title + '$' + burl;
@@ -126,5 +126,5 @@ var rule = {
         });`,
 
     },
-    搜索: 'div.Discussionlist li;h3&&Text;img&&src;span.TagLabel-text;a&&href',
+    搜索: 'li:has(img);h2&&Text;img&&data-original;.tags&&Text;a&&href',
 }

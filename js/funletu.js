@@ -31,11 +31,11 @@ var rule = {
 	推荐:'',
 	一级:'',
 	二级:`js:
-VOD.vod_play_from = "夸克雲盤";
+VOD.vod_play_from = "夸克網盤";
 VOD.vod_remarks = detailUrl;
 VOD.vod_actor = "沒有二級，只有一級鏈接直接推送播放";
 VOD.vod_content = MY_URL;
-VOD.vod_play_url = "夸克雲盤$" + detailUrl;
+VOD.vod_play_url = "夸克網盤$" + detailUrl;
 `,
 	搜索:`js:
 let postJson = {

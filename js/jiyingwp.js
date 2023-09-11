@@ -51,9 +51,9 @@ let d = pdfa(html, '#post_content p a');
 d.forEach(function(it) {
 	let burl = pdfh(it, 'a&&href');
 	if (burl.startsWith("https://www.aliyundrive.com/s/")){
-		tabsa.push("阿里云盤");
+		tabsa.push("阿里雲盤");
 	}else if (burl.startsWith("https://pan.quark.cn/s/")){
-		tabsq.push("夸克云盤");
+		tabsq.push("夸克網盤");
 	}else if (burl.startsWith("magnet")){
 		tabsm = true;
 	}else if (burl.startsWith("ed2k")){
@@ -64,9 +64,9 @@ d = pdfa(html, 'div#down p.down-list3 a');
 d.forEach(function(it) {
 	let burl = pdfh(it, 'a&&href');
 	if (burl.startsWith("https://www.aliyundrive.com/s/")){
-		tabsa.push("阿里云盤");
+		tabsa.push("阿里雲盤");
 	}else if (burl.startsWith("https://pan.quark.cn/s/")){
-		tabsq.push("夸克云盤");
+		tabsq.push("夸克網盤");
 	}else if (burl.startsWith("magnet")){
 		tabsm = true;
 	}else if (burl.startsWith("ed2k")){

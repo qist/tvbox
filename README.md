@@ -29,7 +29,7 @@ FongMi影视、TVBox配置文件。所有资源均来自于各路大神无私分
 
 （9）XYQ.json  XYQ源，jar包和配置来源于香雅情；
 
-（10）cat.json  cat源，资源来源于CatVodOpen仓库和tloook大佬，适配FongMi影视播放。
+（10）cat.json  cat源，资源来源和整理于网络各路大佬，适配FongMi影视播放。并将所有cat源单独放在/cat/js文件来中，资源可以直接放在本地配合猫影视使用。
 
 （11）lf.json  极简配置，点播共包含5个路飞的js源和2个俊于的T4源。
 
@@ -41,7 +41,9 @@ FongMi影视、TVBox配置文件。所有资源均来自于各路大神无私分
 
 （3）takagen99版本  项目地址：https://github.com/takagen99/Box 支持直播回放，界面美观；
 
-（4）皮皮虾版本  发布频道：https://t.me/pipixiawerun 支持直播回放，支持弹幕。
+（4）皮皮虾版本  发布频道：https://t.me/pipixiawerun 支持直播回放，支持弹幕；
+
+（5）新版猫影视   项目地址：https://github.com/catvod/CatVodOpen 界面简洁，支持多平台，目前只支持本地配置。
 
 3. TVBox各路大佬配置（排名不分先后）：
 
