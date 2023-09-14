@@ -18,13 +18,14 @@ try {
     VOD.vod_content = "";
     log(VOD);
     var v_tks = '';
-	let script = pdfa(html1,'script').find(it=>it.includes('v_tks+=')).replace(/<script>|<\\/script>/g,'');
-    eval(script);
+	// let script = pdfa(html1,'script').find(it=>it.includes('v_tks+=')).replace(/<script>|<\\/script>/g,'');
+    // eval(script);
 	input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2"+"&token="+v_tks;
     // input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2";
 	let html = request(input, {
         headers: {
-			'User-Agent':'PC_UA',
+			// 'User-Agent':'PC_UA',
+            'User-Agent':'MOBILE_UA',
             'Referer': input,
         }
     });

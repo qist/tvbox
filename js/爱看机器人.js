@@ -18,12 +18,13 @@ try {
 	VOD.vod_content = "";
 	log(VOD);
 	var v_tks = '';
-	let script = pdfa(html1,'script').find(it=>it.includes('v_tks+=')).replace(/<script>|<\\/script>/g,'');
+	// let script = pdfa(html1,'script').find(it=>it.includes('v_tks+=')).replace(/<script>|<\\/script>/g,'');
     // print(script);
-    eval(script);
-	print('v_tks:'+v_tks);
+    // eval(script);
+	// print('v_tks:'+v_tks);
 	input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2"+"&token="+v_tks;
-	let html = request(input,{headers: {'User-Agent':'PC_UA','Referer': input}});
+	// let html = request(input,{headers: {'User-Agent':'PC_UA','Referer': input}});
+	let html = request(input,{headers: {'User-Agent':'MOBILE_UA','Referer': input}});
 	print(html);
 	html = JSON.parse(html);
 	let episodes = html.data.list;
