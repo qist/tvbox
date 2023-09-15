@@ -28,7 +28,7 @@
 {"key": "Itv","name": "影视 | 爱奇艺[解析]","type": 3,"api": "csp_Itv","quickSearch": 1,"searchable": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
 {"key": "Mtv","name": "影视 | 芒果[解析]","type": 3,"api": "csp_Mtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
 {"key": "4KHDR","name": "🧲世界磁力┃慎用","type": 3,"searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/fty.jar","api": "./lib/drpy1.min.js","ext": "./js/4khdri.js"},
-{"key":"Lib","name":"影视 | 利播[直连]","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar","ext":"https://www.libvio.fun/"},
+{"key":"Lib","name":"影视 | 利播[直连]","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar","ext":"https://www.libvio.pro/"},
 {"key":"百度","name":"百度","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0,"categories":["国产动漫","日韩动漫","大陆剧","欧美剧","韩剧","日剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片"]},
 {"key":"暴風","name":"影视 | 暴風[直连]","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},
 {"key":"迷你库","name":"影视 | 迷你库[jar]","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
