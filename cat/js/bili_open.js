@@ -351,6 +351,7 @@ async function play(flag, id, flags) {
         const cid = ids[1];
         const qualityIds = ids[2].split(':');
         const qualityName = ids[3].split(':');
+        const dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + cid;
         if (flag == 'dash' || flag == '相关') {
             // dash mpd 代理
             const js2Base = await js2Proxy(true, siteType, siteKey, 'dash/', {});
@@ -361,6 +362,7 @@ async function play(flag, id, flags) {
             return JSON.stringify({
                 parse: 0,
                 url: urls,
+                danmaku: dan,
                 header: playHeaders,
             });
         } else if (flag == 'mp4') {
@@ -378,6 +380,7 @@ async function play(flag, id, flags) {
             return JSON.stringify({
                 parse: 0,
                 url: urls,
+                danmaku: dan,
                 header: playHeaders,
             });
         } else {

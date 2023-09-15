@@ -1,3 +1,18 @@
+/**
+ * 影视TV 弹幕支持 
+    * https://t.me/fongmi_offical/
+    * https://github.com/FongMi/Release/tree/main/apk
+ * Cookie设置
+    * Cookie获取方法 https://ghproxy.net/https://raw.githubusercontent.com/UndCover/PyramidStore/main/list.md
+ * Cookie设置方法1: DR-PY 后台管理界面
+    * CMS后台管理 > 设置中心 > 环境变量 > {"bili_cookie":"XXXXXXX","vmid":"XXXXXX"} > 保存
+ * Cookie设置方法2: 手动替换Cookie
+    * 底下代码 headers的
+    * "Cookie":"$bili_cookie"
+    * 手动替换为
+    * "Cookie":"将获取的Cookie黏贴在这"
+ */
+
 var rule = {
     title:'哔哩影视',
     host:'https://api.bilibili.com',
@@ -12,7 +27,7 @@ var rule = {
     headers:{
         'User-Agent':'PC_UA',
         "Referer": "https://www.bilibili.com",
-        "Cookie":"http://127.0.0.1:9978/file/tvfan/cookie.txt"
+        "Cookie":"$bili_cookie"
     },
     timeout:5000,
     class_name:'番剧&国创&电影&电视剧&纪录片&综艺&全部&追番&追剧&时间表',
@@ -43,5 +58,55 @@ var rule = {
     搜索:'',
     搜索:'js:let url1=input+"media_bangumi";let url2=input+"media_ft";let html=request(url1);let msg=JSON.parse(html).message;if(msg!=="0"){VODS=[{vod_name:KEY+"➢"+msg,vod_id:"no_data",vod_remarks:"别点,缺少bili_cookie",vod_pic:"https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/404.jpg"}]}else{let jo1=JSON.parse(html).data;html=request(url2);let jo2=JSON.parse(html).data;let videos=[];let vodList=[];if(jo1["numResults"]===0){vodList=jo2["result"]}else if(jo2["numResults"]===0){vodList=jo1["result"]}else{vodList=jo1["result"].concat(jo2["result"])}vodList.forEach(function(vod){let aid=(vod["season_id"]+"").trim();let title=KEY+"➢"+vod["title"].trim().replace(\'<em class="keyword">\',"").replace("</em>","");let img=vod["cover"].trim();let remark=vod["index_show"];videos.push({vod_id:aid,vod_name:title,vod_pic:img,vod_remarks:remark})});VODS=videos}',
     lazy:'',
-    lazy:'js:if(/^http/.test(input)){input={jx:1,url:input,parse:0,header:JSON.stringify({"user-agent":"Mozilla/5.0"})}}else{let ids=input.split("_");let result={};let url="https://api.bilibili.com/pgc/player/web/playurl?qn=116&ep_id="+ids[0]+"&cid="+ids[1];let html=request(url);let jRoot=JSON.parse(html);if(jRoot["message"]!=="success"){print("需要大会员权限才能观看");input=""}else{let jo=jRoot["result"];let ja=jo["durl"];let maxSize=-1;let position=-1;ja.forEach(function(tmpJo,i){if(maxSize<Number(tmpJo["size"])){maxSize=Number(tmpJo["size"]);position=i}});let url="";if(ja.length>0){if(position===-1){position=0}url=ja[position]["url"]}result["parse"]=0;result["playUrl"]="";result["url"]=url;result["header"]={Referer:"https://www.bilibili.com","User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"};result["contentType"]="video/x-flv";input=result}}',
+    lazy:`js:
+        if (/^http/.test(input)) {
+            input = {
+                jx: 1,
+                url: input,
+                parse: 0,
+                header: JSON.stringify({
+                    "user-agent": "Mozilla/5.0"
+                })
+            }
+        } else {
+            let ids = input.split("_");
+            let dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + ids[1];
+            let result = {};
+            let url = "https://api.bilibili.com/pgc/player/web/playurl?qn=116&ep_id=" + ids[0] + "&cid=" + ids[1];
+            let html = request(url);
+            let jRoot = JSON.parse(html);
+            if (jRoot["message"] !== "success") {
+                print("需要大会员权限才能观看");
+                input = ""
+            } else {
+                let jo = jRoot["result"];
+                let ja = jo["durl"];
+                let maxSize = -1;
+                let position = -1;
+                ja.forEach(function(tmpJo, i) {
+                    if (maxSize < Number(tmpJo["size"])) {
+                        maxSize = Number(tmpJo["size"]);
+                        position = i
+                    }
+                });
+                let url = "";
+                if (ja.length > 0) {
+                    if (position === -1) {
+                        position = 0
+                    }
+                    url = ja[position]["url"]
+                }
+                result["parse"] = 0;
+                result["playUrl"] = "";
+                result["url"] = url;
+                result["header"] = {
+                    Referer: "https://www.bilibili.com",
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+                };
+                result["contentType"] = "video/x-flv";
+                result["danmaku"] = dan;
+                input = result
+            }
+        }
+    `,
 }

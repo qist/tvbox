@@ -1,21 +1,21 @@
-/* 直播弹幕 -> vod_area:'bililivedanmu'
-目前只有皮皮虾大佬的DMBox, 支持弹幕
-DMBox下载:https://t.me/pipixiawerun
-设置 > 窗口预览 > 开启
-*/
-
-/* Cookie设置
-Cookie获取方法 https://ghproxy.net/https://raw.githubusercontent.com/UndCover/PyramidStore/main/list.md
-
-Cookie设置方法1: DR-PY 后台管理界面
-CMS后台管理 > 设置中心 > 环境变量 > {"bili_cookie":"XXXXXXX","vmid":"XXXXXX"} > 保存
-
-Cookie设置方法2: 手动替换Cookie
-底下代码 headers的
-"Cookie":"$bili_cookie"
-手动替换为
-"Cookie":"将获取的Cookie黏贴在这"
-*/
+/**
+ * 影视TV 弹幕支持 
+    * https://t.me/fongmi_offical/
+    * https://github.com/FongMi/Release/tree/main/apk
+ * 皮皮虾DMBox 弹幕支持
+    * 设置 > 窗口预览 > 开启
+    * https://t.me/pipixiawerun
+    * vod_area:'bililivedanmu'
+ * Cookie设置
+    * Cookie获取方法 https://ghproxy.net/https://raw.githubusercontent.com/UndCover/PyramidStore/main/list.md
+ * Cookie设置方法1: DR-PY 后台管理界面
+    * CMS后台管理 > 设置中心 > 环境变量 > {"bili_cookie":"XXXXXXX","vmid":"XXXXXX"} > 保存
+ * Cookie设置方法2: 手动替换Cookie
+    * 底下代码 headers的
+    * "Cookie":"$bili_cookie"
+    * 手动替换为
+    * "Cookie":"将获取的Cookie黏贴在这"
+ */
 
 var rule = {
     title:'哔哩直播',
@@ -27,7 +27,7 @@ var rule = {
     filterable: 1,
     filter_url: '{{fl.area}}',
     filter_def:{
-        10:{area:'33'},
+        10:{area:'624'},
         2:{area:'86'},
         3:{area:'35'},
         6:{area:'236'},
@@ -58,7 +58,7 @@ var rule = {
         "User-Agent":"PC_UA",
         "Referer": "https://www.bilibili.com",
         // "Cookie":"$bili_cookie"
-        "Cookie":"http://127.0.0.1:9978/file/tvfan/cookie.txt"
+        "Cookie":"https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"
     },
     timeout:5000,
     limit:8,
@@ -66,7 +66,35 @@ var rule = {
     // play_json:[{re:'*', json:{jx:0, parse:1,header:JSON.stringify({"user-agent":"Mozilla/5.0 (Linux; U; Android 9; zh-CN; MI 9 Build/PKQ1.181121.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.5.5.1035 Mobile Safari/537.36"})}}],
     // play_json:[{re:'*', json:{jx:0, parse:1,header:JSON.stringify({"user-agent":"uc_ua"})}}],
     // play_json:0,
-    lazy:"js:let ids=input.split('_');let result={};let iurl='https://api.live.bilibili.com/room/v1/Room/playUrl?cid='+ids[1]+'&'+ids[0];let html=request(iurl);let jRoot=JSON.parse(html);let jo=jRoot['data'];let ja=jo['durl'];let purl='';if(ja.length>0){purl=ja[0]['url']}result['parse']=0;result['playUrl']='';result['url']=unescape(purl);result['header']={Referer:'https://live.bilibili.com','User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'};if(/h5/.test(ids[0])){result['contentType']='';input=result}else{result['contentType']='video/x-flv';input=result}",
+    lazy:`js:
+        let ids = input.split('_');
+        let dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + ids[1];
+        let result = {};
+        let iurl = 'https://api.live.bilibili.com/room/v1/Room/playUrl?cid=' + ids[1] + '&' + ids[0];
+        let html = request(iurl);
+        let jRoot = JSON.parse(html);
+        let jo = jRoot['data'];
+        let ja = jo['durl'];
+        let purl = '';
+        if (ja.length > 0) {
+            purl = ja[0]['url']
+        }
+        result['parse'] = 0;
+        result['playUrl'] = '';
+        result['url'] = unescape(purl);
+        result['header'] = {
+            Referer: 'https://live.bilibili.com',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+        };
+        result['danmaku'] = dan;
+        if (/h5/.test(ids[0])) {
+            result['contentType'] = '';
+            input = result
+        } else {
+            result['contentType'] = 'video/x-flv';
+            input = result
+        }
+    `,
     double:false,
     推荐:'*',
     一级:'json:data.list;title;system_cover;uname;roomid',

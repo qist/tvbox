@@ -1,25 +1,21 @@
-/* 直播弹幕 -> vod_area:'bilidanmu'
-目前只有皮皮虾大佬的DMBox, 支持弹幕
-DMBox下载:https://t.me/pipixiawerun
-设置 > 窗口预览 > 开启
-*/
-
-/* Cookie设置
-Cookie改为预设获取蜂蜜大佬Github的
-https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt
-
-Cookie获取方法
-https://ghproxy.net/https://raw.githubusercontent.com/UndCover/PyramidStore/main/list.md
-
-Cookie设置方法1: DR-PY 后台管理界面
-CMS后台管理 > 设置中心 > 环境变量 > {"bili_cookie":"XXXXXXX","vmid":"XXXXXX"} > 保存
-
-Cookie设置方法2: 手动替换Cookie
-底下代码 headers的
-"Cookie":"$bili_cookie"
-手动替换为
-"Cookie":"将获取的Cookie黏贴在这"
-*/
+/**
+ * 影视TV 弹幕支持 
+    * https://t.me/fongmi_offical/
+    * https://github.com/FongMi/Release/tree/main/apk
+ * 皮皮虾DMBox 弹幕支持
+    * 设置 > 窗口预览 > 开启
+    * https://t.me/pipixiawerun
+    * vod_area:'bilidanmu'
+ * Cookie设置
+    * Cookie获取方法 https://ghproxy.net/https://raw.githubusercontent.com/UndCover/PyramidStore/main/list.md
+ * Cookie设置方法1: DR-PY 后台管理界面
+    * CMS后台管理 > 设置中心 > 环境变量 > {"bili_cookie":"XXXXXXX","vmid":"XXXXXX"} > 保存
+ * Cookie设置方法2: 手动替换Cookie
+    * 底下代码 headers的
+    * "Cookie":"$bili_cookie"
+    * 手动替换为
+    * "Cookie":"将获取的Cookie黏贴在这"
+ */
 
 var rule = {
     title:'我的哔哩',
@@ -109,13 +105,14 @@ var rule = {
         "Referer": "https://www.bilibili.com",
         // "Cookie":"$bili_cookie"
         // "Cookie":"https://ghproxy.net/https://github.com/FongMi/CatVodSpider/raw/main/txt/cookie.txt"
-        "cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"
+        "Cookie":"https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"
     },
     timeout:5000,
     limit:8,
     play_parse:true,
     lazy:`js:
         let ids = input.split('_');
+        let dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + ids[1];
         let result = {};
         let iurl = 'https://api.bilibili.com:443/x/player/playurl?avid=' + ids[0] + '&cid=' + ids[1] + '&qn=116';
         let html = request(iurl);
@@ -145,6 +142,7 @@ var rule = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
         };
         result.contentType = 'video/x-flv';
+        result.danmaku = dan;
         input = result
     `,
     double:false,
