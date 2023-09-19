@@ -6,7 +6,7 @@
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
 {"key":"drpy_js_网飞.TV","name":"影视 | 网飞.TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/网飞.TV.js"},
-{"key":"迪迪","name":"影视 | 迪迪[App]","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar","ext":"http://22222.yiyingys.asia/api.php/app/"},
+{"key":"迪迪","name":"影视 | 迪迪[App]","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar","ext":"https://api123.adys.app/xgapp.php/v3/"},
 {"key": "csp_WoGG","name": "👽玩偶哥哥┃4K","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/fty.jar","ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
 {"key":"Czsapp","name":"影视 | 厂长资源[直连]","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar"},
 {"key":"zxzj","name":"影视 | 在线之家[直连]","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fty.jar","ext":"https://www.zxzj.pro/"},
