@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;90d766a2f75763abd1ed1d31db5cb936",
+  "spider": "./jar/custom_spider.jar;md5;c5b10629e8a887e330888d5907eaa800",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -135,7 +135,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "沙雕动漫#帕梅拉#舞蹈#音乐#风景#演唱会#记录片",
+        "categories": "帕梅拉#音乐#舞蹈#风景#美食#科普#历史#法考#医考",
         "cookie": ""
       }
     },
@@ -289,7 +289,9 @@
         "haiwaikan"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:2.93[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        "8.1748",
+        "10.0099",
+        "10.3333"
       ]
     },
     {

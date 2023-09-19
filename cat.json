@@ -2,7 +2,6 @@
 "lives":[{"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "sites":[
 {"key":"wogg_open","name":"影视 | 玩偶","type":3,"api":"./cat/js/wogg_open.js","ext":"http://127.0.0.1:9978/file/tvfan/token.txt"},
-{"key":"ytvip","name":"影视 | 影探","type":3,"api":"./cat/yt.js","ext":"http://ytcms.lyyytv.cn/api.php/app/"},
 {"key":"kunyu77","name":"影视 | 七七","type":3,"api":"./cat/js/kunyu77_open.js"},
 {"key":"czzy","name":"影视 | 厂长","type":3,"api":"./cat/js/czzy_open.js"},
 {"key":"libvio","name":"影视 | libvio","type":3,"api":"./cat/js/libvio_open.js"},
@@ -14,6 +13,9 @@
 {"key":"duboku2_open","name":"影视 | 独播库2","type":3,"api":"./cat/js/duboku2_open.js"},
 {"key":"subaibai","name":"影视 | 素白白","type":3,"api":"./cat/js/subaibai_open.js"},
 {"key":"drpy_js_zxzj_open","name":"影视 | 在线之家","type":3,"api":"./cat/js/zxzj_open.js"},
+{"key":"230ts","name":"听书 | 爱上你听书","type":3,"api":"./cat/js/230ts_book_open.js"},
+{"key":"bookan","name":"听书 | 博看听书","type":3,"api":"./cat/js/MyCatBookan.js"},
+{"key":"dj0898","name":"音频 | 世纪DJ","type":3,"api":"./cat/js/dj0898_book_open.js"},
 {"key":"drpy_js_boosj_open","name":"少儿 | 童趣","type":3,"api":"./cat/js/boosj_open.js"},
 {"key":"drpy_js_tuxiaobei_open","name":"少儿 | 兔小贝","type":3,"api":"./cat/js/tuxiaobei_open.js"},
 {"key":"drpy_js_ubestkid_open","name":"少儿 | 贝乐虎","type":3,"api":"./cat/js/ubestkid_open.js"},
@@ -39,5 +41,5 @@
 {"key":"dadou","name":"影视 | 大豆","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://www.dadou.cm/api.php/app/"},
 {"key":"qtw","name":"影视 | 彩虹","type":3,"api":"./cat/js/AppYsV2.js","ext":"http://ys.qtw.asia/lvdou_api.php/v1.vod"}
 ],
-"rules":[{"name":"海外看","hosts":["haiwaikan"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:2.93[\\s\\S]*?#EXT-X-DISCONTINUITY"]},{"name":"lz","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"ff","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"bf","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"hs","hosts":["huoshan.com"],"regex":["item_id="]},{"name":"dy","hosts":["douyin.com"],"regex":["is_play_url="]},{"name":"cl","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]}]
+"rules":[{"name":"海外看","hosts":["haiwaikan"],"regex":["8.1748","10.0099","10.3333"]},{"name":"lz","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"ff","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"bf","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},{"name":"hs","hosts":["huoshan.com"],"regex":["item_id="]},{"name":"dy","hosts":["douyin.com"],"regex":["is_play_url="]},{"name":"cl","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]}]
 }

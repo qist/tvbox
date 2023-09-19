@@ -32,13 +32,45 @@ var rule = {
     },
     timeout: 5000,
     play_parse: true,
-    lazy: '',
+    // lazy: '',
+    lazy:`js:
+        let purl = input.split("|")[0];
+        let pfrom = input.split("|")[1];
+        let cid = input.split("|")[2];
+        print("purl:" + purl);
+        print("pfrom:" + pfrom);
+        print("cid:" + cid);
+        let dan = 'https://api.bilibili.com/x/v1/dm/list.so?oid=' + cid;
+        if (/bilibili/.test(pfrom)){
+            let result = {};
+            result['parse'] = 0;
+            result['playUrl'] = '';
+            result['url'] = unescape(purl);
+            result['header'] = {
+                Referer: 'https://live.bilibili.com',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+            };
+            result['danmaku'] = dan;
+            if (/h5/.test(purl)) {
+                result['contentType'] = '';
+                input = result
+            } else {
+                result['contentType'] = 'video/x-flv';
+                input = result
+            }
+        } else {
+            input = purl
+        }
+    `,
     limit: 6,
     推荐: '*',
     一级: 'json:data;roomName;roomPic;ownerName;roomId',
     // 二级: 'js:var d=[];var jo=JSON.parse(request(input)).data;VOD={vod_id:jo.roomId,vod_name:jo.roomName,vod_pic:jo.roomPic,type_name:jo.platForm.replace("huya","虎牙").replace("douyu","斗鱼").replace("cc","网易CC").replace("bilibili","哔哩哔哩")+"."+jo.categoryName,vod_content:"🏷分区："+jo.platForm.replace("huya","虎牙").replace("douyu","斗鱼").replace("cc","网易CC").replace("bilibili","哔哩哔哩")+"·"+jo.categoryName+" 🏷UP主："+jo.ownerName+" 🏷人气："+jo.online+(jo.isLive===1?" 🏷状态：正在直播":"状态：未开播")};var playurl=JSON.parse(request("http://live.yj1211.work/api/live/getRealUrl?platform="+jo.platForm+"&roomId="+jo.roomId)).data;var name={"OD":"原画","FD":"流畅","LD":"标清","SD":"高清","HD":"超清","2K":"2K","4K":"4K","FHD":"全高清","XLD":"极速","SQ":"普通音质","HQ":"高音质"};Object.keys(playurl).forEach(function(key){if(!/ayyuid|to/.test(key)){d.push({title:name[key],url:playurl[key]})}});VOD.vod_play_from="选择画质";VOD.vod_play_url=d.map(function(it){return it.title+"$"+it.url}).join("#");setResult(d)',
     二级: `js:
         var d = [];
+        if (typeof play_url === "undefined") {
+            var play_url = ""
+        }
         input = /platform=&/.test(input) ? input.replace("platform=", "platform=bilibili") : input;
         var jo = JSON.parse(request(input)).data;
         VOD = {
@@ -72,7 +104,8 @@ var rule = {
         });
         VOD.vod_play_from = "选择画质";
         VOD.vod_play_url = d.map(function(it) {
-            return it.title + "$" + it.url
+            // return it.title + "$" + it.url
+            return it.title + "$" + play_url + urlencode(it.url + "|" + jo.platForm + "|" + jo.roomId)
         }).join("#");
         setResult(d)
     `,

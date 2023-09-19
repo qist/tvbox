@@ -156,22 +156,22 @@ let d=[];
 let dlist = pdfa(search_html, 'div#list_all li');
 dlist.forEach(function(it){
 	let title = pdfh(it, 'img.lazy&&alt');
-	if (searchObj.quick === true){
-		if (false && title.includes(KEY)){
+	if (title.includes(KEY)){
+		if (searchObj.quick === true){
 			title = KEY;
 		}
+		let img = pd(it, 'img.lazy&&src', HOST);
+		let content = pdfh(it, 'div.text_info h2&&Text');
+		let desc = pdfh(it, 'p.info&&Text');
+		let url = pd(it, 'a&&href', HOST);
+		d.push({
+			title:title,
+			img:img,
+			content:content,
+			desc:desc,
+			url:url
+			})
 	}
-	let img = pd(it, 'img.lazy&&src', HOST);
-	let content = pdfh(it, 'div.text_info h2&&Text');
-	let desc = pdfh(it, 'p.info&&Text');
-	let url = pd(it, 'a&&href', HOST);
-	d.push({
-		title:title,
-		img:img,
-		content:content,
-		desc:desc,
-		url:url
-		})
 });
 setResult(d);
 `,

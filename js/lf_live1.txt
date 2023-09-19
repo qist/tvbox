@@ -13,4 +13,4 @@ https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m
 #atsushi
 https://ghproxy.com/https://raw.githubusercontent.com/atsushi444/iptv-epg/main/Adult.m3u
 #AV集
-../livex.txt
+../livex.m3u

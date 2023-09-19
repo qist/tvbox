@@ -96,7 +96,7 @@ if (typeof setCk !== "undefined"){
 	rule_fetch_params.headers.Cookie=cookie;
 }
 log('aipanso search cookie >>>>>>>>>>>>>>>>>>>>>' + cookie);
-log('aipanso search body >>>>>>>>>>>>>>>>>>>>>' + json['body'].substring(4096));
+//log('aipanso search body >>>>>>>>>>>>>>>>>>>>>' + json['body'].substring(4096));
 
 new_html = json['body'];
 
@@ -104,22 +104,22 @@ let d=[];
 let dlist = pdfa(new_html, 'van-row:has(>a[href^="/s/"])');
 dlist.forEach(function(it){
 	let title = pdfh(it, 'van-card template&&Text');
-	if (false && searchObj.quick === true){
-		if (title.includes(KEY)){
+	if (title.includes(KEY)){
+		if (searchObj.quick === true){
 			title = KEY;
 		}
+		let img = pd(it, 'van-card&&thumb', HOST);
+		let content = pdfh(it, 'van-card template:eq(1)&&Text');
+		let desc = pdfh(it, 'van-card template:eq(1)&&Text');
+		let url = pd(it, 'a&&href', HOST);
+		d.push({
+			title:title,
+			img:img,
+			content:content,
+			desc:desc,
+			url:url
+			})
 	}
-	let img = pd(it, 'van-card&&thumb', HOST);
-	let content = pdfh(it, 'van-card template:eq(1)&&Text');
-	let desc = pdfh(it, 'van-card template:eq(1)&&Text');
-	let url = pd(it, 'a&&href', HOST);
-	d.push({
-		title:title,
-		img:img,
-		content:content,
-		desc:desc,
-		url:url
-		})
 });
 setResult(d);
 `,

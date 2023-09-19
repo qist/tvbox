@@ -6,7 +6,7 @@ let siteKey = '';
 let siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 // let cookie = "DedeUserID=690781341;DedeUserID__ckMd5=cabc96906269c5b6;SESSDATA=2245ba24%2C1684212125%2C466fd%2Ab2;bili_jct=de6fdb60c10f8a83910aa55d79407b4e;"; // 可更换成自己的cookie
-let cookie = "share_source_origin=COPY; CURRENT_PID=b6f4a900-bbdc-11ed-8bc4-a5551e2e4380; is-2022-channel=1; balh_server_inner=__custom__; balh_is_closed=; DedeUserID=27920332; DedeUserID__ckMd5=f2faee56e92fd0c0; b_ut=5; balh_curr_season_id=5551; balh_season_000=1; nostalgia_conf=-1; balh_season_ss28741=1; balh_season_ss28695=1; fingerprint=b14d3c1860864e3309b44d44be2fac67; buvid_fp=b14d3c1860864e3309b44d44be2fac67; _uuid=66A34B75-D5A9-FF17-B5F6-C521099A103F6471434infoc; SESSDATA=5aa5b972%2C1697210785%2Cfe82f%2A41; bili_jct=aaf1e2ee7362d219b6c2606c4a2f737d; sid=6kdrgxjx; hit-dyn-v2=1; innersign=0; bsource=search_bing; CURRENT_QUALITY=16; buvid3=E6C22A4B-99FF-7A12-68D0-1EAFBFD3E6B717236infoc; i-wanna-go-back=-1; buvid4=C7BC72DA-447B-F3FB-F2DA-A9014A5C7EC821046-023090207-C2DCShFULkh3F48wkgUxew%3D%3D; CURRENT_FNVAL=4048; b_nut=100; bp_t_offset_27920332=838213810431983618; b_lsid=1099CD2C4_18A7328534A; header_theme_version=CLOSE; home_feed_column=4; browser_resolution=450-692"; // 可更换成自己的cookie
+let cookie = "填自己的bili cookie"; // 可更换成自己的cookie
 
 async function request(reqUrl) {
   const res = await req(reqUrl, {

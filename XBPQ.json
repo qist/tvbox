@@ -1,5 +1,5 @@
 {
-	"spider": "./jar/XBPQ.jar;md5;f20b74480c058b1ff6236601f92d65a8",
+	"spider": "./jar/XBPQ.jar;md5;2648825eee03cb548b2c411002a7aad9",
 	"wallpaper": "http://xhww.fun:63/img.php",
 	"sites": [{
 			"key": "豆豆",
@@ -101,14 +101,12 @@
 		{
 			"key": "yumi1",
 			"name": "玉米┃APP",
-			"type": 3,
-			"api": "csp_AppYsV2",
-			"jar": "./jar/XBPQ1.jar;md5;fa797d3f25f35eb3fea9a369bc55620f",
+			"type": 1,
+			"api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/",
 			"searchable": 1,
 			"quickSearch": 1,
-			"playerType": 2,
-			"filterable": 1,
-			"ext": "http://caiji.ghlyys.com/yumi/api.php/app/"
+			"playerType": 1,
+			"filterable": 1
 		},
 		{
 			"key": "贱贱",
@@ -179,7 +177,7 @@
 			"changeable": 1,
 			"filterable": 1,
 			"jar": "./jar/XBPQ1.jar;md5;fa797d3f25f35eb3fea9a369bc55620f",
-			"ext": "http://cms.jialiangos.com/api.php/app/"
+			"ext": "http://cms.jialiangos.com/api.php/app/;;v"
 		},
 		{
 			"key": "Xinsj",
@@ -417,7 +415,7 @@
 				"简介": "display: none;\">&&</span>",
 				"分类": "电视剧$2#电影$1#综艺$3#动漫$4",
 				"分类url": "https://ddys.fun//show/{cateId}--{area}------{catePg}---{year}.html;;au0",
-				"跳转解析": "默认$空#极速-02$http://118.25.184.129:9668/?url=#极速-01$http://118.25.184.129:9668/?url=#蓝光-Ymv$http://110.42.3.71:5000/api/jiexi/xg?Key=hJkso9SXsEnq2IZ34i&url=#蓝光-put$https://jiexi.ahailove.cn/qingjian.php?url=",
+				"跳转解析": "默认$空#极速-02$http://118.25.184.129:9668/?url=#极速-01$http://118.25.184.129:9668/?url=#蓝光-Ymv$http://110.42.3.71:5000/api/jiexi/common?Key=R9Ah232tBzRxK9oC9m&url=#蓝光-put$https://jiexi.ahailove.cn/qingjian.php?url=",
 				"跳转播放链接": "解析+urlDecode(Base64(vod_class*url\":\"&&\"))",
 				"二次跳转播放链接": "\"url\"*\"&&\""
 			}
@@ -435,7 +433,7 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": "1",
-			"jar": "./jar/XBPQ1.jar;md5;fa797d3f25f35eb3fea9a369bc55620f",
+			"jar": "./jar/XBPQ2.jar;md5;d86999aba43144a25646757a06363b8f",
 			"ext": {
 				"数组": "class=\"top&&</li",
 				"嗅探词": ".m3u8#.mp4#download-cdn.123pan.cn",
@@ -460,8 +458,8 @@
 				"搜索图片": "https://s1.ax1x.com/2023/07/13/pChRQaD.jpg",
 				"搜索标题": "xt\":\"&&\"",
 				"搜索副标题": "\"website\":\"&&\"",
-				"搜索链接": "https://www.ssyy.run/v_+\"url\":\"https://www.ssyy.run/project-&&.html\"+_1_1.html",
-				"分类url": "https://www.ssyy.run/vodshow-{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html;;a",
+				"搜索链接": "https://www.sstv.pw/v_+\"url\":\"https://www.ssyy.run/project-&&.html\"+_1_1.html",
+				"分类url": "https://www.sstv.pw/vodshow-{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html;;a",
 				"分类": "电影$1#剧集$2#综艺$3#动漫$4#纪录$21"
 			}
 

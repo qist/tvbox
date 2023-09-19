@@ -4,6 +4,9 @@
 {"key":"wogg","name":"影视 | 玩偶2","type":3,"api":"assets://js/wogg.js","ext":"填自己的32位token"},
 {"key":"ytvip","name":"影视 | 影探","type":3,"api":"assets://js/yt.js","ext":"http://ytcms.lyyytv.cn/api.php/app/"},
 {"key":"yqktv_open","name":"影视 | 一起看","type":3,"api":"assets://js/yqktv_open.js"},
+{"key":"555dy_open","name":"影视 | 555","type":3,"api":"assets://js/555dy_open.js"},
+{"key":"yrzj_open","name":"影视 | 伊人追剧","type":3,"api":"assets://js/yrzj_open.js"},
+{"key":"yzys_open","name":"影视 | 柚子影视","type":3,"api":"assets://js/yzys_open.js"},
 {"key":"kunyu77","name":"影视 | 七七","type":3,"api":"assets://js/kunyu77_open.js"},
 {"key":"czzy","name":"影视 | 厂长","type":3,"api":"assets://js/czzy_open.js"},
 {"key":"libvio","name":"影视 | libvio","type":3,"api":"assets://js/libvio_open.js"},
@@ -80,10 +83,10 @@
 {"key":"api.apilyzy.com","name":"成人 | 成人52","type":3,"api":"assets://js/caiji.js","ext":"https://api.apilyzy.com/api.php/provide/vod/"}
 ]},
 "read":{"sites":[
-{"key":"dj0898","name":"世纪DJ","type":3,"api":"./dj0898_book_open.js"},
-{"key":"230ts","name":"爱上你听书","type":10,"api":"./230ts_book_open.js"},
-{"key":"laobaigushi","name":"老白故事","type":10,"api":"./lbgs_open.js"},
-{"key":"bookan","name":"博看听书","type":10,"api":"assets://js/bookan_open.js"}
+{"key":"230ts","name":"爱上你听书","type":10,"api":"assets://js/230ts_book_open.js"},
+{"key":"laobaigushi","name":"老白故事","type":10,"api":"assets://js/lbgs_open.js"},
+{"key":"bookan","name":"博看听书","type":10,"api":"assets://js/bookan_open.js"},
+{"key":"dj0898","name":"世纪DJ","type":3,"api":"assets://js/dj0898_book_open.js"}
 ]},
 "pan":{"sites":[
 {"key":"alist","name":"Alist","type":40,"api":"assets://js/alist_open.js","ext":[
