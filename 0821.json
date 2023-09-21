@@ -31,7 +31,7 @@
 {"key":"小纸条_cli","name":"小纸条┃俊于","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt","timeout":30},
 {"key":"lf_js_p2p","name":"磁力┃路飞","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","timeout":30},
 {"key":"lf_js_lf_live","name":"直播┃路飞","type":3,"api":"./lib/lf_live_min.js","recordable":0,"style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
-{"key":"csp_Sp360","name":"弹幕┃360影视","type":3,"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"jar":"./jar/920.jar;md5;55b9ed9bd753467af6e640857d715a76"},
+{"key":"csp_Sp360","name":"弹幕┃360影视","type":3,"api":"csp_Sp360","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"jar":"./jar/921.jar;md5;76deb5960cc11f28caa261a98c49fb45"},
 
 {"key":"迪迪","name":"迪迪┃App","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://22222.yiyingys.asia/api.php/app/"},
 {"key":"Czsapp","name":"厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
