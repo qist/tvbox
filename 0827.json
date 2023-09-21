@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;c5b10629e8a887e330888d5907eaa800",
+  "spider": "./jar/custom_spider.jar;md5;f6c79a469fd9a93db4dbd5fb568b705a",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -75,7 +75,23 @@
       "key": "暴風",
       "name": "暴風",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "索尼",
+      "name": "索尼 ",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "快帆",
+      "name": "快帆",
+      "type": 1,
+      "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1
     },

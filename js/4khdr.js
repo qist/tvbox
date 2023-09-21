@@ -12,7 +12,7 @@ var rule = {
 	filterable:0,
 	headers:{
 		'User-Agent': 'PC_UA',
-         	'Cookie':'hvLw_2132_saltkey=TIHLl6lF; hvLw_2132_lastvisit=1692640733; hvLw_2132_visitedfid=2; hvLw_2132_sendmail=1; _clck=bmvlfv|2|fec|0|1328; hvLw_2132_seccodecSAH73=7547.d0a543395de43bfa49; hvLw_2132_ulastactivity=1692644363%7C0; hvLw_2132_auth=8608dKQC6bKMZh5FKg09ZhhWjbrygDZw3i%2FXQTK6RYYYKIhxi%2FVywBubisxssBZlQ%2BNfz9nK3ZiCNnUvF9HlL%2Fehrg; hvLw_2132_lastcheckfeed=99213%7C1692644363; hvLw_2132_checkfollow=1; hvLw_2132_lip=163.204.43.186%2C1692644363; hvLw_2132_sid=0; hvLw_2132_checkpm=1; hvLw_2132_noticeTitle=1; _clsk=x9bivq|1692644368391|2|1|x.clarity.ms/collect; hvLw_2132_lastact=1692644370%09index.php%09forumdisplay; hvLw_2132_st_t=99213%7C1692644370%7Ceeabd9f3f324a9138f1be3cc46fdcd01; hvLw_2132_forum_lastvisit=D_2_1692644370',
+         	'Cookie':'http://127.0.0.1:9978/file:///tvbox/JS/lib/4khdr.txt',
 	},
 	timeout:5000,
 	class_name: "4K电影&4K美剧&4K华语&4K动画&4K纪录片&4K日韩印&蓝光电影&蓝光美剧&蓝光华语&蓝光动画&蓝光日韩印",
@@ -37,56 +37,108 @@ var rule = {
 		tabs:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 TABS=[]
-let d = pdfa(html, 'table.t_table');
-let aliIndex=1;
+let d = pdfa(html, 'div.pcb table.t_table a');
+let tabsa = [];
+let tabsq = [];
+let tabsm = false;
+let tabse = false;
 d.forEach(function(it) {
 	let burl = pdfh(it, 'a&&href');
-	log("burl >>>>>>" + burl);
 	if (burl.startsWith("https://www.aliyundrive.com/s/")){
-		TABS.push("aliyun"+aliIndex);
-		aliIndex = aliIndex + 1;
+		tabsa.push("阿里雲盤");
+	}else if (burl.startsWith("https://pan.quark.cn/s/")){
+		tabsq.push("夸克網盤");
+	}else if (burl.startsWith("magnet")){
+		tabsm = true;
+	}else if (burl.startsWith("ed2k")){
+		tabse = true;
 	}
 });
-d = pdfa(html, 'table.t_table a[href^="magnet"]');
-if (d.length>0){
+if (tabsm === true){
 	TABS.push("磁力");
 }
+if (tabse === true){
+	TABS.push("電驢");
+}
+if (false && tabsa.length + tabsq.length > 1){
+	TABS.push("選擇右側綫路");
+}
+let tmpIndex;
+tmpIndex=1;
+tabsa.forEach(function(it){
+	TABS.push(it + tmpIndex);
+	tmpIndex = tmpIndex + 1;
+});
+tmpIndex=1;
+tabsq.forEach(function(it){
+	TABS.push(it + tmpIndex);
+	tmpIndex = tmpIndex + 1;
+});
 log('4khdr TABS >>>>>>>>>>>>>>>>>>' + TABS);
 `,
 		lists:`js:
 log(TABS);
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 LISTS = [];
-let d = pdfa(html, 'table.t_table');
-d.forEach(function(it){
-	let burl = pdfh(it, 'a&&href');
-	if (burl.startsWith("https://www.aliyundrive.com/s/")){
-		let title = pdfh(it, 'a&&Text');
-		log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-		burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(burl);
-		log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-		let loopresult = title + '$' + burl;
-		LISTS.push([loopresult]);
-	}
-});
+let d = pdfa(html, 'div.pcb table.t_table a');
+let lista = [];
+let listq = [];
 let listm = [];
+let liste = [];
 d.forEach(function(it){
 	let burl = pdfh(it, 'a&&href');
-	if (burl.startsWith("magnet")){
-		let title = pdfh(it, 'a&&Text');
-		log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-		log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-		let loopresult = title + '$' + burl;
+	let title = pdfh(it, 'a&&Text');
+	log('4khdr title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
+	log('4khdr burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
+	let loopresult = title + '$' + burl;
+	if (burl.startsWith("https://www.aliyundrive.com/s/")){
+		if (true){
+		if (TABS.length==1){
+			burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&confirm=0&url=" + encodeURIComponent(burl);
+		}else{
+			burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(burl);
+		}
+		}else{
+			burl = 'push://' + burl;
+		}
+		loopresult = title + '$' + burl;
+		lista.push(loopresult);
+	}else if (burl.startsWith("https://pan.quark.cn/s/")){
+		if (true){
+		if (TABS.length==1){
+			burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&confirm=0&url=" + encodeURIComponent(burl);
+		}else{
+			burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&url=" + encodeURIComponent(burl);
+		}
+		}else{
+			burl = 'push://' + burl;
+		}
+		loopresult = title + '$' + burl;
+		listq.push(loopresult);
+	}else if (burl.startsWith("magnet")){
 		listm.push(loopresult);
+	}else if (burl.startsWith("ed2k")){
+		liste.push(loopresult);
 	}
 });
 if (listm.length>0){
 	LISTS.push(listm);
 }
+if (liste.length>0){
+	LISTS.push(liste);
+}
+if (false && lista.length + listq.length > 1){
+	LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
+}
+lista.forEach(function(it){
+	LISTS.push([it]);
+});
+listq.forEach(function(it){
+	LISTS.push([it]);
+});
 `,
 
 	},
-	一级:'ul#waterfall li;a&&title;img&&src;div.auth.cl&&Text;a&&href',
 	搜索:`js:
 pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 if (rule_fetch_params.headers.Cookie.startsWith("http")){
@@ -99,7 +151,7 @@ let new_host= HOST + '/search.php';
 let new_html=request(new_host);
 let formhash = pdfh(new_html, 'input[name="formhash"]&&value');
 log("4khdr formhash>>>>>>>>>>>>>>>" + formhash);
-let params = 'formhash=' + formhash + '&searchsubmit=yes&srchtxt=' + KEY;
+let params = 'formhash=' + formhash + '&searchsubmit=yes&srchtxt=' + encodeURIComponent(KEY);
 let _fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
 let postData = {
     body: params
