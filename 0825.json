@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fm.jar;md5;02a65fda9facfe6907d4b7583cd085ff",
+"spider":"./jar/fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
@@ -10,7 +10,9 @@
 {"key":"csp_YGP","name":"预告片","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"csp_Bili","name":"哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"recordable":0,"style":{"type":"rect","ratio":1.755},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"}},
 {"key":"csp_WoGG","name":"哥哥","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.json$$$https://www.wogg.xyz/", "timeout":30},
-{"key":"小纸条_cli","name":"小纸条T4","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
+{"key":"csp_Hdhive","name":"影巢","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"" , "timeout":30},
+{"key":"小纸条_cli","name":"小纸条","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
+{"key":"drpy_js_直播大全","name":"直播","type":3,"api":"./lib/live2cms.js","recordable":0,"style":{ "type":"oval"},"changeable":0,"ext":"./js/live2mv_data.json"},
 
 {"key":"Mayiys","name":"蚂蚁","type":3,"api":"csp_Mayiys","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
 {"key":"DDMJ","name":"米酷","type":3,"api":"csp_DDMJ","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"http://103.222.188.33:6688"},
@@ -25,11 +27,9 @@
 {"key":"巴士","name":"巴士","type":3,"api":"csp_Dm84","searchable":1,"changeable":1},
 {"key":"迪迪","name":"迪迪","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
 {"key":"哈喽","name":"哈喽","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://www.miniku.cc/xgapp.php/v1/"},
-{"key":"奇奇","name":"奇奇","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://mp4.ghlyys.com/api.php/app/"},
 
 {"key":"Gitcafe", "name": "纸条", "type": 3, "api": "csp_Gitcafe", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/token.json" , "timeout":30},
 {"key":"小紙條", "name": "小紙條", "type": 3, "api": "csp_XiaoZhiTiao", "searchable": 1, "quickSearch": 1, "filterable": 0, "ext":"http://127.0.0.1:9978/file/tvfan/token.json" , "timeout":30},
-{"key":"csp_Hdhive","name":"Hdhive","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.json" , "timeout":30},
 {"key":"七夜","name":"七夜","type":3,"api":"csp_Dovx","searchable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},
 {"key":"盤搜索","name":"盤搜索","type":3,"api":"csp_PanSearch","searchable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},
 {"key":"找資源","name":"找資源","type":3,"api":"csp_Zhaozy","searchable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},

@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fm.nogo.jar;md5;c404207948f73b1caec4dd3ca3dde3f8",
+"spider":"./jar/fm.nogo.jar;md5;bcefcd45476a9a2cf902b1c101db900e",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"YanG","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u"},
 {"name":"atsushi","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/atsushi444/iptv-epg/main/Adult.m3u"},
@@ -15,6 +15,7 @@
 {"key":"nivod18","name":"泥巴cat","type":3,"api":"./cat/js/nivod_op.js","ext":"做爱"},
 {"key":"mtsp_open","name":"mtspcat","type":3,"api":"./cat/js/mtsp_open.js"},
 {"key":"18av_open","name":"18avcat","type":3,"api":"./cat/js/18av_open.js"},
+{"key":"csp_SMB目录","name":"网络共享","type":3,"api":"csp_Smb4nas","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/smb.jar;md5;0ebaae84cd3d8a284c59734bb02f91dd","ext":"smb://MAIBENBEN:123@192.168.1.9/"},
 {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":{"drives":[{"name":"SOD","server":"https://a.sodaz.xyz"},{"name":"罗汉果","server":"https://lala-ofbip.run.goorm.site/"}]}},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1"},
 {"key":"量子","name":"量子","type":0,"api":"http://127.0.0.1:10079/?thread=0&url=https://cj.lziapi.com/api.php/provide/vod/at/xml/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&url=","searchable":1,"changeable":1,"categories":["伦理片"]},

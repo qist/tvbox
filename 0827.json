@@ -1,22 +1,15 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;f5b3145384dbe67650ea3fe783764bd0",
+  "spider": "./jar/custom_spider.jar;md5;da248d3decd2fb6776b2ce39013c3e6e",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
-    {
-      "key": "影視",
-      "name": "影視",
-      "type": 3,
-      "api": "csp_YingShi",
-      "searchable": 1,
-      "changeable": 1
-    },
     {
       "key": "泥巴",
       "name": "泥巴",
       "type": 3,
       "api": "csp_NiNi",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "proxy": true
     },
     {
       "key": "星星",
@@ -24,7 +17,8 @@
       "type": 3,
       "api": "csp_Star",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "proxy": true
     },
     {
       "key": "玩偶",
