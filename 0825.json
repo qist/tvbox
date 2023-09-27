@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fm.jar;md5;d2e28d65eb15a03c20cce6fb6c268701",
+"spider":"./jar/fm.jar;md5;233b20f6a5990616611d366b89bd2ff5",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
@@ -67,6 +67,7 @@
 {"key":"獨播","name":"獨播","type":3,"api":"csp_XPathMacFilter","searchable":1,"changeable":1,"ext":"./json/duboku.json$$$socks5://192.168.1.9:4592"},
 {"key":"量子","name":"量子","type":0,"api":"http://127.0.0.1:10079/?thread=0&proxy=socks5://192.168.1.9:4592&url=https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=socks5://192.168.1.9:4592&url=","categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","香港剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","体育","足球","篮球","网球","斯诺克"]},
 {"key":"非凡","name":"非凡","type":0,"api":"http://127.0.0.1:10079/?thread=0&proxy=socks5://192.168.1.9:4592&url=http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=socks5://192.168.1.9:4592&url=","categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","香港剧","欧美剧","记录片","台湾剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫"]},
+{"key":"haiwaikan","name":"海外看","type":1,"api":"https://haiwaikan.com/api.php/provide/vod","searchable":1,"changeable":1,"proxy":true},
 {"key":"暴風","name":"暴風","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"索尼","name":"索尼","type":1,"api":"https://suoniapi.com/api.php/provide/vod","searchable":1,"changeable":1},
 {"key":"快帆","name":"快帆","type":1,"api":"https://api.kuaifan.tv/api.php/provide/vod","searchable":1,"changeable":1},

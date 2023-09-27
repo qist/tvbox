@@ -1,9 +1,9 @@
 {
-	"spider": "./jar/XBPQ.jar;md5;d65c6f3f30d78e020e48588d511f2bfe",
+	"spider": "./jar/XBPQ.jar;md5;533f279c487b5bd34cf4947a7afbee34",
 	"wallpaper": "http://xhww.fun:63/img.php",
 	"sites": [{
 			"key": "豆豆",
-			"name": "豆瓣┃申明接口仅供测试",
+			"name": "豆瓣┃申明此接口仅供测试",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -12,7 +12,7 @@
 		},
 		{
 			"key": "Bili",
-			"name": "🅱哔哔┃抖音盒子商家是骗子",
+			"name": "🅱哔哔┃请于24小时内删除",
 			"type": 3,
 			"api": "csp_Bili",
 			"style": {
@@ -26,7 +26,7 @@
 		},
 		{
 			"key": "csp_WoGG",
-			"name": "🎬玩偶┃自营",
+			"name": "🎬玩偶┃阿里",
 			"type": 3,
 			"api": "csp_WoGG",
 			"changeable": 0,
@@ -36,7 +36,7 @@
 		},
 		{
 			"key": "saohuo",
-			"name": "骚火┃BPQ",
+			"name": "骚火┃直连",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
@@ -56,9 +56,10 @@
 				"三次跳转播放链接": "\"url\"*\"&&\""
 			}
 		},
+		{"key": "追忆","name": "追忆┃APP","type": 3,"api": "https://download.kstore.space/download/4927/Axkl/lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://smallmi.xiaohewanwan.love:63/zhuiyi.js"},
 		{
 			"key": "csp_77",
-			"name": "七七┃手机",
+			"name": "七七┃APP",
 			"type": 3,
 			"api": "csp_Kunyu77",
 			"searchable": 1,
@@ -67,7 +68,7 @@
 		},
 		{
 			"key": "探探",
-			"name": "🏵影探┃App",
+			"name": "🏵影探┃APP",
 			"type": 3,
 			"playerType": "1",
 			"api": "csp_YTVIP",
@@ -76,6 +77,15 @@
 			"changeable": 1,
 			"ext": "vip.lyyytv.cn"
 		},
+		 {
+            "key": "毛驴",
+            "name": "毛驴┃App",
+            "type": 3,
+            "api": "csp_Maolv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
 		{
 			"key": "csp_Czsapp",
 			"name": "🗯️厂长┃直连",
@@ -107,17 +117,7 @@
 			"changeable": 1,
 			"ext": "https://agit.ai/fantaiying/fty/raw/branch/master/json/nmys.json"
 		},
-		{
-			"key": "yumi1",
-			"name": "玉米┃APP",
-			"type": 1,
-			"api": "http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/",
-			"searchable": 1,
-			"playUrl": "json:http://110.42.3.71:5000/api/jiexi/common?Key=R9Ah232tBzRxK9oC9m&url=",
-			"quickSearch": 1,
-			"playerType": 1,
-			"filterable": 1
-		},
+		{"key":"csp_AppYsV2_YuMi","name":"玉米┃APP","type":3,"api":"csp_AppYsV2","playerType":2,"playUrl":"parse:玉米","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://ym.dytt996.com:3/api.php/app/","categories":["电影","电视剧","综艺","动漫","国产剧"]},
 		{
 			"key": "贱贱",
 			"name": "贱片┃磁力",
@@ -318,6 +318,7 @@
 				"分类": "电影$1#电视剧$2#动漫$3#综艺$4"
 			}
 		},
+		{"key": "嘉靓","name": "嘉良┃影视","type": 3,"api": "csp_AppYsV2","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext": "http://cms.jialiangos.com/api.php/app/"},
 		{
 			"key": "348",
 			"name": "348┃蓝光",
@@ -772,7 +773,7 @@
 		},
 		{
 			"key": "push_agent",
-			"name": "推送",
+			"name": "数据源于互联网搜索┃从无收费┃切勿相信付费接口┃有问题联系公众号：神秘的哥哥们",
 			"type": 3,
 			"api": "csp_Push",
 			"searchable": 1,
