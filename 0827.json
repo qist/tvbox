@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;08e60753eb29394b75c088e1f06dfb17",
+  "spider": "./jar/custom_spider.jar;md5;af5a163bf0ba899be92c5f44f3dde1d8",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -8,8 +8,7 @@
       "type": 3,
       "api": "csp_NiNi",
       "searchable": 1,
-      "changeable": 1,
-      "proxy": true
+      "changeable": 1
     },
     {
       "key": "星星",
@@ -17,8 +16,7 @@
       "type": 3,
       "api": "csp_Star",
       "searchable": 1,
-      "changeable": 1,
-      "proxy": true
+      "changeable": 1
     },
     {
       "key": "玩偶",
@@ -71,8 +69,7 @@
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
-      "changeable": 1,
-      "proxy": true
+      "changeable": 1
     },
     {
       "key": "暴風",
@@ -302,6 +299,25 @@
     }
   ],
   "rules": [
+    {
+      "name": "proxy",
+      "hosts": [
+        "raw.githubusercontent.com",
+        "googlevideo.com",
+        "cdn.v82u1l.com",
+        "cdn.iz8qkg.com",
+        "cdn.kin6c1.com",
+        "c.biggggg.com",
+        "c.olddddd.com",
+        "haiwaikan.com",
+        "www.histar.tv",
+        "youtube.com",
+        "uhibo.com",
+        ".*boku.*",
+        ".*nivod.*",
+        ".*ulivetv.*"
+      ]
+    },
     {
       "name": "海外看",
       "hosts": [

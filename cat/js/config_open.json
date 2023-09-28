@@ -9,6 +9,7 @@
 {"key":"yzys_open","name":"影视 | 柚子","type":3,"api":"assets://js/yzys_open.js"},
 {"key":"sssp_open","name":"影视 | 速搜","type":3,"api":"assets://js/sssp_open.js"},
 {"key":"bulei_open","name":"影视 | 布雷","type":3,"api":"assets://js/bulei_open.js"},
+{"key":"miku_open","name":"影视 | 咪咕","type":3,"api":"assets://js/miku_open"},
 {"key":"kunyu77","name":"影视 | 七七1","type":3,"api":"assets://js/kunyu77_open.js"},
 {"key":"kunyu77_yz","name":"影视 | 七七2","type":3,"api":"assets://js/kunyu77.js"},
 {"key":"czzy","name":"影视 | 厂长","type":3,"api":"assets://js/czzy_open.js"},
