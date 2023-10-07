@@ -63,7 +63,7 @@
 {"key":"drpy_js_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
 {"key":"drpy_js_量子影视","name":"影视 | 量子影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/量子影视.js"},
 {"key":"drpy_js_农民","name":"影视 | 农民影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/农民影视.js"},
-{"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
+
 {"key":"drpy_js_在线之家","name":"影视 | 在线之家[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/在线之家.js"},
 
 {"key":"drpy_js_热播库","name":"影视 | 热播库[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/热播库.js"},
@@ -235,7 +235,7 @@
 {"key":"drpy_js_思古影视","name":"影视 | 思古影视","type":3,"api":"./lib/drpy2.min.js","ext":"./js/思古影视.js"},
 {"key":"drpy_js_私人影院","name":"影视 | 私人影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/私人影院.js"},
 {"key":"drpy_js_素白白","name":"影视 | 素白白[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/素白白.js"},
-{"key":"drpy_js_网飞.TV","name":"影视 | 网飞.TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/网飞.TV.js"},
+
 {"key":"drpy_js_西瓜影院","name":"影视 | 西瓜影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/西瓜影院.js"},
 {"key":"drpy_js_蜥蜴影视","name":"影视 | 蜥蜴影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蜥蜴影视.js"},
 {"key":"drpy_js_小狗影院","name":"影视 | 小狗影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小狗影院.js"},
