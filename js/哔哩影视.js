@@ -11,6 +11,9 @@
     * "Cookie":"$bili_cookie"
     * 手动替换为
     * "Cookie":"将获取的Cookie黏贴在这"
+ * 客户端长期Cookie设置教程:
+ * 抓包哔哩手机端搜索access_key,取任意链接里的access_key和appkey在drpy环境变量中增加同名的环境变量即可
+ * 此时哔哩.js这个解析可用于此源的解析线路用
  */
 
 var rule = {
@@ -27,7 +30,7 @@ var rule = {
     headers:{
         'User-Agent':'PC_UA',
         "Referer": "https://www.bilibili.com",
-        "Cookie":"http://127.0.0.1:9978/file/tvfan/cookie.txt"
+        "Cookie":"$bili_cookie"
     },
     timeout:5000,
     class_name:'番剧&国创&电影&电视剧&纪录片&综艺&全部&追番&追剧&时间表',

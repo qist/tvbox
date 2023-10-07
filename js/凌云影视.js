@@ -27,6 +27,7 @@ var rule = {
 	},
 	class_parse: '.nav ul li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
 	lazy:'js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);var url=html.url;if(html.encrypt=="1"){url=unescape(url)}else if(html.encrypt=="2"){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else{input}',
+	图片来源:'@Referer=https://api.douban.com/@User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/113.0.0.0%20Safari/537.36',
 	推荐: '.indexShowBox;ul&&li;*;*;*;*',
 	一级: '.content-list&&li;a&&title;img&&data-src;.bottom2&&Text;a&&href',
 	搜索: '.sr_lists&&dl;strong&&Text;*;.ss1&&Text;*',

@@ -5,6 +5,10 @@
       "name": "高天流云 No.1"
     },
     {
+      "url": "./0822.json",
+      "name": "高天流云 No.2"
+    },
+    {
       "url": "./0825.json",
       "name": "高天流云 PG"
     },
@@ -35,10 +39,6 @@
     {
       "url": "./cat.json",
       "name": "高天流云 CAT"
-    },
-    {
-      "url": "./lf.json",
-      "name": "高天流云 LF"
     }
   ]
 }

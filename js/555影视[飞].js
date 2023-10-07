@@ -23,6 +23,7 @@ var rule = {
         4:{cateId:'4',by:'time'},
         124:{cateId:'124',by:'time'}
     },
+    class_parse: '.navbar-items li;a&&Text;a&&href;/(\\d+)/',
     cate_exclude:'福利',
     searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
     detailUrl:'/voddetail/fyid.html', //非必填,二级详情拼接链接

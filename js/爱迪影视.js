@@ -13,21 +13,29 @@ var rule={
         zongyi:{cateId:'zongyi'},
         dongman:{cateId:'dongman'}
     },
-    searchUrl:'/vsearch/-------------.html?wd=**&submit=',
+    // searchUrl:'/vsearch/-------------.html?wd=**&submit=',
+    searchUrl:'/vsearch/**----------fypage---.html',
     searchable:2,
     quickSearch:0,
     headers:{ 'User-Agent':'MOBILE_UA', },
     class_parse: '.top_nav li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
     // tab_exclude:'VIP线路',
     play_parse:true,
-    lazy:"js:var url=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]).url;url.indexOf('http')==-1?input=request('https://aidi.tv/addons/dplayer/?url='+url,{}).match(/vodurl = '(.*?)'/)[1]:input=url",
+    lazy:`js:
+        var url = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]).url;
+        url.indexOf('http') == -1 ? input = request('https://aidi.tv/addons/dplayer/?url=' + url, {}).match(/vodurl = '(.*?)'/)[1] : input = url
+    `,
     推荐:'*',
-    一级:'.vodlist.vodlist_wi li;a&&title;.lazyload&&data-original;.pic_text&&Text;a&&href',
+    // 一级:'.vodlist.vodlist_wi li;a&&title;.lazyload&&data-original;.pic_text&&Text;a&&href',
+    一级:'.vodlist.vodlist_wi li;a&&title;.lazyload&&data-background-image;.xszxj&&Text;a&&href',
     二级:{
-        "title":"h2&&Text;.data:eq(1)&&Text",
-        "img":".lazyload&&data-original",
-        "desc":";.content_min li:eq(1)&&Text;;.content_min li:eq(2)&&Text;.content_min li:eq(3)&&Text;.data:eq(4)&&Text",
-        "content":".context.clearfix&&Text",
+        "title":"h1&&Text;li.data--span:eq(0)&&Text",
+        // "img":".lazyload&&data-original",
+        "img":".bgi.lazyload&&data-background-image",
+        // "desc":";.content_min li:eq(1)&&Text;;.content_min li:eq(2)&&Text;.content_min li:eq(3)&&Text;.data:eq(4)&&Text",
+        "desc":"li.data:eq(4)&&Text;;;li.data--span:eq(3)&&Text;li.data--span:eq(2)&&Text",
+        // "content":".context.clearfix&&Text",
+        "content":".full_text&&span&&Text",
         "tabs":".play_source_tab--i&&a",
         "lists":".content_playlist.list_scroll:eq(#id) li"
     },

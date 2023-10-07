@@ -15,23 +15,23 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （2）0821.json  大而全的配置，在饭太硬配置的基础上添加了若干优质点播源、直播线路和解析；
 
-（3）0825.json  小而精的配置，jar包来源于Panda Groove的go包，其中泥巴、星星等，需要替换成自己的代理url；
+（3）0822.json  极简配置，OK大佬的jar，还包括几条路飞、俊于的源。
 
-（4）0826.json  完全来源于饭太硬的jar包和配置；
+（4）0825.json  小而精的配置，jar包来源于Panda Groove的go包，其中泥巴、星星等，需要替换成自己的代理url；
 
-（5）0827.json  jar包和配置来源于fongmi；
+（5）0826.json  完全来源于饭太硬的jar包和配置；
 
-（6）0828.json  jar包和配置来源于唐三；
+（6）0827.json  jar包和配置来源于fongmi；
 
-（7）js.json  资源来源于道长drpy(js)仓库；
+（7）0828.json  jar包和配置来源于唐三；
 
-（8）XBPQ.json  XBPQ源，jar包和配置来源于小米小爆脾气；
+（8）js.json  jar包来源于Panda Groove的go包，资源来源于道长drpy(js)仓库；
 
-（9）XYQ.json  XYQ源，jar包和配置来源于香雅情；
+（9）XBPQ.json  XBPQ源，jar包和配置来源于小米小爆脾气；
 
-（10）cat.json  cat源，资源来源于网络各路大佬，仅适配FongMi影视。/cat/js配合猫影视可直接食用。
+（10）XYQ.json  XYQ源，jar包和配置来源于香雅情；
 
-（11）lf.json  极简配置，包含路飞的js源和俊于的T4源。
+（11）cat.json  cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用。
 
 2. APP推荐:
 

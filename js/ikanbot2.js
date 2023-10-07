@@ -70,7 +70,7 @@ var rule = {
     url:'/hot/index-fyclass-fyfilter-p-fypage.html[/hot/index-fyclass-fyfilter.html]',
     //https://www.ikanbot.com/search?q=%E6%96%97%E7%BD%97%E5%A4%A7&p=2
     // searchUrl:'/search?q=**&p=fypage',
-	searchUrl:'/search?q=**',
+	searchUrl:'/search?q=**&p=fypage[/search?q=**]',
     searchable:2,
     quickSearch:0,
     filterable:1,
@@ -107,6 +107,10 @@ var rule = {
     class_url:'movie&tv',
 	play_parse:true,
 	double:true,
+	tab_remove:['wjm3u8','ikm3u8','sdm3u8','M3U8','jinyingm3u8','fsm3u8','ukm3u8'],//移除某个线路及相关的选集
+	tab_order:['lzm3u8','gsm3u8','zuidam3u8','bjm3u8','snm3u8','wolong','ffm3u8','xlm3u8','yhm3u8'],//线路顺序,按里面的顺序优先，没写的依次排后面
+	tab_rename:{'lzm3u8':'量子','1080zyk':'1080看','zuidam3u8':'最大资源','kuaikan':'快看',
+        'bfzym3u8':'暴风','ffm3u8':'非凡','snm3u8':'索尼','tpm3u8':'淘片','tkm3u8':'天空','wolong':'卧龙'},//线路名替换如:lzm3u8替换为量子资源
     推荐:'.v-list;div.item;*;*;*;*', //这里可以为空，这样点播不会有内容
     // 一级:'.v-list&&div.item;p&&Text;img&&src;;a&&href', //一级的内容是推荐或者点播时候的一级匹配
 	一级:'.v-list&&div.item;p&&Text;img&&data-src;;a&&href', //一级的内容是推荐或者点播时候的一级匹配

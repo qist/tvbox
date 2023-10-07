@@ -40,4 +40,20 @@ var rule={
             input
         }
     `,
+
+    //是否启用辅助嗅探: 1,0
+    sniffer:1,
+    // 辅助嗅探规则js写法
+    isVideo:`js:
+        log(input);
+        if(/snscosdownload/.test(input)){
+            input = true
+        }else if(/\\.m3u8/.test(input)){
+            input = true
+        }else if(/\\.mp4/.test(input)){
+            input = true
+        }else{
+            input = false
+        }
+    `,
 }

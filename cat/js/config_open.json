@@ -68,6 +68,7 @@
 {"key":"nivod18","name":"成人 | 泥巴","type":3,"api":"assets://js/nivod_op.js","ext":"做爱"},
 {"key":"mtsp_open","name":"成人 | 蜜桃","type":3,"api":"assets://js/mtsp_open.js"},
 {"key":"18av_open","name":"成人 | 18av","type":3,"api":"assets://js/18av_open.js"},
+{"key":"18a_open","name":"成人 | 18a","type":3,"api":"assets://js/18a_open.js"},
 {"key":"apilj","name":"成人 | 十八","type":3,"api":"assets://js/caiji.js","ext":"https://apilj.com/api.php/provide/vod/at/json/"},
 {"key":"kulunli","name":"成人 | 酷伦理","type":3,"api":"assets://js/caiji.js","ext":"https://api.kudian70.com/api.php/provide/vod/"},
 {"key":"apilj.com","name":"成人 | 成人03","type":3,"api":"assets://js/caiji.js","ext":"http://apilj.com/api.php/provide/vod/at/json/"},
