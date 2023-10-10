@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;c780fa00cbcc2f49f4e446f225a155e7",
+"spider":"./jar/fan.txt;md5;5388d60fb0519fa359339c3252fa5e69",
 "lives":[
     {"name":"live","type":0,"url":"./tvboxtv.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
     {"name":"global","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
