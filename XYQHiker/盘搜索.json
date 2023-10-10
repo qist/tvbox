@@ -1,9 +1,9 @@
 {
     "搜索请求头参数": "User-Agent$MOBILE_UA#referer$https://www.pansearch.me",
-    "搜索链接": "https://www.pansearch.me/search?keyword={wd}&offset=0&pan=aliyundrive",
+    "搜索链接": "https://www.pansearch.me/search?keyword={wd}",
     "POST请求数据": "",
     "搜索截取模式": "1",
-    "搜索列表数组规则": ".grid&&.items-start",
+    "搜索列表数组规则": ".grid&&.items-start:has(a[href*=aliyundrive])",
     "搜索片单是否Jsoup写法": "0",
     "搜索片单图片": "src=\"&&\"",
     "搜索片单标题": "keyword\">&&<a",

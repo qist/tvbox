@@ -15,7 +15,7 @@
     //是否开启获取首页数据，0关闭，1开启
     "homeContent":"1",
     //首页推荐数据获取链接
-    "rcmed_url": "https://vidhub.cc",
+    "rcmed_url": "https://vidhub.tv",
     //首页列表数组截取。
     "home_arr_rule": "body&&.module-items",
     //首页片单列表数组定位。
@@ -26,7 +26,7 @@
     //分类链接起始页码,禁止负数和含小数点。
     "firstpage": "1",
     //分类链接,{cateId}是分类，{catePg}是页码,第一页没有页码的可以这样写 第二页链接[firstPage=第一页的链接]
-    "class_url": "https://vidhub.cc/vodshow/{cateId}--------{catePg}---.html",
+    "class_url": "https://vidhub.tv/vodshow/{cateId}--------{catePg}---.html",
     //分类名，分类1&分类2&分类3
     "class_name": "电影&电视剧&动漫&综艺",
     //分类名替换词，替换词1&替换词2&替换词3，替换词包含英文&的用两个中文＆＆代替，示例：＆＆id=0&＆＆id=1
@@ -49,7 +49,7 @@
     //分类片单副标题
     "cat_subtitle":".module-item-text&&Text",
     //分类片单链接补前缀  
-    "cat_prefix": "https://vidhub.cc",
+    "cat_prefix": "https://vidhub.tv",
     //分类片单链接补后缀
     "cat_suffix": "",
     
@@ -58,7 +58,7 @@
     "SHeaders":"User-Agent$PC_UA",
     //搜索链接，搜索关键字用{wd}表示，post请求的最后面加;post
     //POST链接示例 http://www.lezhutv.com/index.php?m=vod-search;post
-    "search_url": "https://vidhub.cc/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
+    "search_url": "https://vidhub.tv/index.php/ajax/suggest?mid=1&wd={wd}&limit=50",
     //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
     "sea_PtBody":"wd={wd}&search=",
     
@@ -77,7 +77,7 @@
     //搜索片单副标题
     "sea_subtitle":"",
     //搜索片单链接补前缀
-    "search_prefix": "https://vidhub.cc/voddetail/",
+    "search_prefix": "https://vidhub.tv/voddetail/",
     //搜索片单链接补后缀，这个一般json搜索的需要
     "search_suffix": ".html",
     
@@ -121,7 +121,7 @@
     //选集是否反转显示
     "epi_reverse": "0",
     //集数链接补前缀
-    "epiurl_prefix": "https://vidhub.cc",
+    "epiurl_prefix": "https://vidhub.tv",
     //集数链接补后缀
     "epiurl_suffix": "",
     

@@ -167,14 +167,8 @@ var rule = {
                 min = duration.split(':')[0];
                 sec = duration.split(':')[1];
             } catch (e) {
-                if (duration >= 3600) {
-                    let rSAH = duration % 3600;
-                    min = Math.floor(rSAH / 60);
-                    sec = rSAH % 60;
-                } else {
-                    min = Math.floor(duration / 60);
-                    sec = duration % 60;
-                }
+                min = Math.floor(duration / 60);
+                sec = duration % 60;
             }
             if (isNaN(parseInt(duration))) {
                 return '无效输入';
@@ -260,14 +254,8 @@ var rule = {
                 min = duration.split(':')[0];
                 sec = duration.split(':')[1];
             } catch (e) {
-                if (duration >= 3600) {
-                    let rSAH = duration % 3600;
-                    min = Math.floor(rSAH / 60);
-                    sec = rSAH % 60;
-                } else {
-                    min = Math.floor(duration / 60);
-                    sec = duration % 60;
-                }
+                min = Math.floor(duration / 60);
+                sec = duration % 60;
             }
             if (isNaN(parseInt(duration))) {
                 return '无效输入';
@@ -400,7 +388,7 @@ var rule = {
         let playurls = [];
         ja.forEach(function(tmpJo) {
             let cid = tmpJo.cid;
-            let part = tmpJo.part.replace('#', '﹟').replace('$', '﹩');
+            let part = tmpJo.part.replaceAll('#', '﹟').replaceAll('$', '﹩');
             playurls.push(
                 part + '$' + aid + '_' + cid
             )
@@ -410,7 +398,7 @@ var rule = {
         playurls = [];
         relatedData.forEach(function(rd) {
             let ccid = rd.cid;
-            let title = rd.title.replace('#', '﹟').replace('$', '﹩');
+            let title = rd.title.replaceAll('#', '﹟').replaceAll('$', '﹩');
             let aaid = rd.aid;
             playurls.push(
                 title + '$' + aaid + '_' + ccid
@@ -434,14 +422,8 @@ var rule = {
                 min = duration.split(':')[0];
                 sec = duration.split(':')[1];
             } catch (e) {
-                if (duration >= 3600) {
-                    let rSAH = duration % 3600;
-                    min = Math.floor(rSAH / 60);
-                    sec = rSAH % 60;
-                } else {
-                    min = Math.floor(duration / 60);
-                    sec = duration % 60;
-                }
+                min = Math.floor(duration / 60);
+                sec = duration % 60;
             }
             if (isNaN(parseInt(duration))) {
                 return '无效输入';

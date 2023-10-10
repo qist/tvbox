@@ -1,7 +1,7 @@
 {
     "规则名": "影视工场",
     "规则作者": "",
-    "请求头参数": "电脑",
+    "请求头参数": "User-Agent$PC_UA#accept$text/html",
     "网页编码格式": "UTF-8",
     "图片是否需要代理": "0",
     "是否开启获取首页数据": "1",
@@ -42,7 +42,7 @@
     "分类片单副标题": ".pic-text&&Text",
     "分类片单链接加前缀": "https://www.ysgc.fun",
     "分类片单链接加后缀": "",
-    "搜索请求头参数": "User-Agent$电脑",
+    "搜索请求头参数": "User-Agent$电脑#accept$text/html",
     
     "搜索链接": "https://www.ysgc.fun/rss.xml?wd={wd}",
     "POST请求数据": "",

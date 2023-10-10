@@ -4,9 +4,9 @@
 "sites":[
 {"key":"lf_js_search","name":"豆瓣","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":1,"api":"./lib/lf_search3_min.js"},
 {"key":"荐片","name":"荐片","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
-{"key":"玩偶","name":"玩偶","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvfan/token.txt","filter":"https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/wogg.json","danmu":true}},
+{"key":"玩偶","name":"玩偶","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvfan/token.txt","filter":"./json/wogg.json","danmu":true}},
 {"key":"小纸条_cli","name":"纸条","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
-{"key":"csp_Bili","name":"哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"recordable":0,"style":{"type":"rect","ratio":1.755},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"}},
+{"key":"csp_Bili","name":"哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.755},"filterable":1,"changeable":0,"ext":{"json":"./json/chuqiuyu1.json","cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"}},
 {"key":"lf_js_lf_live","name":"直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":0,"filterable":1,"ext":"./js/lf_live.txt"},
 {"key":"push_agent","name":"推送","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_pushagent_min.js","timeout":30,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt"}
 ],
