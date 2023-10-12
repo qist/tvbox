@@ -31,9 +31,9 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （10）XYQ.json  XYQ源，jar包和配置来源于香雅情；
 
-（11）cat.json  cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用。
+（11）cat.json  cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用；
 
- (12) jsm.json 来自js.json 修改 家庭电视可用 主要删除YouTube 直播 
+ (12) jsm.json 来自js.json 修改 家庭电视可用 主要删除YouTube 直播。
 
 2. APP推荐:
 
