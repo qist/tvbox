@@ -1429,6 +1429,7 @@ CCTV-2,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw3589111099_-17934
 CCTV-3,http://[2409:8087:2001:20:2800:0:df6e:eb18]/wh7f454c46tw3746132328_-1754088424/ott.mobaibox.com/PLTV/3/224/3221228126/index.m3u8?icpid=3&RTS=1668594245&from=40&popid=40&hms_devid=2113&prioritypopid=40&vqe=3
 CCTV-4,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw3772680253_-1555628407/ott.mobaibox.com/PLTV/3/224/3221227549/index.m3u8?icpid=3&RTS=1668594272&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
 CCTV-5,http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw3847208563_882248521/ott.mobaibox.com/PLTV/3/224/3221228179/index.m3u8?icpid=3&RTS=1668594346&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
+CCTV-5+,http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/1/224/3221228277/index.m3u8
 CCTV-6,http://[2409:8087:2001:20:2800:0:df6e:eb13]/wh7f454c46tw3940641123_459833286/ott.mobaibox.com/PLTV/3/224/3221227505/index.m3u8?icpid=3&RTS=1668594440&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
 CCTV-7,http://[2409:8087:2001:20:2800:0:df6e:eb26]/wh7f454c46tw3984282630_1427246842/ott.mobaibox.com/PLTV/3/224/3221228283/index.m3u8?icpid=3&RTS=1668594483&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
 CCTV-8,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw4086984004_1136880123/ott.mobaibox.com/PLTV/3/224/3221227473/index.m3u8?icpid=3&RTS=1668594586&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
@@ -1441,7 +1442,6 @@ CCTV-14,http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw340147088_159409
 CCTV-15,http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw434828587_188325560/ott.mobaibox.com/PLTV/3/224/3221228404/index.m3u8?icpid=3&RTS=1668595229&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 CCTV-16,http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw456909575_2098882473/ott.mobaibox.com/PLTV/3/224/3221228144/index.m3u8?icpid=3&RTS=1668595251&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
 CCTV-17,http://[2409:8087:2001:20:2800:0:df6e:eb23]/wh7f454c46tw483903016_-67353299/ott.mobaibox.com/PLTV/3/224/3221228407/index.m3u8?icpid=3&RTS=1668595278&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
-CCTV-5+,http://[2409:8087:2001:20:2800:0:df6e:eb26]/ott.mobaibox.com/PLTV/1/224/3221228277/index.m3u8
 CETV-01,http://txycetvbl.centv.cn/cetv1/ypd.m3u8
 CETV-02,http://txycetvbl.centv.cn/cetv2/2020tsytk.m3u8
 CETV-03,http://txycetvbl.centv.cn/cetv3/bjdm.m3u8
@@ -1532,6 +1532,7 @@ CGTN-俄语,https://liveru.cgtn.com/1000r/prog_index.m3u8
 CGTN-法语,https://livefr.cgtn.com/1000f/prog_index.m3u8
 CGTN-西语,https://livees.cgtn.com/1000e/prog_index.m3u8
 CGTN-阿语,https://livear.cgtn.com/1000a/prog_index.m3u8
+
 凤凰-香港,http://[2409:8087:2001:20:2800:0:df6e:eb1d]:80/ott.mobaibox.com/PLTV/1/224/3221228530/1.m3u8
 凤凰-中文,http://[2409:8087:2001:20:2800:0:df6e:eb24]/wh7f454c46tw3553140416_-2021535160/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8?icpid=3&RTS=1668336354&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3
 凤凰-中文,https://live.goodiptv.club/api/sxg.php?id=test1_4000
@@ -1544,6 +1545,7 @@ CNA新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe
 半岛新闻,http://live-hls-web-aje.getaj.net/AJE/01.m3u8
 金砖中文,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 金砖英文,http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
+
 内蒙古-卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001068/index.m3u8
 北京-卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001029/index.m3u8
 湖南-卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001026/index.m3u8

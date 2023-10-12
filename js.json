@@ -292,7 +292,6 @@
     {"name":"稻香","type":1,"url":"http://42.157.128.109:2323/CH/app/tv.php?url=","ext":{"flag":["mgtv","qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","芒果"],"header":{"User-Agent":"okhttp/3.12.0"}}},
     {"name":"ovvo","type":0,"url":"https://json.ovvo.pro/jx.php?url="},
     {"name":"饭1","type": 1,"url": "http://jx.wogg.link:63/jiexi/饭特析.php?url="},
-    {"name":"饭2","type":1,"url":"https://api.json.icu/api/?key=4f8fb5042b695d5c515f6343af716af8&url="},
     {"name":"饭3","type":1,"url":"http://119.91.123.253:1234/Api/cs.php?url="},
     {"name":"521","type":0,"url":"https://json.key521.cn/api/?key=df27d9ca9ec97e22c47f8565a50aa6f5&url="},
     {"name":"PM","url":"https://www.playm3u8.cn/jiexi.php?url=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}},"header":{"User-Agent":"Mozilla/5.0"}},
