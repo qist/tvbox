@@ -43,7 +43,13 @@ var rule = {
 					"Referer": HOST
 				}
 			});
-			let code = ifrwy.match(/var url = '(.*?)'/)[1].split('').reverse().join('');
+			// let code = ifrwy.match(/var url = '(.*?)'/)[1].split('').reverse().join('');
+			let code = '';
+			if (/Cloud/.test(url)) {
+				code = ifrwy.match(/var url = '(.*?)'/)[1].split('').reverse().join('');
+			} else if (/player-v2/.test(url)) {
+				code = ifrwy.match(/data":"(.*?)"/)[1].split('').reverse().join('');
+			}
 			let temp = '';
 			for (let i = 0x0; i < code.length; i = i + 0x2) {
 				temp += String.fromCharCode(parseInt(code[i] + code[i + 0x1], 0x10))

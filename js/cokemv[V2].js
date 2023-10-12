@@ -21,27 +21,43 @@ var rule = {
 	class_url:'1&2&3&29',
 	play_parse:true,
 	lazy:`js:
-        if (/\\.m3u8|\\.mp4/.test(input)) {
-            input = {
-                jx: 0,
-                url: input,
-                parse: 0
-            }
+		let play_Url = '';
+		if (/\\.m3u8|\\.mp4/.test(input)) {
+			input = {
+				jx: 0,
+				url: input,
+				parse: 0
+			}
 		} else if (/,/.test(input) && /url=/.test(input)) {
-            input = {
-                jx: 0,
-                url: input.split(',')[1],
-                parse: 1
-            }
+			input = input.split('url=');
+			play_Url = input[0].split(',')[0];
+			input = {
+				jx: 0,
+				url: input[1],
+				playUrl: play_Url,
+				parse: 1
+			}
 		} else if (/url=|id=/.test(input)) {
-            input = {
-                jx: 0,
-                url: JSON.parse(request(input)).url,
-                parse: 0
-            }
-        } else {
+			input = {
+				jx: 0,
+				url: JSON.parse(request(input)).url,
+				parse: 0
+			}
+        } else if (/youku|iqiyi|v\\.qq\\.com|pptv|sohu|le\\.com|1905\\.com|mgtv|bilibili|ixigua/.test(input)) {
+			play_Url = /bilibili/.test(input) ? 'https://jx.xmflv.com/?url=' : 'https://jx.777jiexi.com/player/?url='; // type0的parse
+			// play_Url = /bilibili/.test(input) ? 'https://jx.xmflv.com/?url=' : 'json:http://pandown.pro/app/kkdy.php?url='; // type1的parse可加'json:'直接解析url (除了蜂蜜的'影视TV'，其它的壳皆可用)
+			input = {
+				jx: 0,
+				url: input,
+				playUrl: play_Url,
+				parse: 1,
+				header: JSON.stringify({
+					'user-agent': 'Mozilla/5.0',
+				}),
+			}
+		} else {
 			input
-        }
+		}
     `,
 	limit:6,
 	// 图片来源:'@Referer=https://api.douban.com/@User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/113.0.0.0%20Safari/537.36',
@@ -55,22 +71,25 @@ var rule = {
 			} else {
 				jsondata = JSON.parse(request(HOST + '/vodPhbAll'));
 			}
-			videoList = jsondata.data.list[0].vod_list;
+			videoList = jsondata.data.list;
 		} else {
 			if(HOST.endsWith('/')){
 				jsondata = JSON.parse(request(HOST + 'index_video'));
 			} else {
 				jsondata = JSON.parse(request(HOST + '/index_video'));
 			}
-			videoList = /xgapp/.test(HOST)?jsondata.data[0].vlist:jsondata.list[0].vlist;
+			videoList = /xgapp/.test(HOST) ? jsondata.data : jsondata.list;
 		}
 		// log('videoList =========> '+stringify(videoList));
-		videoList.forEach(it => {
-			d.push({
-				url:it.vod_id,
-				title:it.vod_name,
-				img:it.vod_pic.startsWith('http') ? it.vod_pic : it.vod_pic.startsWith('//') ? 'https:' + it.vod_pic : it.vod_pic.startsWith('/') ? getHome(HOST) + it.vod_pic : getHome(HOST) + '/' + it.vod_pic,
-				desc:it.vod_remarks,
+		videoList.forEach((it,idex) => {
+			let vlist = /v1\\.vod/.test(HOST) ? videoList[idex].vod_list : videoList[idex].vlist ;
+			vlist.forEach(it => {
+				d.push({
+					url:it.vod_id,
+					title:it.vod_name,
+					img:it.vod_pic.startsWith('http') ? it.vod_pic : it.vod_pic.startsWith('//') ? 'https:' + it.vod_pic : it.vod_pic.startsWith('/') ? getHome(HOST) + it.vod_pic : getHome(HOST) + '/' + it.vod_pic,
+					desc:it.vod_remarks,
+				});
 			});
 		});
 		setResult(d);
@@ -121,45 +140,50 @@ var rule = {
 				vod_director: node.vod_director,
 				vod_content: node.vod_content.strip()
 			};
-			let episodes = /v1\\.vod/.test(HOST)?node.vod_play_list:node.vod_url_with_player;
-			let playMap = {};
 			if (typeof play_url === 'undefined') {
 				var play_url = ''
 			}
-			episodes.forEach(ep => {
-				let from = [];
-				if (/v1\\.vod/.test(HOST)) {
-					from = ep.player_info.from||ep.player_info.show||ep.from||ep.show;
-				} else {
-					from = ep.code||ep.name;
-				}
-				if (!playMap.hasOwnProperty(from)) {
-					playMap[from] = []
-				}
-				let parse_api = '';
-				if (/v1\\.vod/.test(HOST)) {
-					parse_api = ep.player_info.parse != null ? ep.player_info.parse : ep.player_info.parse2;
-					// parse_api = /,/.test(parse_api) ? parse_api.split(',')[1] : parse_api;
-				} else {
-					parse_api = ep.parse_api;
-				}
-				log('parse_api =========> '+parse_api);
-				if (parse_api != null && !/\\.m3u8|\\.mp4/.test(ep.url)) {
-					parse_api = parse_api.replaceAll('..','.') ;
-					ep.url = ep.url.replaceAll('$','$'+parse_api);
-				}
-				playMap[from].push(ep.url)
-			});
-			let playFrom = [];
-			let playList = [];
-			Object.keys(playMap).forEach(key => {
-				playFrom.push(key);
-				playList.push(playMap[key])
-			});
-			VOD.vod_play_from = playFrom.join('$$$');
-			VOD.vod_play_url = playList.join('$$$');
+			let episodes = /v1\\.vod/.test(HOST)?node.vod_play_list:node.vod_url_with_player;
+			if (episodes != '') {
+				let playMap = {};
+				episodes.forEach(ep => {
+					let from = [];
+					if (/v1\\.vod/.test(HOST)) {
+						from = ep.player_info.from||ep.player_info.show||ep.from||ep.show;
+					} else {
+						from = ep.code||ep.name;
+					}
+					if (!playMap.hasOwnProperty(from)) {
+						playMap[from] = []
+					}
+					let parse_api = '';
+					if (/v1\\.vod/.test(HOST)) {
+						parse_api = ep.player_info.parse != null ? ep.player_info.parse : ep.player_info.parse2;
+						// parse_api = /,/.test(parse_api) ? parse_api.split(',')[1] : parse_api;
+					} else {
+						parse_api = ep.parse_api;
+					}
+					log('parse_api =========> '+parse_api);
+					if (parse_api != null && !/\\.m3u8|\\.mp4/.test(ep.url)) {
+						parse_api = parse_api.replaceAll('..','.') ;
+						ep.url = ep.url.replaceAll('$','$'+parse_api);
+					}
+					playMap[from].push(ep.url)
+				});
+				let playFrom = [];
+				let playList = [];
+				Object.keys(playMap).forEach(key => {
+					playFrom.push(key);
+					playList.push(playMap[key])
+				});
+				VOD.vod_play_from = playFrom.join('$$$');
+				VOD.vod_play_url = playList.join('$$$');
+			} else {
+				VOD.vod_play_from = node.vod_play_from;
+				VOD.vod_play_url = node.vod_play_url;
+			}
 		} catch (e) {
-			log("获取二级详情页发生错误:" + e.message)
+			log("获取二级详情页发生错误:" + e.message);
 		}
 	`,
 	搜索:`js:
