@@ -42,9 +42,10 @@
 {"key":"drpy_js_磁力熊搜索","name":"搜索 | 磁力熊[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
 {"key":"lf_js_search","name":"搜索 | 路飞[js]","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js"},
 {"key":"drpy_js_新片场","name":"新片 | 新片场[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":0,"ext":"./js/新片场.js"},
+{"key":"drpy_js_短剧网","name":"短剧 | 短剧网[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":0,"ext":"./js/短剧网.js"},
 {"key":"csp_YGP","name":"新片 | 预告片[jar]","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
-
 {"key":"csp_Wobg","name":"阿里 | 玩偶表哥[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},
+
 {"key":"csp_wogg_cli","name":"俊于 | 玩偶[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
 {"key":"小纸条_cli","name":"俊于 | 小纸条[T4]","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
 {"key":"lf_js_p2p","name":"路飞 | 磁力[js]","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","timeout":30},
@@ -90,6 +91,8 @@
 {"key":"drpy_js_爱迪[V2]","name":"影视 | 爱迪[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱迪[V2].js"},
 {"key":"drpy_js_创艺影视[V2]","name":"影视 | 创艺影视[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/创艺影视[V2].js"},
 {"key":"drpy_js_咕噜[V2]","name":"影视 | 咕噜[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/咕噜[V2].js"},
+{"key":"drpy_js_吼吼[V2]","name":"影视 | 吼吼[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/吼吼[V2].js"},
+{"key":"drpy_js_曲奇影视[V2]","name":"影视 | 曲奇影视[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/曲奇影视[V2].js"},
 {"key":"drpy_js_热剧猫[V2]","name":"影视 | 热剧猫[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/热剧猫[V2].js"},
 {"key":"drpy_js_速看100[V2]","name":"影视 | 速看100[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/速看100[V2].js"},
 {"key":"drpy_js_鸭鸭[V2]","name":"影视 | 鸭鸭[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/鸭鸭[V2].js"},
