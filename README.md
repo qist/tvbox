@@ -34,8 +34,16 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 （11）cat.json  cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用；
 
  (12) jsm.json 来自js.json 修改 家庭电视可用 主要删除YouTube 直播。
+ 
+猫影视使用github 配置
 
-2. APP推荐:
+ 配置教程：https://omii.top/1296.html
+
+ (1) config_open_web_99.json
+
+ (2) config_open_web.json
+
+1. APP推荐:
 
 （1）FongMi版本  项目地址：https://github.com/FongMi/TV 支持直播多线路、自动换源、直播倍速，手机投屏；
 
