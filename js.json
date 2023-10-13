@@ -13,7 +13,7 @@
 {"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
 {"key":"蚂蚁","name":"影视 | 蚂蚁[直连]","type":3,"api":"csp_MYYS","searchable":1,"quickSearch":1,"filterable":0,"jar":"./jar/fan.txt","ext":"http://rzys.xyz"},
 {"key":"迪迪","name":"影视 | 迪迪[App]","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt","ext":"https://api123.adys.app/xgapp.php/v3/"},
-{"key": "csp_WoGG","name": "👽玩偶哥哥┃4K","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/fan.txt","ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
+{"key": "csp_WoGG","name": "👽玩偶哥哥┃4K","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/fan.txt","ext": "./ali/token.txt+4k|auto|fhd"},
 {"key":"Czsapp","name":"影视 | 厂长资源[直连]","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt","ext":"https://www.cz01.pro/"},
 {"key":"zxzj","name":"影视 | 在线之家[直连]","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt","ext":"https://www.zxzj.pro/"},
 {"key": "新6V","name": "🧲新6V磁力┃慎用","type": 3,"api": "csp_SixV","searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/fan.txt","ext": "http://www.xb6v.com/"},
@@ -45,8 +45,8 @@
 {"key":"csp_YGP","name":"新片 | 预告片[jar]","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
 
 {"key":"csp_Wobg","name":"阿里 | 玩偶表哥[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},
-{"key":"csp_wogg_cli","name":"俊于 | 玩偶[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
-{"key":"小纸条_cli","name":"俊于 | 小纸条[T4]","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt", "timeout":30},
+{"key":"csp_wogg_cli","name":"俊于 | 玩偶[T4]","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg","searchable":1,"quickSearch":1,"filterable":1,"ext":"./ali/token.txt", "timeout":30},
+{"key":"小纸条_cli","name":"俊于 | 小纸条[T4]","type":4,"api":"http://home.jundie.top:9520/spider/cli_gitCafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"./ali/token.txt", "timeout":30},
 {"key":"lf_js_p2p","name":"路飞 | 磁力[js]","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","timeout":30},
 {"key":"lf_js_lf_live","name":"路飞 | 直播[js]","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 {"key":"drpy_js_直播大全","name":"电视 | 直播大全[js]","type":3,"api":"./lib/live2cms.js","style":{ "type":"oval"},"changeable":0,"ext":"./js/live2mv_data.json"},
@@ -110,7 +110,7 @@
 {"key":"易搜","name":"阿里 | 易搜[jar]","type":3,"api":"csp_YiSo","ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},
 {"key":"盘搜","name":"阿里 | 盘搜[jar]","type":3,"api":"csp_PanSou","ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},
 {"key":"UP云搜","name":"阿里 | up云搜[jar]","type":3,"api":"csp_UpYun","ext":"http://127.0.0.1:9978/file/tvfan/token.json", "timeout":30},
-{"key":"csp_Hdhive","name":"阿里 | 影巢[jar]","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.json$$$socks5://192.168.1.9:4592","timeout":30},
+{"key":"csp_Hdhive","name":"阿里 | 影巢[jar]","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/tvfan/token.json","timeout":30},
 
 {"key":"drpy_js_4KHDR","name":"磁力 | 4KHDR[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4khdr.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
 {"key":"drpy_js_极影网","name":"磁力 | 极影网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/jiyingw.js","playerType":"1", "searchable":1, "quickSearch":1, "changeable":1, "timeout":30},
