@@ -1,7 +1,7 @@
 import { Crypto, load, _ } from './lib/cat.js';
 
 let key = 'czzy';
-let url = 'https://www.cz01.pro';
+let url = 'https://cz01.cc';
 let siteKey = '';
 let siteType = 0;
 

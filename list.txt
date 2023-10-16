@@ -1014,40 +1014,40 @@ CHC家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/in
 百视通体育,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225847/index.m3u8
 百视通体育,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225834/index.m3u8
 YouTube,#genre#
-寰宇新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
-鏡新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
-東森Live,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=R2iMq5LKXco
-中天新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
-中天新聞2,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
-三立live,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
-三立inews,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
-三立NEWS+,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
-TVBS新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS NEWS LIVE,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
-民視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
-華視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
-中視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
-台視新聞,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=xL0ch83RAK8
-EBC東森財經,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
-三立財經,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
-NHK WORLD,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
-Sky News,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
-FRANCE 24,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
-ABC News,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
-Euronews English,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=pykpO5kQJ98
-DW,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
-ANN News,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
-KBS KOREA,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
-NBC NEW,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
-鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=sUISafvOieY
-凤凰卫视,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=dmDg7NfUoSw
-CCTV中文国际,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=9sE12tg3CmA
-东森财经股市,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=LbS-xQ67fos
-公視直播,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=4Uc00FPs27M
-KOMPASTV,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=4rmf-lk3ito
-东京新宿,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
-台灣地震監視,http://127.0.0.1:9978/proxy?do=yt&proxy=socks5://192.168.1.9:4592&url=https://www.youtube.com/watch?v=Owke6Quk7T0
+寰宇新聞,https://www.youtube.com/watch?v=B7Zp3d6xXWw
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+東森Live,https://www.youtube.com/watch?v=R2iMq5LKXco
+中天新聞,https://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新聞,https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+中天新聞2,https://www.youtube.com/watch?v=WPfPjbOLNfE
+三立live,https://www.youtube.com/watch?v=FoBfXvlOR6I
+三立inews,https://www.youtube.com/watch?v=CKjSm5ZeehE
+三立NEWS+,https://www.youtube.com/watch?v=oZdzzvxTfUY
+TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS NEWS LIVE,https://www.youtube.com/watch?v=m_dhMSvUCIc
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
+EBC東森財經,https://www.youtube.com/watch?v=WHEPzbFA3hw
+三立財經,https://www.youtube.com/watch?v=CKjSm5ZeehE
+NHK WORLD,https://www.youtube.com/watch?v=f0lYkdA-Gtw
+Sky News,https://www.youtube.com/watch?v=9Auq9mYxFEE
+FRANCE 24,https://www.youtube.com/watch?v=h3MuIUNCCzI
+ABC News,https://www.youtube.com/watch?v=w_Ma8oQLmSM
+Euronews English,https://www.youtube.com/watch?v=pykpO5kQJ98
+DW,https://www.youtube.com/watch?v=pqabxBKzZ6M
+ANN News,https://www.youtube.com/watch?v=coYw-eVU0Ks
+KBS KOREA,https://www.youtube.com/watch?v=HnfpTMtfFk8
+NBC NEW,https://www.youtube.com/watch?v=0IUbD_4ytuo
+鳳凰資訊,https://www.youtube.com/watch?v=sUISafvOieY
+凤凰卫视,https://www.youtube.com/watch?v=dmDg7NfUoSw
+CCTV中文国际,https://www.youtube.com/watch?v=9sE12tg3CmA
+东森财经股市,https://www.youtube.com/watch?v=LbS-xQ67fos
+公視直播,https://www.youtube.com/watch?v=4Uc00FPs27M
+KOMPASTV,https://www.youtube.com/watch?v=4rmf-lk3ito
+东京新宿,https://www.youtube.com/watch?v=DjdUEyjx8GM
+台灣地震監視,https://www.youtube.com/watch?v=Owke6Quk7T0
 地方,#genre#
 北京冬奥,http://39.135.138.58:18890/PLTV/88888888/224/3221225676/index.m3u8
 北京冬奥,http://39.135.138.59:18890/PLTV/88888910/224/3221225675/index.m3u8
