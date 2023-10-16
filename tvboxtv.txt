@@ -248,7 +248,7 @@ CCTV第一剧场,http://bytedance.live.cqccn.com/__cl/cg:live/__c/diyijuchangHD/
 CCTV第一剧场,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/diyijuchangHD/__op/default/__f//index.m3u8
 CCTV兵器科技,http://bytedance.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/__f//index.m3u8
 CCTV兵器科技,http://118.24.227.124/tv.live.cbnbn.cn/__cl/cg:live/__c/bqkjHD/__op/default/__f//index.m3u8
-CGTN纪录频道,http://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+CGTN-纪录频道,http://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
 CGTN西班牙语频道,http://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
 CGTN法语频道,http://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 CGTN俄语频道,http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
