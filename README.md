@@ -39,10 +39,6 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
  配置教程：https://omii.top/1296.html
 
- (1) config_open_web_99.json
-
- (2) config_open_web.json
-
 1. APP推荐:
 
 （1）FongMi版本  项目地址：https://github.com/FongMi/TV 支持直播多线路、自动换源、直播倍速，手机投屏；
