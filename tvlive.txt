@@ -173,11 +173,11 @@ CCTV央视文化,http://hls.live.cqccn.com/__cl/cg:live/__c/yswhHD/__op/default/
 CCTV兵器科技,http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
 CETV1,https://cntv.sbs/tv?auth=231013&id=cetv1
 CETV2,https://cntv.sbs/tv?auth=231013&id=cetv2
+CETV3,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 CETV4,https://cntv.sbs/tv?auth=231013&id=cetv4
 CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
 CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
 CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
-CETV3,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 CCTV1,http://111.20.35.103:6610/000000001000/1000000001000021973/index.m3u8?channel-id=ystenlive&Contentid=1000000001000021973&livemode=1&stbId=00
 CCTV2,http://111.20.35.103:6610/000000001000/1000000001000012442/index.m3u8?channel-id=ystenlive&Contentid=1000000001000012442&livemode=1&stbId=00
