@@ -34,6 +34,8 @@
 {"key":"drpy_js_tuxiaobei_open","name":"少儿 | 兔小贝","type":3,"api":"./cat/js/tuxiaobei_open.js"},
 {"key":"drpy_js_ubestkid_open","name":"少儿 | 贝乐虎","type":3,"api":"./cat/js/ubestkid_open.js"},
 {"key":"sharenice","name":"聚合 | 短视频","type":3,"api":"./cat/js/sharenice_open.js"},
+{"key":"douyu_open","name":"直播 | 斗鱼","type":3,"api":"./cat/js/douyu_open.js","ext":{"categories":"数码科技#娱乐推荐#颜值#二次元#星秀#音乐#正能量#原创IP#热门游戏#热门手游#主机游戏#怀旧游戏#王者荣耀"}},
+{"key":"huya_open","name":"直播 | 虎牙","type":3,"api":"./cat/js/huya_open.js","ext":{"categories":"科技#旅游#娱乐天地#一起看#颜值#二次元#星秀#音乐#原创#网游竞技#单机热游#综合手游"}},
 {"key":"mybili","name":"视频 | 哔哩1","type":3,"api":"./cat/js/mybili_open.js","style":{"type":"rect","ratio":1.597}},
 {"key":"bili_open","name":"视频 | 哔哩2","type":3,"api":"./cat/js/bili_open.js","ext":{"categories":"沙雕动画#沙雕穿越#沙雕","cookie":"http://127.0.0.1:9978/file/tvfan/cookie.txt"},"style":{"type":"rect","ratio":1.597}},
 {"key":"kuqimv","name":"MV | 酷奇","type":3,"api":"./cat/js/kuqimv_open.js"},

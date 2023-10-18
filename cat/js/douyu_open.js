@@ -1,7 +1,7 @@
-import { Crypto, load, _ } from 'assets://js/lib/cat.js';
+import { _ } from 'assets://js/lib/cat.js';
 
-let key = 'douyu';
 let host = 'http://live.yj1211.work';
+let categories = '';
 let siteKey = '';
 let siteType = 0;
 
@@ -25,44 +25,51 @@ async function request(reqUrl) {
 
 // cfg = {skey: siteKey, ext: extend}
 async function init(cfg) {
-
+    siteKey = cfg.skey;
+    siteType = cfg.stype;
+    if (cfg.hasOwnProperty('ext')) {
+        if (cfg.ext.hasOwnProperty('categories')) {
+            categories = cfg.ext.categories;
+        }
+        if (cfg.ext.hasOwnProperty('host')) {
+            host = cfg.ext.host;
+        }
+    }
 }
 
 async function home(filter) {
-    const classes = [
-        { type_id: "热门游戏", type_name: "热门游戏" },
-        { type_id: "主机游戏", type_name: "主机游戏" },
-        { type_id: "原创IP", type_name: "原创IP" },
-    ];
+    let classes = [];
+    if (categories.length > 0) {
+        classes = categories.split('#');
+    }
+    classes.unshift('首页');
     const filterObj = {};
     return JSON.stringify({
-        class: _.map(classes, (cls) => {
-            cls.land = 1;
-            cls.ratio = 1.78;
-            return cls;
+        class: _.map(classes, (it) => {
+            return {
+                type_id: it,
+                type_name: it,
+                land: 1,
+                ratio: 1.78,
+            }
         }),
         filters: filterObj,
     });
 }
 
 async function homeVod() {
-    const data = JSON.parse(await request(host + '/api/live/getRecommendByPlatformArea?platform=douyu&size=20&area=热门游戏&page=1'));
-    let videos = _.map(data.data.list, (it) => {
-        return {
-            vod_id: it.roomId,
-            vod_name: it.roomName,
-            vod_pic: it.roomPic,
-            vod_remarks: it.ownerName,
-        }
-    });
-    return JSON.stringify({
-        list: videos,
-    });
+    return '{}';
 }
 
 async function category(tid, pg, filter, extend) {
     if (pg <= 0 || typeof pg == 'undefined') pg = 1;
-    const data = JSON.parse(await request(host + '/api/live/getRecommendByPlatformArea?platform=douyu&size=20&area=' + tid + '&page=' + pg));
+    let url = '';
+    if (tid == '首页') {
+        url = host + '/api/live/getRecommendByPlatform?platform=douyu&size=20&page=' + pg;
+    } else {
+        url = host + '/api/live/getRecommendByPlatformArea?platform=douyu&size=20&area=' + tid + '&page=' + pg;
+    }
+    const data = JSON.parse(await request(url));
     let videos = _.map(data.data, (it) => {
         return {
             vod_id: it.roomId,
@@ -90,13 +97,13 @@ async function detail(id) {
         vod_remarks: video.categoryName,
         type_name: video.categoryName,
         vod_director: video.ownerName,
-        vod_actor: '在线人数:' + video.online,
-        vod_content: "",
-        vod_year: "",
-        vod_area: "",   
+        vod_actor: '',
+        vod_content: video.online + '人在线',
+        vod_year: '',
+        vod_area: '',   
     };
     vod.vod_play_from = video.platForm;
-    vod.vod_play_url = '原画$' + id;
+    vod.vod_play_url = 'Live$' + id;
     return JSON.stringify({
         list: [vod],
     });
