@@ -9,7 +9,6 @@
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
 {"key":"drpy_js_网飞.TV","name":"影视 | 网飞.TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/网飞.TV.js"},
-{"key":"JOJO","name":"影视 | JOJO[直连]","type":3,"api":"csp_JOJO","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt"},
 {"key":"毛驴","name":"影视 | 毛驴[直连]","type":3,"api":"csp_MLYS","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt","ext":"https://www.maolvys.com/"},
 {"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
 {"key":"蚂蚁","name":"影视 | 蚂蚁[直连]","type":3,"api":"csp_MYYS","searchable":1,"quickSearch":1,"filterable":0,"jar":"./jar/fan.txt","ext":"http://rzys.xyz"},
