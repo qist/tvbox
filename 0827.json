@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;8a9d215c9f79d7e5ce9e223b40ed81e8",
+  "spider": "./jar/custom_spider.jar;md5;b2c6912d5489526425cc71c596f4606e",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -179,7 +179,7 @@
       "changeable": 0,
       "ext": {
         "categories": "帕梅拉#音乐#舞蹈#风景#美食#科普#历史#法考#医考",
-        "cookie": ""
+        "cookie": "SESSDATA=01c79709%2C1711618905%2C244c3%2A91CjA9UUnRb_kJg03J5FqUbin76yMY90o1-ckJsM1ItQH21ns4hgcS6Le6oMR3SKtC18QSVmxSbGRhN3cyS3NReERsOHRfYVlhTWJKZjZyTF9wUWJXbjNfaF9qWklFMFpoeVg1ZUhFb0Q0MGFiN3FYd1N3UEFEY1oxX29IdmFSRVVLamcybGhhSkJnIIEC; bili_jct=e9d6e9df733afde2a03693d63a4e77dc; DedeUserID=186957646; DedeUserID__ckMd5=4f717c8832ee1e62; sid=elhiqom1"
       }
     },
     {
@@ -287,53 +287,7 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": [
-        {
-          "name": "電視-java-v7",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
-        },
-        {
-          "name": "電視-java-v8",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-arm64_v8a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
-        },
-        {
-          "name": "電視-py-v7",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
-        },
-        {
-          "name": "電視-py-v8",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
-        },
-        {
-          "name": "Android-4.x",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
-        },
-        {
-          "name": "手機-java-v7",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png"
-        },
-        {
-          "name": "手機-java-v8",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-arm64_v8a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png"
-        },
-        {
-          "name": "手機-py-v7",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png"
-        },
-        {
-          "name": "手機-py-v8",
-          "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk",
-          "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png"
-        }
-      ]
+      "ext": "./json/market.json"
     }
   ],
   "doh": [

@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fm.jar;md5;37e846d5e473d18852adad7478823fa6",
+"spider":"./jar/fm.jar;md5;c495732c1df0453bc672078d675b46b9",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
@@ -78,17 +78,7 @@
 {"key":"本地","name":"本地","type":3,"api":"csp_Local","searchable":0,"changeable":0},
 {"key":"AList","name":"网盘","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"./json/alist.json"},
 {"key":"WebDAV","name":"云盘","type":3,"api":"csp_WebDAV","searchable":1,"changeable":0,"ext":"./json/webdav.json"},
-{"key":"應用商店","name":"應用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext":[
-{"name":"電視-java-v7","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8nk2.png"},
-{"name":"電視-java-v8","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-arm64_v8a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8nk2.png"},
-{"name":"電視-py-v7","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8nk2.png"},
-{"name":"電視-py-v8","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8nk2.png"},
-{"name":"Android-4.x","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk","icon":"https://i.imgs.ovh/2023/10/17/r8nk2.png"},
-{"name":"手機-java-v7","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
-{"name":"手機-java-v8","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-arm64_v8a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
-{"name":"手機-py-v7","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"},
-{"name":"手機-py-v8","url":"https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk","icon":"https://i.imgs.ovh/2023/10/17/r8lVK.png"}
-]}
+{"key":"應用商店","name":"應用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext": "./json/market.json"}
 ],
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
