@@ -137,7 +137,7 @@ async function detail(id) {
 }
 
 function playPid() {
-    var key = Crypto.enc.Utf8.parse("ba0-d4g5-45eb-c2ba0-d4g5-45eb-cs");
+    var key = Crypto.enc.Utf8.parse('VSmJTRRE'+dayjs().format('YYYYMMDD'));
     var iv = Crypto.enc.Hex.parse("00000000000000000000000000000000");
     var pid = Crypto.AES.encrypt(dayjs().format('YYYY-MM-DD HH:mm'), key, { iv: iv, padding: Crypto.pad.Pkcs7 });
     pid = pid.toString().replace(/\+/g, '-');
