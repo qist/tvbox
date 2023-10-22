@@ -454,6 +454,10 @@ CGTN阿拉伯语频道,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 
 港澳台综合,#genre#
 凤凰中文,http://r.jdshipin.com/cCCzW
+凤凰资讯,http://php.17186.eu.org/phtv/fhzx.m3u8
+凤凰中文,http://php.17186.eu.org/phtv/fhzw.m3u8
+凤凰资讯,http://r.jdshipin.com/0Rp07
+凤凰香港,http://php.17186.eu.org/phtv/fhxg.m3u8
 凤凰资讯,http://113.117.74.19:8081/hls/36/index.m3u8
 凤凰香港,http://113.117.74.12:8081/hls/38/index.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 
@@ -486,7 +490,6 @@ VIU6,http://198.16.100.90:8278/viusix_twn/playlist.m3u8?tid=MF0F4217630642176306
 澳門蓮花,https://p.ggiptv.com/v/macaulotustv.php
 澳門蓮花,http://anren.live/HK/BiIOU11uLA.m3u8
 澳門蓮花,http://nettvpro.live/hls/lotustv.php?zgangd
-凤凰资讯,http://r.jdshipin.com/0Rp07
 新加坡中文台,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
 新加坡国际,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
 TVBS亚洲,http://38.64.72.148/hls/modn/list/4005/chunklist1.m3u8
@@ -559,9 +562,7 @@ TVBS新闻,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 俄罗斯中文,http://brics.bonus-tv.ru/cdn/brics/chinese/tracks-v1a1/index.m3u8
 香港佛陀,http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8
 香港佛陀,https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-凤凰资讯,http://php.17186.eu.org/phtv/fhzx.m3u8
-凤凰中文,http://php.17186.eu.org/phtv/fhzw.m3u8
-凤凰香港,http://php.17186.eu.org/phtv/fhxg.m3u8
+
 
 IPV6-央视频道,#genre#
 CCTV-1,http://[2409:8087:2001:20:2800:0:df6e:eb07]/wh7f454c46tw3252572940_-481357165/ott.mobaibox.com/PLTV/3/224/3221227467/index.m3u8?icpid=3&RTS=1668593752&from=40&ocs=2_2409:8087:2001:20:2800:0:df6e:eb0a_80&popid=40&hms_devid=2036&prioritypopid=40&vqe=3
