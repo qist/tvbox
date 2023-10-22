@@ -77,14 +77,28 @@ CCTV9,https://live.goodiptv.club/api/cqyx.php?id=cctv9HD
 CCTV10,https://live.goodiptv.club/api/cqyx.php?id=cctv10HD
 CCTV11,https://live.goodiptv.club/api/cqyx.php?id=cctv11HD
 CCTV12,https://live.goodiptv.club/api/cqyx.php?id=cctv12HD
-CCTV13,https://live.goodiptv.club/api/cqyx.php?id=cctv13HD
-CCTV14,https://live.goodiptv.club/api/cqyx.php?id=cctv14HD
+CCTV13,http://183.196.25.171:808/hls/13/index.m3u8
+CCTV14,http://183.196.25.171:808/hls/14/index.m3u8
 CCTV15,https://live.goodiptv.club/api/cqyx.php?id=cctv15HD
 CCTV16,https://live.goodiptv.club/api/cqyx.php?id=cctv16HD
 CCTV17,https://live.goodiptv.club/api/cqyx.php?id=cctv17HD
 CCTV5+,https://live.goodiptv.club/api/cqyx.php?id=cctv5SportHD
 CCTV-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
 CCTV16-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV16_4K
+
+CCTV1,https://node1.olelive.com:6443/live/CCTV1HD_360/hls.m3u8
+CCTV2,https://node1.olelive.com:6443/live/CCTV2HD_360/hls.m3u8
+CCTV3,https://node1.olelive.com:6443/live/CCTV3HD_360/hls.m3u8
+CCTV5,https://node1.olelive.com:6443/live/CCTV5HD_360/hls.m3u8
+CCTV6,https://node1.olelive.com:6443/live/CCTV6HD_360/hls.m3u8
+CCTV7,https://node1.olelive.com:6443/live/CCTV7HD_360/hls.m3u8
+CCTV9,https://node1.olelive.com:6443/live/CCTV9HD_360/hls.m3u8
+CCTV10,https://node1.olelive.com:6443/live/CCTV10HD_360/hls.m3u8
+CCTV11,https://live.v1.mk/api/ghyx.php?id=CCTV11HD_2000
+CCTV12,https://node1.olelive.com:6443/live/CCTV12HD_360/hls.m3u8
+CCTV13,https://node1.olelive.com:6443/live/CCTV13HD_360/hls.m3u8
+CCTV14,https://node1.olelive.com:6443/live/CCTV14HD_360/hls.m3u8
+CCTV17,https://node1.olelive.com:6443/live/CCTV17HD_360/hls.m3u8
 
 CCTV风云足球,http://218.17.216.102:9901/tsfile/live/1065_1.m3u8
 CCTV怀旧剧场,http://218.17.216.102:9901/tsfile/live/1069_1.m3u8
@@ -108,7 +122,8 @@ CCTV兵器科技,http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/
 
 CETV1,https://cntv.sbs/tv?auth=2310201855&id=cetv1
 CETV2,https://cntv.sbs/tv?auth=2310201855&id=cetv2
-CETV3,http://txycsbl.centv.cn/zb/0822cetv3.m3u8
+CETV3,https://live.v1.mk/api/ghyx.php?id=CETV3HD_2000
+CETV4,https://live.v1.mk/api/ghyx.php?id=CETV4HD_2000
 CETV4,https://cntv.sbs/tv?auth=2310201855&id=cetv4
 CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
 CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
