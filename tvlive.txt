@@ -11,7 +11,7 @@ CCTV7,http://hms284nc1972679584.live.aikan.miguvideo.com/wh7f454c46tw4211155753_
 CCTV8,http://hms84nc1972679564.live.aikan.miguvideo.com/wh7f454c46tw2243817462_1836799824/wd_r2/ocn/cctv8hd/3000/01.m3u8?msisdn=19115966146&Channel_ID=0119_04102000-99000_400300000040002&client_ip=182.149.232.3&timestamp=20230115084753&ContentId=265667466&timezone=UTC&mtv_session=077374df50cdebf0ab55b2ec30d2f01a&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=8b9b358180e9e344fe45e67912ce6985
 CCTV9,http://hms444nc1972679601.live.aikan.miguvideo.com/wh7f454c46tw4260577431_-1084507862/migu/kailu/20200324/cctv9hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=112.45.97.120&timestamp=20230208131044&ContentId=265667202&timezone=UTC&mtv_session=9444a4df4cb7524a1ec85c4d44200abc&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=efdbccd2a72ff1ba2eabbf08f475f7c6
 CCTV10,http://hms424nc1972679599.live.aikan.miguvideo.com/wh7f454c46tw2383135402_1265174830/wd_r2/ocn/cctv10hd/3000/01.m3u8?msisdn=19115966146&Channel_ID=0119_04102000-99000_400300000040002&client_ip=182.149.232.3&timestamp=20230115085013&ContentId=265667631&timezone=UTC&mtv_session=451a79654bec6f8926b5017302146772&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=e74690616e29be77ff1a1992b303b861
-CCTV11,http://cyz32.livehbindex.hbcatv.cn/live/5000002086444f0886ad7032ad8f756b.m3u8?bitrate=2300&pt=5
+CCTV11,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226714/1.m3u8?
 CCTV12,http://hms204nc1972679577.live.aikan.miguvideo.com/wh7f454c46tw1174495643_-1245391177/migu/kailu/20200324/cctv12hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=59.49.185.88&timestamp=20230311020243&ContentId=265667607&timezone=UTC&mtv_session=7581c6271c0379b8ca8b268ff7804765&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=3906a8574a42ff13aba3e255be4cd8e3
 CCTV13,http://hms184nc1972679575.live.aikan.miguvideo.com/wh7f454c46tw946205927_-649996709/envivo_x/2018/SD/cctv13/2000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=112.45.97.120&timestamp=20230208132705&ContentId=265667474&timezone=UTC&mtv_session=36bf599c0c4bc785fd46aaf0ba40ffe7&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=91a8a1c4652526079a5b0e294d5bc18d
 CCTV14,http://hms344nc1972679590.live.aikan.miguvideo.com/wh7f454c46tw1297666621_-728046298/wd_r2/ocn/cctv14hd/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=59.49.185.88&timestamp=20230311020446&ContentId=265667325&timezone=UTC&mtv_session=ad6cfd6b6dabe31801ca54a4c87f1bac&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=2757ab80a8dee98edfcfd1ee767a17b8
@@ -65,23 +65,27 @@ CCTV14,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/32212261
 CCTV15,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225785/1.m3u8
 CCTV16,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8
 
-CCTV1,http://59.47.226.94:8880/sql/2592/hls.m3u8
-CCTV2,http://59.47.226.94:8880/sql/2593/hls.m3u8
-CCTV3,http://59.47.226.94:8880/sql/2594/hls.m3u8
-CCTV4,http://59.47.226.94:8880/sql/2595/hls.m3u8
-CCTV5,http://59.47.226.94:8880/sql/2596/hls.m3u8
-CCTV6,http://59.47.226.94:8880/sql/2597/hls.m3u8
-CCTV7,http://59.47.226.94:8880/sql/2598/hls.m3u8
-CCTV8,http://59.47.226.94:8880/sql/2599/hls.m3u8
-CCTV9,http://59.47.226.94:8880/sql/2600/hls.m3u8
-CCTV10,http://59.47.226.94:8880/sql/2601/hls.m3u8
-CCTV11,http://59.47.226.94:8880/sql/2602/hls.m3u8
-CCTV12,http://59.47.226.94:8880/sql/2603/hls.m3u8
-CCTV13,http://59.47.226.94:8880/sql/2604/hls.m3u8
-CCTV14,http://59.47.226.94:8880/sql/2605/hls.m3u8
-CCTV15,http://59.47.226.94:8880/sql/2606/hls.m3u8
 
-
+CCTV1,https://live.goodiptv.club/api/cqyx.php?id=cctv1HD
+CCTV2,https://live.goodiptv.club/api/cqyx.php?id=cctv2HD
+CCTV3,https://live.goodiptv.club/api/cqyx.php?id=cctv3HD
+CCTV4,https://live.goodiptv.club/api/cqyx.php?id=cctv4HD
+CCTV5,https://live.goodiptv.club/api/cqyx.php?id=cctv5HD
+CCTV6,https://live.goodiptv.club/api/cqyx.php?id=cctv6HD
+CCTV7,https://live.goodiptv.club/api/cqyx.php?id=cctv7HD
+CCTV8,https://live.goodiptv.club/api/cqyx.php?id=cctv8HD
+CCTV9,https://live.goodiptv.club/api/cqyx.php?id=cctv9HD
+CCTV10,https://live.goodiptv.club/api/cqyx.php?id=cctv10HD
+CCTV11,https://live.goodiptv.club/api/cqyx.php?id=cctv11HD
+CCTV12,https://live.goodiptv.club/api/cqyx.php?id=cctv12HD
+CCTV13,https://live.goodiptv.club/api/cqyx.php?id=cctv13HD
+CCTV14,https://live.goodiptv.club/api/cqyx.php?id=cctv14HD
+CCTV15,https://live.goodiptv.club/api/cqyx.php?id=cctv15HD
+CCTV16,https://live.goodiptv.club/api/cqyx.php?id=cctv16HD
+CCTV17,https://live.goodiptv.club/api/cqyx.php?id=cctv17HD
+CCTV5+,https://live.goodiptv.club/api/cqyx.php?id=cctv5SportHD
+CCTV-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
+CCTV16-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV16_4K
 
 CCTV风云足球,http://218.17.216.102:9901/tsfile/live/1065_1.m3u8
 CCTV怀旧剧场,http://218.17.216.102:9901/tsfile/live/1069_1.m3u8
@@ -113,26 +117,6 @@ CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
 
-CCTV1,http://733240.com/gudou.php?id=1402_4500
-CCTV2,http://733240.com/gudou.php?id=CCTV2HD_7000
-CCTV3,http://733240.com/gudou.php?id=1603
-CCTV4,http://733240.com/gudou.php?id=1604
-CCTV5,http://733240.com/gudou.php?id=1605
-CCTV5+,http://733240.com/gudou.php?id=1403
-CCTV6,http://733240.com/gudou.php?id=1606
-CCTV7,http://733240.com/gudou.php?id=1607
-CCTV8,http://733240.com/gudou.php?id=1608
-CCTV9,http://733240.com/gudou.php?id=CCTV9HD_7000
-CCTV10,http://733240.com/gudou.php?id=1610
-CCTV11,http://733240.com/gudou.php?id=CCTV-11HD_7500
-CCTV12,http://733240.com/gudou.php?id=CCTV12HD_7000
-CCTV13,http://733240.com/gudou.php?id=1613
-CCTV14,http://733240.com/gudou.php?id=CCTV14HD_7000
-CCTV15,http://733240.com/gudou.php?id=CCTV-15HD_7500
-CCTV16,http://733240.com/gudou.php?id=1617_4500
-CCTV17,http://733240.com/gudou.php?id=CCTV17HD
-CCTV16-4K,http://733240.com/gudou.php?id=4010
-CCTV-4K,http://733240.com/gudou.php?id=4005
 
 CHC高清电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
 CHC动作电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
