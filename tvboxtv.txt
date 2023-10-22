@@ -52,10 +52,7 @@ CCTV5+,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/32212257
 CCTV5+,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225761/1.m3u8
 CCTV6,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226393/1.m3u8
 CCTV7,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226192/1.m3u8
-CCTV8,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226012/1.m3u8
 CCTV8,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226391/1.m3u8
-CCTV8,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226012/1.m3u8
-CCTV8,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226391/1.m3u8
 CCTV9,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226197/1.m3u8
 CCTV9,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226197/1.m3u8
 CCTV10,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226189/1.m3u8
@@ -64,6 +61,7 @@ CCTV13,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/32212262
 CCTV14,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226193/1.m3u8
 CCTV15,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225785/1.m3u8
 CCTV16,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8
+
 
 CCTV1,https://live.goodiptv.club/api/cqyx.php?id=cctv1HD
 CCTV2,https://live.goodiptv.club/api/cqyx.php?id=cctv2HD
@@ -642,6 +640,29 @@ CCTV-15,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001338/index.m
 CCTV-16,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001258/index.m3u8
 CCTV-17,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001241/index.m3u8
 
+CCTV-1,https://cntv.sbs/tv/v6.php?id=CCTV-1H265
+CCTV-2,https://cntv.sbs/tv/v6.php?id=CCTV-2H265
+CCTV-3,https://cntv.sbs/tv/v6.php?id=CCTV-3H265
+CCTV-4,https://cntv.sbs/tv/v6.php?id=CCTV-4H265
+CCTV-5,https://cntv.sbs/tv/v6.php?id=CCTV-5H265
+CCTV-5+,https://cntv.sbs/tv/v6.php?id=CCTV-5plusH265
+CCTV-6,https://cntv.sbs/tv/v6.php?id=CCTV-6H265
+CCTV-7,https://cntv.sbs/tv/v6.php?id=CCTV-7H265
+CCTV-8,https://cntv.sbs/tv/v6.php?id=CCTV-8H265
+CCTV-9,https://cntv.sbs/tv/v6.php?id=CCTV-9H265
+CCTV-10,https://cntv.sbs/tv/v6.php?id=CCTV-10H265
+CCTV-11,https://cntv.sbs/tv/v6.php?id=CCTV-11-H265
+CCTV-12,https://cntv.sbs/tv/v6.php?id=CCTV-12H265
+CCTV-13,https://cntv.sbs/tv/v6.php?id=CCTV-xw
+CCTV-14,https://cntv.sbs/tv/v6.php?id=CCTV-14H265
+CCTV-15,https://cntv.sbs/tv/v6.php?id=CCTV-15-yyH265
+CCTV-16,https://cntv.sbs/tv/v6.php?id=CCTV-16
+CCTV-17,https://cntv.sbs/tv/v6.php?id=CCTV-17
+CCTV-4K,https://cntv.sbs/tv/v6.php?id=ys4Kcq_2000
+CCTV16-4K,https://cntv.sbs/tv/v6.php?id=CCTV-16-4K_8000
+CGTN-英语,https://cntv.sbs/tv/v6.php?id=CGTN
+
+
 IPV6-卫视频道,#genre#
 
 内蒙古-卫视,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001068/index.m3u8
@@ -772,6 +793,9 @@ IPV6-香港频道,#genre#
 凤凰-资讯,http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1668336154&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
 凤凰-资讯,https://live.goodiptv.club/api/sxg.php?id=test2_4000
 凤凰-资讯,http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/wh7f454c46tw1890984412_1778241929/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1674373416&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
+凤凰-中文,https://cntv.sbs/tv/v6.php?id=test1
+凤凰-资讯,https://cntv.sbs/tv/v6.php?id=test2
+澳门-莲花,https://cntv.sbs/tv/lhws.php
 
 IPV6-北京频道,#genre#
 北京纪实科教,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001231/index.m3u8
@@ -796,6 +820,9 @@ IPV6-上海频道,#genre#
 金色学堂,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001194/index.m3u8
 哈哈炫动,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001232/index.m3u8
 游戏风云,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001192/index.m3u8
+发现之旅,https://cntv.sbs/tv/v6.php?id=fxzl_2000
+老故事,https://cntv.sbs/tv/v6.php?id=lgs_2000
+中学生,https://cntv.sbs/tv/v6.php?id=zxs
 
 IPV6-浙江频道,#genre#
 浙江公共新闻,http://hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
