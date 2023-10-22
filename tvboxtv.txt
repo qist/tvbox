@@ -564,6 +564,8 @@ CETV-02,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001226/index.m
 CETV-04,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001348/index.m3u8
 CCTV-13,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001328/index.m3u8
 CCTV-16,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226597/index.m3u8
+CCTV-4K,https://cntv.sbs/tv/v6.php?id=ys4Kcq_2000
+CCTV16-4K,https://cntv.sbs/tv/v6.php?id=CCTV-16-4K_8000
 
 CCTV-兵器科技,http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
 CCTV-怀旧剧场,http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226972/index.m3u8
@@ -658,8 +660,7 @@ CCTV-14,https://cntv.sbs/tv/v6.php?id=CCTV-14H265
 CCTV-15,https://cntv.sbs/tv/v6.php?id=CCTV-15-yyH265
 CCTV-16,https://cntv.sbs/tv/v6.php?id=CCTV-16
 CCTV-17,https://cntv.sbs/tv/v6.php?id=CCTV-17
-CCTV-4K,https://cntv.sbs/tv/v6.php?id=ys4Kcq_2000
-CCTV16-4K,https://cntv.sbs/tv/v6.php?id=CCTV-16-4K_8000
+
 CGTN-英语,https://cntv.sbs/tv/v6.php?id=CGTN
 
 
@@ -820,9 +821,7 @@ IPV6-上海频道,#genre#
 金色学堂,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001194/index.m3u8
 哈哈炫动,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001232/index.m3u8
 游戏风云,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001192/index.m3u8
-发现之旅,https://cntv.sbs/tv/v6.php?id=fxzl_2000
-老故事,https://cntv.sbs/tv/v6.php?id=lgs_2000
-中学生,https://cntv.sbs/tv/v6.php?id=zxs
+
 
 IPV6-浙江频道,#genre#
 浙江公共新闻,http://hw-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
@@ -850,6 +849,9 @@ IPV6-广东频道,#genre#
 嘉佳卡通,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001227/index.m3u8
 
 IPV6-其它频道,#genre#
+发现之旅,https://cntv.sbs/tv/v6.php?id=fxzl_2000
+老故事,https://cntv.sbs/tv/v6.php?id=lgs_2000
+中学生,https://cntv.sbs/tv/v6.php?id=zxs
 咪咕,http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225904/index.m3u8
 家庭理财,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001278/index.m3u8
 财富天下,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001219/index.m3u8
