@@ -562,8 +562,7 @@ TVBS新闻,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 凤凰资讯,http://php.17186.eu.org/phtv/fhzx.m3u8
 凤凰中文,http://php.17186.eu.org/phtv/fhzw.m3u8
 凤凰香港,http://php.17186.eu.org/phtv/fhxg.m3u8
-凤凰中文,http://162.19.247.76:22222/live/fenghuangweishi/index.m3u8
-凤凰资讯,http://162.19.247.76:22222/live/fenghuangzhixun/index.m3u8
+
 IPV6-央视频道,#genre#
 CCTV-1,http://[2409:8087:2001:20:2800:0:df6e:eb07]/wh7f454c46tw3252572940_-481357165/ott.mobaibox.com/PLTV/3/224/3221227467/index.m3u8?icpid=3&RTS=1668593752&from=40&ocs=2_2409:8087:2001:20:2800:0:df6e:eb0a_80&popid=40&hms_devid=2036&prioritypopid=40&vqe=3
 CCTV-2,http://[2409:8087:2001:20:2800:0:df6e:eb12]/wh7f454c46tw3589111099_-1793408755/ott.mobaibox.com/PLTV/3/224/3221227543/index.m3u8?icpid=3&RTS=1668594088&from=40&popid=40&hms_devid=2112&prioritypopid=40&vqe=3
