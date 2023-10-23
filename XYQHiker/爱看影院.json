@@ -43,7 +43,7 @@
     "分类片单链接加前缀": "https://www.2wyy.com",
     "分类片单链接加后缀": "",
     "搜索请求头参数": "User-Agent$MOBILE_UA",
-    "搜索链接": "https://www.2wyy.com/vodsearch/{wd}----------1---.html",
+    "搜索链接": "https://www.2wyy.com/vod-sos/{wd}----------1---.html",
     "POST请求数据": "",
     "搜索截取模式": "1",
     "搜索列表数组规则": "body&&.module-item",
