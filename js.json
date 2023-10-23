@@ -20,7 +20,6 @@
 {"key": "贱贱","name": "影视 | 贱贱[p2p]","type": 3,"searchable": 1,"quickSearch": 1,"changeable": 1,"playerType": "1","jar":"./jar/fan.txt","api": "./lib/drpy1.min.js","ext": "./js/jp.js"},
 {"key": "77","name": "影视 | 酷云77[app]","type":3,"api":"csp_Kunyu77","searchable": 1,"quickSearch": 1,"jar":"./jar/fan.txt","changeable": 1},
 {"key": "Xinsj","name": "影视 | 视觉[直连]","type": 3,"api": "csp_Xinsj","searchable": 1,"quickSearch": 1,"jar":"./jar/fan.txt","changeable": 1,"ext": "https://www.6080yy3.com/"},
-{"key": "kuaikan","name": "影视 | 快看[App]","type": 3,"api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"jar":"./jar/fan.txt","changeable": 1},
 {"key":"一起看","name":"影视 | 一起[App]","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"jar":"./jar/fan.txt","changeable":1},
 {"key": "Cokemv","name": "影视 | 可乐[直连]","type": 3,"api": "csp_Cokemv","playerType": 2,"searchable": 1,"quickSearch": 1,"jar":"./jar/fan.txt","changeable": 1},
 {"key":"csp_Nmys","name":"影视 | 农民[直连]","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt","ext":"./json/nmys.json"},
