@@ -619,13 +619,21 @@ CCTV-14,http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw340147088_159409
 CCTV-15,http://[2409:8087:2001:20:2800:0:df6e:eb22]/wh7f454c46tw434828587_188325560/ott.mobaibox.com/PLTV/3/224/3221228404/index.m3u8?icpid=3&RTS=1668595229&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
 CCTV-16,http://[2409:8087:2001:20:2800:0:df6e:eb0b]/wh7f454c46tw456909575_2098882473/ott.mobaibox.com/PLTV/3/224/3221228144/index.m3u8?icpid=3&RTS=1668595251&from=40&popid=40&hms_devid=2038&prioritypopid=40&vqe=3
 CCTV-17,http://[2409:8087:2001:20:2800:0:df6e:eb23]/wh7f454c46tw483903016_-67353299/ott.mobaibox.com/PLTV/3/224/3221228407/index.m3u8?icpid=3&RTS=1668595278&from=40&popid=40&hms_devid=2291&prioritypopid=40&vqe=3
+
 CETV-01,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001020/index.m3u8
 CETV-02,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001226/index.m3u8
+CETV-03,http://[2409:8087:2001:20:2800:0:df6e:eb08]/wh7f454c46tw2391200578_-1498067113/ott.mobaibox.com/PLTV/88888890/224/3221227018/index.m3u8?icpid=88888890&RTS=1687954603&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
 CETV-04,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001348/index.m3u8
+
 CCTV-13,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001328/index.m3u8
 CCTV-16,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226597/index.m3u8
 CCTV-4K,https://cntv.sbs/tv/v6.php?id=ys4Kcq_2000
 CCTV16-4K,https://cntv.sbs/tv/v6.php?id=CCTV-16-4K_8000
+
+CETV-01,https://cntv.sbs/tv/v6.php?id=CETV-1H264
+CETV-04,https://cntv.sbs/tv/v6.php?id=CETV-4H264_2000
+CETV-02,http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw1163914262_-21106249/ott.mobaibox.com/PLTV/88888890/224/3221225850/index.m3u8?icpid=88888890&RTS=1687953376&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
+
 
 CCTV-兵器科技,http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
 CCTV-怀旧剧场,http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226972/index.m3u8
