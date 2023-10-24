@@ -129,8 +129,6 @@ CCTV兵器科技,http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/
 
 CETV1,https://cntv.sbs/tv?auth=2310201855&id=cetv1
 CETV2,https://cntv.sbs/tv?auth=2310201855&id=cetv2
-CETV3,https://live.v1.mk/api/ghyx.php?id=CETV3HD_2000
-CETV4,https://live.v1.mk/api/ghyx.php?id=CETV4HD_2000
 CETV4,https://cntv.sbs/tv?auth=2310201855&id=cetv4
 CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
 CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
