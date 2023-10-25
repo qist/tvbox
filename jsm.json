@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;c0a0999c670692bb297b38981fe6de9b",
+"spider":"./jar/fan.txt;md5;9b94bf80abbc161c088fed69f3afd56f",
 "lives":[{"name":"live","type":0,"url":"./tvboxtv.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://tool.weetai.cn/api",
 "sites":[
