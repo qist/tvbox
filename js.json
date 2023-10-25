@@ -38,7 +38,7 @@
 {"key": "Mtv","name": "影视 | 芒果[解析]","type": 3,"api": "csp_Mtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
 {"key": "Vofl","name": "影视 | VOF[直连]","type": 3,"api": "csp_Voflix","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar","changeable": 1},
 {"key": "AppMr","name": "影视 | 明明[App]","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar","changeable": 1},
-{"key":"探探","name":"影视 | 影探[App]","type":3,"playerType":"1","api":"csp_YTVIP","searchable":1,"quickSearch":1,"changeable":1,"timeout":30,"ext":"vip.lyyytv.cn","jar":"./jar/fty.jar"},
+{"key":"探探","name":"影视 | 影探[App]","type":3,"playerType":"1","api":"csp_YTVIP","searchable":1,"quickSearch":1,"changeable":1,"timeout":30,"ext":"vip.lyyytv.cn","jar":"./jar/fan.txt"},
 
 {"key": "4KHDR","name": "🧲世界磁力┃慎用","type": 3,"searchable": 1,"quickSearch": 1,"changeable": 0,"jar":"./jar/fan.txt","api": "./lib/drpy1.min.js","ext": "./js/4khdri.js"},
 {"key":"Lib","name":"影视 | 利播[直连]","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt","ext":"https://www.libvio.pro/"},
