@@ -23,7 +23,7 @@
 {"key":"一起看","name":"影视 | 一起[App]","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"changeable":1},
 {"key": "Cokemv","name": "影视 | 可乐[直连]","type": 3,"api": "csp_Cokemv","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1},
 {"key":"csp_Nmys","name":"影视 | 农民[直连]","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"changeable":1,"ext":"./json/nmys.json"},
-{"key": "csp_Ysgc","name": "影视 | 工场[直连]","type": 3,"api": "csp_Ysgc","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.ysgc1.cc/"},
+
 {"key": "csp_SP33","name": "影视 | 三三[解析]","type": 3,"api": "csp_SP33","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0},
 
 {"key":"Mino","name":"影视 | Mino[App]","type":3,"api":"csp_AppMao","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjDcUxPqpfNr0QF4QvE6sExbcpBF4MRDm4TvbCzxUxQS9bPrS+dwlqC+K21Byi2fnbN32ExknwkTyVnT4ZkO1NUAJnYhg/LOWYSnzESguc1X7n/JQ1wPh7lInAdzJ2qxzb2fKg8RZczmhg8lF/+BAMaZaqxv0MMB5dPInMBPwir"},
@@ -38,6 +38,7 @@
 {"key": "Mtv","name": "影视 | 芒果[解析]","type": 3,"api": "csp_Mtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
 {"key": "Vofl","name": "影视 | VOF[直连]","type": 3,"api": "csp_Voflix","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar","changeable": 1},
 {"key": "AppMr","name": "影视 | 明明[App]","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar","changeable": 1},
+{"key": "csp_Ysgc","name": "影视 | 工场[直连]","type": 3,"api": "csp_Ysgc","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.ysgc1.cc/","jar":"./jar/fty.jar"},
 {"key":"探探","name":"影视 | 影探[App]","type":3,"playerType":"1","api":"csp_YTVIP","searchable":1,"quickSearch":1,"changeable":1,"timeout":30,"ext":"vip.lyyytv.cn"},
 
 {"key": "4KHDR","name": "🧲世界磁力┃慎用","type": 3,"searchable": 1,"quickSearch": 1,"changeable": 0,"api": "./lib/drpy1.min.js","ext": "./js/4khdri.js"},
