@@ -12,7 +12,7 @@
 
 {"key":"蚂蚁","name":"影视 | 蚂蚁[直连]","type":3,"api":"csp_MYYS","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://rzys.xyz"},
 {"key":"迪迪","name":"影视 | 迪迪[App]","api":"csp_AppYsV2","type":3,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://api123.adys.app/xgapp.php/v3/"},
-{"key":"csp_WoGG","name": "玩偶哥哥┃4K","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"},
+{"key":"csp_WoGG","name": "玩偶哥哥┃4K","type": 3,"api": "csp_WoGG","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$http://fd.888484.xyz:33/$$$弹"},
 {"key":"Czsapp","name":"影视 | 厂长资源[直连]","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"timeout":30,"changeable":1,"ext":"https://www.czzy88.com/"},
 {"key":"zxzj","name":"影视 | 在线之家[直连]","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzj.pro/"},
 {"key": "新6V","name": "新6V磁力┃慎用","type": 3,"api": "csp_SixV","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "http://www.xb6v.com/"},
