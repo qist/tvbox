@@ -12,6 +12,7 @@
 {"key":"tutu_open","name":"影视 | 图图","type":3,"api":"assets://js/tutu_open.js"},
 {"key":"jojo_open","name":"影视 | jojo","type":3,"api":"assets://js/jojo_open.js"},
 {"key":"jiohub","name":"影视 | jiohub","type":3,"api":"assets://js/jiohub.js"},
+{"key":"dsxys_open","name":"影视 | 大师兄","type":3,"api":"assets://js/dsxys_open.js"},
 {"key":"kunyu77_yz","name":"影视 | 七七","type":3,"api":"assets://js/kunyu77.js"},
 {"key":"czzy","name":"影视 | 厂长","type":3,"api":"assets://js/czzy_open.js"},
 {"key":"libvio","name":"影视 | libvio","type":3,"api":"assets://js/libvio_open.js"},

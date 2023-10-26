@@ -167,7 +167,7 @@
       },
       "ext": {
         "json": "./json/chuqiuyu1.json",
-        "cookie": "http://127.0.0.1:9978/file/tvfan/cookie.txt"
+        "cookie": ""
       }
     },
     {
