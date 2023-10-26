@@ -107,7 +107,7 @@ CCTV5+,https://live.goodiptv.club/api/cqyx.php?id=cctv5SportHD
 CCTV-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
 CCTV16-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV16_4K
 
-CCTV-4k, http://angtv.cc/test/ysp.php?id=cctv4k
+CCTV-4K, http://angtv.cc/test/ysp.php?id=cctv4k
 CCTV-8K, http://angtv.cc/test/ysp.php?id=cctv8k
 CCTV1, http://angtv.cc/test/ysp.php?id=cctv1
 CCTV1, http://angtv.cc/test/as.php?id=cctv1hd
