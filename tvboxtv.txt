@@ -136,6 +136,87 @@ CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
 CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
+CCTV4k, http://angtv.cc/test/ysp.php?id=cctv4k
+CCTV8K, http://angtv.cc/test/ysp.php?id=cctv8k
+CCTV1, http://angtv.cc/test/ysp.php?id=cctv1
+CCTV1, http://angtv.cc/test/as.php?id=cctv1hd
+CCTV1, http://angtv.cc/test/as.php?id=cctv1
+CCTV2, http://angtv.cc/test/ysp.php?id=cctv2
+CCTV2, http://angtv.cc/test/as.php?id=cctv2hd
+CCTV2, http://angtv.cc/test/as.php?id=cctv2
+CCTV3, http://angtv.cc/test/ysp.php?id=cctv3
+CCTV3, http://angtv.cc/test/as.php?id=cctv3hd
+CCTV3, http://angtv.cc/test/as.php?id=cctv3
+CCTV4, http://angtv.cc/test/ysp.php?id=cctv4
+CCTV4,http://angtv.cc/test/as.php?id=cctv4hd
+CCTV4,http://angtv.cc/test/as.php?id=cctv4
+CCTV5, http://angtv.cc/test/ysp.php?id=cctv5
+CCTV5, http://angtv.cc/test/as.php?id=cctv5hd
+CCTV5, http://angtv.cc/test/as.php?id=cctv5
+CCTV5+, http://angtv.cc/test/ysp.php?id=cctv5p
+CCTV5+, http://angtv.cc/test/as.php?id=cctv5p
+CCTV6, http://angtv.cc/test/as.php?id=cctv6hd
+CCTV6, http://angtv.cc/test/as.php?id=cctv6
+CCTV6, http://angtv.cc/test/ysp.php?id=cctv6
+CCTV7, http://angtv.cc/test/ysp.php?id=cctv7
+CCTV7, http://angtv.cc/test/as.php?id=cctv7hd
+CCTV7, http://angtv.cc/test/as.php?id=cctv7
+CCTV8, http://angtv.cc/test/ysp.php?id=cctv8
+CCTV8, http://angtv.cc/test/as.php?id=cctv8hd
+CCTV8, http://angtv.cc/test/as.php?id=cctv8
+CCTV9, http://angtv.cc/test/ysp.php?id=cctv9
+CCTV9, http://angtv.cc/test/as.php?id=cctv9hd
+CCTV9, http://angtv.cc/test/as.php?id=cctv9
+CCTV10, http://angtv.cc/test/ysp.php?id=cctv10
+CCTV10, http://angtv.cc/test/as.php?id=cctv10hd
+CCTV10, http://angtv.cc/test/as.php?id=cctv10
+CCTV11, http://angtv.cc/test/ysp.php?id=cctv11
+CCTV11,http://angtv.cc/test/as.php?id=cctv11hd
+CCTV11,http://angtv.cc/test/as.php?id=cctv11
+CCTV12, http://angtv.cc/test/ysp.php?id=cctv12
+CCTV12,http://angtv.cc/test/as.php?id=cctv12hd
+CCTV12,http://angtv.cc/test/as.php?id=cctv12
+CCTV13, http://angtv.cc/test/ysp.php?id=cctv13
+CCTV13, http://angtv.cc/test/as.php?id=cctv13hd
+CCTV13, http://angtv.cc/test/as.php?id=cctv13
+CCTV14, http://angtv.cc/test/ysp.php?id=cctv14
+CCTV14,http://angtv.cc/test/as.php?id=cctv14hd
+CCTV14,http://angtv.cc/test/as.php?id=cctv14
+CCTV15, http://angtv.cc/test/ysp.php?id=cctv15
+CCTV15, http://angtv.cc/test/as.php?id=cctv15hd
+CCTV15, http://angtv.cc/test/as.php?id=cctv15
+CCTV16, http://angtv.cc/test/ysp.php?id=cctv16
+CCTV16, http://angtv.cc/test/as.php?id=cctv16
+CCTV16-4K, http://angtv.cc/test/ysp.php?id=cctv16-4k
+CCTV16-4K, http://angtv.cc/test/as.php?id=cctv16_4k
+CCTV17, http://angtv.cc/test/ysp.php?id=cctv17
+CCTV17, http://angtv.cc/test/as.php?id=cctv17hd
+CCTV17, http://angtv.cc/test/as.php?id=cctv17
+CCTV兵器科技, http://angtv.cc/test/ysp.php?id=bqkj
+CCTV第一剧场, http://angtv.cc/test/ysp.php?id=dyjc
+CCTV怀旧剧场, http://angtv.cc/test/ysp.php?id=hjjc
+CCTV风云剧场, http://angtv.cc/test/ysp.php?id=fyjc
+CCTV风云音乐, http://angtv.cc/test/ysp.php?id=fyyy
+CCTV风云足球, http://angtv.cc/test/ysp.php?id=fyzq
+CCTV电视指南, http://angtv.cc/test/ysp.php?id=dszn
+CCTV女性时尚, http://angtv.cc/test/ysp.php?id=nxss
+CCTV央视文化精品, http://angtv.cc/test/ysp.php?id=whjp
+CCTV世界地理, http://angtv.cc/test/ysp.php?id=sjdl
+CCTV高尔夫网球, http://angtv.cc/test/ysp.php?id=gefwq
+CCTV央视台球, http://angtv.cc/test/ysp.php?id=ystq
+CCTV卫生健康, http://angtv.cc/test/ysp.php?id=wsjk
+CGTN-新闻频道, http://angtv.cc/test/ysp.php?id=cgtn
+CGTN-新闻频道,http://angtv.cc/test/as.php?id=cgtnhd
+CGTN-新闻频道, http://angtv.cc/test/as.php?id=cgtn
+CGTN-纪录频道, http://angtv.cc/test/ysp.php?id=cgtnjl
+CGTN-纪录频道, http://angtv.cc/test/as.php?id=cgtnjl
+CETV1, http://angtv.cc/test/as.php?id=cetv1hd
+CETV1, http://angtv.cc/test/as.php?id=cetv1
+CETV2, http://angtv.cc/test/as.php?id=cetv2
+CETV4, http://angtv.cc/test/as.php?id=cetv4
+CHC家庭影院, http://angtv.cc/test/as.php?id=chcjtyy
+CHC动作电影, http://angtv.cc/test/as.php?id=chcdzdy
+CHC高清电影, http://angtv.cc/test/as.php?id=chcgqdy
 
 CHC高清电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
 CHC动作电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
@@ -224,6 +305,51 @@ CGTN阿拉伯语频道,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 兵团卫视,https://cntv.sbs/tv?auth=2310201855&id=btws
 西藏卫视,https://cntv.sbs/tv?auth=2310201855&id=xzws
 西藏藏语卫视,https://cntv.sbs/tv?auth=2310201855&id=xzzyws
+
+北京卫视, http://angtv.cc/test/ysp.php?id=bjws
+北京卫视, http://angtv.cc/test/as.php?id=bjwshd
+北京卫视, http://angtv.cc/test/as.php?id=bjws
+东方卫视, http://angtv.cc/test/ysp.php?id=dfws
+东方卫视, http://angtv.cc/test/as.php?id=dfwshd
+东方卫视, http://angtv.cc/test/as.php?id=dfws
+天津卫视, http://angtv.cc/test/ysp.php?id=tjws
+重庆卫视, http://angtv.cc/test/ysp.php?id=cqws
+黑龙江卫视, http://angtv.cc/test/ysp.php?id=hljws
+辽宁卫视, http://angtv.cc/test/ysp.php?id=lnws
+河北卫视, http://angtv.cc/test/ysp.php?id=hbws
+山东卫视, http://angtv.cc/test/ysp.php?id=sdws
+安徽卫视, http://angtv.cc/test/ysp.php?id=ahws
+河南卫视, http://angtv.cc/test/ysp.php?id=hnws
+湖北卫视, http://angtv.cc/test/ysp.php?id=hubws
+湖南卫视, http://angtv.cc/test/ysp.php?id=hunws
+湖南卫视, http://angtv.cc/test/as.php?id=hunhd
+湖南卫视, http://angtv.cc/test/as.php?id=hunws
+江西卫视, http://angtv.cc/test/ysp.php?id=jxws
+江西卫视, http://angtv.cc/test/as.php?id=jxwshd
+江西卫视, http://angtv.cc/test/as.php?id=jxws
+江西卫视, https://angtv.cc/test/jxtv.php?id=jxws
+江苏卫视, http://angtv.cc/test/ysp.php?id=jsws
+江苏卫视, http://angtv.cc/test/as.php?id=jshd
+江苏卫视, http://angtv.cc/test/as.php?id=jsws
+浙江卫视, http://angtv.cc/test/ysp.php?id=zjws
+浙江卫视, http://angtv.cc/test/as.php?id=zjhd
+浙江卫视, http://angtv.cc/test/as.php?id=zjws
+东南卫视, http://angtv.cc/test/ysp.php?id=dnws
+广东卫视, http://angtv.cc/test/ysp.php?id=gdws
+广东卫视, http://angtv.cc/test/as.php?id=gdwshd
+广东卫视, http://angtv.cc/test/as.php?id=gdws
+深圳卫视, http://angtv.cc/test/ysp.php?id=szws
+深圳卫视, http://angtv.cc/test/as.php?id=szhd
+深圳卫视, http://angtv.cc/test/as.php?id=szws
+厦门卫视, http://angtv.cc/test/as.php?id=xmws
+广西卫视, http://angtv.cc/test/ysp.php?id=gxws
+贵州卫视, http://angtv.cc/test/ysp.php?id=gzws
+四川卫视, http://angtv.cc/test/ysp.php?id=scws
+新疆卫视, http://angtv.cc/test/ysp.php?id=xjws
+海南卫视, http://angtv.cc/test/ysp.php?id=hinws
+康巴卫视, http://angtv.cc/test/as.php?id=kbws
+西藏卫视, http://angtv.cc/test/as.php?id=xzws
+三沙卫视, http://angtv.cc/test/as.php?id=ssws
 
 湖南卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226698/1.m3u8
 东方卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226734/1.m3u8
