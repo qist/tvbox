@@ -107,35 +107,6 @@ CCTV5+,https://live.goodiptv.club/api/cqyx.php?id=cctv5SportHD
 CCTV-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV4K
 CCTV16-4K,https://live.goodiptv.club/api/cqyx.php?id=CCTV16_4K
 
-
-CCTV风云足球,http://218.17.216.102:9901/tsfile/live/1065_1.m3u8
-CCTV怀旧剧场,http://218.17.216.102:9901/tsfile/live/1069_1.m3u8
-CCTV风云剧场,http://218.17.216.102:9901/tsfile/live/1070_1.m3u8
-CCTV央视台球,http://218.17.216.102:9901/tsfile/live/1066_1.m3u8
-CCTV央视文化,http://218.17.216.102:9901/tsfile/live/1071_1.m3u8
-CCTV兵器科技,http://218.17.216.102:9901/tsfile/live/1027_1.m3u8
-CCTV第一剧场,http://218.17.216.102:9901/tsfile/live/1072_1.m3u8
-CCTV风云音乐,http://218.17.216.102:9901/tsfile/live/1073_1.m3u8
-CCTV世界地理,http://218.17.216.102:9901/tsfile/live/1068_1.m3u8
-
-CCTV风云剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
-CCTV风云音乐,http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
-CCTV风云足球,http://hls.live.cqccn.com/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
-CCTV央视台球,http://hls.live.cqccn.com/__cl/cg:live/__c/ystqHD/__op/default/__f/index.m3u8
-CCTV怀旧剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
-CCTV第一剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/diyijuchangHD/__op/default/__f/index.m3u8
-CCTV高尔夫网球,http://hls.live.cqccn.com/__cl/cg:live/__c/golfHD/__op/default/__f/index.m3u8
-CCTV央视文化,http://hls.live.cqccn.com/__cl/cg:live/__c/yswhHD/__op/default/__f/index.m3u8
-CCTV兵器科技,http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
-
-CETV1,https://cntv.sbs/tv?auth=2310201855&id=cetv1
-CETV2,https://cntv.sbs/tv?auth=2310201855&id=cetv2
-CETV4,https://cntv.sbs/tv?auth=2310201855&id=cetv4
-CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
-CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
-CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
-CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
-
 CCTV-4k, http://angtv.cc/test/ysp.php?id=cctv4k
 CCTV-8K, http://angtv.cc/test/ysp.php?id=cctv8k
 CCTV1, http://angtv.cc/test/ysp.php?id=cctv1
@@ -217,6 +188,35 @@ CETV4, http://angtv.cc/test/as.php?id=cetv4
 CHC家庭影院, http://angtv.cc/test/as.php?id=chcjtyy
 CHC动作电影, http://angtv.cc/test/as.php?id=chcdzdy
 CHC高清电影, http://angtv.cc/test/as.php?id=chcgqdy
+
+CCTV风云足球,http://218.17.216.102:9901/tsfile/live/1065_1.m3u8
+CCTV怀旧剧场,http://218.17.216.102:9901/tsfile/live/1069_1.m3u8
+CCTV风云剧场,http://218.17.216.102:9901/tsfile/live/1070_1.m3u8
+CCTV央视台球,http://218.17.216.102:9901/tsfile/live/1066_1.m3u8
+CCTV央视文化,http://218.17.216.102:9901/tsfile/live/1071_1.m3u8
+CCTV兵器科技,http://218.17.216.102:9901/tsfile/live/1027_1.m3u8
+CCTV第一剧场,http://218.17.216.102:9901/tsfile/live/1072_1.m3u8
+CCTV风云音乐,http://218.17.216.102:9901/tsfile/live/1073_1.m3u8
+CCTV世界地理,http://218.17.216.102:9901/tsfile/live/1068_1.m3u8
+
+CCTV风云剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
+CCTV风云音乐,http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
+CCTV风云足球,http://hls.live.cqccn.com/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
+CCTV央视台球,http://hls.live.cqccn.com/__cl/cg:live/__c/ystqHD/__op/default/__f/index.m3u8
+CCTV怀旧剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
+CCTV第一剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/diyijuchangHD/__op/default/__f/index.m3u8
+CCTV高尔夫网球,http://hls.live.cqccn.com/__cl/cg:live/__c/golfHD/__op/default/__f/index.m3u8
+CCTV央视文化,http://hls.live.cqccn.com/__cl/cg:live/__c/yswhHD/__op/default/__f/index.m3u8
+CCTV兵器科技,http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
+
+CETV1,https://cntv.sbs/tv?auth=2310201855&id=cetv1
+CETV2,https://cntv.sbs/tv?auth=2310201855&id=cetv2
+CETV4,https://cntv.sbs/tv?auth=2310201855&id=cetv4
+CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
+CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
+CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
+CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
+
 
 CHC高清电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
 CHC动作电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
