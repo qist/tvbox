@@ -136,8 +136,8 @@ CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 
 
-CCTV4k, http://angtv.cc/test/ysp.php?id=cctv4k
-CCTV8K, http://angtv.cc/test/ysp.php?id=cctv8k
+CCTV-4k, http://angtv.cc/test/ysp.php?id=cctv4k
+CCTV-8K, http://angtv.cc/test/ysp.php?id=cctv8k
 CCTV1, http://angtv.cc/test/ysp.php?id=cctv1
 CCTV1, http://angtv.cc/test/as.php?id=cctv1hd
 CCTV1, http://angtv.cc/test/as.php?id=cctv1
