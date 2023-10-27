@@ -546,9 +546,9 @@ CGTN阿拉伯语频道,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 西藏卫视,http://111.20.35.103:6610/000000001000/6603041244077933770/index.m3u8?channel-id=ystenlive&Contentid=6603041244077933770&livemode=1&stbId=00
 山东教育卫视,http://111.20.35.103:6610/000000001000/1000000002000004097/index.m3u8?channel-id=ystenlive&Contentid=1000000002000004097&livemode=1&stbId=00
 
-凤凰中文 ,http://r.jdshipin.com/cCCzW
-香港卫视 ,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-香港卫视 ,http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv
+凤凰卫视,http://r.jdshipin.com/cCCzW
+香港卫视台,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+香港卫视台,http://zhibo.hkstv.tv:80/livestream/mutfysrq.flv
 澳亚卫视,https://live.mastvnet.com/lsdream/lY44pmm/2000/live.m3u8
 安多卫视,http://stream.qhbtv.com/adws/sd/live.m3u8
 兵团卫视,http://222.175.159.226:808/hls/76/index.m3u8
@@ -2755,7 +2755,6 @@ ANN News,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=c
 KBS KOREA,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
 NBC NEW,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
 鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=if6yQq_JJyY
-凤凰卫视,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=dmDg7NfUoSw
 CCTV中文国际,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9sE12tg3CmA
 东森财经股市,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=LbS-xQ67fos
 公視直播,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4Uc00FPs27M
