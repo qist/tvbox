@@ -246,8 +246,6 @@ CHC动作电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/defaul
 CHC家庭影院,http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/default/__f/index.m3u8
 中国交通,https://tv.lanjingfm.com/cctbn/hainan.m3u8
 早期教育,http://113.207.84.197:8090/__cl/cg:live/__c/zaojiaoHD/__op/default/__f/index.m3u8
-CCTV4欧洲,http://120.234.220.107:9000/udp/239.21.0.107:3768
-CCTV4美洲,http://120.234.220.107:9000/udp/239.21.0.108:3772
 CGTN-新闻频道,http://live.cgtn.com/1000/prog_index.m3u8
 CGTN-纪录频道,https://livedoc.cgtn.com/500d/prog_index.m3u8
 CGTN法语频道,https://livefr.cgtn.com/1000f/prog_index.m3u8
