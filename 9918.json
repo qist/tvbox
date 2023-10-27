@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fm.nogo.jar;md5;377fb59b7bc07595b5cb60bbebe2b9ea",
+"spider":"./jar/fm.nogo.jar.jar;md5;a120ea4deac5ec9ff0fcb03a81f89f63",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"YanG","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u"},
 {"name":"atsushi","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/atsushi444/iptv-epg/main/Adult.m3u"},
