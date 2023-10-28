@@ -986,19 +986,13 @@ CETV-02,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001226/index.m
 CETV-03,http://[2409:8087:2001:20:2800:0:df6e:eb08]/wh7f454c46tw2391200578_-1498067113/ott.mobaibox.com/PLTV/88888890/224/3221227018/index.m3u8?icpid=88888890&RTS=1687954603&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
 CETV-04,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001348/index.m3u8
 
-CCTV-13,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001328/index.m3u8
 CCTV-16,http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226597/index.m3u8
-CCTV-4K,https://cntv.sbs/tv/v6.php?id=ys4Kcq_2000
-
-CCTV16-4K,https://cntv.sbs/tv/v6.php?id=CCTV-16-4K_8000
 
 CCTV16-4K,http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/224/3221228127/index.m3u8
 CCTV-8K,http://[2409:8087:2001:20:2800:0:df6e:eb02]:80/wh7f454c46tw2749731958_105918260/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1681529690&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
 CCTV-8K,http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1659435610&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
 CCTV-8K,http://[2409:8087:2001:20:2800:0:df6e:eb03]/wh7f454c46tw1981574683_-2118700426/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8
 
-CETV-01,https://cntv.sbs/tv/v6.php?id=CETV-1H264
-CETV-04,https://cntv.sbs/tv/v6.php?id=CETV-4H264_2000
 CETV-02,http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw1163914262_-21106249/ott.mobaibox.com/PLTV/88888890/224/3221225850/index.m3u8?icpid=88888890&RTS=1687953376&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
 
 
@@ -1076,27 +1070,6 @@ CCTV-14,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001240/index.m
 CCTV-15,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001338/index.m3u8
 CCTV-16,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001258/index.m3u8
 CCTV-17,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001241/index.m3u8
-
-CCTV-1,https://cntv.sbs/tv/v6.php?id=CCTV-1H265
-CCTV-2,https://cntv.sbs/tv/v6.php?id=CCTV-2H265
-CCTV-3,https://cntv.sbs/tv/v6.php?id=CCTV-3H265
-CCTV-4,https://cntv.sbs/tv/v6.php?id=CCTV-4H265
-CCTV-5,https://cntv.sbs/tv/v6.php?id=CCTV-5H265
-CCTV-5+,https://cntv.sbs/tv/v6.php?id=CCTV-5plusH265
-CCTV-6,https://cntv.sbs/tv/v6.php?id=CCTV-6H265
-CCTV-7,https://cntv.sbs/tv/v6.php?id=CCTV-7H265
-CCTV-8,https://cntv.sbs/tv/v6.php?id=CCTV-8H265
-CCTV-9,https://cntv.sbs/tv/v6.php?id=CCTV-9H265
-CCTV-10,https://cntv.sbs/tv/v6.php?id=CCTV-10H265
-CCTV-11,https://cntv.sbs/tv/v6.php?id=CCTV-11-H265
-CCTV-12,https://cntv.sbs/tv/v6.php?id=CCTV-12H265
-CCTV-13,https://cntv.sbs/tv/v6.php?id=CCTV-xw
-CCTV-14,https://cntv.sbs/tv/v6.php?id=CCTV-14H265
-CCTV-15,https://cntv.sbs/tv/v6.php?id=CCTV-15-yyH265
-CCTV-16,https://cntv.sbs/tv/v6.php?id=CCTV-16
-CCTV-17,https://cntv.sbs/tv/v6.php?id=CCTV-17
-
-CGTN-英语,https://cntv.sbs/tv/v6.php?id=CGTN
 
 
 IPV6-卫视频道,#genre#
@@ -1227,9 +1200,6 @@ IPV6-香港频道,#genre#
 凤凰-中文,http://[2409:8087:2001:20:2800:0:df6e:eb25]:80/wh7f454c46tw2443888236_158039228/ott.mobaibox.com/PLTV/3/224/3221228527/index.m3u8?icpid=3&RTS=1674369674&from=40&popid=40&hms_devid=2292&prioritypopid=40&vqe=3
 凤凰-资讯,http://[2409:8087:2001:20:2800:0:df6e:eb27]/wh7f454c46tw3352677969_1732462333/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1668336154&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
 凤凰-资讯,http://[2409:8087:2001:20:2800:0:df6e:eb27]:80/wh7f454c46tw1890984412_1778241929/ott.mobaibox.com/PLTV/3/224/3221228524/index.m3u8?icpid=3&RTS=1674373416&from=40&popid=40&hms_devid=2293&prioritypopid=40&vqe=3
-凤凰-中文,https://cntv.sbs/tv/v6.php?id=test1
-凤凰-资讯,https://cntv.sbs/tv/v6.php?id=test2
-澳门-莲花,https://cntv.sbs/tv/lhws.php
 
 IPV6-地方频道,#genre#
 北京纪实科教-SD,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001231/index.m3u8
