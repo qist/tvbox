@@ -1,69 +1,3 @@
-var 二级=`js:
-try {
-    VOD={};
-	let html1 = request(input);
-	pdfh = jsp.pdfh;
-	//VOD.vod_id = pdfh(html1, "#current_id&&value");
-	VOD.vod_id = input;
-VOD.vod_name = pdfh(html1, "h2&&Text");
-	// VOD.vod_pic = pdfh(html1, ".item-root&&img&&src");
-	VOD.vod_pic = pdfh(html1, ".item-root&&img&&data-src");
-	// VOD.vod_actor = pdfh(html1, ".celebrity&&Text");
-	VOD.vod_actor = pdfh(html1, ".meta:eq(4)&&Text");
-	// VOD.vod_area = pdfh(html1, ".country&&Text");
-	VOD.vod_area = pdfh(html1, ".meta:eq(3)&&Text");
-	// VOD.vod_year = pdfh(html1, ".year&&Text");
-	VOD.vod_year = pdfh(html1, ".meta:eq(2)&&Text");
-	VOD.vod_remarks = "";
-	VOD.vod_director = "";
-	VOD.vod_content = "";
-	log(VOD);
-	var v_tks = '';
-	// let script = pdfa(html1,'script').find(it=>it.includes('v_tks+=')).replace(/<script>|<\\/script>/g,'');
-    // eval(script);
-	input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2"+"&token="+v_tks;
-	// input = "https://www.ikanbot.com/api/getResN?videoId=" + input.split("/").pop() + "&mtype=2";
-	let html = request(input, {
-        headers: {
-			// 'User-Agent':'PC_UA',
-            // 'User-Agent':'MOBILE_UA',
-            'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
-            'Referer': input,
-        }
-    });
-	print(html);
-	html = JSON.parse(html);
-	let episodes = html.data.list;
-	let playMap = {};
-	if (typeof play_url === "undefined") {
-		var play_url = ""
-	}
-	episodes.forEach(function(ep) {
-		let playurls = JSON.parse(ep["resData"]);
-		playurls.forEach(function(playurl) {
-			let source = playurl["flag"];
-			if (!playMap.hasOwnProperty(source)) {
-				playMap[source] = []
-			}
-			playMap[source].push(playurl["url"].replaceAll('##','#'))
-		})
-	});
-	let playFrom = [];
-	let playList = [];
-	Object.keys(playMap).forEach(function(key) {
-		playFrom.append(key);
-		playList.append(playMap[key])
-	});
-	let vod_play_from = playFrom.join("$$$");
-	let vod_play_url = playList.join("$$$");
-	VOD["vod_play_from"] = vod_play_from;
-	VOD["vod_play_url"] = vod_play_url;
-	log(VOD);
-} catch (e) {
-	log("获取二级详情页发生错误:" + e.message)
-}
-`;
-
 var rule = {
     title:'爱看机器人',
     host:'https://www.ikanbot.com',
@@ -108,12 +42,13 @@ var rule = {
 	play_parse:true,
 	double:true,
 	tab_remove:['wjm3u8','ikm3u8','sdm3u8','M3U8','jinyingm3u8','fsm3u8','ukm3u8'],//移除某个线路及相关的选集
-	tab_order:['lzm3u8','gsm3u8','zuidam3u8','bjm3u8','snm3u8','wolong','ffm3u8','xlm3u8','yhm3u8'],//线路顺序,按里面的顺序优先，没写的依次排后面
-	tab_rename:{'lzm3u8':'量子','1080zyk':'1080看','zuidam3u8':'最大资源','kuaikan':'快看', 'bfzym3u8':'暴风','ffm3u8':'非凡','snm3u8':'索尼','tpm3u8':'淘片','tkm3u8':'天空','wolong':'卧龙'},//线路名替换如:lzm3u8替换为量子资源
+	tab_order:['bfzym3u8','1080zyk','kuaikan','lzm3u8','ffm3u8','snm3u8','qhm3u8','gsm3u8','zuidam3u8','bjm3u8','wolong','xlm3u8','yhm3u8'],//线路顺序,按里面的顺序优先，没写的依次排后面
+	tab_rename:{'bfzym3u8':'暴风','1080zyk':'优质','kuaikan':'快看','lzm3u8':'量子','ffm3u8':'非凡','snm3u8':'索尼','qhm3u8':'奇虎','haiwaikan':'海外看','gsm3u8':'光速','zuidam3u8':'最大','bjm3u8':'八戒','wolong':'卧龙','xlm3u8':'新浪','yhm3u8':'樱花','tkm3u8':'天空','jsm3u8':'极速','wjm3u8':'无尽','sdm3u8':'闪电','kcm3u8':'快车','jinyingm3u8':'金鹰','fsm3u8':'飞速','tpm3u8':'淘片','lem3u8':'鱼乐','dbm3u8':'百度','tomm3u8':'番茄','ukm3u8':'U酷','ikm3u8':'爱坤','hnzym3u8':'红牛资源','hnm3u8':'红牛','68zy_m3u8':'68','kdm3u8':'酷点','bdxm3u8':'北斗星','hhm3u8':'豪华','kbm3u8':'快播'},//线路名替换如:lzm3u8替换为量子资源
     推荐:'.v-list;div.item;*;*;*;*', //这里可以为空，这样点播不会有内容
     // 一级:'.v-list&&div.item;p&&Text;img&&src;;a&&href', //一级的内容是推荐或者点播时候的一级匹配
 	一级:'.v-list&&div.item;p&&Text;img&&data-src;;a&&href', //一级的内容是推荐或者点播时候的一级匹配
-    二级:二级,
+    // 二级:二级,
+    二级:'js:eval(unescape(base64Decode("anM6CnBkZmggPSBqc3AucGRmaDsKZnVuY3Rpb24gZ2V0VG9rZW4oaHRtbDEpIHsKICAgIGxldCBjdXJyZW50SWQgPSBwZGZoKGh0bWwxLCAnI2N1cnJlbnRfaWQmJnZhbHVlJyk7CiAgICBsZXQgZVRva2VuID0gcGRmaChodG1sMSwgJyNlX3Rva2VuJiZ2YWx1ZScpOwogICAgaWYgKCFjdXJyZW50SWQgfHwgIWVUb2tlbikgcmV0dXJuICcnOwogICAgbGV0IGlkTGVuZ3RoID0gY3VycmVudElkLmxlbmd0aDsKICAgIGxldCBzdWJJZCA9IGN1cnJlbnRJZC5zdWJzdHJpbmcoaWRMZW5ndGggLSA0LCBpZExlbmd0aCk7CiAgICBsZXQga2V5cyA9IFtdOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBzdWJJZC5sZW5ndGg7IGkrKykgewogICAgICAgIGxldCBjdXJJbnQgPSBwYXJzZUludChzdWJJZFtpXSk7CiAgICAgICAgbGV0IHNwbGl0UG9zID0gY3VySW50ICUgMyArIDE7CiAgICAgICAga2V5c1tpXSA9IGVUb2tlbi5zdWJzdHJpbmcoc3BsaXRQb3MsIHNwbGl0UG9zICsgOCk7CiAgICAgICAgZVRva2VuID0gZVRva2VuLnN1YnN0cmluZyhzcGxpdFBvcyArIDgsIGVUb2tlbi5sZW5ndGgpOwogICAgfQogICAgcmV0dXJuIGtleXMuam9pbignJyk7Cn0KdHJ5IHsKICAgIFZPRD17fTsKCWxldCBodG1sMSA9IHJlcXVlc3QoaW5wdXQpOwoJVk9ELnZvZF9pZCA9IGlucHV0OwoJVk9ELnZvZF9uYW1lID0gcGRmaChodG1sMSwgJ2gyJiZUZXh0Jyk7CglWT0Qudm9kX3BpYyA9IHBkZmgoaHRtbDEsICcuaXRlbS1yb290JiZpbWcmJmRhdGEtc3JjJyk7CglWT0Qudm9kX2FjdG9yID0gcGRmaChodG1sMSwgJy5tZXRhOmVxKDQpJiZUZXh0Jyk7CglWT0Qudm9kX2FyZWEgPSBwZGZoKGh0bWwxLCAnLm1ldGE6ZXEoMykmJlRleHQnKTsKCVZPRC52b2RfeWVhciA9IHBkZmgoaHRtbDEsICcubWV0YTplcSgyKSYmVGV4dCcpOwoJVk9ELnZvZF9yZW1hcmtzID0gJyc7CglWT0Qudm9kX2RpcmVjdG9yID0gJyc7CglWT0Qudm9kX2NvbnRlbnQgPSAnJzsKCWxvZyhWT0QpOwoJdmFyIHZfdGtzID0gZ2V0VG9rZW4oaHRtbDEpOwoJaW5wdXQgPSAnaHR0cHM6Ly93d3cuaWthbmJvdC5jb20vYXBpL2dldFJlc04/dmlkZW9JZD0nICsgaW5wdXQuc3BsaXQoJy8nKS5wb3AoKSArICcmbXR5cGU9MicrJyZ0b2tlbj0nK3ZfdGtzOwoJbGV0IGh0bWwgPSByZXF1ZXN0KGlucHV0LCB7CiAgICAgICAgaGVhZGVyczogewogICAgICAgICAgICAnVXNlci1BZ2VudCc6J01vemlsbGEvNS4wIChpUGhvbmU7IENQVSBpUGhvbmUgT1MgMTNfMl8zIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0LzYwNS4xLjE1IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi8xMy4wLjMgTW9iaWxlLzE1RTE0OCBTYWZhcmkvNjA0LjEnLAogICAgICAgICAgICAnUmVmZXJlcic6IGlucHV0LAogICAgICAgIH0KICAgIH0pOwoJcHJpbnQoaHRtbCk7CglodG1sID0gSlNPTi5wYXJzZShodG1sKTsKCWxldCBlcGlzb2RlcyA9IGh0bWwuZGF0YS5saXN0OwoJbGV0IHBsYXlNYXAgPSB7fTsKCWlmICh0eXBlb2YgcGxheV91cmwgPT09ICd1bmRlZmluZWQnKSB7CgkJdmFyIHBsYXlfdXJsID0gJycKCX0KCWVwaXNvZGVzLmZvckVhY2goZnVuY3Rpb24oZXApIHsKCQlsZXQgcGxheXVybHMgPSBKU09OLnBhcnNlKGVwWydyZXNEYXRhJ10pOwoJCXBsYXl1cmxzLmZvckVhY2goZnVuY3Rpb24ocGxheXVybCkgewoJCQlsZXQgc291cmNlID0gcGxheXVybFsnZmxhZyddOwoJCQlpZiAoIXBsYXlNYXAuaGFzT3duUHJvcGVydHkoc291cmNlKSkgewoJCQkJcGxheU1hcFtzb3VyY2VdID0gW10KCQkJfQoJCQlwbGF5TWFwW3NvdXJjZV0ucHVzaChwbGF5dXJsWyd1cmwnXS5yZXBsYWNlQWxsKCcjIycsJyMnKSkKCQl9KQoJfSk7CglsZXQgcGxheUZyb20gPSBbXTsKCWxldCBwbGF5TGlzdCA9IFtdOwoJT2JqZWN0LmtleXMocGxheU1hcCkuZm9yRWFjaChmdW5jdGlvbihrZXkpIHsKCQlwbGF5RnJvbS5hcHBlbmQoa2V5KTsKCQlwbGF5TGlzdC5hcHBlbmQocGxheU1hcFtrZXldKQoJfSk7CglsZXQgdm9kX3BsYXlfZnJvbSA9IHBsYXlGcm9tLmpvaW4oJyQkJCcpOwoJbGV0IHZvZF9wbGF5X3VybCA9IHBsYXlMaXN0LmpvaW4oJyQkJCcpOwoJVk9EWyd2b2RfcGxheV9mcm9tJ10gPSB2b2RfcGxheV9mcm9tOwoJVk9EWyd2b2RfcGxheV91cmwnXSA9IHZvZF9wbGF5X3VybDsKCWxvZyhWT0QpOwp9IGNhdGNoIChlKSB7Cglsb2coJ+iOt+WPluS6jOe6p+ivpuaDhemhteWPkeeUn+mUmeivrzonICsgZS5tZXNzYWdlKQp9")))',
     // 搜索:'#search-result&&.media;h5&&a&&Text;a&&img&&data-src;.label&&Text;a&&href',//第三个是描述，一般显示更新或者完结
 	搜索:'.col-md-8&&.media;h5&&a&&Text;a&&img&&data-src;.label&&Text;a&&href',//第三个是描述，一般显示更新或者完结
 }

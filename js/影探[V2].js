@@ -158,7 +158,43 @@ var rule = {
 			if (typeof play_url === 'undefined') {
 				var play_url = ''
 			}
-			let episodes = /v1\\.vod/.test(HOST)?node.vod_play_list:node.vod_url_with_player;
+            var name = {
+                'bfzym3u8': '暴风',
+                '1080zyk': '优质',
+                'kuaikan': '快看',
+                'lzm3u8': '量子',
+                'ffm3u8': '非凡',
+                'haiwaikan': '海外看',
+                'gsm3u8': '光速',
+                'zuidam3u8': '最大',
+                'bjm3u8': '八戒',
+                'snm3u8': '索尼',
+                'wolong': '卧龙',
+                'xlm3u8': '新浪',
+                'yhm3u8': '樱花',
+                'tkm3u8': '天空',
+                'jsm3u8': '极速',
+                'wjm3u8': '无尽',
+                'sdm3u8': '闪电',
+                'kcm3u8': '快车',
+                'jinyingm3u8': '金鹰',
+                'fsm3u8': '飞速',
+                'tpm3u8': '淘片',
+                'lem3u8': '鱼乐',
+                'dbm3u8': '百度',
+                'tomm3u8': '番茄',
+                'ukm3u8': 'U酷',
+                'ikm3u8': '爱坤',
+                'hnzym3u8': '红牛资源',
+                'hnm3u8': '红牛',
+                '68zy_m3u8': '68',
+                'kdm3u8': '酷点',
+                'bdxm3u8': '北斗星',
+                'qhm3u8': '奇虎',
+                'hhm3u8': '豪华',
+                'kbm3u8': '快播'
+            };
+            let episodes = /v1\\.vod/.test(HOST)?node.vod_play_list:node.vod_url_with_player;
 			if (episodes != '') {
 				let playMap = {};
 				episodes.forEach(ep => {
@@ -183,12 +219,12 @@ var rule = {
 						parse_api = parse_api.replaceAll('..','.') ;
 						ep.url = ep.url.replaceAll('$','$'+parse_api);
 					}
-					playMap[from].push(ep.url)
+					if (from != null) playMap[from].push(ep.url)
 				});
 				let playFrom = [];
 				let playList = [];
 				Object.keys(playMap).forEach(key => {
-					playFrom.push(key);
+					playFrom.push(name[key] ? name[key] : key);
 					playList.push(playMap[key])
 				});
 				VOD.vod_play_from = playFrom.join('$$$');

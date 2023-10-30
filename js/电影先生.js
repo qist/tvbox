@@ -1,16 +1,19 @@
-/*
-电影先生 地址发布页
-http://dyxs.vip
-http://dyxs.me
-*/
+/**
+ * 电影先生 地址发布页
+ * http://dyxs.me
+ * http://dyxs.de
+ * https://dianying.in
+ */
 muban.mxone5.二级.title = 'h1&&Text;.video-info-aux&&Text';
 muban.mxone5.二级.desc = '.video-info-items:eq(3)&&Text;;;.video-info-actor:eq(2)&&Text;.video-info-actor:eq(0)&&Text';
+muban.mxone5.二级.tab_text = 'span&&Text';
 muban.mxone5.二级.content = '.video-info-content&&Text';
 var rule = {
     title:'电影先生',
     模板:'mxone5',
-    host:'http://dyxs.vip',
-    hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(5)&&a&&href");print(src);HOST=src',
+    // host:'http://DianYingim.com',
+    host:'http://dyxs.me',
+    hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(10)&&a&&href").replace("https","http");print(src);HOST=src',
     // url:'/pianku-fyclass--------fypage---/',
     url:'/pianku-fyclassfyfilter/',
     filterable:1,//是否启用分类筛选,
@@ -29,5 +32,33 @@ var rule = {
 	},
     searchUrl:'/search-**-----------fypage--/',
     class_parse: '.nav-menu-items&&li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?)/',
-    lazy:"js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);log(html);var url=html.url;if(html.encrypt=='1'){url=unescape(url).split('&')[0]}else if(html.encrypt=='2'){url=unescape(base64Decode(url).split('&')[0])}if(/m3u8|mp4/.test(url)){input=url}else{input}",
+    lazy:`js:
+        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+        log(html);
+        var url = html.url;
+        if (html.encrypt == '1') {
+            url = unescape(url).split('&')[0]
+        } else if (html.encrypt == '2') {
+            url = unescape(base64Decode(url).split('&')[0])
+        }
+        if (/m3u8|mp4/.test(url)) {
+            input = {jx:0, url:url, parse:0}
+        } else if (/youku|iqiyi|v\\.qq\\.com|pptv|sohu|le\\.com|1905\\.com|mgtv|bilibili|ixigua/.test(url)) {
+			let play_Url = /bilibili/.test(url) ? 'https://jx.xmflv.com/?url=' : 'https://jx.777jiexi.com/player/?url=';
+			input = {
+				jx: 0,
+				url: url,
+				playUrl: play_Url,
+				parse: 1,
+				header: JSON.stringify({
+					'user-agent': 'Mozilla/5.0',
+				}),
+			}
+        } else {
+            input
+        }
+    `,
+    // tab_remove:['WJ节点','ikm3u8','SD节点','M3U8','jinyingm3u8','fsm3u8','UK节点'],
+    tab_order:['BF节点','HD节点','KK节点','LZ节点','FF节点','haiwaikan','gsm3u8','zuidam3u8','BJ节点','snm3u8','wolong','xlm3u8','yhm3u8'],
+    tab_rename:{'BF节点':'暴风','HD节点':'优质','KK节点':'快看','LZ节点':'量子','FF节点':'非凡','haiwaikan':'海外看','gsm3u8':'光速','zuidam3u8':'最大','BJ节点':'八戒','snm3u8':'索尼','wolong':'卧龙','xlm3u8':'新浪','yhm3u8':'樱花','TK节点':'天空','jsm3u8':'极速','WJ节点':'无尽','SD节点':'闪电','kcm3u8':'快车','jinyingm3u8':'金鹰','fsm3u8':'飞速','tpm3u8':'淘片','lem3u8':'鱼乐','DB节点':'百度','tomm3u8':'番茄','UK节点':'U酷','ikm3u8':'爱坤','hnzym3u8':'红牛资源','HN节点':'红牛','68zy_m3u8':'68','kdm3u8':'酷点','bdxm3u8':'北斗星','TX节点':'qq','YK节点':'youku','QY节点':'qiyi','BL节点':'bilibili','MG节点':'mgtv','XG节点':'xigua','LG节点':'lg'},
 }

@@ -143,9 +143,46 @@ var rule = {
 			if (typeof play_url === 'undefined') {
 				var play_url = ''
 			}
+			var name = {
+				'bfzym3u8': '暴风',
+				'1080zyk': '优质',
+				'kuaikan': '快看',
+				'lzm3u8': '量子',
+				'ffm3u8': '非凡',
+				'haiwaikan': '海外看',
+				'gsm3u8': '光速',
+				'zuidam3u8': '最大',
+				'bjm3u8': '八戒',
+				'snm3u8': '索尼',
+				'wolong': '卧龙',
+				'xlm3u8': '新浪',
+				'yhm3u8': '樱花',
+				'tkm3u8': '天空',
+				'jsm3u8': '极速',
+				'wjm3u8': '无尽',
+				'sdm3u8': '闪电',
+				'kcm3u8': '快车',
+				'jinyingm3u8': '金鹰',
+				'fsm3u8': '飞速',
+				'tpm3u8': '淘片',
+				'lem3u8': '鱼乐',
+				'dbm3u8': '百度',
+				'tomm3u8': '番茄',
+				'ukm3u8': 'U酷',
+				'ikm3u8': '爱坤',
+				'hnzym3u8': '红牛资源',
+				'hnm3u8': '红牛',
+				'68zy_m3u8': '68',
+				'kdm3u8': '酷点',
+				'bdxm3u8': '北斗星',
+				'qhm3u8': '奇虎',
+				'hhm3u8': '豪华',
+				'kbm3u8': '快播'
+			};
 			let episodes = /v1\\.vod/.test(HOST)?node.vod_play_list:node.vod_url_with_player;
 			if (episodes != '') {
 				let playMap = {};
+				let arr = [];
 				episodes.forEach(ep => {
 					let from = [];
 					if (/v1\\.vod/.test(HOST)) {
@@ -168,14 +205,68 @@ var rule = {
 						parse_api = parse_api.replaceAll('..','.') ;
 						ep.url = ep.url.replaceAll('$','$'+parse_api);
 					}
-					playMap[from].push(ep.url)
+					if (from != null) playMap[from].push(ep.url)
 				});
+				for (var key in playMap) {
+					if ('bfzym3u8' == key) {
+						arr.push({
+							flag: name[key],
+							url: playMap[key],
+							sort: 1
+						})
+					} else if ('1080zyk' == key) {
+						arr.push({
+							flag: name[key],
+							url: playMap[key],
+							sort: 2
+						})
+					} else if ('kuaikan' == key) {
+						arr.push({
+							flag: name[key],
+							url: playMap[key],
+							sort: 3
+						})
+					} else if ('lzm3u8' == key) {
+						arr.push({
+							flag: name[key],
+							url: playMap[key],
+							sort: 4
+						})
+					} else if ('ffm3u8' == key) {
+						arr.push({
+							flag: name[key],
+							url: playMap[key],
+							sort: 5
+						})
+					} else if ('snm3u8' == key) {
+						arr.push({
+							flag: name[key],
+							url: playMap[key],
+							sort: 6
+						})
+					} else if ('qhm3u8' == key) {
+						arr.push({
+							flag: name[key],
+							url: playMap[key],
+							sort: 7
+						})
+					} else {
+						arr.push({
+							flag: name[key] ? name[key] : key,
+							url: playMap[key],
+							sort: 8
+						})
+					}
+				}
+				arr.sort((a, b) => a.sort - b.sort);
 				let playFrom = [];
 				let playList = [];
-				Object.keys(playMap).forEach(key => {
-					playFrom.push(key);
-					playList.push(playMap[key])
-				});
+				arr.map(val => {
+					if (!/undefined/.test(val.flag)) {
+						playFrom.push(val.flag);
+						playList.push(val.url);
+					}
+				})
 				VOD.vod_play_from = playFrom.join('$$$');
 				VOD.vod_play_url = playList.join('$$$');
 			} else {
