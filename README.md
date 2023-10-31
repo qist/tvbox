@@ -51,6 +51,8 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （5）新版猫影视   项目地址：https://github.com/catvod/CatVodOpen 界面简洁，支持多平台。
 
+（6）手机版本  项目地址：https://github.com/XiaoRanLiu3119/TVBoxOS-Mobile 竖屏
+
 3. TVBox各路大佬配置（排名不分先后）：
 
 （1）唐三：https://gh.t4tv.hz.cz/newtang.bmp
