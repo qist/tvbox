@@ -211,13 +211,15 @@
         "name": "watson",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/js-1027.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
-        "copy": "file://Download/JS/js.json"
+        "copy": "file://Download/JS/js.json",
+        "version": "10/27"
       },
       {
         "name": "香雅情",
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/XYQTVBox_本地包.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg",
-        "copy": "file://Download/XYQTVBox/XYQTVBox.json"
+        "copy": "file://Download/XYQTVBox/XYQTVBox.json",
+        "version": "10/22"
       }
     ]
   }
