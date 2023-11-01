@@ -1,7 +1,8 @@
     {
       "author": "春风",
       "ua": "Mozilla/5.0 (Linux; Android 10; LYA-AL00; HMSCore 6.4.0.312; GMSCore 20.15.16) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 HuaweiBrowser/11.0.4.300 Mobile Safari/537.36",
-      "homeUrl": "https://nmddd.com",
+    //  "homeUrl": "https://nmddd.com",
+      "homeUrl": "https://m.xiangdao.me/",
       "dcVipFlag": "true",
       "dcPlayUrl": "true",
       "cateManual": {
@@ -17,7 +18,7 @@
       "homeVodImg": "//@data-echo",
       "homeVodImgR": "",
       "homeVodMark": "/div/span[2]/span/text()",
-      "cateUrl": "https://nmddd.com/index.php?m=vod-list-id-{cateId}-pg-{catePg}.html",
+      "cateUrl": "https://m.xiangdao.me/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-0-year-{year}-letter--area-{area}-lang-.html",
       "cateVodNode": "//ul[@class='resize_list']/li/a",
       "cateVodName": "/@title",
       "cateVodId": "/@href",
@@ -25,7 +26,7 @@
       "cateVodImg": "//@data-echo",
       "cateVodImgR": "",
       "cateVodMark": "/div/span[2]/span/em/text()",
-      "dtUrl": "https://nmddd.com/{vid}",
+      "dtUrl": "https://m.xiangdao.me/{vid}",
       "dtNode": "//body",
       "dtName": "//section[@class='page-hd']/a/@title",
       "dtNameR": "",
@@ -52,9 +53,9 @@
       "dtUrlIdR": "/(S+).html",
       "dtUrlName": "/text()",
       "dtUrlNameR": "",
-      "playUrl": "https://nmddd.com/{playUrl}",
+      "playUrl": "https://m.xiangdao.me/{playUrl}",
       "playUa": "",
-      "searchUrl": "https://nmddd.com/index.php?m=vod-search&wd={wd}",
+      "searchUrl": "https://m.xiangdao.me/index.php?m=vod-search&wd={wd}",
       "scVodNode": "//ul[@class='ulPicTxt clearfix']/li",
       "scVodName": "//span[@class='sTit']/text()",
       "scVodId": "//span[@class='sBtn']/a/@href",
@@ -83,6 +84,7 @@
             "key":"year",
             "value":[
            {"n":"全部","v":""},
+           {"n":"2023","v":"2023"},
            {"n":"2022","v":"2022"},
            {"n":"2021","v":"2021"},
            {"n":"2020","v":"2020"},
@@ -142,6 +144,7 @@
             "key":"year",
             "value":[
            {"n":"全部","v":""},
+           {"n":"2023","v":"2023"},
            {"n":"2022","v":"2022"},
            {"n":"2021","v":"2021"},
            {"n":"2020","v":"2020"},
@@ -197,6 +200,7 @@
             "key":"year",
             "value":[
            {"n":"全部","v":""},
+           {"n":"2023","v":"2023"},
            {"n":"2022","v":"2022"},
            {"n":"2021","v":"2021"},
            {"n":"2020","v":"2020"},
@@ -254,6 +258,7 @@
             "key":"year",
             "value":[
            {"n":"全部","v":""},
+           {"n":"2023","v":"2023"},
            {"n":"2022","v":"2022"},
            {"n":"2021","v":"2021"},
            {"n":"2020","v":"2020"},
