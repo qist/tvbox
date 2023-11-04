@@ -33,7 +33,9 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （11）cat.json  cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用；
 
- (12) jsm.json 来自js.json 修改 家庭电视可用 主要删除YouTube 直播。
+（12） jsm.json 来自js.json 修改 家庭电视可用 主要删除YouTube 直播。
+
+（13）电视安卓版本低于4.4以下下载apk：https://github.com/o0HalfLife0o/TVBoxOSC/releases/download/20230902-0114/TVBox_q215613905_20230902-0114.apk
  
 猫影视使用github 配置
 
@@ -104,6 +106,10 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 （24）月光宝盒：https://jihulab.com/ygbh1/box/-/raw/main/月光宝盒
 
 （25）好人：https://xhdwc.tk/0
+
+（26）电视（自用）： https://github.moeyy.xyz/raw.githubusercontent.com/qist/tvbox/master/jsm.json
+
+（27）github代理地址： `https://github.moeyy.xyz https://ghproxy.com https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
 
 4. 随机轮换壁纸：
 
