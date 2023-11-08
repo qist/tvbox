@@ -1,9 +1,11 @@
-muban.首图.二级.title = 'h1&&Text;.data--span:eq(0)&&Text';
-muban.首图.二级.desc = '.score&&Text;;;.data--span:eq(2)&&Text;.data--span:eq(3)&&Text';
-muban.首图.二级.content = '.data:eq(5)&&Text';
+/**
+ * 影视TV 超連結跳轉支持
+ * https://t.me/fongmi_offical/
+ * https://github.com/FongMi/Release/tree/main/apk
+ */
+
 var rule = {
 	title:'独播库[飞]',
-	模板:'首图',
 	host:'https://www.duboku.tv',
 	// host:'https://u.duboku.io',
 	url: '/vodshow/fyfilter.html',
@@ -29,10 +31,126 @@ var rule = {
 		14:{cateId:'14'},
 		20:{cateId:'20'}
 	},
+	searchUrl:'/vodsearch/**----------fypage---.html',
+	searchable: 2,
 	class_parse:'.nav-list li;a&&Text;a&&href;.*/(.*?).html',
-	lazy:"js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);var url=html.url;if(html.encrypt=='1'){url=unescape(url)}else if(html.encrypt=='2'){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else{input}",
-
-	searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
-	detailUrl:'/voddetail/fyid.html', //非必填,二级详情拼接链接
-	搜索:'json:list;name;pic;;id',
+	play_parse: true,
+	lazy:`js:
+		let html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+		let url = html.url;
+		if (html.encrypt == '1') {
+			url = unescape(url)
+		} else if (html.encrypt == '2') {
+			url = unescape(base64Decode(url))
+		}
+		if (/m3u8|mp4/.test(url)) {
+			input = {jx:0, url:url, parse:0}
+		} else {
+			input
+		}
+	`,
+	limit: 6,
+	推荐:`js:
+		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
+		let d = [];
+		let html = request(input);
+		let list = pdfa(html, "ul.myui-vodlist:eq(0)&&li");
+		list.forEach(it => {
+			d.push({
+				title: pdfh(it, "a&&title"),
+				desc: pdfh(it, ".pic-text&&Text") + ' ⭐' + pdfh(it, ".tag&&Text"),
+				pic_url: pd(it, ".lazyload&&data-original"),
+				url: pd(it, "a&&href")
+			})
+		});
+		setResult(d)
+	`,
+	一级:`js:
+		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
+		let d = [];
+		let html = '';
+		let list = {};
+		if (cateObj.tid.endsWith('_clicklink')) {
+			let tid = cateObj.tid.split('_')[0];
+			input = HOST + '/vodsearch/' + tid + '----------' + MY_PAGE + '---.html';
+			html = request(input);
+			list = pdfa(html, "#searchList&&li");
+		} else {
+			html = request(input);
+			list = pdfa(html, "ul.myui-vodlist&&li");
+		}
+		list.forEach(it => {
+			d.push({
+				title: pdfh(it, "a&&title"),
+				desc: pdfh(it, ".pic-text&&Text") + ' ⭐' + pdfh(it, ".tag&&Text"),
+				pic_url: pd(it, ".lazyload&&data-original"),
+				url: pd(it, "a&&href")
+			})
+		});
+		setResult(d)
+	`,
+	二级:`js:
+		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
+		function getLink(data) {
+			let link = data.map(it => {
+				return '[a=cr:' + JSON.stringify({'id':it+'_clicklink','name':it}) + '/]' + it + '[/a]'
+			}).join(', ');
+			return link
+		}
+		try {
+			let html = request(input);
+			let vod_actor = pdfh(html, "p.data--span:eq(2)&&Text").split(' ');
+				log('vod_actor ===> ' + vod_actor);
+			let vod_director = pdfh(html, "p.data--span:eq(3)&&Text").split(' ');
+				log('vod_director ===> ' + vod_director);
+			VOD = {
+				vod_name: pdfh(html, "h1&&Text"),
+				type_name: pdfh(html, "p.data--span:eq(0)&&Text"),
+				vod_pic: pd(html, ".lazyload&&data-original"),
+				vod_remarks: pdfh(html, "p.data:eq(1)&&Text"),
+				vod_actor: getLink(vod_actor), // 影视TV click lick
+				vod_director: getLink(vod_director), // 影视TV click lick
+				vod_content: pdfh(html, ".sketch&&Text")
+			};
+			let playFrom = [];
+			let vod_tab_list = [];
+			let tabs = pdfa(html, "body .nav-tabs");
+			tabs.forEach((it) => {
+				playFrom.push(pdfh(it, "a&&Text"))
+			});
+			for (let i = 0; i < playFrom.length; i++) {
+				let p1 = ".myui-content__list:eq(#id)&&li".replaceAll("#id", i);
+				let new_vod_list = [];
+				let vodList = [];
+				try {
+					vodList = pdfa(html, p1)
+				} catch (e) {}
+				for (let i = 0; i < vodList.length; i++) {
+					let it = vodList[i];
+					new_vod_list.push(pdfh(it, "body&&Text").trim() + "$" + pd(it, "a&&href"))
+				}
+				let vlist = new_vod_list.join("#");
+				vod_tab_list.push(vlist)
+			}
+			VOD.vod_play_from = playFrom.join("$$$");
+			VOD.vod_play_url = vod_tab_list.join("$$$");
+        } catch (e) {
+            log("获取二级详情页发生错误:" + e.message);
+        }
+	`,
+	搜索:`js:
+		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
+		let d = [];
+		let html = request(input);
+		let list = pdfa(html, "#searchList&&li");
+		list.forEach(it => {
+			d.push({
+				title: pdfh(it, "a&&title"),
+				desc: pdfh(it, ".pic-text&&Text") + ' ⭐' + pdfh(it, ".tag&&Text"),
+				pic_url: pd(it, ".lazyload&&data-original"),
+				url: pd(it, "a&&href")
+			})
+		});
+		setResult(d)
+	`,
 }

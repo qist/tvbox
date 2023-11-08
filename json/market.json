@@ -120,6 +120,17 @@
     ]
   },
   {
+    "name": "實驗版",
+    "list": [
+      {
+        "name": "電視-java",
+        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/test/leanback-java-armeabi_v7a.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      }
+    ]
+  },
+  {
     "name": "v7a",
     "list": [
       {
@@ -219,7 +230,7 @@
         "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/XYQTVBox_本地包.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg",
         "copy": "file://Download/XYQTVBox/XYQTVBox.json",
-        "version": "10/22"
+        "version": "10/30"
       }
     ]
   }

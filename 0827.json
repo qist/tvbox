@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;d0ae5fa6fb705a6c020f930a73f44714",
+  "spider": "./jar/custom_spider.jar;md5;2ea1762a8c802608c2222c7051709afc",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -313,7 +313,7 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./json/market.json"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json"
     }
   ],
   "doh": [
@@ -389,7 +389,17 @@
         "8.1748",
         "10.0099",
         "10.3333",
+        "10.8565",
         "16.0599"
+      ]
+    },
+    {
+      "name": "索尼",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666"
       ]
     },
     {

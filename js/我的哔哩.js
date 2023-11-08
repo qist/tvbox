@@ -1,6 +1,7 @@
 /**
  * 已知问题：
     * [推荐]页面：'雷电模拟器'播放部份影片会出错，'播放器'改成'ijk' & '解码方式'改成'软解'，即可正常播放
+ * 影视TV 超連結跳轉支持
  * 影视TV 弹幕支持
     * https://t.me/fongmi_offical/
     * https://github.com/FongMi/Release/tree/main/apk
@@ -25,12 +26,13 @@ var rule = {
     // homeUrl:'/x/web-interface/search/type?search_type=video&keyword=小姐姐4K&page=1',
     homeUrl:'/x/web-interface/ranking/v2?rid=0&type=origin', // 排行 > 排行榜 > 原创
     url:'/x/web-interface/search/type?search_type=videofyfilter',
-    class_name:'推荐&经典无损音乐合集&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV&演唱会&白噪音&知名UP主&说案&解说&演讲&时事&探索发现&纪录片&平面设计教学&软件教程&实用教程&旅游&风景&食谱&美食&搞笑&球星&动物世界&相声小品&戏曲&儿童&小姐姐&热门&旅行探险',
-    class_url:'推荐&经典无损音乐合集&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV4K&演唱会4K&白噪音4K&知名UP主&说案&解说&演讲&时事&探索发现超清&纪录片超清&平面设计教学&软件教程&实用教程&旅游&风景4K&食谱&美食超清&搞笑&球星&动物世界超清&相声小品&戏曲&儿童&小姐姐4K&热门&旅行探险',
+    class_name:'推荐&经典无损音乐合集&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV&演唱会&白噪音&知名UP主&说案&解说&演讲&时事&探索发现&纪录片&平面设计教学&软件教程&实用教程&旅游&风景&食谱&美食&搞笑&球星&动物世界&相声小品&戏曲&儿童&小姐姐&热门&旅行探险&历史记录',
+    class_url:'推荐&经典无损音乐合集&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV4K&演唱会4K&白噪音4K&知名UP主&说案&解说&演讲&时事&探索发现超清&纪录片超清&平面设计教学&软件教程&实用教程&旅游&风景4K&食谱&美食超清&搞笑&球星&动物世界超清&相声小品&戏曲&儿童&小姐姐4K&热门&旅行探险&历史记录',
     filterable: 1,
     filter_url: '&keyword={{fl.tid}}&page=fypage&duration={{fl.duration}}&order={{fl.order}}',
     filter_def:{
         推荐:{tid:'推荐'},
+        历史记录:{tid:'历史记录'},
         经典无损音乐合集:{tid:'经典无损音乐合集'},
         帕梅拉:{tid:'帕梅拉'},
         太极拳:{tid:'太极拳'},
@@ -110,7 +112,7 @@ var rule = {
         "Referer": "https://www.bilibili.com",
         // "Cookie":"$bili_cookie"
         // "Cookie":"https://ghproxy.net/https://github.com/FongMi/CatVodSpider/raw/main/txt/cookie.txt"
-        "Cookie":"http://127.0.0.1:9978/file/tvfan/cookie.txt"
+        "Cookie":"https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"
     },
     timeout:5000,
     limit:8,
@@ -244,6 +246,10 @@ var rule = {
     `,
     // 一级:'js:let html=request(input);let msg=JSON.parse(html).message;function title_rep(title){if(/keyword/.test(title)){title=title.replace(\'<em class="keyword">\',"").replace("</em>","").replace("&quot;","\'");log("名称替换👉"+title)};return title}if(msg!=="0"){VODS=[{vod_name:KEY+"➢"+msg,vod_id:"no_data",vod_remarks:"别点,缺少bili_cookie",vod_pic:"https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/404.jpg"}]}else{let videos=[];let vodList=JSON.parse(html).data.result;vodList.forEach(function(vod){let aid=vod["aid"];let title=vod["title"].trim();title=title_rep(title);title=title_rep(title);title=title_rep(title);title=title_rep(title);let img="https:"+vod["pic"];let remark=vod["duration"];videos.push({vod_id:aid,vod_name:title,vod_pic:img,vod_remarks:remark})});VODS=videos}',
     一级:`js:
+        if (cateObj.tid.endsWith('_clicklink')) {
+            cateObj.tid = cateObj.tid.split('_')[0];
+            input = HOST + '/x/web-interface/search/type?search_type=video&keyword=' + cateObj.tid + '&page=' + MY_PAGE;
+        }
         function stripHtmlTag(src) {
             return src.replace(/<\\/?[^>]+(>|$)/g, '').replace(/&.{1,5};/g, '').replace(/\\s{2,}/g, ' ');
         }
@@ -315,6 +321,10 @@ var rule = {
             input = HOST + '/x/web-interface/index/top/rcmd?ps=14&fresh_idx=' + MY_PAGE + '&fresh_idx_1h=' + MY_PAGE;
             data = JSON.parse(request(input)).data;
             vodList = data.item;
+        } else if (MY_CATE === '历史记录') {
+            input = HOST + '/x/v2/history?pn=' + MY_PAGE;
+            data = JSON.parse(request(input)).data;
+            vodList = data;
         } else {
             data = JSON.parse(request(input)).data;
             vodList = data.result;
@@ -328,8 +338,11 @@ var rule = {
                 img = 'https:' + img;
             }
             let play = '';
-            let danmaku = ''
+            let danmaku = '';
             if (MY_CATE === '推荐') {
+                play = ConvertNum(vod.stat.view);
+                danmaku = vod.stat.danmaku;
+            } else if (MY_CATE === '历史记录') {
                 play = ConvertNum(vod.stat.view);
                 danmaku = vod.stat.danmaku;
             } else {
@@ -352,6 +365,24 @@ var rule = {
         }
         let html = request(input);
         let jo = JSON.parse(html).data.View;
+        // 历史记录
+        let cookies = rule_fetch_params.headers.Cookie.split(';');
+        let bili_jct = '';
+        cookies.forEach(cookie => {
+            if (cookie.includes('bili_jct')) {
+                bili_jct = cookie.split('=')[1];
+            }
+        });
+        if (bili_jct !== '') {
+            let historyReport = 'https://api.bilibili.com/x/v2/history/report';
+            let dataPost = {
+                aid: jo.aid,
+                cid: jo.cid,
+                csrf: bili_jct,
+            };
+            post(historyReport, dataPost, 'form');
+        }
+
         let stat = jo.stat;
         let up_info = JSON.parse(html).data.Card;
         let relation = up_info.following ? '已关注' : '未关注';
@@ -379,7 +410,8 @@ var rule = {
             vod_area: 'bilidanmu',
             // vod_remarks: remark,
             vod_tags: 'mv',
-            vod_director: '🆙 ' + up_name + '　👥 ' + up_info.follower + '　' + relation,
+            // vod_director: '🆙 ' + up_name + '　👥 ' + up_info.follower + '　' + relation,
+            vod_director: '🆙 ' + '[a=cr:' + JSON.stringify({'id':up_name + '_clicklink','name':up_name}) + '/]' + up_name + '[/a]' + '　👥 ' + up_info.follower + '　' + relation,
             vod_actor: '▶' + stat.view + '　' + '💬' + stat.danmaku + '　' + '👍' + stat.like + '　' + '💰' + stat.coin + '　' + '⭐' + stat.favorite,
             vod_content: desc
         };
