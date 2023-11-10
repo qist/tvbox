@@ -884,6 +884,13 @@ CETV-1-YunNan,http://mqiptv.com:67836/ch/custom7/mqlive.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0 
 翡翠台,https://pi.0472.org/tv/fct.php?auth=202311030915
+翡翠台,https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
+TVB星河,https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
+TVB财经台,https://edge6a.v2h-cdn.com/finance/finance.stream/chunklist.m3u8
+TVB新闻台,https://edge6a.v2h-cdn.com/news/news.stream/chunklist.m3u8
+TVB直播台,https://edge6a.v2h-cdn.com/liveshow/liveshow.stream/chunklist.m3u8
+亚洲武侠频道,https://edge6a.v2h-cdn.com/asia_action/asia_action.stream/chunklist.m3u8
+TVB娱乐新闻台,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
 明珠台,https://pi.0472.org/tv/mzt.php?auth=202311030915
 澳视澳门,https://pi.0472.org/tv/asam.php?auth=202311030915
 星空卫视,https://pi.0472.org/tv/startv.php?auth=202311030915
