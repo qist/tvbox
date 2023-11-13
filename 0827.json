@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;2ea1762a8c802608c2222c7051709afc",
+  "spider": "./jar/custom_spider.jar;md5;18d6103e01c3865caeb7a23e627adb3c",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -47,14 +47,6 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "./json/duboku.json"
-    },
-    {
-      "key": "五五",
-      "name": "五五",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/555dy_open.js",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "haiwaikan",
@@ -116,6 +108,17 @@
       "changeable": 0
     },
     {
+      "key": "看球",
+      "name": "看球",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
       "key": "暴風",
       "name": "暴風",
       "type": 1,
@@ -142,8 +145,16 @@
     {
       "key": "量子",
       "name": "量子",
-      "type": 0,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "非凡",
+      "name": "非凡",
+      "type": 1,
+      "api": "http://cj.ffzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1
     },
@@ -386,11 +397,11 @@
         "haiwaikan"
       ],
       "regex": [
-        "8.1748",
         "10.0099",
         "10.3333",
-        "10.8565",
-        "16.0599"
+        "16.0599",
+        "8.1748",
+        "10.85"
       ]
     },
     {
@@ -428,8 +439,7 @@
         "v.cdnlz"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "18.5333"
       ]
     },
     {
@@ -439,8 +449,7 @@
         "hd.ffzy"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "25.0666"
       ]
     },
     {

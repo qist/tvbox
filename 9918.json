@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fm.nogo.20231104-1015.jar.jar;md5;4a3b7be1902ebed77d5155ec696fd0d5",
+"spider":"./jar/fm.nogo.20231111-1902.jar.jar;md5;eb7812dda1f8ca37ee8b90eaa6a0d8ae",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"YanG","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u"},
 {"name":"atsushi","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/atsushi444/iptv-epg/main/Adult.m3u"},
@@ -16,7 +16,6 @@
 {"key":"nivod18","name":"泥巴貓","type":3,"api":"./cat/js/nivod_op.js","ext":"做爱"},
 {"key":"mtsp_open","name":"蜜桃貓","type":3,"api":"./cat/js/mtsp_open.js","style":{"type":"rect","ratio":1.485}},
 {"key":"18av_open","name":"18av貓","type":3,"api":"./cat/js/18av_open.js","style":{"type":"rect","ratio":1.485}},
-{"key":"csp_SMB目录","name":"网络共享","type":3,"api":"csp_Smb4nas","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/smb.jar;md5;0ebaae84cd3d8a284c59734bb02f91dd","ext":"smb://MAIBENBEN:123@192.168.1.9/"},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1"},
 {"key":"量子","name":"量子","type":0,"api":"http://127.0.0.1:10079/?thread=0&url=https://cj.lziapi.com/api.php/provide/vod/at/xml/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&url=","searchable":1,"changeable":1,"categories":["伦理片"]},
 {"key":"非凡","name":"非凡","type":0,"api":"http://127.0.0.1:10079/?thread=0&url=http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&url=","searchable":1,"changeable":1,"categories":["伦理片"]},
