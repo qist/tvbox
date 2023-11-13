@@ -59,7 +59,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （1）唐三：https://gh.t4tv.hz.cz/newtang.bmp
 
-（2）Fongmi：https://ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/fongmi/main/json/config.json
+（2）Fongmi：https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/fongmi/main/json/config.json
 
 （3）俊于：http://home.jundie.top:81/top98.json
 
@@ -67,7 +67,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （5）肥猫：http://我不是.肥猫.love:63/接口禁止贩卖
 
-（6）霜辉月明py：https://ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json
+（6）霜辉月明py：https://mirror.ghproxy.com/raw.githubusercontent.com/lm317379829/PyramidStore/pyramid/py.json
 
 （7）小米小爆脾气：http://xhww.fun:63/小米/DEMO.json
 
@@ -91,7 +91,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （17）潇洒：https://download.kstore.space/download/2863/01.txt
 
-（18）佰欣园：https://ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt
+（18）佰欣园：https://mirror.ghproxy.com/https://raw.githubusercontent.com/chengxueli818913/maoTV/main/44.txt
 
 （19）胖虎：https://notabug.org/imbig66/tv-spider-man/raw/master/配置/0801.json
 
@@ -99,7 +99,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （21）Yoursmile7：https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json
 
-（22）Ray：https://ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/0.json
+（22）Ray：https://mirror.ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/0.json
 
 （23）甜蜜：https://kebedd69.github.io/TVbox-interface/py甜蜜.json
 
@@ -109,7 +109,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （26）电视（自用）： https://github.moeyy.xyz/raw.githubusercontent.com/qist/tvbox/master/jsm.json
 
-（27）github代理地址： `https://github.moeyy.xyz https://ghproxy.com https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
+（27）github代理地址： `https://github.moeyy.xyz https://mirror.ghproxy.com/ https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
 
 4. 随机轮换壁纸：
 
