@@ -9,8 +9,8 @@
 #初秋语
 ../listx.txt
 #YanG
-https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u
 #atsushi
-https://ghproxy.com/https://raw.githubusercontent.com/atsushi444/iptv-epg/main/Adult.m3u
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/atsushi444/iptv-epg/main/Adult.m3u
 #AV集
 ../livex.m3u
