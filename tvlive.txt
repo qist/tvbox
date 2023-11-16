@@ -20,7 +20,7 @@ CCTV12,http://hms2944nc1972666637.live.aikan.miguvideo.com/wh7f454c46tw158589203
 CCTV13,http://hms2944nc1972666638.live.aikan.miguvideo.com/wh7f454c46tw1586189138_-1841939918/envivo_x/2018/SD/cctv13/2000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073736&ContentId=265667474&timezone=UTC&mtv_session=8007a0a816a3740025b4925aeae306b3&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=9ef05645ea51ea0bcfe8d603b748a30e
 CCTV14,http://hms2924nc1972666636.live.aikan.miguvideo.com/wh7f454c46tw1586468724_862335566/wd_r2/ocn/cctv14hd/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073736&ContentId=265667325&timezone=UTC&mtv_session=d69ff4fc771dd3f04825ad6d23121aa0&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=e145be999fb1457e94c38e728570b97e
 CCTV15,http://hms2864nc1972666630.live.aikan.miguvideo.com/wh7f454c46tw1586792991_-195972221/migu/kailu/20200324/cctv15hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073736&ContentId=265667535&timezone=UTC&mtv_session=5229243a54883745a550aaaa6f71126b&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=324a9a20d7e080d5c25a85803c60add8
-CCTV16,http://angtv.cc/test/ysp-2.php?id=cctv16
+CCTV16,https://qist.cc/live/cqn.php?id=cctv16
 CCTV17,http://hms2924nc1972666636.live.aikan.miguvideo.com/wh7f454c46tw1587065488_-544231819/migu/kailu/20200324/cctv17hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073737&ContentId=265667526&timezone=UTC&mtv_session=fce9a29d0fe15700731dd42b5514437c&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=38e21fbccbeb7ce8cdeaf7c394b87ce1
 
 
@@ -108,51 +108,51 @@ CCTV15,http://39.136.18.105/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32212257
 CCTV17,http://39.136.18.105/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226027/1/index.m3u8?fmt=ts2hls
 
 
-CCTV1, https://angtv.cc/test/as.php?id=cctv1hd
-CCTV1, https://angtv.cc/test/as.php?id=cctv1
-CCTV2, https://angtv.cc/test/as.php?id=cctv2hd
-CCTV2, https://angtv.cc/test/as.php?id=cctv2
-CCTV3, https://angtv.cc/test/as.php?id=cctv3hd
-CCTV3, https://angtv.cc/test/as.php?id=cctv3
-CCTV4,https://angtv.cc/test/as.php?id=cctv4hd
-CCTV4,https://angtv.cc/test/as.php?id=cctv4
-CCTV5, https://angtv.cc/test/as.php?id=cctv5hd
-CCTV5, https://angtv.cc/test/as.php?id=cctv5
-CCTV5+, https://angtv.cc/test/as.php?id=cctv5p
-CCTV6, https://angtv.cc/test/as.php?id=cctv6hd
-CCTV6, https://angtv.cc/test/as.php?id=cctv6
-CCTV7, https://angtv.cc/test/as.php?id=cctv7hd
-CCTV7, https://angtv.cc/test/as.php?id=cctv7
-CCTV8, https://angtv.cc/test/as.php?id=cctv8hd
-CCTV8, https://angtv.cc/test/as.php?id=cctv8
-CCTV9, https://angtv.cc/test/as.php?id=cctv9hd
-CCTV9, https://angtv.cc/test/as.php?id=cctv9
-CCTV10, https://angtv.cc/test/as.php?id=cctv10hd
-CCTV10, https://angtv.cc/test/as.php?id=cctv10
-CCTV11,https://angtv.cc/test/as.php?id=cctv11hd
-CCTV11,https://angtv.cc/test/as.php?id=cctv11
-CCTV12,https://angtv.cc/test/as.php?id=cctv12hd
-CCTV12,https://angtv.cc/test/as.php?id=cctv12
-CCTV13, https://angtv.cc/test/as.php?id=cctv13hd
-CCTV13, https://angtv.cc/test/as.php?id=cctv13
-CCTV14,https://angtv.cc/test/as.php?id=cctv14hd
-CCTV14,https://angtv.cc/test/as.php?id=cctv14
-CCTV15, https://angtv.cc/test/as.php?id=cctv15hd
-CCTV15, https://angtv.cc/test/as.php?id=cctv15
-CCTV16, https://angtv.cc/test/as.php?id=cctv16
-CCTV164K, https://angtv.cc/test/as.php?id=cctv16_4k
-CCTV17, https://angtv.cc/test/as.php?id=cctv17hd
-CCTV17, https://angtv.cc/test/as.php?id=cctv17
-CGTN-新闻频道,https://angtv.cc/test/as.php?id=cgtnhd
-CGTN-新闻频道, https://angtv.cc/test/as.php?id=cgtn
-CGTN-纪录频道, https://angtv.cc/test/as.php?id=cgtnjl
-CETV1, https://angtv.cc/test/as.php?id=cetv1hd
-CETV1, https://angtv.cc/test/as.php?id=cetv1
-CETV2, https://angtv.cc/test/as.php?id=cetv2
-CETV4, https://angtv.cc/test/as.php?id=cetv4
-CHC家庭影院, https://angtv.cc/test/as.php?id=chcjtyy
-CHC动作电影, https://angtv.cc/test/as.php?id=chcdzdy
-CHC高清电影, https://angtv.cc/test/as.php?id=chcgqdy
+CCTV1, https://qist.cc/live/as.php?id=cctv1hd
+CCTV1, https://qist.cc/live/as.php?id=cctv1
+CCTV2, https://qist.cc/live/as.php?id=cctv2hd
+CCTV2, https://qist.cc/live/as.php?id=cctv2
+CCTV3, https://qist.cc/live/as.php?id=cctv3hd
+CCTV3, https://qist.cc/live/as.php?id=cctv3
+CCTV4,https://qist.cc/live/as.php?id=cctv4hd
+CCTV4,https://qist.cc/live/as.php?id=cctv4
+CCTV5, https://qist.cc/live/as.php?id=cctv5hd
+CCTV5, https://qist.cc/live/as.php?id=cctv5
+CCTV5+, https://qist.cc/live/as.php?id=cctv5p
+CCTV6, https://qist.cc/live/as.php?id=cctv6hd
+CCTV6, https://qist.cc/live/as.php?id=cctv6
+CCTV7, https://qist.cc/live/as.php?id=cctv7hd
+CCTV7, https://qist.cc/live/as.php?id=cctv7
+CCTV8, https://qist.cc/live/as.php?id=cctv8hd
+CCTV8, https://qist.cc/live/as.php?id=cctv8
+CCTV9, https://qist.cc/live/as.php?id=cctv9hd
+CCTV9, https://qist.cc/live/as.php?id=cctv9
+CCTV10, https://qist.cc/live/as.php?id=cctv10hd
+CCTV10, https://qist.cc/live/as.php?id=cctv10
+CCTV11,https://qist.cc/live/as.php?id=cctv11hd
+CCTV11,https://qist.cc/live/as.php?id=cctv11
+CCTV12,https://qist.cc/live/as.php?id=cctv12hd
+CCTV12,https://qist.cc/live/as.php?id=cctv12
+CCTV13, https://qist.cc/live/as.php?id=cctv13hd
+CCTV13, https://qist.cc/live/as.php?id=cctv13
+CCTV14,https://qist.cc/live/as.php?id=cctv14hd
+CCTV14,https://qist.cc/live/as.php?id=cctv14
+CCTV15, https://qist.cc/live/as.php?id=cctv15hd
+CCTV15, https://qist.cc/live/as.php?id=cctv15
+CCTV16, https://qist.cc/live/as.php?id=cctv16
+CCTV164K, https://qist.cc/live/as.php?id=cctv16_4k
+CCTV17, https://qist.cc/live/as.php?id=cctv17hd
+CCTV17, https://qist.cc/live/as.php?id=cctv17
+CGTN-新闻频道,https://qist.cc/live/as.php?id=cgtnhd
+CGTN-新闻频道, https://qist.cc/live/as.php?id=cgtn
+CGTN-纪录频道, https://qist.cc/live/as.php?id=cgtnjl
+CETV1, https://qist.cc/live/as.php?id=cetv1hd
+CETV1, https://qist.cc/live/as.php?id=cetv1
+CETV2, https://qist.cc/live/as.php?id=cetv2
+CETV4, https://qist.cc/live/as.php?id=cetv4
+CHC家庭影院, https://qist.cc/live/as.php?id=chcjtyy
+CHC动作电影, https://qist.cc/live/as.php?id=chcdzdy
+CHC高清电影, https://qist.cc/live/as.php?id=chcgqdy
 
 CGTN西班牙语频道,http://hms2904nc1972666633.live.aikan.miguvideo.com/wh7f454c46tw1587345813_482110171/envivo_v/2018/SD/cctv/xibanya/1000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073737&ContentId=265218872&timezone=UTC&mtv_session=77cb0a926d2b93c105e811549cf499b3&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=03d4607d5c9bfb5d66f170535cb3fbba
 CGTN阿拉伯语频道,http://hms2904nc1972666633.live.aikan.miguvideo.com/wh7f454c46tw1587628749_-159090613/envivo_v/SD/cctv/alabo/1000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073737&ContentId=265219154&timezone=UTC&mtv_session=d15843f3acb2d100ab402ea7a89e39ca&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=440162df6b440ca2fd096a0c18261118
@@ -231,41 +231,6 @@ CGTN阿拉伯语频道,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 书画频道,http://211.103.180.178:8234/live_hls/hdmi.m3u8
 中央新影_老故事,http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226236/index.m3u8?
 
-CCTV1, https://angtv.cc/test/ysp.php?id=cctv1
-CCTV2, https://angtv.cc/test/ysp.php?id=cctv2
-CCTV3, https://angtv.cc/test/ysp.php?id=cctv3
-CCTV4, https://angtv.cc/test/ysp.php?id=cctv4
-CCTV5, https://angtv.cc/test/ysp.php?id=cctv5
-CCTV5+, https://angtv.cc/test/ysp.php?id=cctv5p
-CCTV6, https://angtv.cc/test/ysp.php?id=cctv6
-CCTV7, https://angtv.cc/test/ysp.php?id=cctv7
-CCTV8, https://angtv.cc/test/ysp.php?id=cctv8
-CCTV9, https://angtv.cc/test/ysp.php?id=cctv9
-CCTV10, https://angtv.cc/test/ysp.php?id=cctv10
-CCTV11, https://angtv.cc/test/ysp.php?id=cctv11
-CCTV12, https://angtv.cc/test/ysp.php?id=cctv12
-CCTV13, https://angtv.cc/test/ysp.php?id=cctv13
-CCTV14, https://angtv.cc/test/ysp.php?id=cctv14
-CCTV15, https://angtv.cc/test/ysp.php?id=cctv15
-CCTV16, https://angtv.cc/test/ysp.php?id=cctv16
-CCTV17, https://angtv.cc/test/ysp.php?id=cctv17
-CCTV4K, https://angtv.cc/test/ysp.php?id=cctv4k
-CCTV164K, https://angtv.cc/test/ysp.php?id=cctv16-4k
-CCTV兵器科技, https://angtv.cc/test/ysp.php?id=bqkj
-CCTV第一剧场, https://angtv.cc/test/ysp.php?id=dyjc
-CCTV怀旧剧场, https://angtv.cc/test/ysp.php?id=hjjc
-CCTV风云剧场, https://angtv.cc/test/ysp.php?id=fyjc
-CCTV风云音乐, https://angtv.cc/test/ysp.php?id=fyyy
-CCTV风云足球, https://angtv.cc/test/ysp.php?id=fyzq
-CCTV电视指南, https://angtv.cc/test/ysp.php?id=dszn
-CCTV女性时尚, https://angtv.cc/test/ysp.php?id=nxss
-CCTV央视文化, https://angtv.cc/test/ysp.php?id=whjp
-CCTV世界地理, https://angtv.cc/test/ysp.php?id=sjdl
-CCTV高尔夫网球, https://angtv.cc/test/ysp.php?id=gefwq
-CCTV央视台球, https://angtv.cc/test/ysp.php?id=ystq
-CCTV卫生健康, https://angtv.cc/test/ysp.php?id=wsjk
-CGTN-新闻频道, https://angtv.cc/test/ysp.php?id=cgtn
-CGTN-纪录频道, https://angtv.cc/test/ysp.php?id=cgtnjl
 
 卫视频道,#genre#
 北京卫视,http://hms2944nc1972666637.live.aikan.miguvideo.com/wh7f454c46tw1588200355_-2136083744/ws_w/bjws/bjws3000/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073738&ContentId=265668911&timezone=UTC&mtv_session=923b33c07808007ff4b7b8554ab56cb9&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=b3b910e2f08747b18ff03b13155e96cb
@@ -328,11 +293,11 @@ CGTN-纪录频道, https://angtv.cc/test/ysp.php?id=cgtnjl
 西藏卫视,http://cntv.lat/tv/live.php?auth=231110&id=xizangSD
 
 北京卫视, https://angtv.cc/test/ysp.php?id=bjws
-北京卫视, https://angtv.cc/test/as.php?id=bjwshd
-北京卫视, https://angtv.cc/test/as.php?id=bjws
+北京卫视, https://qist.cc/live/as.php?id=bjwshd
+北京卫视, https://qist.cc/live/as.php?id=bjws
 东方卫视, https://angtv.cc/test/ysp.php?id=dfws
-东方卫视, https://angtv.cc/test/as.php?id=dfwshd
-东方卫视, https://angtv.cc/test/as.php?id=dfws
+东方卫视, https://qist.cc/live/as.php?id=dfwshd
+东方卫视, https://qist.cc/live/as.php?id=dfws
 天津卫视, https://angtv.cc/test/ysp.php?id=tjws
 重庆卫视, https://angtv.cc/test/ysp.php?id=cqws
 黑龙江卫视, https://angtv.cc/test/ysp.php?id=hljws
@@ -343,34 +308,34 @@ CGTN-纪录频道, https://angtv.cc/test/ysp.php?id=cgtnjl
 河南卫视, https://angtv.cc/test/ysp.php?id=hnws
 湖北卫视, https://angtv.cc/test/ysp.php?id=hubws
 湖南卫视, https://angtv.cc/test/ysp.php?id=hunws
-湖南卫视, https://angtv.cc/test/as.php?id=hunhd
-湖南卫视, https://angtv.cc/test/as.php?id=hunws
+湖南卫视, https://qist.cc/live/as.php?id=hunhd
+湖南卫视, https://qist.cc/live/as.php?id=hunws
 江西卫视, https://angtv.cc/test/ysp.php?id=jxws
-江西卫视, https://angtv.cc/test/as.php?id=jxwshd
-江西卫视, https://angtv.cc/test/as.php?id=jxws
+江西卫视, https://qist.cc/live/as.php?id=jxwshd
+江西卫视, https://qist.cc/live/as.php?id=jxws
 江西卫视, httpss://angtv.cc/test/jxtv.php?id=jxws
 江苏卫视, https://angtv.cc/test/ysp.php?id=jsws
-江苏卫视, https://angtv.cc/test/as.php?id=jshd
-江苏卫视, https://angtv.cc/test/as.php?id=jsws
+江苏卫视, https://qist.cc/live/as.php?id=jshd
+江苏卫视, https://qist.cc/live/as.php?id=jsws
 浙江卫视, https://angtv.cc/test/ysp.php?id=zjws
-浙江卫视, https://angtv.cc/test/as.php?id=zjhd
-浙江卫视, https://angtv.cc/test/as.php?id=zjws
+浙江卫视, https://qist.cc/live/as.php?id=zjhd
+浙江卫视, https://qist.cc/live/as.php?id=zjws
 东南卫视, https://angtv.cc/test/ysp.php?id=dnws
 广东卫视, https://angtv.cc/test/ysp.php?id=gdws
-广东卫视, https://angtv.cc/test/as.php?id=gdwshd
-广东卫视, https://angtv.cc/test/as.php?id=gdws
+广东卫视, https://qist.cc/live/as.php?id=gdwshd
+广东卫视, https://qist.cc/live/as.php?id=gdws
 深圳卫视, https://angtv.cc/test/ysp.php?id=szws
-深圳卫视, https://angtv.cc/test/as.php?id=szhd
-深圳卫视, https://angtv.cc/test/as.php?id=szws
-厦门卫视, https://angtv.cc/test/as.php?id=xmws
+深圳卫视, https://qist.cc/live/as.php?id=szhd
+深圳卫视, https://qist.cc/live/as.php?id=szws
+厦门卫视, https://qist.cc/live/as.php?id=xmws
 广西卫视, https://angtv.cc/test/ysp.php?id=gxws
 贵州卫视, https://angtv.cc/test/ysp.php?id=gzws
 四川卫视, https://angtv.cc/test/ysp.php?id=scws
 新疆卫视, https://angtv.cc/test/ysp.php?id=xjws
 海南卫视, https://angtv.cc/test/ysp.php?id=hinws
-康巴卫视, https://angtv.cc/test/as.php?id=kbws
-西藏卫视, https://angtv.cc/test/as.php?id=xzws
-三沙卫视, https://angtv.cc/test/as.php?id=ssws
+康巴卫视, https://qist.cc/live/as.php?id=kbws
+西藏卫视, https://qist.cc/live/as.php?id=xzws
+三沙卫视, https://qist.cc/live/as.php?id=ssws
 
 湖南卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226698/1.m3u8
 东方卫视,http://120.196.232.124:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226734/1.m3u8
@@ -616,10 +581,15 @@ CGTN-纪录频道, https://angtv.cc/test/ysp.php?id=cgtnjl
 凤凰香港,http://113.117.74.12:8081/hls/38/index.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0 
+翡翠台,https://qist.cc/live/gudou.php?id=fcthd
 翡翠台,https://pi.0472.org/tv/fct.php?auth=231110
+明珠台,https://qist.cc/live/gudou.php?id=fmzthd
 明珠台,https://pi.0472.org/tv/mzt.php?auth=231110
+澳视澳门,https://qist.cc/live/gudou.php?id=asam
 澳视澳门,https://pi.0472.org/tv/asam.php?auth=231110
+星空卫视,https://qist.cc/live/gudou.php?id=xkws
 星空卫视,https://pi.0472.org/tv/startv.php?auth=231110
+澳亚卫视,https://qist.cc/live/gudou.php?id=ayws
 澳亚卫视,https://pi.0472.org/tv/aoya.php?auth=231110
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 莲花卫视,https://cntv.lat/tv/lhws.php
