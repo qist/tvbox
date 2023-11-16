@@ -182,6 +182,8 @@ CCTV兵器科技,http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/
 CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
 CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
 CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
+CETV3,https://qist.cc/live/edu.php?id=cetv3&u=lzjtu
+CETV3,https://qist.cc/live/edu.php?id=cetv3
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 CETV1,http://cntv.lat/tv/live.php?auth=231110&id=cetv-1SD
 CETV4,http://cntv.lat/tv/live.php?auth=231110&id=cetv-4SD
