@@ -582,7 +582,7 @@ CGTN阿拉伯语频道,http://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0 
 翡翠台,https://qist.cc/live/gudou.php?id=fcthd
 翡翠台,https://pi.0472.org/tv/fct.php?auth=231110
-明珠台,https://qist.cc/live/gudou.php?id=fmzthd
+明珠台,https://qist.cc/live/gudou.php?id=mzthd
 明珠台,https://pi.0472.org/tv/mzt.php?auth=231110
 澳视澳门,https://qist.cc/live/gudou.php?id=asam
 澳视澳门,https://pi.0472.org/tv/asam.php?auth=231110
