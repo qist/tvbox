@@ -83,23 +83,6 @@ CCTV14,https://qist.cc/live/edu.php?id=cctv14hd&u=lzjtu
 CCTV15,https://qist.cc/live/edu.php?id=cctv15&u=lzjtu
 
 
-CCTV1,https://qist.cc/live/edu.php?id=cctv1hd
-CCTV2,https://qist.cc/live/edu.php?id=cctv2hd
-CCTV3,https://qist.cc/live/edu.php?id=cctv3hd
-CCTV4,https://qist.cc/live/edu.php?id=cctv4hd
-CCTV5,https://qist.cc/live/edu.php?id=cctv5hd
-CCTV5+,https://qist.cc/live/edu.php?id=cctv5p
-CCTV6,https://qist.cc/live/edu.php?id=cctv6hd
-CCTV7,https://qist.cc/live/edu.php?id=cctv7hd
-CCTV8,https://qist.cc/live/edu.php?id=cctv8hd
-CCTV9,https://qist.cc/live/edu.php?id=cctv9hd
-CCTV10,https://qist.cc/live/edu.php?id=cctv10hd
-CCTV11,https://qist.cc/live/edu.php?id=cctv11
-CCTV12,https://qist.cc/live/edu.php?id=cctv12hd
-CCTV13,https://qist.cc/live/edu.php?id=cctv13
-CCTV14,https://qist.cc/live/edu.php?id=cctv14hd
-CCTV15,https://qist.cc/live/edu.php?id=cctv15
-
 
 CCTV1,https://qist.cc/live/as.php?id=cctv1hd 
 CCTV2 ,https://qist.cc/live/as.php?id=cctv2hd 
@@ -139,6 +122,22 @@ CCTV13,https://qist.cc/live/luas.php?id=cctv13
 CCTV14,https://qist.cc/live/luas.php?id=cctv14hd 
 CCTV15,https://qist.cc/live/luas.php?id=cctv15 
 
+CCTV1,https://qist.cc/live/edu.php?id=cctv1hd
+CCTV2,https://qist.cc/live/edu.php?id=cctv2hd
+CCTV3,https://qist.cc/live/edu.php?id=cctv3hd
+CCTV4,https://qist.cc/live/edu.php?id=cctv4hd
+CCTV5,https://qist.cc/live/edu.php?id=cctv5hd
+CCTV5+,https://qist.cc/live/edu.php?id=cctv5p
+CCTV6,https://qist.cc/live/edu.php?id=cctv6hd
+CCTV7,https://qist.cc/live/edu.php?id=cctv7hd
+CCTV8,https://qist.cc/live/edu.php?id=cctv8hd
+CCTV9,https://qist.cc/live/edu.php?id=cctv9hd
+CCTV10,https://qist.cc/live/edu.php?id=cctv10hd
+CCTV11,https://qist.cc/live/edu.php?id=cctv11
+CCTV12,https://qist.cc/live/edu.php?id=cctv12hd
+CCTV13,https://qist.cc/live/edu.php?id=cctv13
+CCTV14,https://qist.cc/live/edu.php?id=cctv14hd
+CCTV15,https://qist.cc/live/edu.php?id=cctv15
 
 CCTV兵器科技 ,https://qist.cc/live/cqn.php?id=bqkj 
 CCTV第一剧场 ,https://qist.cc/live/cqn.php?id=dyjc 
@@ -170,6 +169,7 @@ CGTN阿拉伯语频道,https://qist.cc/live/as.php?id=cgtna
 CGTN俄语频道,https://qist.cc/live/as.php?id=cgtnr 
 CETV1 ,https://qist.cc/live/as.php?id=cetv1hd 
 CETV2,https://qist.cc/live/as.php?id=cetv2 
+CETV3,https://qist.cc/live/edu.php?id=cetv3&u=lzjtu
 CETV4,https://qist.cc/live/as.php?id=cetv4 
 CHC家庭影院,https://qist.cc/live/as.php?id=chcjtyy 
 CHC动作电影,https://qist.cc/live/as.php?id=chcdzdy 
@@ -202,7 +202,6 @@ CHC家庭影院,https://qist.cc/live/luas.php?id=chcjt
 CETV1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
 CETV1,http://183.207.255.188/live/program/live/zgjy1ott/1300000/mnf.m3u8
 CETV2,http://txycsbl.centv.cn/zb/0822cetv2.m3u8
-CETV3,https://qist.cc/live/edu.php?id=cetv3&u=lzjtu
 CETV3,https://qist.cc/live/edu.php?id=cetv3
 CETV4,http://txycsbl.centv.cn/zb/0822cetv4.m3u8
 CETV1,http://cntv.lat/tv/live.php?auth=231110&id=cetv-1SD
@@ -310,40 +309,6 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 海南卫视,https://qist.cc/live/as.php?id=hinws 
 三沙卫视,https://qist.cc/live/as.php?id=ssws
 
-北京卫视,https://qist.cc/live/edu.php?id=bjhd
-东方卫视,https://qist.cc/live/edu.php?id=dfhd
-天津卫视,https://qist.cc/live/edu.php?id=tjhd
-重庆卫视,https://qist.cc/live/edu.php?id=cqhd
-黑龙江卫视,https://qist.cc/live/edu.php?id=hljhd
-吉林卫视,https://qist.cc/live/edu.php?id=jlws
-辽宁卫视,https://qist.cc/live/edu.php?id=lnhd
-内蒙古卫视,https://qist.cc/live/edu.php?id=nmws
-宁夏卫视,https://qist.cc/live/edu.php?id=nxws
-甘肃卫视,https://qist.cc/live/edu.php?id=gsws
-青海卫视,https://qist.cc/live/edu.php?id=qhws
-陕西卫视,https://qist.cc/live/edu.php?id=sxws
-河北卫视,https://qist.cc/live/edu.php?id=hbhd
-山西卫视,https://qist.cc/live/edu.php?id=sxiws
-山东卫视,https://qist.cc/live/edu.php?id=sdhd
-安徽卫视,https://qist.cc/live/edu.php?id=ahhd
-河南卫视,https://qist.cc/live/edu.php?id=hnws
-湖北卫视,https://qist.cc/live/edu.php?id=hubhd
-湖南卫视,https://qist.cc/live/edu.php?id=hunhd
-江西卫视,https://qist.cc/live/edu.php?id=jxhd
-江苏卫视,https://qist.cc/live/edu.php?id=jshd
-浙江卫视,https://qist.cc/live/edu.php?id=zjhd
-东南卫视,https://qist.cc/live/edu.php?id=dnhd
-厦门卫视,https://qist.cc/live/edu.php?id=xmws
-广东卫视,https://qist.cc/live/edu.php?id=gdhd
-深圳卫视,https://qist.cc/live/edu.php?id=szhd
-广西卫视,https://qist.cc/live/edu.php?id=gxws
-云南卫视,https://qist.cc/live/edu.php?id=ynws
-贵州卫视,https://qist.cc/live/edu.php?id=gzws
-四川卫视,https://qist.cc/live/edu.php?id=schd
-新疆卫视,https://qist.cc/live/edu.php?id=xjws
-兵团卫视,https://qist.cc/live/edu.php?id=btws
-西藏卫视,https://qist.cc/live/edu.php?id=xzws
-海南卫视,https://qist.cc/live/edu.php?id=hinws
 
 北京卫视,https://qist.cc/live/edu.php?id=bjhd&u=lzjtu
 东方卫视,https://qist.cc/live/edu.php?id=dfhd&u=lzjtu
@@ -379,6 +344,41 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 兵团卫视,https://qist.cc/live/edu.php?id=btws&u=lzjtu
 西藏卫视,https://qist.cc/live/edu.php?id=xzws&u=lzjtu
 海南卫视,https://qist.cc/live/edu.php?id=hinws&u=lzjtu
+
+北京卫视,https://qist.cc/live/edu.php?id=bjhd
+东方卫视,https://qist.cc/live/edu.php?id=dfhd
+天津卫视,https://qist.cc/live/edu.php?id=tjhd
+重庆卫视,https://qist.cc/live/edu.php?id=cqhd
+黑龙江卫视,https://qist.cc/live/edu.php?id=hljhd
+吉林卫视,https://qist.cc/live/edu.php?id=jlws
+辽宁卫视,https://qist.cc/live/edu.php?id=lnhd
+内蒙古卫视,https://qist.cc/live/edu.php?id=nmws
+宁夏卫视,https://qist.cc/live/edu.php?id=nxws
+甘肃卫视,https://qist.cc/live/edu.php?id=gsws
+青海卫视,https://qist.cc/live/edu.php?id=qhws
+陕西卫视,https://qist.cc/live/edu.php?id=sxws
+河北卫视,https://qist.cc/live/edu.php?id=hbhd
+山西卫视,https://qist.cc/live/edu.php?id=sxiws
+山东卫视,https://qist.cc/live/edu.php?id=sdhd
+安徽卫视,https://qist.cc/live/edu.php?id=ahhd
+河南卫视,https://qist.cc/live/edu.php?id=hnws
+湖北卫视,https://qist.cc/live/edu.php?id=hubhd
+湖南卫视,https://qist.cc/live/edu.php?id=hunhd
+江西卫视,https://qist.cc/live/edu.php?id=jxhd
+江苏卫视,https://qist.cc/live/edu.php?id=jshd
+浙江卫视,https://qist.cc/live/edu.php?id=zjhd
+东南卫视,https://qist.cc/live/edu.php?id=dnhd
+厦门卫视,https://qist.cc/live/edu.php?id=xmws
+广东卫视,https://qist.cc/live/edu.php?id=gdhd
+深圳卫视,https://qist.cc/live/edu.php?id=szhd
+广西卫视,https://qist.cc/live/edu.php?id=gxws
+云南卫视,https://qist.cc/live/edu.php?id=ynws
+贵州卫视,https://qist.cc/live/edu.php?id=gzws
+四川卫视,https://qist.cc/live/edu.php?id=schd
+新疆卫视,https://qist.cc/live/edu.php?id=xjws
+兵团卫视,https://qist.cc/live/edu.php?id=btws
+西藏卫视,https://qist.cc/live/edu.php?id=xzws
+海南卫视,https://qist.cc/live/edu.php?id=hinws
 
 北京卫视,https://qist.cc/live/luas.php?id=bjhd 
 东方卫视,https://qist.cc/live/luas.php?id=dfhd 
