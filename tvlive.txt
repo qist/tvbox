@@ -24,6 +24,24 @@ CCTV16,https://qist.cc/live/cqn.php?id=cctv16
 CCTV17,http://hms2924nc1972666636.live.aikan.miguvideo.com/wh7f454c46tw1587065488_-544231819/migu/kailu/20200324/cctv17hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073737&ContentId=265667526&timezone=UTC&mtv_session=fce9a29d0fe15700731dd42b5514437c&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=38e21fbccbeb7ce8cdeaf7c394b87ce1
 
 
+CCTV1,http://angtv.cc/iptv/gz.php?id=cctv1
+CCTV2,http://angtv.cc/iptv/gz.php?id=cctv2
+CCTV3,http://angtv.cc/iptv/gz.php?id=cctv3
+CCTV4,http://angtv.cc/iptv/gz.php?id=cctv4
+CCTV5,http://angtv.cc/iptv/gz.php?id=cctv5
+CCTV5+,http://angtv.cc/iptv/gz.php?id=cctv5p
+CCTV6,http://angtv.cc/iptv/gz.php?id=cctv6
+CCTV7,http://angtv.cc/iptv/gz.php?id=cctv7
+CCTV8,http://angtv.cc/iptv/gz.php?id=cctv8
+CCTV9,http://angtv.cc/iptv/gz.php?id=cctv9
+CCTV10,http://angtv.cc/iptv/gz.php?id=cctv10
+CCTV11,http://angtv.cc/iptv/gz.php?id=cctv11
+CCTV12,http://angtv.cc/iptv/gz.php?id=cctv12
+CCTV13,http://angtv.cc/iptv/gz.php?id=cctv13
+CCTV14,http://angtv.cc/iptv/gz.php?id=cctv14
+CCTV15,http://angtv.cc/iptv/gz.php?id=cctv15
+CCTV17,http://angtv.cc/iptv/gz.php?id=cctv17
+
 CCTV1,https://qist.cc/live/cqn.php?id=cctv1 
 CCTV2,https://qist.cc/live/cqn.php?id=cctv2 
 CCTV3,https://qist.cc/live/cqn.php?id=cctv3 
@@ -83,26 +101,8 @@ CCTV13 ,https://qist.cc/live/as.php?id=cctv13hd
 CCTV14 ,https://qist.cc/live/as.php?id=cctv14hd 
 CCTV15 ,https://qist.cc/live/as.php?id=cctv15hd 
 CCTV16 ,https://qist.cc/live/as.php?id=cctv16
-CCTV16 4k,https://qist.cc/live/as.php?id=cctv16_4k 
+CCTV164K,https://qist.cc/live/as.php?id=cctv16_4k 
 CCTV17 ,https://qist.cc/live/as.php?id=cctv17hd
-
-CCTV1,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227479/index.m3u8
-CCTV2,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227477/index.m3u8
-CCTV3,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227435/index.m3u8
-CCTV4,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227373/index.m3u8
-CCTV5,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227491/index.m3u8
-CCTV5+,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227493/index.m3u8
-CCTV6,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227431/index.m3u8
-CCTV7,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227429/index.m3u8
-CCTV8,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227427/index.m3u8
-CCTV9,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227425/index.m3u8
-CCTV10,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227375/index.m3u8
-CCTV11,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227922/index.m3u8
-CCTV12,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227377/index.m3u8
-CCTV13,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227926/index.m3u8
-CCTV14,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227379/index.m3u8
-CCTV15,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227933/index.m3u8
-CCTV17,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227577/index.m3u8
 
 CCTV1,https://qist.cc/live/edu.php?id=cctv1hd&u=lzjtu
 CCTV2,https://qist.cc/live/edu.php?id=cctv2hd&u=lzjtu
@@ -120,7 +120,6 @@ CCTV12,https://qist.cc/live/edu.php?id=cctv12hd&u=lzjtu
 CCTV13,https://qist.cc/live/edu.php?id=cctv13&u=lzjtu
 CCTV14,https://qist.cc/live/edu.php?id=cctv14hd&u=lzjtu
 CCTV15,https://qist.cc/live/edu.php?id=cctv15&u=lzjtu
-
 
 
 CCTV1,https://qist.cc/live/luas.php?id=cctv1hd 
@@ -168,6 +167,10 @@ CCTV女性时尚 ,https://qist.cc/live/cqn.php?id=nxss
 CCTV高尔夫网球 ,https://qist.cc/live/cqn.php?id=gefwq 
 CCTV央视台球 ,https://qist.cc/live/cqn.php?id=ystq 
 
+CCTV第一剧场,http://angtv.cc/iptv/gz.php?id=dyjc
+CCTV风云剧场,http://angtv.cc/iptv/gz.php?id=fyjc
+CCTV风云音乐,http://angtv.cc/iptv/gz.php?id=fyyy
+CCTV世界地理,http://angtv.cc/iptv/gz.php?id=sjdl
 
 CCTV风云剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
 CCTV风云音乐,http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
@@ -234,10 +237,6 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 早期教育,https://qist.cc/live/cqn.php?id=zqjy 
 中国天气 ,https://qist.cc/live/cqn.php?id=zgtq 
 1905,https://qist.cc/live/1905.php?id=1905
-CETV2,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227940/index.m3u8
-CETV4,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227337/index.m3u8
-中国教育频道,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227339/index.m3u8
-中国交通,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227499/index.m3u8
 
 卫视频道,#genre#
 北京卫视,http://hms2944nc1972666637.live.aikan.miguvideo.com/wh7f454c46tw1588200355_-2136083744/ws_w/bjws/bjws3000/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073738&ContentId=265668911&timezone=UTC&mtv_session=923b33c07808007ff4b7b8554ab56cb9&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=b3b910e2f08747b18ff03b13155e96cb
@@ -262,44 +261,34 @@ CETV4,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227337/index.m3u8
 西藏卫视,http://hms2944nc1972666638.live.aikan.miguvideo.com/wh7f454c46tw1594087791_1409479634/envivo_x/2018/SD/xizang/1000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073744&ContentId=524854265&timezone=UTC&mtv_session=5640f857e31349921ba36207946fa904&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=df71711e34a615ea23f680ef139afb1d
 海南卫视,http://hms2944nc1972666638.live.aikan.miguvideo.com/wh7f454c46tw1594363320_-990671769/envivo_x/SD/lvyou/711/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073744&ContentId=531262161&timezone=UTC&mtv_session=b55d04e0b5c7e772923fd49422a408a4&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=97ea95aaf536edf9a57ca0219cadc011
 
-四川卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227417/index.m3u8
-康巴卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227629/index.m3u8
-湖南卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227369/index.m3u8
-浙江卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227351/index.m3u8
-江苏卫视http://iptv.10086.fund:23334/PLTV/88888888/224/3221227421/index.m3u8
-东方卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227401/index.m3u8
-北京卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227397/index.m3u8
-辽宁卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227345/index.m3u8
-深圳卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227419/index.m3u8
-天津卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227343/index.m3u8
-山东卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227365/index.m3u8
-广东卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227361/index.m3u8
-湖北卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227367/index.m3u8
-黑龙江卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227347/index.m3u8
-安徽卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227363/index.m3u8
-重庆卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227359/index.m3u8
-贵州卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227357/index.m3u8
-江西卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227355/index.m3u8
-河北卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227399/index.m3u8
-东南卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227353/index.m3u8
-河南卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227923/index.m3u8
-广西卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227939/index.m3u8
-吉林卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227935/index.m3u8
-甘肃卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227937/index.m3u8
-延边卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227961/index.m3u8
-厦门卫视http://iptv.10086.fund:23334/PLTV/88888888/224/3221227938/index.m3u8
-三沙卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227943/index.m3u8
-山西卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227183/index.m3u8
-陕西卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227127/index.m3u8
-青海卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227123/index.m3u8
-宁夏卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227119/index.m3u8
-新疆卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227117/index.m3u8
-内蒙古卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227181/index.m3u8
-海南卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227139/index.m3u8
-西藏卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227131/index.m3u8
-安多卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227121/index.m3u8
-兵团卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227934/index.m3u8
-云南卫视,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227962/index.m3u8
+贵州卫视,http://angtv.cc/iptv/gz.php?id=gzws
+浙江卫视,http://angtv.cc/iptv/gz.php?id=zjws
+北京卫视,http://angtv.cc/iptv/gz.php?id=bjws
+山东卫视,http://angtv.cc/iptv/gz.php?id=sdws
+东方卫视,http://angtv.cc/iptv/gz.php?id=dfws
+重庆卫视,http://angtv.cc/iptv/gz.php?id=cqws
+安徽卫视,http://angtv.cc/iptv/gz.php?id=ahws
+黑龙江卫视,http://angtv.cc/iptv/gz.php?id=hljws
+辽宁卫视,http://angtv.cc/iptv/gz.php?id=lnws
+吉林卫视,http://angtv.cc/iptv/gz.php?id=jlws
+天津卫视,http://angtv.cc/iptv/gz.php?id=tjws
+河南卫视,http://angtv.cc/iptv/gz.php?id=haws
+湖北卫视,http://angtv.cc/iptv/gz.php?id=hbws
+河北卫视,http://angtv.cc/iptv/gz.php?id=hews
+江西卫视,http://angtv.cc/iptv/gz.php?id=jxws
+广西卫视,http://angtv.cc/iptv/gz.php?id=gxws
+湖南卫视,http://angtv.cc/iptv/gz.php?id=huws
+四川卫视,http://angtv.cc/iptv/gz.php?id=scws
+深圳卫视,http://angtv.cc/iptv/gz.php?id=szws
+厦门卫视,http://angtv.cc/iptv/gz.php?id=xmws
+宁夏卫视,http://angtv.cc/iptv/gz.php?id=nxws
+青海卫视,http://angtv.cc/iptv/gz.php?id=qhws
+甘肃卫视,http://angtv.cc/iptv/gz.php?id=gsws
+农林卫视,http://angtv.cc/iptv/gz.php?id=nlws
+海南卫视,http://angtv.cc/iptv/gz.php?id=hiws
+云南卫视,http://angtv.cc/iptv/gz.php?id=ynws
+广东卫视,http://angtv.cc/iptv/gz.php?id=gdws
+山东教育卫视,http://angtv.cc/iptv/gz.php?id=jyws
 
 北京卫视 ,https://qist.cc/live/cqn.php?id=bjws 
 东方卫视 ,https://qist.cc/live/cqn.php?id=dfws 
@@ -1128,23 +1117,6 @@ IPTV野外,https://qist.cc/live/as.php?id=iptvyw
 IPTV法治,https://qist.cc/live/as.php?id=iptvfz 
 IPTV收视指南,https://qist.cc/live/as.php?id=iptvsszn 
 
-汽摩频道,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227968/index.m3u8
-上海纪实,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227349/index.m3u8
-金鹰纪实,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227371/index.m3u8
-山东教育,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227945/index.m3u8
-西藏藏语频道,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227129/index.m3u8
-金鹰卡通,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227149/index.m3u8
-卡酷动画,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227189/index.m3u8
-SCTV-2,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227415/index.m3u8
-SCTV-3,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227413/index.m3u8
-SCTV-4,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227411/index.m3u8
-SCTV-5,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227409/index.m3u8
-SCTV-6,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227407/index.m3u8
-SCTV-7,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227405/index.m3u8
-SCTV-科教,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227936/index.m3u8
-SCTV-9,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227403/index.m3u8
-峨眉电影,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227942/index.m3u8
-
 北京文艺,https://qist.cc/live/edu.php?id=bjwyhd&u=lzjtu
 北京影视,https://qist.cc/live/edu.php?id=bjyshd&u=lzjtu
 北京财财经,https://qist.cc/live/edu.php?id=bjcj&u=lzjtu
@@ -1231,6 +1203,8 @@ SCTV-9,http://iptv.10086.fund:23334/PLTV/88888888/224/3221227403/index.m3u8
 上海纪实人文,https://qist.cc/live/luas.php?id=shjsrw 
 全纪实,https://qist.cc/live/luas.php?id=qjs 
 金鹰纪实,https://qist.cc/live/luas.php?id=jyjs 
+
+
 
 
 纪录片频道,#genre#
