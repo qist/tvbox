@@ -288,7 +288,6 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 海南卫视,http://angtv.cc/iptv/gz.php?id=hiws
 云南卫视,http://angtv.cc/iptv/gz.php?id=ynws
 广东卫视,http://angtv.cc/iptv/gz.php?id=gdws
-山东教育卫视,http://angtv.cc/iptv/gz.php?id=jyws
 
 北京卫视 ,https://qist.cc/live/cqn.php?id=bjws 
 东方卫视 ,https://qist.cc/live/cqn.php?id=dfws 
@@ -1126,6 +1125,7 @@ IPTV收视指南,https://qist.cc/live/as.php?id=iptvsszn
 北京新闻,https://qist.cc/live/edu.php?id=bjxwhd&u=lzjtu
 北京卡酷少儿,https://qist.cc/live/edu.php?id=kkse&u=lzjtu
 上海纪实人文,https://qist.cc/live/edu.php?id=shjsrw&u=lzjtu
+山东教育卫视,http://angtv.cc/iptv/gz.php?id=jyws
 
 北京文艺,https://qist.cc/live/edu.php?id=bjwyhd
 北京影视,https://qist.cc/live/edu.php?id=bjyshd
