@@ -214,7 +214,7 @@ CETV1,https://qist.cc/live/cqn.php?id=cetv1
 CETV4,https://qist.cc/live/cqn.php?id=cetv4 
 早期教育,https://qist.cc/live/cqn.php?id=zqjy 
 中国天气 ,https://qist.cc/live/cqn.php?id=zgtq 
-
+1905,https://qist.cc/live/1905.php?id=1905
 
 卫视频道,#genre#
 北京卫视,http://hms2944nc1972666637.live.aikan.miguvideo.com/wh7f454c46tw1588200355_-2136083744/ws_w/bjws/bjws3000/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073738&ContentId=265668911&timezone=UTC&mtv_session=923b33c07808007ff4b7b8554ab56cb9&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=b3b910e2f08747b18ff03b13155e96cb
