@@ -1178,7 +1178,7 @@ CHC家庭影院_2.5M1080HEVC,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/
 北京体育休闲,https://qist.cc/live/edu.php?id=bjtyxxhd&u=lzjtu
 北京生活,https://qist.cc/live/edu.php?id=bjsh&u=lzjtu
 北京新闻,https://qist.cc/live/edu.php?id=bjxwhd&u=lzjtu
-北京卡酷少儿,https://qist.cc/live/edu.php?id=kkse&u=lzjtu
+北京卡酷,https://qist.cc/live/edu.php?id=kkse&u=lzjtu
 上海纪实人文,https://qist.cc/live/edu.php?id=shjsrw&u=lzjtu
 山东教育卫视,http://angtv.cc/iptv/gz.php?id=jyws
 
@@ -1189,7 +1189,7 @@ CHC家庭影院_2.5M1080HEVC,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/
 北京体育休闲,https://qist.cc/live/edu.php?id=bjtyxxhd
 北京生活,https://qist.cc/live/edu.php?id=bjsh
 北京新闻,https://qist.cc/live/edu.php?id=bjxwhd
-北京卡酷少儿,https://qist.cc/live/edu.php?id=kkse
+北京卡酷,https://qist.cc/live/edu.php?id=kkse
 上海纪实人文,https://qist.cc/live/edu.php?id=shjsrw
 
 
@@ -1200,7 +1200,7 @@ CHC家庭影院_2.5M1080HEVC,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/
 北京体育休闲,https://qist.cc/live/luas.php?id=bjtyxx 
 北京纪实科教,https://qist.cc/live/luas.php?id=bjkjjshd 
 北京新闻,https://qist.cc/live/luas.php?id=bjxwhd 
-北京卡酷少儿,https://qist.cc/live/luas.php?id=bjkk 
+北京卡酷,https://qist.cc/live/luas.php?id=bjkk 
 上海纪实人文,https://qist.cc/live/luas.php?id=shjsrw 
 全纪实,https://qist.cc/live/luas.php?id=qjs 
 金鹰纪实,https://qist.cc/live/luas.php?id=jyjs 
