@@ -42,6 +42,29 @@ CCTV14,http://angtv.cc/iptv/gz.php?id=cctv14
 CCTV15,http://angtv.cc/iptv/gz.php?id=cctv15
 CCTV17,http://angtv.cc/iptv/gz.php?id=cctv17
 
+CCTV1,https://qist.cc/live/sc.php?id=cctv1
+CCTV2,https://qist.cc/live/sc.php?id=cctv2
+CCTV2,https://qist.cc/live/sc.php?id=cctv2a
+CCTV3,https://qist.cc/live/sc.php?id=cctv3
+CCTV4,https://qist.cc/live/sc.php?id=cctv4
+CCTV5,https://qist.cc/live/sc.php?id=cctv5
+CCTV5,https://qist.cc/live/sc.php?id=cctv5a
+CCTV5+,https://qist.cc/live/sc.php?id=cctv5p
+CCTV6,https://qist.cc/live/sc.php?id=cctv6
+CCTV6,https://qist.cc/live/sc.php?id=cctv6a
+CCTV7,https://qist.cc/live/sc.php?id=cctv7
+CCTV8,https://qist.cc/live/sc.php?id=cctv8
+CCTV9,https://qist.cc/live/sc.php?id=cctv9
+CCTV10,https://qist.cc/live/sc.php?id=cctv10
+CCTV11,https://qist.cc/live/sc.php?id=cctv11
+CCTV12,https://qist.cc/live/sc.php?id=cctv12
+CCTV13,https://qist.cc/live/sc.php?id=cctv13
+CCTV13,https://qist.cc/live/sc.php?id=cctv13a
+CCTV14,https://qist.cc/live/sc.php?id=cctv14
+CCTV15,https://qist.cc/live/sc.php?id=cctv15
+CCTV16,https://qist.cc/live/sc.php?id=cctv16
+CCTV17,https://qist.cc/live/sc.php?id=cctv17
+
 CCTV1,https://qist.cc/live/cqyx.php?id=cctv1 
 CCTV2,https://qist.cc/live/cqyx.php?id=cctv2 
 CCTV3,https://qist.cc/live/cqyx.php?id=cctv3 
@@ -210,6 +233,10 @@ CHC高清电影,https://qist.cc/live/edu.php?id=chcgq&u=lzjtu
 CHC动作电影,https://qist.cc/live/edu.php?id=chcdz&u=lzjtu
 CHC家庭影院,https://qist.cc/live/edu.php?id=chcjt&u=lzjtu
 
+CGTN西语,https://qist.cc/live/sc.php?id=cgtnx
+CGTN法语,https://qist.cc/live/sc.php?id=cgtnf
+CGTN-新闻频道,https://qist.cc/live/sc.php?id=cgtny
+
 CGTN-新闻频道,https://qist.cc/live/edu.php?id=cgtn
 CETV1,https://qist.cc/live/edu.php?id=cetv1
 CETV3,https://qist.cc/live/edu.php?id=cetv3
@@ -236,6 +263,7 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 早期教育,https://qist.cc/live/cqn.php?id=zqjy 
 中国天气 ,https://qist.cc/live/cqn.php?id=zgtq 
 1905,https://qist.cc/live/1905.php?id=1905
+中国交通,https://qist.cc/live/sc.php?id=zgjt
 
 卫视频道,#genre#
 北京卫视,http://hms2944nc1972666637.live.aikan.miguvideo.com/wh7f454c46tw1588200355_-2136083744/ws_w/bjws/bjws3000/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073738&ContentId=265668911&timezone=UTC&mtv_session=923b33c07808007ff4b7b8554ab56cb9&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=b3b910e2f08747b18ff03b13155e96cb
@@ -462,12 +490,20 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 延边卫视,http://live.ybtvyun.com/video/s10016-6f0dfd97912f/index.m3u8
 延边卫视,http://live.ybtvyun.com/video/s10006-44f040627ca1/index.m3u8
 延边卫视,http://live.ybtvyun.com/video/s10006-90fe76c52091/index.m3u8
-延边卫视2,http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
-
+延边卫视,https://qist.cc/live/ybtv.php?id=ybws 
+延边卫视,https://qist.cc/live/ybtv.php?id=ybws_2
+延边朝鲜语综合,https://qist.cc/live/ybtv.php?id=ybtv1 
+延边朝鲜语综合,https://qist.cc/live/ybtv.php?id=ybtv1_2
+延边汉语综合,http://live.ybtvyun.com/video/s10016-7e5f23de35df/index.m3u8
+延边汉语综合,https://qist.cc/live/ybtv.php?id=ybtv2 
+延边汉语综合,https://qist.cc/live/ybtv.php?id=ybtv2_2 
+延边卫视,https://qist.cc/live/gudou.php?id=ybws
 
 
 
 港澳台综合,#genre#
+凤凰卫视,https://qist.cc/live/sc.php?id=fhws
+凤凰资讯,https://qist.cc/live/sc.php?id=fhzx
 凤凰中文,https://qist.cc/live/fshow.php?id=fhws
 凤凰资讯,https://qist.cc/live/fshow.php?id=fhzx
 凤凰香港,https://qist.cc/live/fshow.php?id=fhhk
@@ -1161,6 +1197,67 @@ CHC家庭影院_2.5M1080HEVC,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/
 天元围棋 ,https://qist.cc/live/cqn.php?id=tywq 
 摄影频道 ,https://qist.cc/live/cqn.php?id=sypd 
 求索纪录 ,https://qist.cc/live/cqn.php?id=qsjl 
+
+绚影4K,https://qist.cc/live/sc.php?id=xy4k
+爱上4K,https://qist.cc/live/sc.php?id=as4k
+乐享4K,https://qist.cc/live/sc.php?id=lx4k
+津津悦读4K,https://qist.cc/live/sc.php?id=yd4k
+中录动漫4K,https://qist.cc/live/sc.php?id=dm4k
+亲子趣学4K,https://qist.cc/live/sc.php?id=qx4k
+四川文化旅游,https://qist.cc/live/sc.php?id=scly
+四川经济,https://qist.cc/live/sc.php?id=scjj
+四川乡村,https://qist.cc/live/sc.php?id=scnc
+四川峨眉电影,https://qist.cc/live/sc.php?id=emdy
+四川影视文艺,https://qist.cc/live/sc.php?id=scys
+四川科教,https://qist.cc/live/sc.php?id=scjk
+四川儿童,https://qist.cc/live/sc.php?id=scet
+四川新闻,https://qist.cc/live/sc.php?id=scxw
+康巴卫视,https://qist.cc/live/sc.php?id=kbws
+达州综合,https://qist.cc/live/sc.php?id=dzzh
+达州文化生活,https://qist.cc/live/sc.php?id=dzgg
+熊猫生活,https://qist.cc/live/sc.php?id=xmsh
+熊猫卡通,https://qist.cc/live/sc.php?id=xmkt
+熊猫影院,https://qist.cc/live/sc.php?id=xmyy
+熊猫少儿,https://qist.cc/live/sc.php?id=xmse
+大爱四川,https://qist.cc/live/sc.php?id=dasc
+大爱旅游,https://qist.cc/live/sc.php?id=daly
+大爱生活,https://qist.cc/live/sc.php?id=dash
+大爱时尚,https://qist.cc/live/sc.php?id=dass
+麻辣体育,https://qist.cc/live/sc.php?id=mlty
+动画番剧,https://qist.cc/live/sc.php?id=dhfj
+红色经典,https://qist.cc/live/sc.php?id=hsjd
+综艺咖秀,https://qist.cc/live/sc.php?id=zykx
+热血剧场,https://qist.cc/live/sc.php?id=rxjc
+生活时尚,https://qist.cc/live/sc.php?id=shss
+都市剧场,https://qist.cc/live/sc.php?id=dsjc
+环球旅游,https://qist.cc/live/sc.php?id=hqly
+CHTV,https://qist.cc/live/sc.php?id=chtv
+iHOT爱喜剧,https://qist.cc/live/sc.php?id=axj
+iHOT爱科幻,https://qist.cc/live/sc.php?id=akh
+iHOT爱院线,https://qist.cc/live/sc.php?id=ayx
+iHOT爱悬疑,https://qist.cc/live/sc.php?id=axy
+iHOT爱经典,https://qist.cc/live/sc.php?id=ajd
+iHOT爱谍战,https://qist.cc/live/sc.php?id=adz
+iHOT爱都市,https://qist.cc/live/sc.php?id=ads
+iHOT爱青春,https://qist.cc/live/sc.php?id=aqc
+iHOT爱幼教,https://qist.cc/live/sc.php?id=ayj
+iHOT爱玩具,https://qist.cc/live/sc.php?id=awj
+iHOT爱电竞,https://qist.cc/live/sc.php?id=adj
+iHOT爱赛车,https://qist.cc/live/sc.php?id=asc
+iHOT爱怀旧,https://qist.cc/live/sc.php?id=ahj
+iHOT爱奇迹,https://qist.cc/live/sc.php?id=aqj
+iHOT爱动漫,https://qist.cc/live/sc.php?id=adm
+
+乐龄学堂,https://qist.cc/live/sc.php?id=llxt
+少儿天地,https://qist.cc/live/sc.php?id=setd
+爱宠宠物,https://qist.cc/live/sc.php?id=accw
+来钓鱼吧,https://qist.cc/live/sc.php?id=ldyb
+求索记录,https://qist.cc/live/sc.php?id=qsjl
+纪实人文,https://qist.cc/live/sc.php?id=jsrw
+重庆汽摩,https://qist.cc/live/sc.php?id=cqqm
+金鹰纪实,https://qist.cc/live/sc.php?id=jyjs
+快乐垂钓,https://qist.cc/live/sc.php?id=klcd
+茶频道,https://qist.cc/live/sc.php?id=cpd
 
 北京文艺,https://qist.cc/live/edu.php?id=bjwyhd&u=lzjtu
 北京影视,https://qist.cc/live/edu.php?id=bjyshd&u=lzjtu
