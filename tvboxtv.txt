@@ -470,16 +470,16 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 
 
 港澳台综合,#genre#
+凤凰中文,https://qist.cc/live/fshow.php?id=fhws
+凤凰资讯,https://qist.cc/live/fshow.php?id=fhzx
+凤凰香港,https://qist.cc/live/fshow.php?id=fhhk
 凤凰中文,http://r.jdshipin.com/cCCzW
 凤凰资讯,http://php.17186.eu.org/phtv/fhzx.m3u8
 凤凰中文,http://php.17186.eu.org/phtv/fhzw.m3u8
-凤凰中文,https://qist.cc/live/fshow.php?id=fhws
 凤凰资讯,http://r.jdshipin.com/0Rp07
 凤凰香港,http://php.17186.eu.org/phtv/fhxg.m3u8
 凤凰资讯,http://113.117.74.19:8081/hls/36/index.m3u8
-凤凰资讯,https://qist.cc/live/fshow.php?id=fhzx
 凤凰香港,http://113.117.74.12:8081/hls/38/index.m3u8
-凤凰香港,https://qist.cc/live/fshow.php?id=fhhk
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0 
 翡翠台,https://qist.cc/live/gudou.php?id=fcthd
