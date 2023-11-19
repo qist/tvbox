@@ -528,7 +528,7 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 
 
 港澳台综合,#genre#
-凤凰卫视,https://qist.cc/live/sc.php?id=fhws
+凤凰中文,https://qist.cc/live/sc.php?id=fhws
 凤凰资讯,https://qist.cc/live/sc.php?id=fhzx
 凤凰中文,https://qist.cc/live/fshow.php?id=fhws
 凤凰资讯,https://qist.cc/live/fshow.php?id=fhzx
