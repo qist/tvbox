@@ -20,7 +20,7 @@ CCTV12,http://hms2944nc1972666637.live.aikan.miguvideo.com/wh7f454c46tw158589203
 CCTV13,http://hms2944nc1972666638.live.aikan.miguvideo.com/wh7f454c46tw1586189138_-1841939918/envivo_x/2018/SD/cctv13/2000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073736&ContentId=265667474&timezone=UTC&mtv_session=8007a0a816a3740025b4925aeae306b3&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=9ef05645ea51ea0bcfe8d603b748a30e
 CCTV14,http://hms2924nc1972666636.live.aikan.miguvideo.com/wh7f454c46tw1586468724_862335566/wd_r2/ocn/cctv14hd/3000/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073736&ContentId=265667325&timezone=UTC&mtv_session=d69ff4fc771dd3f04825ad6d23121aa0&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=e145be999fb1457e94c38e728570b97e
 CCTV15,http://hms2864nc1972666630.live.aikan.miguvideo.com/wh7f454c46tw1586792991_-195972221/migu/kailu/20200324/cctv15hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073736&ContentId=265667535&timezone=UTC&mtv_session=5229243a54883745a550aaaa6f71126b&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=324a9a20d7e080d5c25a85803c60add8
-CCTV16,https://qist.cc/live/gzyd.php?id=cctv16
+CCTV16,https://qist.cc/live/cqyx.php?id=cctv16 
 CCTV17,http://hms2924nc1972666636.live.aikan.miguvideo.com/wh7f454c46tw1587065488_-544231819/migu/kailu/20200324/cctv17hd/57/01.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=139.198.127.250&timestamp=20230816073737&ContentId=265667526&timezone=UTC&mtv_session=fce9a29d0fe15700731dd42b5514437c&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=38e21fbccbeb7ce8cdeaf7c394b87ce1
 
 CCTV1,https://qist.cc/live/gzyd.php?id=cctv1
@@ -41,7 +41,6 @@ CCTV12,https://qist.cc/live/gzyd.php?id=cctv12
 CCTV13,https://qist.cc/live/gzyd.php?id=cctv13
 CCTV14,https://qist.cc/live/gzyd.php?id=cctv14
 CCTV15,https://qist.cc/live/gzyd.php?id=cctv15
-CCTV16,https://qist.cc/live/gzyd.php?id=cctv16
 CCTV17,https://qist.cc/live/gzyd.php?id=cctv17
 
 CCTV1,http://angtv.cc/iptv/gz.php?id=cctv1
