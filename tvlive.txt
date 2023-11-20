@@ -1049,13 +1049,12 @@ CNA新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe
 发现之旅,https://qist.cc/live/gzyd.php?id=fxzl
 重庆汽摩,https://qist.cc/live/gzyd.php?id=qm
 江苏靓装,https://qist.cc/live/gzyd.php?id=lz
-江苏财富天下,https://qist.cc/live/gzyd.php?id=cftx
+财富天下,https://qist.cc/live/gzyd.php?id=cftx
 摄影频道,https://qist.cc/live/gzyd.php?id=sypd
 国学频道,https://qist.cc/live/gzyd.php?id=gxpd
 环球奇观,https://qist.cc/live/gzyd.php?id=hqqg
 动漫秀场,https://qist.cc/live/gzyd.php?id=dmxc
 新视觉,https://qist.cc/live/gzyd.php?id=xsj
-极速汽车,https://qist.cc/live/gzyd.php?id=jsqc
 欢笑剧场,https://qist.cc/live/gzyd.php?id=hxjc
 法治天地,https://qist.cc/live/gzyd.php?id=fztd
 游戏风云,https://qist.cc/live/gzyd.php?id=yxfy
