@@ -1083,15 +1083,15 @@ CNA新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe
 摄影频道,https://qist.cc/live/gzyd.php?id=sypd
 国学频道,https://qist.cc/live/gzyd.php?id=gxpd
 环球奇观,https://qist.cc/live/gzyd.php?id=hqqg
-SiTV动漫秀场,https://qist.cc/live/gzyd.php?id=dmxc
-SiTV新视觉,https://qist.cc/live/gzyd.php?id=xsj
-SiTV极速汽车,https://qist.cc/live/gzyd.php?id=jsqc
-SiTV欢笑剧场,https://qist.cc/live/gzyd.php?id=hxjc
-SiTV法治天地,https://qist.cc/live/gzyd.php?id=fztd
-SiTV游戏风云,https://qist.cc/live/gzyd.php?id=yxfy
-SiTV生活时尚,https://qist.cc/live/gzyd.php?id=shss
-SiTV都市剧场,https://qist.cc/live/gzyd.php?id=dsjc
-SiTV金色学堂,https://qist.cc/live/gzyd.php?id=jsxt
+动漫秀场,https://qist.cc/live/gzyd.php?id=dmxc
+新视觉,https://qist.cc/live/gzyd.php?id=xsj
+极速汽车,https://qist.cc/live/gzyd.php?id=jsqc
+欢笑剧场,https://qist.cc/live/gzyd.php?id=hxjc
+法治天地,https://qist.cc/live/gzyd.php?id=fztd
+游戏风云,https://qist.cc/live/gzyd.php?id=yxfy
+生活时尚,https://qist.cc/live/gzyd.php?id=shss
+都市剧场,https://qist.cc/live/gzyd.php?id=dsjc
+金色学堂,https://qist.cc/live/gzyd.php?id=jsxt
 
 北京纪实科教 ,https://qist.cc/live/cqyx.php?id=bjjskj 
 北京卡酷 ,https://qist.cc/live/cqyx.php?id=bjkk 
