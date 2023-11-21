@@ -43,24 +43,6 @@ CCTV14,https://qist.cc/live/gzyd.php?id=cctv14
 CCTV15,https://qist.cc/live/gzyd.php?id=cctv15
 CCTV17,https://qist.cc/live/gzyd.php?id=cctv17
 
-CCTV1,http://angtv.cc/iptv/gz.php?id=cctv1
-CCTV2,http://angtv.cc/iptv/gz.php?id=cctv2
-CCTV3,http://angtv.cc/iptv/gz.php?id=cctv3
-CCTV4,http://angtv.cc/iptv/gz.php?id=cctv4
-CCTV5,http://angtv.cc/iptv/gz.php?id=cctv5
-CCTV5+,http://angtv.cc/iptv/gz.php?id=cctv5p
-CCTV6,http://angtv.cc/iptv/gz.php?id=cctv6
-CCTV7,http://angtv.cc/iptv/gz.php?id=cctv7
-CCTV8,http://angtv.cc/iptv/gz.php?id=cctv8
-CCTV9,http://angtv.cc/iptv/gz.php?id=cctv9
-CCTV10,http://angtv.cc/iptv/gz.php?id=cctv10
-CCTV11,http://angtv.cc/iptv/gz.php?id=cctv11
-CCTV12,http://angtv.cc/iptv/gz.php?id=cctv12
-CCTV13,http://angtv.cc/iptv/gz.php?id=cctv13
-CCTV14,http://angtv.cc/iptv/gz.php?id=cctv14
-CCTV15,http://angtv.cc/iptv/gz.php?id=cctv15
-CCTV17,http://angtv.cc/iptv/gz.php?id=cctv17
-
 CCTV1,https://qist.cc/live/sc.php?id=cctv1
 CCTV2,https://qist.cc/live/sc.php?id=cctv2
 CCTV2,https://qist.cc/live/sc.php?id=cctv2a
@@ -235,11 +217,6 @@ CCTV高尔夫网球 ,https://qist.cc/live/cqyx.php?id=gefwq
 CCTV央视台球 ,https://qist.cc/live/cqyx.php?id=ystq 
 
 
-CCTV第一剧场,http://angtv.cc/iptv/gz.php?id=dyjc
-CCTV风云剧场,http://angtv.cc/iptv/gz.php?id=fyjc
-CCTV风云音乐,http://angtv.cc/iptv/gz.php?id=fyyy
-CCTV世界地理,http://angtv.cc/iptv/gz.php?id=sjdl
-
 CCTV风云剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
 CCTV风云音乐,http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
 CCTV风云足球,http://hls.live.cqccn.com/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
@@ -378,33 +355,6 @@ CETV4,https://qist.cc/live/cqyx.php?id=cetv4
 西藏藏语卫视,https://qist.cc/live/gzyd.php?id=zyws
 青海安多卫视,https://qist.cc/live/gzyd.php?id=adws
 
-贵州卫视,http://angtv.cc/iptv/gz.php?id=gzws
-浙江卫视,http://angtv.cc/iptv/gz.php?id=zjws
-北京卫视,http://angtv.cc/iptv/gz.php?id=bjws
-山东卫视,http://angtv.cc/iptv/gz.php?id=sdws
-东方卫视,http://angtv.cc/iptv/gz.php?id=dfws
-重庆卫视,http://angtv.cc/iptv/gz.php?id=cqws
-安徽卫视,http://angtv.cc/iptv/gz.php?id=ahws
-黑龙江卫视,http://angtv.cc/iptv/gz.php?id=hljws
-辽宁卫视,http://angtv.cc/iptv/gz.php?id=lnws
-吉林卫视,http://angtv.cc/iptv/gz.php?id=jlws
-天津卫视,http://angtv.cc/iptv/gz.php?id=tjws
-河南卫视,http://angtv.cc/iptv/gz.php?id=haws
-湖北卫视,http://angtv.cc/iptv/gz.php?id=hbws
-河北卫视,http://angtv.cc/iptv/gz.php?id=hews
-江西卫视,http://angtv.cc/iptv/gz.php?id=jxws
-广西卫视,http://angtv.cc/iptv/gz.php?id=gxws
-湖南卫视,http://angtv.cc/iptv/gz.php?id=huws
-四川卫视,http://angtv.cc/iptv/gz.php?id=scws
-深圳卫视,http://angtv.cc/iptv/gz.php?id=szws
-厦门卫视,http://angtv.cc/iptv/gz.php?id=xmws
-宁夏卫视,http://angtv.cc/iptv/gz.php?id=nxws
-青海卫视,http://angtv.cc/iptv/gz.php?id=qhws
-甘肃卫视,http://angtv.cc/iptv/gz.php?id=gsws
-农林卫视,http://angtv.cc/iptv/gz.php?id=nlws
-海南卫视,http://angtv.cc/iptv/gz.php?id=hiws
-云南卫视,http://angtv.cc/iptv/gz.php?id=ynws
-广东卫视,http://angtv.cc/iptv/gz.php?id=gdws
 
 北京卫视 ,https://qist.cc/live/cqn.php?id=bjws 
 东方卫视 ,https://qist.cc/live/cqn.php?id=dfws 
@@ -1231,7 +1181,6 @@ iHOT爱动漫,https://qist.cc/live/sc.php?id=adm
 北京新闻,https://qist.cc/live/edu.php?id=bjxwhd&u=lzjtu
 北京卡酷,https://qist.cc/live/edu.php?id=kkse&u=lzjtu
 上海纪实人文,https://qist.cc/live/edu.php?id=shjsrw&u=lzjtu
-山东教育卫视,http://angtv.cc/iptv/gz.php?id=jyws
 
 北京文艺,https://qist.cc/live/edu.php?id=bjwyhd
 北京影视,https://qist.cc/live/edu.php?id=bjyshd
