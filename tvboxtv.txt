@@ -1069,7 +1069,7 @@ CNA新闻,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe
 金鹰卡通,https://qist.cc/live/gzyd.php?id=jykt
 金鹰纪实,https://qist.cc/live/gzyd.php?id=jyjs
 乐游,https://qist.cc/live/gzyd.php?id=ley
-卡酷少儿,https://qist.cc/live/gzyd.php?id=kkse
+北京卡酷,https://qist.cc/live/gzyd.php?id=kkse
 哈哈炫动,https://qist.cc/live/gzyd.php?id=hhxd
 广东嘉佳卡通,https://qist.cc/live/gzyd.php?id=jkt
 江苏优漫卡通,https://qist.cc/live/gzyd.php?id=ymkt
