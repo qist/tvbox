@@ -1228,7 +1228,7 @@ iHOT爱动漫,https://qist.cc/live/sc.php?id=adm
 北京新闻,https://qist.cc/live/luas.php?id=bjxwhd 
 北京卡酷,https://qist.cc/live/luas.php?id=bjkk 
 上海纪实人文,https://qist.cc/live/luas.php?id=shjsrw 
-全纪实,https://qist.cc/live/luas.php?id=qjs 
+乐游,https://qist.cc/live/luas.php?id=qjs 
 金鹰纪实,https://qist.cc/live/luas.php?id=jyjs 
 
 
