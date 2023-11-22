@@ -112,7 +112,7 @@ var rule = {
         "Referer": "https://www.bilibili.com",
         // "Cookie":"$bili_cookie"
         // "Cookie":"https://ghproxy.net/https://github.com/FongMi/CatVodSpider/raw/main/txt/cookie.txt"
-        "Cookie":"https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"
+        "Cookie":"http://127.0.0.1:9978/file/tvfan/cookie.txt"
     },
     timeout:5000,
     limit:8,

@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;18d6103e01c3865caeb7a23e627adb3c",
+  "spider": "./jar/custom_spider.jar;md5;4bc4aada582cd00fafe20d12508dc2a7",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -26,7 +26,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/tvfan/token.txt",
+        "token": "影視天下第一",
         "filter": "./json/wogg.json"
       }
     },
@@ -207,7 +207,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "帕梅拉#音乐#舞蹈#风景#美食#科普#历史#法考#医考",
+        "categories": "沙雕动画#帕梅拉#音乐#舞蹈#风景#美食#科普#历史",
         "cookie": ""
       }
     },
@@ -251,8 +251,7 @@
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
+      "changeable": 0
     },
     {
       "key": "易搜",
@@ -260,8 +259,7 @@
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
+      "changeable": 0
     },
     {
       "key": "雲搜",
@@ -269,8 +267,7 @@
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
+      "changeable": 0
     },
     {
       "key": "盤搜",
@@ -278,8 +275,7 @@
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
+      "changeable": 0
     },
     {
       "key": "紙條搜",
@@ -287,8 +283,7 @@
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
+      "changeable": 0
     },
     {
       "key": "盤搜索",
@@ -296,8 +291,7 @@
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
+      "changeable": 0
     },
     {
       "key": "找資源",
@@ -306,7 +300,7 @@
       "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt$$$test2$$$test2"
+      "ext": "影視天下第一$$$test2$$$test2"
     },
     {
       "key": "push_agent",
@@ -314,8 +308,7 @@
       "type": 3,
       "api": "csp_Push",
       "searchable": 1,
-      "changeable": 0,
-      "ext":"http://127.0.0.1:9978/file/tvfan/token.txt"
+      "changeable": 0
     },
     {
       "key": "應用商店",
@@ -324,7 +317,7 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json"
+      "ext": "./json/market.json"
     }
   ],
   "doh": [
@@ -410,7 +403,8 @@
         "suonizy"
       ],
       "regex": [
-        "15.1666"
+        "15.1666",
+        "15.2666"
       ]
     },
     {
