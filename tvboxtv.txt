@@ -43,28 +43,26 @@ CCTV14,https://qist.cc/live/gzyd.php?id=cctv14
 CCTV15,https://qist.cc/live/gzyd.php?id=cctv15
 CCTV17,https://qist.cc/live/gzyd.php?id=cctv17
 
-CCTV1,https://qist.cc/live/sc.php?id=cctv1
-CCTV2,https://qist.cc/live/sc.php?id=cctv2
-CCTV2,https://qist.cc/live/sc.php?id=cctv2a
-CCTV3,https://qist.cc/live/sc.php?id=cctv3
-CCTV4,https://qist.cc/live/sc.php?id=cctv4
-CCTV5,https://qist.cc/live/sc.php?id=cctv5
-CCTV5,https://qist.cc/live/sc.php?id=cctv5a
-CCTV5+,https://qist.cc/live/sc.php?id=cctv5p
-CCTV6,https://qist.cc/live/sc.php?id=cctv6
-CCTV6,https://qist.cc/live/sc.php?id=cctv6a
-CCTV7,https://qist.cc/live/sc.php?id=cctv7
-CCTV8,https://qist.cc/live/sc.php?id=cctv8
-CCTV9,https://qist.cc/live/sc.php?id=cctv9
-CCTV10,https://qist.cc/live/sc.php?id=cctv10
-CCTV11,https://qist.cc/live/sc.php?id=cctv11
-CCTV12,https://qist.cc/live/sc.php?id=cctv12
-CCTV13,https://qist.cc/live/sc.php?id=cctv13
-CCTV13,https://qist.cc/live/sc.php?id=cctv13a
-CCTV14,https://qist.cc/live/sc.php?id=cctv14
-CCTV15,https://qist.cc/live/sc.php?id=cctv15
-CCTV16,https://qist.cc/live/sc.php?id=cctv16
-CCTV17,https://qist.cc/live/sc.php?id=cctv17
+CCTV1,https://qist.cc/live/cqyx.php?id=cctv1 
+CCTV2,https://qist.cc/live/cqyx.php?id=cctv2 
+CCTV3,https://qist.cc/live/cqyx.php?id=cctv3 
+CCTV4,https://qist.cc/live/cqyx.php?id=cctv4 
+CCTV5,https://qist.cc/live/cqyx.php?id=cctv5 
+CCTV5+,https://qist.cc/live/cqyx.php?id=cctv5p 
+CCTV6,https://qist.cc/live/cqyx.php?id=cctv6 
+CCTV7,https://qist.cc/live/cqyx.php?id=cctv7 
+CCTV8,https://qist.cc/live/cqyx.php?id=cctv8 
+CCTV9,https://qist.cc/live/cqyx.php?id=cctv9 
+CCTV10,https://qist.cc/live/cqyx.php?id=cctv10 
+CCTV11,https://qist.cc/live/cqyx.php?id=cctv11 
+CCTV12,https://qist.cc/live/cqyx.php?id=cctv12 
+CCTV13,https://qist.cc/live/cqyx.php?id=cctv13 
+CCTV14,https://qist.cc/live/cqyx.php?id=cctv14 
+CCTV15,https://qist.cc/live/cqyx.php?id=cctv15 
+CCTV16,https://qist.cc/live/cqyx.php?id=cctv16 
+CCTV17,https://qist.cc/live/cqyx.php?id=cctv17 
+CCTV4K,https://qist.cc/live/cqyx.php?id=cctv4k 
+CCTV164K,https://qist.cc/live/cqyx.php?id=cctv16-4k 
 
 CCTV1,https://qist.cc/live/cqn.php?id=cctv1 
 CCTV2,https://qist.cc/live/cqn.php?id=cctv2 
@@ -86,27 +84,6 @@ CCTV16,https://qist.cc/live/cqn.php?id=cctv16
 CCTV17,https://qist.cc/live/cqn.php?id=cctv17 
 CCTV4K,https://qist.cc/live/cqn.php?id=cctv4k 
 CCTV164K,https://qist.cc/live/cqn.php?id=cctv16-4k 
-
-CCTV1,https://qist.cc/live/cqyx.php?id=cctv1 
-CCTV2,https://qist.cc/live/cqyx.php?id=cctv2 
-CCTV3,https://qist.cc/live/cqyx.php?id=cctv3 
-CCTV4,https://qist.cc/live/cqyx.php?id=cctv4 
-CCTV5,https://qist.cc/live/cqyx.php?id=cctv5 
-CCTV5+,https://qist.cc/live/cqyx.php?id=cctv5p 
-CCTV6,https://qist.cc/live/cqyx.php?id=cctv6 
-CCTV7,https://qist.cc/live/cqyx.php?id=cctv7 
-CCTV8,https://qist.cc/live/cqyx.php?id=cctv8 
-CCTV9,https://qist.cc/live/cqyx.php?id=cctv9 
-CCTV10,https://qist.cc/live/cqyx.php?id=cctv10 
-CCTV11,https://qist.cc/live/cqyx.php?id=cctv11 
-CCTV12,https://qist.cc/live/cqyx.php?id=cctv12 
-CCTV13,https://qist.cc/live/cqyx.php?id=cctv13 
-CCTV14,https://qist.cc/live/cqyx.php?id=cctv14 
-CCTV15,https://qist.cc/live/cqyx.php?id=cctv15 
-CCTV16,https://qist.cc/live/cqyx.php?id=cctv16 
-CCTV17,https://qist.cc/live/cqyx.php?id=cctv17 
-CCTV4K,https://qist.cc/live/cqyx.php?id=cctv4k 
-CCTV164K,https://qist.cc/live/cqyx.php?id=cctv16-4k 
 
 
 CCTV1,http://hms304nc1972679586.live.aikan.miguvideo.com/wh7f454c46tw3831204341_1349411946/wd_r2/cctv/cctv1hd/2500/01.m3u8?msisdn=19115966146&Channel_ID=0119_04102000-99000_400300000040002&client_ip=182.149.232.3&timestamp=20230115080246&ContentId=265183188&timezone=UTC&mtv_session=01b97ad3f1d61532d8f0d40578ee3f47&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=ac6f75650a73ab06efc36233598f26b8
@@ -194,17 +171,6 @@ CCTV风云足球,https://qist.cc/live/gzyd.php?id=fyzq
 CCTV风云音乐,https://qist.cc/live/gzyd.php?id=fyyy
 CCTV高尔夫网球,https://qist.cc/live/gzyd.php?id=gefwq
 
-CCTV兵器科技 ,https://qist.cc/live/cqn.php?id=bqkj 
-CCTV第一剧场 ,https://qist.cc/live/cqn.php?id=dyjc 
-CCTV怀旧剧场 ,https://qist.cc/live/cqn.php?id=hjjc 
-CCTV风云剧场 ,https://qist.cc/live/cqn.php?id=fyjc 
-CCTV风云音乐 ,https://qist.cc/live/cqn.php?id=fyyy 
-CCTV风云足球 ,https://qist.cc/live/cqn.php?id=fyzq 
-CCTV央视文化 ,https://qist.cc/live/cqn.php?id=whjp 
-CCTV女性时尚 ,https://qist.cc/live/cqn.php?id=nxss 
-CCTV高尔夫网球 ,https://qist.cc/live/cqn.php?id=gefwq 
-CCTV央视台球 ,https://qist.cc/live/cqn.php?id=ystq 
-
 CCTV兵器科技 ,https://qist.cc/live/cqyx.php?id=bqkj 
 CCTV第一剧场 ,https://qist.cc/live/cqyx.php?id=dyjc 
 CCTV怀旧剧场 ,https://qist.cc/live/cqyx.php?id=hjjc 
@@ -216,24 +182,24 @@ CCTV女性时尚 ,https://qist.cc/live/cqyx.php?id=nxss
 CCTV高尔夫网球 ,https://qist.cc/live/cqyx.php?id=gefwq 
 CCTV央视台球 ,https://qist.cc/live/cqyx.php?id=ystq 
 
-
-CCTV风云剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/fyjcHD/__op/default/__f/index.m3u8
-CCTV风云音乐,http://hls.live.cqccn.com/__cl/cg:live/__c/fyyyHD/__op/default/__f/index.m3u8
-CCTV风云足球,http://hls.live.cqccn.com/__cl/cg:live/__c/fyzqHD/__op/default/__f/index.m3u8
-CCTV央视台球,http://hls.live.cqccn.com/__cl/cg:live/__c/ystqHD/__op/default/__f/index.m3u8
-CCTV怀旧剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/hjjcHD/__op/default/__f/index.m3u8
-CCTV第一剧场,http://hls.live.cqccn.com/__cl/cg:live/__c/diyijuchangHD/__op/default/__f/index.m3u8
-CCTV高尔夫网球,http://hls.live.cqccn.com/__cl/cg:live/__c/golfHD/__op/default/__f/index.m3u8
-CCTV央视文化,http://hls.live.cqccn.com/__cl/cg:live/__c/yswhHD/__op/default/__f/index.m3u8
-CCTV兵器科技,http://hls.live.cqccn.com/__cl/cg:live/__c/bqkjHD/__op/default/__f/index.m3u8
-
-CHC高清电影 ,https://qist.cc/live/cqn.php?id=chcgq 
-CHC动作电影 ,https://qist.cc/live/cqn.php?id=chcdz 
-CHC家庭影院 ,https://qist.cc/live/cqn.php?id=chcjt 
+CCTV兵器科技 ,https://qist.cc/live/cqn.php?id=bqkj 
+CCTV第一剧场 ,https://qist.cc/live/cqn.php?id=dyjc 
+CCTV怀旧剧场 ,https://qist.cc/live/cqn.php?id=hjjc 
+CCTV风云剧场 ,https://qist.cc/live/cqn.php?id=fyjc 
+CCTV风云音乐 ,https://qist.cc/live/cqn.php?id=fyyy 
+CCTV风云足球 ,https://qist.cc/live/cqn.php?id=fyzq 
+CCTV央视文化 ,https://qist.cc/live/cqn.php?id=whjp 
+CCTV女性时尚 ,https://qist.cc/live/cqn.php?id=nxss 
+CCTV高尔夫网球 ,https://qist.cc/live/cqn.php?id=gefwq 
+CCTV央视台球 ,https://qist.cc/live/cqn.php?id=ystq 
 
 CHC高清电影 ,https://qist.cc/live/cqyx.php?id=chcgq 
 CHC动作电影 ,https://qist.cc/live/cqyx.php?id=chcdz 
 CHC家庭影院 ,https://qist.cc/live/cqyx.php?id=chcjt 
+
+CHC高清电影 ,https://qist.cc/live/cqn.php?id=chcgq 
+CHC动作电影 ,https://qist.cc/live/cqn.php?id=chcdz 
+CHC家庭影院 ,https://qist.cc/live/cqn.php?id=chcjt 
 
 
 CGTN-新闻频道,https://qist.cc/live/gzyd.php?id=cgtn
@@ -258,10 +224,6 @@ CHC高清电影,https://qist.cc/live/edu.php?id=chcgq&u=lzjtu
 CHC动作电影,https://qist.cc/live/edu.php?id=chcdz&u=lzjtu
 CHC家庭影院,https://qist.cc/live/edu.php?id=chcjt&u=lzjtu
 
-CGTN西语,https://qist.cc/live/sc.php?id=cgtnx
-CGTN法语,https://qist.cc/live/sc.php?id=cgtnf
-CGTN-新闻频道,https://qist.cc/live/sc.php?id=cgtny
-
 
 CGTN-新闻频道,https://qist.cc/live/edu.php?id=cgtn
 CETV1,https://qist.cc/live/edu.php?id=cetv1
@@ -280,15 +242,15 @@ CETV1,https://qist.cc/live/luas.php?id=cetv1
 CETV3,https://qist.cc/live/luas.php?id=cetv3 
 CETV4,https://qist.cc/live/luas.php?id=cetv4 
 
-CETV1,https://qist.cc/live/cqn.php?id=cetv1 
-CETV4,https://qist.cc/live/cqn.php?id=cetv4 
-早期教育,https://qist.cc/live/cqn.php?id=zqjy 
-中国天气 ,https://qist.cc/live/cqn.php?id=zgtq 
-
 CETV1,https://qist.cc/live/cqyx.php?id=cetv1 
 CETV4,https://qist.cc/live/cqyx.php?id=cetv4 
 早期教育,https://qist.cc/live/cqyx.php?id=zqjy 
 中国天气 ,https://qist.cc/live/cqyx.php?id=zgtq 
+
+CETV1,https://qist.cc/live/cqn.php?id=cetv1 
+CETV4,https://qist.cc/live/cqn.php?id=cetv4 
+早期教育,https://qist.cc/live/cqn.php?id=zqjy 
+中国天气 ,https://qist.cc/live/cqn.php?id=zgtq 
 
 1905,https://qist.cc/live/1905.php?id=1905
 中国交通,https://qist.cc/live/gzyd.php?id=zgjt
@@ -359,30 +321,37 @@ CETV4,https://qist.cc/live/cqyx.php?id=cetv4
 西藏藏语卫视,https://qist.cc/live/gzyd.php?id=zyws
 青海安多卫视,https://qist.cc/live/gzyd.php?id=adws
 
-四川卫视,https://qist.cc/live/sc.php?id=scws
-甘肃卫视,https://qist.cc/live/sc.php?id=gsws
-重庆卫视,https://qist.cc/live/sc.php?id=cqws
-天津卫视,https://qist.cc/live/sc.php?id=tjws
-山东卫视,https://qist.cc/live/sc.php?id=sdws
-湖北卫视,https://qist.cc/live/sc.php?id=hbws
-广东卫视,https://qist.cc/live/sc.php?id=gdws
-北京卫视,https://qist.cc/live/sc.php?id=bjws
-深圳卫视,https://qist.cc/live/sc.php?id=szws
-黑龙江卫视,https://qist.cc/live/sc.php?id=hlws
-辽宁卫视,https://qist.cc/live/sc.php?id=lnws
-湖南卫视,https://qist.cc/live/sc.php?id=huws
-江苏卫视,https://qist.cc/live/sc.php?id=jsws
-浙江卫视,https://qist.cc/live/sc.php?id=zjws
-东方卫视,https://qist.cc/live/sc.php?id=dfws
-吉林卫视,https://qist.cc/live/sc.php?id=jlws
-东南卫视,https://qist.cc/live/sc.php?id=dnws
-河北卫视,https://qist.cc/live/sc.php?id=hews
-安徽卫视,https://qist.cc/live/sc.php?id=ahws
-贵州卫视,https://qist.cc/live/sc.php?id=gzws
-广西卫视,https://qist.cc/live/sc.php?id=gxws
-海南卫视,https://qist.cc/live/sc.php?id=hiws
-江西卫视,https://qist.cc/live/sc.php?id=jxws
-兵团卫视,https://qist.cc/live/sc.php?id=btws
+北京卫视 ,https://qist.cc/live/cqyx.php?id=bjws 
+东方卫视 ,https://qist.cc/live/cqyx.php?id=dfws 
+天津卫视 ,https://qist.cc/live/cqyx.php?id=tjws 
+重庆卫视 ,https://qist.cc/live/cqyx.php?id=cqws 
+黑龙江卫视 ,https://qist.cc/live/cqyx.php?id=hljws 
+吉林卫视 ,https://qist.cc/live/cqyx.php?id=jlws 
+辽宁卫视 ,https://qist.cc/live/cqyx.php?id=lnws 
+内蒙古卫视 ,https://qist.cc/live/cqyx.php?id=nmws 
+宁夏卫视 ,https://qist.cc/live/cqyx.php?id=nxws 
+青海卫视 ,https://qist.cc/live/cqyx.php?id=qhws 
+河北卫视 ,https://qist.cc/live/cqyx.php?id=hbws 
+山西卫视 ,https://qist.cc/live/cqyx.php?id=sxiws 
+安徽卫视 ,https://qist.cc/live/cqyx.php?id=ahws 
+河南卫视 ,https://qist.cc/live/cqyx.php?id=hnws 
+湖北卫视 ,https://qist.cc/live/cqyx.php?id=hubws 
+湖南卫视 ,https://qist.cc/live/cqyx.php?id=hunws 
+江西卫视 ,https://qist.cc/live/cqyx.php?id=jxws 
+江苏卫视 ,https://qist.cc/live/cqyx.php?id=jsws 
+浙江卫视 ,https://qist.cc/live/cqyx.php?id=zjws 
+东南卫视 ,https://qist.cc/live/cqyx.php?id=dnws 
+广东卫视 ,https://qist.cc/live/cqyx.php?id=gdws 
+深圳卫视 ,https://qist.cc/live/cqyx.php?id=szws 
+广西卫视 ,https://qist.cc/live/cqyx.php?id=gxws 
+云南卫视 ,https://qist.cc/live/cqyx.php?id=ynws 
+贵州卫视 ,https://qist.cc/live/cqyx.php?id=gzws 
+四川卫视 ,https://qist.cc/live/cqyx.php?id=scws 
+新疆卫视 ,https://qist.cc/live/cqyx.php?id=xjws 
+兵团卫视 ,https://qist.cc/live/cqyx.php?id=btws 
+西藏卫视 ,https://qist.cc/live/cqyx.php?id=xzws 
+海南卫视 ,https://qist.cc/live/cqyx.php?id=hinws 
+三沙卫视 ,https://qist.cc/live/cqyx.php?id=ssws 
 
 北京卫视 ,https://qist.cc/live/cqn.php?id=bjws 
 东方卫视 ,https://qist.cc/live/cqn.php?id=dfws 
@@ -416,37 +385,6 @@ CETV4,https://qist.cc/live/cqyx.php?id=cetv4
 海南卫视 ,https://qist.cc/live/cqn.php?id=hinws 
 三沙卫视 ,https://qist.cc/live/cqn.php?id=ssws 
 
-北京卫视 ,https://qist.cc/live/cqyx.php?id=bjws 
-东方卫视 ,https://qist.cc/live/cqyx.php?id=dfws 
-天津卫视 ,https://qist.cc/live/cqyx.php?id=tjws 
-重庆卫视 ,https://qist.cc/live/cqyx.php?id=cqws 
-黑龙江卫视 ,https://qist.cc/live/cqyx.php?id=hljws 
-吉林卫视 ,https://qist.cc/live/cqyx.php?id=jlws 
-辽宁卫视 ,https://qist.cc/live/cqyx.php?id=lnws 
-内蒙古卫视 ,https://qist.cc/live/cqyx.php?id=nmws 
-宁夏卫视 ,https://qist.cc/live/cqyx.php?id=nxws 
-青海卫视 ,https://qist.cc/live/cqyx.php?id=qhws 
-河北卫视 ,https://qist.cc/live/cqyx.php?id=hbws 
-山西卫视 ,https://qist.cc/live/cqyx.php?id=sxiws 
-安徽卫视 ,https://qist.cc/live/cqyx.php?id=ahws 
-河南卫视 ,https://qist.cc/live/cqyx.php?id=hnws 
-湖北卫视 ,https://qist.cc/live/cqyx.php?id=hubws 
-湖南卫视 ,https://qist.cc/live/cqyx.php?id=hunws 
-江西卫视 ,https://qist.cc/live/cqyx.php?id=jxws 
-江苏卫视 ,https://qist.cc/live/cqyx.php?id=jsws 
-浙江卫视 ,https://qist.cc/live/cqyx.php?id=zjws 
-东南卫视 ,https://qist.cc/live/cqyx.php?id=dnws 
-广东卫视 ,https://qist.cc/live/cqyx.php?id=gdws 
-深圳卫视 ,https://qist.cc/live/cqyx.php?id=szws 
-广西卫视 ,https://qist.cc/live/cqyx.php?id=gxws 
-云南卫视 ,https://qist.cc/live/cqyx.php?id=ynws 
-贵州卫视 ,https://qist.cc/live/cqyx.php?id=gzws 
-四川卫视 ,https://qist.cc/live/cqyx.php?id=scws 
-新疆卫视 ,https://qist.cc/live/cqyx.php?id=xjws 
-兵团卫视 ,https://qist.cc/live/cqyx.php?id=btws 
-西藏卫视 ,https://qist.cc/live/cqyx.php?id=xzws 
-海南卫视 ,https://qist.cc/live/cqyx.php?id=hinws 
-三沙卫视 ,https://qist.cc/live/cqyx.php?id=ssws 
 
 北京卫视,https://qist.cc/live/edu.php?id=bjhd&u=lzjtu
 东方卫视,https://qist.cc/live/edu.php?id=dfhd&u=lzjtu
@@ -1040,6 +978,47 @@ IPV6-地方频道,#genre#
 都市剧场,https://qist.cc/live/gzyd.php?id=dsjc
 金色学堂,https://qist.cc/live/gzyd.php?id=jsxt
 
+北京纪实科教 ,https://qist.cc/live/cqyx.php?id=bjjskj 
+北京卡酷 ,https://qist.cc/live/cqyx.php?id=bjkk 
+中华特产 ,https://qist.cc/live/cqyx.php?id=zhtc 
+生态环境 ,https://qist.cc/live/cqyx.php?id=sthj 
+四海钓鱼 ,https://qist.cc/live/cqyx.php?id=shdy 
+车迷频道 ,https://qist.cc/live/cqyx.php?id=cmpd 
+百姓健康 ,https://qist.cc/live/cqyx.php?id=bxjk 
+环球奇观 ,https://qist.cc/live/cqyx.php?id=hqqg 
+环球旅游 ,https://qist.cc/live/cqyx.php?id=hqly 
+优优宝贝 ,https://qist.cc/live/cqyx.php?id=yybb 
+聚鲨环球精选 ,https://qist.cc/live/cqyx.php?id=jshwjx 
+
+东方财经 ,https://qist.cc/live/cqyx.php?id=dfcj 
+欢笑剧场 ,https://qist.cc/live/cqyx.php?id=hxjc 
+都市剧场 ,https://qist.cc/live/cqyx.php?id=dsjc 
+魅力足球 ,https://qist.cc/live/cqyx.php?id=mlxq 
+动漫秀场 ,https://qist.cc/live/cqyx.php?id=dmxc 
+游戏风云 ,https://qist.cc/live/cqyx.php?id=yxfy 
+生活时尚 ,https://qist.cc/live/cqyx.php?id=shss 
+法治天地 ,https://qist.cc/live/cqyx.php?id=fztd 
+金色学堂 ,https://qist.cc/live/cqyx.php?id=jsxt 
+
+重庆新闻 ,https://qist.cc/live/cqyx.php?id=cqxw 
+重庆科教 ,https://qist.cc/live/cqyx.php?id=cqkj 
+重庆影视 ,https://qist.cc/live/cqyx.php?id=cqys 
+重庆文体娱乐 ,https://qist.cc/live/cqyx.php?id=cqwtyl 
+重庆少儿 ,https://qist.cc/live/cqyx.php?id=cqse 
+重庆时尚生活 ,https://qist.cc/live/cqyx.php?id=cqsssh 
+重庆新农村 ,https://qist.cc/live/cqyx.php?id=cqxnc 
+重庆社会与法 ,https://qist.cc/live/cqyx.php?id=cqshyf 
+重庆移动 ,https://qist.cc/live/cqyx.php?id=cqyd 
+重庆汽摩 ,https://qist.cc/live/cqyx.php?id=cqqm 
+重广融媒 ,https://qist.cc/live/cqyx.php?id=cgrm 
+爱看导视 ,https://qist.cc/live/cqyx.php?id=akds 
+合川综合 ,https://qist.cc/live/cqyx.php?id=hczh 
+长寿综合 ,https://qist.cc/live/cqyx.php?id=cszh 
+酉阳综合 ,https://qist.cc/live/cqyx.php?id=yyzh 
+云阳综合 ,https://qist.cc/live/cqyx.php?id=yunyzh 
+铜梁综合 ,https://qist.cc/live/cqyx.php?id=tlzh 
+
+
 北京纪实科教 ,https://qist.cc/live/cqn.php?id=bjjskj 
 北京卡酷 ,https://qist.cc/live/cqn.php?id=bjkk 
 中华特产 ,https://qist.cc/live/cqn.php?id=zhtc 
@@ -1095,108 +1074,6 @@ IPV6-地方频道,#genre#
 摄影频道 ,https://qist.cc/live/cqn.php?id=sypd 
 求索纪录 ,https://qist.cc/live/cqn.php?id=qsjl 
 
-
-北京纪实科教 ,https://qist.cc/live/cqyx.php?id=bjjskj 
-北京卡酷 ,https://qist.cc/live/cqyx.php?id=bjkk 
-中华特产 ,https://qist.cc/live/cqyx.php?id=zhtc 
-生态环境 ,https://qist.cc/live/cqyx.php?id=sthj 
-四海钓鱼 ,https://qist.cc/live/cqyx.php?id=shdy 
-车迷频道 ,https://qist.cc/live/cqyx.php?id=cmpd 
-百姓健康 ,https://qist.cc/live/cqyx.php?id=bxjk 
-环球奇观 ,https://qist.cc/live/cqyx.php?id=hqqg 
-环球旅游 ,https://qist.cc/live/cqyx.php?id=hqly 
-优优宝贝 ,https://qist.cc/live/cqyx.php?id=yybb 
-聚鲨环球精选 ,https://qist.cc/live/cqyx.php?id=jshwjx 
-
-东方财经 ,https://qist.cc/live/cqyx.php?id=dfcj 
-欢笑剧场 ,https://qist.cc/live/cqyx.php?id=hxjc 
-都市剧场 ,https://qist.cc/live/cqyx.php?id=dsjc 
-魅力足球 ,https://qist.cc/live/cqyx.php?id=mlxq 
-动漫秀场 ,https://qist.cc/live/cqyx.php?id=dmxc 
-游戏风云 ,https://qist.cc/live/cqyx.php?id=yxfy 
-生活时尚 ,https://qist.cc/live/cqyx.php?id=shss 
-法治天地 ,https://qist.cc/live/cqyx.php?id=fztd 
-金色学堂 ,https://qist.cc/live/cqyx.php?id=jsxt 
-
-重庆新闻 ,https://qist.cc/live/cqyx.php?id=cqxw 
-重庆科教 ,https://qist.cc/live/cqyx.php?id=cqkj 
-重庆影视 ,https://qist.cc/live/cqyx.php?id=cqys 
-重庆文体娱乐 ,https://qist.cc/live/cqyx.php?id=cqwtyl 
-重庆少儿 ,https://qist.cc/live/cqyx.php?id=cqse 
-重庆时尚生活 ,https://qist.cc/live/cqyx.php?id=cqsssh 
-重庆新农村 ,https://qist.cc/live/cqyx.php?id=cqxnc 
-重庆社会与法 ,https://qist.cc/live/cqyx.php?id=cqshyf 
-重庆移动 ,https://qist.cc/live/cqyx.php?id=cqyd 
-重庆汽摩 ,https://qist.cc/live/cqyx.php?id=cqqm 
-重广融媒 ,https://qist.cc/live/cqyx.php?id=cgrm 
-爱看导视 ,https://qist.cc/live/cqyx.php?id=akds 
-合川综合 ,https://qist.cc/live/cqyx.php?id=hczh 
-长寿综合 ,https://qist.cc/live/cqyx.php?id=cszh 
-酉阳综合 ,https://qist.cc/live/cqyx.php?id=yyzh 
-云阳综合 ,https://qist.cc/live/cqyx.php?id=yunyzh 
-铜梁综合 ,https://qist.cc/live/cqyx.php?id=tlzh 
-
-绚影4K,https://qist.cc/live/sc.php?id=xy4k
-爱上4K,https://qist.cc/live/sc.php?id=as4k
-乐享4K,https://qist.cc/live/sc.php?id=lx4k
-津津悦读4K,https://qist.cc/live/sc.php?id=yd4k
-中录动漫4K,https://qist.cc/live/sc.php?id=dm4k
-亲子趣学4K,https://qist.cc/live/sc.php?id=qx4k
-四川文化旅游,https://qist.cc/live/sc.php?id=scly
-四川经济,https://qist.cc/live/sc.php?id=scjj
-四川乡村,https://qist.cc/live/sc.php?id=scnc
-四川峨眉电影,https://qist.cc/live/sc.php?id=emdy
-四川影视文艺,https://qist.cc/live/sc.php?id=scys
-四川科教,https://qist.cc/live/sc.php?id=scjk
-四川儿童,https://qist.cc/live/sc.php?id=scet
-四川新闻,https://qist.cc/live/sc.php?id=scxw
-康巴卫视,https://qist.cc/live/sc.php?id=kbws
-达州综合,https://qist.cc/live/sc.php?id=dzzh
-达州文化生活,https://qist.cc/live/sc.php?id=dzgg
-熊猫生活,https://qist.cc/live/sc.php?id=xmsh
-熊猫卡通,https://qist.cc/live/sc.php?id=xmkt
-熊猫影院,https://qist.cc/live/sc.php?id=xmyy
-熊猫少儿,https://qist.cc/live/sc.php?id=xmse
-大爱四川,https://qist.cc/live/sc.php?id=dasc
-大爱旅游,https://qist.cc/live/sc.php?id=daly
-大爱生活,https://qist.cc/live/sc.php?id=dash
-大爱时尚,https://qist.cc/live/sc.php?id=dass
-麻辣体育,https://qist.cc/live/sc.php?id=mlty
-动画番剧,https://qist.cc/live/sc.php?id=dhfj
-红色经典,https://qist.cc/live/sc.php?id=hsjd
-综艺咖秀,https://qist.cc/live/sc.php?id=zykx
-热血剧场,https://qist.cc/live/sc.php?id=rxjc
-生活时尚,https://qist.cc/live/sc.php?id=shss
-都市剧场,https://qist.cc/live/sc.php?id=dsjc
-环球旅游,https://qist.cc/live/sc.php?id=hqly
-CHTV,https://qist.cc/live/sc.php?id=chtv
-iHOT爱喜剧,https://qist.cc/live/sc.php?id=axj
-iHOT爱科幻,https://qist.cc/live/sc.php?id=akh
-iHOT爱院线,https://qist.cc/live/sc.php?id=ayx
-iHOT爱悬疑,https://qist.cc/live/sc.php?id=axy
-iHOT爱经典,https://qist.cc/live/sc.php?id=ajd
-iHOT爱谍战,https://qist.cc/live/sc.php?id=adz
-iHOT爱都市,https://qist.cc/live/sc.php?id=ads
-iHOT爱青春,https://qist.cc/live/sc.php?id=aqc
-iHOT爱幼教,https://qist.cc/live/sc.php?id=ayj
-iHOT爱玩具,https://qist.cc/live/sc.php?id=awj
-iHOT爱电竞,https://qist.cc/live/sc.php?id=adj
-iHOT爱赛车,https://qist.cc/live/sc.php?id=asc
-iHOT爱怀旧,https://qist.cc/live/sc.php?id=ahj
-iHOT爱奇迹,https://qist.cc/live/sc.php?id=aqj
-iHOT爱动漫,https://qist.cc/live/sc.php?id=adm
-
-乐龄学堂,https://qist.cc/live/sc.php?id=llxt
-少儿天地,https://qist.cc/live/sc.php?id=setd
-爱宠宠物,https://qist.cc/live/sc.php?id=accw
-来钓鱼吧,https://qist.cc/live/sc.php?id=ldyb
-求索记录,https://qist.cc/live/sc.php?id=qsjl
-上海纪实人文,https://qist.cc/live/sc.php?id=jsrw
-重庆汽摩,https://qist.cc/live/sc.php?id=cqqm
-金鹰纪实,https://qist.cc/live/sc.php?id=jyjs
-快乐垂钓,https://qist.cc/live/sc.php?id=klcd
-茶频道,https://qist.cc/live/sc.php?id=cpd
-
 北京文艺,https://qist.cc/live/edu.php?id=bjwyhd&u=lzjtu
 北京影视,https://qist.cc/live/edu.php?id=bjyshd&u=lzjtu
 北京财财经,https://qist.cc/live/edu.php?id=bjcj&u=lzjtu
@@ -1227,7 +1104,7 @@ iHOT爱动漫,https://qist.cc/live/sc.php?id=adm
 北京新闻,https://qist.cc/live/luas.php?id=bjxwhd 
 北京卡酷,https://qist.cc/live/luas.php?id=bjkk 
 上海纪实人文,https://qist.cc/live/luas.php?id=shjsrw 
-全纪实,https://qist.cc/live/luas.php?id=qjs 
+乐游,https://qist.cc/live/luas.php?id=qjs 
 金鹰纪实,https://qist.cc/live/luas.php?id=jyjs 
 
 
