@@ -1107,6 +1107,11 @@ IPV6-地方频道,#genre#
 乐游,https://qist.cc/live/luas.php?id=qjs 
 金鹰纪实,https://qist.cc/live/luas.php?id=jyjs 
 
+汕头综合,https://sttv-tsl.cutv.com/lKGXIQa/500/d2sl4G0.m3u8
+汕头经济广播FM102.0,https://sttv-tsl.cutv.com/L3y6rt8/64/92wL4y0.m3u8
+汕头音乐广播FM102.5,https://sttv-tsl.cutv.com/s7k681h/64/u3bs4k0.m3u8
+汕头综合广播FM107.2,https://sttv-tsl.cutv.com/Li7mg21/64/73yL470.m3u8
+
 
 
 纪录片频道,#genre#
