@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;ea2690fc66083afe1431071968e60395",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
-"wallpaper":"https://tool.weetai.cn/api",
+"wallpaper":"https://qist.cc/live/api.php",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
