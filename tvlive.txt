@@ -1,4 +1,25 @@
 央视频道,#genre#
+CCTV1,https://qist.cc/live/gzyd.php?id=cctv1
+CCTV2,https://qist.cc/live/gzyd.php?id=cctv2
+CCTV3,https://qist.cc/live/gzyd.php?id=cctv3
+CCTV4,https://qist.cc/live/gzyd.php?id=cctv4
+CCTV4欧洲,https://qist.cc/live/gzyd.php?id=cctv4o
+CCTV4美洲,https://qist.cc/live/gzyd.php?id=cctv4a
+CCTV5,https://qist.cc/live/gzyd.php?id=cctv5
+CCTV5+,https://qist.cc/live/gzyd.php?id=cctv5p
+CCTV6,https://qist.cc/live/gzyd.php?id=cctv6
+CCTV7,https://qist.cc/live/gzyd.php?id=cctv7
+CCTV8,https://qist.cc/live/gzyd.php?id=cctv8
+CCTV9,https://qist.cc/live/gzyd.php?id=cctv9
+CCTV10,https://qist.cc/live/gzyd.php?id=cctv10
+CCTV11,https://qist.cc/live/gzyd.php?id=cctv11
+CCTV12,https://qist.cc/live/gzyd.php?id=cctv12
+CCTV13,https://qist.cc/live/gzyd.php?id=cctv13
+CCTV14,https://qist.cc/live/gzyd.php?id=cctv14
+CCTV15,https://qist.cc/live/gzyd.php?id=cctv15
+CCTV16,https://qist.cc/live/cqn.php?id=cctv16
+CCTV17,https://qist.cc/live/gzyd.php?id=cctv17
+
 CCTV1,https://qist.cc/live/aikan.php?id=cctv1
 CCTV1,https://qist.cc/live/aikan.php?id=cctv1b
 CCTV2,https://qist.cc/live/aikan.php?id=cctv2
@@ -23,25 +44,6 @@ CCTV15,https://qist.cc/live/aikan.php?id=cctv15
 CCTV16,https://qist.cc/live/cqn.php?id=cctv16
 CCTV17,https://qist.cc/live/aikan.php?id=cctv17
 
-CCTV1,https://qist.cc/live/gzyd.php?id=cctv1
-CCTV2,https://qist.cc/live/gzyd.php?id=cctv2
-CCTV3,https://qist.cc/live/gzyd.php?id=cctv3
-CCTV4,https://qist.cc/live/gzyd.php?id=cctv4
-CCTV4欧洲,https://qist.cc/live/gzyd.php?id=cctv4o
-CCTV4美洲,https://qist.cc/live/gzyd.php?id=cctv4a
-CCTV5,https://qist.cc/live/gzyd.php?id=cctv5
-CCTV5+,https://qist.cc/live/gzyd.php?id=cctv5p
-CCTV6,https://qist.cc/live/gzyd.php?id=cctv6
-CCTV7,https://qist.cc/live/gzyd.php?id=cctv7
-CCTV8,https://qist.cc/live/gzyd.php?id=cctv8
-CCTV9,https://qist.cc/live/gzyd.php?id=cctv9
-CCTV10,https://qist.cc/live/gzyd.php?id=cctv10
-CCTV11,https://qist.cc/live/gzyd.php?id=cctv11
-CCTV12,https://qist.cc/live/gzyd.php?id=cctv12
-CCTV13,https://qist.cc/live/gzyd.php?id=cctv13
-CCTV14,https://qist.cc/live/gzyd.php?id=cctv14
-CCTV15,https://qist.cc/live/gzyd.php?id=cctv15
-CCTV17,https://qist.cc/live/gzyd.php?id=cctv17
 
 CCTV1,https://qist.cc/live/cqyx.php?id=cctv1 
 CCTV2,https://qist.cc/live/cqyx.php?id=cctv2 
@@ -260,26 +262,6 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 中国交通,https://qist.cc/live/sc.php?id=zgjt
 
 卫视频道,#genre#
-东方卫视,https://qist.cc/live/aikan.php?id=dfws2
-东方卫视,https://qist.cc/live/aikan.php?id=dfws
-重庆卫视,https://qist.cc/live/aikan.php?id=cqws
-吉林卫视,https://qist.cc/live/aikan.php?id=jlws
-辽宁卫视,https://qist.cc/live/aikan.php?id=lnws
-内蒙古卫视,https://qist.cc/live/aikan.php?id=nmws
-宁夏卫视,https://qist.cc/live/aikan.php?id=nxws
-甘肃卫视,https://qist.cc/live/aikan.php?id=gsws
-青海卫视,https://qist.cc/live/aikan.php?id=qhws
-山东卫视,https://qist.cc/live/aikan.php?id=sdws
-湖北卫视,https://qist.cc/live/aikan.php?id=hubws
-湖南卫视,https://qist.cc/live/aikan.php?id=hunws
-江苏卫视,https://qist.cc/live/aikan.php?id=jsws
-广东卫视,https://qist.cc/live/aikan.php?id=gdws
-广东卫视,https://qist.cc/live/aikan.php?id=gdws2
-大湾区卫视,https://qist.cc/live/aikan.php?id=dwqws
-新疆卫视,https://qist.cc/live/aikan.php?id=xjws
-西藏卫视,https://qist.cc/live/aikan.php?id=xzws
-海南卫视,https://qist.cc/live/aikan.php?id=hinws
-
 东南卫视,https://qist.cc/live/gzyd.php?id=dnws
 东方卫视,https://qist.cc/live/gzyd.php?id=dfws
 北京卫视,https://qist.cc/live/gzyd.php?id=bjws
@@ -321,6 +303,27 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 兵团卫视,https://qist.cc/live/gzyd.php?id=btws
 西藏藏语卫视,https://qist.cc/live/gzyd.php?id=zyws
 青海安多卫视,https://qist.cc/live/gzyd.php?id=adws
+
+东方卫视,https://qist.cc/live/aikan.php?id=dfws2
+东方卫视,https://qist.cc/live/aikan.php?id=dfws
+重庆卫视,https://qist.cc/live/aikan.php?id=cqws
+吉林卫视,https://qist.cc/live/aikan.php?id=jlws
+辽宁卫视,https://qist.cc/live/aikan.php?id=lnws
+内蒙古卫视,https://qist.cc/live/aikan.php?id=nmws
+宁夏卫视,https://qist.cc/live/aikan.php?id=nxws
+甘肃卫视,https://qist.cc/live/aikan.php?id=gsws
+青海卫视,https://qist.cc/live/aikan.php?id=qhws
+山东卫视,https://qist.cc/live/aikan.php?id=sdws
+湖北卫视,https://qist.cc/live/aikan.php?id=hubws
+湖南卫视,https://qist.cc/live/aikan.php?id=hunws
+江苏卫视,https://qist.cc/live/aikan.php?id=jsws
+广东卫视,https://qist.cc/live/aikan.php?id=gdws
+广东卫视,https://qist.cc/live/aikan.php?id=gdws2
+大湾区卫视,https://qist.cc/live/aikan.php?id=dwqws
+新疆卫视,https://qist.cc/live/aikan.php?id=xjws
+西藏卫视,https://qist.cc/live/aikan.php?id=xzws
+海南卫视,https://qist.cc/live/aikan.php?id=hinws
+
 
 北京卫视 ,https://qist.cc/live/cqyx.php?id=bjws 
 东方卫视 ,https://qist.cc/live/cqyx.php?id=dfws 
