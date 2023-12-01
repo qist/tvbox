@@ -641,24 +641,24 @@ TVBS新闻,http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 
 
 IPV6-央视频道,#genre#
-cctv-1,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001068/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-2,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001293/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-3,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001598/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-4,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001290/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-5,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001850/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-5+,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001008/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-6,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001859/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-7,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001291/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-8,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001869/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-9,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001294/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-10,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001288/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-11,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001327/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-12,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001289/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-13,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001328/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-14,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001292/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-15,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001020/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-16,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000002395/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-cctv-17,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001295/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-1,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001068/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-2,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001293/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-3,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001598/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-4,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001290/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-5,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001850/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-5+,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001008/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-6,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001859/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-7,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001291/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-8,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001869/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-9,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001294/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-10,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001288/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-11,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001327/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-12,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001289/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-13,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001328/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-14,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001292/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-15,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001020/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-16,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000002395/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+CCTV-17,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001295/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
 
 CETV-1,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001063/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
@@ -666,7 +666,7 @@ CETV-2,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001064/i
 CETV-3,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001309/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CETV-4,http://[2409:8087:7004:20:1000::22]:6610/yinhe/2/ch00000090990000001308/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
-CCTV-4K,http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+CCTV-4K,http://liveop.CCTV.cn/hls/4KHD/playlist.m3u8
 CCTV16-4K,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001258/index.m3u8
 CCTV-8K,http://[2409:8087:2001:20:2800:0:df6e:eb02]:80/wh7f454c46tw2749731958_105918260/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1681529690&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
 CETV-02,http://[2409:8087:2001:20:2800:0:df6e:eb15]/wh7f454c46tw1163914262_-21106249/ott.mobaibox.com/PLTV/88888890/224/3221225850/index.m3u8?icpid=88888890&RTS=1687953376&from=40&popid=40&hms_devid=2115&prioritypopid=40&vqe=3
