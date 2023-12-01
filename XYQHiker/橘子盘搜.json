@@ -21,7 +21,7 @@
     "线路列表数组规则": "",
     "线路标题": "",
     "播放列表数组规则": "html&&head",
-    "选集列表数组规则": "meta[content~=(aliyundrive.com/s)]",
+    "选集列表数组规则": "meta[content~=ali(pan|yundrive).com/s]",
     "选集标题链接是否Jsoup写法": "0",
     "选集标题": "url=&&\"",
     "选集链接": "url=&&\"",

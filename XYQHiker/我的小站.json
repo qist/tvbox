@@ -20,7 +20,7 @@
     "线路列表数组规则": "",
     "线路标题": "",
     "播放列表数组规则": "body&&#flarum-content",
-    "选集列表数组规则": "a[href^=https://www.aliyundrive.com/s/]",
+    "选集列表数组规则": "a[href~=https://www.ali(pan|yundrive).com/s/]",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "a&&Text",
     "选集链接": "a&&href",

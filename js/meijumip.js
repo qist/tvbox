@@ -3,7 +3,7 @@ var rule = {
 	//host:'https://www.meijumi.xyz',
 	//homeUrl:'/',
 	//url: '/fyclass/page/fypage/?',
-	host:'http://127.0.0.1:10078',
+	host:'http://192.168.1.9:10078',
 	homeUrl:'/p/0/socks5%253A%252F%252F192.168.1.9%253A4592/https://www.meijumi.net/',
 	url: '/p/0/socks5%253A%252F%252F192.168.1.9%253A4592/https://www.meijumi.net/fyclass/page/fypage/?',
 	filter_url:'{{fl.class}}',

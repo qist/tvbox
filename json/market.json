@@ -13,54 +13,49 @@
     "list": [
       {
         "name": "電視-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/leanback-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-java-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/leanback-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
         "name": "電視-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/leanback-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/leanback-python-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/leanback-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
-        "name": "Android-4.x",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/kitkat/leanback.apk",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
-      },
-      {
         "name": "手機-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/mobile-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-java-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/mobile-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       },
       {
         "name": "手機-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/mobile-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/release/mobile-python-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/release/mobile-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       }
@@ -71,51 +66,68 @@
     "list": [
       {
         "name": "電視-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-java-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-java-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
         "name": "電視-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/leanback-python-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
         "name": "手機-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-java-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-java",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-java-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       },
       {
         "name": "手機-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-armeabi_v7a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-py",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/apk/dev/mobile-python-arm64_v8a.apk",
+        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
+      }
+    ]
+  },
+  {
+    "name": "4.x版",
+    "list": [
+      {
+        "name": "電視-java",
+        "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
+      },
+      {
+        "name": "電視-py",
+        "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback-python.apk",
+        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
+        "version": "v7a"
       }
     ]
   },
@@ -123,93 +135,69 @@
     "name": "v7a",
     "list": [
       {
-        "name": "ffmpeg",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libffmpegJNI.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "EXO"
-      },
-      {
         "name": "av1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libgav1JNI.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libgav1JNI.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "EXO"
-      },
-      {
-        "name": "ffmpeg",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijkffmpeg.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "IJK"
-      },
-      {
-        "name": "sdl",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libijksdl.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "IJK"
-      },
-      {
-        "name": "player",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libplayer.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "IJK"
       },
       {
         "name": "荐片",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libjpa.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libjpa.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libxl_stat.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libxl_stat.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-2",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libxl_thunder_sdk.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libxl_thunder_sdk.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "晴天",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libmitv.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libmitv.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P2P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp2p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp2p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P3P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp3p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp3p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P4P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp4p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp4p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P5P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp5p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp5p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P6P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp6p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp6p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P7P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp7p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp7p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P8P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp8p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp8p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "P9P",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/armeabi-v7a/libp9p.so",
+        "url": "https://my.t4tv.hz.cz/so/armeabi-v7a/libp9p.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       }
     ]
@@ -218,48 +206,24 @@
     "name": "v8a",
     "list": [
       {
-        "name": "ffmpeg",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libffmpegJNI.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "EXO"
-      },
-      {
         "name": "av1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libgav1JNI.so",
+        "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libgav1JNI.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "EXO"
-      },
-      {
-        "name": "ffmpeg",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libijkffmpeg.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "IJK"
-      },
-      {
-        "name": "sdl",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libijksdl.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "IJK"
-      },
-      {
-        "name": "player",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libplayer.so",
-        "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
-        "version": "IJK"
       },
       {
         "name": "荐片",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libjpa.so",
+        "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libjpa.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-1",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libxl_stat.so",
+        "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libxl_stat.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       },
       {
         "name": "磁力-2",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/Release/main/so/arm64-v8a/libxl_thunder_sdk.so",
+        "url": "https://my.t4tv.hz.cz/so/arm64-v8a/libxl_thunder_sdk.so",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png"
       }
     ]
@@ -269,14 +233,14 @@
     "list": [
       {
         "name": "watson",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/zip/js-1115.zip",
+        "url": "https://fm.t4tv.hz.cz/zip/js-1115.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
         "copy": "file://Download/JS/js.json",
         "version": "11/15"
       },
       {
         "name": "香雅情",
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqtvbox/main/XYQTVBox_本地包.zip",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xyq254245/xyqtvbox/main/XYQTVBox_本地包.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg",
         "copy": "file://Download/XYQTVBox/XYQTVBox.json"
       }

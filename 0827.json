@@ -1,7 +1,16 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;4bc4aada582cd00fafe20d12508dc2a7",
+  "spider": "./jar/custom_spider.jar;md5;1117603a248d03a2fba94c991612970f",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
+    {
+      "key": "商店",
+      "name": "商店",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./json/market.json"
+    },
     {
       "key": "泥巴",
       "name": "泥巴",
@@ -194,7 +203,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./json/chuqiuyu1.json",
+        "json": "./json/bili.json",
         "type": "帕梅拉#太极拳#广场舞#演唱会",
         "cookie": ""
       }
@@ -203,11 +212,11 @@
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "沙雕动画#帕梅拉#音乐#舞蹈#风景#美食#科普#历史",
+        "categories": "沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       }
     },
@@ -309,15 +318,6 @@
       "api": "csp_Push",
       "searchable": 1,
       "changeable": 0
-    },
-    {
-      "key": "應用商店",
-      "name": "應用商店",
-      "type": 3,
-      "api": "csp_Market",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "./json/market.json"
     }
   ],
   "doh": [

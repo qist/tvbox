@@ -42,6 +42,7 @@ var rule = {
 
     // searchUrl:'/search/**----------fypage---.html',
     searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+    // searchUrl:'/VSP/V3/SearchContent#{"contentTypes":["VOD"],"searchScopes":["CONTENT_NAME","ACTOR"],"sortType":["RELEVANCE"],"count":8,"offset":0,"SearchKey":"**","subjectID":"10000100000000090000000000001323"};postjson',
     detailUrl:'/detail/fyid.html', //非必填,二级详情拼接链接
     搜索:'json:list;name;pic;;id',
 }

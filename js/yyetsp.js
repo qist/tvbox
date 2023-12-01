@@ -14,7 +14,7 @@ var rule = {
 		'User-Agent': PC_UA,
 		'Accept': '*/*',
 		'Referer': 'https://yyets.click/',
-         	'Cookie':'http://127.0.0.1:9978/file/tvfan/yyets.txt',
+         	'Cookie':'http://127.0.0.1:9978/file/TV/yyets.txt',
 	},
 	timeout:5000,
 	class_name:'',

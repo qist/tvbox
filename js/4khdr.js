@@ -158,7 +158,7 @@ let postData = {
 };
 Object.assign(_fetch_params, postData);
 log("4khdr search postData>>>>>>>>>>>>>>>" + JSON.stringify(_fetch_params));
-let search_html = post( HOST + '/search.php', _fetch_params)
+let search_html = post( HOST + '/search.php?mod=forum', _fetch_params)
 //log("4khdr search result>>>>>>>>>>>>>>>" + search_html);
 let d=[];
 let dlist = pdfa(search_html, 'div#threadlist ul li');
@@ -170,8 +170,8 @@ dlist.forEach(function(it){
 		}
 	}
 	let img = "";
-	let content = pdfh(it, 'p:eq(3)&&Text');
-	let desc = pdfh(it, 'p:eq(2)&&Text');
+	let content = pdfh(it, 'p:eq(2)&&Text');
+	let desc = pdfh(it, 'p:eq(3)&&Text');
 	let url = pd(it, 'a&&href', HOST);
 	d.push({
 		title:title,
