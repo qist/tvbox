@@ -257,7 +257,8 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 早期教育,https://qist.cc/live/cqn.php?id=zqjy 
 中国天气 ,https://qist.cc/live/cqn.php?id=zgtq 
 
-1905,https://qist.cc/live/1905.php?id=1905
+1905国外电影,https://qist.cc/live/1905.php?id=1905a
+1905国内电影,https://qist.cc/live/1905.php?id=1905b
 中国交通,https://qist.cc/live/gzyd.php?id=zgjt
 中国交通,https://qist.cc/live/sc.php?id=zgjt
 
