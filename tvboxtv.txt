@@ -331,7 +331,7 @@ CETV4,https://qist.cc/live/cqn.php?id=cetv4
 
 安徽卫视,https://qist.cc/live/gitv.php?id=anhuimd
 北京卫视,https://qist.cc/live/gitv.php?id=beijingmd
-福建东南卫视,https://qist.cc/live/gitv.php?id=dongnanhq
+东南卫视,https://qist.cc/live/gitv.php?id=dongnanhq
 广东卫视,https://qist.cc/live/gitv.php?id=guangdongmd
 广西卫视,https://qist.cc/live/gitv.php?id=guangxihq
 贵州卫视,https://qist.cc/live/gitv.php?id=guizhoucq
