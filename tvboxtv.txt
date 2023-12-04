@@ -17,7 +17,7 @@ CCTV12,https://qist.cc/live/gzyd.php?id=cctv12
 CCTV13,https://qist.cc/live/gzyd.php?id=cctv13
 CCTV14,https://qist.cc/live/gzyd.php?id=cctv14
 CCTV15,https://qist.cc/live/gzyd.php?id=cctv15
-CCTV16,https://qist.cc/live/cqn.php?id=cctv16
+CCTV16,https://qist.cc/live/gitv.php?id=cctv16
 CCTV17,https://qist.cc/live/gzyd.php?id=cctv17
 
 CCTV1,https://qist.cc/live/gitv.php?id=cctv1md
