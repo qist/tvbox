@@ -188,13 +188,6 @@ CHC动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/in
 
 
 港澳台综合,#genre#
-凤凰中文,https://qist.cc/live/xg.php?id=fhws
-凤凰资讯,https://qist.cc/live/xg.php?id=fhzx
-凤凰中文,https://qist.cc/live/sc.php?id=fhws
-凤凰资讯,https://qist.cc/live/sc.php?id=fhzx
-凤凰中文,https://qist.cc/live/fh.php?id=fhzw&fmt=flv
-凤凰资讯,https://qist.cc/live/fh.php?id=fhzx&fmt=flv
-凤凰香港,https://qist.cc/live/fh.php?id=fhhk&fmt=flv
 凤凰中文,http://r.jdshipin.com/cCCzW
 凤凰资讯,http://php.17186.eu.org/phtv/fhzx.m3u8
 凤凰中文,http://php.17186.eu.org/phtv/fhzw.m3u8
@@ -204,15 +197,10 @@ CHC动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/in
 凤凰香港,http://113.117.74.12:8081/hls/38/index.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0 
-翡翠台,https://qist.cc/live/gudou.php?id=fcthd
 翡翠台,https://pi.0472.org/tv/fct.php?auth=231110
-明珠台,https://qist.cc/live/gudou.php?id=mzthd
 明珠台,https://pi.0472.org/tv/mzt.php?auth=231110
-澳视澳门,https://qist.cc/live/gudou.php?id=asam
 澳视澳门,https://pi.0472.org/tv/asam.php?auth=231110
-星空卫视,https://qist.cc/live/gudou.php?id=xkws
 星空卫视,https://pi.0472.org/tv/startv.php?auth=231110
-澳亚卫视,https://qist.cc/live/gudou.php?id=ayws
 澳亚卫视,https://pi.0472.org/tv/aoya.php?auth=231110
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 莲花卫视,https://cntv.lat/tv/lhws.php
