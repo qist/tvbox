@@ -69,9 +69,9 @@ LISTS=[];
 let dd = pdfa(html, 'div.wp-playlist~a');
 dd.forEach(function(it){
 	let burl = pd(it, 'a&&href', HOST);
-	if (/(pan.quark.cn|www.aliyundrive.com)/.test(burl)){
+	if (/(pan.quark.cn|www.aliyundrive.com|www.alipan.com)/.test(burl)){
 		let type="ali";
-		if (burl.includes("www.aliyundrive.com")){
+		if (burl.includes("www.aliyundrive.com") || burl.includes("www.alipan.com")){
 			type = "ali";
 		}else if (burl.includes("pan.quark.cn")){
 			type = "quark";
@@ -153,7 +153,7 @@ d.forEach(function(it){
 	let burl = pd(it, 'a&&href', HOST);
 	if (burl.includes("pan.quark.cn")){
 		tabsq.push("夸克網盤");
-	}else if (burl.includes("www.aliyundrive.com")){
+	}else if (burl.includes("www.aliyundrive.com") || burl.includes("www.alipan.com")){
 		tabsq.push("阿里雲盤");
 	}
 });

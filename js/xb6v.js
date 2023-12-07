@@ -93,7 +93,7 @@ let tabse = false;
 let tabm3u8 = [];
 d.forEach(function(it) {
 	let burl = pdfh(it, 'a&&href');
-	if (burl.startsWith("https://www.aliyundrive.com/s/")){
+	if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
 		tabsa.push("阿里雲盤");
 	}else if (burl.startsWith("https://pan.quark.cn/s/")){
 		tabsq.push("夸克網盤");
@@ -150,7 +150,7 @@ d.forEach(function(it){
 	log('xb6v title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
 	log('xb6v burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 	let loopresult = title + '$' + burl;
-	if (burl.startsWith("https://www.aliyundrive.com/s/")){
+	if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
 		if (true){
 		if (TABS.length==1){
 			burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&confirm=0&url=" + encodeURIComponent(burl);

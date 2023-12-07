@@ -152,7 +152,7 @@ d.forEach(function(it) {
 			magfn = resolution + "." + magfn;
 			log("tabs magnet filename>>>>>>>>>>>" + magfn);
 			playObj["magnet"][purl]=magfn;
-		}else if (purl.startsWith("https://www.aliyundrive.com/s/")){
+	        }else if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
 			playObj["ali"][purl]=title;
 		}else if (purl.startsWith("https://pan.quark.cn/s/")){
 			playObj["quark"][purl]=title;
@@ -229,7 +229,7 @@ if (false && LISTS.length>0 && typeof LISTS[0] === "object"){
 				magfn = resolution + "." + magfn;
 				log("tabs magnet filename>>>>>>>>>>>" + magfn);
 				playObj["magnet"][purl]=magfn;
-			}else if (purl.startsWith("https://www.aliyundrive.com/s/")){
+			}else if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
 				playObj["ali"][purl]=title;
 			}else if (purl.startsWith("https://pan.quark.cn/s/")){
 				playObj["quark"][purl]=title;

@@ -44,7 +44,14 @@ var rule = {
 			url = unescape(base64Decode(url))
 		}
 		if (/m3u8|mp4/.test(url)) {
-			input = {jx:0, url:url, parse:0}
+			input = {
+				jx: 0,
+				url: url,
+				parse: 0,
+				header: JSON.stringify({
+					'referer': HOST + "/static/player/vidjs.html",
+				}),
+			}
 		} else {
 			input
 		}

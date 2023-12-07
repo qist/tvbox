@@ -45,17 +45,17 @@ var rule={
 	},
 	搜索:'.ulPicTxt.clearfix li;*;img&&data-src;.sDes:eq(1)&&Text;*',
 
-	//是否启用辅助嗅探: 1,0
-	sniffer:1,
-	// 辅助嗅探规则js写法
-	isVideo:`js:
-		log(input);
-		if(/video\\/tos/.test(input)){
-			input = true
-		}else if(/\\.m3u8/.test(input)){
-			input = true
-		}else{
-			input = false
-		}
-	`,
+	// //是否启用辅助嗅探: 1,0
+	// sniffer:1,
+	// // 辅助嗅探规则js写法
+	// isVideo:`js:
+	// 	log(input);
+	// 	if(/video\\/tos/.test(input)){
+	// 		input = true
+	// 	}else if(/\\.m3u8/.test(input)){
+	// 		input = true
+	// 	}else{
+	// 		input = false
+	// 	}
+	// `,
 }

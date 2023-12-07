@@ -31,7 +31,7 @@
 {"key":"drpy_js_ubestkid_open","name":"少儿 | 贝乐虎","type":3,"api":"assets://js/ubestkid_open.js"},
 {"key":"sharenice","name":"聚合 | 短视频","type":3,"api":"assets://js/sharenice_open.js"},
 {"key":"mybili","name":"视频 | 哔哩1","type":3,"api":"assets://js/mybili_open.js"},
-{"key":"bili_open","name":"视频 | 哔哩2","type":3,"api":"assets://js/bili_open.js","ext":{"categories":"沙雕动画#健身#音乐#舞蹈#风景#美食#科普#历史#法考#医考,"cookie":"填自己的cookie"}},
+{"key":"bili_open","name":"视频 | 哔哩2","type":3,"api":"assets://js/bili_open.js","ext":{"categories":"沙雕动画#健身#音乐#舞蹈#风景#美食#科普#历史#法考#医考","cookie":"填自己的cookie"}},
 {"key":"kuqimv","name":"MV | 酷奇","type":3,"api":"assets://js/kuqimv_open.js"},
 {"key":"drpy_js_cntv_open","name":"电视 | 视聚场","type":3,"api":"assets://js/cntv_open.js"},
 {"key":"哈喽","name":"影视 | 哈喽","type":3,"api":"assets://js/appysv2.js","ext":"http://www.miniku.cc/xgapp.php/v1/"},

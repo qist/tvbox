@@ -50,9 +50,9 @@ for(const it in json.finalList){
 		//log("meow search it>>>>>>>>>>>>>>>" + JSON.stringify(json.finalList[it]));
 		let text = json.finalList[it]["results"]["text"];
 		let high = json.finalList[it]["results"]["highLight"];
-		if (/(www.aliyundrive.com|pan.quark.cn)/.test(text)){
+		if (/(www.aliyundrive.com|pan.quark.cn|www.alipan.com)/.test(text)){
 			text = text;
-		}else if (/(www.aliyundrive.com|pan.quark.cn)/.test(high)){
+		}else if (/(www.aliyundrive.com|pan.quark.cn|www.alipan.com)/.test(high)){
 			text = high;
 		}else{
 			text = "";
@@ -68,7 +68,7 @@ for(const it in json.finalList){
 			}
 			let desc = json.finalList[it]["source"]["name_zh"];
 			let img = json.finalList[it]["source"]["avatar"];
-			let matches = text.match(/(www.aliyundrive.com|pan.quark.cn)([\\/0-9a-zA-Z\\+\\-_]*)/);
+			let matches = text.match(/(www.aliyundrive.com|pan.quark.cn|www.alipan.com)([\\/0-9a-zA-Z\\+\\-_]*)/);
 			let burl = "https://" + matches[1] + matches[2];
 			if (title.includes(KEY)){
 				log("meow search title,url,img>>>>>>>>>>>>>>>" + title + ",[" + burl + "], " + img);

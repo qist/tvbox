@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;1117603a248d03a2fba94c991612970f",
+  "spider": "./jar/custom_spider.jar;md5;9060b67dfec8782aca6e79ba17c0979b",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -98,6 +98,14 @@
         "纪录片",
         "经典片"
       ]
+    },
+    {
+      "key": "短劇",
+      "name": "短劇",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 1,
+      "changeable": 0
     },
     {
       "key": "豆瓣",
@@ -216,7 +224,7 @@
       "searchable": 1,
       "changeable": 0,
       "ext": {
-        "categories": "沙雕动画#沙雕穿越#沙雕",
+        "categories": "短剧#沙雕动画#沙雕穿越#沙雕",
         "cookie": ""
       }
     },
@@ -473,5 +481,8 @@
         "video/tos/cn"
       ]
     }
+  ],
+  "ads": [
+    "mozai.4gtv.tv"
   ]
 }

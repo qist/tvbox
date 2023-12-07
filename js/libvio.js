@@ -101,13 +101,13 @@ var from = html.from;
 var next = html.link_next;
 var id = html.id;
 var nid = html.nid;
-if (/(www.aliyundrive.com|pan.quark.cn)/.test(url)){
+if (/(www.aliyundrive.com|pan.quark.cn|www.alipan.com)/.test(url)){
 	let confirm = "";
 	if (TABS.length==1){
 		confirm="&confirm=0";
 	}
 	let type="ali";
-	if (url.includes("www.aliyundrive.com")){
+	if (url.includes("www.aliyundrive.com") || url.includes("www.alipan.com")){
 		type = "ali";
 	}else if (url.includes("pan.quark.cn")){
 		type = "quark";

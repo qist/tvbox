@@ -1,24 +1,24 @@
 {
-"spider":"./jar/pg.nogo.jar;md5;5169539247a0d94bd693aec8c68f13f4",
+"spider":"./jar/pg.nogo.jar;md5;4196912d94475ecf4de63889f11338f6",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"YanG","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"},
 {"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
 {"name":"小武哥","type":0,"url":"https://qu.ax/PEHy.txt"},
 {"name":"AV","type":0,"url":"./livex.m3u"}
 ],
-"wallpaper":"https://liu.chuqiuyu.tk",
+"wallpaper":"https://liu.chuqiuyu.workers.dev",
 "sites":[
 {"key":"lf_js_search","name":"搜索|lf_search","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js","ext":"18+"},
 {"key":"lf_js_p2p","name":"磁力|lf_p2p","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","ext":"18+","timeout":60},
 {"key":"lf_js_lf_live","name":"直播|lf_live","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live1.txt"},
-{"key":"csp_JavBus","name":"JavBus","type":3,"api":"csp_JavBus","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"ext":"","timeout":60},
-{"key":"csp_JavDb","name":"JavDb","type":3,"api":"csp_JavDb","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"ext":"","timeout":60},
+{"key":"csp_JavBus","name":"JavBus","type":3,"api":"csp_JavBus","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"timeout":60},
+{"key":"csp_JavDb","name":"JavDb","type":3,"api":"csp_JavDb","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"timeout":60},
 {"key":"nivod18","name":"泥巴貓","type":3,"api":"./cat/js/nivod_op.js","ext":"做爱"},
 {"key":"mtsp_open","name":"蜜桃貓","type":3,"api":"./cat/js/mtsp_open.js","style":{"type":"rect","ratio":1.485}},
 {"key":"18av_open","name":"18av貓","type":3,"api":"./cat/js/18av_open.js","style":{"type":"rect","ratio":1.485}},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1"},
-{"key":"量子","name":"量子","type":0,"api":"http://127.0.0.1:10079/?thread=0&url=https://cj.lziapi.com/api.php/provide/vod/at/xml/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&url=","searchable":1,"changeable":1,"categories":["伦理片"]},
-{"key":"非凡","name":"非凡","type":0,"api":"http://127.0.0.1:10079/?thread=0&url=http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&url=","searchable":1,"changeable":1,"categories":["伦理片"]},
+{"key":"量子","name":"量子","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["伦理片"]},
+{"key":"非凡","name":"非凡","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["伦理片"]},
 {"key":"玩偶","name":"玩偶","type":3,"api":"csp_Doll","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.309}},
 {"key":"18AV","name":"18AV","type":3,"api":"csp_Eighteen","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.485}},
 {"key":"18A貓","name":"18A貓","type":3,"api":"https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/18a_open.js","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.485}},
@@ -70,7 +70,7 @@
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":1,"changeable":0}
 ],
 "rules":[
-{"name":"proxy","hosts":["d3opspehgd3862dmfdp3sdf.siauliairsavlt.org","vl05t7es.rostelekom.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"proxy","hosts":[".*workers.dev","javdb.com","www.javbus.com","d3opspehgd3862dmfdp3sdf.siauliairsavlt.org","vl05t7es.rostelekom.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
 {"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 {"name":"量子廣告","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]}

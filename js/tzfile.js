@@ -61,7 +61,7 @@ d.forEach(function(it) {
 	let purl = pd(it, 'a&&href', HOST);
 	if (purl.includes("pan.quark.cn")){
 		tabsq.push("夸克網盤");
-	} else if (purl.includes("www.aliyundrive.com")){
+	} else if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
 		tabsq.push("阿里雲盤");
 	}
 });
@@ -83,13 +83,13 @@ pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
 let d = pdfa(html, '#primary-home article div.entry-content p');
 d.forEach(function(it) {
 	let purl = pd(it, 'a&&href', HOST);
-	if (/(pan.quark.cn|www.aliyundrive.com)/.test(purl)){
+	if (/(pan.quark.cn|www.aliyundrive.com|www.alipan.com)/.test(purl)){
 		let type="ali";
 		if (purl.includes("pan.quark.cn")){
 			type="quark";
-		} else if (purl.includes("www.aliyundrive.com")){
+		} else if (purl.includes("www.aliyundrive.com") || purl.includes("www.alipan.com")){
 			type="ali";
-		}
+	 	}
 		let confirm="";
 		if (TABS.length==1){
 			confirm="&confirm=0";

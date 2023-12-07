@@ -56,7 +56,7 @@ let d=[];
 for(const it in json.comment){
 	if (json.comment.hasOwnProperty(it)){
 		log("yyets search it>>>>>>>>>>>>>>>" + JSON.stringify(json.comment[it]));
-		if (/(www.aliyundrive.com|pan.quark.cn)/.test(json.comment[it].comment)){
+		if (/(www.aliyundrive.com|pan.quark.cn|www.alipan.com)/.test(json.comment[it].comment)){
 			let its = json.comment[it].comment.split("\\n");
 			let i=0;
 			while(i<its.length){

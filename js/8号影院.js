@@ -3,7 +3,8 @@ muban.首图2.二级.tabs = '.stui-pannel__head h3';
 var rule={
 	title:'8号影院',
 	模板:'首图2',
-	host:'http://www.8hysw.com',
+	//host:'http://www.8hysw.com',
+	host:'http://www.bahaoyy.com',
 	// url:'/frim/fyclass-fypage.html',
 	url:'/frim/fyfilter.html',
 	filterable:1,//是否启用分类筛选,
