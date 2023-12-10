@@ -1,7 +1,7 @@
 var rule = {
     title:'88看球',
     // host:'http://www.88kanqiu.cc',
-    host:'http://www.88kanqiu.live',
+    host:'http://www.88kanqiu.win',
     url:'/match/fyclass/live',
     searchUrl:'',
     searchable:0,
@@ -22,7 +22,7 @@ var rule = {
 	    "img":"img&&src",
 	    "desc":";;;div.team-name:eq(0)&&Text;div.team-name:eq(1)&&Text",
 	    "content":"div.game-time&&Text",
-	    "tabs":"js:TABS=['88看球']",
+	    "tabs":"js:TABS=['实时直播']",
 	    // "lists":"js:LISTS=[];input=input+'-url';let html=request(input);let data=JSON.parse(html);TABS.forEach(function(tab){let m3u=data;let d=m3u.map(function(it){return it.name+'$'+play_url+it.url});LISTS.push(d)});"
 	    "lists":"js:LISTS=[];input=input+'-url';let html=request(input);let data=JSON.parse(html);TABS.forEach(function(tab){let m3u=data;let d=m3u.map(function(it){return it.name+'$'+it.url});LISTS.push(d)});"
 	},
