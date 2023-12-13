@@ -1,5 +1,5 @@
 ﻿{
-"spider":"./jar/ok1205.png;md5;DBA6A71567A2553423CB1B55194A6E6D",
+"spider":"./jar/ok1208.png;md5;CA8ABF023593B64924294271196EC0F5",
 "lives":[{"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "sites":[
     {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1},

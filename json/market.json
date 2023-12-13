@@ -13,49 +13,49 @@
     "list": [
       {
         "name": "電視-java",
-        "url": "https://my.t4tv.hz.cz/apk/release/leanback-java-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-java",
-        "url": "https://my.t4tv.hz.cz/apk/release/leanback-java-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
         "name": "電視-py",
-        "url": "https://my.t4tv.hz.cz/apk/release/leanback-python-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-py",
-        "url": "https://my.t4tv.hz.cz/apk/release/leanback-python-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/leanback-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
         "name": "手機-java",
-        "url": "https://my.t4tv.hz.cz/apk/release/mobile-java-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-java",
-        "url": "https://my.t4tv.hz.cz/apk/release/mobile-java-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       },
       {
         "name": "手機-py",
-        "url": "https://my.t4tv.hz.cz/apk/release/mobile-python-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-py",
-        "url": "https://my.t4tv.hz.cz/apk/release/mobile-python-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/release/mobile-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       }
@@ -66,49 +66,49 @@
     "list": [
       {
         "name": "電視-java",
-        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/leanback-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-java",
-        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-java-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/leanback-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
         "name": "電視-py",
-        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/leanback-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-py",
-        "url": "https://my.t4tv.hz.cz/apk/dev/leanback-python-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/leanback-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v8a"
       },
       {
         "name": "手機-java",
-        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/mobile-java-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-java",
-        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-java-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/mobile-java-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       },
       {
         "name": "手機-py",
-        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-armeabi_v7a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/mobile-python-armeabi_v7a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v7a"
       },
       {
         "name": "手機-py",
-        "url": "https://my.t4tv.hz.cz/apk/dev/mobile-python-arm64_v8a.apk",
+        "url": "https://fm.caioa.link/main/apk/dev/mobile-python-arm64_v8a.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8lVK.png",
         "version": "v8a"
       }
@@ -119,13 +119,13 @@
     "list": [
       {
         "name": "電視-java",
-        "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback.apk",
+        "url": "https://fm.caioa.link/main/apk/kitkat/leanback.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       },
       {
         "name": "電視-py",
-        "url": "https://my.t4tv.hz.cz/apk/kitkat/leanback-python.apk",
+        "url": "https://fm.caioa.link/main/apk/kitkat/leanback-python.apk",
         "icon": "https://i.imgs.ovh/2023/10/17/r8nk2.png",
         "version": "v7a"
       }
@@ -136,16 +136,10 @@
     "list": [
       {
         "name": "watson",
-        "url": "https://fm.t4tv.hz.cz/zip/js-1115.zip",
+        "url": "https://fm.t4tv.hz.cz/zip/js-1206.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
         "copy": "file://Download/JS/js.json",
-        "version": "11/15"
-      },
-      {
-        "name": "香雅情",
-        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/xyq254245/xyqtvbox/main/XYQTVBox_本地包.zip",
-        "icon": "https://i.imgs.ovh/2023/10/20/2IO0D.jpeg",
-        "copy": "file://Download/XYQTVBox/XYQTVBox.json"
+        "version": "12/06"
       }
     ]
   }

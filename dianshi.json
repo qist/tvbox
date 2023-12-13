@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;7f5b55c37dba231f3862cd1a8c8ea932",
+"spider":"./jar/fan.txt;md5;4d0c466a2f079b0b55c138d738076244",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://qist.cc/liveing/api.php",
 "sites":[
@@ -228,7 +228,6 @@
 {"key":"drpy_js_爱看机器人","name":"影视 | 爱看机器人[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/爱看机器人.js"},
 {"key":"drpy_js_ikanbot2","name":"影视 | 爱看机器人2[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot2.js"},
 {"key":"drpy_js_ikanbot3","name":"影视 | 爱看机器人3[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
-{"key":"drpy_js_荐片","name":"影视 | 荐片[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/荐片.js", "timeout":30},
 {"key":"drpy_js_l0l","name":"影视 | l0l[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/l0l.js"},
 {"key":"drpy_js_139影视","name":"影视 | 139影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/139影视.js"},
 {"key":"drpy_js_348电影网","name":"影视 | 348电影网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/348电影网.js"},
@@ -334,7 +333,7 @@
 {"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 {"name":"星星","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"量子廣告","hosts":["vip.lz","hd.lz","v.cdnlz1","v.cdnlz"],"regex":["18.5333"]},
-{"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["25.0666"]},
+{"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["25.0666","25.08"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
 {"name":"農民嗅探","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]}

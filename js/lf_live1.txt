@@ -14,3 +14,6 @@ https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u
 https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u
 #AV集
 ../livex.m3u
+#直播
+https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u
+

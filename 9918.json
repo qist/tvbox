@@ -1,10 +1,11 @@
 {
-"spider":"./jar/pg.nogo.jar;md5;4196912d94475ecf4de63889f11338f6",
+"spider":"./jar/pg.nogo.jar;md5;86a0300a45e76bc1a5b1b164044051da",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"YanG","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"},
 {"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
 {"name":"小武哥","type":0,"url":"https://qu.ax/PEHy.txt"},
-{"name":"AV","type":0,"url":"./livex.m3u"}
+{"name":"AV","type":0,"url":"./livex.m3u"},
+{"name":"直播","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u"}
 ],
 "wallpaper":"https://liu.chuqiuyu.workers.dev",
 "sites":[
@@ -70,7 +71,7 @@
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":1,"changeable":0}
 ],
 "rules":[
-{"name":"proxy","hosts":[".*workers.dev","javdb.com","www.javbus.com","d3opspehgd3862dmfdp3sdf.siauliairsavlt.org","vl05t7es.rostelekom.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"proxy","hosts":["edge-hls.doppiocdn.com",".*workers.dev","javdb.com","www.javbus.com","d3opspehgd3862dmfdp3sdf.siauliairsavlt.org","vl05t7es.rostelekom.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
 {"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 {"name":"量子廣告","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]}
