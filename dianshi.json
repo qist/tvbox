@@ -284,7 +284,7 @@
 {"key":"drpy_js_唐人街影视[飞]","name":"起飞 | 唐人街影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/唐人街影视[飞].js"},
 {"key":"drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 
-{"key":"應用商店","name":"應用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext": "./json/market.json","jar":"./jar/pg.jar;md5;2a66beaf035cd7d8befe739fa7a22fb4"},
+{"key":"應用商店","name":"应用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext": "./json/market.json","jar":"./jar/pg.jar;md5;2a66beaf035cd7d8befe739fa7a22fb4"},
 
 {"key":"bb","name":"配置接口完全免费","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
 {"key":"cc","name":"请勿相信视频中任何广告","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"}
