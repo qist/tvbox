@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.nogo.jar;md5;86a0300a45e76bc1a5b1b164044051da",
+"spider":"./jar/pg.nogo.jar;md5;c21e03159853d02d630e8c5e0e47f5f5",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"YanG","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"},
 {"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
@@ -18,8 +18,8 @@
 {"key":"mtsp_open","name":"蜜桃貓","type":3,"api":"./cat/js/mtsp_open.js","style":{"type":"rect","ratio":1.485}},
 {"key":"18av_open","name":"18av貓","type":3,"api":"./cat/js/18av_open.js","style":{"type":"rect","ratio":1.485}},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1"},
-{"key":"量子","name":"量子","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["伦理片"]},
-{"key":"非凡","name":"非凡","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/","searchable":1,"changeable":1,"categories":["伦理片"]},
+{"key":"量子","name":"量子","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["伦理片"]},
+{"key":"非凡","name":"非凡","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["伦理片"]},
 {"key":"玩偶","name":"玩偶","type":3,"api":"csp_Doll","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.309}},
 {"key":"18AV","name":"18AV","type":3,"api":"csp_Eighteen","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.485}},
 {"key":"18A貓","name":"18A貓","type":3,"api":"https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/18a_open.js","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.485}},
