@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;e40916ed5596602be43f2b003c65c8fc",
+"spider":"./jar/fan.txt;md5;14a42dfc35f4780e0d2aebf9fa397bbd",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://qist.cc/liveing/api.php",
 "sites":[

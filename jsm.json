@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;e40916ed5596602be43f2b003c65c8fc",
+"spider":"./jar/fan.txt;md5;14a42dfc35f4780e0d2aebf9fa397bbd",
 "lives":[
 {"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ipv6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
