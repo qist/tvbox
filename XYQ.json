@@ -1,7 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/XYQ.jar;md5;316660b0adb299c1dc63587579a3522e",
-    "comment": "多路直播配置只有蜂蜜影视支持",
+    "spider": "./jar/XYQ.jar;md5;857c3864f652a8f670797d2002aadb82",
     "lives": [
         {
           "name": "Yoursmile7",
@@ -25,7 +24,7 @@
           "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
           "logo": "https://epg.112114.xyz/logo/{name}.png"
         },{
-          "name": "本地文件",
+          "name": "初秋语",
           "type":"0",
           "pass": true,
           "url":"./list.txt",

@@ -271,7 +271,6 @@ Vivid Red HD,http://87c576b1.cbilant.com/iptv/XP2DFA2ML2YEFG/2162/index.m3u8
 Vivid TV Europe,http://87c576b1.cbilant.com/iptv/XP2DFA2ML2YEFG/6264/index.m3u8
 Vixen HD,http://87c576b1.cbilant.com/iptv/XP2DFA2ML2YEFG/6265/index.m3u8
 We Live Together,http://87c576b1.cbilant.com/iptv/XP2DFA2ML2YEFG/6266/index.m3u8
-White Boxxx,http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/6267/index.m3u8
 Wicked,http://87c576b1.cbilant.com/iptv/XP2DFA2ML2YEFG/6268/index.m3u8
 XY Max HD,http://87c576b1.cbilant.com/iptv/XP2DFA2ML2YEFG/6286/index.m3u8
 XY Mix HD,http://87c576b1.cbilant.com/iptv/XP2DFA2ML2YEFG/6287/index.m3u8
@@ -335,8 +334,6 @@ Lesbian,http://live.redtraffic.xyz/lesbian.m3u8
 Miami TV,https://59ec5453559f0.streamlock.net/miamitv/smil:miamitv/playlist.m3u8
 Miami TV Jenny 2,https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexico/playlist.m3u8
 Miami TV Jenny Live,https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
-Rouge TV,http://edge13.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8
-Visit X TV,https://stream.visit-x.tv/vxtv/live/chunklist_w1665254410.m3u8
 Anal,http://live.redtraffic.xyz/anal.m3u8
 Asian,http://live.redtraffic.xyz/asian.m3u8
 Babestation24,http://sdn-global-live-streaming-packager-cache.3qsdn.com/9528/9528_264_live.m3u8
