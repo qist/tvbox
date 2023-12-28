@@ -88,6 +88,7 @@ async function category(tid, pg, filter, extend) {
     let videos = await getVideos(url);
     return JSON.stringify({
         list: videos,
+        page: pg
     });
 }
 

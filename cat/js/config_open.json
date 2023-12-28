@@ -1,6 +1,10 @@
 ﻿{
 "video": {"sites": [
 {"key":"douban_open","name":"索引 | 豆瓣","type":3,"api":"assets://js/douban_open.js"},
+{"key":"kanqiu_open","name":"体育 | 看球","type":3,"api":"assets://js/kanqiu_open.js"},
+{"key":"xinshijue_open","name":"影视 | 新视觉","type":3,"api":"assets://js/xinshijue_open.js"},
+{"key":"sc1080_open","name":"影视 | 圣城","type":3,"api":"assets://js/sc1080_open.js"},
+
 {"key":"52ju_open","name":"影视 | 我爱剧","type":3,"api":"assets://js/52ju_open.js"},
 {"key":"dyxs_open","name":"影视 | 电影先生","type":3,"api":"assets://js/dyxs_openn.js"},
 {"key":"lz_open","name":"影视 | 量子","type":3,"api":"assets://js/lz_open.js"},
