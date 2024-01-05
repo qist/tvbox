@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;55c157414346e3ff571baad0a223bf15",
+  "spider": "./jar/custom_spider.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -38,6 +38,15 @@
         "token": "影視天下第一",
         "filter": "./json/wogg.json"
       }
+    },
+    {
+      "key": "盤99",
+      "name": "盤99",
+      "type": 3,
+      "api": "csp_Pan99",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "影視天下第一"
     },
     {
       "key": "賤賤",
@@ -130,7 +139,8 @@
       "type": 3,
       "api": "csp_Xb6v",
       "searchable": 1,
-      "changeable": 0
+      "changeable": 0,
+      "timeout": 60
     },
     {
       "key": "看球",
@@ -266,7 +276,7 @@
       "name": "WebDAV",
       "type": 3,
       "api": "csp_WebDAV",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 0,
       "ext": "./json/webdav.json"
     },
@@ -340,8 +350,9 @@
       "name": "推送",
       "type": 3,
       "api": "csp_Push",
-      "searchable": 1,
-      "changeable": 0
+      "searchable": 0,
+      "changeable": 0,
+      "timeout": 60
     }
   ],
   "doh": [
@@ -497,6 +508,33 @@
       ],
       "regex": [
         "video/tos/cn"
+      ]
+    },
+    {
+      "name": "七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "夜市",
+      "hosts": [
+        "yeslivetv.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "name": "毛驢",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
       ]
     }
   ],

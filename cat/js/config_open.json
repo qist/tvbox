@@ -5,6 +5,13 @@
 {"key":"xinshijue_open","name":"影视 | 新视觉","type":3,"api":"assets://js/xinshijue_open.js"},
 {"key":"sc1080_open","name":"影视 | 圣城","type":3,"api":"assets://js/sc1080_open.js"},
 
+{"key":"ff_open","name":"影视 | 非凡","type":3,"api":"assets://js/ff_open.js"},
+{"key":"push_agent","name":"影视 | 推送","type":4,"api":"assets://js/push_open.js","ext":{"token":"ali_token","cookie":"quark_cookie"}},
+{"key":"ggys_open","name":"影视 | 高光","type":3,"api":"assets://js/ggys_open.js"},
+{"key":"ddys_open","name":"影视 | 低端","type":3,"api":"assets://js/ddys_open.js"},
+{"key":"4kysxz_open","name":"影视 | 4KXZ","type":3,"api":"assets://js/4kysxz_open.js"},
+{"key":"nkvod_open","name":"影视 | 耐看","type":3,"api":"assets://js/nkvod_open.js"},
+
 {"key":"52ju_open","name":"影视 | 我爱剧","type":3,"api":"assets://js/52ju_open.js"},
 {"key":"dyxs_open","name":"影视 | 电影先生","type":3,"api":"assets://js/dyxs_openn.js"},
 {"key":"lz_open","name":"影视 | 量子","type":3,"api":"assets://js/lz_open.js"},

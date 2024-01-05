@@ -1,9 +1,9 @@
 {
-        "spider":"./jar/fan.txt;md5;14a42dfc35f4780e0d2aebf9fa397bbd",
+"spider":"./jar/fan.txt;md5;fd784008ab71d81a178564841059756d",
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	"sites": [{
 			"key": "豆豆",
-			"name": "🎟豆瓣┃清理接口",
+			"name": "🎟豆瓣┃主页",
 			"type": 3,
 			"api": "csp_DouDou",
 			"searchable": 0,
@@ -12,7 +12,7 @@
 		},
 		{
 			"key": "Bili",
-			"name": "🅱哔哔┃免费测试",
+			"name": "🅱哔哔┃哔哩",
 			"type": 3,
 			"api": "csp_Bili",
 			"style": {
@@ -87,7 +87,14 @@
 			"quickSearch": 1,
 			"ext": "http://103.42.31.123:5820/api.php/app/"
 		},
-		
+		{
+			"key": "河马",
+			"name": "👀河马┃App",
+			"type": 3,
+			"api": "csp_Hmys",
+			"playerType": 1,
+			"ext": "https://m.sshbhz.com"
+		},
 		{
 			"key": "南瓜",
 			"name": "🎃南瓜┃App",
@@ -127,7 +134,16 @@
 			"changeable": 1,
 			"ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsiwNM6dXSwTArm5em8Lv8ppXgro"
 		},
-		{"key":"嘿嘿","name":"🌾嘿嘿┃App","type":3,"api":"csp_AppMao","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjDcUxPqpfNr0QF4QvE6sExbcBEGIRZVnQTs7Kyyk1SScOZ8j/C1ATO/eqjASKwdHWA2zQtjGMwVDA+Ttluew9LCZzZnFyFNWEAlX0KjLdiSaX+NDNVdVG1JjEvnt3n7STfbcZ8C5QA+hYk60bwQH58e7eO7msRAJ0ZbmFDDly40NBDxuYsAq8lZuJzVkw0ZkMhqBM9YRPP8mMU/CJYsuBptunppHVQfFQjk8wxXjVRsNe75CuoY+zt9w+Smcm9PL37bGJHS6+1cFg1xMgqVxqvyPfuq5Dvyo1q66Q1NXwhDe4x21KVg4iRMET6Z3Jna25wcmku6xbznbFxlZqH3DqtpBKXLcNrx6n6vgn+/lHRmp5g13bG1xc/jwO78tZL0Pei6A=="},
+		{
+			"key": "嘿嘿",
+			"name": "🌾嘿嘿┃App",
+			"type": 3,
+			"api": "csp_AppMao",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "FbjDcUxPqpfNr0QF4QvE6sExbcBEGIRZVnQTs7Kyyk1SScOZ8j/C1ATO/eqjASKwdHWA2zQtjGMwVDA+Ttluew9LCZzZnFyFNWEAlX0KjLdiSaX+NDNVdVG1JjEvnt3n7STfbcZ8C5QA+hYk60bwQH58e7eO7msRAJ0ZbmFDDly40NBDxuYsAq8lZuJzVkw0ZkMhqBM9YRPP8mMU/CJYsuBptunppHVQfFQjk8wxXjVRsNe75CuoY+zt9w+Smcm9PL37bGJHS6+1cFg1xMgqVxqvyPfuq5Dvyo1q66Q1NXwhDe4x21KVg4iRMET6Z3Jna25wcmku6xbznbFxlZqH3DqtpBKXLcNrx6n6vgn+/lHRmp5g13bG1xc/jwO78tZL0Pei6A=="
+		},
 		{
 			"key": "saohuo",
 			"name": "🔥骚火┃直连",
@@ -151,28 +167,28 @@
 				"三次跳转播放链接": "\"url\"*\"&&\""
 			}
 		},
-		
+
 		{
-            "key": "freeok",
-            "name": "🌟free┃BPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "playerType": "2",
-            "jar": "./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
-            "ext": {
-                "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
-                "分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺&FREE短剧&FREE少儿",
-                "分类值": "1&2&3&4&12&5",
-                "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-                "副标题":"<div class=\"module-item-note\">&&</div>",
-                "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-                "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
-                "线路标题": "<span>&&</small>",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "简介": "<p>&&</p>"
-            }
-        },
+			"key": "freeok",
+			"name": "🌟free┃BPQ",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"playerType": "2",
+			"jar": "./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+			"ext": {
+				"分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
+				"分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺&FREE短剧&FREE少儿",
+				"分类值": "1&2&3&4&12&5",
+				"播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+				"副标题": "<div class=\"module-item-note\">&&</div>",
+				"嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
+				"线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
+				"线路标题": "<span>&&</small>",
+				"导演": "导演：&&</div>",
+				"主演": "主演：&&</div>",
+				"简介": "<p>&&</p>"
+			}
+		},
 		{
 			"key": "03影院",
 			"name": "🛀03影┃BPQ",
@@ -207,17 +223,17 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
-			"ext":"https://haozhansou.com/"
+			"ext": "https://haozhansou.com/"
 		},
 		{
-      "key": "Xinsj",
-      "name": "👓视觉┃直连",
+			"key": "Xinsj",
+			"name": "👓视觉┃直连",
 			"type": 3,
-      "api": "csp_Xinsj",
+			"api": "csp_Xinsj",
 			"searchable": 1,
 			"quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.hdmyy.com/"
+			"changeable": 1,
+			"ext": "https://www.hdmyy.com/"
 		},
 		{
 			"key": "毛驴",
@@ -302,7 +318,7 @@
 				"图片": "data-original=\"&&\"",
 				"标题": "title=\"&&\"",
 				"链接": "href=\"&&\"",
-				"嗅探词": ".m3u8#v3.huoshanvod.com#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
+				"嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
 				"过滤词": "/hls/#php",
 				"副标题": "<span class=\"pic-text text-right\">&&</span>",
 				"搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
@@ -412,6 +428,19 @@
 			}
 		},
 		{
+			"key": "88js",
+			"name": "⚽ 88┃看球",
+			"type": 3,
+			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
+			"ext": "https://fanty.run.goorm.site/ext/88看球.js",
+			"style": {
+				"type": "list"
+			},
+			"searchable": 0,
+			"quickSearch": 0,
+			"changeable": 0
+		},
+		{
 			"key": "评书",
 			"name": "📻评书┃BPQ",
 			"type": 3,
@@ -451,6 +480,7 @@
 			"name": "🍰小鸭┃网盘",
 			"type": 3,
 			"playerType": "1",
+			"jar":"./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
 			"api": "csp_AList",
 			"searchable": 1,
 			"quickSearch": 0,
@@ -474,16 +504,17 @@
 			"changeable": 0,
 			"ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|fhd|auto$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"
 		},
+		
 		{
-      "key": "PanSou",
-      "name": "🦊盘搜┃搜索",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-    },
+			"key": "PanSou",
+			"name": "🦊盘搜┃搜索",
+			"type": 3,
+			"api": "csp_PanSou",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+		},
 		{
 			"key": "Zhaozy",
 			"name": "🎉资源┃4K搜",
@@ -517,8 +548,27 @@
 			"ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|fhd|auto"
 		},
 		{
+      "key": "九六",
+      "name": "🎀九六┃直连",
+      "type": 3,
+      "api": "csp_Cs1369",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+		{
+      "key": "小胡",
+      "name": "👒资源┃小胡",
+      "searchable": 1,
+	  "quickSearch": 1,
+      "type": 1,
+      "playerType": 1,
+      "api": "http://c.小胡.icu/api.php/provide/vod/"
+    },
+		{
 			"key": "push_agent",
-			"name": "数据源于互联网｜仅供测试｜切勿相信非法广告｜公众号：神秘的哥哥们｜请于24小时内删除测试内容",
+			"name": "公众号：神秘的哥哥们",
 			"type": 3,
 			"api": "csp_Push",
 			"searchable": 1,
@@ -572,7 +622,7 @@
 		{
 			"name": "飞云🌾",
 			"type": 1,
-			"url": "https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url=",
+			"url": "",
 			"ext": {
 				"flag": [
 					"FYNB",
@@ -631,10 +681,11 @@
 		{
 			"name": "左岸🌾",
 			"type": 1,
-			"url": "http://110.42.2.247:880/analysis/json/?uid=2500&my=abejnoqyFGMN023789&format=json&url=",
+			"url": "http://122.228.84.103:5829/jx/?url=",
 			"ext": {
 				"flag": [
-					"seven"
+					"seven",
+					"FYNB"
 				],
 				"header": {
 					"User-Agent": "okhttp/4.1.0"
@@ -701,21 +752,13 @@
 		}
 	],
 	"lives": [{
-		"name": "live1",
-		"type": 0,
-		"url": "https://agit.ai/xiaohewanwan/TVBox/raw/branch/master/js/xmzb.txt",
-		"ua": "okhttp/3.12.13",
-		"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
-		"name": "live2",
-		"type": 0,
-		"url": "https://wds.ecsxs.com/211161.txt",
-		"ua": "okhttp/3.12.13",
-		"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	}
+			"name": "IPv4",
+			"type": 0,
+			"url": "http://124.223.177.85:88/svip/直播挺快.txt",
+			"ua": "okhttp/3.12.13",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png"
+		}
 	],
 	"doh": [{
 			"name": "Google",

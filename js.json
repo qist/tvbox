@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;c77fd9af1aa038646d124958adf31d1b",
+"spider":"./jar/pg.jar;md5;2f9742e4675945a58354b00450c401ad",
 "lives":[
 {"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ipv6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -24,14 +24,18 @@
 {"key":"Bdys_spider","name":"弹幕 | 哔滴┃[jar]","api":"csp_Bdys01","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"https://www.bdys03.com/$$$null$$$1"},
 {"key":"NanGua","name":"弹幕 | 南瓜[jar]","type":3,"api":"csp_NanGua","searchable":1,"changeable":1,"ext":"null$$$1"},
 {"key":"蝴蝶","name":"弹幕 | 蝴蝶[jar]","type":3,"api":"csp_Hudie","playerType":2,"ext":"https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b$$$null$$$1"},
-{"key":"csp_WoGG","name":"弹幕 | 玩偶哥哥[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wogg.xyz/", "timeout":30},
-{"key":"csp_Wobg","name":"弹幕 | 玩偶表哥[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wobge.run.goorm.io", "timeout":30},
+{"key":"PikPakShare","name":"弹幕 | PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.json$$$./json/pikpakclass.json.txt.gz"},
+{"key":"Pan99","name":"弹幕 | 盘99[jar]","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://pan99.xyz$$$null$$$1$$$./json/wogg.json"},
+{"key":"csp_WoGG","name":"弹幕 | 哥哥[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://api.wogg.xyz/$$$1$$$./json/wogg.json", "timeout":30},
+{"key":"影视车","name":"弹幕 | 影视车[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.weixine.net/$$$1$$$./json/wogg.json", "timeout":30},
+{"key":"csp_Wobg","name":"弹幕 | 表哥[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wobge.run.goorm.io$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"Ppxzy","name":"弹幕 | 皮皮虾[jar]","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ppxzy.net/$$$null", "timeout":30}, 
 {"key":"新6V","name":"弹幕 | 新6V[jar]","type":3,"api":"csp_Xb6v","searchable":1,"changeable":1,"timeout":60,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$http://www.xb6v.com$$$1"},
 {"key":"4KHDR","name":"弹幕 | 4KHDR[jar]","type":3,"api":"csp_FourKHDR","ext":"http://127.0.0.1:9978/file/TV/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt","quickSearch":1,"changeable":1,"timeout":60},
 {"key":"校长影视","name":"弹幕 | 校长[jar]","type":3,"api":"csp_XiaoZhang","ext":"http://127.0.0.1:9978/file/TV/token.json","quickSearch":1,"changeable":1,"timeout":30},
 {"key":"团长资源","name":"弹幕 | 团长[jar]","type":3,"api":"csp_TZFile","ext":"http://127.0.0.1:9978/file/TV/token.json", "quickSearch":1, "changeable":1, "timeout":30},
-{"key":"csp_Hdhive","name":"阿里 | 影巢[jar]","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TV/token.json","timeout":30},
+{"key":"csp_Hdhive","name":"弹幕 | 影巢[jar]","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TV/token.json","timeout":30},
+{"key":"Panta","name":"弹幕 | 盘Ta[jar]","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.91panta.cn/$$$null$$$1"},
 
 {"key":"drpy_js_酷云77","name":"影视 | 酷云77[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/酷云77.js"},
 {"key":"drpy_js_快看","name":"影视 | 快看[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/快看.js"},
@@ -91,7 +95,6 @@
 {"key":"drpy_js_优酷","name":"官源 | 优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
 
 {"key":"Libvio","name":"网盘 | LIBVIO[jar]","type":3,"api":"csp_Libvio","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.libvio.fun$$$null"},
-{"key":"Panta","name":"网盘 | 盘Ta[jar]","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.91panta.cn/$$$null$$$1"},
 {"key":"DaPanSo","name":"网盘 | 大盘搜[jar]","type":3,"api":"csp_DaPanSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://dapanso.com$$$null"},
 {"key":"Qianfan","name":"网盘 | 千帆[jar]","type":3,"api":"csp_Qianfan","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://pan.qianfan.app$$$null$$$QianFanID="},
 {"key":"YunSo","name":"网盘 | 小云[jar]","type":3,"api":"csp_YunSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json"},
@@ -289,7 +292,10 @@
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}
 ],
 "rules":[
-{"name":"proxy","hosts":[".*workers.dev","www.cilixiong.com","*.t4tv.hz.cz","kuba222.com","mp4us.com","dydhhy.com","magicalsearch.top","api123.adys.app",".*wogg.xyz","dmku.thefilehosting.com","epg.112114.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"proxy","hosts":["weixine.net","mypikpak.com",".*workers.dev","www.cilixiong.com","*.t4tv.hz.cz","kuba222.com","mp4us.com","dydhhy.com","magicalsearch.top","api123.adys.app",".*wogg.xyz","dmku.thefilehosting.com","epg.112114.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"七新嗅探","hosts":["api.52wyb.com"],"regex":["m3u8?pt=m3u8"]},
+{"name":"夜市","hosts":["yeslivetv.com"],"script":["document.getElementsByClassName('vjs-big-play-button')[0].click()"]},
+{"name":"毛驢","hosts":["www.maolvys.com"],"script":["document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"]},
 {"name":"海外看","hosts":["haiwaikan"],"regex":["10.0099","10.3333","16.0599","8.1748","12.33","10.85"]},
 {"name":"索尼","hosts":["suonizy"],"regex":["15.1666","15.2666"]},
 {"name":"暴风廣告","hosts":["bfzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},

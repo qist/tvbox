@@ -130,10 +130,10 @@
     "list": [
       {
         "name": "watson",
-        "url": "https://fm.t4tv.hz.cz/zip/js-1206.zip",
+        "url": "https://fm.t4tv.hz.cz/zip/js-1223.zip",
         "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
         "copy": "file://Download/JS/js.json",
-        "version": "12/06"
+        "version": "12/23"
       }
     ]
   }

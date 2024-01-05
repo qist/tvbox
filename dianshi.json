@@ -70,15 +70,6 @@
 {"key": "AppMr","name": "影视 | 明明[App]","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar","changeable": 1},
 {"key": "csp_Ysgc","name": "影视 | 工场[直连]","type": 3,"api": "csp_Ysgc","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.ysgc1.cc/","jar":"./jar/fty.jar"},
 
-{"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
-{"key": "哈喽","name": "影视 | 迷你库[app]","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "http://www.miniku.cc/xgapp.php/v1/"},
-{"key": "Qtv","name": "影视 | 腾讯[解析]","type": 3,"api": "csp_Qtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
-{"key": "Itv","name": "影视 | 爱奇艺[解析]","type": 3,"api": "csp_Itv","quickSearch": 1,"searchable": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
-{"key": "Mtv","name": "影视 | 芒果[解析]","type": 3,"api": "csp_Mtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
-{"key": "Vofl","name": "影视 | VOF[直连]","type": 3,"api": "csp_Voflix","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar","changeable": 1},
-{"key": "AppMr","name": "影视 | 明明[App]","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar","changeable": 1},
-{"key": "csp_Ysgc","name": "影视 | 工场[直连]","type": 3,"api": "csp_Ysgc","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.ysgc1.cc/","jar":"./jar/fty.jar"},
-
 {"key":"百度","name":"百度","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0,"categories":["国产动漫","日韩动漫","大陆剧","欧美剧","韩剧","日剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片"]},
 {"key":"暴風","name":"影视 | 暴風[直连]","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},
 
@@ -329,7 +320,10 @@
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}
 ],
 "rules":[
-{"name":"proxy","hosts":[".*workers.dev","www.cilixiong.com","*.t4tv.hz.cz","kuba222.com","mp4us.com","dydhhy.com","magicalsearch.top","api123.adys.app",".*wogg.xyz","dmku.thefilehosting.com","epg.112114.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"proxy","hosts":["weixine.net","mypikpak.com",".*workers.dev","www.cilixiong.com","*.t4tv.hz.cz","kuba222.com","mp4us.com","dydhhy.com","magicalsearch.top","api123.adys.app",".*wogg.xyz","dmku.thefilehosting.com","epg.112114.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"七新嗅探","hosts":["api.52wyb.com"],"regex":["m3u8?pt=m3u8"]},
+{"name":"夜市","hosts":["yeslivetv.com"],"script":["document.getElementsByClassName('vjs-big-play-button')[0].click()"]},
+{"name":"毛驢","hosts":["www.maolvys.com"],"script":["document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"]},
 {"name":"海外看","hosts":["haiwaikan"],"regex":["10.0099","10.3333","16.0599","8.1748","12.33","10.85"]},
 {"name":"索尼","hosts":["suonizy"],"regex":["15.1666","15.2666"]},
 {"name":"暴风廣告","hosts":["bfzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
