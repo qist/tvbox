@@ -1,7 +1,8 @@
 var rule = {
     title:'动漫岛',
     // host:'http://www.dmd85.com',
-    host:'http://www.88dmw.com',
+    // host:'http://www.88dmw.com',
+    host:'http://www.dmand5.com',
     // url:'/vod-list-id-fyclass-pg-fypage-order--by-{by}-class-{class}-year-{year}-letter--area--lang-.html',
     url:'/vod-list-id-fyclass-pg-fypage-order-fyfilter-area--lang-.html',
     filterable:1,//是否启用分类筛选,

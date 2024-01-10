@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;ca7cf8ac2302fa00985a57e4e58124ab",
+  "spider": "./jar/custom_spider.jar;md5;d1c71df1849f7e6737c90ccb92409537",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "name": "夜市",
+      "name": "夜市點擊",
       "hosts": [
         "yeslivetv.com"
       ],
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "name": "毛驢",
+      "name": "毛驢點擊",
       "hosts": [
         "www.maolvys.com"
       ],
@@ -539,6 +539,6 @@
     }
   ],
   "ads": [
-    "mozai.4gtv.tv"
+    "static-mozai.4gtv.tv"
   ]
 }

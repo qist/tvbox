@@ -124,17 +124,5 @@
         "version": "v7a"
       }
     ]
-  },
-  {
-    "name": "本地包",
-    "list": [
-      {
-        "name": "watson",
-        "url": "https://fm.t4tv.hz.cz/zip/js-1223.zip",
-        "icon": "https://i.imgs.ovh/2023/10/20/2I7XH.jpeg",
-        "copy": "file://Download/JS/js.json",
-        "version": "12/23"
       }
     ]
-  }
-]
