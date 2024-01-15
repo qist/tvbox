@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;d1c71df1849f7e6737c90ccb92409537",
+  "spider": "./jar/custom_spider.jar;md5;0111bf77b42bfb642dd8217dc6606828",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -38,15 +38,6 @@
         "token": "影視天下第一",
         "filter": "./json/wogg.json"
       }
-    },
-    {
-      "key": "盤99",
-      "name": "盤99",
-      "type": 3,
-      "api": "csp_Pan99",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "影視天下第一"
     },
     {
       "key": "賤賤",

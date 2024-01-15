@@ -5,10 +5,9 @@
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
 {"key":"996影院","name":"996影院","type":3,"api":"csp_Cs1369","searchable":1,"changeable":1,"timeout":30},
 {"key":"新6V","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"changeable":0,"timeout":30},
-{"key":"玩偶弹幕版","name":"玩偶哥哥","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {  "token": "http://127.0.0.1:9978/file/TV/token.txt","site": "https://wogg.xyz",  "danmu" : true}, "timeout":30},
+{"key":"玩偶弹幕版","name":"玩偶哥哥","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {  "token": "http://127.0.0.1:9978/file/TV/token.txt","site": "https://www.wogg.xyz/",  "danmu" : true}, "timeout":30},
 {"key":"运输车弹幕版","name":"运输车","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {  "token": "http://127.0.0.1:9978/file/TV/token.txt","cookie": "http://127.0.0.1:9978/file/TV/quark.txt","site": "https://www.weixine.net", "danmu" : true}, "timeout":30},
 {"key":"玩偶表哥弹幕","name":"玩偶表哥","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "ext": {  "token": "http://127.0.0.1:9978/file/TV/token.txt",  "cookie": "http://127.0.0.1:9978/file/TV/quark.txt",  "danmu" : true}, "timeout":30},
-{"key":"盘99弹幕版","name":"盘99","type":3,"api":"csp_Pan99","searchable":1,"filterable":1,"changeable":1, "ext": {  "token": "http://127.0.0.1:9978/file/TV/token.txt",  "cookie": "http://127.0.0.1:9978/file/TV/quark.txt",  "danmu" : true}, "timeout": 25},
 {"key":"sp360","name":"360","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":  {"danmu": true}, "timeout":30},
 {"key":"荐片弹幕版","name":"荐片","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout":30},
 {"key":"泥巴弹幕版","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"changeable":1,"ext": {"danmu": true}, "timeout":30},
@@ -43,6 +42,6 @@
 {"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="}
 ],
 "doh":[{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
-"rules":[{"name":"proxy","hosts":["weixine.net",".*wogg.xyz","dmku.thefilehosting.com"]}],
-"ads":["mozai.4gtv.tv"]
+"rules":[{"name":"proxy","hosts":["dmku.thefilehosting.com"]}],
+"ads":["static-mozai.4gtv.tv"]
 }

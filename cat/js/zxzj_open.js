@@ -1,7 +1,6 @@
-// 自动从 地址发布页 获取&跳转url地址
-import { Crypto, load, _ } from './lib/cat.js';
+import { Crypto, load, _ } from 'assets://js/lib/cat.js';
 
-let key = '在线之家';
+let key = 'zxzj';
 let HOST = 'https://www.zxzj.site'; // 地址发布页
 let host = '';
 let siteKey = '';
@@ -9,13 +8,17 @@ let siteType = 0;
 
 const MOBILE_UA = 'Mozilla/5.0 (Linux; Android 11; M2007J3SC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045714 Mobile Safari/537.36';
 
-async function request(reqUrl, agentSp) {
-    let res = await req(reqUrl, {
+async function request(reqUrl, extHeader) {
+    let headers = {
+        'User-Agent': MOBILE_UA,
+        'Referer': host,
+    };
+    if (extHeader) {
+        headers = _.merge(headers, extHeader);
+    }
+    const res = await req(reqUrl, {
         method: 'get',
-        headers: {
-            'User-Agent': agentSp || MOBILE_UA,
-            'Referer': host
-        },
+        headers: headers,
     });
     return res.content;
 }
@@ -43,16 +46,14 @@ async function home(filter) {
         };
     });
     const filterObj = {
-        1: [{ key: 'class', name: '剧情', value: [{ n: '全部', v: '' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '恐怖', v: '恐怖' }, { n: '动作', v: '动作' }, { n: '科幻', v: '科幻' }, { n: '剧情', v: '剧情' }, { n: '战争', v: '战争' }, { n: '警匪', v: '警匪' }, { n: '犯罪', v: '犯罪' }, { n: '动画', v: '动画' }, { n: '奇幻', v: '奇幻' }, { n: '冒险', v: '冒险' }] }, { key: 'area', name: '地区', value: [{ n: '全部', v: '' }, { n: '大陆', v: '大陆' }, { n: '香港', v: '香港' }, { n: '台湾', v: '台湾' }, { n: '欧美', v: '欧美' }, { n: '韩国', v: '韩国' }, { n: '日本', v: '日本' }, { n: '泰国', v: '泰国' }, { n: '印度', v: '印度' }, { n: '俄罗斯', v: '俄罗斯' }, { n: '其他', v: '其他' }] }],
-        2: [{ key: 'class', name: '剧情', value: [{ n: '全部', v: '' }, { n: '剧情', v: '剧情' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '动作', v: '动作' }, { n: '悬疑', v: '悬疑' }, { n: '恐怖', v: '恐怖' }, { n: '奇幻', v: '奇幻' }, { n: '惊悚', v: '惊悚' }, { n: '犯罪', v: '犯罪' }, { n: '科幻', v: '科幻' }, { n: '音乐', v: '音乐' }, { n: '其他', v: '其他' }] }],
-        3: [{ key: 'class', name: '剧情', value: [{ n: '全部', v: '' }, { n: '剧情', v: '剧情' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '动作', v: '动作' }, { n: '悬疑', v: '悬疑' }, { n: '恐怖', v: '恐怖' }, { n: '奇幻', v: '奇幻' }, { n: '惊悚', v: '惊悚' }, { n: '犯罪', v: '犯罪' }, { n: '科幻', v: '科幻' }, { n: '音乐', v: '音乐' }, { n: '其他', v: '其他' }] }],
-        4: [{ key: 'class', name: '剧情', value: [{ n: '全部', v: '' }, { n: '剧情', v: '剧情' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '动作', v: '动作' }, { n: '悬疑', v: '悬疑' }, { n: '恐怖', v: '恐怖' }, { n: '奇幻', v: '奇幻' }, { n: '惊悚', v: '惊悚' }, { n: '犯罪', v: '犯罪' }, { n: '科幻', v: '科幻' }, { n: '音乐', v: '音乐' }, { n: '其他', v: '其他' }] }],
-        6: [{ key: 'class', name: '剧情', value: [{ n: '全部', v: '' }, { n: '情感', v: '情感' }, { n: '科幻', v: '科幻' }, { n: '热血', v: '热血' }, { n: '推理', v: '推理' }, { n: '搞笑', v: '搞笑' }, { n: '冒险', v: '冒险' }, { n: '萝莉', v: '萝莉' }, { n: '校园', v: '校园' }, { n: '动作', v: '动作' }, { n: '机战', v: '机战' }, { n: '运动', v: '运动' }, { n: '战争', v: '战争' }, { n: '少年', v: '少年' }] }, { key: 'area', name: '地区', value: [{ n: '全部', v: '' }, { n: '国产', v: '国产' }, { n: '日本', v: '日本' }, { n: '欧美', v: '欧美' }, { n: '其他', v: '其他' }] }]
+        1: [{ key: 'class', name: '剧情', init: '', value: [{ n: '全部', v: '' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '恐怖', v: '恐怖' }, { n: '动作', v: '动作' }, { n: '科幻', v: '科幻' }, { n: '剧情', v: '剧情' }, { n: '战争', v: '战争' }, { n: '警匪', v: '警匪' }, { n: '犯罪', v: '犯罪' }, { n: '动画', v: '动画' }, { n: '奇幻', v: '奇幻' }, { n: '冒险', v: '冒险' }] }, { key: 'area', name: '地区', init: '', value: [{ n: '全部', v: '' }, { n: '大陆', v: '大陆' }, { n: '香港', v: '香港' }, { n: '台湾', v: '台湾' }, { n: '欧美', v: '欧美' }, { n: '韩国', v: '韩国' }, { n: '日本', v: '日本' }, { n: '泰国', v: '泰国' }, { n: '印度', v: '印度' }, { n: '俄罗斯', v: '俄罗斯' }, { n: '其他', v: '其他' }] }],
+        2: [{ key: 'class', name: '剧情', init: '', value: [{ n: '全部', v: '' }, { n: '剧情', v: '剧情' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '动作', v: '动作' }, { n: '悬疑', v: '悬疑' }, { n: '恐怖', v: '恐怖' }, { n: '奇幻', v: '奇幻' }, { n: '惊悚', v: '惊悚' }, { n: '犯罪', v: '犯罪' }, { n: '科幻', v: '科幻' }, { n: '音乐', v: '音乐' }, { n: '其他', v: '其他' }] }],
+        3: [{ key: 'class', name: '剧情', init: '', value: [{ n: '全部', v: '' }, { n: '剧情', v: '剧情' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '动作', v: '动作' }, { n: '悬疑', v: '悬疑' }, { n: '恐怖', v: '恐怖' }, { n: '奇幻', v: '奇幻' }, { n: '惊悚', v: '惊悚' }, { n: '犯罪', v: '犯罪' }, { n: '科幻', v: '科幻' }, { n: '音乐', v: '音乐' }, { n: '其他', v: '其他' }] }],
+        4: [{ key: 'class', name: '剧情', init: '', value: [{ n: '全部', v: '' }, { n: '剧情', v: '剧情' }, { n: '喜剧', v: '喜剧' }, { n: '爱情', v: '爱情' }, { n: '动作', v: '动作' }, { n: '悬疑', v: '悬疑' }, { n: '恐怖', v: '恐怖' }, { n: '奇幻', v: '奇幻' }, { n: '惊悚', v: '惊悚' }, { n: '犯罪', v: '犯罪' }, { n: '科幻', v: '科幻' }, { n: '音乐', v: '音乐' }, { n: '其他', v: '其他' }] }],
+        6: [{ key: 'class', name: '剧情', init: '', value: [{ n: '全部', v: '' }, { n: '情感', v: '情感' }, { n: '科幻', v: '科幻' }, { n: '热血', v: '热血' }, { n: '推理', v: '推理' }, { n: '搞笑', v: '搞笑' }, { n: '冒险', v: '冒险' }, { n: '萝莉', v: '萝莉' }, { n: '校园', v: '校园' }, { n: '动作', v: '动作' }, { n: '机战', v: '机战' }, { n: '运动', v: '运动' }, { n: '战争', v: '战争' }, { n: '少年', v: '少年' }] }, { key: 'area', name: '地区', init: '', value: [{ n: '全部', v: '' }, { n: '国产', v: '国产' }, { n: '日本', v: '日本' }, { n: '欧美', v: '欧美' }, { n: '其他', v: '其他' }] }]
     };
-    let filYer = { key: 'year', name: '年份', value: [{ n: '全部', v: '' }, { n: '2023', v: '2023' }, { n: '2022', v: '2022' }, { n: '2021', v: '2021' }, { n: '2020', v: '2020' }, { n: '2019', v: '2019' }, { n: '2018', v: '2018' }, { n: '2017', v: '2017' }, { n: '2016', v: '2016' }, { n: '2015', v: '2015' }, { n: '2014', v: '2014' }, { n: '2013', v: '2013' }, { n: '2012', v: '2012' }, { n: '2011', v: '2011' }] };
-    filYer['init'] = filYer.value[0].v;
+    let filYer = { key: 'year', name: '年份', init: '', value: [{ n: '全部', v: '' }, { n: '2024', v: '2024' }, { n: '2023', v: '2023' }, { n: '2022', v: '2022' }, { n: '2021', v: '2021' }, { n: '2020', v: '2020' }, { n: '2019', v: '2019' }, { n: '2018', v: '2018' }, { n: '2017', v: '2017' }, { n: '2016', v: '2016' }, { n: '2015', v: '2015' }, { n: '2014', v: '2014' }, { n: '2013', v: '2013' }, { n: '2012', v: '2012' }, { n: '2011', v: '2011' }] };
     let filBy = { key: 'by', name: '排序', value: [{ n: '时间', v: 'time' }, { n: '人气', v: 'hits' }, { n: '评分', v: 'score' }] };
-    filBy['init'] = filBy.value[0].v;
     return JSON.stringify({
         class: _.map(classes, (cls) => {
             if (filterObj[cls.type_id]) {
@@ -170,15 +171,23 @@ async function play(flag, id, flags) {
     } else if (json.encrypt == '2') {
         url = unescape(base64Decode(url))
     }
-    if (url.indexOf('m3u8') >= 0 || url.indexOf('mp4') >= 0) {
+    if (url.includes('m3u8') || url.includes('mp4')) {
         // console.debug('在线之家url =====>' + url); // js_debug.log
         return JSON.stringify({
             parse: 0,
             url: url,
         });
-    } else if (from.indexOf('line3') >= 0 || from.indexOf('line5') >= 0) {
-        const ifrwy = await request(url);
-        const code = ifrwy.match(/var url = '(.*?)'/)[1].split('').reverse().join('');
+    } else if (from.includes('line3') || from.includes('line4') || from.includes('line5')) {
+        const extHeader = {
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'cross-site',
+            'sec-fetch-dest': 'iframe',
+            'upgrade-insecure-requests': 1,
+        };
+        const ifrwy = await request(url, extHeader);
+        const resultv2 = ifrwy.match(/var result_v2 = {(.*?)};/)[1];
+        const data = JSON.parse('{' + resultv2 + '}').data;
+        const code = data.split('').reverse();
         let temp = '';
         for (let i = 0x0; i < code.length; i = i + 0x2) {
             temp += String.fromCharCode(parseInt(code[i] + code[i + 0x1], 0x10))
