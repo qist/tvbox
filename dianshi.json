@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;28c7950d7b33ba3ee8e2d322882ffa87",
+"spider":"./jar/fan.txt;md5;87c10cb2cda0a4cca965373ec8d02c7b",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://qist.cc/liveing/api.php",
 "sites":[
@@ -7,7 +7,7 @@
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./FTY/TVB云播.js"},
 {"key":"drpy_js_网飞.TV","name":"影视 | 网飞.TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/网飞.TV.js"},
 
-{"key":"玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.link/$$$弹"},
+{"key":"玩偶哥哥","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
 {"key":"YGP","name":"🚀叨观荐影┃新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"csp_Nmys","name":"🌾农民┃直连","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"changeable":1,"ext":"./FTY/nmys.json"},
 {"key":"Czsapp","name":"📔厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czzy88.com/"},
