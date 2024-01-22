@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;4ceefaa8f9f80595929da0af9159645b",
+"spider":"./jar/fan.txt;md5;ea09c2021f8e6b353b77a48b8a23bdf0",
     "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
     "sites":[
         {
@@ -69,7 +69,7 @@
         },
         {
             "key":"亮亮",
-            "name":"💡亮亮┃APP",
+            "name":"💡主源┃无广",
             "type":3,
             "jar":"./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
             "api":"csp_AppYsV2",
@@ -86,7 +86,17 @@
             "api":"csp_AppYsV2",
             "searchable":1,
             "quickSearch":1,
-            "ext":"http://122.228.84.103:6117/api.php/app/"
+            "ext":"http://43.154.162.194/ruifenglb_api.php/v1.vod"
+        },
+        {
+            "key":"蚂蚁",
+            "name":"🍉主源┃无广",
+            "type":3,
+            "jar":"./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+            "api":"csp_AppYsV2",
+            "searchable":1,
+            "quickSearch":1,
+            "ext":"http://122.228.84.103:5822/api.php/app/"
         },
         {
             "key":"小胡",
@@ -115,16 +125,6 @@
             "searchable":1,
             "quickSearch":1,
             "changeable":1
-        },
-        {
-            "key":"Xinsj",
-            "name":"👓视觉┃直连",
-            "type":3,
-            "api":"csp_Xinsj",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":0,
-            "ext":"https://www.80yy1.com/"
         },
         {
             "key":"南坊",
@@ -189,6 +189,16 @@
                 "主演":"主演：&&</div>",
                 "简介":"<p>&&</p>"
             }
+        },
+        {
+            "key":"6080",
+            "name":"😸视觉┃BPQ",
+            "type":3,
+            "api":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/drpy.min.js",
+            "ext":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/%E6%96%B0%E8%A7%86%E8%A7%89.js",
+            "searchable":1,
+            "quickSearch":1,
+            "changeable":0
         },
         {
             "key":"03影院",
@@ -534,17 +544,16 @@
             "changeable":0,
             "ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
-        {
-            "key":"Zhaozy",
-            "name":"🎉资源┃4K搜",
-            "type":3,
-            "api":"csp_Zhaozy",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0,
-            "changeable":0,
-            "ext":"https://zhaoziyuan.pw/$$$http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|fhd|auto$$$wudideni$$$wudi"
-        },
+       {
+			"key": "Zhaozy",
+			"name": "🐺资源┃搜索",
+			"type": 3,
+			"api": "csp_Zhaozy",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0,
+			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$1225339347@qq.com$$$122533"
+		},
         {
             "key":"七夜",
             "name":"😾七夜┃搜索",
@@ -639,11 +648,11 @@
         {
             "name":"飞云🌾",
             "type":1,
-            "url":"http://122.228.84.103:7777/api/?key=CmVoteP0qwx4wZiK5G&url=",
+            "url":"http://122.228.84.103:7777/api/?key=EauMlPIBC3spoYGaOB&url=",
             "ext":{
                 "flag":[
                     "FYNB",
-                    "mgtv",
+                    "NBY",
                     "qiyi",
                     "imgo",
                     "爱奇艺",
@@ -684,10 +693,10 @@
         {
             "name":"赞赞🌾",
             "type":1,
-            "url":"https://vip.yybjs.top/home/api?type=ys&uid=2691400&key=bcmqsvwyzACFIPY368&url=",
+            "url":"http://121.62.61.51:6888/api/?key=qy9VEMeeqwl3nI4gvA&url=",
             "ext":{
                 "flag":[
-                    "JMZN"
+                    "NBY"
                 ],
                 "header":{
                     "User-Agent":"okhttp/4.1.0"

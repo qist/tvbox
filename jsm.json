@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;87c10cb2cda0a4cca965373ec8d02c7b",
+"spider":"./jar/fan.txt;md5;c309b0f793045f88f75aa088cd0cc7b5",
 "lives":[
 {"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ipv6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -60,6 +60,7 @@
 {"key":"小学课堂","name":"📚小学┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/小学课堂.json"},
 {"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/初中课堂.json"},
 {"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/高中课堂.json"},
+
 {"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
 {"key": "哈喽","name": "影视 | 迷你库[app]","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "http://www.miniku.cc/xgapp.php/v1/"},
 {"key": "Qtv","name": "影视 | 腾讯[解析]","type": 3,"api": "csp_Qtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar","changeable": 0},
@@ -108,6 +109,7 @@
 {"key":"drpy_js_阿布影院","name":"影视 | 阿布影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/阿布影院.js"},
 {"key":"drpy_js_电影先生","name":"影视 | 电影先生[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/电影先生.js"},
 {"key":"drpy_js_落攻阁影视","name":"影视 | 落攻阁影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/落攻阁影视.js"},
+{"key":"drpy_js_喵次元","name":"影视 | 喵次元[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/喵次元.js"},
 
 {"key":"drpy_js_69美剧","name":"影视 | 69美剧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/69美剧.js"},
 {"key":"drpy_js_兄弟影视","name":"影视 | 兄弟影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/兄弟影视.js"},

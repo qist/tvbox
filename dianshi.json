@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;87c10cb2cda0a4cca965373ec8d02c7b",
+"spider":"./jar/fan.txt;md5;c309b0f793045f88f75aa088cd0cc7b5",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://qist.cc/liveing/api.php",
 "sites":[
@@ -106,6 +106,7 @@
 {"key":"drpy_js_阿布影院","name":"影视 | 阿布影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/阿布影院.js"},
 {"key":"drpy_js_电影先生","name":"影视 | 电影先生[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/电影先生.js"},
 {"key":"drpy_js_落攻阁影视","name":"影视 | 落攻阁影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/落攻阁影视.js"},
+{"key":"drpy_js_喵次元","name":"影视 | 喵次元[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/喵次元.js"},
 
 {"key":"drpy_js_69美剧","name":"影视 | 69美剧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/69美剧.js"},
 {"key":"drpy_js_兄弟影视","name":"影视 | 兄弟影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/兄弟影视.js"},
