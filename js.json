@@ -28,6 +28,7 @@
 {"key":"AliShare","name":"弹幕 | 阿里云盘分享[jar]","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/alishare.txt"},
 {"key":"ThunderShare","name":"弹幕 | 迅雷云盘分享[jar]","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/thundershare.txt"},
 {"key":"QuarkShare","name":"弹幕 | 夸克云盘分享[jar]","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/quarkshare.txt"},
+{"key":"88Pan","name":"弹幕 | 88网盘[jar]","type":3,"api":"csp_EightEight","timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://662688.xyz"},
 {"key":"csp_WoGG","name":"弹幕 | 哥哥[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wogg.xyz/|104.16.245.50$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"影视车","name":"弹幕 | 影视车[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.weixine.net/$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"csp_Wobg","name":"弹幕 | 表哥[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wobge.run.goorm.io$$$1$$$./json/wogg.json", "timeout":30},
