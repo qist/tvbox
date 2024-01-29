@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;c309b0f793045f88f75aa088cd0cc7b5",
+"spider":"./jar/fan.txt;md5;6695b4fe705a1eedcae352abe5412640",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"YanG•综合","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Gather.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"范明明•ipv6","type":0,"url":"https://fongmi.cachefly.net/fanmingming/live/main/tv/m3u/ipv6.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
@@ -29,9 +29,9 @@
 {"key":"玩偶哥哥","name":"玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"},
 {"key":"csp_Aid","name":"急救┃指南","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
 {"key":"lf_js_lf_live","name":"电视┃直播[js]","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
+{"key":"看球","name":"看球┃体育","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"},"timeout":30},
+{"key":"短剧","name":"短剧┃合集","type":3,"api":"csp_Duanju","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},"timeout":30},
 
-{"key":"看球","name":"看球┃体育","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"},"jar":"./jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D", "timeout":30},
-{"key":"短剧","name":"短剧┃合集","type":3,"api":"csp_Duanju","jar":"./jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},"timeout":30},
 {"key":"快手直播","name":"快手┃直播","type": 3,"api":"csp_KsLive","jar":"./jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D","searchable":0,"quickSearch":0,"filterable":1,"style":{"type":"rect","ratio":1.433}},
 {"key":"JustLive","name":"JustLive┃直播","type":3,"api":"csp_JustLive","jar":"./jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433}},
 {"key":"玩偶弹幕版","name":"玩偶哥哥┃弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {"token": "http://127.0.0.1:9978/file/TV/token.txt","filter": "./json/wogg.json","site": "https://www.wogg.xyz","danmu" : true},"jar":"./jar/ok.png;md5;E5F0A5283309C662BDAF3659A55E9F1D", "timeout":30},
@@ -66,7 +66,6 @@
 {"key":"星奇","name":"星奇┃App","type":3,"api":"csp_AppMao","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"},
 {"key":"电影","name":"电影┃App","type":3,"api":"csp_AppSK","searchable":1,"quickSearch":1,"changeable":1,"ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn"},
 {"key":"一起看 ","name":"一起┃App","type":3,"api":"csp_YQKan","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"zxzj","name":"在线┃直连","type":3,"api":"csp_Zxzj","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzj.pro/"},
 {"key":"DiDuan","name":"低端┃直连","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_Bttoo","name":"比特┃直连","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Lib","name": "利播┃直连","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext":"https://www.libvio.pro/"},

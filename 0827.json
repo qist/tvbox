@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;770a64d7528f1c45c19fa9ca0adab5a0",
+  "spider": "./jar/custom_spider.jar;md5;7d13878c01ea655d716fd1aa39b0094e",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -471,7 +471,8 @@
       ],
       "regex": [
         "25.0666",
-        "25.08"
+        "25.08",
+        "20.52"
       ]
     },
     {

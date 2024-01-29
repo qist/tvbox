@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;2924f2b9e4587a8057af85af1f380be1",
+"spider":"./jar/pg.jar;md5;58fc87042d81c94a11056d7b481d4c74",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -13,7 +13,7 @@
 {"key":"csp_YGP","name":"预告片","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"csp_Bili","name":"哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.755},"filterable":1,"changeable":0,"ext":{"json":"./json/bili.json","cookie": ""}},
 {"key":"bili_open","name":"哔哩貓","type":3,"api":"https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js","searchable":1,"changeable":0,"ext":{"categories":"沙雕动画#帕梅拉#音乐#舞蹈#风景#美食#科普#历史#法考#医考#法医学","cookie":""}},
-{"key": "996影院","name": "996","type": 3,"api": "csp_Cs1369","searchable": 1,"changeable": 1},
+{"key": "996影院","name": "996","type": 3,"api": "csp_Cs1369","searchable": 1,"changeable": 1,"ext":"https://www.cs1369.com$$$null$$$1"},
 {"key": "FirstAid","name": "急救 ","type": 3,"api": "csp_FirstAid","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8}},
 {"key": "短剧","name": "短剧","type": 3,"api": "csp_Duanju","searchable": 0,"changeable": 1},
 {"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"}},
@@ -25,7 +25,6 @@
 {"key":"AliShare","name":"阿里云盘分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/alishare.txt"},
 {"key":"ThunderShare","name":"迅雷云盘分享","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/thundershare.txt"},
 {"key":"QuarkShare","name":"夸克云盘分享","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/quarkshare.txt"},
-{"key":"88Pan","name":"88网盘","type":3,"api":"csp_EightEight","timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://662688.xyz"},
 
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"ext":"http://127.0.0.1:9978/file/TV/token.json"},
 {"key":"csp_WoGG","name":"哥哥","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wogg.xyz/|104.16.245.50$$$1$$$./json/wogg.json", "timeout":30},
@@ -34,7 +33,7 @@
 {"key":"Ppxzy","name":"皮皮虾","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ppxzy.net/$$$null$$$1", "timeout":30}, 
 {"key":"Panta","name":"盘Ta","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.91panta.cn/$$$null$$$1"},
 {"key":"csp_Hdhive","name":"影巢","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://127.0.0.1:9978/file/TV/token.json","timeout":30},
-{"key":"新6V","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"changeable":1,"timeout":60,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$http://www.xb6v.com$$$null$$$1"},
+{"key":"新6V","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"changeable":1,"timeout":60,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.66ss.org$$$null$$$1"},
 {"key":"4KHDR","name":"4KHDR","type":3,"api":"csp_FourKHDR","ext":"http://127.0.0.1:9978/file/TV/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt","quickSearch":1,"changeable":1,"timeout":60},
 {"key":"校长影视","name":"校长","type":3,"api":"csp_XiaoZhang","ext":"http://127.0.0.1:9978/file/TV/token.json","quickSearch":1,"changeable":1,"timeout":30},
 {"key":"团长资源","name":"团长","type":3,"api":"csp_TZFile","ext":"http://127.0.0.1:9978/file/TV/token.json", "quickSearch":1, "changeable":1, "timeout":30},
@@ -59,6 +58,7 @@
 {"key":"Mayiys","name":"蚂蚁","type":3,"api":"csp_Mayiys","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
 {"key":"Maolv","name":"毛驴","type":3,"api":"csp_Maolv","searchable":1,"quickSearch":1,"filterable":1,"changeable":1},
 {"key":"csp_Kuaikan","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
+{ "key": "YQKan", "name": "一起看", "type": 3, "api": "csp_YQKan", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 },
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"changeable":1},
 {"key":"星星","name":"星星","type":3,"api":"csp_Star","searchable":1,"changeable":1},
 {"key":"影视","name":"影视","type":3,"api":"csp_YingShi","searchable":1,"changeable":1},
@@ -66,6 +66,7 @@
 {"key":"巴士","name":"巴士","type":3,"api":"csp_Dm84","searchable":1,"changeable":1},
 {"key":"酷狗","name":"酷狗","type":3,"api":"csp_Kugou","searchable":1,"changeable":0},
 
+{"key":"88Pan","name":"88网盘","type":3,"api":"csp_EightEight","timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://662688.xyz"},
 {"key":"PikaSo","name":"皮卡搜","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.pikaso.top/$$$null"},
 {"key":"csp_HunHePan","name":"混合盘","type":3,"api":"csp_HunHePan","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$null$$$1"},
 {"key":"秒搜","name":"秒搜","type":3,"api":"csp_MiaoSou","timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json"},

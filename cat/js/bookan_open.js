@@ -64,6 +64,7 @@ async function detail(id) {
     let data = JSON.parse(content).data;
 
     let book = {
+        audio: 1,
         book_id: id,
         type_name: '',
         book_year: '',

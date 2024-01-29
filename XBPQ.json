@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;ea09c2021f8e6b353b77a48b8a23bdf0",
+"spider":"./jar/fan.txt;md5;5543dae038ce2248e7759e9cbca295b9",
     "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
     "sites":[
         {
@@ -62,7 +62,7 @@
             "type":3,
             "jar":"./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
             "api":"csp_AppYsV2",
-            "ext":"http://111.230.51.151:9696//api.php/app/",
+            "ext":"http://111.230.51.151:2323/api.php/app/",
             "searchable":1,
             "quickSearch":1,
             "changeable":0
@@ -170,6 +170,42 @@
             }
         },
         {
+            "key":"视觉",
+            "name":"👓视觉┃BPQ",
+            "type":3,
+            "api":"csp_XBPQ",
+            "playerType":"2",
+            "jar":"./jar/XBPQ.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+            "ext":{
+                "主页url": "https://www.3ayy.com",
+        "简介": "module-info-introduction\">&&</p>",
+        "导演": "导演：&&</div>",
+        "主演": "主演：&&</div>",
+        "影片类型": "module-info-tag\">&&立即播放",
+        "影片状态": "集数：&&</div>",
+        "数组": "<a&&module-poster-item-info\"[不包含:夸克]",
+        "标题": "title=\"&&\"",
+        "副标题": "note\">&&</div>",
+        "嗅探词": ".mp4#.m3u8",
+        "过滤词": "/player/#/index/",
+        "图片": "data-original=\"&&\"",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://www.3ayy.com/index.php/ajax/suggest.html?mid=1&wd={wd}",
+        "搜索模式": "1",
+        "搜索二次截取": "\"list\":[&&]",
+        "搜索数组": "{&&}",
+        "搜索标题": "\"name\":\"&&\"",
+        "搜索图片": "\"pic\":\"&&\"",
+        "搜索链接": "https://www.3ayy.com/video/+\"id\":&&,+.html",
+        "播放数组": "module-play-list-base\">&&</div>",
+        "播放标题": "<span>&&</span>",
+        "播放列表": "<a&&</a>",
+        "分类url": "https://www.3ayy.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;a",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+            }
+        },
+        {
             "key":"freeok",
             "name":"🌟free┃BPQ",
             "type":3,
@@ -189,16 +225,6 @@
                 "主演":"主演：&&</div>",
                 "简介":"<p>&&</p>"
             }
-        },
-        {
-            "key":"6080",
-            "name":"😸视觉┃BPQ",
-            "type":3,
-            "api":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/drpy.min.js",
-            "ext":"https://jihulab.com/zhulr7765/tvbox/-/raw/main/JS/%E6%96%B0%E8%A7%86%E8%A7%89.js",
-            "searchable":1,
-            "quickSearch":1,
-            "changeable":0
         },
         {
             "key":"03影院",
@@ -718,8 +744,8 @@
         },
         {
             "name":"米饭🌾",
-            "type":1,
-            "url":"http://xhww.fun/jx.php?id=1&url=",
+            "type":0,
+            "url":"https://jx.yangtu.top/?url=",
             "ext":{
                 "flag":[
                     "爱奇艺",
@@ -741,7 +767,7 @@
                     "芒果"
                 ],
                 "header":{
-                    "User-Agent":"okhttp/4.1.0"
+                    "User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
                 }
             }
         },
@@ -903,6 +929,7 @@
                 "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
             ]
         },
+        
         {
             "name":"火山嗅探",
             "hosts":[

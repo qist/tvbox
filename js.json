@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;2924f2b9e4587a8057af85af1f380be1",
+"spider":"./jar/pg.jar;md5;58fc87042d81c94a11056d7b481d4c74",
 "lives":[
 {"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ipv6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -15,10 +15,10 @@
 {"key":"lf_js_p2p","name":"路飞 | 磁力[js]","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","timeout":30},
 {"key":"lf_js_lf_live","name":"电视 | 直播[js]","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 
-{"key": "996影院","name": "影视 | 996[jar]","type": 3,"api": "csp_Cs1369","searchable": 1,"changeable": 1},
 {"key": "FirstAid","name": "科普 | 急救[jar]","type": 3,"api": "csp_FirstAid","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8}},
 {"key":"配置中心","name":"配置 | 中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"ext":"http://127.0.0.1:9978/file/TV/token.json"},
 {"key":"荐片弹幕版","name":"弹幕 | 荐片[jar]","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/jianpian.json$$$1", "timeout":60},
+{"key": "996影院","name": "弹幕 | 996[jar]","type": 3,"api": "csp_Cs1369","searchable": 1,"changeable": 1,"ext":"https://www.cs1369.com$$$null$$$1"},
 {"key": "河马","name": "弹幕 | 河马[jar]","type": 3,"api": "csp_Hmys","playerType": 1,"ext": "https://m.jmzp.net.cn$$$null$$$1"},
 {"key": "天天","name": "弹幕 | 天天[jar]","type": 3,"api": "csp_TTian","playerType": 1,"ext": "http://op.ysdqjs.cn$$$null$$$1"},
 {"key":"Bdys_spider","name":"弹幕 | 哔滴┃[jar]","api":"csp_Bdys01","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"https://www.bdys03.com/$$$null$$$1"},
@@ -28,12 +28,11 @@
 {"key":"AliShare","name":"弹幕 | 阿里云盘分享[jar]","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/alishare.txt"},
 {"key":"ThunderShare","name":"弹幕 | 迅雷云盘分享[jar]","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/thundershare.txt"},
 {"key":"QuarkShare","name":"弹幕 | 夸克云盘分享[jar]","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/quarkshare.txt"},
-{"key":"88Pan","name":"弹幕 | 88网盘[jar]","type":3,"api":"csp_EightEight","timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://662688.xyz"},
 {"key":"csp_WoGG","name":"弹幕 | 哥哥[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wogg.xyz/|104.16.245.50$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"影视车","name":"弹幕 | 影视车[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.weixine.net/$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"csp_Wobg","name":"弹幕 | 表哥[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wobge.run.goorm.io$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"Ppxzy","name":"弹幕 | 皮皮虾[jar]","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ppxzy.net/$$$null", "timeout":30}, 
-{"key":"新6V","name":"弹幕 | 新6V[jar]","type":3,"api":"csp_Xb6v","searchable":1,"changeable":1,"timeout":60,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$http://www.xb6v.com$$$1"},
+{"key":"新6V","name":"弹幕 | 新6V[jar]","type":3,"api":"csp_Xb6v","searchable":1,"changeable":1,"timeout":60,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.66ss.org$$$1"},
 {"key":"4KHDR","name":"弹幕 | 4KHDR[jar]","type":3,"api":"csp_FourKHDR","ext":"http://127.0.0.1:9978/file/TV/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt","quickSearch":1,"changeable":1,"timeout":60},
 {"key":"校长影视","name":"弹幕 | 校长[jar]","type":3,"api":"csp_XiaoZhang","ext":"http://127.0.0.1:9978/file/TV/token.json","quickSearch":1,"changeable":1,"timeout":30},
 {"key":"团长资源","name":"弹幕 | 团长[jar]","type":3,"api":"csp_TZFile","ext":"http://127.0.0.1:9978/file/TV/token.json", "quickSearch":1, "changeable":1, "timeout":30},
@@ -67,7 +66,6 @@
 {"key":"drpy_js_阿布影院","name":"影视 | 阿布影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/阿布影院.js"},
 {"key":"drpy_js_电影先生","name":"影视 | 电影先生[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/电影先生.js"},
 {"key":"drpy_js_落攻阁影视","name":"影视 | 落攻阁影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/落攻阁影视.js"},
-{"key":"drpy_js_喵次元","name":"影视 | 喵次元[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/喵次元.js"},
 
 {"key":"drpy_js_69美剧","name":"影视 | 69美剧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/69美剧.js"},
 {"key":"drpy_js_兄弟影视","name":"影视 | 兄弟影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/兄弟影视.js"},
@@ -106,6 +104,7 @@
 {"key":"drpy_js_菜狗","name":"官源 | 搜狗[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
 {"key":"drpy_js_优酷","name":"官源 | 优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
 
+{"key":"88Pan","name":"网盘 | 88网盘[jar]","type":3,"api":"csp_EightEight","timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://662688.xyz"},
 {"key":"PikaSo","name":"网盘 | 皮卡搜[jar]","type":3,"api":"csp_PikaSo","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.pikaso.top/$$$null"},
 {"key":"csp_HunHePan","name":"网盘 | 混合盘[jar]","type":3,"api":"csp_HunHePan","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$null$$$1"},
 {"key":"秒搜","name":"网盘 | 秒搜[jar]","type":3,"api":"csp_MiaoSou","timeout":30, "ext":"http://127.0.0.1:9978/file/TV/token.json"},
@@ -178,6 +177,7 @@
 {"key":"drpy_js_爱弹幕","name":"动漫 | 爱弹幕[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱弹幕.js"},
 {"key":"drpy_js_动漫岛","name":"动漫 | 动漫岛[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/动漫岛.js"},
 {"key":"drpy_js_路漫漫","name":"动漫 | 路漫漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/路漫漫.js"},
+{"key":"drpy_js_喵次元","name":"影视 | 喵次元[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/喵次元.js"},
 {"key":"drpy_js_奇米动漫","name":"动漫 | 奇米动漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇米动漫.js"},
 {"key":"drpy_js_去看吧","name":"动漫 | 去看吧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/去看吧.js"},
 {"key":"drpy_js_曲奇动漫","name":"动漫 | 曲奇动漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/曲奇动漫.js"},

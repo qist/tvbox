@@ -189,11 +189,12 @@
 {"key":"guangsuapi","name":"采集 | 光速","type":3,"api":"assets://js/caiji.js","ext":"http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/"}
 ]},
 "read":{"sites":[
-{"key":"zzmusic_book_open","name":"渣渣音乐","type":10,"api":"assets://js/zzmusic_book_open.js"},
-{"key":"zz123_book_open","name":"123听歌","type":10,"api":"assets://js/zz123_book_open.js"},
-{"key":"230ts","name":"爱上你听书","type":10,"api":"assets://js/230ts_book_open.js"},
-{"key":"laobaigushi","name":"老白故事","type":10,"api":"assets://js/lbgs_open.js"},
-{"key":"bookan","name":"博看听书","type":10,"api":"assets://js/bookan_open.js"},
+{"key":"13bqg_open","name":"笔趣阁","type":3,"api":"assets://js/13bqg_open.js"},
+{"key":"zzmusic_book_open","name":"渣渣音乐","type":3,"api":"assets://js/zzmusic_book_open.js"},
+{"key":"zz123_book_open","name":"123听歌","type":3,"api":"assets://js/zz123_book_open.js"},
+{"key":"230ts","name":"爱上你听书","type":3,"api":"assets://js/230ts_book_open.js"},
+{"key":"laobaigushi","name":"老白故事","type":3,"api":"assets://js/lbgs_open.js"},
+{"key":"bookan","name":"博看听书","type":3,"api":"assets://js/bookan_open.js"},
 {"key":"dj0898","name":"世纪DJ","type":3,"api":"assets://js/dj0898_book_open.js"}
 ]},
 "pan":{"sites":[
@@ -245,4 +246,11 @@
 {"name":"雨呢备用","server":"https://clun.eu.org/"},
 {"name":"潇洒备用","server":"http://www.azad.asia:5244/"},
 {"name":"A大杂物库","server":"https://alist.qyide.com/"}
-]}]}}
+]}]},
+    "color": [
+        {
+            "light": { "bg": "https://i2.100024.xyz/2024/01/13/qrnuwt.webp", "bgMask": "0x50ffffff", "primary": "0xFF2B6C00", "onPrimary": "0xFFFFFFFF", "primaryContainer": "0xFFA6F779", "onPrimaryContainer": "0xFF082100", "secondary": "0xFF55624C", "onSecondary": "0xFFFFFFFF", "secondaryContainer": "0xFFD9E7CA", "onSecondaryContainer": "0xFF131F0D", "tertiary": "0xFF386666", "onTertiary": "0xFFFFFFFF", "tertiaryContainer": "0xFFBBEBEB", "onTertiaryContainer": "0xFF002020", "error": "0xFFBA1A1A", "onError": "0xFFFFFFFF", "errorContainer": "0xFFFFDAD6", "onErrorContainer": "0xFF410002", "background": "0xFFFDFDF5", "onBackground": "0xFF1A1C18", "surface": "0xFFFDFDF5", "onSurface": "0xFF1A1C18", "surfaceVariant": "0xFFE0E4D6", "onSurfaceVariant": "0xFF1A1C18", "inverseSurface": "0xFF2F312C", "onInverseSurface": "0xFFF1F1EA", "outline": "0xFF74796D", "outlineVariant": "0xFFC3C8BB", "shadow": "0xFF000000", "scrim": "0xFF000000", "inversePrimary": "0xFF8CDA60", "surfaceTint": "0xFF2B6C00" },
+            "dark": { "bg": "https://i2.100024.xyz/2024/01/13/qrc37o.webp", "bgMask": "0x50000000", "primary": "0xFF8CDA60", "onPrimary": "0xFF133800", "primaryContainer": "0xFF1F5100", "onPrimaryContainer": "0xFFA6F779", "secondary": "0xFFBDCBAF", "onSecondary": "0xFF283420", "secondaryContainer": "0xFF3E4A35", "onSecondaryContainer": "0xFFD9E7CA", "tertiary": "0xFFA0CFCF", "onTertiary": "0xFF003737", "tertiaryContainer": "0xFF1E4E4E", "onTertiaryContainer": "0xFFBBEBEB", "error": "0xFFFFB4AB", "errorContainer": "0xFF93000A", "onError": "0xFF690005", "onErrorContainer": "0xFFFFDAD6", "background": "0xFF1A1C18", "onBackground": "0xFFE3E3DC", "outline": "0xFF8D9286", "onInverseSurface": "0xFF1A1C18", "inverseSurface": "0xFFE3E3DC", "inversePrimary": "0xFF2B6C00", "shadow": "0xFF000000", "surfaceTint": "0xFF8CDA60", "outlineVariant": "0xFF43483E", "scrim": "0xFF000000", "surface": "0xFF1A1C18", "onSurface": "0xFFC7C7C0", "surfaceVariant": "0xFF43483E", "onSurfaceVariant": "0xFFC7C7C0" }
+        }
+    ]
+}
