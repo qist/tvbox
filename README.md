@@ -32,7 +32,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （11）cat.json  cat源，资源来源于网络各路大佬。/cat/js配合猫影视可直接食用；
 
-（12） jsm.json 来自js.json 修改 家庭电视可用 主要删除YouTube 直播。
+（12） jsm.json 来自js.json + 0826.json 合集 家庭电视可用 删除YouTube 直播。
 
 （13）电视安卓版本低于4.4以下下载apk：<https://github.com/o0HalfLife0o/TVBoxOSC/releases/download/20230902-0114/TVBox_q215613905_20230902-0114.apk>
 
@@ -53,6 +53,8 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 （5）新版猫影视   项目地址：<https://github.com/catvod/CatVodOpen> 界面简洁，支持多平台。
 
 （6）手机版本  项目地址：<https://github.com/XiaoRanLiu3119/TVBoxOS-Mobile> 竖屏
+
+（7）q215613905 takagen99 编译apk 项目地址：https://github.com/o0HalfLife0o/TVBoxOSC
 
 3. TVBox各路大佬配置（排名不分先后）：
 

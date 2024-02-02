@@ -2,9 +2,9 @@
 "spider":"./jar/pg.jar;md5;58fc87042d81c94a11056d7b481d4c74",
 "lives":[
 {"name":"live","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"ipv6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+{"name":"ipv6","type":0,"url":"https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
  ],
-"wallpaper":"https://qist.cc/liveing/api.php",
+"wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_磁力熊搜索","name":"搜索 | 磁力熊[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
