@@ -3,13 +3,13 @@ var rule = {
 	//host:'https://www.meijumi.xyz',
 	//homeUrl:'/',
 	//url: '/fyclass/page/fypage/?',
-	host:'http://192.168.1.9:10078',
-	homeUrl:'/p/0/socks5%253A%252F%252F192.168.1.9%253A4592/https://www.meijumi.net/',
-	url: '/p/0/socks5%253A%252F%252F192.168.1.9%253A4592/https://www.meijumi.net/fyclass/page/fypage/?',
+	host:'http://192.168.101.1:10078',
+	homeUrl:'/p/0/socks5%253A%252F%252F192.168.101.1%253A1080/https://www.meijumi.net/',
+	url: '/p/0/socks5%253A%252F%252F192.168.101.1%253A1080/https://www.meijumi.net/fyclass/page/fypage/?',
 	filter_url:'{{fl.class}}',
 	filter:{
 	},
-	searchUrl: '/p/0/socks5%253A%252F%252F192.168.1.9%253A4592/https://www.meijumi.net/?s=**',
+	searchUrl: '/p/0/socks5%253A%252F%252F192.168.101.1%253A1080/https://www.meijumi.net/?s=**',
 	searchable:2,
 	quickSearch:0,
 	filterable:0,
@@ -152,7 +152,7 @@ d.forEach(function(it) {
 			magfn = resolution + "." + magfn;
 			log("tabs magnet filename>>>>>>>>>>>" + magfn);
 			playObj["magnet"][purl]=magfn;
-		}else if (purl.startsWith("https://www.aliyundrive.com/s/")){
+		}else if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
 			playObj["ali"][purl]=title;
 		}else if (purl.startsWith("https://pan.quark.cn/s/")){
 			playObj["quark"][purl]=title;
@@ -229,7 +229,7 @@ if (false && LISTS.length>0 && typeof LISTS[0] === "object"){
 				magfn = resolution + "." + magfn;
 				log("tabs magnet filename>>>>>>>>>>>" + magfn);
 				playObj["magnet"][purl]=magfn;
-			}else if (purl.startsWith("https://www.aliyundrive.com/s/")){
+			}else if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
 				playObj["ali"][purl]=title;
 			}else if (purl.startsWith("https://pan.quark.cn/s/")){
 				playObj["quark"][purl]=title;
