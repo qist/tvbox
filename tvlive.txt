@@ -2195,7 +2195,7 @@ DW,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=pqabxBK
 ANN News,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
 KBS KOREA,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
 NBC NEW,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
-鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=if6yQq_JJyY
+鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0K6C6Rv4RR4
 CCTV中文国际,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9sE12tg3CmA
 东森财经股市,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=LbS-xQ67fos
 公視直播,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4Uc00FPs27M
