@@ -103,7 +103,7 @@
     }
 },
 
-{"key":"kunyu77_yz","name":"影视 | 七七","type":3,"api":"kunyu77.js"},
+{"key":"kunyu77_yz","name":"影视 | 七七","type":3,"api":"kunyu77_open.js"},
 {"key":"czzy","name":"影视 | 厂长","type":3,"api":"czzy_open.js"},
 {"key":"libvio","name":"影视 | libvio","type":3,"api":"libvio_open.js"},
 {"key":"kkys","name":"影视 | 快看","type":3,"api":"kkys_open.js"},
