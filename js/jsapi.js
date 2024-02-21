@@ -44,13 +44,55 @@ var rule = {
 	
 	log('jsapi.test.add(1,2)='+jsapi.test.add(1,2));
 	log('jsapi.test1.add1(1,2)='+jsapi.test1.add1(1,2));
-	log('jsapi.test1.add(1,2)='+jsapi.test1.add(1,2));
-	log('jsapi.add(1,2)='+jsapi.add(1,2));
-	log('jsapi.add1(1,2)='+jsapi.add1(1,2));
+	
+	
+	//log('jsapi.test1.add(1,2)='+jsapi.test1.add(1,2));
+	//log('jsapi.add(1,2)='+jsapi.add(1,2));
+	//log('jsapi.add1(1,2)='+jsapi.add1(1,2));
 	
 	
 	let d=[];
+	for(let i=0;i<20;i++){
+	d.push({
+        title:'测试',
+        url:'index.html',
+        img:'https://gitee.com/CherishRx/imagewarehouse/raw/master/image/13096725fe56ce9cf643a0e4cd0c159c.gif',
+        desc:'jsapi',
+    });
+	}
+	
 	setResult(d);
 		`,
-	    二级:'',
+	二级:`js:
+	let api=getProxyUrl()+'&url=';
+	VOD={
+       vod_id:'no_use',
+      vod_name:'测试二级',
+      type_name:input,
+      vod_pic:'https://gitee.com/CherishRx/imagewarehouse/raw/master/image/13096725fe56ce9cf643a0e4cd0c159c.gif',
+      vod_content:'这是一个原始js的测试案例',
+      vod_play_from:'代理线路1$$$不代理线路2',
+      vod_play_url:'选集播放1$'+api+'1.mp4#选集播放2$'+api+'2.mp4$$$选集播放3$3.mp4#选集播放4$4.mp4',
+    };
+	`,
+	proxy_rule:`
+	log(input);
+	function a(it){
+	if(it.startsWith('#')){
+	return it
+	}else{
+	return urljoin2(url,it)
+	}
+	}
+	let url = 'https://vip.lz-cdn3.com/20230706/20072_5c97b65e/index.m3u8';
+	let m3u8 = request(url);
+	log('m3u8处理前:'+m3u8);
+	m3u8 = m3u8.split('\\n').map(a).join('\\n');
+	log('m3u8处理后:============:'+m3u8);
+	url = m3u8.split('\\n').slice(-1)[0];
+	m3u8 = request(url);
+	
+	m3u8 = m3u8.split('\\n').map(a).join('\\n');
+	input = [200,'application/vnd.apple.mpegurl',m3u8]
+	`,
 }

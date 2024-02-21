@@ -19,12 +19,41 @@ var rule = {
     推荐:'*',
     一级:'.list-ul li;.tit&&Text;img&&src;p span:eq(0)&&Text;a&&href',
     二级:{
-    	title:'h2&&Text;.info div:eq(4)&&Text',
-    	img:'.bookimg img&&src',
-    	desc:'.info div:eq(3)&&Text;;;.info div:eq(2)&&Text;.info div:eq(1)&&Text',
-    	content:'.book_intro&&Text',
-	    tabs:'.sub_tit',
-    	lists:'#playlist li',
+        title:'h2&&Text;.info div:eq(4)&&Text',
+        img:'.bookimg img&&src',
+        desc:'.info div:eq(3)&&Text;;;.info div:eq(2)&&Text;.info div:eq(1)&&Text',
+        content:'.book_intro&&Text',
+        tabs:'.sub_tit',
+        // lists:'#playlist li',
+        lists:`js:
+            pd = jsp.pd;
+            let url = pd(html, ".bookbutton&&a&&href");
+            // log(url);
+            html = request(url);
+            let v = pd(html, ".booksite&&script&&Html");
+            var document = {};
+            var VideoListJson;
+            VideoListJson = eval(v.split("VideoListJson=")[1].split(",urlinfo")[0]);
+            // log(typeof VideoListJson);
+            let list1 = VideoListJson[0][1];
+            LISTS = [list1];
+            // log(LISTS);
+        `,
     },
-    搜索:"js:let d=[];pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;log(input);let html=request(input);var list=pdfa(html,'.book_slist&&.bookbox');list.forEach(function(it){d.push({title:pdfh(it,'h4&&Text'),desc:pdfh(it,'.update&&Text'),pic_url:pd(it,'img&&orgsrc'),url:'http://m.ychy.com/book/'+pdfh(it,'.bookbox&&bookid')+'.html'})});setResult(d);",
+    搜索:`js:
+        let d = [];
+        pdfh = jsp.pdfh;pdfa = jsp.pdfa;pd = jsp.pd;
+        // log(input);
+        let html = request(input);
+        var list = pdfa(html, '.book_slist&&.bookbox');
+        list.forEach(function(it) {
+            d.push({
+                title: pdfh(it, 'h4&&Text'),
+                desc: pdfh(it, '.update&&Text'),
+                pic_url: pd(it, 'img&&orgsrc'),
+                url: 'http://m.ychy.com/book/' + pdfh(it, '.bookbox&&bookid') + '.html'
+            })
+        });
+        setResult(d);
+    `,
 }

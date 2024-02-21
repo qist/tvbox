@@ -79,12 +79,16 @@ var rule = {
                 vod_director: node.author.userinfo.username,
                 vod_content: node.content.replaceAll('\\n','/').strip()
             };
-            let episodes = node.video.content.progressive;
+            let vid = node.video.vid;
+            let appKey = node.video.appKey;
+            let link = 'https://mod-api.xinpianchang.com/mod/api/v2/media/'+ vid +'?appKey='+ appKey +'&extend=userInfo%2CuserStatus';
+            let node2 = JSON.parse(request(link)).data;
+            let episodes = node2.resource.progressive;
             if (typeof play_url === "undefined") {
                 var play_url = ""
             }
             let vod_play_url = episodes.map(function(it) {
-                return it.profile + "$" + it.https_url
+                return it.profile + "$" + it.url
             }).join("#")
             VOD.vod_play_from = '道长在线';
             VOD.vod_play_url = vod_play_url

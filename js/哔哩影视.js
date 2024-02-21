@@ -30,7 +30,7 @@ var rule = {
     headers:{
         'User-Agent':'PC_UA',
         "Referer": "https://www.bilibili.com",
-        "Cookie":"http://127.0.0.1:9978/file/TV/cookie.txt"
+        "Cookie":"$bili_cookie"
     },
     timeout:5000,
     class_name:'番剧&国创&电影&电视剧&纪录片&综艺&全部&追番&追剧&时间表',

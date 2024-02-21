@@ -29,15 +29,15 @@ var rule={
     class_url:'1&2&4',
     play_parse:true,
     lazy:`js:
-        pdfh = jsp.pdfh;
-        pdfa = jsp.pdfa;
-        pd = jsp.pd;
+        pdfh = jsp.pdfh;pdfa = jsp.pdfa;pd = jsp.pd;
         var html = pd(request(input), 'iframe&&src');
         var apiurl = '';
         if (/api\\.hhplayer/.test(html)) {
             apiurl = 'https://api.hhplayer.com/api.php';
         } else if (/hkjx\\.hhplayer/.test(html)) {
             apiurl = 'https://hkjx.hhplayer.com/api.php';
+        } else if (/hhjx\\.hhplayer/.test(html)) {
+            apiurl = 'https://hhjx.hhplayer.com/api.php';
         } else if (/play\\.hhplayer/.test(html)) {
             apiurl = 'https://play.hhplayer.com/hhjx/api.php';
         }
@@ -47,15 +47,24 @@ var rule={
         eval(pdfh(request(html), 'body&&script,0&&Html').split('var act')[0].replaceAll('var ', ''));
         var purl = JSON.parse(request(apiurl, {
             headers: {
-                'Referer': html
+                'User-Agent': MOBILE_UA,
+                'referer': html
             },
             body: 'url=' + url + '&t=' + t + '&key=' + key + '&act=0&play=1',
             method: 'POST'
         })).url;
-        input = {
-            jx: 0,
-            url: /http/.test(purl) ? purl: 'https://api.hhplayer.com' + purl,
-            parse: 0
+        if (/obj\\/tos/.test(purl)) {
+            input = {
+                jx: 0,
+                url: purl,
+                parse: 0
+            }
+        } else {
+            input = {
+                jx: 0,
+                url: /http/.test(purl) ? purl: 'https://api.hhplayer.com' + purl,
+                parse: 0
+            }
         }
     `,
     推荐:'.v_list,0&&li;*;*;*;*',

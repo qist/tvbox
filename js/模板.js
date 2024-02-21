@@ -270,7 +270,7 @@ function getMubans() {
             host: '',
             class_name:'电影&电视剧&综艺&动漫',
             class_url:'1&2&3&4',
-            searchUrl: '/index.php/ajax/suggest?mid=1&wd=**',
+            searchUrl: '/index.php/ajax/suggest?mid=1&wd=**&limit=50',
             searchable: 2,
             quickSearch: 0,
             headers:{'User-Agent':'MOBILE_UA'},
@@ -280,6 +280,9 @@ function getMubans() {
             filter: {},
             filter_def:{},
             detailUrl:'/index.php/vod/detail/id/fyid.html',
+            play_parse: true,
+            lazy: '',
+            limit: 6,
             推荐:'.list-vod.flex .public-list-box;a&&title;.lazy&&data-original;.public-list-prb&&Text;a&&href',
             一级:'js:let body=input.split("#")[1];let t=Math.round(new Date/1e3).toString();let key=md5("DS"+t+"DCC147D11943AF75");let url=input.split("#")[0];body=body+"&time="+t+"&key="+key;print(body);fetch_params.body=body;let html=post(url,fetch_params);let data=JSON.parse(html);VODS=data.list.map(function(it){it.vod_pic=urljoin2(input.split("/i")[0],it.vod_pic);return it});',
             二级:{

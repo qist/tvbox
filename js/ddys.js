@@ -7,8 +7,7 @@ if (typeof play_url === "undefined") {
 	var play_url = ""
 }
 
-function getLists(html) 
-{
+function getLists(html) {
 	let src = pdfh(html, ".wp-playlist-script&&Html");
 	src = JSON.parse(src).tracks;
 	let list1 = [];
@@ -42,9 +41,7 @@ var data = getLists(html);
 var list1 = data.list1;
 var list2 = data.list2;
 let nums = pdfa(html, "body&&.post-page-numbers");
-nums.forEach
-(function(it) 
-{
+nums.forEach(function(it) {
 	let num = pdfh(it, "body&&Text");
 	log(num);
 	let nurl = input + num + "/";
@@ -57,29 +54,13 @@ nums.forEach
 	list1 = list1.concat(data.list1);
 	list2 = list2.concat(data.list2)
 });
-
-
 list1 = list1.map(function(item) {
 	return item.title + "$" + play_url + urlencode(item.url + "|" + input + "|" + item.desc)
 });
 list2 = list2.map(function(item) {
 	return item.title + "$" + play_url + urlencode(item.url + "|" + input + "|" + item.desc)
 });
-LISTS=[];
-let dd = pdfa(html, 'div.wp-playlist~a');
-dd.forEach(function(it){
-	let burl = pd(it, 'a&&href', HOST);
-	if (/(pan.quark.cn|www.aliyundrive.com|www.alipan.com)/.test(burl)){
-		let type="ali";
-		if (burl.includes("www.aliyundrive.com") || burl.includes("www.alipan.com")){
-			type = "ali";
-		}else if (burl.includes("pan.quark.cn")){
-			type = "quark";
-		}
-		LISTS.push([burl+ '$' + play_url + urlencode('http://127.0.0.1:9978/proxy?do='+type+'&type=push&url='+encodeURIComponent(burl)) + '||']);
-	}
-});
-LISTS = LISTS.concat([list1, list2]);
+LISTS = [list1, list2];
 `;
 
 var lazy = `js:
@@ -145,29 +126,10 @@ var rule={
         "img":".doulist-item&&img&&data-cfsrc",
         "desc":".published&&Text",
         "content":".abstract&&Text",
-        "tabs":`js:
-TABS=[];
-let d = pdfa(html, 'div.wp-playlist~a');
-let tabsq=[];
-d.forEach(function(it){
-	let burl = pd(it, 'a&&href', HOST);
-	if (burl.includes("pan.quark.cn")){
-		tabsq.push("夸克網盤");
-	}else if (burl.includes("www.aliyundrive.com") || burl.includes("www.alipan.com")){
-		tabsq.push("阿里雲盤");
-	}
-});
-if (tabsq.length == 1){
-	TABS=TABS.concat(tabsq);
-}else{
-	let tmpIndex=1;
-	tabsq.forEach(function(it){
-		TABS.push(it+tmpIndex);
-		tmpIndex++;
-	});
-}
-TABS=TABS.concat(['国内(改Exo播放器)','国内2']);
-`,
+        // "tabs":"js:TABS=['国内','海外(貌似不能播放)']",
+        "tabs":"js:TABS=['国内(改Exo播放器)','国内2']",
+        // "lists":"js:log(TABS);let d=[];pdfh=jsp.pdfh;pdfa=jsp.pdfa;if(typeof play_url===\"undefined\"){var play_url=\"\"}function getLists(html){let src=pdfh(html,\".wp-playlist-script&&Html\");src=JSON.parse(src).tracks;let list1=[];let list2=[];src.forEach(function(it){let src0=it.src0;let src1=it.src1;let src2=it.src2;let title=it.caption;let url1=\"https://ddys.tv/getvddr/video?id=\"+src1+\"&dim=1080P+&type=mix\";let url2=\"https://w.ddys.tv\"+src0+\"?ddrkey=\"+src2;let zm=\"https://ddys.tv/subddr/\"+it.subsrc;list1.push({title:title,url:url1,desc:zm});list2.push({title:title,url:url2,desc:zm})});return{list1:list1,list2:list2}}var data=getLists(html);var list1=data.list1;var list2=data.list2;let nums=pdfa(html,\"body&&.post-page-numbers\");nums.forEach(function(it){let num=pdfh(it,\"body&&Text\");log(num);let nurl=input+num+\"/\";if(num==1){return}log(nurl);let html=request(nurl);let data=getLists(html);list1=list1.concat(data.list1);list2=list2.concat(data.list2)});list1=list1.map(function(item){return item.title+\"$\"+play_url+urlencode(item.url+\"|\"+input+\"|\"+item.desc)});list2=list2.map(function(item){return item.title+\"$\"+play_url+urlencode(item.url+\"|\"+input+\"|\"+item.desc)});LISTS=[list1,list2];",
+        // lists:'js:log(TABS);let d=[];pdfh=jsp.pdfh;pdfa=jsp.pdfa;if(typeof play_url==="undefined"){var play_url=""}function getLists(html){let src=pdfh(html,".wp-playlist-script&&Html");src=JSON.parse(src).tracks;let list1=[];let list2=[];src.forEach(function(it){let src0=it.src0;let src1=it.src1;let src2=it.src2;let title=it.caption;let url1="https://ddys.pro/getvddr/video?id="+src1+"&dim=1080P+&type=mix";let url2="https://w.ddys.pro"+src0+"?ddrkey="+src2;let zm="https://ddys.pro/subddr/"+it.subsrc;list1.push({title:title,url:url1,desc:zm});list2.push({title:title,url:url2,desc:zm})});return{list1:list1,list2:list2}}var data=getLists(html);var list1=data.list1;var list2=data.list2;let nums=pdfa(html,"body&&.post-page-numbers");nums.forEach(function(it){let num=pdfh(it,"body&&Text");log(num);let nurl=input+num+"/";if(num==1){return}log(nurl);let html=request(nurl);let data=getLists(html);list1=list1.concat(data.list1);list2=list2.concat(data.list2)});list1=list1.map(function(item){return item.title+"$"+play_url+urlencode(item.url+"|"+input+"|"+item.desc)});list2=list2.map(function(item){return item.title+"$"+play_url+urlencode(item.url+"|"+input+"|"+item.desc)});LISTS=[list1,list2];',
         "lists":lists
     },
     搜索:'#main&&article;.post-title&&Text;;.published&&Text;a&&href'

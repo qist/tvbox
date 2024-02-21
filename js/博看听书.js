@@ -12,6 +12,40 @@ var rule = {
     headers:{'User-Agent':'MOBILE_UA'},
     推荐:'*',
     一级:'json:data.list;name;cover;extra.author;id',
-    二级:'js:let d=[];VOD={vod_url:input,vod_name:"",vod_actor:"",vod_year:"",vod_director:""};let playlists=[];let data=JSON.parse(request(input)).data;VOD.vod_name=data.list[0].id;VOD.vod_actor="▶️创建于"+data.list[0].created_at;VOD.vod_year=data.list[0].created_at.split("-")[0];VOD.vod_director="▶️更新于"+data.list[0].updated_at;let total=data.total;playlists=data.list;if(total>200){for(let i=2;i<total/200+1;i++){let listUrl=input.split("&")[0]+"&page="+i+"&num=200&order=1";let data=JSON.parse(request(listUrl)).data;playlists=playlists.concat(data.list)}}playlists.forEach(function(it){d.push({title:it.title,url:it.file})});VOD.vod_play_from="bookan";VOD.vod_play_url=d.map(function(it){return it.title+"$"+it.url}).join("#");',
+    二级:`js:
+        let d = [];
+        VOD = {
+            vod_url: input,
+            vod_name: "",
+            vod_actor: "",
+            vod_year: "",
+            vod_director: ""
+        };
+        let playlists = [];
+        let data = JSON.parse(request(input)).data;
+        VOD.vod_name = data.list[0].id;
+        VOD.vod_actor = "▶️创建于" + data.list[0].created_at;
+        VOD.vod_year = data.list[0].created_at.split("-")[0];
+        VOD.vod_director = "▶️更新于" + data.list[0].updated_at;
+        let total = data.total;
+        playlists = data.list;
+        if (total > 200) {
+            for (let i = 2; i < total / 200 + 1; i++) {
+                let listUrl = input.split("&")[0] + "&page=" + i + "&num=200&order=1";
+                let data = JSON.parse(request(listUrl)).data;
+                playlists = playlists.concat(data.list)
+            }
+        }
+        playlists.forEach(function(it) {
+            d.push({
+                title: it.title,
+                url: it.file
+            })
+        });
+        VOD.vod_play_from = "bookan";
+        VOD.vod_play_url = d.map(function(it) {
+            return it.title + "$" + it.url
+        }).join("#");
+    `,
     搜索:'*',
 }
