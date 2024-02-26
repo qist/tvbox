@@ -1,16 +1,14 @@
 ﻿{
-"spider":"./jar/okpng.txt;md5;9324a002bec86a9b0eb163e0b3f6079a",
+"spider":"./jar/okpng.txt;md5;793a740f07f09bddfcafb57eb192e2ed",
 "lives":[{"name":"live","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "sites":[
 {"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
     {"key":"南瓜弹幕版","name":"南瓜","type": 3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 10},
     {"key":"厂长弹幕版","name":"厂长","type": 3,"api":"csp_Czzy","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 25},
     {"key":"天天弹幕版","name":"天天","type": 3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 10},
-    {"key":"南坊弹幕版","name":"南坊","type": 3,"api":"csp_AppTo","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true, "string":"q5yN18yc0lGZlJ3YjF2Lt92YuQWdvx2YxlXbukWYodmbhh2ctAXYuM3bj5CN0gDM3kTM1ITMtMWasJWdw1SN29yL6MHc0RHac29u"}, "timeout": 10},
     {"key":"️爱看Bot弹幕版","name":"爱看Bot","type": 3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 10},
     {"key":"阿里合集","name":"阿里合集","type": 3,"api":"csp_AliShare","searchable":1,"changeable":0,"filterable":0,"ext": {
-      "token": "http://127.0.0.1:9978/file/TV/token.txt",
-      "share": "./json/alishare.txt"
+      "token": "http://127.0.0.1:9978/file/TV/token.txt"
     }, "timeout":30}, 
 {"key":"新6V","name":"新6V","type":3,"api":"csp_Xb6v","searchable":1,"changeable":0,"timeout":30},
 {"key":"玩偶弹幕版","name":"玩偶哥哥","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":0, "ext": {  "token": "http://127.0.0.1:9978/file/TV/token.txt","wogg": true,  "danmu" : true}, "timeout":30},
