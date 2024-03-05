@@ -1173,7 +1173,40 @@ HTV-5青少.体育,http://183.129.242.178:3333/tsfile/live/1019_1.m3u8
 兰溪新闻综合,http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8?zzhed
 
 
-
+航拍中国,#genre#
+新疆,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/611dfd08172c4e3082289d6d33db4df4/main.m3u8
+海南,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/ebc22b913d104ccfb153dc09850e0486/main.m3u8
+黑龙江,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/1199803974fe4361980f8e764d94c607/main.m3u8
+陕西,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/c698d3595f504fd09044e0b6615040f0/main.m3u8
+江西,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/8edf3fb6a69148ea9a7dc0b5a9d99fdb/main.m3u8
+上海,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/3e5279df88b44cb7933157330f967490/main.m3u8
+浙江,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/cc46d0edb5974d9bb744a009edc9c01a/main.m3u8
+四川,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/9e9b2ec70cca4cdc917672cb1e44bb01/main.m3u8
+内蒙古,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/2bdfdad540b342f592f9817cb7f3b79a/main.m3u8
+甘肃,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/1d627277720b4c4698ce58d4d2edb3b5/main.m3u8
+广东,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/d907ef756138493e9fe5b35b4ab69642/main.m3u8
+福建,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/8ba642c716404cf59a87f20ef9fc54a3/main.m3u8
+江苏,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/b1e17e11d274467db1ace20e1534a953/main.m3u8
+云南,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/dc534f3d3730442a8b50334424ec2c78/main.m3u8
+安徽,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/67c4d1c8265b45898a455f4dbaf17680/main.m3u8
+贵州,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/73c437874a0c447dbfe6d7467d4a6e64/main.m3u8
+山东,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/0263fc1d530d4b25bbc9e0ede600c7e4/main.m3u8
+天津,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/5f03d9f1684241f696b25a19ffc44145/main.m3u8
+山西,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/4c0d9387b7514640bc9fceee79257be4/main.m3u8
+吉林,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/ad1e94a68cb440fd98317cc3aa7f4f31/main.m3u8
+湖南,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/18a8a559464448dbaf60d33913e09aea/main.m3u8
+河北,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/2f1976058d334d3b9e432de9e0ddc8e0/main.m3u8
+宁夏,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/163c971a8ec44f0ba5dd1dc3ddffb8d7/main.m3u8
+北京,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/d2b996adc74941d8b18af4a82df6972b/main.m3u8
+广西,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/57400214d2a64554a93f819631d46766/main.m3u8
+青海,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/37a98a385a0a4742bb46c310bd797a1d/main.m3u8
+湖北,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/4f253c1adc434f819c2491b9a5f326ba/main.m3u8
+香港,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/763994da44384f20bae60e9d49a8769c/main.m3u8
+西藏,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/5f840db8da9d151bc279ae539f6c94b6/main.m3u8
+澳门,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/5f840db8da9d151bc279ae539f6c94b6/main.m3u8
+重庆,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/fc03aed689834faaa8985e31a0b316ef/main.m3u8
+河南,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/c6a5a084a7d84573b5f9a2cee6bcc904/main.m3u8
+台湾,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/1627f3db2a1040eaa42b8fe0e9866fb7/main.m3u8
 
 纪录片频道,#genre#
 人与自然,http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1425e1d505654cb48ba82b807b221193/1200.m3u8
