@@ -1204,10 +1204,11 @@ HTV-5青少.体育,http://183.129.242.178:3333/tsfile/live/1019_1.m3u8
 青海,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/37a98a385a0a4742bb46c310bd797a1d/main.m3u8
 湖北,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/4f253c1adc434f819c2491b9a5f326ba/main.m3u8
 香港,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/763994da44384f20bae60e9d49a8769c/main.m3u8
-西藏,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/5f840db8da9d151bc279ae539f6c94b6/main.m3u8
-澳门,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/5f840db8da9d151bc279ae539f6c94b6/main.m3u8
+西藏,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/59f8aa7148434102903f2c855bd489dd/main.m3u8
+澳门,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/75d7257f558e47869e4fb669f3e54ed8/main.m3u8
 重庆,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/fc03aed689834faaa8985e31a0b316ef/main.m3u8
 河南,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/c6a5a084a7d84573b5f9a2cee6bcc904/main.m3u8
+辽宁,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/b5a9b53da6944983baba4bc9ccb801e2/main.m3u8
 台湾,https://newcntv.qcloudcdn.com/asp/hls/main/0303000a/3/default/1627f3db2a1040eaa42b8fe0e9866fb7/main.m3u8
 
 纪录片频道,#genre#
