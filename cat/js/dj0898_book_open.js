@@ -89,6 +89,7 @@ async function category(tid, pg, filter, extend) {
 
 async function detail(id) {
     const vod = {
+		audio: 1,
         book_id: id,
         type_name: '',
         book_year: '',

@@ -1,12 +1,12 @@
-import { Crypto, load, _ } from './lib/cat.js';
+// 自动从 地址发布页 获取&跳转url地址
+import { Crypto, load, _ } from 'assets://js/lib/cat.js';
 
 let key = 'czzy';
-let url = 'https://www.czzy88.com/';
+let host = 'https://cz01.vip/'; // 厂长地址发布页
+let url = '';
 let siteKey = '';
 let siteType = 0;
-
 const UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1';
-
 const cookie = {};
 
 async function request(reqUrl, referer, mth, data, hd) {
@@ -48,13 +48,43 @@ async function request(reqUrl, referer, mth, data, hd) {
 async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype;
+    url = await checkValidUrl(cfg.ext);
+    console.debug('厂长跳转地址 =====>' + url); // js_debug.log
+}
+
+async function checkValidUrl(ext) {
+    let validUrl = ext;
+    if (_.isEmpty(ext)) {
+        let html = await request(host);
+        let matches = html.matchAll(/推荐访问<a href="(.*)"/g);
+        for (let match of matches) {
+            try {
+                let rcmdUrl = match[1];
+                let res = await req(rcmdUrl, {
+                    method: 'get',
+                    headers: {
+                        'User-Agent': UA,
+                    },
+                    redirect: 0,
+                });
+                let location = res.headers['location'];
+                if (!_.isEmpty(location)) {
+                    validUrl = location;
+                } else {
+                    validUrl = rcmdUrl;
+                    break;
+                }
+            } catch(e) {
+            }
+        }
+    }
+    return validUrl;
 }
 
 async function home(filter) {
     let filterObj = {};
     const html = await request(url + '/movie_bt');
     const $ = load(html);
-    const series = $('div#beautiful-taxonomy-filters-tax-movie_bt_series > a[cat-url*=movie_bt_series]');
     const tags = $('div#beautiful-taxonomy-filters-tax-movie_bt_tags > a');
     let tag = {
         key: 'tag',
@@ -66,6 +96,7 @@ async function home(filter) {
         }),
     };
     tag['init'] = tag.value[0].v;
+    const series = $('div#beautiful-taxonomy-filters-tax-movie_bt_series > a[cat-url*=movie_bt_series]');
     let classes = _.map(series, (s) => {
         let typeId = s.attribs['cat-url'];
         typeId = typeId.substring(typeId.lastIndexOf('/') + 1);
@@ -133,7 +164,6 @@ async function detail(id) {
     const detail = $('ul.moviedteail_list > li');
     let vod = {
         vod_id: id,
-        vod_name: $('div.moviedteail_tt > h1').text().trim(),
         vod_pic: $('div.dyimg img:first').attr('src'),
         vod_remarks: '',
         vod_content: stripHtmlTag($('div.yp_context').html()).trim(),

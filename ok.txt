@@ -1,30 +1,29 @@
 {
-  "spider": "https://jihulab.com/okcaptain/kko/-/raw/main/okpng.txt;md5;793a740f07f09bddfcafb57eb192e2ed",
-  "wallpaper":"http://饭太硬.top/深色壁纸/api.php",
+  "spider": "./jar/okpng.txt;md5;3fd3e1649b32f847bc2f585947b9386f",
+  "wallpaper":"https://jihulab.com/okcaptain/kko/-/raw/main/w1.jpg",
 
   "sites": [
     {"key":"豆瓣","name":"🤓公众号┃OK猫影","type":3,"api":"csp_Douban","searchable":0,"changeable":1},
-    {"key":"配置中心","name":"👨‍🍳‍配置┃中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.43}},
+    {"key":"配置中心","name":"👨‍🍳‍配置┃中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}},
     {"key":"南瓜弹幕版","name":"🎃南瓜┃弹幕","type": 3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 10},
     {"key":"厂长弹幕版","name":"🌸厂长┃弹幕","type": 3,"api":"csp_Czzy","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 25},
-    {"key":"天天弹幕版","name":"⛅️天天┃弹幕","type": 3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 10},
     {"key":"荐片弹幕版","name":"🐭荐片┃手机","type": 3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true},"timeout":20},
     {"key":"玩偶弹幕版","name":"👽玩偶┃4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1, "ext": {
       "token": "file://TV/ali_token.txt",
       "wogg": true,
       "danmu" : true
     },"timeout":30},
-    {"key":"我的阿里","name":"🐱我的|阿里","type": 3,"api":"csp_MyAli","searchable":0,"quickSearch":0,"filterable":0,"ext": {
+    {"key":"我的阿里","name":"🐱我的|阿里","type": 3,"api":"csp_MyAli","searchable":0,"quickSearch":0,"filterable":0,"indexs":0,"ext": {
       "token": "file://TV/ali_token.txt"
     }, "style":{"type":"list"}, "timeout": 30},
-    {"key":"阿里合集","name":"🦋阿里|合集","type": 3,"api":"csp_AliShare","searchable":1,"changeable":0,"filterable":0,"ext": {
+    {"key":"阿里合集","name":"🦋阿里|合集","type": 3,"api":"csp_AliShare","searchable":1,"changeable":0,"filterable":0,"indexs":0,"ext": {
       "token": "file://TV/ali_token.txt",
       "share": "file://TV/阿里集合.json"
     }, "style":{"type":"list"}, "timeout": 30},
-    {"key":"运输车弹幕版","name":"🚗运输车┃4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1, "ext": {
+    {"key":"运输车弹幕版","name":"🚗影视车┃4K弹幕","type":3,"api":"csp_Wogg","searchable":1,"filterable":1,"changeable":1, "ext": {
       "token": "file://TV/ali_token.txt",
       "cookie": "file://TV/quark_cookie.txt",
-      "site": "https://www.weixine.net",
+      "site": "https://www.weixine.link",
       "danmu" : true
     }, "timeout": 25},
     {"key":"团长弹幕版","name":"🗽团长┃4K弹幕","type":3,"api":"csp_Tzfile","searchable":1,"filterable":1,"changeable":1, "ext": {
@@ -76,6 +75,7 @@
 
     {"key":"短剧网","name":"🌈短剧┃在线","type":3,"api":"csp_Duanju5","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},"timeout":10},
     {"key":"看球","name":"⚽看球┃在线","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"},"timeout":10},
+    {"key":"JRK","name":"🏀JRK┃直播","type":3,"api":"https://jihulab.com/okcaptain/kko/-/raw/main/drpy/drpy2.min.js","ext":"https://jihulab.com/okcaptain/kko/-/raw/main/js/jrk.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0,"timeout":20},
     {"key":"虎牙直播js","name":"🐯虎牙┃直播","type":3,"api":"https://jihulab.com/okcaptain/kko/-/raw/main/drpy/drpy2.min.js","ext":"https://jihulab.com/okcaptain/kko/-/raw/main/js/huyazhibo.js","style":{"type":"rect","ratio":1.755},"searchable": 0,"quickSearch": 0,"changeable":0,"timeout":10},
     {"key":"斗鱼js","name":"🐟斗鱼┃直播","type":3,"api":"https://jihulab.com/okcaptain/kko/-/raw/main/drpy/drpy2.min.js","ext":"https://jihulab.com/okcaptain/kko/-/raw/main/js/douyuzhibo.js","style":{"type":"rect","ratio":1.755},"searchable": 0,"quickSearch": 0,"changeable":0,"timeout":10},
     {"key":"聚短视频js","name":"📽️聚短┃视频","type":3,"api":"https://jihulab.com/okcaptain/kko/-/raw/main/drpy/drpy2.min.js","ext":"https://jihulab.com/okcaptain/kko/-/raw/main/js/duanshipin.js","searchable": 0,"quickSearch": 0,"changeable":0,"timeout":10},
@@ -93,6 +93,7 @@
     {"key":"索尼","name":"🤔索尼┃采集","type":1,"api":"https://suoniapi.com/api.php/provide/vod","searchable":1,"changeable":1,"timeout":10},
     {"key":"快帆","name":"😒快帆┃采集","type":1,"api":"https://api.kuaifan.tv/api.php/provide/vod","searchable":1,"changeable":1,"timeout":10},
     {"key":"量子","name":"🤠量子┃采集","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"timeout":10},
+    {"key":"csp_AList","name":"🦋AList","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":0,"style":{"type":"list"},"ext": "file://TV/alist.json","timeout":15},
     {"key":"csp_QuPanSou","name":"🤓趣盘搜┃搜索","type":3,"api":"csp_QuPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt", "danmu": true},"timeout":15},
     {"key":"csp_Qkpanso","name":"🐚夸克盘搜┃搜索","type":3,"api":"csp_Qkpanso","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt", "danmu": true},"timeout":15},
     {"key":"csp_AiPanSou","name":"🥰爱盘搜┃搜索","type":3,"api":"csp_AiPanSou","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"file://TV/quark_cookie.txt", "danmu": true},"timeout":15},

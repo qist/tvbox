@@ -2,8 +2,8 @@
 import { load, _ } from './lib/cat.js';
 
 let key = 'duboku';
-let HOST = 'https://www.duboku.tv';
-// let HOST = 'https://u.duboku.io';
+let HOST = 'https://u.duboku.io';
+// let HOST = 'https://www.duboku.tv';
 let siteKey = '';
 let siteType = 0;
 

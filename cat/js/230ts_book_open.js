@@ -103,6 +103,7 @@ async function detail(id) {
     const $ = load(html);
     const detail = $('div.book-cell:first > div');
     let vod = {
+		audio:1,
         book_id: id,
         type_name: $('h1:first').text().trim().replace('有声小说',''),
         // vod_pic: HOST + $('div.myui-content__thumb img:first').attr('data-original'),

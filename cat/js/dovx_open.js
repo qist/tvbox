@@ -5,7 +5,7 @@ import { initAli, detailContent, playContent } from './lib/ali.js';
 let siteKey = 'dovx';
 let siteType = 0;
 let siteUrl = 'https://api.dovx.tk';
-let patternAli = /(https:\/\/www\.aliyundrive\.com\/s\/[^"]+)/
+let patternAli = /(https:\/\/www\.(aliyundrive|alipan)\.com\/s\/[^"]+)/
 
 async function request(reqUrl) {
     let res = await req(reqUrl, {

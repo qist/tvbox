@@ -1,7 +1,7 @@
 import { _, load } from './lib/cat.js';
 
 let key = '13bqg';
-let url = 'https://m.13bqg.com';
+let url = 'https://m.13bqg.cc';
 let siteKey = '';
 let siteType = 0;
 

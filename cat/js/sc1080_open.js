@@ -100,12 +100,12 @@ async function detail(id) {
         vod_id: id,
         vod_name: $('.page-title').text(),
         vod_area: $('a.tag-link:last').text(),
-        vod_year: $('a.tag-link:eq(1)').text(),
+        vod_year: $('a.tag-link:first').text(),
         vod_director: $('.video-info-main .video-info-items:contains(导演：)').text().substring(3).replace(/(^\/|\/$)/g, ''),
         vod_actor: $('.video-info-main .video-info-items:contains(主演：)').text().substring(3).replace(/(^\/|\/$)/g, ''),
         vod_pic: $('.video-cover img:first').attr('data-src'),
         vod_remarks : $('.stui-content__thumb span.pic-text').text(),
-        vod_content: $('.video-info-main .video-info-items:contains(剧情：)').text().substring(3).replace(/收起$/g, ''),
+        vod_content: $('.video-info-main .video-info-items:contains(剧情：)').text().substring(3),
     };
     const playMap = {};
     const tabs = $('.module-player-tab .tab-item');

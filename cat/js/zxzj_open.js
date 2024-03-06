@@ -2,7 +2,7 @@ import { Crypto, load, _ } from 'assets://js/lib/cat.js';
 
 let key = 'zxzj';
 let HOST = 'https://www.zxzj.site'; // 地址发布页
-let host = '';
+let host = 'https://www.zxzja.com';
 let siteKey = '';
 let siteType = 0;
 
