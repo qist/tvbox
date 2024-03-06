@@ -1,10 +1,10 @@
 ﻿{
     "video": {
         "sites": [
-{
+            {
                 "key": "豆瓣",
                 "name": "🟢 豆瓣👁️‍",
-    "type": 3,
+                "type": 3,
                 "indexs": 1,
                 "api": "douban_open.js"
             },
@@ -116,7 +116,7 @@
                 "api": "qiao2_open.js",
                 "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"
             },
-                      {
+            {
                 "key": "kanqiu",
                 "name": "🟢 看球①",
                 "type": 3,
@@ -221,25 +221,25 @@
                 "name": "🟢 斗鱼",
                 "type": 3,
                 "api": "douyu_open.js",
-    "ext": {
+                "ext": {
                     "from": "official",
                     "custom": "Popkart,跑跑卡丁车#KartRiderDrift,跑跑卡丁车：漂移#PPKDCSY,跑跑手游#PathofExile,流放之路#hjzgwx,火炬之光：无限#CrossGate,魔力宝贝#g_jyhx,劲乐幻想#xjcs,仙境传说#yqk,一起看"
-    }
-},
-{
+                }
+            },
+            {
                 "key": "虎牙直播",
                 "name": "🟢 虎牙",
-    "type": 3,
+                "type": 3,
                 "api": "huya_open.js",
-    "ext": {
+                "ext": {
                     "from": "official",
                     "custom": "2135,一起看#6245,放映厅#427,流放之路#6399,火炬之光：无限#2891,魔力宝贝#2620,跑跑卡丁车手游#162,跑跑卡丁车#7691,劲乐幻想#2675,仙境传说RO"
-    }
-},
-{
+                }
+            },
+            {
                 "key": "我的哔哩",
                 "name": "🟢 我哔",
-    "type": 3,
+                "type": 3,
                 "api": "mybili_open.js"
             },
             {
@@ -247,26 +247,26 @@
                 "name": "🟢 哔哩",
                 "type": 3,
                 "api": "bili_open.js",
-    "ext": {
+                "ext": {
                     "categories": "音乐#动画#电影#电视剧#番剧#综艺#国创#搞笑#单机游戏#沙雕动画#沙雕穿越#沙雕",
                     "cookie": "DedeUserID=690781341;DedeUserID__ckMd5=cabc96906269c5b6;SESSDATA=2245ba24%2C1684212125%2C466fd%2Ab2;bili_jct=de6fdb60c10f8a83910aa55d79407b4e;"
-    }
-},
-{
+                }
+            },
+            {
                 "key": "哔哩直播",
                 "name": "🟢 直播",
-    "type": 3,
+                "type": 3,
                 "api": "bililive_open.js",
-    "ext": {
+                "ext": {
                     "cookie": "DedeUserID=690781341;DedeUserID__ckMd5=cabc96906269c5b6;SESSDATA=2245ba24%2C1684212125%2C466fd%2Ab2;bili_jct=de6fdb60c10f8a83910aa55d79407b4e;"
-    }
-},
-{
+                }
+            },
+            {
                 "key": "火狐资源",
                 "name": "🟢 火狐",
-    "type": 3,
+                "type": 3,
                 "api": "caiji.js",
-    "ext": {
+                "ext": {
                     "url": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8",
                     "categories": [
                         "内地剧",
@@ -298,8 +298,8 @@
                         "港台综艺",
                         "欧美综艺"
                     ]
-    }
-},
+                }
+            },
             {
                 "key": "新浪资源",
                 "name": "🟢 新浪",
@@ -876,7 +876,7 @@
                 "onSurface": "0xFFC7C7C0",
                 "surfaceVariant": "0xFF43483E",
                 "onSurfaceVariant": "0xFFC7C7C0"
-        }
+            }
         }
     ]
 }
