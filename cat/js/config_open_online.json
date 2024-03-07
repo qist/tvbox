@@ -1,7 +1,7 @@
 ﻿{
     "video": {
         "sites": [
-{"key":"douban_open","name":"🟢 豆瓣👁️","type":3,"indexs":1,"api":"douban_open.js"},
+{"key":"豆瓣","name":"🟢 豆瓣👁️","type":3,"indexs":1,"api":"douban_open.js"},
 {"key":"doubanbb","name":"🟢 片单","type":3,"indexs":1,"api":"doubanbb.js"},
 {"key":"玩偶哥哥","name":"🟢 玩偶","type":3,"api":"wogg_open.js","ext":"填入阿里token"},
 {"key":"玩偶表哥","name":"🟢 表哥","type":3,"api":"wobg_open.js","ext":"填入阿里token"},
