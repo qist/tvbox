@@ -125,26 +125,6 @@
 {"key":"58dm_open","name":"动漫 | 58动漫","type":3,"api":"58dm_open.js"},
 {"key":"ufc_open","name":"格斗 | 武享","type":3,"api":"ufc_open.js"},
 {"key":"sharenice","name":"聚合 | 短视频","type":3,"api":"sharenice_open.js"},
-{
-    "key": "huya",
-    "name": "直播 | 虎牙",
-    "type": 3,
-    "api": "huya_open.js",
-    "ext": {
-        "from": "official",
-        "custom": "1,英雄联盟#2336,王者荣耀"
-    }
-},
-{
-    "key": "douyu",
-    "name": "直播 | 斗鱼",
-    "type": 3,
-    "api": "douyu_open.js",
-    "ext": {
-        "from": "official",
-        "custom": "LOL,英雄联盟#wzry,王者荣耀"
-    }
-},
 {"key":"mybili","name":"B站 | 哔哩综合","type":3,"api":"mybili_open.js"},
 {"key":"bili_open","name":"B站 | 我的哔哩","type":3,"api":"bili_open.js","ext":{"categories":"沙雕动画#健身#音乐#舞蹈#风景#美食#科普#历史#法考#医考","cookie":"填自己的cookie"}},
 {"key":"kuqimv","name":"MV | 酷奇","type":3,"api":"kuqimv_open.js"},
