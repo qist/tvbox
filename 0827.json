@@ -48,6 +48,7 @@
       "changeable": 1,
       "ext": "./json/jianpian.json"
     },
+{"key":"drpy_js_ikanbot3","name":"爱看","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
     {
       "key": "獨播",
       "name": "獨播",
@@ -98,22 +99,6 @@
         "纪录片",
         "经典片"
       ]
-    },
-    {
-      "key": "996影院",
-      "name": "996影院",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "短劇",
-      "name": "短劇",
-      "type": 3,
-      "api": "csp_Duanju",
-      "searchable": 1,
-      "changeable": 0
     },
     {
       "key": "豆瓣",
@@ -229,7 +214,7 @@
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "api": "./cat/js/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
