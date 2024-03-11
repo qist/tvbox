@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;0291baf74f90cc4d908393c5dcbea4bb",
+"spider":"./jar/pg.jar;md5;818035a55579d7d625a70c01485f1cca",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -26,6 +26,7 @@
 {"key": "Iktv","name": "KTV","type": 3,"api": "csp_Iktv","searchable": 1,"changeable": 0},
 {"key": "Yinyuetai","name": "音悦台","type": 3,"api": "csp_Yinyuetai","searchable": 1,"changeable": 0},
 
+{"key":"PushShare","name":"资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pushshare.txt$$$db$$$1","style": {"type": "list"}},
 {"key":"PikPakShare","name":"PikPak分享","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.json$$$./json/pikpakclass.json.db.gz"},
 {"key":"AliShare","name":"影视分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/alishare.txt$$$db$$$1"},
 {"key":"AliShareEBook","name":"书籍分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/alishare.ebook.txt$$$db$$$1","style":{"type":"list"}},

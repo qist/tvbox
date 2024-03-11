@@ -16,18 +16,24 @@
                 "api": "./doubanbb.js"
             },
             {
+        "key": "cntv",
+        "name": "🟢 央视",
+        "type": 3,
+        "api": "./cntv_open.js"
+      },
+      {
                 "key": "玩偶哥哥",
                 "name": "🟢 玩偶",
                 "type": 3,
                 "api": "./wogg_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "玩偶表哥",
                 "name": "🟢 表哥",
                 "type": 3,
                 "api": "./wobg_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "耐看",
@@ -36,28 +42,16 @@
                 "api": "./nkvod_open.js"
             },
             {
-                "key": "爱看机器人",
+        "key": "ikanbot",
                 "name": "🟢 爱看",
                 "type": 3,
-                "api": "./ikanbot_open.js"
+        "api": "./ikanbot_bytecode.js"
             },
             {
                 "key": "tiantian",
                 "name": "🟢 天天",
                 "type": 3,
                 "api": "./tiantian_open.js"
-            },
-            {
-                "key": "快看影视",
-                "name": "🟢 快看",
-                "type": 3,
-                "api": "./kkys_open.js"
-            },
-            {
-                "key": "厂长资源",
-                "name": "🟢 厂长",
-                "type": 3,
-                "api": "./czzy_open.js"
             },
             {
                 "key": "素白白",
@@ -72,16 +66,10 @@
                 "api": "./ddys_open.js"
             },
             {
-                "key": "高光影视",
-                "name": "🟢 高光",
+        "key": "jojo_yozo",
+        "name": "🟢 JOJO",
                 "type": 3,
-                "api": "./ggys_open.js"
-            },
-            {
-                "key": "libvio",
-                "name": "🟢 立波",
-                "type": 3,
-                "api": "./libvio_open.js"
+        "api": "./jojo_bytecode.js"
             },
             {
                 "key": "电视直播",
@@ -102,42 +90,7 @@
                 "type": 3,
                 "api": "./nangua_open.js"
             },
-            {
-                "key": "巧技一",
-                "name": "🟢 巧技①",
-                "type": 3,
-                "api": "./qiao2_open.js",
-                "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"
-            },
-            {
-                "key": "巧技二",
-                "name": "🟢 巧技②",
-                "type": 3,
-                "api": "./qiao2_open.js",
-                "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3"
-            },
-                      {
-                "key": "kanqiu",
-                "name": "🟢 看球①",
-                "type": 3,
-                "api": "./kanqiu_open.js",
-                "searchable": 0,
-                "changeable": 0,
-                "style": {
-                    "type": "list"
-                }
-            },
-            {
-                "key": "360ba",
-                "name": "🟢 看球②",
-                "type": 3,
-                "api": "./360ba_open.js",
-                "searchable": 0,
-                "changeable": 0,
-                "style": {
-                    "type": "list"
-                }
-            },
+
             {
                 "key": "在线之家",
                 "name": "🟢 在线",
@@ -187,16 +140,22 @@
                 "api": "./nmddd_open.js"
             },
             {
+        "key": "dsxys",
+        "name": "🟢 师兄",
+        "type": 3,
+        "api": "./dsxys_open.js"
+      },
+      {
                 "key": "anfun",
                 "name": "🟢 Afun",
                 "type": 3,
                 "api": "./anfun_open.js"
             },
             {
-                "key": "58dm",
-                "name": "🟢 五八",
+        "key": "厂长资源",
+        "name": "🟢 厂长",
                 "type": 3,
-                "api": "/cat/58dm_open.js"
+        "api": "./czzy_open.js"
             },
             {
                 "key": "爱动漫",
@@ -206,13 +165,13 @@
             },
             {
                 "key": "酷我短剧",
-                "name": "🟢 酷我",
+        "name": "🟢 短剧①",
                 "type": 3,
                 "api": "./kuwo_open.js"
             },
             {
                 "key": "短剧网",
-                "name": "🟢 短剧",
+        "name": "🟢 短剧②",
                 "type": 3,
                 "api": "./duanju5_open.js"
             },
@@ -527,56 +486,56 @@
                 "name": "🔍 盘寻",
                 "type": 3,
                 "api": "./pansearch_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "阿里盘搜",
                 "name": "🔍 盘搜",
                 "type": 3,
                 "api": "./pansou_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "阿里七夜",
                 "name": "🔍 七夜",
                 "type": 3,
                 "api": "./dovx_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "小纸条",
                 "name": "🔍 纸条",
                 "type": 3,
                 "api": "./xiaozhitiao_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "UP云搜",
                 "name": "🔍 云搜",
                 "type": 3,
                 "api": "./upyun_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "易搜",
                 "name": "🔍 易搜",
                 "type": 3,
                 "api": "./yiso_open.js",
-                "ext": "填入阿里token$$$易搜账号cookie"
+        "ext": "阿里token$$$易搜账号cookie"
             },
             {
                 "key": "云盘4K",
                 "name": "🔍 云盘",
                 "type": 3,
                 "api": "./yunpan4k_open.js",
-                "ext": "填入阿里token"
+        "ext": "阿里token"
             },
             {
                 "key": "找资源",
                 "name": "🔍 资源",
                 "type": 3,
                 "api": "./zhaozy_open.js",
-                "ext": "填入阿里token$$$找资源账号$$$找资源密码"
+        "ext": "阿里token$$$找资源账号$$$找资源密码"
             },
             {
                 "key": "夸克趣盘搜",

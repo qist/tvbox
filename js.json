@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;0291baf74f90cc4d908393c5dcbea4bb",
+"spider":"./jar/pg.jar;md5;818035a55579d7d625a70c01485f1cca",
 "lives":[
 {"name":"live","type":0,"url":"./tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ipv6","type":0,"url":"https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -31,6 +31,7 @@
 {"key": "追剧","name": "弹幕 | 追剧[jar]","type": 3,"api": "csp_TTian","playerType": 1,"ext": "http://app.kzjtv.com$$$null$$$1"},
 {"key":"NanGua","name":"弹幕 | 南瓜[jar]","type":3,"api":"csp_NanGua","searchable":1,"changeable":1,"ext":"null$$$1"},
 {"key":"蝴蝶","name":"弹幕 | 蝴蝶[jar]","type":3,"api":"csp_Hudie","playerType":2,"ext":"https://yundun-hdsign.zhuifeng100.cn|kT2taP|75f7fac7f56d812d1f9ce89d9f312984|b7688bd6347da0b2b62515b0730b872b$$$null$$$1"},
+{"key":"PushShare","name":"弹幕 | 资源分享[jar]","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pushshare.txt$$$db$$$1","style": {"type": "list"}},
 {"key":"PikPakShare","name":"弹幕 | PikPak分享[jar]","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.json$$$./json/pikpakclass.json.db.gz"},
 {"key":"AliShare","name":"弹幕 | 影视分享[jar]","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/alishare.txt$$$db$$$1"},
 {"key":"ThunderShare","name":"弹幕 | 迅雷分享[jar]","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/thundershare.txt"},
