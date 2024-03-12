@@ -49,6 +49,7 @@
       "ext": "./json/jianpian.json"
     },
 {"key":"drpy_js_ikanbot3","name":"爱看","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
+{"key":"T4-duanju5","name":"短剧屋","type":4,"api":"https://catbox.n13.club/duanju5.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":true},
     {
       "key": "獨播",
       "name": "獨播",

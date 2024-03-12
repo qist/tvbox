@@ -17,6 +17,7 @@
 {"key": "JustLive","name": "JustLive","type": 3,"api": "csp_JustLive","searchable": 1,"changeable": 0},
 {"key":"lf_js_lf_live","name":"直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 {"key":"drpy_js_ikanbot3","name":"爱看","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
+{"key":"T4-duanju5","name":"短剧屋","type":4,"api":"https://catbox.n13.club/duanju5.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":true},
 
 {"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"}},
 {"key":"88js","name":"88看球","type":3,"api":"./lib/drpy.min.js","ext":"./js/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
