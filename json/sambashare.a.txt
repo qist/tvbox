@@ -1,0 +1,7 @@
+user:pass@192.168.101.13/share Samba分享 0 updated_at DESC
+user:pass@192.168.101.13/share2 Samba分享2 0 updated_at DESC
+user:pass@192.168.101.13/share8 Samba分享8 0 updated_at DESC
+user:pass@192.168.101.13/share10 Samba分享10 0 updated_at DESC
+user:pass@192.168.101.13/share11 Samba分享11 0 updated_at DESC
+user:pass@192.168.101.13/share12 Samba分享12 0 updated_at DESC
+user:pass@192.168.101.13/share13 Samba分享13 0 updated_at DESC
