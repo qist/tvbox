@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;d275081b5b9f999614a1930aa7599cb9",
+"spider":"./jar/fan.txt;md5;dd909349c70fe92e82470eba611b7094",
 "lives":[
 {"name":"ipv6","type":0,"url":"./tvboxtv.txt","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"live","type":0,"url":"https://fanmingming.com/txt?url=https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -14,6 +14,7 @@
 {"key":"YGP","name":"🚀叨观荐影┃新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"短剧","name":"🌈上头┃短剧","type":3,"api":"csp_Duanju","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"酷看","name":"💡酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"苹果","name":"🍎小苹果┃复活","type":3,"api":"csp_LiteApple","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"原创","name":"☀原创┃无广","type":3,"api":"csp_YCyz","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Xinsj","name":"👓视觉┃直连","type":3,"api":"csp_Xinsj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.80yy3.com/"},
 {"key":"厂长","name":"📔厂长┃无广","type":3,"api":"csp_Czsapp","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czzy88.com/"},
@@ -21,7 +22,6 @@
 {"key":"白嫖","name":"👻白飘┃无广","type":3,"api":"csp_BaiPiao","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"DiDuan","name":"⏮️低端┃外剧","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"南瓜","name":"🎃南瓜┃App","type":3,"api":"csp_NanGua","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"新星","name":"💥新星┃App","type":1,"api":"http://vipcom.xn--654a.cc/api.php/provide/vod/","playUrl":"json:http://json.xn--654a.cc/home/api?type=ys&uid=1323246&key=dfiopqzEHJKNOPSTY5&url=","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"毛驴","name":"🍓毛驴┃直连","type":3,"api":"csp_MLYS","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.maolvys.com/"},
 {"key":"萌米","name":"👀萌米┃App","type":3,"api":"csp_AppTT","timeout":15,"playerType":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
 {"key":"zxzj","name":"🍊在线┃外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzja.com/"},
@@ -41,7 +41,7 @@
 {"key":"Jrsjs","name":"⚽ Jrs┃球迷","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/jrk.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"310js","name":"⚽310┃看球","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/310直播.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"企鹅体育xp","name":"🐧鹅鹅┃体育","type":3,"api":"csp_XPath","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/企鹅直播.json"},
-{"key":"酷奇","name":"🎤酷狗┃MV","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/酷奇MV.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"酷奇","name":"🎤酷奇┃MV","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/酷奇MV.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"MTV","name":"🎧明星┃MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/MTV.json"},
 {"key":"csp_Yj1211","name":"📽️网红┃直播","type": 3,"api": "csp_Yj1211","playerType":"1","searchable": 0,"quickSearch": 1,"changeable":0},
 {"key":"虎牙直播js","name":"🐯虎牙┃直播","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/huya2.js","style":{"type":"rect","ratio":1.755},"playerType":"1","searchable": 0,"quickSearch": 0,"changeable":0},
