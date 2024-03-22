@@ -2,7 +2,7 @@
 "spider":"./jar/fan.txt;md5;dd909349c70fe92e82470eba611b7094",
 "lives":[
 {"name":"ipv6","type":0,"url":"./tvboxtv.txt","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"live","type":0,"url":"https://fanmingming.com/txt?url=https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+{"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 ],
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
