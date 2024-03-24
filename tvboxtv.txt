@@ -418,7 +418,7 @@ CGTN纪录,http://zteres.sn.chinamobile.com:6060/000000001000/711464783776510405
 凤凰中文台,http://1.62.64.252/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.flv
 凤凰资讯台,http://1.62.64.252/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.flv
 凤凰香港台,http://1.62.64.252/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.flv
-凤凰资讯,http://ali.hlspull.yximgs.com/live/huanqiuhklivetvjjpcpdvuejljyjjyfjoxvchjwhjwojjjhdjjlsjhbjfhjx.flv
+凤凰资讯台,http://ali.hlspull.yximgs.com/live/huanqiuhklivetvjjpcpdvuejljyjjyfjoxvchjwhjwojjjhdjjlsjhbjfhjx.flv
 TVB翡翠台,http://ali.hlspull.yximgs.com/live/huanqiuhklivefhwwjpthjyjtjjjxcxbfhjjfjvhdtjdvbtvjsjxjfsjjcvbctvbfc.flv
 TVB明珠台,http://ali.hlspull.yximgs.com/live/huanqiuhklivetcfjhvdjjxcodwoetjmncthvbstyreyhbnnvbdjjwthjyjtvbmj.flv
 TVBJ2台,http://ali.hlspull.yximgs.com/live/huanqiuhklivefhwohdpthjyfiplhdftujfbvdimhdjnbjsjbcvxjfjsehbvbjtvbd2.flv
