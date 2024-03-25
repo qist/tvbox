@@ -1,0 +1,7 @@
+{
+    "站名": "短剧侠",
+    "主页url": "https://www.duanjuxia.cn/",
+    "分类": "快手$21#抖音$22#都市$23#古装$24#重生$25#逆袭$26#虐恋$27#萌宝$28#言情$29#穿越$30#战神$31#神医$32#赘婿$33#甜宠$34#其他$35",
+    "搜索url": "https://www.duanjuxia.cn/index.php/vod/search.html?wd={wd}",
+    "分类url": "https://www.duanjuxia.cn/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/year/{year}/page/{catePg}.html"
+}

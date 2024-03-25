@@ -14,7 +14,7 @@
 {"key":"lf_js_p2p","name":"路飞 | 磁力[js]","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","timeout":30},
 {"key":"lf_js_lf_live","name":"电视 | 直播[js]","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 {"key":"drpy_js_ikanbot3","name":"影视 | 爱看机器人3[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
-{"key":"T4-duanju5","name":"影视 | 短剧屋[T4]","type":4,"api":"https://catbox.n13.club/duanju5.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":true},
+{"key":"T4-duanju5","name":"影视 | 短剧屋[T4]","type":4,"api":"https://catbox.n13.club/duanju5.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":true},
 
 {"key":"豆瓣","name":"搜索 | 豆瓣[jar]","type":3,"api":"csp_Douban","searchable":0,"changeable":1,"ext":"./json/douban.json"},
 {"key": "FirstAid","name": "科普 | 急救[jar]","type": 3,"api": "csp_FirstAid","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8}},
@@ -247,6 +247,7 @@
 
 {"key":"drpy_js_爱看机器人","name":"影视 | 爱看机器人[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/爱看机器人.js"},
 {"key":"drpy_js_ikanbot2","name":"影视 | 爱看机器人2[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot2.js"},
+{"key":"drpy_js_jsapi2","name":"影视 | 百度测试[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/jsapi2.js"},
 {"key":"drpy_js_139影视","name":"影视 | 139影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/139影视.js"},
 {"key":"drpy_js_348电影网","name":"影视 | 348电影网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/348电影网.js"},
 {"key":"drpy_js_4K电影网","name":"影视 | 4K电影网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4K电影网.js"},
