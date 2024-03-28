@@ -111,6 +111,8 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （27）github代理地址： `https://github.moeyy.xyz https://mirror.ghproxy.com/ https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
 
+（28） 还可以使用域名: `https://qist.tycng.com/jsm.json` cloudflare Pages 构建
+
 4. 随机轮换壁纸：
 
 （1）<https://bing.img.run/rand.php>
