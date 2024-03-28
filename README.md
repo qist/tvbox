@@ -113,29 +113,59 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 （28） 还可以使用域名: `https://qist.tycng.com/jsm.json` cloudflare Pages 构建
 
-4. 随机轮换壁纸：
+4. token.json格式说明：
 
-（1）<https://bing.img.run/rand.php>
+模板文件json/tokentemplate.json
 
-（2）<http://www.kf666888.cn/api/tvbox/img>
+特别警告：据传阿里要求使用者不得使用多线程加速方式使用阿里云盘资源，若并发连接数超过10有可能导致被限制访问或封禁帐号的处理，所以下方线程限制设置超过10所需承担的风险请使用者自行斟酌。
 
-（3）<https://picsum.photos/1280/720/?blur=10>
+特别警告2：迅雷云盘限制极为严格，不要尝试单token多用户异地使用，或多线程使用，随时可能封号。
 
-（4）<http://刚刚.live/图>
+可以透过配置中的“网盘及弹幕配置”的视频源来实现快捷方便的获取32位token及opentoken的功能。在“网盘及弹幕配置”中扫过任何一个OpenToken后，会自动激活“转存原画”功能
 
-（5）<http://饭.eu.org/深色壁纸/api.php>,
+提示：如果遇到极速GO原画反复快速报错，不一定是被封号，可尝试杀掉播放器重启，或重启整个播放设备解决。
 
-（6）<https://www.dmoe.cc/random.php>
+提示2：如果遇到“转存原画”速度被限制在2M左右，那麽请尝试在阿里云盘APP里退出登录，然后重新登录，然后删除播放设备SD卡的TV目
 
-（7）<https://api.btstu.cn/sjbz/zsy.php>
 
-（8）<https://api.btstu.cn/sjbz/?lx=dongman>
-
-（9）<http://api.btstu.cn/sjbz/?lx=meizi>
-
-（10）<http://api.btstu.cn/sjbz/?lx=suiji>
-
-（11）<https://pictures.catvod.eu.org/>
+```json
+{
+"token":"这里填写阿里云盘的32位token,也可以不填写,在播放阿里云盘属性时会弹出窗口,点击QrCode,用阿里云盘app扫码",
+"open_token":"这里填写通过alist或其他openapi提供方申请的280位aliyun openapi token,也可以不写,会自动隐藏转存原画",
+"thread_limit":32,//这里是阿里云盘的GO代理的并发协程数或java代理的并发线程数,若遇到账号被限制并发数,请将此数值改为10
+"is_vip":true,//是否是阿里云盘的VIP用户,设置为true后,使用vip_thread_limit设置的数值来并发加速。如本设置项目不是true,则自动隐藏"转存原画"
+"vip_thread_limit":10,//这里是阿里云盘的转存原画（OpenToken）并发线程数,若遇到账号被限制并发数,请将此数值改为10
+"quark_thread_limit":32,//这里是夸克网盘GO代理的并发协程数或java代理的并发线程数,若遇到账号被限制并发数,请将此数值改为10
+"quark_vip_thread_limit":16,//这里是夸克网盘设置quark_is_vip:true之后的并发线程数,若遇到账号被限制并发数,请将此数值改为10
+"quark_is_vip":false,//是否是夸克网盘的VIP用户,设置为true后,线程数受quark_vip_thread_limit控制
+"vod_flags":"4k|4kz|auto",//这里是播放阿里云的画质选项,4k代表不转存原画（GO原画）,4kz代表转存原画,其他都代表预览画质,可选的预览画质包括qhd,fhd,hd,sd,ld,
+"quark_flags":"4kz|auto",//这里是播放夸克网盘的画质选项,4kz代表转存原画（GO原画）,其他都代表转码画质,可选的预览画质包括4k,2k,super,high,low,normal
+"uc_thread_limit":0,
+"uc_is_vip":false,
+"uc_flags":"4kz|auto",
+"uc_vip_thread_limit":0,
+"thunder_thread_limit":0,
+"thunder_is_vip":false,
+"thunder_vip_thread_limit":0,
+"thunder_flags":"4k|4kz|auto",
+"aliproxy":"这里填写外部的加速代理,用于在盒子性能不够的情况下,使用外部的加速代理来加速播放,可以不填写",
+"proxy":"这里填写用于科学上网的地址,连接openapi或某些资源站可能会需要用到,可以不填写",
+"open_api_url":"https://api.xhofe.top/alist/ali_open/token",//这是alist的openapi接口地址,也可使用其他openapi提供商的地址。
+"danmu":true,//是否全局开启阿里云盘所有csp的弹幕支持,聚合类CSP仍需单独设置,例如Wogg,Wobg
+"quark_danmu":true,//是否全局开启夸克网盘的所有csp的弹幕支持,聚合类CSP仍需单独设置,例如Wogg,Wobg
+"quark_cookie":"这里填写通过https://pan.quark.cn网站获取到的cookie,会很长,全数填入即可。"
+"uc_cookie":"这里填写通过https://drive.uc.cn网站登录获取的cookie",
+"thunder_username":"这里填入用户名或手机号,如果是手机号,记得是类似'+86 139123457'这样的格式,+86后有空格才对",
+"thunder_password":"密码",
+"thunder_captchatoken":"首次使用迅雷网盘时,需要使用app弹出的登陆地址去接码登录,并获取captchaToken,具体方法参考alist网站的文档:https://alist.nn.ci/zh/guide/drivers/thunder.html",
+"pikpak_username":"PikPak网盘的用户名",
+"pikpak_password":"PikPak网盘的密码",
+"pikpak_flags":"4k|auto",
+"pikpak_thread_limit":2,
+"pikpak_vip_thread_limit":2,
+"pikpak_proxy":"用于科学上网连接PikPak网盘的代理服务器地址"
+}
+```
 
 自用仓库，如果喜欢，请Fork自用，谢谢！
 
