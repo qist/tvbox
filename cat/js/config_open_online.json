@@ -28,7 +28,7 @@
 {"key":"胖虎影视","name":"🟢 胖虎","type":3,"api":"panghu_open.js"},
 {"key":"人人影视","name":"🟢 人人","type":3,"api":"rttks_open.js"},
 {"key":"图图影视","name":"🟢 图图","type":3,"api":"tutu_open.js"},
-{"key":"农民影视","name":"🟢 农民","type":3,"api":"nmddd_open.js"},
+{"key":"农民影视","name":"🟢 农民","type":3,"api":"nmddd_open.js","ext": "{\"box\": \"CatOpen\", \"danmu\": false}"},
 {"key":"anfun","name":"🟢 Afun","type":3,"api":"anfun_open.js"},
 {"key":"58dm","name":"🟢 五八","type":3,"api":"58dm_open.js"},
 {"key":"爱动漫","name":"🟢 爱漫","type":3,"api":"adm_open.js"},
