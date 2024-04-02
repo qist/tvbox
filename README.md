@@ -39,6 +39,22 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
  配置教程：<https://omii.top/1296.html>
 
+`注意使用Gitee或Github导入，并设置为私有仓库，CatVodOpen仅支持私有仓库跟dav`
+
+V1.1.3版本以上
+
+`github://Token@github.com/qist/tvbox/dist/index.js.md5`
+
+改动
+
+* quickjs改为nodejs，proxy设置修改
+* 在ios上无法使用local，使用db替换local所有方法
+* nodejs 的优势在于更加灵活
+
+V1.1.2版本以下
+
+`github://Token@gitee.com/qist/tvbox/js/open_config.json`
+
 1. APP推荐:
 
 （1）FongMi版本  项目地址：<https://github.com/FongMi/TV> 支持直播多线路、自动换源、直播倍速，手机投屏；
