@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;04d74f2c921acbc9a2e20bd880a6e630",
+"spider":"./jar/pg.jar;md5;20951b7b8b4979ec1214839a2b2e36b8",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"糖意","type":0,"url":"https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},
 {"name":"YanG","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"},
@@ -13,6 +13,7 @@
 {"key":"lf_js_search","name":"搜索","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js","ext":"18+"},
 {"key":"lf_js_p2p","name":"磁力","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","ext":"18+","timeout":60},
 {"key":"lf_js_lf_live","name":"直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live1.txt"},
+{"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"ext":"http://127.0.0.1:9978/file/TV/token.json"},
 {"key":"PushShare","name":"资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pushshare.a.txt$$$db$$$1","style": {"type": "list"}},
 {"key":"PikPakShare","name":"PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.a.json$$$./json/pikpakclass.a.json.db.gz"},
 {"key":"PikPakShare1","name":"PikPak1","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.a1.json$$$./json/pikpakclass.a1.json.db.gz"},
@@ -25,7 +26,33 @@
 {"key":"csp_BtSow","name":"磁力秀","type":3,"api":"csp_BtSow","timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$1"},
 {"key":"csp_BtSearch","name":"磁力搜","type":3,"api":"csp_BtSearch","timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$1"},
 {"key":"Clg","name":"磁力狗","type":3,"api":"csp_Clg","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$https://clg.clgvip1.xyz/$$$proxy$$$1","style": {"type": "rect","ratio": 1.5}},
-{"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"ext":"http://127.0.0.1:9978/file/TV/token.json"},
+{
+            "key": "csp_91黑料",
+            "name": "91黑料",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar":"./jar/XBPQ.jar;md5;773d0ae924d3be41fae14e16b2beac75",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "主页url": "https://kb17.oneoneno8cd345.xyz/one",
+                "首页": "400",
+                "请求头": "User-Agent$PC_UA",
+                "数组": "<a&&</a>[不包含:91网曝黑料网#最近更新]",
+                "二次截取": "<div class=\"videoListBox\"&&el-pagination is-background",
+                "标题": "title\">&&</p>",
+                "副标题": "time\">&&</div>",
+                "链接": "https://kb17.oneoneno8cd345.xyz/v/+href=\"/voddetail/&&/\"+/sid/1/nid/1/",
+                "图片": "data-src=\"&&\"",
+                "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+                "搜索url": "https://kb17.oneoneno8cd345.xyz/s/wd/{wd}/",
+                "分类url": "https://kb17.oneoneno8cd345.xyz/t/{cateId}-{catePg}/;;z",
+                "分类数组": "<a&&</a>",
+                "分类标题": ">&&</a>",
+                "分类ID": "/t/&&/"
+            }
+        },
 {"key":"Cable","name":"CableAV","type":3,"api":"csp_Cable","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60},
 {  "key": "AList",  "name": "AList",  "type": 3,  "api": "csp_AList",  "searchable": 1,  "changeable": 0,  "ext": {"vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png","drives": [{"name": "网盘1","server": "https://alist-caimoui.cloud.okteto.net/私房菜/"}]}},
 {"key":"csp_JavBus","name":"JavBus","type":3,"api":"csp_JavBus","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"style":{"type":"rect","ratio":1.77},"timeout":60},
@@ -76,7 +103,7 @@
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":1,"changeable":0,"ext":"./token.json"}
 ],
 "rules":[
-{"name":"proxy","hosts":["btsow.motorcycles","netflav5.com","thzq.cc","cableav.tv","mypikpak.com","edge-hls.doppiocdn.com",".*workers.dev","javdb.com","www.javbus.com","d3opspehgd3862dmfdp3sdf.siauliairsavlt.org","vl05t7es.rostelekom.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"proxy","hosts":["cmzy.top","btsow.motorcycles","netflav5.com","thzq.cc","cableav.tv","mypikpak.com","edge-hls.doppiocdn.com",".*workers.dev","javdb.com","www.javbus.com","d3opspehgd3862dmfdp3sdf.siauliairsavlt.org","vl05t7es.rostelekom.xyz","raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
 {"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 {"name":"量子廣告","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]}

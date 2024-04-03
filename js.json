@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;04d74f2c921acbc9a2e20bd880a6e630",
+"spider":"./jar/pg.jar;md5;20951b7b8b4979ec1214839a2b2e36b8",
 "lives":[
 {"name":"live","type":0,"url":"./tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -40,6 +40,7 @@
 {"key":"影视车","name":"弹幕 | 影视车[jar]","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.weixine.link/$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"csp_Wobg","name":"弹幕 | 表哥[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://wobge.run.goorm.io$$$1$$$./json/wogg.json", "timeout":30},
 {"key":"csp_Wobg土豆网盘弹幕","name":"弹幕 | 土豆[jar]","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ali.lvdoui.top$$$1$$$./json/wogg.json", "timeout":30},
+{"key":"Xinshijue","name":"弹幕 | 新视觉[jar]","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.80yy3.com/$$$1$$$./lib/wogg.json"},
 {"key":"Yscapp","name":"弹幕 | 影視車[jar]","type":3,"api":"csp_Yscapp","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "playerType":1, "playerType":1, "ext":"1"},
 {"key":"Moli","name":"弹幕 | HDmoli[jar]","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./json/moli.json"},
 {"key":"Bt0","name":"弹幕 | 不太灵[jar]","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
