@@ -1,0 +1,136 @@
+{
+    "video": {
+        "sites": [
+            {
+                "key": "sehuatang",
+                "name": "🔞┃色花堂BT┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/sehuatang.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "hscangku",
+                "name": "🔞┃黄色仓库┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/hscangku.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "feifan18",
+                "name": "🔞┃非凡资源18+┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/feifan18.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "asianx",
+                "name": "🔞┃海外宅┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/asianx.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "liangzi18",
+                "name": "🔞┃量子资源18+┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/liangzi18.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "jable",
+                "name": "🔞┃Jable┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/jable.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "ciliduo",
+                "name": "🔞┃磁力多BT┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/ciliduo.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "doll",
+                "name": "🔞┃玩偶姐姐┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/doll.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "nivod_18",
+                "name": "🔞┃泥视频18+┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/nivod_18.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "push_agent",
+                "name": "┃推送┃",
+                "type": 3,
+                "api": "./js/push_agent.js",
+                "ext": "{\"box\": \"CatOpen\", \"token\": \"6827db23e5474d02a07fd7431d3d5a5a\"}"
+            }
+        ]
+    },
+    "read": {
+        "sites": [
+            {
+                "key": "audiomack",
+                "name": "🎵┃音声┃🎵",
+                "type": 3,
+                "api": "./js/audiomack.js",
+                "ext": "{\"box\": \"CatOpen\"}"
+            },
+            {
+                "key": "copymanga",
+                "name": "🧑‍🎨|拷贝漫画|🧑‍🎨",
+                "type": 3,
+                "api": "./js/copymanga.js",
+                "ext": "{\"box\": \"CatOpen\"}"
+            },
+            {
+                "key": "bqg_open",
+                "name": "📚︎┃笔趣阁┃📚︎",
+                "type": 10,
+                "api": "./js/bqg_open.js",
+                "ext": "{\"box\": \"CatOpen\"}"
+            },
+            {
+                "key": "dj0898_book_open",
+                "name": "🎵┃世纪DJ音乐网┃🎵",
+                "type": 3,
+                "api": "./js/dj0898_book_open.js",
+                "ext": "{\"box\": \"CatOpen\"}"
+            },
+            {
+                "key": "bookan",
+                "name": "🎵┃看书┃🎵",
+                "type": 3,
+                "api": "./js/bookan.js",
+                "ext": "{\"box\": \"CatOpen\"}"
+            }
+        ]
+    },
+    "pan": {
+        "sites": []
+    }
+}
