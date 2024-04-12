@@ -1,4 +1,4 @@
-import {__jsEvalReturn} from './bilibili.js';
+import {__jsEvalReturn} from './jable.js';
 import * as Utils from "../lib/utils.js";
 
 

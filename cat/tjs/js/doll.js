@@ -18,6 +18,22 @@ class Doll extends Spider {
         this.siteUrl = "https://hongkongdollvideo.com"
     }
 
+    async spiderInit(inReq = null) {
+        if (inReq !== null) {
+            this.jsBase = await js2Proxy(inReq, "img", {});
+        } else {
+            this.jsBase = await js2Proxy(true, this.siteType, this.siteKey, 'img/', {});
+        }
+    }
+
+    async init(cfg) {
+        await super.init(cfg);
+        await this.spiderInit(null)
+    }
+
+    async getHtml(url = this.siteUrl, proxy = false, headers = this.getHeader()) {
+        return super.getHtml(url, true, headers);
+    }
 
     getName() {
         return "🔞┃玩偶姐姐┃🔞"
@@ -44,7 +60,13 @@ class Doll extends Spider {
             let videoInfoElements = $($(vodElement).find("[class=\"video-info\"]")).find("a")
             vodShort.vod_name = videoInfoElements[0].attribs["title"]
             vodShort.vod_remarks = $(videoInfoElements[1]).text()
-            vodShort.vod_pic = $(vodElement).find("img")[0].attribs["data-src"]
+            let pic = $(vodElement).find("img")[0].attribs["data-src"]
+            if (this.catOpenStatus) {
+                vodShort.vod_pic = this.jsBase + Utils.base64Encode(pic)
+            } else {
+                vodShort.vod_pic = pic
+            }
+
             vod_list.push(vodShort)
         }
         return vod_list
@@ -55,10 +77,16 @@ class Doll extends Spider {
         let vodElement = $("[class=\"container-fluid\"]")
         vodDetail.vod_name = $($(vodElement).find("[class=\"page-title\"]")[0]).text()
         vodDetail.vod_remarks = $(vodElement).find("[class=\"tag my-1 text-center\"]")[0].attribs["href"].replaceAll("/", "")
-        vodDetail.vod_pic = $(vodElement).find("video")[0].attribs["poster"]
+        let pic = $(vodElement).find("video")[0].attribs["poster"]
+        if (this.catOpenStatus) {
+            vodDetail.vod_pic = this.jsBase + Utils.base64Encode(pic)
+        } else {
+            vodDetail.vod_pic = pic
+        }
         let html = $.html()
         let voteTag = Utils.getStrByRegex(/var voteTag="(.*?)";/g, html)
-        let videoInfo = JSON.parse(Utils.getStrByRegex(/<script type="application\/ld\+json">(.*?)<\/script>/g, html))
+        // let videoInfoStr = Utils.getStrByRegex(/<script type="application\/ld\+json">(.*?)<\/script>/g, html)
+        // let videoInfo = JSON.parse(videoInfoStr)
         //
         // try {
         //     let play_url_1 = await this.fetch(videoInfo["contentUrl"], null, this.getHeader())
@@ -81,62 +109,56 @@ class Doll extends Spider {
     }
 
     async setClasses() {
-        let html = await this.fetch(this.siteUrl, null, this.getHeader())
-        if (html !== null) {
-            let $ = load(html)
-            let navElements = $("[class=\"list-unstyled topnav-menu d-flex d-lg-block align-items-center justify-content-center flex-fill topnav-menu-left m-0\"]").find("li")
-            let index = 1
-            let class_id = index.toString()
-            this.classes = []
-            this.classes.push({"type_name": "首页", "type_id": "1"})
-            this.filterObj[class_id] = []
-            for (const navElement of navElements) {
-                let type_list = $(navElement).text().split("\n")
-                let valueElements = $(navElement).find("a")
-                let valueList = [{"n": "全部", "v": class_id}]
-                let type_id = index.toString()
-                for (const valueElement of valueElements) {
-                    let title = $(valueElement).text().replaceAll("\n", "")
-                    let href = valueElement.attribs["href"]
-                    if (href !== undefined) {
-                        valueList.push({"n": title, "v": href})
-                    }
-                }
-                type_list = type_list.filter(element => element !== "");
-                this.filterObj[class_id].push({"key": type_id, "name": type_list[0], "value": valueList})
-
-                //下面这段是为了切割使用
-                // let new_value_list = []
-                // for (let i = 0; i < valueList.length; i++) {
-                //     new_value_list.push(valueList[i])
-                //     if (i % 8 === 0 && i !== 0) {
-                //         this.filterObj[class_id].push({"key": type_id, "name": type_list[0], "value": new_value_list})
-                //         new_value_list = []
-                //     }
-                // }
-                // this.filterObj[class_id].push({"key": type_id, "name": type_list[0], "value": new_value_list})
-
-            }
-            let menuElements = $("[id=\"side-menu\"]").find("li")
-            for (const menuElement of menuElements) {
-                let type_id = $(menuElement).find("a")[0].attribs["href"]
-                if (type_id !== undefined && type_id.indexOf(this.siteUrl) > -1) {
-                    let type_dic = {
-                        "type_name": $(menuElement).text(), "type_id": type_id
-                    }
-                    this.classes.push(type_dic)
+        let $ = await this.getHtml(this.siteUrl)
+        let navElements = $("[class=\"list-unstyled topnav-menu d-flex d-lg-block align-items-center justify-content-center flex-fill topnav-menu-left m-0\"]").find("li")
+        let index = 1
+        let class_id = index.toString()
+        this.classes = []
+        this.classes.push({"type_name": "首页", "type_id": "1"})
+        this.filterObj[class_id] = []
+        for (const navElement of navElements) {
+            let type_list = $(navElement).text().split("\n")
+            let valueElements = $(navElement).find("a")
+            let valueList = [{"n": "全部", "v": class_id}]
+            let type_id = index.toString()
+            for (const valueElement of valueElements) {
+                let title = $(valueElement).text().replaceAll("\n", "")
+                let href = valueElement.attribs["href"]
+                if (href !== undefined) {
+                    valueList.push({"n": title, "v": href})
                 }
             }
+            type_list = type_list.filter(element => element !== "");
+            this.filterObj[class_id].push({"key": type_id, "name": type_list[0], "value": valueList})
+
+            //下面这段是为了切割使用
+            // let new_value_list = []
+            // for (let i = 0; i < valueList.length; i++) {
+            //     new_value_list.push(valueList[i])
+            //     if (i % 8 === 0 && i !== 0) {
+            //         this.filterObj[class_id].push({"key": type_id, "name": type_list[0], "value": new_value_list})
+            //         new_value_list = []
+            //     }
+            // }
+            // this.filterObj[class_id].push({"key": type_id, "name": type_list[0], "value": new_value_list})
+
         }
+        let menuElements = $("[id=\"side-menu\"]").find("li")
+        for (const menuElement of menuElements) {
+            let type_id = $(menuElement).find("a")[0].attribs["href"]
+            if (type_id !== undefined && type_id.indexOf(this.siteUrl) > -1) {
+                let type_dic = {
+                    "type_name": $(menuElement).text(), "type_id": type_id
+                }
+                this.classes.push(type_dic)
+            }
 
+        }
     }
 
     async setHomeVod() {
-        let html = await this.fetch(this.siteUrl, null, this.getHeader())
-        if (html != null) {
-            let $ = load(html)
-            this.homeVodList = await this.parseVodShortListFromDoc($)
-        }
+        let $ = await this.getHtml(this.siteUrl)
+        this.homeVodList = await this.parseVodShortListFromDoc($)
     }
 
     async setCategory(tid, pg, filter, extend) {
@@ -153,20 +175,14 @@ class Doll extends Spider {
             cateUrl = this.siteUrl
         }
         this.limit = 36
-        let html = await this.fetch(cateUrl, null, this.getHeader())
-        if (html != null) {
-            let $ = load(html)
-            this.vodList = await this.parseVodShortListFromDoc($)
-        }
+        let $ = await this.getHtml(cateUrl)
+        this.vodList = await this.parseVodShortListFromDoc($)
     }
 
     async setDetail(id) {
-        let html = await this.fetch(id, null, this.getHeader())
-        if (html != null) {
-            let $ = load(html)
-            let key = Utils.getStrByRegex(/video\/(\w+).html/, id)
-            this.vodDetail = await this.parseVodDetailFromDoc($, key)
-        }
+        let $ = await this.getHtml(id)
+        let key = Utils.getStrByRegex(/video\/(\w+).html/, id)
+        this.vodDetail = await this.parseVodDetailFromDoc($, key)
     }
 
     async setPlay(flag, id, flags) {
@@ -176,11 +192,12 @@ class Doll extends Spider {
 
     async setSearch(wd, quick) {
         let searchUrl = this.siteUrl + "search/" + encodeURIComponent(wd)
-        let html = await this.fetch(searchUrl, null, this.getHeader())
-        if (html !== null) {
-            let $ = load(html)
-            this.vodList = await this.parseVodShortListFromDoc($)
-        }
+        let $ = await this.getHtml(searchUrl)
+        this.vodList = await this.parseVodShortListFromDoc($)
+    }
+
+    async proxy(segments, headers) {
+        return super.proxy(segments, headers);
     }
 }
 

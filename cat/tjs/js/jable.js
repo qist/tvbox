@@ -19,6 +19,20 @@ class JableTVSpider extends Spider {
 
     }
 
+    async spiderInit(inReq = null) {
+        if (inReq !== null) {
+            this.jsBase = await js2Proxy(inReq, "img", {});
+        } else {
+            this.jsBase = await js2Proxy(true, this.siteType, this.siteKey, 'img/', {});
+        }
+    }
+
+
+    async init(cfg) {
+        await super.init(cfg);
+        await this.spiderInit(null)
+    }
+
     getAppName() {
         return "Jable"
     }
@@ -26,6 +40,7 @@ class JableTVSpider extends Spider {
     getName() {
         return "🔞┃Jable┃🔞"
     }
+
     getJSName() {
         return "jable"
     }
@@ -41,6 +56,10 @@ class JableTVSpider extends Spider {
         header["Host"] = "jable.tv"
         // header["Postman-Token"] = "33290483-3c8d-413f-a160-0d3aea9e6f95"
         return header
+    }
+
+    async getHtml(url = this.siteUrl, proxy = false, headers = this.getHeader()) {
+        return super.getHtml(url, true, headers);
     }
 
     async setClasses() {
@@ -148,19 +167,27 @@ class JableTVSpider extends Spider {
         let vodElements = $("div.video-img-box")
         for (const element of vodElements) {
             let vodShort = new VodShort()
-            vodShort.vod_pic = $(element).find("img").attr("data-src");
-            let url = $(element).find("a").attr("href");
-            vodShort.vod_id = url.split("/")[4];
-            vodShort.vod_name = url.split("/")[4];
-            let remarks_list = $($(element).find("[class=\"sub-title\"]")).text().split("\n")
-            if (remarks_list.length > 1){
-                vodShort.vod_remarks = remarks_list[1].replaceAll(" ", "").replaceAll("\t", "")
-            }else{
-                vodShort.vod_remarks = "精选"
+            let vod_pic = $(element).find("img").attr("data-src")
+            if (vod_pic !== undefined) {
+                if (this.catOpenStatus) {
+                    vodShort.vod_pic = this.jsBase + Utils.base64Encode(vod_pic)
+                } else {
+                    vodShort.vod_pic = vod_pic
+                }
+                let url = $(element).find("a").attr("href");
+                vodShort.vod_id = url.split("/")[4];
+                vodShort.vod_name = url.split("/")[4];
+                let remarks_list = $($(element).find("[class=\"sub-title\"]")).text().split("\n")
+                if (remarks_list.length > 1) {
+                    vodShort.vod_remarks = remarks_list[1].replaceAll(" ", "").replaceAll("\t", "")
+                } else {
+                    vodShort.vod_remarks = "精选"
+                }
+                if (!_.isEmpty(vodShort.vod_pic) && vodShort.vod_remarks !== "[限時優惠]只需1元即可無限下載") {
+                    vod_list.push(vodShort);
+                }
             }
-            if (!_.isEmpty(vodShort.vod_pic) && vodShort.vod_remarks !== "[限時優惠]只需1元即可無限下載"){
-                vod_list.push(vodShort);
-            }
+
         }
         return vod_list
     }
@@ -169,9 +196,14 @@ class JableTVSpider extends Spider {
         let vodDetail = new VodDetail();
         let leftElement = $("[class=\"header-left\"]")
         vodDetail.vod_name = $($(leftElement).find("h4")).text();
-        vodDetail.vod_pic = Utils.getStrByRegex(/<video poster="(.*?)" id=/, $.html())
+        let vod_pic = Utils.getStrByRegex(/<video poster="(.*?)" id=/, $.html())
+        if (this.catOpenStatus) {
+            vodDetail.vod_pic = this.jsBase + Utils.base64Encode(vod_pic)
+        } else {
+            vodDetail.vod_pic = vod_pic
+        }
         vodDetail.vod_year = $($("[class=\"inactive-color\"]")).text()
-        let episodeName = $($("[class=\"header-right d-none d-md-block\"] > h6")).text().replaceAll("\n", "").replaceAll("●","")
+        let episodeName = $($("[class=\"header-right d-none d-md-block\"] > h6")).text().replaceAll("\n", "").replaceAll("●", "")
         let vodItems = []
         let episodeUrl = Utils.getStrByRegex(/var hlsUrl = '(.*?)';/, $.html())
         vodItems.push(episodeName + "$" + episodeUrl)
@@ -271,4 +303,5 @@ export function __jsEvalReturn() {
         proxy: proxy
     };
 }
+
 export {spider}

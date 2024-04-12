@@ -73,7 +73,7 @@ class Result {
                 "format": this.format,
                 "subs": this.subs,
                 "danmaku": this.danmaku,
-                "extra":this.extra,
+                "extra": this.extra,
                 "jx": this.jx
             })
         } else {
@@ -83,14 +83,16 @@ class Result {
                 "header": this.header,
                 "format": this.format,
                 "subs": this.subs,
-                "extra":this.extra,
+                "extra": this.extra,
                 "jx": this.jx
             })
         }
     }
-    playTxt(url){
+
+    playTxt(url) {
         return url
     }
+
     errorCategory(error_message) {
         let vodShort = new VodShort()
         vodShort.vod_name = "错误:打开无效"
@@ -245,8 +247,8 @@ class Spider {
         return {"type_name": type_name, "type_id": type_id}
     }
 
-    async getHtml(url = this.siteUrl, headers = this.getHeader()) {
-        let html = await this.fetch(url, null, headers)
+    async getHtml(url = this.siteUrl, proxy = false, headers = this.getHeader()) {
+        let html = await this.fetch(url, null, headers, false, false, 0, proxy)
         if (!_.isEmpty(html)) {
             return load(html)
         } else {
@@ -278,14 +280,14 @@ class Spider {
         return {"User-Agent": Utils.CHROME, "Referer": this.siteUrl + "/"};
     }
 
-    async getResponse(reqUrl, params, headers, redirect_url, return_cookie, buffer, response) {
+    async getResponse(reqUrl, params, headers, redirect_url, return_cookie, buffer, response,proxy) {
         {
             if (response.headers["location"] !== undefined) {
                 if (redirect_url) {
                     await this.jadeLog.debug(`返回重定向连接:${response.headers["location"]}`)
                     return response.headers["location"]
                 } else {
-                    return this.fetch(response.headers["location"], params, headers, redirect_url, return_cookie, buffer)
+                    return this.fetch(response.headers["location"], params, headers, redirect_url, return_cookie, buffer,proxy)
                 }
             } else if (response.content.length > 0) {
                 this.reconnectTimes = 0
@@ -299,13 +301,13 @@ class Spider {
                 return response.content
             } else {
                 await this.jadeLog.error(`请求失败,请求url为:${reqUrl},回复内容为:${JSON.stringify(response)}`)
-                return await this.reconnnect(reqUrl, params, headers, redirect_url, return_cookie, buffer)
+                return await this.reconnnect(reqUrl, params, headers, redirect_url, return_cookie, buffer,proxy)
             }
         }
     }
 
 
-    async fetch(reqUrl, params, headers, redirect_url = false, return_cookie = false, buffer = 0) {
+    async fetch(reqUrl, params, headers, redirect_url = false, return_cookie = false, buffer = 0, proxy = false) {
         let data = Utils.objectToStr(params)
         let url = reqUrl
         if (!_.isEmpty(data)) {
@@ -315,13 +317,13 @@ class Spider {
         let response;
         if (redirect_url) {
             response = await req(uri.toString(), {
-                method: "get", headers: headers, buffer: buffer, data: null, redirect: 2
+                method: "get", headers: headers, buffer: buffer, data: null, redirect: 2, proxy: proxy
             })
         } else {
-            response = await req(uri.toString(), {method: "get", headers: headers, buffer: buffer, data: null});
+            response = await req(uri.toString(), {method: "get", headers: headers, buffer: buffer, data: null,proxy:proxy});
         }
         if (response.code === 200 || response.code === 302 || response.code === 301 || return_cookie) {
-            return await this.getResponse(reqUrl, params, headers, redirect_url, return_cookie, buffer, response)
+            return await this.getResponse(reqUrl, params, headers, redirect_url, return_cookie, buffer, response,proxy)
         } else {
             await this.jadeLog.error(`请求失败,失败原因为:状态码出错,请求url为:${uri},回复内容为:${JSON.stringify(response)}`)
             return await this.reconnnect(reqUrl, params, headers, redirect_url, return_cookie, buffer)
@@ -693,10 +695,12 @@ class Spider {
 
     async getImg(url, headers) {
         let resp;
+        let use_proxy = false // 使用代理不需要加headers
         if (_.isEmpty(headers)) {
             headers = {Referer: url, 'User-Agent': Utils.CHROME}
+            use_proxy = true
         }
-        resp = await req(url, {buffer: 2, headers: headers});
+        resp = await req(url, {buffer: 2, headers: headers,proxy:use_proxy});
         try {
             Utils.base64Decode(resp.content)
             await this.jadeLog.error(`图片代理获取失败,重连失败`, true)
