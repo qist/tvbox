@@ -1,6 +1,15 @@
 {
     "sites": [
         {
+            "key": "cilixiong",
+            "name": "🐻┃磁力熊┃🐻",
+            "playerType": 0,
+            "type": 3,
+            "api": "./js/cilixiong.js",
+            "timeout": 30,
+            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+        },
+        {
             "key": "aiyingshi",
             "name": "🚀‍┃爱影视┃🚀",
             "playerType": 0,

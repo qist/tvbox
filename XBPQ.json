@@ -232,6 +232,7 @@
 		"分类": "电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"
 	}
 },
+		
 		{
 			"key": "视觉",
 			"name": "👓1080P┃视觉",
@@ -249,8 +250,8 @@
 				"数组": "<a&&module-poster-item-info\"[不包含:夸克]",
 				"标题": "title=\"&&\"",
 				"副标题": "note\">&&</div>",
-				"嗅探词": ".mp4#.m3u8",
-				"过滤词": "/player/#/index/",
+				"嗅探词": ".mp4#.m3u8#v3.douyinvod",
+				"过滤词": "/player/#/index/#video.bj.bcebos.com#1000_b_video",
 				"图片": "data-original=\"&&\"",
 				"播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
 				"链接": "href=\"&&\"",
@@ -281,6 +282,7 @@
 				"简介": "<p>&&</p>"
 			}
 		},
+		
 		{
 			"key": "Auete",
 			"name": "🏂1080P┃奥特",
@@ -697,6 +699,7 @@
 		"wan.51img1.com",
 		"iqiyi.hbuioo.com",
 		"vip.ffzyad.com",
+		"video.bj.bcebos.com",
 		"https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
 	]
 }

@@ -21,12 +21,20 @@ class JableTVSpider extends Spider {
 
     async spiderInit(inReq = null) {
         if (inReq !== null) {
-            this.jsBase = await js2Proxy(inReq, "img", {});
+            this.jsBase = await js2Proxy(inReq, "img", this.getImgHeaders());
         } else {
-            this.jsBase = await js2Proxy(true, this.siteType, this.siteKey, 'img/', {});
+            this.jsBase = await js2Proxy(true, this.siteType, this.siteKey, 'img/', this.getImgHeaders());
         }
     }
 
+    getImgHeaders(){
+        return {
+            "User-Agent": "PostmanRuntime/7.37.3",
+            "Postman-Token": "c2602692-1a05-4bb0-93cd-270afad97e87",
+            "Host": "assets-cdn.jable.tv",
+            "Proxy": true
+        }
+    }
 
     async init(cfg) {
         await super.init(cfg);
@@ -54,7 +62,7 @@ class JableTVSpider extends Spider {
         let header = {}
         header["User-Agent"] = "PostmanRuntime/7.36.3"
         header["Host"] = "jable.tv"
-        // header["Postman-Token"] = "33290483-3c8d-413f-a160-0d3aea9e6f95"
+        header["Postman-Token"] = "33290483-3c8d-413f-a160-0d3aea9e6f95"
         return header
     }
 
@@ -169,11 +177,12 @@ class JableTVSpider extends Spider {
             let vodShort = new VodShort()
             let vod_pic = $(element).find("img").attr("data-src")
             if (vod_pic !== undefined) {
-                if (this.catOpenStatus) {
-                    vodShort.vod_pic = this.jsBase + Utils.base64Encode(vod_pic)
-                } else {
-                    vodShort.vod_pic = vod_pic
-                }
+                vodShort.vod_pic = vod_pic
+                // if (this.catOpenStatus) {
+                //     vodShort.vod_pic = this.jsBase + Utils.base64Encode(vod_pic)
+                // } else {
+                //     vodShort.vod_pic = vod_pic
+                // }
                 let url = $(element).find("a").attr("href");
                 vodShort.vod_id = url.split("/")[4];
                 vodShort.vod_name = url.split("/")[4];
@@ -197,11 +206,12 @@ class JableTVSpider extends Spider {
         let leftElement = $("[class=\"header-left\"]")
         vodDetail.vod_name = $($(leftElement).find("h4")).text();
         let vod_pic = Utils.getStrByRegex(/<video poster="(.*?)" id=/, $.html())
-        if (this.catOpenStatus) {
-            vodDetail.vod_pic = this.jsBase + Utils.base64Encode(vod_pic)
-        } else {
-            vodDetail.vod_pic = vod_pic
-        }
+        vodDetail.vod_pic = vod_pic
+        // if (this.catOpenStatus) {
+        //     vodDetail.vod_pic = this.jsBase + Utils.base64Encode(vod_pic)
+        // } else {
+        //     vodDetail.vod_pic = vod_pic
+        // }
         vodDetail.vod_year = $($("[class=\"inactive-color\"]")).text()
         let episodeName = $($("[class=\"header-right d-none d-md-block\"] > h6")).text().replaceAll("\n", "").replaceAll("●", "")
         let vodItems = []

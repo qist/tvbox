@@ -17,12 +17,17 @@ class Doll extends Spider {
         super();
         this.siteUrl = "https://hongkongdollvideo.com"
     }
+    getImgHeader(){
+        let headers = this.getHeader()
+        headers["Proxy"] = true
+        return headers
+    }
 
     async spiderInit(inReq = null) {
         if (inReq !== null) {
-            this.jsBase = await js2Proxy(inReq, "img", {});
+            this.jsBase = await js2Proxy(inReq, "img", this.getImgHeader());
         } else {
-            this.jsBase = await js2Proxy(true, this.siteType, this.siteKey, 'img/', {});
+            this.jsBase = await js2Proxy(true, this.siteType, this.siteKey, 'img/', this.getImgHeader());
         }
     }
 
@@ -61,11 +66,12 @@ class Doll extends Spider {
             vodShort.vod_name = videoInfoElements[0].attribs["title"]
             vodShort.vod_remarks = $(videoInfoElements[1]).text()
             let pic = $(vodElement).find("img")[0].attribs["data-src"]
-            if (this.catOpenStatus) {
-                vodShort.vod_pic = this.jsBase + Utils.base64Encode(pic)
-            } else {
-                vodShort.vod_pic = pic
-            }
+            // if (this.catOpenStatus) {
+            //     vodShort.vod_pic = this.jsBase + Utils.base64Encode(pic)
+            // } else {
+            //     vodShort.vod_pic = pic
+            // }
+            vodShort.vod_pic = pic
 
             vod_list.push(vodShort)
         }
@@ -78,11 +84,12 @@ class Doll extends Spider {
         vodDetail.vod_name = $($(vodElement).find("[class=\"page-title\"]")[0]).text()
         vodDetail.vod_remarks = $(vodElement).find("[class=\"tag my-1 text-center\"]")[0].attribs["href"].replaceAll("/", "")
         let pic = $(vodElement).find("video")[0].attribs["poster"]
-        if (this.catOpenStatus) {
-            vodDetail.vod_pic = this.jsBase + Utils.base64Encode(pic)
-        } else {
-            vodDetail.vod_pic = pic
-        }
+        // if (this.catOpenStatus) {
+        //     vodDetail.vod_pic = this.jsBase + Utils.base64Encode(pic)
+        // } else {
+        //     vodDetail.vod_pic = pic
+        // }
+        vodDetail.vod_pic = pic
         let html = $.html()
         let voteTag = Utils.getStrByRegex(/var voteTag="(.*?)";/g, html)
         // let videoInfoStr = Utils.getStrByRegex(/<script type="application\/ld\+json">(.*?)<\/script>/g, html)

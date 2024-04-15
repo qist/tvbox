@@ -83,6 +83,15 @@
                 "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
             },
             {
+                "key": "hanxiucao",
+                "name": "🔞┃含羞草┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/hanxiucao.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
                 "key": "push_agent",
                 "name": "┃推送┃",
                 "type": 3,

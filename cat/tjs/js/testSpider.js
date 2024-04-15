@@ -1,4 +1,4 @@
-import {__jsEvalReturn} from './jable.js';
+import {__jsEvalReturn} from './bilibili.js';
 import * as Utils from "../lib/utils.js";
 
 
@@ -55,7 +55,7 @@ async function test() {
     await spider.init({
         skey: siteKey, stype: siteType, ext: {
             "token": "6827db23e5474d02a07fd7431d3d5a5a",
-            "box": "TV",
+            "box": "bilibili",
             "code": "1",
             "from": "justlive1",
             "danmu": true,
@@ -74,20 +74,30 @@ async function test() {
 
 
 
-    //测试分类列表
-    let catePage = JSON.parse(await spider.category("历史记录", "1", undefined, {}));
-    console.debug(JSON.stringify(catePage));
 
     // 测试详情
-    let detail1 = JSON.parse(await spider.detail("BV12r421t7nu"))
+    let detail1 = JSON.parse(await spider.detail("BV1Pp421R7pn"))
     await testPlay(detail1)
 
 
 
+    let catePage = JSON.parse(await spider.category("2", "1", undefined,  {}));
+    console.debug(JSON.stringify(catePage));
 
-    // 测试搜索
-    let search_page = JSON.parse(await spider.search("海贼王"))
+        // 测试搜索
+    let search_page = JSON.parse(await spider.search("王牌"))
     console.debug(JSON.stringify(search_page));
+
+
+
+
+
+
+
+
+
+
+
 
 
     // 测试详情

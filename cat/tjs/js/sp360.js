@@ -35,7 +35,7 @@ class Sp360Spider extends Spider {
 
     async init(cfg) {
         await super.init(cfg);
-        this.danmuUrl = true
+        this.danmuStaus = true
     }
 
     async setClasses() {
@@ -518,9 +518,9 @@ class Sp360Spider extends Spider {
             let vodShort = new VodShort();
             vodShort.vod_id = data["id"] + "+" + tid
             if (!data["cover"].startsWith("http")) {
-                vodShort.vod_pic = "https:" + data["cdncover"]
+                vodShort.vod_pic = "https:" + data["cover"]
             } else {
-                vodShort.vod_pic = data["cdncover"]
+                vodShort.vod_pic = data["cover"]
             }
             vodShort.vod_name = data["title"]
             vodShort.vod_remarks = data["tag"]
@@ -624,7 +624,7 @@ class Sp360Spider extends Spider {
     }
 
     async setPlay(flag, id, flags) {
-        if (this.danmuUrl) {
+        if (this.danmuStaus && ! this.catOpenStatus) {
             this.danmuUrl = await this.danmuSpider.getVideoUrl(id, 0)
         }
         this.result.parse = 1 //启用自动解析

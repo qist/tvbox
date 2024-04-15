@@ -57,7 +57,7 @@ class Result {
     }
 
     search(vod_list) {
-        return JSON.stringify({"list": vod_list})
+        return JSON.stringify({"list": vod_list,"page":this.page,"pagecount":this.pagecount,"total":this.total})
     }
 
     detail(vod_detail) {
@@ -648,7 +648,7 @@ class Spider {
                 if (this.danmuStaus && !this.catOpenStatus) {
                     if (!_.isEmpty(this.danmuUrl)) {
                         await this.jadeLog.debug("播放详情页面有弹幕,所以不需要再查找弹幕")
-                        return_result = this.result.setHeader(this.header).danmu(this.danmuUrl).play(this.playUrl)
+                        return_result = this.result.danmu(this.danmuUrl).play(this.playUrl)
                     } else {
                         let danmuUrl;
                         try {
@@ -656,12 +656,12 @@ class Spider {
                         } catch (e) {
                             await this.jadeLog.error(`弹幕加载失败,失败原因为:${e}`)
                         }
-                        return_result = this.result.setHeader(this.header).danmu(danmuUrl).play(this.playUrl)
+                        return_result = this.result.danmu(danmuUrl).play(this.playUrl)
                     }
 
                 } else {
                     await this.jadeLog.debug("不需要加载弹幕", true)
-                    return_result = this.result.setHeader(this.header).play(this.playUrl)
+                    return_result = this.result.play(this.playUrl)
                 }
             }
             await this.jadeLog.info("播放页面解析完成", true)
@@ -695,17 +695,25 @@ class Spider {
 
     async getImg(url, headers) {
         let resp;
-        let use_proxy = false // 使用代理不需要加headers
+        let vpn_proxy = headers["Proxy"] // 使用代理不需要加headers
         if (_.isEmpty(headers)) {
             headers = {Referer: url, 'User-Agent': Utils.CHROME}
-            use_proxy = true
         }
-        resp = await req(url, {buffer: 2, headers: headers,proxy:use_proxy});
+        resp = await req(url, {buffer: 2, headers: headers,proxy:vpn_proxy});
         try {
+            //二进制文件是不能使用Base64编码格式的
             Utils.base64Decode(resp.content)
-            await this.jadeLog.error(`图片代理获取失败,重连失败`, true)
-            this.reconnectTimes = 0
-            return {"code": 500, "headers": headers, "content": "加载失败"}
+            if (vpn_proxy){
+                await this.jadeLog.error(`使用VPN代理,图片地址为:${url},headers:${JSON.stringify(headers)},代理失败,准备重连,输出内容为:${JSON.stringify(resp)}`)
+            }else {
+                await this.jadeLog.error(`使用普通代理,图片地址为:${url},headers:${JSON.stringify(headers)},代理失败,准备重连,输出内容为:${JSON.stringify(resp)}`)
+            }
+            if (this.reconnectTimes < this.maxReconnectTimes){
+                this.reconnectTimes = this.reconnectTimes + 1
+                return await this.getImg(url,headers)
+            }else{
+                return {"code": 500, "headers": headers, "content": "加载失败"}
+            }
         } catch (e) {
             await this.jadeLog.debug("图片代理成功", true)
             this.reconnectTimes = 0

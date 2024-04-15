@@ -71,9 +71,10 @@ class BilibiliSpider extends Spider {
     }
 
     async init(cfg) {
-        await this.initCookie(cfg["ext"]["cookie"])
         await super.init(cfg);
+        await this.initCookie(this.cfgObj["cookie"])
         await this.spiderInit(null)
+        this.danmuStaus = true
     }
 
     getName() {
@@ -230,9 +231,14 @@ class BilibiliSpider extends Spider {
             const playUrl = j + '$' + aid + '+' + cid + '+' + qualityList.join(':') + '+' + descriptionList.join(':');
             playList.push(playUrl);
         }
-        for (let quality of qualityList) {
-            treeMap[`dash - ${this.play_url_obj[quality]}`] = playList.join("#")
+        if (this.catOpenStatus) {
+            for (let quality of qualityList) {
+                treeMap[`dash - ${this.play_url_obj[quality]}`] = playList.join("#")
+            }
+        } else {
+            await this.jadeLog.warning("TV暂不支持Dash播放")
         }
+
         for (let quality of qualityList) {
             treeMap[`mp4 - ${this.play_url_obj[quality]}`] = playList.join("#")
         }
@@ -247,9 +253,14 @@ class BilibiliSpider extends Spider {
             const playUrl = title + '$' + aaid + '+' + cid + '+' + qualityList.join(':') + '+' + descriptionList.join(':');
             playList.push(playUrl);
         }
-        for (let quality of qualityList) {
-            treeMap["相关" + ` - ${this.play_url_obj[quality]}`] = playList.join("#")
+        if (this.catOpenStatus) {
+            for (let quality of qualityList) {
+                treeMap["相关" + ` - ${this.play_url_obj[quality]}`] = playList.join("#")
+            }
+        } else {
+            await this.jadeLog.warning("TV暂不支持相关播放")
         }
+
         vodDetail.vod_play_from = Object.keys(treeMap).join("$$$");
         vodDetail.vod_play_url = Object.values(treeMap).join("$$$");
         return vodDetail
@@ -301,7 +312,10 @@ class BilibiliSpider extends Spider {
         this.result.header = this.getHeader()
         if (flag.indexOf("dash") > -1 || flag.indexOf('相关') > -1) {
             // dash mpd 代理
-            this.playUrl = this.js2Base + Utils.base64Encode(aid + '+' + cid + '+' + quality_id)
+            if (this.catOpenStatus) {
+                this.playUrl = this.js2Base + Utils.base64Encode(aid + '+' + cid + '+' + quality_id)
+            }
+
         } else if (flag.indexOf('mp4') > -1) {
             // 直链
             const url = this.apiUrl + `/x/player/playurl`;
