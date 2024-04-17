@@ -69,8 +69,16 @@ class VodSpider extends Spider {
         vodDetail.vod_director = vod_data["vod_director"]
         let $ = load(vod_data['vod_content'])
         vodDetail.vod_content = $.text()
-        vodDetail.vod_play_from = vod_data["vod_play_from"]
-        vodDetail.vod_play_url = vod_data["vod_play_url"]
+        if (vod_data["vod_down_url"] !== undefined) {
+            if (vod_data["vod_down_url"].length > 0) {
+                vodDetail.vod_play_from = "直链播放$$$"
+                vodDetail.vod_play_url = vod_data["vod_down_url"] + "$$$"
+
+            }
+        }
+
+        vodDetail.vod_play_from = vodDetail.vod_play_from + vod_data["vod_play_from"]
+        vodDetail.vod_play_url = vodDetail.vod_play_url + vod_data["vod_play_url"]
         vodDetail.type_name = vod_data["type_name"]
         return vodDetail
     }

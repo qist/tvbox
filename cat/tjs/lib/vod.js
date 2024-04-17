@@ -1,5 +1,6 @@
 // LocalAddress = "http://192.168.29.156:8099"
 import * as Utils from "./utils.js";
+
 export class VodShort {
     constructor() {
         this.vod_id = ""        //id
@@ -19,6 +20,13 @@ export class VodShort {
         }
 
     }
+
+    load_data(data) {
+        for (let propName in JSON.parse(this.to_dict())) {
+            this[propName] = data[propName];
+        }
+    }
+
 }
 
 export class VodDetail extends VodShort {
@@ -42,10 +50,12 @@ export class VodDetail extends VodShort {
 
     load_dic(json_str) {
         let obj = JSON.parse(json_str)
-        for (let propName in  JSON.parse(this.to_dict())) {
+        for (let propName in JSON.parse(this.to_dict())) {
             this[propName] = obj[propName];
         }
     }
+
+
 }
 
 

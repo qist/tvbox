@@ -19,6 +19,15 @@
             "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
         },
         {
+            "key": "dubo",
+            "name": "🛶┃独播影视┃🛶",
+            "playerType": 0,
+            "type": 3,
+            "api": "./js/dubo.js",
+            "timeout": 30,
+            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+        },
+        {
             "key": "gitcafe",
             "name": "🦊┃阿里纸条┃🦊",
             "playerType": 0,
@@ -96,6 +105,15 @@
             "playerType": 0,
             "type": 3,
             "api": "./js/dygangs.js",
+            "timeout": 30,
+            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+        },
+        {
+            "key": "tiantian",
+            "name": "⛄┃天天影视┃⛄",
+            "playerType": 0,
+            "type": 3,
+            "api": "./js/tiantian.js",
             "timeout": 30,
             "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
         },

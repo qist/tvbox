@@ -681,7 +681,7 @@ class Spider {
     async search(wd, quick) {
         this.vodList = []
         await this.jadeLog.info(`正在解析搜索页面,关键词为 = ${wd},quick = ${quick}`)
-        await this.setSearch(wd, quick)
+        await this.setSearch(wd, quick,1)
         if (this.vodList.length === 0) {
             if (wd.indexOf(" ") > -1) {
                 await this.jadeLog.debug(`搜索关键词为:${wd},其中有空格,去除空格在搜索一次`)

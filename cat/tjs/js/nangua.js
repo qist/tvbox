@@ -9,7 +9,7 @@
 import {Crypto, jinja2, _} from "../lib/cat.js";
 import {Spider} from "./spider.js";
 import {VodDetail, VodShort} from "../lib/vod.js";
-
+import * as Utils from "../lib/utils.js";
 function stripHtmlTag(src) {
     return src
         .replace(/<\/?[^>]+(>|$)/g, '')
@@ -89,7 +89,10 @@ class NanGuaSpider extends Spider {
             }, {
                 "key": "year",
                 "name": "年份",
-                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {
+                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {"n": "2022", "v": "2022"}, {
                     "n": "2021", "v": "2021"
                 }, {"n": "2020", "v": "2020"}, {"n": "2019", "v": "2019"}, {"n": "2018", "v": "2018"}, {
                     "n": "2017", "v": "2017"
@@ -117,7 +120,10 @@ class NanGuaSpider extends Spider {
             }, {
                 "key": "year",
                 "name": "年份",
-                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {
+                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {"n": "2022", "v": "2022"}, {
                     "n": "2021", "v": "2021"
                 }, {"n": "2020", "v": "2020"}, {"n": "2019", "v": "2019"}, {"n": "2018", "v": "2018"}, {
                     "n": "2017", "v": "2017"
@@ -141,7 +147,10 @@ class NanGuaSpider extends Spider {
             }, {
                 "key": "year",
                 "name": "年份",
-                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {
+                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {"n": "2022", "v": "2022"}, {
                     "n": "2021", "v": "2021"
                 }, {"n": "2020", "v": "2020"}, {"n": "2019", "v": "2019"}, {"n": "2018", "v": "2018"}, {
                     "n": "2017", "v": "2017"
@@ -169,7 +178,10 @@ class NanGuaSpider extends Spider {
             }, {
                 "key": "year",
                 "name": "年份",
-                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {
+                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {"n": "2022", "v": "2022"}, {
                     "n": "2021", "v": "2021"
                 }, {"n": "2020", "v": "2020"}, {"n": "2019", "v": "2019"}, {"n": "2018", "v": "2018"}, {
                     "n": "2017", "v": "2017"
@@ -193,7 +205,10 @@ class NanGuaSpider extends Spider {
             }, {
                 "key": "year",
                 "name": "年份",
-                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {"n": "2023", "v": "2023"}, {"n": "2022", "v": "2022"}, {
+                "value": [{"n": "全部", "v": "年份"}, {"n": "2024", "v": "2024"}, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {"n": "2022", "v": "2022"}, {
                     "n": "2021", "v": "2021"
                 }, {"n": "2020", "v": "2020"}, {"n": "2019", "v": "2019"}, {"n": "2018", "v": "2018"}, {
                     "n": "2017", "v": "2017"
@@ -208,9 +223,9 @@ class NanGuaSpider extends Spider {
         };
     }
 
-    async parseVodShortListFromJSONByHome(obj){
+    async parseVodShortListFromJSONByHome(obj) {
         let vod_list = []
-        for (const data of obj["video"]){
+        for (const data of obj["video"]) {
             let video_vod_list = await this.parseVodShortListFromJson(data["data"])
             vod_list.push(...video_vod_list)
         }
@@ -219,13 +234,13 @@ class NanGuaSpider extends Spider {
 
     async parseVodShortListFromJson(obj) {
         let vod_list = []
-        for (const data of obj){
+        for (const data of obj) {
             let vodShort = new VodShort()
             vodShort.vod_id = data["id"]
             vodShort.vod_name = data["name"]
             vodShort.vod_pic = data["img"]
             vodShort.vod_remarks = data["remarks"]
-            if (_.isEmpty(vodShort.vod_remarks)){
+            if (_.isEmpty(vodShort.vod_remarks)) {
                 vodShort.vod_remarks = data["msg"]
             }
             vod_list.push(vodShort)
@@ -236,11 +251,15 @@ class NanGuaSpider extends Spider {
 
     async parseVodShortListFromJsonBySearch(obj) {
         let videos = [];
-        obj.forEach(function (it) {
-            videos.push({
-                vod_id: it.id, vod_name: it["video_name"], vod_pic: it.img, vod_remarks: it["qingxidu"] + '/' + it.category,
-            });
-        });
+        for (const data of obj){
+            let vodShort = new VodShort()
+            vodShort.vod_id = data["id"]
+            vodShort.vod_name = data["video_name"]
+            vodShort.vod_remarks = data["qingxidu"]
+            vodShort.vod_pic = Utils.formatUrl(data["img"])
+            videos.push(vodShort)
+        }
+
         return videos
     }
 
@@ -299,9 +318,16 @@ class NanGuaSpider extends Spider {
         this.vodDetail = await this.parseVodDetailfromJson(data)
     }
 
-    async setSearch(wd, quick) {
-        let data = JSON.parse(await this.fetch(this.siteUrl + '/api.php/provide/search_result_more?app=ylys&video_name=' + wd + '&pageSize=20&tid=0&imei=c431ea542cee9679&page=0', null, this.getHeader())).data;
+    async setSearch(wd, quick, pg) {
+        let page = parseInt(pg)
+        const limit = 20
+        let data = JSON.parse(await this.fetch(this.siteUrl + '/api.php/provide/search_result_more?app=ylys&video_name=' + wd + `&pageSize=${limit}&tid=0&imei=c431ea542cee9679&page=${pg}`, null, this.getHeader())).data;
         this.vodList = await this.parseVodShortListFromJsonBySearch(data)
+        let pageCount = page;
+        if (this.vodList.length === limit) {
+            pageCount = page + 1;
+        }
+        this.result.setPage(page, pageCount, limit, pageCount)
     }
 
     async setPlay(flag, id, flags) {
@@ -359,4 +385,5 @@ export function __jsEvalReturn() {
         init: init, home: home, homeVod: homeVod, category: category, detail: detail, play: play, search: search,
     };
 }
+
 export {spider}

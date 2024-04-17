@@ -492,6 +492,7 @@ class DoubanSpider extends Spider {
         let raw_sign = [method.toLocaleUpperCase(), url_path, ts.toString()].join("&")
         return Crypto.HmacSHA1(raw_sign, _api_secret_key).toString(Crypto.enc.Base64)
     }
+
     async setHomeVod() {
         let url = this.siteUrl + "/subject_collection/subject_real_time_hotest/items"
         let content = await this.fetch(url, {"apikey": this.apiKey}, this.getHeader())
@@ -510,8 +511,8 @@ class DoubanSpider extends Spider {
         this.limit = 20;
         this.total = 0;
         let start = 0
-        if (parseInt(pg) > 1){
-          start = (parseInt(pg) - 1) * this.limit
+        if (parseInt(pg) > 1) {
+            start = (parseInt(pg) - 1) * this.limit
         }
         let cateUrl = ""
         let params = {"start": start.toString(), "count": this.limit.toString()}
@@ -565,25 +566,33 @@ class DoubanSpider extends Spider {
             this.vodList = await this.parseVodShortListFromJson(items)
         }
     }
-    async setSearch(wd, quick) {
+
+    async setSearch(wd, quick, pg) {
         let _api_url = "https://frodo.douban.com/api/v2"
         let _api_key = "0dad551ec0f84ed02907ff5c42e8ec70"
         let url = _api_url + "/search/movie"
         let date = new Date()
-        let ts = date.getFullYear().toString() + (date.getMonth() + 1).toString() + date.getDate().toString()
+        let ts = date.getFullYear().toString() + ('0' + (date.getMonth() + 1)).slice(-2).toString() + date.getDate().toString()
+        const limit = 20
         let params = {
             '_sig': this.sign(url, ts),
             '_ts': ts,
             'apiKey': _api_key,
-            'count': 20,
+            'count': limit,
             'os_rom': 'android',
             'q': encodeURIComponent(wd),
-            'start': 0
+            'start': parseInt(pg)
         }
         let content = await this.fetch(url, params, this.getSearchHeader())
         if (!_.isEmpty(content)) {
             let content_json = JSON.parse(content)
             this.vodList = await this.parseVodShortListFromJson(content_json["items"])
+            const page = parseInt(pg);
+            let pageCount = page;
+            if (this.vodList.length === limit) {
+                pageCount = page + 1;
+            }
+            this.result.setPage(page, pageCount, limit, pageCount)
         }
     }
 }
@@ -623,4 +632,5 @@ export function __jsEvalReturn() {
         init: init, home: home, homeVod: homeVod, category: category, detail: detail, play: play, search: search,
     };
 }
+
 export {spider}

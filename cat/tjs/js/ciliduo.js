@@ -11,7 +11,6 @@ import {_, load} from '../lib/cat.js';
 import {VodDetail, VodShort} from "../lib/vod.js"
 import * as Utils from "../lib/utils.js";
 import {Spider} from "./spider.js";
-import {detailContent} from "../lib/ali.js";
 
 
 class CiliDuoSpider extends Spider {
