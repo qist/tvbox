@@ -1,6 +1,42 @@
 {
     "sites": [
         {
+            "key": "hanxiucao",
+            "name": "🔞┃含羞草┃🔞",
+            "playerType": 0,
+            "type": 3,
+            "api": "./js/hanxiucao.js",
+            "timeout": 30,
+            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+        },
+        {
+            "key": "liangzi18",
+            "name": "🔞┃量子资源18+┃🔞",
+            "playerType": 0,
+            "type": 3,
+            "api": "./js/liangzi18.js",
+            "timeout": 30,
+            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+        },
+        {
+            "key": "doll",
+            "name": "🔞┃玩偶姐姐┃🔞",
+            "playerType": 0,
+            "type": 3,
+            "api": "./js/doll.js",
+            "timeout": 30,
+            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+        },
+        {
+            "key": "jable",
+            "name": "🔞┃Jable┃🔞",
+            "playerType": 0,
+            "type": 3,
+            "api": "./js/jable.js",
+            "timeout": 30,
+            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
+        },
+        {
             "key": "sehuatang",
             "name": "🔞┃色花堂BT┃🔞",
             "playerType": 0,
@@ -19,11 +55,11 @@
             "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
         },
         {
-            "key": "feifan18",
-            "name": "🔞┃非凡资源18+┃🔞",
+            "key": "ciliduo",
+            "name": "🔞┃磁力多BT┃🔞",
             "playerType": 0,
             "type": 3,
-            "api": "./js/feifan18.js",
+            "api": "./js/ciliduo.js",
             "timeout": 30,
             "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
         },
@@ -37,42 +73,6 @@
             "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
         },
         {
-            "key": "liangzi18",
-            "name": "🔞┃量子资源18+┃🔞",
-            "playerType": 0,
-            "type": 3,
-            "api": "./js/liangzi18.js",
-            "timeout": 30,
-            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
-        },
-        {
-            "key": "jable",
-            "name": "🔞┃Jable┃🔞",
-            "playerType": 0,
-            "type": 3,
-            "api": "./js/jable.js",
-            "timeout": 30,
-            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
-        },
-        {
-            "key": "ciliduo",
-            "name": "🔞┃磁力多BT┃🔞",
-            "playerType": 0,
-            "type": 3,
-            "api": "./js/ciliduo.js",
-            "timeout": 30,
-            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
-        },
-        {
-            "key": "doll",
-            "name": "🔞┃玩偶姐姐┃🔞",
-            "playerType": 0,
-            "type": 3,
-            "api": "./js/doll.js",
-            "timeout": 30,
-            "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
-        },
-        {
             "key": "nivod_18",
             "name": "🔞┃泥视频18+┃🔞",
             "playerType": 0,
@@ -82,11 +82,11 @@
             "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
         },
         {
-            "key": "hanxiucao",
-            "name": "🔞┃含羞草┃🔞",
+            "key": "feifan18",
+            "name": "🔞┃非凡资源18+┃🔞",
             "playerType": 0,
             "type": 3,
-            "api": "./js/hanxiucao.js",
+            "api": "./js/feifan18.js",
             "timeout": 30,
             "ext": "{\"box\": \"TVBox\", \"danmu\": false}"
         },

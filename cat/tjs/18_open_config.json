@@ -2,6 +2,42 @@
     "video": {
         "sites": [
             {
+                "key": "hanxiucao",
+                "name": "🔞┃含羞草┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/hanxiucao.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "liangzi18",
+                "name": "🔞┃量子资源18+┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/liangzi18.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "doll",
+                "name": "🔞┃玩偶姐姐┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/doll.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
+                "key": "jable",
+                "name": "🔞┃Jable┃🔞",
+                "playerType": 0,
+                "type": 3,
+                "api": "./js/jable.js",
+                "timeout": 30,
+                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
+            },
+            {
                 "key": "sehuatang",
                 "name": "🔞┃色花堂BT┃🔞",
                 "playerType": 0,
@@ -20,11 +56,11 @@
                 "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
             },
             {
-                "key": "feifan18",
-                "name": "🔞┃非凡资源18+┃🔞",
+                "key": "ciliduo",
+                "name": "🔞┃磁力多BT┃🔞",
                 "playerType": 0,
                 "type": 3,
-                "api": "./js/feifan18.js",
+                "api": "./js/ciliduo.js",
                 "timeout": 30,
                 "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
             },
@@ -38,42 +74,6 @@
                 "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
             },
             {
-                "key": "liangzi18",
-                "name": "🔞┃量子资源18+┃🔞",
-                "playerType": 0,
-                "type": 3,
-                "api": "./js/liangzi18.js",
-                "timeout": 30,
-                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
-            },
-            {
-                "key": "jable",
-                "name": "🔞┃Jable┃🔞",
-                "playerType": 0,
-                "type": 3,
-                "api": "./js/jable.js",
-                "timeout": 30,
-                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
-            },
-            {
-                "key": "ciliduo",
-                "name": "🔞┃磁力多BT┃🔞",
-                "playerType": 0,
-                "type": 3,
-                "api": "./js/ciliduo.js",
-                "timeout": 30,
-                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
-            },
-            {
-                "key": "doll",
-                "name": "🔞┃玩偶姐姐┃🔞",
-                "playerType": 0,
-                "type": 3,
-                "api": "./js/doll.js",
-                "timeout": 30,
-                "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
-            },
-            {
                 "key": "nivod_18",
                 "name": "🔞┃泥视频18+┃🔞",
                 "playerType": 0,
@@ -83,11 +83,11 @@
                 "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
             },
             {
-                "key": "hanxiucao",
-                "name": "🔞┃含羞草┃🔞",
+                "key": "feifan18",
+                "name": "🔞┃非凡资源18+┃🔞",
                 "playerType": 0,
                 "type": 3,
-                "api": "./js/hanxiucao.js",
+                "api": "./js/feifan18.js",
                 "timeout": 30,
                 "ext": "{\"box\": \"CatOpen\", \"danmu\": false}"
             },
@@ -103,10 +103,17 @@
     "read": {
         "sites": [
             {
-                "key": "audiomack",
-                "name": "🎵┃音声┃🎵",
+                "key": "dj0898_book_open",
+                "name": "🎵┃世纪DJ音乐网┃🎵",
                 "type": 3,
-                "api": "./js/audiomack.js",
+                "api": "./js/dj0898_book_open.js",
+                "ext": "{\"box\": \"CatOpen\"}"
+            },
+            {
+                "key": "bookan",
+                "name": "🎵┃看书┃🎵",
+                "type": 3,
+                "api": "./js/bookan.js",
                 "ext": "{\"box\": \"CatOpen\"}"
             },
             {
@@ -124,17 +131,17 @@
                 "ext": "{\"box\": \"CatOpen\"}"
             },
             {
-                "key": "dj0898_book_open",
-                "name": "🎵┃世纪DJ音乐网┃🎵",
-                "type": 3,
-                "api": "./js/dj0898_book_open.js",
+                "key": "mhdq",
+                "name": "🖌︎|韩漫18|🖌︎",
+                "type": 10,
+                "api": "./js/mhdq.js",
                 "ext": "{\"box\": \"CatOpen\"}"
             },
             {
-                "key": "bookan",
-                "name": "🎵┃看书┃🎵",
+                "key": "audiomack",
+                "name": "🎵┃音声┃🎵",
                 "type": 3,
-                "api": "./js/bookan.js",
+                "api": "./js/audiomack.js",
                 "ext": "{\"box\": \"CatOpen\"}"
             }
         ]
