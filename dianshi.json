@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;ff2a62d70456f5ccc45f5e17b24d4a45",
+"spider":"./jar/fan.txt;md5;4af14dca6964a737a88b982cb8b20055",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
 "wallpaper":"https://qist.cc/liveing/api.php",
 "sites":[
@@ -9,6 +9,7 @@
 
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"aliToken":"tvfan/token.txt","quarkCookie":"tvfan/cookie.txt","from":"4k|auto|fhd","siteUrl":"https://api.wogg.xyz/","danMu":"弹"}},
 {"key":"YGP","name":"🚀叨观荐影┃新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
+{"key":"短剧","name":"🌈上头┃短剧","type":3,"api":"csp_Djuu","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"酷看","name":"💡酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"原创","name":"☀原创┃无广","type":3,"api":"csp_YCyz","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"🍎苹果┃无广","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
