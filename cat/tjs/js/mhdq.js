@@ -16,7 +16,7 @@ class MHDQSpider extends Spider {
     }
 
     getName() {
-        return "🖌︎|韩漫18|🖌︎"
+        return "🔞|韩漫18|🔞"
     }
 
     getAppName() {
