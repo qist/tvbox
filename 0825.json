@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;39762f095f1442f6519b52b08b9e325d",
+"spider":"./jar/pg.jar;md5;7220fdfda5e9dbc5521baf2b25d8706c",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -17,7 +17,7 @@
 {"key": "JustLive","name": "JustLive","type": 3,"api": "csp_JustLive","searchable": 1,"changeable": 0},
 {"key":"lf_js_lf_live","name":"直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 { "key": "Ikanbot", "name": "爱看", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
-{"key":"榜一短剧","name":"短剧","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048","ext":{"分类":"逆袭短剧$1#甜宠短剧$3#虐恋短剧$5#穿越短剧$7#重生短剧$9#都市短剧$11#现代言情短剧$13#古装短剧$15#古代言情短剧$17#战神短剧$19#神医短剧$21#神豪短剧$23#超能短剧$25#萌宝短剧$27#复仇短剧$29#脑洞短剧$31#赘婿短剧$33#玄幻短剧$35#热血短剧$37#其他短剧$39","分类url":"https://duanjuu.com/vodshow/{cateId}--------{catePg}---.html;;m"}},
+{"key":"榜一短剧","name":"短剧","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f","ext":{"分类":"逆袭短剧$1#甜宠短剧$3#虐恋短剧$5#穿越短剧$7#重生短剧$9#都市短剧$11#现代言情短剧$13#古装短剧$15#古代言情短剧$17#战神短剧$19#神医短剧$21#神豪短剧$23#超能短剧$25#萌宝短剧$27#复仇短剧$29#脑洞短剧$31#赘婿短剧$33#玄幻短剧$35#热血短剧$37#其他短剧$39","分类url":"https://duanjuu.com/vodshow/{cateId}--------{catePg}---.html;;m"}},
 {"key":"Local","name":"本地","type":3,"api":"csp_Local","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
 
 {"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"}},
@@ -109,7 +109,7 @@
 "播放数组": "下载地址</h2>&&</ul>",
 "播放列表": "<li><&&</a>"
  },
-"jar": "./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048"
+"jar": "./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f"
 },
 {
             "key": "rarbt",
@@ -134,9 +134,9 @@
                 "分类": "电影$movie#电视剧$Series#动漫$cartoon#综艺$variety",
                 "分类url": "https://www.rarbt.fun/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
             },
-            "jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048"
+            "jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f"
         },
-{"key":"XBPQ_文才","name":"文才","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048",
+{"key":"XBPQ_文才","name":"文才","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f",
 "ext":{"分类": "国产剧&短剧&国产动漫&日韩动漫&欧美动漫&喜剧片&爱情片&恐怖片&战争片&科幻片&动作片&综艺&欧美剧&港台剧&日韩剧",
 "分类值": "14&42&75&76&77&22&26&36&25&30&23&69&15&16&62",
 "分类url": "https://api.zeqaht.com/api.php/provide/vod/?ac=list&ac=detail&t={cateId}&pg={catePg}",
@@ -171,14 +171,14 @@
 "免嗅": "0"
 }
 },
-{"key":"XBPQ_BaiPiao","name":"白嫖","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048",
+{"key":"XBPQ_BaiPiao","name":"白嫖","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f",
 "ext": {
 "地区":"[替换:大陆>>中国大陆#香港>>中国香港#台湾>>中国台湾]",
 "分类": "电影$1#电视剧$2#动漫$3#短剧$4#综艺$5",
 "分类url": "https://www.baipiaoys.com:9092/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html"
 }
 },
-{"key":"XBPQ_黑狐影院","name":"黑狐","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048",
+{"key":"XBPQ_黑狐影院","name":"黑狐","type":3,"api":"csp_XBPQ", "jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f",
 "ext": {
 "站名": "黑狐影院",
 "主页url": "http://fagmn.com",
@@ -215,7 +215,7 @@
 {
 "key":"XBPQ_电影先生",
 "name": "电影先生",
-"jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048",
+"jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -233,7 +233,7 @@
 "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
 }
 },
-{"key": "XBPQ_麻衣影院","name":"麻衣","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048",
+{"key": "XBPQ_麻衣影院","name":"麻衣","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f",
 "ext": {"分类url":"https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"}
 },
         {
@@ -247,7 +247,7 @@
                         },
                         "quickSearch": 0,
                         "api": "csp_XBPQ",
-                        "jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048",
+                        "jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f",
                         "ext": {
                                 "主页url": "https://www.xsmp3.com",
                                 "数组二次截取": "<ul id=\"post_list_box\">&&</ul",
@@ -282,7 +282,7 @@
                         },
                         "quickSearch": 0,
                         "api": "csp_XBPQ",
-                        "jar":"./jar/XBPQ.jar;md5;518d66b6cd98f169579f71ec43032048",
+                        "jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f",
                         "ext": {
                                 "主页url": "https://www.psmp3.com",
                                 "数组二次截取": "<ul id=\"post_list_box\">&&</ul",

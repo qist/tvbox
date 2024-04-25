@@ -4,7 +4,7 @@
             {
                 "key": "hanxiucao",
                 "name": "🔞┃含羞草┃🔞",
-                "api": "js/hanxiucao.js",
+                "api": "./js/hanxiucao.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -15,7 +15,7 @@
             {
                 "key": "liangzi18",
                 "name": "🔞┃量子资源18+┃🔞",
-                "api": "js/liangzi18.js",
+                "api": "./js/liangzi18.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -26,7 +26,7 @@
             {
                 "key": "doll",
                 "name": "🔞┃玩偶姐姐┃🔞",
-                "api": "js/doll.js",
+                "api": "./js/doll.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -37,7 +37,7 @@
             {
                 "key": "jable",
                 "name": "🔞┃Jable┃🔞",
-                "api": "js/jable.js",
+                "api": "./js/jable.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -48,7 +48,7 @@
             {
                 "key": "sehuatang",
                 "name": "🔞┃色花堂BT┃🔞",
-                "api": "js/sehuatang.js",
+                "api": "./js/sehuatang.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -59,7 +59,7 @@
             {
                 "key": "hscangku",
                 "name": "🔞┃黄色仓库┃🔞",
-                "api": "js/hscangku.js",
+                "api": "./js/hscangku.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -70,7 +70,7 @@
             {
                 "key": "ciliduo",
                 "name": "🔞┃磁力多BT┃🔞",
-                "api": "js/ciliduo.js",
+                "api": "./js/ciliduo.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -81,7 +81,7 @@
             {
                 "key": "asianx",
                 "name": "🔞┃海外宅┃🔞",
-                "api": "js/asianx.js",
+                "api": "./js/asianx.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -92,7 +92,7 @@
             {
                 "key": "nivod_18",
                 "name": "🔞┃泥视频18+┃🔞",
-                "api": "js/nivod_18.js",
+                "api": "./js/nivod_18.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -103,7 +103,7 @@
             {
                 "key": "feifan18",
                 "name": "🔞┃非凡资源18+┃🔞",
-                "api": "js/feifan18.js",
+                "api": "./js/feifan18.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
