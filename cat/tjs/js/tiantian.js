@@ -81,21 +81,18 @@ class TianTianSpider extends Spider {
         const param = {
             type_id: tid, page: pg, limit: limit,
         };
-        if (extend.class) {
-            param.class = extend.class;
+        if (extend["extend"] !== undefined && extend["extend"] !== "全部") {
+            param.class = extend["extend"];
         }
-        if (extend.area) {
+        if (extend["area"] !== undefined && extend["area"] !== "全部") {
             param.area = extend.area;
         }
-        if (extend.lang) {
+        if (extend["lang"] !== undefined && extend["lang"] !== "全部") {
             param.lang = extend.lang;
         }
-        if (extend.year) {
+        if (extend["year"] !== undefined && extend["year"] !== "全部") {
             param.year = extend.year;
         }
-        // if (extend.order) {
-        //     param.order = extend.order;
-        // }
         return param;
     }
 
@@ -104,10 +101,22 @@ class TianTianSpider extends Spider {
         Object.keys(data).forEach(key => {
             if (Array.isArray(data[key])) {
                 let extend_dic = {"key": key, "name": this.extendObj[key], "value": []}
+                let add_year_status = false
                 for (const extend_data of data[key]) {
-                    extend_dic["value"].push({"n": extend_data, "v": extend_data})
+                    if (key === "year") {
+                        if (!data[key].includes("2024") && extend_data !== "全部" && !add_year_status) {
+                            extend_dic["value"].push({"n": "2024", "v": "2024"})
+                            add_year_status = true
+                        }
+                    }
+                    if (!_.isEmpty(extend_data)) {
+                        extend_dic["value"].push({"n": extend_data, "v": extend_data})
+                    }
+
                 }
-                extend_list.push(extend_dic)
+                if (extend_dic["value"].length > 1) {
+                    extend_list.push(extend_dic)
+                }
             }
         })
         return extend_list
@@ -128,10 +137,10 @@ class TianTianSpider extends Spider {
         for (const vodData of vodList) {
             let vodShort = new VodShort()
             vodShort.load_data(vodData)
-            if (_.isEmpty(vodShort.vod_pic) && vodData["vod_pic_thumb"] !== undefined){
+            if (_.isEmpty(vodShort.vod_pic) && vodData["vod_pic_thumb"] !== undefined) {
                 vodShort.vod_pic = vodData["vod_pic_thumb"]
             }
-            if (vodShort.vod_name !== "首页轮播"){
+            if (vodShort.vod_name !== "首页轮播") {
                 vod_list.push(vodShort)
             }
 
@@ -172,15 +181,15 @@ class TianTianSpider extends Spider {
 
         for (const data of resJson["data"]["type_vod"]) {
             if (data["type_name"] !== "广告") {
-               vod_list = await this.parseVodShortListFromJson(data["vod"])
-               this.homeVodList = [...this.homeVodList,...vod_list]
+                vod_list = await this.parseVodShortListFromJson(data["vod"])
+                this.homeVodList = [...this.homeVodList, ...vod_list]
             }
 
         }
         vod_list = await this.parseVodShortListFromJson(resJson["data"]["loop"])
-        this.homeVodList = [...this.homeVodList,...vod_list]
+        this.homeVodList = [...this.homeVodList, ...vod_list]
         vod_list = await this.parseVodShortListFromJson(resJson["data"]["cai"])
-        this.homeVodList = [...this.homeVodList,...vod_list]
+        this.homeVodList = [...this.homeVodList, ...vod_list]
     }
 
     async setCategory(tid, pg, filter, extend) {
