@@ -44,7 +44,7 @@
       "dtActorR": "",
       "dtDesc": "//article[@class='detail-con']/p/text()",
       "dtDescR": "",
-      "dtFromNode": "//div[@class='hd']/ul/li/a",
+      "dtFromNode": "//a[@class='greenBtn']",
       "dtFromName": "/text()",
       "dtFromNameR": "",
       "dtUrlNode": "//div[@class='numList']/ul",

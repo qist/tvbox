@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;7220fdfda5e9dbc5521baf2b25d8706c",
+"spider":"./jar/pg.jar;md5;55187a60bc1295a55499ece1438436d2",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -12,12 +12,10 @@
 {"key":"drpy_js_磁力熊搜索","name":"熊搜","type":3,"api":"./lib/drpy2.min.js","ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
 {"key":"csp_YGP","name":"预告片","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"csp_Bili","name":"哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"style":{"type":"rect","ratio":1.755},"filterable":1,"changeable":0,"ext":{"json":"./json/bili.json","cookie": ""}},
-{"key":"bili_open","name":"哔哩貓","type":3,"api":"./cat/js/bili_open.js","searchable":1,"changeable":0,"ext":{"categories":"沙雕动画#帕梅拉#音乐#舞蹈#风景#美食#科普#历史#法考#医考#法医学","cookie":""}},
 {"key": "FirstAid","name": "急救 ","type": 3,"api": "csp_FirstAid","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8}},
 {"key": "JustLive","name": "JustLive","type": 3,"api": "csp_JustLive","searchable": 1,"changeable": 0},
 {"key":"lf_js_lf_live","name":"直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
 { "key": "Ikanbot", "name": "爱看", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 , "ext":"https://v.ikanbot.com$$$proxy"},
-{"key":"榜一短剧","name":"短剧","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar;md5;1fe7efed80f9bad449138694852bd28f","ext":{"分类":"逆袭短剧$1#甜宠短剧$3#虐恋短剧$5#穿越短剧$7#重生短剧$9#都市短剧$11#现代言情短剧$13#古装短剧$15#古代言情短剧$17#战神短剧$19#神医短剧$21#神豪短剧$23#超能短剧$25#萌宝短剧$27#复仇短剧$29#脑洞短剧$31#赘婿短剧$33#玄幻短剧$35#热血短剧$37#其他短剧$39","分类url":"https://duanjuu.com/vodshow/{cateId}--------{catePg}---.html;;m"}},
 {"key":"Local","name":"本地","type":3,"api":"csp_Local","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
 
 {"key":"看球","name":"看球","type":3,"api":"csp_Kanqiu","searchable":1,"changeable":0,"style":{"type":"list"}},
