@@ -2,8 +2,8 @@
 var rule={
 	title:'农民影视',
 	//host:'https://www.nmddd.com',
-	host:'https://www.nmdvd.com/',
-	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});let src = jsp.pdfh(html,"body&&a:eq(0)&&href");print(src);HOST=src',
+	host:'https://v.nmvod.cn/',
+	// hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});let src = jsp.pdfh(html,"body&&a:eq(0)&&href");print(src);HOST=src',
 	url:'/vod-list-id-fyfilter.html',
 	// /vod-list-id-2-pg-1-order--by-time-class-0-year-2023-letter--area--lang-.html
 	filterable:1,//是否启用分类筛选,
