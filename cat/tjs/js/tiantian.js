@@ -16,9 +16,8 @@ class TianTianSpider extends Spider {
         super();
         this.siteUrl = "http://op.ysdqjs.cn"
         this.cookie = ""
-        this.extendObj = {"extend": "类型", "area": "地区", "lang": "语言", "year": "年代"}
+        this.extendObj = {"extend": "类型", "area": "地区", "year": "年代"}
         this.parseMap = {};
-
     }
 
     async request(reqUrl, method, data) {
@@ -74,7 +73,7 @@ class TianTianSpider extends Spider {
 
     async init(cfg) {
         await super.init(cfg);
-        this.danmuStaus = false
+        this.danmuStaus = true
     }
 
     generateParam(tid, pg, extend, limit) {
@@ -100,22 +99,24 @@ class TianTianSpider extends Spider {
         let extend_list = []
         Object.keys(data).forEach(key => {
             if (Array.isArray(data[key])) {
-                let extend_dic = {"key": key, "name": this.extendObj[key], "value": []}
-                let add_year_status = false
-                for (const extend_data of data[key]) {
-                    if (key === "year") {
-                        if (!data[key].includes("2024") && extend_data !== "全部" && !add_year_status) {
-                            extend_dic["value"].push({"n": "2024", "v": "2024"})
-                            add_year_status = true
+                if (!_.isEmpty(this.extendObj[key])) {
+                    let extend_dic = {"key": key, "name": this.extendObj[key], "value": []}
+                    let add_year_status = false
+                    for (const extend_data of data[key]) {
+                        if (key === "year") {
+                            if (!data[key].includes("2024") && extend_data !== "全部" && !add_year_status) {
+                                extend_dic["value"].push({"n": "2024", "v": "2024"})
+                                add_year_status = true
+                            }
                         }
-                    }
-                    if (!_.isEmpty(extend_data)) {
-                        extend_dic["value"].push({"n": extend_data, "v": extend_data})
-                    }
+                        if (!_.isEmpty(extend_data)) {
+                            extend_dic["value"].push({"n": extend_data, "v": extend_data})
+                        }
 
-                }
-                if (extend_dic["value"].length > 1) {
-                    extend_list.push(extend_dic)
+                    }
+                    if (extend_dic["value"].length > 1) {
+                        extend_list.push(extend_dic)
+                    }
                 }
             }
         })
@@ -210,7 +211,6 @@ class TianTianSpider extends Spider {
     async setPlay(flag, id, flags) {
         const parsers = this.parseMap[flag];
         if (flag.indexOf("芒果") > -1 || flag.indexOf("腾讯") > -1 || flag.indexOf("爱奇艺") > -1) {
-            this.danmuStaus = true
             if (!this.catOpenStatus) {
                 this.danmuUrl = await this.danmuSpider.downloadDanmu("https://dmku.thefilehosting.com/?ac=dm&url=" + id)
             }

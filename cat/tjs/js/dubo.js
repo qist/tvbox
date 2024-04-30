@@ -13,7 +13,7 @@ class DuboSpider extends TianTianSpider {
         super();
         this.siteUrl = "http://v.rbotv.cn"
         this.cookie = ""
-        this.extendObj = {"extend": "类型", "area": "地区", "lang": "语言", "year": "年代"}
+        this.extendObj = {"extend": "类型", "area": "地区", "year": "年代"}
         this.parseMap = {};
 
     }

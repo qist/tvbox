@@ -47,6 +47,17 @@
                 "type": 3
             },
             {
+                "key": "cntv",
+                "name": "🤵‍♂️┃中央影视┃🤵‍♂️",
+                "api": "./js/cntv.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "playerType": 0,
+                "type": 3
+            },
+            {
                 "key": "kuaikan",
                 "name": "🛥︎┃快看视频┃🛥︎",
                 "api": "./js/kuaikan.js",
@@ -208,17 +219,6 @@
                 "key": "jianpian",
                 "name": "🌼┃荐片┃🌼",
                 "api": "./js/jianpian.js",
-                "timeout": 30,
-                "ext": {
-                    "box": "CatOpen"
-                },
-                "playerType": 0,
-                "type": 3
-            },
-            {
-                "key": "yiqikan",
-                "name": "🛫┃一起看┃🛫",
-                "api": "./js/yiqikan.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"

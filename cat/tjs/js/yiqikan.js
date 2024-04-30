@@ -4,7 +4,7 @@
 * @Date     : 2024/3/19 18:45
 * @Email    : jadehh@1ive.com
 * @Software : Samples
-* @Desc     : 一起看
+* @Desc     : 一起看 (已失效)
 */
 import * as Utils from "../lib/utils.js";
 import {_, load} from "../lib/cat.js";
@@ -35,7 +35,7 @@ class YiQiKanSpider extends Spider {
 
 
     getName() {
-        return "🛫┃一起看┃🛫"
+        return `🛫┃一起看┃🛫`
     }
 
     getAppName() {
