@@ -6,11 +6,11 @@
 * @Software : Samples
 * @Desc     :
 */
-import {Spider} from "./spider.js";
-import {_, Crypto, load} from "../lib/cat.js";
-import {VodDetail, VodShort} from "../lib/vod.js";
+import { Spider } from "./spider.js";
+import { _, Crypto, load } from "../lib/cat.js";
+import { VodDetail, VodShort } from "../lib/vod.js";
 import * as Utils from "../lib/utils.js";
-import {detailContent, initAli, playContent} from "../lib/ali.js";
+import { detailContent, initAli, playContent } from "../lib/ali.js";
 
 function cryptJs(text, key, iv, type) {
     let key_value = Crypto.enc.Utf8.parse(key || 'PBfAUnTdMjNDe6pL');
@@ -58,9 +58,9 @@ class ChangZhangSpider extends Spider {
     }
 
     async getHtml(url = this.siteUrl, headers = this.getHeader()) {
-        let response = await this.fetch(url, null, headers,false,true);
+        let response = await this.fetch(url, null, headers, false, true);
         let html = response["content"]
-        if (!_.isEmpty(html) && html.indexOf("人机验证")===-1) {
+        if (!_.isEmpty(html) && html.indexOf("人机验证") === -1) {
             return load(html)
         } else {
             await this.jadeLog.error(`html获取失败`, true)
@@ -70,8 +70,8 @@ class ChangZhangSpider extends Spider {
         return {
             "Cookie": "cf_clearance=otYZbHg1safCIxkCtZfy9DPKbf1Gs_zUskkVDc0MVKM-1707026063-1-ATOpKnTLv9+pv171YE/rzxN/nmvGN9Mucx7vpwp0kW2vZb/cbtz5e2md2/ym7EE+9dT7pPBV+kQOg9vJx2v8cks=;myannoun=1;PHPSESSID=73386nobqugs7r3pb2ljcsp5q4",
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/100.0.4896.77 Mobile/15E148 Safari/604.1",
-            "Connection":"keep-alive",
-            "Host":"www.czzy55.com"
+            "Connection": "keep-alive",
+            "Host": "www.czys.top"
         }
     }
 
@@ -216,7 +216,7 @@ class ChangZhangSpider extends Spider {
             key: 'tag', name: '类型', value: _.map(tags, (n) => {
                 let v = n.attribs['cat-url'] || '';
                 v = v.substring(v.lastIndexOf('/') + 1);
-                return {n: n.children[0].data, v: v};
+                return { n: n.children[0].data, v: v };
             }),
         };
         tag['init'] = tag.value[0].v;
@@ -233,9 +233,9 @@ class ChangZhangSpider extends Spider {
             const index = sortName.indexOf(c.type_name);
             return index === -1 ? sortName.length : index;
         });
-        for (const sort_class of sort_classes){
+        for (const sort_class of sort_classes) {
             let type_name = sort_class["type_name"]
-            if (type_name!=="会员专区" && type_name !== "站长推荐"){
+            if (type_name !== "会员专区" && type_name !== "站长推荐") {
                 this.classes.push(sort_class)
             }
         }
@@ -260,7 +260,7 @@ class ChangZhangSpider extends Spider {
     }
 
     async setSearch(wd, quick) {
-        const $ = await this.getHtml(this.siteUrl + '/xssearch?q=' + wd,this.getSearchHeader());
+        const $ = await this.getHtml(this.siteUrl + '/xssearch?q=' + wd, this.getSearchHeader());
         let html = $.html()
         this.vodList = await this.parseVodShortListFromDocBySearch($)
 
@@ -268,7 +268,7 @@ class ChangZhangSpider extends Spider {
 
     async setPlay(flag, id, flags) {
         if (flag.indexOf("阿里云盘") > -1) {
-            flag = flag.replaceAll("阿里云盘-","")
+            flag = flag.replaceAll("阿里云盘-", "")
             this.playUrl = JSON.parse(await playContent(flag, id, flags))["url"];
         } else {
             if (id.indexOf("magnet") > -1) {
@@ -344,4 +344,4 @@ export function __jsEvalReturn() {
         search: search,
     };
 }
-export {spider}
+export { spider }
