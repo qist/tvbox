@@ -1,0 +1,14 @@
+{
+"分类url": "https://dianyi.ng/pianku-{cateId}-{area}-------{catePg}---{year}.html",
+"简介": "class=\"video-info-item video-info-content vod_content\">&&</span>",
+"搜索url": "https://dianyi.ng/search--------------.html?wd={wd}",
+"搜索数组": "<div class=\"module-item-pic\">&&</div>",
+"图片": "src=\"&&\"",
+"搜索标题": "title=\"&&\"",
+"搜索副标题": ">&&</a>",
+"线路数组": "data-dropdown-value=&&</div>",
+"线路标题": "<span>&&</small>[替换:<span></small>共]+集",
+"播放数组": "<div class=\"scroll-content\">&&</div>",
+"播放标题": "<span>&&</span>",
+"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi"
+}
