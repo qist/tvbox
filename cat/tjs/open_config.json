@@ -308,6 +308,17 @@
                 "type": 3
             },
             {
+                "key": "lovemovie",
+                "name": "💕┃爱情电影网┃💕",
+                "api": "./js/lovemovie.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "playerType": 0,
+                "type": 3
+            },
+            {
                 "key": "cilixiong",
                 "name": "🐻┃磁力熊┃🐻",
                 "api": "./js/cilixiong.js",

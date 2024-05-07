@@ -8,8 +8,7 @@
 */
 import {Crypto} from "./cat.js";
 import {TextDecoder} from "./TextDecoder.js";
-
-;
+import {TextEncoder} from "./TextEncoder.js";
 // import {TextDecoder} from "text-decoding";
 const deviceBrands = ['Huawei', 'Xiaomi'];
 const deviceModels = [
@@ -162,6 +161,11 @@ function decode(buffer, encode_type) {
     return decoder.decode(buffer)
 }
 
+function encode(buffer, encode_type) {
+    let encoder = new TextEncoder(encode_type)
+    return encoder.encode(buffer)
+}
+
 function getHost(url) {
     let url_list = url.split("/")
     return url_list[0] + "//" + url_list[2]
@@ -304,5 +308,6 @@ export {
     randStr,
     randUUID,
     formatContent,
-    formatUrl
+    formatUrl,
+    encode
 };

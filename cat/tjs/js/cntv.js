@@ -10,9 +10,6 @@ import {Spider} from "./spider.js";
 import {_} from "../lib/cat.js";
 import * as Utils from "../lib/utils.js";
 import {VodDetail, VodShort} from "../lib/vod.js";
-import * as util from "util";
-import {it} from "node:test";
-
 class CNTVSpider extends Spider {
     constructor() {
         super();

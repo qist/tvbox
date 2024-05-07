@@ -77,7 +77,7 @@ class DanmuSpider {
         let uri = new Uri(url);
         let response;
         response = await req(uri.toString(), {method: "get", headers: headers, buffer: buffer, data: null})
-        if (response.code === 200 || response.code === 302 || response.code === 301 || return_cookie) {
+        if (response.code === 201 || response.code === 200 || response.code === 302 || response.code === 301 || return_cookie) {
             return await this.getResponse(reqUrl, params, headers, redirect_url, return_cookie, buffer, response)
         } else {
             await this.jadeLog.error(`请求失败,失败原因为:状态码出错,请求url为:${uri},回复内容为:${JSON.stringify(response)}`)

@@ -246,6 +246,10 @@ class Spider {
     getTypeDic(type_name, type_id) {
         return {"type_name": type_name, "type_id": type_id}
     }
+    getFliterDic(type_name, type_id) {
+        return {"n": type_name, "v": type_id}
+    }
+
 
     async getHtml(url = this.siteUrl, proxy = false, headers = this.getHeader()) {
         let html = await this.fetch(url, null, headers, false, false, 0, proxy)
@@ -264,12 +268,12 @@ class Spider {
         return class_name_list
     }
 
-    async postReconnect(reqUrl, params, headers) {
+    async postReconnect(reqUrl, params, headers,postType,buffer) {
         await this.jadeLog.error("请求失败,请检查url:" + reqUrl + ",两秒后重试")
         Utils.sleep(2)
         if (this.reconnectTimes < this.maxReconnectTimes) {
             this.reconnectTimes = this.reconnectTimes + 1
-            return await this.post(reqUrl, params, headers)
+            return await this.post(reqUrl, params, headers,postType,buffer)
         } else {
             await this.jadeLog.error("请求失败,重连失败")
             return null
@@ -335,10 +339,10 @@ class Spider {
     }
 
 
-    async post(reqUrl, params, headers, postType = "form") {
+    async post(reqUrl, params, headers, postType = "form",buffer = 0) {
         let uri = new Uri(reqUrl);
         let response = await req(uri.toString(), {
-            method: "post", headers: headers, data: params, postType: postType
+            method: "post", headers: headers, data: params, postType: postType,buffer: buffer
         });
         if (response.code === 200 || response.code === undefined || response.code === 302) {
             // 重定向
@@ -348,11 +352,11 @@ class Spider {
                 this.reconnectTimes = 0
                 return response.content
             } else {
-                return await this.postReconnect(reqUrl, params, headers)
+                return await this.postReconnect(reqUrl, params, headers,postType,buffer)
             }
         } else {
             await this.jadeLog.error(`请求失败,请求url为:${reqUrl},回复内容为${JSON.stringify(response)}`)
-            return await this.postReconnect(reqUrl, params, headers)
+            return await this.postReconnect(reqUrl, params, headers,postType,buffer)
 
         }
     }

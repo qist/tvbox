@@ -79,6 +79,17 @@
                 "type": 3
             },
             {
+                "key": "lovemovie18",
+                "name": "🔞┃爱情电影网18+┃🔞",
+                "api": "./js/lovemovie18.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "playerType": 0,
+                "type": 3
+            },
+            {
                 "key": "asianx",
                 "name": "🔞┃海外宅┃🔞",
                 "api": "./js/asianx.js",
