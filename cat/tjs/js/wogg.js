@@ -16,7 +16,7 @@ import {Spider} from "./spider.js";
 class WoggSpider extends Spider {
     constructor() {
         super();
-        this.siteUrl = 'https://tvfan.xxooo.cf';
+        this.siteUrl = 'https://www.wogg.xyz';
         this.woggTypeObj = {"玩偶电影":"电影","玩偶剧集":"电视剧"}
     }
 

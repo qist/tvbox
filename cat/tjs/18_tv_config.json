@@ -485,7 +485,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://agit.ai/fantaiying/0/raw/branch/main/tvlive.txt",
+            "url": "https://gh.con.sh/https://github.com/jadehh/LiveSpider/blob/main/live/live.txt",
             "playerType": 1,
             "ua": "okhttp/3.15",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",

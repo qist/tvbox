@@ -10,11 +10,13 @@ import {Spider} from "./spider.js";
 import {_} from "../lib/cat.js";
 import * as Utils from "../lib/utils.js";
 import {VodDetail, VodShort} from "../lib/vod.js";
+
 class CNTVSpider extends Spider {
     constructor() {
         super();
         this.siteUrl = "https://tv.cctv.com/m/index.shtml"
         this.apiUrl = "https://api.app.cctv.com"
+        this.liveJsonUrl = "https://gh.con.sh/https://github.com/jadehh/LiveSpider/blob/main/json/live.json"
 
     }
 
@@ -34,6 +36,15 @@ class CNTVSpider extends Spider {
         return 3
     }
 
+    async spiderInit() {
+        await super.spiderInit();
+        this.liveJson = JSON.parse(await this.fetch(this.liveJsonUrl, null, null))
+    }
+
+    async init(cfg) {
+        await super.init(cfg);
+        await this.spiderInit()
+    }
 
     async getFilterByLive(dataList) {
         let extend_list = []
@@ -47,10 +58,10 @@ class CNTVSpider extends Spider {
         return extend_list
     }
 
-    arrayIsinclude(str,items){
+    arrayIsinclude(str, items) {
         let isInclude = false
-        for (const data of items){
-            if (str === data["title"]){
+        for (const data of items) {
+            if (str === data["title"]) {
                 return true
             }
         }
@@ -64,12 +75,12 @@ class CNTVSpider extends Spider {
             let extend_dic = {"key": data["classname"], "name": data["title"], "value": []}
             for (const extendData of data["items"]) {
                 if (data["classname"] === "nianfen") {
-                    if (!this.arrayIsinclude("2024",data["items"]) && extendData["title"] !== "全部" && !add_year_status) {
+                    if (!this.arrayIsinclude("2024", data["items"]) && extendData["title"] !== "全部" && !add_year_status) {
                         extend_dic["value"].push({"n": "2024", "v": "2024"})
                         add_year_status = true
                     }
                 }
-                extend_dic["value"].push({"n": extendData["title"], "v":extendData["title"]})
+                extend_dic["value"].push({"n": extendData["title"], "v": extendData["title"]})
             }
             extend_list.push(extend_dic)
         }
@@ -150,15 +161,23 @@ class CNTVSpider extends Spider {
         let liveResponse = await req(liveApiUrl, {"headers": this.getHeader()})
         let liveJson = JSON.parse(liveResponse["content"])
         let playList = {}
-        playList["直播"] = ["点击播放$" + liveJson["hls_url"]["hls2"]]
+        let channelName = obj["channelName"].split(" ")[0].replaceAll("-", "").toLowerCase()
+        let liveUrl = this.liveJson[channelName] ?? liveJson["hls_url"]["hls2"]
+        playList["直播"] = ["点击播放$" + liveUrl]
         await this.jadeLog.info(`liveJson:${JSON.stringify(liveJson)}`)
         let vod_items = []
-        for (const data of obj["program"]) {
-            let episodeName = data["showTime"] + "-" + data["t"]
-            let episodeUrl = liveJson["hls_url"]["hls1"] + `?begintimeabs=${data["st"] * 1000}&endtimeabs=${data["et"] * 1000}`
-            vod_items.push(episodeName + "$" + episodeUrl)
+        if (this.liveJson[channelName] !== undefined) {
+
+        } else {
+            for (const data of obj["program"]) {
+                let episodeName = data["showTime"] + "-" + data["t"]
+                let episodeUrl = liveUrl + `?begintimeabs=${data["st"] * 1000}&endtimeabs=${data["et"] * 1000}`
+                vod_items.push(episodeName + "$" + episodeUrl)
+            }
         }
-        playList["点播"] = vod_items.join("#")
+        if (vod_items.length > 0){
+            playList["点播"] = vod_items.join("#")
+        }
         return playList
     }
 
@@ -233,11 +252,11 @@ class CNTVSpider extends Spider {
         this.homeVodList = await this.parseVodShortListFromJson(resJson["data"]["templates"])
     }
 
-    getExtendValue(extend,key){
-        if (extend[key] !== undefined && extend[key] !== "全部"){
+    getExtendValue(extend, key) {
+        if (extend[key] !== undefined && extend[key] !== "全部") {
             return extend[key]
         }
-        return  ""
+        return ""
     }
 
     async setCategory(tid, pg, filter, extend) {
@@ -247,10 +266,10 @@ class CNTVSpider extends Spider {
             let response = JSON.parse(await this.fetch(url, null, this.getHeader()))
             this.vodList = this.parseVodShortByJson(response["data"]["templates"][0]["items"])
         } else {
-            let letter = this.getExtendValue(extend,"zimu")
-            let area = this.getExtendValue(extend,"diqu")
-            let type = this.getExtendValue(extend,"leixing")
-            let year = this.getExtendValue(extend,"nianfen")
+            let letter = this.getExtendValue(extend, "zimu")
+            let area = this.getExtendValue(extend, "diqu")
+            let type = this.getExtendValue(extend, "leixing")
+            let year = this.getExtendValue(extend, "nianfen")
             const limit = 12
             let url = "https://api.cntv.cn" + `/newVideoset/getCboxVideoAlbumList`
             let params = {
