@@ -377,6 +377,16 @@
                 "type": 10
             },
             {
+                "key": "ttkan",
+                "name": "📚︎┃天天看小说┃📚︎",
+                "api": "./js/ttkan.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "type": 10
+            },
+            {
                 "key": "bookan",
                 "name": "🎵┃看书┃🎵",
                 "api": "./js/bookan.js",
