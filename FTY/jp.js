@@ -6,7 +6,7 @@
 
 var rule = {
 	title: '荐片',
-	host: 'http://oiuzy.haitu33.com',
+	host: 'http://112.124.0.131:20000/',
 	homeUrl: '/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
 	// url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',
