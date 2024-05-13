@@ -83,6 +83,7 @@ class BQQSpider extends Spider {
         bookDetail.book_content = $('[property$=description]')[0].attribs.content
         bookDetail.book_pic = $($("[class=\"cover\"]")).find("img")[0].attribs.src
         bookDetail.book_id = id
+        let playBook = {}
         if (id !== undefined) {
             $ = await this.getHtml(this.siteUrl + id + `list.html`);
             let urls = [];
@@ -92,9 +93,13 @@ class BQQSpider extends Spider {
                 const link = l.attribs.href;
                 urls.push(name + '$' + link);
             }
-            bookDetail.volumes = '全卷';
-            bookDetail.urls = urls.join('#');
+            playBook["最新章节"] = urls.slice(-10).join('#');
+            playBook["目录"] = urls.join('#');
+
         }
+        bookDetail.volumes = _.keys(playBook).join('$$$');
+        bookDetail.urls = _.values(playBook).join('$$$');
+
         return bookDetail
 
     }

@@ -46,6 +46,17 @@
                 "type": 3
             },
             {
+                "key": "jiujiuliu",
+                "name": "🔞┃九九六影视┃🔞",
+                "api": "./js/jiujiuliu.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "playerType": 0,
+                "type": 3
+            },
+            {
                 "key": "sehuatang",
                 "name": "🔞┃色花堂BT┃🔞",
                 "api": "./js/sehuatang.js",

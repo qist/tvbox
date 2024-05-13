@@ -15,11 +15,11 @@ import * as Utils from "../lib/utils.js";
 class JiuJiuLiuSpider extends Spider {
     constructor() {
         super();
-        this.siteUrl = "https://www.cs1369.com"
+        this.siteUrl = "https://www.ojig519d8se.icu"
     }
 
     getName() {
-        return "🥃┃九九六影视┃🥃"
+        return "🔞┃九九六影视┃🔞"
     }
 
     getAppName() {
@@ -91,7 +91,7 @@ class JiuJiuLiuSpider extends Spider {
     }
 
     async setClasses() {
-        let html = await this.fetch(this.siteUrl, null, this.getHeader())
+        let html = await this.fetch(this.siteUrl, null, this.getHeader(),false,false,0,true)
         if (html !== null) {
             let $ = load(html)
             let menuElements = $("[class=\"stui-header__menu type-slide\"]").find("a")

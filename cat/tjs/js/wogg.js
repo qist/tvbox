@@ -104,7 +104,7 @@ class WoggSpider extends Spider {
             vodShort.vod_id = $(item).find(".video-serial")[0].attribs.href;
             vodShort.vod_name = $(item).find(".video-serial")[0].attribs.title;
             vodShort.vod_pic = $(item).find(".module-item-pic > img")[0].attribs['data-src'];
-            vodShort.vod_remarks = '';
+            vodShort.vod_remarks = $($(item).find(".video-serial")[0]).text();
             vod_list.push(vodShort);
         }
         return vod_list

@@ -1,5 +1,5 @@
 import { inRange } from './text_decoder_utils.js'
-import Indexes from './encoding-indexes.js'
+import {Indexes} from './encoding-indexes.js'
 
 //
 // 6. Indexes

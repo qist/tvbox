@@ -103,17 +103,6 @@
             "type": 3
         },
         {
-            "key": "jiujiuliu",
-            "name": "🥃┃九九六影视┃🥃",
-            "api": "./js/jiujiuliu.js",
-            "timeout": 30,
-            "ext": {
-                "box": "TVBox"
-            },
-            "playerType": 0,
-            "type": 3
-        },
-        {
             "key": "bilibili",
             "name": "🏰┃哔哩哔哩┃🏰",
             "api": "./js/bilibili.js",

@@ -121,9 +121,11 @@ class LiuJiuShuSpider extends Spider {
             }
             let name = $($(urlElemnet).find("[class=\"title jcc\"]")).text()
             if (_.isEmpty(name)) {
-                playBook[$(sectionElement).text()] = vodItems.join("#")
+                let text = $(sectionElement).text().split("（")[0]
+                playBook[text] = vodItems.join("#")
             } else {
-                playBook[name] = vodItems.join("#")
+                name = name.replaceAll("《","").replaceAll("》","").replaceAll(bookDetail.book_name,"")
+                playBook[name] = vodItems.reverse().join("#")
             }
         }
         bookDetail.volumes = _.keys(playBook).join('$$$');

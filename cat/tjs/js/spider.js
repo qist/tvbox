@@ -324,7 +324,7 @@ class Spider {
                 method: "get", headers: headers, buffer: buffer, data: null, redirect: 2, proxy: proxy
             })
         } else {
-            response = await req(uri.toString(), {method: "get", headers: headers, buffer: buffer, data: null,proxy:proxy});
+            response = await req(uri.toString(), {method: "get", headers: headers, buffer: buffer, data: null,proxy:proxy,timeout:10000});
         }
         if (response.code === 200 || response.code === 302 || response.code === 301 || return_cookie) {
             return await this.getResponse(reqUrl, params, headers, redirect_url, return_cookie, buffer, response,proxy)

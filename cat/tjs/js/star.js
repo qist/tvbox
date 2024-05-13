@@ -93,7 +93,7 @@ class StarSpider extends Spider {
     }
 
     async setFilterObj() {
-        for (const type_dic of this.classes.slice(1, 5)) {
+        for (const type_dic of this.classes.slice(0, 4)) {
             let type_id = type_dic["type_id"]
             if (type_id !== "最近更新") {
                 let url = this.siteUrl + `${type_id}/all/all/all`

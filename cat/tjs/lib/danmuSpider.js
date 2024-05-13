@@ -135,11 +135,18 @@ class DanmuSpider {
     }
 
     async downloadDanmu(url) {
-        let json = JSON.parse(await this.fetch(url, null, this.getHeader()))
-        let xml = parseXML(json)
-        let params = {"do": "set", "key": "danmu", "value": xml}
-        await req("http://127.0.0.1:9978/cache", {method: "post", data: params, postType: "form-data"});
-        return "http://127.0.0.1:9978/cache?do=get&key=danmu"
+        // 如果没有找到弹幕的话，容易导致卡在这一步，从而导致结果加载不出来
+        let response = await req(url,{headers:this.getHeader()})
+        if (response.code === 200){
+            let xml = parseXML(JSON.parse(response.content))
+            let params = {"do": "set", "key": "danmu", "value": xml}
+            await req("http://127.0.0.1:9978/cache", {method: "post", data: params, postType: "form-data"});
+            return "http://127.0.0.1:9978/cache?do=get&key=danmu"
+        }
+        else{
+            this.jadeLog.error(`弹幕请求失败,返回结果为:${JSON.stringify(response)}`)
+            return ""
+        }
     }
 
     async search(vodDetail, episodeId) {

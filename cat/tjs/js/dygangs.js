@@ -16,7 +16,7 @@ import {_, load} from "../lib/cat.js";
 class MoviePortSpider extends Spider {
     constructor() {
         super();
-        this.siteUrl = "https://www.dygangs.xyz"
+        this.siteUrl = "https://www.dygangs.org"
     }
 
     getAppName() {
