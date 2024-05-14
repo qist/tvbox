@@ -106,6 +106,7 @@ class JiuJiuLiuSpider extends Spider {
 
             }
         }
+        let x = 0
     }
 
     async getFilter($) {

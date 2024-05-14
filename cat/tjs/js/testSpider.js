@@ -1,4 +1,4 @@
-import {__jsEvalReturn} from './mxanime.js';
+import {__jsEvalReturn} from './wogg.js';
 
 import * as Utils from "../lib/utils.js";
 
@@ -51,7 +51,7 @@ async function testMusicPlay(vodDetail) {
 }
 
 async function test() {
-    let siteKey = 'mxanime';
+    let siteKey = 'wogg';
     let siteType = 3;
     await spider.init({
         skey: siteKey, stype: siteType, ext: {
