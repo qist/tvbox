@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;e85e180ec8caae0d38c78a021a2494e0",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
-"wallpaper":"https://qist.cc/live/api.php",
+"wallpaper":"https://qist.cc/api/api.php",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
