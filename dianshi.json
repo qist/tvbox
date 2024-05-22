@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;f4a9956bae884c4a952da9152c0ed446",
+"spider":"./jar/fan.txt;md5;70471410f8e5a1bf20eb64b6b402e5c2",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.15","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
 "wallpaper":"https://qist.cc/api/api.php",
 "sites":[
@@ -53,6 +53,7 @@
 {"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/初中课堂.json"},
 {"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/高中课堂.json"},
 {"key":"Nbys","name":"🛫泥巴┃飞","type":3,"api":"csp_NiNi","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"fan","name":"导航 https://饭太硬.top","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"changeable":0},
 
 {"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
 {"key": "Qtv","name": "影视 | 腾讯[解析]","type": 3,"api": "csp_Qtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar;md5;b25d0e7f7c87f31aa886b78fe43a7d4c","changeable": 0},

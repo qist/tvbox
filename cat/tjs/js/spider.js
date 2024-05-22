@@ -14,8 +14,7 @@ import {_, load, Uri} from "../lib/cat.js";
 import * as HLS from "../lib/hls.js";
 import {hlsCache, tsCache} from "../lib/ffm3u8_open.js";
 import {DanmuSpider} from "../lib/danmuSpider.js";
-import {initAli} from "../lib/ali.js";
-
+import { initCloud } from "../lib/cloud.js";
 class Result {
     constructor() {
         this.class = []
@@ -453,8 +452,8 @@ class Spider {
 
     }
 
-    async initAli(token, db = null) {
-        await initAli(token, db)
+    async initCloud(token) {
+        await initCloud(token)
     }
 
     async spiderInit() {

@@ -9,7 +9,7 @@
 
 import {_, load} from "../lib/cat.js";
 import {Spider} from "./spider.js";
-import {detailContent, initAli, playContent} from "../lib/ali.js";
+import { detailContent,initCloud,playContent,getHeaders } from "../lib/cloud.js";
 import {VodDetail, VodShort} from "../lib/vod.js";
 import * as Utils from "../lib/utils.js";
 
@@ -64,7 +64,7 @@ class GitCafeSpider extends Spider {
     async init(cfg) {
         await this.spiderInit()
         await super.init(cfg);
-        await initAli(this.cfgObj["token"]);
+        await initCloud(this.cfgObj);
     }
 
     async parseClassFromDoc($) {
@@ -107,9 +107,9 @@ class GitCafeSpider extends Spider {
         let ali_url = await this.getAliUrl(obj["id"])
         await this.jadeLog.debug(`阿里分享链接为:${ali_url}`)
         if (!_.isEmpty(ali_url)) {
-            let aliVodDetail = await detailContent([ali_url])
-            vodDetail.vod_play_url = aliVodDetail.vod_play_url
-            vodDetail.vod_play_from = aliVodDetail.vod_play_from
+            let playVod = await detailContent([ali_url],vodDetail.type_name)
+            vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+            vodDetail.vod_play_url = _.values(playVod).join('$$$');
         }
         return vodDetail
     }
@@ -187,8 +187,8 @@ class GitCafeSpider extends Spider {
     }
 
     async setPlay(flag, id, flags) {
-        let playObjStr = await playContent(flag, id, flags);
-        this.playUrl = JSON.parse(playObjStr)["url"]
+        this.playUrl = await playContent(flag, id, flags);
+        this.result.setHeader(getHeaders(flag))
     }
 }
 

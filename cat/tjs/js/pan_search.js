@@ -9,7 +9,7 @@
 import {_, load} from "../lib/cat.js";
 import {Spider} from "./spider.js";
 import {VodDetail, VodShort} from "../lib/vod.js";
-import {detailContent, initAli, playContent} from "../lib/ali.js";
+import { detailContent,initCloud,playContent,getHeaders } from "../lib/cloud.js";
 
 class PanSearchSpider extends Spider {
     constructor() {
@@ -42,7 +42,7 @@ class PanSearchSpider extends Spider {
 
     async init(cfg) {
         await super.init(cfg);
-        await initAli(this.cfgObj["token"]);
+        await initCloud(this.cfgObj);
     }
 
     async parseVodDetailfromJson(obj) {
@@ -65,13 +65,9 @@ class PanSearchSpider extends Spider {
                 share_url = content.replaceAll(/<\\?[^>]+>/g, "").replace("链接：", "");
             }
         }
-        try {
-            let aliVodDetail = await detailContent([share_url])
-            vodDetail.vod_play_url = aliVodDetail.vod_play_url
-            vodDetail.vod_play_from = aliVodDetail.vod_play_from
-        } catch (e) {
-            await this.jadeLog.error(`获取阿里视频播放失败,失败原因为:${e}`)
-        }
+        let playVod = await detailContent([share_url])
+        vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+        vodDetail.vod_play_url = _.values(playVod).join('$$$');
         return vodDetail
     }
 
@@ -109,8 +105,9 @@ class PanSearchSpider extends Spider {
             this.vodList = await this.parseVodShortListFromDocBySearch($, wd)
         }
     }
-    async play(flag, id, flags) {
-        return await playContent(flag, id, flags);
+    async setPlay(flag, id, flags) {
+        this.playUrl = await playContent(flag, id, flags);
+        this.result.setHeader(getHeaders(flag))
     }
 }
 

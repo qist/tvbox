@@ -6,10 +6,11 @@
 * @Software : Samples
 * @Desc     :
 */
+import {_} from "../lib/cat.js";
 import {Spider} from "./spider.js";
 import {VodDetail} from "../lib/vod.js";
 import * as Utils from "../lib/utils.js";
-import {detailContent, initAli, playContent} from "../lib/ali.js";
+import { detailContent,initCloud,playContent,getHeaders} from "../lib/cloud.js";
 
 class PushSpider extends Spider {
     constructor() {
@@ -36,7 +37,7 @@ class PushSpider extends Spider {
         try {
             this.cfgObj = await this.SpiderInit(cfg)
              this.catOpenStatus = this.cfgObj.CatOpenStatus
-            await initAli(this.cfgObj["token"]);
+            await initCloud(this.cfgObj);
         } catch (e) {
             await this.jadeLog.error(`初始化失败,失败原因为:${e}`)
         }
@@ -58,11 +59,16 @@ class PushSpider extends Spider {
         let vodDetail = new VodDetail()
         vodDetail.vod_pic = Utils.RESOURCEURL + "/resources/push.jpg"
         let mather = Utils.patternAli.exec(id)
+        let quarkMatcher = Utils.patternQuark.exec(id)
         if (mather !== null && mather.length > 0) {
-            let aliVodDetail = await detailContent([id])
-            vodDetail.vod_play_url = aliVodDetail.vod_play_url
-            vodDetail.vod_play_from = aliVodDetail.vod_play_from
-        } else {
+            let playVod = await detailContent([id])
+            vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+            vodDetail.vod_play_url = _.values(playVod).join('$$$');
+        } else if (quarkMatcher !== null && quarkMatcher.length > 0){
+            let playVod = await detailContent([id])
+            vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+            vodDetail.vod_play_url = _.values(playVod).join('$$$');
+        }else {
             vodDetail.vod_play_from = '推送';
             vodDetail.vod_play_url = '推送$' + id;
         }
@@ -77,7 +83,8 @@ class PushSpider extends Spider {
         if (flag === "推送"){
             this.playUrl = id
         }else{
-           this.playUrl = JSON.parse(await playContent(flag, id, flags))["url"];
+            this.playUrl = await playContent(flag, id, flags);
+            this.result.setHeader(getHeaders(flag))
         }
     }
 }
