@@ -253,10 +253,11 @@ class Item {
         this.category = "";
         this.size = "";
         this.parent = "";
-        this.shareToken = ""
+        this.shareToken = "";
+        this.shareIndex = 0;
     }
 
-    static objectFrom(json_str, shareToken) {
+    static objectFrom(json_str, shareToken,shareIndex) {
         if (_.isEmpty(json_str)) {
             return new Item();
         }
@@ -273,8 +274,9 @@ class Item {
         item.category = typeof item_json.category == "undefined" ? "" : item_json.category;
         item.size = typeof item_json.size == "undefined" ? "" : item_json.size;
         item.parent = typeof item_json.parent_file_id == "undefined" ? "" : item_json.parent_file_id;
+        item.shareIndex = shareIndex
         typeof item.items != "undefined" && Array.isArray(item_json.items) && !_.isEmpty(item_json.items) && item_json.items.forEach(function (x) {
-            let new_item = Item.objectFrom(JSON.stringify((x)), shareToken)
+            let new_item = Item.objectFrom(JSON.stringify((x)), shareToken,shareIndex)
             item.items.push(new_item);
         });
         return item;
@@ -324,14 +326,14 @@ class Item {
         return _.isEmpty(this.parent) ? "" : "[" + this.parent + "]";
     }
 
+    getShareIndex(){
+        return this.shareIndex
+    }
+
     parentFunc(item) {
         this.parent = item;
         return this;
     }
-
-    // getDisplayName() {
-    //     return this.getParent() + " " + this.getName() + " " + this.getSize();
-    // }
 
     getDisplayName(type_name) {
         let name = this.getName();
@@ -345,11 +347,15 @@ class Item {
             }
             name = Utils.getStrByRegexDefault(/\.S01E(.*?)\./, name)
             const numbers = name.match(/\d+/g);
-            if (numbers.length > 0) {
+            if (!_.isEmpty(numbers) && numbers.length > 0) {
                 name = numbers[0]
             }
         }
-        return name + " " + this.getParent() + " " + this.getSize();
+        
+        return  name + " " + this.getParent() + " " + this.getSize();
+    }
+    getEpisodeUrl(type_name){
+        return this.getDisplayName(type_name) + "$" + this.getFileId() + "+" + this.shareId + "+" + this.shareToken
     }
 
 }

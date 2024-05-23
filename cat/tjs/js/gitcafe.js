@@ -9,7 +9,7 @@
 
 import {_, load} from "../lib/cat.js";
 import {Spider} from "./spider.js";
-import {detailContent, initAli, playContent} from "../lib/ali.js";
+import { detailContent,initCloud,playContent,getHeaders} from "../lib/cloud.js";
 import * as Utils from "../lib/utils.js";
 import {VodDetail, VodShort} from "../lib/vod.js";
 
@@ -65,7 +65,7 @@ class GitCafeSpider extends Spider {
     async init(cfg) {
         await this.spiderInit()
         await super.init(cfg);
-        await initAli(this.cfgObj["token"]);
+        await initCloud(this.cfgObj);
     }
 
 
@@ -102,9 +102,11 @@ class GitCafeSpider extends Spider {
         vodDetail.type_name = classNamesList[classIdList.indexOf(obj["cat"])]
         vodDetail.vod_content = obj["des"]
         let ali_url = "https://www.aliyundrive.com/s/" + obj["alikey"]
-        let aliVodDetail = await detailContent([ali_url])
-        vodDetail.vod_play_url = aliVodDetail.vod_play_url
-        vodDetail.vod_play_from = aliVodDetail.vod_play_from
+        let playVod = await detailContent([ali_url],vodDetail.type_name)
+        vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+        vodDetail.vod_play_url = _.values(playVod).join('$$$');
+
+        
         return vodDetail
     }
 
@@ -183,10 +185,11 @@ class GitCafeSpider extends Spider {
             return {"token": "", "date": ""}
         }
     }
-
-    async play(flag, id, flags) {
-        return await playContent(flag, id, flags);
+    async setPlay(flag, id, flags) {
+        this.playUrl = await playContent(flag, id, flags);
+        this.result.setHeader(getHeaders(flag))
     }
+
 }
 
 let spider = new GitCafeSpider()

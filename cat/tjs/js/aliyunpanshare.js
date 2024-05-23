@@ -8,10 +8,9 @@
 */
 import {_, load} from '../lib/cat.js';
 import {VodDetail, VodShort} from "../lib/vod.js"
-import {detailContent, initAli, playContent} from "../lib/ali.js";
+import { detailContent,initCloud,playContent,getHeaders} from "../lib/cloud.js";
 import * as Utils from "../lib/utils.js";
 import {Spider} from "./spider.js";
-import {patternAli} from "../lib/utils.js";
 
 let remark_list = ["4k", "4K"]
 
@@ -23,7 +22,7 @@ class AliyunpanShare extends Spider {
 
     async init(cfg) {
         await super.init(cfg);
-        await initAli(this.cfgObj["token"]);
+        await initCloud(this.cfgObj);
     }
 
     getName() {
@@ -129,10 +128,12 @@ class AliyunpanShare extends Spider {
         for (const share_url of share_url_list) {
             let matches = share_url.match(Utils.patternAli);
             if (!_.isEmpty(matches)) share_ali_url_list.push(matches[1])
+            let quarkMatches =  share_url.match(Utils.patternQuark);
+            if (!_.isEmpty(quarkMatches)) share_ali_url_list.push(quarkMatches[1])
         }
-        let aliVodDetail = await detailContent(share_ali_url_list)
-        vodDetail.vod_play_url = aliVodDetail.vod_play_url
-        vodDetail.vod_play_from = aliVodDetail.vod_play_from
+        let playVod = await detailContent([share_ali_url_list])
+        vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+        vodDetail.vod_play_url = _.values(playVod).join('$$$');
         vodDetail.type_name = Utils.getStrByRegex(/标签(.*?)\n/, articleContent).replaceAll("：", "")
         vodDetail.vod_content = Utils.getStrByRegex(/描述(.*?)\n/, articleContent).replaceAll("：", "")
         return vodDetail
@@ -175,8 +176,8 @@ class AliyunpanShare extends Spider {
     }
 
     async setPlay(flag, id, flags) {
-        let playObjStr = await playContent(flag, id, flags);
-        this.playUrl = JSON.parse(playObjStr)["url"]
+        this.playUrl = await playContent(flag, id, flags);
+        this.result.setHeader(getHeaders(flag))
     }
 
     async setSearch(wd, quick) {

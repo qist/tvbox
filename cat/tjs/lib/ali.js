@@ -7,7 +7,6 @@
  * @Description: 阿里云盘Spider公共
  */
 import {
-    getVod,
     initSome,
     clearFile,
     playerContent,
@@ -17,9 +16,9 @@ import {
     getFileByShare, getTempFileId
 } from './ali_api.js';
 import {JadeLogging} from "./log.js";
-
-const JadeLog = new JadeLogging("阿里云盘")
-
+const aliName = "阿里云盘"
+const JadeLog = new JadeLogging(aliName)
+const aliPlayFormatList = ["原画", "超清", "高清", "标清"]
 
 async function initAli(token) {
     await initSome();
@@ -41,15 +40,17 @@ function getShareId(share_url) {
     }
 }
 
-async function detailContent(share_url_list, type_name = "电影") {
+async function detailContentAli(share_url_list, type_name = "电影") {
     try {
         let video_items = [], sub_items = []
+        
 
-        for (const share_url of share_url_list) {
+        for (let i=0;i<share_url_list.length;i++){
+            let share_url = share_url_list[i]
             let share_id = getShareId(share_url)
             let share_token = await setShareId(share_id)
             if (share_token !== undefined) {
-                await getFileByShare(share_token, share_url, video_items, sub_items)
+                await getFileByShare(i+1,share_token, share_url, video_items, sub_items)
             }
         }
         if (video_items.length > 0) {
@@ -57,13 +58,13 @@ async function detailContent(share_url_list, type_name = "电影") {
         } else {
             await JadeLog.error(`获取播放链接失败,检查分享链接为:${share_url_list.join("\t")}`)
         }
-        return getVod(video_items, sub_items, type_name)
+        return {"video_items":video_items,"sub_items":sub_items}
     } catch (e) {
         await JadeLog.error('获取阿里视频失败,失败原因为:' + e.message + ' 行数为:' + e.lineNumber);
     }
 }
 
-async function playContent(flag, id, flags) {
+async function playContentAli(flag, id, flags) {
     if (flags.length > 0) {
         await JadeLog.info(`准备播放,播放类型为:${flag},播放文件Id为:${id},播放所有类型为:${flags.join("")}`)
     } else {
@@ -78,6 +79,8 @@ async function playContent(flag, id, flags) {
 
 export {
     initAli,
-    detailContent,
-    playContent
+    detailContentAli,
+    playContentAli,
+    aliPlayFormatList,
+    aliName,
 };

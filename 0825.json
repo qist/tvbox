@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;8ac13fa2b75afe3efe5092bcbdf9dd14",
+"spider":"./jar/pg.jar;md5;14e387f88dc499eb4bf3a0d68ac373c6",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -59,6 +59,7 @@
 {"key":"Moli","name":"HDmoli","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./json/moli.json"},
 {"key":"Xinshijue","name":"新视觉","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.80yy3.com/$$$1$$$./lib/wogg.json"},
 {"key":"Gaoqing","name":"高清网","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://gaoqing.la/$$$proxy$$$1"},
+{"key":"音范丝","name":"音范丝","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.yinfans.me/$$$proxy$$$1"},
 {"key":"ddys","name":"低端","type":3,"api":"csp_Ddys","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
 {"key":"美剧迷","name":"美剧迷","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.meijumi.xyz/$$$null$$$1"},
 {"key":"Ppxzy","name":"皮皮虾","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ppxzy.net/$$$null$$$1", "timeout":30}, 

@@ -10,7 +10,7 @@ import {Spider} from "./spider.js";
 import {_, Crypto, load} from "../lib/cat.js";
 import {VodDetail, VodShort} from "../lib/vod.js";
 import * as Utils from "../lib/utils.js";
-import {detailContent, initAli, playContent} from "../lib/ali.js";
+import { aliName, detailContent,initCloud,playContent, quarkName } from "../lib/cloud.js";
 
 function cryptJs(text, key, iv, type) {
     let key_value = Crypto.enc.Utf8.parse(key || 'PBfAUnTdMjNDe6pL');
@@ -37,7 +37,7 @@ class ChangZhangSpider extends Spider {
 
     async init(cfg) {
         await super.init(cfg);
-        await initAli(this.cfgObj["token"]);
+        await initCloud(this.cfgObj);
     }
 
 
@@ -145,15 +145,16 @@ class ChangZhangSpider extends Spider {
             }
             vod_play_list.push(vodItems.join("#"))
         }
-        let valify_formt_list = ["磁力链接", "阿里网盘"]
+        let valify_formt_list = ["磁力链接", aliName]
         let otherPlayList = $("[class=\"ypbt_down_list\"]").find("li")
+        let playVod = {}
         for (const otherPlay of otherPlayList) {
             let form_name = $(otherPlay).text()
             let is_valify = false
             for (const valify_format_name of valify_formt_list) {
                 if (form_name.indexOf(valify_format_name) > -1) {
                     is_valify = true
-                    if (form_name.indexOf("阿里网盘") === -1) {
+                    if (form_name.indexOf(aliName) === -1) {
                         vod_play_from_list.push(valify_format_name)
                     }
                 }
@@ -162,33 +163,18 @@ class ChangZhangSpider extends Spider {
                 let vodItems = []
                 for (const ciliPlayUrl of $(otherPlay).find("a")) {
                     let episodeUrl = ciliPlayUrl.attribs.href
-                    if ($(otherPlay).text().indexOf("阿里网盘")) {
-                        let aliVodDetail = await detailContent([episodeUrl])
-                        let aliPlayUrlList = aliVodDetail.vod_play_url.split("$$$")
-                        let is_exists = false
-                        for (const aliPlayUrl of aliPlayUrlList) {
-                            if (!_.isEmpty(aliPlayUrl)) {
-                                is_exists = true
-                                vod_play_list.push(aliPlayUrl)
-                            }
-                        }
-                        if (is_exists) {
-                            for (const aliFormatName of aliVodDetail.vod_play_from.split("$$$")) {
-                                vod_play_from_list.push("阿里云盘-" + aliFormatName)
-                            }
-                        }
-
+                    if ($(otherPlay).text().indexOf(aliName)) {
+                        playVod = await detailContent([episodeUrl])
                     } else {
                         let episodeName = Utils.getStrByRegex(/\[(.*?)]/, $(ciliPlayUrl).text())
                         vodItems.push(episodeName + "$" + episodeUrl)
-                        vod_play_list.push(vodItems.join("#"))
+                        playVod["磁力链接"] = (vodItems.join("#"))
                     }
                 }
             }
         }
-
-        vodDetail.vod_play_url = vod_play_list.join("$$$")
-        vodDetail.vod_play_from = vod_play_from_list.join("$$$")
+        vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+        vodDetail.vod_play_url = _.values(playVod).join('$$$');
         return vodDetail
     }
 
@@ -267,9 +253,9 @@ class ChangZhangSpider extends Spider {
     }
 
     async setPlay(flag, id, flags) {
-        if (flag.indexOf("阿里云盘") > -1) {
-            flag = flag.replaceAll("阿里云盘-","")
-            this.playUrl = JSON.parse(await playContent(flag, id, flags))["url"];
+        if (flag.indexOf(aliName) > -1 || flag.indexOf(quarkName) > -1) {
+            this.playUrl = await playContent(flag, id, flags)
+            this.result.setHeader(getHeaders(flag))
         } else {
             if (id.indexOf("magnet") > -1) {
                 this.playUrl = id
