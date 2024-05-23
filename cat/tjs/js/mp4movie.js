@@ -20,6 +20,19 @@ class DyttSpider extends Spider {
         this.dyttReconnectTimes = 0
 
     }
+    async spiderInit(inReq=null) {
+        if (inReq !== null){
+            this.jsBase = await js2Proxy(inReq,"detail",this.getHeader());
+        }else{
+            this.jsBase = await js2Proxy(true, this.siteType, this.siteKey, 'detail/', this.getHeader());
+        }
+
+    }
+
+    async init(cfg) {
+        await super.init(cfg);
+        await this.spiderInit(null)
+    }
 
     getName() {
         return "🍚┃Mp4电影┃🍚"
@@ -91,7 +104,7 @@ class DyttSpider extends Spider {
             let vodShort = new VodShort();
             vodShort.vod_name = vodElement.attribs.title
             vodShort.vod_id = vodElement.attribs.href
-            vodShort.vod_pic = this.detailProxy + Utils.base64Encode(vodShort.vod_id)
+            vodShort.vod_pic = this.jsBase + Utils.base64Encode(vodShort.vod_id)
             vod_list.push(vodShort)
         }
         return vod_list

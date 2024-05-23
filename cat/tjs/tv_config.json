@@ -80,17 +80,6 @@
             "type": 3
         },
         {
-            "key": "feifan",
-            "name": "🥗┃非凡资源┃🥗",
-            "api": "./js/feifan.js",
-            "timeout": 30,
-            "ext": {
-                "box": "TVBox"
-            },
-            "playerType": 0,
-            "type": 3
-        },
-        {
             "key": "huya",
             "name": "🐯┃虎牙直播┃🐯",
             "api": "./js/huya.js",
@@ -193,18 +182,6 @@
             "type": 3
         },
         {
-            "key": "liangzi",
-            "name": "🐝┃量子资源┃🐝",
-            "api": "./js/liangzi.js",
-            "timeout": 30,
-            "ext": {
-                "box": "TVBox",
-                "code": 0
-            },
-            "playerType": 0,
-            "type": 3
-        },
-        {
             "key": "bilibili",
             "name": "🏰┃哔哩哔哩┃🏰",
             "api": "./js/bilibili.js",
@@ -292,17 +269,6 @@
             "key": "dygangs",
             "name": "🏖️┃电影港┃🏖️",
             "api": "./js/dygangs.js",
-            "timeout": 30,
-            "ext": {
-                "box": "TVBox"
-            },
-            "playerType": 0,
-            "type": 3
-        },
-        {
-            "key": "ikanbot",
-            "name": "🤖┃爱看机器人┃🤖",
-            "api": "./js/ikanbot.js",
             "timeout": 30,
             "ext": {
                 "box": "TVBox"

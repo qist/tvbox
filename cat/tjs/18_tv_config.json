@@ -1,31 +1,9 @@
 {
     "sites": [
         {
-            "key": "feifan18",
-            "name": "🔞┃非凡资源18+┃🔞",
-            "api": "./js/feifan18.js",
-            "timeout": 30,
-            "ext": {
-                "box": "TVBox"
-            },
-            "playerType": 0,
-            "type": 3
-        },
-        {
             "key": "jable",
             "name": "🔞┃Jable┃🔞",
             "api": "./js/jable.js",
-            "timeout": 30,
-            "ext": {
-                "box": "TVBox"
-            },
-            "playerType": 0,
-            "type": 3
-        },
-        {
-            "key": "liangzi18",
-            "name": "🔞┃量子资源18+┃🔞",
-            "api": "./js/liangzi18.js",
             "timeout": 30,
             "ext": {
                 "box": "TVBox"

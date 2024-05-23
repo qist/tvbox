@@ -15,7 +15,7 @@ import * as Utils from "../lib/utils.js";
 class JiuJiuLiuSpider extends Spider {
     constructor() {
         super();
-        this.siteUrl = "https://www.ojig519d8se.icu"
+        this.siteUrl = "https://www.x9s8x.icu"  //  https://www.cs1369.com
     }
 
     getName() {
@@ -35,212 +35,104 @@ class JiuJiuLiuSpider extends Spider {
 
     async parseVodShortListFromDoc($) {
         let vod_list = []
-        let vodElements = $("[class=\"stui-vodlist clearfix\"]").find("li")
+        let vodElements = $('[class="content-item"]')
         for (const vodElement of vodElements) {
-            let resource = $(vodElement).find("[class=\"stui-vodlist__thumb lazyload\"]")[0]
             let vodShort = new VodShort()
-            vodShort.vod_id = resource.attribs["href"]
-            vodShort.vod_name = resource.attribs["title"]
-            vodShort.vod_pic = resource.attribs["data-original"]
-            vodShort.vod_remarks = $($(resource).find("[class=\"pic-text text-right\"]")[0]).text()
+            let videoElement = $(vodElement).find("a")[0]
+            vodShort.vod_id = videoElement.attribs["href"]
+            vodShort.vod_name = videoElement.attribs["title"]
+            vodShort.vod_pic = $(videoElement).find("img")[0].attribs["data-original"]
+            vodShort.vod_remarks = $($(vodElement).find('[class="note text-bg-r"]')).text()
             vod_list.push(vodShort)
         }
         return vod_list
     }
 
 
-    async parseVodShortListFromDocBySearch($) {
-        let vod_list = []
-        let vodElements = $("[class=\"stui-pannel_bd\"]").find("li")
-        for (const vodElement of vodElements) {
-            let resource = $($(vodElement).find("[class=\"thumb\"]")[0]).find("a")[0]
-            let vodShort = new VodShort()
-            vodShort.vod_id = resource.attribs["href"]
-            vodShort.vod_name = resource.attribs["title"]
-            vodShort.vod_pic = resource.attribs["data-original"]
-            vodShort.vod_remarks = Utils.getStrByRegex(/类型：(.*?)地区/, $($(vodElement).find("[class=\"hidden-mi\"]")[0]).text())
-            vod_list.push(vodShort)
-        }
-        return vod_list
-
-    }
 
     async parseVodDetailFromDoc($) {
         let vodDetail = new VodDetail()
-        let vodElement = $("[class=\"col-pd clearfix\"]")[1]
-        let vodShortElement = $(vodElement).find("[class=\"stui-content__thumb\"]")[0]
+        let detailElement = $('[class="row film_info clearfix"]')
+        vodDetail.vod_pic = $(detailElement).find("img")[0].attribs["data-original"]
+        vodDetail.vod_name = $($(detailElement).find('[class="c_pink text-ellipsis"]')).text()
+        let content = $( $(detailElement).find('[class="row"]')).text()
+        vodDetail.type_name = Utils.getStrByRegex(/视频类型(.*?)\n/,content).replaceAll("：","")
+        vodDetail.vod_area = Utils.getStrByRegex(/更新时间(.*?)\n/,content).replaceAll("：","")
+        let playVod = {}
+        let playElement = $('[class="btn btn-m btn-default"]')[0]
+
         let vodItems = []
-        for (const playElement of $("[class=\"stui-content__playlist clearfix\"]").find("a")) {
-            let episodeUrl = this.siteUrl + playElement.attribs["href"];
-            let episodeName = $(playElement).text();
-            vodItems.push(episodeName + "$" + episodeUrl);
-        }
-        vodDetail.vod_name = $(vodShortElement).find("[class=\"stui-vodlist__thumb picture v-thumb\"]")[0].attribs["title"]
-        vodDetail.vod_pic = $(vodShortElement).find("img")[0].attribs["data-original"]
-        vodDetail.vod_remarks = $($(vodShortElement).find("[class=\"pic-text text-right\"]")[0]).text()
-        let data_str = $($(vodElement).find("[class=\"data\"]")).text().replaceAll(" ", " ")
-        vodDetail.type_name = Utils.getStrByRegex(/类型：(.*?) /, data_str)
-        vodDetail.vod_area = Utils.getStrByRegex(/地区：(.*?) /, data_str)
-        vodDetail.vod_year = Utils.getStrByRegex(/年份：(.*?) /, data_str)
-        vodDetail.vod_actor = Utils.getStrByRegex(/主演：(.*?) /, data_str)
-        vodDetail.vod_director = Utils.getStrByRegex(/导演：(.*?) /, data_str)
-        vodDetail.vod_content = $($("[class=\"stui-pannel_bd\"]").find("[class=\"col-pd\"]")).text()
-        vodDetail.vod_play_from = ["996"].join("$$$")
-        vodDetail.vod_play_url = [vodItems.join("#")].join("$$$")
+        const epName = vodDetail.vod_name;
+        const playUrl = playElement.attribs.href
+        vodItems.push(epName + '$' + playUrl)
+        playVod[playElement.attribs.title] = vodItems.join('#')
+        vodDetail.vod_play_from = _.keys(playVod).join('$$$');
+        vodDetail.vod_play_url = _.values(playVod).join('$$$');
         return vodDetail
     }
 
     async setClasses() {
-        let html = await this.fetch(this.siteUrl, null, this.getHeader(),false,false,0,true)
-        if (html !== null) {
-            let $ = load(html)
-            let menuElements = $("[class=\"stui-header__menu type-slide\"]").find("a")
-            for (const menuElement of menuElements) {
-                let type_dic = {
-                    "type_name": $(menuElement).text(),
-                    "type_id": "/show/id/" + menuElement.attribs["href"].split("/").slice(-1)[0].split(".")[0]
-                }
-                if ($(menuElement).text() !== "首页") {
-                    this.classes.push(type_dic)
-                }
-
+        let $ = await this.getHtml(this.siteUrl,true);
+        let menuElements = $('[class="row-item-title bg_red"]').find("a")
+        for (const menuElement of menuElements) {
+            let type_name = $(menuElement).text()
+            let type_id = menuElement.attribs["href"]
+            if (type_name.indexOf("小说") === -1){
+                this.classes.push(this.getTypeDic(type_name, type_id))
             }
         }
-        let x = 0
     }
 
-    async getFilter($) {
-        let hdElements = $("[class=\"stui-pannel_hd\"]")
+    async getFilter($,index) {
+        let html = $.html()
         let extend_list = []
-        let index = 0
-        for (let i = 0; i < 2; i++) {
-            let cateElemet = hdElements[i]
-            let typeElements = $(cateElemet).find("ul")
-            if (i === 0) {
-                for (const typeElement of typeElements) {
-                    let extend_dic = {
-                        "key": (index + 1).toString(), "name": $($(typeElement).find("li")[0]).text(), "value": []
-                    }
-                    for (const ele of $(typeElement).find("li").slice(1)) {
-                        if (!_.isEmpty($(ele).text())) {
-                            if (index === 0) {
-                                extend_dic["value"].push({
-                                    "n": $(ele).text(),
-                                    "v": $(ele).find("a")[0].attribs["href"].split("/").slice(-1)[0].split(".")[0]
-                                })
-                            } else {
-                                extend_dic["value"].push({"n": $(ele).text(), "v": $(ele).text()})
-                            }
-                        }
-                    }
-                    extend_list.push(extend_dic)
-                    index = index + 1
-                }
-            } else {
-                let extend_dic = {
-                    "key": (index + 1).toString(), "name": $($(cateElemet).find("li")[0]).text(), "value": []
-                }
-                extend_dic["value"].push({"n": "全部", "v": "time"})
-                for (const ele of $(cateElemet).find("li").slice(1)) {
-                    if (!_.isEmpty($(ele).text())) {
-                        extend_dic["value"].push({
-                            "n": $(ele).text(), "v": $(ele).find("a")[0].attribs["href"].split("/")[3]
-                        })
-                    }
-                }
-                extend_list.push(extend_dic)
-            }
+        let extendElement = $($($($('[class="row-item-content"]')[index])).find('[class="item"]')).find("a")
+        let extend_dic = {"name":"排序","key":"sort","value":[]}
+        for (const element of extendElement){
+            let type_name = $(element).text()
+            let type_id = element.attribs["href"]
+            extend_dic["value"].push(this.getFliterDic(type_name,type_id))
+
         }
+        extend_list.push(extend_dic)
         return extend_list
+  
     }
 
     async setFilterObj() {
+        let index = 0
         for (const type_dic of this.classes) {
             let type_id = type_dic["type_id"]
-            if (type_id !== "/" && type_id !== "最近更新") {
-                let url = this.siteUrl + type_id + ".html"
-                let html = await this.fetch(url, null, this.getHeader())
-                if (html != null) {
-                    let $ = load(html)
-                    this.filterObj[type_id] = await this.getFilter($)
-                }
+            if ( type_id !== "最近更新") {
+                let $ = await this.getHtml(this.siteUrl,true)
+                this.filterObj[type_id] = await this.getFilter($,index)
+                index = index + 1
             }
         }
-
     }
 
     async setHomeVod() {
-        let html = await this.fetch(this.siteUrl, null, this.getHeader())
-        if (html != null) {
-            let $ = load(html)
-            this.homeVodList = await this.parseVodShortListFromDoc($)
-        }
+        let $ = await this.getHtml(this.siteUrl,true)
+        this.homeVodList = await this.parseVodShortListFromDoc($)
     }
 
-    getParams(params, value) {
-        let x = value ?? "全部"
-        if (x === "全部" || x === undefined) {
-            return ""
-        } else {
-            return params + value
-        }
 
-    }
 
     async setCategory(tid, pg, filter, extend) {
-        let typeName = this.getParams("/id/", extend["1"])
-        if (_.isEmpty(typeName)) {
-            typeName = "/id/" + tid.split("/").slice(-1)[0]
-        }
-        let plot = this.getParams("/class/", extend["2"])
-        let area = this.getParams("/area/", extend["3"])
-        let year = this.getParams("/year/", extend["4"])
-        let language = this.getParams("/lang/ ", extend["5"])
-        let letter = this.getParams("/letter/ ", extend["6"])
-        let time = this.getParams("/by/", extend["7"])
-        let cateUrl = this.siteUrl + `/show${area}${time}${plot}${typeName}${language}${letter}${year}/page/${pg.toString()}.html`
-        await this.jadeLog.info(`类别URL为:${cateUrl}`)
-        this.limit = 36
-        let html = await this.fetch(cateUrl, null, this.getHeader())
-        if (html != null) {
-            let $ = load(html)
-            this.vodList = await this.parseVodShortListFromDoc($)
-        }
+        let $ = await this.getHtml(this.siteUrl + tid.replaceAll(".html",`/page/${pg}.html`),true)
+        this.vodList = await this.parseVodShortListFromDoc($)
     }
 
     async setDetail(id) {
-        let detailUrl = this.siteUrl + id
-        let html = await this.fetch(detailUrl, null, this.getHeader())
-        if (html != null) {
-            let $ = load(html)
-            this.vodDetail = await this.parseVodDetailFromDoc($)
-        }
+        let $ = await this.getHtml(this.siteUrl + id,true)
+        this.vodDetail = await this.parseVodDetailFromDoc($)
     }
 
-    async setSearch(wd, quick) {
-        let searchUrl = this.siteUrl + `/search.html?wd=${wd}`
-        let html = await this.fetch(searchUrl, null, this.getHeader())
-        if (html != null) {
-            let $ = load(html)
-            this.vodList = await this.parseVodShortListFromDocBySearch($)
-        }
-
-        let x = 0
-
-    }
 
     async setPlay(flag, id, flags) {
-        let html = await this.fetch(id, null, this.getHeader())
-        if (html !== null) {
-            let matcher = Utils.getStrByRegex(/player_aaaa=(.*?)<\/script>/, html)
-            let player = JSON.parse(matcher);
-            try {
-                this.playUrl = decodeURIComponent(Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(player["url"])))
-                this.header = this.getHeader()
-            } catch (e) {
-                this.playUrl = player["url"]
-            }
-        }
+        let $ = await this.getHtml(this.siteUrl+id,true)
+        let playerConfig = JSON.parse(Utils.getStrByRegex(/var player_aaaa=(.*?)<\/script>/,$.html()))
+        this.playUrl = playerConfig["url"]
     }
 }
 

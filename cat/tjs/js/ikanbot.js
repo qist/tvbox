@@ -4,7 +4,7 @@
 * @Date     : 2024/1/15 10:32
 * @Email    : jadehh@1ive.com
 * @Software : Samples
-* @Desc     :
+* @Desc     : 爱看机器人(已失效：上盾)
 */
 
 import {Spider} from "./spider.js";
@@ -62,7 +62,7 @@ class IKanBotSpider extends Spider {
     }
 
     getName() {
-        return "🤖┃爱看机器人┃🤖"
+        return `🤖┃爱看机器人┃🤖`
     }
 
     getAppName() {
