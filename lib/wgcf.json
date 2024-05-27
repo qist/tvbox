@@ -173,15 +173,6 @@
 			"settings": {
 				"allowTransparent": true
 			},
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			},
 			"tag": "http"
 		},
 		{
@@ -191,16 +182,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag":"socks5",
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			}
+			"tag":"socks5"
 		},
 		{
 			"port": 10072,
@@ -209,16 +191,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag":"socks5overvless",
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			}
+			"tag":"socks5overvless"
 		},
 		{
 			"port": 10073,
@@ -227,16 +200,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag":"socks5overwarpoverwarp",
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			}
+			"tag":"socks5overwarpoverwarp"
 		},
 		{
 			"port": 10074,
@@ -245,16 +209,7 @@
 				"udp": true,
 				"auth": "noauth"
 			},
-			"tag":"socks5overvlessoverwarp",
-			"sniffing": {
-				"destOverride": [
-					"http",
-					"tls",
-					"quic"
-				],
-				"enabled": true,
-				"routeOnly": true
-			}
+			"tag":"socks5overvlessoverwarp"
 		}
 	],
 	"routing": {

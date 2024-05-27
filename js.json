@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;14e387f88dc499eb4bf3a0d68ac373c6",
+"spider":"./jar/pg.jar;md5;2e4e02fe19253412b3fb0b9af9d63f35",
 "lives":[
 {"name":"live","type":0,"url":"./tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -21,7 +21,7 @@
 {"key": "Yinyuetai","name": "MV | 音悦台[jar]","type": 3,"api": "csp_Yinyuetai","searchable": 1,"changeable": 0},
 {"key":"AliShareEBook","name":"书籍 | 分享[jar]","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/alishare.ebook.txt$$$db$$$1","style":{"type":"list"}},
 {"key":"荐片弹幕版","name":"弹幕 | 荐片[jar]","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/jianpian.json$$$1", "timeout":60},
-{"key":"Bdys_spider","name":"弹幕 | 哔滴[jar]","api":"csp_Bdys01","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"https://www.bdys03.com/$$$null$$$1","timeout":30},
+{"key":"Bdys_spider","name":"弹幕 | 哔滴[jar]","api":"csp_Bdys01","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.bdys03.com/$$$null$$$1","timeout":30},
 {"key": "天天","name": "弹幕 | 天天[jar]","type": 3,"api": "csp_TTian","playerType": 1,"ext": "http://op.ysdqjs.cn$$$null$$$1"},
 {"key": "追剧","name": "弹幕 | 追剧[jar]","type": 3,"api": "csp_TTian","playerType": 1,"ext": "http://app.kzjtv.com$$$null$$$1"},
 {"key":"NanGua","name":"弹幕 | 南瓜[jar]","type":3,"api":"csp_NanGua","searchable":1,"changeable":1,"ext":"null$$$1"},
@@ -36,7 +36,7 @@
 {"key":"yydsys","name":"弹幕 | 老哥[jar]","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://tv.yydsys.top/$$$null$$$1$$$./wogg.json"},
 {"key":"Xinshijue","name":"弹幕 | 新视觉[jar]","type":3,"api":"csp_Xinshijue","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.80yy3.com/$$$1$$$./lib/wogg.json"},
 {"key":"Moli","name":"弹幕 | HDmoli[jar]","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./json/moli.json"},
-{"key":"Bt0","name":"弹幕 | 不太灵[jar]","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"null$$$null$$$1"},
+{"key":"Bt0","name":"弹幕 | 不太灵[jar]","type":3,"api":"csp_Bt0","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$null$$$null$$$1"},
 {"key":"ddys","name":"弹幕 | 低端[jar]","type":3,"api":"csp_Ddys","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ddys.pro/$$$proxy$$$1$$$"},
 {"key":"美剧迷","name":"弹幕 | 美剧迷[jar]","type":3,"api":"csp_Meijumi", "quickSearch":1, "changeable":1, "filterable":1, "timeout":30,"ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://www.meijumi.xyz/$$$null$$$1"},
 {"key":"Ppxzy","name":"弹幕 | 皮皮虾[jar]","type":3,"api":"csp_Ppxzy", "quickSearch":1, "changeable":1, "filterable":1, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$https://ppxzy.net/$$$null", "timeout":30}, 
