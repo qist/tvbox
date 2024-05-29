@@ -103,7 +103,9 @@ function aliExpection(data_str) {
     } else if (data_str.indexOf("BadRequest") > -1) {
         return {code: 402, content: data_str}
     } else if (data_str.indexOf("NotFound.File") > -1 || data_str.indexOf("ForbiddenFileInTheRecycleBin") > -1) {
-        return {code: 403, content: data_str}
+        return {code: 403, content: data_str} 
+    } else if (data_str.indexOf("user not allowed access drive") > -1){
+        return {code: 404, content: data_str}
     } else if (data_str.indexOf("ForbiddenNoPermission.File") > -1) {
         return {code: 500, content: data_str}
     } else if (data_str.indexOf("InvalidParameter.ToParentFileId") > -1) {
@@ -111,6 +113,8 @@ function aliExpection(data_str) {
     } else if (data_str.indexOf("NotFound.ParentFileId") > -1) {
         return {code: 502, content: data_str}
     } else if (data_str.indexOf("The resource drive has exceeded the limit. File size exceeded drive capacity") > -1) {
+        return {code: 503, content: data_str}
+    }else if (data_str.indexOf("The resource drive has exceeded the limit. File size exceeded drive capacity") > -1) {
         return {code: 503, content: data_str}
     }
     return {code: 200, content: data_str}
@@ -160,7 +164,7 @@ async function oauthFunc(url, params, retry) {
     let open_header = getHeaderOpen();
     let response = await postJson(url, params, open_header);
     response = aliExpection(response.content)
-    if (retry && (response.code === 400 || response.code === 401 || response.code === 429 || response.code === 402 || response.code === 403)) {
+    if (retry && (response.code === 400 || response.code === 401 || response.code === 429 || response.code === 402 || response.code === 403 || response.code === 404)) {
         if (response.code === 400) {
             await JadeLog.error("阿里授权失败,失败原因为:授权Token无效,准备重新授权,失败详情:" + response.content)
             await activateRefreshOpenToken()
@@ -174,7 +178,10 @@ async function oauthFunc(url, params, retry) {
             await JadeLog.error("阿里授权失败,失败原因为:没有找到缓存文件,失败详情:" + response.content)
             await cleanRecord()
             return "retry"
-        } else if (response.code === 429) {
+        }else if (response.code === 404) {
+            await JadeLog.error("阿里授权失败,失败原因为:用户没有权限" + response.content)
+            return await oauthFunc(url, params, true)
+        }else if (response.code === 429) {
             await JadeLog.error(`正在请求需要阿里授权的url:${url},请求过于频繁,稍后重试,10分钟后再重试`)
             Utils.sleep(10 * 60)
             return await oauthFunc(url, params, true)

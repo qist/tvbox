@@ -334,6 +334,13 @@ function lcs(str1, str2) {
         offset: thisSubsBegin,
     };
 }
+
+
+function findAllIndexes(arr, value) {
+    const indexes = arr.map((item, index) => index).filter(index => arr[index] === value);
+    return indexes;
+  }
+   
 let patternAli = /(https:\/\/www\.aliyundrive\.com\/s\/[^"]+|https:\/\/www\.alipan\.com\/s\/[^"]+)/
 let patternQuark = /(https:\/\/pan\.quark\.cn\/s\/[^"]+)/
 
@@ -373,5 +380,6 @@ export {
     formatContent,
     formatUrl,
     encode,
-    lcs
+    lcs,
+    findAllIndexes
 };

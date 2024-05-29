@@ -26,16 +26,13 @@ class Quark{
         this.saveFileIdCaches = {}
         this.saveDirId = null
         this.saveDirName = 'TV';
+        this.isVip = false;
 
     }
     async initQuark(cookie) {
         this.ckey = Crypto.enc.Hex.stringify(Crypto.MD5(cookie)).toString();
-        let localCfg = await local.get("quark", "cookie");
-        if (!_.isEmpty(localCfg)){
-            this.cookie = JSON.parse(localCfg)[this.ckey]
-        }else{
-            this.cookie = cookie
-        }
+        this.cookie = cookie
+        this.isVip = await this.getVip()
     }
 
     getHeaders(){
@@ -61,9 +58,6 @@ class Quark{
             if (puus) {
                 if (this.cookie.match(/__puus=([^;]+)/)[1] != puus[1]) {
                     this.cookie = this.cookie.replace(/__puus=[^;]+/, `__puus=${puus[1]}`);
-                    let cookieDic = {}
-                    cookieDic[this.ckey] = this.cookie
-                    await local.set("quark",this.cookie, JSON.stringify(cookieDic));
                 }
             }
         }
@@ -85,6 +79,33 @@ class Quark{
         }
         return null;
     }
+
+    async getVip(){
+        const listData = await this.api(`member?pr=ucpro&fr=pc&uc_param_str=&fetch_subscribe=true&_ch=home&fetch_identity=true`, null,null, 'get');
+        if (listData.data.member_type==="EXP_SVIP"){
+            return true
+        }else{
+            return false
+        }
+    }
+
+    getPlayFormatList(){
+        if(this.isVip){
+            return ["4K","超清","高清","普画"] 
+        }else{
+            return ["普画"]
+        }
+    }
+
+    getPlayFormtQuarkList(){
+        if(this.isVip){
+            return ["4k","2k","super","high","normal","low"]
+        }{
+            return ["low"]
+        }
+    }
+
+
     async  getShareToken(shareData) {
         if (!this.shareTokenCache[shareData.shareId]) {
             delete this.shareTokenCache[shareData.shareId];
@@ -246,7 +267,7 @@ class Quark{
     }
 
     
-    async  getLiveTranscoding(shareId, stoken, fileId, fileToken) {
+    async  getLiveTranscoding(shareId, stoken, fileId, fileToken,flag) {
         if (!this.saveFileIdCaches[fileId]) {
             const saveFileId = await this.save(shareId, stoken, fileId, fileToken, true);
             if (!saveFileId) return null;
@@ -257,8 +278,18 @@ class Quark{
             resolutions: 'normal,low,high,super,2k,4k',
             supports: 'fmp4',
         });
+
+     
         if (transcoding.data && transcoding.data.video_list) {
-            return transcoding.data.video_list;
+            let flag_id = flag.split("-").slice(-1)[0]
+            let index = Utils.findAllIndexes(this.getPlayFormatList(),flag_id);
+            let quarkFormat = this.getPlayFormtQuarkList()[index]
+            for (const video of transcoding.data.video_list){
+                if (video.resolution === quarkFormat){
+                    return video.video_info.url
+                }
+            }
+            return transcoding.data.video_list[index].video_info.url
         }
         return null;
     }
