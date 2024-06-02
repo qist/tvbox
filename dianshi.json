@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;e5331c586bf5835734be13338cecf00d",
+"spider":"./jar/fan.txt;md5;a452c971528decfec70d8c83d4918d85",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/4.12.0","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
 "wallpaper":"https://qist.cc/api/api.php",
 "sites":[
@@ -33,9 +33,8 @@
 {"key":"Ying","name":"💮樱花┃动漫","type":3,"api":"csp_Ying","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Ysj","name":"🎀异界┃动漫","type":3,"api":"csp_Ysj","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Anime1","name":"🐾日本┃动漫","type": 3,"api": "csp_Anime1","searchable": 1,"quickSearch": 1,"changeable":1},
-{"key":"88js","name":"⚽ 88┃看球","type":3,"api":"csp_Kanqiu","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0},
+{"key":"88js","name":"⚽ 88┃看球","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"Jrsjs","name":"⚽ Jrs┃球迷","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/jrk.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"310js","name":"⚽310┃看球","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/310直播.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"企鹅体育xp","name":"🐧鹅鹅┃体育","type":3,"api":"csp_XPath","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/企鹅直播.json"},
 {"key":"酷奇","name":"🎤酷奇┃MV","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/酷奇MV.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"MTV","name":"🎧明星┃MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/MTV.json"},
