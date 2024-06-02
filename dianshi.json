@@ -64,8 +64,6 @@
 {"key":"量子","name":"影视 | 量子[直连]","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"],"jar": "./jar/Yoursmile.jar;md5;51b7e397682658465aca32a34f5be1d2"},
 {"key":"非凡","name":"影视 | 非凡[直连]","type":1,"api":"http://cj.ffzyapi.com/api.php/provide/vod/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"],"jar": "./jar/Yoursmile.jar;md5;51b7e397682658465aca32a34f5be1d2"},    
 {"key":"索尼","name":"影视 | 索尼[直连]","type":0,"api":"https://suoniapi.com/api.php/provide/vod/at/xml/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","欧美剧","港剧","台剧","韩剧","日剧","泰剧","纪录片","海外剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","影视解说"],"jar": "./jar/Yoursmile.jar;md5;51b7e397682658465aca32a34f5be1d2"},
-{"key":"快帆","name":"影视 | 快帆[直连]","type":0,"api":"https://api.kuaifan.tv/api.php/provide/vod/at/xml/","searchable":1,"categories":["国产剧","香港剧","韩国剧","国产动漫","欧美动漫","日本动漫"],"jar": "./jar/Yoursmile.jar;md5;51b7e397682658465aca32a34f5be1d2"},
-
 
 {"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
 {"key": "Qtv","name": "影视 | 腾讯[解析]","type": 3,"api": "csp_Qtv","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/fty.jar;md5;b25d0e7f7c87f31aa886b78fe43a7d4c","changeable": 0},
