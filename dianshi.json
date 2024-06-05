@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;6adeb73add2066fe62257d2337084da2",
+"spider":"./jar/fan.txt;md5;aa164c88dfaf62b98b44fc6086a77fef",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/4.12.0","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
 "wallpaper":"https://qist.cc/api/api.php",
 "sites":[
