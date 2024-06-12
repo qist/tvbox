@@ -1,6 +1,6 @@
 {"搜索请求头参数": "User-Agent$PC_UA#Referer$https://yingso.fun/",
-"搜索链接": "https://yingso.fun:3000/ali/search;post",
-"POST请求数据": "{\"pageNum\":1,\"pageSize\":30,\"title\":\"{wd}\"}",
+"搜索链接": "https://ys.api.yingso.fun/v3/ali/search;post",
+"POST请求数据": "{\"pageNum\":1,\"pageSize\":30,\"title\":\"{wd}\",\"root\":1,\"cat\":\"all\"}",
 "搜索截取模式": "0",
 "搜索列表数组规则": "data",
 "搜索片单是否Jsoup写法": "1",

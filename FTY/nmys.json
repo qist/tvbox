@@ -60,7 +60,7 @@
       "scVodNode": "//ul[@class='ulPicTxt clearfix']/li",
       "scVodName": "//span[@class='sTit']/text()",
       "scVodId": "//span[@class='sBtn']/a/@href",
-      "scVodIdR": "/vod-play-id-(\\d+)",
+      "scVodIdR": "/vod-detail-id-(\\d+)",
       "scVodImg": "//img/@data-src",
       "scVodMark": "//span[@class='sDes'][2]/text()",
       "filter":{
