@@ -75,6 +75,7 @@
 {"key": "AppMr","name": "影视 | 明明[App]","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar;md5;b25d0e7f7c87f31aa886b78fe43a7d4c","changeable": 1},
 {"key": "csp_Ysgc","name": "影视 | 工场[直连]","type": 3,"api": "csp_Ysgc","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.ysgc.fun/","jar":"./jar/fty.jar;md5;b25d0e7f7c87f31aa886b78fe43a7d4c"},
 {"key":"Youtube","name":"Youtube","type":3,"api": "csp_Youtube","searchable": 1,"quickSearch": 0,"changeable": 0,"ext":{"json":"./json/youtube.json","type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary","proxy":"proxy","keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐","codecs":""},"style": {"type": "rect","ratio": 1.5},"jar":"./jar/pg.jar"},
+
 {"key":"百度","name":"百度","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0,"categories":["国产动漫","日韩动漫","大陆剧","欧美剧","韩剧","日剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片"]},
 {"key":"暴風","name":"影视 | 暴風[直连]","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},
 
