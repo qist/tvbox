@@ -329,7 +329,7 @@ class Spider {
             return await this.getResponse(reqUrl, params, headers, redirect_url, return_cookie, buffer, response,proxy)
         } else {
             await this.jadeLog.error(`请求失败,失败原因为:状态码出错,请求url为:${uri},回复内容为:${JSON.stringify(response)}`)
-            return await this.reconnnect(reqUrl, params, headers, redirect_url, return_cookie, buffer)
+            return await this.reconnnect(reqUrl, params, headers, redirect_url, return_cookie, buffer, response,proxy)
         }
     }
 

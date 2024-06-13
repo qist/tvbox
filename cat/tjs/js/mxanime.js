@@ -15,7 +15,7 @@ import * as Utils from "../lib/utils.js";
 class MxAnimeSpider extends Spider {
     constructor() {
         super();
-        this.siteUrl = "https://www.mxdm6.com/"
+        this.siteUrl = "https://www.mxdm4.com/"
     }
 
     getName() {

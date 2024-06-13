@@ -4,7 +4,7 @@
 * @Date     : 2024/02/06 14:58
 * @Email    : jadehh@1ive.com
 * @Software : Samples
-* @Desc     : 非凡资源
+* @Desc     : 非凡资源18+(已失效)
 */
 
 import {VodSpider} from "./vodSpider.js";
@@ -22,7 +22,7 @@ class FeiFan18Spider extends VodSpider {
     }
 
     getName() {
-        return "🔞┃非凡资源18+┃🔞"
+        return `🔞┃非凡资源18+┃🔞`
     }
 
     getJSName() {

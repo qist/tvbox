@@ -16,7 +16,6 @@ import {JadeLogging} from "./log.js";
 import {Quark} from "./quark_api.js"
 const quarkName = "夸克云盘"
 const JadeLog = new JadeLogging(quarkName)
-const quarkPlayFormatList = ["普画"]
 const quark = new Quark()
 async function initQuark(cookie) {
     quark.initQuark(cookie)
@@ -40,6 +39,10 @@ async function detailContentQuark(share_url_list, type_name = "电影") {
     }
 }
 
+function getQuarkPlayFormatList(){
+   return quark.getPlayFormatList()
+}
+
 async function playContentQuark(flag, id, flags){
 
     let id_list = id.split("++")
@@ -47,8 +50,8 @@ async function playContentQuark(flag, id, flags){
     let playUrl = ""
     if (flag.indexOf("原画") > -1){
          playUrl = (await quark.getDownload(shareId, stoken, fileId, fileToken,true)).download_url
-    }else if (flag.indexOf("普画") > -1){
-        playUrl = (await quark.getLiveTranscoding(shareId, stoken, fileId, fileToken,true)).slice(-1)[0]["video_info"].url
+    }else{
+        playUrl = await quark.getLiveTranscoding(shareId, stoken, fileId, fileToken,flag)
     }
     return playUrl
 }
@@ -59,5 +62,5 @@ function getQuarkHeaders(){
     return headers
 }
 
-export {initQuark,detailContentQuark,playContentQuark,quarkPlayFormatList,quarkName,getQuarkHeaders}
+export {initQuark,detailContentQuark,playContentQuark,getQuarkPlayFormatList,quarkName,getQuarkHeaders}
 

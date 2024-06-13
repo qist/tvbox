@@ -1,7 +1,7 @@
 var rule = {
-    title: "88看球",
+    title:'88看球',
     // host:'http://www.88kanqiu.cc',
-    host: "http://www.88kanqiu.live",
+    host:'http://www.88kanqiu.bar/',
     url: "/match/fyclass/live",
     searchUrl: "",
     searchable: 0,
@@ -22,7 +22,7 @@ var rule = {
                 url: url.split('#')[0],
                 parse: 0
             }
-        } else if (/\\?url=/.test(input)){
+        } else if (/\?url=/.test(input)){
             input = {
                 jx:0,
                 url: input.split('?url=')[1].split('#')[0],
@@ -41,16 +41,17 @@ var rule = {
         img: "img&&src",
         desc: ";;;div.team-name:eq(0)&&Text;div.team-name:eq(1)&&Text",
         content: "div.game-time&&Text",
-        tabs: "js:TABS=['道长在线']",
+        tabs: "js:TABS=['实时直播']",
         lists: `js:
-            LISTS=[];
-            let html = request(input);
-            let pdata = jsp.pdfh(html, "#t&&value");
-            pdata = pdata.substring(6, pdata.length);
-            pdata = pdata.substring(0, (pdata.length) - 2)
+            LISTS = [];
+            let html = request(input.replace('play', 'play-url'));
+            let pdata = JSON.parse(html).data;
+            pdata = pdata.slice(6);
+            pdata = pdata.slice(0, -2);
             pdata = base64Decode(pdata);
+            // log(pdata);
             let jo = JSON.parse(pdata).links;
-            let d = jo.map(function(it){
+            let d = jo.map(function (it) {
                 return it.name + '$' + urlencode(it.url)
             });
             LISTS.push(d)

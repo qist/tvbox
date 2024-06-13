@@ -4,7 +4,7 @@
 * @Date     : 2024/1/24 9:15
 * @Email    : jadehh@1ive.com
 * @Software : Samples
-* @Desc     : 量子资源
+* @Desc     : 量子资源(已失效)
 */
 import {VodSpider} from "./vodSpider.js";
 
@@ -20,7 +20,7 @@ class LiangziSpider extends VodSpider {
     }
 
     getName() {
-        return "🐝┃量子资源┃🐝"
+        return `🐝┃量子资源┃🐝`
     }
 
     getJSName() {

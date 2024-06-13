@@ -13,7 +13,7 @@
  */
 
 import {initAli,detailContentAli,playContentAli, aliPlayFormatList,aliName} from "./ali.js"
-import { initQuark,detailContentQuark,playContentQuark,quarkPlayFormatList,quarkName,getQuarkHeaders} from "./quark.js"
+import { initQuark,detailContentQuark,playContentQuark,getQuarkPlayFormatList,quarkName,getQuarkHeaders} from "./quark.js"
 import * as Utils from "./utils.js";
 import {_} from "../lib/cat.js";
 
@@ -38,6 +38,7 @@ async function detailContent(share_url_list,type_name="电影"){
     }
     let aliItems = await detailContentAli(ali_share_url_list)
     let quarkItems = await detailContentQuark(quark_share_url_list)
+    let quarkPlayFormatList =  getQuarkPlayFormatList();
     await getVod(aliPlayFormatList,aliName,playVod,aliItems.video_items,aliItems.sub_items,type_name)
     await getVod(quarkPlayFormatList,quarkName,playVod,quarkItems.video_items,quarkItems.sub_items,type_name)
 
