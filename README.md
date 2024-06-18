@@ -1,4 +1,4 @@
-FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大神无私分享，如有侵权，请联系删除。
+OK影视、TVBox、猫影视配置文件。所有资源均来自于各路大神无私分享，如有侵权，请联系删除。
 
 所有以任何方式查看本仓库内容的人、或直接或间接使用本仓库内容的使用者都应仔细阅读此声明。本仓库管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、修改了本仓库内容，则视为您已接受此免责声明。
 
@@ -10,7 +10,7 @@ FongMi影视、TVBox、猫影视配置文件。所有资源均来自于各路大
 
 1. tvbox配置：
 
-（1）0707.json  Fengmi影视多线配置接口,仅适用于Fengmi影视；
+（1）0707.json  OK影视多线配置接口,仅适用于Fengmi影视；
 
 （2）0821.json  大而全的配置，在饭太硬配置的基础上添加了若干优质点播源、直播线路和解析；
 
@@ -57,7 +57,7 @@ V1.1.2版本以下
 
 1. APP推荐:
 
-（1）FongMi版本  项目地址：<https://github.com/FongMi/TV> 支持直播多线路、自动换源、直播倍速，手机投屏；
+（1）OK影视版本  项目地址：<https://github.com/FongMi/TV> 支持直播多线路、自动换源、直播倍速，手机投屏；
 
 （2）q215613905版本  项目地址：<https://github.com/q215613905/TVBoxOS> 支持直播回放；
 
@@ -95,7 +95,7 @@ V1.1.2版本以下
 
 （11）俊于：http://home.jundie.top:81/top98.json
 
-（12）橘子柚：https://juziyou.vip/tv
+（12）橘子柚：https://mirror.ghproxy.com/https://raw.githubusercontent.com/hackyjso/box/main/jzy.txt
 
 （13）电视（自用）： <https://github.moeyy.xyz/raw.githubusercontent.com/qist/tvbox/master/jsm.json>
 
