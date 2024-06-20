@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;74b4cff33e806401fc7441369fd5bae5",
+"spider":"./jar/pg.jar;md5;73b12022e75e5139dc39e9690727021c",
 "logo":"https://cdn.pixabay.com/photo/2020/08/09/11/43/woman-5475306_1280.jpg",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.txt"},
 {"name":"糖意","type":0,"url":"https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},
@@ -14,7 +14,7 @@
 {"key":"lf_js_search","name":"搜索","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js","ext":"18+"},
 {"key":"lf_js_p2p","name":"磁力","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","ext":"18+","timeout":60},
 {"key":"lf_js_lf_live","name":"直播","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live1.txt"},
-{"key":"Youtube","name":"Youtube","type":3,"api": "csp_Youtube","searchable": 1,"quickSearch": 0,"changeable": 0,"ext":{"json":"./json/youtube.json","type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary","proxy":"proxy","keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐","codecs":""},"style": {"type": "rect","ratio": 1.5}},
+{"key":"Youtube","name":"Youtube","type":3,"api": "csp_Youtube","searchable": 1,"quickSearch": 0,"changeable": 0,"ext":{"json":"./json/youtube1.json","type":"直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary","proxy":"proxy","keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐","codecs":""},"style": {"type": "rect","ratio": 1.5}},
 {"key":"配置中心","name":"配置中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"ext":"http://127.0.0.1:9978/file/TV/token.json"},
 {"key":"PushShare","name":"资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pushshare.a.txt$$$db$$$1","style": {"type": "list"}},
 {"key":"PikPakShare","name":"PikPak","type":3,"api":"csp_PikPakShare","searchable":1,"quickSearch":1, "changeable":0, "filterable":0, "timeout":60, "ext":"http://127.0.0.1:9978/file/TV/token.json$$$./json/pikpakclass.a.json$$$./json/pikpakclass.a.json.db.gz"},

@@ -49,7 +49,7 @@
         //jar内置爬虫规则区
         {"key":"360_spider","name":"🐞360影视","type":3,"api":"csp_SP360","filterable":1,"quickSearch":1,"searchable":1},
         {"key":"csp_Kuaikan","name":"💡快看影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czys.pro"},
+        {"key":"csp_Czsapp","name":"🐞厂长资源","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czys.top"},
         {"key":"csp_Bdys","name":"🐞哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1},
         //{"key": "csp_XYQHiker_哔嘀影视","name":"🧲哔嘀影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/哔嘀影视.json"},
         {"key":"csp_Ddys","name":"🐞低端影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
@@ -71,7 +71,8 @@
         //{"key": "csp_短剧网","name":"短剧网","type":3,"api":"csp_Duanjuw","searchable":1,"quickSearch":1,"filterable":1},
         //XYQ规则区
         {"key": "csp_XYQHiker_农民影视","name":"🧑🏻‍农民影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
-        //{"key": "csp_XYQHiker_996影视","name":"996影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/996影视.json"},
+        {"key": "csp_XYQHiker_七新影视","name":"七新影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/七新影视.json"},
+        {"key": "csp_XYQHiker_可可影视","name":"可可影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/可可影视.json"},
         
         //直播规则区
         //{"key": "csp_XYQBiu_88看球","name":"88看球(XYQ)","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"./XYQBiu/88看球.json"},

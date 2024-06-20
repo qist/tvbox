@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;c75cf198357a3a77f2189ab0764f2a8c",
+"spider":"./jar/fan.txt;md5;b4518597b341123213f6208fbfab7c1b",
 "lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
 "wallpaper":"https://qist.cc/api/api.php",
 "sites":[
@@ -12,7 +12,7 @@
 {"key":"短剧","name":"🌈上头┃短剧","type":3,"api":"csp_Djuu","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"酷看","name":"💡酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"原创","name":"☀原创┃不卡","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"视觉","name":"👓视觉┃多线","type":3,"api":"csp_Xinsj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.80yy3.com/"},
+{"key":"视觉","name":"👓视觉┃多线","type":3,"api":"csp_Xinsj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.6080yy3.com/"},
 {"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czys.pro/"},
 {"key":"zxzj","name":"🍊在线┃外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
