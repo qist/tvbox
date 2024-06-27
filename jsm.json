@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;a610e504d51ef5a186ffb53c7c8072ac",
+"spider":"./jar/fan.txt;md5;39536019b1427f62b535f028d161d43a",
 "lives":[
 {"name":"v4","type":0,"url":"https://raw.gitmirror.com/jdliu243910/zb/main/v4mu","playerType":1,"ua":"Mozilla/5.0","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
