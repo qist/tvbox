@@ -34,7 +34,7 @@
 			"type_name":"紀錄片"
 		},
 		{
-			"type_id":"音樂",
+			"type_id":"FULL 4k神级现场",
 			"type_name":"音樂"
 		},
 		{
@@ -58,7 +58,7 @@
 			"type_name":"科普知識"
 		},
 		{
-			"type_id":"Full 從古至今 解說",
+			"type_id":"Full 解說",
 			"type_name":"解說"
 		},
 		{
@@ -942,7 +942,7 @@
 				]
 			}
 		],
-		"音樂":[
+		"FULL 4k神级现场":[
 		    {
 				"key":"time",
 				"name":"時間",
@@ -1338,12 +1338,13 @@
 				"name":"医学",
 				"value":[
 				    {"n":"中國醫學百科全書","v":"中國醫學百科全書·蒙醫學"},
+				    {"n":"清瘟消腫九味丸","v":"清瘟消腫九味丸"},
 				    {"n":"百享生活頻道","v":"@BesTV_Life"},
 				    {"n":"医科大学","v":"流產視頻,分娩視頻,子宮切除,手術,麻醉,解刨,護士,醫生,教學,護理,衛生,視廳,教材,婦科,x光,b超,錄像,anesthesia Medical university"}
 				]
 			}
 		],
-		"Full 從古至今 解說":[
+		"Full 解說":[
 			{
 				"key":"tid",
 				"name":"頻道主",
@@ -1362,7 +1363,7 @@
 				"name":"風景",
 				"value":[
 				    {"n":"運動","v":"HDR GoPro,女翼裝飛行,極限自行車運動"},
-				    {"n":"風景","v":"HDR 大自然"},
+				    {"n":"風景AV1","v":"AKSense - Zurich HDR 大自然"},
 				    {"n":"Links TV頻道主","v":"@linksphotograph Links TV HDR"},
 				    {"n":"放鬆","v":"HDR 放鬆"},
 				    {"n":"動物世界","v":"HDR Carnivorous Animals 動物世界"},
@@ -1487,6 +1488,7 @@
 				"key":"tid",
 				"name":"CCTV直播",
 				"value":[
+				    {"n":"CCTV-4k超高清","v":"CCTV-4k超高清"},
 				    {"n":"CCTV中文国际","v":"Full CCTV中文国际"},
 				    {"n":"CCTV1综合","v":"Full CCTV1综合"},
 				    {"n":"CCTV2财经","v":"Full CCTV2财经"},

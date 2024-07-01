@@ -1,0 +1,43 @@
+testvod,http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xOfwfZhw_oo
+鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=if6yQq_JJyY
+凤凰卫视,http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=http://www.youtube.com/watch?v=dmDg7NfUoSw
+寰宇新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
+鏡新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
+東森Live, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=R2iMq5LKXco
+中天新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+中天新聞2, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
+三立live, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
+三立inews, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+三立NEWS+, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
+
+TVBS新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS NEWS LIVE, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
+民視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
+華視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
+中視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=xL0ch83RAK8
+
+EBC東森財經, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
+三立財經, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+NHK WORLD, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
+NHK WORLD,https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_1M.m3u8?zshijd
+
+Sky News, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
+FRANCE 24, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
+ABC News, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
+Euronews English, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pykpO5kQJ98
+DW, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
+ANN News, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
+KBS KOREA, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
+
+NBC NEW, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
+鳳凰資訊, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=sUISafvOieY
+凤凰卫视, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=dmDg7NfUoSw
+CCTV中文国际, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=9sE12tg3CmA
+东森财经股市, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=LbS-xQ67fos
+公視直播, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4Uc00FPs27M
+KOMPASTV, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=4rmf-lk3ito
+东京新宿, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
+台灣地震監視, http://127.0.0.1:9978/proxy?do=yt&proxy=socks://127.0.0.1:10172&url=https://www.youtube.com/watch?v=Owke6Quk7T0
+
