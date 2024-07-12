@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;879429d053ddf8c9826aa6632d58105b",
+"spider":"./jar/fan.txt;md5;026629a5c54494dc8ae9bd38d0a1a1f6",
 "lives":[
 {"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ipv6","type":0,"url":"./tvboxtv.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
