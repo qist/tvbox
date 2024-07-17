@@ -48,8 +48,8 @@ var rule = {
 	`,    
 
     推荐:`js:
-		let d = [];
-		let html = request("https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=3&pn=2&pc=30&hudong=1&_support=10000000&kind=a1&year=all&chargeInfo=a1&sort=c1&edition=a1&area=a1");
+        let d = [];
+        let html = request("https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=3&pn=1&pc=40&hudong=1&_support=10000000&kind=a1&year=all&chargeInfo=a1&sort=c1&edition=a1&area=a1");
 		let json = JSON.parse(html);
 		json.data.hitDocs.forEach(function(data,index) {
             d.push({
