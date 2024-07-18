@@ -1,6 +1,6 @@
 {
   "log": {
-    "level": "info",
+    "level": "debug",
     "timestamp": true
   },
   "dns": {
@@ -26,16 +26,8 @@
     ],
     "rules": [
       {
-        "outbound": "any",
+        "outbound": ["any"],
         "server": "local"
-      },
-      {
-        "query_type": [
-          "A",
-          "AAAA"
-        ],
-        "server": "fakeip",
-        "rewrite_ttl": 1
       },
       {
         "clash_mode": "Global",
@@ -50,10 +42,6 @@
         "server": "local"
       },
       {
-        "clash_mode": "Default",
-        "server": "remote"
-      },
-      {
         "type": "logical",
         "mode": "and",
         "rules": [
@@ -66,6 +54,12 @@
           }
         ],
         "server": "local"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+	"query_type":["A","AAAA"],
+        "server": "fakeip",
+        "rewrite_ttl": 1
       }
     ],
     "fakeip": {
@@ -74,7 +68,8 @@
       "inet6_range": "fc00::/18"
     },
     "strategy": "prefer_ipv4",
-    "independent_cache": true
+    "independent_cache": true,
+    "reverse_mapping": true
   },
   "inbounds": [
     {
@@ -250,7 +245,7 @@
       "external_ui": "ui",
       "external_ui_download_url": "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "select",
-      "default_mode": "rule"
+      "default_mode": "Rule"
     }
   }
 }
