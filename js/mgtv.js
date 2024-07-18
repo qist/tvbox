@@ -11,7 +11,7 @@ globalThis.removeBTags= function(title) {
 }
 var rule = {
     title:'百忙无果',
-    host:'http://tv.jsp47.com',
+    host:'https://pianku.api.%6d%67%74%76.com',
     homeUrl:'',
     detailUrl:'https://v5m.api.mgtv.com/remaster/vrs/getByPartId?abroad=0&src=mgtv&partId=fyid',
     searchUrl:'https://mobileso.bz.%6d%67%74%76.com/msite/search/v2?pc=30&pn=1&q=**',
