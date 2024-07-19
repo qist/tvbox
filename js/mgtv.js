@@ -22,7 +22,7 @@ var rule = {
     url:'https://pianku.api.%6d%67%74%76.com/rider/list/pcweb/v3?platform=pcweb&channelId=fyclass&pn=fypage&pc=80&hudong=1&_support=10000000&kind=a1&area=a1',
     filter_url:'year={{fl.year or "all"}}&sort={{fl.sort or "all"}}&chargeInfo={{fl.chargeInfo or "all"}}',
     headers:{
-        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36'
+        'User-Agent':'PC_UA'
     },
     timeout:5000,
     class_name:'电影&电视剧&综艺&少儿',
