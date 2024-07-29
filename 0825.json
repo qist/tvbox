@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;c687efe41ea48c68e9ddd63d0796d242",
+"spider":"./jar/pg.jar;md5;3500d70d126ce8a3d718572fbddf0278",
 "lives":[{"name":"初秋语•综合","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray•综合","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -34,6 +34,7 @@
 {"key":"AliShareEBook","name":"书籍分享","type":3,"api":"csp_AliShare","searchable":1,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/alishare.ebook.txt$$$db$$$1","style":{"type":"list"}},
 {"key":"ThunderShare","name":"迅雷分享","type":3,"api":"csp_ThunderShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/thundershare.txt"},
 {"key":"QuarkShare","name":"夸克分享","type":3,"api":"csp_QuarkShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/quarkshare.txt"},
+{"key":"115Share","name":"115云盘分享","type":3,"api":"csp_P115Share","searchable":1,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/115share.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}},
 {"key":"SambaShare","name":"Samba分享","type":3,"api":"csp_SambaShare","searchable":0,"quickSearch":0, "changeable":0, "filterable":0, "timeout":60, "ext":"./lib/token.json$$$./json/sambashare.txt"},
 
 {"key": "追剧","name": "追剧","type": 3,"api": "csp_TTian","playerType": 1,"ext": "http://app.kzjtv.com$$$null$$$1"},
@@ -55,7 +56,7 @@
 {"key":"巴士","name":"巴士","type":3,"api":"csp_Dm84","searchable":1,"changeable":1},
 {"key": "獨播","name": "獨播","type": 3,"api": "csp_XPathMacFilter","searchable": 1,"changeable": 0,"ext": "./json/duboku.json$$$socks5://127.0.0.1:10172"},
 
-{"key":"Wogg","name":"玩偶","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://www.wogg.link/$$$null$$$1$$$./wogg.json"},
+{"key":"Wogg","name":"玩偶","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://www.wogg.net/$$$null$$$1$$$./wogg.json"},
 {"key":"Wobg","name":"表哥","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./wogg.json"},
 {"key":"yydsys","name":"老哥","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://tv.yydsys.top/$$$null$$$1$$$./wogg.json"},
 {"key":"Moli","name":"HDmoli","type":3,"api":"csp_Moli","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://www.hdmoli.pro/$$$null$$$1$$$./json/moli.json"},
