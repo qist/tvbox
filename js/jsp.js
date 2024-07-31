@@ -82,7 +82,7 @@ var rule = {
 		let json = JSON.parse(html);
 		json.data.docinfos.forEach(function(data) {
             let channelName = data.albumDocInfo.channel.split(',')[0];
-            if (channelName.includes('电影') || channelName.includes('电视剧') || channelName.includes('综艺') || channelName.includes('动漫') || channelName.includes('少儿')) {
+            if ((data.is_exactly_same === true)&&(channelName.includes('电影') || channelName.includes('电视剧') || channelName.includes('综艺') || channelName.includes('动漫') || channelName.includes('少儿'))) {
                 d.push({
                     url: "https://www.tycng.com/jsp.php?jx=" + data.albumDocInfo.albumTitle,
                     title: data.albumDocInfo.albumTitle,
@@ -93,5 +93,5 @@ var rule = {
             }
 		});
 		setResult(d);
-	`   
+	`    
 }
