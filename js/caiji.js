@@ -8,7 +8,6 @@ var rule = {
 	title:'点播',
 	host:'http://tv.jsp47.com',
 	homeUrl:'',
-    //searchUrl:'https://www.suying.lol/index.php/vod/search.html?wd=**',
     searchUrl:'https://search.video.iqiyi.com/o?if=html5&key=**&pageNum=fypage&pos=1&pageSize=25&site=iqiyi',
     searchable:2,
 	quickSearch:1,
@@ -23,66 +22,62 @@ var rule = {
 	lazy:"", 
     推荐:"",
     一级:"",
-    二级:`js: 
-		let d = [];
-		try {		
-			let html = request(input, {
-						headers: getHeaders(url)
-					});
-			let json = JSON.parse(html).data;
-			VOD = {
-				vod_name: "",
-				type_name: "",
-				vod_actor: "",
-				vod_year: "",
-				vod_content: "",
-				vod_remarks: "",
-				vod_pic: ""
-			};
-
-			
-			VOD.type_name = "";
-			
-			VOD.vod_actor = "";
-			VOD.vod_content = "特别提醒:ㅤ友情提示您请勿相信影片中的广告，以免上当受骗";
-			let playData = json;
-			let playMap = {};		
-			playData.forEach(function(it, index) {
-				VOD.vod_name =it.name;
-                VOD.vod_pic = "http://114.100.48.52:18008/movjpg/" + it.name + ".jpg";
-				let names = it.name +"  ("+ (index+1) +")";
-				let playEsp = it.source.eps;
-				playEsp.forEach(function(it) {
-                    let source = names; 
+    二级:`js:
+        let d = [];
+        try {               
+            let html = request(input, {
+                headers: getHeaders(url)
+            });
+            let json = JSON.parse(html);
+            VOD = {
+                vod_name: "",
+                type_name: "",
+                vod_actor: "",
+                vod_year: "",
+                vod_content: "",
+                vod_remarks: "",
+                vod_pic: ""
+            }; 
+            let playData = json.data;
+            let playMap = {};               
+            playData.forEach(function(it, index) {
+                VOD.vod_name =it.name;
+                VOD.type_name = it.class ? it.class+"  &nbsp;&nbsp;&nbsp;&nbsp;线路："+json.portname : "未知  &nbsp;&nbsp;&nbsp;&nbsp;线路："+json.portname;
+                VOD.vod_actor = it.actor;
+                VOD.vod_content = it.content ? it.content : "特别提醒:ㅤ友情提示您请勿相信影片中的广告，以免上当受骗";
+                VOD.vod_year = it.year;
+                VOD.vod_pic = it.pic ? it.pic : "http://114.100.48.52:18008/movjpg/" + it.name + ".jpg";
+                let names = it.name +"  ("+ (index+1) +")";
+                let playEsp = it.source.eps;
+                playEsp.forEach(function(it) {
+                    let source = names;
                     if (!playMap.hasOwnProperty(source)) {
                         playMap[source] = []
-                    }					
-					playMap[source].append(it['name'].strip() + '$' + it['url']);
-					
-				})
-			})
-			let playFrom = [];
-			let playList = [];	
-			Object.keys(playMap)
-				.forEach(function(key) {
-					playFrom.append(key);
-					playList.append(playMap[key].join('#'))
-				});		
-			let vod_play_from = playFrom.join('$$$');
-			let vod_play_url = playList.join('$$$');
-			VOD['vod_play_from'] = vod_play_from;
-			VOD['vod_play_url'] = vod_play_url
+                    }                                       
+                    playMap[source].append(it['name'].strip() + '$' + it['url']);
+                       
+                })
+            })
+            let playFrom = [];
+            let playList = [];        
+            Object.keys(playMap).forEach(function(key) {
+                    playFrom.append(key);
+                    playList.append(playMap[key].join('#'))
+                });               
+            let vod_play_from = playFrom.join('$$$');
+            let vod_play_url = playList.join('$$$');
+            VOD['vod_play_from'] = vod_play_from;
+            VOD['vod_play_url'] = vod_play_url
         } catch (e) {
             log('获取二级详情页发生错误:' + e.message)
-        }			
-	`,
+        }`,
     搜索:`js:
 		let d = [];
 		let html = request(input);
 		let json = JSON.parse(html);
 		json.data.docinfos.forEach(function(data) {
             let channelName = data.albumDocInfo.channel.split(',')[0];
-            if ((data.is_exactly_same === true)&&(channelName.includes('电影') || channelName.includes('电视剧') || channelName.includes('综艺') || channelName.includes('动漫') || channelName.includes('少儿'))) {
+            if (channelName.includes('电影') || channelName.includes('电视剧') || channelName.includes('综艺') || channelName.includes('动漫') || channelName.includes('少儿')) {
                 d.push({
                     url: "https://www.tycng.com/caiji.php?jx=" + data.albumDocInfo.albumTitle,
                     title: data.albumDocInfo.albumTitle,
