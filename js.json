@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;3500d70d126ce8a3d718572fbddf0278",
+"spider":"./jar/pg.jar;md5;93278b5f3154802b9112c7a05981ba86",
 "lives":[
 {"name":"live","type":0,"url":"./tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -54,6 +54,7 @@
 {"key":"Gaoqing","name":"弹幕 | 高清网[jar]","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://gaoqing.la/$$$proxy$$$1"},
 {"key":"音范丝","name":"弹幕 | 音范丝[jar]","type":3,"api":"csp_Gaoqing","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://www.yinfans.me/$$$proxy$$$1"},
 
+{"key":"TGYunPan","name":"网盘 | TG搜索[jar]","type":3,"api":"csp_TGYunPan","timeout":60, "ext":"./lib/token.json$$$http://144.126.217.226:8000/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$noproxy$$$1"},
 {"key":"YingSo","name":"磁力 | 影搜[jar]","type":3,"api":"csp_YingSo","timeout":60, "ext":"./lib/token.json$$$1"},
 {"key":"盘友圈","name":"网盘 | 盘友圈","type":3,"api":"csp_Panyq","timeout":60, "ext":"./lib/token.json"},
 {"key":"88Pan","name":"网盘 | 88网盘[jar]","type":3,"api":"csp_EightEight","timeout":30, "ext":"./lib/token.json$$$https://662688.xyz"},
