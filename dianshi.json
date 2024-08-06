@@ -1,6 +1,6 @@
 {
 "spider":"./jar/fan.txt;md5;6569779195625775f841ee964e8cec56",
-"lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":1,"ua":"Lavff/98.27.100","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
+"lives":[{"name":"live","type":0,"url":"./tv.txt","playerType":2,"ua":"Lavff/98.27.100","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"}],
 "wallpaper":"https://qist.cc/api/api.php",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
