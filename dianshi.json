@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;dfca5ce9ad9310ba86ab1f933b4af2de",
+"spider":"./jar/fan.txt;md5;67d1780ee22d022e0551fb8de5db17b6",
 "lives":[
     {"name":"live","type":0,"url":"./tv.txt","playerType":2,"ua":"Lavff/98.27.100","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"},
     {"name": "M3U", "url": "./mytvsuper.m3u"}
