@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;1afc4805bdba7475148982fc60317f70",
 "lives":[
-    {"name":"live","type":0,"url":"./tv.txt","playerType":2,"ua":"Lavff/98.27.100","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"},
+    {"name":"live","type":0,"url":"./tv.txt","playerType":2,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://logo.tycng.com/{name}.png"},
     {"name": "M3U", "url": "./mytvsuper.m3u"}
 ],
 "wallpaper":"https://qist.cc/api/api.php",
