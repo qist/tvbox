@@ -38,7 +38,6 @@
 {"key":"酷看","name":"酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Lib","name": "立播┃秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"文采","name":"文采┃秒播","type":3,"api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"小点","name":"小点┃多线","type":3,"api":"csp_Appxdys","searchable":1,"quickSearch":1,"changeable":0},
 {"key":"煤球","name":"煤球┃多线","type":3,"api":"csp_Appmq","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"专线","name":"专线┃秒播","type":3,"api":"csp_Zx4k","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"原创","name":"原创┃不卡","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
@@ -46,7 +45,6 @@
 {"key":"厂长","name":"厂长┃不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czys.pro/"},
 {"key":"zxzj","name":"在线┃外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
 {"key":"低端","name":"低端┃外剧","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"蛋蛋","name":"蛋蛋┃多线","type":3,"api":"csp_Cddys","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"贱贱","name":"贱贱┃P2P","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./lib/drpy2.min.js","ext":"./js/荐片.js"},
 {"key":"可可","name":"可可┃多线","type":3,"api":"csp_Kekys","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"热播","name":"热播┃多线","type":3,"api":"csp_AppTT","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
@@ -63,7 +61,6 @@
 {"key":"夸搜","name":"夸搜┃夸父","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext": {"pan":"quark","Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"YiSo","name":"易搜┃阿狸","type":3,"api":"csp_YiSo","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"PanSou","name":"盘搜┃阿狸","type":3,"api":"csp_PanSou","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
-{"key":"UpYun","name":"Up搜┃阿狸","type":3,"api":"csp_UpYun","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"PanSearch","name":"盘Se┃阿狸","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"push_agent","name":"手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 
