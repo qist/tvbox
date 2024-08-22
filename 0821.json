@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;5d760b50584f03b3f71c8a6d1c17aa8e",
+"spider":"./jar/fan.txt;md5;74e273c7722d5b4b8cabcb11171ee350",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[{"name":"初秋语•ipv4","type":0,"url":"./list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"YanG•综合","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
