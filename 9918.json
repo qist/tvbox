@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;4aeb22cbba4494058b33e85675f415b4",
+"spider":"./jar/pg.jar;md5;c9986646066cf0863a5045a0e31bb8ac",
 "logo":"https://cdn.pixabay.com/photo/2020/08/09/11/43/woman-5475306_1280.jpg",
 "lives":[{"name":"初秋语","type":0,"url":"./listx.m3u"},
 {"name":"糖意","type":0,"url":"https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},
