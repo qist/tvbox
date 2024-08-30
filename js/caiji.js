@@ -79,7 +79,7 @@ var rule = {
 		json.data.forEach(function(data) {
             data.list.forEach(function(it) {
                 d.push({
-                    url: "https://www.tycng.com/cj.php?jspid=" + it.id + "&port=" + data.port,
+                    url: "https://www.tycng.com/cj.php?id=" + it.id + "&port=" + data.port,
                     title: it.name,
                     img: it.pic,
                     content:it.content,
