@@ -80,7 +80,7 @@ var rule = {
             data.list.forEach(function(it) {
                 d.push({
                     url: "https://www.tycng.com/cj.php?id=" + it.id + "&port=" + data.port,
-                    title: it.name + "," + data.portname,
+                    title: it.name + "【" + data.portname + "】",
                     img: it.pic,
                     content:it.content,
                     desc: it.remarks + "," + it.type_name
