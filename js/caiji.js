@@ -1,28 +1,28 @@
-globalThis.getHeaders = function (input) {
-    let headers = {
+globalThis.getHeaders= function(input){
+	let headers = {
         'User-Agent': 'okhttp/4.1.0'
-    };
-    return headers
+	};
+	return headers
 }
 var rule = {
-    title: '点播',
-    host: 'http://tv.jsp47.com',
-    homeUrl: '',
-    searchUrl: 'https://www.tycng.com/cj.php?q=**&pageNum=fypage',
-    searchable: 2,
-    quickSearch: 1,
-    multi: 1,
-    filterable: 1,
-    headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36'
+	title:'点播',
+	host:'http://tv.jsp47.com',
+	homeUrl:'',
+    searchUrl:'https://www.tycng.com/cj.php?q=**&pageNum=fypage',
+    searchable:2,
+	quickSearch:1,
+	multi:1,
+    filterable:1,
+    headers:{
+        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36'
     },
-    timeout: 5000,
-    limit: 20,
-    play_parse: true,
-    lazy: "",
-    推荐: "",
-    一级: "",
-    二级: `js:
+    timeout:5000,
+    limit:20,	
+	play_parse:true, 
+	lazy:"", 
+    推荐:"",
+    一级:"",
+    二级:`js:
         let d = [];
         try {               
             let html = request(input, {
@@ -72,19 +72,21 @@ var rule = {
         } catch (e) {
             log('获取二级详情页发生错误:' + e.message)
         }`,
-    搜索: `js:
+    搜索:`js:
 		let d = [];
 		let html = request(input);
 		let json = JSON.parse(html);
 		json.data.forEach(function(data) {
-            d.push({
-                url: "https://www.tycng.com/cj.php?id=" + data.id + "&port=" + json.port,
-                title: data.name,
-                img: data.pic,
-                content:data.content,
-                desc: data.remarks + "," + data.type_name + "," + json.port
-            })
+            data.list.forEach(function(it) {
+                d.push({
+                    url: "https://www.tycng.com/cj.php?id=" + it.id + "&port=" + data.port,
+                    title: it.name + "【" + data.portname + "】",
+                    img: it.pic,
+                    content:it.content,
+                    desc: it.remarks + "," + it.type_name
+                })
+            });            
 		});
 		setResult(d);
-	`
+	` 
 }
