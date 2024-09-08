@@ -3,7 +3,9 @@
 "lives":[
 {"name":"fmm","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"},
 {"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"},
-{"name":"ipv6","type":0,"url":"./tvboxtv.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"}
+{"name":"ipv6","type":0,"url":"./tvboxtv.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"},
+{"name": "🏠RobYang1 rb.gy/cbgs6c 直播",    "url": "https://rb.gy/cbgs6c",    "ua": "okhttp/3.15",    "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",   "logo": "https://epg.112114.xyz/logo/{name}.png",    "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"  },
+{"name": "🏠RobYang2 直播",    "url": "https://rb.gy/fnexy1",    "ua": "okhttp/3.15",    "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",    "logo": "https://epg.112114.xyz/logo/{name}.png",    "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"  }
 ],
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
