@@ -8,7 +8,7 @@ var rule = {
 	title:'点播',
 	host:'http://tv.jsp47.com',
 	homeUrl:'',
-    searchUrl:'https://www.tycng.com/cj.php?q=**&pageNum=fypage',
+    searchUrl:'https://www.ugigc.us.kg/cj.php?q=**&pageNum=fypage',
     searchable:2,
 	quickSearch:1,
 	multi:1,
@@ -79,7 +79,7 @@ var rule = {
 		json.data.forEach(function(data) {
             data.list.forEach(function(it) {
                 d.push({
-                    url: "https://www.tycng.com/cj.php?id=" + it.id + "&port=" + data.port,
+                    url: "https://www.ugigc.us.kg/cj.php?id=" + it.id + "&port=" + data.port,
                     title: it.name + "【" + data.portname + "】",
                     img: it.pic,
                     content:it.content,
