@@ -29,7 +29,7 @@
 
 
 ## 點播接口：
-1. Rob Yang 點播庫.: https://rb.gy/4s4hbd or https://rb.gy/nr46sd or https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/liveVodTV.json
+1. Rob Yang 點直播線源:　https://rb.gy/vrmbxx or https://rb.gy/vryc96 
 2. 寶盒=欧乐,泥巴　https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json
 3. 泥巴,独播库,小宝,欧乐,腐剧　https://raw.githubusercontent.com/qist/tvbox/master/jsm.json (https://github.com/qist/tvbox)
 4. https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json （https://github.com/gaotianliuyun/gao/tree/master） 
@@ -42,8 +42,7 @@
 
 
 ## 直播接口： 
-1. Rob Yang 直播庫: https://rb.gy/cbgs6c or https://rb.gy/fnexy1 or  https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/liveTV.json <br>
-2. Rob Yang 直播: https://rb.gy/fmlb89 or https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/liveTV.json <br>
+1. Rob Yang　點直播線源:　https://rb.gy/vrmbxx or https://rb.gy/vryc96 
 3. 4GTV live: https://api2.4gtv.tv/Channel/GetChannelBySetId/1/pc/L<br>
 4. 159169 http://www.52sw.top:678/play/oj1381/list.php?get=159169
 5. 169 http://www.52sw.top:678/play/oj1381  
