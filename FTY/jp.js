@@ -6,7 +6,7 @@
 
 var rule = {
 	title: '荐片',
-	host: 'http://112.124.0.131:20000/',
+	host: 'http://api2.rinhome.com',
 	homeUrl: '/api/tag/hand?code=unknown601193cf375db73d&channel=wandoujia',//网站的首页链接,用于分类获取和推荐获取
 	// url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
 	url: '/api/crumb/list?page=fypage&type=0&limit=24&fyfilter',
@@ -111,7 +111,7 @@ var rule = {
             }
             let playMap = {};
 			if (node.have_ftp_ur == 1) {
-				playMap["边下边播超清版"] = node.new_ftp_list.map(it => {
+				playMap["边下边播，勤去清缓存"] = node.new_ftp_list.map(it => {
 					return it.title + "$" + (/m3u8/.test(it.url) ? play_url + it.url : "tvbox-xg:" + it.url)
 				}).join('#');
 			}
