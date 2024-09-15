@@ -1,0 +1,22 @@
+//此多仓接口列表为公众号【多多影音】作者大聪明为粉丝提供便利整理而成，如有冒犯各位接口所属大神，请联系删除。
+//https://cdn05042023.gitlink.org.cn/api/v1/repos/leevi0321/apps/raw/room.json?ref=main&access_token=a1599f23120693a58fe8563126d946b092a57ea6
+{
+  "storeHouse": [
+    {
+      "sourceName": "💚多多优选仓🍭软件接口🍭",
+      "sourceUrl": "https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/a.txt?ref=main"
+    },
+    {
+      "sourceName": "💛多多公众仓🍭完全免费🍭",
+      "sourceUrl": "https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/b.txt?ref=main"
+    },
+    {
+      "sourceName": "❤️多多聚合仓🍭严禁贩卖🍭",
+      "sourceUrl": "https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/c.txt?ref=main"
+    },
+    {
+      "sourceName": "💜多多预备仓🍭不做韭菜🍭",
+      "sourceUrl": "https://www.gitlink.org.cn/api/leevi0321/apps/raw/ck/d.txt?ref=main"
+    }
+  ]
+}

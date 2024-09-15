@@ -1,0 +1,86 @@
+{
+    "lives": [
+      {
+        "name": "M3U",
+        "url": "https://github.com/live.m3u"
+      },
+      {
+        "name": "TXT",
+        "url": "https://github.com/live.txt",
+        "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+        "logo": "https://epg.112114.xyz/logo/{name}.png"
+      },
+      {
+        "name": "IJK",
+        "url": "https://github.com/live.txt",
+        "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "playerType": 1
+      },
+      {
+        "name": "EXO",
+        "url": "https://github.com/live.txt",
+        "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "playerType": 2
+      },
+      {
+        "name": "PRO",
+        "boot": false,
+        "url": "https://github.com/live.txt",
+        "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "referer": "https://github.com/"
+      },
+      {
+        "name": "Custom",
+        "boot": false,
+        "pass": true,
+        "url": "https://github.com/live.txt",
+        "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Shanghai",
+        "logo": "https://epg.112114.xyz/logo/{name}.png",
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+          "Referer": "https://github.com/"
+        },
+        "catchup": {
+          "days": "7",
+          "type": "append",
+          "regex": "/PLTV/",
+          "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+        }
+      },
+      {
+        "name": "JSON",
+        "type": 1,
+        "url": "https://github.com/live.json"
+      },
+      {
+        "name": "Spider-JS",
+        "type": 3,
+        "api": "https://github.com/live.js",
+        "ext": ""
+      },
+      {
+        "name": "Spider-JSWithList",
+        "type": 3,
+        "api": "https://github.com/live.js",
+        "url": "https://github.com/live.txt",
+        "ext": ""
+      },
+      {
+        "name": "Spider-Python",
+        "type": 3,
+        "api": "https://github.com/live.py",
+        "ext": ""
+      },
+      {
+        "name": "Spider-PythonWithList",
+        "type": 3,
+        "api": "https://github.com/live.py",
+        "url": "https://github.com/live.txt",
+        "ext": ""
+      }
+    ]
+  }

@@ -1,0 +1,49 @@
+{
+    "logo": "./shad.gif",
+    "sites": [
+        {
+            "key": "T4-heimuer",
+            "name": "黑木耳(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/hme?token=09759777",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "T4-欧乐",
+            "name": "欧乐(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/olelive?token=09759777",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "T4-安博",
+            "name": "安博(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/ub18?token=09759777",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        }
+    ],
+    "lives": [
+        {
+            "name": "安博",
+            "url": "https://tang.hz.cz/zb/anbo?token=09759777",
+            "ua": "okhttp/4.12.0"
+        },
+        {
+            "name": "ETH(JS)",
+            "api": "https://tang.hz.cz/js/ethtv.js",
+            "type": 3,
+            "ua": "okhttp/4.12.0"
+        }
+    ],
+    "notice": "欢迎光临！xxxxxxxx"
+}
