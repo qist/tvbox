@@ -8,12 +8,20 @@
     //   "name": "Tang 線源"
     // },
     {
-      "url": "https://rb.gy/ksv1pe", //"https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/jsm.json", //https://rb.gy/ksv1pe
-      "name": "🏠RobYang1 點直播"
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/jsm.json",  //https://rb.gy/ksv1pe
+      "name": "🏠RobYang 點直播站源"
     },
     {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/jsm.json",
-      "name": "🏠RobYang2 點直播"
+      "url": "https://rb.gy/vrmbxx",
+      "name": "!舊網址不再跟新，請用新線源 https://rb.gy/vrmbxx"
+    },
+    {
+      "url": "https://rb.gy/vrmbxx",
+      "name": "🏠RobYang1 點直播線源🏠"
+    },
+    {
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/sources.json",
+      "name": "🏠RobYang2 點直播線源🏠"
     },
     {
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
