@@ -8,29 +8,17 @@
     //   "name": "Tang 線源"
     // },
     {
+      "url": "https://rb.gy/ksv1pe", //"https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/jsm.json", //https://rb.gy/ksv1pe
+      "name": "🏠RobYang1 點直播"
+    },
+    {
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/jsm.json",
+      "name": "🏠RobYang2 點直播"
+    },
+    {
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
       "name": "高天流雲 JS"
     },
-    {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox-Qist/own/jsm.json",
-      "name": "🏠Rob Yang 點直播"
-    },
-    {
-      "url": "https://rb.gy/4s4hbd",
-      "name": "🏘️1RobYang rb.gy/4s4hbd 點直播"
-    },
-    {
-      "url": "https://rb.gy/nr46sd",
-      "name": "🏘️2RobYang 點直播"
-    },
-    // {
-    //   "url": "https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/liveVodTV.json",
-    //   "name": "🏘️3RobYang Hub"
-    // },
-    // {
-    //   "url": "https://gh.con.sh/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/vod.json",
-    //   "name": "🏠RobYang VOD"
-    // },
     {
       "url": "https://4tvbox.ggff.net/config.json",
       "name": "唐三"
@@ -272,26 +260,26 @@
       "url": "https://raw.gitcode.com/mfkdxk/zb/raw/main/se.json"
     },
 
-    //-------------- 18+  ------------
+    //-------------- 🔞 ------------
     {
       "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
-      "name": "18+ Qist AV 限制級"
+      "name": "🔞Qist AV 限制級"
     },
     {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox-Qist/own/9918.json",
-      "name": "18+ RobYang AV 限制級"
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/9918.json",
+      "name": "🔞RobYang AV 限制級"
     },
     {
       "url": "https://d.kstore.space/download/7708/a18.json",
-      "name": "18+ AV限制級"
+      "name": "🔞AV限制級"
     },
     {
       "url": "https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/18%2B%E5%A4%A7%E5%85%A8.txt",
-      "name": "18+ 大全"
+      "name": "🔞大全"
     },
     {
       "url": "https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/%E6%88%90%E4%BA%BA%E6%8E%A5%E5%8F%A3.txt",
-      "name": "18+ 成人"
+      "name": "🔞成人"
     },
 
     //-------------- Store ------------
