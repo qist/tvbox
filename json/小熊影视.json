@@ -1,0 +1,11 @@
+{
+"站名": "小熊影视",
+"作者": "天天开心",
+"分类url": "https://www.xiaoxiongtv.vip/vod/show/area/{area}/by/{by}/id/{cateId}/lang/{lang}/page/{catePg}.html[https://www.xiaoxiongtv.vip/vod/show/id/{cateId}.html]",
+"分类": "电影&剧集&动漫&综艺&短剧",
+"分类值": "1&2&3&4&32",
+
+"简介": ">&&</p>",
+"排序": "时间$time#人气$hits#评分$score",
+"主页url": "https://www.xiaoxiongtv.vip/"
+}

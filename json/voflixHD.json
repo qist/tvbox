@@ -1,0 +1,81 @@
+{
+  "author": "220813",
+  "name": "voflix HD",
+  // 填网站链接
+  "url": "https://www.voflix.com",
+  // 这个不用动，是个别网站播放需要请求头时才用到
+  "User": "空",
+  // 首页展示
+  "shouye": "1",
+  // 网站列表的分类
+  "fenlei": "电影$/show/1--------#电视剧$/show/2--------#综艺$/show/3--------#动漫$/show/4--------#国产剧$/show/13--------#港台剧$/show/14--------#日韩剧$/show/15--------#欧美剧$/show/16--------#纪录片$/show/21--------#泰国剧$/show/24--------#动作$/show/6--------#喜剧$/show/7--------#爱情$/show/8--------#科幻$/show/9--------#恐怖$/show/10--------#剧情$/show/11--------#战争$/show/12--------#动画$/show/23--------#国漫$/show/4-中国-------#日漫$/show/4-日本-------",
+  // 网站翻页链接的后缀
+  "houzhui": "---.html",
+  // 截取的列表数组是否需要二次截取，0不需要，1需要
+  "shifouercijiequ": "1",
+  // 二次截取前
+  "jiequqian": "odule-page",
+  // 二次截取后
+  "jiequhou": "<div id=\"page\">",
+  // 截取的列表数组的前关键词,截取的关键词有 " 的用 \ 进行转义
+  "jiequshuzuqian": "<a",
+  // 列表数组的后关键词
+  "jiequshuzuhou": "no-referrer",
+  // 列表中资源的图片前,后关键词,截取的关键词有 " 的用 \ 进行转义
+  "tupianqian": "data-original=\"",
+  "tupianhou": "\"",
+  //列表中资源的标题前,后关键词,截取的关键词有 " 的用 \ 进行转义
+  "biaotiqian": "title=\"",
+  "biaotihou": "\"",
+  // 列表中资源的详情页跳转链接前关键词,截取的关键词有 " 的用 \ 进行转义
+  "lianjieqian": "href=\"",
+  "lianjiehou": "\"",
+  // 搜索部分基本不用动，现在网站基本都是苹果CMS，所有搜索是固定的
+  "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+  "sousuohou": "&limit=500",
+  // 搜索页影片跳转详情页的中间标识链接部分
+  "sousuohouzhui": "/detail/",
+  "ssmoshi": "0",
+  "sousuoshifouercijiequ": "0",
+  "jspic": "pic",
+  "jsname": "name",
+  "jsid": "id",
+  "ssjiequqian": "空",
+  "ssjiequhou": "空",
+  "ssjiequshuzuqian": "空",
+  "ssjiequshuzuhou": "空",
+  "sstupianqian": "空",
+  "sstupianhou": "空",
+  "ssbiaotiqian": "空",
+  "ssbiaotihou": "空",
+  "sslianjieqian": "空",
+  "sslianjiehou": "空",
+  "bfshifouercijiequ": "0",
+  "bfjiequqian": "空",
+  "bfjiequhou": "空",
+  // 播放截取的列表数组的前,后关键词
+  "bfjiequshuzuqian": "class=\"module-list",
+  "bfjiequshuzuhou": "</div>",
+  // 详情页状态,导演,主演,简介关键词
+  "zhuangtaiqian": "更新：</span>",
+  "zhuangtaihou": "</div>",
+  "daoyanqian": "导演：</span>",
+  "daoyanhou": "</div>",
+  "zhuyanqian": "主演：</span>",
+  "zhuyanhou": "</div>",
+  "juqingqian": "class=\"module-info-introduction-content\"",
+  "juqinghou": "</div>",
+  // 截取的播放列表数组是否需要二次截取，0不需要，1需要
+  "bfyshifouercijiequ": "0",
+  "bfyjiequqian": "空",
+  "bfyjiequhou": "空",
+  // 播放剧集数组前,后关键词
+  "bfyjiequshuzuqian": "<a",
+  "bfyjiequshuzuhou": "/a>",
+  // 播放剧集标题前,后关键词
+  "bfbiaotiqian": "<span>",
+  "bfbiaotihou": "</span>",
+  // 播放剧集链接前,后关键词
+  "bflianjieqian": "href=\"",
+  "bflianjiehou": "\""
+}

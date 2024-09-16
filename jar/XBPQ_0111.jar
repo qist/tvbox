@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head data-suburl="">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+		<meta name="author" content="wuguangtao" />
+		<meta name="description" content="TVBox-wgt" />
+		<meta name="keywords" content="go, git, self-hosted, gogs">
+	
+	<meta name="referrer" content="no-referrer" />
+	<meta name="_csrf" content="UcTaPl0XIL0nwNDXurnApOSM-CE6MTcyNDc0Nzk4NzUxNjg4MDAzNA==" />
+	<meta name="_suburl" content="" />
+	
+	
+	
+		<meta property="og:url" content="https://notabug.org/wuguangtao/TVBox-wgt" />
+		<meta property="og:type" content="object" />
+		<meta property="og:title" content="wuguangtao/TVBox-wgt">
+		<meta property="og:description" content="">
+		<meta property="og:image" content="https://seccdn.libravatar.org/avatar/0c9deae4a1b694b7d75094558cbc701e" />
+	
+
+	<link rel="shortcut icon" href="/img/favicon.png" />
+
+	<script src="/js/jquery-1.11.3.min.js"></script>
+	<script src="/js/libs/jquery.are-you-sure.js"></script>
+        <link href="/img/icon-48.ico" rel="icon" type="image/x-icon" />
+        <link href="/img/icon-60.png" rel="apple-touch-icon">
+        <link href="/img/icon-76.png" rel="apple-touch-icon" sizes="76x76">
+        <link href="/img/icon-120.png" rel="apple-touch-icon" sizes="120x120">
+        <link href="/img/icon-152.png" rel="apple-touch-icon" sizes="152x152">
+        <link href="/img/icon-240.png" rel="apple-touch-icon" sizes="240x240">
+
+	<link rel="stylesheet" href="/assets/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/octicons-4.3.0/octicons.min.css">
+
+	
+	
+
+	
+
+	
+	<link rel="stylesheet" href="/css/semantic-2.2.13.min.css">
+	<link rel="stylesheet" href="/css/gogs.css?v=6fc9e85aa88133794d3434ea74aa557a">
+	<link rel="stylesheet" href="/css/notabug.css">
+
+	
+	<script src="/js/semantic-2.2.13.min.js"></script>
+	<script src="/js/gogs.js?v=6fc9e85aa88133794d3434ea74aa557a"></script>
+
+	<title>wuguangtao/TVBox-wgt - NotABug.org: Free code hosting</title>
+
+	<meta name="theme-color" content="#428bca">
+
+	
+
+
+<noscript><style>.nojs-popup:hover > .menu { display: block ; }</style></noscript>
+
+
+</head>
+<body>
+	<div class="full height">
+		<noscript>Please enable JavaScript in your browser!</noscript>
+
+		
+			<div id="header-div" class="following bar light">
+				<div class="ui container">
+					<div class="ui grid">
+						<div class="column">
+							<div class="ui top secondary menu">
+								<a class="item brand" href="/">
+									<img class="ui mini image" src="/img/favicon.png">
+								</a>
+
+								
+									<a class="item" href="/">首頁</a>
+								
+
+								<a class="item" href="/explore/repos">探索</a>
+								
+
+								
+
+
+
+									<a class="notabug-item item" href="/help" rel="noreferrer">說明</a>
+
+
+
+
+									<div class="right menu">
+										
+											<a class="item" href="/user/sign_up">
+												<i class="octicon octicon-person"></i> 註冊
+											</a>
+										
+										<a class="item" href="/user/login?redirect_to=%2fwuguangtao%2fTVBox-wgt%2fsrc%2fmain%2fJAR%2fXBPQ_0111.jar">
+											<i class="octicon octicon-sign-in"></i> 登入
+										</a>
+									</div>
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+
+<div class="repository file list">
+	<div class="header-wrapper">
+
+	<div class="ui container">
+		<div class="ui vertically padded grid head">
+			<div class="column">
+				<div class="ui header">
+					<div class="ui huge breadcrumb">
+						<i class="mega-octicon octicon-repo"></i>
+						<a href="/wuguangtao">wuguangtao</a>
+						<div class="divider"> / </div>
+						<a href="/wuguangtao/TVBox-wgt">TVBox-wgt</a>
+						
+						
+					</div>
+
+					
+						<div class="ui right">
+							<div class="ui labeled button" tabindex="0">
+								<a class="ui basic button" href="/wuguangtao/TVBox-wgt/action/watch?redirect_to=%2fwuguangtao%2fTVBox-wgt%2fsrc%2fmain%2fJAR%2fXBPQ_0111.jar">
+									<i class="icon fa-eye-slash"></i>關註
+								</a>
+								<a class="ui basic label" href="/wuguangtao/TVBox-wgt/watchers">
+									1
+								</a>
+							</div>
+							<div class="ui labeled button" tabindex="0">
+								<a class="ui basic button" href="/wuguangtao/TVBox-wgt/action/star?redirect_to=%2fwuguangtao%2fTVBox-wgt%2fsrc%2fmain%2fJAR%2fXBPQ_0111.jar">
+									<i class="icon fa-star-o"></i>讚好
+								</a>
+								<a class="ui basic label" href="/wuguangtao/TVBox-wgt/stars">
+									0
+								</a>
+							</div>
+							
+								<div class="ui labeled button" tabindex="0">
+									<a class="ui basic button " href="/repo/fork/59580">
+										<i class="octicon octicon-repo-forked"></i>複刻
+									</a>
+									<a class="ui basic label" href="/wuguangtao/TVBox-wgt/forks">
+										0
+									</a>
+								</div>
+							
+						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="ui tabs container">
+		<div class="ui tabular menu navbar">
+			
+				<a class="active item" href="/wuguangtao/TVBox-wgt">
+					<i class="octicon octicon-file-text"></i> 檔案
+				</a>
+			
+			
+				<a class=" item" href="/wuguangtao/TVBox-wgt/issues">
+					<i class="octicon octicon-issue-opened"></i> 問題管理 <span class="ui gray small label">0</span>
+				</a>
+			
+			
+				<a class=" item" href="/wuguangtao/TVBox-wgt/pulls">
+					<i class="octicon octicon-git-pull-request"></i> 合併請求 <span class="ui gray small label">0</span>
+				</a>
+			
+			
+				<a class=" item" href="/wuguangtao/TVBox-wgt/wiki">
+					<i class="octicon octicon-book"></i> Wiki
+				</a>
+			
+			
+		</div>
+	</div>
+	<div class="ui tabs divider"></div>
+
+</div>
+
+	<div class="ui container">
+		
+
+
+
+
+		
+		<div class="ui secondary menu">
+			
+			<div class="fitted item choose reference">
+	<div class="ui floating filter dropdown" data-no-results="未找到結果">
+			<div class="ui basic small button">
+			<span class="text">
+				<i class="octicon octicon-git-branch"></i>
+				分支:
+				<strong>main</strong>
+			</span>
+			<i class="dropdown icon"></i>
+		</div>
+		<div class="menu">
+			<div class="ui icon search input">
+				<i class="filter icon"></i>
+				<input name="search" placeholder="過濾分支或標籤...">
+			</div>
+			<div class="header">
+				<div class="ui grid">
+					<div class="two column row">
+						<a class="reference column" href="#" data-target="#branch-list">
+							<span class="text black">
+								分支列表
+							</span>
+						</a>
+						<a class="reference column" href="#" data-target="#tag-list">
+							<span class="text ">
+								標籤列表
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="branch-list" class="scrolling menu" >
+				
+					<div class="item selected" data-url="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar">main</div>
+				
+			</div>
+			<div id="tag-list" class="scrolling menu" style="display: none">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+			<div class="fitted item">
+				<div class="ui breadcrumb">
+					<a class="section" href="/wuguangtao/TVBox-wgt/src/main">TVBox-wgt</a>
+					
+					
+					
+						<div class="divider"> / </div>
+						
+							
+							<span class="section"><a href="/wuguangtao/TVBox-wgt/src/main/JAR">JAR</a></span>
+						
+					
+						<div class="divider"> / </div>
+						
+							<span class="active section">XBPQ_0111.jar</span>
+						
+					
+				</div>
+			</div>
+			<div class="right fitted item">
+				
+					<div id="file-buttons" class="ui tiny blue buttons">
+						
+						
+					</div>
+				
+
+				
+				
+			</div>
+		</div>
+		
+			<div id="file-content" class="tab-size-8">
+	<h4 class="ui top attached header" id="repo-read-file">
+		
+			<i class="file text outline icon ui left"></i>
+			<strong>XBPQ_0111.jar</strong> <span class="text grey normal">259 KB</span>
+		
+		
+			<div class="ui right file-actions">
+				<div class="ui buttons">
+					
+						<a class="ui button" href="/wuguangtao/TVBox-wgt/src/6259675ef279d73b5da9fa0a92297fcdd030cd2c/JAR/XBPQ_0111.jar">永久連結</a>
+					
+					<a class="ui button" href="/wuguangtao/TVBox-wgt/commits/main/JAR/XBPQ_0111.jar">文件歷史</a>
+					<a class="ui button" href="/wuguangtao/TVBox-wgt/raw/main/JAR/XBPQ_0111.jar">原始文件</a>
+				</div>
+				
+					
+						<i class="octicon octicon-pencil btn-octicon poping up disabled" data-content="不能編輯非文字檔" data-position="bottom center" data-variation="tiny inverted"></i>
+					
+					
+						<i class="octicon octicon-trashcan btn-octicon poping up disabled" data-content="您必須具有寫存取權限，或提出對此檔案的更改" data-position="bottom center" data-variation="tiny inverted"></i>
+					
+				
+			</div>
+		
+	</h4>
+	<div class="ui attached table segment">
+		<div id="" class="file-view  has-emoji">
+			
+				<div class="view-raw ui center">
+					
+						<a href="/wuguangtao/TVBox-wgt/raw/main/JAR/XBPQ_0111.jar" rel="nofollow" class="btn btn-gray btn-radius">查看原始文件</a>
+					
+				</div>
+			
+		</div>
+	</div>
+</div>
+
+<script>
+function submitDeleteForm() {
+    var message = prompt("delete_confirm_message\n\ndelete_commit_summary", "Delete ''");
+    if (message != null) {
+        $("#delete-message").val(message);
+        $("#delete-file-form").submit()
+    }
+}
+</script>
+
+		
+	</div>
+</div>
+
+	</div>
+	<footer>
+		<div class="ui container">
+			<div class="ui left">
+
+
+
+				<a href="/tos">Terms of Service</a>
+				&bull;
+				<a href="/about">About us</a>
+				&bull;
+				<a href="/outages">Outages</a>
+				&bull;
+				<a href="/hp/gogs/issues">Report a problem</a>
+				&bull;
+				<a href="/assets/librejs/librejs.html" data-jslicense="1">Javascript licenses</a>
+				&bull;
+				<a href="/fingerprints">SSH Fingerprints</a>
+
+
+
+			</div>
+			<div class="ui right links">
+				
+				<div class="ui language bottom floating slide up dropdown link item">
+					<i class="world icon"></i>
+					<div class="text">繁體中文（臺灣）</div>
+					<div class="menu">
+						
+							<a class="item active selected" href="#">繁體中文（臺灣）</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=en-US">English</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=zh-CN">简体中文</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=zh-HK">繁體中文（香港）</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=de-DE">Deutsch</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=fr-FR">français</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=nl-NL">Nederlands</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=lv-LV">latviešu</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=ru-RU">русский</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=ja-JP">日本語</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=es-ES">español</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=pt-BR">português do Brasil</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=pl-PL">polski</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=bg-BG">български</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=it-IT">italiano</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=fi-FI">suomi</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=tr-TR">Türkçe</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=cs-CZ">čeština</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=sr-SP">српски</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=sv-SE">svenska</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=ko-KR">한국어</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=gl-ES">galego</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=uk-UA">українська</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=en-GB">English (United Kingdom)</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=hu-HU">Magyar</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=sk-SK">Slovenčina</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=id-ID">Indonesian</a>
+						
+							<a class="item " href="/wuguangtao/TVBox-wgt/src/main/JAR/XBPQ_0111.jar?lang=fa-IR">Persian</a>
+						
+					</div>
+				</div>
+
+
+
+				
+			</div>
+		</div>
+	</footer>
+</body>
+
+
+
+	<link rel="stylesheet" href="/plugins/highlight-9.6.0/github.css">
+	<script src="/plugins/highlight-9.6.0/highlight.pack.js"></script>
+
+
+
+
+<script src="/js/libs/emojify-1.1.0.min.js"></script>
+<script src="/js/libs/clipboard-1.5.9.min.js"></script>
+	
+</html>
+

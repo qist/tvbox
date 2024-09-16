@@ -800,7 +800,7 @@
       {
     "name": "RobYang Test",
     "api": "https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000",
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/liveTVList.txt",
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/liveTVList.txt",
     "type": 3,
     "ua": "okhttp/4.12.0",
     "timeout": 5,
@@ -819,7 +819,7 @@
       },
       {
     "name": "ZB Test",
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/zb.txt",
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/zb.txt",
     "type": 0,
     "ua": "okhttp/4.12.0",
     "timeout": 5,
@@ -999,7 +999,7 @@
     //2024-09-09
     "name": "RobYang test6 Litv",
     "type": 0,
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/LITV.TXT",
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/LITV.TXT",
     // "_playerType": 2,
     "ua": "okhttp/4.12.0",
     "timeout": 1,
@@ -1010,7 +1010,7 @@
     //2024-09-09
     "name": "RobYang test7 P2P",
     "type": 0,
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/20240909-p2p.txt",
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/20240909-p2p.txt",
     // "_playerType": 2,
     "ua": "okhttp/4.12.0",
     "timeout": 1,
@@ -1020,7 +1020,7 @@
       {
     "name": "RobYang test8 KX",
     "type": 0,
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/20240911-KX.txt",
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/20240911-KX.txt",
     "ua": "okhttp/4.12.0",
     "timeout": 1,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
@@ -1030,7 +1030,7 @@
     //2024-09-13
     "name": "RobYang test9",
     "type": 0,
-    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/TVRelated/master/TVBoxOSC/20240913-secondWatch.txt",
+    "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/20240913-secondWatch.txt",
     // "_playerType": 2,
     "ua": "okhttp/4.12.0",
     "timeout": 1,

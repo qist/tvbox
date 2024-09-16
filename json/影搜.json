@@ -1,0 +1,13 @@
+{
+"规则名": "影搜",
+"搜索请求头参数": "User-Agent$PC_UA#Referer$https://yingso.fun/",
+"搜索链接": "https://ys.api.yingso.fun/v3/ali/search;post",
+"POST请求数据": "{\"pageSize\":30,\"pageNum\":1,\"title\":\"{wd}\",\"root\":1,\"cat\":\"all\"}",
+"搜索截取模式": "0",
+"搜索列表数组规则": "data",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "https://vip.123pan.cn/1823165373/cally/jpg/ali.jpeg",
+"搜索片单标题": "title",
+"搜索片单链接": "key",
+"搜索片单链接加前缀": "https://www.aliyundrive.com/s/"
+}

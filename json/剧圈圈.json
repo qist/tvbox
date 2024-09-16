@@ -1,0 +1,11 @@
+{
+"站名": "剧圈圈",
+"作者": "天天开心",
+"分类url": "https://www.jqqzx.cc/vodshow/{area}/by/{by}/id/{cateId}/lang/{lang}/page/{catePg}.html[https://www.jqqzx.cc/vodshow/id/{cateId}.html]",
+"分类": "电影&剧集&动漫&综艺&纪录片",
+"分类值": "1&juji&dongman&zongyi&jilupian",
+
+"简介":"公众号【天微科技】提示您：请勿相信影片中的广告，以免上当受骗！+<p>&&</p>",
+"排序": "时间$time#人气$hits#评分$score",
+"主页url": "https://www.jqqzx.cc/"
+}

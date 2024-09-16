@@ -1,0 +1,73 @@
+{
+  "class": [
+    {
+      "type_name": "推荐",
+      "type_id": "recm"
+    },
+    {
+      "type_name": "热门",
+      "type_id": "hot"
+    },
+    {
+      "type_name": "观看历史",
+      "type_id": "his"
+    },
+    {
+      "type_name": "全区排行",
+      "type_id": "rank"
+    },
+    {
+      "type_name": "全区排行(汽车)",
+      "type_id": "carRank"
+    },
+    {
+      "type_name": "全区排行(科技)",
+      "type_id": "kejiRank"
+    },
+    {
+      "type_name": "自驾游",
+      "type_id": "自驾游"
+    },
+    {
+      "type_name": "美食",
+      "type_id": "美食"
+    },
+    {
+      "type_name": "食谱",
+      "type_id": "食谱"
+    },
+    {
+      "type_name": "汽车",
+      "type_id": "汽车测评"
+    },
+    {
+      "type_name": "数码",
+      "type_id": "手机测评"
+    },
+    {
+      "type_name": "健身",
+      "type_id": "健身"
+    },
+    {
+      "type_name": "舞蹈",
+      "type_id": "舞蹈"
+    },
+    {
+      "type_name": "电影",
+      "type_id": "电影"
+    },
+    {
+      "type_name": "电视剧",
+      "type_id": "电视剧"
+    },
+    {
+      "type_name": "演唱会",
+      "type_id": "演唱会"
+    },
+    {
+      "type_name": "动物世界",
+      "type_id": "动物世界"
+    }
+  ]
+
+}

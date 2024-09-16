@@ -1,0 +1,22 @@
+{
+"主页url": "https://www.xsmp3.com",
+"数组二次截取": "<ul id=\"post_list_box\">&&</ul",
+"数组": "<li class=\"www_xsmp3_com post_list_li\">&&</div>",
+"图片": "https://gd-filems.dancf.com/gaoding/cms/mcm79j/mcm79j/59385/6a211035-3658-45ce-a476-79f6f5dc02b71172884.png?x-oss-process=image/resize,h_1308/interlace,1",
+"标题": "title=\"&&\"",
+"副标题": ">&&</a",
+"链接": "href=\"&&\"",
+"播放二次截取": "autoplay&&;</script>",
+"播放数组": "\\[&&\\]",
+"播放列表": "{&&}",
+"播放链接": "url*\"&&\"",
+"播放标题": "name*\"&&\"",
+"播放副标题": "artist*\"&&\"",
+"线路数组": "相声随身听",
+"线路标题": "相声随身听",
+"导演": "小米",
+"主演": "相声明星",
+"简介": "相声合集",
+"分类url": "https://www.xsmp3.com/{cateId}/{catePg}.html;;av",
+"分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
+}

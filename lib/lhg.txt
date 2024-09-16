@@ -1,0 +1,12 @@
+{
+  "vodPic": "https://imgapi.cn/api.php",
+  "drives": [
+
+    {
+      "name": "罗汉果",
+      "server": "https://lala-ofbip.run.goorm.site/"
+    }
+   
+
+  ]
+}

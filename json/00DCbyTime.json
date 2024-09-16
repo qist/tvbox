@@ -1,0 +1,47 @@
+{
+"class":[{"type_id":"","type_name":"點播"}],
+"list":[
+{"vod_id":"","vod_name":"神奇女侠","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/v51eUcRsKD1xBrDPEeD4D2fXYwh.jpg","vod_remarks":"Wonder Woman"},
+{"vod_id":"","vod_name":"神奇女侠1984","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/df8kJTrVImRiWz2G1WiFiVxwBfn.jpg","vod_remarks":"Wonder Woman 1984"},
+{"vod_id":"","vod_name":"超人：钢铁之躯","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/8GFtkImmK0K1VaUChR0n9O61CFU.jpg","vod_remarks":"Man of Steel"},
+{"vod_id":"","vod_name":"蝙蝠侠大战超人","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/6ap2wYuxGrBzQgx57Z8otvtgLJz.jpg","vod_remarks":"Batman v Superman: Dawn of Justice"},
+{"vod_id":"","vod_name":"自杀小队","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/e7eKh77oZ6dccVzNN69WBlnkwrE.jpg","vod_remarks":"Suicide Squad"},
+{"vod_id":"","vod_name":"正义联盟","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/eRoXqOzciHkSPs1Z8pGnJMZo0Zb.jpg","vod_remarks":"Justice League‎"},
+{"vod_id":"","vod_name":"施奈德版正义联盟","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/yWmbO5tQNlIpIEt6nNKD72TpXtM.jpg","vod_remarks":"Zack Snyder's Justice League"},
+{"vod_id":"","vod_name":"海王","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/xLPffWMhMj1l50ND3KchMjYoKmE.jpg","vod_remarks":"Aquaman"},
+{"vod_id":"","vod_name":"雷霆沙赞","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/xf22a5bMysUFJq9t0RQl8vZXhFl.jpg","vod_remarks":"Shazam!"},
+{"vod_id":"","vod_name":"猛禽小队","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/odXDkjR5DoumqCrGmTQ2n4So2Yc.jpg","vod_remarks":"Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn"},
+{"vod_id":"","vod_name":"X特遣队","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg","vod_remarks":"The Suicide Squad"},
+{"vod_id":"","vod_name":"和平使者","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/hE3LRZAY84fG19a18pzpkZERjTE.jpg","vod_remarks":"Peacemaker"},
+{"vod_id":"","vod_name":"黑亚当","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg","vod_remarks":"Black Adam"},
+{"vod_id":"","vod_name":"雷霆沙赞！众神之怒","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/zpCCTtuQMHiHycpsrWnW2eCrBql.jpg","vod_remarks":"Shazam! Fury of the Gods"},
+{"vod_id":"","vod_name":"闪电侠","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/jxoh5U7uG9nUuXEMzCpF5UfatI9.jpg","vod_remarks":"The Flash"},
+
+{"vod_id":"","vod_name":"蝙蝠侠：侠影之谜","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/5wqfuVZ4tVhU7V6pXPjs740mg3o.jpg","vod_remarks":"Batman Begins"},
+{"vod_id":"","vod_name":"蝙蝠侠：黑暗骑士","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/57p4OEaRBT7B3wgVMmsAcTlXvh.jpg","vod_remarks":"The Dark Knight"},
+{"vod_id":"","vod_name":"蝙蝠侠：黑暗骑士崛起","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/8AYfVmtQX0MgcaAMmowLkvQv47K.jpg","vod_remarks":"The Dark Knight Rises"},
+{"vod_id":"","vod_name":"新蝙蝠侠","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/8gVy5MLXtZBWghMykQtPMsNc5kH.jpg","vod_remarks":"The Batman"},
+{"vod_id":"","vod_name":"小丑","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/mZuAPY4ETMQPHhCXIcJ90kd6RaS.jpg","vod_remarks":"Joker"},
+
+{"vod_id":"","vod_name":"黑客帝国","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg","vod_remarks":"The Matrix"},
+{"vod_id":"","vod_name":"黑客帝国2","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/wDNLzIrCEZw9jb5GQYsdw85HqF7.jpg","vod_remarks":"The Matrix Reloaded"},
+{"vod_id":"","vod_name":"黑客帝国3","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/fgm8OZ7o4G1G1I9EeGcb85Noe6L.jpg","vod_remarks":"The Matrix Revolutions"},
+{"vod_id":"","vod_name":"黑客帝国4","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/6n0hjR5Z1gqx9abEBzjSThpGCj0.jpg","vod_remarks":"The Matrix Resurrections‎"},
+{"vod_id":"","vod_name":"疾速追杀","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg","vod_remarks":"John Wick"},
+{"vod_id":"","vod_name":"疾速追杀2","vod_pic":"https://www.themoviedb.org/t/p/original/c9wKuUU4v7XLYvMGbBywupsw4Pb.jpg","vod_remarks":"John Wick: Chapter 2"},
+{"vod_id":"","vod_name":"疾速追杀3","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/6JDwLmVUMj4X7peF4YLSF6uWBxT.jpg","vod_remarks":"John Wick: Chapter 3 - Parabellum"},
+
+
+{"vod_id":"","vod_name":"星际穿越","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/mS4EvhsrT0SQZOlWrQEzWI5KiUa.jpg","vod_remarks":"Interstellar"},
+{"vod_id":"","vod_name":"降临","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/fzA3eT3wFmmB0I4HxTWFTW0rSrZ.jpg","vod_remarks":"Arrival"},
+{"vod_id":"","vod_name":"超时空接触","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/aKXYeLnubSCes0vwBoFYZ5WA9vx.jpg","vod_remarks":"Contact"},
+
+{"vod_id":"","vod_name":"信条","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/7wHx4Vk0NExuzZuGk2KRuc8Ogw8.jpg","vod_remarks":"Tenet"},
+{"vod_id":"","vod_name":"盗梦空间","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg","vod_remarks":"Inception"},
+
+{"vod_name":"致命魔术","vod_remarks":"The Prestige","vod_pic":"https://www.themoviedb.org/t/p/w440_and_h660_face/tRNlZbgNCNOpLpbPEz5L8G8A0JN.jpg"},
+
+
+{"vod_name":"","vod_remarks":"","vod_pic":""}
+]
+}

@@ -1,0 +1,41 @@
+    {
+    
+    "作者":"天天开心",
+    
+    "站名":"骚火影视",
+    
+    "主页url":"https://saohuo.vip/",
+    
+    "简介":"+<p class=\"p_txt show_part\"&&</p>",
+    
+    "导演":"</h1><p>* / 导演：&& /",
+    
+    "主演":"主演：&&</p>",
+    
+    "影片地区":"</h1><p>&& / ",
+    
+    "影片年代":"<p>* / && /",
+    
+    "影片状态":"v_note\">&&</div>",
+    
+    "搜索url":"/search.php?searchword={wd}",
+    
+    "线路二次截取":"<ul class=\"from_list\">&&</ul>",
+    
+    "线路数组":"<li&&/li>",
+    
+    "线路标题":"+>&&<[替换:1号线路>>骚火专线#2线路>>骚火备用]",
+    
+    "跳转播放链接":"<iframe*src=\"&&\"",
+    
+    "二次跳转播放链接":"https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1",
+    
+    "三次跳转播放链接":"\"url\"*\"&&\"",
+    
+    "嗅探词":".m3u8#.mp4#.m3u8?#freeok.mp4",
+    
+    "分类url":"https://saohuo.vip/list/{cateId}-{catePg}.html[https://saohuo.vip/list/{cateId}.html];;kdvr1au0",
+
+    //"分类url":"https://saohuo.vip/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId};;akd",
+    
+    "分类":"电影$1#电视剧$2#韩剧$22#美剧$22#综艺$3#动漫$4"}
