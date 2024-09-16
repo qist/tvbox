@@ -442,7 +442,7 @@
         {
             "name": "蜂蜜影視｜International", //Anbox 
             "type": 0,
-            "url": "https://anbox118.serv00.net/iptv.php", //亞洲直播 https://anbox118.serv00.net/mytvbplus.php //P3P https://anbox118.serv00.net/p3p.m3u.txt // Anbox P3P https://anbox118.serv00.net/ubtv.php // RobYang https://anbox118.serv00.net/livetv.php
+            "url": "https://anbox118.serv00.net/iptv.php", //P3P https://anbox118.serv00.net/p3p.m3u.txt // Anbox P3P https://anbox118.serv00.net/ubtv.php // RobYang https://anbox118.serv00.net/livetv.php
             "ua": "okhttp/4.12.0",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -500,9 +500,9 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "一盒｜港台際",
+            "name": "一盒｜港台際", //亞洲直播 
             "type": 0,
-            "url": "https://anbox118.serv00.net/mytvbplus.php",
+            "url": "https://anbox118.serv00.net/mytvbplus.php", 
             "ua": "okhttp/4.12.0",
             "timeout": 5,
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
