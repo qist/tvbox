@@ -706,16 +706,16 @@
     "logo": "https://epg.112114.xyz/logo/{name}.png"
       },
       
-    //   {
-    // "name": "🏘️只是鏈接 RobYang",
-    // "type": 0,
-    // "url": "https://rb.gy/vrmbxxc"
-    //   },
-    //   {
-    // "name": "🏘️只是鏈接 2RobYang",
-    // "type": 0,
-    // "url": "https://rb.gy/vryc96"
-    //   },
+      {
+    "name": "🏘️只是鏈接1 RobYang",
+    "type": 0,
+    "url": "https://rb.gy/vrmbxxc"
+      },
+      {
+    "name": "🏘️只是鏈接2 RobYang",
+    "type": 0,
+    "url": "https://rb.gy/vryc96"
+      },
       {
     "name": "------以下可能已經失效-------",
     "type": 0,
