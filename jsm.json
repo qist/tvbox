@@ -341,9 +341,6 @@
 {"key":"XYQHiker_qiyou","name":"️影视 | 奇优","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/qiyou.json","jar":"./jar/zy.jar"},
 {"key":"csp_XYQHiker_奇优影院","name":"影视 | 奇优[V2]","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇优影院.json","jar":"./jar/zy.jar"},
 {"key":"csp_XBPQ_奇侠","name":"影视 | 奇侠","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇侠.json","jar":"./jar/fine.jar"},
-{"key":"drpy_js_欧帝影院","name":"影视 | 欧帝","type":3,"api":"./lib/drpy2.min.js","ext":"./js/欧帝影院.js"},
-			
-
 
 {"key":"應用商店","name":"應用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext": "./json/market.json","jar":"./jar/pg.jar"},
 {"key":"bb","name":"配置接口完全免费","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
