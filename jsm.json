@@ -477,8 +477,7 @@
       },
       {"name":"晴天"
       ,"type":0
-      ,"url":"https://4026.kstore.space/tv/p2p.txt"
-      ,"playerType":1
+      ,"url":"https://4026.kstore.space/tv/p2p.txt",
       ,"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"
       ,"logo":"https://epg.112114.xyz/logo/{name}.png"
      },			
