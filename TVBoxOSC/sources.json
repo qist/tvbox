@@ -11,10 +11,10 @@
       "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/jsm.json",  //https://rb.gy/ksv1pe
       "name": "🏠RobYang 點直播站"
     },
-    {
-      "url": "https://rb.gy/vryc96",
-      "name": "!舊網址不再跟新，請用新線源 https://rb.gy/vrmbxx"
-    },
+    //{
+    //  "url": "https://rb.gy/vryc96",
+    //  "name": "!舊網址不再跟新，請用新線源 https://rb.gy/vrmbxx"
+  //  },
     {
       "url": "https://rb.gy/vrmbxx",
       "name": "🏠RobYang1 點直播線源🏠"
