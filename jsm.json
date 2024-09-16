@@ -457,14 +457,14 @@
     "logo": "https://epg.112114.xyz/logo/{name}.png",
     "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
       },
-      {"name":"安博唐三｜台港",
-      "url":"https://tang.hz.cz/zb/anbo?token=334078da",
-      "ua":"okhttp/4.12.0",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-    },
+    //   {"name":"安博唐三｜台港",
+    //   "url":"https://tang.hz.cz/zb/anbo?token=334078da",
+    //   "ua":"okhttp/4.12.0",
+    //   "timeout": 5,
+    //   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+    //   "logo": "https://epg.112114.xyz/logo/{name}.png",
+    //   "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
+    // },
       {
     "name": "瑪斯特｜台港", //2024-08-22 have list but no steamming
     "type": 0,
