@@ -336,11 +336,11 @@
 {"key":"sghmys","name": "影视 | 黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
 {"key":"php_heimuer","name":"影视 | 黑木耳 (T4無廣)","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
 {"key":"金鹰资源","name":"影视 | 金鹰","type":1,"api":"https://jyzyapi.com/provide/vod/","searchable":0,"quickSearch":0,"categories":["电视剧","电影","欧美剧","香港剧","韩剧","日剧","马泰剧","动作片","爱情片","喜剧片","恐怖片","战争片","纪录片","科幻片","剧情片","动画片","动漫","内地剧","中国动漫","日本动漫","欧美动漫","综艺","台湾剧","短剧","体育赛事"]},
-{"key":"XBPQ_麻衣影院","name":"影视 | 麻衣","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar1/XBPQ.jar","ext":"./json/麻衣影院.json"},
-{"key":"非凡","name":"影视 | 非凡","type":1,"api":"http://ffzy.tv/api.php/provide/vod/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"],"jar":"./jar1/Yoursmile.jar"},
-{"key":"XYQHiker_qiyou","name":"️影视 | 奇优","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/qiyou.json","jar":"./jar1/zy.jar"},
-{"key":"csp_XYQHiker_奇优影院","name":"影视 | 奇优[V2]","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇优影院.json","jar":"./jar1/zy.jar"},
-{"key":"csp_XBPQ_奇侠","name":"影视 | 奇侠","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇侠.json","jar":"./jar1/fine.jar"},
+{"key":"XBPQ_麻衣影院","name":"影视 | 麻衣","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","ext":"./json/麻衣影院.json"},
+{"key":"非凡","name":"影视 | 非凡","type":1,"api":"http://ffzy.tv/api.php/provide/vod/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"],"jar":"./jar/Yoursmile.jar"},
+{"key":"XYQHiker_qiyou","name":"️影视 | 奇优","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/qiyou.json","jar":"./jar/zy.jar"},
+{"key":"csp_XYQHiker_奇优影院","name":"影视 | 奇优[V2]","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇优影院.json","jar":"./jar/zy.jar"},
+{"key":"csp_XBPQ_奇侠","name":"影视 | 奇侠","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇侠.json","jar":"./jar/fine.jar"},
 {"key":"drpy_js_欧帝影院","name":"影视 | 欧帝","type":3,"api":"./lib/drpy2.min.js","ext":"./js/欧帝影院.js"},
 			
 
