@@ -612,6 +612,16 @@
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
+        {
+          "name": "🏘️只是鏈接1 RobYang",
+          "type": 0,
+          "url": "https://rb.gy/vrmbxxc"
+        },
+        {
+            "name": "🏘️只是鏈接2 RobYang",
+            "type": 0,
+            "url": "https://rb.gy/vryc96"
+        },
         //-------------18+------------------
         {
             "name": "18+ 麻豆合集",
@@ -685,16 +695,6 @@
             "url": "https://files.catbox.moe/rfybwc.txt",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "🏘️只是鏈接1 RobYang",
-            "type": 0,
-            "url": "https://rb.gy/vrmbxxc"
-        },
-        {
-            "name": "🏘️只是鏈接2 RobYang",
-            "type": 0,
-            "url": "https://rb.gy/vryc96"
         },
         {
             "name": "------以下可能已經失效-------",
