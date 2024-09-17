@@ -647,7 +647,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "🏠RobYang | Youtube",
+            "name": "🏠RobYang | Youtube", //https://rb.gy/ksv1pe
             "type": 0,
             "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/liveTVList.txt",
             "ua": "okhttp/4.12.0",

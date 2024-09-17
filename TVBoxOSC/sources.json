@@ -1,4 +1,10 @@
 {
+  //
+  //
+  //FROM: https://rb.gy/wcjqb5
+  //FROM: https://robyang.bsite.net/VodLive/sb8ffa
+  //
+  //
   "spider": "https://mirror.ghproxy.com/https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar", //https://github.moeyy.xyz/
   //"wallpaper": "http://img.fongmi.eu.org",
   "logo": "http://img.fongmi.eu.org/fongmi.jpg",
@@ -8,7 +14,7 @@
     //   "name": "Tang 線源"
     // },
     {
-      "url": "https://robyang.bsite.net/VodLive/jb8ffa",  //https://rb.gy/ksv1pe //https://ghp.ci/https://raw.githubusercontent.com/bobyang3/tvbox/own/jsm.json
+      "url": "https://robyang.bsite.net/VodLive/jb8ffa", //jsm
       "name": "🏠RobYang 點直播站"
     },
     //{
