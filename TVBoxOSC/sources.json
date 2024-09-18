@@ -1,9 +1,8 @@
 {
   //FROM: https://rb.gy/wcjqb5
   //FROM: https://robyang.bsite.net/VodLive/sb8ffa
-  //"spider": "https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
-  //"wallpaper": "http://img.fongmi.eu.org",
-  //"logo": "http://img.fongmi.eu.org/fongmi.jpg",
+  "wallpaper": "http://img.fongmi.eu.org",
+  "logo": "http://img.fongmi.eu.org/fongmi.jpg",
   "urls": [
     {
       "url": "https://robyang.bsite.net/VodLive/jb8ffa", //jsm
