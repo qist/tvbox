@@ -676,7 +676,16 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "晴天",
+            "name": "兩光｜台港中際",
+            "type": 0,
+            "url": "https://files.catbox.moe/eqxfq5.txt",
+            "ua": "okhttp/4.12.0",
+            "timeout": 1,
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "晴天｜台港",
             "type": 0,
             "url": "https://4026.kstore.space/tv/p2p.txt",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
@@ -1237,15 +1246,6 @@
             "name": "RobYang test9",
             "type": 0,
             "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/20240913-secondWatch.txt",
-            "ua": "okhttp/4.12.0",
-            "timeout": 1,
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "兩光",
-            "type": 0,
-            "url": "https://files.catbox.moe/eqxfq5.txt",
             "ua": "okhttp/4.12.0",
             "timeout": 1,
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
