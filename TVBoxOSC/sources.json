@@ -1,9 +1,9 @@
 {
   //FROM: https://rb.gy/wcjqb5
   //FROM: https://robyang.bsite.net/VodLive/sb8ffa
-  "spider": "https://mirror.ghproxy.com/https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
+  //"spider": "https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar",
   //"wallpaper": "http://img.fongmi.eu.org",
-  "logo": "http://img.fongmi.eu.org/fongmi.jpg",
+  //"logo": "http://img.fongmi.eu.org/fongmi.jpg",
   "urls": [
     {
       "url": "https://robyang.bsite.net/VodLive/jb8ffa", //jsm
@@ -69,8 +69,6 @@
     {
       "url": "https://mirror.ghproxy.com/https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/%E6%88%90%E4%BA%BA%E6%8E%A5%E5%8F%A3.txt",
       "name": "🔞成人"
-    },
-
-    //-------------- Store ------------
+    }
 
   ]}
