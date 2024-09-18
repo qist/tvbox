@@ -1043,10 +1043,10 @@
             "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
         },
         {
-            "note": "2024-08-28 404 have　no list a797e28e",
+            "note": "2024-08-28 404 have　no list a797e28e 09759777 e04750e2",
             "name": "斯卡特｜International",
             "type": 0,
-            "url": "https://tang.hz.cz/zb/stv?token=a797e28e", //09759777 //e04750e2
+            "url": "https://tang.hz.cz/zb/stv?token=a797e28e", 
             "ua": "okhttp/4.12.0",
             "timeout": 1,
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
