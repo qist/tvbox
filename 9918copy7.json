@@ -1,0 +1,7 @@
+{
+    "spider":"./jar/pg.jar",
+    "sites":[
+    {"key":"lf_js_search","name":"搜索","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js","indexs":1,"ext":"18+"},
+ {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":1,"changeable":0,"ext":"./lib/token.json"}
+    ]
+    }
