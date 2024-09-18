@@ -982,16 +982,6 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "🏠RobYang Direct | Youtube",
-            "type": 3,
-            "ua": "okhttp/4.12.0",
-            "api": "https://files.catbox.moe/7yy0s6.js",
-            "url": "https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/liveTVList.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "ext": ""
-        },
-        {
             "name": "貓箱3｜蜂蜜影視0802版後",
             "api": "https://files.catbox.moe/7yy0s6.js",
             "type": 3,
