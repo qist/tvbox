@@ -649,17 +649,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "🏠RobYang | Youtube", //https://rb.gy/ksv1pe
-            "type": 0,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/liveTVList.txt",
-            "ua": "okhttp/4.12.0",
-            "timeout": 5,
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-        },
-        {
-            "name": "🏠RobYang | Youtube5",
+            "name": "🏠RobYang | Youtube",
             "type": 0,
             "url": "https://robyang.bsite.net/VodLive/lb8ffa",
             "ua": "okhttp/4.12.0",
@@ -1192,6 +1182,16 @@
         //   "timeout": 1,
         //   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
         //   "logo": "https://epg.112114.xyz/logo/{name}.png"
+        // },
+        // {
+        //     "name": "🏠RobYang | Youtube", //https://rb.gy/ksv1pe
+        //     "type": 0,
+        //     "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/liveTVList.txt",
+        //     "ua": "okhttp/4.12.0",
+        //     "timeout": 5,
+        //     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+        //     "logo": "https://epg.112114.xyz/logo/{name}.png",
+        //     "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
         // },
         {
             //2024-09-09 good
