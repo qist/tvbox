@@ -1,5 +1,8 @@
 {
-"spider":"./jar/fan.txt;md5;498aae475d2719b161b97e18dfeafa28",
+"note":"FROM: https://rb.gy/geje78",
+"note2": "FROM: https://robyang.bsite.net/VodLive/jb8ffa",
+"spider":"./jar/pg.jar",
+"spider2":"./jar/fan.txt;md5;498aae475d2719b161b97e18dfeafa28",
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
