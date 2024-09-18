@@ -1,5 +1,5 @@
 {
-    "spider":"./jar/pg.jar;md5;c9986646066cf0863a5045a0e31bb8ac",
+    "spider":"./jar/pg.jar",
     "sites":[
     {"key":"lf_js_search","name":"搜索","type":3,"searchable":0,"changeable":1,"quickSearch":0,"filterable":0,"api":"./lib/lf_search3_min.js","indexs":1,"ext":"18+"},
     {"key":"lf_js_p2p","name":"磁力","type":3,"searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"api":"./lib/lf_p2p2_min.js","ext":"18+","timeout":60},
