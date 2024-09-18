@@ -2,7 +2,14 @@
 "note":"FROM: https://rb.gy/geje78",
 "note2": "FROM: https://robyang.bsite.net/VodLive/jb8ffa",
 "spider":"./jar/pg.jar",
-"spider2":"./jar/fan.txt;md5;498aae475d2719b161b97e18dfeafa28",
+//FROM: https://rb.gy/geje78
+//FROM: https://robyang.bsite.net/VodLive/jb8ffa
+//"spider":"./jar/fan.txt;md5;498aae475d2719b161b97e18dfeafa28",
+// "lives":[
+// {"name":"fmm","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"},
+// {"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"},
+// {"name":"ipv6","type":0,"url":"./tvboxtv.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"}
+// ],
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
