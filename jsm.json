@@ -675,6 +675,13 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
+            "name": "月光｜雜中台港日韓際",
+            "type": 0,
+            "url": "https://guot55.serv00.net/zb4.php",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "name": "UBTV｜台港中際",
             "type": 0,
             "url": "https://files.catbox.moe/g4zbng.json",
