@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;06e35d78d789a597c21c799c82b487ee",
+"spider":"./jar/fan.txt;md5;2661dc98039df6bfab86e0397cc89b47",
 "lives":[
     {"name":"live","boot": true,"type":0,"url":"./tv.txt","playerType":2,"ua":"okhttp/3.8.10","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://logo.ugigc.us.kg/{name}.png"}
 ],
