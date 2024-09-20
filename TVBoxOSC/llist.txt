@@ -2,7 +2,6 @@
 別找我,我們不熟,https://m.youtube.com/watch?v=FoBfXvlOR6I
 別找我,我們不熟,http://www.youtube.com/watch?v=ylYJSBUgaMA
 別找我,我們不熟,https://www.youtube.com/watch?v=R2iMq5LKXco
-
 📺YouTube 新聞,#genre#
 Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
@@ -120,9 +119,6 @@ TVBS NEWS LIVE,https://www.youtube.com/watch?v=m_dhMSvUCIc
 台視新聞台,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
 民視新聞台,https://www.youtube.com/live/ylYJSBUgaMA
 
-
-
-
 📺YouTube 兒童,#genre#
 YOYOTV,https://www.youtube.com/watch?v=yks2_Og6MY4
 迪士尼,https://www.youtube.com/live/eNfRme6MPK4?si=noJblHwpJA6JOGDS
@@ -137,8 +133,6 @@ CBeebies Asia,https://sc2024.stream-link.org/live/76176147201.php?id=m251dme
 Moonbug,https://sc2024.stream-link.org/live/76176147201.php?id=m387tme
 達文西頻道,https://sc2024.stream-link.org/live/76176147201.php?id=m012vmm
 ELTV生活英語台,https://sc2024.stream-link.org/live/76176147201.php?id=m819kme
-
-
 
 📺YouTube 其他,#genre#
 Decoder=3
