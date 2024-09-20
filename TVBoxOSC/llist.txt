@@ -1,3 +1,6 @@
+📺Rob Yang,#genre#
+Rob Yang, https://m.youtube.com/watch?v=FoBfXvlOR6I
+
 📺YouTube 新聞,#genre#
 Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
@@ -123,6 +126,16 @@ YOYOTV,https://www.youtube.com/watch?v=yks2_Og6MY4
 迪士尼,https://www.youtube.com/live/eNfRme6MPK4?si=noJblHwpJA6JOGDS
 迪士尼2,https://www.youtube.com/live/hky3lxHuokY?si=a2R9R2hHqNcgeyQY
 迪士尼最佳歌曲2023,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
+動畫世界,https://sc2024.stream-link.org/live/76176147201.php?id=m515bmd
+尼克兒童,https://sc2024.stream-link.org/live/76176147201.php?id=m372zmu
+尼克兒童,https://sc2024.stream-link.org/live/76176147201.php?id=m790jmc
+Dream Works夢工廠動畫(國),https://sc2024.stream-link.org/live/76176147201.php?id=m742amc
+Dream Works夢工廠動畫(粵),https://sc2024.stream-link.org/live/76176147201.php?id=m298bmd
+CBeebies Asia,https://sc2024.stream-link.org/live/76176147201.php?id=m251dme
+Moonbug,https://sc2024.stream-link.org/live/76176147201.php?id=m387tme
+達文西頻道,https://sc2024.stream-link.org/live/76176147201.php?id=m012vmm
+ELTV生活英語台,https://sc2024.stream-link.org/live/76176147201.php?id=m819kme
+
 
 
 📺YouTube 其他,#genre#
@@ -258,6 +271,25 @@ AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
 八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
 動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
+
+
+東森新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t314fth
+東森財經新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t669ktq
+中天新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t949stm
+華視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t316mtf
+中視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t521ntf
+民視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t677dth
+寰宇新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t866btc
+寰宇台灣,https://sc2024.stream-link.org/live/76176147201.php?id=t559gtn
+寰宇財經新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t974btr
+台視新聞台,https://sc2024.stream-link.org/live/76176147201.php?id=t695ctb
+台視財經台,https://sc2024.stream-link.org/live/76176147201.php?id=t007stp
+非凡新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t704ttf
+非凡商業台,https://sc2024.stream-link.org/live/76176147201.php?id=t202stj
+TVBS新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t178ptv
+TVBS,https://sc2024.stream-link.org/live/76176147201.php?id=t870nts
+
+
 
 
 
