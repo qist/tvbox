@@ -1,12 +1,5 @@
-Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
-ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-Decoder=3
-
 📺YouTube 新聞,#genre#
 Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
-parse=1
-ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-Decoder=3
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 三立 iNews,https://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
 三立 NEWS+,https://m.youtube.com/watch?v=oZdzzvxTfUY
@@ -94,7 +87,6 @@ CNN有線電視新聞網(美國偏自由派)(CNN),https://cnn-cnninternational-1
 福斯直播(美國偏保守派)(LiveNOW from FOX),https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8&data=normal
 彭博財經電視(美國財經)(Bloomberg Television),https://0984ed0046994029aafaa07692005474.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Bloomberg/playlist.m3u8&data=normal
 彭博財經電視(美國財經)(Bloomberg Television),http://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8&data=normal
-
 RT俄羅斯今日電視台(俄羅斯)(RT News),https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8&data=normal
 BBC英國廣播公司新聞(英國)(BBC News),https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8&data=normal
 BBC英國廣播公司新聞(英國)(BBC News),https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8&data=normal
@@ -103,49 +95,37 @@ BBC英國廣播公司新聞(英國)(BBC News),https://i.mjh.nz/SamsungTVPlus/US4
 日本廣播協會(日本)(NHK World)(各地字幕),https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/zt/playlist-back.m3u8&data=normal
 (阿)半島電視台(中東)(AlJazeera Arabic),http://live-hls-web-aja.getaj.net/AJA/02.m3u8&data=normal
 (多)馬新社電視台(馬來西亞)(BERNAMA TV),https://m.youtube.com/channel/UCcZg5r9hBqK_VPUT2I7eYVw/live\
-
-
-
-鳳凰資訊Ⓨ,https://www.youtube.com/watch?v=sUISafvOieY
-中天新聞Ⓨ,https://www.youtube.com/live/oIgbl7t0S_w?feature=share
-中天新聞1台Ⓨ,https://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞2台Ⓨ,https://www.youtube.com/watch?v=WPfPjbOLNfE
-中視新聞Ⓨ,https://www.youtube.com/watch?v=TCnaIE_SAtM
-華視新聞Ⓨ,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-TVBS新聞Ⓨ,https://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS新聞Ⓨ,https://www.youtube.com/watch?v=2mCSYvcfhtcK
-TVBS56Ⓨ,https://www.youtube.com/watch?v=YvdcZ_jpLXE
-TVBS NEWS LIVEⓎ,https://www.youtube.com/watch?v=m_dhMSvUCIc
-三立LiveⓎ,https://www.youtube.com/watch?v=FoBfXvlOR6I
-三立新聞台Ⓨ,https://www.youtube.com/watch?v=uZ9KecuS0RA
-三立新聞台Ⓨ,https://www.youtube.com/watch?v=CKjSm5ZeehE
-東森LiveⓎ,https://www.youtube.com/watch?v=S5WOGu2HSes
-鏡新聞Ⓨ,https://www.youtube.com/live/5n0y6b0Q25o
-台視新聞台Ⓨ,https://www.youtube.com/watch?v=xL0ch83RAK8
-寰宇新聞Ⓨ,https://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
-台視新聞台Ⓨ,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
-民視新聞台Ⓨ,https://www.youtube.com/live/ylYJSBUgaMA
-迪士尼Ⓨ,https://www.youtube.com/live/eNfRme6MPK4?si=noJblHwpJA6JOGDS
-迪士尼2Ⓨ,https://www.youtube.com/live/hky3lxHuokY?si=a2R9R2hHqNcgeyQY
-迪士尼最佳歌曲2023Ⓨ,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
-
-
+鳳凰資訊,https://www.youtube.com/watch?v=sUISafvOieY
+中天新聞,https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+中天新聞1台,https://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新聞2台,https://www.youtube.com/watch?v=WPfPjbOLNfE
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtcK
+TVBS56,https://www.youtube.com/watch?v=YvdcZ_jpLXE
+TVBS NEWS LIVE,https://www.youtube.com/watch?v=m_dhMSvUCIc
+三立Live,https://www.youtube.com/watch?v=FoBfXvlOR6I
+三立新聞台,https://www.youtube.com/watch?v=uZ9KecuS0RA
+三立新聞台,https://www.youtube.com/watch?v=CKjSm5ZeehE
+東森Live,https://www.youtube.com/watch?v=S5WOGu2HSes
+鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o
+台視新聞台,https://www.youtube.com/watch?v=xL0ch83RAK8
+寰宇新聞,https://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
+台視新聞台,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
+民視新聞台,https://www.youtube.com/live/ylYJSBUgaMA
 
 
 
 
 📺YouTube 兒童,#genre#
-Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
-parse=1
-ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-Decoder=3
 YOYOTV,https://www.youtube.com/watch?v=yks2_Og6MY4
+迪士尼,https://www.youtube.com/live/eNfRme6MPK4?si=noJblHwpJA6JOGDS
+迪士尼2,https://www.youtube.com/live/hky3lxHuokY?si=a2R9R2hHqNcgeyQY
+迪士尼最佳歌曲2023,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
 
 
 📺YouTube 其他,#genre#
-Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
-parse=1
-ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 Decoder=3
 民視戲劇,http://www.youtube.com/live/6CQZxYpW9q4
 華視綜藝頻道,http://m.youtube.com/live/IfKO17h4pVE
@@ -165,10 +145,129 @@ momo購物二台,https://www.youtube.com/watch?v=xbNWkUyxQGM
 番薯電視台,http://61.216.67.119:1935/TWHG/E1/index.m3u8&data=normal
 
 
-📺四季,#genre#
+
+
+
+
+
+
+
+LITV源,#genre#
+中天新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv009
+tvbs新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
+非凡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv010
+閩鏡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv075
+華視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv052
+中視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv074
+寰宇台灣台,https://litv.zapi.us.kg/?id=litv-longturn15
+中視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv040
+華視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv041
+台視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv066
+民視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv002
+民視第一台,https://litv.zapi.us.kg/?id=4gtv-4gtv003
+民視綜藝台,https://litv.zapi.us.kg/?id=4gtv-4gtv004
+民視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv001
+民視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv156
+中視菁采台,https://litv.zapi.us.kg/?id=4gtv-4gtv064
+tvbs精采台,https://litv.zapi.us.kg/?id=4gtv-4gtv067
+tvbs歡樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv068
+tvbs台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv073
+八大精彩台,https://litv.zapi.us.kg/?id=4gtv-4gtv034
+龍華卡通台,https://litv.zapi.us.kg/?id=litv-longturn01
+龍華電影台,https://litv.zapi.us.kg/?id=litv-longturn03
+龍華日韓台,https://litv.zapi.us.kg/?id=litv-longturn11
+龍華偶像台,https://litv.zapi.us.kg/?id=litv-longturn12
+龍華經典台,https://litv.zapi.us.kg/?id=litv-longturn21
+龍華戲劇台,https://litv.zapi.us.kg/?id=litv-longturn18
+愛爾達娛樂,https://litv.zapi.us.kg/?id=4gtv-4gtv070
+台灣戲劇台,https://litv.zapi.us.kg/?id=litv-longturn22
+靖洋戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv045
+靖洋卡通台,https://litv.zapi.us.kg/?id=4gtv-4gtv057
+靖天戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv058
+靖天卡通台,https://litv.zapi.us.kg/?id=4gtv-4gtv044
+靖天資訊台,https://litv.zapi.us.kg/?id=4gtv-4gtv065
+靖天映畫台,https://litv.zapi.us.kg/?id=4gtv-4gtv055
+靖天綜合台,https://litv.zapi.us.kg/?id=4gtv-4gtv046
+靖天日本台,https://litv.zapi.us.kg/?id=4gtv-4gtv047
+靖天電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv061
+靖天育樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv062
+靖天國際台,https://litv.zapi.us.kg/?id=4gtv-4gtv063
+采昌影劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv049
+公視戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv042
+台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
+客家電視台,https://litv.zapi.us.kg/?id=4gtv-4gtv043
+非凡商業台,https://litv.zapi.us.kg/?id=4gtv-4gtv048
+古典音樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv059
+好訊息壹台,https://litv.zapi.us.kg/?id=litv-ftv16
+好訊息貳台,https://litv.zapi.us.kg/?id=litv-ftv17
+博斯魅力台,https://litv.zapi.us.kg/?id=litv-longturn04
+博斯高球壹,https://litv.zapi.us.kg/?id=litv-longturn05
+博斯高球貳,https://litv.zapi.us.kg/?id=litv-longturn06
+博斯運動壹,https://litv.zapi.us.kg/?id=litv-longturn07
+博斯運動貳,https://litv.zapi.us.kg/?id=litv-longturn08
+博斯網球檯,https://litv.zapi.us.kg/?id=litv-longturn09
+博斯無限壹,https://litv.zapi.us.kg/?id=litv-longturn10
+博斯無限貳,https://litv.zapi.us.kg/?id=litv-longturn13
+亞洲旅遊台,https://litv.zapi.us.kg/?id=litv-longturn17
+生活英語台,https://litv.zapi.us.kg/?id=litv-longturn20
+影迷數位台,https://litv.zapi.us.kg/?id=4gtv-4gtv011
+華仁紀實台,https://litv.zapi.us.kg/?id=4gtv-4gtv013
+達文西頻道,https://litv.zapi.us.kg/?id=4gtv-4gtv018
+amc電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv017
+CAT電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv076
+TRA體育台,https://litv.zapi.us.kg/?id=4gtv-4gtv077
+Smart頻道,https://litv.zapi.us.kg/?id=litv-longturn19
+GLo-Bet台,https://litv.zapi.us.kg/?id=4gtv-4gtv016
+Ginx-TV台,https://litv.zapi.us.kg/?id=4gtv-4gtv053
+TVBS,http://154.216.191.38:8500/live.m3u8?c=1
+東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
+寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
+TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
+三立綜合台,http://37.27.111.214:8080/live/31/hls.m3u8
+中視,http://37.27.111.214:8080/live/7/hls.m3u8
+華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
+亞洲旅遊台,http://37.27.111.214:8080/live/10/hls.m3u8
+民視台灣,http://37.27.111.214:8080/live/5/hls.m3u8
+HITS,http://37.27.111.214:8080/live/28/hls.m3u8
+民視第一,http://37.27.111.214:8080/live/4/hls.m3u8
+博斯無限,http://37.27.111.214:8080/live/15/hls.m3u8
+東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
+國會頻道2,http://37.27.111.214:8080/live/104/hls.m3u8
+鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
+寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
+中視經典,http://37.27.111.214:8080/live/47/hls.m3u8
+寰宇財經新聞,http://37.27.111.214:8080/live/65/hls.m3u8
+中視台灣台,rtmp://f13h.mine.nu/sat/tv091
+台視台灣台,rtmp://f13h.mine.nu/sat/tv071
+華視台灣台,rtmp://f13h.mine.nu/sat/tv111
+東森超視台,rtmp://f13h.mine.nu/sat/tv331
+MoMo綜合,rtmp://f13h.mine.nu/sat/tv761
+緯來日本台,rtmp://f13h.mine.nu/sat/tv771
+緯來育樂台,rtmp://f13h.mine.nu/sat/tv701
+緯來體育台,rtmp://f13h.mine.nu/sat/tv721
+ELEVEN1台,rtmp://f13h.mine.nu/sat/tv731
+ELEVEN2台,rtmp://f13h.mine.nu/sat/tv741
+中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
+壹新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
+八大戲劇,http://61.221.215.25:8800/hls/39/index.m3u8
+三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
+中華小當家,http://61.221.215.25:8800/hls/40/index.m3u8
+AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
+緯來精彩,http://61.221.215.25:8800/hls/48/index.m3u8
+探索亞洲,http://61.221.215.25:8800/hls/50/index.m3u8
+八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
+動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
+八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
+
+
+
+
+
+
+四季,#genre#
 民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv001
 民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv002
-民視第壹台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv003
+民視第一台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv003
 民視綜藝,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv004
 豬哥亮歌廳秀,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv006
 中天新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv009
@@ -266,114 +365,6 @@ Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
 
 
 
-
-
-LITV源,#genre#
-中天新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv009
-tvbs新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
-非凡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv010
-閩鏡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv075
-華視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv052
-中視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv074
-寰宇閩南台,https://litv.zapi.us.kg/?id=litv-longturn15
-中視閩南台,https://litv.zapi.us.kg/?id=4gtv-4gtv040
-華視閩南台,https://litv.zapi.us.kg/?id=4gtv-4gtv041
-台視閩南台,https://litv.zapi.us.kg/?id=4gtv-4gtv066
-民視閩南台,https://litv.zapi.us.kg/?id=4gtv-4gtv002
-民視第一台,https://litv.zapi.us.kg/?id=4gtv-4gtv003
-民視綜藝台,https://litv.zapi.us.kg/?id=4gtv-4gtv004
-民視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv001
-民視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv156
-中視菁采台,https://litv.zapi.us.kg/?id=4gtv-4gtv064
-tvbs精采台,https://litv.zapi.us.kg/?id=4gtv-4gtv067
-tvbs歡樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv068
-tvbs閩南台,https://litv.zapi.us.kg/?id=4gtv-4gtv073
-八大精彩台,https://litv.zapi.us.kg/?id=4gtv-4gtv034
-龍華卡通台,https://litv.zapi.us.kg/?id=litv-longturn01
-龍華電影台,https://litv.zapi.us.kg/?id=litv-longturn03
-龍華日韓台,https://litv.zapi.us.kg/?id=litv-longturn11
-龍華偶像台,https://litv.zapi.us.kg/?id=litv-longturn12
-龍華經典台,https://litv.zapi.us.kg/?id=litv-longturn21
-龍華戲劇台,https://litv.zapi.us.kg/?id=litv-longturn18
-愛爾達娛樂,https://litv.zapi.us.kg/?id=4gtv-4gtv070
-台灣戲劇台,https://litv.zapi.us.kg/?id=litv-longturn22
-靖洋戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv045
-靖洋卡通台,https://litv.zapi.us.kg/?id=4gtv-4gtv057
-靖天戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv058
-靖天卡通台,https://litv.zapi.us.kg/?id=4gtv-4gtv044
-靖天資訊台,https://litv.zapi.us.kg/?id=4gtv-4gtv065
-靖天映畫台,https://litv.zapi.us.kg/?id=4gtv-4gtv055
-靖天綜合台,https://litv.zapi.us.kg/?id=4gtv-4gtv046
-靖天日本台,https://litv.zapi.us.kg/?id=4gtv-4gtv047
-靖天電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv061
-靖天育樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv062
-靖天國際台,https://litv.zapi.us.kg/?id=4gtv-4gtv063
-采昌影劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv049
-公視戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv042
-台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
-客家電視台,https://litv.zapi.us.kg/?id=4gtv-4gtv043
-非凡商業台,https://litv.zapi.us.kg/?id=4gtv-4gtv048
-古典音樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv059
-好訊息壹台,https://litv.zapi.us.kg/?id=litv-ftv16
-好訊息貳台,https://litv.zapi.us.kg/?id=litv-ftv17
-博斯魅力台,https://litv.zapi.us.kg/?id=litv-longturn04
-博斯高球壹,https://litv.zapi.us.kg/?id=litv-longturn05
-博斯高球貳,https://litv.zapi.us.kg/?id=litv-longturn06
-博斯運動壹,https://litv.zapi.us.kg/?id=litv-longturn07
-博斯運動貳,https://litv.zapi.us.kg/?id=litv-longturn08
-博斯網球檯,https://litv.zapi.us.kg/?id=litv-longturn09
-博斯無限壹,https://litv.zapi.us.kg/?id=litv-longturn10
-博斯無限貳,https://litv.zapi.us.kg/?id=litv-longturn13
-亞洲旅遊台,https://litv.zapi.us.kg/?id=litv-longturn17
-生活英語台,https://litv.zapi.us.kg/?id=litv-longturn20
-影迷數位台,https://litv.zapi.us.kg/?id=4gtv-4gtv011
-華仁紀實台,https://litv.zapi.us.kg/?id=4gtv-4gtv013
-達文西頻道,https://litv.zapi.us.kg/?id=4gtv-4gtv018
-amc電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv017
-CAT電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv076
-TRA體育台,https://litv.zapi.us.kg/?id=4gtv-4gtv077
-Smart頻道,https://litv.zapi.us.kg/?id=litv-longturn19
-GLo-Bet台,https://litv.zapi.us.kg/?id=4gtv-4gtv016
-Ginx-TV台,https://litv.zapi.us.kg/?id=4gtv-4gtv053
-TVBS,http://154.216.191.38:8500/live.m3u8?c=1
-東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
-寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
-TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
-三立綜合台,http://37.27.111.214:8080/live/31/hls.m3u8
-中視,http://37.27.111.214:8080/live/7/hls.m3u8
-華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
-亞洲旅遊台,http://37.27.111.214:8080/live/10/hls.m3u8
-民視台灣,http://37.27.111.214:8080/live/5/hls.m3u8
-HITS,http://37.27.111.214:8080/live/28/hls.m3u8
-民視第一,http://37.27.111.214:8080/live/4/hls.m3u8
-博斯無限,http://37.27.111.214:8080/live/15/hls.m3u8
-東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
-國會頻道2,http://37.27.111.214:8080/live/104/hls.m3u8
-鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
-寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
-中視經典,http://37.27.111.214:8080/live/47/hls.m3u8
-寰宇財經新聞,http://37.27.111.214:8080/live/65/hls.m3u8
-中視閩南台,rtmp://f13h.mine.nu/sat/tv091
-台視閩南台,rtmp://f13h.mine.nu/sat/tv071
-華視閩南台,rtmp://f13h.mine.nu/sat/tv111
-東森超視台,rtmp://f13h.mine.nu/sat/tv331
-MoMo綜合,rtmp://f13h.mine.nu/sat/tv761
-緯來日本台,rtmp://f13h.mine.nu/sat/tv771
-緯來育樂台,rtmp://f13h.mine.nu/sat/tv701
-緯來體育台,rtmp://f13h.mine.nu/sat/tv721
-ELEVEN1台,rtmp://f13h.mine.nu/sat/tv731
-ELEVEN2台,rtmp://f13h.mine.nu/sat/tv741
-中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
-壹新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
-八大戲劇,http://61.221.215.25:8800/hls/39/index.m3u8
-三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
-中華小當家,http://61.221.215.25:8800/hls/40/index.m3u8
-AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
-緯來精彩,http://61.221.215.25:8800/hls/48/index.m3u8
-探索亞洲,http://61.221.215.25:8800/hls/50/index.m3u8
-八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
-動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
-八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
 
 
 
@@ -6216,6 +6207,497 @@ CNNj,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=FHD&ccode=JP&m
 
 
 
+香港,#genre#
+HKTVB翡翠台,zlive://38.114.114.155:6678/b79e039cf916301bdf2cd5003dcffcb8
+HKTVBPlus,zlive://38.114.114.155:6678/fe32c69a556bb89480ea1f91c286a2f0
+HKTVB無線新聞台,zlive://38.114.114.155:6678/fe3d78b8702e7fee9619efdbeb15aa8a
+HKTVB明珠台,zlive://38.114.114.155:6678/1f84a5336f77af2188f9fcb061f540ba
+HKVIUTV,zlive://38.114.114.155:6678/ab9d631a4107e00bfda05be4cbfc8d06
+Now新聞台,zlive://38.114.114.155:6678/2dc6788364645f38b1d41715b2e8be23
+Now財經台,zlive://38.114.114.155:6678/4a18ecc005cf816447a0c0332b09a5a4
+Now直播台,zlive://38.114.114.155:6678/d8d2a0364aed4a7ecc2270274aba037d
+Now爆谷星影台,zlive://38.114.114.155:6678/003f20232a0af63646db5ed350aadcfc
+Now爆谷台,zlive://38.114.114.155:6678/1e4c5560fe858d265485cec9e47609ee
+Now華劇台,zlive://38.114.114.155:6678/b4b00a2bef59b93569fde7908ffe597f
+NowViu劇集台,zlive://38.114.114.155:6678/7478284fd70568248a9c4716530cfa69
+NowSports精選,zlive://38.114.114.155:6678/2361aeffe3f53749a977ef40b47833f3
+NowSports1,zlive://38.114.114.155:6678/16c0e489ccb810f8904462bc65ca95cb
+NowSports2,zlive://38.114.114.155:6678/ed852b7a3e762272f2030bfbd47f0850
+NowSports3,zlive://38.114.114.155:6678/6bc97b0a2948b027382788922f41c088
+NowSports4,zlive://38.114.114.155:6678/5a15231cba8c9a4a8b4d4d5791cc773b
+NowSports5,zlive://38.114.114.155:6678/ca2cf9bfb897403ad011ce290a651609
+NowSports6,zlive://38.114.114.155:6678/ce8e930e730adcd65102cf2e74f6688c
+NowSports7,zlive://38.114.114.155:6678/3b61628b1cfe3700fbf4e40002880567
+NowSports英超1台,zlive://38.114.114.155:6678/cf7ab07b68361570dc961419105469c0
+HKC有線18台(低延時),zlive://38.114.114.155:6678/330680ccf4956126e92d479d720094c2
+HKC有線18台,zlive://38.114.114.155:6678/16f0a8c2fdb07e9e6b3e221275eb6fee
+SPOTV1,zlive://38.114.114.155:6678/7573550ce2f00077e861719c6ad34001
+SPOTV2,zlive://38.114.114.155:6678/6bc36a5fa83441554f0458f483b87db0
+衛視體育台1,zlive://38.114.114.155:6678/7082201c64dda4c2fb8e0257a50f9fd5
+衛視體育台2,zlive://38.114.114.155:6678/82a50b3ac55471456ef35339343111a3
+FightSports,zlive://38.114.114.155:6678/5a6134cdb0701b5ebb6c2f27e95af2ae
+美亞電影台(粵),zlive://38.114.114.155:6678/f85b8124e71ac472eb3cfa0e16664039
+美亞電影台(國),zlive://38.114.114.155:6678/d2d0a78b6006363018a18723099792b4
+HBO(粵),zlive://38.114.114.155:6678/32bcd2bcf47a5db4db7419fbc485a0e9
+Cinemax,zlive://38.114.114.155:6678/967cb22aa344eb2c3e88a715fa122035
+Celestial天映頻道(粵),zlive://38.114.114.155:6678/23b807f42fb46d21c3eff9656e26a77a
+Celestial天映頻道(國),zlive://38.114.114.155:6678/8d30cac1e593b2e82b2e894e31ddce98
+CCM天映經典(粵),zlive://38.114.114.155:6678/dd54373672143f7f41c1fdf563d9bad6
+CCM天映經典(國),zlive://38.114.114.155:6678/98aaa10c6345098ede9e3542ae585635
+中國電影頻道,zlive://38.114.114.155:6678/b94704e71259efdb85ce835db2619be9
+POPC電影頻道,zlive://38.114.114.155:6678/5db3928bd38f723cc58096fde4a2cc08
+Thrill,zlive://38.114.114.155:6678/43b0192a4ad7daa4b375e33f27131ea4
+TVB黃金翡翠台,zlive://38.114.114.155:6678/9e5d025c2829f35a23a9b765dce5fa2d
+TVB亞洲劇台,zlive://38.114.114.155:6678/cc5c98253ff8e4420d18db1a0bcadf9e
+TVB黃金華劇台,zlive://38.114.114.155:6678/3c7ef958f982c491918aa50acefdaac3
+TVB功夫台AsiaActionTH,zlive://38.114.114.155:6678/41bd0b18f9c954c17f6aef21142480bf
+TVB粵語片台,zlive://38.114.114.155:6678/d95874d8dfa8cc5976e6740e3ecb5ac9
+TVB亞洲綜藝,zlive://38.114.114.155:6678/9a0a55d5b3d8b02b7346cf7a5cd7d05b
+TVB千禧經典台,zlive://38.114.114.155:6678/bcee6532e2dfb92425d4b0536cf99313
+TVB華語劇台(粵),zlive://38.114.114.155:6678/d9e1aa407bc482358e70bc7641bf9c79
+TVB華語劇台(國),zlive://38.114.114.155:6678/fcbdec3790d9141a52dde693c7d989e8
+TVB娛樂新聞台,zlive://38.114.114.155:6678/cc49da63657864c7cbc42b640ffc60dc
+TVB戲曲台,zlive://38.114.114.155:6678/457897a7d74db36e9f8bacddd0cf225e
+TVB星河(粵),zlive://38.114.114.155:6678/d37357214902b7a9127b6b1d14ab6b6d
+TVBSUPER18台,zlive://38.114.114.155:6678/dc9d5ebb339c7bcd8d9137c2572907db
+TVB星河(國),zlive://38.114.114.155:6678/7d9ac8fe6303de5f3a31209185be6b37
+HOY資訊台,zlive://38.114.114.155:6678/e46c3e599bb20155af257929176c87fd
+HOYTVHD,zlive://38.114.114.155:6678/ed77fb6c16ab617317c15ec03227de88
+HOY香港國際財經,zlive://38.114.114.155:6678/45534bb747f8d3928c4831f0914e11f2
+SUPERKidsChannelCH100,zlive://38.114.114.155:6678/597d9758b2d6daf49d1cfbaa1f7ea250
+AnimaxCH504,zlive://38.114.114.155:6678/827e6d30df31200e7506794e5703e71d
+ZooMooCH101,zlive://38.114.114.155:6678/5bb64403178be57a47abd69a72546cc5
+HK鳳凰衛視,zlive://38.114.114.155:6678/800113cac9044f7ec599dce9c8427c59
+HK鳳凰資訊,zlive://38.114.114.155:6678/0b27f271109eb77805bdb59e527314e3
+HK鳳凰香港,zlive://38.114.114.155:6678/1dfce67e2c3c311bac6109e04c73768f
+鳳凰衛視美洲台,zlive://38.114.114.155:6678/c6f890c9e81ed5b3aba0cdef378325ea
+RTHK31,zlive://38.114.114.155:6678/9a13fff662f2afa5e352eaf33128699f
+RTHK32,zlive://38.114.114.155:6678/87d30614764340b71970261cb9826322
+RTHK33,zlive://38.114.114.155:6678/da2e9b31c4da6343c3fa1ccb1fe31bf1
+RTHK34,zlive://38.114.114.155:6678/792c515a9f2d5e310e0c35d09020d69f
+RTHK35,zlive://38.114.114.155:6678/0bbc87c8813c74eb60b2f806a2210941
+NHKS香港衛視,zlive://38.114.114.155:6678/08676c2f180b95423b0dd80b51d4744e
+神州新聞台CH701,zlive://38.114.114.155:6678/a780aaac74cc4ab935af37c259e29384
+美國舊金山KTSF-26,zlive://38.114.114.155:6678/df167a8966da67d8cf2e0ba93c723574
+美國中文電視,zlive://38.114.114.155:6678/2681b2f8568be95c08fc5a1075f2f130
+創世電視,zlive://38.114.114.155:6678/bb0b3741fd6568bea1dcaa78f4302819
+香港C＋頻道,zlive://38.114.114.155:6678/f3deda76540cf975f873a6edafabbd24
+澳門蓮花衛視,zlive://38.114.114.155:6678/6857ee9f1733dd3165dd938069ae15ec
+
+台灣,#genre#
+TVBS新聞台,zlive://38.114.114.155:6678/359f3aaab4814fea75f1972b14f5cc2d
+東森新聞台,zlive://38.114.114.155:6678/efe3b6a9a907ca31508eb8637eade31e
+中天新聞台,zlive://38.114.114.155:6678/83cb6093ac4fee708944e582c3741413
+中視新聞台,zlive://38.114.114.155:6678/5a48fccb9f56d51330da753162e13853
+年代新聞台,zlive://38.114.114.155:6678/2f31185bffb3df9105cfa70523df0283
+台視新聞,zlive://38.114.114.155:6678/27df0bd194672960a567609d6275db15
+寰宇新聞台,zlive://38.114.114.155:6678/f359629dae2739a925b5a6d29a24832c
+寰宇新聞台灣台,zlive://38.114.114.155:6678/80c7ee5dce8ef2c463528088fc91ccf3
+民視新聞台,zlive://38.114.114.155:6678/9b0761212a87ada8fddcb48469b6d8d9
+壹電視新聞台,zlive://38.114.114.155:6678/dc5b18a6891364897ca37be8cfeea966
+鏡電視新聞,zlive://38.114.114.155:6678/5a5d334531b59625a4ec8686ad90bdc6
+三立新聞台,zlive://38.114.114.155:6678/27767bd0f4f07655f2764dcd2ee185d2
+華視新聞資訊台,zlive://38.114.114.155:6678/ea5f0f79cb0f7c500087f1ed09e1d66d
+非凡新聞台,zlive://38.114.114.155:6678/d562615cf74e0abf97c677f659a23e2c
+寰宇財經台,zlive://38.114.114.155:6678/558063e7b4f2213a15428700719e3d88
+非凡商業台,zlive://38.114.114.155:6678/ae97a411299f6d1da71965abf3fbf073
+台視財經台,zlive://38.114.114.155:6678/c9d8271f2b5cbf1e3ec8b676aff7d0cb
+東森財經新聞台,zlive://38.114.114.155:6678/7704d253c3d6cc14de3eaec2c5c6f079
+SBN全球財經台,zlive://38.114.114.155:6678/eacd0a053212aa0af32298bafa0163d1
+CNBCAsia財經台,zlive://38.114.114.155:6678/2f8643c92ae972e024234ca35785351d
+三立財經新聞,zlive://38.114.114.155:6678/e27cb3de5a31163ec183d55db74b15ee
+東森超視台,zlive://38.114.114.155:6678/25fa11eec716299f0839267857c0afd3
+台視,zlive://38.114.114.155:6678/8e93d1c037bd6b7f2475caf9b26d439d
+華視,zlive://38.114.114.155:6678/fb6ca78268fc9f70dd0032bac5519e96
+中視,zlive://38.114.114.155:6678/00638374d98bfd7addb0b80fd8e5e473
+民視,zlive://38.114.114.155:6678/dbe2b663591316d4c4a7700a813080c9
+TVBS綜合,zlive://38.114.114.155:6678/9db4972bc31a85a31f5d3325069244e5
+中天綜合台,zlive://38.114.114.155:6678/0bbaa36f6e83e062f5ec60931ac8bf89
+中視經典台,zlive://38.114.114.155:6678/6834811aa340fdf19ac480ef3cfd6fce
+TVBS精采台,zlive://38.114.114.155:6678/a0c83d16a527d4fa67379d43f8084c08
+TVBS歡樂台,zlive://38.114.114.155:6678/58ff35509f715e2c23efe5bd30654351
+民視旅遊台,zlive://38.114.114.155:6678/a4ecd8f0c66a7b10c738ac14de971035
+民視影劇台,zlive://38.114.114.155:6678/af049cd3271a9db973512a232757d580
+民視綜藝台,zlive://38.114.114.155:6678/f2155674d99ca53b960e6c256ae6049d
+民視第一台,zlive://38.114.114.155:6678/39bdd3dd5c828fba688ee5fbb3244949
+民視台灣台,zlive://38.114.114.155:6678/70b658d2d245200cc807ef27f29f76ef
+東森綜合台,zlive://38.114.114.155:6678/9f5c1678c6aceed69c98c8389a102856
+中視菁采台,zlive://38.114.114.155:6678/c97ed048a68d698665ec07092249a184
+三立綜合台,zlive://38.114.114.155:6678/e039a431e01f6ed1836e4f8eb225b9a6
+中天娛樂台,zlive://38.114.114.155:6678/459ffc82bce16744b85b112095a6bf0b
+三立台灣台,zlive://38.114.114.155:6678/77bdba359da4181bf869f42687ede043
+三立都會台,zlive://38.114.114.155:6678/84cee48e29051ce0bffc62a1b53281f5
+台視綜合台,zlive://38.114.114.155:6678/fb05cd1ba97b54b641742d114fafbbcc
+中天亞洲台,zlive://38.114.114.155:6678/52678b46eaf1d6c7ca62b440c923ed39
+美亞電影台灣台,zlive://38.114.114.155:6678/40b4b82d710c8a9f235e67734d9305d4
+HBO,zlive://38.114.114.155:6678/7dd78d4c3e7731348c1416b1ab2f5ead
+HBOHits,zlive://38.114.114.155:6678/244f8c1618f73f7358ad65019dbe223e
+HBOFamily,zlive://38.114.114.155:6678/a66566da68129afaa3d784f13ee803ed
+HBOSignature,zlive://38.114.114.155:6678/a3e2347d9969e2447d289e85d18276df
+CINEMAX,zlive://38.114.114.155:6678/49a3afe2e642110903e219859d0d83c7
+AXN,zlive://38.114.114.155:6678/5c0bd998eead594927c6aa83c018811d
+CinemaWorld,zlive://38.114.114.155:6678/07a4962df7c9ccc96a5bffdfd740a448
+龍華洋片台,zlive://38.114.114.155:6678/44bff0493f492bbfc7a2f2198d7eef32
+壹電影,zlive://38.114.114.155:6678/c4e6bb0dbddd4a8df170531e92ed9544
+CATCHPLAY電影台,zlive://38.114.114.155:6678/73aad962692ba4c3b888135b950f260d
+我的歐洲電影,zlive://38.114.114.155:6678/510203dfe8e949d45ae56c487feec860
+AMC最愛電影,zlive://38.114.114.155:6678/313680bccd545bb105004663f8389a71
+影迷數字電影台,zlive://38.114.114.155:6678/0cd1e8c127ae7bf65f62398e248c875b
+視納華仁紀實頻道,zlive://38.114.114.155:6678/d8a954d4b679cadb1600809256328f66
+私人影院,zlive://38.114.114.155:6678/1cc4b3e6beaf1f45de2137eccdec7f60
+好萊塢電影台,zlive://38.114.114.155:6678/c3c15b63d9624d42e614af56c8210aa0
+東森洋片台,zlive://38.114.114.155:6678/2e4fb56374a111d3424b9d3918e8cf24
+三立戲劇台,zlive://38.114.114.155:6678/bbbe7ad071ecc3fd3af89e71d3608db2
+龍祥時代電影,zlive://38.114.114.155:6678/7c2197957dd6bd627992d665e6f48a4c
+華納電影台,zlive://38.114.114.155:6678/7fec3818bebc8c435268ed8cfdedd081
+東森戲劇台,zlive://38.114.114.155:6678/f61517cfc3d1a8b6ce57b2ee1f74aa3d
+HITS頻道,zlive://38.114.114.155:6678/e422a8ee3475f37052375665e7ccab1a
+罪案偵查頻道,zlive://38.114.114.155:6678/68fc7f2d7932f422b8938db79d82ca82
+影迷數位紀實台,zlive://38.114.114.155:6678/84784199de7a792010c75734858b8dfd
+東森電影台,zlive://38.114.114.155:6678/77576c60e6c173c4efa4d34bed230d44
+ELTA愛爾達影劇台,zlive://38.114.114.155:6678/4675dfea8aa329a393ef0bddde9a43f6
+tvN,zlive://38.114.114.155:6678/5f96a9dd1af63b9b42a187cdb305bfd4
+ROCKAction,zlive://38.114.114.155:6678/2b416f2f35b0dc5fe99533033032fa19
+ROCKEntertainment,zlive://38.114.114.155:6678/d26291e47705cce33be235436036644b
+ELTA愛爾達綜合台,zlive://38.114.114.155:6678/9d1f43742d65d84aa49184ef3d70d859
+ELTA愛爾達娛樂台,zlive://38.114.114.155:6678/e04b31549fd0cfd8bf9fcb148cc22b0f
+ELTA愛爾達生活旅遊台,zlive://38.114.114.155:6678/bd29eab3e364a04f8ccd27bfea233ed3
+ELTA愛爾達日韓台,zlive://38.114.114.155:6678/1b05be8e7b537a60c02f6c96e06d3d7f
+緯來電影台,zlive://38.114.114.155:6678/8978bd6b1e29352b31528c919d3e7b5c
+靖天歡樂台,zlive://38.114.114.155:6678/0ab34c7155114651475d937774223621
+緯來日本台,zlive://38.114.114.155:6678/fcdba75632a303ecebf8db275ac2827a
+緯來育樂台,zlive://38.114.114.155:6678/46cb0434ea7a806a274bb5ba0bfa1901
+緯來精彩台,zlive://38.114.114.155:6678/e8ab9c3b5795a9e84f9eec24ce905df3
+緯來戲劇台,zlive://38.114.114.155:6678/f467d3ed7599085ea489b96c55efa1b9
+緯來綜合台,zlive://38.114.114.155:6678/1930ac8b4147bc300fcd8d5f8ac25689
+八大第一台,zlive://38.114.114.155:6678/9f89f4f898bd73154ce9c9bf0b292693
+八大精彩台,zlive://38.114.114.155:6678/5d6ef2d7a34eaf6a49e99a22ac1140f2
+八大綜藝台,zlive://38.114.114.155:6678/f418503b06f636f7caf6f11e9270c879
+八大綜合台,zlive://38.114.114.155:6678/6ef93184d8f8a6fae09ea58baed28b97
+八大戲劇台,zlive://38.114.114.155:6678/26da1f8ebde147321406b5a627889c32
+八大娛樂台,zlive://38.114.114.155:6678/60a58ce736005f9b28ee56a208da648e
+龍華電影台,zlive://38.114.114.155:6678/06b1328077c1a40169133586ae312164
+龍華日韓台,zlive://38.114.114.155:6678/924d17f466571604e647dbfdee9e09bf
+龍華戲劇台,zlive://38.114.114.155:6678/626715713b4e86dc10389d3163df77a6
+龍華偶像台,zlive://38.114.114.155:6678/5119c29429d63cac5b1bcd94c907a900
+龍華經典台,zlive://38.114.114.155:6678/8ddad1bc44bdffcbdb9b402efd5c55b7
+靖天綜合台,zlive://38.114.114.155:6678/7c23025b71cd0af1b6e0bbc436a4ff29
+靖天電影台,zlive://38.114.114.155:6678/38ed2f2101a139ebc9a6a65e3652af5e
+靖天育樂台,zlive://38.114.114.155:6678/3cc8665990559b6430985b570e105da9
+靖天映畫台,zlive://38.114.114.155:6678/a6012bac52702f3d15dbb8592c1caac3
+靖天日本台,zlive://38.114.114.155:6678/25e5c2352d08958ce7fcbf2ff940417b
+靖天卡通台,zlive://38.114.114.155:6678/fdcec4d9a5e52372fde1acdb99568f3c
+靖天戲劇台,zlive://38.114.114.155:6678/2c5bcac0750b3fd11c8fbfd97f676cf6
+靖洋戲劇台,zlive://38.114.114.155:6678/40953c721937f5e8c69d4ef2c47625b9
+KLT-靖天國際,zlive://38.114.114.155:6678/c771b906e1a2cbede89da7761cdbc980
+靖天資訊台,zlive://38.114.114.155:6678/62966256ede0cc179cad38391519e22f
+靖洋卡通NiceBingo,zlive://38.114.114.155:6678/b99c649f70589b91bbed18bd134c77fb
+ELTA愛爾達體育1台,zlive://38.114.114.155:6678/7d87a0833c9f5e636ada2317add44328
+ELTA愛爾達體育2台,zlive://38.114.114.155:6678/74c7864759a70c5ca5ddfdb604f6998a
+ELTA愛爾達體育3台,zlive://38.114.114.155:6678/1d6acaf892661c3833bd41e9e151ac4a
+ELTA愛爾達體育4台,zlive://38.114.114.155:6678/168aff9c80bef26d16446f6a85b9c2d9
+博斯運動1台,zlive://38.114.114.155:6678/ae2db5a1ade76e483931d94434c2d515
+博斯運動2台,zlive://38.114.114.155:6678/54e001fa99deeefbe32ec78ce75832f4
+博斯魅力台,zlive://38.114.114.155:6678/a681d8e0362c37f451bdee506f77c896
+博斯網球檯,zlive://38.114.114.155:6678/378f0fa914d6b080ccb3746da5c34331
+博斯高球一台,zlive://38.114.114.155:6678/67f7721b77fa7c956384cce53d254214
+博斯高球二台,zlive://38.114.114.155:6678/54aa91429fbdd925ead2cc4dd5b0048f
+博斯無限一台,zlive://38.114.114.155:6678/e5942ff6ea0411f0b78efe3cc3e7f8f8
+博斯無限二台,zlive://38.114.114.155:6678/8dc1cf258119181112b224a18a4352e1
+緯來體育台,zlive://38.114.114.155:6678/f1d4bcd107898b8e9563b01b7ea84879
+ELEVEN1,zlive://38.114.114.155:6678/1398777564e5e8986e2fe68d78a92993
+ELEVEN2,zlive://38.114.114.155:6678/9e581eeaafb14296c1fdd3d04bebe839
+MOMO綜合台,zlive://38.114.114.155:6678/b0d8aee2158fc59f60f0ede266ef09c8
+高點綜合台,zlive://38.114.114.155:6678/38552fe82ea0d4553195ea96a30ae0f7
+JET綜合台,zlive://38.114.114.155:6678/c03f207a3f28b0a2498a9942395842d7
+壹綜合台,zlive://38.114.114.155:6678/7e3282f2ed51fb0e93faf78aac45b13a
+公視,zlive://38.114.114.155:6678/e37644f8cec9e861668298e1184cfc08
+公視台語台,zlive://38.114.114.155:6678/6b215673088dcf9b423fd8e4b5bf550b
+公視戲劇,zlive://38.114.114.155:6678/7ab11275bc125ed4bdceed34a58f019e
+公視3,zlive://38.114.114.155:6678/584ffa2a090cb6974e2f53253109ed82
+EYE旅遊台,zlive://38.114.114.155:6678/811c75da70485f4dbcd377c1204de8d0
+EYE戲劇台,zlive://38.114.114.155:6678/410a6781b3987dd286010ce0379e6576
+探索頻道,zlive://38.114.114.155:6678/72685dc82b55169e188444d6e1211426
+探索科學,zlive://38.114.114.155:6678/5f5faf6489b9e08c70c1d17bd4fdad05
+DiscoveryDMAX,zlive://38.114.114.155:6678/6b51e39b223cd0dfa8805d05a7884743
+居家樂活頻道HGTV,zlive://38.114.114.155:6678/88521449f96db15ba5485eeaddd8f6e6
+探索亞洲,zlive://38.114.114.155:6678/f7266224d22a2facb252f86647db6065
+旅遊台,zlive://38.114.114.155:6678/5cd82302dd0bd1cc8a06baaed66cc312
+Lifetime娛樂頻道,zlive://38.114.114.155:6678/fdc6c6862faa91fc37c72637e1cb1366
+歷史頻道,zlive://38.114.114.155:6678/5a07621efbcde86d1c022876c9c97c18
+歷史頻道2,zlive://38.114.114.155:6678/fcdc94e92d9d54f24544957c4e7b78a1
+美食星球,zlive://38.114.114.155:6678/80a8522fe62043749378e1abcb52a141
+LoveNature,zlive://38.114.114.155:6678/2e289830d4de08f49d5861ef436a25ab
+Asia亞洲旅遊台,zlive://38.114.114.155:6678/82983e1130a801d4766ed093b66994fb
+BBCCbeebies,zlive://38.114.114.155:6678/995fa229ed2051106741ccb6ed2513d7
+DiscoveryEVE,zlive://38.114.114.155:6678/0bd0449705650402cb127963f89f371e
+國家地理,zlive://38.114.114.155:6678/632884927eebec2a8f7565acedf3436e
+動物星球,zlive://38.114.114.155:6678/957cab7fb381d38ffc58cd1f63a61238
+TLC旅遊台,zlive://38.114.114.155:6678/ae004136f1c60bc1468e9356f7216114
+亞洲美食頻道,zlive://38.114.114.155:6678/3ce7942e5a4ac141cd3e4894b309ab4a
+BBCEarth,zlive://38.114.114.155:6678/99569da0fc9f2764f738ef254cf163b9
+BBCLifestyle,zlive://38.114.114.155:6678/6a93966d44b47e04193c7bf578ce77ba
+Animax卡通,zlive://38.114.114.155:6678/2457c9fbe9923854f9c8b351153115a8
+CN卡通頻道,zlive://38.114.114.155:6678/987898acba092b3758831948ab143a28
+尼克兒童頻道,zlive://38.114.114.155:6678/5d31f6e043f91eedfe9f37cc9ec214b9
+NickJr.兒童頻道,zlive://38.114.114.155:6678/c5fe4a02752e117f7e73aac664af011a
+MOMO親子台,zlive://38.114.114.155:6678/dcc2dd37e13cf122e58e089d00dc4e71
+i-Fun愛放動漫台,zlive://38.114.114.155:6678/ea344d22a96861c2203c1eb9b63086dc
+東森幼幼亞洲,zlive://38.114.114.155:6678/1c00c8a71a85fb81cd673acb5c43c3f1
+夢工廠動畫,zlive://38.114.114.155:6678/dfb1682154689b0dc7b4ada8f3decaec
+Cartoonito卡通台,zlive://38.114.114.155:6678/35e01f791366b1cf0b50f90e2cf17c12
+達文西頻道,zlive://38.114.114.155:6678/4f2f21a8aff0ef1e5f5a0e0c5d58542a
+Smart知識台,zlive://38.114.114.155:6678/fed9f6695baf5759201becf261d4cc31
+BabyTV,zlive://38.114.114.155:6678/45986b650ae3690d2b9932b56c4d19d6
+Boomerang,zlive://38.114.114.155:6678/9dc04c1faaeb4a0682bb9a804b405677
+東森幼幼台,zlive://38.114.114.155:6678/7575a508bda60de04a86d8f341fa501c
+LiveABC互動英語頻道,zlive://38.114.114.155:6678/4879d1813033f864e673f0a5c3ab537f
+ELTV生活英語台,zlive://38.114.114.155:6678/112ac2e0c9ac308832aac3040d7678be
+MTVAsia,zlive://38.114.114.155:6678/bdfe44aa2f2ab1461e531e412d464141
+Z頻道,zlive://38.114.114.155:6678/769734f4ec40745779a4eeee4f9556f9
+東風衛視,zlive://38.114.114.155:6678/410a87c41c0d20ffc898264deb545286
+智林體育台,zlive://38.114.114.155:6678/e749b4c91dc09cf2af7718979be85786
+FashionTV,zlive://38.114.114.155:6678/c85b9bcb77d6ed8b03023ca53b498eac
+客家電視台,zlive://38.114.114.155:6678/4881e8f69fe30947d99a237d4403861b
+原住民族電視台,zlive://38.114.114.155:6678/d1a477d58c9cf068ecaa0e9ec488600f
+霹靂台灣台,zlive://38.114.114.155:6678/929c2623c9a4620af6c438f08a7f58ef
+國興衛視,zlive://38.114.114.155:6678/afd45876df27a9957f46ee7cd81f56c4
+人間衛視,zlive://38.114.114.155:6678/c91031172e5474265a6408b4a5ad366f
+大愛電視,zlive://38.114.114.155:6678/f0f9f11d4546645a6b88bf1330305201
+大愛二台,zlive://38.114.114.155:6678/c51ef45ee95f59e1e38428732eb64c87
+好訊息,zlive://38.114.114.155:6678/dd1b7c3a9ccf147c5d609063b8570b1a
+好訊息2台,zlive://38.114.114.155:6678/c5fc7149c9209ba07b84ab2fd2804d26
+
+日本,#genre#
+NHK総合東京NHKG,zlive://38.114.114.155:6678/7aea4e26dd32bf7678ce68322d4ece4c
+NHKEテレ,zlive://38.114.114.155:6678/e74f9f7109ec5fc0732787256a544c22
+テレビ東京TVTokyo,zlive://38.114.114.155:6678/dc42eeded9341bfb2cfae69081ec6725
+TBS,zlive://38.114.114.155:6678/ed7349633d9b5b5f83a46a5a1ab35e2d
+TOKYOMX1,zlive://38.114.114.155:6678/f2310b59de42db3b3f3559a433921a2e
+TOKYOMX2,zlive://38.114.114.155:6678/032974e6719f58cf531f2bd273ec3c5e
+MBS毎日放送TV,zlive://38.114.114.155:6678/7aba3c942a9d40b5f2e563e90b14f0a9
+テレビ朝日Asahi,zlive://38.114.114.155:6678/f860395030a6564bee49e561828df7c7
+フジテレビ富士Fuji,zlive://38.114.114.155:6678/6b5568f376655da1e160d9c9b30263aa
+日本テレビNTV,zlive://38.114.114.155:6678/94cb67b5084c71de2706cc8d14f246b1
+KBS京都,zlive://38.114.114.155:6678/f1fa9d3f61e4b37476613fa63879cbf5
+テレビ大阪TVOsaka,zlive://38.114.114.155:6678/9a1ba4d395b87b7e434dcec167d907a2
+関西テレビ,zlive://38.114.114.155:6678/48169e3ef21c440d28092f640aab4745
+NHKBS1(101),zlive://38.114.114.155:6678/6038dc47e1639a5a8f67ad7b02d15f3d
+BSNHKPremium103,zlive://38.114.114.155:6678/e83d28a2d2333ebe70da6090f8789db1
+BS朝日151Asahi,zlive://38.114.114.155:6678/4b49944b22f2c762d11a4c1757037f98
+BS-TBS161,zlive://38.114.114.155:6678/8d5319204e7caaebe76fa0bbc33550ea
+BS-富士FUJI,zlive://38.114.114.155:6678/14568e57c10a79f43b42748ddf0dedcd
+BS日テレ141NTV,zlive://38.114.114.155:6678/ab5010d295647bd17d6e0e9a0f5552b2
+BSジャパンBSTVTokyo,zlive://38.114.114.155:6678/77b051fc731f53262ba14d3fae61eeeb
+BSフジFuji,zlive://38.114.114.155:6678/df4bf3246ee07729e2a3e72e3336727c
+BS釣りビジョンTsuriVision,zlive://38.114.114.155:6678/c64875c2093356229499275284a5e83e
+BSアニマックスAnimax,zlive://38.114.114.155:6678/14a696ca1ae046659a63089ed6666c13
+NHKBSプレミアムPremium,zlive://38.114.114.155:6678/f0bdf340dd559f0ca83fc9ff0902946c
+WOWOWシネマCinemaBS193,zlive://38.114.114.155:6678/6322bb806500f54503c729ba7af58735
+WOWOWライブLiveBS192,zlive://38.114.114.155:6678/a2c32166757a3183bdd53625796b1b11
+WOWOWプライムPrime,zlive://38.114.114.155:6678/577e422aef7e9e829aef54f61155ec25
+WOWOWシネマCinema,zlive://38.114.114.155:6678/246181f327832560d347e358b6710c34
+WOWOWライブLive,zlive://38.114.114.155:6678/f3fe153bc6fdd0f221ab3c60ace4e3af
+ABCテレビAsahiBC,zlive://38.114.114.155:6678/e186a78be392d458d5fb590a59e64153
+よみうりテレビYTV,zlive://38.114.114.155:6678/ca9205621408c635c833c334181110b8
+JSPORTS1BS242,zlive://38.114.114.155:6678/bd5c12998d89795491f67d8e91e25fca
+JSPORTS2BS243,zlive://38.114.114.155:6678/0b20b95a9a533963c4d1f25a626027a9
+JSPORTS3BS244,zlive://38.114.114.155:6678/965f011fb0040c7ebacc98e7d8e894cb
+JSPORTS4BS245,zlive://38.114.114.155:6678/a820bed7814bc2103899c8757e17456e
+スター?9?9チャンネルStarChannel1,zlive://38.114.114.155:6678/428dc9780b3163965cb3c9b7baf1e977
+NHKWorld,zlive://38.114.114.155:6678/46f43f1cf4e38e5911e566a2c3c13f42
+
+韓國,#genre#
+KBS1,zlive://38.114.114.155:6678/69e37c8de0c48d36d3d079898be57c5f
+KBS2,zlive://38.114.114.155:6678/578dda5f087a5f567a62f29fe9825256
+MBC,zlive://38.114.114.155:6678/fb6f77c5cd4c11e1aad3c11edc44dbca
+SBS,zlive://38.114.114.155:6678/7fa15eecb9e57cdc0834d41e0091f81c
+MBN,zlive://38.114.114.155:6678/8dd6affda46e9ac3d3f31e3c833f60c9
+EBS1,zlive://38.114.114.155:6678/a750a8faa3e165e9e48e8f7fefe9b609
+JTBC,zlive://38.114.114.155:6678/4b8bf73401c603f17601f8a6b365d06e
+JTBC2,zlive://38.114.114.155:6678/ae7e9c4668fc64a936520603c402f486
+KBSNDrama,zlive://38.114.114.155:6678/c46d6e0a5fced148f8d0e9d4263ca78d
+KBSNJoy,zlive://38.114.114.155:6678/2646abf8c73221457928667810b50d54
+KBSNKids,zlive://38.114.114.155:6678/96543dd545b25a51448922c86acea853
+CATCHON1,zlive://38.114.114.155:6678/453a7a5f87b7a74b70441699f35d0ab6
+Yonhapnewstv,zlive://38.114.114.155:6678/e02f93e95be181d9e14747f061b2383a
+TVChosun,zlive://38.114.114.155:6678/e46ffa569c116c748db6c2cd26633018
+OCN,zlive://38.114.114.155:6678/6e26c869cfb6bb74a5e040a1541f7e73
+SPOTV,zlive://38.114.114.155:6678/8e0b958ec3f1d6bb1ad961f485e5a4a1
+SPOTV2,zlive://38.114.114.155:6678/32b4f81a905fecc1543fcdee293a9f09
+SPOTVON,zlive://38.114.114.155:6678/c48aee9eb963e84bc8f2737601a46a47
+SPOTVON2,zlive://38.114.114.155:6678/fc58d7ad6b5769848068e25d0b29cbe4
+SBSSports,zlive://38.114.114.155:6678/11544327c53c7fe07cf8f9fae6a06cb1
+KBSNSports,zlive://38.114.114.155:6678/390cda71b40bc1b876824a4d18022f42
+SKYSports,zlive://38.114.114.155:6678/c8b5d4715439a0802887c8ec5c65770e
+MBCSports,zlive://38.114.114.155:6678/e63090097b87353af970e44f78fb1d56
+JTBCGolf&Sports,zlive://38.114.114.155:6678/caf6a3ea0a88876ef5287c75a19a3eb4
+JTBCGolf,zlive://38.114.114.155:6678/be14ba7f38e9e604e157613644ed2804
+SBSGolf,zlive://38.114.114.155:6678/0f5313e0aea89607b427bcb752318e5b
+SPOTVGolf&HEALTH,zlive://38.114.114.155:6678/1b53198b1f80345fb6f150b6f6e56f56
+ChannelA,zlive://38.114.114.155:6678/50e6b83ec9792c8eeb78923206fc8c4d
+
+馬來,#genre#
+Astro華麗台,zlive://38.114.114.155:6678/137dce7b5a55e97f27360d066aaf7851
+Astro愛奇藝,zlive://38.114.114.155:6678/6af41205fec9e11975454b22a659e5ef
+AstroAEC,zlive://38.114.114.155:6678/883b1af4573305d96a53cf952b297bcf
+Astro歡喜台,zlive://38.114.114.155:6678/c6f16883dbad31ec68586ef0845385ae
+AstroAOD351,zlive://38.114.114.155:6678/d1d1d62f7e330b5efd30ce62817325bb
+AstroTVB經典,zlive://38.114.114.155:6678/3293b724cc35e0fa41b78c5840ee58b2
+Astro天映頻道粵,zlive://38.114.114.155:6678/33ba0cee25381ecad878e115ff055295
+MYTVBENEWS,zlive://38.114.114.155:6678/c49e83b04c7ff9a222aaacf1bd31cbb6
+TVBXINGHE粵語,zlive://38.114.114.155:6678/baf670c810bcd1b79cb35f7ceeb5fee4
+TVBXINGHE國語,zlive://38.114.114.155:6678/f8addf383a35f263b7c2988f6a614022
+Astro天映頻道,zlive://38.114.114.155:6678/bf4f6081ecb632e05db612a78f213dac
+Astro天映經典CCM,zlive://38.114.114.155:6678/36659a701919d594e3d60f5f4e07c1d9
+Channel5,zlive://38.114.114.155:6678/1e35ab163ce5d42783fcfbad884c264f
+Channel8,zlive://38.114.114.155:6678/d6a13b2921d24bee8bfdaca2dc3425b9
+Channelu,zlive://38.114.114.155:6678/0b958d242979c22578ca531a24a6107c
+Suria,zlive://38.114.114.155:6678/9ab5b3d5c7312dae41ddf2d7ebb5fc12
+MYONEHD,zlive://38.114.114.155:6678/ee93771b4be0bb77050563221bea2983
+MYBOO,zlive://38.114.114.155:6678/445765986f15b515c85b8e2074102a4d
+MYASSP1,zlive://38.114.114.155:6678/ecb84641a9cf82ee64123beefa51608b
+MYASSP2,zlive://38.114.114.155:6678/941aad99ca23ce794a6bc92f2df21a16
+MYASSP3,zlive://38.114.114.155:6678/d4c47dda10ed3e160b9791eb7be7698c
+MYASSP4,zlive://38.114.114.155:6678/7bcb07d04eaf767a9bdef009ea1b69ee
+MYASSP5,zlive://38.114.114.155:6678/9fd5a8f63e06e99ffe561ff75bfcb5c1
+ASTROArena,zlive://38.114.114.155:6678/7fc4a51ddd9eb1d20edf593589cf2eae
+MYRUGBYPASS,zlive://38.114.114.155:6678/a1175c4ea3fae574b592fdcd0effd24c
+MY-ASTROCIRCKET,zlive://38.114.114.155:6678/4d6e13f99f69fcca9b7c5b8fcac3b583
+
+歐美,#genre#
+CNN,zlive://38.114.114.155:6678/33c401894617497546014f8b039683e5
+FoxNews,zlive://38.114.114.155:6678/66763f687c11e379a3d62eb111cd257a
+MSNBC,zlive://38.114.114.155:6678/578b13fccd2d2bd45b66049f312fc9ad
+Newsmaxtv,zlive://38.114.114.155:6678/3fae2704d872eee98db5eccda09776be
+BBCWorldNews,zlive://38.114.114.155:6678/a966d8920655e7d63c89805acf97b25a
+HLN,zlive://38.114.114.155:6678/6d727370b546995d2f28296fc10c5096
+FOXBusiness,zlive://38.114.114.155:6678/013029648bd07c2d8b5cf7fe0d85897f
+CNBC,zlive://38.114.114.155:6678/89411bb55facf6dddcf4139bc24c2532
+Bloomberg,zlive://38.114.114.155:6678/9a6cfdc22c53f3d8aa42cc2b078a56ef
+HBO,zlive://38.114.114.155:6678/cc34698879753844ccaa534a57728a23
+HBO2,zlive://38.114.114.155:6678/e9195a25925be85a6c89835efd9bef46
+HBOSignature,zlive://38.114.114.155:6678/0a350b8c403096556c14feb07e38820c
+HBOFamily,zlive://38.114.114.155:6678/8945450aa4dcce3a4fa98cc64f4dd59a
+HBOComedy,zlive://38.114.114.155:6678/b6d09f5dcf62af946b97fef1fd26dbf2
+Showtime,zlive://38.114.114.155:6678/ec99405f03ebd0e502bee1bcdd57efa2
+Showtime2,zlive://38.114.114.155:6678/1e3998dbe527b99ebe74494fc1b7a5c8
+AMC,zlive://38.114.114.155:6678/03611ed2cc7565dde296657ae8ede582
+LMN,zlive://38.114.114.155:6678/1a23b162913993a4b482542da94e0c52
+STARZ,zlive://38.114.114.155:6678/524184a216562468eb0dcdaf7c5409cd
+Cinemax,zlive://38.114.114.155:6678/74e22dc1f28134064fc067c0cd55a9cf
+CinemaxActionMax,zlive://38.114.114.155:6678/2a4e726c9fc6407c4a4d201520d389ff
+TNT,zlive://38.114.114.155:6678/02df2bfc56346fb86029f1b99d8ab0e3
+USANetwork,zlive://38.114.114.155:6678/f978bd05b3144c3bd181dcb865e9e04a
+A&E,zlive://38.114.114.155:6678/48b12dca3aa56565bb091fc7e9ead737
+Syfy,zlive://38.114.114.155:6678/ba89e38ae4057c12d55ff8bdd6483901
+Motortrend,zlive://38.114.114.155:6678/2cc520821553230eb2de3042bc06e47c
+Disney,zlive://38.114.114.155:6678/4811f91f60e56355abc04997ab03c822
+DisneyJunior,zlive://38.114.114.155:6678/c2fb9ee66fceb2d0c16d6e77566e8a4b
+DisneyXD,zlive://38.114.114.155:6678/ccf1a07a3a9457a67c194996b1eea9b1
+CartoonNetwork,zlive://38.114.114.155:6678/bf941710c137344ae42091d7d3c2388f
+Nickjr,zlive://38.114.114.155:6678/ba2832607bd84f3055aebc450f2cba74
+Nicktoons,zlive://38.114.114.155:6678/2aed85e0dac1aa4e82509b57012c4035
+Boomerang,zlive://38.114.114.155:6678/5f6c1a024f64178b0a700ce7ad1b6fb2
+Discovery,zlive://38.114.114.155:6678/68ce58acf9c39f4b4fd935bf4efe241a
+NGCGEO,zlive://38.114.114.155:6678/f16d70de0876bf1aa19393df06a181f2
+NATGEOWILD,zlive://38.114.114.155:6678/62184802c3f690bbe8728b3b00317392
+AnimalPlanet,zlive://38.114.114.155:6678/c434aaeb527aac30a79bf93cef1ee075
+History,zlive://38.114.114.155:6678/35d60e019b59f7ff928911e775e417cb
+TLC,zlive://38.114.114.155:6678/f4431e766e34803758286abf740d4da3
+HGTV,zlive://38.114.114.155:6678/9d909d0e305284800a57b5be54fbeb19
+Science,zlive://38.114.114.155:6678/33ab71b718f9b90037e7b6738e677abb
+CookTV,zlive://38.114.114.155:6678/e70fe24cc3c0f928029d70b018f3d405
+MTV,zlive://38.114.114.155:6678/75a97349a085006f85b3e1e1e7d6a047
+VH1,zlive://38.114.114.155:6678/ca22f524ab81f2eaedcd58571c712971
+ESPN,zlive://38.114.114.155:6678/bb2e268c088ccc4d3329f75f1159534d
+ESPN2,zlive://38.114.114.155:6678/8ade69a05d7060287e2337bee73c7cf7
+FS1,zlive://38.114.114.155:6678/e7a9052c57387f841bfd66157f2998ad
+GOLF,zlive://38.114.114.155:6678/1a482f9e092663a7752ae9fe4f7cb3e9
+FS2,zlive://38.114.114.155:6678/890829091b442c382cc8fc0bb4c8dea0
+NBATV,zlive://38.114.114.155:6678/fdfe38b103a4eb7d8a9e404ba84dd39a
+NFLNetwork,zlive://38.114.114.155:6678/5538d60b6ba7b6370e41c94100768834
+NHLNetwork,zlive://38.114.114.155:6678/ad0d443ebd352a3b1ec22c3d44c0bc2b
+MLBNetwork,zlive://38.114.114.155:6678/44e5a9049eca21c2e41c19da8a032bd7
+Tennis,zlive://38.114.114.155:6678/377d8cd19f065e2ea5b54984c709c732
+BeinSport,zlive://38.114.114.155:6678/b42871898f750dc5712cbfd44d5f1c7f
+Willow,zlive://38.114.114.155:6678/b9a032410d66778876ff9180bec603a5
+CBC,zlive://38.114.114.155:6678/c906a0efd19b8e583d207515565261f4
+CTV,zlive://38.114.114.155:6678/2c902883e7c4a50ab9d36b8f2d535917
+Global,zlive://38.114.114.155:6678/effadfa8c22718f3b62ee18c3e3318b9
+CityTV,zlive://38.114.114.155:6678/055bbdc1c79eba082befa7022405922e
+CP24,zlive://38.114.114.155:6678/2465b63aeeae1c2ace6f5e71d5b4d80a
+CTVNews,zlive://38.114.114.155:6678/7e36ee28ad98380e4cab25537ba846f7
+CTV2,zlive://38.114.114.155:6678/829fee31afba75c75c1acdd78a9c961f
+OMNI1,zlive://38.114.114.155:6678/3306ddd1cfcc6c9ec8e91bc997b3e7b9
+NOOVO,zlive://38.114.114.155:6678/536a8029f2b27f9034053bfe983bd2d0
+MovieTime,zlive://38.114.114.155:6678/658721fc88356d48bc9bbd13ea46bacf
+DisneyCA,zlive://38.114.114.155:6678/c2739930fe9a063db02b15af2cd44900
+DisneyXDCA,zlive://38.114.114.155:6678/5d6fdcb9189914fce0388322dff932a7
+DisneyJuniorCA,zlive://38.114.114.155:6678/fce909cff3f98728b021653ffadf04a2
+CartoonNetworkCA,zlive://38.114.114.155:6678/e10e1c7f6e6d158b159d5461645daff2
+Treehouse,zlive://38.114.114.155:6678/7671524705e9e0cda44d1bf477c5016e
+Nickelodeon,zlive://38.114.114.155:6678/389234a215a323ef49f33d8a82a60bac
+YTV,zlive://38.114.114.155:6678/0a2ebe5c7bd7fd0fabe49e3cf473e1c4
+Nicktoons,zlive://38.114.114.155:6678/2aed85e0dac1aa4e82509b57012c4035
+DiscoveryCA,zlive://38.114.114.155:6678/717d8ffadf946111b46ca7065f9ed0ed
+TLC,zlive://38.114.114.155:6678/835097eaf94d37f28723b8e2df9cc4d2
+NATGEOCA,zlive://38.114.114.155:6678/a9265609a8820a406dbce3b2229a12c0
+NATGEOWildCA,zlive://38.114.114.155:6678/cb4f2f434cda47d209a97148737a7afc
+FoodNetwork,zlive://38.114.114.155:6678/1b6e9da1a9556c6a79fd1503d6274e9c
+HistoryCA,zlive://38.114.114.155:6678/1bd5d35430c5609fa9ab03451bcbd7fb
+History2CA,zlive://38.114.114.155:6678/17fae19170877d407be3d86c6fa9e190
+CookingChannel,zlive://38.114.114.155:6678/0d5d3d7f15485d1d8c2a5f9d91dd4b3f
+LoveNature,zlive://38.114.114.155:6678/d4567a90e14b3f876ca5406b1bac4aed
+HGTV,zlive://38.114.114.155:6678/9d901a6de1de46c11c75509ca4a94a7b
+TSN1,zlive://38.114.114.155:6678/552ac0e12a84e5d9c3edd7281bd91488
+TSN2,zlive://38.114.114.155:6678/701ab49b39f0febec73ed1868387e184
+TSN3,zlive://38.114.114.155:6678/e5fd6c28a3421ea06928e1fec9fbe070
+TSN4,zlive://38.114.114.155:6678/23dec5a673069be4e13ad1329ad35e09
+TSN5,zlive://38.114.114.155:6678/672a361a20e0f65a5070f6410ca151e4
+SportsnetOntario,zlive://38.114.114.155:6678/ce63ccb89996be4de1b61fbdefbd051a
+Sportsnet360,zlive://38.114.114.155:6678/2eb97dd0f6e8442e55a231d74eb4b2a2
+Sportsnetone,zlive://38.114.114.155:6678/46841b1dbd67bad2c67d9cdab633d6cc
+SportsnetWorld,zlive://38.114.114.155:6678/562b372ce71f83ce978c2f8108478a4c
+NBATVCA,zlive://38.114.114.155:6678/cf65e670cded6cdd33ba0d39239fa65c
+SportsnetWWE,zlive://38.114.114.155:6678/3aee1c525d1a7d53eb6a5a89fa256d6c
+OLN,zlive://38.114.114.155:6678/35ed1c6ea5140f29c53bb723981fdea7
+Much,zlive://38.114.114.155:6678/70735f35148457fc4203e779913ebb3b
+MTVCA,zlive://38.114.114.155:6678/a9fa2a9cf39d996c03ec527136fb27cf
+UKBBCONE,zlive://38.114.114.155:6678/a22098d818cd872748bb34cef531a17c
+UKBBCTWO,zlive://38.114.114.155:6678/7808b676bfdc95771ebd9bb025743b63
+UKITV1,zlive://38.114.114.155:6678/1b3eadcad1061a6548d174cbdf7fd9fe
+UKChannel4,zlive://38.114.114.155:6678/7dc08a3b0859cae63fa10c3e5d18a4a1
+UKChannel5,zlive://38.114.114.155:6678/9e38c10a4ce070aef4a88bec8d3b7055
+UKITV2,zlive://38.114.114.155:6678/ab0b5a264b36eedf7cbc22e324fa39d9
+UKITV3,zlive://38.114.114.155:6678/f4a822e2626978e0d6e553260f0b1830
+UKITV4,zlive://38.114.114.155:6678/a6130632ce9e9af5c254481eac295e8a
+UKSkyCinemaHits,zlive://38.114.114.155:6678/ceb41d96819f361632ed789315ae8e5c
+UKSkyCinemaScFiHorror,zlive://38.114.114.155:6678/571bff8cd82c5d8c720427999e2db9c9
+UKSkyCinemaDrama,zlive://38.114.114.155:6678/550e1b063ff53bed7e28812e80c93816
+UKSkyCinemaThriller,zlive://38.114.114.155:6678/7b9eb393f42223ec908e54a940f06f0f
+UKSkyCinemaComedy,zlive://38.114.114.155:6678/d07ccabab9e25de69f0498d345b000d2
+UKSkyCinemaAction,zlive://38.114.114.155:6678/52c8148ae9fe7d21365c17aa16edd0a0
+UKSkyCinemaFamily,zlive://38.114.114.155:6678/59181686cbf483b228368fd42603bf82
+UKSkyCinemaAnimation,zlive://38.114.114.155:6678/2b8e2a2492e5e97cf3b5dedc9aa20ef5
+UKSkyCinemaGreats,zlive://38.114.114.155:6678/4b68b7df38ff990956723939bedf4055
+UKSkyCinemaSelect,zlive://38.114.114.155:6678/5df68e3154b9de2cf528ddf9e0f48736
+UKSkyCinemaPremiere,zlive://38.114.114.155:6678/ca832ae6c7e662863da1157b4fac488d
+UKSkySportsMainEvent,zlive://38.114.114.155:6678/8745dd39d7c398f62f9dae6e7fe021b0
+UKSkySportsCricket,zlive://38.114.114.155:6678/b9b19ec1b5653d31dd995573abf0e03b
+UKSkySportsAction,zlive://38.114.114.155:6678/d4fd53fd07201b32075af07b9b38bf59
+UKSkySportsGolf,zlive://38.114.114.155:6678/d40ed4ef6c9986689422fccd49b70225
+UKSkySportsPremierLeague,zlive://38.114.114.155:6678/5f63d3a6b8a4fba48d40d7dc5128e936
+UKSkySportsF1,zlive://38.114.114.155:6678/484c77d9a8efcdc52bf9385078ba7239
+UKSkySportsFootball,zlive://38.114.114.155:6678/ab876ff2ca0ef1361245b12c218eaece
+UKSkySportsArena,zlive://38.114.114.155:6678/664ae1396cdf1832b42f1ea664772335
+UKSkySportsNews,zlive://38.114.114.155:6678/9933fc2a04ce31e06a9aac3ad836e6af
+
+
+
+
+
+
 
 
 
@@ -6321,6 +6803,172 @@ CNNj,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=FHD&ccode=JP&m
 三人 720,http://cdn.adultiptv.net/threesome.m3u8
 其他頻道, http://adultiptv.net/
 m3u地址, http://adultiptv.net/lists/all.m3u
+
+
+
+成人直播_5566,#genre#
+PORNBOX:RAWATTACK,zlive://38.114.114.155:6678/1d7337ee199d4bc11c348592e00cf8d9
+Amazing驚艷成人電影台,zlive://38.114.114.155:6678/6ab4014febd121c38479c833db37d1b2
+LegalPorn,zlive://38.114.114.155:6678/1ea5d572015b4642d4baf2e921b17e28
+Heyzo,zlive://38.114.114.155:6678/eb9caefe957e7d87c8857b5fb0c644c3
+PORNBOX:PASSION,zlive://38.114.114.155:6678/7b9ffff78fcbd88b639f665ac534002b
+HustlerTV,zlive://38.114.114.155:6678/46fa5bb6eebad2781ff09d389e95a472
+俄羅斯強姦,zlive://38.114.114.155:6678/f8545e674e9e923905bb680ea0ffa2f6
+tokyohot,zlive://38.114.114.155:6678/80acc3f8be23286716a3290af7b40eb8
+PORNBOX:MYFAMILYPIES,zlive://38.114.114.155:6678/5ce9e4bc9fb70c8ef53a71a0bbb5f0cc
+男爵全國探花,zlive://38.114.114.155:6678/b8ab8801b5f3a656799d785092993d8c
+日本強姦迷姦,zlive://38.114.114.155:6678/795fc11c91a3b5eee43e83a92311c046
+PORNBOX:PUBLICAGENT,zlive://38.114.114.155:6678/54c028a669fe2fecd8b66caa276e9de6
+PORNBOX:BAEBPervCity,zlive://38.114.114.155:6678/5c5a2fd54853e78afcdbccdd316c2a52
+GayVNAwards,zlive://38.114.114.155:6678/d68d64500f80322dfb90d41320c0e734
+H4610,zlive://38.114.114.155:6678/0ecf2e03ea33c084938cb1f9d8dec34c
+PORNBOX:NEWSENSATIONS,zlive://38.114.114.155:6678/161ddff4361cc86fb13aa139b431a09a
+DorcelXXX,zlive://38.114.114.155:6678/1c7601842c0ae230d7ee1d416f52d6d3
+美國家庭亂倫,zlive://38.114.114.155:6678/7340d1f1e5a9cd98d79a0deb6b844d69
+Caribbean,zlive://38.114.114.155:6678/b6c51d08e9266796d9e9d2894473e2d5
+HustlerXXXTV,zlive://38.114.114.155:6678/941bbfc10bc378f2d094ed1cce7d37a2
+台灣片商PsychopornTW,zlive://38.114.114.155:6678/66f38cb3703373b8a3beb2969781c6e6
+PORNBOX:PROPERTYSEX,zlive://38.114.114.155:6678/f30c8ddb4093dbe0d1a66ffb79a1c4df
+PORNBOX:EXXXTRASMALL,zlive://38.114.114.155:6678/2da7e03528a8a5f004608cb3105efd1d
+Blackgirl,zlive://38.114.114.155:6678/2995c5b88ea6da15d4e3f321dd6bf322
+Catwalk,zlive://38.114.114.155:6678/68676539f555b4e732cb63dd3c802920
+PORNBOX:LETHALHARDCORE,zlive://38.114.114.155:6678/c5f244354cb41afe569562fe84f3de2c
+Dorcel,zlive://38.114.114.155:6678/974cc0a39b62d5a638cbaa150a271773
+Fuckedandbound,zlive://38.114.114.155:6678/130b7e04cbeab34164b7c7d9f19b2a18
+jgirl,zlive://38.114.114.155:6678/270d154eec0a05006e185f1ddb062961
+EXXOTICA,zlive://38.114.114.155:6678/633411d1f8d0b05c22d5de3afbefdf1e
+PORNBOX:BFFS,zlive://38.114.114.155:6678/16193d4583b04fcf9fdb2f6447d6c566
+BabesXXX,zlive://38.114.114.155:6678/f3bd333612c0f3f98704d2f3876f2260
+91短視訊-果凍傳媒,zlive://38.114.114.155:6678/04a5a0bcb2664175bb4532ab61104c4d
+PORNBOX:PRIVATE,zlive://38.114.114.155:6678/dd40abedd7ca8d5e931911a196013162
+PORNBOX:EROTICSPICE,zlive://38.114.114.155:6678/cc8781087260f75510bddbc830da39a5
+Office,zlive://38.114.114.155:6678/ca4de24d522ec37ebb0c947f72171574
+C0930,zlive://38.114.114.155:6678/8b52e9b4128662edffce1f099e1051db
+PORNBOX:FIT18,zlive://38.114.114.155:6678/548b913325761b0a8525b3de4de4dad8
+Private,zlive://38.114.114.155:6678/8fe1d61b5c6861fc124a165feb2d9462
+麻豆台灣日本篇,zlive://38.114.114.155:6678/9663bc7c398eadc99300288f4ae56e9e
+午夜尋花,zlive://38.114.114.155:6678/9ae1e2a5dd8ffa0f19c659e125f7b72a
+scandakorea,zlive://38.114.114.155:6678/9b87f1fa7d716bd422b0a426c57480c9
+VIXEN,zlive://38.114.114.155:6678/27af9566718795636d211f5f0290ab63
+天美,zlive://38.114.114.155:6678/48af499a813a7a32b6facf18fd2b15de
+PORNBOX:PRETTYDIRTYLUXURE,zlive://38.114.114.155:6678/4a5d45eb1af37c7534d4fe57b14688c4
+PORNBOX:DIGITALPLAYGROUND,zlive://38.114.114.155:6678/6f5ea0b0180b721ee1fa77a613b9ab61
+pornlowcost,zlive://38.114.114.155:6678/a7de08772b32d59f68950e82b7e5700f
+天堂素人約啪,zlive://38.114.114.155:6678/74edbe180dc4de59894826adef14f08c
+PORNBOX:MOMTEACHSEX,zlive://38.114.114.155:6678/d3cac48ca9ddd57647c6fe13caf86646
+VividRed,zlive://38.114.114.155:6678/ab5d250fb255eb4acecb4121d3b7542c
+潘朵拉完美台HD,zlive://38.114.114.155:6678/0f350b7dc9923f710bc09e133aaf1699
+麻豆外番,zlive://38.114.114.155:6678/941964bafa9cc02e67aa92aa8b8bcfc3
+10musume,zlive://38.114.114.155:6678/85ba632c85eedde698b394d81c762809
+REDLIPS,zlive://38.114.114.155:6678/f262565077265728b47ce0c9702ca716
+中字有碼2,zlive://38.114.114.155:6678/21f776ce3a8ac16ca05e41b4cc31d2c5
+PORNBOX:PRENCESSCUM,zlive://38.114.114.155:6678/07fd5fa41b1ac2b64123bb8a3d6b8278
+PORNBOX:DEEPER,zlive://38.114.114.155:6678/adf150189636b6b11bc5b85dee3ca3a4
+Blacked,zlive://38.114.114.155:6678/9aac2c5209cd2146d8d6299fe7e8953d
+古川伊織,zlive://38.114.114.155:6678/6d485d85142b9405232ff6b05cd3dbdc
+PORNBOX:FAKEAGENT,zlive://38.114.114.155:6678/3ee113f3c56fbaf5af2efbdb33eb7ee2
+上原亜衣,zlive://38.114.114.155:6678/157aa98e39f03c8b00f913c91e026a20
+PORNBOX:FORGIVEMEFATHER,zlive://38.114.114.155:6678/e9c50fc9e43158576c5c43bbd62b0bc1
+彩虹頻道,zlive://38.114.114.155:6678/72ab718252b11e8b2e0436ef1579f804
+麻豆導演,zlive://38.114.114.155:6678/5b4a62e367c7e58addfec2df4633aa4a
+乾淨利索,zlive://38.114.114.155:6678/fcc492ce09376612f0162786f8999168
+PenthouseQuickie,zlive://38.114.114.155:6678/a40e7be14cdc0470bfb81c96790f5f62
+Pacopacomama,zlive://38.114.114.155:6678/f3c35fa6f95407c01bf99cbdf688f310
+1pondo,zlive://38.114.114.155:6678/1f4119b66b8cb705e3a7d6e45a3721b8
+PORNBOX:DAUGHTERSWAP,zlive://38.114.114.155:6678/8a8c97750b807d060158dbf30d9fffa8
+Mofos,zlive://38.114.114.155:6678/b52701db3ecd7eeed12199b4551545f1
+Kinpatu,zlive://38.114.114.155:6678/f658da9ad78bf5f2804f14ef368eba73
+貓先生,zlive://38.114.114.155:6678/03a68f9536c88e50200cf0625b558b90
+PORNBOX:FEMALEFAKETAXI,zlive://38.114.114.155:6678/d995c76d64481a6861cde65d40339fde
+彩虹K,zlive://38.114.114.155:6678/9571515bf8437301862daa58ee7a100b
+中字有碼3,zlive://38.114.114.155:6678/6b5e4f096caab63b726b0c464394e348
+PORNBOXGAY:CZECHHUNTER,zlive://38.114.114.155:6678/b23462b508758d328626aecaa79bd70b
+Erox,zlive://38.114.114.155:6678/8afc45cb93decddbf319f82399daaa4a
+無碼破解,zlive://38.114.114.155:6678/9a5c03d4c0e2679f476a35806614ddb7
+PORNBOX:EVILANGEL,zlive://38.114.114.155:6678/95a8cd52277a7dd1d4981ffef96433ee
+PORNBOX:CUM4K,zlive://38.114.114.155:6678/5c0c9d889bf1d8b50877dfa34a1020f2
+PORNBOX:WHENGIRLSPLAYAlexlegend,zlive://38.114.114.155:6678/ac6e999c4d0012ca3c30c55a86791bca
+PORNBOX:BUSTYLOVER,zlive://38.114.114.155:6678/77d2246a480049e3fcbd26b944265030
+Xconfession,zlive://38.114.114.155:6678/ee5528c691449c34faefe188d001fbd4
+XXX-AV,zlive://38.114.114.155:6678/cdc2eebef90aaba52c045c833fcc5933
+PORNBOX:FEMALEAGENT,zlive://38.114.114.155:6678/5ce108e6a7b58c1dd2337b4d896fb675
+彩虹E,zlive://38.114.114.155:6678/43aef60452b12193beafb116f696942d
+鴨總偵探,zlive://38.114.114.155:6678/978e0d6a42f218a93d3c3a111974e8bf
+PORNBOXGAY:BREEDITRAW,zlive://38.114.114.155:6678/c6bd0443895ac1a1bd1d42cdfcbd6fc5
+PORNBOX:LETSDOIT,zlive://38.114.114.155:6678/81a426e716730b8f90043b6071efa4d5
+bluebillmen,zlive://38.114.114.155:6678/a0949c0be8ec21844a1a5b23870907c9
+21members,zlive://38.114.114.155:6678/c4db70287a9b7c15b60a147c963559bb
+PORNBOX:WELIVETOGETHER,zlive://38.114.114.155:6678/89e9a26cea30949bed1415292e3413d2
+PORNBOX:BRAZZERSENESPANOL,zlive://38.114.114.155:6678/1cb6bbc16c52a00bfb87759b73bec3a9
+Blackedraw,zlive://38.114.114.155:6678/f0af1e9c15369afe722895a9dd60088f
+七天極品探花,zlive://38.114.114.155:6678/df8c4f677aaef1211e8b10eb56a2c815
+PORNBOX:FAKETAXI,zlive://38.114.114.155:6678/bddb15f121c58f6b134407f77b132eb5
+HAPPY頻道,zlive://38.114.114.155:6678/e39629aac83c47e675275ccef4c407d9
+91沈先生,zlive://38.114.114.155:6678/8d991108369ec026e460de6cc6ac25e5
+PORNBOXSUGARBABESTV,zlive://38.114.114.155:6678/a95e3399657a0a439b6b37edd232c7af
+PORNBOX:PORNOACADEMIEmomsbangteens,zlive://38.114.114.155:6678/75b66ffdc0a07b14c6b2e9491f32fea5
+21sextuary,zlive://38.114.114.155:6678/2917e2cd7cf7b2f457f7e33a13a0f62c
+1on1,zlive://38.114.114.155:6678/7354ec7b1dd91512e2ec33fe72817fac
+footfactory,zlive://38.114.114.155:6678/89d904eeafb589eb124890ce79f70cec
+PORNBOX:TWISTYSORIGINAL,zlive://38.114.114.155:6678/da6a1e4ebcef772d1600adc4e01657f7
+PORNBOX:BRATTYSIS,zlive://38.114.114.155:6678/0d74217c484990f384989a181c44c6c8
+Dffnetwork,zlive://38.114.114.155:6678/39d25d984fb3fe9700760c3e66435f16
+SM西貢女,zlive://38.114.114.155:6678/d8b95a054749a3d8e61bf94f91b34d47
+PORNBOX:FAKEHOSTEL,zlive://38.114.114.155:6678/d911ba84a38900a21d32c95f63458e02
+松視2台,zlive://38.114.114.155:6678/8a217dac2598ca1943e9e571db2c89e8
+麻豆大番,zlive://38.114.114.155:6678/5669bb30b0ede1e82df3b6bcf02705f4
+VR1,zlive://38.114.114.155:6678/a1ca53d21c8858257a0c0eba3b0fc784
+PORNBOX:PERVMOM,zlive://38.114.114.155:6678/8bbfd067c837c426c4144f1203bcd76d
+波多野結衣,zlive://38.114.114.155:6678/d042591b0e0af4f9abebddfc47f44d84
+PORNBOX:NUBILEFILMS,zlive://38.114.114.155:6678/4d9f157c59589a0a6fc8c3787818a022
+Cumshots,zlive://38.114.114.155:6678/aff1cbe3f72ad6b9b3c6b3a7fc2936a2
+PORNBOX:Dorcelclub,zlive://38.114.114.155:6678/43a73b403ca69b67975c7d60a2531055
+VividTouch,zlive://38.114.114.155:6678/03afff635c227edf08b44867955ee111
+X-art,zlive://38.114.114.155:6678/a5ba6de9f9235a4fca7c45c38951918a
+千人斬,zlive://38.114.114.155:6678/f4cff003ad907707ba90f557f475e96b
+PORNBOX:FAKEHOSPITAL,zlive://38.114.114.155:6678/72b6c56d9b098bbfb477fb5c7508cfa2
+Playboy,zlive://38.114.114.155:6678/36a21caebc5082fbaf66ee0bdb557947
+黑人干翻一切,zlive://38.114.114.155:6678/9b5a0b69b1b8cc65c95a8e6b2a2bb654
+金三角獵艷,zlive://38.114.114.155:6678/66d7e40747febe4ad82f0d5b9b4a6da1
+中字有碼1,zlive://38.114.114.155:6678/d32ce8362f2f39287a25fe88e2dc2748
+PORNBOX:NFBUSTYnebraskacoeds,zlive://38.114.114.155:6678/5075fdaffd8c503b78c15fb3e8fe2ffd
+加勒比全球同步頻道,zlive://38.114.114.155:6678/19bf12e2acfc484c8dab44c8fdf05b61
+PORNBOX:POVDmomygirls,zlive://38.114.114.155:6678/13adc6aa7c116cba78fe91254ffcf178
+PORNBOX:BABESUNLEASHED,zlive://38.114.114.155:6678/e876759fa8362182fd24f82601ba3246
+ArabsExposed,zlive://38.114.114.155:6678/142904037208f68b80db981ebeb17201
+大陸真實迷姦,zlive://38.114.114.155:6678/48e06c4e30b6d1b269de84c83896c6c8
+PORNBOX:FAKEDRIVINGSCHOOL,zlive://38.114.114.155:6678/3dd3bc859cbc75f6e116b080801f89ce
+BlueHustler,zlive://38.114.114.155:6678/24fa06168a8cd267c0060098e2875dc3
+BrazzersTV,zlive://38.114.114.155:6678/0019344533ac823d686cfc8a3850b10f
+小寶尋花,zlive://38.114.114.155:6678/581db750b66b7ff736ea5801b1b41fd8
+FC2PPV1,zlive://38.114.114.155:6678/03e896cbf23bb3d7d618551e53c7f07b
+PORNBOX:NANNYSPY,zlive://38.114.114.155:6678/cf623e74e6e708579d2ecc2aa55b4f62
+韓國三級2,zlive://38.114.114.155:6678/3a0bff17f24a96303811bf4d8ccd4a27
+PORNBOX:SELLYOURGFGirlsway,zlive://38.114.114.155:6678/2e55711b8179205d788077a8a7121e2f
+PORNBOX:BABES,zlive://38.114.114.155:6678/37604a976655d2e78556840a1e764f91
+naughtyamerica1,zlive://38.114.114.155:6678/67cf7a7575c6c40e06b98ffcb6764e9c
+PORNBOX:KINKYFAMILY,zlive://38.114.114.155:6678/80f78c6cee3a148f75d9c2845aad28fc
+PORNBOX:FAKECOP,zlive://38.114.114.155:6678/ce275a59fa56ee1fdbe5b719deb8995e
+PORNBOX:JULESJORDAN,zlive://38.114.114.155:6678/b95524d7c8a79c35957b073c4c9ff13d
+PORNBOX:FAKEAGENTUK,zlive://38.114.114.155:6678/d9d4e900c290d346d24e388138d342a4
+RedLight,zlive://38.114.114.155:6678/188cd559eafbc832a216c932adc2588d
+Anikkas,zlive://38.114.114.155:6678/2fe15dc3937649909b5e5877259fcb39
+奧運冠軍金絲雀,zlive://38.114.114.155:6678/ca583fd637d587e783d0235d830310db
+PORNBOX:MYVERYFIRSTTIME,zlive://38.114.114.155:6678/435c564afc5ccc424684d8b390983efd
+韓國三級1,zlive://38.114.114.155:6678/cefa3ef7c364d90a80906b2843e00085
+PORNBOX:RKPRIMEREALITYKING,zlive://38.114.114.155:6678/a601d8db34d064794e554ea8f89cb4ab
+松視1台,zlive://38.114.114.155:6678/c21f000e637ab78d700effe90147f7d8
+ZMN,zlive://38.114.114.155:6678/6fbbdb672814661f007c6ebec39e1120
+SheWillCheat,zlive://38.114.114.155:6678/c65226ecbd820a1ae74322fb2a46cde5
+PORNBOX:FILTHYPOV,zlive://38.114.114.155:6678/5ccefe9a6adf5e5dea5bb82f02f545db
+PORNBOX:SEXWORKING,zlive://38.114.114.155:6678/57d40f7c5bd7865e2f045808d7a30dbc
+PenthouseGold,zlive://38.114.114.155:6678/42bfb8ca1e9da69a15c3778626c10816
+GrandpaFuck,zlive://38.114.114.155:6678/10690558cee8bf2641faa5d524dc00fc
+蒼井空,zlive://38.114.114.155:6678/63721ee224a22bc1c5326ac6b293da72
+PORNBOX:MYPERVYFAMILY,zlive://38.114.114.155:6678/c81a99595daa0fbbae6615a379c7e5c1
+日本情色動漫1,zlive://38.114.114.155:6678/45cab5a0fef01c02d846eb6c14ad3ca8
+PORNBOX:REALSENSUAL,zlive://38.114.114.155:6678/1689d78f49edaaa030fc949bf00f6606
+Banana香蕉台,zlive://38.114.114.155:6678/68e9efcc23cc12d5614fef8114c7b83a
 
 
 私密頻道_5566,#genre#
