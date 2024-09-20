@@ -290,8 +290,6 @@ TVBS,https://sc2024.stream-link.org/live/76176147201.php?id=t870nts
 
 
 
-
-
 四季,#genre#
 民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv001
 民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv002
