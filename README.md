@@ -29,10 +29,10 @@
 
 
 ## 點播接口：
-1. Rob Yang 點直播線源:　https://rb.gy/vrmbxx or https://rb.gy/vryc96 
-2. 寶盒=欧乐,泥巴　https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json
-3. 泥巴,独播库,小宝,欧乐,腐剧　https://raw.githubusercontent.com/qist/tvbox/master/jsm.json (https://github.com/qist/tvbox)
-4. https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json （https://github.com/gaotianliuyun/gao/tree/master） 
+1. Rob Yang 點直播線源: https://rb.gy/wcjqb5 或 https://robyang.bsite.net/VodLive/sb8ffa
+3. 寶盒=欧乐,泥巴　https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json
+4. 泥巴,独播库,小宝,欧乐,腐剧　https://raw.githubusercontent.com/qist/tvbox/master/jsm.json (https://github.com/qist/tvbox)
+5. https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json （https://github.com/gaotianliuyun/gao/tree/master） 
 7. http://home.jundie.top:81/top98.json
 8. https://raw.githubusercontent.com/jake3737/tvbox/master/js.json 
 9. 教學 https://gitlab.com/xmbjm/omg/-/raw/main/omg.json
@@ -42,11 +42,11 @@
 
 
 ## 直播接口： 
-1. Rob Yang　點直播線源:　https://rb.gy/vrmbxx or https://rb.gy/vryc96 
-3. 4GTV live: https://api2.4gtv.tv/Channel/GetChannelBySetId/1/pc/L<br>
-4. 159169 http://www.52sw.top:678/play/oj1381/list.php?get=159169
-5. 169 http://www.52sw.top:678/play/oj1381  
-6. https://www.juwanhezi.com/more/live 
+1. Rob Yang　點直播線源: https://rb.gy/wcjqb5 或 https://robyang.bsite.net/VodLive/sb8ffa
+4. 4GTV live: https://api2.4gtv.tv/Channel/GetChannelBySetId/1/pc/L<br>
+5. 159169 http://www.52sw.top:678/play/oj1381/list.php?get=159169
+6. 169 http://www.52sw.top:678/play/oj1381  
+7. https://www.juwanhezi.com/more/live 
 
 
 
