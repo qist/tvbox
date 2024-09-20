@@ -658,15 +658,15 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png",
             "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
         },        
-        {
-            "name": "兩光｜台港中際",
-            "type": 0,
-            "url": "https://files.catbox.moe/eqxfq5.txt",
-            "ua": "okhttp/4.12.0",
-            "timeout": 1,
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
+        // {
+        //     "name": "兩光｜台港中際",
+        //     "type": 0,
+        //     "url": "https://files.catbox.moe/eqxfq5.txt",
+        //     "ua": "okhttp/4.12.0",
+        //     "timeout": 1,
+        //     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+        //     "logo": "https://epg.112114.xyz/logo/{name}.png"
+        // },
         {
             "name": "晴天｜台港",
             "type": 0,
