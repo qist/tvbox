@@ -8,9 +8,9 @@ Js=a
 Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 三立 iNews,https://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
-三立 NEWS+,https://m.youtube.com/watch?v=oZdzzvxTfUY
-三立新聞,https://m.youtube.com/watch?v=FoBfXvlOR6I
-三立海外直播,https://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
+三立iNews海外,https://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
+三立 NEWS+,https://m.youtube.com/watch?v=FoBfXvlOR6
+三立新聞,https://m.youtube.com/watch?v=oZdzzvxTfUY
 公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
 公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
 非凡商業,https://www.youtube.com/watch?v=NHQDx8vCrC4
