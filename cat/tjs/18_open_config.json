@@ -2,39 +2,6 @@
     "video": {
         "sites": [
             {
-                "key": "jable",
-                "name": "🔞┃Jable┃🔞",
-                "api": "./js/jable.js",
-                "timeout": 30,
-                "ext": {
-                    "box": "CatOpen"
-                },
-                "playerType": 0,
-                "type": 3
-            },
-            {
-                "key": "sehuatang",
-                "name": "🔞┃色花堂BT┃🔞",
-                "api": "./js/sehuatang.js",
-                "timeout": 30,
-                "ext": {
-                    "box": "CatOpen"
-                },
-                "playerType": 0,
-                "type": 3
-            },
-            {
-                "key": "hanxiucao",
-                "name": "🔞┃含羞草┃🔞",
-                "api": "./js/hanxiucao.js",
-                "timeout": 30,
-                "ext": {
-                    "box": "CatOpen"
-                },
-                "playerType": 0,
-                "type": 3
-            },
-            {
                 "key": "ciliduo",
                 "name": "🔞┃磁力多BT┃🔞",
                 "api": "./js/ciliduo.js",
@@ -57,9 +24,20 @@
                 "type": 3
             },
             {
-                "key": "jiujiuliu",
-                "name": "🔞┃九九六影视┃🔞",
-                "api": "./js/jiujiuliu.js",
+                "key": "jable",
+                "name": "🔞┃Jable┃🔞",
+                "api": "./js/jable.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "playerType": 0,
+                "type": 3
+            },
+            {
+                "key": "sehuatang",
+                "name": "🔞┃色花堂BT┃🔞",
+                "api": "./js/sehuatang.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -79,9 +57,20 @@
                 "type": 3
             },
             {
-                "key": "hscangku",
-                "name": "🔞┃黄色仓库┃🔞",
-                "api": "./js/hscangku.js",
+                "key": "hanxiucao",
+                "name": "🔞┃含羞草┃🔞",
+                "api": "./js/hanxiucao.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "playerType": 0,
+                "type": 3
+            },
+            {
+                "key": "lovemovie18",
+                "name": "🔞┃爱情电影网18+┃🔞",
+                "api": "./js/lovemovie18.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"
@@ -101,9 +90,20 @@
                 "type": 3
             },
             {
-                "key": "lovemovie18",
-                "name": "🔞┃爱情电影网18+┃🔞",
-                "api": "./js/lovemovie18.js",
+                "key": "hscangku",
+                "name": "🔞┃黄色仓库┃🔞",
+                "api": "./js/hscangku.js",
+                "timeout": 30,
+                "ext": {
+                    "box": "CatOpen"
+                },
+                "playerType": 0,
+                "type": 3
+            },
+            {
+                "key": "jiujiuliu",
+                "name": "🔞┃九九六影视┃🔞",
+                "api": "./js/jiujiuliu.js",
                 "timeout": 30,
                 "ext": {
                     "box": "CatOpen"

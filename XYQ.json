@@ -14,7 +14,7 @@
           "name": "FMM_IPV6",
           "type":"0",
           "pass": true,
-          "url": "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+          "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",
           "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
           "logo": "https://epg.112114.xyz/logo/{name}.png"
         }
@@ -54,7 +54,7 @@
         {"key": "csp_XYQHiker_哔嘀影视","name":"🧲哔嘀影视(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/哔嘀影视.json"},
         {"key":"csp_Ddys","name":"🐞低端影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
         //{"key":"csp_Kunyu77","name":"🐞77影视","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
-        {"key":"csp_JianPian","name":"🔨荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://112.124.0.131:20000"},
+        {"key":"csp_JianPian","name":"🔨荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://39.108.238.168:20000"},
         {"key":"csp_Ikanbot","name": "👾Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://v.aikanbot.com"},
         //B站系列
         {"key":"csp_Bili","name":"🐞哔哩综合","type": 3,"api": "csp_Bili","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./biliext/Bili.json"},
@@ -68,6 +68,10 @@
         {"key":"csp_Bili高中","name":"🐞哔哩高中","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/高中课堂.json"},
         {"key":"JS哔哩直播","name":"哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./js/哔哩直播.js"},
         {"key":"csp_Bili短剧","name":"🐞哔哩短剧","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./biliext/Bili短剧.json"},
+        {"key": "csp_XYQHiker_爱你短剧","name":"爱你短剧","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/爱你短剧.json"},
+        {"key": "csp_XYQHiker_河马短剧","name":"河马短剧","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/河马短剧.json"},
+        {"key": "csp_XYQHiker_短剧屋","name":"短剧屋","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/短剧屋.json"},
+        
         //{"key": "csp_短剧网","name":"短剧网","type":3,"api":"csp_Duanjuw","searchable":1,"quickSearch":1,"filterable":1},
         //XYQ规则区
         {"key": "csp_XYQHiker_农民影视","name":"🧑🏻‍农民影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/农民影视.json"},
