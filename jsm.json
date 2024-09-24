@@ -882,9 +882,9 @@
             "type": 0,
             "url": "https://rb.gy/vryc96"
         },
-        {     "note": "2024-09-18",
+        {     "note": "2024-09-18 334078da",
               "name":"安博唐三｜台港",
-              "url":"https://tang.hz.cz/zb/anbo?token=334078da",
+              "url":"https://tang.hz.cz/zb/anbo?token=09759777",
               "ua":"okhttp/4.12.0",
               "timeout": 5,
               "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
@@ -1151,6 +1151,36 @@
             "ua": "okhttp/4.12.0",
             "timeout": 1,
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "谍工看片社",
+            "url": "http://zhangqun66.xyz/zh/谍工看片社.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "网剧独播",
+            "url": "http://zhangqun66.xyz/zh/网剧独播.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "谍影剧场",
+            "url": "http://zhangqun66.xyz/zh/谍影剧场.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "百家讲坛",
+            "url": "http://zhangqun66.xyz/zh/百家讲坛.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "野火直播",
+            "url": "https://anbox118.serv00.net/野火改.txt",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
