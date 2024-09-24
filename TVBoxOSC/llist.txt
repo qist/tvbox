@@ -553,7 +553,11 @@ Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
 民視旅遊,http://tw.ts138.top/4g/?id=litv-ftv07
 民視第一台,http://tw.ts138.top/4g/?id=4gtv-4gtv003#https://litv.zapi.us.kg/?id=4gtv-4gtv003#http://37.27.111.214:8080/live/4/hls.m3u8
 民視綜藝,http://tw.ts138.top/4g/?id=4gtv-4gtv004
-民視台灣台,http://tw.ts138.top/4g/?id=4gtv-4gtv001#http://tw.ts138.top/4g/?id=4gtv-4gtv156#https://litv.zapi.us.kg/?id=4gtv-4gtv001#https://litv.zapi.us.kg/?id=4gtv-4gtv156#http://37.27.111.214:8080/live/5/hls.m3u8
+民視台灣台,http://tw.ts138.top/4g/?id=4gtv-4gtv001
+民視台灣台,http://tw.ts138.top/4g/?id=4gtv-4gtv156
+民視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv001
+民視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv156
+民視台灣台,http://37.27.111.214:8080/live/5/hls.m3u8
 三立綜合台,http://37.27.111.214:8080/live/31/hls.m3u8
 東森超視台,rtmp://f13h.mine.nu/sat/tv331
 TVBS精采台,http://tw.ts138.top/4g/?id=4gtv-4gtv067#https://litv.zapi.us.kg/?id=4gtv-4gtv067
