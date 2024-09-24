@@ -1,0 +1,114 @@
+{
+"note":"",
+"spider":"./jar/pg.jar",
+"wallpaper":"https://jianbian.chuqiuyu.workers.dev",
+"sites":[
+    {
+        "name": "📙动漫之家",
+        "type": 12,
+        "api": "https://www.idmzj.com/api/v1",
+        "key": "www.idmzj.com",
+        "categories": [
+          { "name": "更新", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=0" },
+          { "name": "人气", "url": "/comic1/filter?sortType=1&page={{page}}&size=20&audience=0&theme=0" },
+          { "name": "少年", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=3262&theme=0" },
+          { "name": "少女", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=3263&theme=0" },
+          { "name": "青年", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=3264&theme=0" },
+          { "name": "冒险", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=1" },
+          { "name": "搞笑", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=2" },
+          { "name": "格斗", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=3" },
+          { "name": "科幻", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=4" },
+          { "name": "爱情", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=5" },
+          { "name": "侦探", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=6" },
+          { "name": "竞技", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=7" },
+          { "name": "魔法", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=8" },
+          { "name": "校园", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=9" },
+          { "name": "百合", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=11" },
+          { "name": "耽美", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=13" },
+          { "name": "历史", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=14" },
+          { "name": "战争", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=15" },
+          { "name": "宅系", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=16" },
+          { "name": "治愈", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=17" },
+          { "name": "仙侠", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=18" },
+          { "name": "武侠", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=19" },
+          { "name": "职场", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=20" },
+          { "name": "神鬼", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=21" },
+          { "name": "奇幻", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=22" },
+          { "name": "生活", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=23" },
+          { "name": "其它", "url": "/comic1/filter?sortType=0&page={{page}}&size=20&audience=0&theme=24" }
+        ],
+        "detail": {
+          "intro": "$.data.comicInfo.description",
+          "category": "{{$.data.comicInfo.status}}/{{$.data.comicInfo.types}}"
+        },
+        "content": {
+          "content": "$.page"
+        },
+        "list": {
+          "list": "$.data.comicList[*]",
+          "name": "$.name",
+          "author": "$.authors",
+          "detailUrl": "/comic1/comic/detail?app_name=dmzj&comic_py={{$.comic_py}}",
+          "coverUrl": "$.cover",
+          "tips":"$.last_update_chapter_name",
+          "params": "{\"comic_id\":{{$.id}}}"
+        },
+        "search": {
+          "list": "$",
+          "name": "$.title",
+          "author": "$.authors",
+          "detailUrl": "/comic1/comic/detail?app_name=dmzj&comic_py={{$.comic_py}}",
+          "coverUrl": "$.cover",
+          "url": "https://www.idmzj.com/npi/search/fuzzyWithLevel/0/{{key}}.json?type=0&con={{key}}",
+          "tips":"$.last_name",
+          "params": "{\"comic_id\":{{$.id}}}"
+        },
+        "toc": {
+          "list": "$.data.comicInfo.chapterList[0].data",
+          "name": "$.chapter_title",
+          "url": "http://api.dmzj.com/dynamic/comicread/{{$.comic_id}}/{{$.chapter_id}}.json"
+        },
+        "searchable": true,
+        "discoverable": true
+      },
+      {
+        "name": "📙包子漫画",
+        "type": 12,
+        "api": "https://cn.czmanga.com",
+        "categories": [
+          { "name": "推荐", "url": "/classify" },
+          { "name": "国漫", "url": "/classify?type=all&region=cn&state=all" },
+          { "name": "日本", "url": "/classify?type=all&region=jp&state=all" },
+          { "name": "韩国", "url": "/classify?type=all&region=kr&state=all" },
+          { "name": "欧美", "url": "/classify?type=all&region=en&state=all" }
+        ],
+        "detail": {
+          "intro": ".comics-detail__desc.0@text",
+          "category": "head > meta[name=\"og:novel:category\"]@content",
+          "tips": "head > meta[name=\"og:novel:latest_chapter_name\"]@content"
+        },
+        "content": {
+          "content": ".comic-contain amp-img@src"
+        },
+        "search": {
+          "list": ".comics-card",
+          "name": "a.0@title",
+          "author": "small.text-truncate.0@text",
+          "detailUrl": "a.0@href",
+          "coverUrl": "amp-img.0@src",
+          "url": "/search?q={{key}}"
+        },
+        "toc": {
+          "list": "#chapter-items a,#chapters_other_list a",
+          "name": "text",
+          "url": "href"
+        },
+        "searchable": true,
+        "discoverable": false
+      }
+    ]
+      
+}
+
+
+

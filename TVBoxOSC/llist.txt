@@ -399,21 +399,28 @@ Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
 
 四季新聞頻道,#genre#
 壹新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
-TVBS新聞台,http://tw.ts138.top/4g/?id=4gtv-4gtv072#https://litv.zapi.us.kg/?id=4gtv-4gtv072
-中天新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv009#http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8#https://litv.zapi.us.kg/?id=4gtv-4gtv009
-中視新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv074#https://litv.zapi.us.kg/?id=4gtv-4gtv074
+TVBS新聞台,http://tw.ts138.top/4g/?id=4gtv-4gtv072
+TVBS新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
+中天新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv00
+中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
+中天新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv009
+中視新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv074
+中視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv074
 東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
 民視新聞台,http://tw.ts138.top/4g/?id=litv-ftv13
-華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8#https://litv.zapi.us.kg/?id=4gtv-4gtv052
+華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
+華視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv052
 半島新聞,http://tw.ts138.top/4g/?id=litv-ftv10
 東森新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv152
-非凡新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv010#https://litv.zapi.us.kg/?id=4gtv-4gtv010
+非凡新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv010
+非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
 華視新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv052
 台視新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv051
 寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
 寰宇新聞台,http://tw.ts138.top/4g/?id=litv-longturn14
 寰宇新聞台灣台,http://tw.ts138.top/4g/?id=litv-longturn15
-鏡新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv075#http://37.27.111.214:8080/live/62/hls.m3u8
+鏡新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv075
+鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
 TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 閩鏡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv075
 東森財經新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv153

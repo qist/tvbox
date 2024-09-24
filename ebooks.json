@@ -1,0 +1,38 @@
+{
+  "note": "",
+  "spider": "./jar/pg.jar",
+  "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
+  "sites": [
+    {
+      "name": "📙久久小说",
+      "type": 10,
+      "api": "http://www.9999txt.cc",
+      "key": "www.9999txt.cc",
+      "detail": {
+        "intro": "#intro@text",
+        "tips": "head meta[property='og:novel:latest_chapter_name']@content",
+        "category": "head meta[property='og:novel:category']@content",
+        "tocUrl": ".readbtn .chapterlist.0@href"
+      },
+      "content": {
+        "content": "#booktxt@html",
+        "nextUrl": "下一页@href"
+      },
+      "search": {
+        "list": ".item",
+        "name": "a.0@title",
+        "author": ".btm a.0@text",
+        "detailUrl": "a.0@href",
+        "coverUrl": "img.0@data-original",
+        "url": "/sosod9b0c.html?searchkey={{key}}"
+      },
+      "toc": {
+        "list": "#content_1 a",
+        "name": "text",
+        "url": "href"
+      },
+      "searchable": true,
+      "discoverable": true
+    }
+  ]
+}
