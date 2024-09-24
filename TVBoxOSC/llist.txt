@@ -1,14 +1,16 @@
+
 🏘️Rob Yang就是我,#genre#
-別找我,我們不熟,https://m.youtube.com/watch?v=FoBfXvlOR6I
-別找我,我們不熟,http://www.youtube.com/watch?v=ylYJSBUgaMA
-別找我,我們不熟,https://www.youtube.com/watch?v=R2iMq5LKXco
+Js=a
+我們不熟,http://www.youtube.com/watch?v=ylYJSBUgaMA
+
+
 📺YouTube 新聞,#genre#
 Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 三立 iNews,https://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
-三立 NEWS+,https://m.youtube.com/watch?v=oZdzzvxTfUY
-三立新聞,https://m.youtube.com/watch?v=FoBfXvlOR6I
-三立海外直播,https://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
+三立 News+海外,https://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
+三立 NEWS+,https://m.youtube.com/watch?v=FoBfXvlOR6
+三立新聞,https://m.youtube.com/watch?v=oZdzzvxTfUY
 公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
 公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
 非凡商業,https://www.youtube.com/watch?v=NHQDx8vCrC4
@@ -33,10 +35,10 @@ Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
 創世電視,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8&data=normal
 台視(台灣節點),https://m.youtube.com/watch?v=uDqQo8a7Xmk
 唯心電視台,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8&data=normal
-大愛一台-全球直播,https://m.youtube.com/watch?v=MIqUplvSRWA
-大愛一台-台灣直播(台灣節點),https://m.youtube.com/watch?v=oV_i3Hsl_zg
-大愛二台-全球直播,https://m.youtube.com/watch?v=DTNkEm6jaqQ
-大愛二台-台灣直播(台灣節點),https://m.youtube.com/watch?v=OKvWtVoDR8I
+大愛一台,https://m.youtube.com/watch?v=MIqUplvSRWA
+大愛一台,https://m.youtube.com/watch?v=oV_i3Hsl_zg
+大愛二台,https://m.youtube.com/watch?v=DTNkEm6jaqQ
+大愛二台,https://m.youtube.com/watch?v=OKvWtVoDR8I
 華藏,https://www.youtube.com/watch?v=ypmrwYeLAaQ
 希望電視台,https://videodelivery.net/f9fac529ef8cc8f8dc702ac06116ad1b/manifest/video.m3u8&data=normal
 新唐人,https://www.youtube.com/watch?v=WIhgU_mc05A
