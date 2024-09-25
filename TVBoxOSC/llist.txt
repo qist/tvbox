@@ -276,22 +276,6 @@ AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
 八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
 
 
-東森新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t314fth
-東森財經新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t669ktq
-中天新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t949stm
-華視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t316mtf
-中視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t521ntf
-民視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t677dth
-寰宇新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t866btc
-寰宇台灣,https://sc2024.stream-link.org/live/76176147201.php?id=t559gtn
-寰宇財經新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t974btr
-台視新聞台,https://sc2024.stream-link.org/live/76176147201.php?id=t695ctb
-台視財經台,https://sc2024.stream-link.org/live/76176147201.php?id=t007stp
-非凡新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t704ttf
-非凡商業台,https://sc2024.stream-link.org/live/76176147201.php?id=t202stj
-TVBS新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t178ptv
-TVBS,https://sc2024.stream-link.org/live/76176147201.php?id=t870nts
-
 
 
 
@@ -3333,6 +3317,23 @@ TVBS台劇台,video://https://www.4gtv.tv/channel/4gtv-live088?set=1&ch=22
 
 
 
+
+
+東森新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t314fth
+東森財經新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t669ktq
+中天新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t949stm
+華視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t316mtf
+中視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t521ntf
+民視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t677dth
+寰宇新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t866btc
+寰宇台灣,https://sc2024.stream-link.org/live/76176147201.php?id=t559gtn
+寰宇財經新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t974btr
+台視新聞台,https://sc2024.stream-link.org/live/76176147201.php?id=t695ctb
+台視財經台,https://sc2024.stream-link.org/live/76176147201.php?id=t007stp
+非凡新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t704ttf
+非凡商業台,https://sc2024.stream-link.org/live/76176147201.php?id=t202stj
+TVBS新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t178ptv
+TVBS,https://sc2024.stream-link.org/live/76176147201.php?id=t870nts
 
 
 
