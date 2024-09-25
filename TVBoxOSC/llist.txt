@@ -15,7 +15,7 @@ Js=https://clonglii.serv00.net/user_data/youtube020.js?t=1719035247000
 華視新聞,http://m.youtube.com/watch?v=wM0g8EoUZ_E
 鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o?si=xubbPSDWCPgY2yxM
 寰宇新聞,http://m.youtube.com/watch?v=6IquAgfvYmc
-寰宇新聞台灣台,http://m.youtube.com/live/w87VGpgd90U
+寰宇新聞灣台,http://m.youtube.com/live/w87VGpgd90U
 東森LIVE,https://www.youtube.com/watch?v=R2iMq5LKXco
 東森LIVE,https://m.youtube.com/watch?v=E0zhe2gkXBs
 東森LIVE,https://clonglii.serv00.net/youtube_d.php?id=E0zhe2gkXBs&data=normal
@@ -80,9 +80,9 @@ TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&ln=2&data=norma
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 TVBS NEWS,https://m.youtube.com/watch?v=m_dhMSvUCIc
 TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS新聞台,https://m.youtube.com/watch?v=2mCSYvcfhtc
-TVBS新聞台,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
-TVBS新聞台,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=normal
+TVBS新聞,https://m.youtube.com/watch?v=2mCSYvcfhtc
+TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
+TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=normal
 CBS哥倫比亞廣播系統新聞(美國偏自由派)(CBS),https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8&data=normal
 CNN有線電視新聞網(美國偏自由派)(CNN),https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8&data=normal
 CNN有線電視新聞網(美國偏自由派)(CNN),https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8&data=normal
@@ -94,7 +94,7 @@ RT俄羅斯今日電視台(俄羅斯)(RT News),https://rt-glb.rttv.com/dvr/rtnew
 BBC英國廣播公司新聞(英國)(BBC News),https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8&data=normal
 BBC英國廣播公司新聞(英國)(BBC News),https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8&data=normal
 半島電視台(中東)(Al Jazeera English),http://live-hls-web-aje.getaj.net/AJE/01.m3u8&data=normal
-亞洲新聞台(新加坡)(CNA),https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8&data=normal
+亞洲新聞(新加坡)(CNA),https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8&data=normal
 日本廣播協會(日本)(NHK World)(各地字幕),https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/zt/playlist-back.m3u8&data=normal
 (阿)半島電視台(中東)(AlJazeera Arabic),http://live-hls-web-aja.getaj.net/AJA/02.m3u8&data=normal
 (多)馬新社電視台(馬來西亞)(BERNAMA TV),https://m.youtube.com/channel/UCcZg5r9hBqK_VPUT2I7eYVw/live\
@@ -109,14 +109,13 @@ TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtcK
 TVBS56,https://www.youtube.com/watch?v=YvdcZ_jpLXE
 TVBS NEWS LIVE,https://www.youtube.com/watch?v=m_dhMSvUCIc
 三立Live,https://www.youtube.com/watch?v=FoBfXvlOR6I
-三立新聞台,https://www.youtube.com/watch?v=uZ9KecuS0RA
-三立新聞台,https://www.youtube.com/watch?v=CKjSm5ZeehE
+三立新聞,https://www.youtube.com/watch?v=uZ9KecuS0RA
+三立新聞,https://www.youtube.com/watch?v=CKjSm5ZeehE
 東森Live,https://www.youtube.com/watch?v=S5WOGu2HSes
 鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o
-台視新聞台,https://www.youtube.com/watch?v=xL0ch83RAK8
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
 寰宇新聞,https://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
-台視新聞台,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
-民視新聞台,https://www.youtube.com/live/ylYJSBUgaMA
+台視新聞,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
 
 
 
@@ -169,12 +168,12 @@ momo購物二台,https://www.youtube.com/watch?v=xbNWkUyxQGM
 
 
 LITV源,#genre#
-中天新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv009
-tvbs新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
-非凡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv010
-閩鏡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv075
-華視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv052
-中視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv074
+中天新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv009
+tvbs新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv072
+非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
+閩鏡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv075
+華視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv052
+中視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv074
 寰宇台灣台,https://litv.zapi.us.kg/?id=litv-longturn15
 中視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv040
 華視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv041
@@ -237,7 +236,7 @@ GLo-Bet台,https://litv.zapi.us.kg/?id=4gtv-4gtv016
 Ginx-TV台,https://litv.zapi.us.kg/?id=4gtv-4gtv053
 TVBS,http://154.216.191.38:8500/live.m3u8?c=1
 東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
-寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
+寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
 TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 三立綜合台,http://37.27.111.214:8080/live/31/hls.m3u8
 中視,http://37.27.111.214:8080/live/7/hls.m3u8
@@ -245,12 +244,12 @@ TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 亞洲旅遊台,http://37.27.111.214:8080/live/10/hls.m3u8
 民視台灣,http://37.27.111.214:8080/live/5/hls.m3u8
 HITS,http://37.27.111.214:8080/live/28/hls.m3u8
-民視第一,http://37.27.111.214:8080/live/4/hls.m3u8
+民視第一台,http://37.27.111.214:8080/live/4/hls.m3u8
 博斯無限,http://37.27.111.214:8080/live/15/hls.m3u8
 東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
 國會頻道2,http://37.27.111.214:8080/live/104/hls.m3u8
 鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
-寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
+寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
 中視經典,http://37.27.111.214:8080/live/47/hls.m3u8
 寰宇財經新聞,http://37.27.111.214:8080/live/65/hls.m3u8
 中視台灣台,rtmp://f13h.mine.nu/sat/tv091
@@ -325,7 +324,7 @@ GinxTV,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv053
 tvbs精采台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv067
 tvbs歡樂台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv068
 愛爾達娛樂,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv070
-tvbs新聞台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv072
+tvbs新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv072
 tvbs,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv073
 中視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv074
 鏡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv075
@@ -348,7 +347,7 @@ MEZZO LIVE,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv083
 民視旅遊,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv07
 民視影劇,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv09
 半島新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv10
-民視新聞台,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv13
+民視新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv13
 愛放動漫,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv15
 好消息,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv16
 好消息2台,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv17
@@ -364,8 +363,8 @@ MEZZO LIVE,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv083
 龍華日韓,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn11
 龍華偶像,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn12
 博斯無限2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn13
-環宇新聞台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
-環宇新聞台灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
+環宇新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
+環宇新聞灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
 亞洲旅遊台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn17
 龍華戲劇,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn18
 Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
@@ -390,15 +389,15 @@ Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
 
 四季新聞頻道,#genre#
 壹新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
-TVBS新聞台,http://tw.ts138.top/4g/?id=4gtv-4gtv072
-TVBS新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
+TVBS新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv072
+TVBS新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv072
 中天新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv00
 中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
 中天新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv009
 中視新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv074
 中視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv074
 東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
-民視新聞台,http://tw.ts138.top/4g/?id=litv-ftv13
+民視新聞,http://tw.ts138.top/4g/?id=litv-ftv13
 華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
 華視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv052
 半島新聞,http://tw.ts138.top/4g/?id=litv-ftv10
@@ -407,13 +406,13 @@ TVBS新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
 非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
 華視新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv052
 台視新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv051
-寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
-寰宇新聞台,http://tw.ts138.top/4g/?id=litv-longturn14
-寰宇新聞台灣台,http://tw.ts138.top/4g/?id=litv-longturn15
+寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
+寰宇新聞,http://tw.ts138.top/4g/?id=litv-longturn14
+寰宇新聞灣台,http://tw.ts138.top/4g/?id=litv-longturn15
 鏡新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv075
 鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
 TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
-閩鏡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv075
+閩鏡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv075
 東森財經新聞,http://tw.ts138.top/4g/?id=4gtv-4gtv153
 台視財經,http://tw.ts138.top/4g/?id=4gtv-4gtv056
 台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
@@ -421,18 +420,18 @@ TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 國際財經,http://tw.ts138.top/4g/?id=4gtv-4gtv104
 民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv001
 民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv002
-民視第壹台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv003
+民視第一台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv003
 中天新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv009
 非凡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv010
 台視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv051
 華視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv052
 台視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv066
-tvbs新聞台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv072
+tvbs新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv072
 tvbs,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv073
 中視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv074
 鏡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv075
 半島新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv10
-民視新聞台,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv13
+民視新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv13
 國會頻道1,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv084
 國會頻道2,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv085
 國際財經,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv104
@@ -441,8 +440,8 @@ tvbs,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv073
 東森財經新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv153
 民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv155
 民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv156
-環宇新聞台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
-環宇新聞台灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
+環宇新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
+環宇新聞灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
 台視台灣台,rtmp://f13h.mine.nu/sat/tv071#https://litv.zapi.us.kg/?id=4gtv-4gtv066#https://litv.zapi.us.kg/?id=4gtv-4gtv002
 台視,http://tw.ts138.top/4g/?id=4gtv-4gtv066
 中視,http://37.27.111.214:8080/live/7/hls.m3u8
@@ -657,8 +656,8 @@ MEZZO LIVE,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv083
 民視 HD,http://220.134.196.147:9574/ch49.m3u8#http://220.134.196.147:9574/ch49.m3u8
 民視新聞,http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8#http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8#http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8#http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8#P2p://generationnexxxt.com:19806/d24f18e610d248b7a450d29492b37ebf
 民視新聞 HD,http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8#http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8#http://38.64.72.148/hls/modn/list/4012/chunklist1.m3u8#http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8#http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8#http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8#http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
-東森新聞台,P2p://generationnexxxt.com:19806/e1a899eded4d48578084c61957fb8c2b#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV20.m3u8#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV46.m3u8#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV46.m3u8
-東森新聞台(備),P2p://generationnexxxt.com:19806/35983e2efd5c44bf84bfb2977bbbc96d
+東森新聞,P2p://generationnexxxt.com:19806/e1a899eded4d48578084c61957fb8c2b#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV20.m3u8#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV46.m3u8#https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV46.m3u8
+東森新聞(備),P2p://generationnexxxt.com:19806/35983e2efd5c44bf84bfb2977bbbc96d
 TVBS,http://38.64.72.148:80/hls/modn/list/4005/chunklist1.m3u8#P2p://generationnexxxt.com:19806/9fb651a7ec2e402588a0752ba1035476
 TVBS NEWS,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV31.m3u8
 TVBS 新聞,rtmp://twcdn.top/sat/tv551#mitv://generationnexxxt.com:19806/6a155a5d7bea461b980b4fa559119a60#P2p://generationnexxxt.com:19806/6a155a5d7bea461b980b4fa559119a60#,http://us1.qqvr.online:9000/live.m3u8?c=1#http://us1.qqvr.online:9000/live.m3u8?c=1#http://us1.qqvr.online:9000/live.m3u8?c=1
@@ -2345,16 +2344,16 @@ AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
 TVB星河,http://php.jdshipin.com:8880/smt.php?id=Xinhe
 J2,http://php.jdshipin.com:8880/smt.php?id=j2_twn
 明珠台,http://php.jdshipin.com:8880/smt.php?id=pearl_twn
-TVB無線新聞台,http://zsntlqj.xicp.net:8896/bysid/83
-TVB娛樂新聞台,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
-TVB娛樂新聞台,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
-TVB娛樂新聞台,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
+TVB無線新聞,http://zsntlqj.xicp.net:8896/bysid/83
+TVB娛樂新聞,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
+TVB娛樂新聞,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
+TVB娛樂新聞,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
 TVB星河台,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 TVB星河台,https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/playlist.m3u8
-TVB無線新聞台,http://zsntlqj.xicp.net:8896/bysid/83
+TVB無線新聞,http://zsntlqj.xicp.net:8896/bysid/83
 星河頻道,https://epg.pw/stream/180e5ec54c87920bfe91fae3b1febba13c6fe5b44045941a281f1104c992a925.m3u8
 功夫台,https://epg.pw/stream/ae7ae839911a5250ce264da233b3af364f8fd6d37fce0eb36e7131a1adc1aca0.m3u8
-娛樂新聞台,https://epg.pw/stream/b3b65ea63164e1a7818216f985f33ad1f4a1be264a8661e97baf145e231645db.m3u8
+娛樂新聞,https://epg.pw/stream/b3b65ea63164e1a7818216f985f33ad1f4a1be264a8661e97baf145e231645db.m3u8
 TVB娛樂新聞,https://epg.pw/stream/57737ed82a70288e90bca3ef3b9e7ed3e8b896445947908bd76d4ed3c4ba6c43.m3u8
 TVB星河,https://epg.pw/stream/eee97f3ab8d484adff720fc3c90eb1f280b02264d5d2e3971262bb416aab5767.m3u8
 TVB星河,https://epg.pw/stream/186dab52eabcdf6b47765bf93dc370a250af463f1759ce68025a20c01a9ba0d8.m3u8
@@ -2367,7 +2366,7 @@ TVB星河台,http://113.64.145.195:8081/hls/135/index.m3u8
 TVB星河台,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 TVB星河台,https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/playlist.m3u8
 TVB星河台,http://113.64.145.195:8081/hls/135/index.m3u8
-TVB無線新聞台,http://zsntlqj.xicp.net:8896/bysid/83
+TVB無線新聞,http://zsntlqj.xicp.net:8896/bysid/83
 香港34台全網,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
 港台RTHK33HD,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
 港台RTHK34HD,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
@@ -2401,7 +2400,7 @@ WIN HD綜合,https://epg.pw/stream/beedf009af55b6adf5840ba8defe6a88bb4e1b85c6e31
 東森美洲衛視,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 台視新聞,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
 台視新聞,http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
-民視新聞台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
+民視新聞,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 台視新聞,http://38.64.72.148/hls/modn/list/4013/playlist.m3u8
 台視新聞,http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8?blog.ntnas.top
 民視新聞,http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
@@ -2421,7 +2420,7 @@ WIN HD綜合,https://epg.pw/stream/beedf009af55b6adf5840ba8defe6a88bb4e1b85c6e31
 民視新聞,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 東森美洲2,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 東森美洲2,http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
-半島新聞台,http://live-hls-web-aje.getaj.net/AJE/01.m3u8
+半島新聞,http://live-hls-web-aje.getaj.net/AJE/01.m3u8
 東森超視,http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
 東森美洲,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 台視新聞,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
@@ -2967,7 +2966,7 @@ RTI閩客粵語和歐美外語Live,https://streamak0138.akamaized.net/live0138lh
 AsiaFM亞洲電台FM92.7,https://stream.rcs.revma.com/xpgtqc74hv8uv 
 AsiaFM亞太電台FM92.3,https://stream.rcs.revma.com/kydend74hv8uv
 FlyRadio飛揚調頻895,https://stream.rcs.revma.com/e0tdah74hv8uv
-News98新聞台,http://stream.rcs.revma.com/55tyxsy4qtzuv
+News98新聞,http://stream.rcs.revma.com/55tyxsy4qtzuv
 ICRT,http://live.leanstream.co/ICRTFM-MP3
 飛碟電台,http://stream.rcs.revma.com/em90w4aeewzuv
 光華之聲,http://live.cooltv.top/tv/kwongwah.php
@@ -3035,25 +3034,25 @@ TVBS精采台,https://yeslivetv.com/channels/tvbs-e/
 靖天綜合台,https://yeslivetv.com/channels/goldentv-mod303/
 新唐人亞太電視台,https://yeslivetv.com/channels/ntdtv/
 中天綜合台,https://yeslivetv.com/channels/ctitv-ch36/
-鏡電視新聞台,https://yeslivetv.com/channels/mnews/
-東森新聞台,https://yeslivetv.com/channels/ebcnews/
-華視新聞台,https://yeslivetv.com/channels/cts/
+鏡電視新聞,https://yeslivetv.com/channels/mnews/
+東森新聞,https://yeslivetv.com/channels/ebcnews/
+華視新聞,https://yeslivetv.com/channels/cts/
 民視電視台(新聞),https://yeslivetv.com/channels/ftvnews/
 三立電視台iNEWs,https://yeslivetv.com/channels/set-inews/
 TVBS 55台,https://yeslivetv.com/channels/tvbs55/
-中視新聞台,https://yeslivetv.com/channels/ctv/
+中視新聞,https://yeslivetv.com/channels/ctv/
 中天電視台(新聞),https://yeslivetv.com/channels/cti/
 寰宇電視台(新聞),https://yeslivetv.com/channels/globalnews/
 TVBS 56台,https://yeslivetv.com/channels/tvbs56/
 好訊息電視台(綜合台),https://yeslivetv.com/channels/goodtv-ch1/
 三立電視台(新聞),https://yeslivetv.com/channels/setnews/
-台視新聞台,https://yeslivetv.com/channels/ttv/
+台視新聞,https://yeslivetv.com/channels/ttv/
 中天亞洲台,https://yeslivetv.com/channels/ctiasia/
 CCTV4中文國際頻道,https://yeslivetv.com/channels/cctv4/
 公共電視台(公視),https://yeslivetv.com/channels/pts/
 TV BRICS中文台,https://yeslivetv.com/channels/tv-brics-chinese/
 Taiwan+(台灣+),https://yeslivetv.com/channels/taiwanplus/
-年代新聞台,https://yeslivetv.com/channels/era-news/
+年代新聞,https://yeslivetv.com/channels/era-news/
 靖天日本台,https://yeslivetv.com/channels/goldentv-japan/
 民視綜藝台,https://yeslivetv.com/channels/ftv-variety-show/
 民視旅遊台,https://yeslivetv.com/channels/ftv-travel/
@@ -3216,18 +3215,18 @@ DreamWorks 夢工廠動畫,video://https://www.4gtv.tv/channel/4gtv-live017?set=
 i-Fun動漫台,video://https://www.4gtv.tv/channel/litv-ftv15?set=1&ch=22
 MOMO親子台,video://https://www.4gtv.tv/channel/4gtv-live107?set=1&ch=22
 東森購物一台,video://https://www.4gtv.tv/channel/4gtv-live047?set=1&ch=22
-鏡電視新聞台,video://https://www.4gtv.tv/channel/4gtv-4gtv075?set=1&ch=22
-東森新聞台,video://https://www.4gtv.tv/channel/4gtv-live114?set=1&ch=22
+鏡電視新聞,video://https://www.4gtv.tv/channel/4gtv-4gtv075?set=1&ch=22
+東森新聞,video://https://www.4gtv.tv/channel/4gtv-live114?set=1&ch=22
 華視新聞,video://https://www.4gtv.tv/channel/4gtv-4gtv052?set=1&ch=22
-民視新聞台,video://https://www.4gtv.tv/channel/litv-ftv13?set=1&ch=22
+民視新聞,video://https://www.4gtv.tv/channel/litv-ftv13?set=1&ch=22
 三立新聞iNEWS,video://https://www.4gtv.tv/channel/4gtv-live089?set=1&ch=22
 TVBS新聞,video://https://www.4gtv.tv/channel/4gtv-live072?set=1&ch=22
-東森財經新聞台,video://https://www.4gtv.tv/channel/4gtv-live019?set=1&ch=22
+東森財經新聞,video://https://www.4gtv.tv/channel/4gtv-live019?set=1&ch=22
 中視新聞,video://https://www.4gtv.tv/channel/4gtv-4gtv074?set=1&ch=22
-中天新聞台,video://https://www.4gtv.tv/channel/4gtv-4gtv009?set=1&ch=22
+中天新聞,video://https://www.4gtv.tv/channel/4gtv-4gtv009?set=1&ch=22
 Bloomberg TV,video://https://www.4gtv.tv/channel/4gtv-live059?set=1&ch=22
-寰宇新聞台,video://https://www.4gtv.tv/channel/litv-longturn14?set=1&ch=22
-寰宇新聞台灣台,video://https://www.4gtv.tv/channel/litv-longturn15?set=1&ch=22
+寰宇新聞,video://https://www.4gtv.tv/channel/litv-longturn14?set=1&ch=22
+寰宇新聞灣台,video://https://www.4gtv.tv/channel/litv-longturn15?set=1&ch=22
 SBN全球財經台,video://https://www.4gtv.tv/channel/4gtv-live060?set=1&ch=22
 寰宇財經台,video://https://www.4gtv.tv/channel/litv-longturn23?set=1&ch=22
 TVBS,video://https://www.4gtv.tv/channel/4gtv-4gtv073?set=1&ch=22
@@ -3294,7 +3293,7 @@ My Cinema Europe HD 我的歐洲電影,video://https://www.4gtv.tv/channel/4gtv-
 好訊息,video://https://www.4gtv.tv/channel/litv-ftv16?set=1&ch=22
 大愛二台,video://https://www.4gtv.tv/channel/4gtv-live106?set=1&ch=22
 人間衛視,video://https://www.4gtv.tv/channel/4gtv-live008?set=1&ch=22
-半島國際新聞台,video://https://www.4gtv.tv/channel/litv-ftv10?set=1&ch=22
+半島國際新聞,video://https://www.4gtv.tv/channel/litv-ftv10?set=1&ch=22
 VOA美國之音,video://https://www.4gtv.tv/channel/litv-ftv03?set=1&ch=22
 CNBC Asia 財經台,video://https://www.4gtv.tv/channel/4gtv-live130?set=1&ch=22
 DW德國之聲,video://https://www.4gtv.tv/channel/4gtv-live071?set=1&ch=22
@@ -3328,7 +3327,7 @@ TVBS台劇台,video://https://www.4gtv.tv/channel/4gtv-live088?set=1&ch=22
 寰宇新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t866btc
 寰宇台灣,https://sc2024.stream-link.org/live/76176147201.php?id=t559gtn
 寰宇財經新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t974btr
-台視新聞台,https://sc2024.stream-link.org/live/76176147201.php?id=t695ctb
+台視新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t695ctb
 台視財經台,https://sc2024.stream-link.org/live/76176147201.php?id=t007stp
 非凡新聞,https://sc2024.stream-link.org/live/76176147201.php?id=t704ttf
 非凡商業台,https://sc2024.stream-link.org/live/76176147201.php?id=t202stj
@@ -3376,16 +3375,16 @@ JET綜合,tvbus://84LcnHU7taAZFvv8mYZm39nEuuuXw8D9TDA6yMVUko4bYeg9on#tvbus://75H
 第一商業,tvbus://8dvSfnqSfE3hR5pyDCANj6H2F1NU9tiTGh9KXy5S9WLZna4Hun#tvbus://773DDFayRsUib1mQ2CbET43bdHMigL4VhzZSU3NVgvVVDVt1mw#tvbus://5q1UtGM3hSNyJmUzG3x8C8t4ba1Eb5pxDizGFtcoHKuCFNJs4ZUZQu1XqdmVn#tvbus://5YGtenEyPvG1u2FpUu8bPLftJ7XDgBwjiWCYypg4i6f2xKQ2RM984W4WEBZJG#tvbus://5Q78P3mGVDPyyjBKbFaMm4sczvgv4nyNVFMagW12sYcU3QT7fYZ2UrrQGGTCX
 壹電視新聞,tvbus://8MUCNHnQ6XnFRAyVnKcRsoJQrj7V3FyZcT5Tmr4PxDhfuf5Cac#tvbus://8JtrQzEXuEeVd3k5cAv3aYvbgSMQon1fCfb7nW3nV63THspYJP#tvbus://65ryeDVn2PVGQ73fHGSGkMqxxwXydqegpMT3Kv3w2aJp3zK921rJCLsvK5car#tvbus://5x9sknJgFF5tyZFmAATSabfX8EWJeUqh9jMajzZmqGfStzgH63S65Dio3WdPv#tvbus://6RG54MwymkPPzUQ479WCB9hr5BLwDyt9xNedKdmeT6yspRbwtLYTXmUvkM73Q
 壹電視新聞(备:1),tvbus://74JSGEzQtaX8HCzkCtifPVN7D9PwbQmAfUqv1bEjJwDGSJz9Ty#tvbus://6sRZV46xte4i5XpSXjwn67N5W7LLMQEPoXP78GHajqTEN8N8dh#tvbus://6dNpnkhY4hjVg6JeiNA19nG8M5BggJdYw3RvS5dEv6FyDTDdj2QR7wU4Q9noX#tvbus://5YK35pxiFWRzkSGqr4SPGisnLmHjwYUqTyGoCT618HpJ2WapC2Y2TYWxwBkbo#tvbus://6SofENjNGF1ZjddcnqpavWJQ4jWwLtUgThYLRRVMNMUWeCCaSU6iEU3c7R75F
-年代新聞台,tvbus://8Y9ZBUfKkPiDZQiU41Gc8n97L7LZ5jBqLeBtBFrQQ58KWTsGoH#tvbus://79nxgvCVYL8o3GhQzFFMoPJmXpgKDxxw3fvKDXXpHnkAvFiw34#tvbus://5KfNk5QCvwfm6DaRPdqXGdNBt5bYkR5haddcfoT7kQn1kxnM3KWMMQ652yrsX#tvbus://5uCxW6nBojRYaTYXaAqVzUYx1JgdSvFy53ZeaFG3EAVFjiyihEvAc5CcAYrQR#tvbus://6iVJGiHxPusRPwngRt5HTSAHYVGPwnnCZEGPbcP1aXFE4DxoTwX7QddvJRB5D
-年代新聞台(备:1),tvbus://7fkqZDMkSsAG9prCFMWtSLmabJEqs7qpnt7ZvAkmfFPn3MBRK3#tvbus://7SsyqyoLgP1oTX3DD4xJtGWzVYge1CUxEFhSyF1xRawSMN4Qb6#tvbus://5h2TZD5bBdVk6fkXE1wmVSVdLiy3adNKUpym41KfpjNvnUh9KGcWJEwFEd57K#tvbus://5Jv5rV9wMmdVnHPUTcLozVBdTWkyHLymSmLuubNPGXGpBQFdt3v5xzHjLNnAd#tvbus://6djXxs3VWPpKW154feZ1HCMpa3GKw9ikKo6Vci12C9kJ8iPWDW4nrecVSBvVZ
+年代新聞,tvbus://8Y9ZBUfKkPiDZQiU41Gc8n97L7LZ5jBqLeBtBFrQQ58KWTsGoH#tvbus://79nxgvCVYL8o3GhQzFFMoPJmXpgKDxxw3fvKDXXpHnkAvFiw34#tvbus://5KfNk5QCvwfm6DaRPdqXGdNBt5bYkR5haddcfoT7kQn1kxnM3KWMMQ652yrsX#tvbus://5uCxW6nBojRYaTYXaAqVzUYx1JgdSvFy53ZeaFG3EAVFjiyihEvAc5CcAYrQR#tvbus://6iVJGiHxPusRPwngRt5HTSAHYVGPwnnCZEGPbcP1aXFE4DxoTwX7QddvJRB5D
+年代新聞(备:1),tvbus://7fkqZDMkSsAG9prCFMWtSLmabJEqs7qpnt7ZvAkmfFPn3MBRK3#tvbus://7SsyqyoLgP1oTX3DD4xJtGWzVYge1CUxEFhSyF1xRawSMN4Qb6#tvbus://5h2TZD5bBdVk6fkXE1wmVSVdLiy3adNKUpym41KfpjNvnUh9KGcWJEwFEd57K#tvbus://5Jv5rV9wMmdVnHPUTcLozVBdTWkyHLymSmLuubNPGXGpBQFdt3v5xzHjLNnAd#tvbus://6djXxs3VWPpKW154feZ1HCMpa3GKw9ikKo6Vci12C9kJ8iPWDW4nrecVSBvVZ
 東森新聞,tvbus://8iesJdxYWALTPHLmbDrvcTrjN4xdxnm6nPJgY86zPXTP1GGVV8#tvbus://7w9MRBvkd9megQFTRH457GZ6BTbWHAUdYP31Dj2unRKM6pGywx#tvbus://5t49G9xK4Jg7rqcRF5qMFCGqGCivqhmUVxM6JtEtaeH1AQpa17pKG5wGn9bpj#tvbus://6aGQxieFe8EvyMpC1Tq1xfz9ayNWxTRtfSypvzpoCmouMiNScfi8gvWMBbADr#tvbus://5zCRQC2s2mABYnEUmXj1oAiuJLrjqMq3GSMid4EvQdAX4eMuw9iyqRyS5Vdjv
 東森新聞(备:1),tvbus://8D3iyioc1hZWdFYJUZ62pA3tXnnPESW1WijfJ1x6642Y8oyJrP#tvbus://84fHQxNohXKceLEng4mRT2ZjzPE1eLuioWkd9NXCKV9zCw5S5y#tvbus://6i8biQTJPYDrvi7j7Q4x8ew7PkRWMg1do2SQaFoRxSe4cKKT8CCBqSXYxa3kC#tvbus://6UdAJdu2cpA8nRqQhTdxKmyBR5SSFcMQeaWY6fVdvuPwQSReVWgdheb9CYLMc#tvbus://6LGoLm4Vg5C2Jq4NRv7wZyjxCx7g55d1LZiQqvYXwi1hcKiiJnBV1UffDXjFs
-中天新聞台,tvbus://8g1CkStXjW6eZDk6bM7oCCdU6VR46XR1GdVakZ9GRAhxsu68J5#tvbus://6zCnRQtSLV8537gN3ezn2HkDCC7KcQQPysiUMvPsxdgBhkjCW9#tvbus://5yLmfTSSH13CLrqfYfEcKRF4B7oR5h1CJ7Rgxa3du1tc1ULHUFqG95E1cQVmG#tvbus://6HA6QEGcsbTNrFrPEjpp6p37Ayv9QkmTmjEg1EFkKrre6Q6g9jsvSeCm89ddm#tvbus://6ivzWm8w2Rp6MVaxUqcoVZNknSidcZ7ZypezEAcMMAa69G5fVs2Pqo4rnKbTB
-中天新聞台(备:1),tvbus://8fYQjUw3E1h7TBBxoMmELj3omSZ7fUMfqEsHAWEqjRJ3ypPhiy#tvbus://8NhWupny671pAxtzHHy4cQsBnWzCVxkmEbSZ27ZKt3X2rM1URX#tvbus://5ZeinfwcBYX4vHFF7mrGkuhQpj1cmeEzcriX8jnVNj5xmxN2JA5zQ46seLZed#tvbus://6PAMiPk4o63xKyohHzPeiPYgAreJTxqAQRYYUaYTGQvt72PE3zSzDPceKMnH1#tvbus://6RwkwDK5erPNFG8qa3FjXJn214khnJvGQiAk1RN99mD68eFM4yaFMNJFmsEtK
-民視新聞台,tvbus://8LwPgvB7jr2nPVcg4fp129cZZPVeH4ErmpWPsfNuXBJco3o7qS#tvbus://8R5KaPNE6kqRkCbsdbkJJtr3nayFF77oTmB14rgitsGgrVbZTU#tvbus://5fctBpKY1TYzVgeYJhxRwLHWc7iRcokZqUzYFXpLTnHMfeECBjA7s2fCq96ns#tvbus://5Rqcvz39i79H9ZoRRmgqnxPJFv7bHH8hLsWzQmetREBkE8iNYq5wwWP7oeY8h#tvbus://676QCqyy1nsmcjt1BprpKiZLXw8cigvfRKdHwdNDF7P4uGMwHVdT3z3uWip9K
-民視新聞台(备:1),tvbus://8TzrR7962fkq33DodesFgrKmhY6R1zBm1GfVqk2ekh42VMWZZA#tvbus://7QMcmjLrrns6uzoev1f78dNs1XTK9obbgW4e8S1wR4uuKVTY59#tvbus://5Q1RnAuBSsJkXwAicBRgyjbrHZkPn1GNMZo5c9XeKuxZ9frjnRyKJs2oH4MJ4#tvbus://5XW2tZRCJdsABzyZe1iUEQ78iWWVLAfhiYXQniddSiCeTSp5Zhbdoghm8KSBd#tvbus://5uMZARabTbhdatSvqSmLMdevB1oxHWziUU2AaenK7BpzhHCxYNePbJEYLwjQu
-三立新聞台,tvbus://7P7aVhzJyXd7cKR5YhZ5QaQwGo7uVTPfEvH3oc4WCeQz56wYFV#tvbus://71b5g9WZNnHn3s3iE9d7w19zPE7BCg1hfqBetfNrBfH3H7Cz5Y#tvbus://5Js1ZqJts9pwRDLw7GqJ8Fy15wvs74CEtgko9RAVQnkPDGt3hJDYKN6VjXP3s#tvbus://5aYxU1XE7Utab6F12YeMZz26GRFvvi9vCXvFPihQ2CmGxurUwZU3hLxPBiekG#tvbus://5boRitj9WXh3JMEWLiATKS36GJ47xheBGb5CDuBkEVm25hwnoUcLZthFxzyry
-三立新聞台(备:1),tvbus://76zFjX53rGCK1a9wJizjVs6zbvjg8kCpwe1LbKRjLqrhRTPzMa#tvbus://7CrTkgyk1qVk2mW2YPsZwTf3YFgfpEAZHmLQjan7JZaVEckgtW#tvbus://6ChkpPaigRFC87vDuKbWuDk5LRRPMpoPJHLe17HhhBLZ1ur3erhWkvRyGRepb#tvbus://5MFbJvGBSHoBwyxUfJCewxS83CggMnsGbjwJGf2gqf6DdeDEBXAqjp7TgqaaJ#tvbus://6bs46xJg4dRFdkfGEdAUaA7JxvRCRs65zH3iGbcyXZhpEALM1A5NAxkkk1mbm
+中天新聞,tvbus://8g1CkStXjW6eZDk6bM7oCCdU6VR46XR1GdVakZ9GRAhxsu68J5#tvbus://6zCnRQtSLV8537gN3ezn2HkDCC7KcQQPysiUMvPsxdgBhkjCW9#tvbus://5yLmfTSSH13CLrqfYfEcKRF4B7oR5h1CJ7Rgxa3du1tc1ULHUFqG95E1cQVmG#tvbus://6HA6QEGcsbTNrFrPEjpp6p37Ayv9QkmTmjEg1EFkKrre6Q6g9jsvSeCm89ddm#tvbus://6ivzWm8w2Rp6MVaxUqcoVZNknSidcZ7ZypezEAcMMAa69G5fVs2Pqo4rnKbTB
+中天新聞(备:1),tvbus://8fYQjUw3E1h7TBBxoMmELj3omSZ7fUMfqEsHAWEqjRJ3ypPhiy#tvbus://8NhWupny671pAxtzHHy4cQsBnWzCVxkmEbSZ27ZKt3X2rM1URX#tvbus://5ZeinfwcBYX4vHFF7mrGkuhQpj1cmeEzcriX8jnVNj5xmxN2JA5zQ46seLZed#tvbus://6PAMiPk4o63xKyohHzPeiPYgAreJTxqAQRYYUaYTGQvt72PE3zSzDPceKMnH1#tvbus://6RwkwDK5erPNFG8qa3FjXJn214khnJvGQiAk1RN99mD68eFM4yaFMNJFmsEtK
+民視新聞,tvbus://8LwPgvB7jr2nPVcg4fp129cZZPVeH4ErmpWPsfNuXBJco3o7qS#tvbus://8R5KaPNE6kqRkCbsdbkJJtr3nayFF77oTmB14rgitsGgrVbZTU#tvbus://5fctBpKY1TYzVgeYJhxRwLHWc7iRcokZqUzYFXpLTnHMfeECBjA7s2fCq96ns#tvbus://5Rqcvz39i79H9ZoRRmgqnxPJFv7bHH8hLsWzQmetREBkE8iNYq5wwWP7oeY8h#tvbus://676QCqyy1nsmcjt1BprpKiZLXw8cigvfRKdHwdNDF7P4uGMwHVdT3z3uWip9K
+民視新聞(备:1),tvbus://8TzrR7962fkq33DodesFgrKmhY6R1zBm1GfVqk2ekh42VMWZZA#tvbus://7QMcmjLrrns6uzoev1f78dNs1XTK9obbgW4e8S1wR4uuKVTY59#tvbus://5Q1RnAuBSsJkXwAicBRgyjbrHZkPn1GNMZo5c9XeKuxZ9frjnRyKJs2oH4MJ4#tvbus://5XW2tZRCJdsABzyZe1iUEQ78iWWVLAfhiYXQniddSiCeTSp5Zhbdoghm8KSBd#tvbus://5uMZARabTbhdatSvqSmLMdevB1oxHWziUU2AaenK7BpzhHCxYNePbJEYLwjQu
+三立新聞,tvbus://7P7aVhzJyXd7cKR5YhZ5QaQwGo7uVTPfEvH3oc4WCeQz56wYFV#tvbus://71b5g9WZNnHn3s3iE9d7w19zPE7BCg1hfqBetfNrBfH3H7Cz5Y#tvbus://5Js1ZqJts9pwRDLw7GqJ8Fy15wvs74CEtgko9RAVQnkPDGt3hJDYKN6VjXP3s#tvbus://5aYxU1XE7Utab6F12YeMZz26GRFvvi9vCXvFPihQ2CmGxurUwZU3hLxPBiekG#tvbus://5boRitj9WXh3JMEWLiATKS36GJ47xheBGb5CDuBkEVm25hwnoUcLZthFxzyry
+三立新聞(备:1),tvbus://76zFjX53rGCK1a9wJizjVs6zbvjg8kCpwe1LbKRjLqrhRTPzMa#tvbus://7CrTkgyk1qVk2mW2YPsZwTf3YFgfpEAZHmLQjan7JZaVEckgtW#tvbus://6ChkpPaigRFC87vDuKbWuDk5LRRPMpoPJHLe17HhhBLZ1ur3erhWkvRyGRepb#tvbus://5MFbJvGBSHoBwyxUfJCewxS83CggMnsGbjwJGf2gqf6DdeDEBXAqjp7TgqaaJ#tvbus://6bs46xJg4dRFdkfGEdAUaA7JxvRCRs65zH3iGbcyXZhpEALM1A5NAxkkk1mbm
 TVBS新聞,tvbus://7ATzWf5n9bBdWm2A6up7dCU7hAg3MX8f4zdmWJEaS8NUEypR6k#tvbus://8BjwH6i8f4MDuwjMkms7VTVogE73FxXM8Cxhm7qxPp1yG7uuMA#tvbus://6UXLJ27f4WxRLXa5LrzUXawXXwha2eFHzbzakcrCqgXHHmzi7kvB4QiWJMJNe#tvbus://61svBTwzJxpGY5Wn4mYJwqB8NN9caYK9vAdk6VXjPra1Q4y9rB3dkAKmC8hj3#tvbus://6REKx6sJJykZVx29hyz2zG4RCDQt8XVibw4qP4pEdSPrv2JqLTQmgiRXx9RTb
 TVBS新聞(备:1),tvbus://892JJ6hKkhvm6UXfsQLPRoV8FtdMie1CoGAcaWGxb8gqzNfZ5L#tvbus://6tAMX8a4NyD4Cs2L2kY9yTL69AdV5PYb8nfFvBeEpW4iYRgkpz#tvbus://5QNrjkR7gqAT8tPT6cZ1Z5JSZTYMCaSvCb3NbC7nEVWkr9yyqQaLy3T3X48Wp#tvbus://6VmcTdi8bRv8dpRAahSUKgfx7kag4Zztb5KuyMNPUpGq3ee2SS36SaxzwcgvX#tvbus://6eUsEbgaowemtGPraznPno7ChwVJXFyc6BT62LJZMfr3i4nr2SMcFAGMLyejG
 TVBS HD,tvbus://8TijLjRT3WHhjaGHhVZLVK1HzwzNzu7gFWnZjv6JLDkorkn5tn#tvbus://7n3VZMVcQAcHMrFpZbFxsh2A1PoVGwMbyY1o8hJNnPE2aRKFkQ#tvbus://639RyhXU5JcgFad93Qvex9ehYWr2EvZe3dPE2udUXSCMAgrm5xG4F8ic4EEmU#tvbus://6X5trvjeJNTVCAPXHBTaxUJ3G7mCgLfFSprZMPffbKgpeqTMfZsGnu3aRb8AU#tvbus://6QKxP8yUCi6GdfmFTPY4bDiR4jrk2YZoqwkp9iuu4jB7YV1qwzBu6WcsjoaXd
@@ -3437,7 +3436,7 @@ ARIRANG阿里郎頻道,tvbus://8iWrmjr76qa3Vey3Xs27S7kRoxpYXAEbquunncvgup5j7hrbH
 MOMO親子台 MOD,tvbus://74cWUrAZWVJqn9VbEFu6d4zq3JPnYHQb7wVTxhEZL6DZJV2Ss6#tvbus://7ecpNgRp9rp3zT7SPBrECkXehNJEo4itRwMA388RXYaRdHmcTd#tvbus://6SgddPFUudutQEyzfZmE5pr3XXeyneZjveZaCGnzmv7xeCj1iCKd9hDrJkpi8#tvbus://5uGBdcgY1WBJWLHmxB7KtSL4vsz8WxLFjfWtwvQ7PHeqDKMNEN3oVYzE5Ze8i#tvbus://5zHEw3C5pemnQP2zm2YFK5qy2xzxB9nSx2SfDskjjqfujjbk6aL3YytmyWwcA
 MTV Live 台灣,tvbus://7YVFsTESJZnbeP2yEEt1g7iv3Vrwjor59eEbUqPBvhVXgbDrur#tvbus://79cgE5LE6CMPCQXiczkmcHoxQDyX3FGhXjCy5xMDsRLk1kqU4c#tvbus://5sbFnnmivE8UwgxDJd5F4PfvR5cHPDmp1pWQaJbnZnkj8CYehFRDQfN4wY2eJ#tvbus://5PbVLJMTmf8YcKEdEvrwsaVSAodStdFbAYFPatxxmduYbdySSqmzwFv1ynPTF#tvbus://6A6Jvw5itD5R21PXQeAWQiG4G9q3jpaNmfPYkucEoGgguNzyA1p1yguurZ7em
 Mezzo Live HD,tvbus://8MAYSqgRSF5iB2XfSyNGra23Pr3ukAp6ixsF7nNX7AunuMqJH2#tvbus://8QpstDKzdiomB4HGfwnKt1tWthV2oXTCAja5KsRpD4BM4YcGWK#tvbus://5i9QZmU2g4WHWCPRxfuapd67aFHwUmoTJBwtevoQLcrGFrd2FeM1fpPf1N9Qs#tvbus://5hsEPh44XYYYKj5FiK3Gbbvp3t4GQwthd4BFtA6ddKLHvCCZ5BqbSwc3RVcvg#tvbus://689Yi6dXgBiobZnvuS46NyMSRQEFv9oBbGQxBVp14wWLcdCgrgXQNiqJzXoUa
-台視新聞台,tvbus://81Yq8oykwpLstPH5C7sbnPxwqLn55NNKKxDYAGBs3mm8oQ5n9y#tvbus://7MC98b5qSVV9w6mZhxvD3XrEHgbK2jgNWFTaPm9oBNVG9Q5X5H#tvbus://6YetCSjPoE6QfW4FDWQxPDHN2TVLevaDdaWWwYMtea36sdvJpzTc1GkbvC7Ge#tvbus://5ueLfvHWfiP7djqq6eyaRTrr7waogE3dULLvtRtqtt2bPtgTvpxnMkNikmA2s#tvbus://5kpdNu3Rvp51gxgBZa25yagwqmrZdS2oARMqpWDYvyM7cZb34nh8fczfY7yVt
+台視新聞,tvbus://81Yq8oykwpLstPH5C7sbnPxwqLn55NNKKxDYAGBs3mm8oQ5n9y#tvbus://7MC98b5qSVV9w6mZhxvD3XrEHgbK2jgNWFTaPm9oBNVG9Q5X5H#tvbus://6YetCSjPoE6QfW4FDWQxPDHN2TVLevaDdaWWwYMtea36sdvJpzTc1GkbvC7Ge#tvbus://5ueLfvHWfiP7djqq6eyaRTrr7waogE3dULLvtRtqtt2bPtgTvpxnMkNikmA2s#tvbus://5kpdNu3Rvp51gxgBZa25yagwqmrZdS2oARMqpWDYvyM7cZb34nh8fczfY7yVt
 CLASSICA 古典樂,tvbus://7jezqFU4HC7QigtSerpU1KSxMwZ7WkDCNuqeNjDG8Jjf6g5aaN#tvbus://6tn2c3ffjeXwBYiUrzXWxktf7jZ9GyYcWGhxbvEHf5ZwqXaxuz#tvbus://5joZVphegH4XaTbSd4Jc5gHFXogYhAQQ1Gwjyai27WNjZNCfDhJx1iAYPW9t6#tvbus://5aZjDQ1DzcdD2xNu3kKVWin2kKyRPyLHpdWVX5kbWfaYHDP6LRkrP3wy36apw#tvbus://5idzQbJuzQycPNZ7DpfLxLdrpCCUftkpfmnTRUuuMFusgdTqCLsxvsYmHXvCA
 ELTA體育1台,tvbus://7AkXGYuTHA6HMPnrLwhvemyLTJ5FyKqemZLEwtLdcjbumJZZQv#tvbus://7xUNrPp4nKv38gB4ggCmLqPKntvsf6tfjwSM7GxMqZjXLeRpxg#tvbus://6GE93XfnwJShwPA3f6xrQe2HnrubCYV1WANHhUtgYVWqt7dANkjzC5vXPoTVK#tvbus://5v3RFoj2XJBC5sRFDWfp3h4jrEAdGXvGvFzSM5N6PPHVafLNx578sQhbMy2GJ#tvbus://6ibL5uXrJskus2hejav1xi9557t43Eompr2ywZ2qH6s18F3ZESAD7sevMDEs7
 ELTA體育2台,tvbus://8bv8V7sBhb65VCCudDTG3FJsBQZWK2bGpzLNekaAnkGmXCpTp8#tvbus://7m7kwRd7Vr2WTgv512Qja6jTX3UPs2jg5FkRjiB5prus5GyJJ3#tvbus://6RUNoLqxk4rdr4GRiKcfQ3TcSovuXMeTjxqho6AtsLjJqcZak9bNwNJjFBWvG#tvbus://5W2xyuf27C3QgJ3diRuQetwbE6BGGpBodradjrcrsGGKdtNJ52w9fHQGgfvjS#tvbus://5cPtogyo12YtPGF2GiMidVLZzgSt3QKGZEFmwB86g2TyCya4voP4H7XcYJ1Gf
@@ -3498,8 +3497,8 @@ tvN(TW),tvbus://82UCR98s3YkN614FJoxBmKQFRMdKKiKQs8oQar5QND7gxntKUL#tvbus://8Mbsa
 中天亞洲台,tvbus://7VKd47RfDcLGjQK6J75Sdkk9A18i7YbaRnCTST7VMdzrKho79H#tvbus://8df7XNepZXzcEJKRNKRq88xGHXQ866Kju3Qwd672F7dGtdT7nk#tvbus://5fxEbR7igTenUtLs468cYYs2HoXwGTpwRmG8vSWfrob8vbBirr3YurXY2dg5N#tvbus://6A6kmhDJrKbZ12TxKsm2pU7oBHxudcZYP2Ep9PBg5sZkCbNpNVJ6pYXSitUb2#tvbus://6aV4wZoJau6VQT1b1HsGpbbZPdzaDPqtK1CcJss6vnpQvwg8N9rwmfwVaXp3B
 LiveABC互動英語頻道,tvbus://893enf1FtGXZjXVe6Zfo4BrqvsKm7UngdWNPkyzK6PRNtTubEM#tvbus://8BhbaKexkbgbuqH2nJ8C5CmFDpSVTHUiBh1s6D3wKHSWC2BWKj#tvbus://6KoSEZeGLYTk3ePbnypr1mXxvHWYGfKv5dejsicyNF7YdVuXBpY21aqQNaQxu#tvbus://6S4uPJeYLJE5jdAoHhbQfSdj6iaoTABoY5qfF3UFj9SCbL69UcNMp7YNB1YLo#tvbus://66fLQKCX1Y2sHepgCsFNjFYN5GTWAhMS1gGCfmPvNceTo2VH6wuRpEddE41ZJ
 中視新聞HD,tvbus://7UC1CM8JQr8wY2j79Ygp7PPi3Bou2HaPczua4sv2GybNfQ3a27#tvbus://8PjBLbTxhFqcX9SwquVovJZgiXdxvBqbJbfVoRcRZ8kBVQ5gx6#tvbus://6RVheqYEXzvTM9GPQJNGnFQYRJSupek1FJiLouMbpUuqFXwhMXDif54wWTs3L#tvbus://6UobEhcpRdHAHCwvqBX3xXLZ9QRKW4MYCDQsfeBvJZYuGwo4KsPWmd1VvL36P#tvbus://6Vf51Y3ZwdhaBhu7uFRGsS1RyXyHTrk8Yc4XDn8ntdDxXKWR3uQ45qjHNSE6M
-寰宇新聞台,tvbus://8FW6CQgdnmzqUsnZBVnpPoLbscW8U42TfDdzMB2mRw2oNWCi6n#tvbus://8fd2sr8h9GM6xh7zS5h9JT9o6L24yctN8RzSBhESgisGHeX4Mg#tvbus://5Wbmpy8qYx6ECvxTdxD8TnP6Ubn5mS34a2PYLN8fpPFv5J4JRczcYxE4vPR12#tvbus://6XvUfysoHx2SwuCXwk8rrkhbqr6hPyWnNuMkNprSupLkxKVDbccmgiLrz8V4H#tvbus://6jkdSE4AxTv3y64eqY97v9yGK4jYLcjxEfVWDC85sY68rdEbXEFSE8qFdwMuo
-寰宇新聞台灣台,tvbus://8jWQgQXXSQ4oc6Vyphu3sZsqmbE8yy25aNyKheYxyTnNqqAt1p#tvbus://6umW85Gv3sqEZyaiVx2w51ZLDAyPAMupDP8qHXzPvYpVfwCmxh#tvbus://6eJZbe5dMCy6P6wHMHsextD29S4u9p2PympqMgG8zv7NgGGsrSEvpKFzpq6fX#tvbus://6G9La8eXEajt32EsgtUpBVWc6AQi1fV59Wrz8yYvEkxGprXPUqLyAjYEChSfQ#tvbus://611uFAfUVHRPtK28L8EQP84HEU3e9CF8miJNeoSfVSqyDVw1KCNDbsKr1qPHz
+寰宇新聞,tvbus://8FW6CQgdnmzqUsnZBVnpPoLbscW8U42TfDdzMB2mRw2oNWCi6n#tvbus://8fd2sr8h9GM6xh7zS5h9JT9o6L24yctN8RzSBhESgisGHeX4Mg#tvbus://5Wbmpy8qYx6ECvxTdxD8TnP6Ubn5mS34a2PYLN8fpPFv5J4JRczcYxE4vPR12#tvbus://6XvUfysoHx2SwuCXwk8rrkhbqr6hPyWnNuMkNprSupLkxKVDbccmgiLrz8V4H#tvbus://6jkdSE4AxTv3y64eqY97v9yGK4jYLcjxEfVWDC85sY68rdEbXEFSE8qFdwMuo
+寰宇新聞灣台,tvbus://8jWQgQXXSQ4oc6Vyphu3sZsqmbE8yy25aNyKheYxyTnNqqAt1p#tvbus://6umW85Gv3sqEZyaiVx2w51ZLDAyPAMupDP8qHXzPvYpVfwCmxh#tvbus://6eJZbe5dMCy6P6wHMHsextD29S4u9p2PympqMgG8zv7NgGGsrSEvpKFzpq6fX#tvbus://6G9La8eXEajt32EsgtUpBVWc6AQi1fV59Wrz8yYvEkxGprXPUqLyAjYEChSfQ#tvbus://611uFAfUVHRPtK28L8EQP84HEU3e9CF8miJNeoSfVSqyDVw1KCNDbsKr1qPHz
 華視新聞資訊,tvbus://7PA2dsEujFfmXAztzZpgrnZvxBfUnvFFH6TYKve2cQKKhtajpt#tvbus://7R4Mf2eLckEfLJMrGnHCohawFdHLzipBw7JiX18PWnK7UbEucv#tvbus://67NCo7isCEwd2gCn1otAQGp5p9mrCFBLpsyTxXuJc9LdDJ8JnMemmwiH7kn7L#tvbus://5mudy6xT4mbsEpxBdvVk3NKnN39taywihqg6LW2Jg2ZdHHLdeBiL5xHEvav5N#tvbus://6ccqRxMPoQjmKZ5PS9YkDDrdbxADn7Ev8hK9m4ZuV3PZERceosoRoCnhULKyZ
 新加坡亞洲新聞,tvbus://8aePV4Evm4gFeDvX491r2NqXSS9rB8QDaNeUaH8DL87VqCdKzd#tvbus://7tSiGUhEfJtc7LkPRtcUiTiZ6GTR4ZXbZ2Wqm8LAihCXG1kpyW#tvbus://6HfpyrN1Q7gQ6YjWXSgbEK99VxvxPnNpY1kNKEskW2VXoiMfrUpEuWQHvNWsY#tvbus://5KhxJnwsRRh4XTGdZAS3vqpARkGuvoVjwM9FjZzuhc7eK8ke46r247gJub7f1#tvbus://5Rc1zTeu9GbzqCgs2DV3ZArsy6E3ker4h6efoAW2NrMVwWHsVBX8iSndDWGYj
 GINX Esports TV,tvbus://8EULAeUHQqauHR2SU6PfewnZDkhs2bvu5oU817LXunsw5m5SC7#tvbus://7WiqXziUHgP4hbCRmonsmdg2izUzmsNjhVDM2QkxBnRexnCo76#tvbus://5UUZ4B73Hj7BEdcsTEa3LwzbpUaQ9isSVpdeEu2irEkQqktxsZegMqLCBJvNd#tvbus://5rdtdUoTcGXPqS3Zc71kdYbKhgqxq1ALLE1JkyXVc2VHyttzxcUrVgNHnxRH4#tvbus://5w33c8dBjwUZmq6xWNvAyCDTncdooKwxgwp3swpBbtC7cDdew2LDa2P5p2YeJ
@@ -3561,13 +3560,13 @@ RTHK TV 32,tvbus://8XXzkPYCnzQgnWvkpjMvvAfNi36AJEw98iyhNq35fgYxTeJnaP#tvbus://7i
 TVB J1,tvbus://87sEG1ovAn1qXPtt8Nif9MkQBwbAwSD2fQsbsJFNFxKdw2jvM2#tvbus://71bY4qArY3R538nJZq1fbCPej1eCbvzNxj2x5Y8ZgkMC2iVa7q#tvbus://5oPkcwfuP9amBZy1gAsP1eXL66AphghLw93N9hqvWcaysSEdCQ6wkxzXPxZs8#tvbus://6JPzDQ8D43C7TGnRDDrfAiWXBbq5zvEeLi9WqDcx4UUUFki8Aij9Sr21ywFqt#tvbus://6MkTggLnua9res1Q98JDXbLTcnxT8AXVGw7JpdhVXuxiN57iBdUD4TDhkcjF9
 TVB J2,tvbus://8jCU4JsfqXoWBGiUr8Vgpd4XvRMGzF63iC6KMYxDYpbH8i4EnX#tvbus://77CSkMtRqhzqesCXQ8XXdy4kaiKPhLCyxfMsgKH36Pt2necXX3#tvbus://5xLqVqNHdKqDi93PKFggNFdRgSsag9rJVQp3n5Nn3JrLoaxXCf8M92MWTf9ms#tvbus://5yQfjXU3erykfLdZmj3VAAMxxGbo9xwrgaNXqrRja1C1nb4ii4B4LtYKjs6Yr#tvbus://6D5EeK3RDZ3QgGwpCHoYNBtt8LnVbQK6riBZ9VEJSZjJWc7hxwHp5LjdNUVqH
 TVB J2(备:1),tvbus://8j5rhsYk1qeBqySB6SZvrh66rUDdr8Ys5oP8NPer7MmFDZUymj#tvbus://7aoArb8EKBBcSSULxnJeU1McfdWh32ZtDnMsCCRJbQwMHShHq2#tvbus://5h9WLYjzQ2ktGNUcjEiuTdJeULCAoWdCXW23q2fpnswU6ukz9kxNhf6TxdG5N#tvbus://5zhYT8ViuubKpKvbHm9tASqH15k7ReoWMXsgzTUbpzGJJF16h3ao4oqxBHcvb#tvbus://6j6Lkm1oC1Cd8rpcFfub4GwEAmVis5Xdw3pBsC1eXDNv6MGRCEpTb6BePGV5M
-TVB娛樂新聞台,tvbus://7ipGd7mpJK97XwSkncvQm9Uz53mmx7y5sWiHzxf3VKd5dbEheT#tvbus://7a81wkHzmYrkEJarEbagKMcANYJG1LNBqVxLUYMod1M2KE1TQ6#tvbus://6EhLyVNgFSLZZHn2zzkPdzV7TDTtQA4GJ6K4BFU2rd2jBZPdQAs3VTcKf5Jgj#tvbus://64XXA6Y3T1LwnuN8rN6CjbaS5DmZXcV9JAjB6NKTiaS77Gvn87Hhcd26nPTs8#tvbus://5bYeRT6HUypApwn5cnK9Pp9jRg6LQ88P8JpgRQwoiyHYsHyRCeBDYvAPVSqC3
+TVB娛樂新聞,tvbus://7ipGd7mpJK97XwSkncvQm9Uz53mmx7y5sWiHzxf3VKd5dbEheT#tvbus://7a81wkHzmYrkEJarEbagKMcANYJG1LNBqVxLUYMod1M2KE1TQ6#tvbus://6EhLyVNgFSLZZHn2zzkPdzV7TDTtQA4GJ6K4BFU2rd2jBZPdQAs3VTcKf5Jgj#tvbus://64XXA6Y3T1LwnuN8rN6CjbaS5DmZXcV9JAjB6NKTiaS77Gvn87Hhcd26nPTs8#tvbus://5bYeRT6HUypApwn5cnK9Pp9jRg6LQ88P8JpgRQwoiyHYsHyRCeBDYvAPVSqC3
 TVB明珠台,tvbus://7wmTxUU4Qn2A4cKN3etaw3puhVYCSzsBwHzMoeeZv3DYRSpnxx#tvbus://7fxtHYdzCfRe8vNLNhBbGo6inWoV5n66ztJNyfa2i6ET4NvZ5s#tvbus://5USbgruLsrXcAcQ1Ja38MDyTDyFBjk7u2UYg46SdbNhHnFNSpWcQvdhhd7Uaj#tvbus://5oZ1FZ3TZ133VQKys5epxq8mjBwkchNWY9ZNSN7G9do4bMnPX2igmD1C8dwLd#tvbus://6GdVEYdetVQzQAkBhRvHrrYnp26CcQ8WA7Jk5YsSH51yjr6AW4A4aem8Q1KdT
 TVB星河頻道,tvbus://7LZpiPMdDdmUx4AtmYLWS8fySm2KkJhbDfirZ51kqcEpTR5bcu#tvbus://7iF1UsqamVhGucHjYTBEhawr8NzHSrzjmNQ5gek4rCo5YZopB4#tvbus://5x9d2Y5YyuwqLY2XLKy5zBfzS2NYnfY8HMqkVcEsdLiVNse36sKJX9C2j3Sfv#tvbus://5oaZCJ989nbLLZRqhrmM47PS5ox6k3umK2qVzFr3X7ctMVW2pJtEhRZw8Cuwn#tvbus://6hGRFVKtXVY24mGX2mPDwU36C62h8Di4zpVoZ8uZvq4JbVmZUYaEsWip9Ks3F
 TVB星河頻道(备:1),tvbus://7n9S81Q6jEXrWjxGmcU3Bx6BQMhtoDKrdpQyNmouDxywJHD45y#tvbus://7rcTtScQZZ7VzHTqcNS2uRHzmEKKo9RsLmdvjamCEkGRzUnNL3#tvbus://5aoqJMniW1vjiYiruRubYwqPJzvLVnccMdvFRabTBJPmbBeBfNZmvjPiLAVR4#tvbus://6ity2RtxveQmA7huR5DmDNUSSbTCbzEb8j7tMpfVB8NzoLz5nutQDRkBPp5Rj#tvbus://5cqG51eZt18auG65F6isogTDpJPpfv2ELGVxB6osESN8egeXMXpzNcoK918qH
 TVB無線財經台,tvbus://7NtcHVhfpDmHHVUPwx2aYsy28PMU1bjyCEaf42tZEYmaxgdkKa#tvbus://6zBJD7kbe5d36nnVBgv3TES5wejUmYif5ZZFt7cKRHL29NKZBs#tvbus://5gnN3m59RTzD2EhUHpf6Arox6qS4fEEHVh16ikxDHNvswiHEE4Kyi6PUUfiV3#tvbus://5YduBotyrBkZEA2HpRHd12iUDgT8aEnWXk4BVyj5d5AHH5JAtjaCYLBm6hTXU#tvbus://6DcDhVUek9FFmrhnhigtxCi3qnH5nYFTG1uYzf9JRorgFidP7g3aHFKEqaiW6
-TVB無線新聞台,tvbus://8ckajSH8bTsDVafar3uRt7TW9x3fpKXT8sDuSavaCuXkoR6A3v#tvbus://74YxLgkUYsc4Key11o4EaxcdqzmN8hBZU1CA4nzbJkht2FBEhX#tvbus://5SDqroBXFBZSeQZ7voa4xJspbMnTKQemcxKDp9pESKqbYET6DS8u5wppvifqV#tvbus://5xsXpUcPKmKxbuu9eDRAFDnaVXvvXBjFiUAMk94na2vfXpCo3QgYsvhuRxS66#tvbus://5Qf16sJYurDiqMp1YcUhYZAVdhZBz33n4oEBrHMo4DuhJCz8bzHdzHE93xAmt
-TVB無線新聞台(备:1),tvbus://8BcNidNuK83G9rw61zR4N9F5ihZcwgMA6j4nRxZS6tGrpgxLpR#tvbus://7LNqP17UGUfZzGkFDrSbmSt2fX65pXHhZrgqTGSS5WwzU62kQd#tvbus://5o4o7Nuj7jWKbqW27oE4c8PrfY57oCHLFGZ8hJcCrpbatdyDqa1ZFUwmHz3GP#tvbus://5yKGUTiN5ThRF1RPzhDZoXEA4HuRFLa2RLKXmR2TGBYobYhYZpNAEcGENi38p#tvbus://6dQKs2ALuB9eHwRJc8mE5ztTYVZrGX4iafkanfDXAiiwCtEU9HAuDjp9UJfdV
+TVB無線新聞,tvbus://8ckajSH8bTsDVafar3uRt7TW9x3fpKXT8sDuSavaCuXkoR6A3v#tvbus://74YxLgkUYsc4Key11o4EaxcdqzmN8hBZU1CA4nzbJkht2FBEhX#tvbus://5SDqroBXFBZSeQZ7voa4xJspbMnTKQemcxKDp9pESKqbYET6DS8u5wppvifqV#tvbus://5xsXpUcPKmKxbuu9eDRAFDnaVXvvXBjFiUAMk94na2vfXpCo3QgYsvhuRxS66#tvbus://5Qf16sJYurDiqMp1YcUhYZAVdhZBz33n4oEBrHMo4DuhJCz8bzHdzHE93xAmt
+TVB無線新聞(备:1),tvbus://8BcNidNuK83G9rw61zR4N9F5ihZcwgMA6j4nRxZS6tGrpgxLpR#tvbus://7LNqP17UGUfZzGkFDrSbmSt2fX65pXHhZrgqTGSS5WwzU62kQd#tvbus://5o4o7Nuj7jWKbqW27oE4c8PrfY57oCHLFGZ8hJcCrpbatdyDqa1ZFUwmHz3GP#tvbus://5yKGUTiN5ThRF1RPzhDZoXEA4HuRFLa2RLKXmR2TGBYobYhYZpNAEcGENi38p#tvbus://6dQKs2ALuB9eHwRJc8mE5ztTYVZrGX4iafkanfDXAiiwCtEU9HAuDjp9UJfdV
 TVB經典,tvbus://79Hc4Rz29nmi8RregL8W9xa5ZwYe4HdkaAM3ctBL7REbq97sFi#tvbus://7jZ8HzXgredGdxY9bSrHQC9xqf5HAndzXeAspKKPjCRoyxy4Q9#tvbus://6XPxagC3BQWJddFfDUaS6LbwVURCdytoR1TdstBYZEzjgnTtJvwdoXb2vD28k#tvbus://5VRYub3kd8mt8whrimjZzi7mkUSi57McXed5wyfRoYtND6R7mvrfoQkZRt7yt#tvbus://5SFHGqmJtu8UkxkEMEBpSCXYDTnVDL1ShcAsAu7JFxKDUXjzN8dBnopDoChsB
 ViuTV,tvbus://7xoS6LXrqL3xpDdrveh7reSgaav3Hi3AMUpR8yneQNidTyrzvV#tvbus://7SSH1ijAW8WtTp6Q7CYRR3Rg9CraWUXFaxv2vcgWsrDLTNzJsL#tvbus://6A1qsAjWCFihKubEyR8AWTV4wxp54FTSfGv7Pbodafkiy5ufK748cCH71MfWo#tvbus://5L8cXsK8ziLnN9YeUaVaEWxAHmDpkkqKqKMsMtDthMufFNXcKf9z7yPnhXcfB#tvbus://5ehuZfyEgXqtxWhdSCkkerGQUT87X22zfEbTP6DqNkYSiCrj83TudXb5RgPkx
 ViuTV(备:1),tvbus://8JDjWW5ogRFjo9vqJJfQSCW14vDvGurtL6a3WeuWQ1fcPe8xiS#tvbus://86qQUTUtXAAf7bTWzJ7Pv2RfyymC4LznsVAaW185iGu3MoNdpS#tvbus://5UAxGDzPUF7hcK7YD7TswUj29kZ7DKi6mrarDBjJDPxzRyBrxExjX5iT7rxaf#tvbus://5gyrEjYuiww6TyFYV8CXfATbvEJS4v54i1vF73uz3LuWb68tiEn2oTgSM9Afm#tvbus://5S7X8HcobSPuw163touRJoAFApkpAM1GZxcJjo66C8HfJKSo6Sc8Gkro8Lrh5
@@ -4288,19 +4287,19 @@ NASA Live,tvbus://7MJzfaVCK3UXKSjXRpGkva7ei1zgLYQGorWqmtoWswdeMACYmA#tvbus://8XS
 NBC2 News,tvbus://7smZMoLBb8g8Kgxta1v3MHYvMSqF3eCj4vZqV5tKc52iZS5gkn#tvbus://798eX3USMmYbZy9ecuLMUaaktD41c3Wpzw6jyMWJDqtU2FWm6J#tvbus://6bTkD7x3DaGSNJEuaynmjf9B2VhUHM51NApagw5nXvkdBM6BLwNav8DG4aC5x#tvbus://5uVYDbP1kXe5dd6gBUXWT9u27ihMv9c5FMqymxLPmc7LxgrWM4LANddjLnGP9#tvbus://5Z2od8etcoejkAh6ubYpwzQ2H9gRYJQLUk3ezvEAE44fh4bqU9JvAN1fkfk9j
 SKY NEWS HD,tvbus://8RCG4dt8L7w6xkrFC33VcenWzfQD9PDiaJXYyLCbv9pc1reg9g#tvbus://79f4RKMQtxgdUF9FKZVNe7MV7esWD9vz2qWWc2DsAxbeaYgm9U#tvbus://6A8yvW8veAjuEbGWFuQzry1A1QcvvUp9BvitfpU5Qevv2QEGYohKbU82ELm6P#tvbus://67H4NkyVpFK6jmo9u3GupTfeRahYFPsWtwrVf2J7MDJn4eY5C3wJyBEmPjBcx#tvbus://6buhGRK5CNUVYCnhKnLfcgJkQmRBwcxhHE1F7kQ9Ktqg5XZzV6Rb5TFW7dcjH
 Sri Sankara Tamil,tvbus://867MnywQrB3SXy2BCpF8BEUt6LFuBGApNfKut3xqyq17ERdf1X#tvbus://8Qz1CYeudS5qnPkkBPPDqTVCKK3SVNKiZzXofutghCpEu3q4nS#tvbus://6YwXymqy4VWM9yQTSky7KdEjjwtLWBm889QJpYdxa4ki3KiyfK9hdRcrgtvhu#tvbus://6U1tMauhBR3GJs9Gi3U1m2QPTJ2GySEp2QBanE2nHk7H8ZA9DaZRRJWurkn1q#tvbus://5LDz4yPAFFez4oncjQgedVJ155AVaH2B3w75jfoofnhB2MNKauBY3TVjmNpdu
-TVB無線新聞台,tvbus://8ckajSH8bTsDVafar3uRt7TW9x3fpKXT8sDuSavaCuXkoR6A3v#tvbus://74YxLgkUYsc4Key11o4EaxcdqzmN8hBZU1CA4nzbJkht2FBEhX#tvbus://5SDqroBXFBZSeQZ7voa4xJspbMnTKQemcxKDp9pESKqbYET6DS8u5wppvifqV#tvbus://5xsXpUcPKmKxbuu9eDRAFDnaVXvvXBjFiUAMk94na2vfXpCo3QgYsvhuRxS66#tvbus://5Qf16sJYurDiqMp1YcUhYZAVdhZBz33n4oEBrHMo4DuhJCz8bzHdzHE93xAmt
-三立新聞台,tvbus://7P7aVhzJyXd7cKR5YhZ5QaQwGo7uVTPfEvH3oc4WCeQz56wYFV#tvbus://71b5g9WZNnHn3s3iE9d7w19zPE7BCg1hfqBetfNrBfH3H7Cz5Y#tvbus://5Js1ZqJts9pwRDLw7GqJ8Fy15wvs74CEtgko9RAVQnkPDGt3hJDYKN6VjXP3s#tvbus://5aYxU1XE7Utab6F12YeMZz26GRFvvi9vCXvFPihQ2CmGxurUwZU3hLxPBiekG#tvbus://5boRitj9WXh3JMEWLiATKS36GJ47xheBGb5CDuBkEVm25hwnoUcLZthFxzyry
-中天新聞台,tvbus://8g1CkStXjW6eZDk6bM7oCCdU6VR46XR1GdVakZ9GRAhxsu68J5#tvbus://6zCnRQtSLV8537gN3ezn2HkDCC7KcQQPysiUMvPsxdgBhkjCW9#tvbus://5yLmfTSSH13CLrqfYfEcKRF4B7oR5h1CJ7Rgxa3du1tc1ULHUFqG95E1cQVmG#tvbus://6HA6QEGcsbTNrFrPEjpp6p37Ayv9QkmTmjEg1EFkKrre6Q6g9jsvSeCm89ddm#tvbus://6ivzWm8w2Rp6MVaxUqcoVZNknSidcZ7ZypezEAcMMAa69G5fVs2Pqo4rnKbTB
+TVB無線新聞,tvbus://8ckajSH8bTsDVafar3uRt7TW9x3fpKXT8sDuSavaCuXkoR6A3v#tvbus://74YxLgkUYsc4Key11o4EaxcdqzmN8hBZU1CA4nzbJkht2FBEhX#tvbus://5SDqroBXFBZSeQZ7voa4xJspbMnTKQemcxKDp9pESKqbYET6DS8u5wppvifqV#tvbus://5xsXpUcPKmKxbuu9eDRAFDnaVXvvXBjFiUAMk94na2vfXpCo3QgYsvhuRxS66#tvbus://5Qf16sJYurDiqMp1YcUhYZAVdhZBz33n4oEBrHMo4DuhJCz8bzHdzHE93xAmt
+三立新聞,tvbus://7P7aVhzJyXd7cKR5YhZ5QaQwGo7uVTPfEvH3oc4WCeQz56wYFV#tvbus://71b5g9WZNnHn3s3iE9d7w19zPE7BCg1hfqBetfNrBfH3H7Cz5Y#tvbus://5Js1ZqJts9pwRDLw7GqJ8Fy15wvs74CEtgko9RAVQnkPDGt3hJDYKN6VjXP3s#tvbus://5aYxU1XE7Utab6F12YeMZz26GRFvvi9vCXvFPihQ2CmGxurUwZU3hLxPBiekG#tvbus://5boRitj9WXh3JMEWLiATKS36GJ47xheBGb5CDuBkEVm25hwnoUcLZthFxzyry
+中天新聞,tvbus://8g1CkStXjW6eZDk6bM7oCCdU6VR46XR1GdVakZ9GRAhxsu68J5#tvbus://6zCnRQtSLV8537gN3ezn2HkDCC7KcQQPysiUMvPsxdgBhkjCW9#tvbus://5yLmfTSSH13CLrqfYfEcKRF4B7oR5h1CJ7Rgxa3du1tc1ULHUFqG95E1cQVmG#tvbus://6HA6QEGcsbTNrFrPEjpp6p37Ayv9QkmTmjEg1EFkKrre6Q6g9jsvSeCm89ddm#tvbus://6ivzWm8w2Rp6MVaxUqcoVZNknSidcZ7ZypezEAcMMAa69G5fVs2Pqo4rnKbTB
 中視新聞HD,tvbus://7UC1CM8JQr8wY2j79Ygp7PPi3Bou2HaPczua4sv2GybNfQ3a27#tvbus://8PjBLbTxhFqcX9SwquVovJZgiXdxvBqbJbfVoRcRZ8kBVQ5gx6#tvbus://6RVheqYEXzvTM9GPQJNGnFQYRJSupek1FJiLouMbpUuqFXwhMXDif54wWTs3L#tvbus://6UobEhcpRdHAHCwvqBX3xXLZ9QRKW4MYCDQsfeBvJZYuGwo4KsPWmd1VvL36P#tvbus://6Vf51Y3ZwdhaBhu7uFRGsS1RyXyHTrk8Yc4XDn8ntdDxXKWR3uQ45qjHNSE6M
-台視新聞台,tvbus://81Yq8oykwpLstPH5C7sbnPxwqLn55NNKKxDYAGBs3mm8oQ5n9y#tvbus://7MC98b5qSVV9w6mZhxvD3XrEHgbK2jgNWFTaPm9oBNVG9Q5X5H#tvbus://6YetCSjPoE6QfW4FDWQxPDHN2TVLevaDdaWWwYMtea36sdvJpzTc1GkbvC7Ge#tvbus://5ueLfvHWfiP7djqq6eyaRTrr7waogE3dULLvtRtqtt2bPtgTvpxnMkNikmA2s#tvbus://5kpdNu3Rvp51gxgBZa25yagwqmrZdS2oARMqpWDYvyM7cZb34nh8fczfY7yVt
+台視新聞,tvbus://81Yq8oykwpLstPH5C7sbnPxwqLn55NNKKxDYAGBs3mm8oQ5n9y#tvbus://7MC98b5qSVV9w6mZhxvD3XrEHgbK2jgNWFTaPm9oBNVG9Q5X5H#tvbus://6YetCSjPoE6QfW4FDWQxPDHN2TVLevaDdaWWwYMtea36sdvJpzTc1GkbvC7Ge#tvbus://5ueLfvHWfiP7djqq6eyaRTrr7waogE3dULLvtRtqtt2bPtgTvpxnMkNikmA2s#tvbus://5kpdNu3Rvp51gxgBZa25yagwqmrZdS2oARMqpWDYvyM7cZb34nh8fczfY7yVt
 國興衛視,tvbus://6tiiZg8mRoT9xcw3PmdVcoMh1jKHx7aruiu2qz7Z2Qo6qFfcdR#tvbus://8ehNbLhwBA2tiLBbHvQiuJjafrWX7xGKYxCQwT67VRZbthoSBJ#tvbus://5ijuZbNSb6EMTQVGb9B843nvUMqbShBrD5L1rwVzhzeE5sd7SprMrqHsTXxB8#tvbus://5YNUviNY2z6mS1thPEakXBkpwKgkKusk9gc7DfZ7KV58JyVfVXLJ7UDbwZXC2#tvbus://6M4GK6zeobrFRStcLTTmZhspWfBWUUL8jDgitnWJG8XNLekkq1J3Lwx752irL
 壹電視新聞,tvbus://8MUCNHnQ6XnFRAyVnKcRsoJQrj7V3FyZcT5Tmr4PxDhfuf5Cac#tvbus://8JtrQzEXuEeVd3k5cAv3aYvbgSMQon1fCfb7nW3nV63THspYJP#tvbus://65ryeDVn2PVGQ73fHGSGkMqxxwXydqegpMT3Kv3w2aJp3zK921rJCLsvK5car#tvbus://5x9sknJgFF5tyZFmAATSabfX8EWJeUqh9jMajzZmqGfStzgH63S65Dio3WdPv#tvbus://6RG54MwymkPPzUQ479WCB9hr5BLwDyt9xNedKdmeT6yspRbwtLYTXmUvkM73Q
-寰宇新聞台,tvbus://8FW6CQgdnmzqUsnZBVnpPoLbscW8U42TfDdzMB2mRw2oNWCi6n#tvbus://8fd2sr8h9GM6xh7zS5h9JT9o6L24yctN8RzSBhESgisGHeX4Mg#tvbus://5Wbmpy8qYx6ECvxTdxD8TnP6Ubn5mS34a2PYLN8fpPFv5J4JRczcYxE4vPR12#tvbus://6XvUfysoHx2SwuCXwk8rrkhbqr6hPyWnNuMkNprSupLkxKVDbccmgiLrz8V4H#tvbus://6jkdSE4AxTv3y64eqY97v9yGK4jYLcjxEfVWDC85sY68rdEbXEFSE8qFdwMuo
-年代新聞台,tvbus://8Y9ZBUfKkPiDZQiU41Gc8n97L7LZ5jBqLeBtBFrQQ58KWTsGoH#tvbus://79nxgvCVYL8o3GhQzFFMoPJmXpgKDxxw3fvKDXXpHnkAvFiw34#tvbus://5KfNk5QCvwfm6DaRPdqXGdNBt5bYkR5haddcfoT7kQn1kxnM3KWMMQ652yrsX#tvbus://5uCxW6nBojRYaTYXaAqVzUYx1JgdSvFy53ZeaFG3EAVFjiyihEvAc5CcAYrQR#tvbus://6iVJGiHxPusRPwngRt5HTSAHYVGPwnnCZEGPbcP1aXFE4DxoTwX7QddvJRB5D
+寰宇新聞,tvbus://8FW6CQgdnmzqUsnZBVnpPoLbscW8U42TfDdzMB2mRw2oNWCi6n#tvbus://8fd2sr8h9GM6xh7zS5h9JT9o6L24yctN8RzSBhESgisGHeX4Mg#tvbus://5Wbmpy8qYx6ECvxTdxD8TnP6Ubn5mS34a2PYLN8fpPFv5J4JRczcYxE4vPR12#tvbus://6XvUfysoHx2SwuCXwk8rrkhbqr6hPyWnNuMkNprSupLkxKVDbccmgiLrz8V4H#tvbus://6jkdSE4AxTv3y64eqY97v9yGK4jYLcjxEfVWDC85sY68rdEbXEFSE8qFdwMuo
+年代新聞,tvbus://8Y9ZBUfKkPiDZQiU41Gc8n97L7LZ5jBqLeBtBFrQQ58KWTsGoH#tvbus://79nxgvCVYL8o3GhQzFFMoPJmXpgKDxxw3fvKDXXpHnkAvFiw34#tvbus://5KfNk5QCvwfm6DaRPdqXGdNBt5bYkR5haddcfoT7kQn1kxnM3KWMMQ652yrsX#tvbus://5uCxW6nBojRYaTYXaAqVzUYx1JgdSvFy53ZeaFG3EAVFjiyihEvAc5CcAYrQR#tvbus://6iVJGiHxPusRPwngRt5HTSAHYVGPwnnCZEGPbcP1aXFE4DxoTwX7QddvJRB5D
 新加坡亞洲新聞,tvbus://8aePV4Evm4gFeDvX491r2NqXSS9rB8QDaNeUaH8DL87VqCdKzd#tvbus://7tSiGUhEfJtc7LkPRtcUiTiZ6GTR4ZXbZ2Wqm8LAihCXG1kpyW#tvbus://6HfpyrN1Q7gQ6YjWXSgbEK99VxvxPnNpY1kNKEskW2VXoiMfrUpEuWQHvNWsY#tvbus://5KhxJnwsRRh4XTGdZAS3vqpARkGuvoVjwM9FjZzuhc7eK8ke46r247gJub7f1#tvbus://5Rc1zTeu9GbzqCgs2DV3ZArsy6E3ker4h6efoAW2NrMVwWHsVBX8iSndDWGYj
 東森新聞,tvbus://8iesJdxYWALTPHLmbDrvcTrjN4xdxnm6nPJgY86zPXTP1GGVV8#tvbus://7w9MRBvkd9megQFTRH457GZ6BTbWHAUdYP31Dj2unRKM6pGywx#tvbus://5t49G9xK4Jg7rqcRF5qMFCGqGCivqhmUVxM6JtEtaeH1AQpa17pKG5wGn9bpj#tvbus://6aGQxieFe8EvyMpC1Tq1xfz9ayNWxTRtfSypvzpoCmouMiNScfi8gvWMBbADr#tvbus://5zCRQC2s2mABYnEUmXj1oAiuJLrjqMq3GSMid4EvQdAX4eMuw9iyqRyS5Vdjv
 東森財經新聞,tvbus://7nzqjkqaRBs2dCeSkPPjXnPP8brdJxdMoqrbhhvczQY8aki4br#tvbus://8PAZTt5VMt3Lnc4ThQoagJTWUiCwmDDvLudXjCQp74TtmqXMez#tvbus://5P2nzU7WRheqBPpLwAbeRd1FbQXEeuDpAf1T5CsenKBoDqoJbyekQGYqiuDE9#tvbus://6V2tMXAkjgvvWKtnkfvnKyhfHrWJYA1nP9zu1r2N3gRJFzJJFVpUy3HPT9td8#tvbus://5e6FEJYHVCciuXBm2DJqWhKLgnLCeLtL5uAfhFyjZQTZhUWBptMusSmWv8sws
-民視新聞台,tvbus://8LwPgvB7jr2nPVcg4fp129cZZPVeH4ErmpWPsfNuXBJco3o7qS#tvbus://8R5KaPNE6kqRkCbsdbkJJtr3nayFF77oTmB14rgitsGgrVbZTU#tvbus://5fctBpKY1TYzVgeYJhxRwLHWc7iRcokZqUzYFXpLTnHMfeECBjA7s2fCq96ns#tvbus://5Rqcvz39i79H9ZoRRmgqnxPJFv7bHH8hLsWzQmetREBkE8iNYq5wwWP7oeY8h#tvbus://676QCqyy1nsmcjt1BprpKiZLXw8cigvfRKdHwdNDF7P4uGMwHVdT3z3uWip9K
+民視新聞,tvbus://8LwPgvB7jr2nPVcg4fp129cZZPVeH4ErmpWPsfNuXBJco3o7qS#tvbus://8R5KaPNE6kqRkCbsdbkJJtr3nayFF77oTmB14rgitsGgrVbZTU#tvbus://5fctBpKY1TYzVgeYJhxRwLHWc7iRcokZqUzYFXpLTnHMfeECBjA7s2fCq96ns#tvbus://5Rqcvz39i79H9ZoRRmgqnxPJFv7bHH8hLsWzQmetREBkE8iNYq5wwWP7oeY8h#tvbus://676QCqyy1nsmcjt1BprpKiZLXw8cigvfRKdHwdNDF7P4uGMwHVdT3z3uWip9K
 視納華仁紀實頻道,tvbus://8PxJ8gMK3LGFA5hX2GPeoTXnEX3pkCwj6fwMWg359LytHXSBPj#tvbus://7dD5CjMCMe3vZWc7r6VVsZMJAT6cQHKSE6Rjp9WSPQTV97gHKg#tvbus://5nFpu8PHVxJbeD7Kb2WeoJAuA7JN9K8W8kzC4mak7pQh72oiDnjeu6yfFrwGS#tvbus://6PHkgxgyFi6xhy13wgyEwWpsA3mrwYpxTe2uDE5Noyc2nGaqPJLnuc8NsFK5p#tvbus://6etjov3e4MrGzBzuJY8mSN67HbpkzRLrYj5q7ByvxvQJ2oLBYAUtXjCEkdUk3
 達文西頻道,tvbus://7cdz6PpYYCdcX3GievLaVL6iBH4aZgAJDhew3b4rCpRphyczxS#tvbus://8Rt4i3RqY7UjJaBgQVy1qqTyqP7Wv5hmjn6X8JKc5od3yZaw5S#tvbus://6XShGVPNnnvwsuPFCf3G3zKdjzXpJFE8QX16f3rrcSC4ZdTs6h3NT9UMvaWeC#tvbus://5Xc8zbDqxVYGaNBpFh4HpXP52MCUsVn788A3p2MWgBnHhmyMiJGrjKYnbPPxx#tvbus://5UZEqtg8BybeJ8swsDhBAcsaDJteSZ5sUTNXhydjj7817pAKz2arPAVbK65tA
 非凡新聞HD,tvbus://8CKss8TaoXH5m5kA6QqYSnGya4FrW1E9husXULMnbmMt7K7Sms#tvbus://7Qe32aHJSQtJCqKeWVRwejG7iVNyNusX7pFPS72ndCFbVhhux2#tvbus://6SLvHEShwbZrKJM5wKE18HRxE5xZH3TvpVnMg2ZVkKUaBZnS7rv4uBuscGrwa#tvbus://64cCGJr4zdGnJPdEb9kZnHHm4t3epsYxmDNyWEvG13KYVQvmPQgog7LbfGutE#tvbus://63or8NPqZpjMkBeBbMyVrjDvc4DuquKSqpaDUpHb4bBMVMHrEXzWqe3PkqiLk
@@ -4409,7 +4408,7 @@ MTV Live,http://50.7.234.10:8278/mtvhd_twn/playlist.m3u8?tid=MF7F566558295665582
 TLC旅遊生活,http://50.7.234.10:8278/tlc_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=46cf202b15551449e2c2cfdb0166d6f4
 東森新聞,http://50.7.234.10:8278/ettvnews/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=9a0731b42826903e465c2e3ded47b7b9
 TVBS HD,http://50.7.234.10:8278/tvbs/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=531ab38cdc576d36ab18039fcf944e65
-TVBS新聞台,http://50.7.234.10:8278/tvbs_n/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=e1329b1f962fe43ce502902f0cad209c
+TVBS新聞,http://50.7.234.10:8278/tvbs_n/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=e1329b1f962fe43ce502902f0cad209c
 TVBS歡樂台,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=846d88a5b09c6665d486a53023447353
 三立台灣台,http://50.7.234.10:8278/sanlitaiwan/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=f4e9908d71d1930ce389430ef387712e
 三立戲劇台,http://50.7.234.10:8278/sanlixiju_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=7c12470a2fc50c9bbbe18bfde805ae1b
@@ -4427,18 +4426,18 @@ TVBS歡樂台,http://50.7.234.10:8278/tvbshuanle_twn/playlist.m3u8?tid=MF7F56655
 民視,http://50.7.234.10:8278/ftvhd_taiwan/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=ec1ef7ad7098ca80720209ccbbb2ba93
 民視第一台,http://50.7.234.10:8278/lunghuajingdian_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=96207c471d439515e0067b333e3b5459
 民視台灣台,http://50.7.234.10:8278/ftvtaiwan_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=a5aec2ceecd83ad9bac0328844e8a3e6
-民視新聞台,http://50.7.234.10:8278/ftvnew_taiwan/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=3869024dd3de0af582df4170d2b5edef
+民視新聞,http://50.7.234.10:8278/ftvnew_taiwan/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=3869024dd3de0af582df4170d2b5edef
 台視,http://50.7.234.10:8278/ttv_taiwan	/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=3f3f556a7c2a26b3273eaee8d1f95f91
-台視新聞台,http://50.7.234.10:8278/ttvnews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=11d856fe3a6558587c6c4b25ca31b63b
+台視新聞,http://50.7.234.10:8278/ttvnews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=11d856fe3a6558587c6c4b25ca31b63b
 中視,http://50.7.234.10:8278/zhongshihd_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=3a6edf84b1baf6f5fbf4a0f99e1c8bc8
-中視新聞台,http://50.7.234.10:8278/zhongshinews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=a0303143be733a029de4cda96dc05bd8
+中視新聞,http://50.7.234.10:8278/zhongshinews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=a0303143be733a029de4cda96dc05bd8
 中視經典,http://50.7.234.10:8278/zhongshi_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=2638f568d1ffb04cb0e2aedd0e28b8aa
 華視,http://50.7.234.10:8278/ctshd_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=0ce6c8728099c0f803272b1e1ec8e592
 華藝綜合,http://50.7.234.10:8278/weishichinese_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=a8ff670bc28f630e1b82ee83506fc144
 大愛一台,http://50.7.234.10:8278/daai_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=51dfd0d5120386463954dd38e26f6c98
-寰宇新聞台,http://50.7.234.10:8278/huanyuxinwen_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=3db965a62a2076260e55840cc2f47ff1
+寰宇新聞,http://50.7.234.10:8278/huanyuxinwen_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=3db965a62a2076260e55840cc2f47ff1
 寰宇財經台,http://50.7.234.10:8278/huanyutaiwan_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=9a69bce8aa8eba9a32b222af6133ec44
-年代新聞台,http://50.7.234.10:8278/niandainews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=1f3586cbbd3cd7cd5ed3354329d9a8ae
+年代新聞,http://50.7.234.10:8278/niandainews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=1f3586cbbd3cd7cd5ed3354329d9a8ae
 愛爾達影劇,http://50.7.234.10:8278/eltayingju_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=a1060310cb8c632efa0377fc73edbbd6
 愛爾達體育 1,http://50.7.234.10:8278/eltasport_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=0dfea104160af211344a2ac13d99d835
 愛爾達體育 2,http://50.7.234.10:8278/eltasport2_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=9438c004ee50fe57cca5098b0665703a
@@ -4472,7 +4471,7 @@ Fox News,http://50.7.234.10:8278/foxnews_twn/playlist.m3u8?tid=MF7F5665582956655
 CN卡通,http://50.7.234.10:8278/momo1_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=1bcf38de8605c061c98d5e5c55163725
 靖天卡通台,http://50.7.234.10:8278/jingtiancartoon_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=f5657d632cedda0ca11bac82e3168618
 靖天國際台,http://50.7.234.10:8278/jingtianintl_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=5bfb3aef7cf468e9b1377324fccbfc68
-非凡新聞台,http://50.7.234.10:8278/feifannews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=ac14986110b0e75fe23edff90ab336b2
+非凡新聞,http://50.7.234.10:8278/feifannews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=ac14986110b0e75fe23edff90ab336b2
 龍祥時代,http://50.7.234.10:8278/lungxiangtime_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=97b5a1d6e0010c40e6d8781805a70ba2
 龍華偶像,http://50.7.234.10:8278/lunghuaidol_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=63132f0e4fd076cd4e6f5e89d801789b
 龍華戲劇,http://50.7.234.10:8278/lunghuaxiju_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=6e351c1cca8c4f6d4a8be9b8d774dc0a
@@ -4625,7 +4624,7 @@ TVB 星河,http://50.7.234.10:8278/tvbxinhe_twn/playlist.m3u8?tid=MF7F5665582956
 VIUTV1,http://50.7.234.10:8278/viu1_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=caad8789b260e0d7f41989d626822569
 Viu TV 69,http://50.7.234.10:8278/viutv69_hkdavid/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=fafc3eec91c68947449bb9128bf14d1d
 Viu6,http://50.7.234.10:8278/viusix_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=0e3278c91e170da7eff1f918e81773b5
-iNews 新聞台,http://50.7.234.10:8278/inews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=d4f68707a51c1cdefc28ca9bb63a3a09
+iNews 新聞,http://50.7.234.10:8278/inews_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=d4f68707a51c1cdefc28ca9bb63a3a09
 無線財經資訊台,http://50.7.234.10:8278/tvbcaijing_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=413efcd4db9cfd49173476f71bca09a8
 珍珠台(備用),http://50.7.234.10:8278/pearl_hkdavid/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=bfa8ae404db9cf1bb6a887c74d7543cd
 珍珠台,http://50.7.234.10:8278/pearl_twn/playlist.m3u8?tid=MF7F5665582956655829&ct=19396&tsum=23ce061d52e67be92cb89a222e9958a2
@@ -4779,7 +4778,7 @@ ELEVEN體育3,rtmp://f13h.mine.nu/sat/tv751
 TVB星河,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 澳門蓮花,http://php.jdshipin.com:8880/amlh.php
 東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
-寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
+寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
 TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 三立綜合台,http://37.27.111.214:8080/live/31/hls.m3u8
 中視,http://37.27.111.214:8080/live/7/hls.m3u8
@@ -4787,12 +4786,12 @@ TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 亞洲旅遊台,http://37.27.111.214:8080/live/10/hls.m3u8
 民視台灣,http://37.27.111.214:8080/live/5/hls.m3u8
 HITS,http://37.27.111.214:8080/live/28/hls.m3u8
-民視第一,http://37.27.111.214:8080/live/4/hls.m3u8
+民視第一台,http://37.27.111.214:8080/live/4/hls.m3u8
 博斯無限,http://37.27.111.214:8080/live/15/hls.m3u8
 東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
 國會頻道2,http://37.27.111.214:8080/live/104/hls.m3u8
 鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
-寰宇新聞台灣,http://37.27.111.214:8080/live/63/hls.m3u8
+寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
 中視經典,http://37.27.111.214:8080/live/47/hls.m3u8
 寰宇財經新聞,http://37.27.111.214:8080/live/65/hls.m3u8
 中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
@@ -4807,26 +4806,26 @@ AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
 動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
 晴天,#genre#
-中視新聞台,P2p://generationnexxxt.com:19806/75f4ea0339f14b62b1df49ede1723daa
-寰宇新聞台,P2p://generationnexxxt.com:19806/33c00ed7adda475f9afe8adbd600bd9a
+中視新聞,P2p://generationnexxxt.com:19806/75f4ea0339f14b62b1df49ede1723daa
+寰宇新聞,P2p://generationnexxxt.com:19806/33c00ed7adda475f9afe8adbd600bd9a
 華視新聞,P2p://generationnexxxt.com:19806/ad4759ce4ff244efaa766154165e5d39
 NHK新聞資訊台,P2p://generationnexxxt.com:19806/6dd38f99d9ca484aa3f0a2a50f60ba0f
-無線新聞台(備),P2p://147.135.39.171:9906/66141a3d000c7a12f94c49ad085f4fe9
-無線新聞台,P2p://147.135.39.171:9906/665fe3b70003d98a2157b5c1769244d0
+無線新聞(備),P2p://147.135.39.171:9906/66141a3d000c7a12f94c49ad085f4fe9
+無線新聞,P2p://147.135.39.171:9906/665fe3b70003d98a2157b5c1769244d0
 CGTN,P2p://generationnexxxt.com:19806/1b5e656dd2604b7e9af1133db1f40955
 BBC World News,P2p://generationnexxxt.com:19806/68b66fcb526a469c95968a8a62c27f01
 CNBC,P2p://generationnexxxt.com:19806/0c7b37b4c3254709945af2916fe4848b
 Bloomberg TV,P2p://generationnexxxt.com:19806/b7a11fd04a2f4a44acdab32693edee1e
 CNA,P2p://generationnexxxt.com:19806/061076408ecc4e4c97af6cbe74f897d9
-壹電視新聞台,P2p://generationnexxxt.com:19806/dc5cf9b6bd4a43aa973b9beea88e631b
+壹電視新聞,P2p://generationnexxxt.com:19806/dc5cf9b6bd4a43aa973b9beea88e631b
 年代新聞(備),P2p://generationnexxxt.com:19806/00b0fb08552945cbbaf718f9d815ca73
-東森新聞台,P2p://generationnexxxt.com:19806/311e31668d704df7ade8a4d5e745d49b
-中天新聞台,P2p://generationnexxxt.com:19806/1180a44e6cef425e826c3e798f7f3ea9
-民視新聞台,P2p://generationnexxxt.com:19806/96f9b2974a86449f9a6f881b4e23ca03
-三立新聞台,P2p://generationnexxxt.com:19806/27c4d09b970a447dae2ef153650b7ac1
-TVBS新聞台,P2p://generationnexxxt.com:19806/53f80a10fb054d5ab0649a59980025a9
-東森財經新聞台,P2p://generationnexxxt.com:19806/5634f613b7f84f81a5c56a6af4311d57
-非凡新聞台,P2p://generationnexxxt.com:19806/3d7f2e1d0e04407ba29c656092041b09
+東森新聞,P2p://generationnexxxt.com:19806/311e31668d704df7ade8a4d5e745d49b
+中天新聞,P2p://generationnexxxt.com:19806/1180a44e6cef425e826c3e798f7f3ea9
+民視新聞,P2p://generationnexxxt.com:19806/96f9b2974a86449f9a6f881b4e23ca03
+三立新聞,P2p://generationnexxxt.com:19806/27c4d09b970a447dae2ef153650b7ac1
+TVBS新聞,P2p://generationnexxxt.com:19806/53f80a10fb054d5ab0649a59980025a9
+東森財經新聞,P2p://generationnexxxt.com:19806/5634f613b7f84f81a5c56a6af4311d57
+非凡新聞,P2p://generationnexxxt.com:19806/3d7f2e1d0e04407ba29c656092041b09
 TNN 16,P2p://generationnexxxt.com:19806/7462454333594bef83cd252fa653d14e
 JKN 18,P2p://generationnexxxt.com:19806/5e7619bcc3d648419a7be15d55b0a6df
 三立iNEWS,P2p://generationnexxxt.com:19806/6ec25b8c951a47cfb921435fb1968c16
@@ -4839,14 +4838,14 @@ CBSN,P2p://generationnexxxt.com:19806/3d6d0c5a24e847369695ae867576a4e9
 Fox News,P2p://generationnexxxt.com:19806/a6e8a65e41004e1dbc0ee1c762a5d30e
 NDTV,P2p://generationnexxxt.com:19806/ed51f8ce798c4eb6b1d55d499370d722
 ABC Australia,P2p://generationnexxxt.com:19806/cab3e899c937431f812c75c84b5cdf5f
-台視新聞台,P2p://generationnexxxt.com:19806/3e72f4e960264195b41106221611a5a7
-寰宇新聞台灣台,P2p://generationnexxxt.com:19806/eca259193814499a8bea04411ffceb1e
+台視新聞,P2p://generationnexxxt.com:19806/3e72f4e960264195b41106221611a5a7
+寰宇新聞灣台,P2p://generationnexxxt.com:19806/eca259193814499a8bea04411ffceb1e
 台視財經台,P2p://generationnexxxt.com:19806/adf452cad7a246ca8ccc8301f8184c6e
 CNN,P2p://generationnexxxt.com:19806/88e503d015b54c75866ce86732601017
 now財經台,P2p://generationnexxxt.com:19806/f0dd1f92af2845c2abd2ff29aff2b8ca
-東森新聞台(備),P2p://generationnexxxt.com:19806/f848bf771436495b9ce252af20bea6e2
+東森新聞(備),P2p://generationnexxxt.com:19806/f848bf771436495b9ce252af20bea6e2
 鏡新聞,P2p://generationnexxxt.com:19806/65372d81bcb84ef4b76dd34a6f0e32bc
-now新聞台,P2p://generationnexxxt.com:19806/86a69c6de155405ba916819e2634aa74
+now新聞,P2p://generationnexxxt.com:19806/86a69c6de155405ba916819e2634aa74
 Fox News,P2p://generationnexxxt.com:19806/f8b4af1fac554568956d500f533ed0cf
 BBC World News,P2p://generationnexxxt.com:19806/f666946be06f45e8a2e08ebf1136d385
 CNN USA,P2p://generationnexxxt.com:19806/2c9b8717e3bc4b01b2a76d8ae7ad9776
@@ -4859,23 +4858,23 @@ The Weather Network,P2p://generationnexxxt.com:19806/95294525f47d423081bec37b4a5
 The Weather Channel,P2p://generationnexxxt.com:19806/118d5553ab4e4acc946d08c9d2299949
 香港國際財經台,P2p://generationnexxxt.com:19806/bddf0c6b88474142a2cab7219a93af54
 年代新聞,P2p://generationnexxxt.com:19806/f8c807d770a8429da9d058b516902907
-中天新聞台,P2p://147.135.39.171:9906/668829a300087a07bea90b34300003a6
-無線新聞台,P2p://generationnexxxt.com:19806/132be793de424970abd09ef9fe09db07
+中天新聞,P2p://147.135.39.171:9906/668829a300087a07bea90b34300003a6
+無線新聞,P2p://generationnexxxt.com:19806/132be793de424970abd09ef9fe09db07
 now財經台,P2p://generationnexxxt.com:19806/415e15f33f8b4b5b95a400a406abd534
 Fox News,P2p://generationnexxxt.com:19806/95842d0c7228442a91d0e8a46a8ee1c9
 三立iNEWS,P2p://generationnexxxt.com:19806/1d4ae63a90fa4f77b866e6f907a2c82c
 香港國際財經台,P2p://generationnexxxt.com:19806/b6594fa379204fc5b11ba4bc3fe7d932
 BBC World News,P2p://generationnexxxt.com:19806/7fa4771def7c4896b1b9ea7e022f278c
-now新聞台,P2p://generationnexxxt.com:19806/b9ba3f0b06b14fe69ac2cbf51c77d816
-三立新聞台,P2p://generationnexxxt.com:19806/69427a93f58247d1a31f424cbadc6c4d
-東森新聞台,P2p://generationnexxxt.com:19806/e9f96143b31a4e869309a60c27c66bc4
-TVBS新聞台,P2p://generationnexxxt.com:19806/bb6082c57bae466b9e6c64ba43f2c1e1
+now新聞,P2p://generationnexxxt.com:19806/b9ba3f0b06b14fe69ac2cbf51c77d816
+三立新聞,P2p://generationnexxxt.com:19806/69427a93f58247d1a31f424cbadc6c4d
+東森新聞,P2p://generationnexxxt.com:19806/e9f96143b31a4e869309a60c27c66bc4
+TVBS新聞,P2p://generationnexxxt.com:19806/bb6082c57bae466b9e6c64ba43f2c1e1
 年代新聞,P2p://generationnexxxt.com:19806/cd32e0feca2244288f8a878d7aacf0fc
-非凡新聞台,P2p://generationnexxxt.com:19806/a404066e65af4566931c773a385ed1e3
-有線新聞台,P2p://generationnexxxt.com:19806/f40dc92cdc224868b83be4156ec315dc
-無線新聞台,P2p://generationnexxxt.com:19806/132be793de424970abd09ef9fe09db07#P2p://147.135.39.171:9906/665fe3b70003d98a2157b5c1769244d0
+非凡新聞,P2p://generationnexxxt.com:19806/a404066e65af4566931c773a385ed1e3
+有線新聞,P2p://generationnexxxt.com:19806/f40dc92cdc224868b83be4156ec315dc
+無線新聞,P2p://generationnexxxt.com:19806/132be793de424970abd09ef9fe09db07#P2p://147.135.39.171:9906/665fe3b70003d98a2157b5c1769244d0
 無線新聞備,P2p://147.135.39.171:9906/66141a3d000c7a12f94c49ad085f4fe9
-Now新聞台,P2p://generationnexxxt.com:19806/b9ba3f0b06b14fe69ac2cbf51c77d816
+Now新聞,P2p://generationnexxxt.com:19806/b9ba3f0b06b14fe69ac2cbf51c77d816
 無線翡翠台,P2p://generationnexxxt.com:19806/2c1ef45c2c174f5c8df4d049e1cbccfd
 ﻿無線翡翠備,P2p://147.135.39.171:9906/66430d4f000a06ccb0b20a650b4b5d65
 有線綜合台,P2p://generationnexxxt.com:19806/532d47eca340456a814ba21cc5e68a52
@@ -4909,16 +4908,16 @@ now財經台,P2p://generationnexxxt.com:19806/415e15f33f8b4b5b95a400a406abd534#P
 澳門蓮花,P2p://generationnexxxt.com:19806/f7ac1f0fdbe64fcc82cee29e0b590242#P2p://generationnexxxt.com:19806/cd6e7bcddc7c4e6ea2e6d7b6dfa03ae8
 Hands Up,P2p://generationnexxxt.com:19806/7c21e515d5264c9fa21035456fd5024a
 Thrill,P2p://generationnexxxt.com:19806/d20fff7aa7d64ab19d2a39da2970734a
-中天新聞台,P2p://147.135.39.171:9906/668829a300087a07bea90b34300003a6#P2p://generationnexxxt.com:19806/1180a44e6cef425e826c3e798f7f3ea9
-東森新聞台,P2p://generationnexxxt.com:19806/e9f96143b31a4e869309a60c27c66bc4#P2p://generationnexxxt.com:19806/311e31668d704df7ade8a4d5e745d49b
-TVBS新聞台,P2p://generationnexxxt.com:19806/bb6082c57bae466b9e6c64ba43f2c1e1#P2p://generationnexxxt.com:19806/53f80a10fb054d5ab0649a59980025a9
-三立新聞台,P2p://generationnexxxt.com:19806/69427a93f58247d1a31f424cbadc6c4d#P2p://generationnexxxt.com:19806/27c4d09b970a447dae2ef153650b7ac1
-年代新聞台,P2p://generationnexxxt.com:19806/cd32e0feca2244288f8a878d7aacf0fc#P2p://generationnexxxt.com:19806/f8c807d770a8429da9d058b516902907
-非凡新聞台,P2p://generationnexxxt.com:19806/3d7f2e1d0e04407ba29c656092041b09#P2p://generationnexxxt.com:19806/a404066e65af4566931c773a385ed1e3
-民視新聞台,P2p://generationnexxxt.com:19806/96f9b2974a86449f9a6f881b4e23ca03
-中視新聞台,P2p://generationnexxxt.com:19806/75f4ea0339f14b62b1df49ede1723daa
-寰宇新聞台,P2p://generationnexxxt.com:19806/33c00ed7adda475f9afe8adbd600bd9a
-華視新聞台,P2p://generationnexxxt.com:19806/ad4759ce4ff244efaa766154165e5d39
+中天新聞,P2p://147.135.39.171:9906/668829a300087a07bea90b34300003a6#P2p://generationnexxxt.com:19806/1180a44e6cef425e826c3e798f7f3ea9
+東森新聞,P2p://generationnexxxt.com:19806/e9f96143b31a4e869309a60c27c66bc4#P2p://generationnexxxt.com:19806/311e31668d704df7ade8a4d5e745d49b
+TVBS新聞,P2p://generationnexxxt.com:19806/bb6082c57bae466b9e6c64ba43f2c1e1#P2p://generationnexxxt.com:19806/53f80a10fb054d5ab0649a59980025a9
+三立新聞,P2p://generationnexxxt.com:19806/69427a93f58247d1a31f424cbadc6c4d#P2p://generationnexxxt.com:19806/27c4d09b970a447dae2ef153650b7ac1
+年代新聞,P2p://generationnexxxt.com:19806/cd32e0feca2244288f8a878d7aacf0fc#P2p://generationnexxxt.com:19806/f8c807d770a8429da9d058b516902907
+非凡新聞,P2p://generationnexxxt.com:19806/3d7f2e1d0e04407ba29c656092041b09#P2p://generationnexxxt.com:19806/a404066e65af4566931c773a385ed1e3
+民視新聞,P2p://generationnexxxt.com:19806/96f9b2974a86449f9a6f881b4e23ca03
+中視新聞,P2p://generationnexxxt.com:19806/75f4ea0339f14b62b1df49ede1723daa
+寰宇新聞,P2p://generationnexxxt.com:19806/33c00ed7adda475f9afe8adbd600bd9a
+華視新聞,P2p://generationnexxxt.com:19806/ad4759ce4ff244efaa766154165e5d39
 TVBSHD台,P2p://generationnexxxt.com:19806/5fe15c41a5ed4d5f9262ee28464c45c0#P2p://generationnexxxt.com:19806/9e185dd6c7dd46edb5a7d675e4fca701
 BBC-HD台,P2p://generationnexxxt.com:19806/213ee36f11ba4b9896c8440290ebca3b
 民視-HD台,P2p://generationnexxxt.com:19806/e85920ffa4de4c2cbab08ad68fd1d5ae
@@ -4969,7 +4968,7 @@ TLC旅遊台,P2p://generationnexxxt.com:19806/32000d7eec2049c6b1de2eb8cd3c9348
 動物星球檯,P2p://generationnexxxt.com:19806/b165132a770741bcac023d15750067d3
 ROCK-頻道,P2p://generationnexxxt.com:19806/337165af094e40b48fb6db958ffd1cdc
 卡通頻道台,P2p://generationnexxxt.com:19806/7eb800b1540d4aab9365efc149622aa0
-NHK新聞台,P2p://generationnexxxt.com:19806/6dd38f99d9ca484aa3f0a2a50f60ba0f
+NHK新聞,P2p://generationnexxxt.com:19806/6dd38f99d9ca484aa3f0a2a50f60ba0f
 龍華電影台,P2p://generationnexxxt.com:19806/40368423d7dc44baaac3fbfc644ee9bf
 Smart-知識,P2p://generationnexxxt.com:19806/b90dd56d139b4ef9af62cfa2a07478f8
 靖天映畫台,P2p://generationnexxxt.com:19806/02870872a71c4d2296b35dd02d5a9973
@@ -5059,7 +5058,7 @@ EVE頻道台,P2p://generationnexxxt.com:19806/958f90533a3f4857bd1ea3f6610f45e5
 歷史頻道台,P2p://generationnexxxt.com:19806/b43ae6d6c7264673901171201610d68c
 罪案偵緝台,P2p://generationnexxxt.com:19806/33eb3b21b71b469f9a9e0b780c615230
 EYE戲劇台,P2p://generationnexxxt.com:19806/bffdd8e7cb994d9e80a697632cf0a40f
-台視新聞台,P2p://generationnexxxt.com:19806/3e72f4e960264195b41106221611a5a7
+台視新聞,P2p://generationnexxxt.com:19806/3e72f4e960264195b41106221611a5a7
 寰宇台灣台,P2p://generationnexxxt.com:19806/eca259193814499a8bea04411ffceb1e
 台視財經台,P2p://generationnexxxt.com:19806/adf452cad7a246ca8ccc8301f8184c6e
 緯來日本台,P2p://generationnexxxt.com:19806/f975f456c2124eb78e6afaad3a9db300
@@ -6306,56 +6305,56 @@ TVB 千禧經典台,http://creo.petrel-live.xyz/live/smtv.php?id=Tvbclassic
 客家電視台,http://tero.petrel-live.xyz/live.m3u8?token=-MB3ykNVJ&c=7
 原住民族電視台,http://tero.petrel-live.xyz/live.m3u8?token=SEaVkekn6&c=8
 台視,http://tero.petrel-live.xyz/live.m3u8?token=soi4n1ol1&c=9
-台視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=xI6VYETHA&c=10
-台視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=PtFbzHGLf&c=11
+台視新聞,http://tero.petrel-live.xyz/live.m3u8?token=xI6VYETHA&c=10
+台視新聞,http://tero.petrel-live.xyz/live.m3u8?token=PtFbzHGLf&c=11
 台視財經台,http://tero.petrel-live.xyz/live.m3u8?token=SWi06cjb4&c=12
 中視,http://tero.petrel-live.xyz/live.m3u8?token=Pha2-pW6x&c=13
-中視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=c-b-BmXHj&c=14
-中視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=f62GOYt7S&c=15
+中視新聞,http://tero.petrel-live.xyz/live.m3u8?token=c-b-BmXHj&c=14
+中視新聞,http://tero.petrel-live.xyz/live.m3u8?token=f62GOYt7S&c=15
 中視菁采台,http://tero.petrel-live.xyz/live.m3u8?token=f6Hu5iqdn&c=16
 中視經典台,http://tero.petrel-live.xyz/live.m3u8?token=BPGnID3TS&c=17
 民視,http://tero.petrel-live.xyz/live.m3u8?token=MJSpv_-Fr&c=18
-民視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=jJYUZ2vnl&c=19
-民視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=dnIQg9g6e&c=20
+民視新聞,http://tero.petrel-live.xyz/live.m3u8?token=jJYUZ2vnl&c=19
+民視新聞,http://tero.petrel-live.xyz/live.m3u8?token=dnIQg9g6e&c=20
 民視台灣台,http://tero.petrel-live.xyz/live.m3u8?token=dwHJIVke7&c=21
 民視第一台,http://tero.petrel-live.xyz/live.m3u8?token=rIXkvRMXw&c=22
 民視影劇台,http://tero.petrel-live.xyz/live.m3u8?token=eF7YlMpDl&c=23
 民視綜藝台,http://tero.petrel-live.xyz/live.m3u8?token=FpA-DTN21&c=24
 民視旅遊台,http://tero.petrel-live.xyz/live.m3u8?token=2xkeQnoBS&c=25
 華視,http://tero.petrel-live.xyz/live.m3u8?token=xBMw76DpL&c=26
-華視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=dUoPiNYLf&c=27
-公視新聞網,http://tero.petrel-live.xyz/live.m3u8?token=GBs8aizNR&c=28
+華視新聞,http://tero.petrel-live.xyz/live.m3u8?token=dUoPiNYLf&c=27
+公視新聞,http://tero.petrel-live.xyz/live.m3u8?token=GBs8aizNR&c=28
 TVBS,http://tero.petrel-live.xyz/live.m3u8?token=TZZimDGgu&c=29
 TVBS,http://tero.petrel-live.xyz/live.m3u8?token=T90caqhPW&c=30
 TVBS News,http://tero.petrel-live.xyz/live.m3u8?token=O-O3sYuzb&c=31
-TVBS 新聞台,http://tero.petrel-live.xyz/live.m3u8?token=OLrRFNvHW&c=32
-TVBS新聞台,http://tero.petrel-live.xyz/live.m3u8?token=1T5Ah3s77&c=33
+TVBS 新聞,http://tero.petrel-live.xyz/live.m3u8?token=OLrRFNvHW&c=32
+TVBS新聞,http://tero.petrel-live.xyz/live.m3u8?token=1T5Ah3s77&c=33
 TVBS 精采台,http://tero.petrel-live.xyz/live.m3u8?token=w3o_mjGrB&c=34
 TVBS 歡樂台,http://tero.petrel-live.xyz/live.m3u8?token=xJ-nTwRVl&c=35
 TVBS 綜藝台,http://tero.petrel-live.xyz/live.m3u8?token=ghsyRVdAu&c=36
 TVBS 台劇台,http://tero.petrel-live.xyz/live.m3u8?token=WssEMWxtq&c=37
-東森新聞台,http://tero.petrel-live.xyz/live.m3u8?token=TL09M1ng-&c=38
-東森財經新聞台,http://tero.petrel-live.xyz/live.m3u8?token=v4ZxG4F_n&c=39
-鏡電視新聞台,http://tero.petrel-live.xyz/live.m3u8?token=_aPTQN3CD&c=40
-中天新聞台,http://tero.petrel-live.xyz/live.m3u8?token=EmN722ou6&c=41
-中天新聞台,http://tero.petrel-live.xyz/live.m3u8?token=tu34mC1X6&c=42
+東森新聞,http://tero.petrel-live.xyz/live.m3u8?token=TL09M1ng-&c=38
+東森財經新聞,http://tero.petrel-live.xyz/live.m3u8?token=v4ZxG4F_n&c=39
+鏡電視新聞,http://tero.petrel-live.xyz/live.m3u8?token=_aPTQN3CD&c=40
+中天新聞,http://tero.petrel-live.xyz/live.m3u8?token=EmN722ou6&c=41
+中天新聞,http://tero.petrel-live.xyz/live.m3u8?token=tu34mC1X6&c=42
 中天新聞2台,http://tero.petrel-live.xyz/live.m3u8?token=-jB0VGB6Z&c=43
 中天亞洲台,http://tero.petrel-live.xyz/live.m3u8?token=aYla0qOmF&c=44
-寰宇新聞台,http://tero.petrel-live.xyz/live.m3u8?token=X5gBhvLnc&c=45
-寰宇新聞台,http://tero.petrel-live.xyz/live.m3u8?token=5c1gHfmac&c=46
-寰宇新聞台灣台,http://tero.petrel-live.xyz/live.m3u8?token=E_VZPf9RA&c=47
-寰宇新聞台灣台,http://tero.petrel-live.xyz/live.m3u8?token=B3DHvCWpO&c=48
+寰宇新聞,http://tero.petrel-live.xyz/live.m3u8?token=X5gBhvLnc&c=45
+寰宇新聞,http://tero.petrel-live.xyz/live.m3u8?token=5c1gHfmac&c=46
+寰宇新聞灣台,http://tero.petrel-live.xyz/live.m3u8?token=E_VZPf9RA&c=47
+寰宇新聞灣台,http://tero.petrel-live.xyz/live.m3u8?token=B3DHvCWpO&c=48
 寰宇財經台,http://tero.petrel-live.xyz/live.m3u8?token=q8_HK-ttl&c=49
 寰宇財經台,http://tero.petrel-live.xyz/live.m3u8?token=GfDfVDPBJ&c=50
 三立綜合台,http://tero.petrel-live.xyz/live.m3u8?token=VIDjBgqaw&c=51
-三立新聞台,http://tero.petrel-live.xyz/live.m3u8?token=IkBQv9EZY&c=52
-三立新聞台,http://tero.petrel-live.xyz/live.m3u8?token=zmgb8noPG&c=53
+三立新聞,http://tero.petrel-live.xyz/live.m3u8?token=IkBQv9EZY&c=52
+三立新聞,http://tero.petrel-live.xyz/live.m3u8?token=zmgb8noPG&c=53
 新唐人亞太,http://tero.petrel-live.xyz/live.m3u8?token=l0w6DPmbd&c=54
 Bloomberg TV,http://tero.petrel-live.xyz/live.m3u8?token=9dWxMR5_t&c=55
 VOA 美國之音,http://tero.petrel-live.xyz/live.m3u8?token=sl_AuV9nr&c=56
 DW 德國之聲,http://tero.petrel-live.xyz/live.m3u8?token=h7IuzxuNA&c=57
 SBN 全球財經台,http://tero.petrel-live.xyz/live.m3u8?token=uPWuObtoW&c=58
-半島國際新聞台,http://tero.petrel-live.xyz/live.m3u8?token=KaiXCzx1C&c=59
+半島國際新聞,http://tero.petrel-live.xyz/live.m3u8?token=KaiXCzx1C&c=59
 第1商業台,http://tero.petrel-live.xyz/live.m3u8?token=9phsoRe7c&c=60
 CNBC Asia 財經台,http://tero.petrel-live.xyz/live.m3u8?token=g6FjkLUYu&c=61
 八大精彩台,http://tero.petrel-live.xyz/live.m3u8?token=01YrnLLti&c=62
@@ -6484,9 +6483,9 @@ TVB 星河台,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 TVB 星河台,https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
 TVB 功夫台,http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
 TVB 功夫台,https://edge6a.v2h-cdn.com/asia_action/asia_action.stream/chunklist.m3u8
-TVB 娛樂新聞台,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
-TVB 娛樂新聞台,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
-無線新聞台,http://live.cooltv.top/tv/tvb.php?id=2
+TVB 娛樂新聞,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
+TVB 娛樂新聞,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
+無線新聞,http://live.cooltv.top/tv/tvb.php?id=2
 台視,rtmp://f13h.mine.nu:1935/sat/tv071
 中視,rtmp://f13h.mine.nu:1935/sat/tv091
 民視,rtmp://f13h.mine.nu:1935/sat/tv051
@@ -6594,10 +6593,10 @@ CNNj,https://stream01.willfonk.com/live_playlist.m3u8?cid=CS354&r=FHD&ccode=JP&m
 香港,#genre#
 HKTVB翡翠台,zlive://38.114.114.155:6678/b79e039cf916301bdf2cd5003dcffcb8
 HKTVBPlus,zlive://38.114.114.155:6678/fe32c69a556bb89480ea1f91c286a2f0
-HKTVB無線新聞台,zlive://38.114.114.155:6678/fe3d78b8702e7fee9619efdbeb15aa8a
+HKTVB無線新聞,zlive://38.114.114.155:6678/fe3d78b8702e7fee9619efdbeb15aa8a
 HKTVB明珠台,zlive://38.114.114.155:6678/1f84a5336f77af2188f9fcb061f540ba
 HKVIUTV,zlive://38.114.114.155:6678/ab9d631a4107e00bfda05be4cbfc8d06
-Now新聞台,zlive://38.114.114.155:6678/2dc6788364645f38b1d41715b2e8be23
+Now新聞,zlive://38.114.114.155:6678/2dc6788364645f38b1d41715b2e8be23
 Now財經台,zlive://38.114.114.155:6678/4a18ecc005cf816447a0c0332b09a5a4
 Now直播台,zlive://38.114.114.155:6678/d8d2a0364aed4a7ecc2270274aba037d
 Now爆谷星影台,zlive://38.114.114.155:6678/003f20232a0af63646db5ed350aadcfc
@@ -6640,7 +6639,7 @@ TVB亞洲綜藝,zlive://38.114.114.155:6678/9a0a55d5b3d8b02b7346cf7a5cd7d05b
 TVB千禧經典台,zlive://38.114.114.155:6678/bcee6532e2dfb92425d4b0536cf99313
 TVB華語劇台(粵),zlive://38.114.114.155:6678/d9e1aa407bc482358e70bc7641bf9c79
 TVB華語劇台(國),zlive://38.114.114.155:6678/fcbdec3790d9141a52dde693c7d989e8
-TVB娛樂新聞台,zlive://38.114.114.155:6678/cc49da63657864c7cbc42b640ffc60dc
+TVB娛樂新聞,zlive://38.114.114.155:6678/cc49da63657864c7cbc42b640ffc60dc
 TVB戲曲台,zlive://38.114.114.155:6678/457897a7d74db36e9f8bacddd0cf225e
 TVB星河(粵),zlive://38.114.114.155:6678/d37357214902b7a9127b6b1d14ab6b6d
 TVBSUPER18台,zlive://38.114.114.155:6678/dc9d5ebb339c7bcd8d9137c2572907db
@@ -6661,7 +6660,7 @@ RTHK33,zlive://38.114.114.155:6678/da2e9b31c4da6343c3fa1ccb1fe31bf1
 RTHK34,zlive://38.114.114.155:6678/792c515a9f2d5e310e0c35d09020d69f
 RTHK35,zlive://38.114.114.155:6678/0bbc87c8813c74eb60b2f806a2210941
 NHKS香港衛視,zlive://38.114.114.155:6678/08676c2f180b95423b0dd80b51d4744e
-神州新聞台CH701,zlive://38.114.114.155:6678/a780aaac74cc4ab935af37c259e29384
+神州新聞CH701,zlive://38.114.114.155:6678/a780aaac74cc4ab935af37c259e29384
 美國舊金山KTSF-26,zlive://38.114.114.155:6678/df167a8966da67d8cf2e0ba93c723574
 美國中文電視,zlive://38.114.114.155:6678/2681b2f8568be95c08fc5a1075f2f130
 創世電視,zlive://38.114.114.155:6678/bb0b3741fd6568bea1dcaa78f4302819
@@ -6669,24 +6668,24 @@ NHKS香港衛視,zlive://38.114.114.155:6678/08676c2f180b95423b0dd80b51d4744e
 澳門蓮花衛視,zlive://38.114.114.155:6678/6857ee9f1733dd3165dd938069ae15ec
 
 台灣,#genre#
-TVBS新聞台,zlive://38.114.114.155:6678/359f3aaab4814fea75f1972b14f5cc2d
-東森新聞台,zlive://38.114.114.155:6678/efe3b6a9a907ca31508eb8637eade31e
-中天新聞台,zlive://38.114.114.155:6678/83cb6093ac4fee708944e582c3741413
-中視新聞台,zlive://38.114.114.155:6678/5a48fccb9f56d51330da753162e13853
-年代新聞台,zlive://38.114.114.155:6678/2f31185bffb3df9105cfa70523df0283
+TVBS新聞,zlive://38.114.114.155:6678/359f3aaab4814fea75f1972b14f5cc2d
+東森新聞,zlive://38.114.114.155:6678/efe3b6a9a907ca31508eb8637eade31e
+中天新聞,zlive://38.114.114.155:6678/83cb6093ac4fee708944e582c3741413
+中視新聞,zlive://38.114.114.155:6678/5a48fccb9f56d51330da753162e13853
+年代新聞,zlive://38.114.114.155:6678/2f31185bffb3df9105cfa70523df0283
 台視新聞,zlive://38.114.114.155:6678/27df0bd194672960a567609d6275db15
-寰宇新聞台,zlive://38.114.114.155:6678/f359629dae2739a925b5a6d29a24832c
-寰宇新聞台灣台,zlive://38.114.114.155:6678/80c7ee5dce8ef2c463528088fc91ccf3
-民視新聞台,zlive://38.114.114.155:6678/9b0761212a87ada8fddcb48469b6d8d9
-壹電視新聞台,zlive://38.114.114.155:6678/dc5b18a6891364897ca37be8cfeea966
+寰宇新聞,zlive://38.114.114.155:6678/f359629dae2739a925b5a6d29a24832c
+寰宇新聞灣台,zlive://38.114.114.155:6678/80c7ee5dce8ef2c463528088fc91ccf3
+民視新聞,zlive://38.114.114.155:6678/9b0761212a87ada8fddcb48469b6d8d9
+壹電視新聞,zlive://38.114.114.155:6678/dc5b18a6891364897ca37be8cfeea966
 鏡電視新聞,zlive://38.114.114.155:6678/5a5d334531b59625a4ec8686ad90bdc6
-三立新聞台,zlive://38.114.114.155:6678/27767bd0f4f07655f2764dcd2ee185d2
+三立新聞,zlive://38.114.114.155:6678/27767bd0f4f07655f2764dcd2ee185d2
 華視新聞資訊台,zlive://38.114.114.155:6678/ea5f0f79cb0f7c500087f1ed09e1d66d
-非凡新聞台,zlive://38.114.114.155:6678/d562615cf74e0abf97c677f659a23e2c
+非凡新聞,zlive://38.114.114.155:6678/d562615cf74e0abf97c677f659a23e2c
 寰宇財經台,zlive://38.114.114.155:6678/558063e7b4f2213a15428700719e3d88
 非凡商業台,zlive://38.114.114.155:6678/ae97a411299f6d1da71965abf3fbf073
 台視財經台,zlive://38.114.114.155:6678/c9d8271f2b5cbf1e3ec8b676aff7d0cb
-東森財經新聞台,zlive://38.114.114.155:6678/7704d253c3d6cc14de3eaec2c5c6f079
+東森財經新聞,zlive://38.114.114.155:6678/7704d253c3d6cc14de3eaec2c5c6f079
 SBN全球財經台,zlive://38.114.114.155:6678/eacd0a053212aa0af32298bafa0163d1
 CNBCAsia財經台,zlive://38.114.114.155:6678/2f8643c92ae972e024234ca35785351d
 三立財經新聞,zlive://38.114.114.155:6678/e27cb3de5a31163ec183d55db74b15ee
@@ -7118,28 +7117,28 @@ UKSkySportsNews,zlive://38.114.114.155:6678/9933fc2a04ce31e06a9aac3ad836e6af
 Arirang TV,https://4gtv.livednow.us.kg/litv/4gtv-4gtv079
 Bloomberg TV,https://4gtv.livednow.us.kg/4gtv/283
 新聞財經,#genre#
-民視新聞台,https://4gtv.livednow.us.kg/litv/litv-ftv13
-中視新聞台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv074
-中天新聞台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv009
+民視新聞,https://4gtv.livednow.us.kg/litv/litv-ftv13
+中視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv074
+中天新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv009
 華視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv052
 靖天資訊台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv065
-寰宇新聞台,https://4gtv.livednow.us.kg/litv/litv-longturn14
-寰宇新聞台灣台,https://4gtv.livednow.us.kg/litv/litv-longturn15
+寰宇新聞,https://4gtv.livednow.us.kg/litv/litv-longturn14
+寰宇新聞灣台,https://4gtv.livednow.us.kg/litv/litv-longturn15
 寰宇財經台,https://4gtv.livednow.us.kg/litv/litv-longturn23
-TVBS 新聞台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv072
+TVBS 新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv072
 三立新聞,https://4gtv.livednow.us.kg/4gtv/229
-台視新聞台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv051
+台視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv051
 台視財經台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv056
 東森新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv152
 東森財經新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv153
-非凡新聞台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv010
+非凡新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv010
 非凡商業台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv048
-鏡電視新聞台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv075
+鏡電視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv075
 CNBC Asia 財經台,https://4gtv.livednow.us.kg/4gtv/235
 VOA 美國之音,https://4gtv.livednow.us.kg/litv/litv-ftv03
 DW德國之聲,https://4gtv.livednow.us.kg/4gtv/226
 SBN 全球財經台,https://4gtv.livednow.us.kg/4gtv/224
-半島國際新聞台,https://4gtv.livednow.us.kg/litv/litv-ftv10
+半島國際新聞,https://4gtv.livednow.us.kg/litv/litv-ftv10
 第1商業台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv104
 電影戲劇,#genre#
 民視影劇台,https://4gtv.livednow.us.kg/litv/litv-ftv09
