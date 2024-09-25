@@ -1,6 +1,6 @@
 {
-  //FROM: https://rb.gy/wcjqb5
-  //FROM: https://robyang.bsite.net/VodLive/sb8ffa
+  "note":"FROM: https://rb.gy/wcjqb5",
+  "note2":"https://robyang.bsite.net/VodLive/sb8ffa",
   "wallpaper": "http://img.fongmi.eu.org",
   "logo": "http://img.fongmi.eu.org/fongmi.jpg",
   "urls": [
@@ -25,7 +25,8 @@
       "name": "OK"
     },
     {
-      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/", //牛二(常规top) http://tvbox.xn--4kq62z5rby2qupq9ub.top
+      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/", 
+      "url_others": "牛二(常规top) http://tvbox.xn--4kq62z5rby2qupq9ub.top",
       "name": "王二小放牛娃"
     },
     {
@@ -35,6 +36,10 @@
        {
       "url": "http://like.肥猫.com/你好",
       "name": "肥猫"
+    },
+    {
+      "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-VI.json",
+      "name": "DoKiss"
     },
 
     //-------------- Kids  ------------

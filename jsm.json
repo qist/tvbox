@@ -1184,6 +1184,83 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
+            "name": "TTLive",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "SYLive",
+            "type": 0,
+            "url": "https://gitee.com/shangyunvip/yscdx/raw/master/lives/sylive.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "ZHLive",
+            "type": 0,
+            "url": "https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axghnvpkxk5c/b/vircloud/o/ipv6.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "HDLive",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/ctsfork/web/main/iptv/hd-live-all.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "TVLive",
+            "type": 0,
+            "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/lib/TVlive.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "FMLive",
+            "type": 0,
+            "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",           
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "DXLive",
+            "type": 0,
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "YCLive",
+            "type": 0,
+            "url": "https://m3u.ibert.me/txt/ycl_iptv.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "YGLive",
+            "type": 0,
+            "url": "https://m3u.ibert.me/txt/y_g.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "IPTV4",
+            "type": 0,
+            "url": "https://wzsvip.github.io/ipv4.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "IPTV6",
+            "type": 0,
+            "url": "https://wzsvip.github.io/ipv6.txt",            
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
             "group": "redirect",
             "channels": [
                 {
@@ -1197,7 +1274,7 @@
         {"name": "香蕉哥直播","url": "https://tv.iill.top/m3u/Gather","ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","pass": true,"logo": "https://epg.112114.xyz/logo/{name}.png"  },
         {"name":"fmm","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"},
         {"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"},
-        {"name":"ipv6","type":0,"url":"./tvboxtv.txt","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"}
+        {"name":"ipv6","type":0,"url":"https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/tvboxtv.txt","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"}
     ]
 }
 
