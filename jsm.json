@@ -63,7 +63,7 @@
 {"key":"农民","name":"影视 |农民[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"数组":"<li>&&</li>","图片":"src=\"&&\"","分类url":"https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html","分类":"短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 {"key":"骚火","name":"影视 | 骚火[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"嗅探词":".m3u8#.mp4#.m3u8?#freeok.mp4","分类url":"https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0","分类":"电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4","数组二次截取":"class=\"v_list\">&&</ul>","数组":"\"v_img\"&&/div>","标题":"title=\"&&\"","副标题":"v_note\"&&</div","跳转播放链接":"<iframe*src=\"&&\"","二次跳转播放链接":"https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1","三次跳转播放链接":"\"url\"*\"&&\""},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 {"key":"晴天","name":"影视 | 晴天[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.qinttv.com/qtyy/{cateId}/area/{area}/page/{catePg}/year/{year}.html","搜索url":"https://www.qinttv.com/qtcz.html;post;wd={wd}&submit=","分类":"电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
-{"key":"Freeok","name":"影视 | Freeok[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html;;ar1","分类":"电影&剧集&动漫&综艺&短剧&少儿","分类值":"1&2&3&4&12&5","副标题":"<div class=\"module-item-note\">&&</div>","嗅探词":"m3u8#.m3u8#.mp4#freeok.mp4#/obj/","线路数组":"data-dropdown-value=&&</div>","导演":"导演：&&</div>","主演":"主演：&&</div>","简介":"<p>&&</p>"},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
+{"key":"Freeok","name":"影视 | Freeok[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.freeok.vip/vod-show/{cateId}-{area}-------------{catePg}---{year}.html;;ar1","分类":"电影&剧集&动漫&综艺&短剧&少儿","分类值":"1&2&3&4&12&5","副标题":"<div class=\"module-item-note\">&&</div>","嗅探词":"m3u8#.m3u8#.mp4#freeok.mp4#/obj/","线路数组":"data-dropdown-value=&&</div>","导演":"导演：&&</div>","主演":"主演：&&</div>","简介":"<p>&&</p>"},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 {"key":"奇优","name":"影视 | ️奇优[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇优.json","jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 {"key":"云播","name":"影视 | 云播[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"影片类型":"分类：&&主演","导演":"导演：</span>&&</p>","主演":"主演：</span>&&</p>","简介":"class=\"sketch content\">&&</span>","数组":"myui-vodlist__thumb&&</a>","标题":"title=\"&&\"","副标题":"pic-tag pic-tag-top\">&&</span>","图片":"data-original=\"&&\"","链接":"href=\"&&\"","搜索模式":"1","搜索url":"http://www.hktvyun.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=500","搜索二次截取":"\"list\":[&&]","搜索数组":"{&&}","搜索标题":"\"name\":\"&&\"","搜索图片":"\"pic\":\"&&\"","搜索链接":"http://www.hktvyun.com/vod/detail/id/+\"id\":&&,+html","嗅探词":".m3u8#mp4","线路数组":"</a><h3&&/h3>","线路标题":"title\">&&<","播放数组":"<ul class=\"myui-content__list scrollbar&&</ul>","播放标题":">&&<","播放列表":"<a&&/a>","分类url":"http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;a","分类":"电影$1#电视剧$2#综艺$3#动漫$4"},"jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 
@@ -427,12 +427,12 @@
 {"key":"一起看影视","name":"影视 | 一起看","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"线路数组":"sb-ico-playerico-Azhan\">&&</li>","分类url":"https://www.cpldq.com/cptype/{cateId}-{catePg}.html","分类":"短剧$30#电视剧$2#国产剧$13#香港剧$14#台湾剧$32#韩剧$16#日剧$33#欧美剧$15#电影$1#动作片$5#爱情片$6#科幻片$7#恐怖片$8#战争片$9#喜剧片$10#剧情片$12#动漫$4#综艺$3"}},
 {"key":"网飞TV","name":"影视 | 网飞TV","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"小林子为您剧情介绍:+line-height:20px;\">&&</div>","线路数组":"module-tab-itemtab-item\"&&</div>","分类url":"https://www.wangfei.tv/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类":"国产剧$guochanju#电影$dy#电视剧$juji#综艺$zongyi#动漫$dongman"}},
 {"key":"乐鱼TV","name":"影视 | 乐鱼TV","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"小林子为您剧情介绍:+tjuqing\">&&</div>","线路数组":"<li&&</li>","线路二次截取":"<ulid=\"play\">&&</ul>","线路标题":">&&<","分类url":"https://www.yu992.com/lys/ly{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$Movie#电视剧$Tv#综艺$Variety#动漫$Cartoon"}},
-{"key":"哈皮TV","name":"影视 | 哈皮TV","type":3,"changeable":1,"searchable":1,"quickSearch":1,"filterable":1,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","ext":{"主页url":"https://www.hapetv.com/","副标题":"pic-texttext-right\">&&</b>","图片":"data-original=\"&&\"","嗅探词":".mp4#m3u8#.m3u8#/tos/#.flv#video/tos","影片类型":"<divclass=\"module-info-tag\">&&立即播放","线路数组":"href=\"#con_playlist_*\"&&</li>","线路标题":"vip?+tab\">&&</a","导演":"导演：&&</div>","主演":"主演：&&</div>","分类":"电影$1#电视剧$2#动漫$4#综艺$3#短剧$38","分类url":"https://www.hapetv.com/vod-show/{cateId}-{area}-------{catePg}---{year}/"}},
+{"key":"哈皮TV","name":"影视 | 哈皮TV","type":3,"changeable":1,"searchable":1,"quickSearch":1,"filterable":1,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","ext":{"主页url":"https://www.hapetv.com/","副标题":"pic-texttext-right\">&&</b>","图片":"data-original=\"&&\"","嗅探词":".mp4#m3u8#.m3u8#/tos/#.flv#video/tos","影片类型":"<divclass=\"module-info-tag\">&&立即播放","线路数组":"href=\"#con_playlist_*\"&&</li>","线路标题":"vip?+tab\">&&</a","导演":"导演：&&</div>","主演":"主演：&&</div>","分类":"电影$1#电视剧$2#动漫$4#综艺$3#短剧$38","分类url":"https://www.hapetv.com/vod-show/{cateId}-{area}-------------{catePg}---{year}/"}},
 {"key":"暖影院","name":"影视 | 暖影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"副标题":"hl-lc-1remarks\">*&nbsp;|&nbsp;&&</span>","分类url":"https://www.nuantv.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}/","分类":"国产剧$lj#电视剧$dsj#电影$dy#动漫$dm"}},
 {"key":"剧兔","name":"影视 | 追剧兔子","type":3,"api":"csp_AppYsV2","ext":"https://www.zjtu.one/api.php/app/"},
 {"key":"酷云七七","name":"影视 | 酷云七七","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"小林子为您剧情介绍:+video-info-itemvideo-info-contentvod_content\">&&</div>","数组":"<a&&module-item-cover","图片":"src=\"&&\"","标题":"alt=\"&&\">","副标题":"module-item-text\">&&</div>","播放数组":"module-blocklistscroll-boxscroll-box-y\">&&</div>","分类url":"https://sc1080.top/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类":"短剧$21#电视剧$2#电影$1#动漫$4#综艺$3"}},
 {"key":"drpy2_js_大师兄影视[优]","name":"影视 | 大师兄[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/大师兄影视[优].js"},
-{"key":"vs影视","name":"影视 | vs影视","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"分类url":"https://www.nxgqmy.com/ybsitp/{cateId}-{catePg}.html","线路数组":"#playlist&&</li>","播放数组":"myui-content__listsort-list&&</ul>","播放列表":"<a&&</a>","播放标题":">&&<[不包含:APP秒播]","跳转播放链接":"src=\"https://jiexi.ddmz6.com/api/publicApi.php?url=&&\"","简介":"小林子祝您观影愉快","分类数组":"tab_item\">&&</li>","分类标题":">&&</a>","分类ID":"/ybsisw/&&-----------.html"}},
+{"key":"vs影视","name":"影视 | vs影视","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"分类url":"https://www.nxgqmy.com/ybsitp/{cateId}-{catePg}.html","线路数组":"#playlist&&</li>","播放数组":"myui-content__listsort-list&&</ul>","播放列表":"<a&&</a>","播放标题":">&&<[不包含:APP秒播]","跳转播放链接":"src=\"https://jiexi.ddmz6.com/api/publicApi.php?url=&&\"","简介":"小林子祝您观影愉快","分类数组":"tab_item\">&&</li>","分类标题":">&&</a>","分类ID":"/ybsisw/&&-----------------.html"}},
 {"key":"影渣渣","name":"影视 | 影渣渣","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"小林子为您剧情介绍:+module-info-introduction-content\">&&</div>","分类url":"https://www.yingzhazha.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"}},
 {"key":"少泽影客（APP）","name":"影视 | 少泽影客","type":3,"api":"csp_AppYsV2","ext":"https://yk.shaozeyy.com/api.php/app/"},
 {"key":"天天美剧网（APP）","name":"影视 | 天天美剧","type":3,"api":"csp_AppYsV2","ext":"https://www.ttmja.com/api.php/app/"},
@@ -658,29 +658,6 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png",
             "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
         },        
-        // {
-        //     "name": "兩光｜台港中際",
-        //     "type": 0,
-        //     "url": "https://files.catbox.moe/eqxfq5.txt",
-        //     "ua": "okhttp/4.12.0",
-        //     "timeout": 1,
-        //     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-        //     "logo": "https://epg.112114.xyz/logo/{name}.png"
-        // },
-        {
-            "name": "晴天｜台港",
-            "type": 0,
-            "url": "https://4026.kstore.space/tv/p2p.txt",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "月光｜雜中台港日韓際",
-            "type": 0,
-            "url": "https://guot55.serv00.net/zb4.php",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
         {
             "name": "UBTV｜台港中際",
             "type": 0,
@@ -690,15 +667,7 @@
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Kuala_Lumpur",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
-        {
-            "name": "U6V｜中台港,密碼:48635",
-            "url": "http://u6v.cn/5MF6C7",
-            "type": 0,
-            "ua": "okhttp/4.12.0",
-            "timeout": 5,
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
+
         {
             "name": "一盒｜港台際", 
             "type": 0,
@@ -878,10 +847,36 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "------以下可能已經失效-------",
+            "name": "------------以下可能已經失效-------------",
             "type": 0,
             "url": "https://rb.gy/vryc96"
         },
+        // {
+        //     "failed": "2024-09-25 list but no streamming",
+        //     "name": "晴天｜台港",
+        //     "type": 0,
+        //     "url": "https://4026.kstore.space/tv/p2p.txt",
+        //     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+        //     "logo": "https://epg.112114.xyz/logo/{name}.png"
+        // },
+        // {
+        //     "failed": "2024-09-25 no list",
+        //     "name": "月光｜雜中台港日韓際",
+        //     "type": 0,
+        //     "url": "https://guot55.serv00.net/zb4.php",
+        //     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+        //     "logo": "https://epg.112114.xyz/logo/{name}.png"
+        // },
+        // {
+        //     "failed": "2024-09-25 list but no streamming",
+        //     "name": "U6V｜中台港,密碼:48635",
+        //     "url": "http://u6v.cn/5MF6C7",
+        //     "type": 0,
+        //     "ua": "okhttp/4.12.0",
+        //     "timeout": 5,
+        //     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+        //     "logo": "https://epg.112114.xyz/logo/{name}.png"
+        // },
         {     "note": "2024-09-18 334078da",
               "name":"安博唐三｜台港",
               "url":"https://tang.hz.cz/zb/anbo?token=09759777",
@@ -1079,7 +1074,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "------以下爲測試直播-------",
+            "name": "------------以下爲測試直播-------------",
             "type": 0,
             "url": "https://ghp.ci/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/liveTVList.txt"
         },
@@ -1184,79 +1179,68 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "TTLive",
+            "name": "TTLive | China Only",
             "type": 0,
             "url": "https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "SYLive",
+            "faile": "2024-09-25 list but no streamming",
+            "name": "SYLive | messy",
             "type": 0,
             "url": "https://gitee.com/shangyunvip/yscdx/raw/master/lives/sylive.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "ZHLive",
+            "faile": "2024-09-25 list but no streamming",
+            "name": "ZHLive | China Only",
             "type": 0,
             "url": "https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axghnvpkxk5c/b/vircloud/o/ipv6.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "HDLive",
+            "name": "HDLive | China, Internation",
             "type": 0,
             "url": "https://raw.githubusercontent.com/ctsfork/web/main/iptv/hd-live-all.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "TVLive",
+            "faile": "2024-09-25 list but no streamming",
+            "name": "TVLive | China Taiwan Hongkong",
             "type": 0,
             "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/lib/TVlive.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "FMLive",
+            "name": "FMLive | China Only",
             "type": 0,
             "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",           
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "DXLive",
+            "name": "DXLive | China Only",
             "type": 0,
             "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "YCLive",
+            "name": "YCLive | China, Internation",
             "type": 0,
             "url": "https://m3u.ibert.me/txt/ycl_iptv.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "YGLive",
+            "name": "YGLive | China Only",
             "type": 0,
             "url": "https://m3u.ibert.me/txt/y_g.txt",            
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "IPTV4",
-            "type": 0,
-            "url": "https://wzsvip.github.io/ipv4.txt",            
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "IPTV6",
-            "type": 0,
-            "url": "https://wzsvip.github.io/ipv6.txt",            
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
