@@ -1,7 +1,4 @@
 
-🏘️Rob Yang就是我,#genre#
-Js=a
-我們不熟,http://www.youtube.com/watch?v=ylYJSBUgaMA
 
 
 📺YouTube 新聞,#genre#
@@ -120,6 +117,14 @@ TVBS NEWS LIVE,https://www.youtube.com/watch?v=m_dhMSvUCIc
 寰宇新聞,https://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
 台視新聞台,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
 民視新聞台,https://www.youtube.com/live/ylYJSBUgaMA
+
+
+
+🏘️Rob Yang就是我,#genre#
+Js=a
+我們不熟,http://www.youtube.com/watch?v=ylYJSBUgaMA
+
+
 
 📺YouTube 兒童,#genre#
 YOYOTV,https://www.youtube.com/watch?v=yks2_Og6MY4
