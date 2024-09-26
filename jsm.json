@@ -649,7 +649,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "🏠RobYang | Youtube (蜂蜜影視2.6.3後)",
+            "name": "🏠RobYang | Youtube (蜂蜜影視2.3.4前或2.6.3後)",
             "type": 0,
             "url": "https://robyang.bsite.net/VodLive/lb8ffa",
             "ua": "okhttp/4.12.0",
