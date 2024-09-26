@@ -8,18 +8,6 @@
 */
 function parseXML(json) {
     let list = [];
-       /**
-     * <d p="{time},{type},{size},{color},{timestamp},{pool},{uid_crc32},{row_id}">
-     *
-     * {Text}
-     * time为弹幕在视频里的时间 -->
-     * type为弹幕类型 -->
-     * size为字体大小 -->
-     * color为十进制的RGB颜色（16进制转10进制） -->
-     * timestamp为弹幕发送时间戳（unix时间戳） -->
-     * pool为弹幕池 -->
-     * uid_crc32为发送者uid的crc32 -->
-     */
     Array.from(json.danmuku).forEach(x => {
         let start = Number(x[0]);
         let content = x[4];
