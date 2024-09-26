@@ -657,7 +657,7 @@
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
             "logo": "https://epg.112114.xyz/logo/{name}.png",
             "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-        },        
+        },   
         {
             "name": "UBTV｜台港中際",
             "type": 0,
@@ -695,6 +695,14 @@
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
+        {
+            "name": "一盒｜International", 
+            "type": 0,
+            "url": "https://anbox118.serv00.net/sapphire.php",
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+       },
         {
             "name": "晨瑞｜雜中港澳(有台灣)",
             "type": 0,
@@ -1091,7 +1099,7 @@
         },
         {
             "note": "2024-09-09 good",
-            "name": "RobYang test2",
+            "name": "RobYang test2 | Good",
             "type": 0,
             "url": "https://hlspull.iptv8k.top/iptv/ubtv.php",
             "ua": "okhttp/4.12.0",
