@@ -346,7 +346,6 @@
 {"key":"csp_Yhys","name":"影视 | 宇航｜肥貓","type":3,"api":"csp_Yhys","jar":"./jar/PandaQ240913.jar"},
 {"key":"宇航影视","name":"影视 | 宇航｜XYQ","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"小林子为您剧情介绍:+video-info-itemvideo-info-contentvod_content\">&&</div>","分类url":"http://yuhang007.com/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类":"短剧$34#电视剧$2#电影$1#动漫$4#综艺$3"}},
 {"key":"csp_XYQHiker_华乐影院","name":"影视 | 华乐","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/华乐影院.json","jar":"./jar/zy.jar"},
-{"key":"drpy_js_小宝影院[飞]","name":"影视 | 小宝","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js","User-Agent":"Mozilla/5.0(Linux;Android11;M2101K9CBuild/RKQ1.201112.002;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/76.0.3809.89MobileSafari/537.36T7/12.16SearchCraft/3.9.1(Baidu;P111)"},
 {"key":"drpy_js_139影视","name":"影视 | 139","type":3,"api":"./lib/drpy2.min.js","ext":"./js/139影视.js"},
 {"key":"cc_热播之家","name":"影视 | 热播之家","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/c.jar","ext":"./json/热播之家.json"},
 {"key":"热播之家","name":"影视 | 热播｜XYQ","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"分类":"电影$1#电视剧$2#动漫$4#综艺$5","分类url":"https://rebozj.pro/type/{cateId}.html"}},
