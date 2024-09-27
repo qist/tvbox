@@ -702,6 +702,35 @@ CNN Indonesia,https://z88.ubtvfans.com/live/rx5/1145/d974c24bd1cdd3a88cde844fe11
 
 
 
+民視新聞,https://4gtv.livednow.us.kg/litv/litv-ftv13
+中視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv074
+中天新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv009
+華視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv052
+靖天資訊台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv065
+寰宇新聞,https://4gtv.livednow.us.kg/litv/litv-longturn14
+寰宇新聞灣台,https://4gtv.livednow.us.kg/litv/litv-longturn15
+寰宇財經台,https://4gtv.livednow.us.kg/litv/litv-longturn23
+TVBS 新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv072
+三立新聞,https://4gtv.livednow.us.kg/4gtv/229
+台視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv051
+台視財經台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv056
+東森新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv152
+東森財經新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv153
+非凡新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv010
+非凡商業台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv048
+鏡電視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv075
+CNBC Asia 財經台,https://4gtv.livednow.us.kg/4gtv/235
+VOA 美國之音,https://4gtv.livednow.us.kg/litv/litv-ftv03
+DW德國之聲,https://4gtv.livednow.us.kg/4gtv/226
+SBN 全球財經台,https://4gtv.livednow.us.kg/4gtv/224
+半島國際新聞,https://4gtv.livednow.us.kg/litv/litv-ftv10
+第1商業台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv104
+
+
+
+
+
+
 
 
 
@@ -1167,7 +1196,7 @@ Food Network 英,http://free.xiptv.x10.bz/anbo/?id=1421
 
 
 
-綜藝頻道,#genre#
+綜藝,#genre#
 --------------四季------------------
 民視綜藝台,https://litv.zapi.us.kg/?id=4gtv-4gtv004
 中視菁採,http://tw.ts138.top/4g/?id=4gtv-4gtv064#https://litv.zapi.us.kg/?id=4gtv-4gtv064
@@ -1283,7 +1312,7 @@ MEZZO LIVE,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv083
 
 
 
-台視電視,#genre#
+🇹🇼台視電視,#genre#
 
 --------------四季------------------
 民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv001
@@ -1396,30 +1425,10 @@ Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
 台視,https://4gtv.livednow.us.kg/litv/4gtv-4gtv066
 Arirang TV,https://4gtv.livednow.us.kg/litv/4gtv-4gtv079
 Bloomberg TV,https://4gtv.livednow.us.kg/4gtv/283
-新聞財經,#genre#
-民視新聞,https://4gtv.livednow.us.kg/litv/litv-ftv13
-中視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv074
-中天新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv009
-華視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv052
-靖天資訊台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv065
-寰宇新聞,https://4gtv.livednow.us.kg/litv/litv-longturn14
-寰宇新聞灣台,https://4gtv.livednow.us.kg/litv/litv-longturn15
-寰宇財經台,https://4gtv.livednow.us.kg/litv/litv-longturn23
-TVBS 新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv072
-三立新聞,https://4gtv.livednow.us.kg/4gtv/229
-台視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv051
-台視財經台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv056
-東森新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv152
-東森財經新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv153
-非凡新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv010
-非凡商業台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv048
-鏡電視新聞,https://4gtv.livednow.us.kg/litv/4gtv-4gtv075
-CNBC Asia 財經台,https://4gtv.livednow.us.kg/4gtv/235
-VOA 美國之音,https://4gtv.livednow.us.kg/litv/litv-ftv03
-DW德國之聲,https://4gtv.livednow.us.kg/4gtv/226
-SBN 全球財經台,https://4gtv.livednow.us.kg/4gtv/224
-半島國際新聞,https://4gtv.livednow.us.kg/litv/litv-ftv10
-第1商業台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv104
+
+
+
+
 民視影劇台,https://4gtv.livednow.us.kg/litv/litv-ftv09
 中視經典台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv080
 靖天戲劇台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv058
@@ -3574,7 +3583,7 @@ WIN HD綜合,https://epg.pw/stream/beedf009af55b6adf5840ba8defe6a88bb4e1b85c6e31
 
 
 
-港澳頻道,#genre#
+🇭🇰港澳台,#genre#
 TVB翡翠,https://z88.ubtvfans.com/live/rx1/390/2aaf45955b88bc753effe41f9cb094d0/index.m3u8
 TVB翡翠,https://z88.ubtvfans.com/live/rx1/30/c42e16b9b557b6bf5ecd8e282c711ee8/index.m3u8
 TVB明珠,https://z88.ubtvfans.com/live/rx3/391/49c6f4b711497e559ed7ec30b2a7cde9/index.m3u8
@@ -3812,7 +3821,6 @@ iNews 新聞,http://50.7.234.10:8278/inews_twn/playlist.m3u8?tid=MF7F56655829566
 
 
 ---------------------海燕
-港台頻道,#genre#
 鳳凰資訊,http://tero.petrel-live.xyz/live.m3u8?token=b0KoUbYC8&c=1
 TVB 華麗台,http://creo.petrel-live.xyz/live/smtv.php?id=Tvbjade
 TVB 星河台,http://creo.petrel-live.xyz/live/smtv.php?id=Xinhe
@@ -3974,7 +3982,7 @@ TraceSports,http://tero.petrel-live.xyz/live.m3u8?token=v3eJBh12Z&c=155
 
 
 
-美國頻道,#genre#
+🇺🇸美國,#genre#
 Sinovision,https://z88.ubtvfans.com/live/rx3/1101/f8a0f0934acd1427fb7291e3cf9a95a4/index.m3u8
 mlb  network,https://z88.ubtvfans.com/live/rx3/3250/361d8236f82fa0cc7417f452733b0b5f/index.m3u8
 BTN,https://z88.ubtvfans.com/live/rx3/3256/e19cb50ca83ac6ee41bfd34e8d930b77/index.m3u8
@@ -4431,7 +4439,7 @@ BBC World News,tvbus://8JMdYEsTL4rAxBEuE7LXYUbJfMNx7aqicaUXrxQPi786Z6ic4F#tvbus:
 
 
 
-加拿大,#genre#
+🇨🇦加拿大,#genre#
 The Weather Network,https://z88.ubtvfans.com/live/rx3/1251/1f4185e77e8b5f5fa1b8d6b3d0078891/index.m3u8
 CP 24 Canada,https://z88.ubtvfans.com/live/rx3/1247/1ee88c8bc1c3e39842c2a3ceaa160ded/index.m3u8
 CBC,https://z88.ubtvfans.com/live/rx4/1252/55bca24ecbe4f0d57aabb3f2ebcafbdc/index.m3u8
@@ -4518,7 +4526,7 @@ YTV,tvbus://7DChRjSXn1TdDrzW6ZJCPmLUmbiT1Tk4rXsrweeArv4SLhU43k#tvbus://7dS7wdUuw
 
 
 
-にっぽん,#genre#
+🇯🇵日本,#genre#
 JapaNews24,https://z88.ubtvfans.com/live/rx6/425/2068e40104b77f2e3a1e14c002c9f2a3/index.m3u8
 スカイA,https://z88.ubtvfans.com/live/rx3/2433/e687bebb1299d18ef8b27e047fdf9e89/index.m3u8
 日テレニュース24,https://z88.ubtvfans.com/live/rx3/292/0272a8bbca67debc5bac5a842d7dc0ce/index.m3u8
@@ -4756,7 +4764,7 @@ NHKWorld,zlive://38.114.114.155:6678/46f43f1cf4e38e5911e566a2c3c13f42
 
 
 
-한국,#genre#
+🇰🇷韓國,#genre#
 YTN,https://z88.ubtvfans.com/live/rx6/1061/2fbe3acc9431c69b0dc50bb4b64dd839/index.m3u8
 연합뉴스TV,https://z88.ubtvfans.com/live/rx6/1039/2714b983e85b8a7b9c9d6ca22eb53d10/index.m3u8
 KBS KOREA,https://z88.ubtvfans.com/live/rx6/1040/04bac537c49226020c5c3b012df598e0/index.m3u8
@@ -4948,7 +4956,7 @@ Crave 4,http://free.xiptv.x10.bz/anbo/?id=1272
 
 
 
-英國頻道,#genre#
+🇬🇧英國,#genre#
 bt espn hd,https://z88.ubtvfans.com/live/rx3/2790/66f2cd7e363487d1252c7f367bb554bc/index.m3u8
 GB News,https://z88.ubtvfans.com/live/rx6/77/3fa5a68553a8d34e7d619f50a550f725/index.m3u8
 TalkTV,https://z88.ubtvfans.com/live/rx6/309/3aa5f4723a63fcbaaf52711a6a3bc5a2/index.m3u8
@@ -5153,7 +5161,7 @@ nickelodeon,http://free.xiptv.x10.bz/anbo/?id=3249
 
 
 
-歐美,#genre#
+🇪🇺歐美,#genre#
 CNN,zlive://38.114.114.155:6678/33c401894617497546014f8b039683e5
 FoxNews,zlive://38.114.114.155:6678/66763f687c11e379a3d62eb111cd257a
 MSNBC,zlive://38.114.114.155:6678/578b13fccd2d2bd45b66049f312fc9ad
@@ -5293,7 +5301,7 @@ UKSkySportsNews,zlive://38.114.114.155:6678/9933fc2a04ce31e06a9aac3ad836e6af
 
 
 
-新馬頻道,#genre#
+🇸🇬🇲🇾新馬,#genre#
 CNA 24,https://z88.ubtvfans.com/live/rx6/15/8fa4bc37b13aef429e32aec04a2b7a5b/index.m3u8
 AEC,https://z88.ubtvfans.com/live/rx3/433/dd0788081bf70963c8799d38b9ae2502/index.m3u8
 AEC,https://z88.ubtvfans.com/live/rx3/2745/3a2e217f6a906f8e4b523204e1739954/index.m3u8
@@ -5577,7 +5585,7 @@ BNC,http://free.xiptv.x10.bz/anbo/?id=1045
 
 
 
-印尼頻道,#genre#
+印尼,#genre#
 iNews,https://z88.ubtvfans.com/live/rx6/3023/3b60b6cc247d0cd892fc34889788dccc/index.m3u8
 CNN Indonesia,https://z88.ubtvfans.com/live/rx5/1145/d974c24bd1cdd3a88cde844fe11ceffe/index.m3u8
 KOMPASTV,https://z88.ubtvfans.com/live/rx6/2577/9231ebfe24029622b7490d2ed286230d/index.m3u8
@@ -5722,7 +5730,7 @@ DAAI TV,https://z88.ubtvfans.com/live/rx4/2936/2aa30429db814f8c2e8be39e92299830/
 
 
 
-越南頻道,#genre#
+越南,#genre#
 HTV7 HD,https://z88.ubtvfans.com/live/rx4/2251/4c056fedabb7944a2a3937c4fe506d96/index.m3u8
 HTV9 HD,https://z88.ubtvfans.com/live/rx4/2253/ab1fdaed495f3feeddbd556f6065d415/index.m3u8
 HTV1,https://z88.ubtvfans.com/live/rx4/2254/4819498037b53224953426f4af73bcd1/index.m3u8
