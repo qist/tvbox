@@ -5,7 +5,7 @@
 {"name":"YanG","type":0,"url":"https://tv.iill.top/m3u/Adult"},
 {"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
 {"name":"初秋语","type":0,"url":"./listx.m3u"},
-{"name":"糖意","type":0,"url":"https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},
+{"name":"糖意","type":0,"url":"https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","pass":true},
 {"name":"小武哥","type":0,"url":"https://qu.ax/PEHy.txt"},
 {"name":"AV","type":0,"url":"./livex.m3u"},
 {"name":"AV點播2","type":0,"url":"./listx.txt"},
