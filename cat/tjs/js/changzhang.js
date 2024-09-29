@@ -32,7 +32,7 @@ function cryptJs(text, key, iv, type) {
 class ChangZhangSpider extends Spider {
     constructor() {
         super();
-        this.siteUrl = "https://www.czys.pro"
+        this.siteUrl = "https://www.czzy77.com"
     }
 
     async init(cfg) {
