@@ -1,13 +1,3 @@
-📺YouTube 新聞,#genre#
-民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
-三立iNews,https://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
-三立News+海外,https://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
-三立NEWS+,https://m.youtube.com/watch?v=FoBfXvlOR6
-三立新聞,https://m.youtube.com/watch?v=oZdzzvxTfUY
-三立新聞,https://www.youtube.com/watch?v=uZ9KecuS0RA
-三立新聞,https://www.youtube.com/watch?v=CKjSm5ZeehE
-
-
 #EXTM3U x-tvg-url="http://content.stream-link.org/epg/guide.xml"
 
 #EXTINF:-1 tvg-id="Jade.my" tvg-name="華麗(翡翠台)"
