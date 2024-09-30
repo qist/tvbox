@@ -1,5 +1,11 @@
+
+ 👇👇Smart👇👇,#genre#
+ ,https://food-dlvr-ott.akamaized.net/primary/4/c20e615a33504bc7a227077cb102aef1/index_14.m3u8
+
+
+
 js=https://files.catbox.moe/4dqdzg.js
-臺灣 Taiwan,#genre#
+台灣 Taiwan,#genre#
 AXN, http://?id=axn_twn
 CINEMAX, http://?id=cinemax_twn
 EYE戲劇, http://?id=eyetvxiju_twn
@@ -11,7 +17,7 @@ MTV Live, http://?id=mtvhd_twn
 TLC旅遊生活, http://?id=tlc_twn
 東森新聞, http://?id=ettvnews
 TVBS HD, http://?id=tvbs
-TVBS新聞台, http://?id=tvbs_n
+TVBS新聞, http://?id=tvbs_n
 TVBS歡樂台, http://?id=tvbshuanle_twn
 三立台灣台, http://?id=sanlitaiwan
 三立戲劇台, http://?id=sanlixiju_twn
@@ -29,18 +35,18 @@ TVBS歡樂台, http://?id=tvbshuanle_twn
 民視, http://?id=ftvhd_taiwan
 民視第一台, http://?id=lunghuajingdian_twn
 民視台灣台, http://?id=ftvtaiwan_twn
-民視新聞台, http://?id=ftvnew_taiwan
+民視新聞, http://?id=ftvnew_taiwan
 台視, http://?id=ttv_taiwan
-台視新聞台, http://?id=ttvnews_twn
+台視新聞, http://?id=ttvnews_twn
 中視, http://?id=zhongshihd_twn
-中視新聞台, http://?id=zhongshinews_twn
+中視新聞, http://?id=zhongshinews_twn
 中視經典, http://?id=zhongshi_twn
 華視, http://?id=ctshd_twn
 華藝綜合, http://?id=weishichinese_twn
 大愛一台, http://?id=daai_twn
-寰宇新聞台, http://?id=huanyuxinwen_twn
+寰宇新聞, http://?id=huanyuxinwen_twn
 寰宇財經台, http://?id=huanyutaiwan_twn
-年代新聞台, http://?id=niandainews_twn
+年代新聞, http://?id=niandainews_twn
 愛爾達影劇, http://?id=eltayingju_twn
 愛爾達體育 1, http://?id=eltasport_twn
 愛爾達體育 2, http://?id=eltasport2_twn
@@ -74,7 +80,7 @@ Fox News, http://?id=foxnews_twn
 CN卡通, http://?id=momo1_twn
 靖天卡通台, http://?id=jingtiancartoon_twn
 靖天國際台, http://?id=jingtianintl_twn
-非凡新聞台, http://?id=feifannews_twn
+非凡新聞, http://?id=feifannews_twn
 龍祥時代, http://?id=lungxiangtime_twn
 龍華偶像, http://?id=lunghuaidol_twn
 龍華戲劇, http://?id=lunghuaxiju_twn
@@ -227,7 +233,7 @@ TVB 星河, http://?id=tvbxinhe_twn
 VIUTV1, http://?id=viu1_twn
 Viu TV 69, http://?id=viutv69_hkdavid
 Viu6, http://?id=viusix_twn
-iNews 新聞台, http://?id=inews_twn
+iNews 新聞, http://?id=inews_twn
 無線財經資訊台, http://?id=tvbcaijing_twn
 珍珠台(備用), http://?id=pearl_hkdavid
 珍珠台, http://?id=pearl_twn
