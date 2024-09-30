@@ -6084,44 +6084,6 @@ M»Net,http://ares.mnet.mk/hls/mnet.m3u8
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ,https://food-dlvr-ott.akamaized.net/primary/4/c20e615a33504bc7a227077cb102aef1/index_14.m3u8
  ,#genre#
  ,https://food-dlvr-ott.akamaized.net/primary/4/c20e615a33504bc7a227077cb102aef1/index_14.m3u8
@@ -6129,6 +6091,9 @@ M»Net,http://ares.mnet.mk/hls/mnet.m3u8
  ,https://food-dlvr-ott.akamaized.net/primary/4/c20e615a33504bc7a227077cb102aef1/index_14.m3u8
 --,#genre#
 --,url6
+
+ 👇👇測試區👇👇,#genre#
+ ,https://food-dlvr-ott.akamaized.net/primary/4/c20e615a33504bc7a227077cb102aef1/index_14.m3u8
 
 
 
