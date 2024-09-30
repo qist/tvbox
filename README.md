@@ -116,13 +116,14 @@
 ## 其他:
 1.  txt m3u 轉換工具 https://guihet.com/convert-m3u-js.html
 2.  Other link Source https://beatsingdrama.blogspot.com/p/xt-playlist-txt.html?m=1
-3.  Emotn: 331026, 796233, 202096
-4.  downloader App https://www.aftvnews.com/downloader/, 383716 to download emotn 
-5.  [WebGrab + Plus](http://www.webgrabplus.com/) 多站点增量XMLTV EPG采集器。
-6.  [IPTV Checker](https://www.npmjs.com/package/iptv-checker) — Node.js的IPTV播放列表检查器
-7.  [Streamtest](https://streamtest.in/) 免费且易于使用的基于Web的流测试器实用程序。
-8.  [M3U Edit](https://www.gtrigonakis.com/m3u-edit) 
-9.  [直播源在线监测工具](http://cha.znds.com)
+3.  detect good urls and remove old https://hub.docker.com/r/2011820123/tvbox
+4.  Emotn: 331026, 796233, 202096
+5.  downloader App https://www.aftvnews.com/downloader/, 383716 to download emotn 
+6.  [WebGrab + Plus](http://www.webgrabplus.com/) 多站点增量XMLTV EPG采集器。
+7.  [IPTV Checker](https://www.npmjs.com/package/iptv-checker) — Node.js的IPTV播放列表检查器
+8.  [Streamtest](https://streamtest.in/) 免费且易于使用的基于Web的流测试器实用程序。
+9.  [M3U Edit](https://www.gtrigonakis.com/m3u-edit) 
+10. [直播源在线监测工具](http://cha.znds.com)
 
 
 --------------------------------------------------------------------
