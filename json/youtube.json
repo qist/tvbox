@@ -66,8 +66,8 @@
 			"type_name":"科技"
 		},
 		{
-			"type_id":"解說",
-			"type_name":"解說"
+			"type_id":"喜劇",
+			"type_name":"喜劇"
 		},
 		{
 			"type_id":"神秘",
@@ -1148,13 +1148,13 @@
 				]
 			}
 		],
-		"解說":[
+		"喜劇":[
 			{
 				"key":"tid",
 				"name":"頻道主",
 				"value":[
-					{"n":"宇哥侃故事","v":"@yuge"},
-					{"n":"零度解说","v":"@lingdujieshuo"}
+					{"n":"喜人奇妙夜","v":"@c-hitshow"},
+					{"n":"喜綜大爆炸","v":"@TheBigBangComedy"}
 				]
 			}
 		],

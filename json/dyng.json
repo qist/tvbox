@@ -1,0 +1,20 @@
+{
+    "作者": "圥忈",
+    "站名": "电影先生",
+    "主页url": "https://www.dianyi.ng/",
+    "导演": "导演：&&</div>",
+    "主演": "主演：&&</div>",
+    "影片状态": "备注：&&</div>",
+    "影片类型": "scroll-box\">&&立即播放",
+    "搜索模式": "1",
+    "搜索url": "https://www.dianyi.ng/search--------------.html?wd={wd}",
+    "搜索数组": "module-item-pic\">&&</div>",
+    "搜索标题": "alt=\"&&\"",
+    "搜索副标题": "link\">&&</div>",
+    "搜索图片": "data-src-original=\"&&\"",
+    "搜索链接": "href=\"&&\"",
+    "线路数组": "data-dropdown-value=&&</div>",
+    "线路标题": "<span>&&</small>",
+    "分类url": "https://www.dianyi.ng/pianku-1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+}

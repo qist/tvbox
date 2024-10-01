@@ -1,0 +1,278 @@
+🌈宝盒央卫,#genre#
+CCTV1-综合,http://113.57.103.216:9000/tsfile/live/0001_1.m3u8?key=txiptv
+CCTV2-财经,http://113.57.103.216:9000/tsfile/live/0002_1.m3u8?key=txiptv
+CCTV3-综艺,http://113.57.103.216:9000/tsfile/live/0003_1.m3u8?key=txiptv
+CCTV4-国际,http://113.57.103.216:9000/tsfile/live/0004_1.m3u8?key=txiptv
+CCTV5-体育,http://113.57.103.216:9000/tsfile/live/0005_1.m3u8?key=txiptv
+CCTV6-电影,http://113.57.103.216:9000/tsfile/live/0006_1.m3u8?key=txiptv
+CCTV7-军农,http://113.57.103.216:9000/tsfile/live/0007_1.m3u8?key=txiptv
+CCTV8-电视剧,http://113.57.103.216:9000/tsfile/live/0008_1.m3u8?key=txiptv
+CCTV9-纪录,http://113.57.103.216:9000/tsfile/live/0009_1.m3u8?key=txiptv
+CCTV10-科教,http://113.57.103.216:9000/tsfile/live/0010_1.m3u8?key=txiptv
+CCTV11-戏曲,http://113.57.103.216:9000/tsfile/live/0011_1.m3u8?key=txiptv
+CCTV12-社会与法,http://113.57.103.216:9000/tsfile/live/0012_1.m3u8?key=txiptv
+CCTV13-新闻,http://113.57.103.216:9000/tsfile/live/0013_1.m3u8?key=txiptv
+CCTV14-少儿,http://113.57.103.216:9000/tsfile/live/0014_1.m3u8?key=txiptv
+CCTV15-音乐,http://113.57.103.216:9000/tsfile/live/0015_1.m3u8?key=txiptv
+浙江卫视,http://113.57.103.216:9000/tsfile/live/0124_1.m3u8?key=txiptv
+江苏卫视,http://113.57.103.216:9000/tsfile/live/0127_1.m3u8?key=txiptv
+上海卫视,http://113.57.103.216:9000/tsfile/live/0107_1.m3u8?key=txiptv
+广东卫视,http://113.57.103.216:9000/tsfile/live/0125_1.m3u8?key=txiptv
+湖南卫视,http://113.57.103.216:9000/tsfile/live/0128_1.m3u8?key=txiptv
+安徽卫视,http://113.57.103.216:9000/tsfile/live/0130_1.m3u8?key=txiptv
+辽宁卫视,http://113.57.103.216:9000/tsfile/live/0121_1.m3u8?key=txiptv
+重庆卫视,http://113.57.103.216:9000/tsfile/live/0142_1.m3u8?key=txiptv
+四川卫视,http://113.57.103.216:9000/tsfile/live/0123_1.m3u8?key=txiptv
+湖北卫视,http://113.57.103.216:9000/tsfile/live/0132_1.m3u8?key=txiptv
+江西卫视,http://113.57.103.216:9000/tsfile/live/0138_1.m3u8?key=txiptv
+东南卫视,http://113.57.103.216:9000/tsfile/live/0137_1.m3u8?key=txiptv
+金鹰卡通,http://113.57.103.216:9000/tsfile/live/1000_1.m3u8?key=txiptv
+BTV卡通,http://113.57.103.216:9000/tsfile/live/1001_1.m3u8?key=txiptv
+宁夏卫视,http://113.57.103.216:9000/tsfile/live/1003_1.m3u8?key=txiptv
+广西卫视,http://113.57.103.216:9000/tsfile/live/1004_1.m3u8?key=txiptv
+旅游卫视,http://113.57.103.216:9000/tsfile/live/1005_1.m3u8?key=txiptv
+河南卫视,http://113.57.103.216:9000/tsfile/live/1006_1.m3u8?key=txiptv
+吉林卫视,http://113.57.103.216:9000/tsfile/live/1007_1.m3u8?key=txiptv
+黑龙江卫视,http://113.57.103.216:9000/tsfile/live/1008_1.m3u8?key=txiptv
+山西卫视,http://113.57.103.216:9000/tsfile/live/1009_1.m3u8?key=txiptv
+云南卫视,http://113.57.103.216:9000/tsfile/live/1010_1.m3u8?key=txiptv
+湖北垄上,http://113.57.103.216:9000/tsfile/live/1015_1.m3u8?key=txiptv
+湖北影视,http://113.57.103.216:9000/tsfile/live/1016_1.m3u8?key=txiptv
+湖北经视,http://113.57.103.216:9000/tsfile/live/1017_1.m3u8?key=txiptv
+🎗电影轮播,#genre#
+电影_星爷,https://live.metshop.top/huya/11342412
+电影_英叔,https://live.metshop.top/huya/11342421
+电影_发哥,https://live.metshop.top/huya/11342387
+电影_成龙,https://live.metshop.top/huya/11342386
+电影_王晶,https://live.metshop.top/huya/11602058
+电影_沈腾,https://live.metshop.top/huya/11601968
+电影_黄渤,https://live.metshop.top/huya/11352876
+电影_强森,https://live.metshop.top/huya/21059581
+电影_漫威,https://live.metshop.top/huya/11602034
+电影_宇宙,https://live.metshop.top/huya/11342428
+电影_怪兽,https://live.metshop.top/huya/21059577
+电影_武侠,https://live.metshop.top/huya/11342427
+电影_警匪,https://live.metshop.top/huya/11352886
+电影_罪犯,https://live.metshop.top/huya/11352962
+电影_枪战,https://live.metshop.top/huya/21059579
+电影_海盗,https://live.metshop.top/huya/21059595
+电影_赛车,https://live.metshop.top/huya/11279247
+电影_推荐,https://live.metshop.top/huya/11602041
+电影_救援,https://live.metshop.top/huya/21059594
+电影_热血,https://live.metshop.top/huya/11352934
+电影_盗墓,https://live.metshop.top/huya/21059552
+电影_贺岁,https://live.metshop.top/huya/11601971
+电影_玄幻,https://live.metshop.top/huya/11342414
+电影_谍战,https://live.metshop.top/huya/21059585
+电影_战争,https://live.metshop.top/huya/21059592
+电影_喜剧,https://live.metshop.top/huya/11352877
+电影_港片,https://live.metshop.top/huya/11602043
+电影_国产,https://live.metshop.top/huya/11352973
+电影_周星星,https://live.metshop.top/huya/11336587
+电影_李连杰,https://live.metshop.top/huya/11342390
+电影_洪金宝,https://live.metshop.top/huya/11279251
+电影_梁家辉,https://live.metshop.top/huya/11342429
+电影_许冠英,https://live.metshop.top/huya/11601972
+电影_刘德华,https://live.metshop.top/huya/11342424
+电影_斯坦森,https://live.metshop.top/huya/21059588
+电影_小鬼头,https://live.metshop.top/huya/11352963
+电影_八点档,https://live.metshop.top/huya/880261
+电影_蜘蛛侠,https://live.metshop.top/huya/21059599
+电影_贺岁片,https://live.metshop.top/huya/11601986
+电影_功夫片,https://live.metshop.top/huya/11352941
+电影_黑帮片,https://live.metshop.top/huya/11336719
+电影_丧尸片,https://live.metshop.top/huya/21059578
+电影_灾难片,https://live.metshop.top/huya/11602075
+电影_谍战片,https://live.metshop.top/huya/21059587
+电影_战争片,https://live.metshop.top/huya/21059574
+电影_犯罪片,https://live.metshop.top/huya/11352974
+电影_古装片,https://live.metshop.top/huya/11336590
+电影_高分动作,https://live.metshop.top/huya/11352884
+电影_动作电影,https://live.metshop.top/huya/11602077
+电影_搞笑喜剧,https://live.metshop.top/huya/11342423
+电影_喜剧专场,https://live.metshop.top/huya/11602044
+电影_欢笑影院,https://live.metshop.top/huya/11352894
+电影_不挤影院,https://live.metshop.top/huya/11352897
+电影_国产悬疑,https://live.metshop.top/huya/11342395
+电影_快意江湖,https://live.metshop.top/huya/11342435
+电影_黑帮斗争,https://live.metshop.top/huya/11342419
+电影_古墓系列,https://live.metshop.top/huya/11352913
+电影_嫣然影厅,https://live.metshop.top/huya/11601977
+电影_女神系列,https://live.metshop.top/huya/11336571
+电影_经典女神,https://live.metshop.top/huya/11352909
+电影_许氏三杰,https://live.metshop.top/huya/11602033
+电影_经典港片,https://live.metshop.top/huya/11352965
+电影_镖行天下,https://live.metshop.top/huya/11352969
+电影_高能反转,https://live.metshop.top/huya/11352887
+电影_喜乐影院,https://live.metshop.top/huya/21059580
+电影_蘑菇影厅,https://live.metshop.top/huya/11601981
+电影_搞笑恐怖,https://live.metshop.top/huya/11601960
+电影_死神来了,https://live.metshop.top/huya/11352903
+电影_变形金刚,https://live.metshop.top/huya/21059596
+电影_怪兽系列,https://live.metshop.top/huya/21059554
+搞笑_陈翔六点半,https://live.metshop.top/huya/11274154
+解说_电影狂人,https://live.metshop.top/huya/18715610
+解说_鹿哥电影,https://live.metshop.top/huya/24396360
+解说_斌哥漫说,https://live.metshop.top/huya/18632116
+解说_续哥说电影,https://live.metshop.top/huya/24396472
+解说_小川侃电影,https://live.metshop.top/huya/15870999
+解说_阿钙扒瞎,https://live.metshop.top/huya/15978172
+解说_阿良说剧,https://live.metshop.top/huya/20488841
+解说_鱼丸电影,https://live.metshop.top/huya/16615910
+解说_阿斗说电影,https://live.metshop.top/huya/13303478
+解说_扁豆看电影,https://live.metshop.top/huya/16028551
+解说_乌贼说电影,https://live.metshop.top/huya/16604522
+解说_大象放映室,https://live.metshop.top/huya/21277391
+解说_科幻梦工场,https://live.metshop.top/huya/15152155
+解说_亮哥讲电影,https://live.metshop.top/huya/16144175
+解说_越哥说电影,https://live.metshop.top/huya/15894162
+解说_小冉看电影,https://live.metshop.top/huya/17341907
+解说_嫦娥撩电影,https://live.metshop.top/huya/18201106
+解说_阿翔说电影,https://live.metshop.top/huya/16868935
+解说_疯狂解说家,https://live.metshop.top/huya/18366196
+解说_虎妞说电影,https://live.metshop.top/huya/20343144
+解说_顾久撩电影,https://live.metshop.top/huya/16422212
+解说_涵哥评电影,https://live.metshop.top/huya/16865726
+解说_俗哥看电影,https://live.metshop.top/huya/15452736
+解说_老皮讲电影,https://live.metshop.top/huya/16968572
+解说_默爷侃电影,https://live.metshop.top/huya/17204307
+解说_冷君说电影,https://live.metshop.top/huya/16739452
+解说_老炮说电影,https://live.metshop.top/huya/15454716
+解说_刘老师说电影,https://live.metshop.top/huya/20289754
+解说_恐怖电影解说,https://live.metshop.top/huya/16741179
+剧集_老三国,https://live.metshop.top/huya/11602081
+剧集_新三国,https://live.metshop.top/huya/11352944
+剧集_新水浒,https://live.metshop.top/huya/11342384
+剧集_纪晓岚,https://live.metshop.top/huya/11342396
+剧集_庆余年,https://live.metshop.top/huya/11352960
+剧集_雍正王朝,https://live.metshop.top/huya/11342439
+剧集_士兵突击,https://live.metshop.top/huya/11342430
+剧集_爱情公寓,https://live.metshop.top/huya/11336726
+剧集_家有儿女,https://live.metshop.top/huya/11352872
+剧集_武林外传,https://live.metshop.top/huya/21059598
+剧集_地下交通站,https://live.metshop.top/huya/11342433
+剧集_邻里一家亲,https://live.metshop.top/huya/11342426
+
+🔫埋堆堆,#genre#
+埋堆堆1,https://live.metshop.top/huya/23749096
+
+埋堆堆2,https://live.metshop.top/huya/23735126
+
+埋堆堆3,https://live.metshop.top/huya/23865152
+
+埋堆堆4,https://live.metshop.top/huya/23903196
+
+埋堆堆5,https://live.metshop.top/huya/23740156
+
+埋堆堆6,https://live.metshop.top/huya/23728660
+
+埋堆堆7,https://live.metshop.top/huya/23735153
+
+埋堆堆8,https://live.metshop.top/huya/23865058
+
+埋堆堆9,https://live.metshop.top/huya/23734183
+
+埋堆堆10,https://live.metshop.top/huya/23749068
+
+埋堆堆11,https://live.metshop.top/huya/23865036
+
+埋堆堆12,https://live.metshop.top/huya/23740162
+
+埋堆堆13,https://live.metshop.top/huya/23829474
+
+埋堆堆14,https://live.metshop.top/huya/23863833
+
+埋堆堆15,https://live.metshop.top/huya/23903106
+
+埋堆堆16,https://live.metshop.top/huya/23865025
+
+埋堆堆17,https://live.metshop.top/huya/23728689
+
+埋堆堆18,https://live.metshop.top/huya/23824171
+
+埋堆堆19,https://live.metshop.top/huya/23860057
+
+埋堆堆20,https://live.metshop.top/huya/23865072
+
+埋堆堆21,https://live.metshop.top/huya/23734176
+
+埋堆堆22,https://live.metshop.top/huya/23728651
+
+埋堆堆23,https://live.metshop.top/huya/23734246
+
+埋堆堆24,https://live.metshop.top/huya/23865179
+
+埋堆堆25,https://live.metshop.top/huya/23734196
+
+埋堆堆26,https://live.metshop.top/huya/23734211
+
+埋堆堆27,https://live.metshop.top/huya/23865086
+
+埋堆堆28,https://live.metshop.top/huya/23863796
+
+埋堆堆29,https://live.metshop.top/huya/23863822
+
+埋堆堆30,https://live.metshop.top/huya/23749083
+
+埋堆堆31,https://live.metshop.top/huya/23734243
+
+埋堆堆32,https://live.metshop.top/huya/23864480
+
+埋堆堆33,https://live.metshop.top/huya/23746486
+
+埋堆堆34,https://live.metshop.top/huya/23860049
+
+埋堆堆35,https://live.metshop.top/huya/23749074
+
+埋堆堆36,https://live.metshop.top/huya/23863882
+
+埋堆堆37,https://live.metshop.top/huya/23863778
+
+埋堆堆38,https://live.metshop.top/huya/23824164
+
+埋堆堆39,https://live.metshop.top/huya/23829537
+
+埋堆堆40,https://live.metshop.top/huya/23863809
+
+埋堆堆41,https://live.metshop.top/huya/23865096
+
+埋堆堆42,https://live.metshop.top/huya/23863804
+
+埋堆堆43,https://live.metshop.top/huya/23728630
+
+埋堆堆44,https://live.metshop.top/huya/23863895
+
+埋堆堆45,https://live.metshop.top/huya/23863787
+
+埋堆堆46,https://live.metshop.top/huya/23728637
+
+埋堆堆47,https://live.metshop.top/huya/23865142
+
+埋堆堆48,https://live.metshop.top/huya/23903085
+
+埋堆堆49,https://live.metshop.top/huya/23903183
+
+埋堆堆50,https://live.metshop.top/huya/23728647
+
+埋堆堆51,https://live.metshop.top/huya/23746691
+
+埋堆堆52,https://live.metshop.top/huya/23829447
+
+埋堆堆53,https://live.metshop.top/huya/23728693
+
+埋堆堆54,https://live.metshop.top/huya/23903130
+
+埋堆堆55,https://live.metshop.top/huya/23734223
+
+埋堆堆56,https://live.metshop.top/huya/23734169
+
+埋堆堆57,https://live.metshop.top/huya/23865124
+
+埋堆堆58,https://live.metshop.top/huya/23865186
+
+埋堆堆59,https://live.metshop.top/huya/23902225
+
+埋堆堆60,https://live.metshop.top/huya/23903164
+
+埋堆堆61,https://live.metshop.top/huya/23728674
+

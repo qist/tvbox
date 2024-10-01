@@ -5,6 +5,7 @@ var rule = {
     模板: 'mxpro',
     host: 'https://www.lgyy.vip',
     url: '/vodshow/fyclassfyfilter.html',
+    searchable: 2,//是否启用全局搜索,
     filterable: 1,//是否启用分类筛选,
     filter_url: '{{fl.cateId}}-{{fl.area}}-{{fl.by or "time"}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
     filter: {

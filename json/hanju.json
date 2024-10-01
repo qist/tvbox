@@ -1,0 +1,21 @@
+{
+    "作者": "韩剧",
+    "站名": "韩剧看看",
+    "主页url": "https://www.hanjukankan.com/frim/index1.html",
+    "简介": "class=\"sketch hidden-sm hidden-xs\">&&<a href=\"#jq\">详情 <i",
+    "导演": "导演：&&</div>",
+    "主演": "主演：&&</div>",
+    "影片状态": "集数：&&</div>",
+    "影片类型": "module-info-tag\">&&立即播放",
+    "搜索模式": "1",
+    "搜索url": "https://www.hanjukankan.com/search.php?searchword={wd}",
+    "搜索数组": "module-card-item-class\">&&</a>",
+    "搜索标题": "alt=\"&&\"",
+    "搜索副标题": "note\">&&</div>",
+    "搜索图片": "data-original=\"&&\"",
+    "搜索链接": "href=\"&&\"",
+    "线路数组": "data-toggle=\"tab\">&&</a></li>",
+    "线路标题": "韩剧TV",
+    "分类url": "https://www.hanjukankan.com/frim/index{cateId}.html",
+    "分类": "韩剧$1#韩影$2#韩综$3#其他$4#推荐$5"
+}

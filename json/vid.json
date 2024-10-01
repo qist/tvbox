@@ -1,0 +1,21 @@
+{
+        "作者": "VID影视",
+        "站名": "vidhub",
+        "主页url": "https://vidhub2.cc/",
+        "简介": "<div class=\"video-info-item video-info-content vod_content\"><span>&&</span>",
+        "导演": "导演：&&</div>",
+        "主演": "主演：&&</div>",
+        "影片状态": "集数：&&</div>",
+        "影片类型": "module-info-tag\">&&立即播放",
+        "搜索模式": "1",
+        "搜索url": "https://vidhub2.cc/vodsearch/-------------.html?wd={wd}",
+        "搜索数组": "module-card-item-class\">&&</a>",
+        "搜索标题": "alt=\"&&\"",
+        "搜索副标题": "note\">&&</div>",
+        "搜索图片": "http://img.vopox.net/wp-content/uploads/2023/03/y2fga2jzwq2.jpg",
+        "搜索链接": "href=\"&&\"",
+        "线路数组": "data-dropdown-value=&&</div>",
+        "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+        "分类url": "https://vidhub2.cc/vodtype/{cateId}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#国产剧$13#港台剧$14#日韩剧$15#欧美剧$16#泰国剧$28#记录片$30#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#犯罪片$20#惊悚片$21#冒险片$22#悬疑片$23"
+}

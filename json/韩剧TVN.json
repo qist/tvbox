@@ -1,0 +1,20 @@
+{
+    "作者": "圥忈",
+    "站名": "韩剧TVN",
+    "主页url": "https://www.hanjutvn.net/",
+    "简介": "<span class=\"sketch content\"&&</div>",
+    "导演": "导演：&&</p>",
+    "主演": "主演：&&</p>",
+    "影片状态": "更新：&&</p>",
+    "搜索模式": "1",
+    "搜索url": "https://www.hanjutvn.net/search.html?wd={wd}",
+    "搜索数组": "<div class=\"thumb\"&&</li>",
+    "搜索标题": "title=\"&&\"",
+    "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+    "搜索图片": "data-original=\"&&\"[替换:/upload/vod/>>https://www.hanjutvn.net/upload/vod/]",
+    "搜索链接": "href=\"&&\"",
+    "线路数组": "data-toggle=\"tab\">&&</a>",
+    "线路标题": "韩剧TVN",
+    "分类url": "https://www.hanjutvn.net/{cateId}-{catePg}.html",
+    "分类": "韩剧$hanju#日剧$riju#泰剧$taiju#动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#韩综$hanzong"
+}

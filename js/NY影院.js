@@ -1,7 +1,5 @@
-muban.短视2.二级.title = '.slide-info-title&&Text;.hl-ma0&&Text';
-muban.短视2.二级.img = '.detail-pic&&img&&data-src';
 muban.短视2.二级.desc = '.fraction&&Text;;;.slide-info:eq(3)--strong&&Text;.slide-info:eq(2)--strong&&Text';
-muban.短视2.二级.tab_text = 'body--i--span&&Text';
+
 var rule={
     title:'NY影院',
     模板:'短视2',
@@ -9,6 +7,7 @@ var rule={
     homeUrl:'/index.php/label/rb.html',
     // url: '/index.php/api/vod#type=fyfilter&page=fypage',
     // url:'/vodshow/fyfilter.html',
+    //
     detailUrl:'/voddetail/fyid.html',
     // filterable:1,//是否启用分类筛选,
     // filter_url:'{{fl.cateId}}-{{fl.area}}-{{fl.by or "time"}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',

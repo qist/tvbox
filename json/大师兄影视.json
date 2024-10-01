@@ -1,177 +1,70 @@
 {
-
-"规则名": "大师兄影视",
-
-"规则作者": "小可乐/240102/第一版",
-
-"请求头参数": "手机",
-
-"网页编码格式": "UTF-8",
-
-"图片是否需要代理": "0",
-
-"是否开启手动嗅探": "0",
-
-"手动嗅探视频链接关键词": ".mp4#.m3u8#.flv",
-
-"手动嗅探视频链接过滤词": ".html#=http",
-
-"链接是否直接播放": "0",
-
-"直接播放链接加前缀": "",
-
-"直接播放链接加后缀": "#isVideo=true#",
-
-"直接播放直链视频请求头": "authority$dsxys.pro#Referer$https://dsxys.pro",
-
-
-    
-"是否开启获取首页数据": "1",
-
-"首页推荐链接": "https://dsxys.pro",
-
-"首页列表数组规则": "body&&.module-items",
-
-"首页片单列表数组规则": "a",
-
-"首页片单是否Jsoup写法": "1",
-
-"首页片单图片": "",
-  
-"首页片单标题": "",
-
-"首页片单副标题":"",
-  
-"首页片单链接": "",
-   
-"首页片单链接加前缀": "",
-   
-"首页片单链接加后缀": "",
-
-
-
-"分类起始页码": "1",
-
-"分类链接": "https://dsxys.pro/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-
-"分类名称": "电影&剧集&综艺&动漫&今日更新",
-
-"分类名称替换词": "1&2&3&4&new",
-
-
-
-"分类截取模式": "1",
-
-"分类Json数据二次截取":"",
-
-"分类列表数组规则": "body&&.module-item",
-
-"分类片单是否Jsoup写法": "1",
-
-"分类片单图片": "img&&data-original",
-
-"分类片单标题": ".module-poster-item-title&&Text",
-
-"分类片单副标题": ".module-item-note&&Text",
-
-"分类片单链接": "a&&href",
-
-"分类片单链接加前缀": "https://dsxys.pro",
-
-"分类片单链接加后缀": "",
-
-
-    
-"线路列表数组规则": ".module-tab-items-box&&.module-tab-item",
-
-"线路标题": "'👶'+span&&Text+'共'+small&&Text+'集'",
-
-
-
-"播放列表数组规则": "body&&.module-play-list",
-
-"选集列表数组规则": "a",
-
-"选集标题链接是否Jsoup写法": "1",
-
-"选集标题": "Text",
-
-"选集链接": "href",
-
-"是否反转选集序列": "否",
-
-"选集链接加前缀": "https://dsxys.pro",
-
-"选集链接加后缀": "",
-
-"分析MacPlayer": "1",
-
-
-    
-"详情是否Jsoup写法": "0",
-
-"类型详情": "/</span>&&</div>",
-
-"年代详情": "module-info-tag\">&&</a>",
-
-"地区详情": "----------.html\">&&</a>",
-
-"演员详情": "剧情介绍,&&\">",
-
-"简介详情": "剧情*:&&\">",
-
-
-
-"搜索请求头参数": "User-Agent$手机",
-
-"搜索链接": "https://dsxys.pro/sb/kemksmaksdl7nhZe3c1-.html?wd={wd}",
-
-"POST请求数据": "searchword={wd}",
-
-"搜索截取模式": "1",
-
-"搜索列表数组规则": ".module-items&&.module-item",
-
-"搜索片单是否Jsoup写法": "1",
-
-"搜索片单图片": "img&&data-original",
-
-"搜索片单标题": ".module-card-item-title&&a&&Text",
-
-"搜索片单副标题": ".module-item-note&&Text",
-
-"搜索片单链接": ".module-card-item-title&&a&&href",
-
-"搜索片单链接加前缀": "https://dsxys.pro",
-
-"搜索片单链接加后缀": "",
-
-
-
-"筛选数据": "ext",
-
-"筛选子分类名称": "",
-
-"筛选子分类替换词": "*",
-
-"筛选类型名称": "",
-
-"筛选类型替换词": "*",
-
-"筛选地区名称": "",
-
-"筛选地区替换词": "*",
-
-"筛选年份名称": "",
-
-"筛选年份替换词": "*",
-
-"筛选语言名称": "",
-
-"筛选语言替换词": "*",
-
-"筛选排序名称": "时间&人气&评分",
-
-"筛选排序替换词": "time&hits&score"
-
+    "title": "大师兄影视",
+    "author": "香雅情",
+    "UserAgent":"Mozilla/5.0 (Linux; Android 11; Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+    "SUserAgent":"User-Agent$MOBILE_UA",
+    "firstpage": "1",
+    "class_url": "https://dsxys.pro/vodshow/{cateId}--------{catePg}---.html",
+    "class_name": "电影&电视剧&综艺&动漫",
+    "class_value": "1&2&3&4",
+    "filterdata": {},
+    "cat_YN_twice": "1",
+    "cat_twice_pre": "class=\"module-items",
+    "cat_twice_suf": "<div class=\"fixedGroup",
+    "cat_arr_pre": "<a",
+    "cat_arr_suf": "/a>",
+    "cat_pic": "data-original=\"&&\"",
+    "cat_title": "title=\"&&\"",
+    "cat_subtitle": "module-item-note\">&&<",
+    "cat_url": "href=\"&&\"",
+    "cat_prefix": "https://dsxys.pro",
+    "cat_suffix": "",
+    "search_url": "https://dsxys.pro/sb/ke7nhZe3c1-.html?wd={wd}",
+    "search_mode": "1",
+    "jsonpic": "pic",
+    "jsonname": "name",
+    "jsonid": "id",
+    "jsonstitle":"",
+    "sea_YN_twice": "1",
+    "sea_twice_pre": "class=\"module-items",
+    "sea_twice_suf": "<div class=\"fixedGroup",
+    "sea_arr_pre": "module-card-item module-item",
+    "sea_arr_suf": "module-card-item-footer",
+    "sea_pic": "data-original=\"&&\"",
+    "sea_title": "alt=\"&&\"",
+    "sea_url": "href=\"&&\"",
+    "search_prefix": "https://dsxys.pro",
+    "search_suffix": "",
+    "sea_subtitle": "module-item-note\">&&<",
+    "force_play": "0",
+    "play_prefix": "空",
+    "play_suffix": "空",
+    "play_header": "空",
+    "proj_actor": "主演：</span>&&</div>",
+    "proj_plot": "module-info-introduction-content\">&&</div>",
+    "tab_YN_twice": "0",
+    "tab_twice_pre": "",
+    "tab_twice_suf": "",
+    "tab_arr_pre": "module-tab-item tab-item",
+    "tab_arr_suf": "</div>",
+    "tab_title": "<span>&&</span>",
+    "list_YN_twice": "0",
+    "list_twice_pre": "空",
+    "list_twice_suf": "空",
+    "list_arr_pre": "class=\"module-play-list-content",
+    "list_arr_suf": "</div>",
+    "epi_YN_twice": "0",
+    "epi_twice_pre": "空",
+    "epi_twice_suf": "空",
+    "epi_arr_pre": "<a",
+    "epi_arr_suf": "/a>",
+    "epi_title": "<span>&&<",
+    "epi_url": "href=\"&&\"",
+    "epiurl_prefix": "https://dsxys.pro",
+    "epiurl_suffix": "",
+    "Anal_MacPlayer":"0",
+    //是否开启手动嗅探，只对网页嗅探有效，0否，1是
+    "ManualSniffer":"0",
+    //手动嗅探视频链接关键字，每个用#隔开
+    "VideoFormat":".mp4#.m3u8#.flv"
 }

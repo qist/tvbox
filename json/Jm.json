@@ -1,0 +1,20 @@
+{
+    "作者": "圥忈",
+    "站名": "剧迷影视",
+    "主页url": "https://gimy.ai/",
+    "导演": "導演：&&</div>",
+    "主演": "主演：&&</div>",
+    "影片状态": "狀態：&&</div>",
+    "影片类型": "類別:&&</div>",
+    "搜索模式": "1",
+    "搜索url": "https://gimy.ai/search/-------------.html?wd={wd}",
+    "搜索数组": "earfix\">&&</div>",
+    "搜索标题": "title=\"&&\"",
+    "搜索副标题": "hidden-sm hidden-md hidden-lg\">&&</li>",
+    "搜索图片": "data-original=\"&&\"",
+    "搜索链接": "href=\"&&\"",
+    "线路数组": "style=\">&&</li>[不包含:KK线路#BF线路#FF线路#YZ线路]",
+    "线路标题": "style=\">&&</div>",
+    "分类url": "https://gimy.ai/type/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+    "分类": "电影$1#电视剧$2#动画电影$24#动漫$30#综艺$29#微短剧$34"
+}

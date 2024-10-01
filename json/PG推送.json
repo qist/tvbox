@@ -1,0 +1,22 @@
+{
+  "token":"http://127.0.0.1:9978/file/tvfan/token.txt",
+  "open_token":"",
+  "thread_limit":64,
+  "quark_thread_limit":10,
+  "vod_flags":"4kz|4k|auto",
+  "is_vip":true,
+  "vip_thread_limit":1,
+  "quark_flags":"4kz|auto",
+  "quark_is_vip":true,
+  "aliproxy":"",
+  "proxy":"",
+  "aliproxy_url":"https://jihulab.com/bestyr1/xiaobai/-/raw/master/aliproxy.gz",
+  "open_api_url":"https://aliyundrive-oauth.messense.me/oauth/access_token",
+  "danmu":true,
+  "quark_danmu":true,
+  "quark_cookie":"_UP_A4A_11_=wb9001e0d3254cde8501d306f653ad4f; _UP_335_2B_=1; _UP_D_=pc; _UP_30C_6A_=st9086201d7lxba0usa28orumuthxnto; _UP_TS_=sg135d8ef9efa5665ad3dfbfb5f3d8a5f9d; _UP_E37_B7_=sg135d8ef9efa5665ad3dfbfb5f3d8a5f9d; _UP_TG_=st9086201d7lxba0usa28orumuthxnto; __pus=05ba8197ce91839787d829360b5e2f83AARmKkEq/i9nlio2owz+eGZabX+ryU3BkYGIQkkXerdOd/kO4nDvk4pInIPXValzCzoGEe5BfIGe/y9dAdGDtwUH; __kp=6c970a00-9c3d-11ee-b1c4-f9274989a111; __kps=AAS5un6UQRxYbXomKXVSFn4A; __ktd=G5kLjLLS36xxbL6N/cNevA==; __uid=AAS5un6UQRxYbXomKXVSFn4A; __puus=1af539485cee8c7adffc08518886779cAAQv2rwm6WDtTp8fVgLcqJUrb/KnnXVIE/2mhEjzrxvm8UxCc1aJQyUbs0fWW3ypknJJlGvxOXt6TWePQOPysDLsFwOrW5vZAVO2r1L8mCGiRj2xBBM5x8BmREDOlAc0X5NIv53uG2lpgeU5/BlMy6+ywG49DOdak10Hyj3Vu9MD7L7YnTNjkLdmcan14r9FfSH6iSUS2vEU2zcjTX5biCze",
+  "yd_auth":"Basic bW9iaWxlOjE4MDE2NTAzMTMyOkxTTWYzQ0RFfDF8UkNTfDE3MDU2NjI0NDMxMDJ8UHA0ZGtCTUpmb0YzTXNRTnNUcnVVNnZiUklFX0NZdW1faktFNE5VUm9fVTBwbzU3c3ZPclBIaTVXR0ZzakpPaEpPZDhDSmJNUUtNeWhzYm1tTkxfU1V6RkN0b0RtcEdwRUJNRUREOF9ZU3gyTjNXX3I1c2QwN0FGTEVoRl83Z1M3RVl1VVhXcVJKdmRlZVNFRVNFSnltRE1WaHpwU0pEUWpMbEdZLlF5aW13LQ==",
+  "yd_thread_limit":4,
+  "yd_flags":"4kz|auto",
+  "yd_danmu":true
+}

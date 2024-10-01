@@ -1,0 +1,21 @@
+{
+  "作者": "东辰影视",
+  "站名": "君离影视",
+  "主页url": "http://jlys6.top/",
+  "简介": "关注公众号“东方精英汇”，获取最新接口，加qq群783264601防迷失！【东辰影视】提醒您以下为简介：+<div class=\"module-info-introduction-content show-desc\" style=\"line-height: 20px;\"><p>&&</p>",
+  "导演": "导演：&&</div>",
+  "主演": "主演：&&</div>",
+  "影片类型": "video-tag-icon\">&&立即播放",
+  "影片状态": "集数：&&</div>",
+  "搜索模式": "1",
+  "搜索url": "http://jlys6.top/index.php/vod/search/wd/{wd}.html",
+  "搜索数组": "module-card-item-class\">&&</a>",
+  "搜索标题": "alt=\"&&\"",
+  "搜索副标题": "note\">&&</div>",
+  "搜索链接": "href=\"&&\"",
+  "搜索图片": "data-original=\"&&\"",
+  "线路数组": "data-dropdown-value=&&</div>",
+  "线路标题": "<span>&&</small>[排序:app线路>>腾讯视频#奇艺视频#优酷视频#芒果视频#搜狐视频>>测试</span><small>>>共]+集",
+  "分类url": "http://jlys6.top/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;ak",
+  "分类": "电影$20#电视剧$21#综艺$22#动漫$23#短剧$37"
+  }

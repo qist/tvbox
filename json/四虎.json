@@ -1,0 +1,77 @@
+{
+  "站名": "四虎影院",
+  "主页url": "https://www.a234xx.com/",
+  "图片":"data-original=\"&&\"",
+  "标题":"title=\"&&\"",
+  "链接":"href=\"&&\"",
+  "线路数组": "<div class=\"item\">&&</div>",
+  "线路标题": ">&&</a>",
+  "搜索模式":"1",
+  "搜索url":"https://www.a234xx.com/searchs/index.php?keyboard={wd}&classid=",
+  "搜索链接前缀":"https://www.a234xx.com",
+  "搜索链接后缀":"",
+  "播放数组": "<div class=\"item&&</div>",
+  "状态": "分类：</span>&&</p>",
+  "导演": "导演：</span>&&</p>",
+  "主演": "主演：</span>&&</p>",
+  "简介": "名称：&&</h3>",
+  "播放列表": "<a&&/a>",
+  "播放标题": ">&&<",
+  "播放链接":"href=\"&&\"",
+  "分类":"国产$video#女优$av#电影$movie",
+  "分类url":"https://www.a234xx.com/{cateId}/{class}/index_{catePg}.html",
+  "筛选":{
+    "video":[
+      {
+        "key":"class",
+        "name":"分类",
+        "value":[
+          {"n":"全部","v":""},
+          {"n":"自拍视频","v":"zipai"},
+          {"n":"淫妻作乐","v":"fuqi"},
+          {"n":"开放青年","v":"kaifang"},
+          {"n":"精品分享","v":"jingpin"},
+          {"n":"台湾辣妹","v":"twmn"},
+          {"n":"韩国主播","v":"krzb"},
+          {"n":"动漫卡通","v":"dongman"},
+          {"n":"经典三级","v":"sanji"},
+          {"n":"onlyfans","v":"onlyfans"}
+        ]
+      }
+    ],
+    "av":[
+      {
+        "key":"class",
+        "name":"分类",
+        "value":[
+          {"n":"全部","v":""},
+          {"n":"女性向纯爱","v":"nxx"},
+          {"n":"GIGA女战士","v":"giga"},
+          {"n":"波多野结衣","v":"bdyjy"},
+          {"n":"深田咏美","v":"stym"},
+          {"n":"桥本有菜","v":"qbyc"},
+          {"n":"苍井空","v":"cjk"},
+          {"n":"三上悠亚","v":"ssyy"},
+          {"n":"吉泽明步","v":"jzmb"}
+        ]
+      }
+    ],
+    "movie":[
+      {
+        "key":"class",
+        "name":"分类",
+        "value":[
+          {"n":"全部","v":""},
+          {"n":"无码中字","v":"wuma"},
+          {"n":"SM系列","v":"sm"},
+          {"n":"高清无码","v":"gaoqing"},
+          {"n":"熟女人妻","v":"shunv"},
+          {"n":"美颜巨乳","v":"meiyan"},
+          {"n":"丝袜制服","v":"siwa"},
+          {"n":"中字有码","v":"youma"},
+          {"n":"欧美系列","v":"oumei"}
+        ]
+      }
+    ]
+  }
+}

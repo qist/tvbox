@@ -1,0 +1,22 @@
+{
+  "作者": "东辰影视",
+  "站名": "奈飞影视",
+  "主页url": "https://www.netflixgc.com/",
+  "简介": "关注公众号“东方精英汇”，获取最新接口，加qq群783264601防迷失！【东辰影视】提醒您以下为简介：+<div class=\"check selected\"><div id=\"height_limit\" class=\"text cor3\">&&</div>",
+  "导演": "导演：&&</div>",
+  "主演": "主演：&&</div>",
+  "影片类型": "video-tag-icon\">&&立即播放",
+  "影片状态": "集数：&&</div>",
+  "图片": "data-original=\"&&\"",
+  "搜索模式": "1",
+  "搜索url": "https://www.netflixgc.com/vodsearch/-------------.html?wd={wd}",
+  "搜索数组": "<b>&&</b>",
+  "搜索副标题": "<a>&&</a>",
+  "搜索标题": "class='movie_name'>&&</a>",
+  "搜索链接": "href=\"&&\"",
+  "搜索图片": "data-original=\"&&\"",
+  "线路数组": "<div class=\"swiper-wrapper\"><a class=\"swiper-slide\"><i class=\"fa ds-dianying\"></i>&nbsp;&&<span",
+  "线路标题": "",
+  "分类url": "https://www.netflixgc.com/vodtype/{cateId}.html;;ak",
+  "分类": "电影$1#连续剧$2#漫剧$3#韩剧$14#美剧$13"
+}

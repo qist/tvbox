@@ -1,0 +1,20 @@
+{
+    "数组": "myui-vodlist__thumb lazyload&&</li>",
+    "图片": "data-original=\"&&\"",
+    "标题": "title=\"&&\"",
+    "副标题": "text-muted\">&&</p>",
+    "链接": "href=\"&&\"",
+    "简介": "description\" content=\"&&\"",
+    "线路二次截取": "<ul class=\"item\">&&</ul>",
+    "线路数组": "<li&&</li>[排序:LZ源>>]",
+    "线路标题": ">&&</a>",
+    "播放数组": "<ul class=\"myui-content__list playlist&&</ul>",
+    "跳转播放链接": "var player_*\"url\":\"&&%26",
+    "搜索数组": "<li class=\"active&&</a>",
+    "搜索图片": "data-original=\"&&\"",
+    "搜索标题": "title=\"&&\"",
+    "搜索链接": "href=\"&&\"[替换:video>>play#.html>>-1-1.html]",
+    "搜索url": "https://www.yingshikong1.com/search-{wd}----------{pg}---.html",
+    "分类url": "https://www.yingshikong1.com/show-{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html[https://www.yingshikong1.com/list/{cateId}.html]",
+    "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#纪录片$jilupian"
+}

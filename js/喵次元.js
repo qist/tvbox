@@ -33,10 +33,10 @@ globalThis.posturl=function(url,json){
 }
 var rule = {
 	title: '喵次元[APP]',
-	host: 'https://cym.zhui.la/api.php',
+	host: 'https://cym.fengche.tv/api.php/',
 	hostJs:`
 	var json2 = '{"versionName":"5.6.9","uuid":"9cc01079c64e2495","version":"4835d0a2","versionCode":"35","ctime":"'+getTime()+'"}';
-	let url="https://cym.zhui.la/api.php/type/get_list";
+	let url="https://cym.fengche.tv/api.php/type/get_list";
 	let jo=posturl(url,json2).data.list;
 	let filters = {};
        let cb={"class":"类型","area":"地区","lang":"语言","year":"年份","star":"演员","director":"导演","state":"状态","version":"版本"};
@@ -97,7 +97,7 @@ var rule = {
 	let plyer=dd[1];
 	let video_id=dd[2];
 	var json2 = '{"player_id":"'+plyer+'","ju_id":"'+ju_id+'","vod_id":"'+video_id+'","versionName":"5.6.9","uuid":"3899af59c0b12b98","version":"4835d0a2","versionCode":"35","ctime":"'+getTime()+'"}';
-	let url="https://cym.zhui.la/api.php/video/get_definition";
+	let url="https://cym.fengche.tv/api.php/video/get_definition";
 	let html = posturl(url,json2).data[0].url.trim();
 	log(html);
 	//input=aesX("AES/CBC/PKCS7",false,html,true,"sLunqcoH85Nm/jDmFKns7A==","fedcba9876543210",false);
@@ -121,7 +121,7 @@ var rule = {
 	let page=input.split("&")[1].split("=")[1];
 	log(page);
 	var json2 = '{"page":"'+page+'","versionName":"5.6.9","uuid":"9cc01079c64e2495","version":"4835d0a2","versionCode":"35","ctime":"'+getTime()+'"}';
-	let url="https://cym.zhui.la/api.php/video/index";
+	let url="https://cym.fengche.tv/api.php/video/index";
 	let jo = posturl(url,json2);
 	let vodList = jo.data;
 	log(vodList);
@@ -154,7 +154,7 @@ var rule = {
 	})
 	var json2 = '{"type_id":"'+dd["t"]+'","vod_year":"'+dd["year"]+'","limit":"20","orderby":"","vod_area":"'+dd["area"]+'","vod_class":"'+dd["class"]+'","page":"'+dd["page"]+'","versionName":"5.6.9","uuid":"9cc01079c64e2495","version":"4835d0a2","vod_name":"","versionCode":"35","ctime":"'+getTime()+'"}';
 	log(json2);
-	let url="https://cym.zhui.la/api.php/video/get_list";
+	let url="https://cym.fengche.tv/api.php/video/get_list";
 	let jo = posturl(url,json2);
 	var d=[];
 	jo.data.list.forEach(function(it){
@@ -171,7 +171,7 @@ var rule = {
 	log(orId);
 	var json2 = '{"vod_id":"'+orId+'","versionName":"5.6.9","uuid":"3899af59c0b12b98","version":"4835d0a2","versionCode":"35","ctime":"'+getTime()+'"}';
 	log(json2);
-	let url="https://cym.zhui.la/api.php/video/get_detail";
+	let url="https://cym.fengche.tv/api.php/video/get_detail";
 	let jo = posturl(url,json2);
 	let node = jo.data;
 	VOD = {
@@ -196,7 +196,7 @@ var rule = {
 		//这里分别获取线路
 		var json2 = '{"limit":"5000","vod_id":"'+orId+'","page":"1","versionName":"5.6.9","uuid":"9cc01079c64e2495","version":"4835d0a2","versionCode":"35","player":"'+playurls+'","ctime":"'+getTime()+'"}';
 		log(json2);
-		let url="https://cym.zhui.la/api.php/video/get_player";
+		let url="https://cym.fengche.tv/api.php/video/get_player";
 		let jo1 = posturl(url,json2);
 		jo1.data.list.forEach(function(playurl) {
 			if (!playMap.hasOwnProperty(source)) {
@@ -223,7 +223,7 @@ var rule = {
 	let page=input.split("&")[1].split("=")[1];
 	log(page);
 	var json2 = '{"vod_year":"","limit":"20","orderby":"up","vod_area":"","vod_class":"","page":"'+page+'","versionName":"5.6.9","uuid":"9cc01079c64e2495","version":"4835d0a2","vod_name":"'+KEY+'","versionCode":"35","ctime":"'+getTime()+'"}';
-	let url="https://cym.zhui.la/api.php/video/get_list";
+	let url="https://cym.fengche.tv/api.php/video/get_list";
 	let jo = posturl(url,json2);
     var d=[];
     jo.data.list.forEach(function(it){
