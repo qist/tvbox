@@ -2,7 +2,7 @@
 import { Crypto, load, _ } from 'assets://js/lib/cat.js';
 
 let key = 'czzy';
-let host = 'https://www.czys.pro'; // 厂长地址发布页
+let host = 'https://www.czzy77.com'; // 厂长地址发布页
 let url = '';
 let siteKey = '';
 let siteType = 0;
