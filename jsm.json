@@ -656,11 +656,11 @@
             "ua": "okhttp/4.12.0",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
+        },        
         {
-            "name": "UBTV｜台港中際",
+            "name": "Kay四季｜台",
             "type": 0,
-            "url": "https://files.catbox.moe/g4zbng.json",
+            "url": "https://kaytse4gtv.koyeb.app/4gtv.m3u",
             "ua": "okhttp/5.2.0",
             "timeout": 5,
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Kuala_Lumpur",
@@ -694,7 +694,7 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "一盒｜International", 
+            "name": "一盒｜際", 
             "type": 0,
             "url": "https://anbox118.serv00.net/sapphire.php",
             "ua": "okhttp/3.15",
@@ -883,6 +883,18 @@
         //     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
         //     "logo": "https://epg.112114.xyz/logo/{name}.png"
         // },
+        
+        {
+            //2024-10-01
+            "note":"2024-10-01 has list, but no streamming",
+            "name": "UBTV｜台港中際",
+            "type": 0,
+            "url": "https://files.catbox.moe/g4zbng.json",
+            "ua": "okhttp/5.2.0",
+            "timeout": 5,
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Kuala_Lumpur",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
         {     "note": "2024-09-18 334078da",
               "name":"安博唐三｜台港",
               "url":"https://tang.hz.cz/zb/anbo?token=09759777",
