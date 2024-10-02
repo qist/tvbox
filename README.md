@@ -113,7 +113,7 @@
 
 --------------------------------------------------------------------
 
-## 其他:
+## 其他 Tools:
 1.  txt m3u 轉換工具 https://guihet.com/convert-m3u-js.html
 2.  Other link Source https://beatsingdrama.blogspot.com/p/xt-playlist-txt.html?m=1
 3.  detect good urls and remove old https://hub.docker.com/r/2011820123/tvbox
