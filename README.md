@@ -37,18 +37,12 @@
 8. https://raw.githubusercontent.com/jake3737/tvbox/master/js.json 
 9. 教學 https://gitlab.com/xmbjm/omg/-/raw/main/omg.json
 10. 欧乐,泥巴 (online js) https://gitlab.com/-/snippets/2343779/raw/main/snippetfile1.txt
-11. 18 AV https://d.kstore.space/download/7708/a18.json
-    
 
 
 ## 直播接口： 
 1. Rob Yang　點直播線源: https://rb.gy/wcjqb5 或 https://robyang.bsite.net/VodLive/sb8ffa
 4. 4GTV live: https://api2.4gtv.tv/Channel/GetChannelBySetId/1/pc/L<br>
-5. 159169 http://www.52sw.top:678/play/oj1381/list.php?get=159169
-6. 169 http://www.52sw.top:678/play/oj1381  
-7. https://www.juwanhezi.com/more/live 
-
-
+5. https://www.juwanhezi.com/more/live 
 
 
 ## 接口List：
@@ -124,6 +118,7 @@
 8.  [Streamtest](https://streamtest.in/) 免费且易于使用的基于Web的流测试器实用程序。
 9.  [M3U Edit](https://www.gtrigonakis.com/m3u-edit) 
 10. [直播源在线监测工具](http://cha.znds.com)
+11. Decoder: https://shixiong.alwaysdata.net/
 
 
 --------------------------------------------------------------------
