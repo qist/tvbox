@@ -6,7 +6,7 @@ https://4026.kstore.space/tv/p2p.txt
 無線新聞備,P2p://147.135.39.171:9906/66141a3d000c7a12f94c49ad085f4fe9
 Now新聞台,P2p://generationnexxxt.com:19806/b9ba3f0b06b14fe69ac2cbf51c77d816
 無線翡翠台,P2p://generationnexxxt.com:19806/2c1ef45c2c174f5c8df4d049e1cbccfd
-﻿無線翡翠備,P2p://147.135.39.171:9906/66430d4f000a06ccb0b20a650b4b5d65
+無線翡翠備,P2p://147.135.39.171:9906/66430d4f000a06ccb0b20a650b4b5d65
 有線綜合台,P2p://generationnexxxt.com:19806/532d47eca340456a814ba21cc5e68a52
 有線賽馬台,P2p://generationnexxxt.com:19806/e38b0ea6a9174a92bf7f30a36d4e0fe9
 無線賽馬台,P2p://generationnexxxt.com:19806/2cd619b81446414fb605daa1e86bebd6
