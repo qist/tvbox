@@ -1,6 +1,6 @@
  👇全球👇,#genre#
 Rob Yang,https://a.b
-體育sports#genre#
+體育sports,#genre#
 福克斯體育1,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz2uzv1/30776d2de8/index.m3u8
 福克斯體育2,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz2uzv1/479deb867d/index.m3u8
 拜因體育 (加拿大),http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz2uzv1/59b68097b2/index.m3u8
@@ -122,7 +122,7 @@ ELTA體育HD,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/fadh3ct5/xx8jfqc9/
 歐洲體育/sports,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/jjf48w4x/index.m3u8
 ELEVEN體育2,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/d41d8cd9/index.m3u8
 ELEVEN體育加,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/svs9236c/index.m3u8
-美國USA#genre#
+美國USA,#genre#
 KTSF26,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/8c33fa9b/dxhen221/index.m3u8
 灣區電視台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/8c33fa9b/dxzc221x/index.m3u8
 華語電視,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/8c33fa9b/cndjcn22/index.m3u8
@@ -214,7 +214,7 @@ TBS,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/285e786c69/index.m
 TNT高清,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/99f0228e90/index.m3u8
 旅遊,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/f1f611bb5a/index.m3u8
 WWE FHD,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/da5ad83204/index.m3u8
-加拿大#genre#
+加拿大,#genre#
 新時代多倫多,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/81636a3e/index.m3u8
 新時代2,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/40e8083fd4/index.m3u8
 新時代溫哥華,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/e95974c9/index.m3u8
@@ -349,7 +349,7 @@ WGN電視台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/1c150640c
 世界摔跤,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/de36f88ffc/index.m3u8
 YES電視,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/17ff8f047c/index.m3u8
 優酷電視,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/237c8a94db/index.m3u8
-英國UK#genre#
+英國UK,#genre#
 4七,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/dskmxzaa/f9bdc304/index.m3u8
 5星，http://yccloud.serv00.net/huanqiu.php?m3u8=/live/dskmxzaa/7ea31ec4/index.m3u8
 5 美國,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/dskmxzaa/39db5a1a/index.m3u8
@@ -514,7 +514,7 @@ SBS食品,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/9d33b0b05e/i
 SBS Viceland,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/46f908f8d2/index.m3u8
 0e17046e22,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/SBS世界電影/index.m3u8
 天空新聞,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/cjz1uzv2/01f0964329/index.m3u8
-香港Hongkong#genre#
+香港Hongkong,#genre#
 翡翠台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/b3ce88a4/index.m3u8
 翡翠台(高清),http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/5tg7hf6c/index.m3u8
 TVB J2,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/0087ab5b/index.m3u8
@@ -553,7 +553,7 @@ CP24,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/1cb2229c/index.m3
 鳳凰衛視高清,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/b41asd11/index.m3u8
 鳳凰香港高清,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/vfhd84ad/index.m3u8
 澳門蓮花,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/cs7rpncg/index.m3u8
-日本#genre#
+日本,#genre#
 NHK,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/9zvn2r22/index.m3u8
 日本網,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/2v2f7p8m/index.m3u8
 TBS新聞,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/vmw4nm9s/index.m3u8
@@ -579,7 +579,7 @@ ANNnewsCH,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/0ad7c0fa/ind
 NHK_WORLD日本,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/mn4r6rh7/index.m3u8
 日本新聞24,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/51671ceb/index.m3u8
 BBC_World_News JP,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/sfbr8tsc/index.m3u8
-台灣#genre#
+台灣,#genre#
 公視 HD,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/j44fm83f/index.m3u8
 公視台語台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/8x1bt2hg/index.m3u8
 華視,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/hmrmw2mj/index.m3u8
@@ -650,7 +650,7 @@ MOMO親子台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/877sd556
 大愛一個 ,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/tcs89msv/index.m3u8
 國興衛視,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/6zb3p58j/index.m3u8
 好訊息2,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/h8w5891c/index.m3u8
-新馬 新加坡 馬來西亞#流派#
+新馬 新加坡 馬來西亞,#genre#
 歡喜台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/amlxy030/index.m3u8
 華麗台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/amlxy029/index.m3u8
 全佳,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/amlxy032/index.m3u8
@@ -701,7 +701,7 @@ VASANTHAM,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/00xjp007/ind
 Boo-HD,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/amlxy020/index.m3u8
 衛視中文台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/a121q1cc/index.m3u8
 HBO HD,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/84wnpj8g/index.m3u8
-印度#genre#
+印度,#genre#
 Zee新聞,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/02byd010/index.m3u8
 Zee新聞（備）,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/e95cebf9/ddf5360b18957a47/index.m3u8
 Zee_Action,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/02byd007/index.m3u8
@@ -736,7 +736,7 @@ Star Plus UK,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/e95cebf9/61598da82
 太陽泰米爾,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/e95cebf9/559bd69a4afed941/index.m3u8
 柳蟋蟀,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/e95cebf9/3fe8a0eb1d8ba2b6/index.m3u8
 Zee Studio,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/e95cebf9/ca6cbffa9966607b/index.m3u8
-韓國Korea#genre#
+韓國Korea,#genre#
 KBS1,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/787b1cf0/index.m3u8
 KBS2,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/b7c242c8/index.m3u8
 MBC,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/8c654b96/index.m3u8
@@ -762,7 +762,7 @@ SBS高爾夫,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/de3v22se/
 TVN_EN,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/8wk7r3sc/index.m3u8
 KBS世界24,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/55d51e1e/index.m3u8
 KBS World_EN,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/8c33fa9b/06cth003/index.m3u8
-電影Movie#genre#
+電影Movie,#genre#
 美亞電影台高清,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/4vphhg1h/index.m3u8
 星衛電影台高清,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/6s69fnjz/index.m3u8
 快播,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/63t80c5p/index.m3u8
@@ -791,7 +791,7 @@ AXN,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/q1t3r233/index.m3u
 東森洋片,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/fadh3ct5/0kxhqv8q/index.m3u8
 龍華洋片,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/a9a5de21/gs7wj4b5/index.m3u8
 天映電影,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/amlxy027/index.m3u8
-新聞#genre#
+新聞,#genre#
 鳳凰資訊HD,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/871a556a/index.m3u8
 鳳凰衛視高清,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/b41asd11/index.m3u8
 鳳凰衛視香港台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/vfhd84ad/index.m3u8
@@ -821,7 +821,7 @@ CNBC，http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/wnfjf1pn/index.
 TV5,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/9nk93b9c/index.m3u8
 DW-電視,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/5g2z36jg/index.m3u8
 杰特,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/07t8z33z/index.m3u8
-兒童Kids#genre#
+兒童Kids,#genre#
 寶貝電視,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/0j9wgpsb/index.m3u8
 CCTV-14少兒,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/483f4944/index.m3u8
 CN卡通,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/0jqsx5tg/index.m3u8
@@ -837,7 +837,7 @@ MOMO親子台,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/877sd556
 卡通網路,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/0jqsx5tg/index.m3u8
 安利MAX,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/zmz9k2hc/index.m3u8
 Nick_Jr,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/kwzq1rse/tnv75740/index.m3u8
-國際International#genre#
+國際International,#genre#
 CP24,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/1cb2229c/index.m3u8
 新時代多倫多,http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/d0a1b9c3/index.m3u8
 新時代2仙童2，http://yccloud.serv00.net/huanqiu.php?m3u8=/live/t6u5b1q4/53e9c80f/index.m3u8
