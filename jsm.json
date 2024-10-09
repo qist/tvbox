@@ -1,6 +1,7 @@
 {
 "note":"FROM: https://rb.gy/geje78",
-"note2": "FROM: https://robyang.bsite.net/VodLive/jb8ffa",
+"note2": "FROM: https://RobYang.bsite.net/VodLive/jb8ffa",
+"logo": "https://RobYang.bsite.net/RobYang.jpg",
 //FROM: https://rb.gy/geje78
 //FROM: https://robyang.bsite.net/VodLive/jb8ffa
 "spider":"./jar/pg.jar",
@@ -608,7 +609,7 @@
 {
 "name": "🏠RobYang | Youtube(蜂蜜影視2.3.4前或2.6.4後)",
 "type": 0,
-"url": "https://robyang.bsite.net/VodLive/lb8ffa",
+"url": "https://RobYang.bsite.net/VodLive/lb8ffa",
 "ua": "okhttp/4.12.0",
 "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
 "timeout": 5,
@@ -772,7 +773,7 @@
 {
 "name": "🏘️只是鏈接2 RobYang",
 "type": 0,
-"url": "https://robyang.bsite.net/VodLive/sb8ffa"
+"url": "https://RobYang.bsite.net/VodLive/sb8ffa"
 },
 
 {
