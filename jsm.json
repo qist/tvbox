@@ -626,6 +626,7 @@
 "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
 "logo": "https://epg.112114.xyz/logo/{name}.png"
 },
+  /******
 {
 "name": "Kay四季｜台",
 "type": 0,
@@ -642,6 +643,7 @@
 "epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
 "logo":"https://epg.112114.xyz/logo/{name}.png"
 },		
+  ******/
 {
 "name":"ETH｜台港日韓際",
 "api":"https://tang.hz.cz/js/ethtv.js",
