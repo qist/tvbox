@@ -130,7 +130,7 @@ TVBS新聞,http://free.xiptv.x10.bz/anbo/?id=2396
 年代新聞-備,http://free.xiptv.x10.bz/anbo/?id=1099
 壹新聞-替,http://free.xiptv.x10.bz/anbo/?id=494
 非凡新聞,http://free.xiptv.x10.bz/anbo/?id=2795
-非凡新聞（備）,http://free.xiptv.x10.bz/anbo/?id=3236
+非凡新聞,http://free.xiptv.x10.bz/anbo/?id=3236
 非凡商業新聞,http://free.xiptv.x10.bz/anbo/?id=314
 台視財經,http://free.xiptv.x10.bz/anbo/?id=300
 運通財經,http://free.xiptv.x10.bz/anbo/?id=79
@@ -167,7 +167,10 @@ TRTWORLD,http://free.xiptv.x10.bz/anbo/?id=1022
 
 
 📺YouTube 兒童,#genre#
-YOYO TV,https://www.youtube.com/watch?v=IAGgSVzXIJM
+東森幼幼,https://www.youtube.com/watch?v=IAGgSVzXIJM
+MOMO親子,https://www.youtube.com/watch?v=oLdxAo_dez0
+MOMO親子成語,https://www.youtube.com/watch?v=OrX2QQtMkkY
+MOMO親子音樂,https://www.youtube.com/watch?v=LvPgP4ARP3Y
 迪士尼,https://www.youtube.com/watch?v=cgHyVRqn6ow
 迪士尼2,https://www.youtube.com/watch?v=0DecaiMuSfI
 迪士尼3,https://www.youtube.com/watch?v=3Cshaj_1NO4
@@ -189,9 +192,6 @@ ELTV生活英語台,https://sc2024.stream-link.org/live/76176147201.php?id=m819k
 --------------ubtvfans------------------
 Bebefinn,https://z88.ubtvfans.com/live/rx6/489/61e04f306677de01b1b719e8a56e7352/index.m3u8
 Leigha Marina,https://z88.ubtvfans.com/live/rx6/313/4396273dc2b1fbb9f3e4ef07af3b773c/index.m3u8
-MOMO親子,https://z88.ubtvfans.com/live/rx3/1126/e784303c7c9eed38bde81d3a18ea6a7b/index.m3u8
-東森幼幼（備）,https://z88.ubtvfans.com/live/rx1/2771/f80a3de4ce304ed26c613af4bd3a171e/index.m3u8
-東森幼幼,https://z88.ubtvfans.com/live/rx1/371/e5a626d0c50b5b2ffc67d45f5573088f/index.m3u8
 東森亞洲呦呦,https://z88.ubtvfans.com/live/rx1/293/b97bce651c119e363f86476c45894e3c/index.m3u8
 PBS KIDS,https://z88.ubtvfans.com/live/rx6/355/832e759e3f7448640a4e76beca5df5e7/index.m3u8
 CN Asia,https://z88.ubtvfans.com/live/rx6/2768/a9a814d76242121e4f2cbe66a0ec41b5/index.m3u8
@@ -253,7 +253,7 @@ Bebefinn,http://free.xiptv.x10.bz/anbo/?id=489
 Leigha Marina,http://free.xiptv.x10.bz/anbo/?id=313
 MOMO親子,http://free.xiptv.x10.bz/anbo/?id=2767
 東森幼幼,http://free.xiptv.x10.bz/anbo/?id=371
-東森幼幼（備）,http://free.xiptv.x10.bz/anbo/?id=2771
+東森幼幼,http://free.xiptv.x10.bz/anbo/?id=2771
 東森亞洲呦呦,http://free.xiptv.x10.bz/anbo/?id=293
 PBS KIDS,http://free.xiptv.x10.bz/anbo/?id=355
 CN Asia,http://free.xiptv.x10.bz/anbo/?id=2768
@@ -664,7 +664,7 @@ TVBS新聞,https://z88.ubtvfans.com/live/rx2/2/04c1c443d4f9f5983c9e9a491ba05f05/
 年代新聞,https://z88.ubtvfans.com/live/rx1/1099/4392a37019300b097bd520e9b64653d7/index.m3u8
 壹新聞,https://z88.ubtvfans.com/live/rx1/2777/313274d3ff42695b8ac68984698008f6/index.m3u8
 非凡新聞,https://z88.ubtvfans.com/live/rx1/2795/4b1b623041120e96c24bbb6c729c5b0d/index.m3u8
-非凡新聞（備）,https://z88.ubtvfans.com/live/rx3/3236/e09419572785f3cef13fdf70391f18af/index.m3u8
+非凡新聞,https://z88.ubtvfans.com/live/rx3/3236/e09419572785f3cef13fdf70391f18af/index.m3u8
 非凡商業新聞,https://z88.ubtvfans.com/live/rx6/314/2131df66e5e2fbd55751eb67b724f25c/index.m3u8
 台視財經,https://z88.ubtvfans.com/live/rx1/300/56b15fc6b228e2e43d2873bd97b6ea9d/index.m3u8
 運通財經,https://z88.ubtvfans.com/live/rx6/79/87fc9b7dfbd52b10268f69ee769031a5/index.m3u8
@@ -1800,7 +1800,7 @@ TaiwanPlus,https://z88.ubtvfans.com/live/rx6/327/ebb005678777b3ac506515801705433
 Globetrotter（環球旅遊）,https://z88.ubtvfans.com/live/rx1/114/b486b29428a82907474eaa9d8924721b/index.m3u8
 Globetrotter（MOD）,https://z88.ubtvfans.com/live/rx1/3259/3c1d3084b73e86371fff90636daaf98c/index.m3u8
 MOMO親子,https://z88.ubtvfans.com/live/rx3/1126/e784303c7c9eed38bde81d3a18ea6a7b/index.m3u8
-東森幼幼（備）,https://z88.ubtvfans.com/live/rx1/2771/f80a3de4ce304ed26c613af4bd3a171e/index.m3u8
+東森幼幼,https://z88.ubtvfans.com/live/rx1/2771/f80a3de4ce304ed26c613af4bd3a171e/index.m3u8
 東森幼幼,https://z88.ubtvfans.com/live/rx1/371/e5a626d0c50b5b2ffc67d45f5573088f/index.m3u8
 東森亞洲呦呦,https://z88.ubtvfans.com/live/rx1/293/b97bce651c119e363f86476c45894e3c/index.m3u8
 CN卡通,https://z88.ubtvfans.com/live/rx1/107/2a996b4eec8a67c34db592186cfc9754/index.m3u8
@@ -3132,7 +3132,7 @@ EYE旅遊,http://free.xiptv.x10.bz/anbo/?id=1494
 探索動力DMAX,http://free.xiptv.x10.bz/anbo/?id=335
 MOMO親子,http://free.xiptv.x10.bz/anbo/?id=2767
 東森幼幼,http://free.xiptv.x10.bz/anbo/?id=371
-東森幼幼（備）,http://free.xiptv.x10.bz/anbo/?id=2771
+東森幼幼,http://free.xiptv.x10.bz/anbo/?id=2771
 東森亞洲呦呦,http://free.xiptv.x10.bz/anbo/?id=293
 CN卡通,http://free.xiptv.x10.bz/anbo/?id=107
 靖洋卡通,http://free.xiptv.x10.bz/anbo/?id=348
