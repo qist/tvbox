@@ -1,64 +1,64 @@
 📺YouTube 新聞,#genre#
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
-三立iNews,https://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
-三立News+海外,https://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
+三立iNews,http://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
+三立News+海外,http://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
 三立NEWS+,https://m.youtube.com/watch?v=FoBfXvlOR6
 三立新聞,https://m.youtube.com/watch?v=oZdzzvxTfUY
-三立新聞,https://www.youtube.com/watch?v=uZ9KecuS0RA
-三立新聞,https://www.youtube.com/watch?v=CKjSm5ZeehE
-公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
-公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
-非凡商業,https://www.youtube.com/watch?v=NHQDx8vCrC4
+三立新聞,http://www.youtube.com/watch?v=uZ9KecuS0RA
+三立新聞,http://www.youtube.com/watch?v=CKjSm5ZeehE
+公視新聞,http://www.youtube.com/watch?v=quwqlazU-c8
+公視新聞,http://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
+非凡商業,http://www.youtube.com/watch?v=NHQDx8vCrC4
 台視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
 華視新聞,http://m.youtube.com/watch?v=wM0g8EoUZ_E
-鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o?si=xubbPSDWCPgY2yxM
+鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o?si=xubbPSDWCPgY2yxM
 寰宇新聞,http://m.youtube.com/watch?v=6IquAgfvYmc
 寰宇新聞灣台,http://m.youtube.com/live/w87VGpgd90U
-東森LIVE,https://www.youtube.com/watch?v=R2iMq5LKXco
+東森LIVE,http://www.youtube.com/watch?v=R2iMq5LKXco
 東森LIVE,https://m.youtube.com/watch?v=E0zhe2gkXBs
 東森LIVE,https://clonglii.serv00.net/youtube_d.php?id=E0zhe2gkXBs&data=normal
-東森新聞,https://www.youtube.com/watch?v=V1p33hqPrUk
+東森新聞,http://www.youtube.com/watch?v=V1p33hqPrUk
 東森新聞,https://m.youtube.com/watch?v=LuQ4S-i5zoE
-東森財經新聞,https://www.youtube.com/live/WHEPzbFA3hw
-東森財經股市,https://www.youtube.com/watch?v=LbS-xQ67fos
-中天新聞1台,https://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞2台,https://www.youtube.com/watch?v=WPfPjbOLNfE
-中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+東森財經新聞,http://www.youtube.com/live/WHEPzbFA3hw
+東森財經股市,http://www.youtube.com/watch?v=LbS-xQ67fos
+中天新聞1台,http://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新聞2台,http://www.youtube.com/watch?v=WPfPjbOLNfE
+中視新聞,http://www.youtube.com/watch?v=TCnaIE_SAtM
 創世電視,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8&data=normal
-TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://m.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
 TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=normal
 唯心電視台,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8&data=normal
-新唐人,https://www.youtube.com/watch?v=WIhgU_mc05A
-澳洲ABCNews,https://www.youtube.com/watch?v=vOTiJkg1voo
+新唐人,http://www.youtube.com/watch?v=WIhgU_mc05A
+澳洲ABCNews,http://www.youtube.com/watch?v=vOTiJkg1voo
 (美)BBC Earth,https://d206rrc0yoxllg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-staxtq3pp4n9p/BBC_Earth_US.m3u8&data=normal
 (美)Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8&data=normal
 (美)NASA1,https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8&data=normal
-ABC News,https://www.youtube.com/live/-mvUkiILTqI 
-CCTV中文國際,https://www.youtube.com/watch?v=bEZYrBMYNNg
-CNN News,https://www.youtube.com/watch?v=78UnBnAidZ0-
-DW,https://www.youtube.com/watch?v=pqabxBKzZ6M
+ABC News,http://www.youtube.com/live/-mvUkiILTqI 
+CCTV中文國際,http://www.youtube.com/watch?v=bEZYrBMYNNg
+CNN News,http://www.youtube.com/watch?v=78UnBnAidZ0-
+DW,http://www.youtube.com/watch?v=pqabxBKzZ6M
 DW德國之聲,https://youtu.be/tZT2MCYu6Zw
-Euronews English,https://www.youtube.com/live/pykpO5kQJ98 
-Euronews English,https://www.youtube.com/watch?v=pykpO5kQJ98
-Fox new,https://www.youtube.com/watch?v=YDfiTGGPYCk
-FRANCE 24,https://www.youtube.com/watch?v=h3MuIUNCCzI
+Euronews English,http://www.youtube.com/live/pykpO5kQJ98 
+Euronews English,http://www.youtube.com/watch?v=pykpO5kQJ98
+Fox new,http://www.youtube.com/watch?v=YDfiTGGPYCk
+FRANCE 24,http://www.youtube.com/watch?v=h3MuIUNCCzI
 GB News,https:/ /www.youtube.com/live/8WX6YL9JnLw
-HTB北海道,https://www.youtube.com/live/d8CrKBU99Hg 
-KBS KOREA,https://www.youtube.com/watch?v=HnfpTMtfFk8
-KOMPASTV,https://www.youtube.com/watch?v=4rmf-lk3ito
-mnews鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o 
-NASA Live,https://www.youtube.com/live/nA9UZF-SZoQ 
+HTB北海道,http://www.youtube.com/live/d8CrKBU99Hg 
+KBS KOREA,http://www.youtube.com/watch?v=HnfpTMtfFk8
+KOMPASTV,http://www.youtube.com/watch?v=4rmf-lk3ito
+mnews鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o 
+NASA Live,http://www.youtube.com/live/nA9UZF-SZoQ 
 NASA TV,https:/ /www.youtube.com/live/21X5lGlDOfg 
-Nat geo wild,https://www.youtube.com/watch?v=BJ3Yv572V1A
-NBC NEW,https://www.youtube.com/watch?v=7-JR7DjKF_c
-NHK WORLD,https://www.youtube.com/watch?v=f0lYkdA-Gtw
-Sky News,https://www.youtube.com/watch?v=w9uJg68CV4g
+Nat geo wild,http://www.youtube.com/watch?v=BJ3Yv572V1A
+NBC NEW,http://www.youtube.com/watch?v=7-JR7DjKF_c
+NHK WORLD,http://www.youtube.com/watch?v=f0lYkdA-Gtw
+Sky News,http://www.youtube.com/watch?v=w9uJg68CV4g
 TVBS HD,https://m.youtube.com/watch?v=YvdcZ_jpLXE
 TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&data=normal
 TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&ln=2&data=normal
-TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
+TVBS NEWS,http://www.youtube.com/watch?v=m_dhMSvUCIc
 TVBS NEWS,https://m.youtube.com/watch?v=m_dhMSvUCIc
 CBS哥倫比亞廣播系統新聞(CBS),https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8&data=normal
 CNN有線電視新聞網(CNN),https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8&data=normal
@@ -75,21 +75,21 @@ BBC英國廣播公司新聞(英國)(BBC News),https://i.mjh.nz/SamsungTVPlus/US4
 日本廣播協會(日本)(NHK World)(各地字幕),https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/zt/playlist-back.m3u8&data=normal
 (阿)半島電視台(中東)(AlJazeera Arabic),http://live-hls-web-aja.getaj.net/AJA/02.m3u8&data=normal
 (多)馬新社電視台(馬來西亞)(BERNAMA TV),https://m.youtube.com/channel/UCcZg5r9hBqK_VPUT2I7eYVw/live\
-鳳凰資訊,https://www.youtube.com/watch?v=sUISafvOieY
-中天新聞,https://www.youtube.com/live/oIgbl7t0S_w?feature=share
-中天新聞1台,https://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞2台,https://www.youtube.com/watch?v=WPfPjbOLNfE
-中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
-華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtcK
-TVBS56,https://www.youtube.com/watch?v=YvdcZ_jpLXE
-TVBS NEWS LIVE,https://www.youtube.com/watch?v=m_dhMSvUCIc
-東森Live,https://www.youtube.com/watch?v=S5WOGu2HSes
-鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o
-台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
-寰宇新聞,https://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
-台視新聞,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
+鳳凰資訊,http://www.youtube.com/watch?v=sUISafvOieY
+中天新聞,http://www.youtube.com/live/oIgbl7t0S_w?feature=share
+中天新聞1台,http://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新聞2台,http://www.youtube.com/watch?v=WPfPjbOLNfE
+中視新聞,http://www.youtube.com/watch?v=TCnaIE_SAtM
+華視新聞,http://www.youtube.com/watch?v=wM0g8EoUZ_E
+TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtcK
+TVBS56,http://www.youtube.com/watch?v=YvdcZ_jpLXE
+TVBS NEWS LIVE,http://www.youtube.com/watch?v=m_dhMSvUCIc
+東森Live,http://www.youtube.com/watch?v=S5WOGu2HSes
+鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o
+台視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
+寰宇新聞,http://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
+台視新聞,http://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
 
 
 
@@ -161,23 +161,23 @@ TRTWORLD,http://free.xiptv.x10.bz/anbo/?id=1022
 此僅限研究實驗使用,http://a.b
 如目的爲觀看則屬非法行為,http://a.c
 任何責任自行負責,http://a.d
-只能蜂蜜影視2.6.4後,https://www.youtube.com/watch?v=yks2_Og6MY4
+只能蜂蜜影視2.6.4後,http://www.youtube.com/watch?v=yks2_Og6MY4
 或OK影視pro2.6.4後,http://m.youtube.com/watch?v=6IquAgfvYmc
 
 
 
 📺YouTube 兒童,#genre#
-東森幼幼,https://www.youtube.com/watch?v=IAGgSVzXIJM
-MOMO親子,https://www.youtube.com/watch?v=oLdxAo_dez0
-MOMO親子成語,https://www.youtube.com/watch?v=OrX2QQtMkkY
-MOMO親子音樂,https://www.youtube.com/watch?v=LvPgP4ARP3Y
-迪士尼,https://www.youtube.com/watch?v=cgHyVRqn6ow
-迪士尼2,https://www.youtube.com/watch?v=0DecaiMuSfI
-迪士尼3,https://www.youtube.com/watch?v=3Cshaj_1NO4
-迪士尼4,https://www.youtube.com/watch?v=CHK9pKnozHk
-迪士尼5,https://www.youtube.com/watch?v=u-hWZjiRUXk
-迪士尼6,https://www.youtube.com/watch?v=2S-4lQITckc
-迪士尼7,https://www.youtube.com/watch?v=Y8-gcg0_I0w
+東森幼幼,http://www.youtube.com/watch?v=IAGgSVzXIJM
+MOMO親子,http://www.youtube.com/watch?v=oLdxAo_dez0
+MOMO親子成語,http://www.youtube.com/watch?v=OrX2QQtMkkY
+MOMO親子音樂,http://www.youtube.com/watch?v=LvPgP4ARP3Y
+迪士尼,http://www.youtube.com/watch?v=cgHyVRqn6ow
+迪士尼2,http://www.youtube.com/watch?v=0DecaiMuSfI
+迪士尼3,http://www.youtube.com/watch?v=3Cshaj_1NO4
+迪士尼4,http://www.youtube.com/watch?v=CHK9pKnozHk
+迪士尼5,http://www.youtube.com/watch?v=u-hWZjiRUXk
+迪士尼6,http://www.youtube.com/watch?v=2S-4lQITckc
+迪士尼7,http://www.youtube.com/watch?v=Y8-gcg0_I0w
 迪士尼最佳歌曲2023,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
 動畫世界,https://sc2024.stream-link.org/live/76176147201.php?id=m515bmd
 尼克兒童,https://sc2024.stream-link.org/live/76176147201.php?id=m372zmu
@@ -302,18 +302,18 @@ CCTV14,http://free.xiptv.x10.bz/anbo/?id=2826
 民視戲劇,http://www.youtube.com/live/6CQZxYpW9q4
 華視綜藝頻道,http://m.youtube.com/live/IfKO17h4pVE
 華視戲劇頻道,http://m.youtube.com/live/WFXI3igmwDk 
-中視亞洲台,https://www.youtube.com/live/s2waUruqze4 
-中視綜藝,https://www.youtube.com/live/ADDSmXoPDY8 
+中視亞洲台,http://www.youtube.com/live/s2waUruqze4 
+中視綜藝,http://www.youtube.com/live/ADDSmXoPDY8 
 台視,https://m.youtube.com/watch?v=uDqQo8a7Xmk
-大愛一台,https://www.youtube.com/watch?v=MIqUplvSRWA
-大愛二台台灣,https://www.youtube.com/watch?v=OKvWtVoDR8I
-大愛二台全球,https://www.youtube.com/watch?v=DTNkEm6jaqQ
-信大電視台,https://www.youtube.com/live/ciwFpYofb28
-國會頻道,https://www.youtube.com/live/4HysYHJ6GkY 
-momo購物一台,https://www.youtube.com/watch?v=_pZQ1Lk0xMA
-momo購物二台,https://www.youtube.com/watch?v=xbNWkUyxQGM
-東森購物台CH34,https://www.youtube.com/watch?v=ViJ3XiN6Q3M
-美好購物二台,https://www.youtube.com/watch?v=lEXITHxcagI
+大愛一台,http://www.youtube.com/watch?v=MIqUplvSRWA
+大愛二台台灣,http://www.youtube.com/watch?v=OKvWtVoDR8I
+大愛二台全球,http://www.youtube.com/watch?v=DTNkEm6jaqQ
+信大電視台,http://www.youtube.com/live/ciwFpYofb28
+國會頻道,http://www.youtube.com/live/4HysYHJ6GkY 
+momo購物一台,http://www.youtube.com/watch?v=_pZQ1Lk0xMA
+momo購物二台,http://www.youtube.com/watch?v=xbNWkUyxQGM
+東森購物台CH34,http://www.youtube.com/watch?v=ViJ3XiN6Q3M
+美好購物二台,http://www.youtube.com/watch?v=lEXITHxcagI
 大立電視台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8&data=normal
 番薯電視台,http://61.216.67.119:1935/TWHG/E1/index.m3u8&data=normal
 好消息,https://dqhxk7sbp7xog.cloudfront.net/osmflivech1.m3u8&data=normal$decoder=2
@@ -323,10 +323,10 @@ momo購物二台,https://www.youtube.com/watch?v=xbNWkUyxQGM
 大愛一台,https://m.youtube.com/watch?v=oV_i3Hsl_zg
 大愛二台,https://m.youtube.com/watch?v=DTNkEm6jaqQ
 大愛二台,https://m.youtube.com/watch?v=OKvWtVoDR8I
-華藏,https://www.youtube.com/watch?v=ypmrwYeLAaQ
+華藏,http://www.youtube.com/watch?v=ypmrwYeLAaQ
 希望電視台,https://videodelivery.net/f9fac529ef8cc8f8dc702ac06116ad1b/manifest/video.m3u8&data=normal
-東京新宿,https://www.youtube.com/watch?v=DjdUEyjx8GM
-正德電視台,https://www.youtube.com/watch?v=AfcVHGIRbP8
+東京新宿,http://www.youtube.com/watch?v=DjdUEyjx8GM
+正德電視台,http://www.youtube.com/watch?v=AfcVHGIRbP8
 淨空老法師直播台,https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8&data=normal
 港台電視33,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8&data=normal
 港台電視34,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8&data=normal
@@ -335,7 +335,7 @@ CBTV十方法界弘法電視台,https://m.youtube.com/watch?v=77SHFx1c8Lk
 生命電視台,http://211.73.19.201/live/AB167E56-808C-81D4-6471-76DC400D5192.m3u8?fmt=x264_1200K_ts&cpid=admin&size=1920X1080&data=normal
 香港佛陀教育協會,https://i.cibei.org/live/hd/playlist.m3u8&data=normal
 香港佛陀教育協會,https://live.jingzong.org/live/hd/playlist.m3u8&data=normal
-鳳凰衛視資訊,https://www.youtube.com/watch?v=HFib76ySpbU
+鳳凰衛視資訊,http://www.youtube.com/watch?v=HFib76ySpbU
 
 
 --------------四季------------------
