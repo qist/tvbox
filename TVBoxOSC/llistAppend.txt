@@ -12,7 +12,7 @@
 
 
 
-極速港台2,#genre#
+極速 | 港台,#genre#
 
 翡翠台,http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
 華麗翡翠,http://cdn9.1689.us.kg/smt1.1.php?id=Tvbjade
@@ -21,12 +21,10 @@
 ASTRO AOD,http://cdn9.1689.us.kg/smt1.1.php?id=Aodhd
 TVB plus,http://cdn5.1678520.xyz/live/?id=tvbp
 TVB plus備,http://117.27.251.40/libof.kesx.top/live/5658kwkojtz.m3u8
-
 popc,http://gweid.serv00.net/tui.php?id=popc
 tvbplus,http://gweid.serv00.net/tui.php?id=tvbplus
 翡翠台備,http://gweid.serv00.net/tui.php?id=fct
 viutv,http://gweid.serv00.net/tui.php?id=viutv
-
 無線 新聞,http://live.cooltv.top/tv/tvb.php?id=2
 鳳凰中文,http://122.224.232.226:8888/udp/233.50.200.191:5140
 鳳凰資訊,http://122.224.232.226:8888/udp/233.50.200.192:5140
@@ -39,7 +37,6 @@ TVB星河3,https://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 功夫,https://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
 娛樂新聞,https://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-
 中視,rtmp://f13h.mine.nu/sat/tv091
 華視,rtmp://f13h.mine.nu/sat/tv111
 台視,rtmp://f13h.mine.nu/sat/tv071
@@ -60,8 +57,6 @@ AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
 八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
 動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
 八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
-
-極速限時,#genre#
 翡翠台,http://58.250.155.2:8180/hls/TV00000000000000000032@HHZT
 TVB經典,https://short-link.me/LgOi
 TVB星河,https://short-link.me/NAEZ
@@ -69,9 +64,6 @@ TVB星河,https://short-link.me/NAEZ
 無綫新聞,https://short-link.me/NADV
 中天新聞,https://short-link.me/LgP6
 PopC,http://e2stw.ensl.cn/b9
-
-HK DTMB,#genre#
-
 翡翠台,http://zsntlqj.xicp.net:8895/bysid/1.m3u8
 ViuTVsix,http://zsntlqj.xicp.net:8895/bysid/96.m3u8
 ViuTV,http://zsntlqj.xicp.net:8895/bysid/99.m3u8
@@ -102,8 +94,6 @@ HOY 資訊台,http://beishan008.asuscomm.com:8891/bysid/78.m3u8
 港台電視 32,http://beishan008.asuscomm.com:8892/bysid/32.m3u8
 中央電視台綜合頻道（CCTV-1綜合),http://beishan008.asuscomm.com:8892/bysid/33.m3u8
 中國環球電視網紀錄頻道 (CGTN紀錄頻道),http://beishan008.asuscomm.com:8892/bysid/34.m3u8
-
-
 
 
 

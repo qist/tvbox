@@ -84,7 +84,7 @@ DAZN 2,rtmp://f13h.mine.nu:1935/sat/tv741
 
 
 
-VIP2頻道,#genre#
+VIP2 | 際,#genre#
 環球電視,http://zb.xzxwhcb.com:9999/hls/world.m3u8
 泰國ASTV,http://news1.live14.com/stream/news1_hi.m3u8
 韓國新聞,http://amdlive.ctnd.com.edgesuite.net:80/arirang_1ch/smil:arirang_1ch.smil/chunklist_b2256000_sleng.m3u8
@@ -151,7 +151,7 @@ Shinsegae TV Shopping,https://liveout.catenoid.net/live-02-shinsegaetvshopping/s
 TBS,https://cdntv.tbs.seoul.kr/tbs/_definst_/tbs_tv_web_720.smil/playlist.m3u8
 
 
-VIP頻道3,#genre#
+VIP3 | 際,#genre#
 AlbKanale Music TV Ⓢ,https://albportal.net/albkanalemusic.m3u8
 CNA,https://live1.mediadesk.al/cnatvlive.m3u8
 News 24 Ⓢ,https://tv.balkanweb.com/news24/livestream/playlist.m3u8
