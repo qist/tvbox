@@ -79,6 +79,6 @@
 "tgsearch_api_id":"",
 "tgsearch_api_hash":"",
 "tgsearch_api_session":"",
-"tgsearch_api_proxy":"",
+"tgsearch_api_proxy":"proxy",
 "tgsearch_api_url":"http://127.0.0.1:10199/"
 }
