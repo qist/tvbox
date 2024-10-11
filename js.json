@@ -1,5 +1,5 @@
 {
-"spider":"./jar/pg.jar;md5;988ca838860b1f359a048e2b177cd8a0",
+"spider":"./jar/pg.jar;md5;dffec63fb83a2b31b8606bd4bf6bead9",
 "lives":[
 {"name":"live","type":0,"url":"./tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"Ray","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
@@ -52,7 +52,7 @@
 {"key":"4KHDR","name":"弹幕 | 4KHDR[jar]","type":3,"api":"csp_FourKHDR","ext":"./lib/token.json$$$http://127.0.0.1:9978/file/TV/4khdr.txt","quickSearch":1,"changeable":1,"timeout":60},
 {"key":"校长影视","name":"弹幕 | 校长[jar]","type":3,"api":"csp_XiaoZhang","ext":"./lib/token.json","quickSearch":1,"changeable":1,"timeout":30},
 {"key":"团长资源","name":"弹幕 | 团长[jar]","type":3,"api":"csp_TZFile","ext":"./lib/token.json", "quickSearch":1, "changeable":1, "timeout":30},
-{"key":"csp_Hdhive","name":"弹幕 | 影巢[jar]","type":3,"api":"csp_Hdhive","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/token.json","timeout":30},
+{"key":"Hdhive","name":"弹幕 | 影巢[jar]","type":3,"api":"csp_Hdh","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://hdhive.online$$$noproxy$$$1$$$http://127.0.0.1:9978/file/TV/hdhive.txt"},
 {"key":"Panta","name":"弹幕 | 盘Ta[jar]","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"./lib/token.json$$$https://www.91panta.cn/$$$null$$$1"},
 {"key":"YunPan","name":"弹幕 | 云盘[jar]","type":3,"api":"csp_YunPan","timeout":60, "ext":"./lib/token.json$$$null$$$proxy$$$1"},
 {"key":"Wo4k","name":"弹幕 | 玩偶4k[jar]","type":3,"api":"csp_Wo4k","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/token.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./wogg.json"},
