@@ -709,6 +709,15 @@
 "logo": "https://epg.112114.xyz/logo/{name}.png"
 },
 {
+  "name": "暮雨｜雜中台港日韓際",
+  "type": 0,
+  "url": "https://4key.cn/FP",
+  "ua": "okhttp/4.12.0",
+  "timeout": 5,
+  "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+  "logo": "https://epg.112114.xyz/logo/{name}.png"
+  },
+{
 "name": "君赢天下｜中台港際18+ 密碼:6636",
 "type": 0,
 "url": "https://d.kstore.space/download/5288/君赢天下.txt",

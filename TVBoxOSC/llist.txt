@@ -566,9 +566,14 @@ A-Line Radio 網路音樂台,http://live.cooltv.top/tv/appleline.php?id=aline
 愛樂電台(UR Classical),https://yeslivetv.com/radio/e-classical-ur-classical/
 
 
-民視,https://aktv.top/live/FTV/index.m3u8
-TVBS,https://aktv.top/live/TVBS/index.m3u8
 
+--------------------RobYang--------------
+民視,https://aktv.top/live/FTV/index.m3u8
+民視,http://37.27.111.214:8080/live/6/hls.m3u8
+民視,http://37.27.111.214:8080/live/7/hls.m3u8
+民視,http://37.27.111.214:8080/live/10/hls.m3u8
+民視,http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
+TVBS,https://aktv.top/live/TVBS/index.m3u8
 
 
 
@@ -3524,7 +3529,7 @@ WIN HD綜合,https://epg.pw/stream/beedf009af55b6adf5840ba8defe6a88bb4e1b85c6e31
 東森新聞美國,http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 民視新聞,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 台視新聞,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-台灣民視,http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
+民視,http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
 台視新聞,http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
 民視新聞,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
