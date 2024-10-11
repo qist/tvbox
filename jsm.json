@@ -16,7 +16,7 @@
 "sites":[
 {"key":"robYang","name":"Rob Yang就是我，我們不熟，有事嗎？","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar;md5;3f392906996ac13aaeb8c91956f95f7"},
 //{"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
-{"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
+//{"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
 {"key":"drpy_js_百忙无果","name":"影视 | 芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mgtv.js"},
 
 {"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
@@ -314,12 +314,12 @@
 {"key":"drpy_js_子子影视","name":"影视 | 子子影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/子子影视.js"},
 
 //墙外 
-{"key":"php2_del_ads_hmezy","name": "280. 黑木耳(无广告)(T4_PHP)","type": 4,"api": "https://t4.doube.eu.org/del_ads_heimuer.php","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
-{"key":"api_黑木耳","name":"影视 | 黑木耳[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/api黑木耳.json","jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
+//{"key":"php2_del_ads_hmezy","name": "280. 黑木耳(无广告)(T4_PHP)","type": 4,"api": "https://t4.doube.eu.org/del_ads_heimuer.php","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+{"key":"api_黑木耳","name":"280. 影视 | 黑木耳[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/api黑木耳.json","jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
 {"key":"nyys","name":"影视 | 纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar;md5;3f392906996ac13aaeb8c91956f95f7"},
 {"key":"sgolys","name": "影视 | 欧乐 (T4)","type": 4,"api": "https://tang.hz.cz/power/olelive?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
 {"key":"sgabys","name": "影视 | 安博 (T4)","type": 4,"api": "https://tang.hz.cz/power/ub18?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
-{"key":"sghmys","name": "影视 | 黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
+//{"key":"sghmys","name": "影视 | 黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
 {"key":"php_heimuer","name":"影视 | 黑木耳 (無廣)","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
 {"key":"金鹰资源","name":"影视 | 金鹰","type":1,"api":"https://jyzyapi.com/provide/vod/","searchable":0,"quickSearch":0,"categories":["电视剧","电影","欧美剧","香港剧","韩剧","日剧","马泰剧","动作片","爱情片","喜剧片","恐怖片","战争片","纪录片","科幻片","剧情片","动画片","动漫","内地剧","中国动漫","日本动漫","欧美动漫","综艺","台湾剧","短剧","体育赛事"]},
 {"key":"XBPQ_麻衣影院","name":"影视 | 麻衣","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","ext":"./json/麻衣影院.json"},
