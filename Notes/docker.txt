@@ -1,0 +1,22 @@
+謝安琪 4gtv docker 教學
+======
+
+koyeb官方網站
+https://www.koyeb.com
+
+左邊 Create Service
+
+右邊 docker
+
+輸入 docker.io/pixman/pixman
+
+端口8000改成5000
+
+4GTV直播源
+http://分配的網址/4gtv.m3u
+
+========
+謝安琪 4gtv docker 教學
+
+
+https://pixman.io/topics/17

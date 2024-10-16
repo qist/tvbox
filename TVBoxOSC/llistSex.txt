@@ -2140,43 +2140,6 @@ ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
 
 
 
-隨機AV_5566,#genre#
-中國AV,http://free.xiptv.x10.bz/api/av.php?id=1
-日本片商,http://free.xiptv.x10.bz/api/av.php?id=2
-素人自拍,http://free.xiptv.x10.bz/api/av.php?id=3
-中國,http://free.xiptv.x10.bz/api/av.php?id=4
-台灣,http://free.xiptv.x10.bz/api/av.php?id=5
-日本,http://free.xiptv.x10.bz/api/av.php?id=6
-東南亞,http://free.xiptv.x10.bz/api/av.php?id=7
-韓國,http://free.xiptv.x10.bz/api/av.php?id=8
-香港,http://free.xiptv.x10.bz/api/av.php?id=9
-Cosplay,http://free.xiptv.x10.bz/api/av.php?id=10
-主播,http://free.xiptv.x10.bz/api/av.php?id=11
-主觀視角,http://free.xiptv.x10.bz/api/av.php?id=12
-凌辱,http://free.xiptv.x10.bz/api/av.php?id=13
-劇情,http://free.xiptv.x10.bz/api/av.php?id=14
-多P,http://free.xiptv.x10.bz/api/av.php?id=15
-探花,http://free.xiptv.x10.bz/api/av.php?id=16
-流出,http://free.xiptv.x10.bz/api/av.php?id=17
-無碼,http://free.xiptv.x10.bz/api/av.php?id=18
-百合,http://free.xiptv.x10.bz/api/av.php?id=19
-野外露出,http://free.xiptv.x10.bz/api/av.php?id=20
-OL,http://free.xiptv.x10.bz/api/av.php?id=21
-動漫,http://free.xiptv.x10.bz/api/av.php?id=22
-古裝,http://free.xiptv.x10.bz/api/av.php?id=23
-女僕,http://free.xiptv.x10.bz/api/av.php?id=24
-學生,http://free.xiptv.x10.bz/api/av.php?id=25
-旗袍,http://free.xiptv.x10.bz/api/av.php?id=26
-獸耳,http://free.xiptv.x10.bz/api/av.php?id=27
-瑜伽褲,http://free.xiptv.x10.bz/api/av.php?id=28
-真理褲,http://free.xiptv.x10.bz/api/av.php?id=29
-空姐,http://free.xiptv.x10.bz/api/av.php?id=30
-絲襪,http://free.xiptv.x10.bz/api/av.php?id=31
-護士,http://free.xiptv.x10.bz/api/av.php?id=32
-過膝襪,http://free.xiptv.x10.bz/api/av.php?id=33
-
-
-
 
 
 
