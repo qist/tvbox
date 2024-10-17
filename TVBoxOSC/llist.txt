@@ -23,6 +23,84 @@
 中天新聞2台,http://www.youtube.com/watch?v=WPfPjbOLNfE
 中視新聞,http://www.youtube.com/watch?v=TCnaIE_SAtM
 創世電視,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8&data=normal
+
+
+
+民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
+鏡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv075
+鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
+壹新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
+TVBS新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv072
+TVBS新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv072
+中天新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv00
+中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
+中天新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv009
+中視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv074
+中視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv074
+東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
+華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
+華視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv052
+半島新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv10
+東森新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv152
+非凡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv010
+非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
+華視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv052
+台視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv051
+寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
+寰宇新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn14
+寰宇新聞灣台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn15
+TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
+閩鏡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv075
+東森財經新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv153
+台視財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv056
+台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
+寰宇財經新聞,http://37.27.111.214:8080/live/65/hls.m3u8
+國際財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv104
+民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv001
+民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv002
+民視第一台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv003
+中天新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv009
+非凡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv010
+台視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv051
+華視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv052
+台視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv066
+tvbs新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv072
+tvbs,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv073
+中視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv074
+鏡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv075
+半島新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv10
+民視新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv13
+國會頻道1,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv084
+國會頻道2,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv085
+國際財經,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv104
+第1商業台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv109
+東森新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv152
+東森財經新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv153
+民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv155
+民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv156
+環宇新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
+環宇新聞灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
+台視台灣台,rtmp://f13h.mine.nu/sat/tv071#https://litv.zapi.us.kg/?id=4gtv-4gtv066#https://litv.zapi.us.kg/?id=4gtv-4gtv002
+台視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv066
+中視,http://37.27.111.214:8080/live/7/hls.m3u8
+中視經典,http://37.27.111.214:8080/live/47/hls.m3u8
+中視台灣台,rtmp://f13h.mine.nu/sat/tv091#https://litv.zapi.us.kg/?id=4gtv-4gtv040
+中視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv040
+華視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv041
+華視台灣台,rtmp://f13h.mine.nu/sat/tv111#https://litv.zapi.us.kg/?id=4gtv-4gtv041
+民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv002#https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv155
+TVBS,http://154.216.191.38:8500/live.m3u8?c=1
+TVBS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv073
+TVBS台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv073
+國會頻道1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv084
+國會頻道2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv085#http://37.27.111.214:8080/live/104/hls.m3u8
+第1商業台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv109
+中視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv040
+華視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv041
+
+
+
+
 TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://m.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
@@ -208,6 +286,25 @@ ELTV生活英語台,https://sc2024.stream-link.org/live/76176147201.php?id=m819k
 
 
 📺YouTube 其他,#genre#
+
+--------------四季------------------
+達文西頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv018#https://litv.zapi.us.kg/?id=4gtv-4gtv018
+動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
+亞洲旅遊台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn17#https://litv.zapi.us.kg/?id=litv-longturn17#http://37.27.111.214:8080/live/10/hls.m3u8
+阿裡郎,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv079
+寰宇台灣台,https://litv.zapi.us.kg/?id=litv-longturn15
+探索亞洲,http://61.221.215.25:8800/hls/50/index.m3u8
+Smart知識台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn19#https://litv.zapi.us.kg/?id=litv-longturn19
+亞洲旅遊台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn17
+龍華戲劇,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn18
+Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
+生活英語台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn20
+龍華經典,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn21
+台灣戲劇台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn22
+
+
+
+
 民視戲劇,http://www.youtube.com/live/6CQZxYpW9q4
 華視綜藝頻道,http://m.youtube.com/live/IfKO17h4pVE
 華視戲劇頻道,http://m.youtube.com/live/WFXI3igmwDk 
@@ -245,6 +342,126 @@ CBTV十方法界弘法電視台,https://m.youtube.com/watch?v=77SHFx1c8Lk
 香港佛陀教育協會,https://i.cibei.org/live/hd/playlist.m3u8&data=normal
 香港佛陀教育協會,https://live.jingzong.org/live/hd/playlist.m3u8&data=normal
 鳳凰衛視資訊,http://www.youtube.com/watch?v=HFib76ySpbU
+
+
+
+
+
+
+
+
+
+
+--------------------RobYang--------------
+民視,https://aktv.top/live/FTV/index.m3u8
+民視,http://37.27.111.214:8080/live/6/hls.m3u8
+民視,http://37.27.111.214:8080/live/7/hls.m3u8
+民視,http://37.27.111.214:8080/live/10/hls.m3u8
+民視,http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
+TVBS,https://aktv.top/live/TVBS/index.m3u8
+TVBS,https://aktv.top/live/TVBS/index.m3u8
+靖天電影台,https://aktv.top/live/靖天電影台/index.m3u8
+龍華經典台,https://aktv.top/live/龍華經典台/index.m3u8
+中天亞洲台,https://aktv.top/live/中天亞洲台/index.m3u8
+三立綜合台,https://aktv.top/live/三立綜合台/index.m3u8
+三立 iNEWS,https://aktv.top/live/三立 iNEWS/index.m3u8
+中視,https://aktv.top/live/中視/index.m3u8
+華視,https://aktv.top/live/華視/index.m3u8
+HITS 頻道,https://aktv.top/live/HITS 頻道/index.m3u8
+Rock Action,https://aktv.top/live/Rock Action/index.m3u8
+Rock Entertainment,https://aktv.top/live/Rock Entertainment/index.m3u8
+TNT Sport 1,https://aktv.top/live/TNT Sport 1/index.m3u8
+TNT Sport 2,https://aktv.top/live/TNT Sport 2/index.m3u8
+TNT Sport 3,https://aktv.top/live/TNT Sport 3/index.m3u8
+TNT Sport 4,https://aktv.top/live/TNT Sport 4/index.m3u8
+NBA TV,https://aktv.top/live/NBA TV/index.m3u8
+鳳凰衛視PhoenixTV,https://aktv.top/live/鳳凰衛視PhoenixTV/index.m3u8
+LIVE NOW,https://aktv.top/live/LIVE NOW/index.m3u8
+
+
+
+
+
+
+
+
+--------------四季------------------
+amc電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv017#https://litv.zapi.us.kg/?id=4gtv-4gtv017#http://61.221.215.25:8800/hls/43/index.m3u8
+CATCHPLAY電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv076#,https://litv.zapi.us.kg/?id=4gtv-4gtv076
+龍華電影台,https://litv.zapi.us.kg/?id=litv-longturn03
+靖天電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv061#https://litv.zapi.us.kg/?id=4gtv-4gtv061
+影迷數位電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv011#https://litv.zapi.us.kg/?id=4gtv-4gtv011
+龍華電影,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn03
+八大戲劇,http://61.221.215.25:8800/hls/39/index.m3u8
+八大綜藝台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv039
+三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
+公視戲劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv042
+台灣戲劇台,https://litv.zapi.us.kg/?id=litv-longturn22
+民視影劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv09
+公視戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv042
+龍華戲劇台,https://litv.zapi.us.kg/?id=litv-longturn18
+采昌影劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv049
+採昌影劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv049
+靖天戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv058
+靖天戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv058
+靖洋戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv045#https://litv.zapi.us.kg/?id=4gtv-4gtv045
+台灣戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn22
+龍華戲劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn18
+
+
+
+
+ELEVEN1台,rtmp://f13h.mine.nu/sat/tv731
+ELEVEN2台,rtmp://f13h.mine.nu/sat/tv741
+GinxTV,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv053#https://litv.zapi.us.kg/?id=4gtv-4gtv053
+GLOBETROTTER,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv016#https://litv.zapi.us.kg/?id=4gtv-4gtv016
+HITS,http://37.27.111.214:8080/live/28/hls.m3u8
+MEZZO LIVE,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv083
+TRACE SPORTS STARS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv077#https://litv.zapi.us.kg/?id=4gtv-4gtv077
+TRACE SPORTS STARS,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv077
+緯來體育台,rtmp://f13h.mine.nu/sat/tv721
+時尚運動X,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv014
+博斯網球台,https://litv.zapi.us.kg/?id=litv-longturn09
+博斯高球1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn05#https://litv.zapi.us.kg/?id=litv-longturn05
+博斯高球2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn06#https://litv.zapi.us.kg/?id=litv-longturn06
+博斯無限,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn10#http://37.27.111.214:8080/live/15/hls.m3u8#https://litv.zapi.us.kg/?id=litv-longturn10
+博斯無限2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn13#https://litv.zapi.us.kg/?id=litv-longturn13
+博斯運動1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn07#https://litv.zapi.us.kg/?id=litv-longturn07
+博斯運動2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn08#https://litv.zapi.us.kg/?id=litv-longturn08
+博斯網球,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn09
+博斯魅力,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn04#https://litv.zapi.us.kg/?id=litv-longturn04
+智林體育台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv101
+愛爾達娛樂,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv070
+博斯魅力,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn04
+博斯高球1,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn05
+博斯高球2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn06
+博斯運動1,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn07
+博斯運動2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn08
+博斯網球,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn09
+博斯無限,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn10
+博斯無限2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn13
+愛爾達娛樂,https://litv.zapi.us.kg/?id=4gtv-4gtv070
+
+
+
+
+--------------四季------------------
+博斯運動一台,https://4gtv.livednow.us.kg/litv/litv-longturn07
+博斯運動二台,https://4gtv.livednow.us.kg/litv/litv-longturn08
+博斯無限台,https://4gtv.livednow.us.kg/litv/litv-longturn10
+博斯無限二台,https://4gtv.livednow.us.kg/litv/litv-longturn13
+博斯網球台,https://4gtv.livednow.us.kg/litv/litv-longturn09
+博斯高球台,https://4gtv.livednow.us.kg/litv/litv-longturn05
+博斯高球二台,https://4gtv.livednow.us.kg/litv/litv-longturn06
+博斯魅力台,https://4gtv.livednow.us.kg/litv/litv-longturn04
+GINX Esports TV,https://4gtv.livednow.us.kg/litv/4gtv-4gtv053
+TechStorm,https://4gtv.livednow.us.kg/4gtv/181
+時尚運動X,https://4gtv.livednow.us.kg/4gtv/277
+智林體育台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv101
+TraceSports,https://4gtv.livednow.us.kg/litv/4gtv-4gtv077
+
+
+
 
 
 
@@ -362,229 +579,12 @@ A-Line Radio 網路音樂台,http://live.cooltv.top/tv/appleline.php?id=aline
 
 
 
---------------------RobYang--------------
-民視,https://aktv.top/live/FTV/index.m3u8
-民視,http://37.27.111.214:8080/live/6/hls.m3u8
-民視,http://37.27.111.214:8080/live/7/hls.m3u8
-民視,http://37.27.111.214:8080/live/10/hls.m3u8
-民視,http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
-TVBS,https://aktv.top/live/TVBS/index.m3u8
-TVBS,https://aktv.top/live/TVBS/index.m3u8
-TVBS 新聞台,https://aktv.top/live/TVBS 新聞台/index.m3u8
-靖天電影台,https://aktv.top/live/靖天電影台/index.m3u8
-龍華經典台,https://aktv.top/live/龍華經典台/index.m3u8
-中天新聞台,https://aktv.top/live/中天新聞台/index.m3u8
-中天亞洲台,https://aktv.top/live/中天亞洲台/index.m3u8
-三立綜合台,https://aktv.top/live/三立綜合台/index.m3u8
-三立 iNEWS,https://aktv.top/live/三立 iNEWS/index.m3u8
-寰宇新聞台,https://aktv.top/live/寰宇新聞台/index.m3u8
-寰宇新聞台灣台,https://aktv.top/live/寰宇新聞台灣台/index.m3u8
-寰宇財經台,https://aktv.top/live/寰宇財經台/index.m3u8
-中視,https://aktv.top/live/中視/index.m3u8
-華視,https://aktv.top/live/華視/index.m3u8
-HITS 頻道,https://aktv.top/live/HITS 頻道/index.m3u8
-Rock Action,https://aktv.top/live/Rock Action/index.m3u8
-Rock Entertainment,https://aktv.top/live/Rock Entertainment/index.m3u8
-TNT Sport 1,https://aktv.top/live/TNT Sport 1/index.m3u8
-TNT Sport 2,https://aktv.top/live/TNT Sport 2/index.m3u8
-TNT Sport 3,https://aktv.top/live/TNT Sport 3/index.m3u8
-TNT Sport 4,https://aktv.top/live/TNT Sport 4/index.m3u8
-NBA TV,https://aktv.top/live/NBA TV/index.m3u8
-鳳凰衛視PhoenixTV,https://aktv.top/live/鳳凰衛視PhoenixTV/index.m3u8
-華視新聞 CH52,https://aktv.top/live/華視新聞 CH52/index.m3u8
-LIVE NOW,https://aktv.top/live/LIVE NOW/index.m3u8
-
-
-
-新聞,#genre#
---------------四季------------------
-民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
-鏡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv075
-鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
-壹新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
-TVBS新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv072
-TVBS新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv072
-中天新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv00
-中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
-中天新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv009
-中視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv074
-中視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv074
-東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
-華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
-華視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv052
-半島新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv10
-東森新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv152
-非凡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv010
-非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
-華視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv052
-台視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv051
-寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
-寰宇新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn14
-寰宇新聞灣台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn15
-TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
-閩鏡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv075
-東森財經新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv153
-台視財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv056
-台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
-寰宇財經新聞,http://37.27.111.214:8080/live/65/hls.m3u8
-國際財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv104
-民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv001
-民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv002
-民視第一台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv003
-中天新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv009
-非凡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv010
-台視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv051
-華視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv052
-台視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv066
-tvbs新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv072
-tvbs,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv073
-中視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv074
-鏡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv075
-半島新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv10
-民視新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv13
-國會頻道1,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv084
-國會頻道2,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv085
-國際財經,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv104
-第1商業台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv109
-東森新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv152
-東森財經新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv153
-民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv155
-民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv156
-環宇新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
-環宇新聞灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
-台視台灣台,rtmp://f13h.mine.nu/sat/tv071#https://litv.zapi.us.kg/?id=4gtv-4gtv066#https://litv.zapi.us.kg/?id=4gtv-4gtv002
-台視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv066
-中視,http://37.27.111.214:8080/live/7/hls.m3u8
-中視經典,http://37.27.111.214:8080/live/47/hls.m3u8
-中視台灣台,rtmp://f13h.mine.nu/sat/tv091#https://litv.zapi.us.kg/?id=4gtv-4gtv040
-中視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv040
-華視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv041
-華視台灣台,rtmp://f13h.mine.nu/sat/tv111#https://litv.zapi.us.kg/?id=4gtv-4gtv041
-民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv002#https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv155
-TVBS,http://154.216.191.38:8500/live.m3u8?c=1
-TVBS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv073
-TVBS台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv073
-國會頻道1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv084
-國會頻道2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv085#http://37.27.111.214:8080/live/104/hls.m3u8
-第1商業台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv109
-中視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv040
-華視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv041
 
 
 
 
 
 
-
-
-
-戲劇,#genre#
---------------四季------------------
-amc電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv017#https://litv.zapi.us.kg/?id=4gtv-4gtv017#http://61.221.215.25:8800/hls/43/index.m3u8
-CATCHPLAY電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv076#,https://litv.zapi.us.kg/?id=4gtv-4gtv076
-龍華電影台,https://litv.zapi.us.kg/?id=litv-longturn03
-靖天電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv061#https://litv.zapi.us.kg/?id=4gtv-4gtv061
-影迷數位電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv011#https://litv.zapi.us.kg/?id=4gtv-4gtv011
-龍華電影,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn03
-八大戲劇,http://61.221.215.25:8800/hls/39/index.m3u8
-八大綜藝台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv039
-三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
-公視戲劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv042
-台灣戲劇台,https://litv.zapi.us.kg/?id=litv-longturn22
-民視影劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv09
-公視戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv042
-龍華戲劇台,https://litv.zapi.us.kg/?id=litv-longturn18
-采昌影劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv049
-採昌影劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv049
-靖天戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv058
-靖天戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv058
-靖洋戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv045#https://litv.zapi.us.kg/?id=4gtv-4gtv045
-台灣戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn22
-龍華戲劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn18
-
-
-
-
-
-
-
-
-
-
-
-體育,#genre#
---------------四季------------------
-ELEVEN1台,rtmp://f13h.mine.nu/sat/tv731
-ELEVEN2台,rtmp://f13h.mine.nu/sat/tv741
-GinxTV,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv053#https://litv.zapi.us.kg/?id=4gtv-4gtv053
-GLOBETROTTER,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv016#https://litv.zapi.us.kg/?id=4gtv-4gtv016
-HITS,http://37.27.111.214:8080/live/28/hls.m3u8
-MEZZO LIVE,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv083
-TRACE SPORTS STARS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv077#https://litv.zapi.us.kg/?id=4gtv-4gtv077
-TRACE SPORTS STARS,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv077
-緯來體育台,rtmp://f13h.mine.nu/sat/tv721
-時尚運動X,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv014
-博斯網球台,https://litv.zapi.us.kg/?id=litv-longturn09
-博斯高球1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn05#https://litv.zapi.us.kg/?id=litv-longturn05
-博斯高球2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn06#https://litv.zapi.us.kg/?id=litv-longturn06
-博斯無限,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn10#http://37.27.111.214:8080/live/15/hls.m3u8#https://litv.zapi.us.kg/?id=litv-longturn10
-博斯無限2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn13#https://litv.zapi.us.kg/?id=litv-longturn13
-博斯運動1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn07#https://litv.zapi.us.kg/?id=litv-longturn07
-博斯運動2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn08#https://litv.zapi.us.kg/?id=litv-longturn08
-博斯網球,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn09
-博斯魅力,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn04#https://litv.zapi.us.kg/?id=litv-longturn04
-智林體育台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv101
-愛爾達娛樂,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv070
-博斯魅力,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn04
-博斯高球1,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn05
-博斯高球2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn06
-博斯運動1,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn07
-博斯運動2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn08
-博斯網球,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn09
-博斯無限,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn10
-博斯無限2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn13
-愛爾達娛樂,https://litv.zapi.us.kg/?id=4gtv-4gtv070
-
-
-
-
---------------四季------------------
-博斯運動一台,https://4gtv.livednow.us.kg/litv/litv-longturn07
-博斯運動二台,https://4gtv.livednow.us.kg/litv/litv-longturn08
-博斯無限台,https://4gtv.livednow.us.kg/litv/litv-longturn10
-博斯無限二台,https://4gtv.livednow.us.kg/litv/litv-longturn13
-博斯網球台,https://4gtv.livednow.us.kg/litv/litv-longturn09
-博斯高球台,https://4gtv.livednow.us.kg/litv/litv-longturn05
-博斯高球二台,https://4gtv.livednow.us.kg/litv/litv-longturn06
-博斯魅力台,https://4gtv.livednow.us.kg/litv/litv-longturn04
-GINX Esports TV,https://4gtv.livednow.us.kg/litv/4gtv-4gtv053
-TechStorm,https://4gtv.livednow.us.kg/4gtv/181
-時尚運動X,https://4gtv.livednow.us.kg/4gtv/277
-智林體育台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv101
-TraceSports,https://4gtv.livednow.us.kg/litv/4gtv-4gtv077
-
-
-
-
-
-
-
-
-知識,#genre#
---------------四季------------------
-達文西頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv018#https://litv.zapi.us.kg/?id=4gtv-4gtv018
-動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
-亞洲旅遊台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn17#https://litv.zapi.us.kg/?id=litv-longturn17#http://37.27.111.214:8080/live/10/hls.m3u8
-阿裡郎,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv079
-寰宇台灣台,https://litv.zapi.us.kg/?id=litv-longturn15
-探索亞洲,http://61.221.215.25:8800/hls/50/index.m3u8
-Smart知識台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn19#https://litv.zapi.us.kg/?id=litv-longturn19
-亞洲旅遊台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn17
-龍華戲劇,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn18
-Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
-生活英語台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn20
-龍華經典,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn21
-台灣戲劇台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn22
 
 
 
