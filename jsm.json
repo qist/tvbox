@@ -81,7 +81,7 @@
 {"key": "AppMr","name": "影视 | 明明[App]","type": 3,"api": "csp_AppMr","searchable": 1,"quickSearch": 1,"jar":"./jar/fty.jar;md5;b25d0e7f7c87f31aa886b78fe43a7d4c","changeable": 1},
 {"key": "csp_Ysgc","name": "影视 | 工场[直连]","type": 3,"api": "csp_Ysgc","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.ysgc.fun/","jar":"./jar/fty.jar;md5;b25d0e7f7c87f31aa886b78fe43a7d4c"},
 
-{"key":"百度","name":"百度","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0,"categories":["国产动漫","日韩动漫","大陆剧","欧美剧","韩剧","日剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片"]},
+{"key":"百度","name":"百度","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0,"categories":["国产动漫","日韩动漫","大陆剧","欧美剧","韩剧","日剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片"],"header":{"User-Agent":"Mozilla/5.0"}},
 {"key":"暴風","name":"影视 | 暴風[直连]","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},
 
 {"key":"drpy_js_采集","name":"搜索 |多站点采集[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/caiji.js"},
