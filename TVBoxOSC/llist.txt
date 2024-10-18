@@ -472,23 +472,6 @@ TraceSports,https://4gtv.livednow.us.kg/litv/4gtv-4gtv077
 
 
 📻電台,#genre#
-KissRadio大眾廣播FM99.9,http://live.cooltv.top/tv/kissradio.php
-PopRadio台北流行廣播電台FM91.7,http://live.cooltv.top/tv/popradio.php?id=1
-PopRadio好聽廣播電台FM90.7,http://live.cooltv.top/tv/popradio.php?id=2
-HitFM台北之音廣播電台,http://live.cooltv.top/tv/hitfm_backup.php?id=1
-HitFM高屏廣播電台,http://live.cooltv.top/tv/hitfm_backup.php?id=3
-HitFM中台灣廣播電台,http://live.cooltv.top/tv/hitfm_backup.php?id=2
-HitFM花東廣播電台,http://live.cooltv.top/tv/hitfm_backup.php?id=5
-HitFM宜蘭廣播電台,http://live.cooltv.top/tv/hitfm_backup.php?id=4
-BestRadio港都983,http://live.cooltv.top/tv/bestradio.php?id=3
-BestRadio好事989,http://live.cooltv.top/tv/bestradio.php?id=1 
-BestRadio好事903,http://live.cooltv.top/tv/bestradio.php?id=2
-BestRadio好事935,http://live.cooltv.top/tv/bestradio.php?id=4
-台北愛樂FM99.7,http://live.cooltv.top/tv/e-classical.php?id=onair
-台北愛樂Kids,http://live.cooltv.top/tv/e-classical.php?id=kids
-台北愛樂Jazz,http://live.cooltv.top/tv/e-classical.php?id=jazz
-台北愛樂UR Classical,http://live.cooltv.top/tv/e-classical.php?id=urclassical 
-台北愛樂Oldies but Goodies,http://live.cooltv.top/tv/e-classical.php?id=goodies
 CityFM台北健康FM 90.1,http://fm901.cityfm.tw:8080/901.mp3
 CityFM大苗栗廣播FM 98.3,http://fm983.cityfm.tw:8080/983.mp3
 CityFM城市廣播FM 92.9,http://fm929.cityfm.tw:8080/929.mp3
@@ -505,7 +488,6 @@ FlyRadio飛揚調頻895,https://stream.rcs.revma.com/e0tdah74hv8uv
 News98新聞,http://stream.rcs.revma.com/55tyxsy4qtzuv
 ICRT,http://live.leanstream.co/ICRTFM-MP3
 飛碟電台,http://stream.rcs.revma.com/em90w4aeewzuv
-光華之聲,http://live.cooltv.top/tv/kwongwah.php
 警廣之聲,http://play-radio-stream3.hndt.com/now/prIgXGFo/playlist.m3u8
 全國治安交通網,http://stream.pbs.gov.tw:1935/live/mp3:PBS/playlist.m3u8
 員警廣播台北分台,http://stream.pbs.gov.tw:1935/live/TPS/playlist.m3u8 
@@ -536,16 +518,8 @@ BravoFM台北都會音樂台,https://onair.bravo913.com.tw:9130/live.mp3
 輕鬆電台FM 96.9,http://stream.rcs.revma.com/k41z6wadu5hvv
 正聲綜合,http://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live2/playlist.m3u8
 正聲FM104.1,http://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/playlist.m3u8
-漢聲廣播電台FM,http://live.cooltv.top/tv/voh.php?id=1
-漢聲廣播電台AM,http://live.cooltv.top/tv/voh.php?id=2
-復興電台,http://live.cooltv.top/tv/fhbs.php
 環宇廣播,http://stream.rcs.revma.com/srn5f9kmwxhvv
 M-Radio全國廣播,http://stream.rcs.revma.com/044q61ha7a0uv/hls.m3u8
-A-Line Radio 網路音樂台,http://live.cooltv.top/tv/appleline.php?id=aline
-青春電台,http://live.cooltv.top/tv/appleline.php?id=ch04
-正港電台,http://live.cooltv.top/tv/appleline.php?id=ch05
-陽光電台,http://live.cooltv.top/tv/appleline.php?id=young
-指南電台,http://live.cooltv.top/tv/appleline.php?id=young
 
 
 飛碟電台,https://yeslivetv.com/radio/uforadio/
