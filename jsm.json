@@ -609,6 +609,17 @@
 ],
 "lives": [ 
   {
+    "name": "🏠RobYang | Youtube(蜂蜜影視2.3.4前或2.6.4後)",
+    "type": 0,
+    "url": "https://RobYang.bsite.net/VodLive/lb8ffa",
+    "ua": "okhttp/4.12.0",
+    "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
+    "timeout": 5,
+    "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+    "logo": "https://epg.112114.xyz/logo/{name}.png",
+    "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
+    },       
+  {
     "note": "Anbox P3P https://anbox118.serv00.net/p3p.m3u.txt // Anbox P3P https://anbox118.serv00.net/ubtv.php // RobYang https://anbox118.serv00.net/livetv.php",
     "name": "蜂蜜影視｜際台港中馬新", 
     "type": 0,
@@ -616,20 +627,8 @@
     "ua": "okhttp/4.12.0",
     "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    
-    
-{
-"name": "🏠RobYang | Youtube(蜂蜜影視2.3.4前或2.6.4後)",
-"type": 0,
-"url": "https://RobYang.bsite.net/VodLive/lb8ffa",
-"ua": "okhttp/4.12.0",
-"ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
-"timeout": 5,
-"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-"logo": "https://epg.112114.xyz/logo/{name}.png",
-"jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-},   
+    },  
+
 
 
 //{
