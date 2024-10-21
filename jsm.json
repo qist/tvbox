@@ -512,6 +512,7 @@
 {"key":"star","name": "墙外 | 星星","type": 3,"api": "csp_Star","searchable": 1,"changeable": 1,"jar":"https://fm.t4tv.hz.cz/jar/fm.jar;md5;55c157414346e3ff571baad0a223bf15"},
 {"key":"csp_trj","name": "墙外 | 唐人街","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"drpy_hh","name":"墙外 | 吼吼","type":3,"api":"./lib/drpy2.min.js","ext":"https://download.kstore.space/download/3313/js/HoHo影视.js"},
+{"key": "Youtube",  "name": "Youtube",  "type": 3,  "api": "csp_Youtube",  "searchable": 1,  "quickSearch": 1,  "changeable": 0,  "timeout": 240,  "jar":"./jar/pg.txt",  "ext": {    "token": "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/json/tokenm.json",    "json": "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/json/youtube.json",    "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",    "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",    "codecs": "",    "proxy": "",    "danmu": true  },  "style": {"type": "rect", "ratio": 1.77} },
 {"key":"js_tokenm","name": "Youtube,網路空間,設定","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext": "./json/tokenm.json","style": {"type": "rect", "ratio": 1.5}}
 ],
 "parses":[
