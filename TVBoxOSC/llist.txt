@@ -246,7 +246,6 @@ TRTWORLD,http://free.xiptv.x10.bz/anbo/?id=1022
 東森幼幼,https://youtu.be/IAGgSVzXIJM
 東森幼幼,https://www.youtube.com/watch?v=IAGgSVzXIJM
 東森幼幼,https://www.567858.xyz/youtube.php?id=IAGgSVzXIJM
-MOMO親子,http://45.207.209.177:10177/youtube/oLdxAo_dez0
 MOMO親子,https://www.567858.xyz/youtube.php?id=oLdxAo_dez0
 MOMO親子,https://youtu.be/oLdxAo_dez0
 MOMO親子,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/231
@@ -268,7 +267,6 @@ i-Fun 動漫台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv1
 超人力霸王整套看,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/278
 LiveABC 互動英語台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/188
 
-
 迪士尼,https://www.567858.xyz/youtube.php?id=cgHyVRqn6ow
 迪士尼2,https://www.567858.xyz/youtube.php?id=0DecaiMuSfI
 迪士尼3,https://www.567858.xyz/youtube.php?id=3Cshaj_1NO4
@@ -277,20 +275,8 @@ LiveABC 互動英語台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/1
 迪士尼6,https://www.567858.xyz/youtube.php?id=2S-4lQITckc
 迪士尼7,https://www.567858.xyz/youtube.php?id=Y8-gcg0_I0w
 迪士尼最佳歌曲2023,https://www.567858.xyz/youtube.php?id=dpIbmKroTgA
-MOMO親子,http://45.207.209.177:10177/youtube/oLdxAo_dez0,https://108.181.9.39/live/IAGgSVzXIJM?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
+MOMO親子,https://108.181.9.39/live/IAGgSVzXIJM?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
 MOMO親子https://www.567858.xyz/youtube.php?id=IAGgSVzXIJM
-MOMO親子成語,https://108.181.9.39/live/OrX2QQtMkkY?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-MOMO親子音樂,https://108.181.9.39/live/LvPgP4ARP3Y?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-東森幼幼,https://108.181.9.39/live/IAGgSVzXIJM?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼,https://108.181.9.39/live/cgHyVRqn6ow?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼2,https://108.181.9.39/live/0DecaiMuSfI?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼3,https://108.181.9.39/live/3Cshaj_1NO4?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼4,https://108.181.9.39/live/CHK9pKnozHk?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼5,https://108.181.9.39/live/u-hWZjiRUXk?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼6,https://108.181.9.39/live/2S-4lQITckc?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼7,https://108.181.9.39/live/Y8-gcg0_I0w?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-迪士尼最佳歌曲2023,https://108.181.9.39/live/dpIbmKroTgA?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-
 迪士尼最佳歌曲2023,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
 
 動畫世界,https://sc2024.stream-link.org/live/76176147201.php?id=m515bmd
