@@ -309,9 +309,8 @@
 {"key":"drpy_js_子子影视","name":"影视 | 子子影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/子子影视.js"},
 
 //墙外 
-{"key":"php2_del_ads_hmezy","name": "280. 黑木耳(无广告)(T4_PHP)","type": 4,"api": "https://t4.doube.eu.org/del_ads_heimuer.php","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key":"api_黑木耳","name":"280. 影视 | 黑木耳[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/api黑木耳.json","jar": "./jar/Yoursmile.jar"},
-// {"key":"nyys","name":"影视 | 纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spider.jar"},
+{"key":"nyys","name":"影视 | 纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 {"key":"sgolys","name": "影视 | 欧乐 (T4)","type": 4,"api": "https://tang.hz.cz/power/olelive?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
 {"key":"sgabys","name": "影视 | 安博 (T4)","type": 4,"api": "https://tang.hz.cz/power/ub18?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
 {"key":"sghmys","name": "影视 | 黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
