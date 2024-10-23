@@ -1,5 +1,5 @@
 {
-    "spider":"https://github.com/qist/tvbox/raw/refs/heads/master/jar/fan.txt;md5;280cd3d4d397dce21bf99a30c7ca91f2",
+    "spider":"https://github.com/qist/tvbox/raw/refs/heads/master/jar/fan.txt",
     "note":"FROM: https://rb.gy/geje78",
     "note2":"FROM: https://RobYang.bsite.net/VodLive/jb8ffa",
     "logo": "https://RobYang.bsite.net/RobYang.jpg",
@@ -338,7 +338,7 @@
 {"key":"csp_XYQHiker_华乐影院","name":"影视 | 华乐","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/华乐影院.json","jar":"./jar/zy.jar"},
 {"key":"cc_热播之家","name":"影视 | 热播之家","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/c.jar","ext":"./json/热播之家.json"},
 {"key":"热播之家","name":"影视 | 热播｜XYQ","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"分类":"电影$1#电视剧$2#动漫$4#综艺$5","分类url":"https://rebozj.pro/type/{cateId}.html"}},
-{"key":"Auete","name":"影视 | 奥特","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/","jar":"./jar/fan.txt"},
+{"key":"Auete","name":"影视 | 奥特","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},
 {"key":"csp_nkvlog","name":"310. 影视 | NK","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/HCCX.jar","ext":"./json/nkvlog.json"},
 {"key":"php_feifanziyuan","name":"影视 | 非凡","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webfeifanziyuan","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
 {"key":"drpy2_js_思古影视[V2]","name":"影视 | 思古[V2][JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/思古影视[V2].js"},
@@ -420,11 +420,11 @@
 {"key":"csp_xml_红牛","name":"影视 | 红牛","type":1,"api":"https://www.hongniuzy2.com/api.php/provide/vod/","categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","纪录片","动漫电影","国产剧","欧美剧","犯罪片","港澳剧","短剧","韩剧","泰剧","台湾剧","日剧","海外剧","其他片","悬疑片","奇幻片","动画片","体育赛事","国产动漫","日本动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
 {"key":"jqq","name":"影视 | 剧圈圈","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","ext":{"分类url":"https://www.jqqzx.cc/vodshow/id/{cateId}/page/{catePg}.html","分类":"电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman"}},
 {"key":"XBPQ_JQQZX","name":"390. 影视 | 剧圈","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"分类":"电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman#纪录片$jilupian#爽剧$shuangju","分类url":"https://www.jqqzx.cc/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html"}},
-{"key":"原创","name":"影视 | 原创","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt"},
+{"key":"原创","name":"影视 | 原创","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/pg.jar"},
 {"key":"drpy2_js_黑狐影院","name":"影视 | 黑狐[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/黑狐影院.js"},
 {"key":"drpy2_js_B站影视","name":"影视 | B站[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/B站影视.js"},
 {"key":"XYQHiker_在线之家","name":"️影视 | 在线之家","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/在线之家.json","jar":"./jar/zy.jar"},
-{"key":"zxzj","name":"影视 | 在线","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzja.com/","jar":"./jar/fan.txt"},
+{"key":"zxzj","name":"影视 | 在线","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzja.com/","jar":"./jar/pg.jar"},
 {"key":"drpy_js_97tvs","name":"影视 | 97tvs","type":3,"api":"./lib/drpy2.min.js","ext":"./js/97tvs.js"},
 {"key":"XYQHiker_高清MP4","name":"️影视 | 高清MP4","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/高清MP4.json","jar":"./jar/zy.jar"},
 {"key":"csp_XYQHikerAL_4KHDR","name":"影视 | 4KHDR(盘/磁)","type":3,"api":"csp_XYQHikerAL","playerType":1,"searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/4KHDR.json","jar":"./jar/zy.jar"},
@@ -498,23 +498,23 @@
 {"key":"drpy_js_胖虎","name":"起飞 | 胖虎[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/胖虎.js"},
 {"key":"drpy_js_555影视[飞]","name":"起飞 | 555影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/555影视[飞].js"},
 {"key":"drpy_js_if101[飞]","name":"起飞 | if101[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/if101[飞].js"},
-{"key":"csp_If101","name": "墙外 | If10","type": 3,"api": "csp_If101","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key":"飞马影视","name":"墙外 | 飞马","type":1,"searchable":1,"quickSearch":1, "api":"http://rise.eu.org/api.php/provide/vod/from/if101"},
+{"key":"csp_If101","name": "墙外 | If10","type": 3,"api": "csp_If101","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/pg.jar"},
+// {"key":"飞马影视","name":"墙外 | 飞马","type":1,"searchable":1,"quickSearch":1, "api":"http://rise.eu.org/api.php/provide/vod/from/if101"},
 {"key":"drpy_js_爱壹帆[飞]","name":"470. 起飞 | 爱壹帆[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱壹帆[飞].js"},
 {"key":"drpy_js_独播库[飞]","name":"起飞 | 独播库[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/独播库[飞].js"},
 {"key":"drpy_js_欧乐影院[飞]","name":"起飞 | 欧乐影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/欧乐影院[飞].js"},
 {"key":"drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 // {"key":"star","name": "墙外 | 星星","type": 3,"api": "csp_Star","searchable": 1,"changeable": 1,"jar":"https://fm.t4tv.hz.cz/jar/fm.jar;md5;55c157414346e3ff571baad0a223bf15"},
-{"key":"csp_trj","name": "墙外 | 唐人街","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key":"drpy_hh","name":"墙外 | 吼吼","type":3,"api":"./lib/drpy2.min.js","ext":"https://download.kstore.space/download/3313/js/HoHo影视.js"},
+{"key":"csp_trj","name": "墙外 | 唐人街","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/pg.jar"},
+// {"key":"drpy_hh","name":"墙外 | 吼吼","type":3,"api":"./lib/drpy2.min.js","ext":"https://download.kstore.space/download/3313/js/HoHo影视.js"},
 {"key":"php_bttwoo",  "name": "影视 | 沐辰",  "type": 4,  "api": "https://json.doube.eu.org/app/index.php?site=bttwoo",  "searchable": 1,  "quickSearch": 1,  "filterable": 1,  "changeable": 1  },
 {"key":"py_OleVod",		"name": "影视 | 欧乐",		"type": 4,		"api": "https://py.doube.eu.org/api?site=OleVod",		"searchable": 1,		"quickSearch": 1,		"filterable": 1,		"changeable": 1	  },
 
 
 
 
-// {"key": "Youtube",  "name": "Youtube",  "type": 3,  "api": "csp_Youtube",  "searchable": 1,  "quickSearch": 1,  "changeable": 0,  "timeout": 240,  "jar":"./jar/pg.jar",  "ext": {    "token": "./json/tokenm.json",    "json": "./json/youtube.json",    "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",    "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",    "codecs": "",    "proxy": "",    "danmu": true  },  "style": {"type": "rect", "ratio": 1.77} },
-{"key":"js_tokenm","name": "Youtube,網路空間,設定","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext": "./json/tokenm.json","style": {"type": "rect", "ratio": 1.5}}
+ {"key": "Youtube",  "name": "Youtube",  "type": 3,  "api": "csp_Youtube",  "searchable": 1,  "quickSearch": 1,  "changeable": 0,  "timeout": 240,  "jar":"./jar/pg.jar",  "ext": {    "token": "./json/tokenm.json",    "json": "./json/youtube.json",    "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",    "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",    "codecs": "",    "proxy": "",    "danmu": true  },  "style": {"type": "rect", "ratio": 1.77} }
+//{"key":"js_tokenm","name": "Youtube,網路空間,設定","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext": "./json/tokenm.json","style": {"type": "rect", "ratio": 1.5}}
 ],
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
