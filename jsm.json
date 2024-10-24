@@ -6,6 +6,7 @@
     //FROM: https://rb.gy/geje78
     //FROM: https://robyang.bsite.net/VodLive/jb8ffa
     //"spider":"./jar/pg.jar",
+    "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"robYang","name":"Rob Yang就是我，我們不熟，有事嗎？","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"robYang","name":"Rob Yang就是我，我們不熟，有事嗎？","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
