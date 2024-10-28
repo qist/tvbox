@@ -108,9 +108,6 @@ TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=no
 唯心電視台,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8&data=normal
 新唐人,http://www.youtube.com/watch?v=WIhgU_mc05A
 澳洲ABCNews,http://www.youtube.com/watch?v=vOTiJkg1voo
-(美)BBC Earth,https://d206rrc0yoxllg.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-staxtq3pp4n9p/BBC_Earth_US.m3u8&data=normal
-(美)Love Nature 4K,https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8&data=normal
-(美)NASA1,https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8&data=normal
 ABC News,http://www.youtube.com/live/-mvUkiILTqI 
 CCTV中文國際,http://www.youtube.com/watch?v=bEZYrBMYNNg
 CNN News,http://www.youtube.com/watch?v=78UnBnAidZ0-
@@ -149,8 +146,6 @@ BBC英國廣播公司新聞(英國)(BBC News),https://i.mjh.nz/SamsungTVPlus/US4
 半島電視台(中東)(Al Jazeera English),http://live-hls-web-aje.getaj.net/AJE/01.m3u8&data=normal
 亞洲新聞(新加坡)(CNA),https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8&data=normal
 日本廣播協會(日本)(NHK World)(各地字幕),https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/zt/playlist-back.m3u8&data=normal
-(阿)半島電視台(中東)(AlJazeera Arabic),http://live-hls-web-aja.getaj.net/AJA/02.m3u8&data=normal
-(多)馬新社電視台(馬來西亞)(BERNAMA TV),https://m.youtube.com/channel/UCcZg5r9hBqK_VPUT2I7eYVw/live\
 鳳凰資訊,http://www.youtube.com/watch?v=sUISafvOieY
 中天新聞,http://www.youtube.com/live/oIgbl7t0S_w?feature=share
 中天新聞1台,http://www.youtube.com/watch?v=oIgbl7t0S_w
