@@ -668,7 +668,7 @@
 // "logo": "https://epg.112114.xyz/logo/{name}.png"
 // },
 {
-  "name": "🏘️只是鏈接1 RobYang",
+  "name":"🏘️只是鏈接1 RobYang",
   "type": 0,
   "url": "https://rb.gy/wcjqb5"
 },
@@ -689,58 +689,47 @@
 "type": 0,
 "url": "https://files.catbox.moe/2r4ru2.txt"
 },
-{
-"name": "18+ Jie",
-"type": 0,
-"url": "https://ghproxy.com/https://raw.githubusercontent.com/jie20091116/cat/main/TVBOX/18.txt"
-},
-{
-"name": "18+ 紳士台",
-"type": 0,
-"url": "https://files.catbox.moe/rfybwc.txt",
-"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-"logo": "https://epg.112114.xyz/logo/{name}.png"
-},
-{
-"name": "------------以下可能已經失效-------------",
-"type": 0,
-"url": "https://rb.gy/vryc96"
-},
-{
-"note": "2024-08-28 have　no list and no steamming",
-"name": "傑克森0829CR",
-"type": 0,
-"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/jackson0829/jackson0829.github.io/main/CR.txt",
-"ua": "okhttp/4.12.0",
-"timeout": 5,
-"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-"logo": "https://epg.112114.xyz/logo/{name}.png"
-},
+
+// {
+// "name": "------------以下可能已經失效-------------",
+// "type": 0,
+// "url": "https://rb.gy/vryc96"
+// },
+// {
+// "note": "2024-08-28 have　no list and no steamming",
+// "name": "傑克森0829CR",
+// "type": 0,
+// "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/jackson0829/jackson0829.github.io/main/CR.txt",
+// "ua": "okhttp/4.12.0",
+// "timeout": 5,
+// "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+// "logo": "https://epg.112114.xyz/logo/{name}.png"
+// },
 {
 "name": "------------以下爲測試直播-------------",
 "type": 0,
 "url": "https://RobYang.bsite.net/VodLive/lb8ffa"
 },
 
-{
-"note": "2024-09-13",
-"name": "RobYang test9",
-"type": 0,
-"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/20240913-secondWatch.txt",
-"ua": "okhttp/4.12.0",
-"timeout": 1,
-"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-"logo": "https://epg.112114.xyz/logo/{name}.png"
-},
+// {
+// "note": "2024-09-13",
+// "name": "RobYang test9",
+// "type": 0,
+// "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/20240913-secondWatch.txt",
+// "ua": "okhttp/4.12.0",
+// "timeout": 1,
+// "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+// "logo": "https://epg.112114.xyz/logo/{name}.png"
+// },
 {
 "group": "redirect",
 "channels": [
-{
-"name": "redirect",
-"urls": [
-"proxy://do=live&type=live&proxy=&url="
-]
-}
+  {
+    "name": "redirect",
+    "urls": [
+    "proxy://do=live&type=live&proxy=&url="
+    ]
+  }
 ]
 },
 {"name": "香蕉哥直播","url": "https://tv.iill.top/m3u/Gather","ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","pass": true,"logo": "https://epg.112114.xyz/logo/{name}.png"  },
