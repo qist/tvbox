@@ -1,5 +1,6 @@
 📺YouTube 新聞,#genre#
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
+民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
 三立iNews,http://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
 三立News+海外,http://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
 三立NEWS+,https://m.youtube.com/watch?v=FoBfXvlOR6
@@ -8,122 +9,92 @@
 公視新聞,http://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
 非凡商業,http://www.youtube.com/watch?v=NHQDx8vCrC4
 台視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
+台視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv051
+台視新聞,http://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
 華視新聞,http://m.youtube.com/watch?v=wM0g8EoUZ_E
+華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
+華視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv052
+華視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv052
+華視新聞,http://www.youtube.com/watch?v=wM0g8EoUZ_E
 鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o?si=xubbPSDWCPgY2yxM
+鏡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv075
 寰宇新聞,http://m.youtube.com/watch?v=6IquAgfvYmc
+寰宇新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn14
+寰宇新聞,http://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
 寰宇新聞台灣台,http://m.youtube.com/live/w87VGpgd90U
+寰宇新聞台灣台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn15
 東森LIVE,http://www.youtube.com/watch?v=R2iMq5LKXco
 東森LIVE,https://m.youtube.com/watch?v=E0zhe2gkXBs
 東森LIVE,https://clonglii.serv00.net/youtube_d.php?id=E0zhe2gkXBs&data=normal
 東森新聞,http://www.youtube.com/watch?v=V1p33hqPrUk
 東森新聞,https://m.youtube.com/watch?v=LuQ4S-i5zoE
+東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
+東森新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv152
 東森財經新聞,http://www.youtube.com/live/WHEPzbFA3hw
+東森財經新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv153
 東森財經股市,http://www.youtube.com/watch?v=LbS-xQ67fos
 中天新聞1台,http://www.youtube.com/watch?v=oIgbl7t0S_w
 中天新聞2台,http://www.youtube.com/watch?v=WPfPjbOLNfE
 中視新聞,http://www.youtube.com/watch?v=TCnaIE_SAtM
-創世電視,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8&data=normal
-
-
-
-民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
-鏡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv075
-鏡新聞,http://37.27.111.214:8080/live/62/hls.m3u8
-壹新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
-TVBS新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv072
-TVBS新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv072
-中天新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv00
-中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
-中天新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv009
 中視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv074
 中視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv074
-東森新聞,http://37.27.111.214:8080/live/20/hls.m3u8
-華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
-華視新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv052
-半島新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv10
-東森新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv152
-非凡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv010
-非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
-華視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv052
-台視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv051
-寰宇新聞台灣台,http://37.27.111.214:8080/live/63/hls.m3u8
-寰宇新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn14
-寰宇新聞台灣台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn15
-TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
-閩鏡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv075
-東森財經新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv153
-台視財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv056
-台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
-寰宇財經新聞,http://37.27.111.214:8080/live/65/hls.m3u8
-國際財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv104
-民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv001
-民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv002
-民視第一台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv003
-中天新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv009
-非凡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv010
-台視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv051
-華視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv052
-台視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv066
-tvbs新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv072
-tvbs,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv073
-中視新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv074
-鏡新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv075
-半島新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv10
-民視新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-ftv13
-國會頻道1,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv084
-國會頻道2,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv085
-國際財經,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv104
-第1商業台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv109
-東森新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv152
-東森財經新聞,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv153
-民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv155
-民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv156
-環宇新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
-環宇新聞台灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
-台視台灣台,rtmp://f13h.mine.nu/sat/tv071#https://litv.zapi.us.kg/?id=4gtv-4gtv066#https://litv.zapi.us.kg/?id=4gtv-4gtv002
-台視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv066
-中視,http://37.27.111.214:8080/live/7/hls.m3u8
-中視經典,http://37.27.111.214:8080/live/47/hls.m3u8
-中視台灣台,rtmp://f13h.mine.nu/sat/tv091#https://litv.zapi.us.kg/?id=4gtv-4gtv040
-中視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv040
-華視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv041
-華視台灣台,rtmp://f13h.mine.nu/sat/tv111#https://litv.zapi.us.kg/?id=4gtv-4gtv041
-民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv002#https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv155
-TVBS,http://154.216.191.38:8500/live.m3u8?c=1
-TVBS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv073
-TVBS台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv073
-國會頻道1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv084
-國會頻道2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv085#http://37.27.111.214:8080/live/104/hls.m3u8
-第1商業台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv109
-中視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv040
-華視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv041
-
-
-
-
+創世電視,https://cdn.deepcore.online/hlsme/ctv_hk.m3u8&data=normal
+TVBS新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv072
+TVBS新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv072
 TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://m.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
 TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=normal
+TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtcK
+中天新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv00
+中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
+中天新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv009
+中天新聞,http://www.youtube.com/live/oIgbl7t0S_w?feature=share
+半島新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv10
+非凡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv010
+非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
+TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
+TVBS NEWS,http://www.youtube.com/watch?v=m_dhMSvUCIc
+TVBS NEWS,https://m.youtube.com/watch?v=m_dhMSvUCIc
+閩鏡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv075
+台視財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv056
+台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
+國際財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv104
+台視台灣台,rtmp://f13h.mine.nu/sat/tv071
+台視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv066
+台視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv002
+台視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv066
+中視,http://37.27.111.214:8080/live/7/hls.m3u8
+中視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv040
+中視台灣台,rtmp://f13h.mine.nu/sat/tv091
+中視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv040
+華視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv041
+華視台灣台,rtmp://f13h.mine.nu/sat/tv111
+華視台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv041
+民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv002
+民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv155
+TVBS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv073
+TVBS台灣台,https://litv.zapi.us.kg/?id=4gtv-4gtv073
+國會頻道1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv084
+國會頻道2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv085
+第1商業台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv109
 唯心電視台,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8&data=normal
 新唐人,http://www.youtube.com/watch?v=WIhgU_mc05A
 澳洲ABCNews,http://www.youtube.com/watch?v=vOTiJkg1voo
-ABC News,http://www.youtube.com/live/-mvUkiILTqI 
+ABC News,http://www.youtube.com/live/-mvUkiILTqI
 CCTV中文國際,http://www.youtube.com/watch?v=bEZYrBMYNNg
 CNN News,http://www.youtube.com/watch?v=78UnBnAidZ0-
 DW,http://www.youtube.com/watch?v=pqabxBKzZ6M
 DW德國之聲,https://youtu.be/tZT2MCYu6Zw
-Euronews English,http://www.youtube.com/live/pykpO5kQJ98 
+Euronews English,http://www.youtube.com/live/pykpO5kQJ98
 Euronews English,http://www.youtube.com/watch?v=pykpO5kQJ98
 Fox new,http://www.youtube.com/watch?v=YDfiTGGPYCk
 FRANCE 24,http://www.youtube.com/watch?v=h3MuIUNCCzI
-GB News,https:/ /www.youtube.com/live/8WX6YL9JnLw
-HTB北海道,http://www.youtube.com/live/d8CrKBU99Hg 
+HTB北海道,http://www.youtube.com/live/d8CrKBU99Hg
 KBS KOREA,http://www.youtube.com/watch?v=HnfpTMtfFk8
 KOMPASTV,http://www.youtube.com/watch?v=4rmf-lk3ito
-mnews鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o 
-NASA Live,http://www.youtube.com/live/nA9UZF-SZoQ 
-NASA TV,https:/ /www.youtube.com/live/21X5lGlDOfg 
+mnews鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o
+NASA Live,http://www.youtube.com/live/nA9UZF-SZoQ
 Nat geo wild,http://www.youtube.com/watch?v=BJ3Yv572V1A
 NBC NEW,http://www.youtube.com/watch?v=7-JR7DjKF_c
 NHK WORLD,http://www.youtube.com/watch?v=f0lYkdA-Gtw
@@ -131,100 +102,21 @@ Sky News,http://www.youtube.com/watch?v=w9uJg68CV4g
 TVBS HD,https://m.youtube.com/watch?v=YvdcZ_jpLXE
 TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&data=normal
 TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&ln=2&data=normal
-TVBS NEWS,http://www.youtube.com/watch?v=m_dhMSvUCIc
-TVBS NEWS,https://m.youtube.com/watch?v=m_dhMSvUCIc
 CBS哥倫比亞廣播系統新聞(CBS),https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8&data=normal
 CNN有線電視新聞網(CNN),https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8&data=normal
 CNN有線電視新聞網(CNN),https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8&data=normal
 CNN有線電視新聞網(CNN),https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8&data=normal
 福斯直播(美國偏保守派)(LiveNOW from FOX),https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8&data=normal
 彭博財經電視(美國財經)(Bloomberg Television),https://0984ed0046994029aafaa07692005474.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Bloomberg/playlist.m3u8&data=normal
-彭博財經電視(美國財經)(Bloomberg Television),http://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-02-81ykIWnsMsg_live.m3u8&data=normal
 RT俄羅斯今日電視台(俄羅斯)(RT News),https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8&data=normal
 BBC英國廣播公司新聞(英國)(BBC News),https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8&data=normal
 BBC英國廣播公司新聞(英國)(BBC News),https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8&data=normal
-半島電視台(中東)(Al Jazeera English),http://live-hls-web-aje.getaj.net/AJE/01.m3u8&data=normal
 亞洲新聞(新加坡)(CNA),https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8&data=normal
 日本廣播協會(日本)(NHK World)(各地字幕),https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/zt/playlist-back.m3u8&data=normal
 鳳凰資訊,http://www.youtube.com/watch?v=sUISafvOieY
-中天新聞,http://www.youtube.com/live/oIgbl7t0S_w?feature=share
-中天新聞1台,http://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞2台,http://www.youtube.com/watch?v=WPfPjbOLNfE
-中視新聞,http://www.youtube.com/watch?v=TCnaIE_SAtM
-華視新聞,http://www.youtube.com/watch?v=wM0g8EoUZ_E
-TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtcK
 TVBS56,http://www.youtube.com/watch?v=YvdcZ_jpLXE
-TVBS NEWS LIVE,http://www.youtube.com/watch?v=m_dhMSvUCIc
 東森Live,http://www.youtube.com/watch?v=S5WOGu2HSes
-鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o
-台視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
-寰宇新聞,http://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
-台視新聞,http://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
 
-
-
-HOY资讯台,http://free.xiptv.x10.bz/anbo/?id=395
-HKIBC,http://free.xiptv.x10.bz/anbo/?id=354
-三立新聞,http://free.xiptv.x10.bz/anbo/?id=43
-三立新聞,http://free.xiptv.x10.bz/anbo/?id=2794
-三立新聞,http://free.xiptv.x10.bz/anbo/?id=2392
-三立新聞+,http://free.xiptv.x10.bz/anbo/?id=320
-東森新聞,http://free.xiptv.x10.bz/anbo/?id=1025
-東森新聞4,http://free.xiptv.x10.bz/anbo/?id=2766
-東森新聞,http://free.xiptv.x10.bz/anbo/?id=1358
-東森新聞,http://free.xiptv.x10.bz/anbo/?id=2393
-東森亞洲,http://free.xiptv.x10.bz/anbo/?id=3
-中天新聞,http://free.xiptv.x10.bz/anbo/?id=2394
-中天新聞2台,http://free.xiptv.x10.bz/anbo/?id=152
-中天新聞,http://free.xiptv.x10.bz/anbo/?id=2420
-民視新聞,http://free.xiptv.x10.bz/anbo/?id=2395
-民視新聞,http://free.xiptv.x10.bz/anbo/?id=13
-TVBS新聞,http://free.xiptv.x10.bz/anbo/?id=2736
-TVBS新聞,http://free.xiptv.x10.bz/anbo/?id=2
-TVBS新聞,http://free.xiptv.x10.bz/anbo/?id=2396
-東森財經,http://free.xiptv.x10.bz/anbo/?id=2397
-東森財經,http://free.xiptv.x10.bz/anbo/?id=12
-華視新聞,http://free.xiptv.x10.bz/anbo/?id=2424
-華視新聞,http://free.xiptv.x10.bz/anbo/?id=1171
-台視新聞,http://free.xiptv.x10.bz/anbo/?id=2399
-台視新聞,http://free.xiptv.x10.bz/anbo/?id=1
-中視新聞,http://free.xiptv.x10.bz/anbo/?id=2400
-中視新聞,http://free.xiptv.x10.bz/anbo/?id=7
-寰宇新聞,http://free.xiptv.x10.bz/anbo/?id=2401
-寰宇新聞,http://free.xiptv.x10.bz/anbo/?id=304
-寰宇財經,http://free.xiptv.x10.bz/anbo/?id=2536
-公視新聞,http://free.xiptv.x10.bz/anbo/?id=20
-寰宇台灣,http://free.xiptv.x10.bz/anbo/?id=87
-年代新聞,http://free.xiptv.x10.bz/anbo/?id=2719
-壹新聞,http://free.xiptv.x10.bz/anbo/?id=2777
-年代新聞,http://free.xiptv.x10.bz/anbo/?id=1099
-壹新聞,http://free.xiptv.x10.bz/anbo/?id=494
-非凡新聞,http://free.xiptv.x10.bz/anbo/?id=2795
-非凡新聞,http://free.xiptv.x10.bz/anbo/?id=3236
-非凡商業新聞,http://free.xiptv.x10.bz/anbo/?id=314
-台視財經,http://free.xiptv.x10.bz/anbo/?id=300
-運通財經,http://free.xiptv.x10.bz/anbo/?id=79
-SBN全球財經,http://free.xiptv.x10.bz/anbo/?id=1497
-鏡新聞mnews,http://free.xiptv.x10.bz/anbo/?id=463
-鳳凰秀,http://free.xiptv.x10.bz/anbo/?id=1293
-三立国際,http://free.xiptv.x10.bz/anbo/?id=2285
-DW德國之聲,http://free.xiptv.x10.bz/anbo/?id=1059
-FRANCE 24 English,http://free.xiptv.x10.bz/anbo/?id=2231
-新唐人亞太台,http://free.xiptv.x10.bz/anbo/?id=10
-CBN News,http://free.xiptv.x10.bz/anbo/?id=499
-Bloomberg Business,http://free.xiptv.x10.bz/anbo/?id=1046
-Al Jazeera,http://free.xiptv.x10.bz/anbo/?id=1144
-Bloomberg Quicktake,http://free.xiptv.x10.bz/anbo/?id=370
-Euronews English,http://free.xiptv.x10.bz/anbo/?id=2342
-NHK WORLD,http://free.xiptv.x10.bz/anbo/?id=1394
-United Nations,http://free.xiptv.x10.bz/anbo/?id=184
-Channels,http://free.xiptv.x10.bz/anbo/?id=1495
-ABC News Australia,http://free.xiptv.x10.bz/anbo/?id=2769
-GB News,http://free.xiptv.x10.bz/anbo/?id=77
-FRANCE 24,http://free.xiptv.x10.bz/anbo/?id=1042
-CNN Indonesia,http://free.xiptv.x10.bz/anbo/?id=1145
-TRTWORLD,http://free.xiptv.x10.bz/anbo/?id=1022
 
 
 🏘️Rob Yang就是我,#genre#
@@ -237,6 +129,8 @@ TRTWORLD,http://free.xiptv.x10.bz/anbo/?id=1022
 
 
 
+
+
 📺YouTube 兒童,#genre#
 東森幼幼,https://youtu.be/IAGgSVzXIJM
 東森幼幼,https://www.youtube.com/watch?v=IAGgSVzXIJM
@@ -244,6 +138,7 @@ TRTWORLD,http://free.xiptv.x10.bz/anbo/?id=1022
 MOMO親子,https://www.567858.xyz/youtube.php?id=oLdxAo_dez0
 MOMO親子,https://youtu.be/oLdxAo_dez0
 MOMO親子,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/231
+MOMO親子,https://108.181.9.39/live/IAGgSVzXIJM?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
 MOMO親子成語,https://youtu.be/OrX2QQtMkkY
 MOMO親子成語,https://www.567858.xyz/youtube.php?id=OrX2QQtMkkY
 MOMO親子音樂,https://www.567858.xyz/youtube.php?id=LvPgP4ARP3Y
@@ -261,7 +156,6 @@ i-Fun 動漫台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv1
 達文西頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv018
 超人力霸王整套看,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/278
 LiveABC 互動英語台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/188
-
 迪士尼,https://www.567858.xyz/youtube.php?id=cgHyVRqn6ow
 迪士尼2,https://www.567858.xyz/youtube.php?id=0DecaiMuSfI
 迪士尼3,https://www.567858.xyz/youtube.php?id=3Cshaj_1NO4
@@ -270,10 +164,8 @@ LiveABC 互動英語台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/1
 迪士尼6,https://www.567858.xyz/youtube.php?id=2S-4lQITckc
 迪士尼7,https://www.567858.xyz/youtube.php?id=Y8-gcg0_I0w
 迪士尼最佳歌曲2023,https://www.567858.xyz/youtube.php?id=dpIbmKroTgA
-MOMO親子,https://108.181.9.39/live/IAGgSVzXIJM?themeRefresh=1&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20
-MOMO親子https://www.567858.xyz/youtube.php?id=IAGgSVzXIJM
+MOMO親子https://ww,#genre#
 迪士尼最佳歌曲2023,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
-
 動畫世界,https://sc2024.stream-link.org/live/76176147201.php?id=m515bmd
 尼克兒童,https://sc2024.stream-link.org/live/76176147201.php?id=m372zmu
 尼克兒童,https://sc2024.stream-link.org/live/76176147201.php?id=m790jmc
@@ -286,49 +178,37 @@ ELTV生活英語台,https://sc2024.stream-link.org/live/76176147201.php?id=m819k
 
 
 
-
 📺YouTube 其他,#genre#
-
---------------四季------------------
-達文西頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv018#https://litv.zapi.us.kg/?id=4gtv-4gtv018
+達文西頻道,https://litv.zapi.us.kg/?id=4gtv-4gtv018
 動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
-亞洲旅遊台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn17#https://litv.zapi.us.kg/?id=litv-longturn17#http://37.27.111.214:8080/live/10/hls.m3u8
+亞洲旅遊台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn17
+亞洲旅遊台,https://litv.zapi.us.kg/?id=litv-longturn17
+亞洲旅遊台,http://37.27.111.214:8080/live/10/hls.m3u8
 阿裡郎,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv079
 寰宇台灣台,https://litv.zapi.us.kg/?id=litv-longturn15
 探索亞洲,http://61.221.215.25:8800/hls/50/index.m3u8
-Smart知識台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn19#https://litv.zapi.us.kg/?id=litv-longturn19
-亞洲旅遊台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn17
-龍華戲劇,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn18
-Smart知識台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn19
-生活英語台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn20
-龍華經典,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn21
-台灣戲劇台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn22
-
-
-
-
+Smart知識台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn19
+Smart知識台,https://litv.zapi.us.kg/?id=litv-longturn19
 民視戲劇,http://www.youtube.com/live/6CQZxYpW9q4
 華視綜藝頻道,http://m.youtube.com/live/IfKO17h4pVE
-華視戲劇頻道,http://m.youtube.com/live/WFXI3igmwDk 
-中視亞洲台,http://www.youtube.com/live/s2waUruqze4 
-中視綜藝,http://www.youtube.com/live/ADDSmXoPDY8 
+華視戲劇頻道,http://m.youtube.com/live/WFXI3igmwDk
+中視亞洲台,http://www.youtube.com/live/s2waUruqze4
+中視綜藝,http://www.youtube.com/live/ADDSmXoPDY8
 台視,https://m.youtube.com/watch?v=uDqQo8a7Xmk
 大愛一台,http://www.youtube.com/watch?v=MIqUplvSRWA
+大愛一台,https://m.youtube.com/watch?v=MIqUplvSRWA
+大愛一台,https://m.youtube.com/watch?v=oV_i3Hsl_zg
 大愛二台台灣,http://www.youtube.com/watch?v=OKvWtVoDR8I
 大愛二台全球,http://www.youtube.com/watch?v=DTNkEm6jaqQ
 信大電視台,http://www.youtube.com/live/ciwFpYofb28
-國會頻道,http://www.youtube.com/live/4HysYHJ6GkY 
+國會頻道,http://www.youtube.com/live/4HysYHJ6GkY
 momo購物一台,http://www.youtube.com/watch?v=_pZQ1Lk0xMA
 momo購物二台,http://www.youtube.com/watch?v=xbNWkUyxQGM
 東森購物台CH34,http://www.youtube.com/watch?v=ViJ3XiN6Q3M
 美好購物二台,http://www.youtube.com/watch?v=lEXITHxcagI
-大立電視台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8&data=normal
-番薯電視台,http://61.216.67.119:1935/TWHG/E1/index.m3u8&data=normal
 好消息,https://dqhxk7sbp7xog.cloudfront.net/osmflivech1.m3u8&data=normal$decoder=2
 好消息,https://live.streamingfast.net/osmflivech1.m3u8&data=normal$decoder=2
 好消息2,https://dqhxk7sbp7xog.cloudfront.net/osmflivech2.m3u8&data=normal$decoder=2
-大愛一台,https://m.youtube.com/watch?v=MIqUplvSRWA
-大愛一台,https://m.youtube.com/watch?v=oV_i3Hsl_zg
 大愛二台,https://m.youtube.com/watch?v=DTNkEm6jaqQ
 大愛二台,https://m.youtube.com/watch?v=OKvWtVoDR8I
 華藏,http://www.youtube.com/watch?v=ypmrwYeLAaQ
@@ -344,132 +224,16 @@ CBTV十方法界弘法電視台,https://m.youtube.com/watch?v=77SHFx1c8Lk
 香港佛陀教育協會,https://i.cibei.org/live/hd/playlist.m3u8&data=normal
 香港佛陀教育協會,https://live.jingzong.org/live/hd/playlist.m3u8&data=normal
 鳳凰衛視資訊,http://www.youtube.com/watch?v=HFib76ySpbU
-
-
-
-
-
-
-
-
-
-
---------------------RobYang--------------
 民視,https://aktv.top/live/FTV/index.m3u8
 民視,http://37.27.111.214:8080/live/6/hls.m3u8
-民視,http://37.27.111.214:8080/live/7/hls.m3u8
-民視,http://37.27.111.214:8080/live/10/hls.m3u8
 民視,http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
-TVBS,https://aktv.top/live/TVBS/index.m3u8
 TVBS,https://aktv.top/live/TVBS/index.m3u8
 靖天電影台,https://aktv.top/live/靖天電影台/index.m3u8
 龍華經典台,https://aktv.top/live/龍華經典台/index.m3u8
 中天亞洲台,https://aktv.top/live/中天亞洲台/index.m3u8
 三立綜合台,https://aktv.top/live/三立綜合台/index.m3u8
-三立 iNEWS,https://aktv.top/live/三立 iNEWS/index.m3u8
 中視,https://aktv.top/live/中視/index.m3u8
 華視,https://aktv.top/live/華視/index.m3u8
-HITS 頻道,https://aktv.top/live/HITS 頻道/index.m3u8
-Rock Action,https://aktv.top/live/Rock Action/index.m3u8
-Rock Entertainment,https://aktv.top/live/Rock Entertainment/index.m3u8
-TNT Sport 1,https://aktv.top/live/TNT Sport 1/index.m3u8
-TNT Sport 2,https://aktv.top/live/TNT Sport 2/index.m3u8
-TNT Sport 3,https://aktv.top/live/TNT Sport 3/index.m3u8
-TNT Sport 4,https://aktv.top/live/TNT Sport 4/index.m3u8
-NBA TV,https://aktv.top/live/NBA TV/index.m3u8
-鳳凰衛視PhoenixTV,https://aktv.top/live/鳳凰衛視PhoenixTV/index.m3u8
-LIVE NOW,https://aktv.top/live/LIVE NOW/index.m3u8
-
-
-
-
-
-
-
-
---------------四季------------------
-amc電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv017#https://litv.zapi.us.kg/?id=4gtv-4gtv017#http://61.221.215.25:8800/hls/43/index.m3u8
-CATCHPLAY電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv076#,https://litv.zapi.us.kg/?id=4gtv-4gtv076
-龍華電影台,https://litv.zapi.us.kg/?id=litv-longturn03
-靖天電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv061#https://litv.zapi.us.kg/?id=4gtv-4gtv061
-影迷數位電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv011#https://litv.zapi.us.kg/?id=4gtv-4gtv011
-龍華電影,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn03
-八大戲劇,http://61.221.215.25:8800/hls/39/index.m3u8
-八大綜藝台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv039
-三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
-公視戲劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv042
-台灣戲劇台,https://litv.zapi.us.kg/?id=litv-longturn22
-民視影劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv09
-公視戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv042
-龍華戲劇台,https://litv.zapi.us.kg/?id=litv-longturn18
-采昌影劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv049
-採昌影劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv049
-靖天戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv058
-靖天戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv058
-靖洋戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv045#https://litv.zapi.us.kg/?id=4gtv-4gtv045
-台灣戲劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn22
-龍華戲劇,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn18
-
-
-
-
-ELEVEN1台,rtmp://f13h.mine.nu/sat/tv731
-ELEVEN2台,rtmp://f13h.mine.nu/sat/tv741
-GinxTV,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv053#https://litv.zapi.us.kg/?id=4gtv-4gtv053
-GLOBETROTTER,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv016#https://litv.zapi.us.kg/?id=4gtv-4gtv016
-HITS,http://37.27.111.214:8080/live/28/hls.m3u8
-MEZZO LIVE,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv083
-TRACE SPORTS STARS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv077#https://litv.zapi.us.kg/?id=4gtv-4gtv077
-TRACE SPORTS STARS,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv077
-緯來體育台,rtmp://f13h.mine.nu/sat/tv721
-時尚運動X,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv014
-博斯網球台,https://litv.zapi.us.kg/?id=litv-longturn09
-博斯高球1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn05#https://litv.zapi.us.kg/?id=litv-longturn05
-博斯高球2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn06#https://litv.zapi.us.kg/?id=litv-longturn06
-博斯無限,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn10#http://37.27.111.214:8080/live/15/hls.m3u8#https://litv.zapi.us.kg/?id=litv-longturn10
-博斯無限2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn13#https://litv.zapi.us.kg/?id=litv-longturn13
-博斯運動1,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn07#https://litv.zapi.us.kg/?id=litv-longturn07
-博斯運動2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn08#https://litv.zapi.us.kg/?id=litv-longturn08
-博斯網球,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn09
-博斯魅力,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn04#https://litv.zapi.us.kg/?id=litv-longturn04
-智林體育台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv101
-愛爾達娛樂,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv070
-博斯魅力,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn04
-博斯高球1,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn05
-博斯高球2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn06
-博斯運動1,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn07
-博斯運動2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn08
-博斯網球,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn09
-博斯無限,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn10
-博斯無限2,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn13
-愛爾達娛樂,https://litv.zapi.us.kg/?id=4gtv-4gtv070
-
-
-
-
---------------四季------------------
-博斯運動一台,https://4gtv.livednow.us.kg/litv/litv-longturn07
-博斯運動二台,https://4gtv.livednow.us.kg/litv/litv-longturn08
-博斯無限台,https://4gtv.livednow.us.kg/litv/litv-longturn10
-博斯無限二台,https://4gtv.livednow.us.kg/litv/litv-longturn13
-博斯網球台,https://4gtv.livednow.us.kg/litv/litv-longturn09
-博斯高球台,https://4gtv.livednow.us.kg/litv/litv-longturn05
-博斯高球二台,https://4gtv.livednow.us.kg/litv/litv-longturn06
-博斯魅力台,https://4gtv.livednow.us.kg/litv/litv-longturn04
-GINX Esports TV,https://4gtv.livednow.us.kg/litv/4gtv-4gtv053
-TechStorm,https://4gtv.livednow.us.kg/4gtv/181
-時尚運動X,https://4gtv.livednow.us.kg/4gtv/277
-智林體育台,https://4gtv.livednow.us.kg/litv/4gtv-4gtv101
-TraceSports,https://4gtv.livednow.us.kg/litv/4gtv-4gtv077
-
-
-
-
-
-
-
-
-
 
 
 
@@ -552,20 +316,3 @@ M-Radio全國廣播,http://stream.rcs.revma.com/044q61ha7a0uv/hls.m3u8
 愛樂電台(OBG Online),https://yeslivetv.com/radio/e-classical-obg-online/
 愛樂電台(Kids Online),https://yeslivetv.com/radio/e-classical-kids-online/
 愛樂電台(UR Classical),https://yeslivetv.com/radio/e-classical-ur-classical/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
