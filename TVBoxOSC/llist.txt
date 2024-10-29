@@ -11,7 +11,7 @@
 華視新聞,http://m.youtube.com/watch?v=wM0g8EoUZ_E
 鏡新聞,http://www.youtube.com/live/5n0y6b0Q25o?si=xubbPSDWCPgY2yxM
 寰宇新聞,http://m.youtube.com/watch?v=6IquAgfvYmc
-寰宇新聞灣台,http://m.youtube.com/live/w87VGpgd90U
+寰宇新聞台灣台,http://m.youtube.com/live/w87VGpgd90U
 東森LIVE,http://www.youtube.com/watch?v=R2iMq5LKXco
 東森LIVE,https://m.youtube.com/watch?v=E0zhe2gkXBs
 東森LIVE,https://clonglii.serv00.net/youtube_d.php?id=E0zhe2gkXBs&data=normal
@@ -46,9 +46,9 @@ TVBS新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv072
 非凡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv010
 華視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv052
 台視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv051
-寰宇新聞灣,http://37.27.111.214:8080/live/63/hls.m3u8
+寰宇新聞台灣台,http://37.27.111.214:8080/live/63/hls.m3u8
 寰宇新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn14
-寰宇新聞灣台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn15
+寰宇新聞台灣台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-longturn15
 TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 閩鏡新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv075
 東森財經新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv153
@@ -79,7 +79,7 @@ tvbs,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv073
 民視,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv155
 民視台灣台,http://free.xiptv.x10.bz/4gtv.php?id=4gtv-4gtv156
 環宇新聞,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn14
-環宇新聞灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
+環宇新聞台灣台,http://free.xiptv.x10.bz/4gtv.php?id=litv-longturn15
 台視台灣台,rtmp://f13h.mine.nu/sat/tv071#https://litv.zapi.us.kg/?id=4gtv-4gtv066#https://litv.zapi.us.kg/?id=4gtv-4gtv002
 台視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv066
 中視,http://37.27.111.214:8080/live/7/hls.m3u8
@@ -198,8 +198,8 @@ TVBS新聞,http://free.xiptv.x10.bz/anbo/?id=2396
 寰宇台灣,http://free.xiptv.x10.bz/anbo/?id=87
 年代新聞,http://free.xiptv.x10.bz/anbo/?id=2719
 壹新聞,http://free.xiptv.x10.bz/anbo/?id=2777
-年代新聞-備,http://free.xiptv.x10.bz/anbo/?id=1099
-壹新聞-替,http://free.xiptv.x10.bz/anbo/?id=494
+年代新聞,http://free.xiptv.x10.bz/anbo/?id=1099
+壹新聞,http://free.xiptv.x10.bz/anbo/?id=494
 非凡新聞,http://free.xiptv.x10.bz/anbo/?id=2795
 非凡新聞,http://free.xiptv.x10.bz/anbo/?id=3236
 非凡商業新聞,http://free.xiptv.x10.bz/anbo/?id=314
