@@ -510,7 +510,7 @@
 // {"key":"drpy_hh","name":"墙外 | 吼吼","type":3,"api":"./lib/drpy2.min.js","ext":"https://download.kstore.space/download/3313/js/HoHo影视.js"},
 {"key":"php_bttwoo",  "name": "影视 | 沐辰",  "type": 4,  "api": "https://json.doube.eu.org/app/index.php?site=bttwoo",  "searchable": 1,  "quickSearch": 1,  "filterable": 1,  "changeable": 1  },
 {"key":"py_OleVod",		"name": "影视 | 欧乐",		"type": 4,		"api": "https://py.doube.eu.org/api?site=OleVod",		"searchable": 1,		"quickSearch": 1,		"filterable": 1,		"changeable": 1	  },
-
+{"key":"py_OleVod",		"name": "影视 | 欧乐",		"type": 4,		"api": "https://py.doube.eu.org/api?site=OleVod",		"searchable": 1,		"quickSearch": 1,		"filterable": 1,		"changeable": 1	  },
 
 
 
