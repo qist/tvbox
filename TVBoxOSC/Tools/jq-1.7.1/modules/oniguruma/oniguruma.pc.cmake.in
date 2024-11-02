@@ -1,0 +1,13 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=@onig_pkgconfig_libdir@
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${prefix}/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: @PACKAGE_VERSION@
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}

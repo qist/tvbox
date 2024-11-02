@@ -1,0 +1,227 @@
+headline: Download jq
+body:
+  - text: |
+
+      jq is written in C and has no runtime dependencies, so it should be
+      possible to build it for nearly any platform. Prebuilt binaries are
+      available for Linux, macOS and Windows.
+
+      The binaries should just run, but on macOS and Linux you may need
+      to make them executable first using `chmod +x jq`.
+
+      jq is licensed under the MIT license. For all of the gory
+      details, read the file `COPYING` in the source distribution.
+
+      jq uses a C library for decimal number support. This is an ICU 1.8.1
+      licensed code obtained from the ICU downloads archive.  
+      <https://download.icu-project.org/files/decNumber/decNumber-icu-368.zip>
+
+
+      ### Linux
+
+       * jq is in the official [Debian](https://packages.debian.org/jq) and
+         [Ubuntu](https://packages.ubuntu.com/jq) repositories. Install using
+         `sudo apt-get install jq`.
+
+       * jq is in the official [Fedora](https://src.fedoraproject.org/rpms/jq) repository.
+         Install using `sudo dnf install jq`.
+
+       * jq is in the official [openSUSE](https://software.opensuse.org/package/jq) repository.
+         Install using `sudo zypper install jq`.
+
+       * jq is in the official [Arch](https://archlinux.org/packages/?q=jq) repository.
+         Install using `sudo pacman -S jq`.
+
+       * jq 1.7 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-linux-amd64)
+         or
+         [ARM64](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-linux-arm64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-linux-i386).
+
+       * jq 1.6 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.6/jq-linux64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.6/jq-linux32).
+
+       * jq 1.5 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.5/jq-linux64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.5/jq-linux32).
+
+       * jq 1.4 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-linux-x86_64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-linux-x86).
+
+       * jq 1.3 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.3/jq-linux-x86_64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.3/jq-linux-x86).
+
+      ### macOS
+
+       * Use [Homebrew](https://brew.sh/) to install jq with `brew install jq`.
+
+       * Use [MacPorts](https://www.macports.org) to install jq with `port install jq`.
+
+       * Use [Fink](https://finkproject.org) to install jq with `fink install jq`.
+
+       * jq 1.7 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-macos-amd64)
+         or
+         [ARM64](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-macos-arm64).
+
+       * jq 1.6 binary for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.6/jq-osx-amd64).
+
+       * jq 1.5 binary for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.5/jq-osx-amd64).
+
+       * jq 1.4 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-osx-x86_64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-osx-x86).
+
+       * jq 1.3 binaries for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.3/jq-osx-x86_64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.3/jq-osx-x86).
+
+      ### FreeBSD
+
+       * `pkg install jq` as root installs a pre-built
+         [binary package](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/pkgng-intro.html).
+
+       * `make -C /usr/ports/textproc/jq install clean` as root installs the
+         [jq](https://www.freshports.org/textproc/jq/)
+         [port](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html)
+         from source.
+
+      ### Solaris
+
+       * `pkgutil -i jq` in [OpenCSW](https://www.opencsw.org/p/jq) for Solaris
+         10+, Sparc and x86.
+
+       * jq 1.4 binaries for Solaris 11
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-solaris11-64)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-solaris11-32).
+
+      ### Windows
+
+       * Use [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
+         to install jq with `winget install jqlang.jq`.
+
+       * Use [scoop](https://scoop.sh/) to install jq with `scoop install jq`.
+
+       * Use [Chocolatey NuGet](https://chocolatey.org/) to install jq with
+         `chocolatey install jq`.
+
+       * jq 1.7 executables for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-windows-amd64.exe)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-windows-i386.exe).
+
+       * jq 1.6 executables for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.6/jq-win64.exe)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.6/jq-win32.exe).
+
+       * jq 1.5 executables for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.5/jq-win64.exe)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.5/jq-win32.exe).
+
+       * jq 1.4 executables for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-win64.exe)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.4/jq-win32.exe).
+
+       * jq 1.3 executables for
+         [AMD64](https://github.com/jqlang/jq/releases/download/jq-1.3/jq-win64.exe)
+         or
+         [i386](https://github.com/jqlang/jq/releases/download/jq-1.3/jq-win32.exe).
+
+      ### Checksums and signatures
+
+      SHA-256 checksums are provided for all release and pre-release binaries.
+      They can be found under
+      [sig/v1.x/sha256sum.txt](https://github.com/jqlang/jq/tree/master/sig).
+      The checksums for jq 1.7 are in
+      [sig/v1.7/sha256sum.txt](https://raw.githubusercontent.com/jqlang/jq/master/sig/v1.7/sha256sum.txt).
+      The checksums for jq 1.6 are in
+      [sig/v1.6/sha256sum.txt](https://raw.githubusercontent.com/jqlang/jq/master/sig/v1.6/sha256sum.txt).
+      The checksums for jq 1.5 are in
+      [sig/v1.5/sha256sum.txt](https://raw.githubusercontent.com/jqlang/jq/master/sig/v1.5/sha256sum.txt).
+
+      Additionally, all release artifacts are signed by a jq release key.  We have two release keys, [one for 1.6 and older releases](https://raw.githubusercontent.com/jqlang/jq/master/sig/jq-release-old.key), and [one for 1.7 and newer releases](https://raw.githubusercontent.com/jqlang/jq/master/sig/jq-release-new.key).
+      Signatures can be found under
+      [sig/v1.x/\*.asc](https://github.com/jqlang/jq/tree/master/sig).
+      The signatures for jq 1.7 are in
+      [sig/v1.7/\*.asc](https://github.com/jqlang/jq/tree/master/sig/v1.7).
+      The signatures for jq 1.6 are in
+      [sig/v1.6/\*.asc](https://github.com/jqlang/jq/tree/master/sig/v1.6).
+      The signatures for jq 1.5 are in
+      [sig/v1.5/\*.asc](https://github.com/jqlang/jq/tree/master/sig/v1.5).
+      You can use [GnuPG](https://gnupg.org/) to verify a signature by downloading
+      the signature and running `gpg --verify signature.asc`.
+
+      ### From source on Linux, macOS, Cygwin, and other POSIX-like operating systems
+
+       * [Source tarball for jq 1.7](https://github.com/jqlang/jq/releases/download/jq-1.7/jq-1.7.tar.gz)
+       * [Source tarball for jq 1.6](https://github.com/jqlang/jq/releases/download/jq-1.6/jq-1.6.tar.gz)
+       * [Source tarball for jq 1.5](https://github.com/jqlang/jq/releases/download/jq-1.5/jq-1.5.tar.gz)
+
+      You can build it using the usual `./configure && make && sudo
+      make install` rigmarole.
+
+      If you're interested in using the latest development version, try:
+
+          git clone --recursive https://github.com/jqlang/jq.git
+          cd jq
+          autoreconf -i
+          ./configure
+          make
+          sudo make install
+
+      To build it from a git clone, you'll need to install a few
+      packages first:
+
+       * [GCC](https://gcc.gnu.org)
+       * [Make](https://www.gnu.org/software/make/)
+       * [Autotools](https://www.gnu.org/software/automake/)
+
+      For Linux systems, these will all be in your system's package
+      manager, and if you do development on the machine they're most
+      likely already installed.
+
+      On macOS, these are all included in Apple's command line tools, which can
+      be installed from [Xcode](https://developer.apple.com/xcode/). However,
+      you may find that you need a newer version of Bison than the one provided
+      by Apple. This can be found in [Homebrew](https://brew.sh/) or
+      [MacPorts](https://macports.org/).
+
+      If you want to generate the lexer and parser from source you can use the
+      `--enable-maintainer-mode` configure flag. This requires bison to be installed.
+      [Flex](https://github.com/westes/flex) and
+      [Bison](https://www.gnu.org/software/bison/).
+
+      ### Docker
+
+      Docker image is available from
+      [GitHub Container Registry](https://github.com/jqlang/jq/pkgs/container/jq).
+
+          docker run -i --rm ghcr.io/jqlang/jq -n 'range(3)'
+
+      #### Building the documentation
+
+      jq's documentation is compiled into static HTML using Python.
+      To build the docs, run `pipenv run python3 build_website.py --root /output`
+      in the `docs/` directory. To serve them locally, you can run
+      `python3 -m http.server`. You'll need a few Python dependencies,
+      which can be installed by following the instructions in `docs/README.md`.
+
+      The man page is built by `make jq.1`, or just `make`, also from
+      the YAML docs, and you'll still need the Python dependencies to
+      build the manpage.

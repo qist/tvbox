@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+
+cd "$(dirname "$0")/../"
+test -d .git || exit 1
+
+if git describe --tags --match 'jq-*' >/dev/null 2>&1; then
+  git describe --tags --match 'jq-*' --dirty | sed 's/^jq-//'
+else
+  branch=$(git rev-parse --abbrev-ref HEAD)
+  commit=$(git describe --always --dirty)
+  echo "${branch}-${commit}"
+fi

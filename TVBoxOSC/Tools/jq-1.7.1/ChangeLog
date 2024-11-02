@@ -1,0 +1,1349 @@
+2015-07-10  Nicolas Williams  nico@cryptonector.com
+
+	Use `include` for import into namespace
+
+	Simplify import docs
+
+	Fix typo in docs
+
+2015-07-06  James Andariese  james.andariese@locationlabs.com
+
+	Dockerfile reorganized
+
+2015-07-04  David Tolnay  dtolnay@gmail.com
+
+	Make jq.h usable from C++
+
+2015-07-03  Nicolas Williams  nico@cryptonector.com
+
+	Document math support
+
+2015-06-30  David Tolnay  dtolnay@gmail.com
+
+	strftime wrong day-of-week (fix #838)
+
+2015-06-28  Nicolas Williams  nico@cryptonector.com
+
+	Document --run-tests
+
+	Make --run-tests' jv_test() quiet
+
+2015-06-27  Nicolas Williams  nico@cryptonector.com
+
+	Make --run-tests less verbose by default
+
+	Add more basic number tests
+
+	Add `pow`, better libm detection (fix #443)
+
+2015-06-27  David Tolnay  dtolnay@gmail.com
+
+	gcov exclusions
+
+	flag to enable gcov and coveralls
+
+	add configure option to run tests without valgrind
+
+2015-06-20  David Tolnay  dtolnay@gmail.com
+
+	get Travis CI working
+
+2015-06-26  Nicolas Williams  nico@cryptonector.com
+
+	Add `{$var}` `. as {$var}` syntax (fix #831)
+
+	Add streaming utilities (fix #827)
+
+2015-06-04  Santiago Lapresta  santiago@typeform.com
+
+	Add combinations/0 and combinations/1
+
+2015-06-22  Nicolas Williams  nico@cryptonector.com
+
+	WriteFile() on WIN32 when stdout isatty (fix #824)
+
+2015-06-19  David Tolnay  dtolnay@gmail.com
+
+	fix errors flagged by clang static analyzer
+
+2015-06-19  Nicolas Williams  nico@cryptonector.com
+
+	Fix #811: use CommandLineToArgvW() and _wfopen()
+
+2015-06-18  David Tolnay  dtolnay@gmail.com
+
+	fix use after free in f_strptime
+
+	separate jq, oniguruma, sh, and man tests
+
+2015-06-18  Nicolas Williams  nico@cryptonector.com
+
+	argv[] may not be UTF-8 (fix #811)
+
+2015-06-18  Doug Luce  doug@github.con.com
+
+	Add alloca() discovery to configure.ac
+
+2015-06-18  Nicolas Williams  nico@cryptonector.com
+
+	Fix `finites`
+
+2015-06-17  David Tolnay  dtolnay@gmail.com
+
+	fix broken tests in manual.yml
+
+2015-06-17  Nicolas Williams  nico@cryptonector.com
+
+	Add isnormal and related, rename *inf
+
+2015-06-17  Nicolas Williams  nico@cryptonector.com
+
+	Fix #814: raise on div-0, add inf isinf nan isnan
+
+2015-06-17  Nicolas Williams  nico@cryptonector.com
+
+	Sequence parser: wait for RS on startup (fix #687)
+
+2015-06-07  David Tolnay  dtolnay@gmail.com
+
+	array and object destructuring (fix #533)
+
+2015-06-03  Nicolas Williams  nico@cryptonector.com
+
+	Add --tab and -indent n options
+
+2015-05-29  Nicolas Williams  nico@cryptonector.com
+
+	Fixup --slurpfile/argile docs
+
+	Add --slurpfile
+
+	Better handling of stdout errors
+
+2015-05-25  Nicolas Williams  nico@cryptonector.com
+
+	Add ./configure --enable-all-static
+
+2015-05-25  Nicolas Williams  nico@cryptonector.com
+
+	Keywords should be OK as object keys (fix #794)
+
+2015-03-04  Travis Gockel  travis@gockelhut.com
+
+	Add wrapping and clamping to jv_array_slice
+
+2015-04-17  Assaf Gordon  assafgordon@gmail.com
+
+	Print offending object in runtime error messages
+
+	Add filename/line functions to jq (fix #753)
+
+2015-04-17  Assaf Gordon  assafgordon@gmail.com
+
+	Report filename:line on runtime errors (fix #752)
+
+2015-05-19  Nicolas Williams  nico@cryptonector.com
+
+	Document gsub/3
+
+2015-05-03  Nicolas Williams  nico@cryptonector.com
+
+	Add error injection library
+
+2015-04-28  Nicolas Williams  nico@cryptonector.com
+
+	Report read errors too (and fix #772)
+
+2015-05-02  Nicolas Williams  nico@cryptonector.com
+
+	README: send questions to SO and Freenode
+
+2015-04-28  Nicolas Williams  nico@cryptonector.com
+
+	usage() should check fprintf() result (fix #771)
+
+2015-04-28  Nicolas Williams  nico@cryptonector.com
+
+	Fix header guards (fix #770)
+
+2015-04-24  Nicolas Williams  nico@cryptonector.com
+
+	--raw-input wrongly adds NULs (fix #761)
+
+2015-04-23  Nicolas Williams  nico@cryptonector.com
+
+	With `inputs` builtin, -n and -R can now coexist
+
+	--raw-input ought to read NULs (partial fix #760)
+
+	--slurp --raw-input is broken (fix #761)
+
+	from_entries is broken (fix #767)
+
+2015-04-22  Assaf Gordon  assafgordon@gmail.com
+
+	regex functions: report informative error if not available.
+
+2015-04-21  Andrew O'Brien  obrien.andrew@gmail.com
+
+	Fixes manual generation with psych
+
+2015-04-20  Assaf Gordon  assafgordon@gmail.com
+
+	Handle NUL in escaped-string output
+
+2015-04-03  tal@whatexit.org  tal@whatexit.org
+
+	manual.yml: Clarify how to specify keys with ":" and special chars.
+
+2015-04-15  Assaf Gordon  assafgordon@gmail.com
+
+	docs: expand @tsv section - add escape sequences.
+
+	@tsv: escape \r, \n, \\
+
+2015-03-30  Nicolas Williams  nico@cryptonector.com
+
+	Add `$__loc__` (fix #740)
+
+2015-03-29  Nicolas Williams  nico@cryptonector.com
+
+	Include filename and lineno in error messages
+
+2015-03-06  Assaf Gordon  assafgordon@gmail.com
+
+	detect and report output writing errors
+
+2015-03-18  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	Adds Dockerfile
+
+2015-03-10  Assaf Gordon  assafgordon@gmail.com
+
+	partial handling of input errors
+
+2015-03-09  Assaf Gordon  assafgordon@gmail.com
+
+	always propagate input errors to exit code
+
+2015-03-23  William Langford  wlangfor@gmail.com
+
+	Fix #735 (SIGFPE on modulo by 0)
+
+2015-03-08  Nicolas Williams  nico@cryptonector.com
+
+	Add more date builtins
+
+	Automake: jq depends on version.h (fix #721)
+
+2015-03-06  Assaf Gordon  assafgordon@gmail.com
+
+	exit with non-zero code on runtime exceptions
+
+2015-03-06  Nicolas Williams  nico@cryptonector.com
+
+	Add date builtins (fix #364)
+
+2015-02-18  Stefan Seemayer  stefan@seemayer.de
+
+	Correct automake and autoconf version requirements
+
+2015-02-17  Nicolas Williams  nico@cryptonector.com
+
+	Mention --disable-maintainer-mode in bison error
+
+2015-02-16  Sebastian Freundt  freundt@ga-group.nl
+
+	Fix oniguruma detection logic
+
+2015-02-15  Nicolas Williams  nico@cryptonector.com
+
+	Add --disable-maintainer-mode; make bison optional
+
+2015-02-14  Nicolas Williams  nico@cryptonector.com
+
+	Make Oniguruma/regexp optional
+
+2015-02-01  Nicolas Williams  nico@cryptonector.com
+
+	Refactor moar: move parts of main.c into libjq
+
+2014-12-27  Nicolas Williams  nico@cryptonector.com
+
+	Refactor handling of inputs in main() (fix #667)
+
+2015-02-10  Kim Toms  kim.toms@bplglobal.net
+
+	Enhance from_entries to better deal with Amazon AWS Tags
+
+2015-01-26  Nicolas Williams  nico@cryptonector.com
+
+	Usage message for -h should go to stdout
+
+2015-01-27  i  isomorphisms@sdf.org
+
+	readability
+
+2015-01-14  Joel Purra  code+github@joelpurra.com
+
+	Empty arrays join/1 to an empty string, fixes #668 bug introduced by 9760245
+
+2014-12-27  Nicolas Williams  nico@cryptonector.com
+
+	Add `debug` and `stderr` builtins
+
+2015-01-13  Nicolas Williams  nico@cryptonector.com
+
+	join/1: respect empty strings (fix #668)
+
+2015-01-13  Nicolas Williams  nico@cryptonector.com
+
+	Split on empty sep: fix #552 moar
+
+2015-01-12  Nicolas Williams  nico@cryptonector.com
+
+	Fix docs for `split/0`
+
+2015-01-12  Nicolas Williams  nico@cryptonector.com
+
+	Fix #552
+
+2015-01-02  Nicolas Williams  nico@cryptonector.com
+
+	Look for jq/main.jq for imports
+
+2015-01-01  Nicolas Williams  nico@cryptonector.com
+
+	Add static build instructions (fix #294)
+
+2014-12-30  Nicolas Williams  nico@cryptonector.com
+
+	Further module system revamp (fix #659)
+
+2014-12-28  Nicolas Williams  nico@cryptonector.com
+
+	Add `label $name | EXP`; fix `break`
+
+2014-12-30  Nicolas Williams  nico@cryptonector.com
+
+	Remove string indexing by string (fix #454)
+
+2014-12-30  Nicolas Williams  nico@cryptonector.com
+
+	Add support for testing erroneous programs
+
+2014-12-30  Nicolas Williams  nico@cryptonector.com
+
+	Make --run-tests more informative
+
+2014-10-06  pkoppstein  pkoppstein@gmail.com
+
+	transpose/0 for possibly jagged matrices
+
+2014-10-07  pkoppstein  pkoppstein@gmail.com
+
+	bsearch(x) (binary search): builtin.c (tested), with documentation and test case. Always yields an integer (even if input is unsorted); returns (-1 - ix) if x is not in input array.
+
+2014-10-06  pkoppstein  pkoppstein@gmail.com
+
+	ascii_upcase/0 and ascii_downcase/0
+
+2014-12-27  Nicolas Williams  nico@cryptonector.com
+
+	Add `debug` builtin
+
+	Don't force C API users to set input cb
+
+2014-12-26  Nicolas Williams  nico@cryptonector.com
+
+	Make jq --run-tests show test line numbers
+
+	Streaming parser torture tests
+
+	Fuzz JSON parser
+
+2014-12-22  Nicolas Williams  nico@cryptonector.com
+
+	Add Streaming parser (--stream)
+
+2014-12-26  Nicolas Williams  nico@cryptonector.com
+
+	Allow C-coded functions to `empty`
+
+	Add BLOCK_8() macro
+
+	Fix `foreach` non-propagation of errors
+
+	Allow zero-length buffers in jv_parser_set_buf()
+
+2014-12-24  Nicolas Williams  nico@cryptonector.com
+
+	Add @tsv; fix #645
+
+	Module search revamp for pkg managers
+
+	Fix #348: reject unescaped control chars
+
+2014-12-23  Nicolas Williams  nico@cryptonector.com
+
+	Use __attribute__ __printf__ with GCC
+
+	Make `values` faster (fix #652)
+
+2014-12-22  Marc Abramowitz  marc@marc-abramowitz.com
+
+	.travis.yml: Set sudo false; use containers
+
+2014-12-22  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	Define `map_values`
+
+2014-05-21  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	`in` is now `inside`, added `in` as inverse of `has`
+
+2014-05-20  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	Added `in` command
+
+2014-12-21  Eiichi Sato  sato.eiichi@gmail.com
+
+	Fix examples in manual
+
+	Fix indents in manual.yml
+
+	HTML-escape jq programs in manual
+
+	Fix examples in manual
+
+2014-12-12  Nicolas Williams  nico@cryptonector.com
+
+	Add until(cond; next); fix #639
+
+	Add --argjson, fix #648
+
+2014-11-29  Nicolas Williams  nico@cryptonector.com
+
+	Fix refcount leak, fix #618
+
+2014-11-28  Nicolas Williams  nico@cryptonector.com
+
+	STOREV/LOADV* should also print refcnts
+
+	Enable printing of stack val refcnts
+
+	Print stack value refcounts when tracing (#636)
+
+2014-11-23  Colin von Heuring  colin@janrain.com
+
+	Doc correction
+
+2014-11-11  Ian Miell  ian.miell@gmail.com
+
+	Requirements made slightly more complete: cf https://github.com/ianmiell/shutit/blob/master/library/jq/jq.py
+
+2014-11-05  Steven Maude  StevenMaude@users.noreply.github.com
+
+	Fix typos in tutorial
+
+2014-10-21  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	Define {any,all}/2 independently from {any,all}/0
+
+2014-10-20  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	Define {any,all}/{0,1} in terms of {any,all}/2
+
+2014-10-10  Nicolas Williams  nico@cryptonector.com
+
+	Add support for JSON sequence MIME type
+
+2014-10-06  William Langford  wlangfor@gmail.com
+
+	Properly call onig_error_code_to_str
+
+2014-10-06  pkoppstein  pkoppstein@gmail.com
+
+	fix sub (#586); add gsub/3; add transpose/0.
+
+2014-10-03  Nicolas Williams  nico@cryptonector.com
+
+	Update docs about sort/group/min/max/unique
+
+	from-entries should work with EC2 (fix #592)
+
+	Remove sort/1 and group/1
+
+2014-09-30  Nicolas Williams  nico@cryptonector.com
+
+	to_entries should not sort keys (fix #561)
+
+2014-09-22  William Langford  wlangfor@gmail.com
+
+	Properly handle when objects cannot be folded
+
+2014-08-30  Nicolas Williams  nico@cryptonector.com
+
+	Drop the jq version directory from search path
+
+	Never close stdin; allow multiple `-` arguments
+
+	Handle invalid inputs in argument files (fix #562)
+
+2014-08-28  William Langford  wlangfor@gmail.com
+
+	Properly handle incomplete json when input is file
+
+2014-08-10  Nicolas Williams  nico@cryptonector.com
+
+	Add `module` directive, `modulemeta` builtin
+
+2014-08-09  Nicolas Williams  nico@cryptonector.com
+
+	Constant fold objects
+
+	Fold constant arrays
+
+	More constant folding: null, true, and false
+
+	`.foo[-1] = ...` trips assertion (fix #490)
+
+	Allow any number of jq-coded function arguments
+
+2014-08-08  Nicolas Williams  nico@cryptonector.com
+
+	Make regexp builtins and range/3 use #524 too
+
+	Use `def f($a): ...;` syntax for builtins
+
+	Add `def f($arg):` syntax (fix #524)
+
+2014-07-31  pkoppstein  pkoppstein@gmail.com
+
+	regex filters (#432): scan, splits, split, sub, gsub
+
+2014-08-06  Nicolas Williams  nico@cryptonector.com
+
+	Better error msg for bad shell quoting (fix #538)
+
+2014-08-04  William Langford  wlangfor@gmail.com
+
+	Actually check version for bison.
+
+2014-08-03  pkoppstein  pkoppstein@gmail.com
+
+	Apply TCO to recurse/1, add recurse/2; tweak docs
+
+2014-08-01  Adam Lindberg  hello@alind.io
+
+	Add example of selecting object with keys
+
+2014-07-19  pkoppstein  pkoppstein@gmail.com
+
+	Add capture; document regular expression filters
+
+2014-07-28  Nicolas Williams  nico@cryptonector.com
+
+	Add `first`, `nth`, `last` (fix #510)
+
+2014-07-27  Nicolas Williams  nico@cryptonector.com
+
+	Fold constants (fix #504)
+
+2014-07-21  William Langford  wlangfor@gmail.com
+
+	Changing color codes to fix #495
+
+2014-07-09  William Langford  wlangfor@gmail.com
+
+	Added library system with -l, -L, and JQ_LIBRARY_PATH
+
+2014-07-14  Simon Elsbrock  simon@iodev.org
+
+	jq 1.4 is in Debian
+
+2014-07-13  Marc Bruggmann  marcbr@spotify.com
+
+	Fix manual example for `endswith`.
+
+2014-07-09  Hanfei Shen  qqshfox@gmail.com
+
+	Fix examples for `del` in manual
+
+2014-07-08  Zhiming Wang  zmwangx@gmail.com
+
+	Fix invalid YAML in manual.yml
+
+	Add tests/all.trs to .gitignore
+
+2014-07-09  Nicolas Williams  nico@cryptonector.com
+
+	Better document `path()`'s power; also `|=`
+
+	Add `foreach EXP as $var (INIT; UPDATE)` form
+
+	Make `while()` handle `break`
+
+2014-07-07  Nicolas Williams  nico@cryptonector.com
+
+	Make C-coded built-ins take `jq_state *` argument
+
+	`error(x)` should not `tostring` its arg; fix #466
+
+	`limit` should use `break`
+
+	Make `any/2` and `all/2` efficient using `foreach`
+
+2013-12-24  Nicolas Williams  nico@cryptonector.com
+
+	jv_invalid() shouldn't allocate
+
+2013-12-31  Nicolas Williams  nico@cryptonector.com
+
+	jv_show() should be able to display invalid values
+
+2014-07-07  Nicolas Williams  nico@cryptonector.com
+
+	Add `break` builtin for `foreach`
+
+	Explain `foreach`'s powers a bit more
+
+	Document `path(path_expression)` builtin
+
+	$var["foo"]=1 can't work as expected; doc fix #236
+
+	Better check for lib has only functions (fix #138)
+
+2014-07-06  Nicolas Williams  nico@cryptonector.com
+
+	Add `any/N` and `all/N` x N in (1, 2) (fix #455)
+
+	Add `foreach` and `limit`
+
+2014-07-04  William Langford  wlangfor@gmail.com
+
+	Add support for negative indices for .[]; fix #462
+
+2014-07-06  Nicolas Williams  nico@cryptonector.com
+
+	Add general `?` operator
+
+2014-07-05  Nicolas Williams  nico@cryptonector.com
+
+	Add `try EXP catch EXP`
+
+2014-07-06  Nicolas Williams  nico@cryptonector.com
+
+	Document `error/1`
+
+2014-07-02  Nicolas Williams  nico@cryptonector.com
+
+	Add `while(cond; update)` (fix #314)
+
+	Add `range(init;upto;by)` (fix #317)
+
+2014-07-01  Nicolas Williams  nico@cryptonector.com
+
+	Describe generators, range() with by to manual
+
+2014-07-01  William Langford  wlangfor@gmail.com
+
+	Fixed base64 issue with UTF-8 strings
+
+2014-06-30  Nicolas Williams  nico@cryptonector.com
+
+	TCO to the max!
+
+2014-06-25  William Langford  wlangfor@gmail.com
+
+	Added cross-compilation script to build libjq for iOS.
+
+2014-06-29  Zhiming Wang  zmwangx@gmail.com
+
+	Let @uri produce uppercase hexadecimal digits...
+
+2014-06-24  Nicolas Williams  nico@cryptonector.com
+
+	Get "Try Online" button working (fix #440)
+
+2014-06-22  Nicolas Williams  nico@cryptonector.com
+
+	Tail call optimization (close #437)
+
+2014-06-20  Nicolas Williams  nico@cryptonector.com
+
+	Allow stacking of short options (fix #346)
+
+2014-06-18  William Langford  wlangfor@gmail.com
+
+	Added regex support as per issue #164.
+
+2014-06-17  Nicolas Williams  nico@cryptonector.com
+
+	Add `-j` / `--join-output` option, similar to `-r`
+
+2014-06-18  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	Simplified standard library
+
+2014-06-16  Nicolas Williams  nico@cryptonector.com
+
+	Fix #280: from_entries of [] is null, should be {}
+
+2014-06-16  Nicolas Williams  nico@cryptonector.com
+
+	No args default w/ tty stdout, not tty stdin #220
+
+2014-06-16  Santiago Lapresta  santiago.lapresta@gmail.com
+
+	Added `flatten` and `flatten(x)` functions
+
+2014-06-16  Nicolas Williams  nico@cryptonector.com
+
+	Add ChangeLog and NEWS files
+
+2014-06-14  Nicolas Williams  nico@cryptonector.com
+
+	Allow multiple functions with different arities
+
+2014-06-13  Nicolas Williams  nico@cryptonector.com
+
+	Add `env` builtin
+
+2014-06-13  Nicolas Williams  nico@cryptonector.com
+
+	Document the lambda nature of function args #391
+
+2014-06-13  Nicolas Williams  nico@cryptonector.com
+
+	Add jqplay link to the site
+
+2014-06-12  Jingwen Owen Ou  jingweno@gmail.com
+
+	jqplay has a domain now
+
+2014-06-12  Nicolas Williams  nico@cryptonector.com
+
+	Make a better jq.1 when Ruby deps missing
+
+2014-06-11  Kim De Mey  kim.demey@gmail.com
+
+	Detect endianness at configuration with Autoconf AC_C_BIGENDIAN feature
+
+2014-06-09  Nicolas Williams  <nico@cryptonector.com>
+
+	Add libm.h to dist file list
+
+	Add note about cmd.exe quoting
+
+	Building docs fails on powerpc (#349)
+
+2014-06-08  Nicolas Williams  <nico@cryptonector.com>
+
+	Update site news
+
+	Also fix configure.ac to use git describe --tags
+
+	Fix scripts/version: use git describe --tags ...
+	After tagging as 1.4 scripts/version was still producing jq-1.3-....
+
+	Add `indices(s)`, improve `index(s)`, `rindex(s)`
+	Now these deal with arrays as input and `s` being an array or a scalar.
+
+	Improve `index` and `rindex` examples
+
+	Remove reference to `getpath` from docs
+
+	Document `index` and `rindex` (#389)
+
+2014-06-07  Santiago Lapresta  <santiago.lapresta@gmail.com>
+
+	Added `join` function
+
+2014-06-07  Nicolas Williams  <nico@cryptonector.com>
+
+	String * number should be commutative
+
+2014-06-04  Nicolas Williams  <nico@cryptonector.com>
+
+	Add cross-compilation notes to README
+	A detailed set of instruction as to how to setup a cross-compilation
+	environment for OS X and Win32/64 would be nice.
+
+	Add -j option to scripts/crosscompile
+
+	Add flags argument to jv_parser_new()
+	For extensibility.  We might add streaming parser options, even binary
+	JSON encoding options.
+
+2014-06-02  Nicolas Williams  <nico@cryptonector.com>
+
+	Fix tests failures on Windows
+	And Solaris 8 and 9 too, no doubt.  The problem was that non-standard
+	vsnprintf()s that return -1 when the buffer is too small were not
+	properly supported.
+
+2014-05-20  Santiago Lapresta  <santiago.lapresta@gmail.com>
+
+	Documented `del` command
+
+2014-05-11  Santiago Lapresta  <santiago.lapresta@gmail.com>
+
+	Added texts/examples to unique_by function
+
+	Added unique_by function
+
+2014-04-17  Nicolas Williams  <nico@cryptonector.com>
+
+	Make pthread tls configurable for Mingw build
+	For the Mingw build we don't want to pull in the pthread DLL just
+	because we can autodetect pthread support.  That would make the jq.exe
+	binary not self-contained.
+
+2014-04-16  Nicolas Williams  <nico@cryptonector.com>
+
+	Add autoconf checks for pthreads; fix #340
+
+2014-03-20  Jingwen Owen Ou  <jingweno@gmail.com>
+
+	Add link to jqplay
+
+2014-03-13  Nicolas Williams  <nico@cryptonector.com>
+
+	Fix for #303 in the sources
+
+2014-03-13  Santiago Lapresta  <santiago.lapresta@gmail.com>
+
+	Added `arrays` and other filters
+	Arrays, objects, numbers, strings, booleans, nulls, values (non-nulls)
+	-- these builtins filter out those inputs that don't match the name of
+	the builtin.
+
+	This fixes #322 and #324.
+
+2014-03-07  Filippo Valsorda  <filippo.valsorda@gmail.com>
+
+	Add a recursive object merge strategy and bind it to *
+	This commit adds a jv_object_merge_recursive function, that performs
+	recursive object merging, and binds it to multiply when applied to
+	two objects.
+
+	Closes #320
+
+2014-03-06  Nicolas Williams  <nico@cryptonector.com>
+
+	Make libm tests more portable
+
+2014-02-26  Andrew Rodland  <andrew@cleverdomain.org>
+
+	Repair jv_show
+
+2014-02-26  Andrew Rodland  <andrew@cleverdomain.org>
+
+	Make jq --raw-output --unbuffered work
+	--unbuffered was only affecting the normal output case, not the --raw-output case. Make the two of them play together.
+
+	This also makes sure that the output is flushed *after* printing the newline, so a consumer doesn't lag a line behind.
+
+2014-02-21  Nicolas Williams  <nico@cryptonector.com>
+
+	Add cbrt (cube root)
+
+	Add missing trig functions and barebones test
+
+	Remove non-standard exp10()
+
+2014-02-21  Mike McCabe  <mccabe@archive.org>
+
+	Initial add of math functions.
+
+2014-02-20  Nicolas Williams  <nico@cryptonector.com>
+
+	Add `?`, `.[]?`, and `..` operators
+	Make XPath-like `//a/b` recursive structure traversal easier in jq,
+	which then becomes:
+
+	    ..|.a?.b?
+
+	The `?` operator suppresses errors about . not being an array or object.
+	The `..` operator is equivalent to calling the new `recurse_down`
+	built-in, which in turn is equivalent to
+
+	    recurse(.[]?)
+
+	Note that `..a` is not supported; neither is `...a`.  That could be add
+	added, but it doesn't seem worth the trouble of saving the need to type
+	a '|'.
+
+2014-02-16  Santiago Lapresta  <santiago.lapresta@gmail.com>
+
+	Added `all` and `any` builtins
+
+2014-01-25  polyester  <paul@cleanclothes.org>
+
+	work with newer versions of automake
+	when using a newer automake, the autoreconf step fails with warnings:
+	"linking libtool libraries using a non-POSIX archiver requires 'AM_PROG_AR' in 'configure.ac' "
+
+	This happens for instance on ubuntu 13.10.
+	Doing just that, adding 'AM_PROG_AR' to configure.ac fixes the problem.
+
+2014-01-01  Nicolas Williams  <nico@cryptonector.com>
+
+	Fix #201; check that bison accepts --warnings
+
+2013-12-27  Joe Littlejohn  <joe.littlejohn@nokia.com>
+
+	Fix rpm build (`make rpm`)
+	* Re-add VERSION as it's required for `./setup superclean`
+	  and `make rpm`.
+	* Add *.rpm to git ignore, we never want them under version control.
+
+2013-12-27  Filippo Giunchedi  <fgiunchedi@gmail.com>
+
+	include additional files in jq.spec
+	this will probably need changing upon SONAME bump
+
+	fix rpm Makefile target and prerequisites
+	depend on dist and the specfile, plus use automake's variables
+
+2013-12-26  Nicolas Williams  <nico@cryptonector.com>
+
+	Document --version
+
+2013-12-26  Nicolas Williams  <nico@cryptonector.com>
+
+	Add jv_dumpf() and jv_show()
+	jv_dumpf() takes a FILE *.
+
+	jv_show() is intended for use in debuggers, so it dumps the jv to stderr
+	and it does not jv_free() the jv, so it's safe to
+	"call jv_show(some_jv, -1)" in a debugger.  If flags == -1 then the jv
+	will be shown pretty-printed and in color.
+
+2013-12-26  Nicolas Williams  <nico@cryptonector.com>
+
+	Document .foo.bar in manual
+
+	Document exit numbers
+
+	Normalize errors for -e
+
+2013-12-25  Nicolas Williams  <nico@cryptonector.com>
+
+	Fix doc typos (.[foo] wanted to be .["foo"])
+
+	Add note to jq.1 about shell quoting
+
+2013-12-20  Philipp Hagemeister  <phihag@phihag.de>
+
+	Ignore the config/test-driver file
+	This file is automatically generated and does not need to be committed.
+
+	Fix @uri example
+	Previously, the @uri example didn't match the actual behavior of the current jq, as exclamation marks do not need to be encoded in URIs.
+	Replace the example with an input that needs encoding, and is encoded by jq.
+
+2013-12-17  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Allow negated object values without parens. Fixes #247
+
+2013-12-17  Nicolas Williams  <nico@cryptonector.com>
+
+	Fix memmem() error
+
+2013-12-13  Rémy Léone  <remy.leone@gmail.com>
+
+	Adding a .travis.yml file to use the travis-ci.org
+	From wikipedia:
+
+	Travis CI is a hosted, distributed continuous integration service used
+	to build and test projects hosted at GitHub.
+
+	Travis CI is configured by adding a file named .travis.yml, which is a
+	YAML format text file, to the root directory of the GitHub repository.
+
+	Travis CI automatically detects when a commit has been made and pushed
+	to a GitHub repository that is using Travis CI, and each time this
+	happens, it will try to build the project and run tests. This includes
+	commits to all branches, not just to the master branch. When that
+	process has completed, it will notify a developer in the way it has been
+	configured to do so — for example, by sending an email containing the
+	test results (showing success or failure), or by posting a message on an
+	IRC channel. It can be configured to run the tests on a range of
+	different machines, with different software installed (such as older
+	versions of a programming language, to test for compatibility).
+
+2013-12-13  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Make the testsuite run on machines without valgrind
+
+	Format more integers as integers, not scientific notation.
+	jq is now willing to put up to 15 zeros after an integer before
+	moving to scientific notation.
+
+2013-12-11  Nicolas Williams  <nico@cryptonector.com>
+
+	Complete more-arity feature not complete
+	And test
+
+2013-12-10  David R. MacIver  <david@drmaciver.com>
+
+	convert range bounds to integers in a way that avoids undefined behaviour
+
+	add checking of numeric indices to an array to see if they can reasonably be considered integers. Avoid undefined behaviour if out of bounds
+
+2013-12-09  David R. MacIver  <david@drmaciver.com>
+
+	some functions were missing prototypes. Add them
+
+2013-12-08  David R. MacIver  <david@drmaciver.com>
+
+	These vfprintfs are being used as if they were printfs. Fix that
+
+	consistent use of goto out in main
+
+2013-12-08  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Refactor jv structure.
+	New structure layout is simpler and also faster.  In particular, it's
+	now small enough to be passed in registers on amd64.
+
+	Make testsuite not leak when compiled with -DNDEBUG.
+
+2013-12-08  David R. MacIver  <david@drmaciver.com>
+
+	test for losing memory on compile errors
+
+	args to jq_compile_args were not getting freed when there were errors in the compile
+
+2013-12-06  Nicolas Williams  <nico@cryptonector.com>
+
+	Fix double-free typo in print_error()
+
+	Fix manual.yml
+
+2013-12-04  Nicolas Williams  <nico@cryptonector.com>
+
+	Conditionally #define _GNU_SOURCE in compile.c
+
+	Add tests for string index by string and builtins
+
+	Add index and rindex builtins
+
+	Add index strings by string; return string indexes
+	    % jq '.[","]'
+	    "a,bc,def,ghij,klmno"
+	    [1,4,8,13]
+	    %
+
+	Make length return abs value of numeric inputs
+
+	Add callback interface for errors
+	Printing to stderr is not the right answer for a library.
+
+	Add jv_string_vfmt()
+
+	Document ltrimstr and rtrimstr
+
+	Test ltrimstr and rtrimstr functions
+
+	Add ltrimstr and rtrimstr functions
+
+	Document -e / --exit-status argument
+
+	Add -e | --exit-status CLI option
+
+	Document tojson and fromjson builtins
+
+	Test tojson and fromjson
+
+	Add tojson and fromjson builtins
+
+	Document split function
+
+	Document string multiplication and division
+
+	Document string functions and slicing
+
+	Test string slicing
+
+	Add string slicing
+
+	Add tests for string division/splitting
+
+	Add string division by string (split on separator)
+
+	Test starts/endswith and string multiplication
+
+	Add string multiplication by number
+
+	Add startswith/endswith
+
+	Add explode/implode jq functions to match jv API
+
+	Use uint32_t for codepoint in  jv_string_append_codepoint()
+
+	Add jv string utility functions
+	    jv_string_empty()
+	        -> return an empty string with given allocated length (for fast
+	           appends)
+	    jv_string_append_codepoint
+	        -> append a single codepoint (int) to the given string
+	    jv_string_explode
+	        -> return an array of codepoints making up a string
+	    jv_string_implode
+	        -> return the UTF-8 encoding of an array of codepoint numbers
+
+	Support more arguments for defs
+
+2013-12-04  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Preserve insertion order in objects. Closes #169.
+
+2013-11-30  Nicolas Pouillard  <nicolas.pouillard@gmail.com>
+
+	Add a few more test cases (from the man page)
+
+2013-11-08  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Add a --unbuffered option. Closes #206
+
+2013-11-07  Peter van Dijk  <peter@7bits.nl>
+
+	count should be length
+	Example refers to a count function, which does not exist. Replacing it with length works.
+
+2013-11-07  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Fix a crash on group_by of empty list. Fixes #208.
+
+2013-10-16  Ryoichi KATO  <ryo1kato@gmail.com>
+
+	Docs: add description of --from-file option
+
+2013-10-06  Juan Guerrero  <juan.guerrero.lozano@gmail.com>
+
+	Fix typo on error message
+
+2013-09-19  Kenny Shen  <kenny.shen@zalora.com>
+
+	Add missing -i flag in build instructions
+
+2013-09-14  Michael Daines  <michael@mdaines.com>
+
+	Add test showing calculation of standard deviation
+
+2013-09-13  Mike Daines  <michael@mdaines.com>
+
+	Fix typo
+
+2013-09-11  Michael Daines  <michael@mdaines.com>
+
+	Add sqrt operator
+
+2013-09-04  Jack Pearkes  <jackpearkes@gmail.com>
+
+	docs: update the tutorial to use GitHub's API
+
+2013-09-01  Ankur  <ankz.kothari@gmail.com>
+
+	Call AM_INIT_AUTOMAKE once only
+	Fixes build with automake-1.14
+
+2013-08-19  Joe Littlejohn  <joe.littlejohn@nokia.com>
+
+	Fix Makefile after refactoring of stacks in 05d90517b02
+
+2013-06-23  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Remove #includes from jv.h
+
+	Fix the jv_parser interface.
+
+	Use libtool's built-in symbol exporting rather than a mapfile.
+
+	Move gen_utf8_tables to scripts
+
+	Move libtool m4 junk to config/ and delete some autogenerated files.
+
+	Remove Autoconf-generated config.h.
+
+2013-06-22  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Build libjq only once, and link it statically to ./jq
+	This means ./jq is a real binary rather than a libtool turd.
+
+	Fix distcheck.
+	Update list of files to be distributed.
+
+	Utf8 fixes. Closes #161
+
+	Reject all overlong UTF8 sequences.
+
+	Fix various UTF8 parsing bugs.
+	In particular, parse bad UTF8 by replacing the broken bits with U+FFFD
+	and resynchronise correctly after broken sequences.
+
+	Fix example in manual for `floor`. See #155.
+
+2013-06-21  Nicolas Williams  <nico@cryptonector.com>
+
+	Document floor
+
+	Add floor operator
+
+	Document mod
+
+	Add mod (and setmod) operators
+
+	Update .gitignore
+
+	Add libjq autoconf goo
+
+	Quiet setup.sh re: tmp dir
+
+2013-06-21  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Move cfunction invocation code to the interpreter loop.
+
+2013-06-18  Nicolas Williams  <nico@cryptonector.com>
+
+	Fix serious bug in handling of --argfile
+
+	Fix leaks in jv_load_file()
+
+2013-06-17  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Fold opcode.{c,h} into bytecode.{c,h}
+
+	Simplify block functions for variables
+
+	Saner build instructions in README.md
+	Closes #144
+
+	Remove some initialise-to-zero code.
+	This lets valgrind find more bugs - if a field isn't given a
+	well-defined value valgrind will now find it instead of seeing it
+	set to zero with memset.
+
+2013-06-17  Nicolas Williams  <nico@cryptonector.com>
+
+	Remove accidentally introduced use of fopen "e"
+
+2013-06-16  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Merge pull request #114 from nicowilliams/nomem_handler
+	Add jv_nomem_handler()
+
+2013-06-16  Nicolas Williams  <nico@cryptonector.com>
+
+	Remove last remnant of main.h
+
+2013-06-15  Nicolas Williams  <nico@cryptonector.com>
+
+	Allow --run-tests to take a file argument
+
+	Fixup API to get closer to a libjq
+
+2013-06-15  Nicolas Williams  <nico@cryptonector.com>
+
+	Move slurp_file() into library as jv_load_file()
+	Needed as part of creating a libjq.
+
+2013-06-14  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Clean up lots of stack and frame logic.
+	Move frame defs to execute.c
+
+2013-06-13  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Simplify frame logic.
+
+	Unify all stacks. Passes tests, but needs cleanup.
+
+2013-06-11  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Support ."foo" syntax for accessing fields. See #141.
+
+2013-06-09  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Unify frame and data stacks
+
+2013-06-05  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Speed up cached configure (./configure -C)
+
+	Clean up flex lines in build
+
+	Lex and parse .foo better.
+	'.as' is now valid, '. foo' is now invalid. See #141.
+
+2013-06-04  Markus Lanthaler  <mark_lanthaler@gmx.net>
+
+	Update README.md
+	Update the link to the documentation. All GitHub pages are now using the github.io domain.
+
+2013-06-03  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Make jq --version print to stdout, not stderr
+
+	Better error handling for .foo case in parser. See #141.
+
+	Let the parser rather than the lexer handle invalid characters.
+
+	Add command-line option to sort object keys.
+	Closes #79.
+
+	Clean up Makefile.am (distcheck, rebuild version.h less often)
+
+2013-05-31  Brendan Macmillan  <melbourne.research@gmail.com>
+
+	Stop warning on fgets, simple version
+
+	Stop warning on fgets, complex version
+
+2013-05-31  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Squash a warning on some GCC versions
+
+2013-05-29  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Support for printing object keys in sorted order.
+	No command-line option to enable this yet. See #79.
+
+2013-05-29  Brendan Macmillan  <melbourne.research@gmail.com>
+
+	Bugfix multiline off-by-one (locfile.c)
+
+	locfile.h -> locfile.h + locfile.c
+	clean up includes of a few files
+
+	Hack bugfix for multiline off-by-one (locfile.c)
+
+	Load library from ~/.jq
+
+2013-05-24  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	Make jq --version report an actual git revision.
+	Closes #129.
+
+2013-05-23  Nicolas Williams  <nico@cryptonector.com>
+
+	Add --argfile variant of --arg (issue #117)
+	This is useful when one has a database (in JSON form) to query using jq
+	input data.
+
+	    % echo '{"a":1, "c":5}' > db.json
+	    % echo '"c"'|./jq --argfile f /tmp/a '$f[.]'
+	    5
+	    % echo '"a"'|./jq --argfile f /tmp/a '$f[.]'
+	    1
+	    % echo '"b"'|./jq --argfile f /tmp/a '$f[.]'
+	    null
+	    %
+
+2013-05-23  Stephen Dolan  <mu@netsoc.tcd.ie>
+
+	'make clean' won't delete jq.1 if it can't be rebuilt.
+	See #131

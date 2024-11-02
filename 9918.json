@@ -7,8 +7,8 @@
 {"name":"atsushi","type":0,"url":"https://fongmi.cachefly.net/atsushi444/iptv-epg/main/Adult.m3u"},
 {"name":"小武哥","type":0,"url":"https://qu.ax/PEHy.txt"},
 {"name":"AV點播1","type":0,"url":"./livex.m3u"},
-{"name":"AV點播2","type":0,"url":"./listx.txt"},
-{"name":"18+ 合輯","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/jie20091116/cat/main/TVBOX/18.txt"}
+{"name":"18+ 合輯","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/jie20091116/cat/main/TVBOX/18.txt"},
+{"name":"18+ 直點播 ","type":0,"url":"https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/live/178.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"}
 ],
 "wallpaper":"https://liu.chuqiuyu.workers.dev",
 "sites":[
