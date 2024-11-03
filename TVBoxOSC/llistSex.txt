@@ -9,15 +9,15 @@
 三立新聞,https://m.youtube.com/watch?v=FoBfXvlOR6I
 
 電視直播_5566,#genre#
-松視1,p3p://108.181.20.159:75234/5fe445280008a40682a0367c343436bb
-松視2,p3p://108.181.20.159:75234/60232b5f00007bc37850649979e379df
-松視1,http://live.redtraffic.xyz:80/fetish.m3u8
-松視2,http://live.redtraffic.xyz:80/bigdick.m3u8
+松視1台,p3p://108.181.20.159:75234/5fe445280008a40682a0367c343436bb
+松視2台,p3p://108.181.20.159:75234/60232b5f00007bc37850649979e379df
+松視1台,http://live.redtraffic.xyz:80/fetish.m3u8
+松視2台,http://live.redtraffic.xyz:80/bigdick.m3u8
 
 松視1歐美版,http://live.redtraffic.xyz:80/interracial.m3u8
 松視2歐美版,http://live.redtraffic.xyz:80/bigtits.m3u8
-松視1,http://live.redtraffic.xyz:80/fetish.m3u8
-松視2,http://live.redtraffic.xyz:80/bigdick.m3u8
+松視1台,http://live.redtraffic.xyz:80/fetish.m3u8
+松視2台,http://live.redtraffic.xyz:80/bigdick.m3u8
 K頻道歐美版,http://live.redtraffic.xyz:80/threesome.m3u8
 粉紅臺歐美版,http://live.redtraffic.xyz:80/teen.m3u8
 潘朵拉歐美版,http://live.redtraffic.xyz:80/pornstar.m3u8
@@ -28,6 +28,34 @@ K頻道歐美版,http://live.redtraffic.xyz:80/threesome.m3u8
 俄羅斯成人3臺,http://live.redtraffic.xyz/milf.m3u8?fluxuslust.m3u8
 俄羅斯成人4臺,http://live.redtraffic.xyz/lesbian.m3u8?fluxuslust.m3u8
 俄羅斯成人4臺,http://cdn.adultiptv.net/lesbian.m3u8
+
+松视1台,http://18.svi-studio.com:80/live/652484888807/195449585962/5.m3u8
+松视1台,p3p://173.208.176.178:31809/5fe445280008a40682a0367c343436bb
+松视1台,http://107.167.16.226:8880/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476365.m3u8
+松视2台,http://18.svi-studio.com:80/live/652484888807/195449585962/6.m3u8
+松视2台,p3p://173.208.176.178:31809/60232b5f00007bc37850649979e379df
+松视2台,http://107.167.16.226:8880/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/639653.m3u8
+松视3台,http://18.svi-studio.com:80/live/652484888807/195449585962/20205.m3u8
+松视3台,p3p://173.208.176.178:31809/6109e9590001f40bfd9b661109395f3b
+松视4台,http://18.svi-studio.com:8880/get.php?username=652484888807&password=195449585962&type=m3u&output=m3u8
+松视4台,https://u.kstore.space/download/8504/%E8%8B%B9%E6%9E%9C%E9%A6%992.mp4
+松视4台,https://www.5ycc.cn/view.php/4151ed5519480243da312ee68cf45312.mp4
+惊艳,http://18.svi-studio.com:80/live/652484888807/195449585962/1.m3u8
+潘朵拉完美,http://18.svi-studio.com:80/live/652484888807/195449585962/3.m3u8
+潘朵拉完美,http://107.167.16.226:8880/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/639649.m3u8
+潘朵拉完美,p3p://173.208.176.178:31809/5fe4450c000c918b829fca233c845311
+香蕉,http://18.svi-studio.com:80/live/652484888807/195449585962/4.m3u8
+香蕉,p3p://173.208.176.178:31809/60626a760005067e6f5bbecb5816771e
+惊艳,p3p://173.208.176.178:31809/60626a1b00010e3e6f5a5a4f018e5ebe
+LOOK,p3p://173.208.176.178:31809/606271190002a1266f75aaee0463186a
+HAPPY,p3p://173.208.176.178:31809/616b79be000a35b17ab2f7b84c325eeb
+🌈彩虹e,p3p://173.208.176.178:31809/6062716c0008efc86f76f0c44d55329f
+🌈彩虹K,p3p://173.208.176.178:31809/63fd56ec000b5f0d26d4fe1b07963493
+🌈彩虹电影,p3p://173.208.176.178:31809/6253066c00049259f74b05224cf375e6
+🌈彩虹频道,p3p://173.208.176.178:31809/63fd589300099ff426db7203798a21f9
+
+
+
 
 欧美1,http://live.redtraffic.xyz/threesome.m3u8?fluxuslust.m3u8
 欧美2,http://live.redtraffic.xyz/bigass.m3u8?fluxuslust.m3u8
