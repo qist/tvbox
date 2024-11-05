@@ -1,12 +1,12 @@
 {
-    "spider":"https://github.com/qist/tvbox/raw/refs/heads/master/jar/fan.txt",
-    "note":"FROM: https://rb.gy/geje78",
-    "note2":"FROM: https://RobYang.bsite.net/VodLive/jb8ffa",
-    "logo": "https://RobYang.bsite.net/RobYang.jpg",
-    //FROM: https://rb.gy/geje78
-    //FROM: https://robyang.bsite.net/VodLive/jb8ffa
-    //"spider":"./jar/pg.jar",
-    "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
+  "spider":"https://github.com/qist/tvbox/raw/refs/heads/master/jar/fan.txt",
+  "note":"FROM: https://rb.gy/geje78",
+  "note2":"FROM: https://RobYang.bsite.net/VodLive/jb8ffa",
+  "logo": "https://RobYang.bsite.net/RobYang.jpg",
+  //FROM: https://rb.gy/geje78
+  //FROM: https://robyang.bsite.net/VodLive/jb8ffa
+  //"spider":"./jar/pg.jar",
+  "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"robYang","name":"Rob Yang就是我，我們不熟，有事嗎？","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"robYang","name":"Rob Yang就是我，我們不熟，有事嗎？","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
@@ -313,9 +313,9 @@
 //墙外 
 {"key":"api_黑木耳","name":"280. 影视 | 黑木耳[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/api黑木耳.json","jar": "./jar/Yoursmile.jar"},
 {"key":"nyys","name":"影视 | 纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-{"key":"sgolys","name": "影视 | 欧乐 (T4)","type": 4,"api": "https://tang.hz.cz/power/olelive?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
-{"key":"sgabys","name": "影视 | 安博 (T4)","type": 4,"api": "https://tang.hz.cz/power/ub18?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
-{"key":"sghmys","name": "影视 | 黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0  },
+{"key":"sgolys","name": "影视 | 欧乐 (T4)","type": 4,"api": "https://tang.hz.cz/power/olelive?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
+{"key":"sgabys","name": "影视 | 安博 (T4)","type": 4,"api": "https://tang.hz.cz/power/ub18?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
+{"key":"sghmys","name": "影视 | 黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
 {"key":"php_heimuer","name":"影视 | 黑木耳 (無廣)","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
 {"key":"金鹰资源","name":"影视 | 金鹰","type":1,"api":"https://jyzyapi.com/provide/vod/","searchable":0,"quickSearch":0,"categories":["电视剧","电影","欧美剧","香港剧","韩剧","日剧","马泰剧","动作片","爱情片","喜剧片","恐怖片","战争片","纪录片","科幻片","剧情片","动画片","动漫","内地剧","中国动漫","日本动漫","欧美动漫","综艺","台湾剧","短剧","体育赛事"]},
 {"key":"XBPQ_麻衣影院","name":"影视 | 麻衣","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","ext":"./json/麻衣影院.json"},
@@ -508,12 +508,12 @@
 // {"key":"star","name": "墙外 | 星星","type": 3,"api": "csp_Star","searchable": 1,"changeable": 1,"jar":"https://fm.t4tv.hz.cz/jar/fm.jar;md5;55c157414346e3ff571baad0a223bf15"},
 {"key":"csp_trj","name": "墙外 | 唐人街","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/pg.jar"},
 // {"key":"drpy_hh","name":"墙外 | 吼吼","type":3,"api":"./lib/drpy2.min.js","ext":"https://download.kstore.space/download/3313/js/HoHo影视.js"},
-{"key":"php_bttwoo",  "name": "影视 | 沐辰",  "type": 4,  "api": "https://json.doube.eu.org/app/index.php?site=bttwoo",  "searchable": 1,  "quickSearch": 1,  "filterable": 1,  "changeable": 1  },
-{"key":"py_OleVod",		"name": "影视 | 欧乐",		"type": 4,		"api": "https://py.doube.eu.org/api?site=OleVod",		"searchable": 1,		"quickSearch": 1,		"filterable": 1,		"changeable": 1	  },
+{"key":"php_bttwoo", "name": "影视 | 沐辰", "type": 4, "api": "https://json.doube.eu.org/app/index.php?site=bttwoo", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 },
+{"key":"py_OleVod", "name": "影视 | 欧乐", "type": 4, "api": "https://py.doube.eu.org/api?site=OleVod", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1	 },
 
-
- {"key": "Youtube",  "name": "Youtube",  "type": 3,  "api": "csp_Youtube",  "searchable": 1,  "quickSearch": 1,  "changeable": 0,  "timeout": 240,  "jar":"./jar/pg.jar",  "ext": {    "token": "./json/tokenm.json",    "json": "./json/youtube.json",    "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",    "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",    "codecs": "",    "proxy": "",    "danmu": true  },  "style": {"type": "rect", "ratio": 1.77} }
-//{"key":"js_tokenm","name": "Youtube,網路空間,設定","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext": "./json/tokenm.json","style": {"type": "rect", "ratio": 1.5}}
+{"key": "Youtube", "name": "Youtube", "type": 3, "api": "csp_Youtube", "searchable": 1, "quickSearch": 1, "changeable": 0, "timeout": 240, "jar":"./jar/pg.jar", "ext": {  "token": "./json/tokenm.json",  "json": "./json/youtube.json",  "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",  "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",  "codecs": "",  "proxy": "",  "danmu": true }, "style": {"type": "rect", "ratio": 1.77} },
+{"key": "emby", "name": "EMBY 設定", "type": 3, "api": "./lib/emby.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "style": { "type": "rect", "ratio": 1.485 }, "ext": { "server": "", "username": "", "password": "", "thread": 0 } }
+ //{"key":"js_tokenm","name": "Youtube,網路空間,設定","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext": "./json/tokenm.json","style": {"type": "rect", "ratio": 1.5}}
 ],
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
@@ -523,27 +523,27 @@
 {"name":"Quad9","url":"https://dns.quad9.net/dns-query","ips":["9.9.9.9","149.112.112.112"]}
 ],
 "lives": [ 
-  {
-    "name": "🏠RobYang | Youtube(蜂蜜影視2.3.4前或2.6.4後)",
-    "type": 0,
-    "url": "https://RobYang.bsite.net/VodLive/lb8ffa",
-    "ua": "okhttp/4.12.0",
-    "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
-    "timeout": 5,
-    "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-    "logo": "https://epg.112114.xyz/logo/{name}.png",
-    "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-    },       
-  {
-    "note": "Anbox P3P https://anbox118.serv00.net/p3p.m3u.txt // Anbox P3P https://anbox118.serv00.net/ubtv.php // RobYang https://anbox118.serv00.net/livetv.php",
-    "name": "蜂蜜影視｜際台港中馬新", 
-    "type": 0,
-    "url": "https://anbox118.serv00.net/iptv.php", 
-    "ua": "okhttp/4.12.0",
-    "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
-    "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },  
-      
+ {
+  "name": "🏠RobYang | Youtube(蜂蜜影視2.3.4前或2.6.4後)",
+  "type": 0,
+  "url": "https://RobYang.bsite.net/VodLive/lb8ffa",
+  "ua": "okhttp/4.12.0",
+  "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
+  "timeout": 5,
+  "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+  "logo": "https://epg.112114.xyz/logo/{name}.png",
+  "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
+  },    
+ {
+  "note": "Anbox P3P https://anbox118.serv00.net/p3p.m3u.txt // Anbox P3P https://anbox118.serv00.net/ubtv.php // RobYang https://anbox118.serv00.net/livetv.php",
+  "name": "蜂蜜影視｜際台港中馬新", 
+  "type": 0,
+  "url": "https://anbox118.serv00.net/iptv.php", 
+  "ua": "okhttp/4.12.0",
+  "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+  "logo": "https://epg.112114.xyz/logo/{name}.png"
+  }, 
+   
 {
 "name": "一盒｜際台港", 
 "type": 0,
@@ -554,13 +554,13 @@
 "logo": "https://epg.112114.xyz/logo/{name}.png"
 },
 {
-  "name": "一盒｜際", 
-  "type": 0,
-  "url": "https://anbox118.serv00.net/sapphire.php",
-  "ua": "okhttp/3.15",
-  "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
-  "logo": "https://epg.112114.xyz/logo/{name}.png"
-     },
+ "name": "一盒｜際", 
+ "type": 0,
+ "url": "https://anbox118.serv00.net/sapphire.php",
+ "ua": "okhttp/3.15",
+ "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+ "logo": "https://epg.112114.xyz/logo/{name}.png"
+   },
 {
 "name": "王二小香蕉哥｜雜中台港日韓際",
 "type": 0,
@@ -582,14 +582,14 @@
 // "logo": "https://epg.112114.xyz/logo/{name}.png"
 // },
 {
-  "name": "暮雨｜雜中台港日韓際",
-  "type": 0,
-  "url": "https://4key.cn/FP",
-  "ua": "okhttp/4.12.0",
-  "timeout": 5,
-  "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-  "logo": "https://epg.112114.xyz/logo/{name}.png"
-  },
+ "name": "暮雨｜雜中台港日韓際",
+ "type": 0,
+ "url": "https://4key.cn/FP",
+ "ua": "okhttp/4.12.0",
+ "timeout": 5,
+ "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+ "logo": "https://epg.112114.xyz/logo/{name}.png"
+ },
 {
 "name": "君赢天下｜中台港際18+ 密碼:6636",
 "type": 0,
@@ -609,16 +609,16 @@
 "logo": "https://epg.112114.xyz/logo/{name}.png"
 },
 // {
-//   "note": "by https://www.juwanhezi.com/more/live",
-//   "name": "月光寶盒｜中台港 密碼:888",
-//   "type": 0,
-//   "url": "http://xhztv.top/bhzb.txt",
-//   "ua": "okhttp/4.12.0",
-//   "timeout": 5,
-//   "pass": true,
-//   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-//   "logo": "https://epg.112114.xyz/logo/{name}.png"
-//  },
+//  "note": "by https://www.juwanhezi.com/more/live",
+//  "name": "月光寶盒｜中台港 密碼:888",
+//  "type": 0,
+//  "url": "http://xhztv.top/bhzb.txt",
+//  "ua": "okhttp/4.12.0",
+//  "timeout": 5,
+//  "pass": true,
+//  "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+//  "logo": "https://epg.112114.xyz/logo/{name}.png"
+// },
 {
 "name": "456寶貝｜雜中台港",
 "type": 0,
@@ -667,9 +667,9 @@
 // "logo": "https://epg.112114.xyz/logo/{name}.png"
 // },
 {
-  "name":"🏘️只是鏈接1 RobYang",
-  "type": 0,
-  "url": "https://rb.gy/wcjqb5"
+ "name":"🏘️只是鏈接1 RobYang",
+ "type": 0,
+ "url": "https://rb.gy/wcjqb5"
 },
 {
 "name": "🏘️只是鏈接2 RobYang",
@@ -723,15 +723,15 @@
 {
 "group": "redirect",
 "channels": [
-  {
-    "name": "redirect",
-    "urls": [
-    "proxy://do=live&type=live&proxy=&url="
-    ]
-  }
+ {
+  "name": "redirect",
+  "urls": [
+  "proxy://do=live&type=live&proxy=&url="
+  ]
+ }
 ]
 },
-//{"name": "香蕉哥直播","url": "https://tv.iill.top/m3u/Gather","ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","pass": true,"logo": "https://epg.112114.xyz/logo/{name}.png"  },
+//{"name": "香蕉哥直播","url": "https://tv.iill.top/m3u/Gather","ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","pass": true,"logo": "https://epg.112114.xyz/logo/{name}.png" },
 {"name":"fmm","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"},
 {"name":"live","type":0,"url":"https://epg.pw/test_channels.m3u","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"},
 {"name":"ipv6","type":0,"url":"https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/tvboxtv.txt","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"}
