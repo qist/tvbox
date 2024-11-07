@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;a889982d5efe39d65ff9f81559fa2f87",
+"spider":"./jar/fan.txt;md5;0f1d73221352f4e6b049b3291f96d75d",
 "lives":[
     {"name":"live","boot": true,"type":0,"url":"./tv.txt","playerType":2,"ua":"okhttp/3.8.10","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://logo.ugigc.us.kg/{name}.png"}
 ],
@@ -19,8 +19,8 @@
 {"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"比特","name":"🍄比特┃秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"原创","name":"☀原创┃不卡","type":3,"api":"csp_YCyz","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCz","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://czzy.top/"},
+{"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCz","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czzy77.com/"},
+{"key":"木星","name":"🌞木星┃多线","type":3,"api":"csp_AppSx","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjDcUxPqpfNr0QF4QvEpcoxZIYRQNwQCG8Otba0yUlXQMqbvyrYj1rF/ef6Syy5Zj/ZkmAqgHsuU3lxEs8zPFZMXNqLxA+MbSlPxmlA1/58U/OgZ2I7cEW5ZHV6hg=="},
 {"key":"热播","name":"📺热播┃多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"南瓜","name":"🎃南瓜┃多线","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"萌米","name":"👀萌米┃多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
@@ -44,7 +44,6 @@
 {"key":"虎牙直播js","name":"🐯虎牙┃直播","type":3,"api":"./FTY/drpy2.js","ext":"./FTY/huya2.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"斗鱼js","name":"🐟斗鱼┃直播","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"有声小说js","name":"🎧有声┃小说","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"Aid","name":"🚑急救┃教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
 {"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"Bili","name":"🅱哔哔合集┃弹幕","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/bilibili.json"}},
 {"key":"Biliych","name":"🅱明星演唱会┃弹幕","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/biliych.json"}},
