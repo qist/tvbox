@@ -4,6 +4,9 @@
   "note2":"FROM: https://RobYang.bsite.net/VodLive/jb8ffa",
   "note3":"Source: https://RobYang.bsite.net/VodLive/sb8ffa",
   "logo": "https://RobYang.bsite.net/RobYang.jpg",
+  //FROM: https://rb.gy/geje78
+  //FROM: https://robyang.bsite.net/VodLive/jb8ffa
+  //"spider":"./jar/pg.jar",
   "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
 {"key":"robYang","name":"Rob Yang就是我，我們不熟，有事嗎？","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
@@ -59,9 +62,6 @@
 {"key":"小学课堂","name":"📚小学┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/小学课堂.json"}},
 {"key":"初中课堂","name":"📚初中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/初中课堂.json"}},
 {"key":"高中教育","name":"📚高中┃课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/高中课堂.json"}},
-
-
-  
 {"key":"农民","name":"影视 |农民[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"数组":"<li>&&</li>","图片":"src=\"&&\"","分类url":"https://m.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html","分类":"短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"},"jar": "./jar/Yoursmile.jar"},
 {"key":"骚火","name":"影视 | 骚火[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"嗅探词":".m3u8#.mp4#.m3u8?#freeok.mp4","分类url":"https://shdy2.com/list/{cateId}-{catePg}.html;;vr1au0","分类":"电影$1#电视剧$2#韩剧$22#美剧$23#动漫$4","数组二次截取":"class=\"v_list\">&&</ul>","数组":"\"v_img\"&&/div>","标题":"title=\"&&\"","副标题":"v_note\"&&</div","跳转播放链接":"<iframe*src=\"&&\"","二次跳转播放链接":"https://hhjx.hhplayer.com/api.php;post;url=+var url*\"&&\"+&t=+var t*\"&&\"+&key=+var key*\"&&\"+&act=0+&play=1","三次跳转播放链接":"\"url\"*\"&&\""},"jar": "./jar/Yoursmile.jar"},
 {"key":"晴天","name":"影视 | 晴天[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.qinttv.com/qtyy/{cateId}/area/{area}/page/{catePg}/year/{year}.html","搜索url":"https://www.qinttv.com/qtcz.html;post;wd={wd}&submit=","分类":"电影$dianying#电视剧$dianshiju#动漫$dongmna#综艺$zongyi"},"jar": "./jar/Yoursmile.jar"},
@@ -468,8 +468,8 @@
 {"key":"drpy2_js_无忧影视","name":"影视 | 无忧[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/无忧影视.js"},
 {"key":"drpy2_js_夕云影视","name":"影视 | 夕云[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/夕云影视.js"},
 {"key":"drpy2_js_西瓜影院","name":"影视 | 西瓜[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/西瓜影院.js"},
-{"key":"drpy2_js_小鱼影视","name":"影视 | 小鱼[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/小鱼影视.js"},
-{"key":"drpy2_js_星辰CT","name":"影视 | 星辰CT[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/星辰CT.js"},
+// {"key":"drpy2_js_小鱼影视","name":"影视 | 小鱼[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/小鱼影视.js"},
+// {"key":"drpy2_js_星辰CT","name":"影视 | 星辰CT[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/星辰CT.js"},
 {"key":"drpy2_js_一起看[优]","name":"影视 | 一起看[优][JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/一起看[优].js"},
 {"key":"drpy2_js_影视大全","name":"影视 | 影视大全[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/影视大全.js"},
 {"key":"drpy2_js_影视工厂","name":"440. 影视 | 影视工厂[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/影视工厂.js"},
@@ -477,11 +477,11 @@
 // {"key":"drpy2_js_影渣渣影视","name":"影视 | 影渣渣[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/影渣渣影视.js"},
 {"key":"drpy2_js_悠悠影视","name":"影视 | 悠悠[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/悠悠影视.js"},
 {"key":"drpy2_js_游子视频","name":"影视 | 游子[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/游子视频.js"},
-{"key":"drpy2_js_掌心世界","name":"影视 | 掌心[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"order_num":0,"ext":"./drpy_js/掌心世界.js"},
+// {"key":"drpy2_js_掌心世界","name":"影视 | 掌心[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"order_num":0,"ext":"./drpy_js/掌心世界.js"},
 {"key":"drpy2_js_bilfun(自动)","name":"影视 | bilfun[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"order_num":0,"ext":"./drpy_js/bilfun(自动).js"},
 {"key":"drpy2_js_cally66","name":"影视 | cally66[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/cally66.js"},
-{"key":"drpy2_js_eFuns","name":"影视 | eFuns[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/eFuns.js"},
-{"key":"drpy2_js_freeok","name":"影视 | freeok[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/freeok.js"},
+// {"key":"drpy2_js_eFuns","name":"影视 | eFuns[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/eFuns.js"},
+// {"key":"drpy2_js_freeok","name":"影视 | freeok[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/freeok.js"},
 {"key":"drpy2_js_FreeOKLOL","name":"450. 影视 | FreeOKLOL[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/FreeOKLOL.js"},
 {"key":"drpy2_js_GO影视","name":"影视 | GO[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/GO影视.js"},
 {"key":"drpy2_js_iFun","name":"影视 | iFun[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/iFun.js"},
@@ -507,13 +507,13 @@
 // {"key":"drpy_js_欧乐影院[飞]","name":"起飞 | 欧乐影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/欧乐影院[飞].js"},
 {"key":"drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 // {"key":"star","name": "墙外 | 星星","type": 3,"api": "csp_Star","searchable": 1,"changeable": 1,"jar":"https://fm.t4tv.hz.cz/jar/fm.jar;md5;55c157414346e3ff571baad0a223bf15"},
-{"key":"csp_trj","name": "墙外 | 唐人街","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/pg.jar"},
+//{"key":"csp_trj","name": "墙外 | 唐人街","type": 3,"api": "csp_Tangrenjie","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./jar/pg.jar"},
 // {"key":"drpy_hh","name":"墙外 | 吼吼","type":3,"api":"./lib/drpy2.min.js","ext":"https://download.kstore.space/download/3313/js/HoHo影视.js"},
 {"key":"php_bttwoo", "name": "影视 | 沐辰", "type": 4, "api": "https://json.doube.eu.org/app/index.php?site=bttwoo", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 },
 {"key":"py_OleVod", "name": "影视 | 欧乐", "type": 4, "api": "https://py.doube.eu.org/api?site=OleVod", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1	 },
 
-{"key": "Youtube", "name": "Youtube", "type": 3, "api": "csp_Youtube", "searchable": 1, "quickSearch": 1, "changeable": 0, "timeout": 240, "jar":"./jar/pg.jar", "ext": {  "token": "./json/tokenm.json",  "json": "./json/youtube.json",  "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",  "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",  "codecs": "",  "proxy": "",  "danmu": true }, "style": {"type": "rect", "ratio": 1.77} },
-{"key": "emby", "name": "EMBY 設定", "type": 3, "api": "./lib/emby.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "style": { "type": "rect", "ratio": 1.485 }, "ext": { "server": "", "username": "", "password": "", "thread": 0 } }
+{"key": "Youtube", "name": "Youtube", "type": 3, "api": "csp_Youtube", "searchable": 1, "quickSearch": 1, "changeable": 0, "timeout": 240, "jar":"./jar/pg.jar", "ext": {  "token": "./json/tokenm.json",  "json": "./json/youtube.json",  "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",  "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",  "codecs": "",  "proxy": "",  "danmu": true }, "style": {"type": "rect", "ratio": 1.77} }
+//{"key": "emby", "name": "EMBY 設定", "type": 3, "api": "./lib/emby.py", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1, "style": { "type": "rect", "ratio": 1.485 }, "ext": { "server": "", "username": "", "password": "", "thread": 0 } }
  //{"key":"js_tokenm","name": "Youtube,網路空間,設定","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext": "./json/tokenm.json","style": {"type": "rect", "ratio": 1.5}}
 ],
 "doh":[
