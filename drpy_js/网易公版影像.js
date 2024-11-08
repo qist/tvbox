@@ -1,0 +1,23 @@
+var rule = {
+    title:'网易公版影像',
+    host:'https://active.163.com',
+    homeUrl:'/service/form/v1/9347/view/1618.jsonp?param_entry_kinds=his&page=1&pageSize=20',
+    url:'/service/form/v1/9347/view/1618.jsonp?param_entry_kinds=fyclass&page=fypage&pageSize=20',
+    class_name:'电影&纪录片&动画片&珍贵史料',
+    class_url:'movie&doc&ani&his',
+    searchUrl:'/service/form/v1/9347/view/1619.jsonp?_charset=UTF-8&_decode=UTF-8&param_title=**&page=fypage&pageSize=6',
+    searchable:2,
+    quickSearch:0,
+    headers:{
+        'User-Agent':'MOBILE_UA',
+    },
+    timeout:5000,
+    limit:6,
+    play_parse:true,
+    lazy:'js:let vid = input.split("/view/")[1];var playJsonUrl="https://so.v.163.com/mobile/getBatchOnlineVideo.do?vidstr=";var reqUrl=playJsonUrl+vid;var reqJson=JSON.parse(request(reqUrl)).data.video_list[0];input={jx:0,url:reqJson.mp4SdUrl,parse:0}',
+    // lazy:'',
+    推荐:'*',
+    一级:'json:list;title;cover_pic;meida_type;vid',
+    二级:'*',
+    搜索:'*',
+}

@@ -1,0 +1,56 @@
+// 分类 ++
+// 修复所有分类的第一个 detail内容为空
+{
+	//{cateId}分类id
+	//{area}地区
+	//{by}排序
+	//{class}剧情
+	//{lang}语言
+	//{catePg}翻页序列号
+	//{year}日期
+	
+"站名":"色最色x",
+"主页url":"https://sezuise.vip",
+"图片":"data-original=\"&&\"",
+"标题":"title=\"&&\"",
+"链接":"href=\"&&\"",
+"副标题":"text-right\">&&</",
+"线路数组":"class=\"module-tab-item &&</div>",
+"线路标题":"<span>&&</small>",
+"搜索url":"/vod/search/{wd}----------{pg}",
+//"搜索url":"/index.php/ajax/suggest?mid=1&wd=",
+"搜索模式":"1",
+"搜索标题":"class=\"module-item-note\">&&</div>",
+"搜索副标题":"class=\"module-item-note\">&&</div>",
+"搜索链接前缀":"https://sezuise.vip",
+"搜索链接后缀":"---.html",
+"搜索后缀":"/vod/detail/",
+
+"播放数组":"class=\"module-play-list-content&&</div>",
+"影片类型":"更新：</span>&&</div>",
+"导演":"导演：</span>&&</div>",
+"主演":"主演：</span>&&</div>",
+"简介":"module-info-introduction-conten&&</p>",
+"播放列表":"<a&&</a>",
+"播放标题":"<span>&&<",
+"播放链接":"href=\"&&\"",
+"免嗅":"0",
+"分类":"国产精品$19#偷拍自拍$20#欧美成人$26#中文无码$23#中文字幕$22#亚洲情色$21#卡通动漫$24#成人伦理$25",
+//"分类url":"https://dmxq.fun/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+	
+"分类url":"https://sezuise.vip/list-read-id-{cateId}-p-{catePg}",
+  
+ 
+//json搜索模式，用这个把上面搜索注释掉	
+ // Search Results ===================================================
+ // "searchUrl": "https://dmxq.fun/index.php/ajax/suggest?mid=1&wd={wd}&limit=500",
+ // "scVodNode": "json:list",
+  //"scVodName": "name",
+  //"scVodId": "id",
+ // "scVodIdR": "",
+ // "scVodImg": "pic",
+ // "scVodMark": "",
+  
+  
+ 
+}

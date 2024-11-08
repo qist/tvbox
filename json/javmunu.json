@@ -1,0 +1,176 @@
+{
+//
+//回家地址 → https://javmenu.com/zh/数字改
+//https://javmenu.com/zh/
+"规则名": "javmunu-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://javmenu.com/zh",
+"首页列表数组规则": ".list-videos",
+"首页片单列表数组规则": ".item",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": ".title&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&data-original",
+"首页片单副标题": "'📅'+.added&&Text+'👁️'+.views&&Text",
+"首页片单链接加前缀": "",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodshow/{cateId}-{catePg}/",
+"分类链接": "https://javmenu.com/zh/{cateId}?page={catePg}",
+"分类名称": "有码&无码&欧美&FC2&成人动画",
+"分类名称替换词": "censored/online&uncensored/online&western/online&fc2/online&hanime/online",
+"分类截取模式": "1",
+"分类列表数组规则": ".card-deck&&.category-page:not(安全):not(:contains(色站搭建))",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "h5&&Text+p&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": ".card-img-top&&data-src",
+"分类片单副标题": "'📅'+.text-muted&&Text+.text-white&&Text",
+
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$手机",
+"搜索链接": "https://javmenu.com/zh/index.php/ajax/suggest?mid=1&wd={wd}",
+"POST请求数据": "",
+"搜索截取模式": "0",
+"搜索列表数组规则": "list",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "pic",
+"搜索片单标题": "name",
+"搜索片单链接": "id",
+"搜索片单副标题": "",
+"搜索片单链接加前缀": "https://javmenu.com/zh/vodplay/",
+"搜索片单链接加后缀": "-1-1.html",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+ "详情是否Jsoup写法":"0",
+    "类型详情": "",
+    "年代详情": "",
+    "地区详情": "",
+    "演员详情": "",
+    "简介详情": "",
+    "线路列表数组规则": "#content1&&thead",
+    "线路标题": "Text[替换:默认=>磁力播放]",
+    "播放列表数组规则": "#content1&&.magnet-table",
+    "选集列表数组规则": ".col",
+    "选集标题链接是否Jsoup写法":"1",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "",
+    "选集链接加后缀": "",
+   
+"筛选数据":{
+"/vodshow/1":[
+  {"key":"cateId",
+  "name":"分类",
+  "value":[
+{"v":"/vodshow/1","n":"全部"},
+{"v":"/vodshow/6","n":"国产自拍"},
+{"v":"/vodshow/7","n":"主播大秀"},
+{"v":"/vodshow/8","n":"探花约啪"},
+{"v":"/vodshow/9","n":"国产番号"},
+{"v":"/vodshow/10","n":"网红少女"},
+{"v":"/vodshow/11","n":"偷窥偷拍"}]},
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/2":[
+  {"key":"cateId",
+  "name":"分类",
+  "value":[
+{"v":"/vodshow/2","n":"全部"},
+{"v":"/vodshow/13","n":"日本无码"},
+{"v":"/vodshow/14","n":"中文字幕"},
+{"v":"/vodshow/15","n":"日韩有码"},
+{"v":"/vodshow/16","n":"AV解说"}]},
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/21":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/3":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/4":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/5":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/20":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/22":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+]
+
+
+},
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com"
+}

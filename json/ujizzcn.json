@@ -1,0 +1,331 @@
+{
+"规则名": "Ujizzcn-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://www.ujizzcn.com/categories/643/young?hl=zh",
+"首页列表数组规则": "#video_block",
+"首页片单列表数组规则": ".th-itm",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "a&&title",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&data-src",
+"首页片单副标题": "'⏱️'+.time&&Text",
+"首页片单链接加前缀": "https://www.ujizzcn.com",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://www.ujizzcn.com/{cateId}?hl=zh{by}&p={catePg}",
+//https://www.ujizzcn.com/videos?hl=zh&s=n&p=2
+//https://www.ujizzcn.com/videos?hl=zh&p=2
+"分类名称": "日本成人片&亚洲女&体内射精&爸爸&中国妞&年轻&日本妞&妈妈&处女&可爱&业余&大学&青少年&不是女儿&乱伦&爸爸和女儿&美女&俄罗斯大美女&大乳房&女朋友&丝袜&18-19&完美身材&娇小&女学生&台湾妞",
+"分类名称替换词": "categories/364/jav&categories/35/asian&categories/189/creampie&categories/210/daddy&categories/155/chinese&categories/643/young&categories/363/japanese&categories/420/mommy&categories/738/virgin&categories/207/cute&categories/17/amateurs&categories/175/college&categories/588/teen&categories/215/not-daughter&categories/580/taboo&categories/209/dad-and-girl&categories/653/beautiful&categories/510/russian&categories/87/big-tits&categories/301/girlfriend&categories/569/stockings&categories/2/18-19-yo&categories/652/perfect-body&categories/469/petite&categories/516/schoolgirl&categories/581/taiwanese",
+"分类截取模式": "1",
+"分类列表数组规则": "#video_block&&.th-itm",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "p&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&data-src",
+"分类片单副标题": "'⏱️'+.time&&Text",
+"分类片单链接加前缀": "https://www.ujizzcn.com",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$手机",
+"搜索链接": "https://www.ujizzcn.com/search?search={wd}&hl=zh",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".th&&.th-itm",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&data-src",
+"搜索片单标题": "p&&Text",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": "'⏱️'+.time&&Text",
+"搜索片单链接加前缀": "https://www.ujizzcn.com",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "https://www.ujizzcn.com",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".mp4#.m3u8",
+"手动嗅探视频链接过滤词": "baidu.com",
+
+
+"筛选数据":{
+
+"categories/364/jav":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/35/asian":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/189/creampie":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/210/daddy":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/510/russian":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/87/big-tits":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/301/girlfriend":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/155/chinese":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/643/young":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/363/japanese":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/420/mommy":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/738/virgin":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/207/cute":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/17/amateurs":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/175/college":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/588/teen":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/215/not-daughter":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/580/taboo":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/209/dad-and-girl":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/653/beautiful":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/569/stockings":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/2/18-19-yo":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/652/perfect-body":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/469/petite":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/516/schoolgirl":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/581/taiwanese":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+
+
+}
+
+}

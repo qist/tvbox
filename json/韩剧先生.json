@@ -1,0 +1,17 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "主页url": "https://www.hanpian.xyz",
+    "数组": "show_play&&</a>",
+    "图片": "data-original=\"&&\"",
+    "链接": "href=\"&&\"",
+    "副标题": "✨集多甄选✨+>&&</p>",
+    "播放数组": "con_c2_list&&</ul>",
+    "播放标题": "✨+title=\"&&\"",
+    "播放链接": "href=\"&&\"",
+    "线路数组": "tab-switch swiper-slide&&</span>",
+    "线路标题": "✨集多推荐✨+>&&</a>",
+    "跳转播放链接": "<script type=\"text/javascript*url\":\"&&\"",
+    "简介": "✨集多为您介绍剧情✨<+div id=\"content\">&&<p>",
+    "分类url": "https://www.hanpian.xyz/menu/{cateId}/{catePg}/",
+    "分类": "电影$movie#电视剧$tv#综艺$variety#动漫$anime#频道直播$live#伦理片$ll"
+}

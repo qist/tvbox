@@ -1,0 +1,19 @@
+{
+    "发布页": "",
+    "请求头": "手机",
+    "主页url": "https://6n.apple15.buzz/",
+    "数组": "module-item-pic&&module-item-caption",
+    "二次截取": "module-item-pic&&module-title\">正在热播</h2>",
+    "标题": "title=\"&&\"",
+    "图片": "img src=\"&&\"",
+    "链接": "href=\"&&\"[替换:detail>>play#.html>>/sid/1/nid/1.html]",
+    "简介": "✨集多提示您合理安排陪伴弟弟的时间✨",
+    "免嗅": "",
+    "直接播放": "1",
+    "搜索url": "/index.php/vod/search.html?txtKeywords={wd}",
+    "嗅探词": "index.m3u8#.m3u8#.mp4",
+    "分类url": "https://6n.apple15.buzz/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    "分类数组": "class=\"grid-item\">&&</a",
+    "分类标题": "title=\"&&\"",
+    "分类ID": "href=\"/index.php/vod/type/id/&&.html\""
+}

@@ -1,0 +1,398 @@
+{
+"规则名": "youjizzcn-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://www.youjizz.com/random?country=cn",
+"首页列表数组规则": "#content",
+"首页片单列表数组规则": ".video-thumb",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": ".video-title&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&data-original",
+"首页片单副标题": "'⏱️'+.time&&Text+'👁️'+.format-views&&Text",
+"首页片单链接加前缀": "https://www.youjizz.com",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://www.youjizz.com{cateId}{catePg}.html?country=cn",
+//https://www.youjizz.com/videos?hl=zh&s=n&p=2
+//https://www.youjizz.com/videos?hl=zh&p=2
+"分类名称": "最新&🔥热门🔥&人气排行&趋势&分类",
+"分类名称替换词": "/newest-clips/&/most-popular/&/top-rated/&/trending/&/categories/japanese-",
+"分类截取模式": "1",
+"分类列表数组规则": "#content&&.video-thumb",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": ".video-title&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&data-original",
+"分类片单副标题": "'⏱️'+.time&&Text+'👁️'+.format-views&&Text",
+"分类片单链接加前缀": "https://www.youjizz.com",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$手机",
+"搜索链接": "https://www.youjizz.com/search?search={wd}&hl=zh",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".th&&.th-itm",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&data-src",
+"搜索片单标题": "p&&Text",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": "'⏱️'+.time&&Text",
+"搜索片单链接加前缀": "https://www.youjizz.com",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "0",
+"直接播放链接加前缀": "https://www.youjizz.com",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+"详情是否Jsoup写法":"0",
+    "类型详情": "<p>類型：&&</p>",
+    "年代详情": "<p>更新：&&</p>",
+    "地区详情": "",
+    "演员详情": "",
+    "简介详情": "",
+    "线路列表数组规则": ".container-fluid.main-content",
+    "线路标题": "'🛺'+'当前自动分辨率，影视App更改分辨率播放器设置视轨'+'📺'",
+    "播放列表数组规则": "#content",
+    "选集列表数组规则": "script",
+    "选集标题链接是否Jsoup写法":"1",
+    "选集标题": "2\",\"name\":\"&&\"",
+    "选集链接": "Auto\",\"filename\":\"&&\"",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "https://www.appleav9.buzz",
+    "选集链接加后缀": "",
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": "m3u8#.mp4",
+"手动嗅探视频链接过滤词": "baidu.com",
+
+
+"筛选数据":{
+
+"/categories/japanese-":[
+{"key":"cateId",
+"name":"分类",
+"value":[
+{"v":"/categories/japanese-","n":"日本人"}, 
+{"v":"/categories/chinese-","n":"中国人"}, 
+{"v":"/categories/japanese-mom-","n":"日本妈妈"}, 
+{"v":"/categories/japan-","n":"日本"}, 
+{"v":"/categories/pinay-","n":"皮奈pinay"}, 
+{"v":"/categories/3d-","n":"3d"}, 
+{"v":"/categories/mom-","n":"妈妈"}, 
+{"v":"/categories/japanese-wife-","n":"日本 妻子"}, 
+{"v":"/categories/hentai-","n":"动漫hentai"}, 
+{"v":"/categories/superheroine-","n":"超级女英雄superheroine"}, 
+{"v":"/categories/china-","n":"中国"}, 
+{"v":"/categories/blacked-","n":"涂黑的blacked"}, 
+{"v":"/categories/angela-white-","n":"安吉拉·怀特angela white"}, 
+{"v":"/categories/japanese-uncensored-","n":"日本未经审查"}, 
+{"v":"/categories/stepmom-","n":"继母"}, 
+{"v":"/categories/gangbang-creampie-","n":"轮奸体内射精"}, 
+{"v":"/categories/milf-","n":"摩洛伊斯兰解放阵线milf"}, 
+{"v":"/categories/pakistani-","n":"巴基斯坦"}, 
+{"v":"/categories/asian-","n":"亚洲人"}, 
+{"v":"/categories/mom-and-son-","n":"妈妈和儿子"}, 
+{"v":"/categories/public-agent-","n":"公共代理public agent"}, 
+{"v":"/categories/melody-marks-","n":"旋律标记melody marks"}, 
+{"v":"/categories/japanese-big-tits-","n":"日本 大奶"}, 
+{"v":"/categories/xnxx-","n":"xnxx"}, 
+{"v":"/categories/julia-ann-","n":"朱莉娅·安julia ann"}, 
+{"v":"/categories/big-ass-","n":"大屁股"}, 
+{"v":"/categories/anal-","n":"肛门"}, 
+{"v":"/categories/indian-","n":"印度人"}, 
+{"v":"/categories/filipina-","n":"菲律宾人"}, 
+{"v":"/categories/creampie-","n":"体内射精"}, 
+{"v":"/categories/bbc-","n":"bbc"}, 
+{"v":"/categories/limp-","n":"跛行limp"}, 
+{"v":"/categories/petite-","n":"娇小的"}, 
+{"v":"/categories/sexmex-","n":"性墨西哥sexmex"}, 
+{"v":"/categories/sleeping-","n":"睡眠sleeping"}, 
+{"v":"/categories/teacher-","n":"老师"}, 
+{"v":"/categories/czech-streets-","n":"czech streets捷克街道"}, 
+{"v":"/categories/pinay-scandal-","n":"皮奈丑闻pinay scandal"}, 
+{"v":"/categories/shoplyfter-","n":"商店利夫特shoplyfter"}, 
+{"v":"/categories/asmr-","n":"asmr"}, 
+{"v":"/categories/uncensored-","n":"未经审查的"}, 
+{"v":"/categories/savannah-bond-","n":"萨凡纳邦德savannah bond"}, 
+{"v":"/categories/daughter-","n":"女儿"}, 
+{"v":"/categories/cosplay-","n":"cosplay"}, 
+{"v":"/categories/japanese-massage-","n":"日本按摩"}, 
+{"v":"/categories/korean-","n":"韩国人"}, 
+{"v":"/categories/chinese-girl-","n":"中国女孩"}, 
+{"v":"/categories/webcam-","n":"摄像头"}, 
+{"v":"/categories/gangbang-","n":"轮奸"}
+
+]
+},
+{"key":"by","name":"排序","value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/35/asian":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/189/creampie":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/210/daddy":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/510/russian":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/87/big-tits":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/301/girlfriend":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/155/chinese":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/643/young":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/363/japanese":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/420/mommy":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/738/virgin":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/207/cute":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/17/amateurs":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/175/college":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/588/teen":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/215/not-daughter":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/580/taboo":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/209/dad-and-girl":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+],
+"categories/653/beautiful":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/569/stockings":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/2/18-19-yo":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/652/perfect-body":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/469/petite":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/516/schoolgirl":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+,
+"categories/581/taiwanese":[
+{
+"key":"by",
+"name":"排序",
+"value":[
+{"n":"人气","v":""},
+{"n":"时间","v":"&s=n"}
+]
+}
+]
+
+
+}
+
+}

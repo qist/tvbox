@@ -1,0 +1,152 @@
+{
+"规则名": "六九娱乐-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://www.6009xx.com",
+"首页列表数组规则": ".content",
+"首页片单列表数组规则": ".pure-u-md-1-4",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "a&&title",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&src",
+"首页片单副标题": ".link&&Text",
+"首页片单链接加前缀": "https://www.6009xx.com",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://www.6009xx.com/{cateId}?page={catePg}&type={lang}&actor=&wd=",
+"分类名称": "最多观看&国产精品&高清无码&欧美精品&名优大乱斗&骑兵有码&韩国伦理&韩国主播&VR无码",
+"分类名称替换词": "favorites&chinese&bubin&america&dard&qibin&hglp&hgvb&vrh",
+"分类截取模式": "1",
+"分类列表数组规则": ".content&&.pure-u-md-1-4",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "a&&title",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&src",
+"分类片单副标题": ".link&&Text",
+"分类片单链接加前缀": "https://www.6009xx.com",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "https://www.6009xx.com/q?wd={wd}",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".content&&.pure-u-md-1-4",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&src",
+"搜索片单标题": "a&&title",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": ".link&&Text",
+"搜索片单链接加前缀": "https://www.6009xx.com",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com",
+
+
+"筛选数据":{
+
+"bubin":[
+{
+"key":"lang",
+"name":"分",
+"value":[
+
+{"v":"","n":"全部"},
+{"v":"步兵无码","n":"步兵无码"},
+{"v":"骑兵有码","n":"骑兵有码"}
+]
+}
+],
+
+"america":[
+{
+"key":"lang",
+"name":"分",
+"value":[
+{"v":"","n":"全部"},
+{"v":"欧美性爱","n":"欧美性爱"}
+]
+}
+],
+
+"qibin":[
+{
+"key":"lang",
+"name":"分",
+"value":[
+{"v":"","n":"全部"},
+{"v":"中文字幕","n":"中文字幕"}
+]
+}
+],
+
+"加勒比":[
+{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"v":"加勒比","n":"加勒比"},
+{"v":"一本道","n":"一本道"},
+{"v":"HEYZO","n":"HEYZO"},
+{"v":"波多野结衣","n":"波多野结衣"},
+{"v":"Pacopako妈妈系列","n":"Pacopako妈妈系列"},
+{"v":"东京热","n":"东京热"},
+{"v":"欧美无码","n":"欧美无码"},
+{"v":"明日花绮罗","n":"明日花绮罗"},
+{"v":"吉泽明步","n":"吉泽明步"},
+
+{"v":"泷泽萝拉","n":"泷泽萝拉"},
+
+
+{"v":"channel/潮吹","n":"未完成。。"},
+
+{"v":"channel/tokyo-hot","n":"东京热"},
+{"v":"channel/teacher","n":"女教师"},
+{"v":"channel/voyeur","n":"偷拍"},
+
+
+{"v":"channel/中出","n":"中出"},
+{"v":"channel/口交","n":"口交"},
+{"v":"channel/后入","n":"后入"},
+{"v":"channel/女上位","n":"女上位"},
+
+{"v":"channel/10musume","n":"天然素人"},
+{"v":"channel/1000giri","n":"1000人斩"},
+{"v":"channel/1pondo","n":"一本道"},
+{"v":"channel/amateur","n":"素人"},
+{"v":"channel/caribbeancom","n":"加勒比"},
+{"v":"channel/3p","n":"乱交"},
+{"v":"channel/anal","n":"二穴"},
+{"v":"channel/ass","n":"巨尻"},
+{"v":"channel/bondage-sm","n":"SM束縛"},
+{"v":"channel/busty","n":"巨乳"},
+{"v":"channel/hd","n":"HD"},
+{"v":"channel/heyzo","n":"HEYZO"},
+{"v":"channel/incest-family","n":"近亲相姦"},
+{"v":"channel/javhd","n":"JAVHD"},
+{"v":"channel/kin8tengoku","n":"金8天国"},
+{"v":"channel/legs-pantyhose","n":"美腿丝袜"},
+{"v":"channel/lesbian","n":"女同"},
+{"v":"channel/massage","n":"按摩"},
+{"v":"channel/milf-wife","n":"熟女人妻"},
+{"v":"channel/nurse","n":"护士"},
+{"v":"channel/ol","n":"OL"},
+{"v":"channel/public","n":"野外露出"}
+]
+}
+]
+
+}
+
+}

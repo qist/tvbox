@@ -1,0 +1,251 @@
+{
+   //永久地址https://jable.tv/zh
+  // 发布页https://alldayj.com/
+  //发布页https://github.com/aj23koby4495612/aj23koby4495612
+    "规则名": "jable-XYQHiker",
+    "规则作者": "飞鱼",
+    "请求头参数":"PC_UA",
+    "网页编码格式":"UTF-8",
+    "图片是否需要代理":"0",
+    "是否开启获取首页数据":"1",
+	 //首页推荐数据获取链接
+    "首页推荐链接": "https://fs1.app/new-release/",
+    //首页推荐列表数组截取。
+    "首页列表数组规则": ".pb-e-lg-40",
+    //首页推荐片单列表数组定位。
+    "首页片单列表数组规则": ".col-6",
+    //首页推荐片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
+    "首页片单是否Jsoup写法":"1",
+    //下面这六个首页数据如果不填将调用分类那截取的配置（片单写法需一致且取值也得一致）。
+    //首页片单标题
+    "首页片单标题": ".detail&&a&&Text",
+    //首页推荐片单链接
+    "首页片单链接": "a&&href",
+    //首页推荐片单图片，支持自定义图片链接
+    "首页片单图片": "img&&data-src",
+    //首页推荐片单副标题
+    "首页片单副标题":".label&&Text",
+    //首页推荐片单链接补前缀  
+    "首页片单链接加前缀": "",
+    //首页推荐片单链接补后缀
+    "首页片单链接加后缀": "",
+    "分类起始页码": "1",
+    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+	"分类链接": "https://fs1.app/{cateId}/{catePg}/",
+    "分类名称": "最新影片&热门🔥&主题分类&衣着&身材&交合&玩法&剧情&角色&地点&杂项",
+    "分类名称替换词": "latest-updates&hot&categories/bdsm/&tags/black-pantyhose/&tags/suntan/&tags/facial/&tags/outdoor/&tags/black/&tags/club-hostess-and-sex-worker/&tags/magic-mirror/&tags/debut-retires/",
+    //"筛选数据":{},
+    "分类截取模式": "1",
+    "分类列表数组规则": ".pb-e-lg-40&&.col-6",
+    "分类片单是否Jsoup写法":"1",
+    "分类片单标题": ".detail&&a&&Text",
+    "分类片单链接": "a&&href",//替换规则
+    "分类片单图片": "img&&data-src",
+    "分类片单副标题":".label&&Text",
+    "分类片单链接加前缀": "",
+    "分类片单链接加后缀": "",
+    "搜索请求头参数":"User-Agent$PC_UA",
+    
+    "搜索链接": "https://fs1.app/search/{wd}/",
+    "POST请求数据":"0",
+    "搜索截取模式": "1",
+    "搜索列表数组规则": ".pb-e-lg-40&&.col-6",
+    "搜索片单是否Jsoup写法":"1",
+    "搜索片单图片": "img&&data-src",
+    "搜索片单标题": ".detail&&a&&Text",
+    "搜索片单链接": "a&&href",
+    "搜索片单副标题":".label&&Text",
+    "搜索片单链接加前缀": "",
+    "搜索片单链接加后缀": "",
+       //--------
+         "链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+//-------
+    "详情是否Jsoup写法":"1",
+    "类型详情": ".content&&.detail-item&&.genre&&Text",
+    "年代详情": ".content&&.detail-item&&span,3&&Text",
+    "地区详情": "",
+    "演员详情": ".content&&.detail-item&&span,7&&Text",
+    "简介详情": ".mr-3&&h1&&Text",
+    "线路列表数组规则": ".dropdown-menu",
+    "线路标题": "a&&Text",
+    "播放列表数组规则": ".dropdown-menu",
+    "选集列表数组规则": "a",
+    "选集标题链接是否Jsoup写法":"1",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "",
+    "选集链接加后缀": "",
+    "分析MacPlayer":"0",
+    "是否开启手动嗅探":"1",
+    "手动嗅探视频链接关键词":"m3u8#.m3u8",
+    "手动嗅探视频链接过滤词":".html#=http",
+	
+	"筛选数据":{
+"categories/bdsm/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"categories/bdsm/","n":"主奴调教"},
+{"v":"categories/sex-only/","n":"直接开啪"},
+{"v":"categories/chinese-subtitle/","n":"中文字幕"},
+{"v":"categories/rape/","n":"凌辱强暴"},
+{"v":"categories/uniform/","n":"制服诱惑"},
+{"v":"categories/roleplay/","n":"角色剧情"},
+{"v":"categories/hidden-cam/","n":"盗摄偷拍"},
+{"v":"categories/uncensored/","n":"无码解放"},
+{"v":"categories/pov/","n":"男友视角"},
+{"v":"categories/groupsex/","n":"多P群交"},
+{"v":"categories/pantyhose/","n":"丝袜美腿"},
+{"v":"categories/lesbian/","n":"女同欢愉"}
+]
+}],
+"tags/black-pantyhose/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/black-pantyhose/","n":"黑丝"}, 
+  {"v":"tags/knee-socks/","n":"过膝袜"}, 
+  {"v":"tags/sportswear/","n":"运动装"}, 
+  {"v":"tags/flesh-toned-pantyhose/","n":"肉丝"}, 
+  {"v":"tags/pantyhose/","n":"丝袜"}, 
+  {"v":"tags/glasses/","n":"眼镜娘"}, 
+  {"v":"tags/kemonomimi/","n":"兽耳"}, 
+  {"v":"tags/fishnets/","n":"渔网"}, 
+  {"v":"tags/swimsuit/","n":"水着"}, 
+  {"v":"tags/school-uniform/","n":"校服"}, 
+  {"v":"tags/cheongsam/","n":"旗袍"}, 
+  {"v":"tags/wedding-dress/","n":"婚纱"}, 
+  {"v":"tags/maid/","n":"女僕"}, 
+  {"v":"tags/kimono/","n":"和服"}, 
+  {"v":"tags/stockings/","n":"吊带袜"}, 
+  {"v":"tags/bunny-girl/","n":"兔女郎"}, 
+  {"v":"tags/Cosplay/","n":"Cosplay"}
+]}],
+"tags/suntan/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/suntan/","n":"黑肉"}, 
+  {"v":"tags/tall/","n":"长身"}, 
+  {"v":"tags/flexible-body/","n":"软体"}, 
+  {"v":"tags/small-tits/","n":"贫乳"}, 
+  {"v":"tags/loli/","n":"萝莉"}, 
+  {"v":"tags/beautiful-leg/","n":"美腿"}, 
+  {"v":"tags/beautiful-butt/","n":"美尻"}, 
+  {"v":"tags/tattoo/","n":"纹身"}, 
+  {"v":"tags/short-hair/","n":"短髮"}, 
+  {"v":"tags/hairless-pussy/","n":"白虎"}, 
+  {"v":"tags/mature-woman/","n":"熟女"}, 
+  {"v":"tags/big-tits/","n":"巨乳"}, 
+  {"v":"tags/girl/","n":"少女"}
+]}],
+
+
+
+
+
+"tags/facial/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/facial/","n":"颜射"}, 
+  {"v":"tags/footjob/","n":"脚交"}, 
+  {"v":"tags/anal-sex/","n":"肛交"}, 
+  {"v":"tags/spasms/","n":"痉挛"}, 
+  {"v":"tags/squirting/","n":"潮吹"}, 
+  {"v":"tags/deep-throat/","n":"深喉"}, 
+  {"v":"tags/kiss/","n":"接吻"}, 
+  {"v":"tags/cum-in-mouth/","n":"口爆"}, 
+  {"v":"tags/blowjob/","n":"口交"}, 
+  {"v":"tags/tit-wank/","n":"乳交"}, 
+  {"v":"tags/creampie/","n":"中出"}
+]}],
+"tags/outdoor/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/outdoor/","n":"露出"}, 
+  {"v":"tags/gang-rape/","n":"轮姦"}, 
+  {"v":"tags/tune/","n":"调教"}, 
+  {"v":"tags/bondage/","n":"綑绑"}, 
+  {"v":"tags/quickie/","n":"瞬间插入"}, 
+  {"v":"tags/chikan/","n":"痴汉"}, 
+  {"v":"tags/chizyo/","n":"痴女"}, 
+  {"v":"tags/masochism-guy/","n":"男M"}, 
+  {"v":"tags/crapulence/","n":"泥醉"}, 
+  {"v":"tags/soapland/","n":"泡姬"}, 
+  {"v":"tags/breast-milk/","n":"母乳"}, 
+  {"v":"tags/piss/","n":"放尿"}, 
+  {"v":"tags/massage/","n":"按摩"}, 
+  {"v":"tags/rape/","n":"强姦"}, 
+  {"v":"tags/gangbang/","n":"多P"}, 
+  {"v":"tags/torture/","n":"刑具"}, 
+  {"v":"tags/insult/","n":"凌辱"}, 
+  {"v":"tags/10-times-a-day/","n":"一日十回"}, 
+  {"v":"tags/3p/","n":"3P"}
+]}]
+,
+"tags/black/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/black/","n":"黑人"}, 
+  {"v":"tags/ugly-man/","n":"丑男"}, 
+  {"v":"tags/temptation/","n":"诱惑"}, 
+  {"v":"tags/virginity/","n":"童贞"}, 
+  {"v":"tags/time-stop/","n":"时间停止"}, 
+  {"v":"tags/avenge/","n":"复仇"}, 
+  {"v":"tags/age-difference/","n":"年龄差"}, 
+  {"v":"tags/giant/","n":"巨汉"}, 
+  {"v":"tags/love-potion/","n":"媚药"}, 
+  {"v":"tags/sex-beside-husband/","n":"夫目前犯"}, 
+  {"v":"tags/affair/","n":"出轨"}, 
+  {"v":"tags/hypnosis/","n":"催眠"}, 
+  {"v":"tags/hidden-cam/","n":"偷拍"}, 
+  {"v":"tags/incest/","n":"不伦"}, 
+  {"v":"tags/rainy-day/","n":"下雨天"}, 
+  {"v":"tags/ntr/","n":"NTR"}
+
+]}],
+"tags/club-hostess-and-sex-worker/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/club-hostess-and-sex-worker/","n":"风俗娘"}, 
+  {"v":"tags/doctor/","n":"医生"}, 
+  {"v":"tags/fugitive/","n":"逃犯"}, 
+  {"v":"tags/nurse/","n":"护士"}, 
+  {"v":"tags/teacher/","n":"老师"}, 
+  {"v":"tags/flight-attendant/","n":"空姐"}, 
+  {"v":"tags/team-manager/","n":"球队经理"}, 
+  {"v":"tags/widow/","n":"未亡人"}, 
+  {"v":"tags/detective/","n":"搜查官"}, 
+  {"v":"tags/couple/","n":"情侣"}, 
+  {"v":"tags/housewife/","n":"家政妇"}, 
+  {"v":"tags/private-teacher/","n":"家庭教师"}, 
+  {"v":"tags/idol/","n":"偶像"}, 
+  {"v":"tags/wife/","n":"人妻"}, 
+  {"v":"tags/female-anchor/","n":"主播"}, 
+  {"v":"tags/ol/","n":"OL"}
+  ]}],
+  
+"tags/magic-mirror/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/magic-mirror/","n":"魔镜号"}, 
+  {"v":"tags/tram/","n":"电车"}, 
+  {"v":"tags/first-night/","n":"处女"}, 
+  {"v":"tags/prison/","n":"监狱"}, 
+  {"v":"tags/hot-spring/","n":"温泉"}, 
+  {"v":"tags/bathing-place/","n":"洗浴场"}, 
+  {"v":"tags/swimming-pool/","n":"泳池"}, 
+  {"v":"tags/car/","n":"汽车"}, 
+  {"v":"tags/toilet/","n":"厕所"}, 
+  {"v":"tags/school/","n":"学校"}, 
+  {"v":"tags/library/","n":"图书馆"}, 
+  {"v":"tags/gym-room/","n":"健身房"}, 
+  {"v":"tags/store/","n":"便利店"}
+  ]}]
+,
+"tags/debut-retires/":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"tags/video-recording/","n":"录像"}, 
+  {"v":"tags/debut-retires/","n":"处女作/引退作"}, 
+  {"v":"tags/variety-show/","n":"综艺"}, 
+  {"v":"tags/festival/","n":"节日主题"}, 
+  {"v":"tags/thanksgiving/","n":"感谢祭"}, 
+  {"v":"tags/more-than-4-hours/","n":"4小时以上"}
+
+]}]
+
+}
+}

@@ -1,5 +1,21 @@
 [
-{"name":"范明明OfficalSite","url":"https://live.fanmingming.com/tv/m3u/global.m3u"},
-{"name":"范明明GitHub","url":"https://mirror.ghproxy.com/raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u"},
-{"name":"范明明IPV6","url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"}
+	{"name":"肥羊国内直播","url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tv.m3u"},
+	{"name":"肥羊TPTV","url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/tptv.m3u"},
+	{"name":"肥羊广东联通","url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/gdcucc.m3u"},
+	{"name":"肥羊B站直播","url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/bililive.m3u"},
+	{"name":"肥羊虎牙一起看","url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/huyayqk.m3u"},
+	{"name":"肥羊斗鱼一起看","url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/douyuyqk.m3u"},
+	{"name":"肥羊YY轮播","url":"http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35455/yylunbo.m3u"},
+	{"name":"范明明OfficalSite","url":"http://127.0.0.1:10079/c/3600/proxy/https://live.fanmingming.com/tv/m3u/global.m3u"},
+	{"name":"范明明GitHub","url":"http://127.0.0.1:10079/c/3600/proxy/https://mirror.ghproxy.com/raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u"},
+	{"name":"范明明IPV6","url":"http://127.0.0.1:10079/c/3600/proxy/https://live.fanmingming.com/tv/m3u/ipv6.m3u"},
+	{"name":"PixMan.4GTV","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/4gtv.m3u"},
+	{"name":"PixMan.ITV","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/itv.m3u"},
+	{"name":"PixMan.TPTV","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/tptv.m3u"},
+	{"name":"PixMan.YSP","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/ysp.m3u"},
+	{"name":"PixMan.MyTVSuper","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/mytvsuper.m3u"},
+	{"name":"PixMan.BeeSport","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/beesport.m3u"},
+	{"name":"PixMan.TheTV","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/thetv.m3u"},
+	{"name":"PixMan.Hami","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/hami.m3u"},
+	{"name":"PixMan.DLHD","url":"http://127.0.0.1:10079/c/3600/null/http://192.168.101.2:5050/dlhd.m3u"}
 ]

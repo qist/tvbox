@@ -1,0 +1,72 @@
+{
+//番号鸽最新地址https://github.com/landavid951/javdove
+//请选择最新地址
+
+//大陆地址 https://9527.rocks/bxQE5g
+
+//大陆地址2 https://9527.rocks/Easmw9
+
+//海外永久地址 https://www.javdove.com/
+
+//永久地址发布站
+
+//地址1: https://9527.rocks/y6sSM6
+
+//地址2: https://9527.rocks/X86TEJ
+
+//地址3: https://9527.rocks/dpkE4p
+
+"规则名": "番号鸽-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "Mozilla/5.0 (Linux; Android 10; moto g(7) play) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://www.javdove.com/videos?o=bw&page={catePg}",
+"首页列表数组规则": ".col-md-9",
+"首页片单列表数组规则": ".col-xs-6",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "img&&alt",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&src",
+"首页片单副标题": ".duration&&Text",
+"首页片单链接加前缀": "https://www.javdove.com",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://www.javdove.com/{cateId}?page={catePg}",
+"分类名称": "无码&日本AV&人妻&巨乳&素人&制服&按摩&BDSM&NTR&企划剧情&巨尻美臀&潮吹&少女&女同性戀&FC2&动画&鸽币精选&国产自拍&番号鸽&角色扮演&多人滥交&騎乘位&中文字幕&OL&丰满肉感&中出&少女妹妹&偷拍&自慰&口交&颜射&肛交&欧美&网友推荐&颅内高潮&写真&韩国&野外露出&热门gif出处&",
+"分类名称替换词": "videos/uncensored&videos/mature-milf&videos/wife&videos/big-boobs&videos/amateur&videos/work&videos/massage&videos/bdsm&videos/ntr&videos/drama&videos/big-ass&videos/squirting&videos/teen&videos/lesbian&videos/fc2&videos/hentai&videos/japanavgirls&videos/selfcam&videos/javdove&videos/cosplay&videos/group-sex-3p&videos/cowgirl-riding&videos/chinese&videos/ol-officelady&videos/bbw-chubby&videos/creampie&videos/tiny-small&videos/stealthie&videos/masturbation&videos/blowjob&videos/cumshot&videos/anal&videos/western&videos/recommend&videos/asmr&videos/portfolio&videos/korean&videos/outdoor&videos/gif&",
+"分类截取模式": "1",
+"分类列表数组规则": ".col-md-9&&.col-xs-6",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "img&&alt",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&src",
+"分类片单副标题": "'⏱️'+.duration&&Text+.videoBox-action&&span&&Text",
+"分类片单链接加前缀": "https://www.javdove.com",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "https://www.javdove.com/search/videos?search_query={wd}&page={catePg}",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".col-md-9&&.col-xs-6",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&src",
+"搜索片单标题": "img&&alt",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": ".duration&&Text",
+"搜索片单链接加前缀": "https://www.javdove.com",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com"
+}

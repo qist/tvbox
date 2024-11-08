@@ -1,0 +1,153 @@
+{
+   //永久地址发布页https://gyn.xxkk7.com/323/
+    "规则名": "18jav-XYQHiker",
+    "规则作者": "飞鱼",
+    "请求头参数":"手机",
+    "网页编码格式":"UTF-8",
+    "图片是否需要代理":"0",
+    "是否开启获取首页数据":"1",
+	 //首页推荐数据获取链接
+    "首页推荐链接": "https://18jav.tv/label/new/",
+    //首页推荐列表数组截取。
+    "首页列表数组规则": "body",
+    //首页推荐片单列表数组定位。
+    "首页片单列表数组规则": ".gap-5&&.group",
+    //首页推荐片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
+    "首页片单是否Jsoup写法":"1",
+    //下面这六个首页数据如果不填将调用分类那截取的配置（片单写法需一致且取值也得一致）。
+    //首页片单标题
+    "首页片单标题": ".text-nord4&&Text",
+    //首页推荐片单链接
+    "首页片单链接": "a&&href",
+    //首页推荐片单图片，支持自定义图片链接
+    "首页片单图片": "img&&data-src",
+    //首页推荐片单副标题
+    "首页片单副标题":".absolute,1&&Text+.absolute,0&&Text",
+    //首页推荐片单链接补前缀  
+    "首页片单链接加前缀": "https://18jav.tv",
+    //首页推荐片单链接补后缀
+    "首页片单链接加后缀": "",
+    "分类起始页码": "1",
+    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+	"分类链接": "https://18jav.tv/{cateId}&function=get_block&from={catePg}",
+    "分类名称": "最新&热门&主题分类",
+    "分类名称替换词": "latest-updates?sort_by=release_at&hot?sort_by=views&categories/chinese-subtitle?sort_by=release_at&",
+    //"筛选数据":{},
+    "分类截取模式": "1",
+    "分类列表数组规则": "#list_videos_common_videos_list&&.col-6.col-sm-4.col-lg-3",
+    "分类片单是否Jsoup写法":"1",
+    "分类片单标题": ".title&&Text",
+    "分类片单链接": "a&&href",//替换规则
+    "分类片单图片": "img&&data-src",
+    "分类片单副标题":".label&&Text",
+    "分类片单链接加前缀": "https://18jav.tv",
+    "分类片单链接加后缀": "",
+    "搜索请求头参数":"User-Agent$PC_UA",
+    
+    "搜索链接": "https://18jav.tv/search/{wd}/",
+    "POST请求数据":"0",
+    "搜索截取模式": "1",
+    "搜索列表数组规则": "#list_videos_videos_list_search_result&&.col-6.col-sm-4.col-lg-3",
+    "搜索片单是否Jsoup写法":"1",
+    "搜索片单图片": "img&&data-src",
+    "搜索片单标题": ".title&&Text",
+    "搜索片单链接": "a&&href",
+    "搜索片单副标题":".label&&Text",
+    "搜索片单链接加前缀": "",
+    "搜索片单链接加后缀": "",
+       //--------
+         "链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+//-------
+    "详情是否Jsoup写法":"0",
+    "类型详情": ".text-muted&&a&&Text",
+    "年代详情": "",
+    "地区详情": "",
+    "演员详情": "</a>：&&</p>",
+    "简介详情": "概要：</span>&&</p>",
+    "线路列表数组规则": ".stui-pannel__head&&h3",
+    "线路标题": ".title&&Text",
+    "播放列表数组规则": ".stui-content__playlist",
+    "选集列表数组规则": "li",
+    "选集标题链接是否Jsoup写法":"1",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "https://gbyool.yjyh5.makeup",
+    "选集链接加后缀": "",
+    "分析MacPlayer":"0",
+    "是否开启手动嗅探":"1",
+    "手动嗅探视频链接关键词":".m3u8#.mp4",
+    "手动嗅探视频链接过滤词":".html#=http",
+	
+	"筛选数据":{
+"categories/chinese-subtitle?sort_by=release_at":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"categories/chinese-subtitle?sort_by=release_at","n":"中文字幕"}, 
+{"v":"categories/roleplay?sort_by=release_at","n":"角色劇情"}, 
+{"v":"categories/uncensored?sort_by=release_at","n":"無碼解放"}, 
+{"v":"categories/taiwan-av?sort_by=release_at","n":"台灣AV"}, 
+{"v":"categories/uniform?sort_by=release_at","n":"制服誘惑"}, 
+{"v":"categories/sex-only?sort_by=release_at","n":"直接開啪"}, 
+{"v":"categories/pantyhose?sort_by=release_at","n":"絲襪"}, 
+{"v":"categories/groupsex?sort_by=release_at","n":"多P群交"}, 
+{"v":"categories/bdsm?sort_by=release_at","n":"主奴調教"}, 
+{"v":"categories/rape?sort_by=release_at","n":"強姦"}, 
+{"v":"categories/pov?sort_by=release_at","n":"男友視角"}, 
+{"v":"categories/hidden-cam?sort_by=release_at","n":"偷拍"}, 
+{"v":"categories/lesbian?sort_by=release_at","n":"女同歡愉"} 
+ ]}],
+"categories/chinese-subtitle":[
+{"key":"by","name":"最近更新","value":[
+{"v":"release_at","n":"最近更新"},
+{"v":"stars","n":"最近佳作"},
+{"v":"views","n":"最多观看"}]}
+
+],
+"21":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"21","n":"全部"},
+{"v":"31","n":"人妻"},
+{"v":"44","n":"素人"},
+{"v":"46","n":"口爆颜射"},
+{"v":"47","n":"萝莉少女"},
+{"v":"48","n":"美乳巨乳"},
+{"v":"52","n":"制服诱惑"},
+{"v":"57","n":"调教"},
+{"v":"58","n":"出轨"},
+{"v":"101","n":"有码精品"}
+]}],
+"22":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"22","n":"全部"},
+{"v":"102","n":"无码精品"}
+]}],
+"23":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"23","n":"全部"},
+{"v":"104","n":"欧美精品"}
+]}],
+"24":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"24","n":"全部"},
+{"v":"103","n":"动漫精品"}
+]}]
+,
+"25":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"views","n":"全部"},
+{"v":"39","n":"综合三级"}
+
+]}],
+"hot":[
+  {"key":"cateId","name":"分类","value":[
+{"v":"views","n":"全部"},
+{"v":"51","n":"日本中字"}
+
+
+]}]
+
+}
+}

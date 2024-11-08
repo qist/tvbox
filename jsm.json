@@ -499,7 +499,7 @@
 {"key":"drpy2_js_OmoFun[漫]","name":"影视 | OmoFun","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":1,"order_num":0,"ext":"./drpy_js/OmoFun[漫].js"},
 
 {"key":"动漫巴士","name":"动漫｜巴士","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/动漫巴士.js"}
-,{"key":"动漫巴士2","name":"动漫｜巴士(鱼)","type":3,"api":"csp_Dm84","jar":"./jar/danmu.jar;md5;","searchable":1,"quickSearch":1,"filterable":1,"timeout":10}
+,{"key":"动漫巴士2","name":"动漫｜巴士(鱼)","type":3,"api":"csp_Dm84","jar":"./jar/danmu.jar;","searchable":1,"quickSearch":1,"filterable":1,"timeout":10}
 ,{"key":"Dm84","name":"动漫｜巴士(饭)","type":3,"api":"csp_Dm84","playerType":2,"searchable":1,"quickSearch":1,"changeable":1}
 ,{"key":"异世界","name":"动漫｜异世界","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"ext":"./drpy_js/异世界.js"}
 ,{"key":"Ysj","name":"动漫｜异世界(飯源)","type":3,"api":"csp_Ysj","playerType":2,"searchable":1,"quickSearch":1,"changeable":1}
@@ -514,23 +514,23 @@
 ,{"key":"drpy_js_爱弹幕","name":"动漫｜爱弹幕","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/爱弹幕.js"}
 ,{"key":"drpy_js_路漫漫","name":"动漫｜路漫漫","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/路漫漫.js"}
 ,{"key":"hipy_js_大米动漫[漫]","name":"动漫｜大米","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/大米动漫[漫].js"}
-,{"key":"hipy_js_七色番[漫]","name":"动漫｜七色番","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/七色番[漫].js"}
+,{"key":"hipy_js_七色番[漫]","name":"480. 动漫｜七色番","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/七色番[漫].js"}
 ,{"key":"奇米动漫","name":"动漫｜奇米","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/奇米动漫.js"}
 ,{"key":"怡萱动漫","name":"动漫｜怡萱","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/怡萱动漫.js"}
-,{"key":"樱花动漫","name":"480. 动漫｜樱花(DP)","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/樱花动漫.js"}
+,{"key":"樱花动漫","name":"动漫｜樱花(DP)","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/樱花动漫.js"}
 ,{"key":"csp_XBiu櫻花動漫","name":"动漫｜櫻花(XB)","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.857yhw.com/show/{cateId}--------{catePg}---{year}.html","分类":"動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6"}}
 ,{"key":"魔都","name":"动漫｜魔都(PG)","type":0,"api":"https://caiji.moduapi.cc/api.php/provide/vod/at/xml/","searchable":1,"changeable":0,"categories":["国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影","里番动漫"]}
 ,{"key":"魔都资源","name":"动漫｜魔都(XB)","type":1,"api":"https://caiji.moduapi.cc/api.php/provide/vod","jar":"./jar/panda.jar","searchable":1,"changeable":1}
 ,{"key":"萝卜动漫","name":"动漫｜萝卜","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"影片类型":"分类：&&</a>","简介":"请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","分类url":"https://985dm.com/list/{cateId}-{catePg}.html","分类":"国产动漫$3#日本动漫$2#欧美动漫$4#动漫电影$1#短剧$20"}}
 ,{"key":"hipy_js_NT动漫[漫]","name":"动漫｜牛顿","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/NT动漫[漫].js"}
 ,{"key":"hipy_js_OmoFun[漫]","name":"动漫｜OmoFun","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/OmoFun[漫].js"}
-,{"key":"hipy_js_次元城动漫[漫]","name":"动漫｜次元城｜T3","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/次元城动漫[漫].js"}
+,{"key":"hipy_js_次元城动漫[漫]","name":"490. 动漫｜次元城","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/次元城动漫[漫].js"}
 ,{"key":"hipy_js_奇米动漫[漫]","name":"动漫｜奇米","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/奇米动漫[漫].js"}
 ,{"key":"Anime1","name":"动漫｜日本","type":3,"api":"csp_Anime1","playerType":2,"searchable":1,"quickSearch":1,"changeable":1}
 ,{"key":"hipy_js_怡萱动漫[漫]","name":"动漫｜怡萱","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/怡萱动漫[漫].js"}
 ,{"key":"hipy_js_嗷呜动漫","name":"动漫｜嗷呜动漫","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/嗷呜动漫.js"}
 ,{"key":"大米动漫","name":"动漫｜大米","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/大米动漫.js"}
-,{"key":"hipy_js_樱花动漫[漫]","name":"490. 动漫｜樱花","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/樱花动漫[漫].js"}
+,{"key":"hipy_js_樱花动漫[漫]","name":"动漫｜樱花","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/樱花动漫[漫].js"}
 ,
 
 {"key":"drpy_js_大师兄影视","name":"起飞 | 大师兄影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大师兄影视.js"},

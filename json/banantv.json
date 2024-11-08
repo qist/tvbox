@@ -1,0 +1,186 @@
+{
+"规则名": "nanantv-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "PC_UA",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://banan.tv",
+"首页列表数组规则": "#site-content&&.container",
+"首页片单列表数组规则": ".col-6",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "img&&alt",
+"首页片单链接": "a&&href",
+"首页片单图片": "a&&img&&data-src",
+"首页片单副标题": ".label&&Text",
+"首页片单链接加前缀": "https://banan.tv",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://banan.tv/{cateId}-{catePg}.html",
+"分类名称": "分类&选片&AV番号&",
+"分类名称替换词": "vodtype/25&topicdetail-18&topicdetail-8&",
+"分类截取模式": "1",
+"分类列表数组规则": "#mdym&&.col-6",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "img&&alt",
+"分类片单链接": "a&&href",
+"分类片单图片": "a&&img&&data-src",
+"分类片单副标题": ".label&&Text",
+"分类片单链接加前缀": "https://banan.tv",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "https://banan.tv/index.php/ajax/suggest?mid=1&wd={wd}",
+"POST请求数据": "",
+"搜索截取模式": "0",
+"搜索列表数组规则": "list",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "pic",
+"搜索片单标题": "name",
+"搜索片单链接": "id",
+"搜索片单副标题": "",
+"搜索片单链接加前缀": "https://banan.tv/vodplay/",
+"搜索片单链接加后缀": "-1-1.html",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com",
+
+
+"筛选数据":{
+"vodtype/25":[
+{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"n":"日本AV","v":"vodtype/22"},
+{"n":"91porn視頻","v":"vodtype/23"},
+{"n":"免费H漫","v":"vodtype/24"},
+{"n":"國產AV麻豆傳媒","v":"vodtype/25"},
+{"n":"FC2PPV","v":"vodtype/28"},
+{"n":"網紅主播","v":"vodtype/29"},
+{"n":"无码A片","v":"vodtype/66"},
+{"n":"素人AV","v":"vodtype/63"},
+{"n":"國產自拍探花","v":"vodtype/57"},
+{"n":"91国产自拍","v":"vodtype/67"},
+{"n":"hongkongdoll玩偶姐姐","v":"vodtype/65"},
+{"n":"网红流出","v":"vodtype/68"},
+{"n":"主播直播AV","v":"vodtype/70"},
+{"n":"自拍偷拍","v":"vodtype/74"},
+{"n":"东南亚A片","v":"vodtype/76"},
+{"n":"韩国AV","v":"vodtype/72"},
+{"n":"AV剧情解说","v":"vodtype/71"}
+]
+}
+],
+
+"topicdetail-18":[
+{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"v":"topicdetail-16","n":"杏吧视频"},
+{"v":"topicdetail-14","n":"七天探花"},
+{"v":"topicdetail-6","n":"松下纱荣子"},
+{"v":"topicdetail-5","n":"玩偶姐姐"},
+{"v":"topicdetail-17","n":"探花阿姨"},
+{"v":"topicdetail-18","n":"麻豆传媒"},
+{"v":"topicdetail-21","n":"糖心volg"},
+{"v":"topicdetail-22","n":"金先生"},
+{"v":"topicdetail-23","n":"果冻传媒"},
+{"v":"topicdetail-24","n":"天美传媒"},
+{"v":"topicdetail-25","n":"沈娜娜"},
+
+{"v":"topicdetail-9","n":"FC2PPV"},
+{"v":"topicdetail-26","n":"秀人网"},
+{"v":"topicdetail-7","n":"桃乃木香奈"},
+{"v":"topicdetail-10","n":"日向真凛"},
+{"v":"topicdetail-11","n":"爱豆传媒"},
+{"v":"topicdetail-15","n":"肌肉佬探花"},
+{"v":"topicdetail-13","n":"小宝寻花"},
+{"v":"topicdetail-33","n":"三上悠亞"},
+{"v":"topicdetail-34","n":"吴梦梦"},
+{"v":"topicdetail-36","n":"兔子先生"},
+{"v":"topicdetail-37","n":"91沈先生"},
+
+
+{"v":"topicdetail-38","n":"雀儿满天飞"},
+{"v":"topicdetail-39","n":"锤子探花"},
+{"v":"topicdetail-40","n":"午夜寻花"},
+{"v":"topicdetail-41","n":"人妻"},
+{"v":"topicdetail-42","n":"教師"},
+{"v":"topicdetail-43","n":"制服"},
+{"v":"topicdetail-44","n":"萝莉"},
+{"v":"topicdetail-45","n":"巨乳"},
+{"v":"topicdetail-46","n":"女上司"},
+{"v":"topicdetail-12","n":"藤森里穂"},
+{"v":"topicdetail-20","n":"日本AV新片"},
+
+
+{"v":"topicdetail-47","n":"91猫先生"},
+{"v":"topicdetail-48","n":"自拍偷拍"},
+{"v":"topicdetail-49","n":"痴汉痴女"},
+{"v":"topicdetail-50","n":"夫目前犯"},
+{"v":"topicdetail-51","n":"中文字幕"},
+{"v":"topicdetail-19","n":"美女援交"},
+{"v":"topicdetail-53","n":"松本一香"},
+{"v":"topicdetail-54","n":"白桃花"},
+{"v":"topicdetail-55","n":"葵司"},
+{"v":"topicdetail-56","n":"相泽南"},
+{"v":"topicdetail-57","n":"二階堂夢"},
+
+{"v":"topicdetail-58","n":"桥本有菜"},
+{"v":"topicdetail-59","n":"JULIA"},
+{"v":"topicdetail-60","n":"神宫寺奈绪"},
+{"v":"topicdetail-61","n":"篠田优"},
+{"v":"topicdetail-62","n":"沙月芽衣"},
+{"v":"topicdetail-63","n":"樱空桃"},
+{"v":"topicdetail-64","n":"高桥圣子"},
+{"v":"topicdetail-65","n":"河北彩花"},
+{"v":"topicdetail-66","n":"深田咏美"},
+{"v":"topicdetail-67","n":"铃村爱里"},
+{"v":"topicdetail-68","n":"七泽米亚"},
+
+
+{"v":"topicdetail-69","n":"波多野结衣"},
+{"v":"topicdetail-70","n":"天海翼"},
+{"v":"topicdetail-71","n":"铃原美蓝"},
+{"v":"topicdetail-72","n":"美竹铃"},
+{"v":"topicdetail-73","n":"美裡有纱"},
+{"v":"topicdetail-74","n":"白木優子"},
+{"v":"topicdetail-75","n":"小倉由菜"},
+{"v":"topicdetail-76","n":"一本道"},
+{"v":"topicdetail-77","n":"愛弓涼"},
+{"v":"topicdetail-78","n":"木下凛凛子"}
+]
+}
+]
+,
+"topicdetail-8":[
+{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"v":"topicdetail-8","n":"番号FSDSS"},
+{"v":"topicdetail-28","n":"番号ABW"},
+{"v":"topicdetail-29","n":"番号SSNI"},
+{"v":"topicdetail-30","n":"番号IPX"},
+{"v":"topicdetail-31","n":"番号JUL"},
+{"v":"topicdetail-32","n":"番号STARS"},
+{"v":"topicdetail-35","n":"番号MIDE"},
+{"v":"topicdetail-52","n":"番号259luxu"},
+{"v":"topicdetail-27","n":"番号SSIS"},
+{"v":"topicdetail-79","n":"番号300MIUM"}
+]
+}
+]
+}
+
+}

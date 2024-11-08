@@ -1,0 +1,77 @@
+// 分类 ++
+// 修复所有分类的第一个 detail内容为空
+{
+  "name": "mdspmaomimao",
+  //"url": "https://51222.cc",
+  //75333.cc
+  "url": "http://www.51222.cc",
+  "tihuan": "dd520.cc",
+  "User": "空",
+  "shouye": "1",
+
+  //"fenlei": "电视剧$/show/2-#电影$/show/1-#综艺$/show/3-#动漫$/show/4-#动作片$/show/1---动作-----#喜剧片$/show/1---喜剧-----#爱情片$/show/1---爱情-----#科幻片$/show/1---科幻-----#奇幻片$/show/1---奇幻-----#恐怖片$/show/1---恐怖-----#剧情片$/show/1---剧情-----#战争片$/show/1---战争-----#冒险片$/show/1---冒险-----#国产剧$/show/2-中国大陆-------#台剧$/show/2-中国台湾-------#港剧$/show/2-中国香港-------#韩剧$/show/2-韩国-------#日剧$/show/2-日本-------#美剧$/show/2-美国-------#英剧$/show/2-英国-------",
+  "fenlei": "传媒学院$/index.php/vod/show/id/1/page/#麻豆原创$/index.php/vod/show/id/6/page/#91制片厂$/index.php/vod/show/id/7/page/#天美传媒$/index.php/vod/show/id/8/page/#蜜桃影像$/index.php/vod/show/id/9/page/#星空传媒$/index.php/vod/show/id/10/page/#皇家华人$/index.php/vod/show/id/11/page/#精东影业$/index.php/vod/show/id/12/page/#乐播传媒$/index.php/vod/show/id/13/page/#成人头条$/index.php/vod/show/id/14/page/#兔子先生$/index.php/vod/show/id/15/page/#杏吧原创$/index.php/vod/show/id/16/page/#日本视频$/index.php/vod/show/id/2/page/#欧美视频$/index.php/vod/show/id/3/page/#动漫视频$/index.php/vod/show/id/4/page/#国产视频$/index.php/vod/show/id/5/page/",
+  "houzhui": ".html",
+
+  "shifouercijiequ": "0",
+  "jiequqian": "空",
+  "jiequhou": "空",
+  "jiequshuzuqian": "class=\"stui-vodlist__item",
+  "jiequshuzuhou": "</li",
+  "tupianqian": "data-original=\"",
+  "tupianhou": "\"",
+  "biaotiqian": "title=\"",
+  "biaotihou": "\"",
+  "lianjieqian": "href=\"",
+  "lianjiehou": "\"",
+
+  //新版Biubiu参数：副标题 (不需要的话，就不填写或者删除副标题2个字段也可以。)
+  "fubiaotiqian": ">",
+  "fubiaotihou": "</span>",
+
+
+  "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+  "sousuohou": "&limit=500",
+  "sousuohouzhui": "/index.php/vod/detail/id/",
+  "ssmoshi": "0",
+  "sousuoshifouercijiequ": "0",
+  "jspic": "pic",
+  "jsname": "name",
+  "jsid": "id",
+  //"jsurl":"url",
+  "ssjiequqian": "空",
+  "ssjiequhou": "空",
+  "ssjiequshuzuqian": "空",
+  "ssjiequshuzuhou": "空",
+  "sstupianqian": "空",
+  "sstupianhou": "空",
+  "ssbiaotiqian": "空",
+  "ssbiaotihou": "空",
+  "sslianjieqian": "空",
+  "sslianjiehou": "空",
+
+  "bfshifouercijiequ": "1",
+  "bfjiequqian": "class=\"stui-content__playlist clearfix",
+  "bfjiequhou": "</ul>",
+  "bfjiequshuzuqian": "<li",
+  "bfjiequshuzuhou": "</li>",
+
+  "zhuangtaiqian": "更新：</span>",
+  "zhuangtaihou": "</div>",
+  "daoyanqian": "导演：</span>",
+  "daoyanhou": "</div>",
+  "zhuyanqian": "主演：</span>",
+  "zhuyanhou": "</div>",
+  "juqingqian": "n-content\"><p>",
+  "juqinghou": "</p>",
+
+  "bfyshifouercijiequ": "0",
+  "bfyjiequqian": "空",
+  "bfyjiequhou": "空",
+  "bfyjiequshuzuqian": "<a",
+  "bfyjiequshuzuhou": "/a>",
+  "bfbiaotiqian": ">",
+  "bfbiaotihou": "<",
+  "bflianjieqian": "href=\"",
+  "bflianjiehou": "\""
+}

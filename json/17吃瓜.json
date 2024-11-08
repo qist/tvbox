@@ -1,0 +1,60 @@
+{
+//91 吃瓜最新地址 https://17cg.me/
+//91 吃瓜备用地址 https://17chigua.tv/
+//发布页https://ste8rv.sp17xl.vip/
+//https://873505.hk
+//https://gttyhl.com
+//https://www.k3.pe/
+"规则名": "17吃瓜-xyqh",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "0",
+"首页推荐链接": "https://htrd4l.pdfgfy.icu",
+"首页列表数组规则": ".stui-vodlist.clearfix",
+"首页片单列表数组规则": "li:not(:contains(注册即送)):not(:contains(澳门威尼斯人官网)):not(:contains(24小时在线匹配首次免费)):not(:contains(正宗莞式服务一条龙)):not(:contains(少女直播破处.高潮抽搐)):not(:contains(17吃瓜同城约炮)):not(:contains(17吃瓜春药商城))",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": ".title&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "a&&data-original",
+"首页片单副标题": ".pic-text.text-right&&Text",
+"首页片单链接加前缀": "https://htrd4l.pdfgfy.icu",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://rouv98.xyz/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://htrd4l.pdfgfy.icu{cateId}{catePg}/",
+"分类名称": "首页&今日大瓜&热搜大瓜&影视短剧&明星黑料&人妻少妇&自拍偷拍&老师邻居&网红黑料&学生校园&家庭乱伦&强奸特刊&重口怪癖",
+"分类名称替换词": "/page/&/category/今日大瓜/&/category/热搜大瓜/&/category/影视短剧/&/category/明星黑料/&/category/人妻少妇/&/category/自拍偷拍/&/category/老师邻居/&/category/网红黑料/&/category/学生校园/&/category/家庭乱伦/&/category/强奸特刊/&/category/重口怪癖/",
+"分类截取模式": "1",
+"分类列表数组规则": ".row&&article:not(:contains(福利推荐)):not(:contains(17吃瓜同城约炮)):not(:contains(17吃瓜春药商城))",
+"分类片单是否Jsoup写法": "0",
+"分类片单标题": "bold\">&&</h2>",
+"分类片单链接": "href=\"&&\">",
+"分类片单图片": "loadBannerDirect('&&'",
+"分类片单副标题": ":00\">&&</",
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$手机",
+"搜索链接": "http://873505.hk/search/{wd}/",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".row:has(article)&&article",
+"搜索片单是否Jsoup写法": "0",
+"搜索片单图片": "loadBannerDirect('&&'",
+"搜索片单标题": "bold\">&&</h2>",
+"搜索片单链接": "href=\"&&\">",
+"搜索片单副标题": "年&&日",
+"搜索片单链接加前缀": "",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com"
+}

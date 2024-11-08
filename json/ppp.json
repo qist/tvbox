@@ -1,0 +1,175 @@
+{
+//apple24.cc
+//回家地址 → https://ppp.porn/数字改
+//https://ppp.porn/
+"规则名": "ppp-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://ppp.porn",
+"首页列表数组规则": ".max-width-lg",
+"首页片单列表数组规则": ".item",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "h4&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&data-src",
+"首页片单副标题": "'⏱️'+.card-video__duration&&Text+'👁️'+.num,0&&Text+'❤️'+.num,1&&Text",
+"首页片单链接加前缀": "",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodshow/{cateId}-{catePg}/",
+"分类链接": "https://ppp.porn/{cateId}/{catePg}/",
+"分类名称": "最新&🔥热门🔥&系列&地区&主题&衣着",
+"分类名称替换词": "new&hot&categories/china-av&categories/china&categories/cosplay&categories/office-lady",
+"分类截取模式": "1",
+"分类列表数组规则": ".padding-bottom-md&&.item",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "h4&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&data-src",
+"分类片单副标题": "'⏱️'+.card-video__duration&&Text+'👁️'+.num,0&&Text+'❤️'+.num,1&&Text",
+
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "https://ppp.porn/search/{wd}/",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".padding-bottom-md&&.item",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&data-src",
+"搜索片单标题": "h4&&Text",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": "'⏱️'+.card-video__duration&&Text+'👁️'+.num,0&&Text+'❤️'+.num,1&&Text",
+"搜索片单链接加前缀": "",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+ "详情是否Jsoup写法":"0",
+    "类型详情": "<p>類型：&&</p>",
+    "年代详情": "<p>更新：&&</p>",
+    "地区详情": "",
+    "演员详情": "",
+    "简介详情": "",
+    "线路列表数组规则": ".play-btn-group&&.line",
+    "线路标题": "'📽️'+a&&Text+'📺'",
+    "播放列表数组规则": ".line",
+    "选集列表数组规则": "a",
+    "选集标题链接是否Jsoup写法":"1",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "https://ppp.porn",
+    "选集链接加后缀": "",
+   
+"筛选数据":{
+"categories/china-av":[
+  {"key":"cateId",
+  "name":"系列",
+  "value":[
+{"v":"categories/china-av","n":"中國AV"}, 
+{"v":"categories/japan-producer","n":"日本片商"}, 
+{"v":"categories/amateur","n":"素人自拍"}
+]}
+],
+"categories/china":[
+  {"key":"cateId",
+  "name":"地区",
+  "value":[
+{"v":"categories/china","n":"中國"}, 
+{"v":"categories/taiwan","n":"台灣"}, 
+{"v":"categories/japan","n":"日本"}, 
+{"v":"categories/se-asia","n":"東南亞"}, 
+{"v":"categories/korea","n":"韓國"}, 
+{"v":"categories/hongkong","n":"香港"}
+]}
+],
+"categories/cosplay":[
+{"key":"cateId",
+  "name":"主题",
+  "value":[
+{"v":"categories/cosplay","n":"Cosplay"}, 
+{"v":"categories/streamer","n":"主播"}, 
+{"v":"categories/first-person-pov","n":"主觀視角"}, 
+{"v":"categories/bdsm","n":"凌辱"}, 
+{"v":"categories/drama","n":"劇情"}, 
+{"v":"categories/threesome","n":"多P"}, 
+{"v":"categories/91-tanhua","n":"探花"}, 
+{"v":"categories/leaked","n":"流出"}, 
+{"v":"categories/uncensored","n":"無碼"}, 
+{"v":"categories/lesbian","n":"百合"}, 
+{"v":"categories/exhibitionists","n":"野外露出"}
+]}
+],
+"categories/office-lady":[
+{"key":"cateId",
+  "name":"衣着",
+  "value":[
+{"v":"categories/office-lady","n":"OL"}, 
+{"v":"categories/acg","n":"動漫"}, 
+{"v":"categories/costume","n":"古裝"}, 
+{"v":"categories/maid","n":"女僕"}, 
+{"v":"categories/student","n":"學生"}, 
+{"v":"categories/cheongsam","n":"旗袍"}, 
+{"v":"categories/kemonomimi","n":"獸耳"}, 
+{"v":"categories/yoga-pants","n":"瑜伽褲"}, 
+{"v":"categories/dolfin-shorts","n":"真理褲"}, 
+{"v":"categories/flight-attendant","n":"空姐"}, 
+{"v":"categories/pantyhose","n":"絲襪"}, 
+{"v":"categories/nurse","n":"護士"}, 
+{"v":"categories/knee-socks","n":"過膝襪"}
+]}
+],
+"/vodshow/4":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/5":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/20":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/22":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+]
+
+
+},
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8#.mp4",
+"手动嗅探视频链接过滤词": "baidu.com"
+}

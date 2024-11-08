@@ -1,0 +1,103 @@
+{
+ 
+"作者": "小可乐/2408/第一版",
+  
+"站名": "雅克电影",
+    
+"请求头": "User-Agent$MOBILE_UA",
+
+"编码": "UTF-8",
+
+"图片代理": "0",
+
+"直接播放": "0",
+
+"播放请求头": "",
+
+"嗅探词": ".mp4#.m3u8#.flv",
+
+"过滤词": "",
+
+
+"主页url": "https://www.scdongran.com",
+
+"首页": "120",
+
+"起始页": "1",
+
+"分类url": "/cid-{cateId}/{class}_{area}_{year}_{by}_{catePg}.html;;mrcd",
+
+"分类": "电影&剧集&综艺&动漫",
+
+"分类值": "film&tv&variety&cartoon",
+
+
+"数组": "hl-lazy\"&&</a>",
+
+"标题": "title=\"&&\"",
+
+"图片": "data-original=\"&&\"",
+
+"副标题": "remarks\">&&<",
+
+"链接": "href=\"&&\"[替换:.html>>/1-1.html]",
+
+
+"影片年代": "年份：&&</li>",
+
+"影片地区": "地区：&&</li>",
+
+"影片类型": "类型：&&</li>",
+
+"状态": "状态：&&</li>",
+
+"导演": "导演：&&</li>",
+
+"主演": "主演：&&</li>",
+
+"简介": "👶+简介：&&<br>",
+
+
+"线路数组": "hl-tabs-btn&&/a>[排序:LZ]",
+
+"线路标题": "👶+title=\"&&\"",
+
+"播放数组": "hl-plays-list&&</ul>",
+
+"播放列表": "<a&&/li>",
+
+"播放标题": ">&&</a",
+
+"播放链接": "href=\"&&\"",
+
+"跳转播放链接": "urlDecode(cmsPlayer*url=&&\")",
+
+
+"搜索请求头": "User-Agent$MOBILE_UA",
+
+"搜索url": "/soso/{wd}/{pg}.html",
+
+"搜索模式": "1",
+
+"搜索数组": "hl-lazy\"&&</a>",
+
+"搜索标题": "title=\"&&\"",
+
+"搜索图片": "data-original=\"&&\"",
+
+"搜索副标题": "remarks\">&&<",
+
+"搜索链接": "href=\"&&\"[替换:.html>>/1-1.html]",
+
+
+"筛选": "1",
+
+"剧情": "剧情$juqing#喜剧$xiju#爱情$aiqing#动作$dongzuo#惊悚$jingsong#犯罪$fanzui#恐怖$kongbu#悬疑$xuanyi#奇幻$qihuan#冒险$maoxian#科幻$kehuan#战争$zhanzheng#家庭$jiating#历史$lishi#古装$guzhuang#传记$zhuanji#音乐$yinyue#武侠$wuxia#运动$yundong#同性$tongxing#电影$dianying#短片$duanpian#歌舞$gewu#一个$yige#中国$zhongguo#美国$meiguo#大陆$dalu#儿童$ertong#动画$donghua#西部$xibu#讲述$jiangshu#故事$gushi#本片$benpian#香港$xianggang#灾难$zainan#粤语$yueyu#影片$yingpian#一名$yiming#青春$qingchun#情色$qingse#戏曲$xiqu#生活$shenghuo#人性$renxing#日本$riben#国产$guochan#搞笑$gaoxiao#女孩$nvhai#文艺$wenyi#父亲$fuqin#温情$wenqing#烂片$lanpian#女儿$nver#成长$chengzhang||剧情$juqing#爱情$aiqing#喜剧$xiju#悬疑$xuanyi#犯罪$fanzui#古装$guzhuang#动作$dongzuo#奇幻$qihuan#惊悚$jingsong#家庭$jiating#科幻$kehuan#历史$lishi#战争$zhanzheng#冒险$maoxian#同性$tongxing#恐怖$kongbu#武侠$wuxia#传记$zhuanji#短片$duanpian#音乐$yinyue#运动$yundong#日本$riben#儿童$ertong#动画$donghua#美国$meiguo#美剧$meiju#歌舞$gewu#泰国$taiguo#日剧$riju#故事$gushi#灾难$zainan#台湾$taiwan#西部$xibu#台剧$taiju#该剧$gaiju#韩国$hanguo#美食$meishi#中国$zhongguo#短剧$duanju#香港$xianggang#青春$qingchun#本剧$benju#经典$jingdian#女儿$nver#搞笑$gaoxiao#生活$shenghuo#讲述$jiangshu#情色$qingse#国产$guochan#情感$qinggan#日劇$riju1||音乐$yinyue#歌舞$gewu#节目$jiemu#喜剧$xiju#剧情$juqing#爱情$aiqing#历史$lishi#综艺$zongyi#运动$yundong#犯罪$fanzui#悬疑$xuanyi#天姿$tianzi#传记$zhuanji#卫视$weishi#韩国$hanguo#一档$yidang#冒险$maoxian#晚会$wanhui#短片$duanpian#大赏$dashang#惊悚$jingsong#娱乐$yule#开心$kaixin#经视$jingshi#艺能$yineng#体验$tiyan#儿童$ertong#刘在$liuzai#家庭$jiating#明星$mingxing#真好$zhenhao#访谈$fangtan#文化$wenhua#歌手$geshou#优酷$youku#全新$quanxin#动作$dongzuo#战争$zhanzheng#故事$gushi#旅行$lvxing#演艺$yanyi#真实$zhenshi#首档$shoudang#中国$zhongguo#元宵$yuanxiao||动画$donghua#喜剧$xiju#剧情$juqing#冒险$maoxian#奇幻$qihuan#动作$dongzuo#科幻$kehuan#爱情$aiqing#家庭$jiating#短片$duanpian#悬疑$xuanyi#儿童$ertong#惊悚$jingsong#犯罪$fanzui#运动$yundong#武侠$wuxia#古装$guzhuang#音乐$yinyue#恐怖$kongbu#战争$zhanzheng#歌舞$gewu#日本$riben#动漫$dongman#同性$tongxing#历史$lishi#电影$dianying#配音$peiyin#情色$qingse#搞笑$gaoxiao#故事$gushi#西部$xibu#美国$meiguo#中国$zhongguo#本片$benpian#灾难$zainan#世界$shijie#传记$zhuanji#大陆$dalu#史酷$shiku#国王$guowang#少年$shaonian#魔法$mofa#他们$tamen#后宫$hougong#地球$diqiu#爸爸$baba#精灵$jingling",
+
+"地区": "美国$meiguo#中国大陆$zhongguodalu#中国香港$zhongguoxianggang#日本$riben#英国$yingguo#法国$faguo#德国$deguo#韩国$hanguo#内地$neidi#加拿大$jianada#中国台湾$zhongguotaiwan#意大利$yidali#大陆$dalu#印度$yindu#西班牙$xibanya#澳大利亚$aodaliya#泰国$taiguo#比利时$bilishi#俄罗斯$eluosi#香港$xianggang#瑞典$ruidian#墨西哥$moxige#丹麦$danmai#波兰$bolan#荷兰$helan#爱尔兰$aierlan#瑞士$ruishi#挪威$nuowei#巴西$baxi#阿根廷$agenting#苏联$sulian#西德$xide#奥地利$aodili#新加坡$xinjiapo#匈牙利$xiongyali#新西兰$xinxilan#芬兰$fenlan#南非$nanfei#捷克$jieke||中国大陆$zhongguodalu#美国$meiguo#日本$riben#韩国$hanguo#英国$yingguo#泰国$taiguo#大陆$dalu#中国香港$zhongguoxianggang#中国台湾$zhongguotaiwan#加拿大$jianada#法国$faguo#西班牙$xibanya#香港$xianggang#德国$deguo#澳大利亚$aodaliya#意大利$yidali#新加坡$xinjiapo#印度$yindu#墨西哥$moxige#爱尔兰$aierlan#巴西$baxi#内地$neidi#土耳其$tuerqi#瑞典$ruidian#俄罗斯$eluosi#丹麦$danmai#台湾$taiwan#波兰$bolan#挪威$nuowei#新西兰$xinxilan#南非$nanfei#比利时$bilishi#马来西亚$malaixiya#菲律宾$feilyubin#中国$zhongguo#哥伦比亚$gelunbiya#奥地利$aodili#乌克兰$wukelan#以色列$yiselie||中国大陆$zhongguodalu#美国$meiguo#韩国$hanguo#大陆$dalu#英国$yingguo#内地$neidi#中国台湾$zhongguotaiwan#日本$riben#日韩$rihan#中国香港$zhongguoxianggang#加拿大$jianada#台湾$taiwan#德国$deguo#法国$faguo#港台$gangtai#中国$zhongguo#墨西哥$moxige#欧美$oumei#澳大利亚$aodaliya#西班牙$xibanya#印度$yindu#新加坡$xinjiapo#泰国$taiguo#香港$xianggang#丹麦$danmai#以色列$yiselie#俄罗斯$eluosi#其它$qita#奥地利$aodili#巴西$baxi#新西兰$xinxilan#爱尔兰$aierlan#荷兰$helan#阿联酋$alianqiu#马来西亚$malaixiya||日本$riben#美国$meiguo#中国大陆$zhongguodalu#大陆$dalu#法国$faguo#英国$yingguo#中国香港$zhongguoxianggang#加拿大$jianada#韩国$hanguo#德国$deguo#西班牙$xibanya#比利时$bilishi#中国台湾$zhongguotaiwan#丹麦$danmai#国产$guochan#澳大利亚$aodaliya#卢森堡$lusenbao#内地$neidi#俄罗斯$eluosi#印度$yindu#芬兰$fenlan#台湾$taiwan#爱尔兰$aierlan#意大利$yidali#挪威$nuowei#波兰$bolan#墨西哥$moxige#泰国$taiguo#中国$zhongguo#巴西$baxi#瑞典$ruidian#南非$nanfei#新西兰$xinxilan#马来西亚$malaixiya#阿根廷$agenting#以色列$yiselie#匈牙利$xiongyali#捷克$jieke#新加坡$xinjiapo",
+
+"年份": "1999-2024",
+
+"排序": "时间$空#人气$hits#评分$gold"
+
+}

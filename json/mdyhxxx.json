@@ -1,0 +1,207 @@
+{"name": "麻豆映画",
+"url": "https://www.madoupj.com",
+"直接播放": "1",
+"分类":"麻豆原创$mdapp1#原创伙伴$mdapp2#节目企划$mdapp3#免费视频区$mdapp72",
+"数组":"<div class=\"col-sm-4\">&&</div>",
+"图片": "img src=\"&&\"",
+"标题": "title=\"&&\"",
+"链接": "href=\"/index.php/&m=voddetail/&&.html\"",
+"链接前缀": "/index.php/&m=vodplay/",
+"链接后缀": "-1-1.html",
+"搜索数组": "<div class=\"col-sm-4\">&&</div>",
+"搜索图片": "img src=\"&&\"",
+"搜索标题": "title=\"&&\"",
+"搜索链接": "href=\"&&\"",
+"搜索模式": "0",
+"搜索url": "https://www.madoupj.com/index.php/ajax/suggest?mid=1&wd={wd}",
+"搜索后缀": "/index.php/&m=vodplay/",
+"搜索链接后缀":"-1-1.html",
+"状态": "class=\"yac\">&&</p>",
+"导演": "导演：</span>&&</p>",
+"主演": "主演：</span>&&</p>",
+"简介": "class=\"title\">&&title",
+"分类url":"https://www.madoupj.com/index.php/&m=vodtype/{cateId}/page/{catePg}.html",
+"免嗅":"0",
+"嗅探词":".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
+"筛选":
+{
+"mdapp1":[
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"全部","v":""},
+{"n":"MD系列","v":"mdapp4"},
+{"n":"导演系列","v":"mdapp5"},
+{"n":"MDS系列","v":"mdapp6"},
+{"n":"MDX系列","v":"mdapp7"},
+{"n":"MKY系列","v":"mdapp86"},
+{"n":"MCY系列","v":"mdapp95"},
+{"n":"MDXS系列","v":"mdapp8"},
+{"n":"MDL系列","v":"mdapp46"},
+{"n":"MMZ猫爪系列","v":"mdapp50"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"MAD爱豆系列","v":"mdapp52"},
+{"n":"MDWP职场淫行系列","v":"mdapp57"},
+{"n":"MLT乐天系列","v":"mdapp62"},
+{"n":"MSD系列","v":"mdapp63"},
+{"n":"MSM性梦者","v":"mdapp64"},
+{"n":"MDM恋爱咖啡馆","v":"mdapp73"},
+{"n":"MDUS系列","v":"mdapp77"},
+{"n":"MXJ系列","v":"mdapp78"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"MSG系列","v":"mdapp85"},
+{"n":"MAN系列","v":"mdapp88"},
+{"n":"MDAG系列","v":"mdapp99"},
+{"n":"MDHT系列","v":"mdapp100"}
+]
+}
+],
+"mdapp2":[
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"全部","v":""},
+{"n":"杏吧专区","v":"mdapp9"},
+{"n":"辣椒原创","v":"mdapp79"},
+{"n":"兔子先生","v":"mdapp10"},
+{"n":"O-STAR","v":"mdapp80"},
+{"n":"果冻传媒","v":"mdapp11"},
+{"n":"91制片厂","v":"mdapp51"},
+{"n":"皇家华人","v":"mdapp12"},
+{"n":"天美传媒","v":"mdapp45"},
+{"n":"吴梦梦专区","v":"mdapp13"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"PsychoPorn色控","v":"mdapp14"},
+{"n":"叮叮映画","v":"mdapp70"},
+{"n":"涩会","v":"mdapp71"},
+{"n":"红斯灯影像","v":"mdapp102"},
+{"n":"麻麻传媒","v":"mdapp103"},
+{"n":"蝌蚪传媒","v":"mdapp104"},
+{"n":"Pussy Hunter","v":"mdapp105"},
+{"n":"瑷荳传媒","v":"mdapp106"},
+{"n":"桃花源","v":"mdapp107"},
+{"n":"蜜桃影像传媒","v":"mdapp15"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"豚豚创媒","v":"mdapp74"},
+{"n":"宫美娱乐","v":"mdapp84"},
+{"n":"肉肉传媒","v":"mdapp90"},
+{"n":"爱妃传媒","v":"mdapp75"},
+{"n":"渡边传媒","v":"mdapp94"},
+{"n":"葵心娱乐","v":"mdapp96"},
+{"n":"YOKUBOU","v":"mdapp97"},
+{"n":"大番号番啪啪","v":"mdapp16"},
+{"n":"REAL野性派","v":"mdapp29"}
+]
+}
+],
+"mdapp3":[
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"全部","v":""},
+{"n":"麻豆不回家","v":"mdapp41"},
+{"n":"狼人插","v":"mdapp53"},
+{"n":"女优擂台摔角狂热","v":"mdapp54"},
+{"n":"恋爱巴士","v":"mdapp60"},
+{"n":"男女优生死斗","v":"mdapp65"},
+{"n":"情人劫密室逃脱","v":"mdapp66"},
+{"n":"换妻","v":"mdapp67"},
+{"n":"你好同学","v":"mdapp68"},
+{"n":"鲍鱼的胜利","v":"mdapp83"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"性爱自修室","v":"mdapp87"},
+{"n":"春游记","v":"mdapp91"},
+{"n":"心动的性号","v":"mdapp92"},
+{"n":"情趣大富翁","v":"mdapp93"},
+{"n":"男优练习生","v":"mdapp101"},
+{"n":"大鸟十八","v":"mdapp17"},
+{"n":"疯拍系列","v":"mdapp18"},
+{"n":"创造淫2021","v":"mdapp55"},
+{"n":"禁欲小屋","v":"mdapp76"},
+{"n":"KISS糖果屋","v":"mdapp19"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"小鹏奇啪行","v":"mdapp20"},
+{"n":"男优出征趣","v":"mdapp21"},
+{"n":"麻豆达人秀","v":"mdapp69"},
+{"n":"30天解密麻豆","v":"mdapp22"},
+{"n":"突袭女优计划","v":"mdapp23"},
+{"n":"女神羞羞研究院","v":"mdapp24"},
+{"n":"淫欲游戏王","v":"mdapp40"},
+{"n":"女优淫娃培训营","v":"mdapp42"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"情趣K歌房","v":"mdapp31"},
+{"n":"小哥哥艾理","v":"mdapp27"},
+{"n":"寻宝吧女神","v":"mdapp98"}
+]
+}
+],
+"mdapp72":[
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"全部","v":""},
+{"n":"糖心","v":"mdapp72"},
+{"n":"CCAV成人头条","v":"mdapp89"},
+{"n":"精东影业","v":"mdapp34"},
+{"n":"星空无限传媒","v":"mdapp47"},
+{"n":"乐播传媒","v":"mdapp48"},
+{"n":"开心鬼传媒","v":"mdapp56"},
+{"n":"葫芦影业","v":"mdapp81"},
+{"n":"深夜保健室","v":"mdapp35"},
+{"n":"大象传媒","v":"mdapp58"},
+{"n":"天马传媒","v":"mdapp82"}
+]
+},
+{
+"key":"cateId",
+"name":"",
+"value":[
+{"n":"SWAG","v":"mdapp36"},
+{"n":"HongKongDoll","v":"mdapp59"},
+{"n":"国产短视频","v":"mdapp38"},
+{"n":"北京天使","v":"mdapp39"},
+{"n":"MINI传媒","v":"mdapp61"}
+]
+}
+]
+}
+}

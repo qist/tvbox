@@ -1,0 +1,17 @@
+{
+    "主页url": "https://look.whhl1.xyz/whhl/",
+    "数组": "stui-vodlist__box\">&&</a>",
+    "简介": "简介：&&</p>",
+    "标题": "title=\"&&\"",
+    "副标题": "pic-text text-right\">&&</span",
+    "图片": "data-original=\"&&\"",
+    "链接": "href=\"&&\"",
+    "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+    "搜索模式": "1",
+    "搜索url": "https://look.whhl1.xyz/whhl/index.php/vod/search/page/{pg}/wd/{wd}.html",
+    "分类url": "https://look.whhl1.xyz/whhl/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    "分类二次截取": "<!-- 分类列表 -->&&<!-- end 分类列表 -->",
+    "分类数组": "<a&&/a>",
+    "分类标题": ">&&</a>",
+    "分类ID": "/whhl/index.php/vod/*/id/&&.html"
+}

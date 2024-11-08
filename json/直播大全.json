@@ -1,0 +1,90 @@
+{
+//免费接口，技术交流用，其他用途产生的一切后果与本人无关。
+//已支持JSON格式，json格式没加密，地址http://api.hclyz.com:81/mf/json.txt 
+//宽带已增加到50M，放心调用 前面加http://api.hclyz.com:81/mf/ 
+//mc=名称
+//tp1=图片
+//dz=地址
+//sl=数量
+
+
+//备用域名：api.maiyoux.com:81
+//最新域名获取地址：https://www.ebay.com/usr/xiar2792 请把这个网址添加到书签保存，以防打不开api时用
+"规则名": "直播大全-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+//0关闭首页数据，1开启首页数据
+"是否开启获取首页数据": "0",
+"首页推荐链接": "",
+"首页列表数组规则": "",
+"首页片单列表数组规则": "",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "",
+"首页片单链接": "",
+"首页片单图片": "",
+"首页片单副标题": "",
+"首页片单链接加前缀": "",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+"分类链接": "http://api.hclyz.com:81/mf/{cateId}.txt",
+"分类名称": "直播大全",
+"分类名称替换词": "jsonweishizhibo",
+"分类截取模式": "0",
+"分类列表数组规则": "zhubo",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "title",
+"分类片单链接": "address",
+"分类片单图片": "img",
+"分类片单副标题": "Number",
+
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "",
+"POST请求数据": "",
+"搜索截取模式": "0",
+"搜索列表数组规则": "list",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "pic",
+"搜索片单标题": "name",
+"搜索片单链接": "id",
+"搜索片单副标题": "",
+"搜索片单链接加前缀": "",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+ "详情是否Jsoup写法":"0",
+    "类型详情": "",
+    "年代详情": "",
+    "地区详情": "",
+    "演员详情": "",
+    "简介详情": "",
+    "线路列表数组规则": "",
+    "线路标题": "",
+    "播放列表数组规则": "",
+    "选集列表数组规则": "",
+    "选集标题链接是否Jsoup写法":"0",
+    "选集标题": "",
+    "选集链接": "",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "",
+    "选集链接加后缀": "",
+   
+"筛选数据":{
+"jsonweishizhibo":[
+  {"key":"cateId",
+  "name":"分类",
+  "value":[{"v":"jsonweishizhibo","n":"卫视直播"}, {"v":"jsonlongzhu","n":"龙珠"}, {"v":"jsonyingke","n":"映客"}, {"v":"jsonkawayi","n":"卡哇伊"}, {"v":"jsonmihu","n":"咪狐"}, {"v":"jsonhuahudie","n":"花蝴蝶"}, {"v":"jsonmitao","n":"蜜桃"}, {"v":"jsonfanjiashequ","n":"番茄社区"}, {"v":"jsonLOVE","n":"LOVE"}, {"v":"jsonxiaodaji","n":"小妲己"}, {"v":"json77zhibo","n":"77直播"}, {"v":"jsonyiyi","n":"依依"}, {"v":"jsonrichu","n":"日出"}, {"v":"jsoncaihong","n":"彩虹"}, {"v":"jsonjiujiu","n":"久久"}, {"v":"jsonyami","n":"亚米"}, {"v":"jsondielian","n":"蝶恋"}, {"v":"jsonyeyaoji","n":"夜妖姬"}, {"v":"jsontaolu","n":"套路"}, {"v":"jsonyinghua","n":"樱花"}, {"v":"jsonxiangse","n":"享色"}, {"v":"jsonhonglangman","n":"红浪漫"}, {"v":"jsonjinyu","n":"金鱼"}, {"v":"jsontaohua","n":"桃花"}, {"v":"jsonhuafang","n":"花房"}, {"v":"jsonxiaoxiannu","n":"小仙女"}, {"v":"jsonshijuexiu","n":"视觉秀"}, {"v":"jsonxiaotianshi","n":"小天使"}, {"v":"jsonyizhibo","n":"一直播"}, {"v":"jsoncaiyun","n":"彩云"}, {"v":"jsonanyu","n":"暗语"}, {"v":"jsonmimi","n":"咪咪"}, {"v":"jsonjiaomei","n":"娇媚"}, {"v":"jsonhuanggua","n":"黄瓜"}, {"v":"jsonsequ","n":"色趣"}, {"v":"jsonnuomi","n":"糯米"}, {"v":"jsonxiaomifeng","n":"小蜜蜂"}, {"v":"jsonxiaohongmao","n":"小红帽"}, {"v":"jsontaohuayun","n":"桃花运"}, {"v":"jsonkugua","n":"苦瓜"}, {"v":"jsonaiaini","n":"爱爱你"}, {"v":"jsonyinghuayui","n":"樱花雨i"}, {"v":"jsonpanta","n":"盘他"}, {"v":"jsonyese","n":"夜色"}, {"v":"jsonhudie","n":"蝴蝶"}, {"v":"jsonxiaotianxian","n":"小天仙"}, {"v":"jsonxingqu","n":"杏趣"}, {"v":"jsonxiaohuaidan","n":"小坏蛋"}, {"v":"jsonpiaoxue","n":"飘雪"}, {"v":"jsonyingtao","n":"樱桃"}, {"v":"jsonaosika","n":"奥斯卡"}, {"v":"jsonkaluli","n":"卡路里"}, {"v":"jsonhonggaoliang","n":"红高粱"}, {"v":"jsonfubao","n":"付宝"}, {"v":"jsonxiaohuangshu","n":"小黄书"}, {"v":"jsonersao","n":"二嫂"}, {"v":"jsonhuaguoshan","n":"花果山"}, {"v":"jsonyunlu","n":"云鹿"}, {"v":"jsonboluo","n":"菠萝"}, {"v":"jsonxingbaobei","n":"星宝贝"}, {"v":"jsonyeyan","n":"夜艳"}, {"v":"jsonqixiannus","n":"七仙女s"}, {"v":"jsonyelaixiang","n":"夜来香"}, {"v":"jsonailing","n":"爱零"}, {"v":"jsonshibajin","n":"十八禁"}, {"v":"jsonlanguifang","n":"兰桂坊"}, {"v":"jsonDancelife","n":"Dancelife"}, {"v":"jsonxiaomengzhu","n":"小萌猪"}, {"v":"jsonhudiefei","n":"蝴蝶飞"}, {"v":"jsonyoumeng","n":"幽梦"}, {"v":"jsonliguiting","n":"丽柜厅"}, {"v":"jsonjiaolong","n":"蛟龙"}, {"v":"jsonyanruyu","n":"颜如玉"}, {"v":"jsonchengxiu","n":"橙秀"}, {"v":"jsonbaoyul","n":"豹娱l"}, {"v":"jsonxiaohualuo","n":"小花螺"}, {"v":"jsonhuanghou","n":"皇后"}, {"v":"jsonxinzhilian","n":"心之恋"}, {"v":"jsonoumeiFEATURED","n":"欧美FEATURED"}, {"v":"jsonoumeiFEMALE","n":"欧美FEMALE"}, {"v":"jsonoumeiMALE","n":"欧美MALE"}, {"v":"jsonoumeiCOUPLE","n":"欧美COUPLE"}, {"v":"jsonoumeiTRANS","n":"欧美TRANS"}, {"v":"jsontaimeil","n":"台妹l"}, {"v":"jsonailian","n":"爱恋"}, {"v":"json903yule","n":"903娱乐"}, {"v":"jsonjiuweihu","n":"九尾狐"}, {"v":"jsonyouwudao","n":"尤物岛"}, {"v":"jsontanke","n":"坦克"}, {"v":"jsonhaojiyou","n":"好基友"}, {"v":"jsonyenulang","n":"夜女郎"}, {"v":"jsonjiaochuan","n":"娇喘"}, {"v":"jsonmangguopai","n":"芒果派"}, {"v":"jsonmeiyan","n":"媚颜"}, {"v":"jsonfengliu","n":"风流"}, {"v":"jsonyelu","n":"夜律"}, {"v":"jsonlinglong","n":"玲珑"}, {"v":"jsonyuhuo","n":"浴火"}, {"v":"jsoncuiniao","n":"翠鸟"}, {"v":"jsonxingyunxing","n":"幸运星"}, {"v":"jsontaxiu","n":"她秀"}, {"v":"jsonzhaocaimao","n":"招财猫"}, {"v":"jsonshuangdie","n":"双碟"}, {"v":"jsontangguo","n":"糖果"}, {"v":"jsonmemeda","n":"么么哒"}, {"v":"jsonxiaoxinggan","n":"小性感"}, {"v":"jsonxiaomiaochong","n":"小喵宠"}, {"v":"jsontunulang","n":"兔女郎"}, {"v":"jsonshuimeiren","n":"睡美人"}, {"v":"jsonjinbei","n":"金呗"}, {"v":"jsonmeixi","n":"美夕"}, {"v":"jsonxiaoyao","n":"小妖"}, {"v":"jsonyuezhibo","n":"约直播"}, {"v":"jsonhuaxianzi","n":"花仙子"}, {"v":"jsontuhao","n":"土豪"}, {"v":"jsonhongzhuang","n":"红妆"}, {"v":"jsonniuniu","n":"妞妞"}, {"v":"jsonyanhou","n":"艳后"}, {"v":"jsonmoon","n":"moon"}, {"v":"jsonlanmao","n":"蓝猫"}, {"v":"jsonmeirenzhuang","n":"美人妆"}, {"v":"jsonruxiang","n":"入巷"}, {"v":"jsonchijiunan","n":"持久男"}, {"v":"jsonqingxin","n":"倾心"}, {"v":"jsonxiaojingling","n":"小精灵"}, {"v":"jsonouyu","n":"偶遇"}, {"v":"jsonhuihui","n":"灰灰"}, {"v":"jsonmaotouying","n":"猫头鹰"}, {"v":"jsonxihuanni","n":"喜欢你"}, {"v":"jsonyechun","n":"夜纯"}, {"v":"jsonxingbo","n":"杏播"}, {"v":"jsonmingliu","n":"名流"}, {"v":"jsonxiaolajiao","n":"小辣椒"}, {"v":"jsonwenxiangshe","n":"蚊香社"}, {"v":"jsonqianshou","n":"牵手"}, {"v":"jsonqingqu","n":"情趣"}
+  ]}]
+
+},
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8#.mp4#flv#rtmp",
+"手动嗅探视频链接过滤词": "baidu.com"
+}
