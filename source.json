@@ -25,14 +25,14 @@
           "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
           "name": "高天流雲"
         },
-        {
-          "url": "https://4tvbox.ggff.net/config.json",
-          "name": "唐三"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
-          "name": "Qist JSM"
-        },
+        // {
+        //   "url": "https://4tvbox.ggff.net/config.json",
+        //   "name": "唐三"
+        // },
+        // {
+        //   "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+        //   "name": "Qist JSM"
+        // },
         {
           "url": "http://ok321.top/ok",
           "name": "OK"
@@ -46,20 +46,20 @@
           "url": "https://www.xn--sss604efuw.com/tv",
           "name": "飯太硬"
         },
-           {
-          "url": "http://like.肥猫.com/你好",
-          "name": "肥猫"
-        },
+        //    {
+        //   "url": "http://like.肥猫.com/你好",
+        //   "name": "肥猫"
+        // },
         {
           "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-VI.json",
           "name": "DoKiss"
         },
     
         //-------------- Kids  ------------
-        {
-          "name": "兒童🚸 | mf",
-          "url": "https://raw.gitcode.com/mfkdxk/zb/raw/main/se.json"
-        },
+        // {
+        //   "name": "兒童🚸 | mf",
+        //   "url": "https://raw.gitcode.com/mfkdxk/zb/raw/main/se.json"
+        // },
     
         //-------------- 🔞 ------------
         // {
