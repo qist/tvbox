@@ -1,80 +1,82 @@
-{
-  "note":"FROM: https://rb.gy/wcjqb5",
-  "note2":"https://RobYang.bsite.net/VodLive/sb8ffa",
-  "wallpaper": "http://img.fongmi.eu.org",
-  "logo": "http://img.fongmi.eu.org/fongmi.jpg",
-  "urls": [
     {
-      "url": "https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/jsm.json", //jsm
-      "name": "🏠RobYang 點直播站備份2"
-    },
-    {
-      "url": "https://rb.gy/geje78", //jsm
-      "name": "🏠RobYang 點直播站"
-    },
-    {
-      "url": "https://RobYang.bsite.net/VodLive/jb8ffa", //jsm
-      "name": "🏠RobYang 點直播站備份1"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
-      "name": "高天流雲"
-    },
-    {
-      "url": "https://4tvbox.ggff.net/config.json",
-      "name": "唐三"
-    },
-    {
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
-      "name": "Qist JSM"
-    },
-    {
-      "url": "http://ok321.top/ok",
-      "name": "OK"
-    },
-    {
-      "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/", 
-      "url_others": "牛二(常规top) http://tvbox.xn--4kq62z5rby2qupq9ub.top",
-      "name": "王二小放牛娃"
-    },
-    {
-      "url": "https://www.xn--sss604efuw.com/tv",
-      "name": "飯太硬"
-    },
-       {
-      "url": "http://like.肥猫.com/你好",
-      "name": "肥猫"
-    },
-    {
-      "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-VI.json",
-      "name": "DoKiss"
-    },
-
-    //-------------- Kids  ------------
-    {
-      "name": "兒童🚸 | mf",
-      "url": "https://raw.gitcode.com/mfkdxk/zb/raw/main/se.json"
-    },
-
-    //-------------- 🔞 ------------
-    {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
-      "name": "🔞Qist AV 限制級"
-    },
-    {
-      "url": "https://RobYang.bsite.net/VodLive/xb8ffa",
-      "name": "🔞RobYang AV 限制級"
-    },
-    {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/18%2B%E5%A4%A7%E5%85%A8.txt",
-      "name": "🔞大全"
-    },
-    {
-      "url": "https://d.kstore.space/download/7708/a18.json",
-      "name": "🔞AV限制級"
-    },
-    {
-      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/%E6%88%90%E4%BA%BA%E6%8E%A5%E5%8F%A3.txt",
-      "name": "🔞成人"
-    }
-
+      "note":"FROM: https://rb.gy/wcjqb5",
+      "note2":"https://RobYang.bsite.net/VodLive/sb8ffa",
+      "wallpaper": "http://img.fongmi.eu.org",
+      "logo": "http://img.fongmi.eu.org/fongmi.jpg",
+      "urls": [
+        {
+          "url": "https://rb.gy/geje78", //jsm
+          "name": "🏠RobYang 點直播站"
+        },
+        {
+          "url": "https://RobYang.bsite.net/VodLive/jb8ffa", //jsm
+          "name": "🏠RobYang 點直播站備份1"
+        },
+        {
+          "url": "https://robyang.serv00.net/VodLive/jb8ffa.php", //jsm
+          "name": "🏠RobYang 點直播站備份2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
+          "name": "高天流雲"
+        },
+        {
+          "url": "https://4tvbox.ggff.net/config.json",
+          "name": "唐三"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+          "name": "Qist JSM"
+        },
+        {
+          "url": "http://ok321.top/ok",
+          "name": "OK"
+        },
+        {
+          "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/", 
+          "url_others": "牛二(常规top) http://tvbox.xn--4kq62z5rby2qupq9ub.top",
+          "name": "王二小放牛娃"
+        },
+        {
+          "url": "https://www.xn--sss604efuw.com/tv",
+          "name": "飯太硬"
+        },
+           {
+          "url": "http://like.肥猫.com/你好",
+          "name": "肥猫"
+        },
+        {
+          "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-VI.json",
+          "name": "DoKiss"
+        },
+    
+        //-------------- Kids  ------------
+        {
+          "name": "兒童🚸 | mf",
+          "url": "https://raw.gitcode.com/mfkdxk/zb/raw/main/se.json"
+        },
+    
+        //-------------- 🔞 ------------
+        {
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
+          "name": "🔞Qist AV 限制級"
+        },
+        {
+          "url": "https://RobYang.bsite.net/VodLive/xb8ffa",
+          "name": "🔞RobYang AV 限制級"
+        },
+        {
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/18%2B%E5%A4%A7%E5%85%A8.txt",
+          "name": "🔞大全"
+        },
+        {
+          "url": "https://d.kstore.space/download/7708/a18.json",
+          "name": "🔞AV限制級"
+        },
+        {
+          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/%E6%88%90%E4%BA%BA%E6%8E%A5%E5%8F%A3.txt",
+          "name": "🔞成人"
+        }
+    
+      ]}
+    
