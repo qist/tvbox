@@ -1,5 +1,5 @@
 {
-  "spider":"https://raw.githubusercontent.com/bobyang3/tvbox/own/jar/fan.txt;md5;0f1d73221352f4e6b049b3291f96d75d",
+  "spider":"https://raw.githubusercontent.com/bobyang3/tvbox/own/jar/fan.txt;md5;118bca13418f13c45c5c237ac93c2f07",
   "note":"FROM: https://rb.gy/geje78",
   "note2":"FROM: https://RobYang.bsite.net/VodLive/jb8ffa.php",
   "note3":"FROM: https://rb.gy/1gki0m", 
@@ -34,7 +34,7 @@
 //{"key":"抠搜","name":"🍄抠抠|搜搜","type":3,"api":"csp_KkSs","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"Lib","name": "10. 立播|秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"文采","name":"文采|秒播","type":3,"api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-// {"key":"糯米","name":"10. 影視 |糯米","type":3,"api":"csp_Nmyswv","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"糯米","name":"糯米┃秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"比特","name":"比特|秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"苹果|不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 // {"key":"原创","name":"原创|不卡","type":3,"api":"csp_YCyz","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
