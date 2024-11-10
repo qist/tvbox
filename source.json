@@ -37,11 +37,11 @@
           "url": "http://ok321.top/ok",
           "name": "OK"
         },
-        {
-          "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/", 
-          "url_others": "牛二(常规top) http://tvbox.xn--4kq62z5rby2qupq9ub.top",
-          "name": "王二小放牛娃"
-        },
+        // {
+        //   "url": "http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/", 
+        //   "url_others": "牛二(常规top) http://tvbox.xn--4kq62z5rby2qupq9ub.top",
+        //   "name": "王二小放牛娃"
+        // },
         {
           "url": "https://www.xn--sss604efuw.com/tv",
           "name": "飯太硬"
@@ -50,10 +50,10 @@
         //   "url": "http://like.肥猫.com/你好",
         //   "name": "肥猫"
         // },
-        {
-          "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-VI.json",
-          "name": "DoKiss"
-        },
+        // {
+        //   "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/doki-VI.json",
+        //   "name": "DoKiss"
+        // },
     
         //-------------- Kids  ------------
         // {
@@ -69,19 +69,19 @@
         {
           "url": "https://RobYang.bsite.net/VodLive/xb8ffa",
           "name": "🔞RobYang AV 限制級"
-        },
-        {
-          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/18%2B%E5%A4%A7%E5%85%A8.txt",
-          "name": "🔞大全"
-        },
-        {
-          "url": "https://d.kstore.space/download/7708/a18.json",
-          "name": "🔞AV限制級"
-        },
-        {
-          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/%E6%88%90%E4%BA%BA%E6%8E%A5%E5%8F%A3.txt",
-          "name": "🔞成人"
         }
+        // {
+        //   "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/18%2B%E5%A4%A7%E5%85%A8.txt",
+        //   "name": "🔞大全"
+        // },
+        // {
+        //   "url": "https://d.kstore.space/download/7708/a18.json",
+        //   "name": "🔞AV限制級"
+        // },
+        // {
+        //   "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kan31467/1/main/tv/%E6%88%90%E4%BA%BA%E6%8E%A5%E5%8F%A3.txt",
+        //   "name": "🔞成人"
+        // }
     
       ]}
     
