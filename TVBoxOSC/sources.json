@@ -13,9 +13,13 @@
       "name": "🏠RobYang 點直播站備份1"
     },
     {
-      "url": "https://robyang.serv00.net/VodLive/jb8ffa.php", //jsm
+      "url": "jsm https://rb.gy/1gki0m", //jsm https://rb.gy/1gki0m
       "name": "🏠RobYang 點直播站備份2"
     },
+    // {
+    //   "url": "https://robyang.serv00.net/VodLive/jb8ffa.php", //Doesn't work correctly because missing jar json js...etc
+    //   "name": "🏠RobYang 點直播站備份3"
+    // },
     {
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
       "name": "高天流雲"
