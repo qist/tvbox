@@ -1,8 +1,9 @@
     {
       "note":"FROM: https://rb.gy/wcjqb5",
       "note2":"https://RobYang.bsite.net/VodLive/sb8ffa",
+      "note3":"https://RobYang.bsite.net",
       "wallpaper": "http://img.fongmi.eu.org",
-      "logo": "http://img.fongmi.eu.org/fongmi.jpg",
+      "logo": "https://RobYang.bsite.net/RobYang.jpg",
       "urls": [
         {
           "url": "https://rb.gy/geje78", //jsm
@@ -57,10 +58,10 @@
         },
     
         //-------------- 🔞 ------------
-        {
-          "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
-          "name": "🔞Qist AV 限制級"
-        },
+        // {
+        //   "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
+        //   "name": "🔞Qist AV 限制級"
+        // },
         {
           "url": "https://RobYang.bsite.net/VodLive/xb8ffa",
           "name": "🔞RobYang AV 限制級"
