@@ -1,13 +1,9 @@
 {
-  //
-  //
-  //FROM: https://rb.gy/wcjqb5
-  //FROM: https://robyang.bsite.net/VodLive/sb8ffa
-  //
-  //
-  "spider": "https://mirror.ghproxy.com/https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar", //https://github.moeyy.xyz/
-  //"wallpaper": "http://img.fongmi.eu.org",
-  "logo": "http://img.fongmi.eu.org/fongmi.jpg",
+  "note":"FROM: https://rb.gy/wcjqb5",
+  "note2":"https://RobYang.bsite.net/VodLive/sb8ffa",
+  "note3":"https://RobYang.bsite.net",
+  "wallpaper": "http://img.fongmi.eu.org",
+  "logo": "https://RobYang.bsite.net/RobYang.jpg",
   "urls": [
     // {
     //   "url": "https://raw.githubusercontent.com/alantang1977/X/main/X.json",
