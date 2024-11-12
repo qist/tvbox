@@ -1,12 +1,14 @@
 📺YouTube 新聞,#genre#
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
+民視新聞,https://py.doube.eu.org/tv/youtube?id=ylYJSBUgaMA
 三立iNews,http://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
 三立News+海外,http://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
 三立NEWS+,https://m.youtube.com/watch?v=FoBfXvlOR6
 三立新聞,http://www.youtube.com/watch?v=uZ9KecuS0RA
 公視新聞,http://www.youtube.com/watch?v=quwqlazU-c8
 公視新聞,http://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
+公視新聞,https://py.doube.eu.org/tv/youtube?id=quwqlazU-c8
 非凡商業,http://www.youtube.com/watch?v=NHQDx8vCrC4
 台視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
 台視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv051
