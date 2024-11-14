@@ -47,7 +47,7 @@ bash -c "$(curl -sL https://www.567858.xyz/pixman.sh)"
 
 
 
-支持的直播源
+支持的直播源 https://pixman.io/topics/17
 ■四季線上 4GTV (http://ip:port/4gtv.m3u)
 ■江苏移动魔百盒 TPTV (http://ip:port/tptv.m3u 或 http://ip:port/tptv_proxy.m3u)
 ■央视频直播源 (http://ip:port/ysp.m3u)
