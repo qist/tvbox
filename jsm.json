@@ -625,36 +625,42 @@
   "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
   "timeout": 5,
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-  "logo": "https://epg.112114.xyz/logo/{name}.png",
-  "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar"
-  },    
- {
-  "note": "Anbox P3P https://anbox118.serv00.net/p3p.m3u.txt // Anbox P3P https://anbox118.serv00.net/ubtv.php // RobYang https://anbox118.serv00.net/livetv.php",
-  "name": "蜂蜜影視｜際台港中馬新", 
-  "type": 0,
-  "url": "https://anbox118.serv00.net/iptv.php", 
-  "ua": "okhttp/4.12.0",
-  "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
   "logo": "https://epg.112114.xyz/logo/{name}.png"
-  }, 
+  },   
+
+{"name":"Tac｜中台港際","type":0,"url":"https://raw.githubusercontent.com/sqspot/tac/main/4gtv.txt","ua":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.xyz/logo/{name}.png","ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"]},
+// {"name":"smart","boot":false,"pass":true,"url":"https://t4.doube.eu.org/smt.txt","logo":"https://live.fanmingming.com/tv/{name}.png","header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"}},
+// {"name":"安博","type":0,"url":"https://tang.hz.cz/zb/anbo?token=cb70f1ae"},	
+{"name":"美國｜際","type":0,"url":"https://raw.githubusercontent.com/shawn82/fm/main/lib/us.m3u8","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+{"name":"smt｜中台港際","type":0,"playerType":1,"url":"https://raw.githubusercontent.com/sqspot/tac/main/smt.txt","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+ 
+//  {
+//   "note": "Anbox P3P https://anbox118.serv00.net/p3p.m3u.txt // Anbox P3P https://anbox118.serv00.net/ubtv.php // RobYang https://anbox118.serv00.net/livetv.php",
+//   "name": "蜂蜜影視｜際台港中馬新", 
+//   "type": 0,
+//   "url": "https://anbox118.serv00.net/iptv.php", 
+//   "ua": "okhttp/4.12.0",
+//   "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+//   "logo": "https://epg.112114.xyz/logo/{name}.png"
+//   }, 
    
-{
-"name": "一盒｜際台港", 
-"type": 0,
-"url": "https://anbox118.serv00.net/mytvbplus.php", 
-"ua": "okhttp/4.12.0",
-"timeout": 5,
-"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-"logo": "https://epg.112114.xyz/logo/{name}.png"
-},
-{
- "name": "一盒｜際", 
- "type": 0,
- "url": "https://anbox118.serv00.net/sapphire.php",
- "ua": "okhttp/3.15",
- "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
- "logo": "https://epg.112114.xyz/logo/{name}.png"
-   },
+// {
+// "name": "一盒｜際台港", 
+// "type": 0,
+// "url": "https://anbox118.serv00.net/mytvbplus.php", 
+// "ua": "okhttp/4.12.0",
+// "timeout": 5,
+// "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+// "logo": "https://epg.112114.xyz/logo/{name}.png"
+// },
+// {
+//  "name": "一盒｜際", 
+//  "type": 0,
+//  "url": "https://anbox118.serv00.net/sapphire.php",
+//  "ua": "okhttp/3.15",
+//  "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia%2FHong_Kong",
+//  "logo": "https://epg.112114.xyz/logo/{name}.png"
+//    },
 {
 "name": "香蕉哥｜雜中台港日韓際",
 "type": 0,
@@ -754,27 +760,6 @@
 "url": "https://RobYang.bsite.net/VodLive/lb8ffa"
 },
 
-
-{"name":"綜合版","type":0,"url":"https://raw.githubusercontent.com/sqspot/tac/main/4gtv.txt","ua":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.xyz/logo/{name}.png","ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"]},
-// {"name":"smart","boot":false,"pass":true,"url":"https://t4.doube.eu.org/smt.txt","logo":"https://live.fanmingming.com/tv/{name}.png","header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"}},
-// {"name":"安博","type":0,"url":"https://tang.hz.cz/zb/anbo?token=cb70f1ae"},	
-{"name":"美国","type":0,"url":"https://raw.githubusercontent.com/shawn82/fm/main/lib/us.m3u8","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
-{"name":"smt","type":0,"playerType":1,"url":"https://raw.githubusercontent.com/sqspot/tac/main/smt.txt","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
-
-
-
-
-
-// {
-// "note": "2024-09-13",
-// "name": "RobYang test9",
-// "type": 0,
-// "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/20240913-secondWatch.txt",
-// "ua": "okhttp/4.12.0",
-// "timeout": 1,
-// "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-// "logo": "https://epg.112114.xyz/logo/{name}.png"
-// },
 {
 "group": "redirect",
 "channels": [
