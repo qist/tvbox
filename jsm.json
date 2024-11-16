@@ -26,7 +26,7 @@
 ,{"key":"hipy_js_文才2[资]","name":"影視 |文才","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/文才2[资].js"}
 ,{"key":"php_heimuer","name":"影視 |黑木耳","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":1,"quickSearch":1,"filterable":0,"changeable":0}
 ,{"key":"海纳TV","name":"影視 |海纳","type":3,"api":"csp_XBPQ","playerType":2,"jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/海纳TV.json"}
-,{"key":"php_bttwoo","name":"影視 |TwoBT","type":4,"api":"https://json.doube.eu.org/app/index.php?site=bttwoo","searchable":1,"quickSearch":0,"filterable":0,"changeable":0}
+,{"key":"php_bttwoo","name":"影視 |TwoBT","type":4,"api":"https://json.doube.eu.org/app/index.php?site=bttwoo","searchable":0,"quickSearch":0,"filterable":1,"changeable":0}
 ,{"key":"py_OleVod","name":"影視 |欧乐","type":4,"api":"https://py.doube.eu.org/api?site=OleVod","searchable":1,"quickSearch":0,"filterable":0,"changeable":0}
 ,{"key":"Auete","name":"影視 |奥特","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"}
 ,
@@ -143,11 +143,11 @@
 {"key":"drpy_js_秋霞影视","name":"影視｜秋霞影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/秋霞影视.js"},
 {"key":"drpy_js_阿布影院","name":"影視｜阿布影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/阿布影院.js"},
 {"key":"drpy_js_电影先生","name":"100. 影視｜电影先生[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/电影先生.js"},
-{"key":"drpy_js_落攻阁影视","name":"影視｜落攻阁影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/落攻阁影视.js"},
+{"key":"drpy_js_落攻阁影视","name":"影視｜落攻阁影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/落攻阁影视.js","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_69美剧","name":"影視｜69美剧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/69美剧.js"},
 {"key":"drpy_js_兄弟影视","name":"影視｜兄弟影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/兄弟影视.js"},
 {"key":"drpy_js_4k剧院","name":"影視｜4k剧院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4k剧院.js"},
-{"key":"drpy_js_爱迪影视","name":"影視｜爱迪影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱迪影视.js"},
+{"key":"drpy_js_爱迪影视","name":"影視｜爱迪影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱迪影视.js","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_539影视","name":"影視｜539影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/539影视.js"},
 {"key":"drpy_js_333影视","name":"影視｜333影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/333影视.js"},
 {"key":"drpy_js_996影视","name":"影視｜996影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/996影视.js"},
@@ -167,7 +167,7 @@
 {"key":"drpy_js_蛋蛋赞","name":"影視｜蛋蛋赞[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蛋蛋赞.js","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_多瑙影视","name":"影視｜多瑙影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/多瑙影视.js"},
 {"key":"drpy_js_剧迷su","name":"影視｜剧迷su[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/剧迷su.js"},
-{"key":"drpy_js_看韩剧","name":"影視｜看韩剧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/看韩剧.js"},
+{"key":"drpy_js_看韩剧","name":"影視｜看韩剧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/看韩剧.js","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_看了么","name":"影視｜看了么[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/看了么.js"},
 {"key":"drpy_js_蓝光影院","name":"影視｜蓝光影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蓝光影院.js"},
 {"key":"drpy_js_首播影院","name":"影視｜首播影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/首播影院.js"},
@@ -367,7 +367,7 @@
 {"key":"csp_nkvlog","name":"310. 影視｜NK","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/HCCX.jar","ext":"./json/nkvlog.json"},
 {"key":"php_feifanziyuan","name":"影視｜非凡","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webfeifanziyuan","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
 {"key":"drpy2_js_思古影视[V2]","name":"影視｜思古[V2][JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/思古影视[V2].js"},
-{"key":"xml_快看","name":"影視｜快看","type":1,"api":"https://kuaikan-api.com/api.php/provide/vod/from/kuaikanyun","categories":["网络电影","动画电影","动作片","冒险片","剧情片","纪录片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","战争片","灾难片","爱情片","科幻片","犯罪片","国产剧","港台剧","日本剧","韩国剧","欧美剧","新马剧","泰剧","其他剧","国产综艺","港台综艺","日本综艺","韩国综艺","欧美综艺","国产动漫","港台动漫","日本动漫","欧美动漫"]},
+{"key":"xml_快看","name":"影視｜快看","type":1,"api":"https://kuaikan-api.com/api.php/provide/vod/from/kuaikanyun","searchable":0,"quickSearch":0,"changeable":0,"categories":["网络电影","动画电影","动作片","冒险片","剧情片","纪录片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","战争片","灾难片","爱情片","科幻片","犯罪片","国产剧","港台剧","日本剧","韩国剧","欧美剧","新马剧","泰剧","其他剧","国产综艺","港台综艺","日本综艺","韩国综艺","欧美综艺","国产动漫","港台动漫","日本动漫","欧美动漫"]},
 {"key":"csp_七新","name":"影視｜七新","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/HCCX.jar","ext":"./json/七新影视.json"},
 {"key":"drpy_js_量子资源","name":"影視｜量子","type":3,"api":"./lib/drpy2.min.js","ext":"./js/量子资源.js"},
 {"key":"csp_威士","name":"影視｜威士","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/威士影视.json","jar":"./jar/0606.jar"},
