@@ -627,7 +627,7 @@
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
   "logo": "https://epg.112114.xyz/logo/{name}.png"
   },   
-{"name":"RobYang 安博 | 台際　(人多慢)","type":0,"url":"http://RobYang.serv00.net/ublive.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+{"name":"RobYang 安博 | 台際　(人多會慢)","type":0,"url":"http://RobYang.serv00.net/ublive.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {
   "name":"🏘️RobYang總鏈接　https://rb.gy/wcjqb5",
   "type": 0,
