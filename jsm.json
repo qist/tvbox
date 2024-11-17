@@ -19,6 +19,7 @@
 
 {"key":"nyys","name":"影視｜纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 {"key":"drpy_js_大师兄影视","name":"影視 | 大师兄影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大师兄影视.js"},
+{"key":"drpy2_js_大师兄影视[优]","name":"影視｜大师兄[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/大师兄影视[优].js"},
 {"key":"sgolys","name": "影視｜欧乐 (T4)","type": 4,"api": "https://tang.hz.cz/power/olelive?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
 {"key":"sgabys","name": "影視｜安博 (T4)","type": 4,"api": "https://tang.hz.cz/power/ub18?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
 {"key":"sghmys","name": "影視｜黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
@@ -470,7 +471,6 @@
 {"key":"暖影院","name":"影視｜暖影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"副标题":"hl-lc-1remarks\">*&nbsp;|&nbsp;&&</span>","分类url":"https://www.nuantv.com/vodshow/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}/","分类":"国产剧$lj#电视剧$dsj#电影$dy#动漫$dm"}},
 {"key":"剧兔","name":"420. 影視｜追剧兔子","type":3,"api":"csp_AppYsV2","ext":"https://www.zjtu.one/api.php/app/"},
 {"key":"酷云七七","name":"影視｜酷云七七","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"小林子为您剧情介绍:+video-info-itemvideo-info-contentvod_content\">&&</div>","数组":"<a&&module-item-cover","图片":"src=\"&&\"","标题":"alt=\"&&\">","副标题":"module-item-text\">&&</div>","播放数组":"module-blocklistscroll-boxscroll-box-y\">&&</div>","分类url":"https://sc1080.top/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类":"短剧$21#电视剧$2#电影$1#动漫$4#综艺$3"}},
-{"key":"drpy2_js_大师兄影视[优]","name":"影視｜大师兄[JS]","type":3,"api":"./drpy_libs/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/大师兄影视[优].js"},
 {"key":"vs影视","name":"影視｜vs影视","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"分类url":"https://www.nxgqmy.com/ybsitp/{cateId}-{catePg}.html","线路数组":"#playlist&&</li>","播放数组":"myui-content__listsort-list&&</ul>","播放列表":"<a&&</a>","播放标题":">&&<[不包含:APP秒播]","跳转播放链接":"src=\"https://jiexi.ddmz6.com/api/publicApi.php?url=&&\"","简介":"小林子祝您观影愉快","分类数组":"tab_item\">&&</li>","分类标题":">&&</a>","分类ID":"/ybsisw/&&-----------------.html"}},
 {"key":"影渣渣","name":"影視｜影渣渣","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"小林子为您剧情介绍:+module-info-introduction-content\">&&</div>","分类url":"https://www.yingzhazha.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"}},
 {"key":"少泽影客（APP）","name":"影視｜少泽影客","type":3,"api":"csp_AppYsV2","ext":"https://yk.shaozeyy.com/api.php/app/"},
