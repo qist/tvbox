@@ -78,11 +78,11 @@
 
 
 
-{"key":"926看球","name":"⚽926|看球","type":3,"api":"csp_kanqiu926","searchable":0,"changeable":0,"style":{"type":"list"}},
-{"key":"88js","name":"⚽ 88|看球","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"310js","name":"⚽ 310|看球","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/310直播.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"Jrsjs","name":"⚽ Jrs|球迷","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/jrk.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"企鹅xp","name":"⚽鹅鹅|体育","type":3,"api":"csp_XPath","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/企鹅直播.json"},
+{"key":"926看球","name":"⚽體育 | 926","type":3,"api":"csp_kanqiu926","searchable":0,"changeable":0,"style":{"type":"list"}},
+{"key":"88js","name":"⚽體育 | 88","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"310js","name":"⚽體育 | 310","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/310直播.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"Jrsjs","name":"⚽體育 | Jrs","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/jrk.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"企鹅xp","name":"⚽體育 | 鹅鹅","type":3,"api":"csp_XPath","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/企鹅直播.json"},
 {"key":"drpy_js_310直播","name":"⚽體育 | 310直播[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/310直播.js"},
 {"key":"drpy_js_88看球","name":"⚽體育 | 88看球[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/88看球.js"},
 {"key":"drpy_js_JRKAN直播","name":"⚽體育 | JRKAN直播[js]","type":3,"api":"./lib/drpy.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/JRKAN直播.js"},
