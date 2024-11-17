@@ -621,7 +621,7 @@
 ],
 "lives": [ 
  {
-  "name": "🏠RobYang | Youtube(蜂蜜影視2.3.4前或2.6.4後)",
+  "name": "🏠RobYang | https://rb.gy/wcjqb5",
   "type": 0,
   //"url": "https://RobYang.serv00.net/110924.txt",
   "url": "https://RobYang.bsite.net/VodLive/lb8ffa",
@@ -632,16 +632,6 @@
   "logo": "https://epg.112114.xyz/logo/{name}.png"
   },   
 {"name":"RobYang 安博 | 台際　(人多會慢)","type":0,"url":"http://RobYang.serv00.net/ublive.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
-{
-  "name":"🏘️RobYang總鏈接　https://rb.gy/wcjqb5",
-  "type": 0,
-  "url": "https://rb.gy/wcjqb5"
- },
- {
- "name": "🏘️RobYang總鏈接備 https://RobYang.bsite.net/VodLive/sb8ffa",
- "type": 0,
- "url": "https://RobYang.bsite.net/VodLive/sb8ffa"
- },
 {"name":"smt｜台港中日韓際","type":0,"playerType":1,"url":"https://raw.githubusercontent.com/sqspot/tac/main/smt.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"Tac｜中台港際","type":0,"url":"https://raw.githubusercontent.com/sqspot/tac/main/4gtv.txt","ua":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.xyz/logo/{name}.png","ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"]},
 // {"name":"smart","boot":false,"pass":true,"url":"https://t4.doube.eu.org/smt.txt","logo":"https://live.fanmingming.com/tv/{name}.png","header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"}},
@@ -729,6 +719,19 @@
 {"name":"OFI｜台影 (下很慢)","note":"m3u","type":0,"url":"https://dingyue.mytvsuper.xyz/oufei/ofiii_ch.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"恒星育华 | 中","type":0,"url":"http://yuhuahx.com/dsj66.txt","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 
+
+// {
+//   "name":"🏘️RobYang總鏈接　https://rb.gy/wcjqb5",
+//   "type": 0,
+//   "url": "https://rb.gy/wcjqb5"
+//  },
+{
+  "name": "🏘️RobYang總鏈接備 https://RobYang.bsite.net/VodLive/sb8ffa",
+  "type": 0,
+  "url": "https://RobYang.bsite.net/VodLive/sb8ffa"
+  },
+
+  
 {
 "name": "18+ 香蕉哥佛系",
 "type": 0,
