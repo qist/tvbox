@@ -14,7 +14,7 @@
 // {"key":"robYang2","name":"🏘️點直播源 https://rb.gy/wcjqb5","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang3","name":"🏘️點直播源 https://rb.gy/wcjqb5","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大师兄影视.js","searchable":0,"quickSearch":0,"changeable":0},
 //{"key":"robYang4","name":"🏠Rob Yang 就是我,我們不熟,有事嗎？","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js","searchable":0,"quickSearch":0,"changeable":0},
-{"key":"robYang5","name":"🏠https://rb.gy/wcjqb5 Rob點直播源","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+{"key":"robYang5","name":"🏠https://rb.gy/wcjqb5 點直播源Rob","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"robYang6","name":"🏘️點直播源 https://rb.gy/wcjqb5","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 
 {"key":"nyys","name":"影視｜纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
@@ -58,8 +58,6 @@
 {"key":"南瓜","name":"南瓜|多线","type":3,"api":"csp_NanGua","playerType":2,"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"萌米","name":"萌米|多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":0,"changeable":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
 
-
-
 //{"key":"欢视","name":"👓欢视|多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8IPB+BwH4Qma+opv"},
 {"key":"可可","name":"可可|多线","type":3,"api":"csp_Kekys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"zxzj","name":"在线|外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://www.zxzjhd.com/"},
@@ -86,16 +84,17 @@
 
 {"key":"酷奇","name":"50. 🎧酷奇|MV","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/酷奇MV.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"MTV","name":"🎧明星|MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/MTV.json"}},
+{"key":"drpy_js_爱车MV","name":"🎧MV | 爱车MV[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/爱车MV.js"},
+{"key":"drpy_js_酷奇MV","name":"🎧MV | 酷奇[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/酷奇MV.js"},
 {"key":"MTV2","name":"🎧MTV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":1,"changeable":0,"ext":"https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"},
 {"key":"ksxjj","name":"🎧KTV","type":4,"api":"http://120.53.102.254/dsp/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"drpy_js_A8音乐","name":"🎧音频 | A8音乐[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/A8音乐.js"},
 {"key":"drpy_js_DJ音乐","name":"🎧音频 | DJ音乐[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/DJ音乐.js"},
 {"key":"drpy_js_啦啦DJ","name":"🎧音频 | 啦啦DJ[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/啦啦DJ.js"},
 {"key":"drpy_js_清风DJ","name":"🎧音频 | 清风DJ[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/清风DJ.js"},
-{"key":"drpy_js_广播迷FM","name":"🎧广播 | 广播迷FM[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/广播迷FM.js"},
-{"key":"drpy_js_蜻蜓FM","name":"60. 🎧广播 | 蜻蜓FM[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/蜻蜓FM.js"},
-{"key":"drpy_js_爱车MV","name":"🎧MV | 爱车MV[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/爱车MV.js"},
-{"key":"drpy_js_酷奇MV","name":"🎧MV | 酷奇[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/酷奇MV.js"},
+{"key":"drpy_js_广播迷FM","name":"60. 🎧广播 | 广播迷FM[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/广播迷FM.js"},
+{"key":"drpy_js_蜻蜓FM","name":"🎧广播 | 蜻蜓FM[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/蜻蜓FM.js"},
+
 
 
 {"key":"虎牙直播js","name":"虎牙|直播","type":3,"api":"./FTY/drpy2.js","ext":"./FTY/huya2.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
@@ -104,14 +103,13 @@
 {"key":"drpy_js_哔哩直播","name":"弹幕 | 哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩直播.js"},
 {"key":"drpy_js_哔哩影视","name":"弹幕 | 哔哩影视[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩影视.js"},
 {"key":"drpy_js_JustLive","name":"弹幕 | JustLive[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/JustLive.js"},
+{"key":"Bili","name":"弹幕 | 哔哔合集","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/bilibili.json"}},
+{"key":"Biliych","name":"弹幕 | 明星演唱会","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/biliych.json"}},
 {"key":"drpy_js_斗鱼直播","name":"直播 | 斗鱼[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/斗鱼直播.js"},
 {"key":"drpy_js_虎牙直播","name":"70. 直播 | 虎牙[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/虎牙直播.js"},
 
 
-
 {"key":"Aid","name":"🚑急救|教学","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style": { "type": "rect", "ratio":3.8}},
-{"key":"Bili","name":"哔哔合集|弹幕","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/bilibili.json"}},
-{"key":"Biliych","name":"明星演唱会|弹幕","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/biliych.json"}},
 {"key":"有声小说js","name":"📚有声|小说","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/有声小说吧.js","style":{"type":"rect","ratio":1},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"drpy_js_童趣","name":"📚少儿 | 童趣[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1.597},"ext":"./js/童趣.js"},
 {"key":"drpy_js_兔小贝","name":"📚少儿 | 兔小贝[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/兔小贝.js"},
@@ -131,49 +129,51 @@
 {"key":"高中教育","name":"90. 📚高中|课堂","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/高中课堂.json"}},
 
 
+
 {"key":"drpy_js_播客","name":"聚合 | 播客[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/播客.js"},
 {"key":"drpy_js_短视频","name":"聚合 | 短视频[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/短视频.js"},
 {"key":"drpy_js_酷6网","name":"聚合 | 酷6网[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/酷6网.js"},
 {"key":"drpy_js_网易公版影像","name":"聚合 | 网易公版[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1.597},"ext":"./js/网易公版影像.js"},
 
 
-{"key":"动漫巴士","name":"動漫｜巴士","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/动漫巴士.js"},
-//{"key":"动漫巴士2","name":"動漫｜巴士(鱼)","type":3,"api":"csp_Dm84","jar":"./jar/danmu.jar;","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
-{"key":"Dm84","name":"動漫｜巴士2","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"Ysj","name":"异界|动漫","type":3,"api":"csp_Ysj","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"Anime1","name":"100. 日本|动漫","type": 3,"api": "csp_Anime1","searchable": 1,"quickSearch": 1,"changeable":1},
-{"key":"Dm84","name":"動漫｜巴士(饭)","type":3,"api":"csp_Dm84","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"异世界","name":"動漫｜异世界","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"ext":"./drpy_js/异世界.js"},
-{"key":"Ysj","name":"動漫｜异世界(飯源)","type":3,"api":"csp_Ysj","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"NyaFun动漫","name":"動漫｜妮呀","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://nyafun.cc/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html","分类":"TV动画$20#国漫$24#日漫$23#美漫$25#剧场版$21"}},
-{"key":"drpy_js_58动漫","name":"動漫｜58动漫","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/58动漫.js"},
-{"key":"drpy_js_AnFuns","name":"動漫｜AnFuns","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/AnFuns.js"},
-{"key":"csp_XBiuAG動漫","name":"動漫｜AG動漫(XB)","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://agdm.tv/show/{cateId}/by/time/page/{catePg}/year/{year}.html","分类":"全區$1#劇場版$9#日本動漫$6#國產動漫$7#歐美動漫$8#海外動漫$21"}},
-{"key":"drpy_js_NyaFun","name":"動漫｜NyaFun","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/NyaFun.js"},
-{"key":"drpy_js_去看吧","name":"110. 動漫｜去看吧","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/去看吧.js"},
+
+
+{"key":"动漫巴士","name":"📔動漫｜巴士","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/动漫巴士.js"},
+//{"key":"动漫巴士2","name":"📔動漫｜巴士(鱼)","type":3,"api":"csp_Dm84","jar":"./jar/danmu.jar;","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
+{"key":"Dm84","name":"📔動漫｜巴士2","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"Ysj","name":"📔動漫｜异界","type":3,"api":"csp_Ysj","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"Anime1","name":"100. 📔動漫｜日本","type": 3,"api": "csp_Anime1","searchable": 1,"quickSearch": 1,"changeable":1},
+{"key":"Dm84","name":"📔動漫｜巴士(饭)","type":3,"api":"csp_Dm84","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"异世界","name":"📔動漫｜异世界","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"ext":"./drpy_js/异世界.js"},
+{"key":"Ysj","name":"📔動漫｜异世界(飯源)","type":3,"api":"csp_Ysj","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"drpy_js_异世界动漫漫","name":"動漫 | 异世界動漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/异世界动漫.js"},
+{"key":"NyaFun动漫","name":"📔動漫｜妮呀","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://nyafun.cc/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html","分类":"TV动画$20#国漫$24#日漫$23#美漫$25#剧场版$21"}},
+{"key":"drpy_js_58动漫","name":"📔動漫｜58动漫","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/58动漫.js"},
+{"key":"drpy_js_AnFuns","name":"📔動漫｜AnFuns","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/AnFuns.js"},
+{"key":"csp_XBiuAG動漫","name":"📔動漫｜AG動漫(XB)","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://agdm.tv/show/{cateId}/by/time/page/{catePg}/year/{year}.html","分类":"全區$1#劇場版$9#日本動漫$6#國產動漫$7#歐美動漫$8#海外動漫$21"}},
+{"key":"drpy_js_NyaFun","name":"📔動漫｜NyaFun","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/NyaFun.js"},
+{"key":"drpy_js_去看吧","name":"110. 📔動漫｜去看吧","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/去看吧.js"},
 {"key":"drpy_js_AGE动漫","name":"動漫 | AGE動漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/AGE动漫.js"},
-{"key":"drpy_js_NT动漫","name":"動漫 | NT動漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/NT动漫.js"},
 {"key":"drpy_js_动漫岛","name":"動漫 | 动漫岛[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/动漫岛.js"},
 {"key":"drpy_js_喵次元","name":"影視｜喵次元[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/喵次元.js"},
 {"key":"drpy_js_去看吧","name":"動漫 | 去看吧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/去看吧.js"},
 {"key":"drpy_js_曲奇动漫","name":"動漫 | 曲奇動漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/曲奇动漫.js"},
-{"key":"drpy_js_异世界动漫漫","name":"動漫 | 异世界動漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/异世界动漫.js"},
-{"key":"drpy_js_爱弹幕","name":"動漫｜爱弹幕","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/爱弹幕.js"},
-{"key":"drpy_js_路漫漫","name":"120. 動漫｜路漫漫","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/路漫漫.js"},
-{"key":"hipy_js_大米动漫[漫]","name":"動漫｜大米","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/大米动漫[漫].js"},
-{"key":"hipy_js_七色番[漫]","name":"動漫｜七色番","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/七色番[漫].js"},
-{"key":"csp_XBiu櫻花動漫","name":"動漫｜櫻花(XB)","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.857yhw.com/show/{cateId}--------{catePg}---{year}.html","分类":"動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6"}},
-{"key":"魔都","name":"動漫｜魔都(PG)","type":0,"api":"https://caiji.moduapi.cc/api.php/provide/vod/at/xml/","searchable":1,"changeable":0,"categories":["国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影","里番动漫"]},
-{"key":"萝卜动漫","name":"動漫｜萝卜","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"影片类型":"分类：&&</a>","简介":"请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","分类url":"https://985dm.com/list/{cateId}-{catePg}.html","分类":"国产动漫$3#日本动漫$2#欧美动漫$4#动漫电影$1#短剧$20"}},
-{"key":"hipy_js_NT动漫[漫]","name":"動漫｜牛顿","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/NT动漫[漫].js"},
-{"key":"hipy_js_OmoFun[漫]","name":"動漫｜OmoFun","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/OmoFun[漫].js"},
-{"key":"hipy_js_次元城动漫[漫]","name":"動漫｜次元城","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/次元城动漫[漫].js"},
-{"key":"hipy_js_奇米动漫[漫]","name":"130. 動漫｜奇米","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/奇米动漫[漫].js"},
-{"key":"Anime1","name":"動漫｜日本","type":3,"api":"csp_Anime1","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"drpy_js_Anime1动画","name":"動漫｜日本[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/Anime1动画.js"},
-{"key":"hipy_js_怡萱动漫[漫]","name":"動漫｜怡萱","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/怡萱动漫[漫].js"},
-{"key":"hipy_js_嗷呜动漫","name":"動漫｜嗷呜动漫","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/嗷呜动漫.js"},
-{"key":"hipy_js_樱花动漫[漫]","name":" 動漫｜樱花","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/樱花动漫[漫].js"},
+{"key":"drpy_js_爱弹幕","name":"📔動漫｜爱弹幕","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/爱弹幕.js"},
+{"key":"drpy_js_路漫漫","name":"120. 📔動漫｜路漫漫","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/路漫漫.js"},
+{"key":"hipy_js_大米动漫[漫]","name":"📔動漫｜大米","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/大米动漫[漫].js"},
+{"key":"hipy_js_七色番[漫]","name":"📔動漫｜七色番","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/七色番[漫].js"},
+{"key":"csp_XBiu櫻花動漫","name":"📔動漫｜櫻花(XB)","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.857yhw.com/show/{cateId}--------{catePg}---{year}.html","分类":"動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6"}},
+{"key":"魔都","name":"📔動漫｜魔都(PG)","type":0,"api":"https://caiji.moduapi.cc/api.php/provide/vod/at/xml/","searchable":1,"changeable":0,"categories":["国产动漫","日韩动漫","欧美动漫","港台动漫","动漫电影","里番动漫"]},
+{"key":"萝卜动漫","name":"📔動漫｜萝卜","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"影片类型":"分类：&&</a>","简介":"请勿相信影片中的广告，以免上当受骗。+简介：&&</p>","分类url":"https://985dm.com/list/{cateId}-{catePg}.html","分类":"国产动漫$3#日本动漫$2#欧美动漫$4#动漫电影$1#短剧$20"}},
+{"key":"hipy_js_NT动漫[漫]","name":"📔動漫｜牛顿","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/NT动漫[漫].js"},
+{"key":"hipy_js_OmoFun[漫]","name":"📔動漫｜OmoFun","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/OmoFun[漫].js"},
+{"key":"hipy_js_次元城动漫[漫]","name":"📔動漫｜次元城","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/次元城动漫[漫].js"},
+{"key":"hipy_js_奇米动漫[漫]","name":"130. 📔動漫｜奇米","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/奇米动漫[漫].js"},
+{"key":"Anime1","name":"📔動漫｜日本","type":3,"api":"csp_Anime1","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"drpy_js_Anime1动画","name":"📔動漫｜日本[V2]","type":3,"api":"./lib/drpy2.min.js","ext":"./drpy_js/Anime1动画.js"},
+{"key":"hipy_js_怡萱动漫[漫]","name":"📔動漫｜怡萱","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/怡萱动漫[漫].js"},
+{"key":"hipy_js_嗷呜动漫","name":"📔動漫｜嗷呜动漫","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/嗷呜动漫.js"},
+{"key":"hipy_js_樱花动漫[漫]","name":" 📔動漫｜樱花","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./drpy_js/樱花动漫[漫].js"},
 
 
 {"key":"农民","name":"影视 |农民[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"数组":"<li>&&</li>","图片":"src=\"&&\"","分类url":"https://m.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by--class-0-year-{year}-letter--area-{area}-lang-.html","分类":"短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"},"jar": "./jar/Yoursmile.jar"},
