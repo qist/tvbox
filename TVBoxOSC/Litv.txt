@@ -8,7 +8,7 @@
 寰宇新聞台灣台,https://litv.zapi.us.kg/?id=litv-longturn15
 寰宇財經台,https://litv.zapi.us.kg/?id=litv-longturn23
 TVBS 新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
-三立 iNEWS,https://robyang.koyeb.app/4gtv/229
+三立 iNEWS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/229
 台視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv051
 台視財經台,https://litv.zapi.us.kg/?id=4gtv-4gtv056
 東森新聞,https://litv.zapi.us.kg/?id=4gtv-4gtv152
@@ -16,10 +16,10 @@ TVBS 新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv072
 非凡新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv010
 非凡商業台,https://litv.zapi.us.kg/?id=4gtv-4gtv048
 鏡電視新聞台,https://litv.zapi.us.kg/?id=4gtv-4gtv075
-CNBC Asia 財經台,https://robyang.koyeb.app/4gtv/235
+CNBC Asia 財經台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/235
 VOA 美國之音,https://litv.zapi.us.kg/?id=litv-ftv03
-DW德國之聲,https://robyang.koyeb.app/4gtv/226
-SBN 全球財經台,https://robyang.koyeb.app/4gtv/224
+DW德國之聲,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/226
+SBN 全球財經台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/224
 半島國際新聞台,https://litv.zapi.us.kg/?id=litv-ftv10
 第1商業台,https://litv.zapi.us.kg/?id=4gtv-4gtv104
 民視,https://litv.zapi.us.kg/?id=4gtv-4gtv002
@@ -32,10 +32,10 @@ SBN 全球財經台,https://robyang.koyeb.app/4gtv/224
 靖天綜合台,https://litv.zapi.us.kg/?id=4gtv-4gtv046
 靖天國際台,https://litv.zapi.us.kg/?id=4gtv-4gtv063
 靖天日本台,https://litv.zapi.us.kg/?id=4gtv-4gtv047
-三立綜合台,https://robyang.koyeb.app/4gtv/169
+三立綜合台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/169
 台視,https://litv.zapi.us.kg/?id=4gtv-4gtv066
 Arirang TV,https://litv.zapi.us.kg/?id=4gtv-4gtv079
-Bloomberg TV,https://robyang.koyeb.app/4gtv/283
+Bloomberg TV,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/283
 民視影劇台,https://litv.zapi.us.kg/?id=litv-ftv09
 中視經典台,https://litv.zapi.us.kg/?id=4gtv-4gtv080
 靖天戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv058
@@ -45,52 +45,52 @@ Bloomberg TV,https://robyang.koyeb.app/4gtv/283
 龍華經典台,https://litv.zapi.us.kg/?id=litv-longturn21
 龍華電影台,https://litv.zapi.us.kg/?id=litv-longturn03
 靖洋戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv045
-TVBS 台劇台,https://robyang.koyeb.app/4gtv/285
-影迷數位紀實台,https://robyang.koyeb.app/4gtv/212
+TVBS 台劇台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/285
+影迷數位紀實台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/212
 影迷數位電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv011
 AMC 電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv017
 CatchPlay 電影台,https://litv.zapi.us.kg/?id=4gtv-4gtv076
-My Cinema Europe HD 我的歐洲電影,https://robyang.koyeb.app/4gtv/176
+My Cinema Europe HD 我的歐洲電影,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/176
 公視戲劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv042
 采昌影劇台,https://litv.zapi.us.kg/?id=4gtv-4gtv049
 台灣戲劇台,https://litv.zapi.us.kg/?id=litv-longturn22
-戲劇免費看 1台,https://robyang.koyeb.app/4gtv/270
-戲劇免費看 2台,https://robyang.koyeb.app/4gtv/244
-經典電影台,https://robyang.koyeb.app/4gtv/201
-電影免費看 2台,https://robyang.koyeb.app/4gtv/245
-電影原聲台 CMusic,https://robyang.koyeb.app/4gtv/218
-花系列 經典劇場,https://robyang.koyeb.app/4gtv/279
-CinemaWorld,https://robyang.koyeb.app/4gtv/225
-HITS 頻道,https://robyang.koyeb.app/4gtv/186
-Rock Action,https://robyang.koyeb.app/4gtv/180
-Rock Entertainment,https://robyang.koyeb.app/4gtv/275
-金光布袋戲,https://robyang.koyeb.app/4gtv/236
-霹靂布袋戲,https://robyang.koyeb.app/4gtv/301
+戲劇免費看 1台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/270
+戲劇免費看 2台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/244
+經典電影台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/201
+電影免費看 2台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/245
+電影原聲台 CMusic,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/218
+花系列 經典劇場,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/279
+CinemaWorld,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/225
+HITS 頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/186
+Rock Action,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/180
+Rock Entertainment,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/275
+金光布袋戲,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/236
+霹靂布袋戲,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/301
 民視旅遊台,https://litv.zapi.us.kg/?id=litv-ftv07
-ELTA 生活旅遊,https://robyang.koyeb.app/4gtv/237
+ELTA 生活旅遊,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/237
 ELTV 生活英語,https://litv.zapi.us.kg/?id=litv-longturn20
 亞洲旅遊台,https://litv.zapi.us.kg/?id=litv-longturn17
-Global Trekker,https://robyang.koyeb.app/4gtv/252
-LUXE TV,https://robyang.koyeb.app/4gtv/175
-Pet Club TV,https://robyang.koyeb.app/4gtv/182
-TV5MONDE Style,https://robyang.koyeb.app/4gtv/178
-車迷 TV,https://robyang.koyeb.app/4gtv/160
-Love Nature,https://robyang.koyeb.app/4gtv/139
-Fun 探索娛樂台,https://robyang.koyeb.app/4gtv/274
-幸福空間居家台,https://robyang.koyeb.app/4gtv/168
+Global Trekker,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/252
+LUXE TV,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/175
+Pet Club TV,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/182
+TV5MONDE Style,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/178
+車迷 TV,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/160
+Love Nature,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/139
+Fun 探索娛樂台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/274
+幸福空間居家台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/168
 民視綜藝台,https://litv.zapi.us.kg/?id=4gtv-4gtv004
 靖天育樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv062
 靖天歡樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv054
 龍華日韓台,https://litv.zapi.us.kg/?id=litv-longturn11
-TVBS 綜藝台,https://robyang.koyeb.app/4gtv/284
+TVBS 綜藝台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/284
 TVBS 歡樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv068
 TVBS 精采台,https://litv.zapi.us.kg/?id=4gtv-4gtv067
 八大精彩台,https://litv.zapi.us.kg/?id=4gtv-4gtv034
 八大綜藝台,https://litv.zapi.us.kg/?id=4gtv-4gtv039
 ELTA 娛樂台,https://litv.zapi.us.kg/?id=4gtv-4gtv070
 Classica 古典樂,https://litv.zapi.us.kg/?id=4gtv-4gtv059
-Lifetime 娛樂頻道,https://robyang.koyeb.app/4gtv/217
-MTV Live HD 音樂頻道,https://robyang.koyeb.app/4gtv/213
+Lifetime 娛樂頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/217
+MTV Live HD 音樂頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/213
 Mezzo Live,https://litv.zapi.us.kg/?id=4gtv-4gtv083
 豬哥亮歌廳秀,https://litv.zapi.us.kg/?id=4gtv-4gtv006
 Trace Urban,https://litv.zapi.us.kg/?id=4gtv-4gtv082
@@ -99,36 +99,36 @@ Trace Urban,https://litv.zapi.us.kg/?id=4gtv-4gtv082
 靖天卡通台,https://litv.zapi.us.kg/?id=4gtv-4gtv044
 龍華卡通台,https://litv.zapi.us.kg/?id=litv-longturn01
 靖洋卡通 Nice Bingo,https://litv.zapi.us.kg/?id=4gtv-4gtv057
-DreamWorks 夢工廠動畫,https://robyang.koyeb.app/4gtv/282
-Nickelodeon,https://robyang.koyeb.app/4gtv/185
-Nick Jr. 兒童頻道,https://robyang.koyeb.app/4gtv/219
+DreamWorks 夢工廠動畫,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/282
+Nickelodeon,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/185
+Nick Jr. 兒童頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/219
 i-Fun 動漫台,https://litv.zapi.us.kg/?id=litv-ftv15
-兒童卡通台,https://robyang.koyeb.app/4gtv/269
-精選動漫台,https://robyang.koyeb.app/4gtv/204
-經典卡通台,https://robyang.koyeb.app/4gtv/202
+兒童卡通台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/269
+精選動漫台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/204
+經典卡通台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/202
 達文西頻道,https://litv.zapi.us.kg/?id=4gtv-4gtv018
-超人力霸王整套看,https://robyang.koyeb.app/4gtv/278
-MOMO 親子台,https://robyang.koyeb.app/4gtv/231
-LiveABC 互動英語台,https://robyang.koyeb.app/4gtv/188
+超人力霸王整套看,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/278
+MOMO 親子台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/231
+LiveABC 互動英語台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/188
 TVBS,https://litv.zapi.us.kg/?id=4gtv-4gtv073
-History 歷史頻道,https://robyang.koyeb.app/4gtv/214
-CI 罪案偵查頻道,https://robyang.koyeb.app/4gtv/215
+History 歷史頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/214
+CI 罪案偵查頻道,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/215
 Smart 知識台,https://litv.zapi.us.kg/?id=litv-longturn19
 視納華仁紀實頻道,https://litv.zapi.us.kg/?id=4gtv-4gtv013
-原住民族電視台,https://robyang.koyeb.app/4gtv/273
+原住民族電視台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/273
 客家電視台,https://litv.zapi.us.kg/?id=4gtv-4gtv043
-滾動力 Rollor,https://robyang.koyeb.app/4gtv/249
+滾動力 Rollor,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/249
 好消息,https://litv.zapi.us.kg/?id=litv-ftv16
 好消息2台,https://litv.zapi.us.kg/?id=litv-ftv17
-大愛電視,https://robyang.koyeb.app/4gtv/209
-大愛電視2,https://robyang.koyeb.app/4gtv/230
-人間衛視,https://robyang.koyeb.app/4gtv/210
+大愛電視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/209
+大愛電視2,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/230
+人間衛視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/210
 國會頻道1,https://litv.zapi.us.kg/?id=4gtv-4gtv084
 國會頻道2,https://litv.zapi.us.kg/?id=4gtv-4gtv085
-東森購物一台,https://robyang.koyeb.app/4gtv/173
-東森購物二台,https://robyang.koyeb.app/4gtv/174
-東森購物三台,https://robyang.koyeb.app/4gtv/287
-東森購物四台,https://robyang.koyeb.app/4gtv/286
+東森購物一台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/173
+東森購物二台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/174
+東森購物三台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/287
+東森購物四台,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/286
 
 
 博斯運動一台,https://litv.zapi.us.kg/?id=litv-longturn07
@@ -140,8 +140,8 @@ Smart 知識台,https://litv.zapi.us.kg/?id=litv-longturn19
 博斯高球二台,https://litv.zapi.us.kg/?id=litv-longturn06
 博斯魅力台,https://litv.zapi.us.kg/?id=litv-longturn04
 GINX Esports TV,https://litv.zapi.us.kg/?id=4gtv-4gtv053
-TechStorm,https://robyang.koyeb.app/4gtv/181
-時尚運動X,https://robyang.koyeb.app/4gtv/277
+TechStorm,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/181
+時尚運動X,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/277
 智林體育台,https://litv.zapi.us.kg/?id=4gtv-4gtv101
 TraceSports,https://litv.zapi.us.kg/?id=4gtv-4gtv077
 
