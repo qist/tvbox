@@ -636,13 +636,14 @@
 //{"name":"RobYang 安博 | 台際　(人多會慢)","type":0,"url":"http://RobYang.serv00.net/ublive.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"smt｜台港中日韓際","type":0,"url":"https://raw.githubusercontent.com/sqspot/tac/main/smt.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒1｜台港中日韓", "note original":"https://tv.anbox118.workers.dev/live", "type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
-{"name":"一盒2｜際台港中馬新","type":0,"url":"http://anbox118.zya.me/sapphire.m3u.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+{"name":"一盒2｜際歐美","type":0,"url":"http://anbox118.zya.me/sapphire.m3u.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"Tac｜中台港際","type":0,"url":"https://raw.githubusercontent.com/sqspot/tac/main/4gtv.txt","ua":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.xyz/logo/{name}.png","ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"]},
 {"name":"streamL｜台港中日韓際","type":0,"url":"https://www.stream-link.org/stream-link.m3u","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 //{"name":"smart","boot":false,"pass":true,"url":"https://t4.doube.eu.org/smt.txt","logo":"https://live.fanmingming.com/tv/{name}.png","header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"}},
 //{"name":"安博","type":0,"url":"https://tang.hz.cz/zb/anbo?token=cb70f1ae"},	
 //{"name":"美國｜際","type":0,"url":"https://raw.githubusercontent.com/shawn82/fm/main/lib/us.m3u8","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"ABCNEW | 際","type":0,"url":"http://abcnew.site:8880/get.php?username=D12m1018&password=707333990&type=m3u","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
+//{"name":"ABCNEW | 際","note":"too big for OKTV","type":0,"url":"http://abcnew.site:8880/get.php?username=D12m1018&password=707333990&type=m3u","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
+
 {
 "name": "香蕉哥｜雜中台港日韓際",
 "type": 0,
