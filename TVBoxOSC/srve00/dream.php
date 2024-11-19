@@ -5,7 +5,7 @@ header('Content-Type: text/json;charset=UTF-8',true,200);
 $m3u8 = $_GET["m3u8"];
 $ts = $_GET["ts"];
 
-$devid = "00:fa:20:23:29:4be8:50:8b:8a:3b:1f";//失效更换这里
+$devid = "00:fa:20:22:29:4be8:50:8b:8a:3b:1f";//失效更换这里
 //备用    00:08:04:00:11:36f2:25:b7:a5:1b:86  "00:fa:20:22:29:4be8:50:8b:8a:3b:1f";
 
 $hardware = "Dream TV-Amlogic-8.1.73GB-11.50 GB-nw";

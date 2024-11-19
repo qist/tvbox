@@ -2,6 +2,7 @@
   "note":"FROM: https://rb.gy/wcjqb5",
   "note2":"https://RobYang.bsite.net/VodLive/sb8ffa",
   "note3":"https://RobYang.bsite.net",
+  "note4":"http://RobYang.us.kg",
   "wallpaper": "http://img.fongmi.eu.org",
   "logo": "https://RobYang.bsite.net/RobYang.jpg",
   "urls": [
@@ -14,8 +15,12 @@
       "name": "🏠RobYang 點直播站備份1"
     },
     {
-      "url": "https://rb.gy/1gki0m", //jsm tvbox
+      "url": "https://RobYang.us.kg/VodLive/jb8ffa", //jsm
       "name": "🏠RobYang 點直播站備份2"
+    },
+    {
+      "url": "https://rb.gy/1gki0m", //jsm tvbox
+      "name": "🏠RobYang 點直播站備份3"
     },
     // {
     //   "url": "https://robyang.serv00.net/VodLive/jb8ffa.php", //Doesn't work correctly because missing jar json js...etc
