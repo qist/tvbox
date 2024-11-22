@@ -328,7 +328,6 @@
 "parses":[
 {"name":"Json聚合","type":3,"url":"Demo"},
 {"name": "云API","type": 1,"url": "http://119.91.123.253:2345/Api/yun.php?url="},
-{"name": "芒果","type": 1,"url": "http://mgtv.ckflv.cn/?url=","ext":{"flag":["mgtv","芒果"],"header":{"User-Agent":"okhttp/4.1.0"}}},
 {"name": "jx","type": 0,"url": "https://jx.m3u8.tv/jx/jx.php?url="},
 {"name": "羽路均沾","type": 0,"url": "https://ylu.cc/index.php?url="},
 {"name": "999","type": 0,"url": "https://huayong.net/999/?v="},
