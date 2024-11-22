@@ -38,7 +38,7 @@ var rule = {
                 }));
                 return jData.data.url
             }
-			let videoUrl = getvideo('http://mgtv.ckflv.cn/?url=' + input);
+			let videoUrl = getvideo('https://jxjson.icu/neibu.php?url=' + input);
 			input = {
                 jx: 0,
                 url: videoUrl,
