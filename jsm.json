@@ -632,7 +632,7 @@
   "type": 0,
   //"url": "https://RobYang.serv00.net/110924.txt",
   //"url": "https://RobYang.bsite.net/VodLive/lb8ffa",  
-  "url": "https://RobYang.us.kg/VodLive/jb8ffa",  
+  "url": "https://RobYang.us.kg/VodLive/lb8ffa",  
   "ua": "okhttp/4.12.0",
   "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
   "timeout": 5,
