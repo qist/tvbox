@@ -4,7 +4,7 @@
   "note3":"https://RobYang.bsite.net",
   "note4":"http://RobYang.us.kg",
   "wallpaper": "http://img.fongmi.eu.org",
-  "logo": "https://RobYang.bsite.net/RobYang.jpg",
+ // "logo": "https://RobYang.bsite.net/RobYang.jpg",
   "urls": [
     {
       "url": "https://RobYang.us.kg/VodLive/jb8ffa", //jsm
@@ -12,7 +12,7 @@
     },
     {
       "url": "https://rb.gy/fkbt61", // -> https://robyang.serv00.net/ -> https://RobYang.us.kg/VodLive/sb8ffa
-      "name": "🏠RobYang 總點直播站"
+      "name": "🏠RobYang 總點直播站 https://rb.gy/fkbt61"
     },
     // {
     //   "url": "https://RobYang.bsite.net/VodLive/jb8ffa", //jsm
