@@ -18,7 +18,10 @@
 //{"key":"robYang5","name":"🏠https://rb.gy/wcjqb5 點直播源Rob","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"robYang6","name":"🏘️點直播源 https://rb.gy/wcjqb5","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang7","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
-{"key":"robYang7","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+//{"key":"robYang8","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+{"key":"robYang9","name":"🏘️點直播源 https://RobYang.us.kg/VodLive/jb8ffa","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+
+
 
 {"key":"nyys","name":"影視｜纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"drpy_js_大师兄影视","name":"影視 | 大师兄影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大师兄影视.js"},
@@ -627,8 +630,9 @@
  {
   "name": "🏠RobYang | https://rb.gy/wcjqb5",
   "type": 0,
-  "url": "https://RobYang.serv00.net/110924.txt",
+  //"url": "https://RobYang.serv00.net/110924.txt",
   //"url": "https://RobYang.bsite.net/VodLive/lb8ffa",  
+  "url": "https://RobYang.us.kg/VodLive/jb8ffa",  
   "ua": "okhttp/4.12.0",
   "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
   "timeout": 5,

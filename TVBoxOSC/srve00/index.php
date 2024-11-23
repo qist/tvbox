@@ -1,8 +1,12 @@
 
 <?php
+//header("Location: https://rb.gy/wcjqb5");
+ //header("Location: https://robyang.serv00.net/VodLive/sb8ffa.php");
+//     header("Location: https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/source.json");
+header("Location: https://robyang.us.kg/VodLive/sb8ffa");
 
-header("Location: https://rb.gy/wcjqb5");
-    //header("Location: https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/source.json");
+
+
     exit;
 
 

@@ -14,18 +14,18 @@
     //   "url": "https://RobYang.bsite.net/VodLive/jb8ffa", //jsm
     //   "name": "🏠RobYang 點直播站備份1"
     // },
-    // {
-    //   "url": "https://RobYang.us.kg/VodLive/jb8ffa", //jsm
-    //   "name": "🏠RobYang 點直播站備份2"
-    // },
+    {
+      "url": "https://RobYang.us.kg/VodLive/jb8ffa", //jsm
+      "name": "🏠RobYang 點直播站備份2"
+    },
     // {
     //   "url": "https://RobYang.serv00.net/VodLive/jb8ffa.php", //"https://rb.gy/1gki0m", //jsm tvbox
     //   "name": "🏠RobYang 點直播站備份3"
     // },
-    {
-      "url": "https://RobYang.serv00.net/VodLive/jb8ffa.php", //"https://rb.gy/1gki0m", //jsm tvbox
-      "name": "🏠RobYang 點直播站備份4"
-    },
+    // {
+    //   "url": "https://RobYang.serv00.net/VodLive/jb8ffa.php", //"https://rb.gy/1gki0m", //jsm tvbox
+    //   "name": "🏠RobYang 點直播站備份4"
+    // },
     // {
     //   "url": "https://robyang.serv00.net/VodLive/jb8ffa.php", //Doesn't work correctly because missing jar json js...etc
     //   "name": "🏠RobYang 點直播站備份3"
