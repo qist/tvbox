@@ -40,7 +40,8 @@ var rule = {
                 let url = pd(it, "div.result_item_v&&data-id");
                 let img = pd(it, ".figure_pic&&src");
                 let fromTag = pdfh(it, ".result_source&&Text");
-                if (fromTag.match(/腾讯/) && shortText) {
+                let markAlt = pd(it, ".mark_v img&&alt"); 
+                if (fromTag.match(/腾讯/) && shortText && !markAlt.match(/预告/)) {
                     d.push({
                         title: longText.split(shortText)[0],
                         img: img,
