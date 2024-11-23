@@ -6,18 +6,18 @@
   "wallpaper": "http://img.fongmi.eu.org",
   "logo": "https://RobYang.bsite.net/RobYang.jpg",
   "urls": [
-    {
-      "url": "https://rb.gy/geje78", //jsm
-      "name": "🏠RobYang 點直播站"
-    },
-    {
-      "url": "https://RobYang.bsite.net/VodLive/jb8ffa", //jsm
-      "name": "🏠RobYang 點直播站備份1"
-    },
-    {
-      "url": "https://RobYang.us.kg/VodLive/jb8ffa", //jsm
-      "name": "🏠RobYang 點直播站備份2"
-    },
+    // {
+    //   "url": "https://rb.gy/geje78", //jsm
+    //   "name": "🏠RobYang 點直播站"
+    // },
+    // {
+    //   "url": "https://RobYang.bsite.net/VodLive/jb8ffa", //jsm
+    //   "name": "🏠RobYang 點直播站備份1"
+    // },
+    // {
+    //   "url": "https://RobYang.us.kg/VodLive/jb8ffa", //jsm
+    //   "name": "🏠RobYang 點直播站備份2"
+    // },
     {
       "url": "https://rb.gy/1gki0m", //jsm tvbox
       "name": "🏠RobYang 點直播站備份3"

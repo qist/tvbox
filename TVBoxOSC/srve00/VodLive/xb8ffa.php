@@ -7,7 +7,7 @@ $userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
 if (strpos($userAgent, 'okhttp') === false) {
     echo "<br><br><br><br><br>Invalid player detected. Please use FongMi TV or OKTV on Android mobile devices or Android TV.";
 } else {
-    header("Location: https://ghp.ci/https://raw.githubusercontent.com/bobyang3/tvbox/own/9918.jso");
+    header("Location: https://ghp.ci/https://raw.githubusercontent.com/bobyang3/tvbox/own/9918.json");
     exit;
 
 
