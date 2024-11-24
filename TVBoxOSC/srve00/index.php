@@ -1,6 +1,6 @@
 
 <?php
-//header("Location: https://rb.gy/wcjqb5");
+//header("Location: https://rb.gy/fkbt61");
  //header("Location: https://robyang.serv00.net/VodLive/sb8ffa.php");
 //     header("Location: https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/source.json");
 header("Location: https://robyang.us.kg/VodLive/sb8ffa");
@@ -18,7 +18,7 @@ header("Location: https://robyang.us.kg/VodLive/sb8ffa");
 //     echo "<br><br><br><br><br>Invalid player detected. Please use FongMi TV or OKTV on Android mobile devices or Android TV.";
 // } else {
 //     // Redirect to another page
-//     header("Location: https://rb.gy/wcjqb5");
+//     header("Location: https://rb.gy/fkbt61");
 //     //header("Location: https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/source.json");
 //     exit;
 
