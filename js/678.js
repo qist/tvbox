@@ -1,80 +1,39 @@
 var rule = {
-	title:'点播',
-	host:'http://tv.jsp47.com',
-	homeUrl:'',
-    searchUrl:'https://www.ugigc.us.kg/shanlei.php?searchword=**',
+    title:'闪雷影视',
+    编码:'gb2312',
+    host:'http://120.224.7.90:808',
+    url:'/www/List.asp?classid=fyclass&searchword=&page=fypage',
+    filterable:0,//是否启用分类筛选,
+    class_name:'电影&电视剧&综艺&动漫&音乐',
+    class_url:'5000&10&8&6&12',
+    searchUrl:'/www/List.asp?classid=30&searchword=**&page=fypage',
     searchable:2,
-	quickSearch:1,
-	multi:1,
-	filterable:1,
-	headers:{
-        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36'
+    quickSearch:0,
+    headers:{
+        'User-Agent':'MOBILE_UA',
     },
-    timeout:5000,
-	class_name:'电影&电视剧&综艺&动漫',
-    class_url:'5000&10&8&6',
-    limit:20,	
-	play_parse:true, 
-	lazy:"", 
-    一级:`js:
-		let d = [];
-		let html = request(input);
-		let json = JSON.parse(html);		
-		json.data.forEach(function(data) {
-			d.push({
-				url: data.url,
-				title: data.name,
-				img: data.img,
-				desc: data.desc
-			})
-		});
-		setResult(d);
-	`,
-    二级:`js: 
-		let d = [];
-		let html = request(input);
-		let json = JSON.parse(html).data;
-		VOD = {
-			vod_name: "",
-			type_name: "",
-			vod_actor: "",
-			vod_year: "",
-			vod_content: "",
-			vod_remarks: "",
-			vod_pic: ""
-		};
-		VOD.vod_name = json.name;
-		VOD.vod_year = json.year;
-		VOD.type_name = json.type_name;
-		VOD.vod_pic = json.pic;
-		VOD.vod_actor = json.actor;
-		VOD.vod_content = json.content;
-		let playData = json.eps;
-		playData.forEach(function(it) {
-			d.push({
-				url: it.url,
-				img: json.pic,
-				title: it.name,
-				desc: ""
-			})
-		})
-		VOD.vod_play_from = "默认";
-		VOD.vod_play_url = d.map(function(it) {
-			return it.title + "$" + it.url
-		}).join("#");
-	`,
-    搜索:`js:
-		let d = [];
-		let html = request(input);
-		let json = JSON.parse(html);
-		json.data.forEach(function(data) {
-			d.push({
-				url: data.url,
-				title: data.name,
-				img: data.img,
-				desc: data.desc
-			})
-		});
-		setResult(d);
-	`
+    play_parse:true,
+    lazy:$js.toString(() => {
+        var html = 'http://120.224.7.90:808/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=120.224.7.90'
+        var url = request(html).match(/push\('(.*?)'/)[1]
+        input = {
+            jx:0,
+            url:url,
+            parse:0
+        };
+    }),
+    limit:6,
+    推荐:'ul:eq(4)&&strong;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
+    一级:'ul:eq(5)&&strong;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
+    二级:{
+        title:"ul:eq(2)&&li:eq(0)&&Text",
+        img:"img:eq(1)&&src",
+        desc:"ul:eq(2)&&li:eq(1)&&Text;ul:eq(2)&&li:eq(2)&&Text;ul:eq(2)&&li:eq(3)&&Text",
+        content:"body&&div:has(p)&&p:eq(3)&&Text",
+        tabs:"",
+        lists:'body&&a[onclick^="senfe"]',
+        list_url:'a&&onclick',
+        list_text:'a&&Text'
+    },
+    搜索:'*',
 }
