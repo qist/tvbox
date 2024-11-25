@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;8a9023a88704d4f491b2eee649be20d8",
+"spider":"./jar/fan.txt;md5;73c62850faf556c9c2d7048baf3a5d3a",
 "logo":"https://avatars.githubusercontent.com/u/58679624?v=4",
 "lives":[{"name":"初秋语•ipv4","type":0,"url":"./list.txt","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
 {"name":"YanG•综合","type":0,"url":"https://tv.iill.top/m3u/Gather","ua": "okhttp/3.15","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}"},
