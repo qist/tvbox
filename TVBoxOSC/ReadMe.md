@@ -1,11 +1,19 @@
 #Rob Yang web:
 1. php https://RobYang.serv00.net
-2. php http://RobYang.clouds.tw ; http://RobYang.22web.org/  (http://cpanel.clouds.tw/)
-3. php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
-4. net https://RobYang.bsite.com/VodLive/sb8ffa
-5. net https://robyang.us.kg/VodLive/sb8ffa (by us.kg, and DNS hosted by cloudflake)
-6. net https://robyang.rr.nu (by sitelutions, and DNS hosted by dns.he.net)
-7. 
+2. php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (http://cpanel.clouds.tw/)
+3. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
+4. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
+5. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by us.kg, and DNS hosted by cloudflake)
+6. net https://robyang.runasp.net (by monsterasp.net)
+7. https://RobYang.rr.nu (by sitelutions, and DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4; DDNS: https://dnsexit.com/users/dns/dyn/)
+8. https://RobYang.AsSexyAs.com (by sitelutions, and DNS hosted by https://dnsexit.com/)
+9. https://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL)
+
+
+#monitoring 
+1. https://robyang.grafana.net/ (monitor web use "Testing & synthetics" > "synthetics")
+2. https://app.squaredup.com/
+3. ClouDNS (free account with only 1)
 
 
 #Domain Name:
@@ -13,8 +21,28 @@
 2. new subdomain name: https://nic.eu.org/
 3. new subdomain name: https://www.sitelutions.com/signup 
 4. DNS manage: https://www.cloudflare.com/
-8. DNS manage: https://dns.he.net/ (won't take gmail and hotmail)
-9. DNS manage: DNSPod
+5. DNS manage and free second domain and DDNS: https://dnsexit.com/
+   1. for DDNS to get API: 
+      1. go to domain https://dnsexit.com/Direct.sv?cmd=userShowDns&domainname=robyang.rr.nu
+      2. "Dynamic IP update" and select the one to update "generate commoand"
+      3. copy the API Key out to somewhere like DNSOmatic
+   2. URL Forwarding:
+      1. "DNS" go to domain, "edit dns"
+      2. go to the dashboard "URL Forwarding" eg, https://dnsexit.com/UrlForward.sv?action=new&domainname=robyang.line.pm
+      3. setup formwaring there.
+6. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
+7. DNS manage: DNSPod
+8. DNS manage: https://www.cloudns.net/main/
+
+#.net host:
+1. https://freeasphosting.net can use own domain. (Left side "Add Domain").
+2. https://www.monsterasp.net  
+   1. free account not allow add new domain name
+   2. free account allow enable MSSQL/MySQL Remote Access (select DB, "users and remot", "Enabled" )
+   3. free account can have 5 DB (1GB diskk spave, MSSQL, MariaDB, MySQL)
+   4. free account can have https every 90 days to enable manually on the web
+
+
 
 
 #php (FreeHosting):
@@ -26,12 +54,9 @@ https://googiehost.com/freephphosting.html
 https://aeonfree.com/ (no ad blocker)
 https://www.freehostia.com/ 
 https://freehosting.host/ 
-https://www.awardspace.com/
+https://www.awardspace.com
 
-
-
-
-What to do when site gone?
+#What to do when site gone?
 1. update TVBoxOSC/serv00/index.php to the right new URL sources file
 2. go to the old database, and update "jb8ffa" to point jsm to the new server eg http://RobYang.22web.org/ 
 3. create new freesaphosting account, 
@@ -42,8 +67,17 @@ What to do when site gone?
    5. upload publish zip file
 
 
-How to update OKTV when site gone to carry history?
+#How to update OKTV when site gone to carry history?
 1. hold VOD file for long time on setting
 2. update url to the new url (label with be changed due to limited chars)
 3. refresh with sources.json and the label will updated correctly
 4. go to history and everything should stay
+
+
+#因serv00服务器要求，如果用户帐户在 90 天内未通过 DevilWEB 或 SSH 面板正确登录，则该帐户将自动从系统中删除，并且无法恢复该帐户收集的数据:
+https://www.zzzwb.com/2024/07-11-serv00-automation.html
+https://www.youtube.com/watch?v=TNB9tcJi_Uo
+
+
+
+
