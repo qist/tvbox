@@ -1,11 +1,11 @@
 #Rob Yang web:
 1. php https://RobYang.serv00.net
-2. php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (http://cpanel.clouds.tw/)
+2. ~~php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (need to use browser and turn on javascript http://cpanel.clouds.tw/)
 3. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
 4. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
 5. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by us.kg, and DNS hosted by cloudflake)
-6. net https://robyang.runasp.net (by monsterasp.net)
-7. https://RobYang.rr.nu (by sitelutions, and DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4; DDNS: https://dnsexit.com/users/dns/dyn/)
+6. net https://RobYang.runasp.net (by monsterasp.net)
+7. http://RobYang.rr.nu (by sitelutions, and DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4; DDNS: https://dnsexit.com/users/dns/dyn/)
 8. https://RobYang.AsSexyAs.com (by sitelutions, and DNS hosted by https://dnsexit.com/)
 9. https://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL)
 
@@ -72,8 +72,19 @@ https://www.awardspace.com
 
 #What to do when site gone?
 1. update TVBoxOSC/serv00/index.php to the right new URL sources file
-2. go to the old database, and update "jb8ffa" to point jsm to the new server eg http://RobYang.22web.org/ 
-3. create new freesaphosting account, 
+2. update source.Json pointing to the new server
+3. update jsm.json pointing to the new server
+4. upload to github
+5. go to the old database, and update "jb8ffa" (jsm) to the new server eg http://RobYang.rr.nu
+6. go to the old database, and update "sb8ffa" (source) to the new server eg http://RobYang.rr.nu
+7. go to https://dnsexit.com and forward url to the new site
+   1. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
+   2. https://dnsexit.com/UrlForward.sv?action=show&domainname=robyang.rr.nu
+   3. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
+   4. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
+8. go to cloudFlare and update forward url to the new site ("Rule" > "Redirect Rules" > "Bulk Redirect Rules")
+   1. https://dash.cloudflare.com/2546565fc3a1939a63376c253d51c06e/robyang.us.kg/rules/redirect-rules/bulk-redirects
+9.  create new freesaphosting account, 
    1. Add new host, like "www2.robyang.us.kg"
    2. create a database
    3. restore database from a *.bak file
