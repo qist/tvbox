@@ -21,18 +21,32 @@
 2. new subdomain name: https://nic.eu.org/
 3. new subdomain name: https://www.sitelutions.com/signup 
 4. DNS manage: https://www.cloudflare.com/
-5. DNS manage and free second domain and DDNS: https://dnsexit.com/
-   1. for DDNS to get API: 
+5. DNS manage & DDNS: https://www.changeip.com
+6. DNS manage & DDNS: https://dnsexit.com/
+   1. Https SSL expires every 90 days
+      1. https://dnsexit.com/dns/ssl-api/#renew-domain-ssl
+      ```
+      curl -H "Content-Type: application/json" --data @/abc/update.json https://api.dnsexit.com/dns/lse.jsp
+      ```
+      ```
+       {
+         "apikey": "your-api-key",
+         "domain": "robyang.rr.nu",
+         "action": "renew",
+         "verbose": "true"    // "false"  or "true", when "true", you will see the progress of renewing the SSL. The renew process may take a few minutes
+      }
+      ```
+   2. for DDNS to get API: 
       1. go to domain https://dnsexit.com/Direct.sv?cmd=userShowDns&domainname=robyang.rr.nu
       2. "Dynamic IP update" and select the one to update "generate commoand"
       3. copy the API Key out to somewhere like DNSOmatic
-   2. URL Forwarding:
+   3. URL Forwarding:
       1. "DNS" go to domain, "edit dns"
       2. go to the dashboard "URL Forwarding" eg, https://dnsexit.com/UrlForward.sv?action=new&domainname=robyang.line.pm
       3. setup formwaring there.
-6. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
-7. DNS manage: DNSPod
-8. DNS manage: https://www.cloudns.net/main/
+7. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
+8. DNS manage: DNSPod
+9. DNS manage: https://www.cloudns.net/main/
 
 #.net host:
 1. https://freeasphosting.net can use own domain. (Left side "Add Domain").
@@ -47,7 +61,7 @@
 
 #php (FreeHosting):
 https://serv00.net (OKTV good)
-http://clouds.tw (no https)
+http://clouds.tw (no https, need to turn on Javascript so OKTV won't work)
 https://www.infinityfree.com/    (need to use browser and turn on javascript )
 https://profreehost.com/     
 https://googiehost.com/freephphosting.html                
