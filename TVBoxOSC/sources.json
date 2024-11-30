@@ -23,13 +23,13 @@
       "name": "🏘️RobYang 總點直播源3"
     },
     {
-      "url": "https://RobYang.serv00.net", //source
+      "url": "http://RobYang.serv00.net", //source
       "name": "🏘️RobYang 總點直播源4"
     },
-    {
-      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
-      "name": "高天流雲"
-    },
+    // {
+    //   "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
+    //   "name": "高天流雲"
+    // },
     // {
     //   "url": "https://4tvbox.ggff.net/config.json",
     //   "name": "唐三"
