@@ -10,6 +10,7 @@
 {"name":"AV","type":0,"url":"./livex.m3u"},
 {"name":"AV點播2","type":0,"url":"./listx.txt"},
 {"name":"直播","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u"},
+{"name":"私密","type":0,"url":"https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/live/178.txt"},
 {"name":"18+ 合輯","type":0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/jie20091116/cat/main/TVBOX/18.txt"}
 ],
 "wallpaper":"https://liu.chuqiuyu.workers.dev",
