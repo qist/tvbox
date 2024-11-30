@@ -71,19 +71,21 @@ https://freehosting.host/
 https://www.awardspace.com
 
 #What to do when site gone?
-1. update TVBoxOSC/serv00/index.php to the right new URL sources file
-2. update source.Json pointing to the new server
-3. update jsm.json pointing to the new server
-4. upload to github
-5. go to the old database, and update "jb8ffa" (jsm) to the new server eg http://RobYang.rr.nu
-6. go to the old database, and update "sb8ffa" (source) to the new server eg http://RobYang.rr.nu
-7. go to https://dnsexit.com and forward url to the new site
+1. go to cloudFlare and update forward url to the new site ("Rule" > "Redirect Rules" > "Bulk Redirect Rules")
+   1. https://dash.cloudflare.com/2546565fc3a1939a63376c253d51c06e/robyang.us.kg/rules/redirect-rules/bulk-redirects
+   2. update all old url to new url
+2. update TVBoxOSC/serv00/index.php to the right new URL sources file
+3. update source.Json pointing to the new server
+4. update jsm.json pointing to the new server
+5. upload to github
+6. go to the old database, and update "jb8ffa" (jsm) to the new server eg http://RobYang.rr.nu
+7. go to the old database, and update "sb8ffa" (source) to the new server eg http://RobYang.rr.nu
+8. go to https://dnsexit.com and forward url to the new site
    1. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
    2. https://dnsexit.com/UrlForward.sv?action=show&domainname=robyang.rr.nu
    3. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
    4. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
-8. go to cloudFlare and update forward url to the new site ("Rule" > "Redirect Rules" > "Bulk Redirect Rules")
-   1. https://dash.cloudflare.com/2546565fc3a1939a63376c253d51c06e/robyang.us.kg/rules/redirect-rules/bulk-redirects
+
 9.  create new freesaphosting account, 
    1. Add new host, like "www2.robyang.us.kg"
    2. create a database
@@ -106,3 +108,9 @@ https://www.youtube.com/watch?v=TNB9tcJi_Uo
 
 
 
+GitHub:
+| Note        |    URL      |
+|-------------|-------------|
+| Collect all |  https://github.com/blron/blinve |
+| col 2 is |    centered   |
+| col 3 is | right-aligned |
