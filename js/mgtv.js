@@ -1,7 +1,7 @@
 globalThis.getHeaders= function(input){
     let t = Math.round(new Date().getTime()/1000).toString();
 	let headers = {
-        'User-Agent': 'Yunfan Android 1.0.0.88'
+        'User-Agent': 'Dalvik/2.1.0(Linux;U;Android10;PDHM00Build/QKQ1.191222.002)'
 	};
 	return headers
 }
@@ -11,7 +11,7 @@ globalThis.removeBTags= function(title) {
 }
 var rule = {
     title:'百忙无果',
-    host:'https://pianku.api.%6d%67%74%76.com',
+    host:'http://tv.jsp47.com',
     homeUrl:'',
     detailUrl:'https://v5m.api.mgtv.com/remaster/vrs/getByPartId?abroad=0&src=mgtv&partId=fyid',
     searchUrl:'https://mobileso.bz.%6d%67%74%76.com/msite/search/v2?pc=30&pn=1&q=**',
@@ -22,7 +22,7 @@ var rule = {
     url:'https://pianku.api.%6d%67%74%76.com/rider/list/pcweb/v3?platform=pcweb&channelId=fyclass&pn=fypage&pc=80&hudong=1&_support=10000000&kind=a1&area=a1',
     filter_url:'year={{fl.year or "all"}}&sort={{fl.sort or "all"}}&chargeInfo={{fl.chargeInfo or "all"}}',
     headers:{
-        'User-Agent':'PC_UA'
+        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36'
     },
     timeout:5000,
     class_name:'电影&电视剧&综艺&少儿',
@@ -36,9 +36,9 @@ var rule = {
                 let jData = JSON.parse(request(url, {
                     headers: getHeaders(url)
                 }));
-                return jData.data.url
+                return jData.url
             }
-			let videoUrl = getvideo('http://mgtv.ckflv.cn/?url=' + input);
+			let videoUrl = getvideo('https://jxjson.icu/neibu.php?url=' + input);
 			input = {
                 jx: 0,
                 url: videoUrl,
