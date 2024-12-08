@@ -1,0 +1,22 @@
+{
+    "規則名": "火狼",
+    "規則作者": "老王叔叔",
+    "規則日期": "113.11.29",
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "数组": "class=\"list-pics part-2by3\"&&</a>",
+    "标题": "title=\"&&\"",
+    "图片": "url=&&\"",
+    "副标题": "remarks\">&&</span>",
+    "链接": "href=\"&&\"",
+    "简介": "text-muted pnxs-10px lhxs-30px\"&&</p>",
+    "线路数组": "btns-info rims-info part-eone&&</li>",
+    "线路标题": ">&&<",
+    "播放数组": "play-item&&</ul>",
+    "播放列表": "<a&&/a>[不包含:展开]",
+    "播放标题": ">&&</",
+    "播放链接": "href=\"&&\"",
+    "跳转解析": "data-play=\"&&\"",
+    "分类url": "https://www.huolang.pro/zhao/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4#午夜剧场$5#网红短剧$35"
+}

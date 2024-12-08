@@ -1,0 +1,23 @@
+{
+"規則名": "萬博劇院",
+"規則作者": "老王叔叔",
+"規則日期": "113.11.29",
+"请求头": "User-Agent$MOBILE_UA",
+"编码": "UTF-8",
+"主页url": "https://www.ths864.com/",
+"二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+"数组": "module-item-pic&&module-item\"",
+"标题": "title=\"在线播放&&\"",
+"图片": "data-original=\"&&\"",
+"副标题": "item-text\">&&</div>",
+"链接": "href=\"&&\"",
+"播放数组": "class=\"scroll-content\">&&</div>",
+"播放列表": "<a&&a>",
+"播放链接": "href=\"&&\"",
+"播放标题": "<span>&&</span>",
+"线路数组": "class=\"module-tab-item tab-item&&</div>",
+"线路标题": "<span>&&</span>",
+"跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
+"分类url": "https://www.ths864.com/wbs/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html",
+"分类": "电影$WbMovie#电视剧$WbTv#动漫$WbCartoon#综艺$WbVariety#理论片$Sex"
+}

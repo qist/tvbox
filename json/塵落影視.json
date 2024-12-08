@@ -1,0 +1,22 @@
+{
+    "規則名": "泥視頻VIP",
+    "規則作者": "老王叔叔",
+    "規則日期": "113.11.29",
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "主页url": "https://v.wetv.wang/",
+    "数组": "class=\"pic\">&&</a>",
+    "标题": "title=\"&&\"",
+    "图片": "img src=\"&&\"",
+    "副标题": "\">&&</span>",
+    "链接": "href=\"&&\"",
+    "播放数组": "<ul class=\"plist&&</ul>",
+    "播放列表": "<a&&a>",
+    "播放链接": "href=\"&&\"",
+    "播放标题": ">&&</[不包含:更多...]",
+    "线路数组": "style=\"padding: 0px 10px 10px;\"&&b></p>",
+    "线路标题": "<b>&&</",
+    "分类": "电影$1#电视剧$2#综艺$4#动漫$3",
+    "分类url": "https://v.wetv.wang/whole/{cateId}_{area}_{class}__{year}___0_{by}__{catePg}.html",
+    "排序": "最新$id#日榜$rhits#周榜$zhits#月榜$yhits#总榜$hits"
+}

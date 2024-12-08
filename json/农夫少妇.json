@@ -14,5 +14,5 @@
     "分类数组": "<a&&/a",
     "分类标题": ">&&<",
     "分类ID": "/go/index.php/vod/type/id/&&.html",
-    "分类url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/play/id/{cateId}/page/{catePg}.html;;z"
+    "分类url": "https://nfsf8kj.nfsf-a2.buzz/go/index.php/vod/show/id/{cateId}/page/{catePg}.html"
 }

@@ -1,0 +1,12 @@
+{
+    "規則名": "追劇資源",
+    "規則作者": "老王叔叔",
+    "規則日期": "113.11.29",
+    "影片年代": "<div class=\"module-info-tag\">&&</div>",
+    "影片状态": "备注：&&</div>",
+    "影片类型": "module-info-tag\">&&立即播放",
+    "线路数组": "data-dropdown-value=&&</div>",
+    "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+    "分类url": "https://www.freeokk.pro/show/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+    "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$5"
+}

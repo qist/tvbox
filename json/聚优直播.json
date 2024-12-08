@@ -2,16 +2,14 @@
 "站名":"聚优直播",
 "直接播放":"1",
 "副标题":"<div class=\"duration\">&&</div>",
-"主页url":"https://jyzb.live/",
-"分类":"亚洲直播$yzzb-so-gwzb#欧美直播$yzzb-so-omzb#聚优直播$live",
-"分类url":"https://jyzb.live/?x={cateId}-so-{class}.html",
-//"主页url":"https://www.juyouzb.vip/",
-//"链接前缀":"https://www.juyouzb.vip",
-//"分类":"亚洲直播$yzzb/zb/gwzb#欧美直播$yzzb/zb/omzb#聚优直播$xxj",
-//"分类url":"https://www.juyouzb.vip/?ju={cateId}/zb/{class}.html",
+
+"主页url":"https://www.juyouzb.vip/?vip=xxj/zb/kwy.html",
+"链接前缀":"https://www.juyouzb.vip",
+"分类":"亚洲直播$yzzb/zb/gwzb#欧美直播$yzzb/zb/omzb#聚优直播$xxj",
+"分类url":"https://www.juyouzb.vip/?vip={cateId}/zb/{class}.html",
 
 "筛选":{
-"live":[
+"xxj":[
 {
 "key":"class",
 "name":"",
