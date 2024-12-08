@@ -70,6 +70,7 @@
 {"key":"飞速资源","name":"影视 | 飞速资源[直连]","type":1,"api":"http://www.feisuzyapi.com/api.php/provide/vod/","searchable":1,"categories":["冒险片","剧情片","动作片","动画电影","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","歌舞片","灾难片","爱情片","科幻片","犯罪片","经典片","网络电影","战争片","电视 剧","欧美剧","日剧","韩剧","台剧","泰剧","国产剧","港剧","新马剧","其他剧","动漫","综艺","体育","纪录片","篮球","足球","网球","斯诺克","欧美动漫","日韩动漫","国产动漫","新马泰动漫","港台 动漫","其他动漫","国产综艺","日韩综艺","欧美综艺","新马泰综艺","港台综艺","其他综艺","短剧"]},
 {"key":"天空资源","name":"影视 | 天空资源[直连]","type":1,"api":"https://api.tiankongapi.com/api.php/provide/vod/","searchable":1,"categories":["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","台湾剧","韩国剧","纪录片","动画片","日本剧","泰国剧","欧美剧","国产动漫"," 日本动漫","欧美动漫","海外动漫","电影解说","大陆综艺","港台综艺","日韩综艺","欧美综艺","其他片","其他剧","体育赛事","短剧"]},
 {"key":"ikun资源","name":"影视 | ikun资源[直连]","type":1,"api":"https://www.ikunzy.com/api.php/provide/vod/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","台湾剧","韩国剧","纪录片","动画片","日本剧","泰国剧","欧美剧","国产动漫"," 日本动漫","欧美动漫","海外动漫","电影解说","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
+{"key":"无尽","name":"影视 | 无尽[直连]","type":1,"api":"http://api.wujinapi.me/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},
 
 {"key":"率率","name":"影视 | 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
 {"key":"百度","name":"百度","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0,"categories":["国产动漫","日韩动漫","大陆剧","欧美剧","韩剧","日剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片"],"header":{"User-Agent":"Mozilla/5.0"}},
@@ -328,6 +329,7 @@
 {"name": "羽路均沾","type": 0,"url": "https://ylu.cc/index.php?url="},
 {"name": "999","type": 0,"url": "https://huayong.net/999/?v="},
 {"name": "jx5","type": 0,"url": "https://huayong.net/jx5/?url="},
+{"name": "无尽","type": 0,"url": "https://jx.wujinkk.com/dplayer/?url="},
 {"name": "yemu","type": 0,"url": "https://www.yemu.xyz/?url="},
 {"name": "vip4","type": 0,"url": "https://huayong.net/vip4/?url="},
 {"name":"免费分享","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
