@@ -20,8 +20,8 @@
 //{"key":"robYang6","name":"🏘️點直播源 https://rb.gy/fkbt61","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang7","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang8","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-//{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-{"key":"robYang10小宝","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
+{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+//{"key":"robYang10小宝","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 
 
 
@@ -33,6 +33,7 @@
 
 
 {"key":"drpy_js_小宝影院[飞]","name":"影視 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
+{"key":"drpy_js_小宝影院","name":"影視 | 小宝影院2[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院.js"},
 {"key":"金牌資源","name":"影視 |金牌","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","ext":"./json/金牌影院.json"},
 {"key":"csp_XBiuNBYY","name":"影視 |泥視頻2","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"video-info-item video-info-content vod_content\">&&</span>","分类url":"https://www.nbyy.cc/filter.html?channel={cateId}&year={year}","分类":"電視劇$tv#電影$movie#動漫$anime#綜藝$show"}},
 {"key":"csp_XBiuNIVOD1","name":"影視 |泥視頻3","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"简介：&&</div>","分类url":"https://nivodi1.com/index.php/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{latter}/page/{catePg}/year/{year}.html","分类":"電影$1#電視劇$2#動漫$48#綜藝$3#紀錄片$21#午夜場$54","剧情":"动作$6#喜剧$7#爱情$8#科幻$9#剧情$10#恐怖$11#冒险$39#奇幻$12#战争$22#犯罪$42#悬疑$23#动画$28#伦理$40#其他$41#邵氏电影$24||国产剧$13#香港剧$14#台湾剧$15#韩国剧$16#日本剧$25#欧美剧$26#泰国剧$43#其他剧$27||国产动漫$49#日本动漫$50#港台动漫$51#欧美动漫$52#其他动漫$53||國產综艺$34#港台综艺$35#日韩综艺$36#欧美综艺$37#其他综艺$38||国产精品$55#黑料吃瓜$66#萝莉少女$72#网红明星$59#日本有码$57#日本无码$56#童颜巨乳$60#性感人妻$61#强奸乱伦$62#日本片商$64#自拍偷拍$65#欧美情色$67#麻豆传媒$68#丝袜OL$70","嗅探词":".m3u8?#play.mtle.cn#.m3u8#.mp4","影片年代":"<div class=\"module-info-tag\">&&</div>","影片类型":"module-info-tag\">&&立即播放","线路数组":"data-dropdown-value=&&</div>","播放数组":"<div class=\"hl-list-wrap\"&&</div>","地区":"大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||大陆&韩国&香港&台湾&日本&美国&泰国&英国&加拿大&其他||空||空||空||空","地区值":"*","年份":"2024&2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011&2010-2000&2000-1970","年份值":"*","排序":"时间&人气&评分","排序值":"time&hits&score"}},
@@ -50,16 +51,16 @@
 {"key":"Auete","name":"影視 |奥特","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 //{"key":"drpy_js_TVB云播","name":"影視｜TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
-{"key":"drpy_js_百忙无果","name":"20. 影視｜芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mgtv.js"},
+// list but cannot play {"key":"drpy_js_百忙无果","name":"20. 影視｜芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mgtv.js"},
 // {"key":"玩偶","name":"玩偶哥哥|4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 // {"key":"YGP","name":"叨观荐影|新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 // {"key":"alllive","name":"📽️一直播|LIVE","type":3,"api":"csp_Alllive","playerType":2,"searchable":0,"quickSearch":0,"changeable":0},
 //{"key":"米搜","name":"🦋米盘|搜搜","type":3,"api":"csp_MIPanSo","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 //{"key":"抠搜","name":"🍄抠抠|搜搜","type":3,"api":"csp_KkSs","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
-{"key":"Lib","name": "立播|秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
+//{"key":"Lib","name": "立播|秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"文采","name":"文采|秒播","type":3,"api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"糯米","name":"糯米┃秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1,"jar": "https://7952.kstore.space/JAR/okjpg.txt"},
-{"key":"比特","name":"比特|秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
+//{"key":"糯米","name":"糯米┃秒播","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"changeable":1,"jar": "https://7952.kstore.space/JAR/okjpg.txt"},
+//{"key":"比特","name":"比特|秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"影視｜頻果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 // {"key":"原创","name":"原创|不卡","type":3,"api":"csp_YCyz","playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"厂长","name":"廠長|不卡","type":3,"api":"csp_NewCz","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://czzy.top/"},
@@ -71,12 +72,12 @@
 
 //{"key":"欢视","name":"👓欢视|多线","type":3,"api":"csp_AppTT","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8IPB+BwH4Qma+opv"},
 {"key":"可可","name":"可可|多线","type":3,"api":"csp_Kekys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"zxzj","name":"在线|外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://www.zxzjhd.com/"},
+//{"key":"zxzj","name":"在线|外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"http://www.zxzjhd.com/"},
 {"key":"低端","name":"低端|外剧","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"贱贱","name":"贱贱|P2P","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./FTY/drpy2.min.js","ext":"./FTY/jp.js"},
+//{"key":"贱贱","name":"贱贱|P2P","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./FTY/drpy2.min.js","ext":"./FTY/jp.js"},
 {"key":"Auete","name":"奥特|无广","type": 3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.com/"}, 
 {"key":"新6V","name":"新6V|磁力","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "https://www.xb6v.com/"},
-{"key":"短剧","name":"上头|短剧","type":3,"api":"csp_Djtt","searchable":1,"quickSearch":1,"changeable":1},
+//{"key":"短剧","name":"上头|短剧","type":3,"api":"csp_Djtt","searchable":1,"quickSearch":1,"changeable":1},
 
 
 {"key":"T4-独播库","name":"影視｜独播库 (T4)","type":4,"api":"https://tang.hz.cz/power/duboku?token=647c28ca","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
@@ -91,11 +92,11 @@
 {"key":"88js","name":"⚽體育 | 88","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"310js","name":"⚽體育 | 310","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/310直播.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 {"key":"Jrsjs","name":"⚽體育 | Jrs","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/jrk.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"企鹅xp","name":"⚽體育 | 鹅鹅","type":3,"api":"csp_XPath","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/企鹅直播.json"},
+//{"key":"企鹅xp","name":"⚽體育 | 鹅鹅","type":3,"api":"csp_XPath","style":{"type":"list"},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./FTY/企鹅直播.json"},
 {"key":"drpy_js_310直播","name":"⚽體育 | 310直播[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/310直播.js"},
 {"key":"drpy_js_88看球","name":"⚽體育 | 88看球[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/88看球.js"},
 {"key":"drpy_js_JRKAN直播","name":"⚽體育 | JRKAN直播[js]","type":3,"api":"./lib/drpy.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/JRKAN直播.js"},
-{"key":"drpy_js_抓饭体育","name":"⚽體育 | 抓饭体育[js]","type":3,"api":"./lib/drpy.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/抓饭体育.js"},
+//{"key":"drpy_js_抓饭体育","name":"⚽體育 | 抓饭体育[js]","type":3,"api":"./lib/drpy.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/抓饭体育.js"},
 {"key":"drpy_js_武享吧","name":"⚽格斗 | 武享吧[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/武享吧.js"},
 
 
@@ -149,7 +150,7 @@
 
 
 {"key":"drpy_js_播客","name":"聚合 | 播客[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/播客.js"},
-{"key":"drpy_js_短视频","name":"聚合 | 短视频[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/短视频.js"},
+//{"key":"drpy_js_短视频","name":"聚合 | 短视频[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/短视频.js"},
 {"key":"drpy_js_酷6网","name":"聚合 | 酷6网[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/酷6网.js"},
 {"key":"drpy_js_网易公版影像","name":"聚合 | 网易公版[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1.597},"ext":"./js/网易公版影像.js"},
 
