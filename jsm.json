@@ -20,8 +20,8 @@
 //{"key":"robYang6","name":"🏘️點直播源 https://rb.gy/fkbt61","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang7","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang8","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-//{"key":"robYang9","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-{"key":"robYang10","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
+//{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+{"key":"robYang10小宝","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 
 
 
@@ -646,7 +646,7 @@
 {"name":"一盒1｜台港中日韓", "note original":"https://tv.anbox118.workers.dev/live", "type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒2｜際歐美","type":0,"url":"http://anbox118.zya.me/sapphire.m3u.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"Tac｜中台港際","type":0,"url":"https://raw.githubusercontent.com/sqspot/tac/main/4gtv.txt","ua":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.xyz/logo/{name}.png","ads":["static-mozai.4gtv.tv","s3t3d2y8.afcdn.net"]},
-{"name":"streamL｜台港中日韓際","type":0,"url":"https://www.stream-link.org/stream-link.m3u","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+{"name":"streamLink｜台港中日韓際","type":0,"url":"https://www.stream-link.org/stream-link.m3u","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 //{"name":"smart","boot":false,"pass":true,"url":"https://t4.doube.eu.org/smt.txt","logo":"https://live.fanmingming.com/tv/{name}.png","header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"}},
 //{"name":"安博","type":0,"url":"https://tang.hz.cz/zb/anbo?token=cb70f1ae"},	
 //{"name":"美國｜際","type":0,"url":"https://raw.githubusercontent.com/shawn82/fm/main/lib/us.m3u8","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -681,15 +681,15 @@
 //  "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
 //  "logo": "https://epg.112114.xyz/logo/{name}.png"
 //  },
-{
-"name": "君赢天下｜中台港際18+ 密碼:6636",
-"type": 0,
-"url": "https://d.kstore.space/download/5288/君赢天下.txt",
-"ua": "okhttp/4.12.0",
-"timeout": 5,
-"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-"logo": "https://epg.112114.xyz/logo/{name}.png"
-},
+// {
+// "name": "君赢天下｜中台港際18+ 密碼:6636",
+// "type": 0,
+// "url": "https://d.kstore.space/download/5288/君赢天下.txt",
+// "ua": "okhttp/4.12.0",
+// "timeout": 5,
+// "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+// "logo": "https://epg.112114.xyz/logo/{name}.png"
+// },
 // {
 // "name": "糖意｜中台港際18+ 密碼:cj6660",
 // "type": 0,
@@ -730,14 +730,12 @@
 //   "url": "https://rb.gy/fkbt61"
 //  },
 {
-  "name": "🏘️RobYang總鏈接備 https://www1.RobYang.us.kg/VodLive/sb8ffa",
+  "name": "🏘️RobYang總鏈接備 http://RobYang.rr.nu",
   "type": 0,
-  "url": "https://www1.RobYang.us.kg/VodLive/sb8ffa"
+  "url": "http://RobYang.rr.nu"
   },
-
-
 {
-"name": "18+ 香蕉哥佛系",
+"name": "18+ 香蕉哥",
 "type": 0,
 "url": "https://tv.iill.top/m3u/Adult",
 "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
