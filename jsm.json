@@ -20,12 +20,12 @@
 //{"key":"robYang6","name":"🏘️點直播源 https://rb.gy/fkbt61","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang7","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang8","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //,"jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"robYang10小宝","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 
 
 
-{"key":"nyys","name":"影視｜纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/fm.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+{"key":"nyys","name":"影視｜纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"drpy_js_大师兄影视","name":"影視 | 大师兄影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大师兄影视.js"},
 {"key":"drpy2_js_大师兄影视[优]","name":"影視｜大师兄[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/大师兄影视[优].js"},
 {"key":"drpy2_js_北川影视","name": "影視｜北川[JS]","type": 3,"api": "./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/北川影视.js"},
@@ -402,9 +402,7 @@
 
 //墙外 
 
-
-{"key":"php_heimuer","name":"330. 影視｜黑木耳 (無廣)","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":1,"quickSearch":0,"filterable":0,"changeable":0},
-{"key":"金鹰资源","name":"影視｜金鹰","type":1,"api":"https://jyzyapi.com/provide/vod/","searchable":0,"quickSearch":0,"categories":["电视剧","电影","欧美剧","香港剧","韩剧","日剧","马泰剧","动作片","爱情片","喜剧片","恐怖片","战争片","纪录片","科幻片","剧情片","动画片","动漫","内地剧","中国动漫","日本动漫","欧美动漫","综艺","台湾剧","短剧","体育赛事"]},
+{"key":"金鹰资源","name":"330. 影視｜金鹰","type":1,"api":"https://jyzyapi.com/provide/vod/","searchable":0,"quickSearch":0,"categories":["电视剧","电影","欧美剧","香港剧","韩剧","日剧","马泰剧","动作片","爱情片","喜剧片","恐怖片","战争片","纪录片","科幻片","剧情片","动画片","动漫","内地剧","中国动漫","日本动漫","欧美动漫","综艺","台湾剧","短剧","体育赛事"]},
 {"key":"XBPQ_麻衣影院","name":"影視｜麻衣","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/XBPQ.jar","ext":"./json/麻衣影院.json"},
 {"key":"XYQHiker_qiyou","name":"️影視｜奇优","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":0,"ext":"./json/qiyou.json","jar":"./jar/zy.jar"},
 {"key":"csp_XYQHiker_奇优影院","name":"影視｜奇优[V2]","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇优影院.json","jar":"./jar/zy.jar"},
@@ -412,7 +410,6 @@
 {"key":"drpy_js_欧帝影院","name":"影視｜欧帝","type":3,"api":"./lib/drpy2.min.js","ext":"./js/欧帝影院.js"},
 {"key":"金鹰克隆","name":"影視｜金鹰(無更新頁)","type":4,"api":"http://zhangqun66.xyz/jy.php","jar":"./jar/fm.jar","searchable":1,"quickSearch":1,"filterable":1,"recordable":0},
 {"key":"索尼克隆","name":"影視｜索尼(無更新頁)","type":4,"api":"http://zhangqun66.xyz/sn.php","jar":"./jar/fm.jar","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"nyys","name":"影視｜紐約","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/ys.json","jar":"./jar/custom_spider.jar"},
 {"key":"drpy2_js_腾云驾雾[官]","name":"影視｜腾云驾雾[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/腾云驾雾[官].js"},
 {"key":"drpy2_js_百忙无果[官]","name":"340. 影視｜百忙无果(無更新頁)","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/百忙无果[官].js"},
 {"key":"drpy2_js_宝片视频","name":"影視｜宝片视频[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/宝片视频.js"},
