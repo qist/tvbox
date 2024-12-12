@@ -50,7 +50,7 @@
 {"key":"php_bttwoo","name":"影視 |TwoBT","type":4,"api":"https://json.doube.eu.org/app/index.php?site=bttwoo","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 {"key":"Auete","name":"影視 |奥特","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},
 {"key":"drpy_js_豆瓣","name":"影視 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":0,"filterable":0,"ext":"./js/豆瓣[官].js"},
-{"key":"豆瓣","name":"豆瓣","type":3,"api":"csp_Douban","searchable":1,"quickSearch":0,"changeable":0,"ext":{"commonConfig":"./json/douban.json","filter":"./json/douban.json"}},
+{"key": "豆瓣",  "name": "豆瓣",  "type": 3,  "api": "csp_Douban",  "searchable": 0,  "changeable": 1,  "indexs":1,  "ext": "./lib/douban.json"},
 
 
 //{"key":"drpy_js_TVB云播","name":"影視｜TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
