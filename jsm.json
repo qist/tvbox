@@ -54,8 +54,6 @@
 
 
 
-
-
 //{"key":"drpy_js_TVB云播","name":"影視｜TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
 // list but cannot play {"key":"drpy_js_百忙无果","name":"20. 影視｜芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/mgtv.js"},
 // {"key":"玩偶","name":"玩偶哥哥|4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
@@ -87,10 +85,10 @@
 
 
 {"key":"T4-独播库","name":"影視｜独播库 (T4)","type":4,"api":"https://tang.hz.cz/power/duboku?token=647c28ca","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
-{"key":"drpy_js_独播库[飞]","name":"影視 | 独播库[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/独播库[飞].js"},
+//{"key":"drpy_js_独播库[飞]","name":"影視 | 独播库[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/独播库[飞].js"},
 {"key":"sgolys","name": "40. 影視｜欧乐 (T4)","type": 4,"api": "https://tang.hz.cz/power/olelive?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
 {"key":"sgabys","name": "影視｜安博 (T4)","type": 4,"api": "https://tang.hz.cz/power/ub18?token=647c28ca","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
-{"key":"sghmys","name": "影視｜黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
+//{"key":"sghmys","name": "影視｜黑木耳 (T4)","type": 4,"api": "https://tang.hz.cz/power/hme?token=334078da","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 },
 
 
 
