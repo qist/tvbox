@@ -26,7 +26,7 @@
 
 {"key":"nyys","name":"影視｜纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 {"key":"drpy2_js_大师兄影视[优]","name":"影視｜大师兄[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/大师兄影视[优].js"},
-{"key":"drpy_js_小宝影院[飞]","name":"小宝[飛]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/小宝影院[飞].js"},
+{"key":"drpy_js_小宝影院[飞]","name":"影視｜小宝[飛]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/小宝影院[飞].js"},
 {"key":"drpy2_js_北川影视","name": "影視｜北川[JS]","type": 3,"api": "./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/北川影视.js"},
 {"key":"api_黑木耳","name":"影視｜黑木耳[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/api黑木耳.json","jar": "./jar/Yoursmile.jar"},
 {"key":"drpy_js_小宝影院","name":"影視 | 小宝影院2[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院.js"},
@@ -89,26 +89,24 @@
 {"key":"drpy_js_蜻蜓FM","name":"🎧广播 | 蜻蜓FM[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/蜻蜓FM.js"},
 
 
-{"key":"lf_js_lf_live","name":"电视|直播[js]","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
-{"key":"超级影视","name":"电视|超级影视","type":1,"api":"http://cjvip.free.hr/api.php/provide/vod/?ac=list","jar":"./jar/fm.jar","searchable":1,"changeable":0},
-{"key":"虎牙直播js","name":"虎牙|直播","type":3,"api":"./FTY/drpy2.js","ext":"./FTY/huya2.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"斗鱼js","name":"斗鱼|直播","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
-{"key":"drpy_js_哔哩直播","name":"弹幕|哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩直播.js"},
-{"key":"drpy_js_哔哩影视","name":"弹幕|哔哩影视[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩影视.js"},
-{"key":"Bili","name":"弹幕|哔哔合集","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/bilibili.json"}},
-{"key":"Biliych","name":"弹幕 |明星演唱会","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/biliych.json"}},
-{"key":"drpy_js_斗鱼直播","name":"直播|斗鱼[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/斗鱼直播.js"},
-{"key":"drpy_js_虎牙直播","name":"70. 直播|虎牙[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/虎牙直播.js"},
-{"key":"虎牙直播js","name":"直播|虎牙直播","type":3,"api":"./lib/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js","style":{"type":"rect","ratio":1.755},"playerType":"1","searchable":1,"quickSearch":1,"changeable":0,"jar":"http://我不是.摸鱼儿.top/by/jar/moyu.php"},
-{"key":"斗鱼js","name":"直播|斗鱼直播","type":3,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"playerType":"1","searchable":1,"quickSearch":1,"changeable":0,"jar":"http://我不是.摸鱼儿.top/by/jar/moyu.php"},
+{"key":"lf_js_lf_live","name":"📺电视|直播[js]","type":3,"api":"./lib/lf_live_min.js","style":{ "type":"oval"},"searchable":1,"changeable":0,"quickSearch":1,"filterable":1,"ext":"./js/lf_live.txt"},
+// {"key":"超级影视","name":"电视|超级影视","type":1,"api":"http://cjvip.free.hr/api.php/provide/vod/?ac=list","jar":"./jar/fm.jar","searchable":1,"changeable":0},
+{"key":"斗鱼js","name":"📺斗鱼|直播","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"playerType":"2","searchable": 0,"quickSearch": 0,"changeable":0},
+{"key":"drpy_js_斗鱼直播","name":"📺直播|斗鱼[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/斗鱼直播.js"},
+{"key":"drpy_js_虎牙直播","name":"📺直播|虎牙[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/虎牙直播.js"},
+{"key":"虎牙直播js","name":"📺直播|虎牙直播","type":3,"api":"./lib/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js","style":{"type":"rect","ratio":1.755},"playerType":"1","searchable":1,"quickSearch":1,"changeable":0,"jar":"http://我不是.摸鱼儿.top/by/jar/moyu.php"},
+{"key":"斗鱼js","name":"📺直播|斗鱼直播","type":3,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"playerType":"1","searchable":1,"quickSearch":1,"changeable":0,"jar":"http://我不是.摸鱼儿.top/by/jar/moyu.php"},
 // {"key":"kuaishouzb","name":"直播|快手直播","type":3,"api":"csp_KsLive","jar":"./jar/okjpg.txt","searchable":1,"quickSearch":1,"filterable":1,"style":{"type":"rect","ratio":1.433},"timeout":10},
-{"key":"alllive","name":"直播|各种直播","type":3,"api":"csp_Alllive","playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
-{"key":"直播转点播","name":"直播|直播转点播","type":4,"api":"http://jg.zhangqun66.xyz/zh/2241-2.php","jar":"./jar/fm.jar","searchable":1,"changeable":0},
-{"key":"直播转点播1","name":"直播|直播转点播[V2]","type":3,"searchable":0,"timeout":60,"api":"https://jg.zhangqun66.xyz/zq/cat/live2vod.js","ext":"https://jg.zhangqun66.xyz/zq/cat/feimaolive.json","jar":"./jar/fm.jar","style":{"type":"list","ratio":1.1}},
-{"key":"直播转点播2","name":"直播|直播转点播[V4]","type":3,"searchable":0,"api":"https://raw.githubusercontent.com/sqspot/tac/main/lib/live2vod.js","ext":"https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq.m3u","jar":"./jar/panda.jar"},
-{"key":"直播转点播s","name":"直播|直播转点播[V5]","type":3,"style":{"type":"oval"},"api":"https://raw.githubusercontent.com/sqspot/tac/main/lib/live2cms.js","ext":"https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq_s.txt","jar":"./jar/panda.jar"},
-{"key":"直播转点播s2","name":"直播|直播转点播[V6]","type":3,"searchable":0,"api":"https://raw.githubusercontent.com/sqspot/tac/main/lib/live2vod.js","ext":"https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq_s.m3u","jar":"./jar/panda.jar"},
-
+{"key":"alllive","name":"📺直播|各种直播","type":3,"api":"csp_Alllive","playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
+{"key":"直播转点播","name":"📺直播|直播转点播","type":4,"api":"http://jg.zhangqun66.xyz/zh/2241-2.php","jar":"./jar/fm.jar","searchable":1,"changeable":0},
+{"key":"直播转点播1","name":"📺直播|直播转点播[V2]","type":3,"searchable":0,"timeout":60,"api":"https://jg.zhangqun66.xyz/zq/cat/live2vod.js","ext":"https://jg.zhangqun66.xyz/zq/cat/feimaolive.json","jar":"./jar/fm.jar","style":{"type":"list","ratio":1.1}},
+{"key":"直播转点播2","name":"70. 📺直播|直播转点播[V4]","type":3,"searchable":0,"api":"https://raw.githubusercontent.com/sqspot/tac/main/lib/live2vod.js","ext":"https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq.m3u","jar":"./jar/panda.jar"},
+{"key":"直播转点播s","name":"📺直播|直播转点播[V5]","type":3,"style":{"type":"oval"},"api":"https://raw.githubusercontent.com/sqspot/tac/main/lib/live2cms.js","ext":"https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq_s.txt","jar":"./jar/panda.jar"},
+{"key":"直播转点播s2","name":"📺直播|直播转点播[V6]","type":3,"searchable":0,"api":"https://raw.githubusercontent.com/sqspot/tac/main/lib/live2vod.js","ext":"https://raw.githubusercontent.com/sqspot/tac/main/live2tv_sq_s.m3u","jar":"./jar/panda.jar"},
+{"key":"drpy_js_哔哩直播","name":"📺弹幕|哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩直播.js"},
+{"key":"drpy_js_哔哩影视","name":"📺弹幕|哔哩影视[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩影视.js"},
+{"key":"Bili","name":"📺弹幕|哔哔合集","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/bilibili.json"}},
+{"key":"Biliych","name":"📺弹幕 |明星演唱会","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/biliych.json"}},
 
 
 
