@@ -1,0 +1,16 @@
+{
+    "主页url": "https://awjqub.sbs/layout.html",
+    "数组": "class=\"myui-vodlist__box&&</div>",
+    "图片": "style=\"background: url('&&')",
+    "标题": "title=\"&&\"",
+    "副标题": "<time>&&</time>",
+    "简介": "description\"*content=\"&&火热",
+    "链接": "href='&&'[替换:display>>detail]",
+    "搜索模式": "1",
+    "搜索url": "https://awjqub.sbs/lookup/{wd}/L/{pg}",
+    "分类二次截取": "",
+    "分类数组": "<a&&/a",
+    "分类标题": "title=\"&&\"",
+    "分类ID": "/sort/id/&&.html",
+    "分类url": "https://awjqub.sbs/type/{cateId}/{catePg};;z"
+}

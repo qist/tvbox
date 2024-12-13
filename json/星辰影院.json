@@ -16,6 +16,7 @@
     "播放链接": "href=\"&&\"",
     "播放标题": "html\">&&</",
     "跳转播放链接": "\"player\":*\"url\":\"&&\"",
+    "搜索url": "https://www.020zhicheng.com/search/{wd}.html",
     "分类url": "https://www.020zhicheng.com/{cateId}/index_{class}_{area}_{year}_{letter}_{by}_{catePg}.html",
     "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#短剧$weidianying",
     "类型": "动作片$dongzuopian#科幻片$kehuanpian#喜剧片$xijupian#爱情片$aiqingpian#恐怖片$kongbupian#战争片$zhanzhengpian#剧情片$juqingpian#动画片$donghuapian#纪录片$jilupian||国产剧$guocanju#韩国剧$hanguoju#日本剧$ribenju#台湾剧$taiwanju#香港剧$xianggangju#欧美剧$oumeiju#泰国剧$taiguoju#海外剧$haiwaiju||空||空",

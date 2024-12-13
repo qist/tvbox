@@ -1,0 +1,23 @@
+{
+"規則名": "巴士动漫网",
+"規則作者": "老王叔叔",
+"規則日期": "113.12.06",
+"请求头": "User-Agent$MOBILE_UA",
+"编码": "UTF-8",
+"主页url": "https://busdm2.cc/",
+"数组": "默认--class=\"image\"&&</li>||搜索--class=\"image\"&&</li>",
+"链接": "默认--href=\"&&\"||搜索--href=\"&&\"",
+"图片": "默认--data-original=\"&&\"||搜索--data-original=\"&&\"",
+"标题": "默认--alt=\"&&\"||搜索--alt=\"&&\"",
+"副标题": "默认--h6\">&&</p>||搜索--h6\">&&</p>",
+"播放数组": "list-unstyled&&</ul>",
+"播放列表": "<a&&a>",
+"播放链接": "href=\"&&\"",
+"播放标题": ">&&</",
+"线路数组": "glyphicon-play&&</li>",
+"线路标题": "</span>&&</a>",
+"跳转播放链接": "var cms_player*\"url\":\"&&\"",
+"搜索url": "https://busdm2.cc/search/{wd}/{pg}.html",
+"分类": "新旧番剧$3#在线动漫$2#动漫电影$5#里番$10",
+"分类url": "https://busdm2.cc/iProId/{cateId}-{class}--{year}---addtime-{catePg}.html"
+}

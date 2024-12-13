@@ -5,6 +5,7 @@
 "请求头": "User-Agent$MOBILE_UA",
 "编码": "UTF-8",
 "主页url": "https://silidm.com/",
+"搜索url": "https://silidm.com/search/-------------.html?wd={wd}",  
 "数组": "class=\"module-item-cover\"&&</div>",
 "标题": "title=\"&&\"",
 "图片": "data-original=\"&&\"",

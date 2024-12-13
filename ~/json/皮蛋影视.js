@@ -1,0 +1,28 @@
+var rule = {
+  title: '皮蛋影视',
+  host: 'https://www.pidan.cc',
+  url: '/vod/fyclass/0/0/fyage',
+  searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  headers: {
+    'User-Agent': 'UC_UA',
+  },
+  class_parse: '.fed-navs-info&&ul.fed-menu-info&&a;a&&Text;a&&href;/(\\d+)/',
+  play_parse: true,
+  lazy: "js:\n  let html = request(input);\n  let hconf = html.match(/r player_.*?=(.*?)</)[1];\n  let json = JSON5.parse(hconf);\n  let url = json.url;\n  if (json.encrypt == '1') {\n    url = unescape(url);\n  } else if (json.encrypt == '2') {\n    url = unescape(base64Decode(url));\n  }\n  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {\n    input = {\n      parse: 0,\n      jx: 0,\n      url: url,\n    };\n  } else {\n    input = url && url.startsWith('http') && tellIsJx(url) ? {parse:0,jx:1,url:url}:input;\n  }",
+  limit: 6,
+  double: true,
+  推荐: 'ul.fed-list-info.fed-part-rows;li;a.fed-list-title&&Text;.img2&&src;.fed-back-green&&Text;a&&href',
+  一级: '.fed-list-info&&li;a.fed-list-title&&Text;.img2&&src;.fed-back-green&&Text;a&&href',
+  二级: {
+    title: 'h1.fed-part-eone&&Text',
+    img: '.img3&&src',
+    desc: '.fed-deta-content&&.fed-part-rows&&&&Text;.fed-deta-content&&.fed-part-rows&&li:eq(4)&&Text;.fed-deta-content&&.fed-part-rows&&li:eq(3)&&Text;.fed-deta-content&&.fed-part-rows&&li:eq(0)&&Text;.fed-deta-content&&.fed-part-rows&&li:eq(1)&&Text',
+    content: '.fed-part-esan&&Text',
+    tabs: '.fed-tabs-btns',
+    lists: '.stui-content__playlist:eq(#id)&&li',
+  },
+  搜索: '.fed-deta-info;h1&&Text;.lazyload&&data-original;.fed-list-remarks&&Text;a&&href;.fed-deta-content&&Text',
+}

@@ -1,0 +1,13 @@
+{
+"規則名":"電影驛站",
+"規則作者":"老王叔叔",
+"規則日期":"113.12.04",
+"线路数组": "data-dropdown-value=&&</div>",
+"线路标题": "<span>&&</span>",
+"影片年代": "<div class=\"module-info-tag\">&&</div>",
+"影片状态": "备注：&&</div>",
+"影片类型": "module-info-tag\">&&立即播放",
+"简介": "请勿相信影片中的广告，以免上当受骗。+<p>&&</p>",
+"分类url": "https://www.dyyz1.app/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+"分类": "电影$1#电视剧$2#动漫$4#综艺$3#动画片$31#B站$41#短剧$49#电影解说$32"
+}

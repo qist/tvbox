@@ -1,0 +1,13 @@
+{
+"主页url": "https://www.xbw20.com/",
+"编码": "gb2312",
+"图片": "data-src=\"&&\"",
+"标题": "alt=\"&&\"",
+"副标题":"class=\"time\">&&</label",
+"分类url": "https://www.xbw20.com/search.asp?page={catePg}&searchword={area}&searchtype=2[https://www.xbw20.com/vod/{cateId}.html]",
+"分类": "电影$newmovie#电视剧$newTV#4K专区$new4K#动画片$newcartoon",
+"起始页": 2,
+"倒序": 1,
+"播放数组": "迅雷下载</div>&&</div>",
+"播放列表": "<a&&</a >"
+}

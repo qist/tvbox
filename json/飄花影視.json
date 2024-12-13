@@ -16,6 +16,8 @@
     "线路标题": ">&&</span>",
     "播放数组": "class=\"module-play-list-content&&</div>",
     "倒序": "0",
+    "搜索url": "https://www.7itv.com/vodsearch/-------------.html?wd={wd}",  
+
     "播放列表": "<a&&/a>",
     "播放标题": ">&&</span>",
     "播放链接": "href=\"&&\"",

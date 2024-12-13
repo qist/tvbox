@@ -1,0 +1,23 @@
+{
+    "規則名": "影視大全",
+    "規則作者": "老王叔叔",
+    "規則日期": "113.11.29",
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "数组": "class=\"stui-vodlist__box\">&&</a>",
+    "标题": "title=\"&&\"",
+    "图片": "style=\"background: url(&&)",
+    "副标题": "right\">&&</span>",
+    "链接": "href=\"&&\"",
+    "播放数组": "class=\"stui-content__playlist&&</ul>",
+    "播放列表": "<a&&a>",
+    "播放链接": "href=\"&&\"",
+    "播放标题": ">&&</",
+    "线路数组": "<h3&&h3>",
+    "线路标题": "\">&&</",
+    "跳转播放链接": "var player_*\"url\":\"&&\"",
+    "主页url": "http://www.sdm0377.com/",
+    "分类url": "http://www.sdm0377.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+    "分类": "电影$Movie#电视剧$TV#综艺$ZY#动漫$ACG#短剧$DJ",
+    "类型": "动作片$dongzuody#喜剧片$xijudy#科幻片$kehuandy#恐怖片$kongbudy#爱情片$aiqingdy#剧情片$juqingdy#战争片$zhanzhengdy#记录片$jiludy#预告片$yugaody||国产剧$guochantv#欧美剧$oumeitv#香港剧$xianggangtv#韩国剧$hanguotv#台湾剧$taiwantv#日本剧$ribentv#泰国剧$taiguotv#海外剧$haiwaitv||空||空||空"
+}

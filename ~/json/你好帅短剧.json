@@ -1,0 +1,23 @@
+{
+    "作者": "乐哥20041011",
+    "站名": "你好帅影院",
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "主页url": "https://nhsyy.com",
+    "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+    "数组": "module-item-pic&&module-item\"",
+    "标题": "title=\"&&\"",
+    "图片": "data-src=\"&&\"",
+    "副标题": "✨+item-text\">&&</",
+    "链接": "href=\"&&\"",
+    "线路数组": "data-dropdown&&</div>",
+    "线路标题": "✨乐哥推荐✨+<span>&&</+【共+<small>&&<+集】",
+    "播放数组": "-blocklist\">&&</div>",
+    "播放列表": "<a&&a>",
+    "播放链接": "href=\"&&\"",
+    "播放标题": "✨+<span>&&</",
+    "搜索模式": "1",
+    "搜索url": "https://nhsyy.com/vodsearch/{wd}----------{pg}---.html",
+    "分类url": "https://nhsyy.com/vodshwo/{cateId}--------{catePg}---.html",
+    "分类": "穿越$fenle#战神$fenlei2#重生$fenlei3#爱情$fenlei4#萌娃$guda#神医$shenyi#古代$gudai#玄幻$xuanhuan#言情$yanqing"
+}

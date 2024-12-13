@@ -1,0 +1,23 @@
+{
+"規則名": "咕咚電影",
+"規則作者": "老王叔叔",
+"規則日期": "113.11.29",
+"请求头": "User-Agent$MOBILE_UA",
+"编码": "UTF-8",
+"主页url": "https://www.zgbdzs.com/",
+"数组": "class=\"hl-item-thumb hl-lazy\"&&</a>",
+"标题": "title=\"&&\"",
+"图片": "data-original=\"&&\"",
+"副标题": "\">&&</span>",
+"播放数组": "class=\"hl-plays-list hl-sort-list&&</ul>",
+"播放列表": "<a&&a>",
+"播放链接": "href=\"&&\"",
+"播放标题": ">&&</",
+"链接": "href=\"&&\"",
+"线路数组": "class=\"hl-tabs-btn hl-slide-swiper&&a>",
+"线路标题": "alt=\"&&\"",
+"跳转播放链接": "var player_*\"url\":\"&&\"",
+"分类url": "https://www.zgbdzs.com/vodshow/{cateId}-{area}-{by}--{lang}-{letter}---{catePg}---{year}.html",
+"分类": "电影$1#连续剧$2#综艺$3#动漫$4#夜间福利$21#体育赛事$26#短剧$27",
+"类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12||国产剧$13#港台剧$14#日韩剧$15#欧美剧$16||空||空||空||空||空"
+}

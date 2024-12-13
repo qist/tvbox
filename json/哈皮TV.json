@@ -1,0 +1,16 @@
+{
+"規則名":"哈皮TV",
+"規則作者":"老王叔叔",
+"規則日期":"113.12.04",
+"主页url": "https://www.hapetv.com/",
+"副标题": "pic-texttext-right\">&&</b>",
+"图片": "data-original=\"&&\"",
+"嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+"影片类型": "<div class=\"module-info-tag\">&&立即播放",
+"线路数组": "href=\"#con_playlist_*\"&&</li>",
+"线路标题": "vip?+tab\">&&</a",
+"导演": "导演：&&</div>",
+"主演": "主演：&&</div>",
+"分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$38",
+"分类url": "https://www.hapetv.com/vod-show/{cateId}-{area}-------{catePg}---{year}/"
+}

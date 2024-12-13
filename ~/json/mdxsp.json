@@ -1,0 +1,79 @@
+{
+"author":"8.2",
+"name":"mdxsp",
+"url":"https://mdxsp.com", //填网站链接https://tjomet.com/vodtype/1.html
+"tihuan":"cnzz.com", //这个不用动，是个别网站嗅探时过滤地址用的
+"User":"空", //这个不用动，是个别网站播放需要请求头时才用到
+"shouye": "1",
+"fenlei":"原创$/mdtype/yuanchuang-#无码$/mdtype/wuma-#有码$/mdtype/youma-#中字$/mdtype/zhongwenzimu-#国产$/mdtype/guochan-", //网站列表的分类
+"houzhui":".html", //网站翻页链接的后缀
+
+"shifouercijiequ":"0", //截取的列表数组是否需要二次截取，0不需要，1需要
+"jiequqian":"空", //不需要二次截取就填空
+"jiequhou":"空", //不需要二次截取就填空
+"jiequshuzuqian":"class=\"stui-vodlist__item", //截取的列表数组的前关键词,截取的关键词有 " 的用 \ 进行转义
+"jiequshuzuhou":"</li>", //截取的列表数组的后关键词,截取的关键词有 " 的用 \ 进行转义
+"tupianqian":"src=\"", //列表中资源的图片前关键词,截取的关键词有 " 的用 \ 进行转义
+"tupianhou":"\"", //列表中资源的图片后关键词,截取的关键词有 " 的用 \ 进行转义
+"biaotiqian":"title=\"", //列表中资源的标题前关键词,截取的关键词有 " 的用 \ 进行转义
+"biaotihou":"\"", //列表中资源的标题后关键词,截取的关键词有 " 的用 \ 进行转义
+"lianjieqian":"href=\"", //列表中资源的详情页跳转链接前关键词,截取的关键词有 " 的用 \ 进行转义
+"lianjiehou":"\"", //列表中资源的详情页跳转链接后关键词,截取的关键词有 " 的用 \ 进行转义
+"fubiaotiqian": "class=\"pic-text text-right\">",
+"fubiaotihou": "</span>",
+
+//搜索部分基本不用动，现在网站基本都是苹果CMS，所有搜索是固定的。
+  "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+  "sousuohou": "&limit=500",
+  "sousuohouzhui": "/mddetail/", //搜索页影片跳转详情页的中间标识链接部分
+  "ssmoshi": "0",
+  "sousuoshifouercijiequ": "0",
+  "jspic": "pic",
+  "jsname": "name",
+  "jsid": "id",
+  "ssjiequqian": "空",
+  "ssjiequhou": "空",
+  "ssjiequshuzuqian": "空",
+  "ssjiequshuzuhou": "空",
+  "sstupianqian": "空",
+  "sstupianhou": "空",
+  "ssbiaotiqian": "空",
+  "ssbiaotihou": "空",
+  "sslianjieqian": "空",
+  "sslianjiehou": "空",
+
+"bfshifouercijiequ": "1",
+"bfjiequqian": "class=\"stui-content__playlist",
+"bfjiequhou": "</ul>",
+"bfjiequshuzuqian": "<li>", //播放截取的列表数组的前关键词
+"bfjiequshuzuhou": "</li>", //播放截取的列表数组的后关键词
+
+
+
+
+"zhuangtaiqian": "时间：</span>", //状态前关键词
+"zhuangtaihou": "</p>", //状态后关键词
+"daoyanqian": "导演：</span>", //导演前关键词
+"daoyanhou": "</p>", //导演态后关键词
+"zhuyanqian": "主演：</span>", //主演前关键词
+"zhuyanhou": "</p>", //主演后关键词
+"juqingqian": "简介：</span>", //剧情前关键词
+"juqinghou": "</div>",//剧情后关键词
+
+
+
+
+"bfyshifouercijiequ": "0",
+  "bfyjiequqian": "空",
+  "bfyjiequhou": "空",
+  "bfyjiequshuzuqian": "<a",//播放源截取数组前
+  "bfyjiequshuzuhou": "/a>",//播放源截取数组后
+  "bfbiaotiqian": ">",//播放剧集标题前关键词
+  "bfbiaotihou": "<",//状播放剧集标题后关键词
+  "bflianjieqian": "href=\"",//播放剧集链接前关键词
+  "bflianjiehou": "\""//播放集链接后
+
+
+
+
+}

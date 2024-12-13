@@ -1,0 +1,15 @@
+{
+    "規則名": "小雞暴走影院",
+    "規則作者": "老王叔叔",
+    "規則日期": "113.12.02",
+        "ua":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36",
+        "编码": "UTF-8",
+        "嗅探词": ".m3u8?#play.mtle.cn#.m3u8#.mp4",
+        "线路数组": "href=\"\\#&&</li>",
+        "线路标题": "</span>&&</a>",
+        "简介":"lead vod-content\">&&</div>",
+        "分类url":"https://www.minijj.com/lm/{cateId}/sx---{year}---{area}--{catePg}.html",
+        "分类": "電視劇$2#電影$1#經典動漫$3#綜藝娛樂$4#大陸劇$15#香港劇$16#台灣劇$918#日劇$18#韓劇$915#美劇$916#英劇$923#歐美劇$17#動作片$8#喜劇片$9#愛情片$10#科幻片$11#恐怖片$12#戰爭片$13#劇情片$14#國漫$906#日漫$904#美漫$905#其他動漫$903#大陸綜藝$911#港台綜藝$907#韓綜$908#日綜$912#泰綜$913#歐美綜藝$909",
+        "地区":"大陸$dalu#美國$meiguo#香港$xianggang#台灣$taiwan#韓國$hanguo#日本$riben#泰國$taiguo#新加坡$xinjiapo#馬來西亞$malaixiya#印度$yindu#英國$yingguo#法國$faguo#加拿大$jianada",
+        "倒序":"是"
+}

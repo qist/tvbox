@@ -1,0 +1,80 @@
+{
+  "作者": "菜妮丝https://cainisi.cf",
+  "站名": "Auete",
+  "主页url": "https://auete.com",
+  
+  "分类": "电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm#其他$qita",
+  
+  "分类url": "https://auete.com/{cateId}{class}/index{catePg}.html[https://auete.com/{cateId}/index.html]",
+  
+  "数组": "<li class=\"trans_3&&/button>",
+  "副标题": "hdtag\">&&<",
+  
+  "搜索模式": "1",
+  "搜索url": "/aueteso.php?searchword={wd}",
+  "搜索数组": "mb-0\">&&</a>",
+  "搜索图片": "空",
+  "搜索标题": "text-danger\">&&<",
+  "搜索链接": "data-href=\"&&\"",
+  
+  "影片地区": "地区:&&</p>",
+  "影片类型": "分类:&&</p>",
+  "导演": "导演:&&</p>",
+  "主演": "主演:&&</p>",
+  "简介": "</a><p>&&</p>",
+  
+  "线路数组": "<i class=\"icon-film\">&&small>",
+  "线路标题": ">&&<[替换:『*』>>空#：>>空]",
+  
+  "播放数组": "</h2><ul>&&</ul>",
+  
+  "筛选":{
+"Movie":[
+  {"key":"class","name":"剧情","value":[
+  {"n":"全部","v":""},
+  {"n":"喜剧片","v":"/xjp"},
+  {"n":"动作片","v":"/dzp"},
+  {"n":"爱情片","v":"/aqp"},
+  {"n":"科幻片","v":"/khp"},
+  {"n":"恐怖片","v":"/kbp"},
+  {"n":"惊悚片","v":"/jsp"},
+  {"n":"战争片","v":"/zzp"},
+  {"n":"剧情片","v":"/jqp"}]}],
+  
+"Tv":[
+  {"key":"class","name":"剧情","value":[
+  {"n":"全部","v":""},
+  {"n":"美剧","v":"/oumei"},
+  {"n":"韩剧","v":"/hanju"},
+  {"n":"日剧","v":"/riju"},
+  {"n":"泰剧","v":"/yataiju"},
+  {"n":"网剧","v":"/wangju"},
+  {"n":"台剧","v":"/taiju"},
+  {"n":"国产","v":"/neidi"},
+  {"n":"港剧","v":"/tvbgj"},
+  {"n":"英剧","v":"/yingju"}]}],
+  
+"Zy":[
+  {"key":"class","name":"剧情","value":[
+  {"n":"全部","v":""},
+  {"n":"国综","v":"/guozong"},
+  {"n":"韩综","v":"/hanzong"},
+  {"n":"美综","v":"/meizong"}]}],
+  
+"Dm":[
+  {"key":"class","name":"剧情","value":[
+  {"n":"全部","v":""},
+  {"n":"动画","v":"/donghua"},
+  {"n":"日漫","v":"/riman"},
+  {"n":"国漫","v":"/guoman"},
+  {"n":"美漫","v":"/meiman"}]}],
+  
+"qita":[
+  {"key":"class","name":"剧情","value":[
+  {"n":"全部","v":""},
+  {"n":"记录片","v":"/Jlp"},
+  {"n":"经典片","v":"/Jdp"},
+  {"n":"经典剧","v":"/Jdj"},
+  {"n":"网大电影","v":"/wlp"},
+  {"n":"国产老电影","v":"/laodianying"}]}]}
+}

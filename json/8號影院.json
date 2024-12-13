@@ -1,0 +1,12 @@
+{
+    "規則名": "8號影院",
+    "規則作者": "老王叔叔",
+    "規則日期": "113.12.02",
+    "搜索url": "http://www.soutiyi.com/search.php?searchword={wd}",
+    "搜索链接": "href=\"&&\"",
+    "简介": "请勿相信影片中的广告，以免上当受骗。+<p class=\"col-pd detail\"&&</span>",
+    "线路数组": "<img src=\"/statics/icon/icon_26.png\"&&</h3>",
+    "线路标题": "蓝光专线",
+    "分类url": "http://www.soutiyi.com/frim/{cateId}-{catePg}.html",
+    "分类": "动作片$5#爱情片&科幻片$7#恐怖片$8#喜剧片$10#剧情片$12#国产剧$13#港台剧$14#欧美剧$15#日韩剧$16#综艺$3#动漫$4"     
+}

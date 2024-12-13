@@ -1,0 +1,17 @@
+{
+    "请求头": "手机",
+    "站名": "比卡比卡",
+    "主页url": "https://pika.bikaq.cc/",
+    "数组": "hl-list-item hl-col-xs-4 hl-col-sm-3 hl-col-md-20w hl-col-lg-2\">&&</i>",
+    "标题": "title=\"&&\"",
+    "图片": "data-original=\"&&\"",
+    "免嗅": "1",
+    "播放数组": "hl-plays-list hl-sort-list clearfix\"&&</ul>",
+    "跳转播放链接": "urlDecode(var player*url\":\"&&\")",
+    "搜索url": "https://pika.bikaq.cc/vodsearch/{wd}----------{pg}---.html",
+    "嗅探词": ".m3u8#.mp4",
+    "分类url": "https://pika.bikaq.cc/vodtype/{cateId}-{catePg}.html",
+    "分类数组": "<li&&</li>",
+    "分类标题": ">&&/a>",
+    "分类ID": "/vodtype/&&.html"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "业余资源",
+    "url": "https://yyff.540734621.xyz",
+    "parse_url": "",
+    "cate_exclude": "电影|电视剧|动漫|综艺",
+    "class_name": "H4sIAFv2dGYC/0VQWw6CMBC8Tc+pEpD6oaiIJpDwo6kvomiIUqin6XbhFspSw9/s7GRmdjEsQOUMw6IRHnDBYHY09YWhPIPaIJ8yrOqGy47XKukIiJKfkFZ+bhyXOC4sQrGEsuqQ8XdackLjwIwi0sVKS9HlmKvAz5zQ9tCmJ0LvGyzu1CJW4Lk2upf+h+IF+2jQ2L7Wzg69o73EycwqwzQbsqxVmz51GTCt1s3kYash/eMLtttB6BYBAAA=",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27&28"
+  },
+  {
+    "name": "黑木耳资源",
+    "url": "https://www.heimuer.tv",
+    "parse_url": "https://player.heimuer.tv/index.html?url=",
+    "cate_exclude": "^电影$|^电视剧$|^综艺$|^动漫$",
+    "class_name": "H4sIAFz2dGYC/0WSbXKCQAyGb8M5UQcRqgU7DFal2mllKBa/pqNjQexl2M1yi7LZpP2175PNJnkDEJ1FfbIgOqtsKLzMEv6HvH1aUN2UV1pdRA4c8Fwdb+oE1fCpneeowrG0M1Rx0qWiSl3xXWkle6G0Y4wt66bMdHV5PeijXedIsxSPfgHxFJ8MfNlfaAW9e7u4oxqdaATwD1BvUWVTatKNBVEF5GK9w3pfR3QS4CGLDO6PqOJjmxd45VyaKsbYbqxGK+w9em5KD6tXgXCuqOopVAlV7x6J/eDfD61IWwqOBNrYsuabWSqTggHHYMBJujl5zTgPQ7BR7w55UfNQ9h4IWnuo3nbs0mzNAKQrddpymjuBaE0gNpOmcjkt/1EXnyFKxP6V026lsv+ahmOxf+EbY5uammWaf8T4IzDOCeiDUxouiIGdcyZWN/ALQpTFCIwCAAA=",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50&51&52&53&54&55&56&57&58&59&60&61&62&63"
+  },
+  {
+    "name": "乐视资源",
+    "url": "https://leshiapi.com",
+    "parse_url": "https://leshivideoplayurl.com/?url=",
+    "cate_exclude": "电影|连续剧|动漫|综艺|伦理片|体育赛事|港台三级|韩国伦理|日本伦理|其他伦理|卡通动漫|",
+    "class_name": "H4sIAFv2dGYC/zVRWXbCMAy8jc/JUiAJjyWvNC3Lg1KWAE1fQlkKCQ6XsS3nFrVl+yszkmc0UmB04fRIID9w+gZ+h8jnHIof7sdEJDGUfY2q7VjcUo14sGN0pt+BdxTNFqI45PdCI1EfilqkkXpru8L7YLmPtWimyoiCHYxQAUEK9IC1KWV5jNMWe0XsNPH4JlA8pJ8Tvo6rcdsSnWeQOfK+USJHMLbTDDJxL9HL+BtHJRCzxBGzpyWXP76OHDllNokS6A/gtWS8kumZ8E3H7g31spqUuG0jgSjEfVpXVuAtGH2VjV95mbK86/y11wKvzB5bGLZRiyuxmw+5O4Jp2riW8N6yqk1sQjPFdQY9SRPwzO02p+orFPWu+lGqs5arFivGrPwk/H5mxQr2T3kNiHwJxXluYhPoZ6pTNSm/Nf4BxMaYBRkCAAA=",
+    "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&44&46&48&49&50&51&52&53&54&55&56&57&58&59"
+  },
+  {
+    "name": "飞速资源",
+    "url": "https://www.feisuzyapi.com",
+    "parse_url": "https://www.feisuplayer.com/m3u8/?url=",
+    "cate_exclude": "电影|电视剧|综艺|动漫|其他片|其他剧|求片留言|新闻资讯",
+    "class_name": "H4sIAFv2dGYC/zVQ0VLCMBD8m3wn4oAEZ0THUuzQGR4EUwGHVq1ASvia3F34C5NL+pTdvc1mL5S1YBpBWevUGKQS1F2c1AKmFV524bCmJPkgIC/9OCCaNHg/YqRe4NwFhHfPOMjZJ1Wa4uTNasna0litQvrto8DTISCY1Xi+srb69AZ+W2/BzPnGtKIsJi82WO7DFH/q5MO9ousTp8TkWDZZE4meRNojrPNEiFd26t0dfgWs1a0Yp6VDtVndk8XGN+sJp/V/M/qzXVyWEVdqhl6geeGqgbDm1Q2/Xbu0+lHQ6ssb/gEHs/6laAEAAA==",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&29&30&31&32&33&35&36&37&38&39"
+  },
+  {
+    "name": "暴风资源",
+    "url": "https://bfzyapi.com",
+    "parse_url": "https://vip.vipuuvip.com/?url=",
+    "cate_exclude": "电影片|连续剧|综艺片|动漫片|电影解说|体育|演员|新闻资讯|理论片",
+    "class_name": "H4sIAFv2dGYC/zWRa3aCMBCFd5N1+kIFj1VOLdbq0Z6iBq0VrI8qGN1MMhN20WSAP8x34c7NZMDRWYkDuh2mvEiKGVEwUy63BPUh1AJLyH11y4i6B2g65HN5SdB9l6lLX9OtEm9Ew7bep5b0c47Zj3EzNRUy5ZZgx/HxYilfT+AaEy02xkC+QQK3B/nGK5jtiM5/ahkQHZPK50Vw/6ZZimTStslmlaI4qRTmpEFSiSKxEJjdtUvjqiXPJ+1Clw2VoNxKUG4pTAiOivXQQjUPdXxi+VdL+Z59LcWrbvzq81SmPaYvRxw2GcZ7KsK3BYJYx6lyegwXdllmDOVELO/0cbSAxDc3ZLh56ounbieZhQxfElN0VDM/wWysr8UOuwICc4PVEeo9qGU6rLN8vFWbD1xn5snyplDXhm75cJqbnqUOHZlN5OPzH964N6gIAgAA",
+    "class_url": "20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50&51&52&53&54&55&56&57&58&65&66&67&68&69&70&71&72"
+  },
+  {
+    "name": "飞刀资源",
+    "url": "http://www.feidaozy.com",
+    "parse_url": "http://www.feidaozy.com/template/mizhi_ikun/mizhi/live/aliplay.php?url=",
+    "cate_exclude": "^电影$|^电视剧$|^综艺$|^动漫$|^同性片$|^歌舞片$|^其他综艺$",
+    "class_name": "H4sIAFv2dGYC/zWR3W7CMAyF3ybPyY8KbYVWOnXZBtV2hUJZJ0ATE2tIn6ax27dYYidX+Y5jHZ84WN2suQqsbqNa2UwJ1I8x64TNj/D4Enb1PL03mK2Fu4NlQpQfB1MHwkojW9jtBmaKyrJ23USHtf3TnqBV2D/5AfB68Mf02fjD7s3QKarPtzCT1LtoUZZEyxwWO6L0begyou/NmH54wnk/7Xqi9BrCYX5GcyJSZZiNurDJnciUqOsQGH4uNPd+piAFK3mZmpYKye+gJdUoe1iMiw91G4R/xN7EldFTYhv5uBFRuylFFGwdb3gzvG92D4Ld40/wokJbdI+a3GMnB2eB3cmaF/f2f00wLfvpAQAA",
+    "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50"
+  }
+]

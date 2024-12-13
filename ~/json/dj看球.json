@@ -1,0 +1,182 @@
+{
+    "author": "",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Core/1.94.186.400 QQBrowser/11.3.5195.400",
+    "homeUrl": "http://www.jrskan8.com/",
+    //"homeUrl": "http://jrsbxj.com/",
+    //"homeUrl": "http://jrsyyds.com/",
+    
+    "cateManual": {
+        "JRS赛事直播": "@666"
+    },
+	
+	
+	// 分类页地址 {cateId} 分类id {catePg} 当前页
+    "cateUrl2": "http://m.jrskan8.com/",
+	  // 同上面的homeVod字段 分类列表中的视频信息
+	"cateVodNode": "//ul[@data-stype='zqlq']",
+    //"cateVodName": "/li[@class='lab_events']/span/text()",
+    "cateVodName": "concat(/li[@class='lab_time']/text(),'-',/li[@class='lab_events']/span/text(),'dj')",
+    "cateVodId": "/li[@class='lab_channel']/a[2]/@href",
+    "cateVodIdR": "http://m.sportsteam685.com/play/(\\S+)",
+	//"cateVodIdR": "\\S+/(\\d+).html",
+    "cateVodImg": "/li[@class='lab_team_home']/span/img/@src",
+    "cateVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text())",
+	//"cateVodMark": "{vid}",
+	"cate": "dj",
+	// 详情页地址 用于获取详情页信息 及 播放列表和地址
+    //"dtUrl": "{vid}",
+	"dtUrl": "http://play.sportsteam685.com/play/{vid}",
+	// 详情节点
+    "dtNode": "//ul[@data-stype='zqlq']",
+	// 视频名
+    "dtName": "/li[1]/span/text()",
+	// 视频图片
+    "dtImg": "/li[3]/span/img/@src",
+	// 视频分类
+    "dtCate": "/li[1]/span/text()",
+    //演员
+    "dtActor": "/li[1]/span/text()",
+    // 导演
+    //"dtDirector": "concat('勇士总冠军')",
+    "dtDirectorR": "",
+    // 视频简介
+    "dtDesc": "concat(/li[3]/strong/text(),' VS ',/li[5]/strong/text())",
+	
+	// 播放源节点
+    "dtFromNode": "//div[@class='sub_channel']",
+	// 播放源名称
+    "dtFromName":  "concat('【推荐优先选择中文超清或中文高清直播源观看】')",
+    "dtFromNameR": "",
+	// 播放列表节点
+    "dtUrlNode": "//div[@class='sub_channel']",
+	// 播放地址节点
+    "dtUrlSubNode": "/a",
+    //"dtUrlSub": "/ff",
+	// 播放地址
+    "dtUrlId": "/@data-play",
+    "dtUrlIdR": "/play/(\\S+)",
+	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
+	// 剧集名称
+    "dtUrlName": "/strong/text()",
+    "dtUrlNameR": "",
+	
+	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
+    //"playUrl":"http://play.sportsteam333.com/play/{playUrl}#ff",
+    "playUrl":"http://play.sportsteam685.com/play/{playUrl}"
+    //"playUrl": "http://play.sportsteam365.com/play/{playUrl}"
+    //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36", 
+    //"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
+
+}
+
+<html><head>
+<meta charset="UTF-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="apple-mobile-web-app-title" content="JRKAN直播-">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>1-墨西超-04-22 09:05-内卡萨-阿特拉斯 - JRKAN直播</title>
+<meta name="description" content="JRKAN直播是知名体育平台,主要为足球迷,篮球迷,电竞等提供直播,视频集锦等服务">
+<script src="https://pss.bdstatic.com/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js" type="text/javascript"></script>
+<script src="https://css-js-j.oss-accelerate.aliyuncs.com/jquery.lazyload.min.js?ver=20191010" type="text/javascript"></script>
+<script src="m.js" type="text/javascript"></script>
+<script src="https://css-js-j.oss-accelerate.aliyuncs.com/store.legacy.min.js"></script>
+<script src="https://css-js-j.oss-accelerate.aliyuncs.com/hwl.base-min.js?ver=20191010" type="text/javascript"></script>
+<script src="https://css-js-j.oss-accelerate.aliyuncs.com/tmp/page.live-2.0-min.js?ver=20191010" type="text/javascript"></script>
+<link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="//cloud.yumixiu768.com/main-2.0.css?ver=20191010" type="text/css">
+<link id="site-style" rel="stylesheet" href="//cloud.yumixiu768.com/style-jindouyun-bf-2.1.css?ver=20191111" type="text/css">
+</head>
+<body class="web_player" data-lan="lan_cn" data-nogq="">
+<script>
+    disp_prompt();
+    function disp_prompt(){             
+        confirm("ƪ(˘⌣˘)ʃ  备用域名1: www.jrkan2023.com  备用域名2: www.jrskan8.com 网址发布:www.qiumi1314.com");        
+    }
+</script>
+<div class="web_phone">
+<div class="web_nav_menu">
+<div class="main">
+<a href="http://jrkan365.com" target="_blank" class="logo only-pc"></a>
+<div class="loc_banner only-app">
+<div class="sub_img active" onclick="window.open('https://jr2.kqt600.com/download')" style="background-image:url(/play/1678453801358fx8.png);"></div>
+</div>
+<ul class="sub_menu">
+<li class="item icon_download"><a href="http://www.jrskan8.com"><em class="icon-facetime-video"></em>返回首页</a></li>
+<li class="item icon_download"><a href="http://www.jrkan2023.com" target="_blank"><em class="icon-facetime-video"></em>www.jrkan2023.com</a></li>
+<li class="item icon_download"><a href="http://www.jrskan8.com" target="_blank"><em class="icon-facetime-video"></em>www.jrskan8.com</a></li>
+</ul>
+<ul class="sub_url"><li><span class="only-pc">按 Ctrl + D 收藏</span>本站网址：<b>www.jrkan2023.com</b></li><li><b>www.jrkan666.com</b></li></ul>
+</div>
+</div>
+<div class="web_content"><div class="web_body">
+<div class="web_top_refresh"><a title="刷新" class="sub_refresh icon-refresh" data-action="reload"></a></div>
+<div class="web_container" id="page-live" data-style="normal" data-type="2">
+<div class="web_header full clear_after" data-class="have_sub_menu">
+<div class="main">
+<div class="sub_nav">
+<div class="sub_head"><strong class="let_title">JRKAN直播</strong></div>
+</div>
+</div>
+</div>
+<div id="loc-data-list" class="main main_video loc_video_box">
+<div class="loc_player" id="loc-tool-player" data-sport="1" data-style="normal" data-top="233px" style="padding-top: 233px;">
+<div class="sub_tool" style="top: 233px;"><a data-action="radio" class="a_share_more item icon-share"></a></div>
+<div class="sub_box" style="margin-top: -233px; padding-top: 233px;">
+<div class="sub_head loc_match">
+<div class="sub_list" style="color:#004eff " font-size: 17px;>
+JRKAN备用域名:www.jrkan2023.com www.jrskan8.com 网址发布:www.qiumi1314.com
+<div class="loc_banner only-app">
+<div class="sub_img active" onclick="window.open('https://qmt2.chat66.cc')" style="background-image:url(http://play.sportsteam357.com/play/f03e4126-5625-491e-b66d-c6c6f0650987.JPG?t_=3);"></div>
+</div>
+<ul class="item active" data-lid="3852728,1,3852728" data-stype="zqlq">
+<li class="lab_events" style="color:#669900 "><span class="name">墨西超</span></li>
+<li class="lab_time">04-22 09:05</li>
+<li class="lab_team_home"><strong class="name">内卡萨</strong><em class="bf" title="62"></em><span class="avatar"><img class="" src="https://cdn.sportnanoapi.com/football/team/0db2316210037cd53041f5ae5e37ffdf.png" style=""></span></li>
+<li class="lab_vs active"><div class="sub_status"></div></li>
+<li class="lab_team_away"><strong class="name">阿特拉斯</strong><em class="bf" title="54"></em><span class="avatar"><img class="" src="https://cdn.sportnanoapi.com/football/team/1140bbefe167a11333e182ba6db969e7.png" style=""></span></li>
+<li class="lab_bc"><span></span></li>
+<li class="lab_jq"><span></span></li>
+</ul>
+</div>
+</div>
+<ul class="loc_gq loading" data-title="JRKAN直播">
+<li class="lab_name item">
+<div class="wid_select icon-down" data-title="即时滚球" data-action="select">
+<ol class="sub_list">
+<li class="item active" data-value="hg">即时滚球</li>
+</ol>
+</div>
+</li>
+<li class="lab_zk item gq"><em></em><em></em><em></em></li>
+<li class="lab_rq item gq"><em></em><em></em><em></em></li>
+<li class="lab_dx item gq"><em></em><em></em><em></em></li>
+</ul>
+<iframe class="sub_player" name="myplayer" id="myplayer" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" src="/play/sm.html?id=157&id2="></iframe>
+<div class="sub_line"></div>
+<div class="sub_playlist">
+<div class="sub_channel" data-action="radio,,css=play spin,selector=.item.ok.me" data-lid="3852728,1,3852728">
+<a class="item play ok me" target="myplayer" data-group="云直播①" data-providerid="27592" data-play="/play/sm.html?id=157&id2=" href="" data-urlid="549270"><em class="icon-play-circle"></em><strong>主播解说①</strong></a>
+<a class="item ok me" target="myplayer" data-group="云直播④" data-providerid="27608" data-play="/play/pao.php?id=1fx68QIb1c8g6x6530n4&id2=" href="" data-urlid="553582"><em class="icon-play-circle"></em><strong>高清直播②</strong></a>
+ <a class="item ok me" target="myplayer" data-group="云直播④" data-providerid="27608" data-play="/play/kk.php?id=2021940&id2=" href="" data-urlid="553582"><em class="icon-play-circle"></em><strong>高清直播③</strong></a>
+|
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+<script type="text/javascript" id="loc-data-script">wl.app_live({"config":{"desc":"","base_zqlq_url":"","base_other_url":"","base_interval":600,"other_interval":1200,"ch_player_url":"","ch_base_url":"","bf_interval":3,"bf_event_interval":3,"odds_interval":3,"odds1_url":"","odds2_url":"","channel_url":"","reset_team_time":120,"reset_odds_time":60,"hide_match_time":22,"status_interval_time":50,"new_window_play":true,"swiper_mode":"","max_phone_render":12,"net_timeout":120,"switch_language_reload":false,"match_color_attribute":"background-color","team_pic1":"","team_pic2":"","focus_window_load":120,"chatroom":false,"barrage":true,"ad_filter_tags":["jdy01","ttbd=3"],"html_attach":{":":{"attr":"nogq"}},"button_text":{":":{"27642":["中文超清","中文超清","CNHD","CNHD"],"27640":["中文超清②","中文超清②","CNHD②","CNHD②"]}},"button_remove":{},"btlink_home":"","WebSocketData":{"url":"","chaturl":"","keepalive":60,"connectTimeout":4000,"client":{}},"head_append":""},"lan":0,"desc":"total:0,visibal:0,load:0,limit_visibal:50,limit_max:60","time":1597362241395,"type":"list","list_status":{},"ad":null,"txt_update":null});</script>
+<div style="display:none;"><script type="text/javascript" src="https://css-js-j.oss-accelerate.aliyuncs.com/player/t.js"></script></div>
+
+<div class="web_share">
+<div class="share_head"><div class="main">分享<a class="close" data-action="toggleClass,~.web_share"></a></div></div>
+<div class="main share_url"><div type="text" id="loc-share-url" class="url" data-clipboard-target="#loc-share-url"></div></div>
+<div class="a2a_kit a2a_kit_size_64 a2a_default_style" data-a2a-url="http://www.example.com/page.html" data-a2a-title="Example Page Title"><a class="a2a_button_wechat"></a><a class="a2a_button_sina_weibo"></a><a class="a2a_button_qzone"></a><a class="a2a_button_douban"></a><a class="a2a_button_renren"></a><a class="a2a_button_whatsapp"></a><a class="a2a_button_facebook"></a><a class="a2a_button_linkedin"></a><a class="a2a_button_skype"></a><a class="a2a_button_twitter"></a><a class="a2a_dd" href="https://www.addtoany.com/share"></a></div>
+<script src="https://css-js-j.oss-accelerate.aliyuncs.com/css/addtoany.page.js"></script>
+</div>
+</body></html>
+</body></html>

@@ -5,6 +5,7 @@
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
     "主页url": "http://lymyx.com/",
+    "搜索url": "http://lymyx.com/search/-------------.html?wd={wd}&submit=",  
     "二次截取": "<ul class=\"*stui-vodlist clearfix\"&&</ul>",
     "数组": "lazyload\"&&</a>",
     "标题": "title=\"&&\"",

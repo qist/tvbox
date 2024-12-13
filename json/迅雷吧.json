@@ -1,0 +1,18 @@
+{
+"規則名":"迅雷吧",
+"規則作者":"老王叔叔",
+"規則日期":"113.12.04",
+"主页url": "https://xunlei8.top/",
+"数组": "class=\"b33c0\"&&</a>",
+"图片": "src=\"&&\"",
+"图片代理": "1",
+"链接": "href=\"&&\"",
+"嗅探词": ".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
+"线路数组": "",
+"线路标题": "",
+"播放列表": "<a&&</a",
+"播放标题": "\">&&</a>",
+"播放链接": "href=\"&&\"",
+"分类url": "https://xunlei8.top/{cateId}-{class}-{year}-{area}-date-{catePg}-30.html",
+"分类": "剧集$tv#电影$list"
+}

@@ -1,0 +1,211 @@
+{
+"规则名": "anyav.me-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "PC_UA",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://ww1.javtv.to",
+"首页列表数组规则": "#primary",
+"首页片单列表数组规则": ".col-md-3",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "h4&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&src",
+"首页片单副标题": ".text-left&&span&&Text",
+"首页片单链接加前缀": "",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://ww1.javtv.to/{cateId}{by}/page-{catePg}.html",
+"分类名称": "最新&审查&未经审查&业余&色情&英文字幕&中文字幕&苏泰语&更多类别&",
+"分类名称替换词": "movies&category/censored&category/uncensored&category/video-amateur&porn&category/english-subtitle&category/chinese-subtitle&category/subthai&category/hi-def&",
+"分类截取模式": "1",
+"分类列表数组规则": "#primary&&.col-md-3",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "h4&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&src",
+"分类片单副标题": ".text-left&&span&&Text",
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "https://ww1.javtv.to/search/movie/{wd}",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": "#primary&&.col-md-3",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&src",
+"搜索片单标题": "h4&&Text",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": ".text-left&&span&&Text",
+"搜索片单链接加前缀": "",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com",
+
+
+"筛选数据":{
+"movies":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+"category/censored":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+"category/uncensored":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+"category/video-amateur":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+"porn":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+"category/english-subtitle":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+"category/chinese-subtitle":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+"category/subthai":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+],
+
+
+
+"category/hi-def":[
+{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"v":"category/hi-def","n":"高清"},
+{"v":"category/beautiful-girl","n":"漂亮女孩"},
+{"v":"category/amateur","n":"业余"},
+{"v":"category/family-roleplay-porn","n":"家庭角色扮演"},
+{"v":"category/threesome-foursome","n":"多人运动"},
+{"v":"category/cheating-wife","n":"出轨的妻子"},
+{"v":"category/relatives","n":"亲戚"},
+{"v":"category/school-uniform","n":"校服"},
+{"v":"category/older-sister","n":"姐姐"},
+
+{"v":"category/picking-up-girls","n":"接女孩"},
+
+
+{"v":"category/teen","n":"青少年"},
+
+{"v":"category/fc2-ppv","n":"FC2PPV"},
+{"v":"category/office-lady","n":"办公室"},
+{"v":"category/schoolgirl","n":"女生"},
+{"v":"category/school-girls","n":"女学生"},
+
+{"v":"category/college-girl","n":"女大学生"},
+{"v":"category/cosplay","n":"角色扮演"},
+
+{"v":"category/gal","n":"女孩"},
+
+{"v":"category/female-teacher","n":"女教师"},
+{"v":"category/massage-parlor","n":"按摩院"},
+{"v":"ccategory/stepfamily","n":"继父"},
+{"v":"category/nurse","n":"护士"},
+{"v":"category/kimono","n":"和服"},
+{"v":"category/maid","n":"女仆"},
+{"v":"category/school-swimsuits","n":"学校泳装"},
+{"v":"category/gym-clothes","n":"运动服"},
+{"v":"category/school","n":"学校"},
+{"v":"category/stewardess","n":"空姐"},
+{"v":"category/female-doctor","n":"女医生"},
+{"v":"category/adopted-daughter","n":"养女"},
+{"v":"category/foreign-imports","n":"国外进口"},
+{"v":"category/caucasian-actress","n":"白种人"},
+{"v":"category/female-college-student","n":"女大学生"},
+{"v":"category/princess-mademoiselle","n":"公主与小姐"},
+{"v":"category/secretary","n":"秘书"},
+{"v":"category/huge-tits","n":"巨乳"},
+{"v":"category/love","n":"爱"},
+{"v":"category/employeecoworker","n":"同事"},
+{"v":"category/virgin","n":"处女"},
+{"v":"category/petite","n":"年轻女孩"},
+{"v":"category/actress-best-compilation","n":"最佳女演员"},
+{"v":"category/swimsuits","n":"泳衣"},
+{"v":"category/quickie","n":"快手"},
+{"v":"category/outdoor","n":"野外露出"}
+]
+},
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":""},
+{"n":"人气","v":"/hot"}
+]
+}
+]
+
+}
+
+}

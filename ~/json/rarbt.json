@@ -1,0 +1,14 @@
+{
+"主页url": "https://www.rarbt.fun/",
+"副标题": "pic-text text-right\">&&</b>",
+"搜索模式": "1",
+"搜索url": "https://www.rarbt.fun/vod/search.html?wd={wd}",
+"图片": "data-original=\"&&\"",
+"线路数组":"myui-vodlist__thumb&&</a>",
+"嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
+"影片类型": "<div class=\"module-info-tag\">&&立即播放",
+"导演": "导演：&&</div>",
+"主演": "主演：&&</div>",
+"分类": "电影$movie#电视剧$Series#动漫$cartoon#综艺$variety",
+"分类url": "https://www.rarbt.fun/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/lang/{lang}/letter/{letter}/year/{year}.html"
+}

@@ -1,0 +1,9 @@
+{
+    "简介": "【东辰影视】提醒您请勿相信影片中的广告，以免上当受骗！加qq群750762317防迷失！",
+    "二次截取": "1&&-1+module-item-cover",
+    "数组": "module-item-pic&&module-item-cover",
+    "副标题": "module-item-text*>&&<",
+    "搜索url": "/vodsearch/{wd}-------------.html",
+    "分类": "抖剧$1#快剧$2#都市$3#穿越$26#逆袭$25#虐恋$27#重生$28#其他$32",
+    "分类url": "https://duanju.one/vodshow/{cateId}--{by}---{letter}---{catePg}---.html"
+}

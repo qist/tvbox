@@ -1,0 +1,13 @@
+{
+"規則名":"酷雲七七",
+"規則作者":"老王叔叔",
+"規則日期":"113.12.04",
+"简介": "小林子为您剧情介绍:+video-info-itemvideo-info-contentvod_content\">&&</div>",
+"数组": "<a&&module-item-cover",
+"图片": "src=\"&&\"",
+"标题": "alt=\"&&\">",
+"副标题": "module-item-text\">&&</div>",
+"播放数组": "module-blocklistscroll-boxscroll-box-y\">&&</div>",
+"分类url": "https://sc1080.top/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+"分类": "短剧$21#电视剧$2#电影$1#动漫$4#综艺$3"
+}

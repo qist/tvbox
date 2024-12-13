@@ -1,0 +1,21 @@
+{
+"規則名": "電影先生",
+"規則作者": "老王叔叔",
+"規則日期": "113.11.29",
+"请求头": "User-Agent$MOBILE_UA",
+"编码": "UTF-8",
+"主页url": "https://silidm.com/",
+"数组": "class=\"module-item-cover\"&&</div>",
+"标题": "title=\"&&\"",
+"图片": "data-original=\"&&\"",
+"链接": "href=\"&&\"",
+"播放数组": "class=\"play-source-content&&</div>",
+"播放列表": "<a&&a>",
+"播放链接": "href=\"&&\"",
+"播放标题": ">&&</",
+"线路数组": "class=\"play-source-tab\"&&div>",
+"线路标题": ">&&</",
+"跳转播放链接": "var player_*\"url\":\"&&\"",
+"分类url": "https://silidm.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+"分类": "电影$dianying#剧集$juji#动漫$dongman#综艺$zongyi"
+}

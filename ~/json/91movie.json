@@ -1,0 +1,13 @@
+{
+"请求头": "User-Agent$MOBILE_UA",
+"编码": "gb2312",
+"主页url": "http://m.aogetu.com/",
+"播放数组": "plau-ul-list&&</ul>",
+"播放列表": "<a&&a>",
+"播放链接": "href='&&'",
+"播放标题": "_blank\">&&<",
+"嗅探词": "index.m3u8?",
+"分类url": "http://m.aogetu.com/{cateId}/{class}/index{catePg}.html[http://m.aogetu.com/{cateId}/{class}/]",
+"分类": "电影$dianying#电视剧$dianshiju#综艺娱乐$zongyiyule#动漫$dongmandonghua",
+"剧情": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#纪录片$jilupian#动画$dhdy||国产剧$guochanju#欧美剧$oumeiju#香港剧$hongkongju#韩国剧$hanguoju#台湾剧$taiwanju#日本剧$ribengju#泰国剧$taiguoju#海外剧$haiwaiju#微短剧$duanju||大陆综艺$daluzongyi#香港综艺$hongkongzongyi#台湾综艺$taiwanzongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi#其他综艺$qitazongy||日本动漫$ribendongman#国产动漫$guochandonghua#欧美动漫$oumeidongman#韩国动漫$hanguodongman#其他动漫$qitadongman"
+}

@@ -1,0 +1,11 @@
+  {
+"站名": "白嫖电影网",
+"作者": "天天开心",
+"分类url": "https://dy.gduan.com/index.php/vod/detail/{area}/by/{by}/id/{cateId}/lang/{lang}/page/{catePg}.html[https://dy.gduan.com/index.php/vod/detail/id/{cateId}.html]",
+"分类": "电影&剧集&动漫&综艺",
+"分类值": "1&2&4&3",
+
+"简介": ">&&</p>",
+"排序": "时间$time#人气$hits#评分$score",
+"主页url": "https://dy.gduan.com/"
+}  

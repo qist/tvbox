@@ -1,0 +1,126 @@
+{
+   "title": "疯狗影院",
+    "author": "",
+    "UserAgent":"MOBILE_UA",
+    "Referer":"",
+    "PicNeedProxy":"0",
+    "homeContent":"0",
+    "firstpage": "0",
+    "class_url": "https://m.fenggoudy3.com/list-select-id-{cateId}-type--area--year--star--state--order-addtime-p-{catePg}.html",
+    "class_name": "电影&电视剧&动漫&综艺",
+    "class_value": "1&2&3&4",
+    "filterdata":{},
+    "cat_YN_twice": "0",
+    "cat_twice_pre": "空",
+    "cat_twice_suf": "空",
+    "cat_arr_pre": "class=\"image",
+    "cat_arr_suf": "</p>",
+    "cat_pic": "data-original=\"&&\"",
+    "cat_title": "alt=\"&&\"",
+    "cat_subtitle": "class=\"continu\">&&</span>",
+    "cat_url": "href=\"&&\"",
+    "cat_prefix": "https://m.fenggoudy3.com",
+    "cat_suffix": "",
+    "search_url": "https://m.fenggoudy3.com/index.php?s=vod-search-name?mid=1&wd={wd}",
+    //POST搜索body，填写搜索关键字的键值，一般常见的是searchword和wd，不是POST搜索的可留空或删除。
+    //"sea_PtBody":"wd={wd}&search=",
+    //搜索模式,0为json搜索，只支持列表在list数组里的，其它为网页截取。
+    "search_mode": "1",
+    
+    //"jsonlist": "list",
+    //搜索json片单图片
+    //"jsonpic": "pic",
+    //搜索json片单标题
+    //"jsonname": "name",
+    //搜索json片单链接
+    //"jsonid": "id",
+    //json片单副标题，这个很少有，预留着
+    //"jsonstitle":"",
+    
+    //搜索是否二次截取  
+    "sea_YN_twice": "0",
+    //搜索二次截取前
+    "sea_twice_pre": "空",
+    //搜索二次截取后
+    "sea_twice_suf": "空",
+    
+    //搜索数组前缀
+    "sea_arr_pre": "class=\"image",
+    //搜索数组后缀
+    "sea_arr_suf": "</p>",
+    //搜索片单图片，截取前缀&&amp;截取后缀
+    "sea_pic": "data-original=\"&&\"",
+    //搜索片单标题，截取前缀&&amp;截取后缀
+    "sea_title": "alt=\"&&\"",
+    //搜索片单链接，截取前缀&&amp;截取后缀
+    "sea_url": "href=\"&&\"",
+    //搜索片单链接补前缀
+    "search_prefix": "https://m.fenggoudy3.com",
+    //搜索片单链接补后缀，这个一般json搜索的需要
+    "search_suffix": "",
+    //搜索副标题，截取前缀&&amp;截取后缀
+    "sea_subtitle": "",
+    //片单链接是否直接播放，0否，1分类片单链接直接播放，2详情选集链接直接播放。
+    //设置成直接播放后，后面3个参数请注意该留空的请务必留空。
+    "force_play": "0",
+    //直接播放链接补前缀
+    "play_prefix": "",
+    //直接播放链接补后缀，设置为#isVideo=true#可强制识别为视频链接
+    "play_suffix": "#isVideo=true#",
+    //直接播放链接设置请求头，只对直链视频有效，每一组用#分开
+    "play_header": "",
+    
+    //演员数据，截取前缀&&amp;截取后缀
+    "proj_actor": "主演：</dt>&&</a>",
+    //简介内容，截取前缀&&amp;截取后缀
+    "proj_plot": "<div class=\"tab-pane fade vod-nav-content active in\">&&</div>",
+    
+    //线路截取区域，如果不需要请把tab_title或tab_arr_pre置空或者全部不要填。
+    //线路是否二次截取
+    "tab_YN_twice": "1",
+    //线路二次截取前
+    "tab_twice_pre": "class=\"page-header",
+    //线路二次截取后
+    "tab_twice_suf": "class=\"container ff-bg\">",
+     //线路截取数组前
+    "tab_arr_pre": "<h2>",
+    //线路截取数组后
+    "tab_arr_suf": "/h2>",
+    //线路标题，截取前缀&&amp;截取后缀
+    "tab_title": "</span>&&<",
+    //列表是否二次截取
+    "list_YN_twice": "0",
+    //列表二次截取前
+    "list_twice_pre": "空",
+    //列表二次截取后
+    "list_twice_suf": "空",
+    //列表数组截取前，必须
+    "list_arr_pre": "<ul class=\"list-unstyled row text-center ff-playurl-line ff-playurl",
+    //列表数组截取后，必须
+    "list_arr_suf": "</ul>",
+    //集数是否二次截取
+    "epi_YN_twice": "0",
+    //集数二次截取前
+    "epi_twice_pre": "空",
+    //集数二次截取后
+    "epi_twice_suf": "空",
+    //集数数组截取前，必须
+    "epi_arr_pre": "<a",
+    //集数数组截取后，必须
+    "epi_arr_suf": "/a>",
+    //集数标题，截取前缀&&amp;截取后缀
+    "epi_title": ">&&<",
+    //集数链接，截取前缀&&amp;截取后缀
+    "epi_url": "href=\"&&\"",
+    //集数链接补前缀
+    "epiurl_prefix": "https://m.fenggoudy3.com",
+    //集数链接补后缀
+    "epiurl_suffix": "",
+    "Anal_MacPlayer":"1",
+    //是否开启手动嗅探，只对网页嗅探有效，0否，1是
+    "ManualSniffer":"1",
+    //手动嗅探视频链接关键字，每个用#隔开
+    "VideoFormat":".mp4#.m3u8#.flv",
+    //手动嗅探视频链接过滤关键词,每个用#隔开
+    "VideoFilter":".html#=http"
+}

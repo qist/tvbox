@@ -1,0 +1,69 @@
+{
+  "author": "张弘20220731",
+  "name": "瓜皮TV",
+  "url": "https://guapitv.xyz",
+  "tihuan": "cnzz.com",
+  "User": "空",
+  "shouye": "1",
+
+  "fenlei": "奈飞电影$/vodshow/1--time-Netflix-----#奈飞电视剧$/vodshow/2--time-Netflix-----#奈飞动漫$/vodshow/4--time-Netflix-----#电影$/vodshow/1--time------#电视剧$/vodshow/2--time------#综艺$/vodshow/3--time------#动漫$/vodshow/4--time------#少儿$/vodshow/20--time------#记录片$/vodshow/21--time------#国产电视剧$/vodshow/2-内地-time------#香港电视剧$/vodshow/2-香港-time------#台湾电视剧$/vodshow/2-台湾-time------#日本电视剧$/vodshow/2-日本-time------#韩国电视剧$/vodshow/2-韩国-time------#新加坡电视剧$/vodshow/2-新加坡-time------#美国电视剧$/vodshow/2-美国-time------#英国电视剧$/vodshow/2-英国-time------#泰国电视剧$/vodshow/2-泰国-time------#其他电视剧$/vodshow/2-其他-time------#国产电影$/vodshow/1-大陆-time------#香港电影$/vodshow/1-香港-time------#台湾电影$/vodshow/1-台湾-time------#美国电影$/vodshow/1-美国-time------#日本电影$/vodshow/1-日本-time------#韩国电影$/vodshow/1-韩国-time------#英国电影$/vodshow/1-英国-time------#法国电影$/vodshow/1-法国-time------#德国电影$/vodshow/1-德国-time------#印度电影$/vodshow/1-印度-time------#泰国电影$/vodshow/1-泰国-time------#加拿大电影$/vodshow/1-加拿大-time------#意大利电影$/vodshow/1-意大利-time------#西班牙电影$/vodshow/1-西班牙-time------#古装电视剧$/vodshow/2--time-古装-----#战争电视剧$/vodshow/2--time-战争-----#青春偶像电视剧$/vodshow/2--time-青春偶像-----#喜剧电视剧$/vodshow/2--time-喜剧-----#家庭电视剧$/vodshow/2--time-家庭-----#犯罪电视剧$/vodshow/2--time-犯罪-----#动作电视剧$/vodshow/2--time-动作-----#奇幻电视剧$/vodshow/2--time-奇幻-----#剧情电视剧$/vodshow/2--time-剧情-----#历史电视剧$/vodshow/2--time-历史-----#经典电视剧$/vodshow/2--time-经典-----#乡村电视剧$/vodshow/2--time-乡村-----#情景电视剧$/vodshow/2--time-情景-----#商战电视剧$/vodshow/2--time-商战-----#网落电视剧$/vodshow/2--time-网剧-----#其他电视剧$/vodshow/2--time-其他-----#喜剧影片$/vodshow/1--time-喜剧-----#爱情影片$/vodshow/1--time-爱情-----#恐怖影片$/vodshow/1--time-恐怖-----#动作影片$/vodshow/1--time-动作-----#科幻影片$/vodshow/1--time-科幻-----#剧情影片$/vodshow/1--time-剧情-----#战争影片$/vodshow/1--time-战争-----#警匪影片$/vodshow/1--time-警匪-----#犯罪影片$/vodshow/1--time-犯罪-----#动画影片$/vodshow/1--time-动画-----#奇幻影片$/vodshow/1--time-奇幻-----#武侠影片$/vodshow/1--time-武侠-----#冒险影片$/vodshow/1--time-冒险-----#枪战影片$/vodshow/1--time-枪战-----#悬疑影片$/vodshow/1--time-悬疑-----#惊悚影片$/vodshow/1--time-惊悚-----#经典影片$/vodshow/1--time-经典-----#青春影片$/vodshow/1--time-青春-----#文艺影片$/vodshow/1--time-文艺-----#微电影$/vodshow/1--time-微电影-----#古装影片$/vodshow/1--time-古装-----#历史影片$/vodshow/1--time-历史-----#运动影片$/vodshow/1--time-运动-----#农村影片$/vodshow/1--time-农村-----#儿童影片$/vodshow/1--time-儿童-----#网络电影$/vodshow/1--time-网络电影-----#$/vodshow/1--time------#国产动漫$/vodshow/4-国产-time------#日本动漫$/vodshow/4-日本-time------#欧美动漫$/vodshow/4-欧美-time------",
+  "houzhui": "---.html", //网站翻页链接的后缀
+
+  "shifouercijiequ": "1", //截取的列表数组是否需要二次截取，0不需要，1需要
+  "jiequqian": "class=\"module-items", //不需要二次截取就填空
+  //"jiequhou": "<div id=\"page", //不需要二次截取就填空
+  "jiequhou": "class=\"fixedGroup", //不需要二次截取就填空
+  "jiequshuzuqian": "<a", //截取的列表数组的前关键词,截取的关键词有 " 的用 \ 进行转义
+  "jiequshuzuhou": "alt=\"", //截取的列表数组的后关键词,截取的关键词有 " 的用 \ 进行转义
+  "tupianqian": "data-original=\"", //列表中资源的图片前关键词,截取的关键词有 " 的用 \ 进行转义
+  "tupianhou": "\"", //列表中资源的图片后关键词,截取的关键词有 " 的用 \ 进行转义
+  "biaotiqian": "title=\"", //列表中资源的标题前关键词,截取的关键词有 " 的用 \ 进行转义
+  "biaotihou": "\"", //列表中资源的标题后关键词,截取的关键词有 " 的用 \ 进行转义
+  "lianjieqian": "href=\"", //列表中资源的详情页跳转链接前关键词,截取的关键词有 " 的用 \ 进行转义
+  "lianjiehou": "\"", //列表中资源的详情页跳转链接后关键词,截取的关键词有 " 的用 \ 进行转义
+
+  //搜索部分基本不用动，现在网站基本都是苹果CMS，所有搜索是固定的。
+  "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+  "sousuohou": "&limit=500",
+  "sousuohouzhui": "/index.php/vod/detail/id/", //搜索页影片跳转详情页的中间标识链接部分
+  "ssmoshi": "0",
+  "sousuoshifouercijiequ": "0",
+  "jspic": "pic",
+  "jsname": "name",
+  "jsid": "id",
+  "ssjiequqian": "空",
+  "ssjiequhou": "空",
+  "ssjiequshuzuqian": "空",
+  "ssjiequshuzuhou": "空",
+  "sstupianqian": "空",
+  "sstupianhou": "空",
+  "ssbiaotiqian": "空",
+  "ssbiaotihou": "空",
+  "sslianjieqian": "空",
+  "sslianjiehou": "空",
+
+  "bfshifouercijiequ": "0",
+  "bfjiequqian": "空",
+  "bfjiequhou": "空",
+  "bfjiequshuzuqian": "<div class=\"module-play-list-content", //播放截取的列表数组的前关键词
+  "bfjiequshuzuhou": "</div>", //播放截取的列表数组的后关键词
+
+  "zhuangtaiqian": "更新：</span>", //状态前关键词
+  "zhuangtaihou": "</div>", //状态后关键词
+  "daoyanqian": "导演：</span>", //导演前关键词
+  "daoyanhou": "</div>", //导演态后关键词
+  "zhuyanqian": "主演：</span>", //主演前关键词
+  "zhuyanhou": "</div>", //主演后关键词
+  "juqingqian": "introduction-content\"><p>", //剧情前关键词
+  "juqinghou": "</p>", //剧情后关键词
+
+  "bfyshifouercijiequ": "0", //截取的播放列表数组是否需要二次截取，0不需要，1需要
+  "bfyjiequqian": "空", //不需要二次截取就填空
+  "bfyjiequhou": "空", //不需要二次截取就填空
+  "bfyjiequshuzuqian": "<a", //播放剧集数组前关键词
+  "bfyjiequshuzuhou": "/a>", //播放剧集数组后关键词
+  "bfbiaotiqian": "span>", //播放剧集标题前关键词
+  "bfbiaotihou": "</span", //状播放剧集标题后关键词
+  "bflianjieqian": "href=\"", //播放剧集链接前关键词
+  "bflianjiehou": "\""
+} //播放剧集链接后关键词

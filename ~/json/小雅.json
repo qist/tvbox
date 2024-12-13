@@ -1,0 +1,118 @@
+{
+  "vodPic": "https://s1.ax1x.com/2023/05/04/p9tgI81.png",
+"drives": [
+			
+		
+
+  {
+			"name": "🤱小雅1",
+			"server":"http://60.205.200.121:5344/"
+		},
+  	{
+			"name": "🎆小雅2",
+			"server": "http://61.134.67.189:5678/"
+		},
+   		
+		
+		{
+			"name": "💢ECVE网盘",
+			"server": "https://pan.ecve.cn"
+		},
+		{
+			"name": "🔰雨呢",
+			"server": "https://pan.clun.top"
+		},
+{
+      "name": "🐳星梦",
+      "server": "https://pan.bashroot.top"
+    },
+
+{
+			"name": "🍇小新",
+			"server": "https://pan.cdnxin.top/"
+		},
+{
+			"name": "🐜蚂蚁",
+			"server": "https://pan.mediy.cn"
+		},
+{
+			"name": "🔋挺好",
+			"server": "https://pan.ztha.top"
+		},
+
+
+				{"name": "♻️七米藍", "server": "https://al.chirmyram.com/"}, 
+{
+"name": "⚖托盘",
+"server": "https://pan.mediy.cn/"
+},
+
+    {
+      "name": "💰神族九帝",
+      "server": "https://alist.shenzjd.com"
+    },
+
+
+ {
+			"name": "🌺蚂蚁高清网盘",
+			"server": "http://36.140.110.103:10021/"
+		},
+      
+      
+	
+
+		/*{
+			"name": "奇心网盘",
+			"server": "https://pan.qxnav.com"
+		},
+		{
+			"name": "皓星繁天",
+			"server": "https://pan.hxft.xyz"
+		},
+		{
+			"name": "奇异网盘",
+			"server": "https://alist.qyide.com"
+		},
+		{
+			"name": "azad",
+			"server": "https://alist.azad.asia"
+		},
+		{
+			"name": "资源站",
+			"server": "https://apps.weixinqqq.com"
+		},
+		{
+			"name": "一只魚",
+			"server": "https://vtok.pp.ua"
+		},
+		{
+			"name": "七米藍",
+			"server": "https://al.chirmyram.com"
+		},
+		{
+			"name": "9T",
+			"server": "https://drive.9t.ee"
+		},
+		{
+			"name": "神族九帝",
+			"server": "https://alist.shenzjd.com"
+		},
+		{
+			"name": "梓澪",
+			"server": "https://zi0.cc"
+		},*/
+		{
+			"name": "",
+			"server": "https://one.fongmi.com",
+			"hidden": true,
+			"login": {
+				"username": "fongmi",
+				"password": "fongmi"
+			},
+			"params": [{
+				"path": "/安齋拉拉",
+				"pass": "18181818"
+			}]
+		}
+	]
+}

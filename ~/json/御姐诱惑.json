@@ -1,0 +1,113 @@
+{
+   //永久地址发布页https://cqg.5tdn.com/310/
+    "规则名": "御姐诱惑-XYQHiker",
+    "规则作者": "飞鱼",
+    "请求头参数":"PC_UA",
+    "网页编码格式":"UTF-8",
+    "图片是否需要代理":"0",
+    "是否开启获取首页数据":"1",
+	 //首页推荐数据获取链接
+    "首页推荐链接": "https://gbyool.yjyh5.makeup/label/new.html",
+    //首页推荐列表数组截取。
+    "首页列表数组规则": "#new_cover",
+    //首页推荐片单列表数组定位。
+    "首页片单列表数组规则": ".col-style",
+    //首页推荐片单信息jsoup与正则截取写法切换，只作用于html网页，1为jsoup写法(默认)，0为正则截取写法
+    "首页片单是否Jsoup写法":"1",
+    //下面这六个首页数据如果不填将调用分类那截取的配置（片单写法需一致且取值也得一致）。
+    //首页片单标题
+    "首页片单标题": ".title&&Text",
+    //首页推荐片单链接
+    "首页片单链接": "a&&href! /",
+    //首页推荐片单图片，支持自定义图片链接
+    "首页片单图片": ".lazyLoad&&style",
+    //首页推荐片单副标题
+    "首页片单副标题":"'👁️'+li,0&&Text+'👍'+li,1&&Text",
+    //首页推荐片单链接补前缀  
+    "首页片单链接加前缀": "https://gbyool.yjyh5.makeup/",
+    //首页推荐片单链接补后缀
+    "首页片单链接加后缀": "",
+    "分类起始页码": "1",
+    //"分类链接": "https://www.l0l.tv/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+	"分类链接": "https://gbyool.yjyh5.makeup/{cateId}{catePg}.html",
+    "分类名称": "最新&排行榜&全部视频分类",
+    "分类名称替换词": "label/new/page/&label/hot_day/page/&/vodtype/20-",
+    //"筛选数据":{},
+    "分类截取模式": "1",
+    "分类列表数组规则": "#new_cover&&.col-style",
+    "分类片单是否Jsoup写法":"1",
+    "分类片单标题": ".title&&Text",
+    "分类片单链接": "a&&href! /",//替换规则
+    "分类片单图片": ".lazyLoad&&style",
+    "分类片单副标题":"'👁️'+li,0&&Text+'👍'+li,1&&Text",
+    "分类片单链接加前缀": "https://gbyool.yjyh5.makeup/",
+    "分类片单链接加后缀": "",
+    "搜索请求头参数":"User-Agent$PC_UA",
+    "搜索链接": "https://nohzjk.yjyh5.makeup/s/index.html?wd={wd}",
+    "POST请求数据":"0",
+    "搜索截取模式": "1",
+    "搜索列表数组规则": "#new_cover&&.col-style",
+    "搜索片单是否Jsoup写法":"1",
+    "搜索片单图片": ".lazyLoad&&style",
+    "搜索片单标题": ".title&&Text",
+    "搜索片单链接": "a&&href! /",
+    "搜索片单副标题":"'👁️'li,0&&Text+'👍'+li,1&&Text",
+    "搜索片单链接加前缀": "https://gbyool.yjyh5.makeup/",
+    "搜索片单链接加后缀": "",
+       //--------
+         "链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+//-------
+    "详情是否Jsoup写法":"0",
+    "类型详情": ".text-muted&&a&&Text",
+    "年代详情": "",
+    "地区详情": "",
+    "演员详情": "</a>：&&</p>",
+    "简介详情": "概要：</span>&&</p>",
+    "线路列表数组规则": ".stui-pannel__head&&h3",
+    "线路标题": ".title&&Text",
+    "播放列表数组规则": ".stui-content__playlist",
+    "选集列表数组规则": "li",
+    "选集标题链接是否Jsoup写法":"1",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "https://gbyool.yjyh5.makeup",
+    "选集链接加后缀": "",
+    "分析MacPlayer":"0",
+    "是否开启手动嗅探":"1",
+    "手动嗅探视频链接关键词":"m3u8#.m3u8",
+    "手动嗅探视频链接过滤词":".html#=http",
+	
+	"筛选数据":{
+"/vodtype/20-":[
+  {"key":"cateId","name":"分类","value":[
+
+{"v":"/vodtype/20-","n":"国产精品"},
+{"v":"/vodtype/21-","n":"精品三级"},
+{"v":"/vodtype/22-","n":"主播大秀"},
+{"v":"/vodtype/23-","n":"抖阴视频"},
+{"v":"/vodtype/24-","n":"女神学生"},
+{"v":"/vodtype/25-","n":"美熟少妇"},
+{"v":"/vodtype/26-","n":"娇妻素人"},
+{"v":"/vodtype/27-","n":"空姐模特"},
+{"v":"/vodtype/28-","n":"国产乱伦"},
+{"v":"/vodtype/29-","n":"自慰群交"},
+{"v":"/vodtype/30-","n":"野合车震"},
+{"v":"/vodtype/31-","n":"职场同事"},
+{"v":"/vodtype/32-","n":"国产名人"}
+]
+}],
+"label/hot_day/page/":[
+  {"key":"cateId","name":"分类","value":[
+
+{"v":"label/hot_day/page/","n":"日榜"},
+{"v":"label/hot_week/page/","n":"周榜"},
+{"v":"label/hot_month/page/","n":"月榜"},
+{"v":"label/hot/page/","n":"总榜"}]}]
+
+
+}
+}

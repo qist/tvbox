@@ -1,0 +1,75 @@
+{
+"规则名": "肉视频xyqh",
+"规则作者": "飞鱼",
+"请求头参数": "PC_UA",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://rouv99.xyz/t/%E6%8E%A2%E8%8A%B1?order=viewCount&page=1",
+"首页列表数组规则": "body&&.max-w-screen-2xl",
+"首页片单列表数组规则": ".shadow",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "img&&alt",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&src",
+"首页片单副标题": ".absolute&&Text",
+"首页片单链接加前缀": "https://rouv99.xyz",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://rouv99.xyz/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://rouv99.xyz/{cateId}?order={by}&page={catePg}",
+"分类名称": "国产AV&自拍流出&探花&全部视频&",
+"分类名称替换词": "t/國產AV&t/自拍流出&t/探花&v&",
+"分类截取模式": "1",
+"分类列表数组规则": "body&&.grid&&.shadow",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "img&&alt",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&src",
+"分类片单副标题": ".absolute&&Text",
+"分类片单链接加前缀": "https://rouv99.xyz",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "https://rouv99.xyz/search?q={wd}&t=",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": "body&&.grid&&.shadow",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&src",
+"搜索片单标题": "img&&alt",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": ".absolute&&Text",
+"搜索片单链接加前缀": "https://rouv99.xyz",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+"筛选数据":{
+"t/國產AV":[
+  {"key":"by","name":"排序","value":[
+  {"n":"时间","v":"createdAt"},
+  {"n":"观看","v":"viewCount"},
+  {"n":"点赞","v":"likeCount"}]}],
+"t/自拍流出":[
+  {"key":"by","name":"排序","value":[
+  {"n":"时间","v":"createdAt"},
+  {"n":"观看","v":"viewCount"},
+  {"n":"点赞","v":"likeCount"}]}],
+"t/探花":[
+  {"key":"by","name":"排序","value":[
+  {"n":"时间","v":"createdAt"},
+  {"n":"观看","v":"viewCount"},
+  {"n":"点赞","v":"likeCount"}]}],
+"v":[
+  {"key":"by","name":"排序","value":[
+  {"n":"时间","v":"createdAt"},
+  {"n":"观看","v":"viewCount"},
+  {"n":"点赞","v":"likeCount"}]}]},
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com"
+}

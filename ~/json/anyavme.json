@@ -1,0 +1,213 @@
+//地址发布页https://www.go173.art/
+{
+"规则名": "anyav.me-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "PC_UA",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://www.anyav.me",
+"首页列表数组规则": ".Thumbnail_List",
+"首页片单列表数组规则": ".thumi",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": "h3&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&src",
+"首页片单副标题": ".added&&Text",
+"首页片单链接加前缀": "",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodtype/{cateId}-{catePg}/",
+"分类链接": "https://www.anyav.me/{cateId}/page/{catePg}/?order={by}",
+"分类名称": "三级剧情&亚洲AV&亚洲无码&亚洲有码&中文字幕&欧美AV&自拍短片&更多分类&",
+"分类名称替换词": "category/adult-movie&category/亞洲av影片&tag/亞洲無碼&tag/亞洲有碼&tag/中文字幕&category/歐美av影片&category/self-videos&channel/美少女&",
+"分类截取模式": "1",
+"分类列表数组规则": ".Thumbnail_List&&.thumi",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": "h3&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&src",
+"分类片单副标题": ".added&&Text",
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$PC_UA",
+"搜索链接": "https://www.anyav.me/index.php/ajax/suggest?mid=1&wd={wd}",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".td-main-content-wrap&&.tdb_module_loop",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "span&&data-bg",
+"搜索片单标题": "a&&title",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": "",
+"搜索片单链接加前缀": "",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": "baidu.com",
+
+
+"筛选数据":{
+"category/adult-movie":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+],
+"category/亞洲av影片":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+],
+"tag/亞洲無碼":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+],
+"tag/亞洲有碼":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+],
+"tag/中文字幕":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+],
+"category/歐美av影片":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+],
+"category/self-videos":[
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+],
+
+
+"channel/美少女":[
+{
+"key":"cateId",
+"name":"分类",
+"value":[
+{"v":"channel/美少女","n":"美少女"},
+{"v":"channel/school-girl","n":"女学生"},
+{"v":"channel/美臀","n":"美臀"},
+{"v":"channel/美腿","n":"美腿"},
+{"v":"channel/舔阴","n":"舔阴"},
+{"v":"channel/韓國主播","n":"韩国主播"},
+{"v":"channel/歐美","n":"欧美"},
+{"v":"channel/步兵无码","n":"步兵无码"},
+{"v":"channel/classic-adult-movie","n":"港台韩日经典三级电影"},
+
+{"v":"channel/激情","n":"激情"},
+
+
+{"v":"channel/潮吹","n":"潮吹"},
+
+{"v":"channel/tokyo-hot","n":"东京热"},
+{"v":"channel/teacher","n":"女教师"},
+{"v":"channel/voyeur","n":"偷拍"},
+
+
+{"v":"channel/中出","n":"中出"},
+{"v":"channel/口交","n":"口交"},
+{"v":"channel/后入","n":"后入"},
+{"v":"channel/女上位","n":"女上位"},
+
+{"v":"channel/10musume","n":"天然素人"},
+{"v":"channel/1000giri","n":"1000人斩"},
+{"v":"channel/1pondo","n":"一本道"},
+{"v":"channel/amateur","n":"素人"},
+{"v":"channel/caribbeancom","n":"加勒比"},
+{"v":"channel/3p","n":"乱交"},
+{"v":"channel/anal","n":"二穴"},
+{"v":"channel/ass","n":"巨尻"},
+{"v":"channel/bondage-sm","n":"SM束縛"},
+{"v":"channel/busty","n":"巨乳"},
+{"v":"channel/hd","n":"HD"},
+{"v":"channel/heyzo","n":"HEYZO"},
+{"v":"channel/incest-family","n":"近亲相姦"},
+{"v":"channel/javhd","n":"JAVHD"},
+{"v":"channel/kin8tengoku","n":"金8天国"},
+{"v":"channel/legs-pantyhose","n":"美腿丝袜"},
+{"v":"channel/lesbian","n":"女同"},
+{"v":"channel/massage","n":"按摩"},
+{"v":"channel/milf-wife","n":"熟女人妻"},
+{"v":"channel/nurse","n":"护士"},
+{"v":"channel/ol","n":"OL"},
+{"v":"channel/public","n":"野外露出"}
+]
+},
+{
+"key":"by",
+"name":"时间",
+"value":[
+{"n":"最新","v":"newest"},
+{"n":"人气","v":"views"},
+{"n":"点赞","v":"rate"},
+{"n":"最多评论","v":"discussed"}
+]
+}
+]
+
+}
+
+}

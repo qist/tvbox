@@ -1,0 +1,21 @@
+{
+"規則名": "速影TV",
+"規則作者": "老王叔叔",
+"規則日期": "113.12.11",
+"防走丢": "https://xn--tv-ks3d939o.com/",
+"分类url": "https://xn--94qq85au3qyvbe13c.com/movie-list-id-{cateId}-pg-{catePg}-order-desc-by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html;;x",
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+"类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#纪录片$20#伦理片$22||国产剧$12#韩国剧$17#欧美剧$15#日本剧$16#香港剧$18#台湾剧$19#海外剧$21||空||空",
+"简介": "detail-sketch\">&&</span>",
+"数组": "thumb\"&&</a>",
+"图片": "url('&&')",
+"标题": "title=\"&&\"",
+"链接": "href=\"&&\"",
+"副标题": "right\">&&</span>",
+"线路数组": "class=\"playtitle\"&&span>",
+"线路标题": "</i>&&</[不包含:BD云]",
+"播放数组": "playlist column10 clearfix&&</ul>",
+"播放列表": "<a&&a>",
+"播放链接": "href='&&'",
+"播放标题": "self\">&&</"
+  }

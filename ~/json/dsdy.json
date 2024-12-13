@@ -1,0 +1,19 @@
+{
+    "作者": "圥忈",
+    "站名": "电影大师",
+    "主页url": "https://dyds.lol/index.php/vod/type/id/1.html",
+    "导演": "导演：&&</a>",
+    "主演": "主演：&&</a>",
+    "影片状态": "状态：&&</p>",
+    "影片类型": "类型：&&</p>",
+    "搜索模式": "1",
+    "搜索url": "https://dyds.lol/index.php/vod/search.html?wd={wd}",
+    "搜索数组": "col-md-6 col-sm-4 col-xs-3\">&&</li>",
+    "搜索标题": "title=\"&&\"",
+    "搜索副标题": "<b>&&</b>",
+    "搜索图片": "data-original=\"&&\"",
+    "搜索链接": "href=\"&&\"",
+    "线路标题": "tab\">&&</a>[替换:</span><small>>>共]",
+    "分类url": "https://dyds.lol/index.php/vod/type/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+    "分类": "电影$1#电视剧$3#动漫$4#综艺$23#纪录片$2#伦理$21"
+}

@@ -1,0 +1,17 @@
+{
+  "站名": "蘑菇",
+  "主页url": "https://www.moguys.work/",
+  "请求头": "电脑",
+  "简介": "class=\"video-info-item video-info-content vod_content&&</span",
+  "影片状态": "集数：&&</div>",
+  "影片类型": "scroll-content\">&&立即播放",
+  "播放数组": "class=\"scroll-content\">&&</div>",
+  "线路数组": "class=\"module-tab-item tab-item&&</div>",
+  "数组": "module-item-pic\">&&module-item\">",
+  "搜索模式": "1",
+  "副标题": "module-item-text\">&&</div>",
+  "搜索url": "https://www.moguys.work/vodsearch/{wd}-------------.html",
+  "线路标题": "<span>&&</small>[替换:</span><small>>>更新至]+集",
+  "分类url": "https://www.movie4k.vip/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;mk",
+  "分类": "电影$1#国剧$13#韩剧$14#美剧$15#泰剧$24#台剧$20#港剧$16#综艺$4#动漫$3"
+}

@@ -1,0 +1,13 @@
+{
+"規則名":"金漫TV",
+"規則作者":"老王叔叔",
+"規則日期":"113.12.04",
+"影片年代": "<div class=\"module-info-tag\">&&</div>",
+"影片状态": "备注：&&</div>",
+"影片类型": "module-info-tag\">&&立即播放",
+"简介": "请勿相信影片中的广告，以免上当受骗。+style=\"line-height: 20px;\"&&</div>",
+"线路数组": "data-dropdown-value=&&</div>[不包含:芒果(超多弹幕)#腾讯(超多弹幕)#优酷(超多弹幕)#爱奇艺(超多弹幕)]",
+"线路标题": "<span>&&</span>",
+"分类url": "https://www.jinman6.com/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+"分类": "电影$1#电视剧$2#动漫$3#综艺$4#纪录片$5#短剧$25"
+}

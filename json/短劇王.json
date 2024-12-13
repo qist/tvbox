@@ -1,0 +1,23 @@
+{
+"規則名":"短劇王",
+"規則作者":"老王叔叔",
+"規則日期":"113.12.04",
+"请求头": "User-Agent$MOBILE_UA",
+"编码": "UTF-8",
+"主页url": "https://www.duanjuwang.cc/",
+"数组": "class=\"stui-vodlist__box\">&&</a>",
+"标题": "title=\"&&\"",
+"图片": "data-original=\"&&\"",
+"副标题": "right\">&&</span>",
+"链接": "href=\"&&\"",
+"播放数组": "playlist clearfix&&</ul>",
+"播放列表": "<a&&a>",
+"播放链接": "href=\"&&\"",
+"播放标题": ">&&</",
+"线路数组": "<h3&&h3>",
+"线路标题": "\">&&</",
+"跳转播放链接": "var player_*\"url\":\"&&\"",
+"分类url": "https://www.duanjuwang.cc/vodshow/{cateId}-{area}-{by}--{lang}-{letter}---{catePg}---{year}.html",
+"分类": "短剧$duanju#电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi",
+"类型": "有声动漫$ysdm#女频恋爱$npla#反转爽剧$fzsj#古装仙侠$gzxx#年代穿越$ndcy#脑洞悬疑$ndxy#现代都市$xdds||动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#纪录片$jilupian#战争片$zhanzhengpian#动画片$donghuapian||国产剧$guochanju#欧美剧$oumeiju#韩剧$hanju#日剧$riju#港剧$gangju#台剧$taiju#泰剧$taiju2#海外剧$haiwaiju||国产动漫$guochandongman#日韩动漫$rihandongman#欧美动漫$oumeidongman#港台动漫$gangtaidongman#海外动漫$haiwaidongman||演唱会$yanchanghui#大陆综艺$daluzongyi#日韩综艺$rihanzongyi#港台综艺$gangtaizongyi#欧美综艺$oumeizongyi"
+  }

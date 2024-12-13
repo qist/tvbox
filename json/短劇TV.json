@@ -1,0 +1,13 @@
+{
+"規則名":"短剧tv",
+"規則作者":"老王叔叔",
+"規則日期":"113.12.04",
+"简介"   : "醉卧东风祝您观影愉快" ,
+"搜索url": "http://www.duanjutv.cc/vodsearch/{wd}----------{pg}---.html",
+"线路标题" : "<h3*>&&</h3>"   ,
+"线路数组" : "\"more text-muted pull-right\">&&</ul>" ,
+"播放数组" : "\"more text-muted pull-right\">&&</ul>" ,
+"播放链接" : "http+://www.duanjutv.cc+href='&&'"  ,
+"分类url": "http://www.duanjutv.cc/vodtype/{cateId}-{catePg}.html;;m"   ,
+"分类"   : "抖音短剧$20#快手短剧$21#视频号短剧$22#热播短剧$23"
+}

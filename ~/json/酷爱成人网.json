@@ -1,0 +1,85 @@
+{
+//回家地址 → https://www.coolinet.net/数字改
+//https://www.230304.xyz
+"规则名": "苹果AV-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "https://www.230304.xyz",
+"首页列表数组规则": "#content",
+"首页片单列表数组规则": ".videoPost:not(:has(script)):not(:contains(播放器))",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": ".videoLink&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&src",
+"首页片单副标题": "'❤️'+.heartLink&&Text+'👁️'+.thumbViews&&Text",
+"首页片单链接加前缀": "",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+"分类链接": "https://www.230304.xyz{cateId}/page/{catePg}/{by}",
+"分类名称": "最新[不能播放开VPN]&亞洲自拍偷拍&歐美自拍偷拍&中文字幕&直播&亞洲AV&歐美AV",
+"分类名称替换词": "&/category/亞洲自拍偷拍&/category/eu-us-self&/category/chinese-subtitle&/category/直播&/category/asia-video&/category/eu-us-movie",
+"分类截取模式": "1",
+"分类列表数组规则": "#content&&.videoPost:not(:has(script)):not(:contains(播放器))",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": ".videoLink&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&src",
+"分类片单副标题": "'❤️'+.heartLink&&Text+'👁️'+.thumbViews&&Text",
+
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$手机",
+"搜索链接": "https://www.230304.xyz/?s=wd}",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": "#content&&.videoPost:not(:has(script)):not(:contains(播放器))",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&src",
+"搜索片单标题": ".videoLink&&Text",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": "'❤️'+.heartLink&&Text+'👁️'+.thumbViews&&Text",
+"搜索片单链接加前缀": "",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "1",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+ "详情是否Jsoup写法":"0",
+    "类型详情": "<p>類型：&&</p>",
+    "年代详情": "<p>更新：&&</p>",
+    "地区详情": "",
+    "演员详情": "",
+    "简介详情": "",
+    "线路列表数组规则": ".play-btn-group&&.line",
+    "线路标题": "'📽️'+a&&Text+'📺'",
+    "播放列表数组规则": ".line",
+    "选集列表数组规则": "a",
+    "选集标题链接是否Jsoup写法":"1",
+    "选集标题": "a&&Text",
+    "选集链接": "a&&href",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "https://www.coolinet.net",
+    "选集链接加后缀": "",
+   
+"筛选数据":{
+"":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"?sortby=post_views_count","n":"最多观看"},
+  {"v":"?sortby=votes_count","n":"喜欢🥰"}
+]}
+]
+
+
+},
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "1",
+"手动嗅探视频链接关键词": ".m3u8",
+"手动嗅探视频链接过滤词": ".mp4#baidu.com#afcdn.net"
+}

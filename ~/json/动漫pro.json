@@ -1,0 +1,240 @@
+{
+//
+//回家地址 → https://cartoonporn.pro/数字改
+//https://cartoonporn.pro/
+"规则名": "动漫pro-XYQHiker",
+"规则作者": "飞鱼",
+"请求头参数": "手机",
+"网页编码格式": "UTF-8",
+"图片是否需要代理": "0",
+"是否开启获取首页数据": "0",
+"首页推荐链接": "https://cartoonporn.pro",
+"首页列表数组规则": ".list-videos",
+"首页片单列表数组规则": ".item",
+"首页片单是否Jsoup写法": "1",
+"首页片单标题": ".title&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": "img&&data-original",
+"首页片单副标题": "'⏱️'+.duration&&Text+'👁️'+.views&&Text",
+"首页片单链接加前缀": "",
+"首页片单链接加后缀": "",
+"分类起始页码": "1",
+//"分类链接": "https://hscangku.com/vodshow/{cateId}-{catePg}/",
+"分类链接": "https://cartoonporn.pro/zh/{cateId}/?sort_by=post_date&from={catePg}",
+"分类名称": "最新&🔥热门🔥&流行&全部分类",
+"分类名称替换词": "latest-updates&top-rated&most-popular&categories/3d",
+"分类截取模式": "1",
+"分类列表数组规则": ".list-videos&&.item",
+"分类片单是否Jsoup写法": "1",
+"分类片单标题": ".title&&Text",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&data-original",
+"分类片单副标题": "'⏱️'+.duration&&Text+'👁️'+.views&&Text",
+
+"分类片单链接加前缀": "",
+"分类片单链接加后缀": "",
+"搜索请求头参数": "User-Agent$手机",
+"搜索链接": "https://cartoonporn.pro/zh/search/{wd}/",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": ".list-videos&&.item",
+"搜索片单是否Jsoup写法": "1",
+"搜索片单图片": "img&&data-original",
+"搜索片单标题": ".title&&Text",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": "'⏱️'+.duration&&Text+'👁️'+.views&&Text",
+"搜索片单链接加前缀": "",
+"搜索片单链接加后缀": "",
+"链接是否直接播放": "0",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+ "详情是否Jsoup写法":"1",
+    "类型详情": ".video_categories&&Text",
+    "年代详情": ".tab_video_info&&span,2&&Text",
+    "地区详情": "",
+    "演员详情": ".tab_video_info&&.item,2&&Text",
+    "简介详情": ".tab_video_info&&.item,1&&Text",
+    "线路列表数组规则": ".video-holder&&.player",
+    "线路标题": "'📽️'+'在线播放'+'📺'",
+    "播放列表数组规则": ".video-holder&&.player",
+    "选集列表数组规则": ".player",
+    "选集标题链接是否Jsoup写法":"0",
+    "选集标题": "video_categories: '&&',",
+    "选集链接": "video_url: '&&',",
+    "是否反转选集序列": "0",
+    "选集链接加前缀": "",
+    "选集链接加后缀": "",
+   
+"筛选数据":{
+"categories/3d":[
+  {"key":"cateId",
+  "name":"分类",
+  "value":[
+{"v":"categories/3d","n":"3D"}, 
+{"v":"categories/big-tits","n":"大奶"}, 
+{"v":"categories/big-cock","n":"大公雞"}, 
+{"v":"categories/teen","n":"青少年"}, 
+{"v":"categories/anime","n":"日本動畫片"}, 
+{"v":"categories/blowjob","n":"吹簫"}, 
+{"v":"categories/anal","n":"肛門"}, 
+{"v":"categories/doggystyle","n":"狗的風格"}, 
+{"v":"categories/creampie","n":"餅"}, 
+{"v":"categories/games","n":"遊戲"}, 
+{"v":"categories/hardcore","n":"鐵桿"}, 
+{"v":"categories/uncensored","n":"未經審查"}, 
+{"v":"categories/futanari","n":"雙成"}, 
+{"v":"categories/young","n":"年輕"}, 
+{"v":"categories/cumshot","n":"射精"}, 
+{"v":"categories/orgasm","n":"性高潮"}, 
+{"v":"categories/cowgirl","n":"女牛仔"}, 
+{"v":"categories/cum","n":"暨"}, 
+{"v":"categories/monster","n":"怪物"}, 
+{"v":"categories/pov","n":"視點"}, 
+{"v":"categories/compilations","n":"合輯"}, 
+{"v":"categories/rough","n":"粗糙的"}, 
+{"v":"categories/deepthroat","n":"深喉嚨"}, 
+{"v":"categories/rape","n":"強姦"}, 
+{"v":"categories/big-ass","n":"大屁股"}, 
+{"v":"categories/furry","n":"毛茸茸的"}, 
+{"v":"categories/handjob","n":"打手槍"}, 
+{"v":"categories/horse","n":"馬"}, 
+{"v":"categories/double-penetration","n":"雙滲透"}, 
+{"v":"categories/milf","n":"摩洛伊斯蘭解放陣線"}, 
+{"v":"categories/lesbian","n":"女同性戀"}, 
+{"v":"categories/beastiality","n":"獸性"}, 
+{"v":"categories/sfm","n":"可持續森林管理"}, 
+{"v":"categories/incest","n":"亂倫"}, 
+{"v":"categories/cunnilingus","n":"舔陰"}, 
+{"v":"categories/ahegao","n":"阿賀高"}, 
+{"v":"categories/gangbang","n":"乱交"}, 
+{"v":"categories/masturbation","n":"手淫"}, 
+{"v":"categories/schoolgirl","n":"女学生"}, 
+{"v":"categories/tentacle","n":"觸手"}, 
+{"v":"categories/cum-inflation","n":"暨通貨膨脹"}, 
+{"v":"categories/disney","n":"迪士尼"}, 
+{"v":"categories/mom","n":"媽媽"}, 
+{"v":"categories/bdsm","n":"性虐待"}, 
+{"v":"categories/interracial","n":"異族"}, 
+{"v":"categories/bondage","n":"束縛"}, 
+{"v":"categories/elf","n":"精靈"}, 
+{"v":"categories/squirting","n":"噴出"}, 
+{"v":"categories/gay","n":"同性戀"}, 
+{"v":"categories/footjob","n":"腳交"}, 
+{"v":"categories/dark-skin","n":"暗黑皮膚"}, 
+{"v":"categories/cosplay","n":"角色扮演"}, 
+{"v":"categories/femdom","n":"調教"}, 
+{"v":"categories/dragon","n":"龍"}, 
+{"v":"categories/pregnant","n":"孕"}, 
+{"v":"categories/giantess","n":"女巨人"}, 
+{"v":"categories/trap","n":"陷阱"}, 
+{"v":"categories/yuri","n":"尤里"}, 
+{"v":"categories/vore","n":"沃爾"}, 
+{"v":"categories/yaoi","n":"八井"}, 
+{"v":"categories/zombie","n":"殭屍"}, 
+{"v":"categories/harem","n":"后宮"}, 
+{"v":"categories/comics","n":"漫畫"}, 
+{"v":"categories/mind-control","n":"精神控制"}, 
+{"v":"categories/belly-inflation","n":"肚脹"}, 
+{"v":"categories/lactation","n":"哺乳期"}, 
+{"v":"categories/netorare","n":"內托雷"}, 
+{"v":"categories/breast-expansion","n":"豐胸"}, 
+{"v":"categories/vanilla","n":"香草"}, 
+{"v":"categories/vr","n":"虛擬現實"}, 
+{"v":"categories/reverse-rape","n":"反強姦"}]},
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/2":[
+  {"key":"cateId",
+  "name":"分类",
+  "value":[
+{"v":"/vodshow/2","n":"全部"},
+{"v":"/vodshow/13","n":"日本无码"},
+{"v":"/vodshow/14","n":"中文字幕"},
+{"v":"/vodshow/15","n":"日韩有码"},
+{"v":"/vodshow/16","n":"AV解说"}]},
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/21":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/3":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/4":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/5":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/20":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+],
+"/vodshow/22":[
+{"key":"by",
+  "name":"排序",
+  "value":[
+  {"v":"","n":"最新"},
+  {"v":"hits","n":"热门"},
+  {"v":"up","n":"点赞"},
+  {"v":"score","n":"评分"}
+]}
+]
+
+
+},
+
+"分析MacPlayer": "0",
+"是否开启手动嗅探": "0",
+"手动嗅探视频链接关键词": ".mp4#.m3u8",
+"手动嗅探视频链接过滤词": "baidu.com"
+}

@@ -1,0 +1,22 @@
+{
+"規則名": "片庫網",
+"規則作者": "老王叔叔",
+"規則日期": "113.11.29",
+"请求头": "User-Agent$MOBILE_UA",
+"编码": "UTF-8",
+"主页url": "https://piankuww.com/",
+"数组": "lazyload\"&&</li>",
+"链接": "href=\"&&\"",
+"图片": "data-original=\"&&\"",
+"标题": "title=\"&&\"",
+"副标题": "text-right\">&&</span>",
+"播放数组": "class=\"ewave-content__playlist clearfix&&</ul>",
+"播放列表": "<a&&a>",
+"播放链接": "href=\"&&\"",
+"播放标题": ">&&</",
+"线路数组": "href=\"\\#playlist&&</li>",
+"线路标题": ">&&</",
+"跳转播放链接": "var player_*\"url\":\"&&\"",
+"分类url": "https://piankuww.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/",
+"分类": "电影$y#电视剧$dsj#综艺$zy#动漫$dm#短剧$dj"
+}

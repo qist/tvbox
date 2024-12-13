@@ -1,0 +1,10 @@
+{
+  "drives": [
+    {
+      "name": "alist.jar",
+      "search": true,
+      "searchable": true,
+      "server": "http://192.168.101.13:5244"
+    }
+  ]
+}

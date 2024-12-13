@@ -1,0 +1,116 @@
+{
+ 
+"作者": "乐哥/240905/",
+  
+"站名": "freeOK追剧",
+    
+"请求头": "User-Agent$MOBILE_UA",
+
+"编码": "UTF-8",
+
+"图片代理": "0",
+
+"直接播放": "0",
+
+"播放请求头": "",
+
+"嗅探词": "",
+
+"过滤词": "",
+
+"主页url": "https://www.jsard.com",
+
+"首页": "120",
+
+"起始页": "1",
+
+ "分类url": "https://www.jsard.com/vodshow/{cateId}/area/{area}/class/{class}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html;;mrcd0",
+
+// "分类url": "/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/page/{catePg}/year/{year}.html;;mrc",
+
+// "分类二次截取": "mod_category_item&&</ul>",
+
+// "分类数组": "<a&&/a>",
+
+// "分类标题": ">&&<",
+
+// "分类ID": "categories/&&/",
+
+"分类": "电影$ dianying#电视剧$ dsj#综艺$ zongyi#动漫$ dongman#热门短剧$ remenduanju#体育赛事$ tiyusaishi",
+
+"二次截取": "",
+
+"数组": "<a&&</div></div></a>",
+
+"标题": "title=\"&&\"",
+
+"图片": "data-original=\"&&\"",
+
+"副标题": "✨+item-note\">&&</div>",
+
+"链接": "href=\"&&\"",
+
+"导演": "导演：&&</div>",
+
+"主演": "主演：&&</div>",
+
+"简介": "✨指间的黑客为您介绍剧情✨+<p>&&</p>",
+
+//"多线二次截取": "active col-flex wrap\">&&</ul>",
+
+//"多线数组": "<a&&a>",
+
+//"多线链接":"href=\"&&\"",
+
+//"线路二次截取": "active col-flex wrap\">&&</ul>",
+
+"线路数组": "data-dropdown&&</div>",
+
+"线路标题": "✨乐哥推荐✨+>&&</span>+【共+<small>&&</+集】",
+
+"播放二次截取": "",
+
+"播放数组": "module-play-list-content&&</div>",
+
+"倒序": "0",
+
+"播放列表": "<a&&/a>",
+
+"播放标题": "✨+<span>&&<",
+
+"播放链接":"href=\"&&\"",
+
+"解析": "",
+
+"跳转播放链接":"Base64(var player_*url\":\"&&\")",
+
+"跳转解析": "",
+
+"搜索请求头": "User-Agent$MOBILE_UA",
+
+"搜索url": "https://www.jsard.com/vodsearch{wd1}/page/{pg}.html",
+
+"搜索后缀": "",
+
+"搜索二次截取": "",
+
+"搜索数组": "<a&&</div></div></a>",
+
+"搜索1标题": "title=\"&&\"",
+
+"搜索图片": "data-original=\"&&\"",
+
+"搜索副标题": "✨+item-note\">&&</div>",
+
+"搜索链接": "href=\"&&\"",
+
+"筛选": "1",
+
+"类型": "喜剧片$xijupian#动作片$dongzuopian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#悬疑片$xuanyipian#犯罪片$fanzuipian#冒险片$maoxianpian#动画片$donghuapian#惊悚片$jingsongpian#奇幻片$qihuanpian#纪录片$jilupian||国产剧$guochanju#欧美剧$oumeiju#日剧$riju#韩剧$hanju#港剧$gangju#台剧$taiju#泰剧$taiju#海外剧$haiwaiju#爽文短剧$shuangwenduanju||空||国产动漫$ guochandongman#日韩动漫$ rihandongman#欧美动漫$ oumeidongman#港台动漫$ gangtaidongman#海外动漫$ haiwaidongman||空||篮球$ lanqiu#足球$ zuqiu",
+   
+    "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
+    "字母值": "*",
+    "排序": "时间&人气&评分",
+    "排序值": "time&hits&score"
+
+}

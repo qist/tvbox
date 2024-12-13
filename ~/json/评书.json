@@ -1,0 +1,22 @@
+{
+"主页url": "https://www.psmp3.com",
+"数组二次截取": "<ul id=\"post_list_box\">&&</ul",
+"数组": "<li class=\"www_psmp3_com post_list_li\">&&</div>",
+"图片": "https://bkimg.cdn.bcebos.com/pic/86d6277f9e2f07084e3cb402ee24b899a901f2f3",
+"标题": "title=\"&&\"",
+"副标题": ">&&</a",
+"链接": "href=\"&&\"",
+"播放二次截取": "autoplay&&;</script>",
+"播放数组": "\\[&&\\]",
+"播放列表": "{&&}",
+"播放链接": "url*\"&&\"",
+"播放标题": "name*\"&&\"",
+"播放副标题": "artist*\"&&\"",
+"线路数组": "评书随身听",
+"线路标题": "评书随身听",
+"导演": "小米",
+"主演": "评书明星",
+"简介": "评书合集",
+"分类url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
+"分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
+}

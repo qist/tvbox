@@ -5,6 +5,7 @@
 "请求头": "User-Agent$MOBILE_UA",
 "编码": "UTF-8",
 "主页url": "https://m.yncmfs.com/",
+"搜索url": "https://m.yncmfs.com/vssysc/{wd}-------------.html",
 "数组": "class=\"module-item-pic\"&&</div>",
 "链接": "href=\"&&\"",
 "图片": "data-src=\"&&\"",

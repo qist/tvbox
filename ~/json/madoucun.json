@@ -1,0 +1,75 @@
+// 分类 ++
+// 修复所有分类的第一个 detail内容为空
+{
+  "name": "madoucun",
+  //"url": "https://madoucun.vip/",
+  "url": "https://madoucun.cc",
+  "tihuan": "dd520.cc",
+  "User": "空",
+  "shouye": "1",
+
+  //"fenlei": "电视剧$/show/2-#电影$/show/1-#综艺$/show/3-#动漫$/show/4-#动作片$/show/1---动作-----#喜剧片$/show/1---喜剧-----#爱情片$/show/1---爱情-----#科幻片$/show/1---科幻-----#奇幻片$/show/1---奇幻-----#恐怖片$/show/1---恐怖-----#剧情片$/show/1---剧情-----#战争片$/show/1---战争-----#冒险片$/show/1---冒险-----#国产剧$/show/2-中国大陆-------#台剧$/show/2-中国台湾-------#港剧$/show/2-中国香港-------#韩剧$/show/2-韩国-------#日剧$/show/2-日本-------#美剧$/show/2-美国-------#英剧$/show/2-英国-------",
+  "fenlei": "麻豆传媒$/vodtype/6-#皇家华人$/vodtype/7-#玩偶姐姐$/vodtype/8-#蜜桃传媒$/vodtype/9-#星空传媒$/vodtype/10-#兔子先生$/vodtype/11-#精东影业$/vodtype/12-#天美传媒$/vodtype/20-#杏吧原创$/vodtype/21-#PsychoPorn$/vodtype/22-#成人头条$/vodtype/23-#91制片厂$/vodtype/24-#糖心Vlog$/vodtype/25-#mini传媒$/vodtype/26-#乐播传媒$/vodtype/27-#大象传媒$/vodtype/28-#乌鸦传媒$/vodtype/29-#鲸鱼传媒$/vodtype/30-#葫芦影业$/vodtype/31-#深夜保健室$/vodtype/32-#巨乳[中字]$/vodtype/14-#乱伦[中字]$/vodtype/15-#出轨[中字]$/vodtype/16-#人妻[中字]$/vodtype/34-#强奸[中字]$/vodtype/35-#名优馆有码$/vodtype/13-#制服[中字]$/vodtype/36-#名优馆无码$/vodtype/66-#名优馆中字$/vodtype/67-#调教[中字]$/vodtype/37-#AV激情解说$/vodtype/38-#AI明星换脸$/vodtype/63-#VR有码$/vodtype/68-#VR无码$/vodtype/69-#国产-抖阴视频$/vodtype/42-#精品视频$/vodtype/43-#女神学生$/vodtype/44-#主播大秀$/vodtype/49-#空姐模特$/vodtype/50-#美熟少妇$/vodtype/51-#网曝门事件$/vodtype/53-#国产三级$/vodtype/71-#欧美精选$/vodtype/64-",
+  "houzhui": ".html",
+
+  "shifouercijiequ": "0",
+  "jiequqian": "空",
+  "jiequhou": "空",
+  "jiequshuzuqian": "class=\"hl-list-item",
+  "jiequshuzuhou": "</li>",
+  "tupianqian": "data-original=\"",
+  "tupianhou": "\"",
+  "biaotiqian": "title=\"",
+  "biaotihou": "\"",
+  "lianjieqian": "href=\"",
+  "lianjiehou": "\"",
+
+  //新版Biubiu参数：副标题 (不需要的话，就不填写或者删除副标题2个字段也可以。)
+  "fubiaotiqian": "",
+  "fubiaotihou": "",
+
+
+  "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+  "sousuohou": "&limit=500",
+  "sousuohouzhui": "/voddetail/",
+  "ssmoshi": "0",
+  "sousuoshifouercijiequ": "0",
+  "jspic": "pic",
+  "jsname": "name",
+  "jsid": "id",
+  "ssjiequqian": "空",
+  "ssjiequhou": "空",
+  "ssjiequshuzuqian": "空",
+  "ssjiequshuzuhou": "空",
+  "sstupianqian": "空",
+  "sstupianhou": "空",
+  "ssbiaotiqian": "空",
+  "ssbiaotihou": "空",
+  "sslianjieqian": "空",
+  "sslianjiehou": "空",
+
+  "bfshifouercijiequ": "0",
+  "bfjiequqian": "空",
+  "bfjiequhou": "空",
+  "bfjiequshuzuqian": "hl-plays-list hl-sort-list clearfix",
+  "bfjiequshuzuhou": "</ul>",
+
+  "zhuangtaiqian": "更新：</em>",
+  "zhuangtaihou": "</a>",
+  "daoyanqian": "导演：",
+  "daoyanhou": "</p>",
+  "zhuyanqian": "主演：",
+  "zhuyanhou": "/",
+  "juqingqian": "style=\"display: none;\">",
+  "juqinghou": "</span>",
+
+  "bfyshifouercijiequ": "0",
+  "bfyjiequqian": "空",
+  "bfyjiequhou": "空",
+  "bfyjiequshuzuqian": "<a",
+  "bfyjiequshuzuhou": "/a>",
+  "bfbiaotiqian": ">",
+  "bfbiaotihou": "<",
+  "bflianjieqian": "href=\"",
+  "bflianjiehou": "\""
+}

@@ -7,6 +7,7 @@
     "影片类型": "module-info-tag\">&&立即播放",
     "线路数组": "data-dropdown-value=&&</div>",
     "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+    "搜索url": "https://www.jagcys.com/vodsearch{wd}.html",  
     "分类url": "https://www.jagcys.com/vodshow/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
     "分类": "电影$dianying#电视剧$dsj#动漫$dongman#综艺$zongyi#体育赛事$tiyusaishi"
 }

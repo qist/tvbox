@@ -18,6 +18,7 @@
     "线路标题": ">&&</",
     "跳转播放链接": "var player_*\"url\":\"&&\"",
     "主页url": "https://www.taijuo.com/",
+    "搜索url": "https://www.taijuo.com/vso/-------------.html?wd={wd}",  
     "分类url": "https://www.taijuo.com/list/{cateId}-{catePg}.html",
     "分类": "泰剧$taiju#短剧$duanju#电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi",
     "类型": "空||有声动漫$youshengdongman#女频恋爱$nvpinlianai#反转爽剧$fanzhuanshuangju#脑洞悬疑电影$naodongxuanyi#年代穿越$niandaichuanyue#古装仙侠神域$guzhuangxianxia#现代都市$xiandaidushi||动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian||国产剧$guochanju#香港剧$gangtaiju#韩国剧$rihanju#欧美剧$oumeiju#台湾剧$taiwanju#日本剧$ribenju||动漫电影$dongmandianying#国产动漫$guochandm#日韩动漫$rihandm#欧美动漫$oumeidm#港台动漫$gangtaidm#海外动漫$haiwaidm||内地综艺$neidizongyi#港台综艺$gangtaizongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi"

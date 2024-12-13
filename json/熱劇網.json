@@ -11,6 +11,7 @@
     "图片": "data-original=\"&&\"",
     "副标题": "right\">&&</span>",
     "链接": "href=\"&&\"",
+    "搜索url": "https://www.edelholz.cn/vodsearch/-------------.html?wd={wd}&submit=",  
     "播放数组": "list sort-list&&</ul>",
     "播放列表": "<a&&a>",
     "播放链接": "href=\"&&\"",

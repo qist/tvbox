@@ -7,6 +7,7 @@
     "影片类型": "module-info-tag\">&&立即播放",
     "线路数组": "data-dropdown-value=&&</div>",
     "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+    "搜索url": "https://www.freeokk.pro/search/-------------.html?wd={wd}",  
     "分类url": "https://www.freeokk.pro/show/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
     "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$5"
 }

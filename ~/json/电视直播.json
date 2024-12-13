@@ -1,0 +1,20 @@
+{
+  "作者": "菜妮丝https://cainisi.cf",
+  "站名": "电视直播",
+  "主页url": "http://www.lu1.cc/c/tv/sjtv/",
+  "分类":"电视直播$index.htm",
+  
+  "分类url":"http://www.lu1.cc/c/tv/sjtv/{cteId}",
+  
+  "数组": "<li><a&&</li>",
+  "图片":"https://cainisi.cf/暂无封面.jpg",
+  
+  "线路数组": "<ul&&</ul>",
+  "线路合并": "1",
+  
+  "播放数组": "<li>&&</li>",
+  "播放列表": "<a&&/a>",
+  "播放标题": ">&&<",
+  "播放链接": "href=\"&&\"",
+  "播放图片":"https://cainisi.cf/暂无封面.jpg"
+}

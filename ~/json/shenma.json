@@ -1,0 +1,19 @@
+{
+    "作者": "圥忈",
+    "站名": "神马影视",
+    "主页url": "https://www.sshenma.com/",
+    "导演": "导演：&&</li>",
+    "主演": "主演：&&</li>",
+    "影片状态": "状态：&&</li>",
+    "影片类型": "类型：&&</div>",
+    "搜索模式": "1",
+    "搜索url": "https://www.sshenma.com/vod/search.html?wd={wd}",
+    "搜索数组": "hl-item-div\">&&</li>",
+    "搜索标题": "title=\"&&\"",
+    "搜索副标题": "hl-lc-1 remarks\">&&</a>",
+    "搜索图片": "data-original=\"&&\"",
+    "搜索链接": "href=\"&&\"",
+    "线路标题": "hl-from-snm3u8 hl-lc-1\">&&</span>",
+    "分类url": "https://www.sshenma.com/vodshow/-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+    "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman"
+}

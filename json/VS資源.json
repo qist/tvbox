@@ -5,6 +5,7 @@
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
     "主页url": "https://www.nxgqmy.com/",
+    "搜索url": "https://www.nxgqmy.com/ybsisc/-------------.html?wd={wd}&submit=",  
     "数组": "lazyload\"&&</a>",
     "标题": "title=\"&&\"",
     "图片": "data-original=\"&&\"",
