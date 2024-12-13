@@ -857,7 +857,6 @@
 //{"name":"RobYang 安博| 台際　(人多會慢)","type":0,"url":"http://RobYang.serv00.net/ublive.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒1| 台港中日韓", "note original":"https://tv.anbox118.workers.dev/live", "type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒2| 際歐美","type":0,"url":"http://anbox118.zya.me/sapphire.m3u.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
-//{"name":"streamLink| 台港中日韓際","type":0,"url":"https://www.stream-link.org/stream-link.m3u","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"美國| 際","type":0,"url":"https://raw.githubusercontent.com/shawn82/fm/main/lib/us.m3u8","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name": "PIXMAN| 中台港 ",  "type": 0,  "url": "https://tv.850930.xyz/pix.m3u",  "ua": "okhttp/3.15",  "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",  "logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name": "香蕉哥| 雜中台港日韓際","type": 0,"url": "https://tv.iill.top/m3u/Gather","ua": "okhttp/4.12.0","timeout": 5,"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -868,17 +867,19 @@
 {"name": "456寶貝| 雜中台港","type": 0,"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/zwc456baby/iptv_alive/master/live.txt","ua": "okhttp/4.12.0","timeout": 5,"pass": true,"epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name": "寶盒| 際","type": 0,"url": "https://epg.pw/test_channels.m3u","ua": "okhttp/3.8.1","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ＫＸ| 中台港","type":0,"url":"http://kxrj.site:55/lib/kx2024.txt","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
-//{"name":"OFI| 台影 (下很慢)","note":"m3u","type":0,"url":"https://dingyue.mytvsuper.xyz/oufei/ofiii_ch.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 
 {"name": "🏘️RobYang總鏈接備 http://RobYang.rr.nu",  "type": 0,  "url": "http://RobYang.rr.nu"  },
 
 // {"name": "18+ 香蕉哥","type": 0,"url": "https://tv.iill.top/m3u/Adult","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name": "18+ 日本","type": 0,"url": "https://files.catbox.moe/2r4ru2.txt"},
-{"name": "小武哥(18+)",  "playerType": 2,  "url": "https://qu.ax/PEHy.txt"},
-{"name": "秘密花園",  "url": "https://18.svi-studio.com/get.php?username=875994180836&password=930699661147&type=m3u_plus&output=m3u8"},
+{"name": "18+ 小武哥",  "playerType": 2,  "url": "https://qu.ax/PEHy.txt"},
+{"name": "18+ 秘密花園",  "url": "https://18.svi-studio.com/get.php?username=875994180836&password=930699661147&type=m3u_plus&output=m3u8"},
 
 {"name": "------------以下可能已經失效-------------","type": 0,"url": "https://rb.gy/vryc96"},
 {"name":"smt| 台港中日韓際","type":0,"url":"https://raw.githubusercontent.com/sqspot/tac/main/smt.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+//{"name":"OFI| 台影 (下很慢)","note":"m3u","type":0,"url":"https://dingyue.mytvsuper.xyz/oufei/ofiii_ch.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
+//{"name":"streamLink| 台港中日韓際","type":0,"url":"https://www.stream-link.org/stream-link.m3u","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+
 
 {"name": "------------以下爲測試直播-------------","type": 0,"url": "https://www1.RobYang.us.kg/VodLive/lb8ffa"},
 // {"group": "redirect","channels": [ {  "name": "redirect",  "urls": [  "proxy://do=live&type=live&proxy=&url="  ] }]},
