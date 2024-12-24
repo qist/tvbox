@@ -5,6 +5,8 @@ on:
   schedule:
     # 每天北京时间9点跑
     - cron:  '30 * * * *'
+  workflow_dispatch: # on button click
+
 jobs:
   build:
     runs-on: ubuntu-latest
