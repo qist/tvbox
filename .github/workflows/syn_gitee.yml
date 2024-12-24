@@ -1,0 +1,28 @@
+name: Gitee repos mirror periodic job
+on:
+# 如果需要PR触发把push前的#去掉
+# push:
+  schedule:
+    # 每天北京时间9点跑
+    - cron:  '30 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Mirror the Github organization repos to Gitee.
+      uses: Yikun/gitee-mirror-action@v1.4
+      with:
+        # 必选，需要同步的Github用户（源）
+        src: suhw1999/tvbox
+        # 必选，需要同步到的Gitee的用户（目的）
+        dst: suhw1999/tvbox
+        # 必选，Gitee公钥对应的私钥，https://gitee.com/profile/sshkeys
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        # 必选，Gitee对应的用于创建仓库的token，https://gitee.com/profile/personal_access_tokens
+        dst_token:  ${{ secrets.GITEE_TOKEN }}
+        # 如果是组织，指定组织即可，默认为用户user
+        # account_type: org
+        # 还有黑、白名单，静态名单机制，可以用于更新某些指定库
+        # static_list: repo_name
+        # black_list: 'repo_name,repo_name2'
+        # white_list: 'repo_name,repo_name2'
