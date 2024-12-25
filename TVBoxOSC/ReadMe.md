@@ -10,7 +10,7 @@
    2. DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4
    3. DDNS: https://dnsexit.com/users/dns/dyn/
    4. redirect in https://dnsexit.com 
-      1. by alias.redirect.name in CNAME 
+      1. by alias.redirect.name in CNAME (https://dnsexit.com/Direct.sv?cmd=userDnsTXT&actioncode=13)
       2. and txt in _redirect.robyang.rr.nu "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa"
 8. http://RobYang.AsSexyAs.com
    1.  from sitelutions
@@ -99,9 +99,6 @@ https://www.awardspace.com
 8. go to https://dnsexit.com and forward url to the new site (7 days trial)
    1. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
    2. https://dnsexit.com/UrlForward.sv?action=show&domainname=robyang.rr.nu
-   3. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
-   4. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
-
 9.  create new freesaphosting account, 
    1. Add new host, like "www2.robyang.us.kg"
    2. create a database
