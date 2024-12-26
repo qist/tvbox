@@ -20,7 +20,7 @@
 //{"key":"robYang6","name":"🏘️點直播源 https://rb.gy/fkbt61","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang7","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":4,"api":"https://json.doube.eu.org/app/index.php?site=webheimuer","searchable":0,"quickSearch":0,"filterable":1,"changeable":0},
 //{"key":"robYang8","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.rr.nu","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/ys.json","jar": "./jar/custom_spiderNY.jar"}, //,"jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.us.kg","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/ys.json","jar": "./jar/custom_spiderNY.jar"}, //,"jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
 //{"key":"robYang10小宝","name":"🏘️點直播源 http://RobYang.rr.nu","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 
 
@@ -844,10 +844,10 @@
 ],
 "lives": [ 
  {
-  "name": "🏠RobYang| http://RobYang.rr.nu",
+  "name": "🏠RobYang| http://RobYang.us.kg",
   "type": 0,
-  //"url": "https://www1.RobYang.rr.nu/VodLive/lb8ffa",  
-  "url": "http://www1.RobYang.rr.nu/VodLive/lb8ffa",  
+  //"url": "https://www1.RobYang.us.kg/VodLive/lb8ffa",  
+  "url": "http://www1.RobYang.us.kg/VodLive/lb8ffa",  
   "ua": "okhttp/4.12.0",
   "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
   "timeout": 5,
@@ -868,7 +868,7 @@
 {"name": "寶盒| 際","type": 0,"url": "https://epg.pw/test_channels.m3u","ua": "okhttp/3.8.1","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"ＫＸ| 中台港","type":0,"url":"http://kxrj.site:55/lib/kx2024.txt","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 
-{"name": "🏘️RobYang總鏈接備 http://RobYang.rr.nu",  "type": 0,  "url": "http://RobYang.rr.nu"  },
+{"name": "🏘️RobYang總鏈接備 http://RobYang.us.kg",  "type": 0,  "url": "http://RobYang.us.kg"  },
 
 // {"name": "18+ 香蕉哥","type": 0,"url": "https://tv.iill.top/m3u/Adult","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name": "18+ 日本","type": 0,"url": "https://files.catbox.moe/2r4ru2.txt"},
