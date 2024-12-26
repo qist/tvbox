@@ -4,9 +4,9 @@
   //"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1731126610038/fan.txt;md5;118bca13418f13c45c5c237ac93c2f07",
   //"spider":"./jar/pg.jar",
   "note":"FROM: https://rb.gy/geje78",
-  "note2":"FROM: https://www1.RobYang.rr.nu//VodLive/jb8ffa.php",
+  "note2":"FROM: https://www1.RobYang.us.kg/VodLive/jb8ffa.php",
   "note3":"FROM: https://rb.gy/1gki0m", 
-  "note10":"Source: https://www1.RobYang.rr.nu//VodLive/sb8ffa",
+  "note10":"Source: https://www1.RobYang.us.kg/VodLive/sb8ffa",
   "logo": "https://RobYang.serv00.net/RobYang.jpg",
   //"logo": "https://RobYang.serv00.net/RobYang.jpg",
   "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
@@ -881,7 +881,7 @@
 //{"name":"streamLink| 台港中日韓際","type":0,"url":"https://www.stream-link.org/stream-link.m3u","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 
 
-{"name": "------------以下爲測試直播-------------","type": 0,"url": "https://www1.RobYang.rr.nu/VodLive/lb8ffa"},
+{"name": "------------以下爲測試直播-------------","type": 0,"url": "https://www1.RobYang.us.kg/VodLive/lb8ffa"},
 // {"group": "redirect","channels": [ {  "name": "redirect",  "urls": [  "proxy://do=live&type=live&proxy=&url="  ] }]},
 //{"name": "香蕉哥直播","url": "https://tv.iill.top/m3u/Gather","ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","pass": true,"logo": "https://epg.112114.xyz/logo/{name}.png" },
 {"name":"fmm","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.eu.org/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","logo":"https://epg.112114.eu.org/logo/{name}.png"},
