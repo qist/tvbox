@@ -101,6 +101,7 @@ V1.1.2版本以下
 
 （14）github代理地址： `https://github.moeyy.xyz https://mirror.ghproxy.com/ https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
 
+（15） 还可以使用域名: `https://qist.ugigc.ggff.net/jsm.json` cloudflare Pages 构建
 
 1. token.json格式说明：
 
