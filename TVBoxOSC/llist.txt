@@ -2,10 +2,10 @@
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
 民視新聞,https://py.doube.eu.org/tv/youtube?id=ylYJSBUgaMA
-三立iNews,http://www.youtube.com/live/pF507BLtbqU?si=zWlvXBXQIOtYIcFt
-三立News+海外,http://www.youtube.com/live/FoBfXvlOR6I?si=uWNrMfGOiTk66btU
-三立NEWS+,https://m.youtube.com/watch?v=FoBfXvlOR6
-三立新聞,http://www.youtube.com/watch?v=uZ9KecuS0RA
+三立iNews,https://www.youtube.com/watch?v=DMbw-ZT9ee4
+三立News+海外,https://www.youtube.com/watch?v=tRoNoKmWlug
+三立NEWS+,https://www.youtube.com/watch?v=MV9mI0GChwo
+三立新聞,https://www.youtube.com/watch?v=uZUpZvoMm_k
 公視新聞,http://www.youtube.com/watch?v=quwqlazU-c8
 公視新聞,http://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
 公視新聞,https://py.doube.eu.org/tv/youtube?id=quwqlazU-c8
@@ -13,7 +13,7 @@
 台視新聞,http://www.youtube.com/watch?v=xL0ch83RAK8
 台視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv051
 台視新聞,http://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
-華視新聞,http://m.youtube.com/watch?v=wM0g8EoUZ_E
+華視新聞,https://www.youtube.com/watch?v=7lxXN3zIr-I
 華視新聞,http://37.27.111.214:8080/live/8/hls.m3u8
 華視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv052
 華視新聞,http://www.youtube.com/watch?v=wM0g8EoUZ_E

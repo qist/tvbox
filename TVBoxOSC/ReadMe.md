@@ -4,6 +4,7 @@
 3. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
 4. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
 5. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake)
+   1. http://2487.us.kg
 6. net https://RobYang.runasp.net (by monsterasp.net)
 7. http://RobYang.rr.nu
    1. from https://www.sitelutions.com/Auth/urldnscc
