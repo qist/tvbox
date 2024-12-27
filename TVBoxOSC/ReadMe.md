@@ -110,7 +110,7 @@ https://www.awardspace.com
 
 
 #How to update OKTV when site gone to carry history?
-1. hold VOD file for long time on setting
+1. long click VOD field in Setting
 2. update url to the new url (label with be changed due to limited chars)
 3. refresh with sources.json and the label will updated correctly
 4. go to history and everything should stay
