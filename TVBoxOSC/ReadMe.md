@@ -97,9 +97,10 @@ https://www.awardspace.com
 5. upload to github
 6. go to the old database, and update "jb8ffa" (jsm) to the new server eg http://RobYang.rr.nu
 7. go to the old database, and update "sb8ffa" (source) to the new server eg http://RobYang.rr.nu
-8. go to https://dnsexit.com and forward url to the new site (7 days trial)
-   1. https://dnsexit.com/UrlForward.sv?action=show&domainname=2487.rr.nu
-   2. https://dnsexit.com/UrlForward.sv?action=show&domainname=robyang.rr.nu
+8. go to https://dnsexit.com
+   1. Edit TXT for robyang.rr.nu (https://dnsexit.com/Direct.sv?cmd=userDnsTXT) 
+   2. "Save Changes" on the top (important!)
+   3. Edit TXT for 2487.rr.nu -> "save changes"
 9.  create new freesaphosting account, 
    1. Add new host, like "www2.robyang.us.kg"
    2. create a database
