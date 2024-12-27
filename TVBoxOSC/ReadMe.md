@@ -92,16 +92,17 @@ https://www.awardspace.com
    1. https://dash.cloudflare.com/2546565fc3a1939a63376c253d51c06e/robyang.us.kg/rules/redirect-rules/bulk-redirects
    2. update all old url to new url
 2. update TVBoxOSC/serv00/index.php to the right new URL sources file
-3. update source.Json pointing to the new server
+3. update source.json pointing to the new server
 4. update jsm.json pointing to the new server
 5. upload to github
-6. go to the old database, and update "jb8ffa" (jsm) to the new server eg http://RobYang.rr.nu
-7. go to the old database, and update "sb8ffa" (source) to the new server eg http://RobYang.rr.nu
-8. go to https://dnsexit.com
+6. go to the old database
+   1. update "jb8ffa" (jsm) to the new server eg http://RobYang.rr.nu
+   2. update "sb8ffa" (source) to the new server eg http://RobYang.rr.nu
+7. go to https://dnsexit.com
    1. Edit TXT for robyang.rr.nu (https://dnsexit.com/Direct.sv?cmd=userDnsTXT) 
    2. "Save Changes" on the top (important!)
    3. Edit TXT for 2487.rr.nu -> "save changes"
-9.  create new freesaphosting account, 
+8.  create new freesaphosting account, 
    1. Add new host, like "www2.robyang.us.kg"
    2. create a database
    3. restore database from a *.bak file
