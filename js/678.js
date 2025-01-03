@@ -16,7 +16,7 @@ var rule = {
     lazy:$js.toString(() => {
         var html = 'http://121.16.47.93:5001/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=114.100.48.52'
         var url = request(html).match(/push\('(.*?)'/)[1]
-        url = url.replace(/https?:\/\/[\d.]+(:80)?\//, 'http://121.16.47.93:5001/');
+        // url = url.replace(/https?:\/\/[\d.]+(:80)?\//, 'http://121.16.47.93:5001/');
         input = {
             jx:0,
             url:url,
