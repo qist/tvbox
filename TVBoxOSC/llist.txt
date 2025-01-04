@@ -2,10 +2,8 @@
 民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
 民視新聞,https://py.doube.eu.org/tv/youtube?id=ylYJSBUgaMA
-三立iNews,https://www.youtube.com/watch?v=DMbw-ZT9ee4
-三立News+海外,https://www.youtube.com/watch?v=tRoNoKmWlug
 三立NEWS+,https://www.youtube.com/watch?v=MV9mI0GChwo
-三立新聞,https://www.youtube.com/watch?v=uZUpZvoMm_k
+三立新聞,https://www.youtube.com/watch?v=pF507BLtbqU
 公視新聞,http://www.youtube.com/watch?v=quwqlazU-c8
 公視新聞,http://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
 公視新聞,https://py.doube.eu.org/tv/youtube?id=quwqlazU-c8
