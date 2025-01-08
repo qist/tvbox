@@ -64,9 +64,9 @@
 
 "logo":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
 "lives":[
-{"name":"IPV4","type":0,"url":"https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u","playerType":1},
-{"name":"IPV6①","type":0,"url":"https://ghp.ci/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u","playerType":1},
-{"name":"IPV6②","type":0,"url":"https://ghp.ci/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u","playerType":1,"logo": "https://live.fanmingming.com/tv/{name}.png"},
+{"name":"IPV4","type":0,"url":"https://raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.m3u","playerType":1},
+{"name":"IPV6①","type":0,"url":"https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u","playerType":1},
+{"name":"IPV6②","type":0,"url":"https://raw.githubusercontent.com/wwb521/live/main/tv.m3u","playerType":1,"logo": "https://live.fanmingming.com/tv/{name}.png"},
 {"name":"平台直播","type":0,"url":"https://tv.iill.top/m3u/Live","ua": "okhttp/3.15","playerType":2 }
 ]
 }
