@@ -1,3 +1,10 @@
+globalThis.getHeaders= function(input){
+    let t = Math.round(new Date().getTime()/1000).toString();
+	let headers = {
+        'User-Agent': 'okhttp/4.1.0'
+	};
+	return headers
+}
 var rule = {
     title:'腾云驾雾',
     host:'https://v.%71%71.com',
@@ -20,10 +27,25 @@ var rule = {
     class_name:'精选&电视剧&电影&综艺&动漫&少儿&纪录片',
     class_url:'choice&tv&movie&variety&cartoon&child&doco',
     limit:20,
-    // play_parse:true,
-    // 手动调用解析请求json的url,此lazy不方便
-    lazy:'',
-    // lazy:'js:input="https://cache.json.icu/home/api?type=ys&uid=292796&key=fnoryABDEFJNPQV269&url="+input.split("?")[0];log(input);let html=JSON.parse(request(input));log(html);input=html.url||input',
+    play_parse:true,
+	lazy:`js:
+        try {
+            function getvideo(url) {
+                let jData = JSON.parse(request(url, {
+                    headers: getHeaders(url)
+                }));
+                return jData.url
+            }
+			let videoUrl = getvideo('http://139.224.73.238:16555/qq2.php?url=' + input);
+			input = {
+                jx: 0,
+                url: videoUrl,
+                parse: 0
+            }
+        } catch (e) {
+            log(e.toString())
+        }
+	`,
     推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     二级:`js:
@@ -162,4 +184,20 @@ var rule = {
             }            
             setResult(d);
      `, 
+    /*搜索: `js:
+		let d = [];
+		let html = request(input);
+		let json = JSON.parse(html);
+        json.data.areas[0].base_info.contents.forEach(content => {
+                const pageSnapshot = content.common_single_info.main.action.pageSnapshot;
+                let data = JSON.parse(request(pageSnapshot.url));                
+                d.push({
+                    url:  'https://node.video.qq.com/x/api/float_vinfo2?cid=' + data.base_info.cover_id,
+                    title: data.base_info.title,
+                    img: data.header.img_url_hz,
+                    desc: data.header.sub_title
+                })
+            });        
+		setResult(d);
+     `, */      
 }
