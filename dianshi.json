@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;199d292d646c6d3b0d6a2b37eb30f05b",
 "lives":[
-    {"name":"live","boot": false,"type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.ugigc.ggff.net/{name}.png"}
+    {"name":"live","boot": false,"type":0,"url":"./tv.txt","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.ugigc.us.kg/{name}.png"}
 ],
 "wallpaper":"https://qist.cc/api/api.php",
 "sites":[
