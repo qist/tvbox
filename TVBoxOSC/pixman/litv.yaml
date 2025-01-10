@@ -1,0 +1,553 @@
+4gtv-4gtv002:
+  video_type: 1
+  audio_type: 10
+  channel_name: 民視
+  tvg_id: 民視
+  group: 綜合
+4gtv-4gtv155:
+  video_type: 1
+  audio_type: 6
+  channel_name: 民視
+  tvg_id: 民視
+  group: 綜合
+4gtv-4gtv003:
+  video_type: 1
+  audio_type: 6
+  channel_name: 民視第一台
+  tvg_id: 民視第一台
+  group: 綜合
+litv-ftv13:
+  video_type: 1
+  audio_type: 6
+  channel_name: 民視新聞台
+  tvg_id: 民視新聞台
+  group: 新聞財經
+4gtv-4gtv001:
+  video_type: 1
+  audio_type: 6
+  channel_name: 民視台灣台
+  tvg_id: 民視台灣台
+  group: 綜合
+4gtv-4gtv156:
+  video_type: 1
+  audio_type: 2
+  channel_name: 民視台灣台
+  tvg_id: 民視台灣台
+  group: 綜合
+litv-ftv09:
+  video_type: 1
+  audio_type: 2
+  channel_name: 民視影劇台
+  tvg_id: 民視影劇台
+  group: 電影戲劇
+litv-ftv07:
+  video_type: 1
+  audio_type: 6
+  channel_name: 民視旅遊台
+  tvg_id: 民視旅遊台
+  group: 生活旅遊
+4gtv-4gtv004:
+  video_type: 1
+  audio_type: 8
+  channel_name: 民視綜藝台
+  tvg_id: 民視綜藝台
+  group: 音樂綜藝
+4gtv-4gtv040:
+  video_type: 1
+  audio_type: 6
+  channel_name: 中視
+  tvg_id: 中視
+  group: 綜合
+4gtv-4gtv074:
+  video_type: 1
+  audio_type: 2
+  channel_name: 中視新聞台
+  tvg_id: 中視新聞台
+  group: 新聞財經
+4gtv-4gtv080:
+  video_type: 1
+  audio_type: 2
+  channel_name: 中視經典台
+  tvg_id: 中視經典台
+  group: 電影戲劇
+4gtv-4gtv064:
+  video_type: 1
+  audio_type: 8
+  channel_name: 中視菁采台
+  tvg_id: 中視菁采台
+  group: 綜合
+4gtv-4gtv009:
+  video_type: 2
+  audio_type: 7
+  channel_name: 中天新聞台
+  tvg_id: 中天新聞台
+  group: 新聞財經
+4gtv-4gtv109:
+  video_type: 1
+  audio_type: 6
+  channel_name: 中天亞洲台
+  tvg_id: 中天亞洲台
+  group: 綜合
+4gtv-4gtv041:
+  video_type: 1
+  audio_type: 6
+  channel_name: 華視
+  tvg_id: 華視
+  group: 綜合
+4gtv-4gtv052:
+  video_type: 1
+  audio_type: 2
+  channel_name: 華視新聞
+  tvg_id: 華視新聞
+  group: 新聞財經
+4gtv-4gtv046:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天綜合台
+  tvg_id: 靖天綜合台
+  group: 綜合
+4gtv-4gtv063:
+  video_type: 1
+  audio_type: 6
+  channel_name: 靖天國際台
+  tvg_id: 靖天國際台
+  group: 綜合
+4gtv-4gtv058:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天戲劇台
+  tvg_id: 靖天戲劇台
+  group: 電影戲劇
+4gtv-4gtv047:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天日本台
+  tvg_id: 靖天日本台
+  group: 綜合
+4gtv-4gtv055:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天映畫台
+  tvg_id: 靖天映畫台
+  group: 少兒
+4gtv-4gtv044:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天卡通台
+  tvg_id: 靖天卡通台
+  group: 少兒
+4gtv-4gtv062:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天育樂台
+  tvg_id: 靖天育樂台
+  group: 音樂綜藝
+4gtv-4gtv065:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天資訊台
+  tvg_id: 靖天資訊台
+  group: 新聞財經
+4gtv-4gtv061:
+  video_type: 1
+  audio_type: 7
+  channel_name: 靖天電影台
+  tvg_id: 靖天電影台
+  group: 電影戲劇
+4gtv-4gtv054:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖天歡樂台
+  tvg_id: 靖天歡樂台
+  group: 音樂綜藝
+litv-longturn12:
+  video_type: 5
+  audio_type: 2
+  channel_name: 龍華偶像台
+  tvg_id: 龍華偶像台
+  group: 音樂綜藝
+litv-longturn01:
+  video_type: 4
+  audio_type: 6
+  channel_name: 龍華卡通台
+  tvg_id: 龍華卡通台
+  group: 少兒
+litv-longturn18:
+  video_type: 5
+  audio_type: 6
+  channel_name: 龍華戲劇台
+  tvg_id: 龍華戲劇台
+  group: 電影戲劇
+litv-longturn11:
+  video_type: 5
+  audio_type: 2
+  channel_name: 龍華日韓台
+  tvg_id: 龍華日韓台
+  group: 音樂綜藝
+litv-longturn21:
+  video_type: 5
+  audio_type: 2
+  channel_name: 龍華經典台
+  tvg_id: 龍華經典台
+  group: 電影戲劇
+litv-longturn03:
+  video_type: 5
+  audio_type: 6
+  channel_name: 龍華電影台
+  tvg_id: 龍華電影台
+  group: 電影戲劇
+4gtv-4gtv045:
+  video_type: 1
+  audio_type: 6
+  channel_name: 靖洋戲劇台
+  tvg_id: 靖洋戲劇台
+  group: 電影戲劇
+4gtv-4gtv057:
+  video_type: 1
+  audio_type: 8
+  channel_name: 靖洋卡通 Nice Bingo
+  tvg_id: 靖洋卡通-Nice-Bingo
+  group: 少兒
+litv-longturn14:
+  video_type: 1
+  audio_type: 2
+  channel_name: 寰宇新聞台
+  tvg_id: 寰宇新聞台
+  group: 新聞財經
+4gtv-4gtv156:
+  video_type: 1
+  audio_type: 6
+  channel_name: 寰宇新聞台灣台
+  tvg_id: 寰宇新聞台灣台
+  group: 新聞財經
+4gtv-4gtv158:
+  video_type: 1
+  audio_type: 2
+  channel_name: 寰宇財經台
+  tvg_id: 寰宇財經台
+  group: 新聞財經
+4gtv-4gtv073:
+  video_type: 1
+  audio_type: 2
+  channel_name: TVBS
+  tvg_id: TVBS
+  group: 綜合
+4gtv-4gtv072:
+  video_type: 1
+  audio_type: 2
+  channel_name: TVBS 新聞台
+  tvg_id: TVBS-新聞台
+  group: 新聞財經
+4gtv-4gtv068:
+  video_type: 1
+  audio_type: 7
+  channel_name: TVBS 歡樂台
+  tvg_id: TVBS-歡樂台
+  group: 音樂綜藝
+4gtv-4gtv067:
+  video_type: 1
+  audio_type: 8
+  channel_name: TVBS 精采台
+  tvg_id: TVBS-精采台
+  group: 音樂綜藝
+4gtv-4gtv034:
+  video_type: 1
+  audio_type: 6
+  channel_name: 八大精彩台
+  tvg_id: 八大精彩台
+  group: 音樂綜藝
+4gtv-4gtv039:
+  video_type: 1
+  audio_type: 2
+  channel_name: 八大綜藝台
+  tvg_id: 八大綜藝台
+  group: 音樂綜藝
+4gtv-4gtv066:
+  video_type: 1
+  audio_type: 2
+  channel_name: 台視
+  tvg_id: 台視
+  group: 綜合
+4gtv-4gtv051:
+  video_type: 1
+  audio_type: 2
+  channel_name: 台視新聞台
+  tvg_id: 台視新聞台
+  group: 新聞財經
+4gtv-4gtv056:
+  video_type: 1
+  audio_type: 2
+  channel_name: 台視財經台
+  tvg_id: 台視財經台
+  group: 新聞財經
+litv-longturn07:
+  video_type: 5
+  audio_type: 2
+  channel_name: 博斯運動一台
+  tvg_id: 博斯運動一台
+  group: 體育
+litv-longturn08:
+  video_type: 5
+  audio_type: 2
+  channel_name: 博斯運動二台
+  tvg_id: 博斯運動二台
+  group: 體育
+litv-longturn10:
+  video_type: 5
+  audio_type: 2
+  channel_name: 博斯無限台
+  tvg_id: 博斯無限台
+  group: 體育
+litv-longturn13:
+  video_type: 4
+  audio_type: 2
+  channel_name: 博斯無限二台
+  tvg_id: 博斯無限二台
+  group: 體育
+litv-longturn09:
+  video_type: 5
+  audio_type: 2
+  channel_name: 博斯網球台
+  tvg_id: 博斯網球台
+  group: 體育
+litv-longturn05:
+  video_type: 5
+  audio_type: 2
+  channel_name: 博斯高球台
+  tvg_id: 博斯高球台
+  group: 體育
+litv-longturn06:
+  video_type: 5
+  audio_type: 2
+  channel_name: 博斯高球二台
+  tvg_id: 博斯高球二台
+  group: 體育
+litv-longturn04:
+  video_type: 5
+  audio_type: 6
+  channel_name: 博斯魅力台
+  tvg_id: 博斯魅力台
+  group: 體育
+4gtv-4gtv070:
+  video_type: 1
+  audio_type: 7
+  channel_name: ELTA 娛樂台
+  tvg_id: ELTA娛樂
+  group: 音樂綜藝
+litv-longturn20:
+  video_type: 5
+  audio_type: 6
+  channel_name: ELTV 生活英語
+  tvg_id: ELTA生活英語
+  group: 生活旅遊
+4gtv-4gtv152:
+  video_type: 1
+  audio_type: 6
+  channel_name: 東森新聞
+  tvg_id: 東森新聞
+  group: 新聞財經
+4gtv-4gtv153:
+  video_type: 1
+  audio_type: 2
+  channel_name: 東森財經新聞
+  tvg_id: 東森財經新聞
+  group: 新聞財經
+4gtv-4gtv010:
+  video_type: 1
+  audio_type: 6
+  channel_name: 非凡新聞台
+  tvg_id: 非凡新聞台
+  group: 新聞財經
+4gtv-4gtv048:
+  video_type: 1
+  audio_type: 2
+  channel_name: 非凡商業台
+  tvg_id: 非凡商業台
+  group: 新聞財經
+4gtv-4gtv075:
+  video_type: 1
+  audio_type: 2
+  channel_name: 鏡電視新聞台
+  tvg_id: 鏡電視新聞台
+  group: 新聞財經
+litv-longturn17:
+  video_type: 5
+  audio_type: 2
+  channel_name: 亞洲旅遊台
+  tvg_id: 亞洲旅遊台
+  group: 生活旅遊
+4gtv-4gtv053:
+  video_type: 1
+  audio_type: 8
+  channel_name: GINX Esports TV
+  tvg_id: GINX-Esports-TV
+  group: 體育
+4gtv-4gtv014:
+  video_type: 1
+  audio_type: 5
+  channel_name: 時尚運動X
+  tvg_id: 時尚運動X
+  group: 體育
+4gtv-4gtv101:
+  video_type: 1
+  audio_type: 5
+  channel_name: 智林體育台
+  tvg_id: 智林體育台
+  group: 體育
+4gtv-4gtv077:
+  video_type: 1
+  audio_type: 7
+  channel_name: TraceSports
+  tvg_id: TraceSports
+  group: 體育
+4gtv-4gtv011:
+  video_type: 1
+  audio_type: 6
+  channel_name: 影迷數位電影台
+  tvg_id: 影迷數位電影台
+  group: 電影戲劇
+4gtv-4gtv017:
+  video_type: 1
+  audio_type: 6
+  channel_name: AMC 電影台
+  tvg_id: AMC電影台
+  group: 電影戲劇
+4gtv-4gtv042:
+  video_type: 1
+  audio_type: 6
+  channel_name: 公視戲劇台
+  tvg_id: 公視戲劇台
+  group: 電影戲劇
+4gtv-4gtv049:
+  video_type: 1
+  audio_type: 8
+  channel_name: 采昌影劇台
+  tvg_id: 采昌影劇台
+  group: 電影戲劇
+litv-longturn22:
+  video_type: 5
+  audio_type: 2
+  channel_name: 台灣戲劇台
+  tvg_id: 台灣戲劇台
+  group: 電影戲劇
+4gtv-4gtv076:
+  video_type: 1
+  audio_type: 2
+  channel_name: CatchPlay 電影台
+  tvg_id: CatchPlay-電影台
+  group: 電影戲劇
+litv-ftv15:
+  video_type: 1
+  audio_type: 6
+  channel_name: i-Fun 動漫台
+  tvg_id: i-Fun-動漫台
+  group: 少兒
+4gtv-4gtv018:
+  video_type: 1
+  audio_type: 6
+  channel_name: 達文西頻道
+  tvg_id: 達文西頻道
+  group: 少兒
+4gtv-4gtv059:
+  video_type: 1
+  audio_type: 6
+  channel_name: Classica 古典樂
+  tvg_id: Classica-古典樂
+  group: 音樂綜藝
+4gtv-4gtv083:
+  video_type: 1
+  audio_type: 6
+  channel_name: Mezzo Live
+  tvg_id: Mezzo-Live
+  group: 音樂綜藝
+4gtv-4gtv006:
+  video_type: 1
+  audio_type: 9
+  channel_name: 豬哥亮歌廳秀
+  tvg_id: 豬哥亮歌廳秀
+  group: 音樂綜藝
+4gtv-4gtv082:
+  video_type: 1
+  audio_type: 6
+  channel_name: Trace Urban
+  tvg_id: Trace-Urban
+  group: 音樂綜藝
+#4gtv-4gtv016:
+#  video_type: 1
+#  audio_type: 6
+#  channel_name: Globetrotter 環遊旅行家
+#  tvg_id: Globetrotter-環遊旅行家
+#  group: 生活旅遊
+4gtv-4gtv016:
+  video_type: 1
+  audio_type: 6
+  channel_name: 韓國娛樂台
+  tvg_id: 韓國娛樂台
+  group: 音樂綜藝
+4gtv-4gtv079:
+  video_type: 1
+  audio_type: 2
+  channel_name: Arirang TV
+  tvg_id: Arirang-TV
+  group: 綜合
+litv-ftv03:
+  video_type: 1
+  audio_type: 6
+  channel_name: VOA 美國之音
+  tvg_id: VOA-美國之音
+  group: 新聞財經
+litv-ftv10:
+  video_type: 1
+  audio_type: 6
+  channel_name: 半島國際新聞台
+  tvg_id: 半島國際新聞台
+  group: 新聞財經
+4gtv-4gtv104:
+  video_type: 1
+  audio_type: 6
+  channel_name: 第1商業台
+  tvg_id: 第1商業台
+  group: 新聞財經
+  logo: https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv104_tv.png
+litv-longturn19:
+  video_type: 5
+  audio_type: 6
+  channel_name: Smart 知識台
+  tvg_id: Smart-知識台
+  group: 其他
+4gtv-4gtv013:
+  video_type: 1
+  audio_type: 6
+  channel_name: 視納華仁紀實頻道
+  tvg_id: 視納華仁紀實頻道
+  group: 其他
+4gtv-4gtv043:
+  video_type: 1
+  audio_type: 6
+  channel_name: 客家電視台
+  tvg_id: 客家電視台
+  group: 其他
+litv-ftv16:
+  video_type: 1
+  audio_type: 2
+  channel_name: 好消息
+  tvg_id: 好消息
+  group: 其他
+litv-ftv17:
+  video_type: 1
+  audio_type: 2
+  channel_name: 好消息2台
+  tvg_id: 好消息2台
+  group: 其他
+4gtv-4gtv084:
+  video_type: 1
+  audio_type: 6
+  channel_name: 國會頻道1
+  tvg_id: 國會頻道1
+  group: 其他
+4gtv-4gtv085:
+  video_type: 1
+  audio_type: 6
+  channel_name: 國會頻道2
+  tvg_id: 國會頻道2
+  group: 其他

@@ -1,0 +1,722 @@
+'3':
+  assets_id: 4gtv-4gtv002
+  channel_name: 民視
+  tvg_id: 民視
+  group: 綜合
+'1':
+  assets_id: 4gtv-4gtv003
+  channel_name: 民視第一台
+  tvg_id: 民視第一台
+  group: 綜合
+'31':
+  assets_id: litv-ftv13
+  channel_name: 民視新聞台
+  tvg_id: 民視新聞台
+  group: 新聞財經
+'2':
+  assets_id: 4gtv-4gtv001
+  channel_name: 民視台灣台
+  tvg_id: 民視台灣台
+  group: 綜合
+'24':
+  assets_id: litv-ftv09
+  channel_name: 民視影劇台
+  tvg_id: 民視影劇台
+  group: 電影戲劇
+'61':
+  assets_id: litv-ftv07
+  channel_name: 民視旅遊台
+  tvg_id: 民視旅遊台
+  group: 生活旅遊
+'16':
+  assets_id: 4gtv-4gtv004
+  channel_name: 民視綜藝台
+  tvg_id: 民視綜藝台
+  group: 音樂綜藝
+'4':
+  assets_id: 4gtv-4gtv040
+  channel_name: 中視
+  tvg_id: 中視
+  group: 綜合
+'33':
+  assets_id: 4gtv-4gtv074
+  channel_name: 中視新聞台
+  tvg_id: 中視新聞台
+  group: 新聞財經
+'124':
+  assets_id: 4gtv-4gtv080
+  channel_name: 中視經典台
+  tvg_id: 中視經典台
+  group: 電影戲劇
+'123':
+  assets_id: 4gtv-4gtv064
+  channel_name: 中視菁采台
+  tvg_id: 中視菁采台
+  group: 綜合
+'30':
+  assets_id: 4gtv-4gtv009
+  channel_name: 中天新聞台
+  tvg_id: 中天新聞台
+  group: 新聞財經
+4gtv-4gtv109:
+  assets_id: 4gtv-4gtv109
+  channel_name: 中天亞洲台
+  tvg_id: 中天亞洲台
+  group: 綜合
+'6':
+  assets_id: 4gtv-4gtv041
+  channel_name: 華視
+  tvg_id: 華視
+  group: 綜合
+'34':
+  assets_id: 4gtv-4gtv052
+  channel_name: 華視新聞
+  tvg_id: 華視新聞
+  group: 新聞財經
+'21':
+  assets_id: 4gtv-4gtv046
+  channel_name: 靖天綜合台
+  tvg_id: 靖天綜合台
+  group: 綜合
+'84':
+  assets_id: 4gtv-4gtv063
+  channel_name: 靖天國際台
+  tvg_id: 靖天國際台
+  group: 綜合
+'116':
+  assets_id: 4gtv-4gtv058
+  channel_name: 靖天戲劇台
+  tvg_id: 靖天戲劇台
+  group: 電影戲劇
+'22':
+  assets_id: 4gtv-4gtv047
+  channel_name: 靖天日本台
+  tvg_id: 靖天日本台
+  group: 綜合
+'42':
+  assets_id: 4gtv-4gtv055
+  channel_name: 靖天映畫台
+  tvg_id: 靖天映畫台
+  group: 少兒
+'15':
+  assets_id: 4gtv-4gtv044
+  channel_name: 靖天卡通台
+  tvg_id: 靖天卡通台
+  group: 少兒
+'83':
+  assets_id: 4gtv-4gtv062
+  channel_name: 靖天育樂台
+  tvg_id: 靖天育樂台
+  group: 音樂綜藝
+'88':
+  assets_id: 4gtv-4gtv065
+  channel_name: 靖天資訊台
+  tvg_id: 靖天資訊台
+  group: 新聞財經
+'82':
+  assets_id: 4gtv-4gtv061
+  channel_name: 靖天電影台
+  tvg_id: 靖天電影台
+  group: 電影戲劇
+'119':
+  assets_id: 4gtv-4gtv054
+  channel_name: 靖天歡樂台
+  tvg_id: 靖天歡樂台
+  group: 音樂綜藝
+litv-longturn12:
+  assets_id: litv-longturn12
+  channel_name: 龍華偶像台
+  tvg_id: 龍華偶像台
+  group: 電影戲劇
+litv-longturn01:
+  assets_id: litv-longturn01
+  channel_name: 龍華卡通台
+  tvg_id: 龍華卡通台
+  group: 少兒
+'23':
+  assets_id: litv-longturn18
+  channel_name: 龍華戲劇台
+  tvg_id: 龍華戲劇台
+  group: 電影戲劇
+'28':
+  assets_id: litv-longturn11
+  channel_name: 龍華日韓台
+  tvg_id: 龍華日韓台
+  group: 音樂綜藝
+litv-longturn21:
+  assets_id: litv-longturn21
+  channel_name: 龍華經典台
+  tvg_id: 龍華經典台
+  group: 電影戲劇
+'121':
+  assets_id: litv-longturn03
+  channel_name: 龍華電影台
+  tvg_id: 龍華電影台
+  group: 電影戲劇
+'118':
+  assets_id: 4gtv-4gtv045
+  channel_name: 靖洋戲劇台
+  tvg_id: 靖洋戲劇台
+  group: 電影戲劇
+'59':
+  assets_id: 4gtv-4gtv057
+  channel_name: 靖洋卡通 Nice Bingo
+  tvg_id: 靖洋卡通-Nice-Bingo
+  group: 少兒
+'36':
+  assets_id: litv-longturn14
+  channel_name: 寰宇新聞台
+  tvg_id: 寰宇新聞台
+  group: 新聞財經
+'280':
+  assets_id: 4gtv-4gtv156
+  channel_name: 寰宇新聞台灣台
+  tvg_id: 寰宇新聞台灣台
+  group: 新聞財經
+'281':
+  assets_id: 4gtv-4gtv158
+  channel_name: 寰宇財經台
+  tvg_id: 寰宇財經台
+  group: 新聞財經
+'183':
+  assets_id: 4gtv-4gtv073
+  channel_name: TVBS
+  tvg_id: TVBS
+  group: 綜合
+'291':
+  assets_id: 4gtv-4gtv072
+  channel_name: TVBS 新聞台
+  tvg_id: TVBS-新聞台
+  group: 新聞財經
+'284':
+  assets_id: 4gtv-live087
+  channel_name: TVBS 綜藝台
+  tvg_id: TVBS-綜藝台
+  group: 音樂綜藝
+'184':
+  assets_id: 4gtv-4gtv068
+  channel_name: TVBS 歡樂台
+  tvg_id: TVBS-歡樂台
+  group: 音樂綜藝
+'227':
+  assets_id: 4gtv-4gtv067
+  channel_name: TVBS 精采台
+  tvg_id: TVBS-精采台
+  group: 音樂綜藝
+'285':
+  assets_id: 4gtv-live088
+  channel_name: TVBS 台劇台
+  tvg_id: TVBS-台劇台
+  group: 電影戲劇
+'172':
+  assets_id: 4gtv-4gtv034
+  channel_name: 八大精彩台
+  tvg_id: 八大精彩台
+  group: 音樂綜藝
+'114':
+  assets_id: 4gtv-4gtv039
+  channel_name: 八大綜藝台
+  tvg_id: 八大綜藝台
+  group: 音樂綜藝
+'169':
+  assets_id: 4gtv-live207
+  channel_name: 三立綜合台
+  tvg_id: 三立綜合台
+  group: 綜合
+'229':
+  assets_id: 4gtv-live089
+  channel_name: 三立 iNEWS
+  tvg_id: 三立財經新聞
+  group: 新聞財經
+4gtv-4gtv066:
+  assets_id: 4gtv-4gtv066
+  channel_name: 台視
+  tvg_id: 台視
+  group: 綜合
+4gtv-4gtv051:
+  assets_id: 4gtv-4gtv051
+  channel_name: 台視新聞台
+  tvg_id: 台視新聞台
+  group: 新聞財經
+4gtv-4gtv056:
+  assets_id: 4gtv-4gtv056
+  channel_name: 台視財經台
+  tvg_id: 台視財經台
+  group: 新聞財經
+'50':
+  assets_id: litv-longturn07
+  channel_name: 博斯運動一台
+  tvg_id: 博斯運動一台
+  group: 體育
+litv-longturn08:
+  assets_id: litv-longturn08
+  channel_name: 博斯運動二台
+  tvg_id: 博斯運動二台
+  group: 體育
+'51':
+  assets_id: litv-longturn10
+  channel_name: 博斯無限台
+  tvg_id: 博斯無限台
+  group: 體育
+litv-longturn13:
+  assets_id: litv-longturn13
+  channel_name: 博斯無限二台
+  tvg_id: 博斯無限二台
+  group: 體育
+'52':
+  assets_id: litv-longturn09
+  channel_name: 博斯網球台
+  tvg_id: 博斯網球台
+  group: 體育
+'48':
+  assets_id: litv-longturn05
+  channel_name: 博斯高球台
+  tvg_id: 博斯高球台
+  group: 體育
+litv-longturn06:
+  assets_id: litv-longturn06
+  channel_name: 博斯高球二台
+  tvg_id: 博斯高球二台
+  group: 體育
+litv-longturn04:
+  assets_id: litv-longturn04
+  channel_name: 博斯魅力台
+  tvg_id: 博斯魅力台
+  group: 體育
+'19':
+  assets_id: 4gtv-4gtv070
+  channel_name: ELTA 娛樂台
+  tvg_id: ELTA娛樂
+  group: 音樂綜藝
+'237':
+  assets_id: 4gtv-live120
+  channel_name: ELTA 生活旅遊
+  tvg_id: ELTA生活旅遊
+  group: 生活旅遊
+'106':
+  assets_id: litv-longturn20
+  channel_name: ELTV 生活英語
+  tvg_id: ELTA生活英語
+  group: 生活旅遊
+'292':
+  assets_id: 4gtv-4gtv152
+  channel_name: 東森新聞
+  tvg_id: 東森新聞
+  group: 新聞財經
+'293':
+  assets_id: 4gtv-4gtv153
+  channel_name: 東森財經新聞
+  tvg_id: 東森財經新聞
+  group: 新聞財經
+4gtv-4gtv010:
+  assets_id: 4gtv-4gtv010
+  channel_name: 非凡新聞台
+  tvg_id: 非凡新聞台
+  group: 新聞財經
+4gtv-4gtv048:
+  assets_id: 4gtv-4gtv048
+  channel_name: 非凡商業台
+  tvg_id: 非凡商業台
+  group: 新聞財經
+'268':
+  assets_id: 4gtv-4gtv075
+  channel_name: 鏡電視新聞台
+  tvg_id: 鏡電視新聞台
+  group: 新聞財經
+'235':
+  assets_id: 4gtv-live130
+  channel_name: CNBC Asia 財經台
+  tvg_id: CNBC-Asia-財經台
+  group: 新聞財經
+'250':
+  assets_id: litv-longturn17
+  channel_name: 亞洲旅遊台
+  tvg_id: 亞洲旅遊台
+  group: 生活旅遊
+'179':
+  assets_id: 4gtv-4gtv053
+  channel_name: GINX Esports TV
+  tvg_id: GINX-Esports-TV
+  group: 體育
+'181':
+  assets_id: 4gtv-live109
+  channel_name: TechStorm
+  tvg_id: TechStorm
+  group: 體育
+'277':
+  assets_id: 4gtv-live411
+  channel_name: 時尚運動X
+  tvg_id: 時尚運動X
+  group: 體育
+'58':
+  assets_id: 4gtv-4gtv101
+  channel_name: 智林體育台
+  tvg_id: 智林體育台
+  group: 體育
+'57':
+  assets_id: 4gtv-4gtv077
+  channel_name: TraceSports
+  tvg_id: TraceSports
+  group: 體育
+'212':
+  assets_id: 4gtv-live023
+  channel_name: 影迷數位紀實台
+  tvg_id: 影迷數位紀實台
+  group: 電影戲劇
+'40':
+  assets_id: 4gtv-4gtv011
+  channel_name: 影迷數位電影台
+  tvg_id: 影迷數位電影台
+  group: 電影戲劇
+'39':
+  assets_id: 4gtv-4gtv017
+  channel_name: AMC 電影台
+  tvg_id: AMC電影台
+  group: 電影戲劇
+4gtv-4gtv076:
+  assets_id: 4gtv-4gtv076
+  channel_name: CatchPlay 電影台
+  tvg_id: CatchPlay-電影台
+  group: 電影戲劇
+'176':
+  assets_id: 4gtv-live157
+  channel_name: My Cinema Europe HD 我的歐洲電影
+  tvg_id: My-Cinema-Europe-HD-我的歐洲電影
+  group: 電影戲劇
+'7':
+  assets_id: 4gtv-4gtv042
+  channel_name: 公視戲劇台
+  tvg_id: 公視戲劇台
+  group: 電影戲劇
+'25':
+  assets_id: 4gtv-4gtv049
+  channel_name: 采昌影劇台
+  tvg_id: 采昌影劇台
+  group: 電影戲劇
+litv-longturn22:
+  assets_id: litv-longturn22
+  channel_name: 台灣戲劇台
+  tvg_id: 台灣戲劇台
+  group: 電影戲劇
+'270':
+  assets_id: 4gtv-live010
+  channel_name: 戲劇免費看 1台
+  tvg_id: 戲劇免費看-1台
+  group: 電影戲劇
+'244':
+  assets_id: 4gtv-live006
+  channel_name: 戲劇免費看 2台
+  tvg_id: 戲劇免費看-2台
+  group: 電影戲劇
+'201':
+  assets_id: 4gtv-live021
+  channel_name: 經典電影台
+  tvg_id: 經典電影台
+  group: 電影戲劇
+'245':
+  assets_id: 4gtv-live005
+  channel_name: 電影免費看 2台
+  tvg_id: 電影免費看-2台
+  group: 電影戲劇
+'218':
+  assets_id: 4gtv-live031
+  channel_name: 電影原聲台 CMusic
+  tvg_id: 電影原聲台CMusic
+  group: 電影戲劇
+'279':
+  assets_id: 4gtv-live016
+  channel_name: 花系列 經典劇場
+  tvg_id: 花系列-經典劇場
+  group: 電影戲劇
+'225':
+  assets_id: 4gtv-live069
+  channel_name: CinemaWorld
+  tvg_id: CinemaWorld
+  group: 電影戲劇
+'186':
+  assets_id: 4gtv-live620
+  channel_name: HITS 頻道
+  tvg_id: HITS-頻道
+  group: 電影戲劇
+'180':
+  assets_id: 4gtv-live138
+  channel_name: Rock Action
+  tvg_id: Rock-Action
+  group: 電影戲劇
+'275':
+  assets_id: 4gtv-live080
+  channel_name: Rock Entertainment
+  tvg_id: Rock-Entertainment
+  group: 電影戲劇
+'236':
+  assets_id: 4gtv-live144
+  channel_name: 金光布袋戲
+  tvg_id: 金光布袋戲
+  group: 電影戲劇
+'301':
+  assets_id: 4gtv-live145
+  channel_name: 霹靂布袋戲
+  tvg_id: 霹靂布袋戲
+  group: 電影戲劇
+  logo: https://4gtvimg2.4gtv.tv/4gtv-Image/Channel/mobile/logo_4gtv_4gtv-live145_mobile.png
+'282':
+  assets_id: 4gtv-live017
+  channel_name: DreamWorks 夢工廠動畫
+  tvg_id: DreamWorks-夢工廠動畫
+  group: 少兒
+'185':
+  assets_id: 4gtv-live105
+  channel_name: Nickelodeon
+  tvg_id: Nickelodeon
+  group: 少兒
+'219':
+  assets_id: 4gtv-live032
+  channel_name: Nick Jr. 兒童頻道
+  tvg_id: Nick-Jr.
+  group: 少兒
+'60':
+  assets_id: litv-ftv15
+  channel_name: i-Fun 動漫台
+  tvg_id: i-Fun-動漫台
+  group: 少兒
+'269':
+  assets_id: 4gtv-live009
+  channel_name: 兒童卡通台
+  tvg_id: 兒童卡通台
+  group: 少兒
+'204':
+  assets_id: 4gtv-live024
+  channel_name: 精選動漫台
+  tvg_id: 精選動漫台
+  group: 少兒
+'202':
+  assets_id: 4gtv-live022
+  channel_name: 經典卡通台
+  tvg_id: 經典卡通台
+  group: 少兒
+'11':
+  assets_id: 4gtv-4gtv018
+  channel_name: 達文西頻道
+  tvg_id: 達文西頻道
+  group: 少兒
+'278':
+  assets_id: 4gtv-live015
+  channel_name: 超人力霸王整套看
+  tvg_id: 超人力霸王整套看
+  group: 少兒
+'231':
+  assets_id: 4gtv-live107
+  channel_name: MOMO 親子台
+  tvg_id: MOMO-親子台
+  group: 少兒
+'188':
+  assets_id: 4gtv-live030
+  channel_name: LiveABC 互動英語台
+  tvg_id: LiveABC-互動英語台
+  group: 少兒
+'80':
+  assets_id: 4gtv-4gtv059
+  channel_name: Classica 古典樂
+  tvg_id: Classica-古典樂
+  group: 音樂綜藝
+'217':
+  assets_id: 4gtv-live029
+  channel_name: Lifetime 娛樂頻道
+  tvg_id: Lifetime-娛樂頻道
+  group: 音樂綜藝
+'213':
+  assets_id: 4gtv-live025
+  channel_name: MTV Live HD 音樂頻道
+  tvg_id: MTV-Live-HD-音樂頻道
+  group: 音樂綜藝
+'79':
+  assets_id: 4gtv-4gtv083
+  channel_name: Mezzo Live
+  tvg_id: Mezzo-Live
+  group: 音樂綜藝
+'113':
+  assets_id: 4gtv-4gtv006
+  channel_name: 豬哥亮歌廳秀
+  tvg_id: 豬哥亮歌廳秀
+  group: 音樂綜藝
+'78':
+  assets_id: 4gtv-4gtv082
+  channel_name: Trace Urban
+  tvg_id: Trace-Urban
+  group: 音樂綜藝
+'252':
+  assets_id: 4gtv-live112
+  channel_name: Global Trekker
+  tvg_id: Global-Trekker
+  group: 生活旅遊
+#'288':
+#  assets_id: 4gtv-4gtv016
+#  channel_name: Globetrotter 環遊旅行家
+#  tvg_id: Globetrotter-環遊旅行家
+#  group: 生活旅遊
+'76':
+  assets_id: 4gtv-4gtv016
+  channel_name: 韓國娛樂台
+  tvg_id: 韓國娛樂台
+  group: 音樂綜藝
+'175':
+  assets_id: 4gtv-live121
+  channel_name: LUXE TV
+  tvg_id: LUXE-TV
+  group: 生活旅遊
+'182':
+  assets_id: 4gtv-live110
+  channel_name: Pet Club TV
+  tvg_id: Pet-Club-TV
+  group: 生活旅遊
+'178':
+  assets_id: 4gtv-live122
+  channel_name: TV5MONDE Style
+  tvg_id: TV5MONDE-Style
+  group: 生活旅遊
+'160':
+  assets_id: 4gtv-live201
+  channel_name: 車迷 TV
+  tvg_id: 車迷-TV
+  group: 生活旅遊
+'139':
+  assets_id: 4gtv-live208
+  channel_name: Love Nature
+  tvg_id: Love-Nature
+  group: 生活旅遊
+'274':
+  assets_id: 4gtv-live011
+  channel_name: Fun 探索娛樂台
+  tvg_id: Fun-探索娛樂台
+  group: 生活旅遊
+'168':
+  assets_id: 4gtv-live206
+  channel_name: 幸福空間居家台
+  tvg_id: 幸福空間居家台
+  group: 生活旅遊
+'189':
+  assets_id: 4gtv-4gtv079
+  channel_name: Arirang TV
+  tvg_id: Arirang-TV
+  group: 綜合
+'283':
+  assets_id: 4gtv-live059
+  channel_name: Bloomberg TV
+  tvg_id: BloombergTV
+  group: 綜合
+'86':
+  assets_id: litv-ftv03
+  channel_name: VOA 美國之音
+  tvg_id: VOA-美國之音
+  group: 新聞財經
+'226':
+  assets_id: 4gtv-live071
+  channel_name: DW德國之聲
+  tvg_id: DW
+  group: 新聞財經
+'224':
+  assets_id: 4gtv-live060
+  channel_name: SBN 全球財經台
+  tvg_id: SBN-全球財經台
+  group: 新聞財經
+'85':
+  assets_id: litv-ftv10
+  channel_name: 半島國際新聞台
+  tvg_id: 半島國際新聞台
+  group: 新聞財經
+4gtv-4gtv104:
+  assets_id: 4gtv-4gtv104
+  channel_name: 第1商業台
+  tvg_id: 第1商業台
+  logo: https://p-cdnstatic.svc.litv.tv/pics/logo_litv_4gtv-4gtv104_tv.png
+  group: 新聞財經
+'214':
+  assets_id: 4gtv-live026
+  channel_name: History 歷史頻道
+  tvg_id: History-歷史頻道
+  group: 其他
+'215':
+  assets_id: 4gtv-live027
+  channel_name: CI 罪案偵查頻道
+  tvg_id: CI-罪案偵查頻道
+  group: 其他
+litv-longturn19:
+  assets_id: litv-longturn19
+  channel_name: Smart 知識台
+  tvg_id: Smart-知識台
+  group: 其他
+'38':
+  assets_id: 4gtv-4gtv013
+  channel_name: 視納華仁紀實頻道
+  tvg_id: 視納華仁紀實頻道
+  group: 其他
+'273':
+  assets_id: 4gtv-live014
+  channel_name: 原住民族電視台
+  tvg_id: 原住民族電視台
+  group: 其他
+'107':
+  assets_id: 4gtv-4gtv043
+  channel_name: 客家電視台
+  tvg_id: 客家電視台
+  group: 其他
+'249':
+  assets_id: 4gtv-live012
+  channel_name: 滾動力 Rollor
+  tvg_id: 滾動力-Rollor
+  group: 其他
+'9':
+  assets_id: litv-ftv16
+  channel_name: 好消息
+  tvg_id: 好消息
+  group: 其他
+'8':
+  assets_id: litv-ftv17
+  channel_name: 好消息2台
+  tvg_id: 好消息2台
+  group: 其他
+'209':
+  assets_id: 4gtv-live007
+  channel_name: 大愛電視
+  tvg_id: 大愛電視
+  group: 其他
+'230':
+  assets_id: 4gtv-live106
+  channel_name: 大愛電視2
+  tvg_id: 大愛電視
+  group: 其他
+'210':
+  assets_id: 4gtv-live008
+  channel_name: 人間衛視
+  tvg_id: 人間衛視
+  group: 其他
+'170':
+  assets_id: 4gtv-4gtv084
+  channel_name: 國會頻道1
+  tvg_id: 國會頻道1
+  group: 其他
+'171':
+  assets_id: 4gtv-4gtv085
+  channel_name: 國會頻道2
+  tvg_id: 國會頻道2
+  group: 其他
+'173':
+  assets_id: 4gtv-live047
+  channel_name: 東森購物一台
+  tvg_id: 東森購物
+  group: 其他
+'174':
+  assets_id: 4gtv-live046
+  channel_name: 東森購物二台
+  tvg_id: 東森購物
+  group: 其他
+'287':
+  assets_id: 4gtv-live048
+  channel_name: 東森購物三台
+  tvg_id: 東森購物
+  group: 其他
+'286':
+  assets_id: 4gtv-live049
+  channel_name: 東森購物四台
+  tvg_id: 東森購物
+  group: 其他
