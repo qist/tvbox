@@ -1,9 +1,6 @@
 #Rob Yang web:
 1. php https://RobYang.serv00.net
-2. ~~php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (need to use browser and turn on javascript http://cpanel.clouds.tw/)
-3. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
-4. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
-5. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake)
+2. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake)
    1. http://2487.us.kg
 6. net https://RobYang.runasp.net (by monsterasp.net)
 7. http://RobYang.rr.nu
@@ -11,15 +8,18 @@
    2. DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4
    3. DDNS: https://dnsexit.com/users/dns/dyn/
    4. redirect in https://dnsexit.com 
-      1. by alias.redirect.name in CNAME (https://dnsexit.com/Direct.sv?cmd=userDnsTXT&actioncode=13)
-      2. and txt in _redirect.robyang.rr.nu "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa"
+      1. Add www9 in CNAME  "alias.redirect.name" (https://dnsexit.com/Direct.sv?cmd=userDnsTXT&actioncode=13)
+      2. and txt in "_redirect.www9.robyang.rr.nu" "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa"
 8. http://RobYang.AsSexyAs.com
    1.  from sitelutions
    2.  DNS by https://www.cloudns.net/ free URL forwarding, free 1 DNS hosting
 9.  http://2487.rr.nu (by sitelutions, https://www.cloudns.net/ free URL forwarding, free 1 DNS hosting)
    1.  from sitelutions
    2.  DNS by https://www.cloudns.net/ free URL forwarding, free 1 DNS hosting
-10. http://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL)
+10. http://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL) 
+11. ~~php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (need to use browser and turn on javascript http://cpanel.clouds.tw/)
+12. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
+13. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
 
 
 #monitoring 
