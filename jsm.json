@@ -854,6 +854,17 @@
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
   "logo": "https://epg.112114.xyz/logo/{name}.png"
   },   
+  {
+    "name": "🏠RobYang備1| http://RobYang.runasp.net",
+    "type": 0,
+    //"url": "https://www1.RobYang.us.kg/VodLive/lb8ffa",  
+    "url": "http://RobYang.runasp.net/VodLive/lb8ffa",  
+    "ua": "okhttp/4.12.0",
+    "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
+    "timeout": 5,
+    "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
+    "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },   
 //{"name":"RobYang 安博| 台際　(人多會慢)","type":0,"url":"http://RobYang.serv00.net/ublive.php","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 // {"name":"一盒1| 台港中日韓", "note original":"https://tv.anbox118.workers.dev/live", "type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒1| 台港中日韓","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
