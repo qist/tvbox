@@ -1,8 +1,8 @@
 #Rob Yang web:
 1. php https://RobYang.serv00.net
-2. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake)
+2. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake, web hosting https://freeasphosting.net )
    1. http://2487.us.kg
-6. net https://RobYang.runasp.net (by monsterasp.net)
+3. net https://RobYang.runasp.net (by monsterasp.net)
 7. http://RobYang.rr.nu
    1. from https://www.sitelutions.com/Auth/urldnscc
    2. DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4
