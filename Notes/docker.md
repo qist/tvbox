@@ -1,13 +1,53 @@
-謝安琪 4gtv docker 教學
+## Update a file from a docker host:
 ======
+```
+#!/bin/bash
 
-Pixman: https://pixman.io/topics/17
+# 下载 litv.yaml 文件并复制到指定的 Docker 目录
+curl -o /tmp/litv.yaml https://x.tt8.us.kg/litv.yaml
 
-2. (bobyang.03 login) https://robyang-3487.koyeb.app/4gtv.m3u
-3. (bobyang03 login) https://robyang-3487.koyeb.app/youtube/ylYJSBUgaMA
+# 将文件复制到 Docker 容器内部的指定路径
+docker cp /tmp/litv.yaml pixman:/app/app/channel_list/litv.yaml
+
+# 删除临时文件
+rm /tmp/litv.yaml
+
+# 重启 Docker 容器
+docker restart pixman
+
+# 输出成功信息
+echo "litv.yaml 更新成功，Docker 容器已重启。"
+```
 
 
+## Pixman: https://pixman.io/topics/17
+    1. How to modify file:
+       1. Go to "Console" (instance, console) https://app.koyeb.com/services/aa524a02-5577-4377-9ecc-7223a9ad3a6f/console
+       2. use "vi titv.yaml"
+       3. modify
+       4. "esc" on keyboard, then :wq   to save
+    2. (after restart/redeloy, saved files are gone!) How to download a file to the instant
+       1. Go to "Console" (instance, console) https://app.koyeb.com/services/aa524a02-5577-4377-9ecc-7223a9ad3a6f/console
+       2. /app/app/channel_list # cd /app/app/channel_list
+       3. Rename the file: mv litv.yaml litv.yaml2 
+       4. Download a file: wget https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/TVBoxOSC/pixman/litv.yaml
+       4. Rename the file: mv fourgtv.yaml fourgtv.yaml2 
+       5. Download a file: wget https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/TVBoxOSC/pixman/fourgtv.yaml  (download but save with a different name: wget -o 4gtv.yaml https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/TVBoxOSC/pixman/fourgtv.yaml)
+       6. read file: vi fourgtv.yaml
+       7. close file: "esc" on keyboard, then 
+          1. :wq to save
+          2. :q! to not save 
+       8. Restart the instance: "Settings" ,"Pause", wait for 2 mins, then "Resume"
+   
 
+## Instances / Accounts: 
+======
+1. (bobyang.03 login) https://robyang-3487.koyeb.app/4gtv.m3u
+2. (bobyang03 login) https://robyang-3487.koyeb.app/youtube/ylYJSBUgaMA
+
+
+## 謝安琪 4gtv docker 教學:
+======
 koyeb官方網站
 https://www.koyeb.com
 
@@ -22,17 +62,14 @@ https://www.koyeb.com
 4GTV直播源
 http://分配的網址/4gtv.m3u
 
-========
-謝安琪 4gtv docker 教學
-
-
+## 謝安琪 4gtv docker 教學
 https://pixman.io/topics/17
 
 
 
 
 
-Pixman 项目 傻瓜式 自动化搭建
+## Pixman 项目 傻瓜式 自动化搭建
 
 bash <(curl -sL https://www.567858.xyz/pixman.sh)
 
@@ -54,7 +91,7 @@ bash -c "$(curl -sL https://www.567858.xyz/pixman.sh)"
 
 
 
-支持的直播源 https://pixman.io/topics/17
+## 支持的直播源 https://pixman.io/topics/17
 ■四季線上 4GTV (http://ip:port/4gtv.m3u)
 ■江苏移动魔百盒 TPTV (http://ip:port/tptv.m3u 或 http://ip:port/tptv_proxy.m3u)
 ■央视频直播源 (http://ip:port/ysp.m3u)

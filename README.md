@@ -29,7 +29,7 @@
 
 
 ## 點播接口：
-1. Rob Yang 點直播線源: http://RobYang.us.kg 或 http://RobYang.runasp.net 或 https://RobYang.serv00.net
+1. Rob Yang 點直播線源: http://RobYang.us.kg 或 http://RobYang.rr.nu 或 https://RobYang.serv00.net
 3. 寶盒=欧乐,泥巴　https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json
 4. 泥巴,独播库,小宝,欧乐,腐剧　https://raw.githubusercontent.com/qist/tvbox/master/jsm.json (https://github.com/qist/tvbox)
 5. https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json （https://github.com/gaotianliuyun/gao/tree/master） 
@@ -40,7 +40,7 @@
 
 
 ## 直播接口： 
-1. Rob Yang 點直播線源: http://RobYang.us.kg 或 http://RobYang.runasp.net 或 https://RobYang.serv00.net
+1. Rob Yang 點直播線源: http://RobYang.us.kg 或 http://RobYang.rr.nu 或 http://RobYang.runasp.net 或 https://RobYang.serv00.net
 5. https://www.juwanhezi.com/more/live 
 
 

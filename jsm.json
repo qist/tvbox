@@ -849,17 +849,15 @@
   //"url": "https://www1.RobYang.us.kg/VodLive/lb8ffa",  
   "url": "http://www1.RobYang.us.kg/VodLive/lb8ffa",  
   "ua": "okhttp/4.12.0",
-  "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
   "timeout": 5,
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
   "logo": "https://epg.112114.xyz/logo/{name}.png"
   },   
   {
-    "name": "🏠RobYang備1| http://RobYang.runasp.net",
+    "name": "🏠RobYang備1| http://RobYang.rr.nu",
     "type": 0,
     "url": "http://RobYang.runasp.net/VodLive/lb8ffa",  
     "ua": "okhttp/4.12.0",
-    "ext":{"header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR": "127.0.0.1"}},
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png"
