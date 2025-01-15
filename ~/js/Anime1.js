@@ -13,8 +13,8 @@ var rule = {
 	quickSearch:0,
 	headers:{'User-Agent': 'PC_UA'},
 	timeout:5000,
-    class_name:'連載中&2024&2023&2022&2021&2020&2019&2018&更早',
-    class_url:'連載中&2024&2023&2022&2021&2020&2019&2018&2017',
+    class_name:'連載中&2025&2024&2023&2022&2021&2020&2019&2018&更早',
+    class_url:'連載中&2025&2024&2023&2022&2021&2020&2019&2018&2017',
 	play_parse:true,
 	lazy:`js:
 		var apiurl = 'https://v.anime1.me/api';
