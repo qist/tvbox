@@ -1,14 +1,13 @@
 {
   //"spider":"https://raw.githubusercontent.com/bobyang3/tvbox/own/jar/fan.txt",
-  "spider":"./jar/fan.txt;md5;f115051a7d789c2baebb9309c14bddd2",
-  //"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1731126610038/fan.txt;md5;118bca13418f13c45c5c237ac93c2f07",
+  "spider":"./jar/fan.txt;md5;0e3d57414d7927d36066d0e69914f477",
   //"spider":"./jar/pg.jar",
-  "note":"FROM: https://rb.gy/geje78",
-  "note2":"FROM: https://www1.RobYang.us.kg/VodLive/jb8ffa.php",
-  "note3":"FROM: https://rb.gy/1gki0m", 
+  "note":"FROM: http://RobYang.us.kg",
+  "note2":"FROM: http://www1.RobYang.us.kg/VodLive/jb8ffa",
+  "note3":"FROM: http://RobYang.rr.nu", 
   "note10":"Source: https://www1.RobYang.us.kg/VodLive/sb8ffa",
   "logo": "https://RobYang.serv00.net/RobYang.jpg",
-  //"logo": "https://RobYang.serv00.net/RobYang.jpg",
+  //"logo": "https://RobYang.serv00.net/RobYang.jpg", //https://www1.robyang.us.kg/RobYang.jpg
   "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 
 "sites":[
@@ -824,7 +823,20 @@
 {"key":"疯狗影视","name":"疯狗","type":3,"api":"csp_FengGo","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar"},
 {"key":"饺子影视","name":"饺子","type":3,"api":"csp_Jiaozi","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar"},
 {"key":"天空资源","name":"天空","type":1,"api":"https://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"贱贱","name":"贱贱","type":3,"searchable":1,"quickSearch":1,"changeable":1,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js"},
+{"key":"贱贱","name":"贱贱","type":3,"searchable":1,"quickSearch":1,"changeable":1,"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js","ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp1.js"},
+{"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
+{"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
+{"key":"皮皮虾JS","name":"皮皮虾[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"playerType":2,"ext":"./js/皮皮虾[优].js"},
+{"key":"闪雷","name":"闪雷┃MP4","type":3,"api":"./FTY/drpy2.min.js","ext":"./js/678.js"},
+{"key":"热播影视","name":"热播|多线","type":3,"api":"csp_AppRB","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar": "./jar/xiaosa.jar;md5;00ade2b74c302f33afbeb7f96f861be4"},
+{"key":"客星","name": "客星|1080P","type": 3,"api": "csp_Xdai","searchable":1,"quickSearch":1,"changeable":1,"order_num": 0,"playerType": 2,"ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==","jar": "./jar/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"},
+{"key":"csp_Bttoo","name":"比特┃秒播","type":3,"api":"csp_Bttwoo","searchable":1,"quickSearch":1,"changeable":1},
+{"key":"白白","name":"白白┃秒播","type":3,"api":"csp_Sbaibai","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"原创","name":"原创┃不卡","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"无尽","name":"影视 | 无尽[直连]","type":1,"api":"http://api.wujinapi.me/api.php/provide/vod/?ac=list","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","台湾剧","美国剧","纪录片","韩国剧","日本剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","悬疑片","动画片","犯罪片","奇幻片","邵氏电影","泰剧","短剧","港台动漫","海外动漫"],"header":{"User-Agent":"Mozilla/5.0"}},
+{"key":"U酷资源風","name":"影视 | 尤酷[直连]","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/?ac=list","searchable":1,"categories":["综艺","动漫","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港澳剧","日剧","欧美剧","动漫电影","台湾剧","韩剧","泰剧","记录片","短剧","奇幻片","犯罪片"],"header":{"User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"}},
+{"key":"360资源","name":"影视 | 360资源[直连]","type":1,"api":"https://360zy.com/api.php/provide/vod/?ac=list","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","NBA","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","灾难片","纪录片","短片","动画片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","国产动漫","欧美动漫","日韩动漫","西部片","爽文短剧","现代都市","年代穿越","古装仙侠","女频恋爱","成长逆袭"],"header":{"User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"}},
+{"key":"极速资源","name":"影视 | 极速[直连]","type":1,"api":"https://jszyapi.com/api.php/provide/vod/?ac=list","searchable":1,"categories":["欧美剧","香港剧","韩剧","日剧","马泰剧","动作片","爱情片","喜剧片","科幻片","恐怖片","剧情片","战争片","记录片","动漫","内地剧","动画片","中国动漫","日本动漫"," 欧美动漫","综艺","台湾剧","体育赛事","大陆综艺","日韩综艺","港台综艺","欧美综艺","灾难片","悬疑片","犯罪片","奇幻片","短剧"],"header":{"User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"}},
 
 
 
