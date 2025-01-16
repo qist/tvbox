@@ -1,0 +1,10 @@
+services:
+  allinone:
+    image: youshandefeiyang/allinone
+    container_name: allinone
+    privileged: true
+    restart: always
+    ports:
+      - "35455:35455"
+    network_mode: bridge
+    command: -tv=true -aesKey=1w4egr277i3mkrrj68t3lrnpnififibp -userid=5587947027 -token=8182959db300581c232c8e737bedc0b1b1d2c6779c854c371d4f44f8faa08adc0d9ae23609d2493958708c4b42f1156ad5305cb52ca9f7f20d56188c3f9f6f4526006e1ea9e9e4
