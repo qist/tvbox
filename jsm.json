@@ -30,7 +30,7 @@
 {"key":"T4-安博","name":"10. 影視| 安博(T4)","type":4,"api":"https://tang.hz.cz/power/ub18?token=2fdc44ab","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"csp_奇優影院(新)","name":"影視| 奇優影院","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/xyqxbpq.jar","ext":{"分类url":"https://www.qyvod.com/qyshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#纪录片$21"}},
 {"key":"csp_XBiu考拉TV","name":"影視| 考拉TV","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.ikaola.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html","分类":"電視劇$2#電影$1#動漫$4#綜藝$3#動畫片$24#紀錄片$27"}},
-{"key":"drpy2_js_大师兄影视[优]","name":"影視| 大师兄[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/大师兄影视.js"},
+{"key":"drpy2_js_大师兄影视","name":"影視| 大师兄[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/大师兄影视.js"},
 {"key":"hipy_js_大师兄影视[优]","name":"影視| 大师兄[优]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/大师兄影视[优].js"},
 
 {"key":"金牌資源","name":"影視| 金牌","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/金牌影院.json"},
