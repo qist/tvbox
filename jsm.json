@@ -20,6 +20,7 @@
 {"key":"nyys","name":"影視| 纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar; "ext":"https://4tvbox.ggff.net/ys.json"
 {"key":"drpy_js_小宝影院[飞]","name":"影視| 小宝[飛]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/小宝影院[飞].js"},
 {"key":"drpy2_js_北川影视","name": "影視| 北川[JS]","type": 3,"api": "./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/北川影视.js"},
+{"key":"drpy2_js_大师兄影视","name":"影視| 大师兄[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/大师兄影视.js"},
 // {"key":"drpy_js_小宝影院","name":"影視| 小宝影院2[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院.js"},
 {"key":"剧迷TV","name":"影視| 迷TV","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"影片年代":"<div class=\"module-info-tag\">&&</div>","影片状态":"备注：&&</div>","影片类型":"module-info-tag\">&&立即播放","线路数组":"data-dropdown-value=&&</div>","线路标题":"<span>&&</small>[替换:</span><small>>>共]+集","分类url":"https://www.jagcys.com/vodshow/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类":"电影$dianying#电视剧$dsj#动漫$dongman#综艺$zongyi#体育赛事$tiyusaishi"}},
 {"key":"苹果","name":"影視| 頻果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
@@ -30,7 +31,6 @@
 {"key":"T4-安博","name":"10. 影視| 安博(T4)","type":4,"api":"https://tang.hz.cz/power/ub18?token=2fdc44ab","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"csp_奇優影院(新)","name":"影視| 奇優影院","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/xyqxbpq.jar","ext":{"分类url":"https://www.qyvod.com/qyshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#纪录片$21"}},
 {"key":"csp_XBiu考拉TV","name":"影視| 考拉TV","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.ikaola.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html","分类":"電視劇$2#電影$1#動漫$4#綜藝$3#動畫片$24#紀錄片$27"}},
-{"key":"drpy2_js_大师兄影视","name":"影視| 大师兄[JS]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/大师兄影视.js"},
 {"key":"hipy_js_大师兄影视[优]","name":"影視| 大师兄[优]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/大师兄影视[优].js"},
 
 {"key":"金牌資源","name":"影視| 金牌","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/金牌影院.json"},
