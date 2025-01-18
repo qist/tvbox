@@ -1,4 +1,4 @@
-## Update a file from a docker host:
+## sound fix: Update a file from a docker host:
 ======
 ```
 #!/bin/bash
@@ -18,6 +18,39 @@ docker restart pixman
 # 输出成功信息
 echo "litv.yaml 更新成功，Docker 容器已重启。"
 ```
+
+
+
+
+## ofiii:
+======
+台湾直播的docker镜像
+
+ofiii直播镜像，小白专属！
+
+Author --by( 沐辰&&Doubebly )
+
+docker镜像拉取: docker pull doubebly/doube-ofiii:latest
+
+docker镜像运行: docker run -d --name=doube-ofiii -p 50002:5000 --restart=always doubebly/doube-ofiii:latest
+
+上面的50002端口可以自定义
+
+访问 http://ip:port/help (示例：http://127.0.0.1:50002/help)，可以看到txt和m3u的订阅链接
+
+支持的架构: linux/amd64, linux/arm64, linux/arm/v7
+
+总共有160个有效频道(直播+点播)
+
+转载请注明出处谢谢
+
+技术反馈群，https://t.me/doubebly003
+
+
+https://t.me/livednowgroup/357610
+
+
+
 
 
 ## Pixman: https://pixman.io/topics/17

@@ -354,7 +354,7 @@ litv-longturn20:
   group: 新聞財經
 4gtv-4gtv010:
   video_type: 1
-  audio_type: 2
+  audio_type: 6
   channel_name: 非凡新聞台
   tvg_id: 非凡新聞台
   group: 新聞財經
