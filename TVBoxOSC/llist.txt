@@ -1,6 +1,6 @@
 📺YouTube 新聞,#genre#
-民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 民視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/litv-ftv13
+民視新聞,http://www.youtube.com/watch?v=ylYJSBUgaMA
 民視新聞,https://py.doube.eu.org/tv/youtube?id=ylYJSBUgaMA
 三立NEWS+,https://www.youtube.com/watch?v=MV9mI0GChwo
 三立新聞,https://www.youtube.com/watch?v=pF507BLtbqU
