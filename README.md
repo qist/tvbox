@@ -88,6 +88,7 @@
 2. 夜視直播：https://yeslivetv.com/
 3. 港台直播(VPN)：www.stream-link.org/
 4. https://www.ofiii.com/channel/watch/4gtv-4gtv040
+5. 國外 m3u： https://tinyurl.com/multiservice21?region=us&service=Plex&sort=name （作者: https://github.com/dtankdempse/free-iptv-channels）
 
 
 ## GitHub Proxy 代理加速
