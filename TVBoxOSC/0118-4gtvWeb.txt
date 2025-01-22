@@ -1,6 +1,4 @@
-4gtv網頁嗅探,#genre#
-parse=1
-
+4GTV Web,#genre#
 4  民視第一台,https://www.4gtv.tv/channel/4gtv-4gtv003?set=1&ch=1
 5  民視台灣台,https://www.4gtv.tv/channel/4gtv-4gtv001?set=1&ch=2
 6  民視,https://www.4gtv.tv/channel/4gtv-4gtv002?set=1&ch=3
