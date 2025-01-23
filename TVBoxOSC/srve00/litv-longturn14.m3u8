@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:4
+#EXT-X-MEDIA-SEQUENCE:79378265
+#EXTINF:4,
+https://ntdfreevcpc-tgc.cdn.hinet.net/live/pool/litv-longturn14/litv-pc/litv-longturn14-avc1_6000000=1-mp4a_134000_zho=2-begin=3175130600000000-dur=40000000-seq=79378265.ts
+#EXTINF:4,
+https://ntdfreevcpc-tgc.cdn.hinet.net/live/pool/litv-longturn14/litv-pc/litv-longturn14-avc1_6000000=1-mp4a_134000_zho=2-begin=3175130640000000-dur=40000000-seq=79378266.ts
+#EXTINF:4,
+https://ntdfreevcpc-tgc.cdn.hinet.net/live/pool/litv-longturn14/litv-pc/litv-longturn14-avc1_6000000=1-mp4a_134000_zho=2-begin=3175130680000000-dur=40000000-seq=79378267.ts

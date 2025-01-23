@@ -21,8 +21,35 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
 
 
 
+## 1. itv:
+======
+台湾直播的docker镜像
 
-## ofiii:
+ofiii直播镜像，小白专属！
+
+Author --by( 沐辰&&Doubebly )
+
+docker镜像拉取: docker pull doubebly/doube-ofiii:latest
+
+docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:latest
+
+上面的50001端口可以自定义
+
+访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
+
+支持的架构: linux/amd64, linux/arm64, linux/arm/v7
+
+总共有160个有效频道(直播+点播)
+
+转载请注明出处谢谢
+
+技术反馈群，https://t.me/doubebly003
+
+
+https://t.me/livednowgroup/357610
+
+
+## 2. ofiii:
 ======
 台湾直播的docker镜像
 
@@ -53,7 +80,7 @@ https://t.me/livednowgroup/357610
 
 
 
-## Pixman: https://pixman.io/topics/17
+## 3. Pixman: https://pixman.io/topics/17
     1. How to modify file:
        1. Go to "Console" (instance, console) https://app.koyeb.com/services/aa524a02-5577-4377-9ecc-7223a9ad3a6f/console
        2. use "vi titv.yaml"
@@ -72,6 +99,22 @@ https://t.me/livednowgroup/357610
           2. :q! to not save 
        8. Restart the instance: "Settings" ,"Pause", wait for 2 mins, then "Resume"
    
+
+
+## 4. liuyong1987: 
+    1. docker pull liuyong1987/fourgtv 
+    2. docker run -d --name=fourgtv -p 8000:8000 --restart=always liuyong1987/fourgtv:latest
+    3. 订阅列表：
+         - mytvsuper: http://[IP:PORT]/mytvsuper.m3u
+         - now: http://[IP:PORT]/now.m3u
+         - now-free: http://[IP:PORT]/now-free.m3u
+         - 4gtv: http://[IP:PORT]/4gtv.m3u
+         - itv: http://[IP:PORT]/itv.m3u
+         - beesport: http://[IP:PORT]/beesport.m3u
+
+
+
+
 
 ## Instances / Accounts: 
 ======
