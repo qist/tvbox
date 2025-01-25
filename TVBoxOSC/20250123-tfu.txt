@@ -1,5 +1,6 @@
 👉TUF | 台港國際👉,#genre#
 民視,rtmp://f13h.mine.nu/sat/tv051
+民視,rtmp://f13h.mine.nu:1935/sat/tv051
 东森超视,rtmp://f13h.mine.nu/sat/tv331
 非凡新闻,rtmp://f13h.mine.nu/sat/tv581
 华视,rtmp://f13h.mine.nu/sat/tv111
@@ -28,8 +29,62 @@
 台湾蕃薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
 台湾番薯台[1080],http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
 寰宇新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
-华视-天才冲冲冲,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV26.m3u8
 华视HD台,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV12.m3u8
+
+台視,rtmp://f13h.mine.nu:1935/sat/tv071
+中視,rtmp://f13h.mine.nu:1935/sat/tv091
+
+華視,rtmp://f13h.mine.nu:1935/sat/tv111
+TVBS NEWS,http://61.221.215.25:8800/hls/9/index.m3u8
+緯來精采,http://61.221.215.25:8800/hls/48/index.m3u8
+緯來日本,rtmp://f13h.mine.nu:1935/sat/tv771
+緯來育樂,rtmp://f13h.mine.nu:1935/sat/tv701
+緯來體育,rtmp://f13h.mine.nu:1935/sat/tv721
+東森超視,rtmp://f13h.mine.nu:1935/sat/tv331
+Mo綜合,rtmp://f13h.mine.nu:1935/sat/tv761
+AMC電影,http://61.221.215.25:8800/hls/43/index.m3u8
+大愛一台,https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+大愛二台,https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+蕃薯台,http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
+大立台,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+探索頻道,http://61.221.215.25:8800/hls/1/index.m3u8
+探索亞洲,http://61.221.215.25:8800/hls/50/index.m3u8
+動物星球,http://61.221.215.25:8800/hls/57/index.m3u8
+八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
+八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
+八大戲劇,http://61.221.215.25:8800/hls/39/index.m3u8
+三立戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
+DAZN 1,rtmp://f13h.mine.nu:1935/sat/tv731
+DAZN 2,rtmp://f13h.mine.nu:1935/sat/tv741
+
+澳門蓮花,http://php.jdshipin.com:8880/amlh.php
+香港衛視,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
+香港衛視,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=3c732f93c14e1bc0c07641df-156388849014752&wsIPSercert=8de23d0849e78e3b16ec92a809235421&wsMonitor=0
+香港衛視,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=8ee59707fee3ef96c922e680-167055218938751&wsIPSercert=d24f6d7c9d3646d9533d492d5209384b&wsMonitor=0
+香港衛視,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=ec991d84cbef928ab3a882ad-165166992977141&wsIPSercert=315bc45f13e35a4a62376fd85478636c&wsMonitor=0
+鳳凰中文,http://116.162.6.191/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
+鳳凰資訊,http://116.162.6.191/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
+鳳凰香港,http://116.162.6.191/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
+鳳凰中文,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
+鳳凰資訊,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
+鳳凰香港,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
+鳳凰電影,http://117.114.153.1:8180/TV00000000000000000072@HHZT
+星空衛視,http://nas.jumping.wang:5555/udp/239.93.0.156:2193
+星空衛視,http://13457610200.8866.org:2018/live/%E6%98%9F%E7%A9%BA%E5%8D%AB%E8%A7%86/index.m3u8
+星空衛視,http://117.114.153.1:8180/TV00000000000000000071@HHZT
+星空國際,http://13457610200.8866.org:2018/live/%E6%98%9F%E7%A9%BA%E5%9B%BD%E9%99%85/index.m3u8
+亞美衛視,https://dacastmmd.mmdlive.lldns.net/dacastmmd/073ed83280cd4e338330125e474412be/manifest.m3u8?p=79&h=d8dbf74c9bc40f3963fd18c030d9f4d9
+TVB 星河台,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
+TVB 星河台,https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
+TVB 功夫台,http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
+TVB 功夫台,https://edge6a.v2h-cdn.com/asia_action/asia_action.stream/chunklist.m3u8
+TVB 娛樂新聞,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
+TVB 娛樂新聞,https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
+無線新聞,http://live.cooltv.top/tv/tvb.php?id=2
+
+
+
+
 华视新闻杂志,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV49.m3u8
 好消息,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8#mitv://generationnexxxt.com:19806/febf2282369d409d92d68514b72fc433#https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
 好消息综合台,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8#https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
