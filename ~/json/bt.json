@@ -62,10 +62,10 @@
     {"v":"","n":"全部地区①"},
     {"v":"movie_bt_cat/不丹","n":"不丹"},
     {"v":"movie_bt_cat/ny","n":"东南亚"},
-    {"v":"movie_bt_cat/zhonji","n":"中国"},
-    {"v":"movie_bt_cat/zhogngtw","n":"台湾"},
-    {"v":"movie_bt_cat/dl","n":"中国大陆"},
-    {"v":"movie_bt_cat/zhongguoxg","n":"中国香港"},
+    {"v":"movie_bt_cat/zhonji","n":"🇨🇳中国"},
+    {"v":"movie_bt_cat/zhogngtw","n":"🇹🇼台湾"},
+    {"v":"movie_bt_cat/dl","n":"🇨🇳中国"},
+    {"v":"movie_bt_cat/zhongguoxg","n":"🇭🇰香港"},
     {"v":"movie_bt_cat/dm","n":"丹麦"},
     {"v":"movie_bt_cat/wuklan","n":"乌克兰"},
     {"v":"movie_bt_cat/yisl","n":"以色列"},
@@ -86,7 +86,7 @@
     {"v":"movie_bt_cat/luob","n":"卢森堡"},
     {"v":"movie_bt_cat/yindu","n":"印度"},
     {"v":"movie_bt_cat/印度尼西亚","n":"印度尼西亚"},
-    {"v":"movie_bt_cat/taiwan","n":"台湾"},
+    {"v":"movie_bt_cat/taiwan","n":"🇹🇼台湾"},
     {"v":"movie_bt_cat/gelunbiya","n":"哥伦比亚"},
     {"v":"movie_bt_cat/tuerqi","n":"土耳其"},
     {"v":"movie_bt_cat/saierweiya","n":"塞尔维亚"},
@@ -107,7 +107,7 @@
     {"v":"movie_bt_cat/siluofake","n":"斯洛伐克"},
     {"v":"movie_bt_cat/xinjip","n":"新加坡"},
     {"v":"movie_bt_cat/xinxilan","n":"新西兰"},
-    {"v":"movie_bt_cat/rb","n":"日本"},
+    {"v":"movie_bt_cat/rb","n":"🇯🇵日本"},
     {"v":"movie_bt_cat/rihan","n":"日韩"},
     {"v":"movie_bt_cat/omei","n":"欧美"},
     {"v":"movie_bt_cat/bilishi","n":"比利时"},
@@ -130,7 +130,7 @@
     {"v":"movie_bt_cat/tunisi","n":"突尼斯"},
     {"v":"movie_bt_cat/ltwan","n":"立陶宛"},
     {"v":"movie_bt_cat/lmny","n":"罗马尼亚"},
-    {"v":"movie_bt_cat/mg","n":"美国"}
+    {"v":"movie_bt_cat/mg","n":"🇺🇸美国"}
     ]
     },
     {"key":"area","name":"地区","value":[
@@ -146,8 +146,8 @@
     {"v":"movie_bt_cat/yeun","n":"越南"},
     {"v":"movie_bt_cat/ageiting","n":"阿根廷"},
     {"v":"movie_bt_cat/alq","n":"阿联酋"},
-    {"v":"movie_bt_cat/hg","n":"韩国"},
-    {"v":"movie_bt_cat/xiangg","n":"香港"},
+    {"v":"movie_bt_cat/hg","n":"🇰🇷韩国"},
+    {"v":"movie_bt_cat/xiangg","n":"🇭🇰香港"},
     {"v":"movie_bt_cat/malaxy","n":"马来西亚"},
     {"v":"movie_bt_cat/马耳他","n":"马耳他"}
     ]

@@ -39,7 +39,7 @@ async function home(filter) {
     const filterObj = {
         '1':[{'key':'class','name':'类型','init':'hyds','value':[{'n':'华语','v':'hyds'},{'n':'日韩','v':'rhds'},{'n':'欧美','v':'omds'},{'n':'其他','v':'qtds'}]}],
         '2':[{'key':'class','name':'类型','init':'hydy','value':[{'n':'华语','v':'hydy'},{'n':'日韩','v':'rhdy'},{'n':'欧美','v':'omdy'},{'n':'其他','v':'qtdy'}]}],
-        '3':[{'key':'class','name':'类型','init':'hydm','value':[{'n':'国漫','v':'hydm'},{'n':'日本','v':'rhdm'},{'n':'欧美','v':'omdm'}]}],
+        '3':[{'key':'class','name':'类型','init':'hydm','value':[{'n':'国漫','v':'hydm'},{'n':'🇯🇵日本','v':'rhdm'},{'n':'欧美','v':'omdm'}]}],
         '4':[{'key':'class','name':'类型','init':'jlp','value':[{'n':'纪录','v':'jlp'},{'n':'综艺','v':'zyp'},{'n':'教育','v':'jypx'},{'n':'其他','v':'qtsp'}]}],
         '5':[{'key':'class','name':'类型','init':'hyyy','value':[{'n':'华语','v':'hyyy'},{'n':'日韩','v':'rhyy'},{'n':'欧美','v':'omyy'},{'n':'其他','v':'qtyy'}]}],
    };

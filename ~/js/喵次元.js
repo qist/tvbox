@@ -51,7 +51,7 @@ var rule = {
        		
        		if (value.length>1){
        			class1.append(key);
-       			//写成{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"大陆"}]}这种格式
+       			//写成{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"🇨🇳中国","v":"大陆"}]}这种格式
        			let dd=value.toString().split(',');
        			var s=[];
        			dd.forEach(function(i){

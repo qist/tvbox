@@ -141,7 +141,7 @@
 "3":[
 {"key":"cateId","name":"类型","value":[
 {"n":"全部","v":""},
-{"n":"大陆","v":"daluzongyi"},
+{"n":"🇨🇳中国","v":"daluzongyi"},
 {"n":"港台","v":"gangtaizongyi"},
 {"n":"日韩","v":"rihanzongyi"},
 {"n":"欧美","v":"oumeizongyi"}]},
@@ -192,7 +192,7 @@
 {"key":"cateId","name":"地区","value":[
 {"n":"全部","v":""},
 {"n":"国产","v":"guochandongman"},
-{"n":"日本","v":"ribendongman"},
+{"n":"🇯🇵日本","v":"ribendongman"},
 {"n":"欧美","v":"oumeidongman"},
 {"n":"海外","v":"haiwaidongman"}]},
   
