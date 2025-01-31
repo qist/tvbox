@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;fcd3be29030c912a28d7a205a88f749d",
 "lives":[
-{"name":"HLJTV","type":0,"url":"https://ghproxy.cc/https://raw.githubusercontent.com/BlueCatEatLala/Tvlist-private/master/m3u/HLJTV.m3u","playerType":1,"timeout":20}
+{"name":"HLJTV","type":0,"url":"https://raw.githubusercontent.com/BlueCatEatLala/Tvlist-private/master/m3u/HLJTV.m3u","playerType":1,"timeout":20}
 ],
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
