@@ -1,7 +1,7 @@
 {
 "spider":"./jar/fan.txt;md5;fcd3be29030c912a28d7a205a88f749d",
 "lives":[
-{"name":"BJTV","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueCatEatLala/Tvlist-private/master/m3u/IPV6-CM2.m3u","playerType":1,"timeout":20}
+{"name":"BJTV","type":0,"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueCatEatLala/iptv-api/master/output/user_result.m3u","playerType":1,"timeout":20}
 ],
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
