@@ -218,7 +218,7 @@
 {"key":"香奶儿","name":"香奶儿","type":0,"api":"https://www.gdlsp.com/api/xml.php"},  
 {"key":"黄AV","name":"黄AV","type":0,"api":"https://www.pgxdy.com/api/xml.php"}, 
 {"key":"番号","name":"番号","type":1,"api":"http://fhapi9.com/api.php/provide/vod/"}, 
-
+{"key":"易看资源","name":"易看资源","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","jar":"./jar/panda.jar","searchable":1,"quickSearch":1},
 
 
 
