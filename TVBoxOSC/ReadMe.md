@@ -130,3 +130,14 @@ GitHub:
 | Collect all |  https://github.com/blron/blinve |
 | col 2 is |    centered   |
 | col 3 is | right-aligned |
+
+
+Rename:
+🇨🇳中国
+🇰🇷韩国
+🇭🇰香港
+🇹🇼台湾
+🇺🇸美国
+🇯🇵日本
+
+
