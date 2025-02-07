@@ -25,6 +25,7 @@
 {"key":"苹果","name":"影視| 頻果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"海纳TV","name":"影視| 海纳","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/海纳TV.json"},
 {"key":"sgolys","name": "影視| 欧乐(T4)","type": 4,"api": "https://tang.hz.cz/power/olelive?token=b1eb6417","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0 }, 
+{"key": "py_OleVod","name": "欧乐影院(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=OleVod","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 // {"key":"T4-heimuer","name":"影視| 黑木耳(T4)","type":4,"api":"https://tang.hz.cz/power/hme?token=48da13fc","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"py_HeiMuEr",  "name": "影視| 黑木耳(T4)",  "type": 4,  "api": "https://spider.doube.eu.org/spider?site=HeiMuEr",  "searchable": 1,  "quickSearch": 0,  "filterable": 0,  "changeable": 0},
 {"key":"T4-独播库","name":"影視| 独播库(T4)","type":4,"api":"https://tang.hz.cz/power/duboku?token=48da13fc","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
@@ -47,17 +48,17 @@
 {"key":"drpy_js_两个BT","name":"影視| 两个BT","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
 {"key":"vs資源","name":"影視| vs資源","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/VS資源.json"},
 
-{"key": "py_素白白.py",  "name": "影視| 素白白",  "type": 3,  "api": "./py/素白白.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1},
+// {"key": "py_素白白.py",  "name": "影視| 素白白",  "type": 3,  "api": "./py/素白白.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1},
 {"key":"文采","name":"文采| 秒播","type":3,"api":"csp_Jpys","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"热播","name":"热播| 多线","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"萌米","name":"萌米| 多线","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":0,"changeable":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
 {"key":"可可","name":"可可| 多线","type":3,"api":"csp_Kekys","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"低端","name":"低端| 外剧","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Auete","name":"奥特| 无广","type": 3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.com/"}, 
 {"key":"新6V","name":"新6V| 磁力","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext": "https://www.xb6v.com/"},
-{"key":"凯奇影视","name":"30. 影視| 凯奇","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/凱奇影視.json"},
+// {"key":"凯奇影视","name":"30. 影視| 凯奇","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/凱奇影視.json"},
 // {"key":"zy_闪电资源","name":"影視| 闪电资源","type":1,"api":"https://xsd.sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["国产剧","韩国剧","国产动漫","伦理片","欧美剧","香港剧","台湾剧","日剧","海外剧","日本动漫","欧美动漫","港台动漫","海外动漫","动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","纪录片","犯罪片","其他片","悬疑片","奇幻片","动画片","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
 {"key":"csp_XBiu廠長影院","name":"影視| 廠長影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.tz2yj.com/list/{cateId}___{year}__addtime_{catePg}.html","分类":"電視劇$dianshiju#電影$dianying#動漫$dongman#綜藝$zongyi#微電影$weidianying"}},
+{"key":"低端","name":"低端| 外剧","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"drpy_js_低端","name":"影視| 低端","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/低端.js"},
 {"key":"nyys2","name":"影視| 纽约影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/紐約影院.json"},
 
@@ -65,7 +66,6 @@
 {"key": "py_jieyingshi","name": "界影视(T3)","type": 3,"api": "https://json.doube.eu.org/python/py_jieyingshi.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_AiGuaTV","name": "爱瓜TV(T4)","type": 4,"api": "https://spider.doube.eu.org/spider?site=AiGuaTV","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_UpFuHn","name": "Hi视频(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=UpFuHn","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
-{"key": "py_OleVod","name": "欧乐影院(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=OleVod","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_BaHaoTV","name": "八号影院(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=BaHaoTV","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 
 
