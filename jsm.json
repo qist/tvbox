@@ -62,6 +62,13 @@
 {"key":"nyys2","name":"影視| 纽约影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/紐約影院.json"},
 
 
+{"key": "py_jieyingshi","name": "界影视(T3)","type": 3,"api": "https://json.doube.eu.org/python/py_jieyingshi.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
+{"key": "py_AiGuaTV","name": "爱瓜TV(T4)","type": 4,"api": "https://spider.doube.eu.org/spider?site=AiGuaTV","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
+{"key": "py_UpFuHn","name": "Hi视频(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=UpFuHn","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
+{"key": "py_OleVod","name": "欧乐影院(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=OleVod","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
+{"key": "py_Dm84","name": "动漫巴士(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=Dm84","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
+{"key": "py_BaHaoTV","name": "八号影院(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=BaHaoTV","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
+
 
 {"key":"926看球","name":"⚽體育| 926","type":3,"api":"csp_kanqiu926","searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"88js","name":"⚽體育| 88","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/88看球.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
