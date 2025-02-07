@@ -66,7 +66,6 @@
 {"key": "py_AiGuaTV","name": "爱瓜TV(T4)","type": 4,"api": "https://spider.doube.eu.org/spider?site=AiGuaTV","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_UpFuHn","name": "Hi视频(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=UpFuHn","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_OleVod","name": "欧乐影院(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=OleVod","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
-{"key": "py_Dm84","name": "动漫巴士(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=Dm84","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_BaHaoTV","name": "八号影院(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=BaHaoTV","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 
 
@@ -143,6 +142,7 @@
 {"key":"动漫巴士2","name":"📔動漫巴士(鱼)","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1,"timeout":10},
 {"key":"Dm84","name":"📔動漫| 巴士2","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"巴士动漫网","name":"📔動漫| 巴士3","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/巴士動漫網.json"},
+{"key":"py_Dm84","name": "📔动漫巴士(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=Dm84","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key":"Ysj","name":"📔動漫| 异界","type":3,"api":"csp_Ysj","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"异世界","name":"📔動漫| 异世界","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"ext":"./js/异世界.js"},
 {"key":"Anime1","name":"100. 📔動漫| 日本","type": 3,"api": "csp_Anime1","searchable": 1,"quickSearch": 1,"changeable":1},
