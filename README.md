@@ -44,15 +44,15 @@
 5. https://www.juwanhezi.com/more/live 
 
 
-## 接口List：
-1. https://tvbox.youdu.fan
-2. https://www.upx8.com/4021
-3. https://xn--qoqw77q.top/dcjk.html
-4. http://www.52sw.top:678/play/oj1381/index.php?get=159169
-5. https://tianyastudio.blogspot.com/search/label/TV 
-6. https://github.com/li5bo5/TVBox?tab=readme-ov-file
-7. International: https://iptv-org.github.io/iptv/index.m3u (https://github.com/iptv-org/iptv)
-
+## 多接口List：
+1. https://raw.githubusercontent.com/cyalias/mytvs-github/refs/heads/main/myjk.json
+2. https://tvbox.youdu.fan
+3. https://www.upx8.com/4021
+4. https://xn--qoqw77q.top/dcjk.html
+5. http://www.52sw.top:678/play/oj1381/index.php?get=159169
+6. https://tianyastudio.blogspot.com/search/label/TV 
+7. https://github.com/li5bo5/TVBox?tab=readme-ov-file
+8. International: https://iptv-org.github.io/iptv/index.m3u (https://github.com/iptv-org/iptv)
 
 ## 特別解析json:
 1. https://github.com/wnddwc/daiweichun
