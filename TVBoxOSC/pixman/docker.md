@@ -19,13 +19,14 @@ docker restart pixman
 echo "litv.yaml 更新成功，Docker 容器已重启。"
 ```
 
+## Intall Docker to Ubuntu:
+1. install docker engine: https://docs.docker.com/engine/install/ubuntu/
+2. install Portainer UI: https://youtu.be/_2Llvz_0pB4?si=jHaaW4Aw-ISerwFM 
 
 
-## 1. itv:
+## 1. itv: (china)
 ======
-台湾直播的docker镜像
 
-ofiii直播镜像，小白专属！
 
 Author --by( 沐辰&&Doubebly )
 
@@ -49,7 +50,7 @@ docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=alw
 https://t.me/livednowgroup/357610
 
 
-## 2. ofiii:
+## 2. ofiii: (taiwan)
 ======
 台湾直播的docker镜像
 
