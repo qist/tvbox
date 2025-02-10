@@ -165,6 +165,37 @@ bash -c "$(curl -sL https://www.567858.xyz/pixman.sh)"
 
 5.优化代码逻辑，修复定时任务BUG。增加快捷指令，自动更新脚本功能。（ 默认直接安装，默认端口52055，需要修改端口、token等参数请再 选择2 进行调整 ）
 
+https://pixman.io/topics/218
+
+
+
+## Pixman Hami的代理小工具
+最近弄了一个针对Pixman Hami的代理小工具，有需求的可以自取。
+适用：pixman和梯子等已经部署(tw vps), 但家庭网络环境不能访问Hami Video（例如分享给朋友免梯子）或者家庭网络环境虽有梯子但不方便做Hami分流。
+- 群主的hami 要求不仅部署pixman docker的服务器网络能访问Hamivideo, 而且客服端(播放器)也必须能访问HamiVideo网络才行 （因为pixman 鉴权后做了HamiVideo重定向）.
+- 对于有些客户端环境没有直接访问HamiVideo网络条件的情况下，一个优化方案可以用 hamiproxy docker 代理Pixman的Hami 访问HamiVideo
+- hamiproxy docker 可以部署在和Pixman相同或不同的主机上 (该主机要求能访问HamiVideo网络) ,客户端只需访问 Hamiproxy docker 服务进行Hami 播放。
+- 本方案适用于家庭网络环境中无法直接访问Hami Video的场景, 当然hamiproxy 也只是代理而已，用户自己确保部署的Pixman docker和Hami的key能工作, 而且多次代理对线路要求比较高，如果线路本来就不稳的慎用.
+https://hub.docker.com/r/t2os/hamiproxy
+
+Usage:
+
+- pull the image
+> docker pull t2os/hamiproxy:latest
+- run & specify the pximan m3u full url: (http://your_pixman_host:5000/hami.m3u)
+> docker run -d --name=hamiproxy -p 9000:9000 -e HAMI_M3U=http://your_pixman_host:5000/hami.m3u t2os/hamiproxy
+- to get the proxied hami m3u list, and play wherever can access the hamiproxy server
+> http://your_hamiproxy_host:9000/hami.m3u
+
+【玩累了】发一下rptv的算法，以后会下掉rptv了
+https://iptv.cc/forum.php?mod=viewthread&tid=5264&fromuid=9443
+(出处: IPTV论坛)
+https://t.me/livednowgroup/379194
+
+
+
+
+
 
 
 
