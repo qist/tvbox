@@ -30,7 +30,6 @@
 中天新聞2台,http://www.youtube.com/watch?v=WPfPjbOLNfE
 中視新聞,http://www.youtube.com/watch?v=TCnaIE_SAtM
 中視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv074
-
 TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://m.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
@@ -38,23 +37,14 @@ TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=no
 TVBS新聞,http://www.youtube.com/watch?v=2mCSYvcfhtcK
 中天新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv00
 中天新聞,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
-
 中天新聞,http://www.youtube.com/live/oIgbl7t0S_w?feature=share
 非凡新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv010
-
 台視財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv056
-
 國際財經,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv104
-
-
 台視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv066
 中視,http://37.27.111.214:8080/live/7/hls.m3u8
 中視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv040
-
-
 華視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv041
-
-
 民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv002
 民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv155
 TVBS,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv073
@@ -102,11 +92,6 @@ TVBS56,http://www.youtube.com/watch?v=YvdcZ_jpLXE
 東森Live,http://www.youtube.com/watch?v=S5WOGu2HSes
 
 
-
-
-
-
-
 🏘️12/21換新站！舊址不再跟新！Rob Yang就是我 http://RobYang.us.kg,#genre#
 至少"設定"->"點播"輸入http://RobYang.us.kg 一次，這樣可以跟新所有線源1,http://a.d1
 至少"設定"->"點播"http://RobYang.us.kg 一次，這樣可以跟新所有線源2,http://a.d2
@@ -119,8 +104,6 @@ TVBS56,http://www.youtube.com/watch?v=YvdcZ_jpLXE
 此僅限技術發展研究實驗使用,http://a.b
 其他用途皆爲非法行為,http://a.c
 任何責任自行負責,http://a.d
-
-
 
 
 📺YouTube 兒童,#genre#

@@ -201,30 +201,11 @@ Demo🔗 https://live.fanmingming.com/player/?vurl=https://0472.org/hls/cgtn.m3u
 
 api/pixman
 
-
-
-謝安琪4gtv直播源
-m3u格式
-https://kaytse2024.koyeb.app/4gtv.m3u
-
-謝安琪4gtv直播源
 txt格式
 https://fanmingming.com/txt?url=https://kaytse2024.koyeb.app/4gtv.m3u
 
-===========
-謝安琪itv直播源
-m3u格式
-https://kaytse2024.koyeb.app/itv_proxy.m3u
-
-謝安琪itv直播源
 txt格式
 https://fanmingming.com/txt?url=https://kaytse2024.koyeb.app/itv_proxy.m3u
 
-===========
-謝安琪35455直播源
-m3u格式
-https://35455.koyeb.app/tv.m3u
-
-謝安琪35455直播源
 txt格式
 https://fanmingming.com/txt?url=https://35455.koyeb.app/tv.m3u
