@@ -29,7 +29,7 @@
 // {"key":"T4-heimuer","name":"影視| 黑木耳(T4)","type":4,"api":"https://tang.hz.cz/power/hme?token=48da13fc","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"py_HeiMuEr",  "name": "影視| 黑木耳(T4)",  "type": 4,  "api": "https://spider.doube.eu.org/spider?site=HeiMuEr",  "searchable": 1,  "quickSearch": 0,  "filterable": 0,  "changeable": 0},
 {"key":"T4-独播库","name":"影視| 独播库(T4)","type":4,"api":"https://tang.hz.cz/power/duboku?token=48da13fc","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
-{"key":"T4-安博","name":"10. 影視| 安博(T4)","type":4,"api":"https://tang.hz.cz/power/ub18?token=2fdc44ab","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
+// {"key":"T4-独播库2","name":"影視| 独播库2","type":4,"api":"csp_WexdubokuGuard","jar":"./jar/wex.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"py_jieyingshi",  "name": "影視| 界影视",  "type": 3,  "api": "https://json.doube.eu.org/python/py_jieyingshi.py",  "searchable": 1,  "quickSearch": 0,  "filterable": 0,  "changeable": 0  },
 {"key":"csp_奇優影院(新)","name":"影視| 奇優影院","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/xyqxbpq.jar","ext":{"分类url":"https://www.qyvod.com/qyshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#纪录片$21"}},
 {"key":"csp_XBiu考拉TV","name":"影視| 考拉TV","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.ikaola.tv/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html","分类":"電視劇$2#電影$1#動漫$4#綜藝$3#動畫片$24#紀錄片$27"}},
@@ -48,7 +48,10 @@
 {"key":"drpy_js_两个BT","name":"影視| 两个BT","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
 {"key":"vs資源","name":"影視| vs資源","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/VS資源.json"},
 
-// {"key": "py_素白白.py",  "name": "影視| 素白白",  "type": 3,  "api": "./py/素白白.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1},
+{"key": "py_素白白.py",  "name": "影視| 素白白",  "type": 3,  "api": "./py/素白白.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1},
+{"key":"csp_七新影视","name":"七新","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/七新影视.json"},
+
+
 {"key":"文采","name":"文采| 秒播","type":3,"api":"csp_Jpys","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"热播","name":"热播| 多线","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
 {"key":"萌米","name":"萌米| 多线","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":0,"changeable":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
@@ -62,7 +65,7 @@
 {"key":"drpy_js_低端","name":"影視| 低端","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/低端.js"},
 {"key":"nyys2","name":"影視| 纽约影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/紐約影院.json"},
 
-
+{"key": "Net_emby",  "name": "Emby(T3)",  "type": 3,  "api": "./py/net_emby.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1,  "ext": {    "server": "http://net.creativeinfo.org:8096",    "username": "ntest",    "password": "ntest123",    "thread": 0,    "proxy": ""  },  "changeable": 1},
 {"key": "py_jieyingshi","name": "界影视(T3)","type": 3,"api": "https://json.doube.eu.org/python/py_jieyingshi.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_AiGuaTV","name": "爱瓜TV(T4)","type": 4,"api": "https://spider.doube.eu.org/spider?site=AiGuaTV","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
 {"key": "py_UpFuHn","name": "Hi视频(T4)","type": 4,"api": "https://py.doube.eu.org/spider?site=UpFuHn","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
@@ -301,7 +304,6 @@
 {"key":"csp_乐万家影院","name":"万家","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/乐万家影院.json"},
 {"key":"csp_臻品电影网","name":"臻品","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/臻品电影网.json"},
 {"key":"csp_蚂蚁影视","name":"蚂蚁","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/蚂蚁影视.json"},
-{"key":"csp_七新影视","name":"七新","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/七新影视.json"},
 {"key":"csp_威士影视","name":"威士","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/威士影视.json"},
 {"key":"csp_视觉影视","name":"视觉","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/xinshijue.json"},
 {"key":"csp_超前影视","name":"超前","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/超前B站.json"},
