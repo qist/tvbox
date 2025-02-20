@@ -6,7 +6,7 @@
 三立新聞,http://www.youtube.com/live/pF507BLtbqU?si=e-d0Ns2EB36iyW_3
 三立新聞,https://www.youtube.com/watch?v=pF507BLtbqU
 公視新聞,http://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
-公視新聞,http://www.youtube.com/watch?v=quwqlazU-c8
+公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
 非凡商業,http://www.youtube.com/live/NHQDx8vCrC4?si=e-d0Ns2EB36iyW_3
 非凡商業,http://www.youtube.com/watch?v=NHQDx8vCrC4
 台視新聞,http://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14

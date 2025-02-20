@@ -24,14 +24,19 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
 2. install Portainer UI: https://youtu.be/_2Llvz_0pB4?si=jHaaW4Aw-ISerwFM 
 
 
+## 1. 4GTV FastAPI: 
+======
+   1. docker镜像拉取:
+         docker pull mybtjson/fastapi-4gtv:1.0.0
+   2. docker镜像运行:
+         docker run -d --name=fastapi-4gtv -p 50007:5000 --restart=always mybtjson/fastapi-4gtv:1.0.0
+
+
+
 ## 1. itv: (china)
 ======
-
-
 Author --by( 沐辰&&Doubebly )
-
 docker镜像拉取: docker pull doubebly/doube-ofiii:latest
-
 docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:latest
 
 上面的50001端口可以自定义
