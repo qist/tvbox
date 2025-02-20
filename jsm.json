@@ -48,7 +48,7 @@
 {"key":"drpy_js_两个BT","name":"影視| 两个BT","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
 {"key":"vs資源","name":"影視| vs資源","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/VS資源.json"},
 
-{"key": "py_素白白.py",  "name": "影視| 素白白",  "type": 3,  "api": "./py/素白白.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1},
+// {"key": "py_素白白.py",  "name": "影視| 素白白",  "type": 3,  "api": "./py/素白白.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1},
 {"key":"csp_七新影视","name":"七新","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/七新影视.json"},
 
 {"key":"文采","name":"文采| 秒播","type":3,"api":"csp_Jpys","searchable":1,"quickSearch":1,"changeable":1},
