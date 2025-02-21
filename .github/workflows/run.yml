@@ -35,7 +35,7 @@ jobs:
           git add .
           if ! git diff-index --quiet HEAD --; then
             git commit -m "潇洒更新 $(date +%Y%m%d%H%M)"
-            git push -f origin main
+            git push -f origin master
           else
             echo "没有文件更新，不执行 git push"
           fi
