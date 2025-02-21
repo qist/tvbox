@@ -14,6 +14,5 @@ jobs:
       - uses: wayfair-incubator/forker@v0.0.6
       #tgymnich/fork-sync@v2.0.10
         with:
+          repo: tvbox
           owner: qist
-          base: master
-          head: master
