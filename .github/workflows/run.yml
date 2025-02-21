@@ -5,7 +5,7 @@ on:
     - cron: "30 2 * * *"
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - "**/README.md"
 jobs:
