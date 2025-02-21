@@ -11,9 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: wayfair-incubator/forker@v0.0.6
-      #tgymnich/fork-sync@v2.0.10
+      # - uses: wayfair-incubator/forker@v0.0.6
+      - uses: tgymnich/fork-sync@v2.0.10
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
-          repo: tvbox
           owner: qist
+          base: master
+          head: master
+        # with:
+        #   token: ${{ secrets.PERSONAL_TOKEN }}
+        #   repo: tvbox
+        #   owner: qist
