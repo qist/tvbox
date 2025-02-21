@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: tgymnich/fork-sync@v2.0.10
+      - uses: wayfair-incubator/forker@v0.0.6
+      #tgymnich/fork-sync@v2.0.10
         with:
           owner: qist
           base: master
