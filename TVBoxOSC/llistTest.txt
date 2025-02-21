@@ -16,39 +16,19 @@
 
 
 極速 | 港台,#genre#
-
-翡翠台,http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
-華麗翡翠,http://cdn9.1689.us.kg/smt1.1.php?id=Tvbjade
-星河,http://cdn9.1689.us.kg/smt1.1.php?id=Xinhe
-千禧經典,http://cdn9.1689.us.kg/smt1.1.php?id=Tvbclassic
-ASTRO AOD,http://cdn9.1689.us.kg/smt1.1.php?id=Aodhd
-TVB plus,http://cdn5.1678520.xyz/live/?id=tvbp
-TVB plus備,http://117.27.251.40/libof.kesx.top/live/5658kwkojtz.m3u8
-popc,http://gweid.serv00.net/tui.php?id=popc
-tvbplus,http://gweid.serv00.net/tui.php?id=tvbplus
-翡翠台備,http://gweid.serv00.net/tui.php?id=fct
-viutv,http://gweid.serv00.net/tui.php?id=viutv
-無線 新聞,http://live.cooltv.top/tv/tvb.php?id=2
-鳳凰中文,http://122.224.232.226:8888/udp/233.50.200.191:5140
-鳳凰資訊,http://122.224.232.226:8888/udp/233.50.200.192:5140
-香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8
-香港32台,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
-香港33台,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
-香港34台,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
-香港35台,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
-TVB星河3,https://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
-功夫,https://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
-娛樂新聞,https://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
-TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-中視,rtmp://f13h.mine.nu/sat/tv091
+民視,rtmp://f13h.mine.nu/sat/tv051
 華視,rtmp://f13h.mine.nu/sat/tv111
 台視,rtmp://f13h.mine.nu/sat/tv071
-民視,rtmp://f13h.mine.nu/sat/tv051
+中視,rtmp://f13h.mine.nu/sat/tv091
 緯來體育,http://mtw.so/5yqGDH
 緯來體育,rtmp://f13h.mine.nu/sat/tv721
 緯來育樂,rtmp://f13h.mine.nu/sat/tv701
 緯來日本,rtmp://f13h.mine.nu/sat/tv771
 東森超視,rtmp://f13h.mine.nu/sat/tv331
+愛爾達體育1,tvbus://4C7iijGJx8QDyQ35Ns5b7iJWC5w8war2epeg1hD1CHw7jRWjzX
+愛爾達體育2,tvbus://37fFPRRDFH94asBuL1qdYHY991fCcoV9kjac8gzUD8qsiDpFRy
+愛爾達體育3,tvbus://3zW4ZaVHLUzmkAD7a831uurBVxv99oKA44T12Mw8BUyc4MEYu4
+愛爾達體育4,tvbus://4HFCtUh7QyRnm67tGqd6TraHq4JeuGavJ4rpGMQbNkHn4xbmcG
 八大戲劇,http://61.221.215.25:8800/hls/39/index.m3u8
 八大戲劇,http://61.221.215.25:8800/hls/41/index.m3u8
 中華小當家,http://61.221.215.25:8800/hls/40/index.m3u8
@@ -74,6 +54,29 @@ ViuTV,http://zsntlqj.xicp.net:8895/bysid/99.m3u8
 TVB Plus,http://zsntlqj.xicp.net:8896/bysid/82.m3u8
 無綫新聞,http://zsntlqj.xicp.net:8896/bysid/83.m3u8
 鳳凰衛視香港台,http://zsntlqj.xicp.net:8896/bysid/85.m3u8
+翡翠台,http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
+華麗翡翠,http://cdn9.1689.us.kg/smt1.1.php?id=Tvbjade
+星河,http://cdn9.1689.us.kg/smt1.1.php?id=Xinhe
+千禧經典,http://cdn9.1689.us.kg/smt1.1.php?id=Tvbclassic
+ASTRO AOD,http://cdn9.1689.us.kg/smt1.1.php?id=Aodhd
+TVB plus,http://cdn5.1678520.xyz/live/?id=tvbp
+TVB plus備,http://117.27.251.40/libof.kesx.top/live/5658kwkojtz.m3u8
+popc,http://gweid.serv00.net/tui.php?id=popc
+tvbplus,http://gweid.serv00.net/tui.php?id=tvbplus
+翡翠台備,http://gweid.serv00.net/tui.php?id=fct
+viutv,http://gweid.serv00.net/tui.php?id=viutv
+無線 新聞,http://live.cooltv.top/tv/tvb.php?id=2
+鳳凰中文,http://122.224.232.226:8888/udp/233.50.200.191:5140
+鳳凰資訊,http://122.224.232.226:8888/udp/233.50.200.192:5140
+香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8
+香港32台,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
+香港33台,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
+香港34台,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
+香港35台,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
+TVB星河3,https://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
+功夫,https://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
+娛樂新聞,https://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
+TVBJ1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
 
 翡翠台,http://124.244.149.194:65530/bysid/1.m3u8
 ViuTVsix,http://124.244.149.194:65530/bysid/96.m3u8
