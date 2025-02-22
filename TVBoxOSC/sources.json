@@ -5,15 +5,15 @@
  // "logo": "https://www1.RobYang.us.kg//RobYang.jpg",
   "urls": [
     {
-      "url": "http://www1.RobYang.us.kg/VodLive/jb8ffa", //jsm　　"https://RobYang.serv00.net/VodLive/jb8ffa.php"
+      "url": "http://www1.RobYang.us.kg/VodLive/jb8ffa", //jsm　　
       "name": "🏠RobYang 點直播"
     },
     {
-      "url": "http://www1.RobYang.rr.nu/VodLive/jb8ffa", //jsm　　"https://RobYang.serv00.net/VodLive/jb8ffa.php"
+      "url": "http://www1.RobYang.rr.nu/VodLive/jb8ffa", //jsm　
       "name": "🏠RobYang 點直播(備1)"
     },
     {
-      "url": "http://RobYang.runasp.net/VodLive/jb8ffa", //jsm　　"https://RobYang.serv00.net/VodLive/jb8ffa.php"
+      "url": "http://RobYang.runasp.net/VodLive/jb8ffa", //jsm　　
       "name": "🏠RobYang 點直播(備2)"
     },
     {
@@ -21,11 +21,11 @@
       "name": "🏘️RobYang 總點直播源1 http://RobYang.us.kg"
     },
     {
-      "url": "http://RobYang.rr.nu", //source
+      "url": "http://RobYang.rr.nu", //source htts://RobYang.runasp.net/VodLive/sb8ffa
       "name": "🏘️RobYang 總點直播源2 http://RobYang.rr.nu"
     },
     {
-      "url": "http://2487.rr.nu", //source
+      "url": "http://2487.rr.nu", //source http://www1.RobYang.rr.nu/VodLive/sb8ffa
       "name": "🏘️RobYang 總點直播源3"
     },
     {
