@@ -9,8 +9,12 @@
       "name": "🏠RobYang 點直播"
     },
     {
-      "url": "http://RobYang.runasp.net/VodLive/jb8ffa", //jsm　　"https://RobYang.serv00.net/VodLive/jb8ffa.php"
+      "url": "http://www1.RobYang.rr.nu/VodLive/jb8ffa", //jsm　　"https://RobYang.serv00.net/VodLive/jb8ffa.php"
       "name": "🏠RobYang 點直播(備1)"
+    },
+    {
+      "url": "http://RobYang.runasp.net/VodLive/jb8ffa", //jsm　　"https://RobYang.serv00.net/VodLive/jb8ffa.php"
+      "name": "🏠RobYang 點直播(備2)"
     },
     {
       "url": "http://RobYang.us.kg", // -> https://robyang.serv00.net/ -> https://www1.RobYang.us.kg/VodLive/sb8ffa，　"https://RobYang.serv00.net/VodLive/ b8ffa.php",　//Doesn't work correctly because missing jar json js...etc
@@ -32,10 +36,7 @@
       "url": "http://RobYang.serv00.net", //source
       "name": "🏘️RobYang 總點直播源5"
     },
-    {
-      "url": "http://RobYang.runasp.net", //source
-      "name": "🏘️RobYang 總點直播源6"
-    },
+
     // {
     //   "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
     //   "name": "高天流雲"
