@@ -600,7 +600,7 @@
             "type": 3,
             "api": "csp_Muou",
             "playerType": 2,
-            "ext": "caHR0cDovL2FwcC55aXlpNTIxLnRvcHxZSVlJ5b2x6KeGfDQuMS44"
+            "ext": "caHR0cDovL211b3UuNTZ1eGkuY29tfENvZmZlZTRLfDQuMS44"
         },
         {
             "key": "星河",
@@ -648,7 +648,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cDovL3NkeXMudXMvc2QudHh0fDdmOWI0OWRhZjkyOGNjZTd8N2Y5YjQ5ZGFmOTI4Y2NlN3w0NDI="
+            "ext": "jaHR0cHM6Ly95b3V5b3V0dS0xMzE5MjA5NzQ4LmNvcy5hcC1jaGVuZ2R1Lm15cWNsb3VkLmNvbS93RjlvQTRmRDh4Rzh4RzVxLnR4dHxkUzl0WTVuSzR0WDlvSTFqfGRTOXRZNW5LNHRYOW9JMWp8NDQy"
         },
         {
             "key": "优质",
@@ -664,7 +664,7 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 2,
-            "ext": "saHR0cDovL3d3dy56amMuYXBwfGFiNGU5YTQyMTY3NWYxNGJ8YWI0ZTlhNDIxNjc1ZjE0Ynw0NDI="
+            "ext": "saHR0cDovL2hvc3QueXl5cy5uZXdzLzI1MDEyMy50eHR8UnVOOUxSdndUUmdwUW5wS3xSdU45TFJ2d1RSZ3BRbnBLfDU0Ng=="
         },
         {
             "key": "蝴蝶",
@@ -831,6 +831,14 @@
             "api": "csp_XiaoMaoApp"
         },
         {
+            "key": "小米良人",
+            "name": "良人｜APP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "api": "csp_LiangRenApp"
+        },
+        {
             "key": "西瓜视频",
             "name": "西瓜｜视频",
             "type": 3,
@@ -859,6 +867,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "南瓜影视",
+            "name": "南瓜｜影视",
+            "type": 3,
+            "api": "csp_NanGua",
+            "playerType": 1,
+            "ext": "maHR0cDovL25nLmNoYW5nbWVuZ3l1bi5jb20="
         },
         {
             "key": "农民影视",
