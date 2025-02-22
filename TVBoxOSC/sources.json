@@ -4,14 +4,16 @@
   "wallpaper": "http://img.fongmi.eu.org",
  // "logo": "https://www1.RobYang.us.kg//RobYang.jpg",
   "urls": [
+        {
+      "url": "http://www1.RobYang.rr.nu/VodLive/jb8ffa", //jsm　
+      "name": "🏠RobYang 點直播(備1)"
+    },
+    
     {
       "url": "http://www1.RobYang.us.kg/VodLive/jb8ffa", //jsm　　
       "name": "🏠RobYang 點直播"
     },
-    {
-      "url": "http://www1.RobYang.rr.nu/VodLive/jb8ffa", //jsm　
-      "name": "🏠RobYang 點直播(備1)"
-    },
+
     {
       "url": "http://RobYang.runasp.net/VodLive/jb8ffa", //jsm　　
       "name": "🏠RobYang 點直播(備2)"
