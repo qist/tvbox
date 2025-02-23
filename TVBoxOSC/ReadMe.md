@@ -29,18 +29,19 @@
 
 
 #Domain Name:
-1. new subdomain name: https:/NIC.us.kg
-2. new subdomain name: https://nic.eu.org/
-3. new subdomain name: https://www.sitelutions.com/signup 
-4. URL redirect: https://redirect.name
+1. new subdomain name: https:/NIC.us.kg (R0byang.us.kg, 2487.us.kg)
+2. new subdomain name: https://customer.l53.net  (free first year for ggff.net, RobYang.ggff.net, CloudFlare can DNS)
+3. new subdomain name: https://nic.eu.org/
+4. new subdomain name: https://www.sitelutions.com/signup (RobYang.rr.nu)
+5. URL redirect: https://redirect.name
    1. github            IN  CNAME  alias.redirect.name
    2. _redirect.github  IN  TXT    "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa" 
-5. Url redirect: https://freedirector.io/dashboard  (free 5 redirect)
-6. DNS manage: https://www.cloudflare.com (cannot do rr.nu)
-7. DNS manage & DDNS: https://freedns.afraid.org (free URL forwarding)
-8. DNS manage & DDNS: https://www.cloudns.net (free URL forwarding, free 1 DNS hosting)
-9. DNS manage & DDNS: https://www.changeip.com ($9/year for DNS manage)
-10. DNS manage & DDNS: https://dnsexit.com/ (free DNS manage, but only 7 days url forwarding)
+6. Url redirect: https://freedirector.io/dashboard  (free 5 redirect)
+7. DNS manage: https://www.cloudflare.com (cannot do rr.nu)
+8. DNS manage & DDNS: https://freedns.afraid.org (free URL forwarding)
+9. DNS manage & DDNS: https://www.cloudns.net (free URL forwarding, free 1 DNS hosting)
+10. DNS manage & DDNS: https://www.changeip.com ($9/year for DNS manage)
+11. DNS manage & DDNS: https://dnsexit.com/ (free DNS manage, but only 7 days url forwarding)
    1. Https SSL expires every 90 days
       1. https://dnsexit.com/dns/ssl-api/#renew-domain-ssl
       ```
@@ -62,8 +63,8 @@
       1. "DNS" go to domain, "edit dns"
       2. go to the dashboard "URL Forwarding" eg, https://dnsexit.com/UrlForward.sv?action=new&domainname=robyang.line.pm
       3. setup formwaring there.
-11. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
-12. DNS manage: DNSPod
+12. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
+13. DNS manage: DNSPod
 
 #.net host:
 1. https://freeasphosting.net can use own domain. (Left side "Add Domain").
