@@ -4,40 +4,46 @@
   "wallpaper": "http://img.fongmi.eu.org",
  // "logo": "https://www1.RobYang.us.kg//RobYang.jpg",
   "urls": [
-        {
-      "url": "http://www1.RobYang.rr.nu/VodLive/jb8ffa", //jsm　
+    {
+      "url": "http://www1.RobYang.ggff.net/VodLive/jb8ffa", //jsm　　
       "name": "🏠RobYang 點直播(備1)"
     },
-    
+        {
+      "url": "http://www1.RobYang.rr.nu/VodLive/jb8ffa", //jsm　
+      "name": "🏠RobYang 點直播(備2)"
+    },    
     {
       "url": "http://www1.RobYang.us.kg/VodLive/jb8ffa", //jsm　　
       "name": "🏠RobYang 點直播"
     },
-
     {
       "url": "http://RobYang.runasp.net/VodLive/jb8ffa", //jsm　　
-      "name": "🏠RobYang 點直播(備2)"
+      "name": "🏠RobYang 點直播(備3)"
     },
     {
       "url": "http://RobYang.us.kg", // -> https://robyang.serv00.net/ -> https://www1.RobYang.us.kg/VodLive/sb8ffa，　"https://RobYang.serv00.net/VodLive/ b8ffa.php",　//Doesn't work correctly because missing jar json js...etc
-      "name": "🏘️RobYang 總點直播源1 http://RobYang.us.kg"
+      "name": "🏘️RobYang 總源 http://RobYang.us.kg"
     },
     {
-      "url": "http://RobYang.rr.nu", //source htts://RobYang.runasp.net/VodLive/sb8ffa
-      "name": "🏘️RobYang 總點直播源2 http://RobYang.rr.nu"
+      "url": "http://RobYang.ggff.net", //source htts://RobYang.runasp.net/VodLive/sb8ffa
+      "name": "🏘️RobYang 總源(備1) http://RobYang.ggff.net"
     },
     {
-      "url": "http://2487.rr.nu", //source http://www1.RobYang.rr.nu/VodLive/sb8ffa
-      "name": "🏘️RobYang 總點直播源3"
+      "url": "http://RobYang.rr.nu", //source http://www1.RobYang.rr.nu/VodLive/sb8ffa
+      "name": "🏘️RobYang 總源(備2) http://RobYang.rr.nu"
     },
-    {
-      "url": "http://2487.us.kg", //source
-      "name": "🏘️RobYang 總點直播源4"
-    },
-    {
-      "url": "http://RobYang.serv00.net", //source
-      "name": "🏘️RobYang 總點直播源5"
-    },
+    // {
+    //   "url": "http://2487.rr.nu", //source http://www1.RobYang.rr.nu/VodLive/sb8ffa
+    //   "name": "🏘️RobYang 總點直播源4"
+    // },
+    // {
+    //   "url": "http://2487.us.kg", //source
+    //   "name": "🏘️RobYang 總點直播源5"
+    // },
+    // {
+    //   "url": "http://RobYang.serv00.net", //source
+    //   "name": "🏘️RobYang 總點直播源6"
+    // },
 
     // {
     //   "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",

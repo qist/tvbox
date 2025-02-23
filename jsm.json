@@ -793,9 +793,9 @@
 ],
 "lives": [ 
   {
-    "name": "🏠RobYang備1| http://RobYang.rr.nu",
+    "name": "🏠RobYang備1| http://RobYang.ggff.net",
     "type": 0,
-    "url": "http://www1.RobYang.rr.nu/VodLive/lb8ffa",  
+    "url": "http://www1.RobYang.ggff.net/VodLive/lb8ffa",  
     "ua": "okhttp/4.12.0",
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
@@ -811,9 +811,9 @@
   "logo": "https://epg.112114.xyz/logo/{name}.png"
   },   
   {
-    "name": "🏠RobYang備2| http://2487.rr.nu",
+    "name": "🏠RobYang備2| http://RobYang.rr.nu",
     "type": 0,
-    "url": "http://RobYang.runasp.net/VodLive/lb8ffa",  
+    "url": "http://www1.RobYang.rr.nu/VodLive/lb8ffa",  
     "ua": "okhttp/4.12.0",
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
