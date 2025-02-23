@@ -32,10 +32,10 @@
       "url": "http://RobYang.rr.nu", //source http://www1.RobYang.rr.nu/VodLive/sb8ffa
       "name": "🏘️RobYang 總源(備2) http://RobYang.rr.nu"
     },
-    // {
-    //   "url": "http://2487.rr.nu", //source http://www1.RobYang.rr.nu/VodLive/sb8ffa
-    //   "name": "🏘️RobYang 總點直播源4"
-    // },
+    {
+      "url": "http://2487.rr.nu", //source http://www1.RobYang.rr.nu/VodLive/sb8ffa
+      "name": "🏘️RobYang 總源(備3)"
+    },
     // {
     //   "url": "http://2487.us.kg", //source
     //   "name": "🏘️RobYang 總點直播源5"
