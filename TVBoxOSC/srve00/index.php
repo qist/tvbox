@@ -3,7 +3,7 @@
 //header("Location: https://rb.gy/fkbt61");
  //header("Location: https://robyang.serv00.net/VodLive/sb8ffa.php");
 //     header("Location: https://raw.githubusercontent.com/bobyang3/tvbox/refs/heads/own/source.json");
-header("Location: https://www1.robyang.us.kg/VodLive/sb8ffa");
+header("Location: http://www1.robyang.ggff.net/VodLive/sb8ffa");
 
 
 
