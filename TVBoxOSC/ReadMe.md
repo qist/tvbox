@@ -93,8 +93,8 @@ https://www.awardspace.com
    1. https://dash.cloudflare.com/2546565fc3a1939a63376c253d51c06e/robyang.us.kg/rules/redirect-rules/bulk-redirects
    2. update all old url to new url
 2. update TVBoxOSC/serv00/index.php to the right new URL sources file
-3. update source.json pointing to the new server
-4. update jsm.json pointing to the new server
+3. update source.json pointing to the new server or change backup to the top
+4. update jsm.json pointing to the new server or change backup to the top
 5. upload to github
 6. go to the old database
    1. update "jb8ffa" (jsm) to the new server eg http://RobYang.rr.nu
@@ -112,9 +112,9 @@ https://www.awardspace.com
 
 
 #How to update OKTV when site gone to carry history?
-1. long click VOD field in Setting
+1. LONG click VOD field in Setting
 2. update url to the new url (label with be changed due to limited chars)
-3. refresh with sources.json and the label will updated correctly
+3. refresh with sources.json, eg, "RobYang總源" and the label will updated correctly
 4. go to history and everything should stay
 
 
