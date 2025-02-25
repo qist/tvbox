@@ -1,4 +1,4 @@
-👉TUF | 台港國際👉,#genre#
+👉  TUF | 台港國際  👉,#genre#
 民視,rtmp://f13h.mine.nu/sat/tv051
 民視,rtmp://f13h.mine.nu:1935/sat/tv051
 民视 HD,http://37.27.111.214:8080/live/6/hls.m3u8
