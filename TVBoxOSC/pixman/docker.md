@@ -24,7 +24,28 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
 2. install Portainer UI: https://youtu.be/_2Llvz_0pB4?si=jHaaW4Aw-ISerwFM 
 
 
-## 1. 4GTV FastAPI （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/fastapi-4gtv: 
+
+
+
+## 1. liuyong1987 劉墉 刘墉: (taiwan IP only) https://hub.docker.com/u/liuyong1987)
+    1. sudo docker pull liuyong1987/fourgtv:latest
+    3. sudo docker run -d --name=fourgtv -p 50013:8000 --restart=always liuyong1987/fourgtv:latest
+    4. 订阅列表：
+         - mytvsuper: http://[IP:PORT]/mytvsuper.m3u
+         - now: http://[IP:PORT]/now.m3u
+         - now-free: http://[IP:PORT]/now-free.m3u
+         - 4gtv: http://[IP:PORT]/4gtv.m3u https://www1.RobYang.us.kg/TxtM3u?url=http://[IP:PORT]/4gtv.m3u 
+         - itv: http://[IP:PORT]/itv.m3u
+         - beesport: http://[IP:PORT]/beesport.m3u
+         - Plex: http://[IP:PORT]/plex.m3u
+         - Pluto: http://[IP:PORT]/pluto-us.m3u
+         - Thetvapp: http://[IP:PORT]/thetvapp.m3u
+         - Tubi: http://[IP:PORT]/tubi-us.m3u (美国线路)
+         - http://[IP:PORT]/tubi-ca.m3u (加拿大线路)
+
+
+
+## 2. 4GTV FastAPI （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/fastapi-4gtv: 
 ======
    1. docker镜像拉取:
          sudo docker pull mybtjson/fastapi-4gtv:1.0.3
@@ -33,17 +54,7 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
 
 
 
-## 1. itv: (china)
-======
-Author --by( 沐辰&&Doubebly )
-docker镜像拉取: docker pull doubebly/doube-ofiii:latest
-docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:latest
-
-访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
-
-
-
-## 2. ofiii: (taiwan IP only 無民視) https://hub.docker.com/r/doubebly/doube-ofiii/tags
+## 3. ofiii: (taiwan IP only 無民視) https://hub.docker.com/r/doubebly/doube-ofiii/tags
 ======
 台湾直播的docker镜像 ofiii直播镜像
 Author --by( 沐辰&&Doubebly )
@@ -61,9 +72,17 @@ https://t.me/livednowgroup/357610
 
 
 
+## 4. itv: (china)
+======
+Author --by( 沐辰&&Doubebly )
+docker镜像拉取: docker pull doubebly/doube-ofiii:latest
+docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:latest
+
+访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
 
 
-## 3. Pixman: https://pixman.io/topics/17
+
+## 5. Pixman: https://pixman.io/topics/17
     1. How to modify file:
        1. Go to "Console" (instance, console) https://app.koyeb.com/services/aa524a02-5577-4377-9ecc-7223a9ad3a6f/console
        2. use "vi titv.yaml"
@@ -82,24 +101,6 @@ https://t.me/livednowgroup/357610
           2. :q! to not save 
        8. Restart the instance: "Settings" ,"Pause", wait for 2 mins, then "Resume"
    
-
-
-## 4. liuyong1987 劉墉 刘墉: (https://hub.docker.com/u/liuyong1987)
-    1. sudo docker pull liuyong1987/fourgtv:latest
-    3. sudo docker run -d --name=fourgtv -p 50013:8000 --restart=always liuyong1987/fourgtv:latest
-    4. 订阅列表：
-         - mytvsuper: http://[IP:PORT]/mytvsuper.m3u
-         - now: http://[IP:PORT]/now.m3u
-         - now-free: http://[IP:PORT]/now-free.m3u
-         - 4gtv: http://[IP:PORT]/4gtv.m3u https://www1.RobYang.us.kg/TxtM3u?url=https://www.stream-link.org/stream-link.m3u
-         - itv: http://[IP:PORT]/itv.m3u
-         - beesport: http://[IP:PORT]/beesport.m3u
-         - Plex: http://[IP:PORT]/plex.m3u
-         - Pluto: http://[IP:PORT]/pluto-us.m3u
-         - Thetvapp: http://[IP:PORT]/thetvapp.m3u
-         - Tubi: http://[IP:PORT]/tubi-us.m3u (美国线路)
-         - http://[IP:PORT]/tubi-ca.m3u (加拿大线路)
-
 
 
 
