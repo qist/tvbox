@@ -351,11 +351,11 @@
 {"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"}}}
 ],
 "hosts": [
-        "cache.ott.ystenlive.itv.cmvideo.cn=hw3a.douyucdn2.cn.ctdns.cn",
-        "cache.ott.bestlive.itv.cmvideo.cn=hw3a.douyucdn2.cn.ctdns.cn",
-        "cache.ott.wasulive.itv.cmvideo.cn=hw3a.douyucdn2.cn.ctdns.cn",
-        "cache.ott.fifalive.itv.cmvideo.cn=hw3a.douyucdn2.cn.ctdns.cn",
-        "cache.ott.hnbblive.itv.cmvideo.cn=hw3a.douyucdn2.cn.ctdns.cn"
+        "cache.ott.ystenlive.itv.cmvideo.cn=liveln.ctx.tv189.com.ctdns.cn",
+        "cache.ott.bestlive.itv.cmvideo.cn=liveln.ctx.tv189.com.ctdns.cn",
+        "cache.ott.wasulive.itv.cmvideo.cn=liveln.ctx.tv189.com.ctdns.cn",
+        "cache.ott.fifalive.itv.cmvideo.cn=liveln.ctx.tv189.com.ctdns.cn",
+        "cache.ott.hnbblive.itv.cmvideo.cn=liveln.ctx.tv189.com.ctdns.cn"
 ],
 "flags":["youku","优酷","优 酷","优酷视频", "qq","腾讯","腾 讯","腾讯视频", "iqiyi", "qiyi","奇艺","爱奇艺","爱 奇 艺", "m1905", "xigua", "letv","leshi","乐视","乐 视", "sohu","搜狐","搜 狐","搜狐视频", "tudou","mgtv","芒果","imgo","芒果TV","芒 果 T V", "bilibili","哔 哩","哔 哩 哔 哩","SPA","YuMi-vip","pptv","PPTV","ltnb","rx","SLYS4k","tucheng","BYGA","luanzi","dxzy","QEYSS","aliyun","AliS","122","chuangying","CL4K","xfyun","wuduzy","wasu","renrenmi","ppayun","haiwaikan","cool","dbm3u8","xmm","funshion","ruyi1080","ruyib1080"],
 "doh":[
