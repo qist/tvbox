@@ -59,16 +59,32 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
 台湾直播的docker镜像 ofiii直播镜像
 Author --by( 沐辰&&Doubebly )
 
-docker镜像拉取: 
-   sudo docker pull doubebly/doube-ofiii:latest
+docker镜像拉取:    sudo docker pull doubebly/doube-ofiii:latest
 
-docker镜像运行: 
-   sudo docker run -d --name=doube-ofiii -p 50002:5000 --restart=always doubebly/doube-ofiii:latest
+docker镜像运行:    sudo docker run -d --name=doube-ofiii -p 50002:5000 --restart=always doubebly/doube-ofiii:latest
+
+OR docker镜像运行 配置token和User-Agent:    docker run -d --name=doube-ofiii -p 50002:5000 -v /home/doubebly.json:/app/config/doubebly.json --restart=always doubebly/doube-ofiii:latest
+doubebly.json文件内容如下：
+{
+"Token_enabled": false,
+"Token": ["Double001", "Double001"],
+"User-agent_enabled": false,
+"User-agent": "PotPlayer/24.12.16"
+}
+Token_enabled和User-agent_enabled为布尔值，true为开启，false为关闭
+Token的值是一个数组可以添加多个
+User-agent的值是你自定义个ua
+
 
 访问 http://ip:port/help (示例：http://127.0.0.1:50002/help)，可以看到txt和m3u的订阅链接
 
 技术反馈群，https://t.me/doubebly003
 https://t.me/livednowgroup/357610
+
+
+txt: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
+m3u: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
+token，订阅地址请加token参数: http://ip:port/Sub?type=m3u&sd=1080&proxy=true&token=Double001
 
 
 
