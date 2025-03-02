@@ -42,15 +42,27 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
          - Thetvapp: http://[IP:PORT]/thetvapp.m3u
          - Tubi: http://[IP:PORT]/tubi-us.m3u (美国线路)
          - http://[IP:PORT]/tubi-ca.m3u (加拿大线路)
+一键修复:
+curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
+
+修复now 获取新的mpd key。 整合多了个 now-self.m3u 等于free列表 详情 https://t.me/livednowgroup/386393
+目录更正 https://t.me/livednowgroup/387376
+网友的备份1: https://t.me/livednowgroup/387476
+备份2: ru2025/fourgtv
+
 
 
 
 ## 2. 4GTV FastAPI （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/fastapi-4gtv: 
 ======
    1. docker镜像拉取:
-         sudo docker pull mybtjson/fastapi-4gtv:1.0.3
+         sudo docker pull mybtjson/fastapi-4gtv:1.0.5
    2. docker镜像运行:
-         sudo docker run -d --name=fastapi-4gtv -p 50012:5000 --restart=always mybtjson/fastapi-4gtv:1.0.3
+         sudo docker run -d --name=fastapi-4gtv -p 50012:5000 --restart=always mybtjson/fastapi-4gtv:1.0.5
+http://ip:50007/help
+http://ip:50007/?type=txt
+http://ip:50007/?type=m3u
+
 
 
 
