@@ -34,7 +34,7 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
          - mytvsuper: http://[IP:PORT]/mytvsuper.m3u
          - now: http://[IP:PORT]/now.m3u
          - now-free: http://[IP:PORT]/now-free.m3u
-         - 4gtv: http://[IP:PORT]/4gtv.m3u https://www1.RobYang.us.kg/TxtM3u?url=http://[IP:PORT]/4gtv.m3u 
+         - 4gtv: http://[IP:PORT]/4gtv.m3u https://live1.RobYang.us.kg/TxtM3u?url=http://[IP:PORT]/4gtv.m3u 
          - itv: http://[IP:PORT]/itv.m3u
          - beesport: http://[IP:PORT]/beesport.m3u
          - Plex: http://[IP:PORT]/plex.m3u
@@ -106,6 +106,14 @@ Author --by( 沐辰&&Doubebly )
 docker镜像拉取: docker pull doubebly/doube-ofiii:latest
 docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:latest
 
+访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
+
+
+
+## 5. itv-plus: (china)
+======
+docker镜像拉取: docker pull doubebly/doube-itv-plus:1.0.3 
+docker镜像运行: sudo docker run -d --name=doube-itv-plus --restart=always -p 50001:5000 doubebly/doube-itv-plus:1.0.3
 访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
 
 
