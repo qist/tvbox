@@ -101,7 +101,9 @@ V1.1.2版本以下
 
 （14）github代理地址： `https://github.moeyy.xyz https://mirror.ghproxy.com/ https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
 
-（15） 还可以使用域名: `https://qist.ugigc.us.kg/jsm.json` cloudflare Pages 构建
+（15） 还可以使用域名: `https://qist.swsixtwo.top/jsm.json` cloudflare Pages 构建
+ 
+（16） 添加潇洒 接口： https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json 或者 https://qist.swsixtwo.top/xiaosa/api.json
 
 1. token.json格式说明：
 

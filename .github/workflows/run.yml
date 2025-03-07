@@ -1,0 +1,41 @@
+name: Update xiaosa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 2 * * *"
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**/README.md"
+jobs:
+  build:
+    runs-on: ubuntu-latest      
+    steps:
+      - name: Checkout the branch
+        uses: actions/checkout@v4
+
+      - name: wget the xiaosa 
+        run: |
+           pwd
+           cd xiaosa/
+           wget https://jihulab.com/fourd/FourD/-/raw/main/local/%E5%8D%95%E7%BA%BF%E8%B7%AF.zip -O xiaosa.zip
+           unzip xiaosa.zip
+           \cp -pdr TVBoxOSC/tvbox/* ./
+           rm -rf xiaosa.zip TVBoxOSC
+        shell: bash
+    #   - name: Move files to publish directory
+    #     run: |
+    #       mkdir -p publish
+    #       \cp *.txt ./publish/
+      - name: Git push assets to "release" branch
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "87984115+github-actions[bot]@users.noreply.github.com"
+          git add .
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "潇洒更新 $(date +%Y%m%d%H%M)"
+            git push -f origin master
+          else
+            echo "没有文件更新，不执行 git push"
+          fi
