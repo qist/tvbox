@@ -68,31 +68,34 @@ http://ip:50007/?type=m3u
 
 ## 3. ofiii: (taiwan IP only 無民視) https://hub.docker.com/r/doubebly/doube-ofiii/tags
 ======
-台湾直播的docker镜像 ofiii直播镜像
-Author --by( 沐辰&&Doubebly )
+台湾vps部署：
+docker run -d --name=doube-ofiii -p 50002:5000 --restart=always doubebly/doube-ofiii:1.1.0
 
-docker镜像拉取:    sudo docker pull doubebly/doube-ofiii:latest
+软路由部署，下面运行命令中的"http://192.168.50.50:7890"为你软路由设置的台湾节点http代理：
+docker run -d --name=doube-ofiii -p 50002:5000 --restart=always -e http_proxy=http://192.168.50.50:7890 -e https_proxy=http://192.168.50.50:7890 doubebly/doube-ofiii:1.1.0
 
-docker镜像运行:    sudo docker run -d --name=doube-ofiii -p 50002:5000 --restart=always doubebly/doube-ofiii:latest
+# 不代理TXT订阅，播放端需要挂台湾梯子：
+http://ip:port/Sub?type=txt&sd=1080
 
-OR docker镜像运行 配置token和User-Agent:    docker run -d --name=doube-ofiii -p 50002:5000 -v /home/doubebly.json:/app/config/doubebly.json --restart=always doubebly/doube-ofiii:latest
+# 代理TXT订阅：
+http://ip:port/Sub?type=txt&sd=1080&proxy=true
+
+# 不代理M3U订阅，播放端需要挂台湾梯子：
+http://ip:port/Sub?type=m3u&sd=1080
+
+# 代理M3U订阅：
+http://ip:port/Sub?type=m3u&sd=1080&proxy=true
+
+# 点播订阅，可同时订阅多个点播，建议三到五个，用英文逗号分割，例如：ofiii75,ofiii74,ofiii73
+
+http://ip:port/ofiii.m3u?pids=ofiii75,ofiii74,ofiii73&sd=1080&proxy=true
 doubebly.json文件内容如下：
 {
 "Token_enabled": false,
 "Token": ["Double001", "Double001"],
 "User-agent_enabled": false,
-"User-agent": "PotPlayer/24.12.16"
+"User-agent": ["PotPlayer/24.12.16", "Mozilla/5.0"]
 }
-Token_enabled和User-agent_enabled为布尔值，true为开启，false为关闭
-Token的值是一个数组可以添加多个
-User-agent的值是你自定义个ua
-
-
-访问 http://ip:port/help (示例：http://127.0.0.1:50002/help)，可以看到txt和m3u的订阅链接
-
-技术反馈群，https://t.me/doubebly003
-https://t.me/livednowgroup/357610
-
 
 txt: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
 m3u: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
@@ -103,8 +106,8 @@ token，订阅地址请加token参数: http://ip:port/Sub?type=m3u&sd=1080&proxy
 ## 4. itv: (china)
 ======
 Author --by( 沐辰&&Doubebly )
-docker镜像拉取: docker pull doubebly/doube-ofiii:latest
-docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:latest
+docker镜像拉取: docker pull doubebly/doube-ofiii:1.1.0
+docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:1.1.0
 
 访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
 
@@ -112,8 +115,8 @@ docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=alw
 
 ## 5. itv-plus: (china)
 ======
-docker镜像拉取: docker pull doubebly/doube-itv-plus:1.0.3 
-docker镜像运行: sudo docker run -d --name=doube-itv-plus --restart=always -p 50001:5000 doubebly/doube-itv-plus:1.0.3
+docker镜像拉取: docker pull doubebly/doube-itv-plus:1.1.0
+docker镜像运行: sudo docker run -d --name=doube-itv-plus --restart=always -p 50001:5000 doubebly/doube-itv-plus:1.1.0
 访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
 
 
