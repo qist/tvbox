@@ -13,7 +13,7 @@
 8. http://RobYang.AsSexyAs.com
    1.  from sitelutions
    2.  DNS by https://www.cloudns.net/ free URL forwarding, free 1 DNS hosting
-9.  http://2487.rr.nu (by sitelutions, https://www.cloudns.net/ free URL forwarding, free 1 DNS hosting)
+9.  http://2487.rr.nu (by sitelutions)
    1.  from sitelutions
    2.  DNS by https://dnsexit.com
 10. http://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL) 
