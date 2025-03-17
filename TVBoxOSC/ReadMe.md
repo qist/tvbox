@@ -3,23 +3,23 @@
 2. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake, web hosting https://freeasphosting.net )
    1. http://2487.us.kg
 3. net https://RobYang.runasp.net (by monsterasp.net)
-7. http://RobYang.rr.nu
+4. http://RobYang.rr.nu
    1. from https://www.sitelutions.com/Auth/urldnscc
    2. DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4
    3. DDNS: https://dnsexit.com/users/dns/dyn/
    4. redirect in https://dnsexit.com 
       1. Add www9 in CNAME  "alias.redirect.name" (https://dnsexit.com/Direct.sv?cmd=userDnsTXT&actioncode=13)
       2. and txt in "_redirect.www9.robyang.rr.nu" "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa"
-8. http://RobYang.AsSexyAs.com
+5. http://RobYang.AsSexyAs.com
    1.  from sitelutions
    2.  DNS by https://www.cloudns.net/ free URL forwarding, free 1 DNS hosting
-9.  http://2487.rr.nu (by sitelutions)
+6.  http://2487.rr.nu (by sitelutions)
    1.  from sitelutions
    2.  DNS by https://dnsexit.com
-10. http://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL) 
-11. ~~php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (need to use browser and turn on javascript http://cpanel.clouds.tw/)
-12. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
-13. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
+7.  http://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL) 
+8.  ~~php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (need to use browser and turn on javascript http://cpanel.clouds.tw/)
+9.  ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
+10. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
 
 
 #monitoring 
@@ -29,19 +29,20 @@
 
 
 #Domain Name:
-1. new subdomain name: https:/NIC.us.kg (R0byang.us.kg, 2487.us.kg)
-2. new subdomain name: https://customer.l53.net  (free first year for ggff.net, RobYang.ggff.net, CloudFlare can DNS)
-3. new subdomain name: https://nic.eu.org/
-4. new subdomain name: https://www.sitelutions.com/signup (RobYang.rr.nu)
-5. URL redirect: https://redirect.name
+1. new subdomain name: https:/NIC.us.kg (Robyang.us.kg, 2487.us.kg)
+2. new subdomain name: https://dash.domain.digitalplat.org/panel/main (Robyang.dpdns.org, 2487.dpdns.org)
+3. new subdomain name: https://customer.l53.net  (free first year for ggff.net, RobYang.ggff.net, CloudFlare can DNS)
+4. new subdomain name: https://nic.eu.org/
+5. new subdomain name: https://www.sitelutions.com/signup (RobYang.rr.nu)
+6. URL redirect: https://redirect.name
    1. github            IN  CNAME  alias.redirect.name
    2. _redirect.github  IN  TXT    "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa" 
-6. Url redirect: https://freedirector.io/dashboard  (free 5 redirect)
-7. DNS manage: https://www.cloudflare.com (cannot do rr.nu)
-8. DNS manage & DDNS: https://freedns.afraid.org (free URL forwarding)
-9. DNS manage & DDNS: https://www.cloudns.net (free URL forwarding, free 1 DNS hosting)
-10. DNS manage & DDNS: https://www.changeip.com ($9/year for DNS manage)
-11. DNS manage & DDNS: https://dnsexit.com/ (free DNS manage, but only 7 days url forwarding)
+7. Url redirect: https://freedirector.io/dashboard  (free 5 redirect)
+8. DNS manage: https://www.cloudflare.com (cannot do rr.nu)
+9. DNS manage & DDNS: https://freedns.afraid.org (free URL forwarding)
+10. DNS manage & DDNS: https://www.cloudns.net (free URL forwarding, free 1 DNS hosting)
+11. DNS manage & DDNS: https://www.changeip.com ($9/year for DNS manage)
+12. DNS manage & DDNS: https://dnsexit.com/ (free DNS manage, but only 7 days url forwarding)
    1. Https SSL expires every 90 days
       1. https://dnsexit.com/dns/ssl-api/#renew-domain-ssl
       ```
@@ -63,8 +64,8 @@
       1. "DNS" go to domain, "edit dns"
       2. go to the dashboard "URL Forwarding" eg, https://dnsexit.com/UrlForward.sv?action=new&domainname=robyang.line.pm
       3. setup formwaring there.
-12. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
-13. DNS manage: DNSPod
+13. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
+14. DNS manage: DNSPod
 
 #.net host:
 1. https://freeasphosting.net can use own domain. (Left side "Add Domain").
