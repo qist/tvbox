@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;8ad692765d808a238dce3ed344c24116",
+"spider":"./jar/fan.txt;md5;dda5ab42b722f13761900308a6caff89",
 "lives":[
     {"name":"live","boot": false,"type":0,"url":"./tv.txt","playerType":2,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://logo.swsixtwo.top/{name}.png"}
 ],
@@ -11,20 +11,20 @@
 {"key":"热播影视","name":"👀热播|多线","type":3,"api":"csp_AppRB","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar": "./jar/xiaosa.jar;md5;00ade2b74c302f33afbeb7f96f861be4"},
 {"key": "🌟客星","name": "🌟客星|1080P","type": 3,"api": "csp_Xdai","searchable":1,"quickSearch":1,"changeable":1,"order_num": 0,"playerType": 2,"ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==","jar": "./jar/qj.jar;md5;68959abc51dbfcba14fb08d537dbf230"},
 
-{"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
+{"key":"玩偶","name":"👽玩偶哥哥┃4K弹幕","type":3,"api":"csp_WoGGGuard","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.one/","danMu":"弹"}},
 {"key":"YGP","name":"🚀叨观荐影┃预告片","type":3,"api":"csp_YGPGuard","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"alllive","name":"📽️一直播┃直播","type":3,"api":"csp_AllliveGuard","playerType":2,"searchable":0,"quickSearch":0,"changeable":0},
 {"key":"抠搜","name":"🍄抠抠┃搜搜","type":3,"api":"csp_KkSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"UC","name":"🌈优汐┃搜搜","type":3,"api":"csp_UuSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"原创","name":"☀原创┃不卡","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteAppleGuard","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCzGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czzyvideo.com/"},
 {"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_NmyswvGuard","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"白白","name":"🐟白白┃秒播","type":3,"api":"csp_SbaibaiGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"神车","name":"🚎神车┃秒播","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSzrWqbloq80ygmO9WjCB9RMwhf/nZ7r/EzcL5d1Nw67mKKK4Je"},
 {"key":"Lib","name": "🌟立播┃秒播","type": 3,"api": "csp_LibvioGuard","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"zxzj","name":"🍊在线┃秒播","type":3,"api":"csp_ZxzjGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
 {"key":"溢彩","name":"💡溢彩┃秒播","type":3,"api":"csp_AppSKGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":"rfOX1voDIQhH8epBwtCFsqytsyyZwsnimWFjKc+jS1xHcE9fpWU7oKJ1cO9Swdt5tnqCZsFHjiJz5HEyTr51QZvCqObdFjLuH/mEy+uqVyo="},
+{"key":"厂长","name":"📔厂长┃不卡","type":3,"api":"csp_NewCzGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czzyvideo.com/"},
 {"key":"比特","name":"🍄比特┃秒播","type":3,"api":"csp_BttwooGuard","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"文采","name":"💮文采┃秒播","type":3,"api":"csp_JpysGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"低端","name":"⏮️低端┃外剧","type":3,"api":"csp_DdrkGuard","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
