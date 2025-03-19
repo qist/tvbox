@@ -1,7 +1,7 @@
 var rule = {
     title:'闪雷影视',
     编码:'gb2312',
-    host:'http://sl.hdkszx.com:808',
+    host:'http://120.8.135.78:808',
     url:'/www/List.asp?classid=fyclass&searchword=&page=fypage',
     filterable:0,//是否启用分类筛选,
     class_name:'电影&电视剧&综艺&动漫&音乐',
