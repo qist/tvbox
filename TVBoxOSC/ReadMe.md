@@ -2,6 +2,8 @@
 1. php https://RobYang.serv00.net
 2. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake, web hosting https://freeasphosting.net )
    1. http://2487.us.kg
+   2. http://robyang.dpdns.org (https://domain.digitalplat.org/)
+   3. http://2487.dpdns.org
 3. net https://RobYang.runasp.net (by monsterasp.net)
 4. http://RobYang.rr.nu
    1. from https://www.sitelutions.com/Auth/urldnscc
