@@ -326,7 +326,7 @@ M-Radio全國廣播,http://stream.rcs.revma.com/044q61ha7a0uv/hls.m3u8
 
 👇4GTV Rob👇,#genre#
 
-Rob Yang,https://a.b/c.m3u8
+Rob Yang,abc://a.b/c.m3u8
 
 綜合,#genre#
 民視,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv002
@@ -501,7 +501,7 @@ TraceSports,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv077
 -------------17------------------
 
 👇Smart-這是你私人鏈接👇,#genre#
-Rob Yang,https://a.b/c.m3u8
+Rob Yang,abc://a.b/c.m3u8
 每台裝置及時產出影片網址,https://a.b/d.m3u8
 亂給被封沒救,https://a.b/e.m3u8
 
@@ -1102,7 +1102,7 @@ TOKYOMX, http://50.7.234.10:8278/tokyomx_japan/playlist.m3u8?tid=mc121e125cbed0&
 
 👇君赢天下|台港際👇,#genre#
 
-Rob Yang,https://a.b/c.m3u8
+Rob Yang,abc://a.b/c.m3u8
 
 港奧,#genre#
 28 AI 智慧賽馬,http://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
@@ -1618,7 +1618,7 @@ XK8064  女朋友的秘密-寧雪兒,https://vip2.slbfsl.com/20230116/4XtLq80u/i
 
 👇野火👇,#genre#
 
-Rob Yang,https://a.b/c.m3u8
+Rob Yang,abc://a.b/c.m3u8
 
 極速,#genre#
 18台,http://ali.hlspull.yximgs.com/live/tboxprovhxqcvfhoeqfqhdoqqqyhcvxclqhqotqyq9qssqfdqcvhthofsqqhyx18.flv
@@ -2193,7 +2193,7 @@ WOWOW ライブ,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?c
 
 👇173👇,#genre#
 
-Rob Yang,https://a.b/c.m3u8
+Rob Yang,abc://a.b/c.m3u8
 
 台灣,#genre#
 Amc最愛電影,p3p://173.208.176.178:31809/625bbd49000d7c0d1954e42d45bc3182

@@ -4,7 +4,7 @@
  
  
  👇4GTV 2👇,#genre#
- ,http://a.b/c.m3u8
+ ,abc://a.b/c.m3u8
 
 
 

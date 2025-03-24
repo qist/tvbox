@@ -31,14 +31,13 @@
 
 
 #Domain Name:
-1. new subdomain name: https:/NIC.us.kg (Robyang.us.kg, 2487.us.kg)
-2. new subdomain name: https://dash.domain.digitalplat.org/panel/main (Robyang.dpdns.org, 2487.dpdns.org)
+1. new subdomain name: https://dash.domain.digitalplat.org/panel/main (Robyang.dpdns.org, 2487.dpdns.org) (Robyang.us.kg, 2487.us.kg)
 3. new subdomain name: https://customer.l53.net  (free first year for ggff.net, RobYang.ggff.net, CloudFlare can DNS)
 4. new subdomain name: https://nic.eu.org/
 5. new subdomain name: https://www.sitelutions.com/signup (RobYang.rr.nu)
 6. URL redirect: https://redirect.name
-   1. github            IN  CNAME  alias.redirect.name
-   2. _redirect.github  IN  TXT    "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa" 
+   1. www1            IN  CNAME  alias.redirect.name
+   2. _redirect.www1  IN  TXT    "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa" 
 7. Url redirect: https://freedirector.io/dashboard  (free 5 redirect)
 8. DNS manage: https://www.cloudflare.com (cannot do rr.nu)
 9. DNS manage & DDNS: https://freedns.afraid.org (free URL forwarding)

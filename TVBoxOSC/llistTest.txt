@@ -1,7 +1,7 @@
  ,#genre#
- ,http://a.b/c.m3u8
+ ,abc://a.b/c.m3u8
  ,#genre#
- ,http://a.b/c.m3u8
+ ,abc://a.b/c.m3u8
 --,#genre#
 --,url6
 
@@ -10,7 +10,7 @@
 
 
  👇👇測試區👇👇,#genre#
- ,http://a.b/c.m3u8
+ ,abc://a.b/c.m3u8
 
 
 
