@@ -19,7 +19,7 @@ jobs:
         run: |
            pwd
            cd xiaosa/
-           wget https://jihulab.com/fourd/FourD/-/raw/main/local/%E5%8D%95%E7%BA%BF%E8%B7%AF.zip -O xiaosa.zip
+           wget https://gitee.com/PizazzXS/another-d/raw/master/单线路.zip -O xiaosa.zip
            unzip xiaosa.zip
            \cp -pdr TVBoxOSC/tvbox/* ./
            rm -rf xiaosa.zip TVBoxOSC
