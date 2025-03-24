@@ -59,9 +59,9 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
          sudo docker pull mybtjson/fastapi-4gtv:1.0.7
    2. docker镜像运行:
          sudo docker run -d --name=fastapi-4gtv -p 50012:5000 --restart=always mybtjson/fastapi-4gtv:1.0.7
-http://ip:50007/help
-http://ip:50007/?type=txt
-http://ip:50007/?type=m3u
+   http://ip:50007/help
+   http://ip:50007/?type=txt
+   http://ip:50007/?type=m3u
 
 
 
@@ -74,32 +74,28 @@ docker run -d --name=doube-ofiii -p 50002:5000 --restart=always doubebly/doube-o
 软路由部署，下面运行命令中的"http://192.168.50.50:7890"为你软路由设置的台湾节点http代理：
 docker run -d --name=doube-ofiii -p 50002:5000 --restart=always -e http_proxy=http://192.168.50.50:7890 -e https_proxy=http://192.168.50.50:7890 doubebly/doube-ofiii:1.1.0
 
-# 不代理TXT订阅，播放端需要挂台湾梯子：
-http://ip:port/Sub?type=txt&sd=1080
+   # 不代理TXT订阅，播放端需要挂台湾梯子：   http://ip:port/Sub?type=txt&sd=1080
 
-# 代理TXT订阅：
-http://ip:port/Sub?type=txt&sd=1080&proxy=true
+   # 代理TXT订阅：   http://ip:port/Sub?type=txt&sd=1080&proxy=true
 
-# 不代理M3U订阅，播放端需要挂台湾梯子：
-http://ip:port/Sub?type=m3u&sd=1080
+   # 不代理M3U订阅，播放端需要挂台湾梯子：   http://ip:port/Sub?type=m3u&sd=1080
 
-# 代理M3U订阅：
-http://ip:port/Sub?type=m3u&sd=1080&proxy=true
+   # 代理M3U订阅：   http://ip:port/Sub?type=m3u&sd=1080&proxy=true
 
-# 点播订阅，可同时订阅多个点播，建议三到五个，用英文逗号分割，例如：ofiii75,ofiii74,ofiii73
+   # 点播订阅，可同时订阅多个点播，建议三到五个，用英文逗号分割，例如：ofiii75,ofiii74,ofiii73
 
-http://ip:port/ofiii.m3u?pids=ofiii75,ofiii74,ofiii73&sd=1080&proxy=true
-doubebly.json文件内容如下：
-{
-"Token_enabled": false,
-"Token": ["Double001", "Double001"],
-"User-agent_enabled": false,
-"User-agent": ["PotPlayer/24.12.16", "Mozilla/5.0"]
-}
+   http://ip:port/ofiii.m3u?pids=ofiii75,ofiii74,ofiii73&sd=1080&proxy=true
+   doubebly.json文件内容如下：
+   {
+   "Token_enabled": false,
+   "Token": ["Double001", "Double001"],
+   "User-agent_enabled": false,
+   "User-agent": ["PotPlayer/24.12.16", "Mozilla/5.0"]
+   }
 
-txt: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
-m3u: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
-token，订阅地址请加token参数: http://ip:port/Sub?type=m3u&sd=1080&proxy=true&token=Double001
+   txt: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
+   m3u: http://ip:port/Sub?type=m3u&sd=1080&proxy=true
+   token，订阅地址请加token参数: http://ip:port/Sub?type=m3u&sd=1080&proxy=true&token=Double001
 
 
 
