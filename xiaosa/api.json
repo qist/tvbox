@@ -70,6 +70,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "playerType": 1,
             "ext": {
                 "danmu": true,
                 "site": "aHR0cDovL3R0LnlzZHFqcy5jbg=="
@@ -83,6 +84,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "playerType": 1,
             "ext": {
                 "danmu": true,
                 "site": "aHR0cDovL3YucmJvdHYuY24="
@@ -96,6 +98,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "playerType": 1,
             "ext": {
                 "danmu": true,
                 "site": "aHR0cDovL3YubGt1eXMuY24="
@@ -259,23 +262,6 @@
             }
         },
         {
-            "key": "夸克闪电弹幕",
-            "name": "闪电｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://shandian.banye.tech:7086",
-                "danmu": true
-            }
-        },
-        {
             "key": "夸克欧歌弹幕",
             "name": "欧哥｜4K弹幕",
             "type": 3,
@@ -417,7 +403,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://enxiao.banye.tech:7086",
+                "site": "https://erxiao.banye.tech:7086",
                 "danmu": true
             }
         },
@@ -434,6 +420,54 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://cj.jiexi.news",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克叔叔弹幕",
+            "name": "叔叔｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://woss.banye.tech:7086",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克大玩弹幕",
+            "name": "大玩｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://dawo.banye.tech:7086",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克虎斑弹幕",
+            "name": "虎斑｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://huban.banye.tech:7086",
                 "danmu": true
             }
         },
@@ -493,6 +527,17 @@
             "ext": "KhY021WelCEl+6MsvwnzaPussky/EAoc9z7C4keyHaEQ+sKbXhMKd83VjTL7Ls6+m7XDIcGdziOxPv79y/h4QCvmOEJmZ1VD6dopzAVxkFzEFw=="
         },
         {
+            "key": "爱看短剧",
+            "name": "爱看｜短剧",
+            "type": 3,
+            "api": "./PY/爱看短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "爱我短剧",
             "name": "爱我｜短剧",
             "type": 3,
@@ -550,6 +595,39 @@
             "playerType": 2
         },
         {
+            "key": "火车影视",
+            "name": "火车｜APP",
+            "type": 3,
+            "api": "./PY/火车影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "美帕影视",
+            "name": "美帕｜APP",
+            "type": 3,
+            "api": "./PY/美帕影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "嗨皮影视",
+            "name": "嗨皮｜APP",
+            "type": 3,
+            "api": "./PY/嗨皮影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "巧技",
             "name": "巧技｜APP",
             "type": 3,
@@ -596,6 +674,54 @@
             "api": "csp_Muou",
             "playerType": 2,
             "ext": "caHR0cDovL2FwcC53dWlxLmNufOS8mOS8mOWFlHw0LjEuOA=="
+        },
+        {
+            "key": "龙虾",
+            "name": "龙虾｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovL3BweC5iangzNjUudG9wfHBpcGl4aWEyMTc1MjIzMjR8cGlwaXhpYTIxNzUyMjMyNHw1MDY="
+        },
+        {
+            "key": "起点",
+            "name": "起点｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovL2NhaWppLm8wYS5jbnw3MGZkNjFkOTkxZjQzMjU3fDcwZmQ2MWQ5OTFmNDMyNTd8MTAw"
+        },
+        {
+            "key": "米兔",
+            "name": "米兔｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly93d3cuempjLmFwcHxhYjRlOWE0MjE2NzVmMTRifGFiNGU5YTQyMTY3NWYxNGJ8NDQy"
+        },
+        {
+            "key": "光速",
+            "name": "光速｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
+        },
+        {
+            "key": "优秀",
+            "name": "优秀｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovL2FpLnhpYW95dW4uaW5rfEtMckZxU2ptYzRPSWo3NkJ8S0xyRnFTam1jNE9Jajc2QnwzMDA="
+        },
+        {
+            "key": "莉莉",
+            "name": "莉莉｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NDk0ODA4MDgwbGdneXNjb3w0OTQ4MDgwODBsZ2d5c2NvfDY2Ng=="
         },
         {
             "key": "时常",
@@ -652,17 +778,6 @@
             "api": "csp_Hudie",
             "playerType": 2,
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
-        },
-        {
-            "key": "蚂蚁",
-            "name": "蚂蚁｜APP",
-            "type": 3,
-            "api": "csp_Mayiys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "playerType": 1,
-            "ext": "jaHR0cDovL3BhbmRvd24ucHJvL3R2Ym94L21heWkudHh0"
         },
         {
             "key": "快看",
@@ -1335,6 +1450,14 @@
             "ext": "w7TClcK8w5rDrcKYwoPCmcKkw57ClcK0wpvDosKnwqTCoMKjwrPCosKpw7HDoMKUwqDCoF3CqsKmwqrCrsKtbGBgZsKuwqHDncOow61hwpHCoF3DoMOow5vDp8Ohwq3CmMKfwqXCp8Ogw7PDqsOdwp/Cn8KlwpTCp8OWw6nDpsKpwprClcKkwpHDqcOjwqjDrcOywqdSXFLDgsOhw6PDrcORwqLCosKUUsKzwpXCnMKlwpzCp8KZwqBSwrPClcOV5Ye+6YWi5o+Y5ZCTXOWGnOS+kOWRqsK05b+q6KmA6LW35ruA56yJwo3Cm8KfwpzCusOfwqZ7wpXCqcKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8K7wpjCo3nCpsKbwq3CnMKqw7PCjWLCg8Kgw6fCrMOlw6vDqMKtwoZ7wp/CvMKVwqbCm8ONwpzCpMKVwoXDq8OfwpzCs8KcVcKt"
         },
         {
+            "key": "咕咕动漫",
+            "name": "咕咕｜动漫",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly93d3cuZ3VndTMuY29tfG5LZlo4S1g2SlROV1J6VER8bktmWjhLWDZKVE5XUnpURHw0MDE="
+        },
+        {
             "key": "动画片",
             "name": "动画片｜动漫",
             "type": 3,
@@ -1536,6 +1659,15 @@
             "ext": "./XBPQ/修罗影视.json"
         },
         {
+            "key": "七味",
+            "name": "七味｜磁力",
+            "type": 3,
+            "api": "csp_QnMp4",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "80S",
             "name": "80S｜磁力",
             "type": 3,
@@ -1563,13 +1695,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "磁力熊",
-            "name": "磁力熊｜磁力",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/磁力熊.js"
         },
         {
             "key": "美剧迷",
@@ -1653,6 +1778,15 @@
             "name": "美剧天堂｜磁力",
             "type": 3,
             "api": "csp_MeijuTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "电影天堂",
+            "name": "电影天堂｜磁力",
+            "type": 3,
+            "api": "csp_DyGod",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1880,7 +2014,27 @@
             }
         },
         {
-            "name": "线路一",
+            "name": "咸鱼",
+            "type": 0,
+            "url": "https://jx.xymp4.cc/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
+                }
+            }
+        },
+        {
+            "name": "虾米",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "淘片",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
             "ext": {
@@ -1890,7 +2044,17 @@
             }
         },
         {
-            "name": "线路二",
+            "name": "冰豆",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "七七",
             "type": 0,
             "url": "https://jx.77flv.cc/?url=",
             "ext": {
@@ -1900,9 +2064,9 @@
             }
         },
         {
-            "name": "线路三",
+            "name": "盘古",
             "type": 0,
-            "url": "https://jx.hls.one/?url=",
+            "url": "https://www.playm3u8.cn/jiexi.php?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -1910,37 +2074,7 @@
             }
         },
         {
-            "name": "线路四",
-            "type": 0,
-            "url": "http://jiexi44.qmbo.cn/jiexi/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "线路五",
-            "type": 0,
-            "url": "https://jx.zui.cm/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "线路六",
-            "type": 0,
-            "url": "https://py.987654321.icu/.%60/playm3u8.php?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "线路七",
+            "name": "夜幕",
             "type": 0,
             "url": "https://yemu.xyz/?url=",
             "ext": {
@@ -1997,6 +2131,15 @@
             "script": [
                 "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
             ]
+        },
+        {
+            "name": "ofiii",
+            "hosts": [
+                "www.ofiii.com"
+            ],
+            "script": [
+                "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+            ]
         }
     ],
     "doh": [
@@ -2047,10 +2190,10 @@
         {
             "name": "ITV",
             "type": 0,
-            "url": "./ITV.txt",
+            "url": "https://9877.kstore.space/Live/ITV.txt",
             "epg": "http://epg.51zmt.top:8000/e.xml",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 3,
+            "timeout": 5,
             "playerType": 2
         },
         {
