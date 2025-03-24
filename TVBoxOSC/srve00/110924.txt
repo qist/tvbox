@@ -502,8 +502,8 @@ TraceSports,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv077
 
 👇Smart-這是你私人鏈接👇,#genre#
 Rob Yang,abc://a.b/c.m3u8
-每台裝置及時產出影片網址,https://a.b/d.m3u8
-亂給被封沒救,https://a.b/e.m3u8
+每台裝置及時產出影片網址,abc://a.b/d.m3u8
+亂給被封沒救,abc://a.b/e.m3u8
 
 
 

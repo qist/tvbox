@@ -1,7 +1,7 @@
 
 
 👇JDIPTV👇,#genre#
-Rob Yang,https://a.b/c.m3u
+Rob Yang,abc://a.b/c.m3u
 
 
 台港,#genre#
