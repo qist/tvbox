@@ -103,21 +103,25 @@ token，订阅地址请加token参数: http://ip:port/Sub?type=m3u&sd=1080&proxy
 
 
 
-## 4. itv: (china)
+## 4. itv: (china only)
 ======
 Author --by( 沐辰&&Doubebly )
 docker镜像拉取: docker pull doubebly/doube-ofiii:1.1.0
 docker镜像运行: docker run -d --name=doube-ofiii -p 50001:5000 --restart=always doubebly/doube-itv:1.1.0
-
+Usage:
 访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
 
 
 
-## 5. itv-plus: (china)
+## 5. itv-plus: (china only)
 ======
-docker镜像拉取: docker pull doubebly/doube-itv-plus:1.1.0
-docker镜像运行: sudo docker run -d --name=doube-itv-plus --restart=always -p 50001:5000 doubebly/doube-itv-plus:1.1.0
-访问 http://ip:port/help (示例：http://127.0.0.1:50001/help)，可以看到txt和m3u的订阅链接
+docker镜像拉取: sudo docker pull doubebly/doube-itv-plus:1.0.3
+docker镜像运行: docker run -d --name=doube-itv-plus -p 50103:5000 --restart=always doubebly/doube-itv-plus:1.0.3
+Usage:
+http://ip:port/Sub.m3u
+http://ip:port/Sub.txt
+
+
 
 
 
