@@ -196,13 +196,6 @@
             "ext": "./JS/爱奇艺弹幕.js"
         },
         {
-            "key": "米兔弹幕",
-            "name": "米兔｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/米兔弹幕.js"
-        },
-        {
             "key": "追剧弹幕",
             "name": "追剧｜弹幕",
             "type": 3,
@@ -724,6 +717,14 @@
             "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NDk0ODA4MDgwbGdneXNjb3w0OTQ4MDgwODBsZ2d5c2NvfDY2Ng=="
         },
         {
+            "key": "奇妙",
+            "name": "奇妙｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovLzE1NC4xMi45MS4yMTE6NjY4fDEyMzQ1Njc4OUFCQ0RFRkd8MTIzNDU2Nzg5QUJDREVGR3wxMDY="
+        },
+        {
             "key": "时常",
             "name": "时常｜APP",
             "type": 3,
@@ -1086,26 +1087,6 @@
             "ext": "./XYQHiker/骚火影视.json"
         },
         {
-            "key": "星辰影视",
-            "name": "星辰｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/星辰影视.json"
-        },
-        {
-            "key": "百思派",
-            "name": "百思派｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/百思派.json"
-        },
-        {
             "key": "电影牛",
             "name": "电影牛｜影视",
             "type": 3,
@@ -1116,25 +1097,11 @@
             "ext": "./XYQHiker/电影牛.json"
         },
         {
-            "key": "素白白",
-            "name": "素白白｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/素白白.js"
-        },
-        {
             "key": "剧圈圈",
             "name": "剧圈圈｜影视",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/剧圈圈.js"
-        },
-        {
-            "key": "追剧迷",
-            "name": "追剧迷｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/追剧迷.js"
         },
         {
             "key": "看了么",
@@ -1887,6 +1854,19 @@
             "searchable": 1
         },
         {
+            "key": "急救教学",
+            "name": "急救｜教学",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            }
+        },
+        {
             "key": "版本信息",
             "name": "版本｜信息",
             "type": 3,
@@ -1913,6 +1893,35 @@
         }
     ],
     "parses": [
+        {
+            "name": "夏夜",
+            "type": "1",
+            "url": "http://8.155.50.80/xiaye.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
         {
             "name": "臻享",
             "type": "1",
