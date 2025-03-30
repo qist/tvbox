@@ -9,6 +9,7 @@
 ],
 "wallpaper":"https://jianbian.chuqiuyu.workers.dev",
 "sites":[
+{"key":"豆瓣","name":"搜索 | 豆瓣[jar]","type":3,"api":"csp_Douban","indexs":1,"searchable":0,"changeable":1,"ext":"./json/douban.json"},
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_TVB云播","name":"影视 | TVB云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TVB云播.js"},
 {"key":"闪雷","name":"闪雷┃MP4","type":3,"api":"./FTY/drpy2.min.js","ext":"./js/678.js"},
