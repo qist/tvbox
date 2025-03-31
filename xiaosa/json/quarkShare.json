@@ -1,0 +1,47 @@
+[
+    {
+        "name": "我的网盘",
+        "folders": [
+            {
+                "shareId": "",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "幼儿教育",
+        "folders": [
+            {
+                "shareId": "a08f66152533",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "4K影视",
+        "folders": [
+            {
+                "shareId": "7568042397a9",
+                "folder": "0a9f0d04a8704f35b18763948ece0593"
+            }
+        ]
+    },
+    {
+        "name": "短剧合集1",
+        "folders": [
+            {
+                "shareId": "885fd4ba2d92",
+                "folder": "81ca012717cb45228f237e26d8da20c8"
+            }
+        ]
+    },
+    {
+        "name": "短剧合集2",
+        "folders": [
+            {
+                "shareId": "a1cda418984f",
+                "folder": "7e09c18d7f8045f983eca086be8ddb8f"
+            }
+        ]
+    }
+]
