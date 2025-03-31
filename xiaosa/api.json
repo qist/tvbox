@@ -47,7 +47,7 @@
         },
         {
             "key": "厂长影视",
-            "name": "厂长｜弹幕",
+            "name": "厂长｜影视",
             "type": 3,
             "api": "csp_WebCzApp",
             "searchable": 1,
@@ -57,7 +57,7 @@
         },
         {
             "key": "糯米影视",
-            "name": "糯米｜弹幕",
+            "name": "糯米｜影视",
             "type": 3,
             "api": "csp_WebNM",
             "searchable": 1,
@@ -67,7 +67,7 @@
         },
         {
             "key": "热播影视",
-            "name": "热播｜弹幕",
+            "name": "热播｜影视",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -76,7 +76,7 @@
         },
         {
             "key": "天天影视",
-            "name": "天天｜弹幕",
+            "name": "天天｜影视",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -86,7 +86,7 @@
         },
         {
             "key": "浪酷影视",
-            "name": "浪酷｜弹幕",
+            "name": "浪酷｜影视",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -96,7 +96,7 @@
         },
         {
             "key": "耐看影视",
-            "name": "耐看｜弹幕",
+            "name": "耐看｜影视",
             "type": 3,
             "api": "csp_WebNK",
             "searchable": 0,
@@ -105,7 +105,7 @@
         },
         {
             "key": "来看影视",
-            "name": "来看｜弹幕",
+            "name": "来看｜影视",
             "type": 3,
             "api": "csp_WebLK",
             "searchable": 0,
@@ -114,7 +114,7 @@
         },
         {
             "key": "一起影视",
-            "name": "一起｜弹幕",
+            "name": "一起｜影视",
             "type": 3,
             "api": "csp_AppFree4K",
             "searchable": 1,
@@ -325,6 +325,61 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "./json/ex.json?"
+        },
+        {
+            "key": "百家",
+            "name": "百家｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/bj.json?"
+        },
+        {
+            "key": "大玩",
+            "name": "大玩｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/dawo.json?"
+        },
+        {
+            "key": "虎斑",
+            "name": "虎斑｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/hb.json?"
+        },
+        {
+            "key": "闪电",
+            "name": "闪电｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/sd.json?"
+        },
+        {
+            "key": "下饭",
+            "name": "下饭｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/xf.json?"
         },
         {
             "key": "团长",
