@@ -1,0 +1,22 @@
+{
+    "SiteUrl": "https://www.hmxz.org",
+    "Classes": [
+        {
+            "type_name": "电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "综艺",
+            "type_id": "5"
+        },
+        {
+            "type_name": "动漫",
+            "type_id": "3"
+        }
+    ],
+    "Cookie": "bbs_sid=ducbgilqu67ff2oirbbh9aq7ol;bbs_token=KLC2C9dxzxxpvoGd4vV8VKgN_2FM1Fbe_2B_2BLShggfWjEmh1kmEA"
+}
