@@ -1,6 +1,8 @@
 {
     "SiteUrl": "https://dawo.banye.tech:7086",
-    "Domains": [],
+    "Domains": [
+        "http://149.88.87.18:6688"
+    ],
     "SiteWord": "dawo",
     "SiteName": "大玩偶",
     "Classes": [

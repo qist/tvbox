@@ -1,6 +1,8 @@
 {
-    "SiteUrl": "https://woog.nxog.eu.org",
-    "Domains": [],
+    "SiteUrl": "https://ouge.banye.tech:7086",
+    "Domains": [
+        "https://woog.nxog.eu.org"
+    ],
     "SiteWord": "og",
     "SiteName": "欧歌",
     "Classes": [

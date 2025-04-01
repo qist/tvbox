@@ -1,6 +1,9 @@
 {
     "SiteUrl": "https://xiafan.banye.tech:7086",
-    "Domains": [],
+    "Domains": [
+        "http://154.204.177.231",
+        "http://www.xn--ghqy10g1w0a.xyz"
+    ],
     "SiteWord": "xf",
     "SiteName": "下饭",
     "Classes": [

@@ -1,8 +1,10 @@
 {
-    "SiteUrl": "https://www.mucpan.cc",
+    "SiteUrl": "https://xiaomi.banye.tech:7086",
     "Domains": [
+        "https://www.milvdou.fun",
         "https://www.mucpan.cc",
-        "https://54271.fun"
+        "https://mucpan.cc",
+        "http://milvdou.fun"
     ],
     "SiteWord": "xm",
     "SiteName": "小米",
