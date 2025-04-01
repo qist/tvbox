@@ -813,7 +813,7 @@
  {
   "name": "🏠RobYang備1| http://RobYang.dpdns.org",
   "type": 0,
-  "url": "http://www1.RobYang.dpdns.org/VodLive/lb8ffa",  
+  "url": "http://www1.RobYang.ggff.net/VodLive/lb8ffa",   //"http://www1.RobYang.dpdns.org/VodLive/lb8ffa",  
   "ua": "okhttp/4.12.0",
   "timeout": 5,
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
