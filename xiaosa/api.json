@@ -66,46 +66,38 @@
             "ext": "http://v.lkuys.cn"
         },
         {
-            "key": "追剧弹幕",
-            "name": "追剧｜弹幕",
+            "key": "腾讯视频",
+            "name": "腾讯｜视频",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/追剧弹幕.js"
+            "ext": "./js/腾讯视频.js"
         },
         {
-            "key": "腾讯弹幕",
-            "name": "腾讯｜弹幕",
+            "key": "优酷视频",
+            "name": "优酷｜视频",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/腾讯弹幕.js"
+            "ext": "./js/优酷视频.js"
         },
         {
-            "key": "优酷弹幕",
-            "name": "优酷｜弹幕",
+            "key": "芒果视频",
+            "name": "芒果｜视频",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/优酷弹幕.js"
+            "ext": "./js/芒果视频.js"
         },
         {
-            "key": "芒果弹幕",
-            "name": "芒果｜弹幕",
+            "key": "爱奇艺",
+            "name": "爱奇艺｜视频",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/芒果弹幕.js"
-        },
-        {
-            "key": "爱奇艺弹幕",
-            "name": "爱奇艺｜弹幕",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/爱奇艺弹幕.js"
+            "ext": "./js/爱奇艺.js"
         },
         {
             "key": "三六零",
-            "name": "三六零｜弹幕",
+            "name": "三六零｜视频",
             "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/三六零弹幕.js"
+            "api": "csp_SP360"
         },
         {
             "key": "哔哩合集",
@@ -123,6 +115,20 @@
             "ext": {
                 "json": "./json/哔哩合集.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+            }
+        },
+        {
+            "key": "西瓜视频",
+            "name": "西瓜｜视频",
+            "type": 3,
+            "api": "csp_AmuXiguaV2",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
             }
         },
         {
@@ -351,13 +357,13 @@
             "filterable": 1,
             "changeable": 1,
             "style": {
-                "type": "rect",
+                "type": "list",
                 "ratio": 1.433
             },
             "ext": "./json/lj.json?"
         },
         {
-            "key": "概念",
+            "key": "海绵",
             "name": "海绵｜4K",
             "type": 3,
             "api": "csp_PanWebShareCloudHM",
@@ -366,7 +372,7 @@
             "filterable": 1,
             "changeable": 1,
             "style": {
-                "type": "rect",
+                "type": "list",
                 "ratio": 1.433
             },
             "ext": "./json/hm.json?"
@@ -381,7 +387,7 @@
             "filterable": 1,
             "changeable": 1,
             "style": {
-                "type": "rect",
+                "type": "list",
                 "ratio": 1.433
             },
             "ext": "./json/pan1.json?"
@@ -547,7 +553,7 @@
             "type": 3,
             "api": "csp_Muou",
             "playerType": 2,
-            "ext": "caHR0cDovLzExMC40MC42NC4yMjU6ODk0NXxHOGt6QjF2WHdRcDlaN21GfEc4a3pCMXZYd1FwOVo3bUZ8MTAw"
+            "ext": "caHR0cHM6Ly9yeHlzeXlkcy5vc3MtY24tY2hlbmdkdS5hbGl5dW5jcy5jb20vZ2V0YXBwLnR4dHxlYmFkM2YxYTU4YjEzOTMzfGViYWQzZjFhNThiMTM5MzN8MTAw"
         },
         {
             "key": "星河",
@@ -555,7 +561,15 @@
             "type": 3,
             "api": "csp_Muou",
             "playerType": 2,
-            "ext": "caHR0cDovL2EubXVxaXhoLnRvcDo1NjIzfOW5leWQr+aYn+ays3w0LjEuOA=="
+            "ext": "caHR0cDovL3Rlbmd4dW55dW5hbGl5dW4ub3NzLWNuLXNoYW5naGFpLmFsaXl1bmNzLmNvbS90ZW5neHVueXVuLnR4dHxmNWUydHg1M3lrcDZzMmM5fGY1ZTJ0eDUzeWtwNnMyYzl8MzYx"
+        },
+        {
+            "key": "油条",
+            "name": "油条｜APP",
+            "type": 3,
+            "api": "csp_Muou",
+            "playerType": 2,
+            "ext": "caHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
         },
         {
             "key": "二三",
@@ -566,12 +580,68 @@
             "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
         },
         {
-            "key": "油条",
-            "name": "油条｜APP",
+            "key": "主角",
+            "name": "主角｜APP",
             "type": 3,
-            "api": "csp_Muou",
+            "api": "csp_Xdai",
             "playerType": 2,
-            "ext": "caHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
+            "ext": "caHR0cHM6Ly9kdHltLnpqeXkuY2MvZ2ctZ2V0YXBwL2dldC1nZy50eHR8UE1LYVprQXY0UXA1M0VXbnxQTUthWmtBdjRRcDUzRVdufDQyNQ=="
+        },
+        {
+            "key": "时常",
+            "name": "时常｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8YXNnY3hoamt0czEyNDU3M3xhc2djeGhqa3RzMTI0NTczfDEwMQ=="
+        },
+        {
+            "key": "雨滴",
+            "name": "雨滴｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
+        },
+        {
+            "key": "现代",
+            "name": "现代｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "caHR0cHM6Ly9jbXMud2xiYnEueHl6fHNkZXYxNXJ3c2E5NmZzZGV8c2RldjE1cndzYTk2ZnNkZXwzMDA="
+        },
+        {
+            "key": "淘气",
+            "name": "淘气｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly9za2FwLm9zcy1jbi1oYW5nemhvdS5hbGl5dW5jcy5jb20vZ2V0LnR4dHw0OTkwNDg4MjQ4OTA0ODg0fDQ5OTA0ODgyNDg5MDQ4ODR8MTA3"
+        },
+        {
+            "key": "玉米",
+            "name": "玉米｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg=="
+        },
+        {
+            "key": "优质",
+            "name": "优质｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly9sYnlzYXBpZHR5bWd4LjY4Lmd5OjE2Nzg5L2xieXNhcGlkdHltL2FwcC50eHR8YXBpYXBwbGJ5c2tleTE2OHxhcGlhcHBsYnlza2V5MTY4fDEwNw=="
+        },
+        {
+            "key": "木叶",
+            "name": "木叶｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 2,
+            "ext": "saHR0cDovLzExMy40NS4yNDMuMjMzL211eWUudHh0fFJ1TjlMUnZ3VFJncFFucEt8UnVOOUxSdndUUmdwUW5wS3w1NDc="
         },
         {
             "key": "龙虾",
@@ -619,7 +689,15 @@
             "type": 3,
             "api": "csp_Xdai",
             "playerType": 1,
-            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8NDk0ODA4MDgwbGdneXNjb3w0OTQ4MDgwODBsZ2d5c2NvfDY2Ng=="
+            "ext": "jaHR0cDovLzU5LjE1My4xNjcuMTg2OjEwMDk5fFBNS2Faa0F2NFFwNTNFV258UE1LYVprQXY0UXA1M0VXbnw0MjU="
+        },
+        {
+            "key": "电影",
+            "name": "电影｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly9jOHcyb3Y3dTV3ZzJ6MW84cDIxYy5hbGl5dW5jcy5jbGljazoyNzg5OXxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
         },
         {
             "key": "奇妙",
@@ -628,54 +706,6 @@
             "api": "csp_Xdai",
             "playerType": 1,
             "ext": "jaHR0cDovLzE1NC4xMi45MS4yMTE6NjY4fDEyMzQ1Njc4OUFCQ0RFRkd8MTIzNDU2Nzg5QUJDREVGR3wxMDY="
-        },
-        {
-            "key": "时常",
-            "name": "时常｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMnwxMzQ="
-        },
-        {
-            "key": "雨滴",
-            "name": "雨滴｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
-        },
-        {
-            "key": "现代",
-            "name": "现代｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "caHR0cHM6Ly94ZHlzLnZpcC9nZXRhcHAudHh0fHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYnwxMTQ="
-        },
-        {
-            "key": "玉米",
-            "name": "玉米｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg=="
-        },
-        {
-            "key": "优质",
-            "name": "优质｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9keXl6dHZhcHBhcGlnb29kZ3guNjguZ3k6MTI2ODkvY2l3azI4dnUzOGlvOC9hcGl1cmwudHh0fGR5eXp0dmFwaWFwcHl5ZHN8ZHl5enR2YXBpYXBweXlkc3wxMDA="
-        },
-        {
-            "key": "木叶",
-            "name": "木叶｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "saHR0cDovLzExMy40NS4yNDMuMjMzL211eWUudHh0fFJ1TjlMUnZ3VFJncFFucEt8UnVOOUxSdndUUmdwUW5wS3w1NDc="
         },
         {
             "key": "格格",
@@ -814,7 +844,8 @@
             "type": 3,
             "api": "csp_Wetv",
             "searchable": 1,
-            "quickSearch": 1
+            "quickSearch": 1,
+            "ext": "https://v.wetv.wang"
         },
         {
             "key": "低端影视",
@@ -862,20 +893,6 @@
             "filterable": 1
         },
         {
-            "key": "西瓜视频",
-            "name": "西瓜｜视频",
-            "type": 3,
-            "api": "csp_AmuXiguaV2",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
             "key": "采集之王",
             "name": "采集｜合集",
             "type": 3,
@@ -886,7 +903,7 @@
             "key": "爱看机器人",
             "name": "爱看｜影视",
             "type": 3,
-            "api": "csp_IkanBot",
+            "api": "csp_Ikanbot",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -996,6 +1013,13 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/思古影视.js"
+        },
+        {
+            "key": "追剧影视",
+            "name": "追剧｜影视",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/追剧视频.js"
         },
         {
             "key": "魔力高清",
