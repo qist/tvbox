@@ -43,7 +43,8 @@
             "api": "csp_AppRJ",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
+            "filterable": 0,
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
         },
         {
             "key": "天天影视",
@@ -53,7 +54,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "http://tt.ysdqjs.cn"
+            "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
         },
         {
             "key": "浪酷影视",
@@ -63,7 +64,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "http://v.lkuys.cn"
+            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
         },
         {
             "key": "腾讯视频",
@@ -129,71 +130,6 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.597
-            }
-        },
-        {
-            "key": "阿里云盘",
-            "name": "阿里｜云盘",
-            "type": 3,
-            "api": "csp_PanAli",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "./json/aliShare.json"
-        },
-        {
-            "key": "夸克云盘",
-            "name": "夸克｜云盘",
-            "type": 3,
-            "api": "csp_PanQuark",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "./json/quarkShare.json"
-        },
-        {
-            "key": "UC",
-            "name": "UC｜云盘",
-            "type": 3,
-            "api": "csp_PanUc",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "./json/ucShare.json"
-        },
-        {
-            "key": "百度云盘",
-            "name": "百度｜云盘",
-            "type": 3,
-            "api": "csp_PanBaiDu",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "短剧合集",
-            "name": "短剧｜合集",
-            "type": 3,
-            "api": "./js/quark.min.js",
-            "ext": "./js/短剧合集.js",
-            "style": {
-                "type": "list"
             }
         },
         {
@@ -1753,68 +1689,58 @@
             "filterable": 1
         },
         {
-            "key": "我的阿里",
-            "name": "我的｜阿里",
+            "key": "阿里云盘",
+            "name": "阿里｜云盘",
             "type": 3,
-            "api": "csp_MyAli",
+            "api": "csp_PanAli",
             "searchable": 0,
-            "quickSearch": 0,
             "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "我的夸克",
-            "name": "我的｜夸克",
-            "type": 3,
-            "api": "csp_MyQuark",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "我的UC",
-            "name": "我的｜UC",
-            "type": 3,
-            "api": "csp_MyUc",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
-            },
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "阿里合集",
-            "name": "阿里｜合集",
-            "type": 3,
-            "api": "csp_AliShare",
-            "searchable": 1,
             "changeable": 0,
-            "filterable": 0,
-            "indexs": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "./js/alishare.txt"
-            },
             "style": {
-                "type": "list"
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/aliShare.json"
+        },
+        {
+            "key": "夸克云盘",
+            "name": "夸克｜云盘",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/quarkShare.json"
+        },
+        {
+            "key": "UC",
+            "name": "UC｜云盘",
+            "type": 3,
+            "api": "csp_PanUc",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/ucShare.json"
+        },
+        {
+            "key": "百度云盘",
+            "name": "百度｜云盘",
+            "type": 3,
+            "api": "csp_PanBaiDu",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
             }
         },
         {
@@ -1839,13 +1765,6 @@
                 "type": "list"
             },
             "ext": "./json/alist.json"
-        },
-        {
-            "key": "网络直播",
-            "name": "网络｜直播",
-            "type": 3,
-            "api": "csp_Living",
-            "searchable": 1
         },
         {
             "key": "88看球",
@@ -2231,6 +2150,30 @@
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 2,
             "timeout": 10
+        },
+        {
+            "name": "虎牙一起看",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "斗鱼一起看",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "YY轮播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",
