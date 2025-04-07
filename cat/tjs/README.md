@@ -17,7 +17,7 @@
 [TV发布地址](https://github.com/FongMi/Release/tree/main/apk/release)
 
 ```bash
-https://qist.swsixtwo.top/cat/tjs/tv_config.json
+https://qist.ugigc.dpdns.org/cat/tjs/tv_config.json
 ```
 
 > 配置信息见js分支分支
