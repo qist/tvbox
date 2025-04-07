@@ -2,7 +2,7 @@ name: Update xiaosa
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 2 * * *"
+    - cron: "30 3 * * *"
   push:
     branches:
       - master
