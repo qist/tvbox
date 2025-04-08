@@ -44,7 +44,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
+            "ext": {
+                "url": "http://v.rbotv.cn"
+            }
         },
         {
             "key": "天天影视",
@@ -54,7 +56,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
+            "ext": {
+                "url": "http://tt.ysdqjs.cn"
+            }
         },
         {
             "key": "浪酷影视",
@@ -64,7 +68,9 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
+            "ext": {
+                "url": "http://v.lkuys.cn"
+            }
         },
         {
             "key": "菲儿影视",
@@ -347,7 +353,9 @@
                 "type": "list",
                 "ratio": 1.433
             },
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw7DDscKqXsKhwqXDqcOUw6jDrMOiwphewpPCn8OmwprCpsKZwqHCp8KZwqBXwrPCk8Khw5Tlh7/phJvmj5XlkJNc5Yel5L6K5ZGxwrPlv6vop7notbTmu4DnrInDlsKawqbCmcKhwpfClcKTwqLDssOjw67DhMOfwqxXalDCoMOqw6/DssOjaWZmV8O2"
+            "ext": {
+                "url": "https://www.qupanshe.com"
+            }
         },
         {
             "key": "聚搜",
@@ -487,7 +495,7 @@
             "type": 3,
             "api": "csp_Shark",
             "playerType": 1,
-            "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
+            "ext": "saHR0cDovL2Ntcy5taXRvdHYuY29tL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
         },
         {
             "key": "永夜",
@@ -586,14 +594,6 @@
             "ext": "saHR0cDovLzExMy40NS4yNDMuMjMzL211eWUudHh0fFJ1TjlMUnZ3VFJncFFucEt8UnVOOUxSdndUUmdwUW5wS3w1NDc="
         },
         {
-            "key": "龙虾",
-            "name": "龙虾｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovL3BweC5iangzNjUudG9wfHBpcGl4aWEyMTc1MjIzMjR8cGlwaXhpYTIxNzUyMjMyNHw1MDY="
-        },
-        {
             "key": "起点",
             "name": "起点｜APP",
             "type": 3,
@@ -648,6 +648,14 @@
             "api": "csp_Xdai",
             "playerType": 1,
             "ext": "jaHR0cDovLzE1NC4xMi45MS4yMTE6NjY4fDEyMzQ1Njc4OUFCQ0RFRkd8MTIzNDU2Nzg5QUJDREVGR3wxMDY="
+        },
+        {
+            "key": "人人",
+            "name": "人人｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "jaHR0cHM6Ly9zdmlwMS5mdW58bGFvZGllc2Rhd3Nzd2FzZHxsYW9kaWVzZGF3c3N3YXNkfDI5OGU1ZmUyOWM3NGIzNWFhYmI5ODM2ZWUyZjZmNDQ5ZnwxMDU="
         },
         {
             "key": "格格",
