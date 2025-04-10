@@ -34,7 +34,7 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
          - mytvsuper: http://[IP:PORT]/mytvsuper.m3u
          - now: http://[IP:PORT]/now.m3u
          - now-free: http://[IP:PORT]/now-free.m3u
-         - 4gtv: http://[IP:PORT]/4gtv.m3u https://live1.RobYang.us.kg/TxtM3u?url=http://[IP:PORT]/4gtv.m3u 
+         - 4gtv: http://[IP:PORT]/4gtv.m3u https://live1.RobYang.ggff.net/TxtM3u?url=http://[IP:PORT]/4gtv.m3u 
          - itv: http://[IP:PORT]/itv.m3u
          - beesport: http://[IP:PORT]/beesport.m3u
          - Plex: http://[IP:PORT]/plex.m3u

@@ -9,7 +9,7 @@ if (strpos($userAgent, 'okhttp') === false) {
 } else {
     //header("Location: https://ghp.ci/https://raw.githubusercontent.com/bobyang3/tvbox/own/TVBoxOSC/llist.txt");
     //header("Location: https://RobYang.serv00.net/110924.txt");
-    header("Location: https://robyang.us.kg/VodLive/jb8ffa");
+    header("Location: https://www1.robyang.ggff.net/VodLive/jb8ffa");
    
     exit;
 
