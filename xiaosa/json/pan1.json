@@ -1,5 +1,4 @@
 {
-    "SiteUrl": "https://pan1.me",
     "Classes": [
         {
             "type_name": "电影",
@@ -21,6 +20,5 @@
             "type_name": "动漫",
             "type_id": "37"
         }
-    ],
-    "Cookie": "bbs_sid=rrru52bda4v655kl9u1c87f00m; bbs_token=dZRAvHbHcUZkuJ7oHALqWoUs00C1fGqqXDXH7I8LH6hMddXP"
+    ]
 }

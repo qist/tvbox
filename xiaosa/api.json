@@ -328,9 +328,9 @@
         },
         {
             "key": "Pan1",
-            "name": "Pan1｜4K",
+            "name": "123｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudHM",
+            "api": "csp_PanWebShareCloud123",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -370,6 +370,18 @@
                 "ratio": 1.433
             },
             "ext": "./json/aliyunpansearch.json"
+        },
+        {
+            "key": "盘库",
+            "name": "盘库｜4K",
+            "type": 3,
+            "api": "csp_PanWebKuBa",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "url": "https://panku8.com"
+            }
         },
         {
             "key": "星芽短剧",
@@ -2085,6 +2097,14 @@
             "type": 3,
             "api": "csp_Feiyang",
             "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "B站直播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/bilibili.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
