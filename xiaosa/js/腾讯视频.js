@@ -670,14 +670,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://103.45.162.207:25252/hbdm.php?key=7894561232&id=" + input.split("?")[0]
+                    danmaku: "https://danmu.zxz.ee/?type=xml&id=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://103.45.162.207:25252/hbdm.php?key=7894561232&id=" + input.split("?")[0]
+                    danmaku: "https://danmu.zxz.ee/?type=xml&id=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -685,7 +685,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://103.45.162.207:25252/hbdm.php?key=7894561232&id=" + input.split("?")[0]
+                danmaku: "https://danmu.zxz.ee/?type=xml&id=" + input.split("?")[0]
             };
         }
     }),

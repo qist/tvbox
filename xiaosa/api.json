@@ -38,7 +38,7 @@
         },
         {
             "key": "热播影视",
-            "name": "热播｜弹幕",
+            "name": "热播｜影视",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -50,7 +50,7 @@
         },
         {
             "key": "天天影视",
-            "name": "天天｜弹幕",
+            "name": "天天｜影视",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -62,7 +62,7 @@
         },
         {
             "key": "浪酷影视",
-            "name": "浪酷｜弹幕",
+            "name": "浪酷｜影视",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -74,10 +74,29 @@
         },
         {
             "key": "菲儿影视",
-            "name": "菲菲｜弹幕",
+            "name": "菲菲｜影视",
             "type": 3,
             "api": "csp_AppFerr",
             "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
+        },
+        {
+            "key": "影探影视",
+            "name": "影探｜影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://cmsyt114.lyyytv.cn/api.php/app/"
+        },
+        {
+            "key": "哔哩视频",
+            "name": "哔哩｜视频",
+            "type": 3,
+            "api": "./py/哔哩视频.py",
+            "ext": {
+                "json": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+            }
         },
         {
             "key": "腾讯视频",
@@ -102,7 +121,7 @@
         },
         {
             "key": "爱奇艺",
-            "name": "爱奇艺｜视频",
+            "name": "爱奇异｜视频",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/爱奇艺.js"
@@ -450,6 +469,19 @@
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
+            "key": "金牌影视",
+            "name": "金牌｜影视",
+            "type": 3,
+            "api": "./py/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+            }
+        },
+        {
             "key": "猎手影视",
             "name": "猎手｜APP",
             "type": 3,
@@ -786,12 +818,6 @@
             "api": "csp_SaoHuo",
             "playerType": 2,
             "ext": "https://shdy5.us"
-        },
-        {
-            "key": "金牌影视",
-            "name": "金牌｜影视",
-            "type": 3,
-            "api": "csp_Jpys"
         },
         {
             "key": "尘落影视",
@@ -1690,6 +1716,12 @@
                 "type": "list"
             },
             "ext": "./json/alist.json"
+        },
+        {
+            "key": "网络直播",
+            "name": "网络｜直播",
+            "type": 3,
+            "api": "./py/网络直播.py"
         },
         {
             "key": "88看球",

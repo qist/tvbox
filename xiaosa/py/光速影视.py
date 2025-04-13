@@ -111,21 +111,21 @@ class Spider(Spider):
 
     def playerContent(self, flag, id, vipFlags):
         ids = json.loads(self.d64(id))
-        h={"User-Agent": (ids['user_agent'] or "okhttp/3.14.9")}
-        url = ids['url']
-        p=1
+        h = {"User-Agent": (ids['user_agent'] or "okhttp/3.14.9")}
         try:
-            if re.search(r'\?url=', ids['parse_api_url']):
-                data=self.fetch(ids['parse_api_url'], headers=h, timeout=10).json()
-                url=data.get('url') or data['data'].get('url')
-            elif not re.search(r'\.m3u8|\.mp4', ids.get('url')):
-                body = f"parse_api={ids.get('parse') or ids['parse_api_url'].replace(ids['url'], '')}&url={quote(self.aes('encrypt', ids['url']))}&token={ids.get('token')}"
+            if re.search(r'url=', ids['parse_api_url']):
+                data = self.fetch(ids['parse_api_url'], headers=h, timeout=10).json()
+                url = data.get('url') or data['data'].get('url')
+            else:
+                body = f"parse_api={ids.get('parse') or ids['parse_api_url'].replace(ids['url'], '')}&url={quote(self.aes(ids['url'], True))}&token={ids.get('token')}"
                 b = self.getdata("/api.php/getappapi.index/vodParse", body)['json']
                 url = json.loads(b)['url']
-            p=0
+                if 'error' in url: raise ValueError(f"解析失败: {url}")
+            p = 0
         except Exception as e:
-            print('错误信息：',e)
-            pass
+            print('错误信息：', e)
+            url, p = ids['url'], 1
+
         if re.search(r'\.jpg|\.png|\.jpeg', url):
             url = self.Mproxy(url)
         result = {}
