@@ -1,11 +1,13 @@
 📺YouTube 新聞,#genre#
 民視新聞,https://www.youtube.com/live/ylYJSBUgaMA?si=e-d0Ns2EB36iyW_3
 民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
-三立NEWS+,https://www.youtube.com/live/MV9mI0GChwo?si=e-d0Ns2EB36iyW_3
-三立NEWS+,https://www.youtube.com/watch?v=MV9mI0GChwo
-三立新聞,https://www.youtube.com/live/pF507BLtbqU?si=e-d0Ns2EB36iyW_3
-三立新聞,https://www.youtube.com/watch?v=pF507BLtbqU
-公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=e-d0Ns2EB36iyW_3
+三立新聞,https://www.youtube.com/live/MV9mI0GChwo?si=znH9MBSQtvCvrqvt
+三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
+三立NEWS+,https://www.youtube.com/live/pF507BLtbqU?si=Ajqr6bitgqQQqaun
+三立NEWS+,https://www.youtube.com/watch?v=pF507BLtbqU
+三立海外,https://www.youtube.com/live/hGJkDZDchYI?si=ZevMfRDmU86tccJz
+三立海外,https://www.youtube.com/watch?v=hGJkDZDchYI
+公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=-eMTJ5zFhfWAphbs
 公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
 非凡商業,https://www.youtube.com/live/NHQDx8vCrC4?si=e-d0Ns2EB36iyW_3
 非凡商業,https://www.youtube.com/watch?v=NHQDx8vCrC4
@@ -14,7 +16,7 @@
 華視新聞,https://www.youtube.com/live/wM0g8EoUZ_E?si=6PbDs2DOrlT9Og14
 華視新聞,https://www.youtube.com/watch?v=7lxXN3zIr-I
 華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
-鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o?si=xubbPSDWCPgY2yxM
+鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o?si=UhF9OL7jduRXteiF
 寰宇新聞,https://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
 寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
 寰宇新聞台灣台,https://www.youtube.com/live/w87VGpgd90U?si=pOtAi2jJyFbMjUNk
@@ -23,11 +25,10 @@
 東森LIVE,https://m.youtube.com/watch?v=E0zhe2gkXBs
 東森新聞,https://www.youtube.com/watch?v=V1p33hqPrUk
 東森新聞,https://m.youtube.com/watch?v=LuQ4S-i5zoE
-東森新聞,https://37.27.111.214:8080/live/20/hls.m3u8
 東森財經新聞,https://www.youtube.com/live/WHEPzbFA3hw
 東森財經股市,https://www.youtube.com/watch?v=LbS-xQ67fos
-中天新聞1台,https://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞2台,https://www.youtube.com/watch?v=WPfPjbOLNfE
+Taiwan Plus,
+中天新聞,https://www.youtube.com/live/vr3XyVCR4T0?si=Vu1iyacOT6Q9xftQ
 中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
 中視新聞,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/litv/4gtv-4gtv074
 TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
@@ -107,9 +108,12 @@ TVBS56,http://www.youtube.com/watch?v=YvdcZ_jpLXE
 
 東森幼幼,https://youtu.be/4O8xAZ5VUGY
 東森幼幼,https://www.youtube.com/watch?v=4O8xAZ5VUGY
-MOMO親子,https://youtu.be/oLdxAo_dez0
-MOMO親子,https://distant-dita-bobyang03-1e6eec5a.koyeb.app/4gtv/231
-MOMO親子成語,https://youtu.be/OrX2QQtMkkY
+MOMO親子,https://www.youtube.com/live/3OQOWV1K2-4?si=e-d0Ns2EB36iyW_3
+MOMO親子,https://www.youtube.com/watch?v=3OQOWV1K2-4
+MOMO親子2,https://www.youtube.com/live/Us2fxb2Ok7U?si=7At9YtcQRU0Ye3rq
+MOMO親子2,https://www.youtube.com/watch?v=Us2fxb2Ok7U
+MOMO親子成語,https://www.youtube.com/live/fB7x7fnYtkc?si=JpzxGvcHZ5zUOW5U
+MOMO親子成語,https://youtu.be/fB7x7fnYtkc
 迪士尼最佳歌曲2023,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
 
 
@@ -124,13 +128,12 @@ MOMO親子成語,https://youtu.be/OrX2QQtMkkY
 中視綜藝,http://www.youtube.com/live/ADDSmXoPDY8
 台視,https://m.youtube.com/watch?v=uDqQo8a7Xmk
 大愛一台,http://www.youtube.com/watch?v=MIqUplvSRWA
-大愛一台,https://m.youtube.com/watch?v=MIqUplvSRWA
 大愛一台,https://m.youtube.com/watch?v=oV_i3Hsl_zg
 大愛二台台灣,http://www.youtube.com/watch?v=OKvWtVoDR8I
 大愛二台全球,http://www.youtube.com/watch?v=DTNkEm6jaqQ
 信大電視台,http://www.youtube.com/live/ciwFpYofb28
 國會頻道,http://www.youtube.com/live/4HysYHJ6GkY
-momo購物一台,http://www.youtube.com/watch?v=_pZQ1Lk0xMA
+momo購物一台,https://www.youtube.com/live/_pZQ1Lk0xMA?si=3IAYc_xFfHsoVO8Z
 momo購物二台,http://www.youtube.com/watch?v=xbNWkUyxQGM
 東森購物台CH34,http://www.youtube.com/watch?v=ViJ3XiN6Q3M
 美好購物二台,http://www.youtube.com/watch?v=lEXITHxcagI

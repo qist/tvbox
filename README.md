@@ -110,7 +110,7 @@
 ## 其他 Tools:
 1.  txt 轉 繁體m3u: https://www1.RobYang.ggff.net/TxtM3u?to=m3u&l=taiwan&url=https://2912.kstore.space/520.txt
 13. txt 轉 m3u: https://www1.RobYang.ggff.net/TxtM3u?to=m3u&l=china&url=https://2912.kstore.space/520.txt
-14. m3u 轉 繁體txt: https://www1.RobYang.ggff.net/TxtM3u?url=https://www.stream-link.org/stream-link.m3u
+14. m3u 轉 繁體txt: http://www1.RobYang.ggff.net/TxtM3u?url=https://www.stream-link.org/stream-link.m3u
 13. m3u 轉 txt: https://www1.RobYang.ggff.net/TxtM3u?l=china&url=https://www.stream-link.org/stream-link.m3u
 14. m3u 轉 txt: https://fanmingming.com/txt?url=https://www.stream-link.org/stream-link.m3u
 15. txt m3u 轉換工具 https://guihet.com/convert-m3u-js.html
