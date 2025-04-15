@@ -2,10 +2,10 @@
 muban.海螺3.二级.title = '.hl-dc-title&&Text;li.hl-col-xs-12:eq(6)--em&&Text';
 muban.海螺3.二级.desc = 'li.hl-col-xs-12:eq(1)&&Text;;;li.hl-col-xs-12:eq(2)--em&&Text;li.hl-col-xs-12:eq(3)--em&&Text';
 var rule = {
-	title: 'KUBO影视[飞]',
-	模板: '海螺3',
-	host: 'https://123kubo.tv',
-	url: '/type/fyclass-fypage.html',
+	title:'KUBO影视[飞]',
+	模板:'海螺3',
+	host:'https://123kubo.tv',
+	url:'/type/fyclass-fypage.html',
 	// url:'/show/fyclass/page/fypage.html',
 	// url:'/show/fyfilter.html',
 	// filterable:1,//是否启用分类筛选,
@@ -22,10 +22,10 @@ var rule = {
 	// 	3:{cateId:'3'},
 	// 	4:{cateId:'4'}
 	// },
-	searchUrl: '/search/page/fypage/wd/**.html',
+	searchUrl:'/search/page/fypage/wd/**.html',
 	class_parse: 'li.hl-type-child a;a&&Text;a&&href;(\\d+).html',
-	cate_exclude: '專題',
-	lazy: `js:
+	cate_exclude:'專題',
+	lazy:`js:
 		var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
 		var url = html.url;
 		if (html.encrypt == '1') {

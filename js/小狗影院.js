@@ -1,9 +1,9 @@
 muban.首图.二级.title = 'h1&&Text;.data:eq(0)--span&&Text';
 muban.首图.二级.desc = '.score&&Text;;;.data:eq(2)--span&&Text;.data:eq(3)--span&&Text';
-var rule = {
-    title: '小狗影院',
-    模板: '首图',
-    host: 'https://pupvod.com',
+var rule={
+    title:'小狗影院',
+    模板:'首图',
+    host:'https://pupvod.com',
     // url:'/pupshow/fyclassppppppppfypageppp.html',
     url:'/pupshow/fyclassfyfilter.html',
     filterable:1,//是否启用分类筛选,
@@ -20,7 +20,7 @@ var rule = {
     //     'User-Agent': 'PC_UA',
     // },
     class_parse: '.myui-header__menu li.hidden-sm:gt(0):lt(6);a&&Text;a&&href;.*/(.*?).html',
-    lazy: "js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);var url=html.url;if(html.encrypt=='1'){url=unescape(url)}else if(html.encrypt=='2'){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else{input}",
+    lazy:"js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);var url=html.url;if(html.encrypt=='1'){url=unescape(url)}else if(html.encrypt=='2'){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else{input}",
     推荐: '*',
     double: false, // 推荐内容是否双层定位
     一级: '.myui-vodlist li;a&&title;a&&data-original;.tag&&Text;a&&href',

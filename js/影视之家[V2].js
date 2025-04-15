@@ -60,9 +60,9 @@ var rule = {
 			input
 		}
     `,
-	limit: 6,
-	// 图片来源:'@Referer=https://api.douban.com/@User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/113.0.0.0%20Safari/537.36',
-	推荐: `js:
+    limit:6,
+    // 图片来源:'@Referer=https://api.douban.com/@User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/113.0.0.0%20Safari/537.36',
+    推荐:`js:
         let d = [];
         let jsondata = [];
         let videoList = [];
@@ -95,7 +95,7 @@ var rule = {
         });
         setResult(d);
     `,
-	一级: `js:
+    一级:`js:
         let d = [];
         let jsondata = [];
         let videoList = [];
@@ -119,7 +119,7 @@ var rule = {
         });
         setResult(d);
     `,
-	二级: `js: 
+	二级:`js: 
 		if (/v1\\.vod/.test(HOST)) {
 			input = HOST + '/'+ input.split('/')[3];
 		} else {
@@ -278,7 +278,7 @@ var rule = {
 			log("获取二级详情页发生错误:" + e.message);
 		}
 	`,
-	搜索: `js:
+	搜索:`js:
 		let d = [];
 		let jsondata = [];
 		let videoList = [];

@@ -5,10 +5,10 @@
  * https://github.com/FongMi/Release/tree/main/apk
  */
 
-var rule = {
-	title: '独播库[飞]',
+ var rule = {
+	title:'独播库[飞]',
 	// host:'https://www.duboku.tv',
-	host: 'https://u.duboku.io',
+	host:'https://u.duboku.io',
 	// host:'https://w.duboku.io',
 	url: '/vodtype/fyclass-fypage.html',
 	// url: '/vodshow/fyfilter.html',
@@ -36,11 +36,11 @@ var rule = {
 	// 	14:{cateId:'14'},
 	// 	20:{cateId:'20'}
 	// },
-	searchUrl: '/vodsearch/**----------fypage---.html',
+	searchUrl:'/vodsearch/**----------fypage---.html',
 	searchable: 2,
-	class_parse: '.nav-list li;a&&Text;a&&href;.*/(.*?).html',
+	class_parse:'.nav-list li;a&&Text;a&&href;.*/(.*?).html',
 	play_parse: true,
-	lazy: `js:
+	lazy:`js:
 		var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
 		var url = html.url;
 		var from = html.from;
@@ -71,7 +71,7 @@ var rule = {
 		}
 	`,
 	limit: 6,
-	推荐: `js:
+	推荐:`js:
 		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
 		let d = [];
 		let html = request(input);
@@ -86,7 +86,7 @@ var rule = {
 		});
 		setResult(d)
 	`,
-	一级: `js:
+	一级:`js:
 		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
 		let d = [];
 		let html = '';
@@ -110,7 +110,7 @@ var rule = {
 		});
 		setResult(d)
 	`,
-	二级: `js:
+	二级:`js:
 		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
 		function getLink(data) {
 			let link = data.map(it => {
@@ -159,7 +159,7 @@ var rule = {
             log("获取二级详情页发生错误:" + e.message);
         }
 	`,
-	搜索: `js:
+	搜索:`js:
 		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
 		let d = [];
 		let html = request(input);

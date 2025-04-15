@@ -1,12 +1,12 @@
 muban.短视2.二级.tab_text = 'body--i--span&&Text';
-var rule = {
-    title: '落攻阁影视',
-    模板: '短视2',
-    host: 'https://www.lggys.com',
+var rule={
+    title:'落攻阁影视',
+    模板:'短视2',
+    host:'https://www.lggys.com',
     // homeUrl:'/index.php/label/rb.html',
     // url: '/index.php/api/vod#type=fyfilter&page=fypage',
     // url:'/vodshow/fyclassfyfilter.html',
-    detailUrl: '/voddetail/fyid.html',
+    detailUrl:'/voddetail/fyid.html',
     // filterable:1,//是否启用分类筛选,
     // filter_url:'-{{fl.area}}-{{fl.by or "time"}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
     // filter:{
@@ -17,11 +17,11 @@ var rule = {
     //     "21":[{"key":"letter","name":"字母","value":[{"n":"全部","v":""},{"n":"A","v":"A"},{"n":"B","v":"B"},{"n":"C","v":"C"},{"n":"D","v":"D"},{"n":"E","v":"E"},{"n":"F","v":"F"},{"n":"G","v":"G"},{"n":"H","v":"H"},{"n":"I","v":"I"},{"n":"J","v":"J"},{"n":"K","v":"K"},{"n":"L","v":"L"},{"n":"M","v":"M"},{"n":"N","v":"N"},{"n":"O","v":"O"},{"n":"P","v":"P"},{"n":"Q","v":"Q"},{"n":"R","v":"R"},{"n":"S","v":"S"},{"n":"T","v":"T"},{"n":"U","v":"U"},{"n":"V","v":"V"},{"n":"W","v":"W"},{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"}]},{"key":"by","name":"排序","value":[{"n":"最新","v":"time"},{"n":"最热","v":"hits"},{"n":"评分","v":"score"}]}]
     // },
     // class_parse:'.swiper-wrapper&&li.swiper-slide;a&&Text;a&&href;/(\\d+)',
-    class_name: '电影&电视剧&综艺&动漫&爽文短剧',
+	class_name:'电影&电视剧&综艺&动漫&爽文短剧',
     // class_url:'dianying&dianshiju&zongyi&dongman&shuangwenduanju',
-    class_url: '1&2&3&4&21',
+    class_url:'1&2&3&4&21',
     // play_parse:true,
-    lazy: `js:
+    lazy:`js:
         var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
         var url = html.url;
         if (html.encrypt == '1') {

@@ -5,16 +5,16 @@ globalThis.getHeaders = function (input) {
     return headers
 }
 var rule = {
-	title:'点播',
-	host:'http://tv.jsp47.com',
-	homeUrl:'',
-    searchUrl:'https://www.ugigc.dpdns.org/cj.php?q=**&pageNum=fypage',
-    searchable:2,
-	quickSearch:1,
-	multi:1,
-    filterable:1,
-    headers:{
-        'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36'
+    title: '点播',
+    host: 'http://tv.jsp47.com',
+    homeUrl: '',
+    searchUrl: 'https://www.tycng.com/cj.php?q=**&pageNum=fypage',
+    searchable: 2,
+    quickSearch: 1,
+    multi: 1,
+    filterable: 1,
+    headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.289 Safari/537.36'
     },
     timeout: 5000,
     limit: 20,
@@ -77,15 +77,13 @@ var rule = {
 		let html = request(input);
 		let json = JSON.parse(html);
 		json.data.forEach(function(data) {
-            data.list.forEach(function(it) {
-                d.push({
-                    url: "https://www.ugigc.dpdns.org/cj.php?id=" + it.id + "&port=" + data.port,
-                    title: it.name + "【" + data.portname + "】",
-                    img: it.pic,
-                    content:it.content,
-                    desc: it.remarks + "," + it.type_name
-                })
-            });            
+            d.push({
+                url: "https://www.tycng.com/cj.php?id=" + data.id + "&port=" + json.port,
+                title: data.name,
+                img: data.pic,
+                content:data.content,
+                desc: data.remarks + "," + data.type_name + "," + json.port
+            })
 		});
 		setResult(d);
 	`

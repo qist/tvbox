@@ -1,9 +1,9 @@
 muban.mxpro.二级.desc = '.module-info-item:eq(4)&&Text;;;.module-info-item--span:eq(2)&&Text;.module-info-item--span:eq(1)&&Text';
 muban.mxpro.二级.tabs = '.module-tab-items-box .module-tab-item';
 var rule = {
-    title: '映迷影院',
-    模板: 'mxpro',
-    host: 'https://www.inmi.app',
+    title:'映迷影院',
+    模板:'mxpro',
+    host:'https://www.inmi.app',
     // url:'/index.php/vod/show/id/fyclass/page/fypage.html',
     // url:'/index.php/vod/show/id/fyclassfyfilter.html',
     url:'/show/fyclass-fyfilter.html',
@@ -17,10 +17,10 @@ var rule = {
         "tCCCCS":[{"key":"class","name":"剧情","value":[{"n":"全部","v":""},{"n":"短剧","v":"/class/短剧"},{"n":"KS","v":"/class/KS"},{"n":"DY","v":"/class/DY"},{"n":"都市","v":"/class/都市"},{"n":"古装","v":"/class/古装"},{"n":"重生","v":"/class/重生"},{"n":"逆袭","v":"/class/逆袭"},{"n":"虐恋","v":"/class/虐恋"},{"n":"萌宝","v":"/class/萌宝"},{"n":"言情","v":"/class/言情"},{"n":"穿越","v":"/class/穿越"},{"n":"战神","v":"/class/战神"},{"n":"神医","v":"/class/神医"},{"n":"赘婿","v":"/class/赘婿"},{"n":"甜宠","v":"/class/甜宠"},{"n":"其他","v":"/class/其他"}]},{"key":"letter","name":"字母","value":[{"n":"字母","v":""},{"n":"A","v":"/letter/A"},{"n":"B","v":"/letter/B"},{"n":"C","v":"/letter/C"},{"n":"D","v":"/letter/D"},{"n":"E","v":"/letter/E"},{"n":"F","v":"/letter/F"},{"n":"G","v":"/letter/G"},{"n":"H","v":"/letter/H"},{"n":"I","v":"/letter/I"},{"n":"J","v":"/letter/J"},{"n":"K","v":"/letter/K"},{"n":"L","v":"/letter/L"},{"n":"M","v":"/letter/M"},{"n":"N","v":"/letter/N"},{"n":"O","v":"/letter/O"},{"n":"P","v":"/letter/P"},{"n":"Q","v":"/letter/Q"},{"n":"R","v":"/letter/R"},{"n":"S","v":"/letter/S"},{"n":"T","v":"/letter/T"},{"n":"U","v":"/letter/U"},{"n":"V","v":"/letter/V"},{"n":"W","v":"/letter/W"},{"n":"X","v":"/letter/X"},{"n":"Y","v":"/letter/Y"},{"n":"Z","v":"/letter/Z"},{"n":"0-9","v":"/letter/0-9"}]},{"key":"by","name":"排序","value":[{"n":"时间","v":"/by/time"},{"n":"人气","v":"/by/hits"},{"n":"评分","v":"/by/score"}]}]
     },
     // searchUrl:'/index.php/vod/search/page/fypage/wd/**.html',
-    searchUrl: '/search/**----------fypage---.html',
+    searchUrl:'/search/**----------fypage---.html',
     // class_parse: '.navbar-items li:gt(1):lt(6);a&&Text;a&&href;.*/(\\d+).html',
     class_parse: '.navbar-items li:gt(1):lt(7);a&&Text;a&&href;.*/(\\w+).html',
-    lazy: `js:
+    lazy:`js:
         var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
         var url = html.url;
         if (html.encrypt == '1') {

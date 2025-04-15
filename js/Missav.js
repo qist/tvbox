@@ -1,6 +1,6 @@
 var rule = {
     title:'Missav',
-    host:'https://missav.ai',
+    host:'https://missav.com',
 	searchUrl:'/cn/search/**',
     url:'/cn/fyclass?page=fypage',
     headers:{
