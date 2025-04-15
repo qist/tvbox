@@ -1,1 +1,79 @@
-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
+// 地址发布页 https://gfys.top
+
+var rule = {
+    title: '干饭影视',
+    // host:'https://gfysys.com',
+    host: 'https://gfys.top',
+    hostJs: 'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"li:eq(0)&&a:eq(0)&&Text");print(src);HOST=src',
+    // url:'/vodshow/fyclass--------fypage---.html',
+    url: '/vodshow/fyclassfyfilter.html',
+    filterable: 1,//是否启用分类筛选,
+    filter_url: '-{{fl.area}}-{{fl.by}}-{{fl.class}}-----fypage---{{fl.year}}',
+    filter: {
+        "1": [{ "key": "class", "name": "剧情", "value": [{ "n": "全部", "v": "" }, { "n": "喜剧", "v": "喜剧" }, { "n": "爱情", "v": "爱情" }, { "n": "恐怖", "v": "恐怖" }, { "n": "动作", "v": "动作" }, { "n": "科幻", "v": "科幻" }, { "n": "剧情", "v": "剧情" }, { "n": "战争", "v": "战争" }, { "n": "警匪", "v": "警匪" }, { "n": "犯罪", "v": "犯罪" }, { "n": "动画", "v": "动画" }, { "n": "奇幻", "v": "奇幻" }, { "n": "武侠", "v": "武侠" }, { "n": "冒险", "v": "冒险" }, { "n": "枪战", "v": "枪战" }, { "n": "恐怖", "v": "恐怖" }, { "n": "悬疑", "v": "悬疑" }, { "n": "惊悚", "v": "惊悚" }, { "n": "经典", "v": "经典" }, { "n": "青春", "v": "青春" }, { "n": "文艺", "v": "文艺" }, { "n": "微电影", "v": "微电影" }, { "n": "古装", "v": "古装" }, { "n": "历史", "v": "历史" }, { "n": "运动", "v": "运动" }, { "n": "农村", "v": "农村" }, { "n": "儿童", "v": "儿童" }, { "n": "网络电影", "v": "网络电影" }] }, { "key": "area", "name": "地区", "value": [{ "n": "全部", "v": "" }, { "n": "大陆", "v": "大陆" }, { "n": "香港", "v": "香港" }, { "n": "台湾", "v": "台湾" }, { "n": "美国", "v": "美国" }, { "n": "法国", "v": "法国" }, { "n": "英国", "v": "英国" }, { "n": "日本", "v": "日本" }, { "n": "韩国", "v": "韩国" }, { "n": "德国", "v": "德国" }, { "n": "泰国", "v": "泰国" }, { "n": "印度", "v": "印度" }, { "n": "意大利", "v": "意大利" }, { "n": "西班牙", "v": "西班牙" }, { "n": "加拿大", "v": "加拿大" }, { "n": "其他", "v": "其他" }] }, { "key": "year", "name": "年份", "value": [{ "n": "全部", "v": "" }, { "n": "2024", "v": "2024" }, { "n": "2023", "v": "2023" }, { "n": "2022", "v": "2022" }, { "n": "2021", "v": "2021" }, { "n": "2020", "v": "2020" }, { "n": "2019", "v": "2019" }, { "n": "2018", "v": "2018" }, { "n": "2017", "v": "2017" }, { "n": "2016", "v": "2016" }, { "n": "2015", "v": "2015" }, { "n": "2014", "v": "2014" }, { "n": "2013", "v": "2013" }, { "n": "2012", "v": "2012" }, { "n": "2011", "v": "2011" }, { "n": "2010", "v": "2010" }] }, { "key": "by", "name": "排序", "value": [{ "n": "时间", "v": "time" }, { "n": "人气", "v": "hits" }, { "n": "评分", "v": "score" }] }],
+        "2": [{ "key": "class", "name": "剧情", "value": [{ "n": "全部", "v": "" }, { "n": "古装", "v": "古装" }, { "n": "战争", "v": "战争" }, { "n": "青春偶像", "v": "青春偶像" }, { "n": "喜剧", "v": "喜剧" }, { "n": "家庭", "v": "家庭" }, { "n": "犯罪", "v": "犯罪" }, { "n": "动作", "v": "动作" }, { "n": "奇幻", "v": "奇幻" }, { "n": "剧情", "v": "剧情" }, { "n": "历史", "v": "历史" }, { "n": "经典", "v": "经典" }, { "n": "乡村", "v": "乡村" }, { "n": "情景", "v": "情景" }, { "n": "商战", "v": "商战" }, { "n": "网剧", "v": "网剧" }, { "n": "其他", "v": "其他" }] }, { "key": "area", "name": "地区", "value": [{ "n": "全部", "v": "" }, { "n": "内地", "v": "内地" }, { "n": "韩国", "v": "韩国" }, { "n": "香港", "v": "香港" }, { "n": "台湾", "v": "台湾" }, { "n": "日本", "v": "日本" }, { "n": "美国", "v": "美国" }, { "n": "泰国", "v": "泰国" }, { "n": "英国", "v": "英国" }, { "n": "新加坡", "v": "新加坡" }, { "n": "其他", "v": "其他" }] }, { "key": "year", "name": "年份", "value": [{ "n": "全部", "v": "" }, { "n": "2024", "v": "2024" }, { "n": "2023", "v": "2023" }, { "n": "2022", "v": "2022" }, { "n": "2021", "v": "2021" }, { "n": "2020", "v": "2020" }, { "n": "2019", "v": "2019" }, { "n": "2018", "v": "2018" }, { "n": "2017", "v": "2017" }, { "n": "2016", "v": "2016" }, { "n": "2015", "v": "2015" }, { "n": "2014", "v": "2014" }, { "n": "2013", "v": "2013" }, { "n": "2012", "v": "2012" }, { "n": "2011", "v": "2011" }, { "n": "2010", "v": "2010" }, { "n": "2009", "v": "2009" }, { "n": "2008", "v": "2008" }, { "n": "2006", "v": "2006" }, { "n": "2005", "v": "2005" }, { "n": "2004", "v": "2004" }] }, { "key": "by", "name": "排序", "value": [{ "n": "时间", "v": "time" }, { "n": "人气", "v": "hits" }, { "n": "评分", "v": "score" }] }],
+        "3": [{ "key": "class", "name": "剧情", "value": [{ "n": "全部", "v": "" }, { "n": "选秀", "v": "选秀" }, { "n": "情感", "v": "情感" }, { "n": "访谈", "v": "访谈" }, { "n": "播报", "v": "播报" }, { "n": "旅游", "v": "旅游" }, { "n": "音乐", "v": "音乐" }, { "n": "美食", "v": "美食" }, { "n": "纪实", "v": "纪实" }, { "n": "曲艺", "v": "曲艺" }, { "n": "生活", "v": "生活" }, { "n": "游戏互动", "v": "游戏互动" }, { "n": "财经", "v": "财经" }, { "n": "求职", "v": "求职" }] }, { "key": "area", "name": "地区", "value": [{ "n": "全部", "v": "" }, { "n": "内地", "v": "内地" }, { "n": "港台", "v": "港台" }, { "n": "日韩", "v": "日韩" }, { "n": "欧美", "v": "欧美" }] }, { "key": "year", "name": "年份", "value": [{ "n": "全部", "v": "" }, { "n": "2024", "v": "2024" }, { "n": "2023", "v": "2023" }, { "n": "2022", "v": "2022" }, { "n": "2021", "v": "2021" }, { "n": "2020", "v": "2020" }, { "n": "2019", "v": "2019" }, { "n": "2018", "v": "2018" }, { "n": "2017", "v": "2017" }, { "n": "2016", "v": "2016" }, { "n": "2015", "v": "2015" }, { "n": "2014", "v": "2014" }, { "n": "2013", "v": "2013" }, { "n": "2012", "v": "2012" }, { "n": "2011", "v": "2011" }, { "n": "2010", "v": "2010" }, { "n": "2009", "v": "2009" }, { "n": "2008", "v": "2008" }, { "n": "2007", "v": "2007" }, { "n": "2006", "v": "2006" }, { "n": "2005", "v": "2005" }, { "n": "2004", "v": "2004" }] }, { "key": "by", "name": "排序", "value": [{ "n": "时间", "v": "time" }, { "n": "人气", "v": "hits" }, { "n": "评分", "v": "score" }] }],
+        "4": [{ "key": "class", "name": "剧情", "value": [{ "n": "全部", "v": "" }, { "n": "情感", "v": "情感" }, { "n": "科幻", "v": "科幻" }, { "n": "热血", "v": "热血" }, { "n": "推理", "v": "推理" }, { "n": "搞笑", "v": "搞笑" }, { "n": "冒险", "v": "冒险" }, { "n": "萝莉", "v": "萝莉" }, { "n": "校园", "v": "校园" }, { "n": "动作", "v": "动作" }, { "n": "机战", "v": "机战" }, { "n": "运动", "v": "运动" }, { "n": "战争", "v": "战争" }, { "n": "少年", "v": "少年" }, { "n": "少女", "v": "少女" }, { "n": "社会", "v": "社会" }, { "n": "原创", "v": "原创" }, { "n": "亲子", "v": "亲子" }, { "n": "益智", "v": "益智" }, { "n": "励志", "v": "励志" }, { "n": "其他", "v": "其他" }] }, { "key": "area", "name": "地区", "value": [{ "n": "全部", "v": "" }, { "n": "国产", "v": "国产" }, { "n": "日本", "v": "日本" }, { "n": "欧美", "v": "欧美" }, { "n": "其他", "v": "其他" }] }, { "key": "year", "name": "年份", "value": [{ "n": "全部", "v": "" }, { "n": "2024", "v": "2024" }, { "n": "2023", "v": "2023" }, { "n": "2022", "v": "2022" }, { "n": "2021", "v": "2021" }, { "n": "2020", "v": "2020" }, { "n": "2019", "v": "2019" }, { "n": "2018", "v": "2018" }, { "n": "2017", "v": "2017" }, { "n": "2016", "v": "2016" }, { "n": "2015", "v": "2015" }, { "n": "2014", "v": "2014" }, { "n": "2013", "v": "2013" }, { "n": "2012", "v": "2012" }, { "n": "2011", "v": "2011" }, { "n": "2010", "v": "2010" }, { "n": "2009", "v": "2009" }, { "n": "2008", "v": "2008" }, { "n": "2007", "v": "2007" }, { "n": "2006", "v": "2006" }, { "n": "2005", "v": "2005" }, { "n": "2004", "v": "2004" }] }, { "key": "by", "name": "排序", "value": [{ "n": "时间", "v": "time" }, { "n": "人气", "v": "hits" }, { "n": "评分", "v": "score" }] }]
+    },
+    searchUrl: '/vodsearch/**-------------.html',
+    searchable: 2,//是否启用全局搜索,
+    headers: {
+        'User-Agent': 'PC_UA',
+    },
+    class_parse: 'ul.swiper-wrapper&&li;a&&Text;a&&href;/(\\d+).html',
+    play_parse: true,
+    lazy: `js:
+        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+        var url = html.url;
+        var from = html.from;
+        if (html.encrypt == '1') {
+            url = unescape(url)
+        } else if (html.encrypt == '2') {
+            url = unescape(base64Decode(url))
+        }
+        if (/m3u8|mp4/.test(url)) {
+            input = url
+        } else {
+            var MacPlayerConfig = {};
+            eval(fetch(HOST + '/static/js/playerconfig.js').replace('var Mac', 'Mac'));
+            var jx = MacPlayerConfig.player_list[from].parse;
+            var pconfig = jsp.pdfh(request(jx + url), 'body&&script,0&&Html').match(/config = {[\\s\\S]*?}/)[0];
+            var config = {};
+            eval(pconfig);
+            let apiurl = '';
+            if (config.url.startsWith('http')) {
+                apiurl = getHome(jx) + '/API.php';
+            } else {
+                apiurl = getHome(jx) + '/aqpqp/API.php';
+            }
+            let purl = JSON.parse(request(apiurl, {
+                headers: {
+                    'Origin': HOST
+                },
+                body: 'url=' + config.url,
+                method: 'POST'
+            })).url;
+            input = {
+                jx: 0,
+                url: purl,
+                parse: 0,
+                header: JSON.stringify({
+                    'Origin': HOST
+                })
+            }
+        }
+    `,
+    double: true, // 推荐内容是否双层定位
+    // 推荐: '.tab-content:gt(0)&&li;*;*;;*',
+    推荐: '.ewave-vodlist;li;*;*;;*',
+    一级: '.ewave-vodlist&&li;.lazyload&&title;.lazyload&&data-original;;a&&href',
+    二级: {
+        "title": "h1&&Text;.data--span:eq(0)&&Text",
+        "img": ".lazyload&&data-original",
+        "desc": ".data:eq(3)&&Text;;;.data--span:eq(1)&&Text;.data--span:eq(2)&&Text",
+        "content": ".desc--a&&Text",
+        "tabs": ".nav-tabs&&li",
+        "lists": ".ewave-content__playlist:eq(#id)&&li"
+    },
+    搜索: '.ewave-vodlist__media&&li;*;*;;*',
+}

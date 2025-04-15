@@ -1,7 +1,7 @@
 var rule = {
     title:'有声小说吧',
     编码:'gb18030',
-    host:'http://m.ysxs8.vip',
+    host:'http://m.ysxs8.top',
     url:'/downlist/fyclass_fypage.html',
     searchUrl:'/search.asp?page=fypage&searchword=**&searchtype=-1',
     searchable:2,

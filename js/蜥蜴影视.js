@@ -1,9 +1,9 @@
 muban.海螺3.二级.title = 'h1&&Text;.hl-full-box .hl-col-xs-12:eq(6)&&Text';
 muban.海螺3.二级.desc = '.hl-score-nums&&Text;;;.hl-full-box .hl-col-xs-12:eq(2)&&Text;.hl-full-box .hl-col-xs-12:eq(3)&&Text';
-var rule={
-    title:'蜥蜴影视',
-    模板:'海螺3',
-    host:'https://xi1.net',
+var rule = {
+    title: '蜥蜴影视',
+    模板: '海螺3',
+    host: 'https://xi1.net',
     // url:'/tvshow/fyclassXXXXXXXfypageXXX.html',
     url:'/tvshow/fyclassfyfilter.html',
 	filterable:1,//是否启用分类筛选,

@@ -27,9 +27,9 @@ var rule = {
 	},
 	timeout: 5000,
 	class_parse: '.navbar-left&&li:gt(0);a&&Text;a&&href;/(\\d+).html',
-	tab_rename:{'WYun':'无尽','海外雲':'海外看','SYun':'闪电','TYun':'天空','QYun':'飞速','Uyun':'U酷','OYun':'卧龙','NYun':'量子','JYun':'鱼乐','Kyun': '快播'},
+	tab_rename: { 'WYun': '无尽', '海外雲': '海外看', 'SYun': '闪电', 'TYun': '天空', 'QYun': '飞速', 'Uyun': 'U酷', 'OYun': '卧龙', 'NYun': '量子', 'JYun': '鱼乐', 'Kyun': '快播' },
 	play_parse: true,
-	lazy:`js:
+	lazy: `js:
 		var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
 		var url = html.url;
 		if (html.encrypt == '1') {

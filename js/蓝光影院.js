@@ -27,7 +27,7 @@ var rule = {
         "lists": ".module-play-list:eq(#id) a"
     },
     class_parse: '.navbar-items li:gt(1):lt(8);a&&Text;a&&href;.*/(.*?).html',
-	搜索:`js:
+    搜索: `js:
 		pdfh = jsp.pdfh, pdfa = jsp.pdfa, pd = jsp.pd;
 		let d = [];
 		var html = request(input);
