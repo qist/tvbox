@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;2c6500c44ee7e7b915f8c0afb0723e50",
+"spider":"./jar/fan.txt;md5;7472da5d5d66556654e08770042564ab",
 "lives":[
 {"name": "ITV","type": 0,"url": "./ITV.txt","epg": "http://epg.51zmt.top:8000/e.xml","ua": "okhttp/3.15,AptvPlayer/1.4.0","timeout": 3,"playerType": 2},
 {"name":"fmm","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
