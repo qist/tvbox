@@ -84,7 +84,7 @@ var rule = {
             let channelName = data.albumDocInfo.channel.split(',')[0];
             if ((data.is_exactly_same === true)&&(channelName.includes('电影') || channelName.includes('电视剧') || channelName.includes('综艺') || channelName.includes('动漫') || channelName.includes('少儿'))) {
                 d.push({
-                    url: "https://www.swsixtwo.top/jsp.php?jx=" + data.albumDocInfo.albumTitle,
+                    url: "https://www.ugigc.dpdns.org/jsp.php?jx=" + data.albumDocInfo.albumTitle,
                     title: data.albumDocInfo.albumTitle,
                     img: data.albumDocInfo.albumVImage,
                     content:data.albumDocInfo.channel,

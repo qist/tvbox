@@ -1,6 +1,9 @@
 {
     "SiteUrl": "https://baijia.banye.tech:7086",
-    "Domains": [],
+    "Domains": [
+        "http://cj.jiexi.news",
+        "https://baijia.885525.xyz"
+    ],
     "SiteWord": "bj",
     "SiteName": "百家",
     "Classes": [
