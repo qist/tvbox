@@ -5,10 +5,13 @@
 三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
 三立NEWS+,https://www.youtube.com/live/pF507BLtbqU?si=Ajqr6bitgqQQqaun
 三立NEWS+,https://www.youtube.com/watch?v=pF507BLtbqU
+三立NEWS+,https://www.youtube.com/watch?v=pF507BLtbqU
 三立海外,https://www.youtube.com/live/hGJkDZDchYI?si=ZevMfRDmU86tccJz
 三立海外,https://www.youtube.com/watch?v=hGJkDZDchYI
+LIVE NOW,https://www.youtube.com/watch?v=SdzewdkJa-o
 公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=-eMTJ5zFhfWAphbs
 公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
+公視新聞網,https://www.youtube.com/watch?v=quwqlazU-c8
 非凡商業,https://www.youtube.com/live/NHQDx8vCrC4?si=e-d0Ns2EB36iyW_3
 非凡商業,https://www.youtube.com/watch?v=NHQDx8vCrC4
 台視新聞,https://www.youtube.com/live/xL0ch83RAK8?si=6PbDs2DOrlT9Og14
@@ -18,6 +21,7 @@
 華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
 鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o?si=UhF9OL7jduRXteiF
 寰宇新聞,https://www.youtube.com/live/6IquAgfvYmc?si=pOtAi2jJyFbMjUNk
+寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
 寰宇新聞,https://www.youtube.com/watch?v=6IquAgfvYmc
 寰宇新聞台灣台,https://www.youtube.com/live/w87VGpgd90U?si=pOtAi2jJyFbMjUNk
 寰宇新聞台灣台,https://m.youtube.com/live/w87VGpgd90U
@@ -92,6 +96,38 @@ TVBS56,http://www.youtube.com/watch?v=YvdcZ_jpLXE
 東森Live,http://www.youtube.com/watch?v=S5WOGu2HSes
 
 
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
+大愛電視,https://www.youtube.com/watch?v=DTNkEm6jaqQ
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+大愛電視,https://www.youtube.com/watch?v=MIqUplvSRWA
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
+民視新聞網,https://www.youtube.com/watch?v=ylYJSBUgaMA
+新唐人亞太電視台NTDAPTV,https://www.youtube.com/watch?v=WIhgU_mc05A
+TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
+國會頻道,https://www.youtube.com/watch?v=4HysYHJ6GkY
+TVBS,https://www.youtube.com/watch?v=m_dhMSvUCIc
+國會頻道,https://www.youtube.com/watch?v=Lj8OWF6nzcg
+國會頻道,https://www.youtube.com/watch?v=IvAXtzx5cUI
+國會頻道,https://www.youtube.com/watch?v=Af0TFVbxvAQ
+國會頻道,https://www.youtube.com/watch?v=Qo9QwuCpV3s
+國會頻道,https://www.youtube.com/watch?v=yUx5lB4mhZk
+國會頻道,https://www.youtube.com/watch?v=tDg3bJFYLzI
+寰宇新聞,https://www.youtube.com/watch?v=w87VGpgd90U
+鳳凰衛視,https://www.youtube.com/watch?v=HFib76ySpbU
+東森新聞,https://www.youtube.com/watch?v=V1p33hqPrUk
+寰宇財經新聞,https://www.youtube.com/watch?v=WTRQiVWK1jY
+中天電視,https://www.youtube.com/watch?v=vr3XyVCR4T0
+57東森財經新聞,https://www.youtube.com/watch?v=1I2iq41Akmo
+57東森財經新聞,https://www.youtube.com/watch?v=AEBeWMM1atA
+中天深喉嚨,https://www.youtube.com/watch?v=DM_PEM8GrIg
+三立LIVE新聞,https://www.youtube.com/watch?v=hGJkDZDchYI
+寰宇新聞,https://www.youtube.com/watch?v=Ej3LQM_lTEw
+TVBS選新聞,https://www.youtube.com/watch?v=o_-hSMgpAzs
+東森新聞 CH51,https://www.youtube.com/watch?v=E0zhe2gkXBs
+中視經典綜藝,https://www.youtube.com/watch?v=ADDSmXoPDY8
+台灣地震監視,https://www.youtube.com/watch?v=Owke6Quk7T0
+
+
 🏘️2/24換新站！舊址不再跟新！Rob Yang就是我 http://RobYang.ggff.net,#genre#
 至少"設定"->"點播"輸入http://RobYang.ggff.net 一次，這樣可以跟新所有線源1,abc://a.d2
 至少"設定"->"點播"輸入http://RobYang.dpdns.org 一次，這樣可以跟新所有線源2,abc://a.d1
@@ -114,6 +150,30 @@ MOMO親子2,https://www.youtube.com/watch?v=Us2fxb2Ok7U
 MOMO親子成語,https://www.youtube.com/live/fB7x7fnYtkc?si=JpzxGvcHZ5zUOW5U
 MOMO親子成語,https://youtu.be/fB7x7fnYtkc
 迪士尼最佳歌曲2023,https://youtu.be/dpIbmKroTgA?si=YILikSplg7x284_Y
+貝樂虎兒歌-童謠歌曲,https://www.youtube.com/watch?v=E2E6FHFb7eQ
+
+PBS KIDS,https://www.youtube.com/watch?v=E3NOvf9WNAQ
+Hasbro,https://www.youtube.com/watch?v=TZ3mxF4U__k
+Beep Beep - Nursery Rhymes,https://www.youtube.com/watch?v=-VBxijFm50Y
+Cartoonito,https://www.youtube.com/watch?v=p5l3ZS1jVUE
+The Amazing World of Gumball,https://www.youtube.com/watch?v=nIyaCRNwxhU
+Adventure Time,https://www.youtube.com/watch?v=uZkaJ3e9nfY
+Boomerang UK,https://www.youtube.com/watch?v=IJbbpAhjboI
+Boomerang UK,https://www.youtube.com/watch?v=2UOwO_N17ms
+Doggyland - Kids Songs & Nursery Rhymes,https://www.youtube.com/watch?v=fzof1XsTZ-E
+Birder King,https://www.youtube.com/watch?v=56WBs0A4Kng
+Cartoon Network UK,https://www.youtube.com/watch?v=uUCTOHriQCg
+Steven Universe,https://www.youtube.com/watch?v=m33MxUipmTI
+Total Drama Official,https://www.youtube.com/watch?v=UBaxq2b6F6M
+Peppa Pig Surprise,https://www.youtube.com/watch?v=aGMSVJcRxbM
+BabyTV - Nursery Rhymes & Cartoons,https://www.youtube.com/watch?v=T9WraFZ8PxI
+Boomerang UK,https://www.youtube.com/watch?v=rEKifG2XUZg
+We Love Bears,https://www.youtube.com/watch?v=RXoDbwZmXV8
+Masha and The Bear,https://www.youtube.com/watch?v=k5UuTzRUxuU
+OGGY,https://www.youtube.com/watch?v=gI9mb0R_mX0
+Marvel HQ,https://www.youtube.com/watch?v=13GZtHqYrLY
+Beep Beep - Nursery Rhymes,https://www.youtube.com/watch?v=DJPyt438WX4
+
 
 
 📺YouTube 其他,#genre#
@@ -166,6 +226,158 @@ Mo综合,rtmp://f13h.mine.nu/sat/tv761
 ELE体育1,rtmp://f13h.mine.nu/sat/tv731
 ELE体育2,rtmp://f13h.mine.nu/sat/tv741
 ELE体育3,rtmp://f13h.mine.nu/sat/tv751
+
+
+Sports Central by DRM,https://www.youtube.com/watch?v=FPO4QXEJH8s
+Sports Central by DRM,https://www.youtube.com/watch?v=SYRWPsI4QPY
+FIGHT SHORT,https://www.youtube.com/watch?v=JGQSQvPO-mI
+Talk Shows Central by DRM,https://www.youtube.com/watch?v=vwxng16LTiU
+BRAVE Combat Federation,https://www.youtube.com/watch?v=UepxNq3xEic
+Conqueror Motorsports,https://www.youtube.com/watch?v=s2AKzdubjC4
+ONE Championship,https://www.youtube.com/watch?v=BxArS9RtjyM
+Anurag Dwivedi,https://www.youtube.com/watch?v=t6kSdbXFnPA
+Sorkhabi - Persian Sports Channel,https://www.youtube.com/watch?v=aumBtSbzxhQ
+World Karate Federation,https://www.youtube.com/watch?v=-UVirw44HUE
+Sports Yaari,https://www.youtube.com/watch?v=OS-yom94JEk
+BellatorMMA,https://www.youtube.com/watch?v=qGe9vi8RP3M
+Blue Jays Today,https://www.youtube.com/watch?v=3OYU9Y2T_tg
+Cuồng Thể Thao,https://www.youtube.com/watch?v=BWD98tsMsb4
+Cuồng Bóng Đá,https://www.youtube.com/watch?v=9_VXoxbjbfU
+Turki Alalshikh,https://www.youtube.com/watch?v=3udrLUwZj-A
+Persepolis F.C.,https://www.youtube.com/watch?v=kWdPW0kCBt4
+Jovem Pan Esportes,https://www.youtube.com/watch?v=zD9lNLmgliU
+BÓNG ĐÁ HÔM NAY,https://www.youtube.com/watch?v=JwKrxeluefs
+ФК «Динамо» Київ,https://www.youtube.com/watch?v=OHIASXdvsso
+Sports Tak,https://www.youtube.com/watch?v=9Rf_bDpcld0
+The Football Terrace,https://www.youtube.com/watch?v=PoIATJI_-gM
+World Karate Federation,https://www.youtube.com/watch?v=J37PkPVkvXM
+BÓNG ĐÁ HÔM NAY,https://www.youtube.com/watch?v=0dL66_OxmqU
+Cuồng Thể Thao,https://www.youtube.com/watch?v=8FHWAVdkRno
+Cuồng Thể Thao,https://www.youtube.com/watch?v=Z5KAgdLXqng
+tribunjabar video,https://www.youtube.com/watch?v=Vqxqxw323C4
+beIN SPORTS Türkiye,https://www.youtube.com/watch?v=VCl1wO81VdM
+BÓNG ĐÁ HÔM NAY,https://www.youtube.com/watch?v=1lEMfbGqe1U
+Football Hub,https://www.youtube.com/watch?v=UWAttfOH-yM
+TJK TV,https://www.youtube.com/watch?v=g89RQMJtK6E
+CricTalks Live Coverage,https://www.youtube.com/watch?v=mAD5qCDNMLY
+By The Way,https://www.youtube.com/watch?v=XcQwkUXCGHc
+KM PUNK,https://www.youtube.com/watch?v=qs7Xt0ahuq0
+TITAN STRANGE YT,https://www.youtube.com/watch?v=dXIZT1ec7kM
+AZZ,https://www.youtube.com/watch?v=1I9H3iU4KRI
+Mostly Sports With Mark Titus and Brandon Walker,https://www.youtube.com/watch?v=5Gl2MQ4fgvg
+Meu Timão,https://www.youtube.com/watch?v=cAlKHgbJAeQ
+Jovem Pan News,https://www.youtube.com/watch?v=omViL-rOZVI
+TV Band Minas,https://www.youtube.com/watch?v=2O4QuCP6rUo
+CricTalks Live Coverage,https://www.youtube.com/watch?v=szoEkg78Urk
+1iQ Gaming,https://www.youtube.com/watch?v=QOz6PGWYAmE
+Karakullukcu,https://www.youtube.com/watch?v=-pF37wTm4as
+CricTalks Live Coverage,https://www.youtube.com/watch?v=jHpnl5TjGKo
+World Surf League,https://www.youtube.com/watch?v=uRrD1ShmZ28
+BTV,https://www.youtube.com/watch?v=UQnrY1Lh4IU
+VOLE,https://www.youtube.com/watch?v=-h6trJlBGGw
+Bandsports,https://www.youtube.com/watch?v=ZbxWxQquWLM
+Pro Tv,https://www.youtube.com/watch?v=_-zA3KD-m_U
+CricTalks Live Coverage,https://www.youtube.com/watch?v=9mfLGdBBfUU
+A Spor,https://www.youtube.com/watch?v=7uBpwcn2ZZ0
+DKTV Daniel,https://www.youtube.com/watch?v=34Ta9zUjiGo
+BPM Sports,https://www.youtube.com/watch?v=OWmZgviANoc
+Players Choice,https://www.youtube.com/watch?v=Oh10xtgbsxE
+새벽의 축구 전문가,https://www.youtube.com/watch?v=4X3ta7VRVuk
+Ultimate Cleveland Sports Show,https://www.youtube.com/watch?v=Chs43b7tC7s
+Morning Kombat,https://www.youtube.com/watch?v=bwGhDSYSdsc
+TRT SPOR Yıldız,https://www.youtube.com/watch?v=udwfgJpnfG4
+98 Live,https://www.youtube.com/watch?v=cy8EGZAnTvo
+Rádio Transamérica Esportes,https://www.youtube.com/watch?v=sh7N3YQKzZk
+Rants N Bants,https://www.youtube.com/watch?v=uRT1GuQQPWs
+WeAreTottenhamTV,https://www.youtube.com/watch?v=2jzjEHCZDTE
+World Surf League,https://www.youtube.com/watch?v=x5DczRFqIFc
+Esporte Band RS,https://www.youtube.com/watch?v=d8EajzWgFEM
+rdsca,https://www.youtube.com/watch?v=dbNUUnpe9Tg
+Free Picks PickDawgz,https://www.youtube.com/watch?v=BGkK0SNTbxw
+TJK TV,https://www.youtube.com/watch?v=ri4rR0H2i9c
+Cricfoot Nepal,https://www.youtube.com/watch?v=fqC553tkqK8
+𝗖𝗥𝗜𝗖 𝗦𝗣𝗢𝗥𝗧𝗦,https://www.youtube.com/watch?v=9oWaEgdQ0l0
+TNT Sports Chile,https://www.youtube.com/watch?v=Spx2ORbhWAs
+ECN - European Cricket Network,https://www.youtube.com/watch?v=C_lun94yZog
+Pop Bola Esporte Clube,https://www.youtube.com/watch?v=eFlLlglD1Iw
+Thaboxingvoice,https://www.youtube.com/watch?v=ribJxVC8D4M
+Locked On College Football,https://www.youtube.com/watch?v=ylSeT6K5fno
+MARCA,https://www.youtube.com/watch?v=h-VcMZLbXKg
+The Sevan Podcast,https://www.youtube.com/watch?v=srNqlxKZkiI
+KNBR,https://www.youtube.com/watch?v=Hc4HXCAqsC8
+World Karate Federation,https://www.youtube.com/watch?v=7CORcBZ30Lk
+LIGA BBVA MX,https://www.youtube.com/watch?v=-b75L2mk3rY
+24 LIVE EVENT🎥,https://www.youtube.com/watch?v=cDISolh4u5E
+talkSPORT,https://www.youtube.com/watch?v=MiJIODpKngw
+LIGA BBVA MX,https://www.youtube.com/watch?v=YLS1nSjfEV0
+Kilómetro Cero,https://www.youtube.com/watch?v=T35sNA3LzeQ
+Barstool Gambling,https://www.youtube.com/watch?v=4n0JIm5-RjU
+104-5 The Zone,https://www.youtube.com/watch?v=CjoMRyaglWw
+Locked On NFL,https://www.youtube.com/watch?v=t-zYSYBItyA
+
+
+
+
+momo購物一台 CH48,https://www.youtube.com/watch?v=_pZQ1Lk0xMA
+momo購物二台 CH35,https://www.youtube.com/watch?v=xbNWkUyxQGM
+Live東森購物台,https://www.youtube.com/watch?v=ViJ3XiN6Q3M
+Live東森購物台,https://www.youtube.com/watch?v=Z50JFuNgvB0
+Live東森購物台,https://www.youtube.com/watch?v=u0NYyH3ZesE
+Live東森購物台,https://www.youtube.com/watch?v=_Vlzn9qAHD4
+HSNtv,https://www.youtube.com/watch?v=1ph8qQnjXts
+QVCtv,https://www.youtube.com/watch?v=UqFzfqlb60g
+QVCtv,https://www.youtube.com/watch?v=Qt2c93O1p_c
+QVCtv,https://www.youtube.com/watch?v=_v_wMS-uACE
+HSNtv,https://www.youtube.com/watch?v=q-BvtDrTnxc
+CHANNEL21online,https://www.youtube.com/watch?v=0Vz3bK6K0f4
+
+Mellowbeat Seeker,https://www.youtube.com/watch?v=IUT1qAhMY4w
+N&T Party,https://www.youtube.com/watch?v=qWf-FPFmVw0
+RazNitzanMusic,https://www.youtube.com/watch?v=WYetg3AuLE4
+The Good Life Radio x Sensual Musique,https://www.youtube.com/watch?v=9UMxZofMNbA
+BGM channel,https://www.youtube.com/watch?v=fEvM-OUbaKs
+RazNitzanMusic,https://www.youtube.com/watch?v=DPXQG8S9Xwc
+Cafe Music BGM channel,https://www.youtube.com/watch?v=Dx5qFachd3A
+Cafe Music BGM channel,https://www.youtube.com/watch?v=SORD03t7nlo
+Cafe Music BGM channel,https://www.youtube.com/watch?v=6uddGul0oAc
+N&T Party,https://www.youtube.com/watch?v=I9Kn7uYT9Vs
+Nemo's Dreamscapes,https://www.youtube.com/watch?v=nR-Zen2s2Qw
+DATA LIVE,https://www.youtube.com/watch?v=3dVI1qu_8BI
+Relaxation Ambient Music,https://www.youtube.com/watch?v=E5WpblyBR38
+TOKYO TONES,https://www.youtube.com/watch?v=Lcdi9O2XB4E
+Love YourSelf,https://www.youtube.com/watch?v=jKUAGpoFdjA
+I Love You Venice,https://www.youtube.com/watch?v=2gO1v2GPMFk
+Explore Zen Den,https://www.youtube.com/watch?v=a0i1Kg6fROg
+Relaxation Ambient Music,https://www.youtube.com/watch?v=tNkZsRW7h2c
+Love YourSelf,https://www.youtube.com/watch?v=xdckqJD4Bhk
+Lofi Girl,https://www.youtube.com/watch?v=jfKfPfyJRdk
+Sleepy Dogs,https://www.youtube.com/watch?v=BZcu8MK_jfo
+Soothing Relaxation,https://www.youtube.com/watch?v=2OM7adQl-YQ
+OCB Relax Music,https://www.youtube.com/watch?v=l6J0ylYTO4s
+BGM channel,https://www.youtube.com/watch?v=gzxFyqJfUeo
+Monstercat Silk,https://www.youtube.com/watch?v=WsDyRAPFBC8
+Anjunadeep,https://www.youtube.com/watch?v=D4MdHQOILdw
+THE K-POP,https://www.youtube.com/watch?v=JVocS7Yftw8
+Arirang Radio K-Pop,https://www.youtube.com/watch?v=P1fX2GGdVS0
+The Waters of Heaven,https://www.youtube.com/watch?v=jvXwD1dMvYM
+The Waters of Heaven,https://www.youtube.com/watch?v=b_TW4NYsbOo
+男女對唱 Music Box Good ,https://www.youtube.com/watch?v=W3Axy3nJUgU
+The Waters of Heaven,https://www.youtube.com/watch?v=JFxOtxYJoz0
+The Waters of Heaven,https://www.youtube.com/watch?v=hYz1oOcAuk8
+Healing Melody for Soul,https://www.youtube.com/watch?v=ySfbEYyr5jo
+Hot Douyin Studios,https://www.youtube.com/watch?v=QntP-ZwxbJI
+Cozy Jazz Music,https://www.youtube.com/watch?v=j-tYR6tvtb0
+Lofi Girl,https://www.youtube.com/watch?v=P6Segk8cr-c
+男女對唱 Music Box Good ,https://www.youtube.com/watch?v=DYx6elXyQJ4
+The Waters of Heaven,https://www.youtube.com/watch?v=APKgJNq6I_k
+Sleepy Cats,https://www.youtube.com/watch?v=LK0Nx3u69GI
+The Waters of Heaven,https://www.youtube.com/watch?v=G6M5Upcrwf8
+The Waters of Heaven,https://www.youtube.com/watch?v=seDO5NoNk10
+Jazz For Soul,https://www.youtube.com/watch?v=25aiG5qg-CU
+Happy Jazz Music,https://www.youtube.com/watch?v=ygedg03NpUQ
+男女對唱 Music Box Good ,https://www.youtube.com/watch?v=Q_BYTfKF2Zc
+MBC WORLD,https://www.youtube.com/watch?v=ggDKdb2oaL4
+
 
 
 📻電台,#genre#

@@ -66,6 +66,27 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
 
 
 
+## 3. 4GTV pixman （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/pixman-4gtv: 
+======
+vps 服务器 Docker镜像运行:
+docker run -d --name=pixman-4gtv -p 50007:5000 --dns=8.8.8.8 --restart=always mybtjson/pixman-4gtv:0.0.4
+
+软路由 Docker镜像运行:
+docker run -d --name=pixman-4gtv -p 50007:5000 -e http_proxy="http://172.17.0.1:10082" -e https_proxy="http://172.17.0.1:10082" --restart=always mybtjson/pixman-4gtv:0.0.4
+
+注释:
+先去 https://app.alice.ws 注册账号，然后把你的vps的IP添加到他官网提供的dns解锁中， 添加成功之后会给你一个解锁HK和TW的IP，把上面--dns=8.8.8.8中的8.8.8.8替换成他给你提供的IP，然后你就可以愉快的玩耍了！！
+
+##代理ts订阅
+http://ip:port/?type=m3u&proxy=true
+
+   http://ip:50007/help
+   http://ip:50007/?type=txt
+   http://ip:50007/?type=m3u
+
+
+
+
 ## 3. ofiii: (taiwan IP only 無民視) https://hub.docker.com/r/doubebly/doube-ofiii/tags
 ======
 台湾vps部署：
