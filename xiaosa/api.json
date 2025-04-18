@@ -90,6 +90,29 @@
             "ext": "http://cmsyt114.lyyytv.cn/api.php/app/"
         },
         {
+            "key": "乐享影视",
+            "name": "乐享｜影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://114.66.55.28:8818/api.php/app/"
+        },
+        {
+            "key": "金牌影视",
+            "name": "金牌｜影视",
+            "type": 3,
+            "api": "./py/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+            }
+        },
+        {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
@@ -194,17 +217,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "./json/lb.json?"
-        },
-        {
-            "key": "小米",
-            "name": "小米｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/xm.json?"
         },
         {
             "key": "至臻",
@@ -415,10 +427,23 @@
             "key": "河马短剧",
             "name": "河马｜短剧",
             "type": 3,
-            "api": "csp_AppHMDJ",
+            "api": "./py/河马短剧.py",
             "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "偷乐短剧",
+            "name": "偷乐｜短剧",
+            "type": 3,
+            "api": "./py/偷乐短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
         },
         {
             "key": "爱看短剧",
@@ -430,16 +455,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
-        },
-        {
-            "key": "爱我短剧",
-            "name": "爱我｜短剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/爱我短剧.json"
         },
         {
             "key": "短剧网",
@@ -467,19 +482,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
-        },
-        {
-            "key": "金牌影视",
-            "name": "金牌｜影视",
-            "type": 3,
-            "api": "./py/金牌影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-            }
         },
         {
             "key": "猎手影视",
@@ -2118,6 +2120,14 @@
             "name": "AI直播",
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "Guovin",
+            "type": 0,
+            "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 2,
             "timeout": 10
