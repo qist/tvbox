@@ -1,0 +1,86 @@
+[
+    {
+        "name": "我的网盘",
+        "folders": [
+            {
+                "shareId": "",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "影视一",
+        "folders": [
+            {
+                "shareId": "dW5pJdgF8c9",
+                "folder": "root"
+            },
+            {
+                "shareId": "Y5wMKfVDD6K",
+                "folder": "root"
+            },
+            {
+                "shareId": "LEaepiYfxcw",
+                "folder": "root"
+            },
+            {
+                "shareId": "v1bBBEcNf9p",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "影视二",
+        "folders": [
+            {
+                "shareId": "uWa9gbM3RJ7",
+                "folder": "655c7b6c66368f43652a45288146c6e7cb269aa8"
+            }
+        ]
+    },
+    {
+        "name": "影视三",
+        "folders": [
+            {
+                "shareId": "4ydLxf7VgH7",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "影视四",
+        "folders": [
+            {
+                "shareId": "5bsnAp5fbCW",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "影视五",
+        "folders": [
+            {
+                "shareId": "dieULBdYP3D",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "影视六",
+        "folders": [
+            {
+                "shareId": "sg8CdGUwmUr",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "影视七",
+        "folders": [
+            {
+                "shareId": "wHPKUENKFsS",
+                "folder": "root"
+            }
+        ]
+    }
+]

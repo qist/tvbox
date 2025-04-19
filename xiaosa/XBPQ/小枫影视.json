@@ -1,0 +1,10 @@
+{
+    "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+    "数组": "module-item-pic&&module-item\"",
+    "图片": "data-src=\"&&\"",
+    "副标题": "module-item-text\">&&</div>",
+    "线路数组": "data-dropdown-value=&&</div>[不包含:视频]",
+    "线路标题": "<span>&&</small>[替换:</span><small>>>【]+集】",
+    "分类url": "https://kekedy.icu/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+    "分类": "电影$1#国产剧$2#综艺$6#短剧$8#纪录片$9"
+}
