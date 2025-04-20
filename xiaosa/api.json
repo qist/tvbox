@@ -1678,6 +1678,16 @@
             }
         },
         {
+            "key": "短剧大全",
+            "name": "短剧｜大全",
+            "type": 3,
+            "api": "./js/quark.min.js",
+            "ext": "./js/短剧大全.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "AList",
             "name": "AList｜合集",
             "type": 3,
