@@ -874,9 +874,9 @@
     //         }
     //     },
 
-
+{"name": "Smart| 台港中日韓", "type": 3, "api": "https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt.py", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"       },
 // {"name":"一盒1| 台港中日韓","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
-{"name":"LITV直播 (台灣IP)",  "type": 3,  "api": "https://json.doube.eu.org/python/live_litv.py",  "ext": {}},
+{"name":"LITV直播 (台灣IP)",  "type": 3,  "api": "https://json.doube.eu.org/python/live_litv.py",  "ext": {},"logo": "https://epg.112114.xyz/logo/{name}.png", "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒2| 台港中日韓P3P","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"http://a90120.serv00.net/anbox/p3plink.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒3| 台港中日韓Plus","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"http://a90120.serv00.net/anbox/jss.php","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒4| 際歐美","type":0,"url":"http://anbox118.zya.me/sapphire.m3u.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
