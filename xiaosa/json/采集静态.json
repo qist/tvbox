@@ -81,14 +81,6 @@
         "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&23&25&26&27&28&29&30&31&39&44&45&47&48&49&50&51&52&53&54&55&56&57&58&59&60&61&62&63&64&65&66&67&68&69&70"
     },
     {
-        "name": "快车资源",
-        "url": "https://caiji.kczyapi.com",
-        "parse_url": "",
-        "cate_exclude": "电影|电视剧|综艺|动漫|预告片|伦理|影视解说|体育赛事|港台三级|两性课堂|写真热舞",
-        "class_name": "H4sIAFZXhmYC/z1RbXaCMBC8TU7QW/RSip/oq8orxVp56hNoaqtFq1gFopfJZsMtGhLor93Z3czuTNBNgB0IuomkXbApwSyXdkpg8CHyrzJw5qPdI+D5ql1m2D+IVkdn1IFrVmaiORENT8/ZtOqK/itPbV2bM57Skl1sKd5GZVYsN7owjXS4xGWA8V6jow6YfgJ70VTJL4SenghpMetWR6rHiqYGimK8r4HeU2sx640i86YG5px/regaNZqqnjG7K5C74B54/kY4e5bWj0zmPB0SjL9x0iLyfCxDsW6DM9BEXizjFDpDokxWBksayPikHGTC6+FyVyri+TtOutVOfrExNeaoo01HRnfhXeuxaST8bQX4JRQNKuMbrCwC3Rn6S2ztZH9BHh7RfKzwbQhqKRAdi7UjmkP1hcrrJ8m26hRjfCiDDs9m/LYicD3xLMDNXZ4HRLYdcVoIa4ueQ3C0V52ixeBikcJKxH5s9vwBtOQp10cCAAA=",
-        "class_url": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&23&25&26&27&28&29&30&31&39&44&45&47&48&49&50&51&52&53&54&55&56&57&58&59&60&61&62&63&64&65&66&67&68&69&70"
-    },
-    {
         "name": "️极速资源",
         "url": "https://jszyapi.com",
         "parse_url": "",
@@ -112,23 +104,6 @@
         "cate_exclude": "电影片|连续剧|综艺片|动漫片|伦理片|电影解说|体育|短剧",
         "class_name": "H4sIAFZXhmYC/1WR0VLCQAxF/6bfqXQsbB9omYEq2JEHKqtQ2iIC0nbxZ5pk+Qt303VG307uZnJvsjQ9gtqTGHr6+4WaHQjpUdNqUVsNwjdst446lTIlqWmyRKM9+g9McgKXxhLex3iXcJ+Q7hVHT10tWHtWXS2tx209x6+SafluZEuYS7qOLUFU4eXK2uMrpjnT8QxZYkkXFagZ+y53LhxNmz8GHPt3niv6Qa4w1lHV7+kCuAIyeZsHrsBD9S+ak4lvpuVKl58e+iEOFuxdnKDu80SZXvHqMA4g+uAjDHJKJhw6LEltmMqCYt/r2jXFAf/B6WAFs5Yx/QEG4wmPmwEAAA==",
         "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&22&23&24&25&26&27&30&31&32&33&37&38&39&42&43&44&45&46&48&49&51&54"
-    },
-    {
-        "name": "天空资源",
-        "url": "https://m3u8.tiankongapi.com",
-        "parse_url": "",
-        "cate_exclude": "电影|连续剧|动漫|综艺|伦理片|电影解说|体育赛事|短剧",
-        "api": "/api.php/provide/vod/from/tkm3u8/",
-        "class_name": "H4sIAFdXhmYC/zVQW3LCMAy8jc/JYygknSllCqGUTPkoYAphEqCB4uD0Mrbk3KK2Yn95V9autMJpqeWJodhrOcNoyMzfJ1ZHHXEGGcf6xaFmu4Df3CEd75RMXR+OTtAfEOITfa8cgu4rdBKHbK//hdG7EhHVktSWCcU7nJIC4xzlnmpLqQSnaatvS/w0eBwYVg8TCabXvFk8eeL2GReBzDdWFAitHTTjAu41ebX+raMVQJoF0ub0pLzpdRLIpfCbWIF7kK5l+JfJf5jeDH1u7NbNR01pexkmE8ozuKqKbqHkm+mdTblU4pnhyt32H73g+qZ2AQAA",
-        "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&44"
-    },
-    {
-        "name": "百度云资源",
-        "url": "https://api.apibdzy.com",
-        "parse_url": "",
-        "cate_exclude": "电影|电视剧|综艺|动漫|伦理片|纪录片|体育赛事|资讯",
-        "class_name": "H4sIAFdXhmYC/zVP7W7CMAx8mzzn1vGVTgKqla4TSEgTLMAQLaBMkDZ9msRO32KNm/67O9t3Z0yl1VeGqXRiYrlgWNWOK2bjA9S/zNQ/uJwgn3rB6A2hbNMteoSzK7yNCYnEPiuP4HUJLxntcRGmMMuN4qTtRPtFOfAooLl71G6PJHzuKV+drF6RZ1ygPoVsTCvsq9pFCc+GLs4Cm7lHdvxnqoy0e0kC5YRfOucuYyCPonMYCDkML6+1USI83t8MpA8KJDpjlvhabSShXIRaRn+46Obk2qh35uTIXQrWjwKBfA75NpD2e2ST+B8HkFGOfQEAAA==",
-        "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&36&37&38&39"
     },
     {
         "name": "无尽资源",
