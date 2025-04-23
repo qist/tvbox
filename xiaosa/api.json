@@ -80,26 +80,6 @@
             "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
         },
         {
-            "key": "影探影视",
-            "name": "影探｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://cmsyt114.lyyytv.cn/api.php/app/"
-        },
-        {
-            "key": "乐享影视",
-            "name": "乐享｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://114.66.55.28:8818/api.php/app/"
-        },
-        {
             "key": "金牌影视",
             "name": "金牌｜影视",
             "type": 3,
