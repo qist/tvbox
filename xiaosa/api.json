@@ -80,6 +80,16 @@
             "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
         },
         {
+            "key": "QD4K",
+            "name": "QD4K｜影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://172.83.156.150:1010/api.php/app/"
+        },
+        {
             "key": "金牌影视",
             "name": "金牌｜影视",
             "type": 3,
@@ -723,6 +733,14 @@
             "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
         },
         {
+            "key": "晴天",
+            "name": "晴天｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 2,
+            "ext": "jaHR0cHM6Ly9hcHBjbXMuc3VuNGsudG9wfGIwMjVkY2Q5YzI4OWNiYjN8YjAyNWRjZDljMjg5Y2JiMw=="
+        },
+        {
             "key": "蝴蝶",
             "name": "蝴蝶｜APP",
             "type": 3,
@@ -759,13 +777,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.czzymovie.com/"
-        },
-        {
-            "key": "糯米影视",
-            "name": "糯米┃影视",
-            "type": 3,
-            "api": "csp_Wwys",
-            "ext": "https://www.wwgz.cn"
         },
         {
             "key": "私人影视",
@@ -1941,6 +1952,26 @@
             "ext": {
                 "flag": [
                     "hgvip"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "QD4K",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/xiafan.php?url=",
+            "ext": {
+                "flag": [
+                    "QD4K",
+                    "iyf",
+                    "duanju",
+                    "gzcj",
+                    "GTV",
+                    "GZYS",
+                    "weggz",
+                    "Ace"
                 ],
                 "header": {
                     "User-Agent": "okhttp/4.9.1"
