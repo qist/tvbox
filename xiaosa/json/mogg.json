@@ -19,16 +19,12 @@
             "type_id": "2"
         },
         {
-            "type_name": "综艺",
-            "type_id": "25"
-        },
-        {
             "type_name": "动漫",
             "type_id": "3"
         },
         {
-            "type_name": "纪录片",
-            "type_id": "4"
+            "type_name": "天翼专区",
+            "type_id": "27"
         }
     ],
     "Filters": {
