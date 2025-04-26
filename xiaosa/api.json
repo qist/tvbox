@@ -837,28 +837,37 @@
             "ext": "https://v.wetv.wang"
         },
         {
+            "key": "攻阁影视",
+            "name": "攻阁｜影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Lggys"
+        },
+        {
+            "key": "鸭梨影视",
+            "name": "鸭梨｜影视",
+            "type": 3,
+            "api": "csp_KmeiJu"
+        },
+        {
+            "key": "绝对影视",
+            "name": "绝对｜影视",
+            "type": 3,
+            "api": "csp_FourK",
+            "ext": "https://www.4kvm.tv"
+        },
+        {
+            "key": "白白影视",
+            "name": "白白｜影视",
+            "type": 3,
+            "api": "csp_SuBaiBai",
+            "ext": "https://www.subaibai.com"
+        },
+        {
             "key": "低端影视",
             "name": "低端｜影视",
             "type": 3,
             "api": "csp_Ddys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "快看影视",
-            "name": "快看｜影视",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "饭团影视",
-            "name": "饭团｜影视",
-            "type": 3,
-            "api": "csp_Fantuan",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -877,6 +886,15 @@
             "name": "瓜子｜影视",
             "type": 3,
             "api": "csp_Gz360",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "快看影视",
+            "name": "快看｜影视",
+            "type": 3,
+            "api": "csp_Kuaikan",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1439,13 +1457,6 @@
             "ext": "./js/花子动漫.js"
         },
         {
-            "key": "动漫巴士",
-            "name": "巴士｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/动漫巴士.js"
-        },
-        {
             "key": "樱花动漫",
             "name": "樱花｜动漫",
             "type": 3,
@@ -1701,11 +1712,11 @@
             "key": "88看球",
             "name": "88｜看球",
             "type": 3,
-            "api": "./js/drpy2.min.js",
+            "api": "csp_Kanqiu",
+            "gridview": 3,
             "style": {
                 "type": "list"
-            },
-            "ext": "./js/88看球.js"
+            }
         },
         {
             "key": "急救教学",
@@ -2157,7 +2168,13 @@
             "type": 0,
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "AI直播+",
+            "type": 0,
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.m3u",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "timeout": 10
         },
         {
@@ -2165,14 +2182,19 @@
             "type": 0,
             "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "咪咕直播",
+            "type": 0,
+            "url": "https://yun.urldwz.com/f/Q6y3ca/migu.m3u",
             "timeout": 10
         },
         {
             "name": "虎牙一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/huyayqk.m3u",
+            "url": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -2180,7 +2202,7 @@
             "name": "斗鱼一起看",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/douyuyqk.m3u",
+            "url": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -2188,7 +2210,7 @@
             "name": "YY轮播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/yylunbo.m3u",
+            "url": "https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -2196,7 +2218,7 @@
             "name": "B站直播",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://9877.kstore.space/Live/bilibili.m3u",
+            "url": "https://yun.urldwz.com/f/9XBkHK/bilibili.m3u",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
@@ -2218,7 +2240,6 @@
             "name": "范明明",
             "type": 0,
             "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-            "playerType": 2,
             "timeout": 10
         },
         {
@@ -2228,8 +2249,7 @@
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
+            "timeout": 10
         }
     ],
     "hosts": [
