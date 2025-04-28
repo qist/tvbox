@@ -38,7 +38,7 @@
         },
         {
             "key": "热播影视",
-            "name": "热播｜影视",
+            "name": "热播｜APP",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -50,7 +50,7 @@
         },
         {
             "key": "天天影视",
-            "name": "天天｜影视",
+            "name": "天天｜APP",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -62,7 +62,7 @@
         },
         {
             "key": "浪酷影视",
-            "name": "浪酷｜影视",
+            "name": "浪酷｜APP",
             "type": 3,
             "api": "csp_AppRJ",
             "searchable": 1,
@@ -74,32 +74,208 @@
         },
         {
             "key": "菲儿影视",
-            "name": "菲菲｜影视",
+            "name": "菲儿｜APP",
             "type": 3,
             "api": "csp_AppFerr",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
-        },
-        {
-            "key": "QD4K",
-            "name": "QD4K｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://172.83.156.150:1010/api.php/app/"
-        },
-        {
-            "key": "金牌影视",
-            "name": "金牌｜影视",
-            "type": 3,
-            "api": "./py/金牌影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
             "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+                "url": "https://appcms.freehd.vip",
+                "dataKey": "be5348dfb0c3c283",
+                "dataIv": "5f5449dd14313217"
+            }
+        },
+        {
+            "key": "彼岸",
+            "name": "彼岸｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://172.247.44.217:30011",
+                "dataKey": "JLa1oRdL6+eK7@M)",
+                "dataIv": "JLa1oRdL6+eK7@M)",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "时常",
+            "name": "时常｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://111.180.198.40:1110",
+                "dataKey": "asgcxhjkts124573",
+                "dataIv": "asgcxhjkts124573",
+                "deviceId": "",
+                "version": "101"
+            }
+        },
+        {
+            "key": "雨滴",
+            "name": "雨滴｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
+                "dataKey": "k9o3p2c8b7m3z0o8",
+                "dataIv": "k9o3p2c8b7m3z0o8",
+                "deviceId": "",
+                "version": "100"
+            }
+        },
+        {
+            "key": "玉米",
+            "name": "玉米｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.zjc.app",
+                "dataKey": "ab4e9a421675f14b",
+                "dataIv": "ab4e9a421675f14b",
+                "deviceId": "",
+                "version": "442"
+            }
+        },
+        {
+            "key": "优质",
+            "name": "优质｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://apiapplbys.lbys.cc:5678",
+                "dataKey": "apiapplbyskey168",
+                "dataIv": "apiapplbyskey168",
+                "deviceId": "",
+                "version": "107"
+            }
+        },
+        {
+            "key": "木叶",
+            "name": "木叶｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://46.203.125.54:2663",
+                "dataKey": "RuN9LRvwTRgpQnpK",
+                "dataIv": "RuN9LRvwTRgpQnpK",
+                "deviceId": "",
+                "version": "547"
+            }
+        },
+        {
+            "key": "米兔",
+            "name": "米兔｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.zjc.app",
+                "dataKey": "ab4e9a421675f14b",
+                "dataIv": "ab4e9a421675f14b",
+                "deviceId": "",
+                "version": "442"
+            }
+        },
+        {
+            "key": "光速",
+            "name": "光速｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://59.153.167.137:8899",
+                "dataKey": "4d83b87c4c5ea111",
+                "dataIv": "4d83b87c4c5ea111",
+                "deviceId": "",
+                "version": "462"
+            }
+        },
+        {
+            "key": "格格",
+            "name": "格格｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://111.180.198.40:1110",
+                "dataKey": "asgcxhjkts124573",
+                "dataIv": "asgcxhjkts124573",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "悠悠",
+            "name": "悠悠｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://156.225.30.65:5566",
+                "dataKey": "DxwIstrdWbYpblwn",
+                "dataIv": "DxwIstrdWbYpblwn",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "晴天",
+            "name": "晴天｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://appcms.sun4k.top",
+                "dataKey": "b025dcd9c289cbb3",
+                "dataIv": "b025dcd9c289cbb3",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "在看",
+            "name": "在看｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://149.88.64.161:9525",
+                "dataKey": "123456789ABCDEFG",
+                "dataIv": "123456789ABCDEFG",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "星河",
+            "name": "星河｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://121.62.22.204:9876",
+                "dataKey": "f5e2tx53ykp6s2c9",
+                "dataIv": "f5e2tx53ykp6s2c9",
+                "deviceId": "",
+                "version": "361"
+            }
+        },
+        {
+            "key": "追忆",
+            "name": "追忆｜APP",
+            "type": 3,
+            "quickSearch": 0,
+            "api": "csp_AppMiTo",
+            "ext": {
+                "url": "http://110.42.7.130:1866",
+                "dataKey": "aassddwwxxllsx1x",
+                "playKey": "1bada76e67e1e7f9",
+                "version": "1.2.0"
             }
         },
         {
@@ -479,8 +655,18 @@
             "ext": "./XYQHiker/短剧屋.json"
         },
         {
+            "key": "QD4K",
+            "name": "QD影视｜影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://172.83.156.150:1010/api.php/app/"
+        },
+        {
             "key": "HG影视",
-            "name": "HG影视｜APP",
+            "name": "HG影视｜影视",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -489,8 +675,21 @@
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
+            "key": "金牌影视",
+            "name": "金牌｜影视",
+            "type": 3,
+            "api": "./py/金牌影视.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": {
+                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+            }
+        },
+        {
             "key": "猎手影视",
-            "name": "猎手｜APP",
+            "name": "猎手｜影视",
             "type": 3,
             "api": "./py/猎手影视.py",
             "searchable": 1,
@@ -501,7 +700,7 @@
         },
         {
             "key": "火车影视",
-            "name": "火车｜APP",
+            "name": "火车｜影视",
             "type": 3,
             "api": "./py/火车影视.py",
             "searchable": 1,
@@ -512,7 +711,7 @@
         },
         {
             "key": "美帕影视",
-            "name": "美帕｜APP",
+            "name": "美帕｜影视",
             "type": 3,
             "api": "./py/美帕影视.py",
             "searchable": 1,
@@ -523,7 +722,7 @@
         },
         {
             "key": "嗨皮影视",
-            "name": "嗨皮｜APP",
+            "name": "嗨皮｜影视",
             "type": 3,
             "api": "./py/嗨皮影视.py",
             "searchable": 1,
@@ -533,216 +732,16 @@
             "playerType": 2
         },
         {
-            "key": "巧技",
-            "name": "巧技｜APP",
-            "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
-        },
-        {
-            "key": "木头",
-            "name": "木头｜APP",
-            "type": 3,
-            "api": "csp_Shark",
-            "playerType": 1,
-            "ext": "saHR0cDovL2Ntcy5taXRvdHYuY29tL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
-        },
-        {
-            "key": "永夜",
-            "name": "永夜｜APP",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "ext": "caHR0cHM6Ly9yeHlzeXlkcy5vc3MtY24tY2hlbmdkdS5hbGl5dW5jcy5jb20vZ2V0YXBwLnR4dHxlYmFkM2YxYTU4YjEzOTMzfGViYWQzZjFhNThiMTM5MzN8MTAw"
-        },
-        {
-            "key": "星河",
-            "name": "星河｜APP",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "ext": "caHR0cDovL3Rlbmd4dW55dW5hbGl5dW4ub3NzLWNuLXNoYW5naGFpLmFsaXl1bmNzLmNvbS90ZW5neHVueXVuLnR4dHxmNWUydHg1M3lrcDZzMmM5fGY1ZTJ0eDUzeWtwNnMyYzl8MzYx"
-        },
-        {
-            "key": "油条",
-            "name": "油条｜APP",
-            "type": 3,
-            "api": "csp_Muou",
-            "playerType": 2,
-            "ext": "caHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
-        },
-        {
             "key": "二三",
-            "name": "二三｜App",
+            "name": "二三｜影视",
             "type": 3,
             "api": "csp_Muou",
             "playerType": 2,
             "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
         },
         {
-            "key": "主角",
-            "name": "主角｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "caHR0cHM6Ly9kdHltLnpqeXkuY2MvZ2ctZ2V0YXBwL2dldC1nZy50eHR8UE1LYVprQXY0UXA1M0VXbnxQTUthWmtBdjRRcDUzRVdufDQyNQ=="
-        },
-        {
-            "key": "时常",
-            "name": "时常｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTB8YXNnY3hoamt0czEyNDU3M3xhc2djeGhqa3RzMTI0NTczfDEwMQ=="
-        },
-        {
-            "key": "雨滴",
-            "name": "雨滴｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
-        },
-        {
-            "key": "现代",
-            "name": "现代｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "caHR0cHM6Ly9jbXMud2xiYnEueHl6fHNkZXYxNXJ3c2E5NmZzZGV8c2RldjE1cndzYTk2ZnNkZXwzMDA="
-        },
-        {
-            "key": "淘气",
-            "name": "淘气｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9za2FwLm9zcy1jbi1oYW5nemhvdS5hbGl5dW5jcy5jb20vZ2V0LnR4dHw0OTkwNDg4MjQ4OTA0ODg0fDQ5OTA0ODgyNDg5MDQ4ODR8MTA3"
-        },
-        {
-            "key": "玉米",
-            "name": "玉米｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly93d3cuempjLmFwcC98YWI0ZTlhNDIxNjc1ZjE0YnxhYjRlOWE0MjE2NzVmMTRifDQ0Mg=="
-        },
-        {
-            "key": "优质",
-            "name": "优质｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9sYnlzYXBpZHR5bWd4LjY4Lmd5OjE2Nzg5L2xieXNhcGlkdHltL2FwcC50eHR8YXBpYXBwbGJ5c2tleTE2OHxhcGlhcHBsYnlza2V5MTY4fDEwNw=="
-        },
-        {
-            "key": "木叶",
-            "name": "木叶｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "saHR0cDovLzExMy40NS4yNDMuMjMzL211eWUudHh0fFJ1TjlMUnZ3VFJncFFucEt8UnVOOUxSdndUUmdwUW5wS3w1NDc="
-        },
-        {
-            "key": "起点",
-            "name": "起点｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovL2NhaWppLm8wYS5jbnw3MGZkNjFkOTkxZjQzMjU3fDcwZmQ2MWQ5OTFmNDMyNTd8MTAw"
-        },
-        {
-            "key": "米兔",
-            "name": "米兔｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly93d3cuempjLmFwcHxhYjRlOWE0MjE2NzVmMTRifGFiNGU5YTQyMTY3NWYxNGJ8NDQy"
-        },
-        {
-            "key": "光速",
-            "name": "光速｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovLzU5LjE1My4xNjcuMTM3Ojg4OTl8NGQ4M2I4N2M0YzVlYTExMXw0ZDgzYjg3YzRjNWVhMTExfDQ2Mg=="
-        },
-        {
-            "key": "优秀",
-            "name": "优秀｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovL2FpLnhpYW95dW4uaW5rfEtMckZxU2ptYzRPSWo3NkJ8S0xyRnFTam1jNE9Jajc2QnwzMDA="
-        },
-        {
-            "key": "莉莉",
-            "name": "莉莉｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovLzU5LjE1My4xNjcuMTg2OjEwMDk5fFBNS2Faa0F2NFFwNTNFV258UE1LYVprQXY0UXA1M0VXbnw0MjU="
-        },
-        {
-            "key": "电影",
-            "name": "电影｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9jOHcyb3Y3dTV3ZzJ6MW84cDIxYy5hbGl5dW5jcy5jbGljazoyNzg5OXxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
-        },
-        {
-            "key": "奇妙",
-            "name": "奇妙｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cDovLzE1NC4xMi45MS4yMTE6NjY4fDEyMzQ1Njc4OUFCQ0RFRkd8MTIzNDU2Nzg5QUJDREVGR3wxMDY="
-        },
-        {
-            "key": "人人",
-            "name": "人人｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly9zdmlwMS5mdW58bGFvZGllc2Rhd3Nzd2FzZHxsYW9kaWVzZGF3c3N3YXNkfDI5OGU1ZmUyOWM3NGIzNWFhYmI5ODM2ZWUyZjZmNDQ5ZnwxMDU="
-        },
-        {
-            "key": "格格",
-            "name": "格格｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "jaHR0cDovLzExMS4xODAuMTk4LjQwOjExMTAvYXBpLnBocHxhc2djeGhqa3RzMTI0NTczfGFzZ2N4aGprdHMxMjQ1NzN8MTE5"
-        },
-        {
-            "key": "悠悠",
-            "name": "悠悠｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "jaHR0cDovLzE1Ni4yMjUuMzAuNjU6NTU2Ni9hcGkucGhwfER4d0lzdHJkV2JZcGJsd258RHh3SXN0cmRXYllwYmx3bnwxMTk="
-        },
-        {
-            "key": "云端",
-            "name": "云端｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "jaHR0cHM6Ly95ZHlzZHluYW1pY2RvbWFpbm5hbWUuNjguZ3k6MTA2NzgvYzltMmpzMjk4eDgyaDYvbDltOGJ4MjNqMm8ycDlxL2R5bmFtaWNkb21haW5uYW1lLnR4dHxrOW8zcDJjOGI3bTN6MG84fGs5bzNwMmM4YjdtM3owbzh8MTAw"
-        },
-        {
-            "key": "晴天",
-            "name": "晴天｜APP",
-            "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 2,
-            "ext": "jaHR0cHM6Ly9hcHBjbXMuc3VuNGsudG9wfGIwMjVkY2Q5YzI4OWNiYjN8YjAyNWRjZDljMjg5Y2JiMw=="
-        },
-        {
             "key": "蝴蝶",
-            "name": "蝴蝶｜APP",
+            "name": "蝴蝶｜影视",
             "type": 3,
             "api": "csp_Hudie",
             "playerType": 2,
@@ -750,7 +749,7 @@
         },
         {
             "key": "快看",
-            "name": "快看｜APP",
+            "name": "快看｜影视",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -761,7 +760,7 @@
         },
         {
             "key": "移动",
-            "name": "移动｜APP",
+            "name": "移动｜影视",
             "type": 3,
             "api": "csp_YD",
             "searchable": 1,
@@ -1362,29 +1361,43 @@
             "key": "曼波动漫",
             "name": "曼波｜动漫",
             "type": 3,
-            "api": "csp_Xdai",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "jaHR0cHM6Ly9hcHAub21vZnVuMS50b3AvYXBpLnBocHw2NmRjMzA5Y2JlZWNhNDU0fDY2ZGMzMDljYmVlY2E0NTR8MTAw"
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.omofun1.top",
+                "dataKey": "66dc309cbeeca454",
+                "dataIv": "66dc309cbeeca454",
+                "deviceId": "",
+                "version": ""
+            }
         },
         {
             "key": "稀饭动漫",
             "name": "稀饭｜动漫",
             "type": 3,
-            "api": "csp_Xdai",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "jaHR0cHM6Ly94ZmFwcC0xMzA1MzkwMDY1LmNvcy5hcC1ndWFuZ3pob3UubXlxY2xvdWQuY29tL2dldGFwcC50eHR8MXlaMlNwbjlrcm56VktvQ3wxeVoyU3BuOWtybnpWS29DfDEwMA=="
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://pzoap.moedot.net",
+                "dataKey": "1yZ2Spn9krnzVKoC",
+                "dataIv": "1yZ2Spn9krnzVKoC",
+                "deviceId": "",
+                "version": ""
+            }
         },
         {
             "key": "咕咕动漫",
             "name": "咕咕｜动漫",
             "type": 3,
-            "api": "csp_Xdai",
-            "playerType": 1,
-            "ext": "jaHR0cHM6Ly93d3cuZ3VndTMuY29tfG5LZlo4S1g2SlROV1J6VER8bktmWjhLWDZKVE5XUnpURHw0MDE="
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.gugu3.com",
+                "dataKey": "nKfZ8KX6JTNWRzTD",
+                "dataIv": "nKfZ8KX6JTNWRzTD",
+                "deviceId": "",
+                "version": ""
+            }
         },
         {
             "key": "动画片",
