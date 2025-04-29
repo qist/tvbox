@@ -1,5 +1,5 @@
 {
-    "SiteUrl": "https://www.hmxz.org",
+    "SiteUrl": "https://www.hmxz.org,https://www.5536806.xyz,http://haimian.eu.org",
     "Classes": [
         {
             "type_name": "电影",
@@ -18,5 +18,5 @@
             "type_id": "3"
         }
     ],
-    "Cookie": "bbs_sid=rrru52bda4v655kl9u1c87f00m; bbs_token=dZRAvHbHcUZkuJ7oHALqWoUs00C1fGqqXDXH7I8LH6hMddXP"
+    "Cookie": "bbs_sid=nll6gb39qj1e4fgkvsjh930ti5; _xn_accesscount_visited=1; __51uvsct__K2MEuBiiS0iv1Gsb=1; __51vcke__K2MEuBiiS0iv1Gsb=df02f20c-b83d-507b-b310-c3f8ab36a87a; __51vuft__K2MEuBiiS0iv1Gsb=1745249876903; bbs_token=rhHYDxTHFdsKEOsD84q8NBkSi6aTY8KlfnqpjudmsOxKBcJe; __vtins__K2MEuBiiS0iv1Gsb=%7B%22sid%22%3A%20%2299dcbd93-0d23-5a24-abb5-ec507c6c248a%22%2C%20%22vd%22%3A%2017%2C%20%22stt%22%3A%20464771%2C%20%22dr%22%3A%201425%2C%20%22expires%22%3A%201745251199999%2C%20%22ct%22%3A%201745250341665%7D"
 }
