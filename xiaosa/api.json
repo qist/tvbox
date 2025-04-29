@@ -340,20 +340,6 @@
             }
         },
         {
-            "key": "西瓜视频",
-            "name": "西瓜｜视频",
-            "type": 3,
-            "api": "csp_AmuXiguaV2",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
             "key": "玩偶哥哥",
             "name": "玩偶｜4K弹幕",
             "type": 3,
@@ -863,6 +849,21 @@
             "ext": "https://www.subaibai.com"
         },
         {
+            "key": "流光影视",
+            "name": "️流光｜影视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_FreeOk"
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
+        },
+        {
             "key": "低端影视",
             "name": "低端｜影视",
             "type": 3,
@@ -913,34 +914,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/农民影视.json"
-        },
-        {
-            "key": "秀儿影视",
-            "name": "秀儿｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/秀儿影视.json"
-        },
-        {
-            "key": "小枫影视",
-            "name": "小枫｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/小枫影视.json"
-        },
-        {
-            "key": "奇迹影视",
-            "name": "奇迹｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/奇迹影视.json"
         },
         {
             "key": "可可影视",
@@ -1021,13 +994,6 @@
             "ext": "./js/思古影视.js"
         },
         {
-            "key": "追剧影视",
-            "name": "追剧｜影视",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/追剧视频.js"
-        },
-        {
             "key": "魔力高清",
             "name": "魔力｜影视",
             "type": 3,
@@ -1060,26 +1026,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/盒子影视.json"
-        },
-        {
-            "key": "九八影视",
-            "name": "九八｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/九八影视.json"
-        },
-        {
-            "key": "看看影视",
-            "name": "看看｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/看看影视.json"
         },
         {
             "key": "骚火影视",
