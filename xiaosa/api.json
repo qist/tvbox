@@ -537,7 +537,7 @@
         },
         {
             "key": "雷鲸",
-            "name": "雷鲸｜4K",
+            "name": "雷鲸｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudLJ",
             "searchable": 1,
@@ -552,7 +552,7 @@
         },
         {
             "key": "海绵",
-            "name": "海绵｜4K",
+            "name": "海绵｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudHM",
             "searchable": 1,
@@ -567,7 +567,7 @@
         },
         {
             "key": "Pan1",
-            "name": "123｜4K",
+            "name": "123｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloud123",
             "searchable": 1,
@@ -582,7 +582,7 @@
         },
         {
             "key": "夸父",
-            "name": "夸父｜4K",
+            "name": "夸父｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShareCloudKF",
             "searchable": 1,
@@ -597,7 +597,7 @@
         },
         {
             "key": "趣盘",
-            "name": "趣盘｜4K",
+            "name": "趣盘｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebQu",
             "searchable": 1,
@@ -613,7 +613,7 @@
         },
         {
             "key": "聚搜",
-            "name": "聚搜｜4K",
+            "name": "聚搜｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebSearch",
             "searchable": 1,
@@ -627,7 +627,7 @@
         },
         {
             "key": "盘库",
-            "name": "盘库｜4K",
+            "name": "盘库｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebKuBa",
             "searchable": 1,
@@ -635,6 +635,16 @@
             "changeable": 0,
             "ext": {
                 "url": "https://panku8.com"
+            }
+        },
+        {
+            "key": "双星",
+            "name": "双星｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/双星.js",
+            "style": {
+                "type": "list"
             }
         },
         {
@@ -1314,9 +1324,6 @@
             "name": "哆啦｜新番社",
             "type": 3,
             "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
             "style": {
                 "type": "list"
             },
@@ -1338,7 +1345,7 @@
         },
         {
             "key": "Anime1",
-            "name": "Anime1｜动漫",
+            "name": "A1｜动漫",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/Anime1.js"
@@ -1400,6 +1407,41 @@
             }
         },
         {
+            "key": "樱花动漫",
+            "name": "樱花｜动漫",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/樱花动漫.json"
+        },
+        {
+            "key": "好看动漫",
+            "name": "好看｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/好看动漫.js"
+        },
+        {
+            "key": "奇米动漫",
+            "name": "奇米｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/奇米动漫.js"
+        },
+        {
+            "key": "怡萱动漫",
+            "name": "怡萱｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/怡萱动漫.js"
+        },
+        {
+            "key": "花子动漫",
+            "name": "花子｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/花子动漫.js"
+        },
+        {
             "key": "动画片",
             "name": "动画片｜动漫",
             "type": 3,
@@ -1440,41 +1482,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/异世界.js"
-        },
-        {
-            "key": "好看动漫",
-            "name": "好看｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/好看动漫.js"
-        },
-        {
-            "key": "奇米动漫",
-            "name": "奇米｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/奇米动漫.js"
-        },
-        {
-            "key": "怡萱动漫",
-            "name": "怡萱｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/怡萱动漫.js"
-        },
-        {
-            "key": "花子动漫",
-            "name": "花子｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/花子动漫.js"
-        },
-        {
-            "key": "樱花动漫",
-            "name": "樱花｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/樱花动漫.js"
         },
         {
             "key": "荐片",
@@ -1686,7 +1693,7 @@
             "key": "短剧合集",
             "name": "短剧｜合集",
             "type": 3,
-            "api": "./js/quark.min.js",
+            "api": "./js/cloud.min.js",
             "ext": "./js/短剧合集.js",
             "style": {
                 "type": "list"
@@ -1696,7 +1703,7 @@
             "key": "短剧大全",
             "name": "短剧｜大全",
             "type": 3,
-            "api": "./js/quark.min.js",
+            "api": "./js/cloud.min.js",
             "ext": "./js/短剧大全.js",
             "style": {
                 "type": "list"
