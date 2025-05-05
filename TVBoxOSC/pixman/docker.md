@@ -71,7 +71,6 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
 vps 服务器 Docker镜像运行:
 sudo docker run -d --name=mybtjson005 -p 50007:5000 --dns=154.12.177.22 --restart=always mybtjson/pixman-4gtv:0.0.5
 
-
 sudo docker run -d --name=mybtjson4gtv001 -p 50009:5000 --restart=always mybtjson/vps-4gtv:0.0.1
 
 

@@ -1,35 +1,47 @@
 #Rob Yang web:
 1. php https://RobYang.serv00.net
-2. net https://www1.RobYang.us.kg/VodLive/sb8ffa (by https://register.us.kg/panel/main , and DNS hosted by cloudflake, web hosting https://freeasphosting.net )
-   2. http://robyang.dpdns.org (https://domain.digitalplat.org/)
-   3. http://2487.dpdns.org
-3. net https://RobYang.runasp.net (by monsterasp.net)
-4. http://RobYang.rr.nu
+2. http://RobYang.ggff.net
+   1. From https://customer.l53.net 
+   2. DNS by CloudFlare
+   3. .net web hosted: https://freeasphosting.net 
+3. https://www1.RobYang.dpdns.org/VodLive/sb8ffa or http://2487.dpdns.org
+   1. From https://domain.digitalplat.org/
+   2. DNS by cloudflake
+   3. .net web hosted: https://freeasphosting.net 
+4. net https://RobYang.runasp.net
+   1. .net web hosted: monsterasp.net
+5. http://RobYang.zone.id 
+   1. from http://zone.id
+   2. DNS by http://zone.id
+   3. redirect to http://robyang.ggff.net
+6. php mysql: http://RobYang.ct.ws and http://RobYang.rf.gd
+   1. from https://dash.infinityfree.com
+   2. DNS https://dash.infinityfree.com
+   3. redirect to http://robyang.dpdns.org
+7. ~~http://RobYang.rr.nu
    1. from https://www.sitelutions.com/Auth/urldnscc
    2. DNS hosted by https://dnsexit.com/Direct.sv?cmd=userDNSList&tabnum=4
    3. DDNS: https://dnsexit.com/users/dns/dyn/
    4. redirect in https://dnsexit.com 
       1. Add www9 in CNAME  "alias.redirect.name" (https://dnsexit.com/Direct.sv?cmd=userDnsTXT&actioncode=13)
       2. and txt in "_redirect.www9.robyang.rr.nu" "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa"
-5. http://RobYang.AsSexyAs.com
+8. ~~http://RobYang.AsSexyAs.com
    1.  from sitelutions
    2.  DNS by https://www.cloudns.net/ free URL forwarding, free 1 DNS hosting
-6. http://2487.rr.nu (by sitelutions)
+9. ~~http://2487.rr.nu (by sitelutions)
    1.  from sitelutions
    2.  DNS by https://dnsexit.com
-7. http://robyang.zone.id (redirect to robyang.ggff.net)
-   1. from http://zone.id
-   2. DNS by http://zone.id
-8.  http://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL) 
-9.  ~~php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (need to use browser and turn on javascript http://cpanel.clouds.tw/)
-10. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
-11. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
+10. ~~http://RobYang.line.pm (by DNSExit, and DNS hosted by https://dnsexit.com/) (SSL needs to renew every 90 days by login or CURL) 
+11. ~~php http://RobYang.clouds.tw ---OR--- http://RobYang.22web.org/  (need to use browser and turn on javascript http://cpanel.clouds.tw/)
+12. ~~php http://RobYang.000.pe (need to use browser and turn on javascript https://dash.infinityfree.com/  )
+13. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
 
 
 #monitoring 
 1. https://robyang.grafana.net/ (monitor web use "Testing & synthetics" > "synthetics")
-2. https://app.squaredup.com/
-3. ClouDNS (free account with only 1)
+2. https://uptime.betterstack.com
+3. https://app.squaredup.com/
+4. ClouDNS (free account with only 1)
 
 
 #Domain Name:
