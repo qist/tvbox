@@ -1760,7 +1760,7 @@
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
-            "ext": "https://9877.kstore.space/Market/market.json"
+            "ext": "https://9877.kstore.space/Market/single.json"
         },
         {
             "key": "push_agent",
