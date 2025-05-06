@@ -302,16 +302,8 @@ Demo🔗 https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv
 🌐M3U8 Web Player:
 Demo🔗 https://live.fanmingming.com/player/?vurl=https://0472.org/hls/cgtn.m3u8
 
+自媒体解锁一键修改DNS脚本 https://gaojilingjuli.blogspot.com/2024/11/alice-dns.html
+sudo wget https://raw.githubusercontent.com/Jimmyzxk/DNS-Alice-Unlock/refs/heads/main/dns-unlock.sh && sudo bash dns-unlock.sh
 
-
-
-api/pixman
-
-txt格式
-https://fanmingming.com/txt?url=https://kaytse2024.koyeb.app/4gtv.m3u
-
-txt格式
-https://fanmingming.com/txt?url=https://kaytse2024.koyeb.app/itv_proxy.m3u
-
-txt格式
-https://fanmingming.com/txt?url=https://35455.koyeb.app/tv.m3u
+测试IPv4解锁情况: bash <(curl -L -s media.ispvps.com)
+in windows, use "wsl"

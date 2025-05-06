@@ -34,13 +34,8 @@ LIVE NOW,https://www.youtube.com/watch?v=SdzewdkJa-o
 中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
 TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
 TVBS新聞,https://m.youtube.com/watch?v=2mCSYvcfhtc
-TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&data=normal
-TVBS新聞,https://clonglii.serv00.net/youtube_d.php?id=2mCSYvcfhtc&ln=2&data=normal
 TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtcK
-中天新聞,https://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
 中天新聞,http://www.youtube.com/live/oIgbl7t0S_w?feature=share
-中視,http://37.27.111.214:8080/live/7/hls.m3u8
-唯心電視台,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8&data=normal
 新唐人,http://www.youtube.com/watch?v=WIhgU_mc05A
 澳洲ABCNews,http://www.youtube.com/watch?v=vOTiJkg1voo
 ABC News,http://www.youtube.com/live/-mvUkiILTqI
@@ -64,17 +59,6 @@ Sky News,http://www.youtube.com/watch?v=w9uJg68CV4g
 TVBS HD,https://m.youtube.com/watch?v=YvdcZ_jpLXE
 TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&data=normal
 TVBS HD,https://clonglii.serv00.net/youtube_d.php?id=YvdcZ_jpLXE&ln=2&data=normal
-CBS哥倫比亞廣播系統新聞(CBS),https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8&data=normal
-CNN有線電視新聞網(CNN),https://d3696l48vwq25d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0g2918mubifjw/index.m3u8&data=normal
-CNN有線電視新聞網(CNN),https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8&data=normal
-CNN有線電視新聞網(CNN),https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8&data=normal
-福斯直播(美國偏保守派)(LiveNOW from FOX),https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8&data=normal
-彭博財經電視(美國財經)(Bloomberg Television),https://0984ed0046994029aafaa07692005474.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Bloomberg/playlist.m3u8&data=normal
-RT俄羅斯今日電視台(俄羅斯)(RT News),https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8&data=normal
-BBC英國廣播公司新聞(英國)(BBC News),https://d1kvlt93j1bc49.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-6vpx7bvwjm7ao/v1/amcnetworks_bbcnews_1/samsungheadend_us/latest/main/hls/playlist.m3u8&data=normal
-BBC英國廣播公司新聞(英國)(BBC News),https://i.mjh.nz/SamsungTVPlus/US4000033L.m3u8&data=normal
-亞洲新聞(新加坡)(CNA),https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8&data=normal
-日本廣播協會(日本)(NHK World)(各地字幕),https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/zt/playlist-back.m3u8&data=normal
 鳳凰資訊,http://www.youtube.com/watch?v=sUISafvOieY
 TVBS56,http://www.youtube.com/watch?v=YvdcZ_jpLXE
 東森Live,http://www.youtube.com/watch?v=S5WOGu2HSes
@@ -187,30 +171,8 @@ momo購物二台,http://www.youtube.com/watch?v=xbNWkUyxQGM
 希望電視台,https://videodelivery.net/f9fac529ef8cc8f8dc702ac06116ad1b/manifest/video.m3u8&data=normal
 東京新宿,http://www.youtube.com/watch?v=DjdUEyjx8GM
 正德電視台,http://www.youtube.com/watch?v=AfcVHGIRbP8
-淨空老法師直播台,https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8&data=normal
-港台電視33,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8&data=normal
-港台電視34,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8&data=normal
-港台電視35,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPlaylist.m3u8&data=normal
 CBTV十方法界弘法電視台,https://m.youtube.com/watch?v=77SHFx1c8Lk
-生命電視台,http://211.73.19.201/live/AB167E56-808C-81D4-6471-76DC400D5192.m3u8?fmt=x264_1200K_ts&cpid=admin&size=1920X1080&data=normal
-香港佛陀教育協會,https://i.cibei.org/live/hd/playlist.m3u8&data=normal
-香港佛陀教育協會,https://live.jingzong.org/live/hd/playlist.m3u8&data=normal
 鳳凰衛視資訊,http://www.youtube.com/watch?v=HFib76ySpbU
-民視,http://37.27.111.214:8080/live/6/hls.m3u8
-民視,http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8
-台視台灣台,rtmp://f13h.mine.nu/sat/tv071
-中視台灣台,rtmp://f13h.mine.nu/sat/tv091
-華視台灣台,rtmp://f13h.mine.nu/sat/tv111
-民视频道,rtmp://f13h.mine.nu/sat/tv051
-緯來日本,rtmp://f13h.mine.nu/sat/tv771
-緯來育樂,rtmp://f13h.mine.nu/sat/tv701
-緯來體育,rtmp://f13h.mine.nu/sat/tv721
-东森超视,rtmp://f13h.mine.nu/sat/tv331
-Mo综合,rtmp://f13h.mine.nu/sat/tv761
-ELE体育1,rtmp://f13h.mine.nu/sat/tv731
-ELE体育2,rtmp://f13h.mine.nu/sat/tv741
-ELE体育3,rtmp://f13h.mine.nu/sat/tv751
-
 
 Sports Central by DRM,https://www.youtube.com/watch?v=FPO4QXEJH8s
 Sports Central by DRM,https://www.youtube.com/watch?v=SYRWPsI4QPY
@@ -298,8 +260,6 @@ Kilómetro Cero,https://www.youtube.com/watch?v=T35sNA3LzeQ
 Barstool Gambling,https://www.youtube.com/watch?v=4n0JIm5-RjU
 104-5 The Zone,https://www.youtube.com/watch?v=CjoMRyaglWw
 Locked On NFL,https://www.youtube.com/watch?v=t-zYSYBItyA
-
-
 
 
 momo購物一台 CH48,https://www.youtube.com/watch?v=_pZQ1Lk0xMA

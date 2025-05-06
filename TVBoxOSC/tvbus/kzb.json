@@ -1,0 +1,8 @@
+{
+  "lives": [{
+    "name": "快直播(python)",
+    "type": 3,
+    "api": "file://tvbus/kzb.py",
+    "ext": {}
+  }]
+}

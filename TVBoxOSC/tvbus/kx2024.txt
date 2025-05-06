@@ -1,0 +1,71 @@
+CCTV 1,http://z.b.bkpcp.top/m.php?id=cctv1
+CCTV 2,http://z.b.bkpcp.top/m.php?id=cctv2
+CCTV 3,http://z.b.bkpcp.top/m.php?id=cctv3
+CCTV 4,http://z.b.bkpcp.top/m.php?id=cctv4
+CCTV 5,http://z.b.bkpcp.top/m.php?id=cctv5
+CCTV 5+,http://z.b.bkpcp.top/m.php?id=cctv5p
+CCTV 6,http://z.b.bkpcp.top/m.php?id=cctv6
+CCTV 7,http://z.b.bkpcp.top/m.php?id=cctv7
+CCTV 8,http://z.b.bkpcp.top/m.php?id=cctv8
+CCTV 9,http://z.b.bkpcp.top/m.php?id=cctv9
+CCTV 10,http://z.b.bkpcp.top/m.php?id=cctv10
+CCTV 11,http://z.b.bkpcp.top/m.php?id=cctv11
+CCTV 12,http://z.b.bkpcp.top/m.php?id=cctv12
+CCTV 13,http://z.b.bkpcp.top/m.php?id=cctv13
+CCTV 14,http://z.b.bkpcp.top/m.php?id=cctv14
+CCTV 15,http://z.b.bkpcp.top/m.php?id=cctv15
+CCTV 16,http://112.103.140.109:9003/hls/16/index.m3u8
+CCTV 17,http://z.b.bkpcp.top/m.php?id=cctv17
+CCTV1,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv1
+CCTV2,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv2
+CCTV3,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv3
+CCTV4,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv4
+CCTV5,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv5
+CCTV5+,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv5p
+CCTV6,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv6
+CCTV7,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv7
+CCTV8,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv8
+CCTV9,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv9
+CCTV10,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv10
+CCTV11,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv11
+CCTV12,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv12
+CCTV13,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv13
+CCTV14,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv14
+CCTV15,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv15
+CCTV17,http://ttkx.cc:1658/公开源454/mg9.php?id=cctv17
+家庭影院,http://z.b.bkpcp.top/m.php?id=jtyy
+东方影视,http://z.b.bkpcp.top/m.php?id=shys
+陕西卫视,http://z.b.bkpcp.top/m.php?id=sxws
+江西卫视,http://z.b.bkpcp.top/m.php?id=jxws
+江苏卫视,http://z.b.bkpcp.top/m.php?id=jsws
+广东卫视,http://z.b.bkpcp.top/m.php?id=gdws
+Now爆谷,http://hkenlive.uk/livehttpplay?channel_id=13002
+Now星影,http://hkenlive.uk/livehttpplay?channel_id=13003
+pₒₚc电影,http://go1.bkpcp.top/tl/popc
+天映电影,http://live4play.uk/livehttpplay?channel_id=10130
+美亚电影频道,http://go1.bkpcp.top/tl/null-5
+东森电影频道,http://go1.bkpcp.top/tl/null-11 
+龙华电影,http://live4play.uk/livehttpplay?channel_id=10129
+美亚电影,https://haoyunlai.serv00.net/Smartv-1.php?id=meiyamovie_twn
+龙华电影,https://haoyunlai.serv00.net/Smartv-1.php?id=xingwei_movie
+龙祥电影,https://haoyunlai.serv00.net/Smartv-1.php?id=lungxiangtime_twn
+纬来电影,https://haoyunlai.serv00.net/Smartv-1.php?id=videolandmovie
+东森电影,https://haoyunlai.serv00.net/Smartv-1.php?id=ettvmovie
+Astr爱奇,https://haoyunlai.serv00.net/Smartv-1.php?id=Qiyi
+东森电影,https://haoyunlai.serv00.net/Smartv-1.php?id=ettvmovie
+龙祥电影,https://haoyunlai.serv00.net/Smartv-1.php?id=lungxiangtime_twn
+龙华电影,https://haoyunlai.serv00.net/Smartv-1.php?id=xingwei_movie
+纬来电影,https://haoyunlai.serv00.net/Smartv-1.php?id=videolandmovie
+新视觉HD,http://120.76.248.139/live/bfgd/4200000249.m3u8
+CHC影迷电影,http://113.195.172.192:808/hls/112/index.m3u8
+CHC家庭影院,http://113.195.172.192:808/hls/113/index.m3u8
+CHC动作电影,http://113.195.172.192:808/hls/114/index.m3u8
+美亞電影HK,p3p://108.181.32.169:54829/642525310003ad3cea72ca2155c734c3
+龍華電影台,http://211.75.171.121:8509/http/61.67.128.137:8068/hls/10/80/cstv10.m3u8
+緯來電影台,http://211.75.171.121:8581/http/61.67.128.137:8081/hls/69/811/ch035.m3u8
+Now爆谷,http://205.185.123.236:8899/1/baogutai/baogu.m3u8
+Now星影,http://205.185.123.236:8899/1/xingyingtai/xingying.m3u8
+天映马国,http://205.185.123.236:8899/astro/tianying/tianying.m3u8
+动作电影,http://php.jdshipin.com:8880/TVOD/iptv.php?id=chcdzdy
+家庭影院,http://php.jdshipin.com:8880/TVOD/iptv.php?id=chcjtyy
+影迷电影,http://php.jdshipin.com:8880/TVOD/iptv.php?id=chcymdy

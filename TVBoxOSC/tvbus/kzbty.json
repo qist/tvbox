@@ -1,0 +1,8 @@
+{
+  "lives": [{
+    "name": "快直播体育(python)",
+    "type": 3,
+    "api": "file://tvbus/kzbty.py",
+    "ext": {}
+  }]
+}
