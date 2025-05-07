@@ -98,17 +98,17 @@
             }
         },
         {
-            "key": "驿站",
-            "name": "驿站｜APP",
+            "key": "橘子",
+            "name": "橘子｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://121.204.251.70:12000",
-                "dataKey": "F51F5D52D23C5181",
-                "dataIv": "F51F5D52D23C5181",
+                "url": "https://api1.bffree.cn",
+                "dataKey": "2015692015692015",
+                "dataIv": "2015692015692015",
                 "deviceId": "",
-                "version": "119"
+                "version": "300"
             }
         },
         {
@@ -319,6 +319,19 @@
                 "dataIv": "7xv16h7qgkrs9b1p",
                 "deviceId": "",
                 "version": ""
+            }
+        },
+        {
+            "key": "驿站",
+            "name": "驿站｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://110.42.107.216:56677",
+                "dataKey": "d7378557d1d9c924",
+                "dataIv": "fb4594f622f34fea",
+                "jxurl": "https://qqiqiyiyoukumgtvapiappdyyztvjsoni8n2o0z1ws2n7b6v3x8.68.gy:56789/json.php?url="
             }
         },
         {
