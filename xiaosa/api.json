@@ -84,6 +84,20 @@
             }
         },
         {
+            "key": "尼玛",
+            "name": "尼玛｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://nm.xxxc137.top",
+                "dataKey": "a006661b01bdebbd",
+                "dataIv": "a006661b01bdebbd",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "鲶鱼",
             "name": "鲶鱼｜APP",
             "type": 3,
@@ -118,7 +132,7 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://172.247.44.217:30011",
+                "url": "http://172.247.44.217:30012",
                 "dataKey": "JLa1oRdL6+eK7@M)",
                 "dataIv": "JLa1oRdL6+eK7@M)",
                 "deviceId": "",
@@ -1033,6 +1047,13 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "七七影视",
+            "name": "七七｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/七七影视.json"
         },
         {
             "key": "可可影视",
