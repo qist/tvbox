@@ -813,7 +813,7 @@
     },  
  {
   "name": "🏠RobYang備1| http://RobYang.dpdns.org",
-  "type": 0,
+  "type": 0, 
   "url": "http://www1.RobYang.dpdns.org/VodLive/lb8ffa",   //"http://www1.RobYang.dpdns.org/VodLive/lb8ffa",  
   "ua": "okhttp/4.12.0 judy/5.2.1",
   "timeout": 5,

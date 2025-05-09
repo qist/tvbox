@@ -185,7 +185,7 @@
 
 
 
-{"key":"T4-安博","name":"安博","type":4,"api":"https://tang.hz.cz/power/ub18?token=2fdc44ab","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext": true},
+// {"key":"T4-安博","name":"安博","type":4,"api":"https://tang.hz.cz/power/ub18?token=2fdc44ab","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext": true},
 // {"key":"xrbsp.com","name":"淫水机","type":1,"api":"https://www.xrbsp.com/api/json.php","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 
 
