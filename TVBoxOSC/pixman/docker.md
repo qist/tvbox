@@ -70,6 +70,8 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
 ======
 vps 服务器 Docker镜像运行:
 sudo docker run -d --name=mybtjson005 -p 50007:5000 --dns=154.12.177.22 --restart=always mybtjson/pixman-4gtv:0.0.5
+Alice:
+ExpressVPN: 85.203.37.1, 85.203.37.2 (https://www.expressvpn.com/setup#mediastreamer)
 
 sudo docker run -d --name=mybtjson4gtv001 -p 50009:5000 --restart=always mybtjson/vps-4gtv:0.0.1
 
@@ -282,7 +284,15 @@ https://t.me/livednowgroup/379194
 
 
 
-
+## DDNS
+1. https://www.dynu.com/ (can created subdomain but can only hosted in dynu. they cannot change nameservers. up to 4 free third level domain per account)
+   1. *.ooguy.com
+   2. *.ddnsfree.com
+   3. *.freeddns.org
+   4. ...etc
+   5. https://api.dynu.com/nic/update?hostname=example.dynu.com&alias=Alias&password=PASSWORD
+   6. curl "https://api.dynu.com/nic/update?username=robyang&password=Ilovebob123!&hostname=usa1.robyang.ooguy.com&myip=1.2.3.4&myipv6=2602:1234::3"
+   7. wget "https://api.dynu.com/nic/update?hostname=example.dynu.com&myip=198.144.117.32&myipv6=2604:4400:a:8a::f4&username=someusername&password=somepassword"
 
 
 

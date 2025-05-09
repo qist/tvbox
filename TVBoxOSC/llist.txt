@@ -1,6 +1,7 @@
 📺YouTube 新聞,#genre#
 民視新聞,https://www.youtube.com/live/ylYJSBUgaMA?si=e-d0Ns2EB36iyW_3
 民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+民視新聞,https://youtube.livednow.dpdns.org/youtube/ylYJSBUgaMA
 三立新聞,https://www.youtube.com/live/MV9mI0GChwo?si=znH9MBSQtvCvrqvt
 三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
 三立NEWS+,https://www.youtube.com/live/pF507BLtbqU?si=Ajqr6bitgqQQqaun
