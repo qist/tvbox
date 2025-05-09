@@ -107,6 +107,7 @@
 // {"key":"大地采集","name":"大地av","type":0,"api":"https://dadiapi.com/apple_m3u8.php","playUrl":"https://play.dadiapi.com/watch?url=","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"zp053","name":"大地","type":0,"api":"https://dadiapi.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"大地","name":"大地","type":0,"api":"https://dadiapi.com/api.php","searchable":1,"quickSearch":0,"filterable":1}, 
+// {"key":"大地","name":"大地","type":0,"api":"https://dadiapi.com/api.php/","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
 {"key":"llzxcj.com","name":"成人11?","type":0,"api":"http://llzxcj.com/inc/sck.php?ac=videolist","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
@@ -115,7 +116,6 @@
 // {"key":"bttcj","name":"博天堂","type":0,"api":"http://bttcj.com/inc/sapi.php","playUrl":"https://jx.kujiexi.net/m3u8.php?url=","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"天堂福利","name":"天堂福利","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":0,"quickSearch":0,"filterable":1}, 
 // {"key":"bttcj","name":"博天堂","type":0,"api":"http://bttcj.com/inc/sapi.php","playUrl":"https://jx.kujiexi.net/m3u8.php?url=","searchable":1,"quickSearch":1,"filterable":1}, 
-
 
 
 {"key":"f2dcj6.com","name":"成人14","type":0,"api":"http://f2dcj6.com/sapi?ac=videolist","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
@@ -160,9 +160,12 @@
 // {"key":"鲨鱼","name":"鲨鱼","type":1,"api":"https://shayuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"zp129","name":"鲨鱼","type":0,"api":"https://shayuapi.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
 
-// {"key":"afasu.com","name":"成人25","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
+{"key":"afasu.com","name":"成人25 小湿妹","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
+// {"key":"afasu.com","name":"成人64","type":0,"api":"https://www.afasu.com/api/xml.php","quickSearch":1,"searchable":1,"filterable":1}, 
+{"key":"afasu","name":"小湿妹","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
 
-{"key":"lbapi9.com","name":"成人26?","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
+
+{"key":"lbapi9.com","name":"成人26? 乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 // {"key":"lebozy.com","name":"乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/?ac=list","searchable":1,"filterable":1},
 // {"key":"乐播","name":"乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"乐播","name":"乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":1,"quickSearch":0,"filterable":1}, 
@@ -170,23 +173,21 @@
 // {"key":"lbapi9.com","name":"成人50","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","quickSearch":1,"searchable":1,"filterable":1}, 
 // {"key":"lbapi9.com", "type":1,"api": "https://lbapi9.com/api.php/provide/vod/", "isLock": true, "name": "乐播","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}}, 
 // {"key":"lbapi92.com", "type":1,"api": "https://lbapi9.com/api.php/provide/vod/at/json", "isLock": true, "name": "乐播","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}}, 
-
-
-
-
+// {"key":"zp100","name":"乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
+// {"key":"zp011","name":"78乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
 
 {"key":"api.apilyzy.com","name":"成人27 老鸭","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 {"key":"老鸭1","name":"老鸭1","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"老鸭2","name":"老鸭2","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"老鸭3","name":"老鸭3","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":0,"quickSearch":0}, 
-
-
+// {"key":"zp066","name":"花椒","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
 
 {"key":"T4-安博","name":"安博","type":4,"api":"https://tang.hz.cz/power/ub18?token=2fdc44ab","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext": true},
 // {"key":"xrbsp.com","name":"淫水机","type":1,"api":"https://www.xrbsp.com/api/json.php","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
-{"key":"fhapi9.com", "type":1,"api": "http://fhapi9.com/api.php/provide/vod/", "isLock": true, "name": "番号","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}}, 
+
+
 {"key":"jkunzyapi.com", "type":1,"api": "https://jkunzyapi.com/api.php/provide/vod/", "isLock": true, "name": "鸡坤","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}}, 
 {"key":"pgxdy.com", "type":1,"api": "https://www.pgxdy.com/api/json.php", "isLock": true, "name": "黄AV","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}}, 
 {"key":"ddapi.com", "type":1,"api": "https://api.ddapi.cc/api.php/provide/vod/", "isLock": true, "name": "滴滴","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
@@ -197,29 +198,32 @@
 
 // {"key":"白嫖","name":"白嫖","type":0,"api":"https://www.kxgav.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"淫水机","name":"淫水机","type":0,"api":"https://www.xrbsp.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
-{"key":"小湿妹","name":"小湿妹","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
+
 
 
 // {"key":"美少女","name":"美少女","type":0,"api":"https://www.msnii.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
 
-{"key":"zp011","name":"78乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
+
 {"key":"zp059","name":"番号","type":0,"api":"http://fhapi9.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
-{"key":"zp066","name":"花椒","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
-{"key":"zp100","name":"乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
+{"key":"番号","name":"番号(卡切)","type":1,"api":"http://fhapi9.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1}, 
+{"key":"fhapi9.com", "type":1,"api": "http://fhapi9.com/api.php/provide/vod/", "isLock": true, "name": "番号","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}}, 
+
+
+
 {"key":"花魁","name":"花魁","type":1,"api":"https://caiji.huakuiapi.com/inc/apijson_vod.php","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
 
 
 // {"key":"白嫖","name":"白嫖","type":0,"api":"https://www.kxgav.com/api/xml.php","searchable":0,"quickSearch":0}, 
-{"key":"小湿妹","name":"小湿妹","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":0,"quickSearch":0}, 
+
 
 
 // {"key":"kxgav.com","name":"成人44","type":0,"api":"https://www.kxgav.com/api/xml.php","quickSearch":1,"searchable":1,"filterable":1}, 
 
 
 {"key":"kkzy.me","name":"成人51","type":1,"api":"https://kkzy.me/api.php/provide/vod/","quickSearch":1,"searchable":1,"filterable":1}, 
-{"key":"afasu.com","name":"成人64","type":0,"api":"https://www.afasu.com/api/xml.php","quickSearch":1,"searchable":1,"filterable":1}, 
+
 {"key":"AIvin","name":"AIvin","type":0,"api":"http://lbapiby.com/api.php/provide/vod/at/xml"}, 
 {"key":"pwd_袜子","name":"袜子","type":0,"api":"https://www.msnii.com/api/xml.php","searchable":0,"quickSearch":0}, 
 {"key":"51smt4.xyz","name":"51sm","type":1,"api":"http://51smt4.xyz/api.php/provide/vod/","searchable":1,"filterable":1}, 
@@ -239,7 +243,8 @@
 {"key":"老司鸡","name":"老司鸡","type":1,"api":"https://www.lsjapi.com/home/cjapi/asd2g8/mc10/vod/json","searchable":0,"quickSearch":0}, 
 
 
-{"key":"番号","name":"番号(卡切)","type":1,"api":"http://fhapi9.com/api.php/provide/vod/at/json","searchable":1,"quickSearch":1}, 
+
+
 {"key":"咪咪","name":"咪咪","type":0,"api":"http://www.caiji25.com/home/cjapi/p0as/mc10/vod/xml","searchable":1,"quickSearch":1}, 
 {"key":"我要啪啪","name":"我要啪啪","type":0,"api":"http://www.caiji21.com/home/cjapi/klkl/mc10/vod/xml","searchable":1,"quickSearch":1}, 
 {"key":"狼友","name":"狼友","type":1,"api":"https://www.langyouzy.com/api.php/provide/vod/","searchable":0,"quickSearch":0}, 
@@ -254,14 +259,12 @@
 // {"key":"饮水机","name":"饮水机","type":0,"api":"https://www.xrbsp.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"奶插","name":"奶插","type":1,"api":"https://caiji.naichaapi.com/inc/apijson_vod.php","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"大MM","name":"大MM","type":0,"api":"https://www.dmmapi.com/home/cjapi/asd2c7/mc/vod/xml","searchable":1,"quickSearch":1,"filterable":1}, 
-{"key":"9号","name":"9号","type":0,"api":"http://fhapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
-
 
 
 {"key":"mcaiji07","name":"07","type":0,"api":"https://www.caiji07.com/home/cjapi/cfcf/mc10/vod/xml","playUrl":"https://jx.kujiexi.net/m3u8.php?url=","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"葡萄","name":"葡萄","type":0,"api":"https://api.putaozy.net/inc/api.php"}, 
 {"key":"KpgxdyE","name":"黄AV","type":0,"api":"https://www.pgxdy.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
-{"key":"afasu","name":"小湿妹","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
+
 {"key":"523","name":"523","type":0,"api":"https://caiji.523zyw.com/inc/api.php","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
@@ -281,7 +284,6 @@
 
 
 
-{"key":"大地","name":"大地","type":0,"api":"https://dadiapi.com/api.php/","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
 {"key":"佳丽","name":"佳丽","type":0,"api":"https://jializyzapi.com/api.php/provide/vod/at/xml/"}, 
@@ -290,7 +292,7 @@
 
 
 {"key":"黄AV","name":"黄AV","type":0,"api":"https://www.pgxdy.com/api/xml.php"}, 
-{"key":"番号","name":"番号","type":1,"api":"http://fhapi9.com/api.php/provide/vod/"}, 
+
 {"key":"易看","name":"易看","type":1,"api":"https://api.yikanapi.com/api.php/provide/vod/","jar":"./jar/panda.jar","searchable":1,"quickSearch":1},
 
 
