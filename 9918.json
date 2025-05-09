@@ -118,6 +118,7 @@
 // {"key":"bttcj","name":"博天堂","type":0,"api":"http://bttcj.com/inc/sapi.php","playUrl":"https://jx.kujiexi.net/m3u8.php?url=","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
+
 {"key":"f2dcj6.com","name":"成人14","type":0,"api":"http://f2dcj6.com/sapi?ac=videolist","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 {"key":"api.11bat.com","name":"成人15","type":0,"api":"http://api.11bat.com/api.php/provide/vod/at/xml","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 
@@ -160,12 +161,12 @@
 // {"key":"鲨鱼","name":"鲨鱼","type":1,"api":"https://shayuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"zp129","name":"鲨鱼","type":0,"api":"https://shayuapi.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
 
-{"key":"afasu.com","name":"成人25 小湿妹","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
+{"key":"afasu.com","name":"成人25 小湿妹?","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 // {"key":"afasu.com","name":"成人64","type":0,"api":"https://www.afasu.com/api/xml.php","quickSearch":1,"searchable":1,"filterable":1}, 
-{"key":"afasu","name":"小湿妹","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
+{"key":"afasu","name":"小湿妹?","type":0,"api":"https://www.afasu.com/api/xml.php","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
-{"key":"lbapi9.com","name":"成人26? 乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
+{"key":"lbapi9.com","name":"成人26 乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
 // {"key":"lebozy.com","name":"乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/?ac=list","searchable":1,"filterable":1},
 // {"key":"乐播","name":"乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"乐播","name":"乐播","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","searchable":1,"quickSearch":0,"filterable":1}, 
@@ -176,10 +177,10 @@
 // {"key":"zp100","name":"乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
 // {"key":"zp011","name":"78乐播","type":0,"api":"https://lbapi9.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
 
-{"key":"api.apilyzy.com","name":"成人27 老鸭","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
-{"key":"老鸭1","name":"老鸭1","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1}, 
-{"key":"老鸭2","name":"老鸭2","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
-{"key":"老鸭3","name":"老鸭3","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":0,"quickSearch":0}, 
+// {"key":"api.apilyzy.com","name":"成人27 老鸭?","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33},"header":{"User-Agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/117.0.0.0Safari/537.36"}},
+// {"key":"老鸭1","name":"老鸭1","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1}, 
+// {"key":"老鸭2","name":"老鸭2","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":1}, 
+// {"key":"老鸭3","name":"老鸭3","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":0,"quickSearch":0}, 
 // {"key":"zp066","name":"花椒","type":0,"api":"https://api.apilyzy.com/api.php/provide/vod/at/xml/","searchable":1,"quickSearch":1,"filterable":1}, 
 
 
