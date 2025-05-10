@@ -840,8 +840,7 @@
     "name": "🏠RobYang備2| http://robyang.zone.id",
     "type": 0,
     "url": "http://RobYang.runasp.net/VodLive/lb8ffa",  
-    // "ua": "(Windows NT 10.0; WOW64) PotPlayer/25.03.13 judy/5.2.1 okhttp/4.12.0 xieanqishiwoerzi/0.0.1",
-    "ua": "xieanqishiwoerzi/0.0.1",
+    "ua": "(Windows NT 10.0; WOW64) PotPlayer/25.03.13 judy/5.2.1 okhttp/4.12.0 xieanqishiwoerzi/0.0.1",
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -891,7 +890,7 @@
     
 
 {"name":"SmartTV| 台港中日韓", "type": 3, "api": "https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt.py", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"       },
-{"name":"SmartTV2| 台港中日韓", "type": 0, "url": "https://smart.pendy.dpdns.org/m3u/Smart.m3u","ua": "xieanqishiwoerzi/0.0.1", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","host":"https://www.livednow.dpdns.org/"},
+{"name":"SmartTV2 (Judy)| 台港中日韓", "type": 0, "playerType": 1, "url": "https://smart.pendy.dpdns.org/m3u/Smart.m3u","ua": "xieanqishiwoerzi/0.0.1", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","host":"https://www.livednow.dpdns.org/"},
 // {"name":"一盒1| 台港中日韓","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"LITV直播 (台灣IP)",  "type": 3,  "api": "https://json.doube.eu.org/python/live_litv.py",  "ext": {},"logo": "https://epg.112114.xyz/logo/{name}.png", "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","api2":"https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py"},
 {"name":"一盒2| 台港中日韓P3P (OKpro手機版不支援)","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"http://a90120.serv00.net/anbox/p3plink.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
