@@ -840,7 +840,7 @@
     "name": "🏠RobYang備2| http://robyang.zone.id",
     "type": 0,
     "url": "http://RobYang.runasp.net/VodLive/lb8ffa",  
-    "ua": "(Windows NT 10.0; WOW64) PotPlayer/25.03.13 judy/5.2.1 okhttp/4.12.0",
+    "ua": "(Windows NT 10.0; WOW64) PotPlayer/25.03.13 judy/5.2.1 okhttp/4.12.0 xieanqishiwoerzi/0.0.1",
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
