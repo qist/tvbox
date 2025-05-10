@@ -51,7 +51,7 @@
 {"key":"Auete","name":"影視| 20. 奥特","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},
 {"key":"csp_奥特影视","name":"影視| 奥特2","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"简介":"<p>◎影片简介:</p>&&</div>","分类url":"https://auete.pro/{cateId}/{class}/index{catePg}.html[https://auete.pro/{cateId}/{class}/index.html]","筛选":"1","剧情":"动作片$dzp#喜剧片$xjp#爱情片$aqp#科幻片$khp#恐怖片$kbp#剧情片$jqp#战争片$zzp#惊悚片$jsp| | 香港剧$tvbgj#国产剧$neidi#台湾剧$taiju#欧美剧$oumei#日剧$riju#韩剧$hanju#网剧$wangju#泰剧$yataiju| | 大陆综艺$guozong#日韩综艺$hanzong#欧美综艺$meizong| | 国产动漫$guoman#日本动漫$riman#欧美动漫$meiman$动画$donghua| | 记录片$Jlp#经典片$Jdp#经典剧$Jdj#网大电影$wlp#国产老电影$laodianying","分类":"电影$Movie#电视剧$Tv#综艺$Zy#动漫$Dm#其他$qita"}},
 {"key":"csp_Auete","name":"影視| 奥特3","type":3,"api":"csp_Auete","jar":"./jar/panda.jar","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"Auete","name":"影視| 奥特4","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},{"key":"csp_七新","name":"影視| 七新","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/HCCX.jar","ext":"./json/七新影视.json"},
+{"key":"Auete4","name":"影視| 奥特4","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},{"key":"csp_七新","name":"影視| 七新","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/HCCX.jar","ext":"./json/七新影视.json"},
 
 {"key":"drpy_js_豆瓣","name":"影視| 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":0,"filterable":0,"ext":"./js/豆瓣[官].js"},
 {"key":"drpy_js_两个BT","name":"影視| 两个BT","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
@@ -75,7 +75,7 @@
 {"key":"csp_XBiu歐樂影院ORG","name":"影視| 歐樂","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"content_desc context clearfix\">&&</span>","分类url":"https://www.oulevod.org/index.php/vod/show/by/time/id/{cateId}/page/{catePg}/year/{year}.html","分类":"電視劇$2#電影$1#動漫$4#綜藝$3#體育$59#短劇$53"}},
 {"key":"csp_If101","name":"️影視| If101","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"content_desc context clearfix\">&&</span>","分类url":"https://www.olehdtv.com/index.php/vod/show/by/time/id/{cateId}/page/{catePg}/year/{year}.html","分类":"電視劇$2#電影$1#動漫$4#綜藝$3"}},
 {"key":"瓜子影视","name":"影視| 瓜子","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar"},
-{"key":"nyys2","name":"影視| 纽约影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/紐約影院.json"},
+{"key":"nyys2","name":"影視| 纽约2","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/紐約影院.json"},
 
 // {"key": "Net_emby",  "name": "Emby(T3)",  "type": 3,  "api": "./py/net_emby.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1,  "ext": {    "server": "http://net.creativeinfo.org:8096",    "username": "ntest",    "password": "ntest123",    "thread": 0,    "proxy": ""  },  "changeable": 1},
 {"key": "py_jieyingshi","name": "界影视(T3)","type": 3,"api": "https://json.doube.eu.org/python/py_jieyingshi.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
@@ -890,6 +890,7 @@
     
 
 {"name":"SmartTV| 台港中日韓", "type": 3, "api": "https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt.py", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"       },
+{"name":"SmartTV2| 台港中日韓", "type": 0, "url": "https://smart.pendy.dpdns.org/m3u/Smart.m3u","ua": "judy/5.2.1", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","host":"https://www.livednow.dpdns.org/"},
 // {"name":"一盒1| 台港中日韓","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"LITV直播 (台灣IP)",  "type": 3,  "api": "https://json.doube.eu.org/python/live_litv.py",  "ext": {},"logo": "https://epg.112114.xyz/logo/{name}.png", "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","api2":"https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py"},
 {"name":"一盒2| 台港中日韓P3P (OKpro手機版不支援)","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"http://a90120.serv00.net/anbox/p3plink.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},

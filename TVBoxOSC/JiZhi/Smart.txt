@@ -4,8 +4,6 @@ Rob Yang,abc://a.b/c.m3u8
 亂給被封沒救,abc://a.b/e.m3u8
 
 
-
-js=https://files.catbox.moe/4dqdzg.js
 台灣 Taiwan,#genre#
 AXN, http://?id=axn_twn
 CINEMAX, http://?id=cinemax_twn
