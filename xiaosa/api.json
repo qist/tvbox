@@ -2281,6 +2281,15 @@
             "timeout": 10
         },
         {
+            "name": "BJ直播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://9877.kstore.space/Live/bjyd.m3u",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
             "name": "Guovin",
             "type": 0,
             "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
