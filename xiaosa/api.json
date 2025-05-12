@@ -1504,6 +1504,13 @@
             "ext": "./XBPQ/樱花动漫.json"
         },
         {
+            "key": "巴士动漫",
+            "name": "巴士｜动漫",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "ext": "./XYQHiker/巴士动漫.json"
+        },
+        {
             "key": "好看动漫",
             "name": "好看｜动漫",
             "type": 3,
