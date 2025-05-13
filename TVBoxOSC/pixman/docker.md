@@ -53,7 +53,7 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
 
 
 
-## 2. 4GTV FastAPI （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/fastapi-4gtv: 
+## ~~~2. 4GTV FastAPI （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/fastapi-4gtv: 
 ======
    1. docker镜像拉取:
          sudo docker pull mybtjson/fastapi-4gtv:1.0.7
@@ -69,9 +69,12 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
 ## 3. 4GTV pixman （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/pixman-4gtv: 
 ======
 vps 服务器 Docker镜像运行:
-sudo docker run -d --name=mybtjson005 -p 50007:5000 --dns=154.12.177.22 --restart=always mybtjson/pixman-4gtv:0.0.5
-Alice:
-ExpressVPN: 85.203.37.1, 85.203.37.2 (https://www.expressvpn.com/setup#mediastreamer)
+sudo docker run -d --name=mybtjson006 -p 50009:5000 --dns=154.12.177.22 --restart=always mybtjson/pixman-4gtv:0.0.6
+
+sudo docker run -d --name=vodlive-001 -p 50045:80  --restart=always bobyang03/robyangbsitenet:0.0.1
+
+Alice: 154.12.177.22 
+(US or UK only) ExpressVPN: 85.203.37.1, 85.203.37.2 (https://www.expressvpn.com/setup#mediastreamer)
 
 sudo docker run -d --name=mybtjson4gtv001 -p 50009:5000 --restart=always mybtjson/vps-4gtv:0.0.1
 
@@ -189,13 +192,13 @@ http://ip:port/Sub.txt
 
 
 
-## Instances / Accounts: 
+## Docker Instances / Accounts: 
 ======
 1. (bobyang.03 login) https://robyang-3487.koyeb.app/4gtv.m3u
 2. (bobyang03 login) https://robyang-3487.koyeb.app/youtube/ylYJSBUgaMA
 
 
-## 謝安琪 4gtv docker 教學:
+## ~~~~謝安琪 4gtv docker 教學:
 ======
 koyeb官方網站
 https://www.koyeb.com
@@ -211,7 +214,7 @@ https://www.koyeb.com
 4GTV直播源
 http://分配的網址/4gtv.m3u
 
-## 謝安琪 4gtv docker 教學
+## ~~~謝安琪 4gtv docker 教學
 https://pixman.io/topics/17
 
 
