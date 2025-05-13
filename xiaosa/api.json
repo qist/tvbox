@@ -84,8 +84,16 @@
             }
         },
         {
-            "key": "尼玛",
-            "name": "尼玛｜APP",
+            "key": "移动",
+            "name": "移动｜APP",
+            "type": 3,
+            "api": "csp_YD",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "牛马",
+            "name": "牛马｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -834,17 +842,6 @@
             "playerType": 2
         },
         {
-            "key": "火车影视",
-            "name": "火车｜影视",
-            "type": 3,
-            "api": "./py/火车影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
             "key": "美帕影视",
             "name": "美帕｜影视",
             "type": 3,
@@ -876,14 +873,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "http://kkwk123.top/api.php/app/"
-        },
-        {
-            "key": "移动",
-            "name": "移动｜影视",
-            "type": 3,
-            "api": "csp_YD",
-            "searchable": 1,
-            "quickSearch": 1
         },
         {
             "key": "厂长影视",
