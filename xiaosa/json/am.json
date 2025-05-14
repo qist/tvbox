@@ -1,0 +1,31 @@
+{
+    "SiteUrl": "https://vip.omii.top",
+    "Domains": [
+        "https://vip.omii.top",
+        "https://omtv.top"
+    ],
+    "SiteWord": "am",
+    "SiteName": "奥秘",
+    "Classes": [
+        {
+            "type_name": "电影",
+            "type_id": "30"
+        },
+        {
+            "type_name": "剧集",
+            "type_id": "31"
+        },
+        {
+            "type_name": "动漫",
+            "type_id": "32"
+        },
+        {
+            "type_name": "综艺",
+            "type_id": "33"
+        },
+        {
+            "type_name": "短剧",
+            "type_id": "34"
+        }
+    ]
+}

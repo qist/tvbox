@@ -92,6 +92,20 @@
             "quickSearch": 1
         },
         {
+            "key": "集多",
+            "name": "集多｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://220.231.146.94:6261",
+                "dataKey": "hL7xN4P9rS2vK5Mq",
+                "dataIv": "hL7xN4P9rS2vK5Mq",
+                "deviceId": "",
+                "version": "200"
+            }
+        },
+        {
             "key": "牛马",
             "name": "牛马｜APP",
             "type": 3,
@@ -612,6 +626,17 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "./json/xf.json"
+        },
+        {
+            "key": "奥秘",
+            "name": "奥秘｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/am.json"
         },
         {
             "key": "团长",
