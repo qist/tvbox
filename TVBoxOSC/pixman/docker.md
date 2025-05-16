@@ -69,9 +69,8 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
 ## 3. 4GTV pixman （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/pixman-4gtv: 
 ======
 vps 服务器 Docker镜像运行:
-sudo docker run -d --name=mybtjson006 -p 50009:5000 --dns=154.12.177.22 --restart=always mybtjson/pixman-4gtv:0.0.6
+sudo docker run -d --name=mybtjson007 -p 50009:5000 --dns=154.12.177.22 --restart=always mybtjson/pixman-4gtv:0.0.7
 
-sudo docker run -d --name=vodlive-001 -p 50045:80  --restart=always bobyang03/robyangbsitenet:0.0.1
 
 Alice: 154.12.177.22 
 (US or UK only) ExpressVPN: 85.203.37.1, 85.203.37.2 (https://www.expressvpn.com/setup#mediastreamer)

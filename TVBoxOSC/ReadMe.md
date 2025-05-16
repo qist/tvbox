@@ -30,6 +30,11 @@
       1.  https://api.dynu.com/nic/update?hostname=example.dynu.com&alias=Alias&password=PASSWORD
       2.  curl "https://api.dynu.com/nic/update?username=robyang&password=Ilovebob123!&hostname=usa1.robyang.ooguy.com&myip=1.2.3.4&myipv6=2602:1234::3"
       3.  wget "https://api.dynu.com/nic/update?hostname=example.dynu.com&myip=198.144.117.32&myipv6=2604:4400:a:8a::f4&username=someusername&password=somepassword"
+8. DNS: http://robyang.work.gd
+   1. from https://freedomain.one/
+   2. DNS https://freedomain.one/
+   3. redirect to http://robyang.us.kg
+   4. 
 
 
 8. ~~http://RobYang.rr.nu
