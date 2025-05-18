@@ -1,3 +1,39 @@
+globalThis.vod1 = function(ids) {
+    let html1 = request('https://pbaccess.video.qq.com/trpc.videosearch.mobile_search.MultiTerminalSearch/MbSearch?vplatform=2', {
+        body: {
+            "version": "25042201",
+            "clientType": 1,
+            "filterValue": "",
+            "uuid": "B1E50847-D25F-4C4B-BBA0-36F0093487F6",
+            "retry": 0,
+            "query": ids,
+            "pagenum": 0,
+            "isPrefetch": true,
+            "pagesize": 30,
+            "queryFrom": 0,
+            "searchDatakey": "",
+            "transInfo": "",
+            "isneedQc": true,
+            "preQid": "",
+            "adClientInfo": "",
+            "extraInfo": {
+                "isNewMarkLabel": "1",
+                "multi_terminal_pc": "1",
+                "themeType": "1",
+                "sugRelatedIds": "{}",
+                "appVersion": ""
+            }
+        },
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36',
+            'Content-Type': 'application/json',
+            'origin': 'https://v.qq.com',
+            'referer': 'https://v.qq.com/'
+        },
+        'method': 'POST'
+    }, true);
+    return html1;
+}
 var rule = {
     title: '腾云驾雾[官]',
     host: 'https://v.%71%71.com',
@@ -6,6 +42,7 @@ var rule = {
     detailUrl: 'https://node.video.%71%71.com/x/api/float_vinfo2?cid=fyid',
     searchUrl: '/x/search/?q=**&stag=fypage',
     searchUrl: 'https://pbaccess.video.%71%71.com/trpc.videosearch.smartboxServer.HttpRountRecall/Smartbox?query=**&appID=3172&appKey=lGhFIPeD3HsO9xEp&pageNum=(fypage-1)&pageSize=10',
+    searchUrl: '**',
     searchable: 2,
     filterable: 1,
     multi: 1,
@@ -655,7 +692,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "" + input.split("?")[0];
+            let api = "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
@@ -664,28 +701,40 @@ var rule = {
                     'Content-Type': 'application/x-www-form-urlencoded'
                 }
             });
+
             let bata = JSON.parse(response);
-            if (bata.url.includes("qq")) {
+            log(bata)
+            if (bata.url.includes("http")) {
                 input = {
+                    header: {
+                        'User-Agent': ""
+                    },
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=' + input.split("?")[0]
                 };
             } else {
+
                 input = {
+                    header: {
+                        'User-Agent': ""
+                    },
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=' + input.split("?")[0]
                 };
             }
         } catch {
             input = {
+                header: {
+                    'User-Agent': ""
+                },
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=' + input.split("?")[0]
             };
         }
     }),
@@ -837,6 +886,50 @@ var rule = {
                 desc: data.rec
             });
         }
+        setResult(d);
+    }),
+    搜索: $js.toString(() => {
+        let d = [];
+        let mame = (input.split("/")[3]);
+        let html = vod1(input.split("/")[3]);
+        let json = JSON.parse(html);
+
+        let list = json.data.normalList.itemList;
+        console.log(json);
+        log(list[0].videoInfo.title);
+        list.forEach(function(it) {
+            try {
+                if (it.doc.id.length > 11) {
+                    d.push({
+                        title: it.videoInfo.title,
+                        img: it.videoInfo.imgUrl,
+                        url: it.doc.id,
+                        // content: "",
+                        //desc: "data.rec"
+                    });
+                }
+            } catch {
+
+            }
+
+        });
+        let list2 = json.data.areaBoxList[0].itemList;
+        list2.forEach(function(it) {
+            try {
+                if (it.doc.id.length > 11 && it.videoInfo.title.match(mame)) {
+                    d.push({
+                        title: it.videoInfo.title,
+                        img: it.videoInfo.imgUrl,
+                        url: it.doc.id,
+                        // content: "",
+                        //desc: "data.rec"
+                    });
+                }
+            } catch {
+
+            }
+
+        });
         setResult(d);
     })
 }
