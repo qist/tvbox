@@ -96,7 +96,7 @@ TVBS選新聞,https://www.youtube.com/watch?v=o_-hSMgpAzs
 台灣地震監視,https://www.youtube.com/watch?v=Owke6Quk7T0
 
 
-🏘️Rob Yang就是我 寫出來此後台多年來只供親友試用 不喜歡就用別的 http://RobYang.ggff.net,#genre#
+🏘️Rob Yang就是我 寫出來此後台多年來都僅供親友試用 不喜歡就用別的 http://RobYang.ggff.net,#genre#
 至少"設定"->"點播"輸入http://RobYang.ggff.net 一次，這樣可以跟新所有線源1,abc://a.d2
 至少"設定"->"點播"輸入http://RobYang.dpdns.org 一次，這樣可以跟新所有線源2,abc://a.d1
 至少"設定"->"點播"輸入http://robyang.zone.id 一次，這樣可以跟新所有線源3,abc://a.d3
