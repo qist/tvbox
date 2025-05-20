@@ -17,7 +17,7 @@ const CONFIG = [
     'backup_url' => 'https://cdn.jsdelivr.net/gh/hostemail/cdn@main/data/smart1.txt', 
     'token_ttl'  => 2400,  // 40分钟有效期
     'cache_ttl'  => 3600,  // 频道列表缓存1小时
-    'fallback'   => 'http://vjs.zencdn.net/v/oceans.mp4', 
+    'fallback'   => 'https://www.youtube.com/watch?v=MV9mI0GChwo', 
     'clear_key'  => 'leifeng'
 ];
 
