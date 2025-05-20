@@ -845,7 +845,6 @@
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
     "api": "http://RobYang.serv00.net/smart.py",
-   // "header":{"User-Agent":"(Windows NT 10.0; WOW64) PotPlayer/25.03.13 okhttp/4.12.0 Mozilla/5.0","X-FORWARDED-FOR":"127.0.0.1"},
     "core": {
       "auth": "local://tvbus",
       "name": "123",
