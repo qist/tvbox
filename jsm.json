@@ -844,6 +844,7 @@
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
+    "api": "http://robyang.serv00.net/smart.py",
     "core": {
       "auth": "local://tvbus",
       "name": "123",
@@ -891,6 +892,7 @@
 
 {"name":"SmartTV| 台港中日韓", "type": 3, "api": "https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt.py", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"       },
 {"name":"SmartTV (Judy)| 台港中日韓", "type": 0, "playerType": 1, "url": "https://smart.pendy.dpdns.org/m3u/Smart.m3u", "ext": {} , "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","host":"https://www.livednow.dpdns.org/"},
+{"name":"Judy| 台港中日韓際", "type": 0, "playerType": 1, "url": "https://smart.pendy.dpdns.org/m3u/merged_judy.m3u", "ext": {} , "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","host":"https://www.livednow.dpdns.org/"},
 // {"name":"一盒1| 台港中日韓","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"https://zya.anbox118.workers.dev/","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"LITV直播 (台灣IP)",  "type": 3,  "api": "https://json.doube.eu.org/python/live_litv.py",  "ext": {},"logo": "https://epg.112114.xyz/logo/{name}.png", "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong","api2":"https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py"},
 {"name":"一盒1| 台港中日韓P3P (OKpro手機版不支援)","from":"http://tv.anbox.ip-ddns.com/live","type":0,"url":"http://a90120.serv00.net/anbox/p3plink.txt","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
