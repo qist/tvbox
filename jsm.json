@@ -808,6 +808,8 @@
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
+    "api": "http://RobYang.serv00.net/smart.py",
+    "header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"},
     "core": {
       "auth": "local://tvbus",
       "name": "123",
@@ -826,6 +828,8 @@
   "timeout": 5,
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
   "logo": "https://epg.112114.xyz/logo/{name}.png",
+  "api": "http://RobYang.serv00.net/smart.py",
+  "header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"},
   "core": {
     "auth": "local://tvbus",
     "name": "123",
@@ -844,7 +848,8 @@
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
-    "api": "http://robyang.serv00.net/smart.py",
+    "api": "http://RobYang.serv00.net/smart.py",
+    "header":{"CLIENT-IP":"127.0.0.1","X-FORWARDED-FOR":"127.0.0.1"},
     "core": {
       "auth": "local://tvbus",
       "name": "123",
