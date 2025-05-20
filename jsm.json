@@ -840,7 +840,7 @@
   "name": "🏠RobYang備2| http://robyang.zone.id",
   "type": 0, 
   "url": "http://RobYang.runasp.net/VodLive/lb8ffa",   //"http://www1.RobYang.dpdns.org/VodLive/lb8ffa",  
-  "ua": "okhttp/4.12.0 judy/5.2.1",
+  "header":{"User-Agent":"okhttp/4.12.0 judy/5.2.1"},
   "timeout": 5,
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
   "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -855,10 +855,10 @@
 
   },    
    {
-  "name": "test2",
+  "name": "test3",
   "type": 0, 
   "url": "http://RobYang.runasp.net/VodLive/lb8ffa",   //"http://www1.RobYang.dpdns.org/VodLive/lb8ffa",  
-  "header":{"User-Agent":"okhttp/4.12.0 judy/5.2.1"},
+  "header":{"User-Agent":"okhttp/4.12.0 judy/5.2.1", "X-FORWARDED-FOR":"127.0.0.1"},
   "timeout": 5,
   "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
   "logo": "https://epg.112114.xyz/logo/{name}.png",
