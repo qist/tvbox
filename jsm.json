@@ -840,11 +840,11 @@
     "name": "🏠RobYang備2| http://robyang.zone.id",
     "type": 0,
     "url": "http://RobYang.runasp.net/VodLive/lb8ffa",  
-    "ua": "okhttp/4.12.0 judy/5.2.1",
+    "ua": "(Windows NT 10.0; WOW64) PotPlayer/25.03.13 okhttp/4.12.0",
     "timeout": 5,
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
-    "api": "http://RobYang.serv00.net/smart.py",
+    "api": "http://robyang.serv00.net/smart.py",
     "core": {
       "auth": "local://tvbus",
       "name": "123",
