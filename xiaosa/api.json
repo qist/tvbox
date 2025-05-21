@@ -134,31 +134,17 @@
             }
         },
         {
-            "key": "牛马",
-            "name": "牛马｜APP",
+            "key": "诺雪",
+            "name": "诺雪｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://nm.xxxc137.top",
-                "dataKey": "a006661b01bdebbd",
-                "dataIv": "a006661b01bdebbd",
+                "url": "https://appcms.rx4k.top",
+                "dataKey": "LiGFzV6csf21zsu6",
+                "dataIv": "LiGFzV6csf21zsu6",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "鲶鱼",
-            "name": "鲶鱼｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://47.122.22.78",
-                "dataKey": "1234567890123456",
-                "dataIv": "1234567890123456",
-                "deviceId": "",
-                "version": "119"
             }
         },
         {
@@ -769,6 +755,16 @@
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/双星.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "懒盘",
+            "name": "懒盘｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/懒盘.js",
             "style": {
                 "type": "list"
             }
