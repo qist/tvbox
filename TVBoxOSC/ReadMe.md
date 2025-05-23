@@ -105,8 +105,8 @@
 1. https://freeasphosting.net can use own domain. (Left side "Add Domain").
 2. https://www.monsterasp.net  
    1. free account not allow add new domain name
-   2. free account allow enable MSSQL/MySQL Remote Access (select DB, "users and remot", "Enabled" )
-   3. free account can have 5 DB (1GB diskk spave, MSSQL, MariaDB, MySQL)
+   2. free account allow enable MSSQL/MySQL Remote Access (select DB, "users and remote", "Enabled" )
+   3. free account can have 5 DB (1GB diskk space, MSSQL, MariaDB, MySQL)
    4. free account can have https every 90 days to enable manually on the web
 
 
