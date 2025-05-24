@@ -64,7 +64,7 @@
 {"key":"厂长","name":"影視| 厂长","type":3,"api":"csp_NewCzGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"比特","name":"影視| 比特","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"低端","name":"影視| 低端","type":3,"api":"csp_DdrkGuard","timeout":10,"playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"萌米","name":"影視| 萌米","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENEIVq+dC1p/Y9uWjuA=="},
+{"key":"萌米","name":"30. 影視| 萌米","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENEIVq+dC1p/Y9uWjuA=="},
 {"key":"热播","name":"影視| 热播","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU="},
 {"key":"兄弟","name":"影視| 水星","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"filterable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+SLP183q3ik3cJDiAwlFdF8L6SIvrvc9LrpTyIg76T7QJZdEkWNj43wiSaA0TJyQpu2IF2jsSLWFx7WkAmG40hFxJ1tI+Jf+EVG8DtoDRcNi+TtVGULnWrSz3EWnVcxR3EJhXnrwYWe1kJtNW5txuHAO"},
 {"key":"即看","name":"影視| 即看","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":0,"changeable":0,"ext":"rfOX1voDIQhH8epBwtCFsub1+2maloq8lmJuL821WUsZJAZft2UtrrwhKK5Zxt1toWyFctBUmThhuDAjVuU="},
@@ -91,7 +91,7 @@
 // {"key":"zy_闪电资源","name":"影視| 闪电资源","type":1,"api":"https://xsd.sdzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"categories":["国产剧","韩国剧","国产动漫","伦理片","欧美剧","香港剧","台湾剧","日剧","海外剧","日本动漫","欧美动漫","港台动漫","海外动漫","动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","纪录片","犯罪片","其他片","悬疑片","奇幻片","动画片","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
 // {"key":"csp_XBiu廠長影院","name":"影視| 廠長影院","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.tz2yj.com/list/{cateId}___{year}__addtime_{catePg}.html","分类":"電視劇$dianshiju#電影$dianying#動漫$dongman#綜藝$zongyi#微電影$weidianying"}},
 // {"key":"低端","name":"影視| 低端?25-04-14","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"drpy_js_低端","name":"影視| 低端 [js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/低端.js"},
+{"key":"drpy_js_低端","name":"40. 影視| 低端 [js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"order_num":0,"ext":"./js/低端.js"},
 // {"key":"csp_开心影院","name":"影視| 开心","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/開心影院.json"},
 {"key":"csp_XBiu歐樂影院ORG","name":"影視| 歐樂","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"content_desc context clearfix\">&&</span>","分类url":"https://www.oulevod.org/index.php/vod/show/by/time/id/{cateId}/page/{catePg}/year/{year}.html","分类":"電視劇$2#電影$1#動漫$4#綜藝$3#體育$59#短劇$53"}},
 {"key":"csp_If101","name":"️影視| If101","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"content_desc context clearfix\">&&</span>","分类url":"https://www.olehdtv.com/index.php/vod/show/by/time/id/{cateId}/page/{catePg}/year/{year}.html","分类":"電視劇$2#電影$1#動漫$4#綜藝$3"}},
@@ -110,7 +110,7 @@
 // {"key":"310js","name":"⚽體育| 310","type":3,"api":"./FTY/drpy2.min.js","ext":"./FTY/310直播.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 // {"key":"Jrsjs","name":"⚽體育| Jrs?25-04-14","type": 3,"api":"./FTY/drpy2.min.js","ext":"./FTY/jrk.js","style":{"type":"list"},"searchable": 0,"quickSearch": 0,"changeable":0},
 // {"key":"drpy_js_310直播","name":"⚽體育| 310直播[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/310直播.js"},
-{"key":"drpy_js_88看球","name":"⚽體育| 88看球[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/88看球.js"},
+{"key":"drpy_js_88看球","name":"50. ⚽體育| 88看球[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/88看球.js"},
 // {"key":"drpy_js_JRKAN直播","name":"⚽體育| JRKAN直播[js]?25-04-14","type":3,"api":"./lib/drpy.min.js","changeable":0,"style":{"type":"rect","ratio":1},"ext":"./js/JRKAN直播.js"},
 {"key":"drpy_js_武享吧","name":"⚽格斗| 武享吧[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"ext":"./js/武享吧.js"},
 
@@ -144,7 +144,7 @@
 // {"key":"drpy_js_哔哩直播","name":"📺弹幕| 哔哩直播[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩直播.js"},
 {"key":"drpy_js_哔哩影视","name":"📺弹幕| 哔哩影视[js]","type":3,"api":"./lib/drpy2.min.js","style":{"type":"rect","ratio":1.597},"changeable":0,"ext":"./js/哔哩影视.js"},
 {"key":"Bili","name":"📺弹幕| 哔哔合集","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/bilibili.json"}},
-{"key":"Biliych","name":"📺弹幕| 明星演唱会","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/biliych.json"}},
+{"key":"Biliych","name":"70. 📺弹幕| 明星演唱会","type": 3,"api": "csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"./FTY/biliych.json"}},
 
 
 
