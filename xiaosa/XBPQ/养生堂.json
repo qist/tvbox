@@ -1,0 +1,17 @@
+{
+    "首页": "0",
+    // "播放链接前缀": "https://www.gyf.lol",
+    "数组": "data\":{\"tit&&s_log",
+    "图片": "https://p0.ssl.cdn.btime.com/+ssl.cdn.btime.com/&&\"",
+    "副标题": "le\":\"&&\"",
+    "标题": "text\":\"&&\"",
+    "链接": "item.btime.com/&&\"",
+    "链接前缀": "https://app.api.btime.com/video/play?callback=jQuery36009651202523243325_1747927554988&id=",
+    // "线路标题": "</i>&&<span",
+    "播放数组": "video_streams&&audio_streams",
+    "播放列表": "stream&&duration",
+    "播放标题": "stream_vbt\":\"&&\"",
+    "播放链接": "url\":\"&&\"",
+    "分类url": "https://pc.api.btime.com/btimeweb/infoFlow?callback=jQuery36002244958011106073_1747920210579&list_id={cateId}&refresh={catePg}&count=2000&expands=pageinfo&_=1747920210580",
+    "分类": "2025$btv_08da67cea600bf3c78973427bfaba12d_s0_2025#2024$btv_08da67cea600bf3c78973427bfaba12d_s0_2024#2023$btv_08da67cea600bf3c78973427bfaba12d_s0_2023#2022$btv_08da67cea600bf3c78973427bfaba12d_s0_2022#2021$btv_08da67cea600bf3c78973427bfaba12d_s0_2021#2020$btv_08da67cea600bf3c78973427bfaba12d_s0_2020#2019$btv_08da67cea600bf3c78973427bfaba12d_s0_2019#2018$btv_08da67cea600bf3c78973427bfaba12d_s0_2018"
+}
