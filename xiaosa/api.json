@@ -302,20 +302,6 @@
             }
         },
         {
-            "key": "晴天",
-            "name": "晴天｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://appcms.sun4k.top",
-                "dataKey": "b025dcd9c289cbb3",
-                "dataIv": "b025dcd9c289cbb3",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "在看",
             "name": "在看｜APP",
             "type": 3,
@@ -383,6 +369,19 @@
                 "dataIv": "sdev15rwsa96fsde",
                 "deviceId": "",
                 "version": "102"
+            }
+        },
+        {
+            "key": "趣看",
+            "name": "趣看｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "https://xjuzi.top",
+                "dataKey": "6a482a70b80eefc9",
+                "dataIv": "c995826a3e86fedd",
+                "jxurl": "https://www.ququkan.cc"
             }
         },
         {
