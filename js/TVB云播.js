@@ -25,10 +25,6 @@ var rule = {
 	},
 	searchUrl: '/vod/search.html?wd=**&submit=',
 	searchable: 2,//是否启用全局搜索,
-    headers: {
-        'User-Agent': 'MOBILE_UA',
-        'Cookie': 'esc_search_captcha=1'
-    },
 	quickSearch: 0,//是否启用快速搜索,
 	filterable: 0,//是否启用分类筛选,
 	play_parse: true,
