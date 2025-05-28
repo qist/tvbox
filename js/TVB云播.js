@@ -25,9 +25,9 @@ var rule = {
 	},
 	searchUrl: '/vod/search.html?wd=**&submit=',
 	searchable: 2,//是否启用全局搜索,
-	headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0',
-    },
+	headers: {//网站的请求头,完整支持所有的,常带ua和cookies 
+		'User-Agent': 'PC_UA',
+	},
 	quickSearch: 0,//是否启用快速搜索,
 	filterable: 0,//是否启用分类筛选,
 	play_parse: true,
