@@ -36,7 +36,7 @@
     {"key":"移动","name":"💡移动｜影视","type":3,"jar": "https://jar.u.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;ca6858586b97f51af3f0a6b2ce3070ad","api":"csp_YDjisu","searchable":1,"changeable":1},
     {"key":"爱看机器人","name":"💡爱看｜影视","type":3,"jar": "https://jar.u.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;ca6858586b97f51af3f0a6b2ce3070ad","api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"快看影视","name":"💡快看｜影视","type":3,"jar": "https://jar.u.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;ca6858586b97f51af3f0a6b2ce3070ad","api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-    {"key":"来看影视","name":"💡来看｜影视","type":3,"jar": "https://jar.u.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;ca6858586b97f51af3f0a6b2ce3070ad","api":"csp_Lkdy","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"瓜子影视","name":"💡瓜子｜影视","type":3,"jar": "https://jar.u.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;ca6858586b97f51af3f0a6b2ce3070ad","api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"原创","name":"☀原创┃不卡","type":3,"api":"csp_YCyzGuard","timeout":10,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
     {"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
     {"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_NmyswvGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
