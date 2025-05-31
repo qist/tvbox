@@ -92,6 +92,34 @@
             "quickSearch": 1
         },
         {
+            "key": "仓鼠",
+            "name": "仓鼠｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.cs4k.top",
+                "dataKey": "Z98KXaLtO2wC1Pte",
+                "dataIv": "Z98KXaLtO2wC1Pte",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "水滴",
+            "name": "水滴｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "http://1.94.105.93",
+                "dataKey": "gKdQKLbwhhLp4Ytv",
+                "dataIv": "gKdQKLbwhhLp4Ytv",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "橘猫",
             "name": "橘猫｜APP",
             "type": 3,
@@ -145,34 +173,6 @@
                 "dataIv": "123456789ABCDEFG",
                 "deviceId": "2bb4c10f3e043307dbfc579bd0db23f4e",
                 "version": "110"
-            }
-        },
-        {
-            "key": "仓鼠",
-            "name": "仓鼠｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://appcms.cs4k.top",
-                "dataKey": "Hui6595253......",
-                "dataIv": "Hui6595253......",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "集多",
-            "name": "集多｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://220.231.146.94:6261",
-                "dataKey": "hL7xN4P9rS2vK5Mq",
-                "dataIv": "hL7xN4P9rS2vK5Mq",
-                "deviceId": "",
-                "version": "200"
             }
         },
         {
@@ -316,20 +316,6 @@
             }
         },
         {
-            "key": "电影",
-            "name": "电影｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://1.94.105.93",
-                "dataKey": "gKdQKLbwhhLp4Ytv",
-                "dataIv": "gKdQKLbwhhLp4Ytv",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "悠悠",
             "name": "悠悠｜APP",
             "type": 3,
@@ -433,7 +419,7 @@
             "quickSearch": 1,
             "api": "csp_AppMuou",
             "ext": {
-                "url": "http://110.42.107.216:56677",
+                "url": "http://110.42.110.230:16189",
                 "dataKey": "d7378557d1d9c924",
                 "dataIv": "fb4594f622f34fea",
                 "jxurl": "https://qqiqiyiyoukumgtvapiappdyyztvjsoni8n2o0z1ws2n7b6v3x8.68.gy:56789"
@@ -450,19 +436,6 @@
                 "dataKey": "25f9e794323b4538",
                 "dataIv": "25f9e794323b4538",
                 "jxurl": "https://vod.feiwang.cc"
-            }
-        },
-        {
-            "key": "永夜",
-            "name": "永夜｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://cms.neyym.cn",
-                "dataKey": "66247d82fcfaeda9",
-                "dataIv": "70691065ee3c4c54",
-                "jxurl": "http://app.neyym.cn"
             }
         },
         {
@@ -847,13 +820,6 @@
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
-            "key": "小慧影视",
-            "name": "小慧｜影视",
-            "type": 1,
-            "api": "http://cms.xiaohui.cyou:1002/api.php/provide/vod/?ac=list",
-            "playUrl": "json:http://xiaohui.cyou:1000/api/?key=7ee73e22b404453adc116a403a32e9c8&url="
-        },
-        {
             "key": "金牌影视",
             "name": "金牌｜影视",
             "type": 3,
@@ -996,8 +962,8 @@
             "ext": "https://www.subaibai.com"
         },
         {
-            "key": "流光影视",
-            "name": "️流光｜影视",
+            "key": "免费影视",
+            "name": "️免费｜影视",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_FreeOk"
@@ -2234,12 +2200,6 @@
             "type": 0,
             "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "timeout": 10
-        },
-        {
-            "name": "咪咕直播",
-            "type": 0,
-            "url": "https://yun.urldwz.com/f/Q6y3ca/migu.m3u",
             "timeout": 10
         },
         {
