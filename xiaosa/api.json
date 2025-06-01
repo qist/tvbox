@@ -2190,7 +2190,7 @@
         {
             "name": "AI直播",
             "type": 0,
-            "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "url": "https://github.3x25.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 1,
             "timeout": 10
@@ -2257,7 +2257,7 @@
         {
             "name": "APTV",
             "type": 0,
-            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "url": "https://github.3x25.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
