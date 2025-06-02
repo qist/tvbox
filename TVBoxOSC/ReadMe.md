@@ -1,4 +1,4 @@
-#Rob Yang web:
+# Rob Yang web:
 1. php https://RobYang.serv00.net
 2. http://RobYang.ggff.net
    1. From https://customer.l53.net 
@@ -56,7 +56,7 @@
 14. ~~dead net https://RobYang.bsite.com/VodLive/sb8ffa
 
 
-#monitoring 
+# monitoring 
 1. https://robyang.grafana.net/ (monitor web use "Testing & synthetics" > "synthetics")
 2. https://uptime.betterstack.com
 3. https://app.squaredup.com/
@@ -101,7 +101,7 @@
 13. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
 14. DNS manage: DNSPod
 
-#.net host:
+# .net host:
 1. https://freeasphosting.net can use own domain. (Left side "Add Domain").
 2. https://www.monsterasp.net  
    1. free account not allow add new domain name
@@ -112,7 +112,7 @@
 
 
 
-#php (FreeHosting):
+# php (FreeHosting):
 https://serv00.net (OKTV good)
 http://clouds.tw (no https, need to turn on Javascript so OKTV won't work)
 https://www.infinityfree.com/    (need to use browser and turn on javascript )
@@ -123,7 +123,7 @@ https://www.freehostia.com/
 https://freehosting.host/ 
 https://www.awardspace.com
 
-#What to do when site gone?
+# What to do when site gone?
 1. go to cloudFlare and update forward url to the new site ("Rule" > "Redirect Rules" > "Bulk Redirect Rules")
    1. https://dash.cloudflare.com/2546565fc3a1939a63376c253d51c06e/robyang.us.kg/rules/redirect-rules/bulk-redirects
    2. update all old url to new url
@@ -146,19 +146,24 @@ https://www.awardspace.com
    5. upload publish zip file
 
 
-#How to update OKTV when site gone to carry history?
+# How to update OKTV when site gone to carry history?
 1. LONG click VOD field in Setting
 2. update url to the new url (label with be changed due to limited chars)
 3. refresh with sources.json, eg, "RobYang總源" and the label will updated correctly
 4. go to history and everything should stay
 
 
-#因serv00服务器要求，如果用户帐户在 90 天内未通过 DevilWEB 或 SSH 面板正确登录，则该帐户将自动从系统中删除，并且无法恢复该帐户收集的数据:
-https://www.zzzwb.com/2024/07-11-serv00-automation.html
-https://www.youtube.com/watch?v=TNB9tcJi_Uo
+# 因serv00服务器要求，如果用户帐户在 90 天内未通过 DevilWEB 或 SSH 面板正确登录，则该帐户将自动从系统中删除，并且无法恢复该帐户收集的数据:
+1. https://www.zzzwb.com/2024/07-11-serv00-automation.html
+2. https://www.youtube.com/watch?v=TNB9tcJi_Uo
 
 
 
+# 169 port
+1. http://45.207.194.97/p3p169.php
+
+
+# others
 
 GitHub:
 | Note        |    URL      |

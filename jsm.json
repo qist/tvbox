@@ -54,6 +54,8 @@
 // {"key":"Auete4","name":"影視| 奥特4","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},
 // {"key":"csp_七新","name":"影視| 七新","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/HCCX.jar","ext":"./json/七新影视.json"},
 
+
+//quit:
 {"key":"drpy_js_豆瓣","name":"影視| 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":0,"filterable":0,"ext":"./js/豆瓣[官].js"},
 {"key":"闪雷","name":"影視| 闪雷","type":3,"api":"./FTY/drpy2.min.js","ext":"./js/678.js"},
 {"key":"玩偶","name":"影視| 玩偶哥哥","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
@@ -96,11 +98,10 @@
 {"key":"drpy_js_菜狗","name":"官源 | 搜狗[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
 {"key":"drpy_js_优酷","name":"官源 | 优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
 
-
-
 {"key":"drpy_js_两个BT","name":"影視| 两个BT","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
 {"key":"vs資源","name":"影視| vs資源","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/VS資源.json"},
 
+//quit end
 
 
 // {"key": "py_素白白.py",  "name": "影視| 素白白",  "type": 3,  "api": "./py/素白白.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 1},

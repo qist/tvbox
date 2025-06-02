@@ -53,23 +53,10 @@ curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
 
 
 
-## ~~~2. 4GTV FastAPI （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/fastapi-4gtv: 
-======
-   1. docker镜像拉取:
-         sudo docker pull mybtjson/fastapi-4gtv:1.0.7
-   2. docker镜像运行:
-         sudo docker run -d --name=fastapi-4gtv -p 50012:5000 --restart=always mybtjson/fastapi-4gtv:1.0.7
-   http://ip:50007/help
-   http://ip:50007/?type=txt
-   http://ip:50007/?type=m3u
-
-
-
-
 ## 3. 4GTV pixman （taiwan IP only, ofiii + 4GTV整合版）https://hub.docker.com/r/mybtjson/pixman-4gtv: 
 ======
 vps 服务器 Docker镜像运行:
-sudo docker run -d --name=mybtjson007 -p 50009:5000 --dns=154.12.177.22 --restart=always mybtjson/pixman-4gtv:0.0.7
+sudo docker run -d --name=mybtjson009 -p 50010:5000 --dns=8.8.8.8 --dns=1.1.1.1 --restart=always mybtjson/pixman-4gtv:0.0.9
 
 
 Alice: 154.12.177.22 
