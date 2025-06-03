@@ -60,7 +60,7 @@
 ],
 "logo":"https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
 "lives":[
-{"name":"肥羊代理源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/肥羊代理源1.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
+{"name":"肥羊代理源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/肥羊代理源.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"大连推流源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/辽宁大连推流源.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"吉林推流源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/吉林推流源.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"太原推流源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/太原推流源.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
@@ -69,8 +69,5 @@
 {"name":"代理源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/%E6%80%A5%E9%80%9F%E6%8D%A2%E5%8F%B0.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"咪咕代理源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/migu.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"web源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/%E5%A4%AE%E8%A7%86web.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
-{"name":"组播源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A%E7%BB%84%E6%92%AD.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
-{"name":"单播源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/%E8%81%94%E9%80%9A%E5%8D%95%E6%92%AD.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
-{"name":"测试NB源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/NB%E4%BB%A3%E7%90%86%E6%BA%90.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"V6范明明","type":0,"url":"https://gh-proxy.net/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u","playerType":2},
 {"name":"平台直播","type":0,"url":"http://tv.iill.top/m3u/Live","ua":"okhttp/3.15","playerType":2}]}
