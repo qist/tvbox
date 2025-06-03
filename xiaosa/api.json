@@ -120,6 +120,20 @@
             }
         },
         {
+            "key": "咖啡",
+            "name": "咖啡｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "http://160.202.243.62:2566",
+                "dataKey": "qwertyuiopqwerty",
+                "dataIv": "qwertyuiopqwerty",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
             "key": "橘猫",
             "name": "橘猫｜APP",
             "type": 3,
@@ -747,6 +761,36 @@
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/米搜.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "爱搜UC",
+            "name": "爱UC｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/爱搜UC.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "爱搜Quark",
+            "name": "爱Quark｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/爱搜Quark.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "爱搜Baidu",
+            "name": "爱Baidu｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/爱搜Baidu.js",
             "style": {
                 "type": "list"
             }
