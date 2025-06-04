@@ -120,6 +120,20 @@
             }
         },
         {
+            "key": "咖啡",
+            "name": "咖啡｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "http://160.202.243.62:2566",
+                "dataKey": "qwertyuiopqwerty",
+                "dataIv": "qwertyuiopqwerty",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
             "key": "橘猫",
             "name": "橘猫｜APP",
             "type": 3,
@@ -180,13 +194,13 @@
             "name": "诺雪｜APP",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet",
+            "api": "csp_AppGet2",
             "ext": {
-                "url": "https://appcms.rx4k.top",
-                "dataKey": "LiGFzV6csf21zsu6",
-                "dataIv": "LiGFzV6csf21zsu6",
+                "url": "https://qjappcms.rx4k.top",
+                "dataKey": "ZX10ysTYZWtIJCTU",
+                "dataIv": "ZX10ysTYZWtIJCTU",
                 "deviceId": "",
-                "version": ""
+                "version": "120"
             }
         },
         {
@@ -712,16 +726,6 @@
             }
         },
         {
-            "key": "聚搜",
-            "name": "聚搜｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebSearch",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "双星",
             "name": "双星｜4K弹幕",
             "type": 3,
@@ -742,11 +746,81 @@
             }
         },
         {
+            "key": "聚搜",
+            "name": "聚搜｜4K搜索",
+            "type": 3,
+            "api": "csp_PanWebSearch",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
             "key": "米搜",
-            "name": "米搜｜4K弹幕",
+            "name": "米搜｜4K搜索",
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/米搜.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "人人",
+            "name": "人人｜4K搜索",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/人人.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "全盘",
+            "name": "全盘｜4K搜索",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/全盘.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "爱搜UC",
+            "name": "爱UC｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/爱搜UC.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "爱搜Quark",
+            "name": "爱Quark｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/爱搜Quark.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "爱搜Baidu",
+            "name": "爱Baidu｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/爱搜Baidu.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "夸克盘搜",
+            "name": "夸克盘搜｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/夸克盘搜.js",
             "style": {
                 "type": "list"
             }
