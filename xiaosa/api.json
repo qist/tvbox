@@ -138,13 +138,83 @@
             "name": "橘猫｜APP",
             "type": 3,
             "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.jm4k.top",
+                "dataKey": "pBVmysmGX8TsgrQN",
+                "dataIv": "pBVmysmGX8TsgrQN",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "诺雪",
+            "name": "诺雪｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.rx4k.top",
+                "dataKey": "ZX10ysTYZWtIJCTU",
+                "dataIv": "ZX10ysTYZWtIJCTU",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "乐乐",
+            "name": "乐乐｜APP",
+            "type": 3,
+            "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://appcms.jm4k.top",
-                "dataKey": "KPEkKAESYi38CQdn",
-                "dataIv": "KPEkKAESYi38CQdn",
+                "url": "https://get.le163.top",
+                "dataKey": "4f870065c9c193fc",
+                "dataIv": "4f870065c9c193fc",
                 "deviceId": "",
-                "version": "119"
+                "version": ""
+            }
+        },
+        {
+            "key": "乐看",
+            "name": "乐看｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.weis.vip",
+                "dataKey": "e65144389e9361b5",
+                "dataIv": "e65144389e9361b5",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "梦缘",
+            "name": "梦缘｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://150.138.84.88:44444",
+                "dataKey": "fdnwxwnkyylwdyqh",
+                "dataIv": "fdnwxwnkyylwdyqh",
+                "deviceId": "29ac7568b4dc23ca9a40b6ca5b7cc6f68",
+                "version": "520"
+            }
+        },
+        {
+            "key": "麒麟",
+            "name": "麒麟｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.70yy.fun",
+                "dataKey": "sfsdgsgcccss55xa",
+                "dataIv": "sfsdgsgcccss55xa",
+                "deviceId": "2129ec9e6e5703cb0aeeddd79554e38f8",
+                "version": "100"
             }
         },
         {
@@ -187,20 +257,6 @@
                 "dataIv": "123456789ABCDEFG",
                 "deviceId": "2bb4c10f3e043307dbfc579bd0db23f4e",
                 "version": "110"
-            }
-        },
-        {
-            "key": "诺雪",
-            "name": "诺雪｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "https://qjappcms.rx4k.top",
-                "dataKey": "ZX10ysTYZWtIJCTU",
-                "dataIv": "ZX10ysTYZWtIJCTU",
-                "deviceId": "",
-                "version": "120"
             }
         },
         {
@@ -463,19 +519,6 @@
                 "dataKey": "d3238930e3ae0724",
                 "dataIv": "d3238930e3ae0724",
                 "jxurl": "https://123ysw.com"
-            }
-        },
-        {
-            "key": "追忆",
-            "name": "追忆｜APP",
-            "type": 3,
-            "quickSearch": 0,
-            "api": "csp_AppMiTo",
-            "ext": {
-                "url": "http://110.42.7.130:1866",
-                "dataKey": "aassddwwxxllsx1x",
-                "playKey": "1bada76e67e1e7f9",
-                "version": "1.2.0"
             }
         },
         {
@@ -766,7 +809,7 @@
             }
         },
         {
-            "key": "人人",
+            "key": "人人分享站",
             "name": "人人｜4K搜索",
             "type": 3,
             "api": "./js/cloud.min.js",
@@ -817,7 +860,7 @@
         },
         {
             "key": "夸克盘搜",
-            "name": "夸克盘搜｜4K弹幕",
+            "name": "夸克盘搜｜4K搜索",
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/夸克盘搜.js",
