@@ -89,6 +89,7 @@
 "logo":"https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
 "lives":[
 {"name":"肥羊代理源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/肥羊代理.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
+{"name":"HOT代理源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/HOT代理.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"大连推流源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/辽宁大连推流源.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"吉林推流源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/吉林推流源.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"太原推流源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/太原推流源.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
