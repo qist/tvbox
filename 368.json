@@ -13,7 +13,7 @@
 {"name":"备用源","type":0,"url":"http://8.138.7.223/v25.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"组播源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A%E7%BB%84%E6%92%AD.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"单播源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/%E8%81%94%E9%80%9A%E5%8D%95%E6%92%AD.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
-{"name":"测试NB源","type":0,"url":"https://cnb.cool/dong789001/wdds/-/git/raw/main/NB%E4%BB%A3%E7%90%86%E6%BA%90.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
+{"name":"测试V6源","type":0,"url":"https://gitee.com/mytv-android/iptv-api/raw/master/output/ipv6/result.txt","playerType":2,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"初秋语•ipv4","type":0,"url":"./list.txt","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},
 {"name":"YanG•综合","type":0,"url":"https://tv.iill.top/m3u/Gather","ua": "okhttp/3.15","playerType":2,"epg":"http://epg.112114.xyz/?ch={name}&date={date}"},
 {"name":"YanG•直播","type":0,"url":"https://tv.iill.top/m3u/Live","ua": "okhttp/3.15","playerType":2},
