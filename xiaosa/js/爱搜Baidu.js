@@ -25,7 +25,7 @@ var rule = {
     limit: 9,
     double: false,
     // 推荐: '*',
-    一级: 'js:\n        let html = fetch(input);\n        let list = pdfa(html, "body&&.semi-space-medium-vertical");\n        VODS = list.map(x => {\n            let remarks = pdfh(x, "div&&img&&alt");\n            // 过滤掉包含"迅雷云盘"的内容\n            if(remarks.includes("迅雷云盘")) return null;\n            return {\n                vod_name: pdfh(x, "div&&a&&title"),\n                vod_pic: \'https://yx.aekgame.com/wp-content/uploads/2022/05/e27b-290abe63258be48d86b6676b6b0ba22d.jpg\',\n                vod_remarks: remarks,\n                vod_content: remarks,\n                vod_id: pdfh(x, "div&&a&&href")\n            }\n        }).filter(x => x !== null);\n    ',
+    一级: 'js:\n        let html = fetch(input);\n        let list = pdfa(html, "body&&.semi-space-medium-vertical");\n        VODS = list.map(x => {\n            let remarks = pdfh(x, "div&&img&&alt");\n            let vodName = pdfh(x, "div&&a&&title");\n            // 过滤条件：迅雷云盘、.txt后缀、空名称\n            if(remarks.includes("迅雷云盘") || vodName.endsWith(".txt") || !vodName.trim()) return null;\n            return {\n                vod_name: vodName,\n                vod_pic: "https://yx.aekgame.com/wp-content/uploads/2022/05/e27b-290abe63258be48d86b6676b6b0ba22d.jpg",\n                vod_remarks: remarks,\n                vod_content: remarks,\n                vod_id: pdfh(x, "div&&a&&href")\n            };\n        }).filter(x => x !== null);\n    ',
     二级: {
         title: 'h1&&Text',
         img: 'img&&src',
@@ -34,7 +34,7 @@ var rule = {
         tabs: "js:TABS = ['爱搜']",
         lists: "js:\n            LISTS = [];\n            let lists1 = pdfa(html, 'body&&.semi-space-loose-vertical').map(it => {\n                let _tt = pdfh(it, 'span&&title');\n                let _uu = pdfh(it, 'a&&href');\n                return _tt + '$' + _uu;\n            });\n            LISTS.push(lists1);\n        ",
     },
-    搜索: 'js:\n        let html = fetch(input);\n        let list = pdfa(html, "body&&.semi-space-medium-vertical");\n        VODS = list.map(x => {\n            let remarks = pdfh(x, "div&&img&&alt");\n            // 过滤掉包含"迅雷云盘"的内容\n            if(remarks.includes("迅雷云盘")) return null;\n            return {\n                vod_name: pdfh(x, "div&&a&&title"),\n                vod_pic: \'https://yx.aekgame.com/wp-content/uploads/2022/05/e27b-290abe63258be48d86b6676b6b0ba22d.jpg\',\n                vod_remarks: remarks,\n                vod_content: remarks,\n                vod_id: pdfh(x, "div&&a&&href")\n            }\n        }).filter(x => x !== null);\n    ',
+    搜索: 'js:\n        let html = fetch(input);\n        let list = pdfa(html, "body&&.semi-space-medium-vertical");\n        VODS = list.map(x => {\n            let remarks = pdfh(x, "div&&img&&alt");\n            let vodName = pdfh(x, "div&&a&&title");\n            // 过滤条件：迅雷云盘、.txt后缀、空名称\n            if(remarks.includes("迅雷云盘") || vodName.endsWith(".txt") || !vodName.trim()) return null;\n            return {\n                vod_name: vodName,\n                vod_pic: "https://yx.aekgame.com/wp-content/uploads/2022/05/e27b-290abe63258be48d86b6676b6b0ba22d.jpg",\n                vod_remarks: remarks,\n                vod_content: remarks,\n                vod_id: pdfh(x, "div&&a&&href")\n            };\n        }).filter(x => x !== null);\n    ',
     cate_exclude: '首页|留言|APP|下载|资讯|新闻|动态',
     tab_exclude: '猜你|喜欢|下载|剧情|榜|评论',
     类型: '影视',
