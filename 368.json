@@ -30,7 +30,7 @@
 "sites":[
     {"key":"csp_appys_臻彩","name":"4K臻彩世界","type":3,"jar": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250","api": "csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext": "http://cmszcsj.lfytv.cn/api.php/app/"},
     {"key":"csp_appys_天堂","name":"电影┃天堂","type":3,"jar": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250","api": "csp_AppYsV2", "searchable":1,"quickSearch":1,"filterable":1,"ext": "http://cmstt.lfytv.cn/api.php/app/"},
-    {"key":"小猫","name":"小猫|自定","type":3,"api": "csp_HBcms10", "searchable":1,"quickSearch":1,"filterable":1,"ext": "https://zy.xiaomaomi.cc/api.php/provide/vod/"},
+    {"key":"小猫","name":"小猫|自定","type":3,"jar": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250","api": "csp_HBcms10", "searchable":1,"quickSearch":1,"filterable":1,"ext": "https://zy.xiaomaomi.cc/api.php/provide/vod/"},
     {"key":"梦回","name":"梦回┃影视", "type":3,"jar": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250","api": "csp_AppRJ", "ext":"sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"},
     {"key":"星辉","name":"星辉┃影视","type":3,"jar": "http://ok.lfytv.cn/fm.jar;md5;b40f328ddc5becefbfca81db7bdca250","api": "csp_AppRJ","ext":"sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"},
     {"key":"移动","name":"💡移动｜影视","type":3,"jar": "https://jar.u.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;ca6858586b97f51af3f0a6b2ce3070ad","api":"csp_YDjisu","searchable":1,"changeable":1},
