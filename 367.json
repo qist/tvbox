@@ -2021,33 +2021,33 @@
     ],
     "lives": [
         {
-            "name": "AI直播",
+            "name": "咪咕直播",
             "type": 0,
-            "url": "https://github.3x25.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "url": "https://cnb.cool/dong789001/wdds/-/git/raw/main/%E5%92%AA%E5%92%95.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "playerType": 1,
             "timeout": 10
         },
         {
-            "name": "Guovin",
+            "name": "快直播",
             "type": 0,
-            "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
+            "url": "https://cnb.cool/dong789001/wdds/-/git/raw/main/%E5%BF%AB%E7%9B%B4%E6%92%AD.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "timeout": 10
         },
         {
-            "name": "虎牙一起看",
+            "name": "一起看1",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
+            "url": "https://cnb.cool/dong789001/wdds/-/git/raw/main/%E8%82%A5%E7%BE%8A1.txt",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
         {
-            "name": "斗鱼一起看",
+            "name": "一起看2",
             "type": 3,
             "api": "csp_Feiyang",
-            "url": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
+            "url": "https://cnb.cool/dong789001/wdds/-/git/raw/main/HOT%E4%BB%A3%E7%90%86.txt",
             "timeout": 10,
             "ua": "okhttp/3.15"
         },
