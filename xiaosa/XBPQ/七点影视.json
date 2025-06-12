@@ -1,0 +1,7 @@
+{
+    "简介": "+pt-10 pb-10\" style=*>&&</p>",
+    "图片": "data-original=\"&&\"[替换:amp;>>空]",
+    "线路数组": "#ewave-playlist-&&</li>",
+    "分类url": "https://www.7.movie/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+    "分类": "短剧$24#电视剧$21#电影$20#动漫$22#综艺$23"
+}
