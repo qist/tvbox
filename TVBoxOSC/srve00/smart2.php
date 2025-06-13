@@ -8,11 +8,11 @@ date_default_timezone_set("Asia/Shanghai");
 // 核心配置
 const CONFIG = [
     'upstream'   => [
-    'http://198.16.100.186:8278/',
-    'http://50.7.92.106:8278/', 
-    'http://50.7.234.10:8278/',
-    'http://50.7.220.170:8278/',
-    'http://67.159.6.34:8278/'],
+    'http://livesmart5.robyang.ggff.net:8278/', 
+    'http://livesmart1.robyang.ggff.net:8278/', 
+    'http://livesmart2.robyang.ggff.net:8278/', 
+    'http://livesmart3.robyang.ggff.net:8278/', 
+    'http://livesmart4.robyang.ggff.net:8278/'], 
     'list_url'   => 'https://cdn.jsdelivr.net/gh/hostemail/cdn@main/data/smart.txt',
     'backup_url' => 'https://cdn.jsdelivr.net/gh/hostemail/cdn@main/data/smart1.txt', 
     'token_ttl'  => 2400,  // 40分钟有效期
@@ -20,6 +20,22 @@ const CONFIG = [
     'fallback'   => 'https://www.youtube.com/watch?v=MV9mI0GChwo', 
     'clear_key'  => 'leifeng'
 ];
+
+
+// const CONFIG = [
+//     'upstream'   => [
+//     'http://198.16.100.186:8278/', 
+//     'http://50.7.92.106:8278/', 
+//     'http://50.7.234.10:8278/',
+//     'http://50.7.220.170:8278/', 
+//     'http://67.159.6.34:8278/'], 
+//     'list_url'   => 'https://cdn.jsdelivr.net/gh/hostemail/cdn@main/data/smart.txt',
+//     'backup_url' => 'https://cdn.jsdelivr.net/gh/hostemail/cdn@main/data/smart1.txt', 
+//     'token_ttl'  => 2400,  // 40分钟有效期
+//     'cache_ttl'  => 3600,  // 频道列表缓存1小时
+//     'fallback'   => 'https://www.youtube.com/watch?v=MV9mI0GChwo', 
+//     'clear_key'  => 'leifeng'
+// ];
 
 // 获取当前轮询的上游服务器
 function getUpstream() {
