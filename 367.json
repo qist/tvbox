@@ -176,6 +176,30 @@
             }
         },
         {
+            "key": "满分",
+            "name": "满分｜APP",
+            "type": 3,
+            "api": "csp_AppYs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
+        },
+        {
+            "key": "海豚",
+            "name": "海豚｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://appcms.htsp4k.top",
+                "dataKey": "7CYQQzwchRQpHCOj",
+                "dataIv": "7CYQQzwchRQpHCOj",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "晓晓",
             "name": "晓晓｜APP",
             "type": 3,
@@ -967,14 +991,6 @@
             "playerType": 2
         },
         {
-            "key": "火火影视",
-            "name": "火火｜影视",
-            "type": 3,
-            "api": "csp_SaoHuo",
-            "playerType": 2,
-            "ext": "https://shdy5.us"
-        },
-        {
             "key": "尘落影视",
             "name": "尘落｜影视",
             "type": 3,
@@ -1016,14 +1032,6 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_FreeOk"
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_Wwys",
-            "ext": "https://www.wwgz.cn"
         },
         {
             "key": "低端影视",
@@ -1111,6 +1119,41 @@
             "type": 3,
             "api": "csp_HBPQ",
             "ext": "./XBPQ/雪糕影视.json"
+        },
+        {
+            "key": "骚火影视",
+            "name": "骚火｜影视",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": "./XBPQ/骚火影视.json"
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": "./XBPQ/农民影视.json"
+        },
+        {
+            "key": "七点影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": "./XBPQ/七点影视.json"
+        },
+        {
+            "key": "三九影视",
+            "name": "三九｜影视",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": "./XBPQ/三九影视.json"
+        },
+        {
+            "key": "三四影视",
+            "name": "三四｜影视",
+            "type": 3,
+            "api": "csp_HBPQ",
+            "ext": "./XBPQ/三四影视.json"
         },
         {
             "key": "一起影视",
