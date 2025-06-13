@@ -3,7 +3,7 @@
     "wallpaper":"https://深色壁纸.xxooo.cf/",
     
 "sites":[
-{"key":"闪电弹幕","name":"🌈闪电┃4K弹幕","type":3,"jar": https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/INjfd-HU.png;md5;10118192956ff776b2ec3668f3659174","api": "csp_ShanDianGuard","quickSearch":1,"changeable":1,"filterable":1,"ext": {"danmu": true},"timeout":25},
+{"key":"闪电弹幕","name":"🌈闪电┃4K弹幕","type":3,"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/INjfd-HU.png;md5;10118192956ff776b2ec3668f3659174","api": "csp_ShanDianGuard","quickSearch":1,"changeable":1,"filterable":1,"ext": {"danmu": true},"timeout":25},
 {"key":"趣盘","name":"🥳百度趣盘┃4K弹幕","type":3,"api":"csp_PanWebQu","jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86","searchable":1,"quickSearch":1,"filterable":1,"style": {"type": "list","ratio": 1.433},"ext": {"url": "https://www.qupanshe.com"}},
 {"key":"咖啡","name":"☕️咖啡┃蓝光┃弹幕","type": 3,"quickSearch":1,"api": "csp_AppGet2","jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86","ext": {"url": "http://160.202.243.62:2566","dataKey": "qwertyuiopqwerty","dataIv": "qwertyuiopqwerty","deviceId": "","version": "120"}},
 {"key":"忍者","name":"🥷忍者┃蓝光┃弹幕","type": 3,"quickSearch":1,"api": "csp_AppGet","jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;b752cad81649bf070c934c423c3a1b86","ext": {"url": "https://mfxs123.sbs","dataKey": "1234567887654321","dataIv": "1234567887654321","deviceId": "","version": ""}},
