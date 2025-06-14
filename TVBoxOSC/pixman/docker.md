@@ -27,7 +27,7 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
 
 
 
-## 1. liuyong1987 劉墉 刘墉: (taiwan IP only) https://hub.docker.com/u/liuyong1987)
+## 1. liuyong1987 劉墉 刘墉: (taiwan IP only) https://hub.docker.com/u/liuyong1987
     1. sudo docker pull liuyong1987/fourgtv:latest
     3. sudo docker run -d --name=fourgtv -p 50013:8000 --restart=always liuyong1987/fourgtv:latest
     4. 订阅列表：
