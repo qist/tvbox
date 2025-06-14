@@ -126,7 +126,7 @@
             "quickSearch": 1,
             "api": "csp_AppGet2",
             "ext": {
-                "url": "http://160.202.243.62:2566",
+                "url": "http://160.202.244.9:6659",
                 "dataKey": "qwertyuiopqwerty",
                 "dataIv": "qwertyuiopqwerty",
                 "deviceId": "",
@@ -176,14 +176,18 @@
             }
         },
         {
-            "key": "满分",
-            "name": "满分｜APP",
+            "key": "麻花",
+            "name": "麻花｜APP",
             "type": 3,
-            "api": "csp_AppYs",
-            "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://49.235.114.19:130",
+                "dataKey": "q7gj4f9br3fls6nh",
+                "dataIv": "q7gj4f9br3fls6nh",
+                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+                "version": "700"
+            }
         },
         {
             "key": "海豚",
@@ -873,8 +877,26 @@
             "ext": "./XYQHiker/短剧屋.json"
         },
         {
-            "key": "QD4K",
-            "name": "QD影视｜影视",
+            "key": "满分",
+            "name": "满分｜影视",
+            "type": 3,
+            "api": "csp_AppYs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
+        },
+        {
+            "key": "顾我",
+            "name": "顾我｜影视",
+            "type": 3,
+            "playerType": 2,
+            "api": "csp_AppYsV2",
+            "ext": "http://121.62.21.14:520/api.php/app/"
+        },
+        {
+            "key": "起点",
+            "name": "起点｜影视",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -883,8 +905,8 @@
             "ext": "http://172.83.156.150:1010/api.php/app/"
         },
         {
-            "key": "HG影视",
-            "name": "HG影视｜影视",
+            "key": "好感",
+            "name": "好感｜影视",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -1136,7 +1158,7 @@
         },
         {
             "key": "七点影视",
-            "name": "农民｜影视",
+            "name": "七点｜影视",
             "type": 3,
             "api": "csp_HBPQ",
             "ext": "./XBPQ/七点影视.json"
