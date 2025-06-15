@@ -126,7 +126,7 @@
             "quickSearch": 1,
             "api": "csp_AppGet2",
             "ext": {
-                "url": "http://160.202.244.9:6659",
+                "url": "http://160.202.243.62:2566",
                 "dataKey": "qwertyuiopqwerty",
                 "dataIv": "qwertyuiopqwerty",
                 "deviceId": "",
@@ -483,6 +483,32 @@
             }
         },
         {
+            "key": "柚子",
+            "name": "柚子｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://172.247.192.138:17263",
+                "dataKey": "3f94fca574a811a8",
+                "dataIv": "3f94fca574a811a8",
+                "jxurl": "http://172.247.192.140:12264"
+            }
+        },
+        {
+            "key": "火猫",
+            "name": "火猫｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://154.12.90.59:14580",
+                "dataKey": "6b7cf13bf47ba2e6",
+                "dataIv": "6b7cf13bf47ba2e6",
+                "jxurl": "http://app.789dd.cn"
+            }
+        },
+        {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
@@ -755,36 +781,6 @@
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/百酷.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱搜UC",
-            "name": "爱UC｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/爱搜UC.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱搜Quark",
-            "name": "爱Quark｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/爱搜Quark.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱搜Baidu",
-            "name": "爱Baidu｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/爱搜Baidu.js",
             "style": {
                 "type": "list"
             }
@@ -1176,16 +1172,6 @@
             "type": 3,
             "api": "csp_HBPQ",
             "ext": "./XBPQ/三四影视.json"
-        },
-        {
-            "key": "一起影视",
-            "name": "一起｜影视",
-            "type": 3,
-            "api": "csp_AppFree4K",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "w7TCmsONw6LDrsKYwoXCosKcwqDCrcKawqDDosKnwqTCoMKjwrPCosKpw5rDqsKjwpPCncKjwqfDmcOsw57Dn8KbwpRewqbDosOjwqHCpcKaWnvClcKpwqDCrcKawqDDnMKYZWNkwrHDl8Ogw5vCqsKWY8KTYsKxwqbCocKlwppaecKmV8KzwpPCocKuw6BoZGRpw53Dl8Krwq3CrWRjYmHCsMKawqbCmcKhdcKRwp7Cm8OHw5TDsMKgwrRTV+ecpOaTncKgwp/CmsKgw4rClMKiwqPClcOOw6XDpsKgwrRTV8KYwqTDrcOjw63Cs8KpYsKRwqDCoMOvwqTCqMOfw6zCmMKVwpjClMKnw6nDo8OpwqnCncKjwp/CnsKnw6PDosOpwrnCqMKiwpxtwqDCn8KawqDCvsKUwp59wqXDjsOlw6bCoMK0U1fCmMKkw63Do8OtwrPCqWLClMKdXsOvw5zDnsOzwqjClMKjwpnCkcKow5fDp8Okw69ib8KRwpPCtsOXw6fCn8OuwqLCm8KVwp7CtsOEw4PDhcK8dnh6dsOMwr/DkcOPw4B4e8KCVsOuw6XDpsK2wqFfUFfClMOew5bDrMOyw6rCp3vClcKpwqDCrcKawqDDscKowqnCmWbCr8KpwqHDtg=="
         },
         {
             "key": "耐看影视",
