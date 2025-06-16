@@ -1,5 +1,5 @@
 {
-    "spider":"./jar/fan.txt;md5;d95cd1a158eee9b9b9912ee7ad109e5c",
+    "spider":"./jar/fan.txt;md5;677399a8a27a64506b814ed92ee7acbe",
     "wallpaper":"https://深色壁纸.xxooo.cf/",
     
 "sites":[
@@ -9,8 +9,6 @@
 {"key":"趣盘","name":"🥳百度趣盘┃4K弹幕","type":3,"api":"csp_PanWebQu","jar": "http://我不是.摸鱼儿.xyz/by/jar/moyu.php;md5;0a9c6b44a20445a9b3c2a39763ef7cf1","searchable":1,"quickSearch":1,"filterable":1,"style": {"type": "list","ratio": 1.433},"ext": {"url": "https://www.qupanshe.com"}},
 {"key":"咖啡","name":"☕️咖啡┃蓝光┃弹幕","type": 3,"quickSearch":1,"api": "csp_AppGet2","jar": "http://我不是.摸鱼儿.xyz/by/jar/moyu.php;md5;0a9c6b44a20445a9b3c2a39763ef7cf1","ext": {"url": "http://160.202.243.62:2566","dataKey": "qwertyuiopqwerty","dataIv": "qwertyuiopqwerty","deviceId": "","version": "120"}},
 {"key":"忍者","name":"🥷忍者┃蓝光┃弹幕","type": 3,"quickSearch":1,"api": "csp_AppGet","jar": "http://我不是.摸鱼儿.xyz/by/jar/moyu.php;md5;0a9c6b44a20445a9b3c2a39763ef7cf1","ext": {"url": "https://mfxs123.sbs","dataKey": "1234567887654321","dataIv": "1234567887654321","deviceId": "","version": ""}},
-{"key":"梦回","name":"梦回┃影视","type":3,"api": "csp_AppRJ","searchable":1,"changeable":1,"jar": "https://tv.菜妮丝.top/jar/fty0414.jar;md5;2c6500c44ee7e7b915f8c0afb0723e50","ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"},
-{"key":"星辉","name":"星辉┃影视","type":3,"api": "csp_AppRJ","searchable":1,"changeable":1,"jar": "https://tv.菜妮丝.top/jar/fty0414.jar;md5;2c6500c44ee7e7b915f8c0afb0723e50","ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"},
 {"key":"人人","name": "☃️人人┃蓝光┃无广","type":3,"quickSearch":1,"api": "csp_AppGet","jar": "http://我不是.摸鱼儿.xyz/by/jar/moyu.php;md5;0a9c6b44a20445a9b3c2a39763ef7cf1","ext": {"url": "https://www.xiaohys.com","dataKey": "ENonBHeVBoYZhVUV","dataIv": "ENonBHeVBoYZhVUV","deviceId": "298e5fe29c74b35aabb9836ee2f6f449f","version": "166"}},
 {"key":"移动","name":"💡移动｜影视","type":3,"jar": "https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;12a79291579f7816538de9049c46fb0f","api":"csp_YDjisu","searchable":1,"changeable":1},
 {"key":"爱看机器人","name":"💡爱看｜影视","type":3,"jar": "https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=index;md5;12a79291579f7816538de9049c46fb0f","api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1},
@@ -25,6 +23,7 @@
 {"key":"小红弹幕版","name":"🐷小红┃弹幕","type":3,"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/INjfd-HU.png;md5;10118192956ff776b2ec3668f3659174","api": "csp_XiaoHongGuard","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true},"timeout":10},
 {"key":"晴天弹幕版","name":"☀️晴天┃弹幕","type":3,"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/INjfd-HU.png;md5;10118192956ff776b2ec3668f3659174","api": "csp_Sun4kGuard", "searchable":1,"quickSearch":1,"filterable":1, "ext": {"danmu": true},"timeout":10},
 {"key":"仓鼠弹幕版","name":"🐹仓鼠┃弹幕","type":3,"jar": "https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/INjfd-HU.png;md5;10118192956ff776b2ec3668f3659174","api": "csp_CangShuGuard","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true},"timeout":10},
+{"key":"原创","name":"☀原创┃不卡","type":3,"api":"csp_YCyzGuard","timeout":10,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"🍎苹果┃不卡","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"糯米","name":"🍓糯米┃秒播","type":3,"api":"csp_NmyswvGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"白白","name":"🐟白白┃秒播","type":3,"api":"csp_SbaibaiGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
