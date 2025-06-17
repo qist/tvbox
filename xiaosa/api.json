@@ -176,6 +176,20 @@
             }
         },
         {
+            "key": "剧咖",
+            "name": "剧咖｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://get.xiaoqi0.cn",
+                "dataKey": "jukayingshi66666",
+                "dataIv": "jukayingshi66666",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "麻花",
             "name": "麻花｜APP",
             "type": 3,
@@ -470,6 +484,34 @@
             }
         },
         {
+            "key": "晚枫",
+            "name": "晚枫｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://111.180.202.216:999",
+                "dataKey": "fjhndgbjidfhgjsd",
+                "dataIv": "fjhndgbjidfhgjsd",
+                "deviceId": "2a7baa6ca6f46308cbf1d939bab0586f3",
+                "version": "120"
+            }
+        },
+        {
+            "key": "诺映",
+            "name": "诺映｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.noad.top",
+                "dataKey": "708FA298F0855840",
+                "dataIv": "708FA298F0855840",
+                "deviceId": "2129ec9e6e5703cb0aeeddd79554e38f8",
+                "version": "103"
+            }
+        },
+        {
             "key": "趣看",
             "name": "趣看｜APP",
             "type": 3,
@@ -509,12 +551,34 @@
             }
         },
         {
+            "key": "攻阁",
+            "name": "攻阁｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppMuou",
+            "ext": {
+                "url": "http://111.180.198.40:1110",
+                "dataKey": "14deb3a41a955648",
+                "dataIv": "14deb3a41a955648",
+                "jxurl": "https://ww.ndjdnd.icu"
+            }
+        },
+        {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
-            "api": "./py/哔哩视频.py",
+            "api": "csp_BiliYS",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
             "ext": {
-                "json": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+                "json": "./json/哔哩视频.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
         {
@@ -786,6 +850,26 @@
             }
         },
         {
+            "key": "校长",
+            "name": "校长｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/校长.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "人人电影网",
+            "name": "人人｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/人人电影网.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "聚搜",
             "name": "聚搜｜搜索",
             "type": 3,
@@ -810,7 +894,7 @@
             "name": "人人｜搜索",
             "type": 3,
             "api": "./js/cloud.min.js",
-            "ext": "./js/人人.js",
+            "ext": "./js/人人分享站.js",
             "style": {
                 "type": "list"
             }
@@ -1146,13 +1230,6 @@
             "ext": "./XBPQ/骚火影视.json"
         },
         {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./XBPQ/农民影视.json"
-        },
-        {
             "key": "七点影视",
             "name": "七点｜影视",
             "type": 3,
@@ -1212,6 +1289,16 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/碟调影视.js"
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/农民影视.json"
         },
         {
             "key": "盒子影视",
@@ -1878,7 +1965,7 @@
             }
         },
         {
-            "name": "QD4K",
+            "name": "巧计",
             "type": 1,
             "url": "https://zy.qiaoji8.com/xiafan.php?url=",
             "ext": {
