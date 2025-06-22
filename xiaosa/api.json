@@ -123,6 +123,20 @@
             }
         },
         {
+            "key": "榴莲",
+            "name": "榴莲｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.ll4k.xyz",
+                "dataKey": "1yGA85sJ5STtE7uj",
+                "dataIv": "1yGA85sJ5STtE7uj",
+                "deviceId": "",
+                "version": "50000"
+            }
+        },
+        {
             "key": "剧咖",
             "name": "剧咖｜APP",
             "type": 3,
@@ -738,6 +752,16 @@
             }
         },
         {
+            "key": "天堂",
+            "name": "天堂｜4K弹幕",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/天堂.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "人人电影网",
             "name": "人人｜4K弹幕",
             "type": 3,
@@ -748,31 +772,11 @@
             }
         },
         {
-            "key": "爱UC",
-            "name": "爱UC｜4K弹幕",
+            "key": "爱搜",
+            "name": "爱搜｜4K弹幕",
             "type": 3,
             "api": "./js/cloud.min.js",
-            "ext": "./js/爱UC.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱Quark",
-            "name": "爱Quark｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/爱Quark.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "爱Baidu",
-            "name": "爱Baidu｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/爱Baidu.js",
+            "ext": "./js/爱搜.js",
             "style": {
                 "type": "list"
             }
@@ -920,7 +924,7 @@
             "filterable": 1,
             "playerType": 2,
             "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+                "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
             }
         },
         {

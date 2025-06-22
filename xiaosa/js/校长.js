@@ -1,6 +1,6 @@
 var rule = {
     title: '校长影视[云盘]',
-    host: 'https://xzys.fun',
+    host: 'https://xzyshd.com',
     homeUrl: '/',
     url: '/fyclass.html?page=fypage',
     filter_url: '{{fl.class}}',
