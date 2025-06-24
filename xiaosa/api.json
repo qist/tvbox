@@ -137,6 +137,20 @@
             }
         },
         {
+            "key": "魔方",
+            "name": "魔方｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://mfsp33.top",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "剧咖",
             "name": "剧咖｜APP",
             "type": 3,

@@ -1,5 +1,13 @@
 [
     {
+        "name": "魔都资源",
+        "url": "https://caiji.moduapi.cc",
+        "parse_url": "",
+        "cate_exclude": "电影|连续剧|综艺|伦理片",
+        "class_name": "H4sIAAAAAAAAAzWPWQ6CQBBEb8M5FaMyxIh8iAskfriMIiJqXECH09A9cAtnmuGrX3VXV1IQiqrg4B7xd7ZwsW82p04kXJbTTnyu4GVGNOOJnMdGqFGJSLKxBUEEjGuSzg0HQyLuQ/7VhP0Z9gLyMW6u6CyrghENXLTXdE1fUFyIvF29JR9MR+DdyWcnMvAp2b1KERP1y2ZdaqrTDMScdps2om3HuNUcVrqDJtUwFJpMQ0WqG+Yl7RZ7jBKi5xt2AdEjMx8qVo0/1LC8rzQBAAA=",
+        "class_url": "1&2&3&4&5&6&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38"
+    },
+    {
         "name": "360资源",
         "url": "https://360zy.com",
         "parse_url": "",
