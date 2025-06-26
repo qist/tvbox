@@ -137,6 +137,20 @@
             }
         },
         {
+            "key": "桃子",
+            "name": "桃子｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://appcms.tzys.xyz",
+                "dataKey": "KL6vlZkw6WL5x90U",
+                "dataIv": "KL6vlZkw6WL5x90U",
+                "deviceId": "4b4c36766c5a6b7736574c3578393055",
+                "version": "119"
+            }
+        },
+        {
             "key": "魔方",
             "name": "魔方｜APP",
             "type": 3,
@@ -151,20 +165,6 @@
             }
         },
         {
-            "key": "剧咖",
-            "name": "剧咖｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://get.xiaoqi0.cn",
-                "dataKey": "jukayingshi66666",
-                "dataIv": "jukayingshi66666",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "海豚",
             "name": "海豚｜APP",
             "type": 3,
@@ -174,20 +174,6 @@
                 "url": "https://appcms.htsp4k.top",
                 "dataKey": "7CYQQzwchRQpHCOj",
                 "dataIv": "7CYQQzwchRQpHCOj",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "晓晓",
-            "name": "晓晓｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://ys.ewo.asia",
-                "dataKey": "Z0qTnwyLAJCtuIkI",
-                "dataIv": "Z0qTnwyLAJCtuIkI",
                 "deviceId": "",
                 "version": ""
             }
@@ -441,32 +427,6 @@
                 "dataKey": "6a482a70b80eefc9",
                 "dataIv": "c995826a3e86fedd",
                 "jxurl": "https://www.ququkan.cc"
-            }
-        },
-        {
-            "key": "柚子",
-            "name": "柚子｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://172.247.192.138:17263",
-                "dataKey": "3f94fca574a811a8",
-                "dataIv": "3f94fca574a811a8",
-                "jxurl": "http://172.247.192.140:12264"
-            }
-        },
-        {
-            "key": "火猫",
-            "name": "火猫｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://154.12.90.59:14580",
-                "dataKey": "6b7cf13bf47ba2e6",
-                "dataIv": "6b7cf13bf47ba2e6",
-                "jxurl": "http://app.789dd.cn"
             }
         },
         {
@@ -891,24 +851,6 @@
             "ext": "./XYQHiker/短剧屋.json"
         },
         {
-            "key": "满分",
-            "name": "满分｜影视",
-            "type": 3,
-            "api": "csp_AppYs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://111.173.115.215:9118/icciu_api.php/v1.vod"
-        },
-        {
-            "key": "顾我",
-            "name": "顾我｜影视",
-            "type": 3,
-            "playerType": 2,
-            "api": "csp_AppYsV2",
-            "ext": "http://121.62.21.14:520/api.php/app/"
-        },
-        {
             "key": "起点",
             "name": "起点｜影视",
             "type": 3,
@@ -917,16 +859,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://172.83.156.150:1010/api.php/app/"
-        },
-        {
-            "key": "好感",
-            "name": "好感｜影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
             "key": "金牌影视",
@@ -946,17 +878,6 @@
             "name": "猎手｜影视",
             "type": 3,
             "api": "./py/猎手影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-        {
-            "key": "美帕影视",
-            "name": "美帕｜影视",
-            "type": 3,
-            "api": "./py/美帕影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -1025,13 +946,6 @@
             "api": "csp_KmeiJu"
         },
         {
-            "key": "绝对影视",
-            "name": "绝对｜影视",
-            "type": 3,
-            "api": "csp_FourK",
-            "ext": "https://www.4kvm.tv"
-        },
-        {
             "key": "白白影视",
             "name": "白白｜影视",
             "type": 3,
@@ -1091,13 +1005,6 @@
             "filterable": 1
         },
         {
-            "key": "可可影视",
-            "name": "可可｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./XBPQ/可可影视.json"
-        },
-        {
             "key": "海纳影视",
             "name": "海纳｜影视",
             "type": 3,
@@ -1154,37 +1061,6 @@
             "ext": "./XBPQ/三四影视.json"
         },
         {
-            "key": "耐看影视",
-            "name": "耐看｜影视",
-            "type": 3,
-            "api": "csp_WebNK",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "w7TClcONw6LDrsKYwoXCosKcwpvCrcKcw6HDrsKnwqDCo2rCqMKiw7HDsMOxYcKewpvClMOvw5fCqMOmw59VXFLCpMOiw6PCnMKzwpzCjuWGtemEmOaPleWRnMKf5Yem5L6Q5ZGxbeW+oeintui1tOa8ieetjMOXwpvDtw=="
-        },
-        {
-            "key": "思古影视",
-            "name": "思古｜影视",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/思古影视.js"
-        },
-        {
-            "key": "魔力高清",
-            "name": "魔力｜影视",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/魔力高清.js"
-        },
-        {
-            "key": "碟调影视",
-            "name": "碟调｜影视",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/碟调影视.js"
-        },
-        {
             "key": "农民影视",
             "name": "农民｜影视",
             "type": 3,
@@ -1206,7 +1082,7 @@
         },
         {
             "key": "电影牛",
-            "name": "电影牛｜影视",
+            "name": "影牛｜影视",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -1216,17 +1092,10 @@
         },
         {
             "key": "剧圈圈",
-            "name": "剧圈圈｜影视",
+            "name": "剧圈｜影视",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/剧圈圈.js"
-        },
-        {
-            "key": "看了么",
-            "name": "看了么｜影视",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/看了么.js"
         },
         {
             "key": "1905",
