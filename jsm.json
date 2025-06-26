@@ -30,6 +30,16 @@
 // {"key":"py_HeiMuEr",  "name": "影視| 黑木耳(T4)?25-04-14",  "type": 4,  "api": "https://spider.doube.eu.org/spider?site=HeiMuEr",  "searchable": 1,  "quickSearch": 0,  "filterable": 0,  "changeable": 0},
 // {"key":"T4-独播库","name":"影視| 独播库(T4)?25-04-14","type":4,"api":"https://tang.hz.cz/power/duboku?token=48da13fc","jar":"./jar/custom_spider.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 // {"key":"T4-独播库2","name":"影視| 独播库2","type":4,"api":"csp_WexdubokuGuard","jar":"./jar/wex.jar","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
+     {
+         "key":"独播库",
+         "name":"独播库",
+         "type":3,
+         "api":"csp_WexdubokuGuard",
+         "jar":"https://raw.githubusercontent.com/cyalias/mytvs-github/387dcc33d090319ec8ef3b70f475a8a0fe0ae070/tvboxqq/%E7%8E%8B%E4%BA%8C%E5%B0%8F/spider.jar",
+         "searchable":1,
+         "filterable":0,
+         "changeable":1
+      },
 {"key":"py_jieyingshi",  "name": "10. 影視| 界影视",  "type": 3,  "api": "https://json.doube.eu.org/python/py_jieyingshi.py",  "searchable": 1,  "quickSearch": 0,  "filterable": 0,  "changeable": 0  },
 {"key":"csp_界界影视","name":"異界","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/異界影視.json"},
 {"key":"csp_奇優影院(新)","name":"影視| 奇優影院","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/xyqxbpq.jar","ext":{"分类url":"https://www.qyvod.com/qyshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html","分类":"电影$1#电视剧$2#综艺$3#动漫$4#纪录片$21"}},
@@ -37,6 +47,34 @@
 
 {"key":"py_jinpai",  "name": "影視| 金牌",  "type": 3,  "api": "./py/py_jinpai.py",  "searchable": 1,  "quickSearch": 1,  "filterable": 0,  "changeable": 0},
 {"key":"金牌資源","name":"影視| 金牌2","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":"./json/金牌影院.json"},
+  {
+         "key":"嗷呜剧爸爸",
+         "name":"嗷呜剧爸爸",
+         "type":3,
+         "api":"https://github.com/4TVBox/TVBox/raw/refs/heads/main/py_jubaba.py",
+         "searchable":1,
+         "filterable":0,
+         "changeable":1,  "jar": "https://github.com/4TVBox/TVBox/raw/refs/heads/main/custom_spider.jar"
+      },
+        {
+         "key":"沐辰爱瓜TV",
+         "name":"沐辰爱瓜TV",
+         "type":3,
+         "api":"https://github.com/4TVBox/TVBox/raw/refs/heads/main/py_aigua.py",
+         "searchable":1,
+         "filterable":0,
+         "changeable":1,  "jar": "https://github.com/4TVBox/TVBox/raw/refs/heads/main/custom_spider.jar"
+      },
+      {
+         "key":"嗷呜小苹果",
+         "name":"嗷呜小苹果",
+         "type":3,
+         "api":"https://github.com/4TVBox/TVBox/raw/refs/heads/main/py_pingguo.py",
+         "searchable":1,
+         "filterable":0,
+         "changeable":1,  "jar": "https://github.com/4TVBox/TVBox/raw/refs/heads/main/custom_spider.jar"
+      },
+{ "key":"黑木影视", "name":"黑木影视", "type":1, "api":"https://heimuer.ggff.net/api.php/tvbox", "playUrl":"json:https://heimuer.ggff.net/noads.php?url=", "searchable":1, "quickSearch":1, "filterable":0,  "jar": "https://github.com/4TVBox/TVBox/raw/refs/heads/main/custom_spider.jar", "header":{ "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" } },
 {"key":"api_黑木耳","name":"影視| 黑木耳[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/api黑木耳.json","jar": "./jar/Yoursmile.jar"},
 {"key":"黑木耳(切)","name":"黑木耳","type":1,"api":"https://www.heimuer.tv/api.php/provide/vod","jar":"./jar/panda.jar","searchable":1,"changeable":1},
 // {"key":"csp_XBiuNBYY","name":"影視| 泥視頻","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"简介":"video-info-item video-info-content vod_content\">&&</span>","分类url":"https://www.nbyy.cc/filter.html?channel={cateId}&year={year}","分类":"電視劇$tv#電影$movie#動漫$anime#綜藝$show"}},
@@ -54,7 +92,71 @@
 // {"key":"Auete4","name":"影視| 奥特4","type":3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"},
 // {"key":"csp_七新","name":"影視| 七新","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/HCCX.jar","ext":"./json/七新影视.json"},
 
-
+ {
+         "key":"Qile优视频",
+         "name":"Qile优视频",
+         "type":3,
+         "searchable":1,
+         "changeable":1,
+         "api":"csp_Uvod",
+         "playerType":2,
+         "filterable":1,  "jar": "https://github.com/4TVBox/TVBox/raw/refs/heads/main/custom_spider.jar"
+      },
+      {
+         "key":"荐片",
+         "name":"荐片",
+         "type":3,
+         "searchable":1,
+         "changeable":1,
+         "api":"csp_Jianpian",
+         "playerType":2,
+         "filterable":1,  "jar": "https://github.com/4TVBox/TVBox/raw/refs/heads/main/custom_spider.jar"
+      },
+            {
+         "key":"Cori爱壹帆",
+         "name":"Cori爱壹帆",
+         "type":3,
+         "searchable":1,
+         "changeable":1,
+         "quickSearch":0,
+         "style":{
+            "type":"rect",
+            "ratio":0.75
+         },
+         "api":"csp_GM",
+         "ext":{
+            "userScript":"https://github.com/CatVodSpider-GM/SFW-Spiders/raw/refs/heads/main/userScripts/ysfp.user.js",
+            "debug":false,
+            "webViewSettings":{
+               "blockNetworkImage":true,
+               "blockList":[
+                  "*.png*",
+                  "*.mp3*",
+                  "*.css*",
+                  "https://*.googletagmanager.com/*",
+                  "https://*.google-analytics.com/*"
+               ]
+            },
+            "spider":{
+               "homeContent":{
+                  "loadUrl":"https://m.yfsp.tv/"
+               },
+               "categoryContent":{
+                  "loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"
+               },
+               "detailContent":{
+                  "loadUrl":"https://m.yfsp.tv/play/${id}"
+               },
+               "playerContent":{
+                  "loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"
+               },
+               "searchContent":{
+                  "loadUrl":"https://m.yfsp.tv/search"
+               }
+            }
+         },
+         "jar":"https://github.com/CatVodSpider-GM/SFW-Spiders/raw/refs/heads/main/Spiders-Lib/GM.jar"
+      },
 //quit:
 {"key":"drpy_js_豆瓣","name":"影視| 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":0,"filterable":0,"ext":"./js/豆瓣[官].js"},
 {"key":"闪雷","name":"影視| 闪雷","type":3,"api":"./FTY/drpy2.min.js","ext":"./js/678.js"},
@@ -219,7 +321,7 @@
 // {"key":"drpy_js_58动漫","name":"📔動漫| 58动漫","type":3,"api":"./lib/drpy2.min.js","ext":"./js/58动漫.js"},
 {"key":"drpy_js_AnFuns","name":"📔動漫| AnFuns","type":3,"api":"./lib/drpy2.min.js","ext":"./js/AnFuns.js"},
 // {"key":"csp_AnFuns动漫","name":"📔動漫| AnFuns2","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","ext":{"请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","主页":"https://www.anfuns.org/","数组":"默认--hl-lazy\"&&</a>| | 搜索--hl-lazy\"&&</a>","链接":"默认--href=\"&&\"| | 搜索--href=\"&&\"","图片":"默认--data-original=\"&&\"| | 搜索--data-original=\"&&\"","标题":"默认--title=\"&&\"| | 搜索--title=\"&&\"","副标题":"默认--state\">&&</div>| | 搜索--remarks\">&&</span>","播放数组":"hl-plays-list hl-sort-list&&</ul>","播放列表":"<li&&</li>","播放链接":"href=\"&&\"","播放标题":">&&</a>","线路数组":"hl-tabs-btn&&a>","线路标题":"alt=\"&&\"","搜索url":"https://www.anfuns.org/search/page/{pg}/wd/{wd}.html","分类":"新旧番剧$1#蓝光无修$2#动漫剧场$3#欧美动漫$4","分类url":"https://www.anfuns.org/type/{cateId}-{catePg}.html"}},
-{"key":"csp_XBiuAG動漫","name":"110. 📔動漫| AG動漫(XB)","jar": "./jar/fan20250401.txt","type":3,"api":"csp_XBPQ","jar":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://agdm.tv/show/{cateId}/by/time/page/{catePg}/year/{year}.html","分类":"全區$1#劇場版$9#日本動漫$6#國產動漫$7#歐美動漫$8#海外動漫$21"}},
+{"key":"csp_XBiuAG動漫","name":"110. 📔動漫| AG動漫(XB)","jar": "./jar/fan20250401.txt","type":3,"api":"csp_XBPQ","jar2":"./jar/xyqxbpq.jar","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://agdm.tv/show/{cateId}/by/time/page/{catePg}/year/{year}.html","分类":"全區$1#劇場版$9#日本動漫$6#國產動漫$7#歐美動漫$8#海外動漫$21"}},
 // {"key":"drpy_js_NyaFun","name":"📔動漫| NyaFun","type":3,"api":"./lib/drpy2.min.js","ext":"./js/NyaFun.js"},
 // {"key":"drpy_js_去看吧","name":"📔動漫| 去看吧","type":3,"api":"./lib/drpy2.min.js","ext":"./js/去看吧.js"},
 // {"key":"drpy_js_AGE动漫","name":"📔動漫| AGE動漫[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/AGE动漫.js"},
