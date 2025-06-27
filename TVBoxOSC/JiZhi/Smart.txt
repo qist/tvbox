@@ -1,6 +1,17 @@
 👇Rob SmartTV-鏈接每次自動產生👇
 
 台灣 Taiwan,#genre#
+緯來綜合,http://?id=videolandzong
+韓國娛樂,http://?id=xingweiyule_twn
+東風衛視,http://?id=aziotv_twn
+年代MUCH,http://?id=niandaitv_twn
+緯來戲劇,http://?id=videolandtv
+高點綜合,http://?id=toptv_twn
+JET綜合,http://?id=jet
+壹新聞,http://?id=yinews
+amc電影,http://?id=starmoviesgold_twn
+緯來育樂,http://?id=videolandmax
+
 AXN, http://?id=axn_twn
 CINEMAX, http://?id=cinemax_twn
 EYE戲劇, http://?id=eyetvxiju_twn
