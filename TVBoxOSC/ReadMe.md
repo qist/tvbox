@@ -4,12 +4,14 @@
    1. From https://customer.l53.net 
    2. DNS by CloudFlare
    3. .net web hosted: https://freeasphosting.net 
-3. https://www1.RobYang.dpdns.org/VodLive/sb8ffa or http://2487.dpdns.org
-   1. From https://domain.digitalplat.org/
-   2. DNS by cloudflake
-   3. .net web hosted: https://freeasphosting.net 
+3. https://www1.RobYang.dpdns.org/VodLive/sb8ffa or http://2487.dpdns.org or http://RobYang.qzz.io 
+   1. 3 From https://domain.digitalplat.org/
+   2. DNS hosters:
+      1. DNS by cloudflake, 
+      2. DNS http://robyang.qzz.io DNS is hosted in jttp://Dynu.com
+   3. dotnet web hosted: https://freeasphosting.net 
 4. net https://RobYang.runasp.net
-   1. .net web hosted: monsterasp.net
+   1. dotnet web hosted: monsterasp.net
 5. http://RobYang.zone.id 
    1. from http://zone.id
    2. DNS by http://zone.id
@@ -64,19 +66,20 @@
 
 
 #Domain Name:
-1. new subdomain name: https://dash.domain.digitalplat.org/panel/main (Robyang.dpdns.org, 2487.dpdns.org) (Robyang.us.kg, 2487.us.kg)
+1. 3 new subdomain name: https://dash.domain.digitalplat.org/panel/main (Robyang.dpdns.org, 2487.dpdns.org, xx.kg, qzz.io) (Robyang.us.kg, 2487.us.kg)
 3. new subdomain name: https://customer.l53.net  (free first year for ggff.net, RobYang.ggff.net, CloudFlare can DNS)
-4. new subdomain name: https://nic.eu.org/
-5. new subdomain name: https://www.sitelutions.com/signup (RobYang.rr.nu)
-6. URL redirect: https://redirect.name
+4. 10 free subdomain and max 10 DNS records https://zone.id 
+5. new subdomain name: https://nic.eu.org/
+6. new subdomain name: https://www.sitelutions.com/signup (RobYang.rr.nu)
+7. URL redirect: https://redirect.name
    1. www1            IN  CNAME  alias.redirect.name
-   2. _redirect.www1  IN  TXT    "Redirects to http://www1.robyang.us.kg/VodLive/sb8ffa" 
-7. Url redirect: https://freedirector.io/dashboard  (free 5 redirect)
-8. DNS manage: https://www.cloudflare.com (cannot do rr.nu)
-9. DNS manage & DDNS: https://freedns.afraid.org (free URL forwarding)
-10. DNS manage & DDNS: https://www.cloudns.net (free URL forwarding, free 1 DNS hosting)
-11. DNS manage & DDNS: https://www.changeip.com ($9/year for DNS manage)
-12. DNS manage & DDNS: https://dnsexit.com/ (free DNS manage, but only 7 days url forwarding)
+   2. _redirect.www1  IN  TXT    "Redirects to http://www1.robyang.ggff.net/VodLive/sb8ffa" 
+8. Url redirect: https://freedirector.io/dashboard  (free 5 redirect)
+9. DNS manage: https://www.cloudflare.com (cannot do rr.nu)
+10. DNS manage & DDNS: https://freedns.afraid.org (free URL forwarding)
+11. DNS manage & DDNS: https://www.cloudns.net (free URL forwarding, free 1 DNS hosting)
+12. DNS manage & DDNS: https://www.changeip.com ($9/year for DNS manage)
+13. DNS manage & DDNS: https://dnsexit.com/ (free DNS manage, but only 7 days url forwarding)
    1. Https SSL expires every 90 days
       1. https://dnsexit.com/dns/ssl-api/#renew-domain-ssl
       ```
@@ -98,8 +101,8 @@
       1. "DNS" go to domain, "edit dns"
       2. go to the dashboard "URL Forwarding" eg, https://dnsexit.com/UrlForward.sv?action=new&domainname=robyang.line.pm
       3. setup formwaring there.
-13. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
-14. DNS manage: DNSPod
+14. DNS manage and DDNS: https://dns.he.net/ (won't take gmail and hotmail)
+15. DNS manage: DNSPod
 
 # .net host:
 1. https://freeasphosting.net can use own domain. (Left side "Add Domain").

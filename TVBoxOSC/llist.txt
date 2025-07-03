@@ -2,10 +2,10 @@
 鏡新聞,https://www.youtube.com/live/5n0y6b0Q25o?si=UhF9OL7jduRXteiF
 三立新聞,https://www.youtube.com/live/MV9mI0GChwo?si=znH9MBSQtvCvrqvt
 三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
-三立NEWS+,https://www.youtube.com/live/pF507BLtbqU?si=Ajqr6bitgqQQqaun
-三立NEWS+,https://www.youtube.com/watch?v=pF507BLtbqU
-三立海外,https://www.youtube.com/live/hGJkDZDchYI?si=ZevMfRDmU86tccJz
-三立海外,https://www.youtube.com/watch?v=hGJkDZDchYI
+三立iNEWS+,https://www.youtube.com/live/pF507BLtbqU?si=Ajqr6bitgqQQqaun
+三立iNEWS+,https://www.youtube.com/watch?v=pF507BLtbqU
+三立新聞海外,https://www.youtube.com/live/hGJkDZDchYI?si=ZevMfRDmU86tccJz
+三立新聞海外,https://www.youtube.com/watch?v=hGJkDZDchYI
 公視新聞,https://www.youtube.com/live/quwqlazU-c8?si=-eMTJ5zFhfWAphbs
 公視新聞,https://www.youtube.com/watch?v=quwqlazU-c8
 公視新聞網,https://www.youtube.com/watch?v=quwqlazU-c8

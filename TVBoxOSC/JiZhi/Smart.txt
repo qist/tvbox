@@ -1,6 +1,13 @@
 👇Rob SmartTV-鏈接每次自動產生👇
 
 台灣 Taiwan,#genre#
+三立新聞,https://www.youtube.com/live/MV9mI0GChwo?si=znH9MBSQtvCvrqvt
+三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
+三立iNEWS+,https://www.youtube.com/live/pF507BLtbqU?si=Ajqr6bitgqQQqaun
+三立iNEWS+,https://www.youtube.com/watch?v=pF507BLtbqU
+三立新聞海外,https://www.youtube.com/live/hGJkDZDchYI?si=ZevMfRDmU86tccJz
+三立新聞海外,https://www.youtube.com/watch?v=hGJkDZDchYI
+
 緯來綜合,http://?id=videolandzong
 韓國娛樂,http://?id=xingweiyule_twn
 東風衛視,http://?id=aziotv_twn
@@ -29,7 +36,6 @@ TVBS歡樂台, http://?id=tvbshuanle_twn
 三立戲劇台, http://?id=sanlixiju_twn
 三立綜合台, http://?id=sanlizhonghe
 三立都会台, http://?id=sanlidouhui
-三立新聞,https://www.youtube.com/watch?v=MV9mI0GChwo
 中天亞洲台, http://?id=ctiasia_twn
 中天娱樂, http://?id=ctient
 中天新聞HD, http://?id=ctinews
