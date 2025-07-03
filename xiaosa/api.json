@@ -14,7 +14,7 @@
             "key": "预告",
             "name": "新片｜预告",
             "type": 3,
-            "api": "csp_DouBan",
+            "api": "csp_YGP",
             "searchable": 0
         },
         {
@@ -188,6 +188,34 @@
             }
         },
         {
+            "key": "仓鼠",
+            "name": "仓鼠｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "https://qjappcms.cs4k.top",
+                "dataKey": "Z98KXaLtO2wC1Pte",
+                "dataIv": "Z98KXaLtO2wC1Pte",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "光盘",
+            "name": "光盘｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://119.13.88.18",
+                "dataKey": "xnybssspqtwotuwj",
+                "dataIv": "xnybssspqtwotuwj",
+                "deviceId": "",
+                "version": "101"
+            }
+        },
+        {
             "key": "客星",
             "name": "客星｜APP",
             "type": 3,
@@ -202,8 +230,8 @@
             }
         },
         {
-            "key": "仓鼠",
-            "name": "仓鼠｜APP",
+            "key": "优质",
+            "name": "优质｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -1003,6 +1031,13 @@
             "ext": "https://www.czzymovie.com/"
         },
         {
+            "key": "绝对影视",
+            "name": "绝对｜影视",
+            "type": 3,
+            "api": "csp_FourK",
+            "ext": "https://www.4kvm.tv"
+        },
+        {
             "key": "云播影视",
             "name": "云播｜影视",
             "type": 3,
@@ -1318,6 +1353,34 @@
             }
         },
         {
+            "key": "次元动漫",
+            "name": "次元｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://jjjj.nilinili.org",
+                "dataKey": "672263e98f232a05",
+                "dataIv": "672263e98f232a05",
+                "deviceId": "",
+                "version": "170"
+            }
+        },
+        {
+            "key": "黑猫动漫",
+            "name": "黑猫｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://dm.xxdm123.top:9991",
+                "dataKey": "0fe3b5781782c621",
+                "dataIv": "0fe3b5781782c621",
+                "deviceId": "",
+                "version": "203"
+            }
+        },
+        {
             "key": "樱花动漫",
             "name": "樱花｜动漫",
             "type": 3,
@@ -1358,6 +1421,13 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/花子动漫.js"
+        },
+        {
+            "key": "樱花动漫",
+            "name": "樱花｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/樱花动漫.js"
         },
         {
             "key": "动画片",
@@ -1406,8 +1476,7 @@
             "name": "荐片｜磁力",
             "api": "csp_Jianpian",
             "type": 3,
-            "playerType": 1,
-            "ext": "http://api2.rinhome.com"
+            "playerType": 1
         },
         {
             "key": "修罗影视",
