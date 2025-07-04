@@ -1,6 +1,7 @@
 {
     "SiteUrl": "https://wogg.banye.tech:7086",
     "Domains": [
+        "http://woggpan.wogg.lol",
         "https://wogg.xxooo.cf",
         "https://wogg.333232.xyz",
         "https://woggpan.333232.xyz",
@@ -570,8 +571,8 @@
                 "name": "时间",
                 "value": [
                     {
-                       "v": "2025",
-                       "n": "2025"
+                        "v": "2025",
+                        "n": "2025"
                     },
                     {
                         "v": "2024",
