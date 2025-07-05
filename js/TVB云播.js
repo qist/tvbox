@@ -1,7 +1,7 @@
 var rule = {
 	title: 'TVB云播',
 	//模板:'mxpro',
-	host: 'http://www.tvyb03.com',
+	host: 'http://www.tvyun10.com',
 	url: 'vod/show/id/fyfilter.html',
 	filterable: 1,//是否启用分类筛选,
 	filter_url: '{{fl.cateId}}{{fl.area}}{{fl.by}}{{fl.class}}{{fl.lang}}{{fl.letter}}/page/fypage{{fl.year}}',
@@ -25,6 +25,9 @@ var rule = {
 	},
 	searchUrl: '/vod/search.html?wd=**&submit=',
 	searchable: 2,//是否启用全局搜索,
+	headers: {//网站的请求头,完整支持所有的,常带ua和cookies 
+		'User-Agent': 'PC_UA',
+	},
 	quickSearch: 0,//是否启用快速搜索,
 	filterable: 0,//是否启用分类筛选,
 	play_parse: true,
