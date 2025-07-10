@@ -73,14 +73,6 @@
             }
         },
         {
-            "key": "移动",
-            "name": "移动｜APP",
-            "type": 3,
-            "api": "csp_YD",
-            "searchable": 1,
-            "quickSearch": 1
-        },
-        {
             "key": "行动",
             "name": "行动｜APP",
             "type": 3,
@@ -116,7 +108,8 @@
                 "dataKey": "qwertyuiopqwertt",
                 "dataIv": "qwertyuiopqwertt",
                 "deviceId": "",
-                "version": "109"
+                "version": "109",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -479,7 +472,7 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://v.tkbot.fun",
+                "url": "https://new.tkbot.fun",
                 "dataKey": "d032c12876bc6848",
                 "dataIv": "d032c12876bc6848",
                 "deviceId": "",
@@ -923,6 +916,17 @@
             }
         },
         {
+            "key": "移动",
+            "name": "移动｜4K",
+            "type": 3,
+            "api": "csp_YD",
+            "searchable": 1,
+            "quickSearch": 1,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "糖果",
             "name": "糖果｜搜索",
             "type": 3,
@@ -1360,7 +1364,8 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://pzoap.moedot.net",
+                "url": "",
+                "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
                 "dataKey": "1yZ2Spn9krnzVKoC",
                 "dataIv": "1yZ2Spn9krnzVKoC",
                 "deviceId": "",
@@ -1478,13 +1483,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/奇米动漫.js"
-        },
-        {
-            "key": "怡萱动漫",
-            "name": "怡萱｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/怡萱动漫.js"
         },
         {
             "key": "花子动漫",
