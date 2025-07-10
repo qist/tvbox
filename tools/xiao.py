@@ -10,28 +10,25 @@ default_jar = "./xiaosa/spider.jar"
 # 如果需要自动下载 jar，可替换为真实链接；否则留空
 default_jar_url = "../xiaosa/spider.jar"
 
+# 保存 JSON 文件（折叠字典数组为单行，空数组和基础数组一行）
 class CompactJSONEncoder(json.JSONEncoder):
     def iterencode(self, o, _one_shot=False):
         def _compact_list(lst, indent_level):
-            indent_str = '  ' * indent_level
-            if all(isinstance(i, dict) for i in lst):
-                parts = [json.dumps(i, ensure_ascii=False, separators=(',', ': ')) for i in lst]
-                return '[\n' + ',\n'.join([indent_str + '  ' + p for p in parts]) + '\n' + indent_str + ']'
-            else:
-                return json.dumps(lst, ensure_ascii=False, indent=2)
-
-        def _encode(o, indent_level=0):
             pad = '  ' * indent_level
-            if isinstance(o, dict):
-                lines = []
-                for k, v in o.items():
-                    val = _encode(v, indent_level + 1)
-                    lines.append(f'"{k}": {val}')
+            if not lst or all(isinstance(i, (str, int, float, bool, type(None))) for i in lst):
+                return json.dumps(lst, ensure_ascii=False)
+            if all(isinstance(i, dict) for i in lst):
+                return '[\n' + ',\n'.join([pad + '  ' + json.dumps(i, ensure_ascii=False, separators=(',', ': ')) for i in lst]) + '\n' + pad + ']'
+            return json.dumps(lst, ensure_ascii=False, indent=2)
+
+        def _encode(obj, indent_level=0):
+            pad = '  ' * indent_level
+            if isinstance(obj, dict):
+                lines = [f'"{k}": {_encode(v, indent_level+1)}' for k, v in obj.items()]
                 return '{\n' + pad + '  ' + (',\n' + pad + '  ').join(lines) + '\n' + pad + '}'
-            elif isinstance(o, list):
-                return _compact_list(o, indent_level)
-            else:
-                return json.dumps(o, ensure_ascii=False)
+            elif isinstance(obj, list):
+                return _compact_list(obj, indent_level)
+            return json.dumps(obj, ensure_ascii=False)
 
         return iter([_encode(o)])
 
