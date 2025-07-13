@@ -975,6 +975,12 @@
             "changeable": 0
         },
         {
+            "key": "米搜",
+            "name": "米搜｜搜索",
+            "type": 3,
+            "api": "csp_MiSou"
+        },
+        {
             "key": "聚搜",
             "name": "聚搜｜搜索",
             "type": 3,
@@ -1034,10 +1040,10 @@
             "filterable": 0
         },
         {
-            "key": "河马短剧",
-            "name": "河马｜短剧",
+            "key": "甜圈短剧",
+            "name": "甜圈｜短剧",
             "type": 3,
-            "api": "./py/河马短剧.py",
+            "api": "./py/甜圈短剧.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
