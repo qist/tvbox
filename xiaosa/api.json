@@ -856,6 +856,21 @@
             "ext": "./json/kf.json"
         },
         {
+            "key": "123",
+            "name": "123｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShareCloud123",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/123.json"
+        },
+        {
             "key": "趣盘",
             "name": "趣盘｜4K弹幕",
             "type": 3,
