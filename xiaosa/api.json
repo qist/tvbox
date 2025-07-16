@@ -73,6 +73,16 @@
             }
         },
         {
+            "key": "闪影",
+            "name": "闪影｜APP",
+            "type": 3,
+            "api": "csp_AppYs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+        },
+        {
             "key": "行动",
             "name": "行动｜APP",
             "type": 3,
@@ -110,6 +120,34 @@
                 "deviceId": "",
                 "version": "109",
                 "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "知了",
+            "name": "知了｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://zzos.cc",
+                "dataKey": "zzoccc2025555555",
+                "dataIv": "zzoccc2025555555",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "APP4K",
+            "name": "蓝光｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://59.153.167.186",
+                "dataKey": "SDSFET23215FDSF2",
+                "dataIv": "SDSFET23215FDSF2",
+                "deviceId": "",
+                "version": "119"
             }
         },
         {
@@ -259,20 +297,6 @@
             }
         },
         {
-            "key": "鲶鱼",
-            "name": "鲶鱼｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://47.122.22.78",
-                "dataKey": "2234567890123456",
-                "dataIv": "2234567890123456",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "码头",
             "name": "码头｜APP",
             "type": 3,
@@ -296,20 +320,6 @@
                 "dataIv": "20c79c979da8db0f",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "光盘",
-            "name": "光盘｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://119.13.88.18",
-                "dataKey": "xnybssspqtwotuwj",
-                "dataIv": "xnybssspqtwotuwj",
-                "deviceId": "",
-                "version": "101"
             }
         },
         {
