@@ -1016,16 +1016,6 @@
             "changeable": 1
         },
         {
-            "key": "米搜",
-            "name": "米搜｜搜索",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/米搜.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "人人分享站",
             "name": "人人｜搜索",
             "type": 3,
