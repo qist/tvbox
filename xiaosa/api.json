@@ -95,18 +95,6 @@
             }
         },
         {
-            "key": "追忆",
-            "name": "追忆｜APP",
-            "type": 3,
-            "api": "csp_AppSy",
-            "ext": {
-                "url": "http://110.42.7.130:1866",
-                "key1": "aassddwwxxllsx1x",
-                "key2": "2083c87e98b6ce08",
-                "key3": "2083c87e98b6ce08"
-            }
-        },
-        {
             "key": "咖啡",
             "name": "咖啡｜APP",
             "type": 3,
@@ -157,8 +145,8 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "",
-                "site": "https://apicoss-alimama-com-1307821617.file.myqcloud.com/Uploadsget",
+                "url": "http://124.223.27.166:130",
+                "site": "",
                 "dataKey": "q7gj4f9br3fls6nh",
                 "dataIv": "q7gj4f9br3fls6nh",
                 "deviceId": "",
@@ -205,6 +193,20 @@
                 "url": "https://qjappcms.jm4k.top",
                 "dataKey": "pBVmysmGX8TsgrQN",
                 "dataIv": "pBVmysmGX8TsgrQN",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "http://121.62.21.14:520",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
                 "deviceId": "",
                 "version": "120"
             }

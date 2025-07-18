@@ -1,5 +1,5 @@
 {
-    "SiteUrl": "https://www.leijing.xyz,https://www.leijing1.com,https://leijing.xyz,https://leijing1.com",
+    "SiteUrl": "https://www.leijing1.com,https://leijing.xyz,https://leijing1.com",
     "Classes": [
         {
             "type_name": "电影",
@@ -30,5 +30,5 @@
             "type_id": "42317879720298"
         }
     ],
-    "Cookie": "cms_token=56a64ae62a2a4886969598e328cee63b; JSESSIONID=AF2C33C0D62CAA2DE48DE44BCE31DB8B; cms_accessToken=ebbd3e56dbcd460eabc86edd3d0d00b7; cms_refreshToken=e1cda4d4d6894ec2a6166f5fd28c8a79"
+    "Cookie": "JSESSIONID=E1DB8AC0F708B4E282B9998F371F9E3B; cms_token=2e714955704148f99268eaa976de09ce; cms_accessToken=6272a9e68faa49c4a73c684df0c44eee; cms_refreshToken=4908d2845de044d7bcde237f66092415"
 }
