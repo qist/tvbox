@@ -92,24 +92,24 @@
             "api": "csp_AppGet2",
             "ext": {
                 "url": "",
-                "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt",
-                "dataKey": "qwertyuiopqwertt",
-                "dataIv": "qwertyuiopqwertt",
+                "site": "https://omofun.lol/coffee.txt",
+                "dataKey": "qwertyuiopqwertm",
+                "dataIv": "qwertyuiopqwertm",
                 "deviceId": "",
-                "version": "109",
+                "version": "",
                 "ua": "okhttp/3.10.0"
             }
         },
         {
-            "key": "知了",
-            "name": "知了｜APP",
+            "key": "稀饭",
+            "name": "稀饭｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://zzos.cc",
-                "dataKey": "zzoccc2025555555",
-                "dataIv": "zzoccc2025555555",
+                "url": "https://app.xifanys.com",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
                 "deviceId": "",
                 "version": "119"
             }
@@ -171,20 +171,6 @@
                 "dataIv": "#getapp@TMD@2025",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "橘猫",
-            "name": "橘猫｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "https://qjappcms.jm4k.top",
-                "dataKey": "pBVmysmGX8TsgrQN",
-                "dataIv": "pBVmysmGX8TsgrQN",
-                "deviceId": "",
-                "version": "120"
             }
         },
         {
@@ -344,15 +330,15 @@
             }
         },
         {
-            "key": "魔方",
-            "name": "魔方｜APP",
+            "key": "瓜萌",
+            "name": "瓜萌｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://mfsp33.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
+                "url": "https://www.guahd.com",
+                "dataKey": "f2A7D4B9E8C16531",
+                "dataIv": "f2A7D4B9E8C16531",
                 "deviceId": "",
                 "version": ""
             }
@@ -674,7 +660,7 @@
         },
         {
             "key": "小斑快映",
-            "name": "小斑快映｜4K弹幕",
+            "name": "快映｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
             "searchable": 1,
@@ -1067,13 +1053,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
-        },
-        {
-            "key": "短剧网",
-            "name": "短剧网｜短剧",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./XBPQ/短剧网.json"
         },
         {
             "key": "短剧屋",
