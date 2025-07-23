@@ -1084,6 +1084,17 @@
             "playerType": 2
         },
         {
+            "key": "零度影视",
+            "name": "零度｜影视",
+            "type": 3,
+            "api": "./py/零度影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
@@ -1507,13 +1518,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/花子动漫.js"
-        },
-        {
-            "key": "樱花动漫",
-            "name": "樱花｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/樱花动漫.js"
         },
         {
             "key": "动画片",
