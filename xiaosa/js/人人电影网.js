@@ -31,90 +31,83 @@ var rule = {
     二级: {
         title: "h1&&Text",
         img: "img&&src",
-        desc: "",
-        content: "span&&Text",
-        tabs: `js: pdfh = jsp.pdfh;
-        pdfa = jsp.pdfa;
-        pd = jsp.pd;
-        TABS = []
-        let d = pdfa(html, 'span a');
-        let tabsa = [];
-        let tabsq = [];
-        let tabsm = false;
-        let tabse = false;
-        d.forEach(function(it) {
-            let burl = pdfh(it, 'a&&href');
-	    if (burl.startsWith("https://pan.quark.cn/s/")) {
-                tabsq.push("夸克网盘");
-            } else if (burl.startsWith("magnet")) {
-                tabsm = true;
-            } else if (burl.startsWith("ed2k")) {
-                tabse = true;
-            }
-        });
-        if (tabsm === true) {
-            TABS.push("磁力");
-        }
-        if (tabse === true) {
-            TABS.push("电驴");
-        }
-        let tmpIndex;
-        tmpIndex = 1;
-        tabsa.forEach(function(it) {
-            TABS.push(it + tmpIndex);
-            tmpIndex = tmpIndex + 1;
-        });
-        tmpIndex = 1;
-        tabsq.forEach(function(it) {
-            TABS.push(it + tmpIndex);
-            tmpIndex = tmpIndex + 1;
-        });
-        log('alyps TABS >>>>>>>>>>>>>>>>>>' + TABS);`,
-        lists: `js: log(TABS);
-        pdfh = jsp.pdfh;
-        pdfa = jsp.pdfa;
-        pd = jsp.pd;
-        LISTS = [];
-        let d = pdfa(html, 'span a');
-        let lista = [];
-        let listq = [];
-        let listm = [];
-        let liste = [];
-        d.forEach(function(it) {
-            let burl = pdfh(it, 'a&&href');
-            let title = pdfh(it, 'a&&Text');
-            log('alyps title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-            log('alyps burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-            let loopresult = title + '$' + burl;
-	    if (burl.startsWith("https://pan.quark.cn/s/")) {
-                if (TABS.length == 1) {
-                    burl = burl.replace("?entry=sjss", ""),
-                    burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&confirm=0&url=" + encodeURIComponent(burl);
-                } else {
-                    burl = burl.replace("?entry=sjss", ""),
-                    burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&url=" + encodeURIComponent(burl);
+        desc: ".info:eq(0)&&Text",
+        content: ".content&&Text",
+        tabs: `js:
+            pdfh = jsp.pdfh;
+            pdfa = jsp.pdfa;
+            pd = jsp.pd;
+            TABS = [];
+            let d = pdfa(html, 'span a');
+            let tabsq = [];
+            let tabsb = [];
+            let tabsm = false;
+            let tabse = false;
+            
+            d.forEach(function(it) {
+                let burl = pdfh(it, 'a&&href');
+                if (burl.includes("pan.quark.cn/s/")) {
+                    tabsq.push("夸克网盘");
+                } else if (burl.includes("pan.baidu.com/s/")) {
+                    tabsb.push("百度网盘");
+                } else if (burl.startsWith("magnet")) {
+                    tabsm = true;
+                } else if (burl.startsWith("ed2k")) {
+                    tabse = true;
                 }
-                loopresult = title + '$' + burl;
-                listq.push(loopresult);
-            } else if (burl.startsWith("magnet")) {
-                listm.push(loopresult);
-            } else if (burl.startsWith("ed2k")) {
-                liste.push(loopresult);
-            }
-        });
-        if (listm.length > 0) {
-            LISTS.push(listm.reverse());
-        }
-        if (liste.length > 0) {
-            LISTS.push(liste.reverse());
-        }
-        lista.forEach(function(it) {
-            LISTS.push([it]);
-        });
-        listq.forEach(function(it) {
-            LISTS.push([it]);
-        });`,
-
+            });
+            
+            
+            if (tabsb.length > 0) TABS.push("百度网盘");
+            if (tabsq.length > 0) TABS.push("夸克网盘");
+            if (tabsm) TABS.push("磁力");
+            if (tabse) TABS.push("电驴");
+            log('生成TABS: ' + JSON.stringify(TABS));`,
+        lists: `js:
+            pdfh = jsp.pdfh;
+            pdfa = jsp.pdfa;
+            pd = jsp.pd;
+            LISTS = [];
+            let d = pdfa(html, 'span a');
+            let listm = [];
+            let liste = [];
+            let listq = [];
+            let listb = [];
+            
+            d.forEach(function(it) {
+                let burl = pdfh(it, 'a&&href');
+                let title = pdfh(it, 'a&&Text');
+                let loopresult = title + '$' + burl;
+                
+                if (burl.includes("pan.quark.cn/s/")) {
+                    burl = burl.split("?")[0]; 
+                    loopresult = title + '$' + burl;
+                    listq.push(loopresult);
+                } else if (burl.includes("pan.baidu.com/s/")) {
+                    let codeMatch = title.match(/提取码[：:]?\s*(\w{4})|(\w{4})(?=提取|百度|网盘)/i);
+                    if (codeMatch) {
+                        let code = codeMatch[1] || codeMatch[2];
+                        burl += '#' + code;
+                    }
+                    loopresult = title + '$' + burl;
+                    listb.push(loopresult);
+                } else if (burl.startsWith("magnet")) {
+                    listm.push(loopresult);
+                } else if (burl.startsWith("ed2k")) {
+                    liste.push(loopresult);
+                }
+            });
+            
+            
+            if (listb.length > 0) LISTS.push(listb);
+            if (listq.length > 0) LISTS.push(listq);
+            if (listm.length > 0) LISTS.push(listm);
+            if (liste.length > 0) LISTS.push(liste);
+            
+            
+            if (LISTS.length === 0 && listq.length > 0) {
+                LISTS = [listq];
+            }`,
     },
     搜索: 'li:has(img);h2&&Text;img&&data-original;.tags&&Text;a&&href',
-}
+};

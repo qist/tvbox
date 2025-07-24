@@ -1,0 +1,20 @@
+{
+    "站名": "",
+    "主页url": "https://www.freeok.ac",
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "数组": "",
+    "图片": "data-original=\"&&\"",
+    "标题": "",
+    "链接": "href=\"&&\"",
+    "副标题": "",
+    "线路数组": "module-tab-item&&</div>",
+    "线路标题": "data-dropdown-value=\"&&\"",
+    "播放数组": "",
+    "播放标题": "",
+    "跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
+    "搜索url": "https://www.freeok.ac/vodsearch/-------------.html?wd={wd}",
+    "简介": "<p>&&</p>",
+    "分类url": "https://www.freeok.ac/type/{cateId}.html",
+    "分类": "电影$1#连续剧$2#动漫$3#综艺$4#短剧$24"
+}
