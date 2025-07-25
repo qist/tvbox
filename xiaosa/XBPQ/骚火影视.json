@@ -1,6 +1,16 @@
 {
-    "简介": "p_txt show_part\">&&</p>",
-    "副标题": "v_note\">&&</div>",
-    "分类url": "https://saohuody.com/list/{cateId}-{catePg}.html",
-    "分类": "国产剧$12#港剧$13#台剧$14#日剧$15#韩剧$16#美剧$17#海外$18#泰剧$19#动作$5#喜剧$6#爱情$7#科幻$8#恐怖$9#剧情$10#战争$11#动画$33"
+    "首页": "0",
+    "请求头": "User-Agent$MOBILE_UA#Accept$text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+    "分类url": "https://shdy2.com/list/{cateId}-{catePg}.html",
+    "分类": "剧集$2#电影$1#港剧$21#台剧$26#日剧$24#韩剧$22#美剧$23",
+    "数组": "class=\"v_img&&/li>",
+    "标题": "alt=\"&&\"",
+    "图片": "original=\"&&\"",
+    "链接": "href=\"&&\"",
+    "简介": "show_part\">&&<a",
+    "演员": "主演:&&<a",
+    "导演": "导演:&&/",
+    "播放二次截取": "class=\"play_list&&/ul>",
+    "播放数组": "<li&&/li>",
+    "倒序": "1"
 }
