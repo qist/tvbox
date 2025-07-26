@@ -128,6 +128,35 @@
             }
         },
         {
+            "key": "小野",
+            "name": "小野｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://appcms.xy4k.com",
+                "site": "",
+                "dataKey": "7SDWjknU34zqFbVr",
+                "dataIv": "7SDWjknU34zqFbVr",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "爱看",
+            "name": "爱看丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://154.37.220.65",
+                "dataKey": "uI1TkPJC8B46AyN3",
+                "dataIv": "uI1TkPJC8B46AyN3",
+                "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
+                "version": "120"
+            }
+        },
+        {
             "key": "稀饭",
             "name": "稀饭｜APP",
             "type": 3,
@@ -904,16 +933,6 @@
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/全盘.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "夸克盘搜",
-            "name": "盘搜｜搜索",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/夸克盘搜.js",
             "style": {
                 "type": "list"
             }
