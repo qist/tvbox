@@ -113,6 +113,21 @@
             }
         },
         {
+            "key": "魔方",
+            "name": "魔方｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://www.snysw.xyz/mfys.txt",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "稀饭",
             "name": "稀饭｜APP",
             "type": 3,
@@ -183,21 +198,6 @@
                 "dataIv": "#getapp@TMD@2025",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "顾我",
-            "name": "顾我｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "",
-                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/app.txt",
-                "dataKey": "ca94b06ca3c7d80e",
-                "dataIv": "ca94b06ca3c7d80e",
-                "deviceId": "",
-                "version": "120"
             }
         },
         {
@@ -273,34 +273,6 @@
             }
         },
         {
-            "key": "热剧",
-            "name": "热剧｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "",
-                "site": "https://app-qy.oss-cn-shanghai.aliyuncs.com/rebo.txt",
-                "dataKey": "8191A7F47B37882F",
-                "dataIv": "8191A7F47B37882F",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "码头",
-            "name": "码头｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.lgmt.cc",
-                "dataKey": "asfjaskasgggassf",
-                "dataIv": "asfjaskasgggassf",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "米诺",
             "name": "米诺｜APP",
             "type": 3,
@@ -326,20 +298,6 @@
                 "dataIv": "4d83b87c4c5ea111",
                 "deviceId": "",
                 "version": "105"
-            }
-        },
-        {
-            "key": "桃子",
-            "name": "桃子｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://appcms.tzys.xyz",
-                "dataKey": "KL6vlZkw6WL5x90U",
-                "dataIv": "KL6vlZkw6WL5x90U",
-                "deviceId": "4b4c36766c5a6b7736574c3578393055",
-                "version": "119"
             }
         },
         {
@@ -406,25 +364,12 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://api1.bffree.cn",
+                "url": "",
+                "site": "http://t.bffree.cn/1.txt",
                 "dataKey": "2015692015692015",
                 "dataIv": "2015692015692015",
                 "deviceId": "",
                 "version": "300"
-            }
-        },
-        {
-            "key": "彼岸",
-            "name": "彼岸｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://mfsp33.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
-                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-                "version": "315"
             }
         },
         {
@@ -484,27 +429,14 @@
             }
         },
         {
-            "key": "在看",
-            "name": "在看｜APP",
+            "key": "白蛇",
+            "name": "白蛇｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://149.88.64.161:9525",
-                "dataKey": "123456789ABCDEFG",
-                "dataIv": "123456789ABCDEFG",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "星河",
-            "name": "星河｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://121.62.22.204:9876",
+                "url": "",
+                "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
                 "dataKey": "f5e2tx53ykp6s2c9",
                 "dataIv": "f5e2tx53ykp6s2c9",
                 "deviceId": "",
@@ -577,19 +509,6 @@
                 "dataKey": "6a482a70b80eefc9",
                 "dataIv": "c995826a3e86fedd",
                 "jxurl": "https://www.ququkan.cc"
-            }
-        },
-        {
-            "key": "火猫",
-            "name": "火猫｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppMuou",
-            "ext": {
-                "url": "http://154.12.22.168:14988",
-                "dataKey": "531f6082a43ac5d7",
-                "dataIv": "531f6082a43ac5d7",
-                "jxurl": "http://app.789dd.cn"
             }
         },
         {
@@ -990,16 +909,6 @@
             }
         },
         {
-            "key": "夸克盘搜",
-            "name": "盘搜｜搜索",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/夸克盘搜.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
@@ -1101,6 +1010,28 @@
             "name": "零度｜影视",
             "type": 3,
             "api": "./py/零度影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "想看影视",
+            "name": "想看｜影视",
+            "type": 3,
+            "api": "./py/想看影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "追星影视",
+            "name": "追星｜影视",
+            "type": 3,
+            "api": "./py/追星影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
