@@ -466,8 +466,8 @@
             "ext": {
                 "url": "",
                 "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
-                "dataKey": "f5e2tx53ykp6s2c9",
-                "dataIv": "f5e2tx53ykp6s2c9",
+                "dataKey": "n3l2tx5jdkp9s2c8",
+                "dataIv": "n3l2tx5jdkp9s2c8",
                 "deviceId": "",
                 "version": "361"
             }
@@ -1009,6 +1009,22 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "http://172.83.156.150:1010/api.php/app/"
+        },
+        {
+            "key": "七七",
+            "name": "七七｜影视",
+            "type": 1,
+            "api": "http://6.qqqtv.top/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "推荐",
+                "电影",
+                "电视剧",
+                "综艺",
+                "动漫"
+            ]
         },
         {
             "key": "金牌影视",
@@ -1602,15 +1618,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.xb6v.com"
-        },
-        {
-            "key": "SeedHub",
-            "name": "SeedHub｜磁力",
-            "type": 3,
-            "api": "csp_SeedHub",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "美剧迷",
