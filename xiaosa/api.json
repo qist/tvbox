@@ -723,6 +723,17 @@
             "ext": "./json/am.json"
         },
         {
+            "key": "百家",
+            "name": "百家｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/bj.json"
+        },
+        {
             "key": "团长",
             "name": "团长｜4K弹幕",
             "type": 3,
