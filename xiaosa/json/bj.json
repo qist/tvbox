@@ -1,10 +1,8 @@
 {
-    "SiteUrl": "https://baijia.banye.tech:7086",
+    "SiteUrl": "",
     "Domains": [
         "http://cj.jiexi.news",
-        "https://baijia.885525.xyz",
         "http://baijia.dpdns.org",
-        "http://bj.baijia.ddns-ip.net",
         "http://bj.885525.xyz",
         "http://baijia.filegear-sg.me"
     ],
