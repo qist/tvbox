@@ -834,16 +834,6 @@
             "api": "csp_MiSou"
         },
         {
-            "key": "聚搜",
-            "name": "聚搜｜搜索",
-            "type": 3,
-            "api": "csp_PanWebSearch",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
-        },
-        {
             "key": "人人分享站",
             "name": "人人｜搜索",
             "type": 3,
