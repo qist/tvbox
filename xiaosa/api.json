@@ -73,6 +73,21 @@
             }
         },
         {
+            "key": "云云",
+            "name": "云云｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "",
+                "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
+                "dataKey": "staraugust123456",
+                "dataIv": "staraugust123456",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
             "key": "魔方",
             "name": "魔方｜APP",
             "type": 3,
@@ -84,6 +99,20 @@
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321",
                 "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "冬天",
+            "name": "冬天｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://154.37.152.97:5211",
+                "dataKey": "685bf108bc47b67d",
+                "dataIv": "685bf108bc47b67d",
+                "deviceId": "685bf108bc47b67d",
                 "version": ""
             }
         },
