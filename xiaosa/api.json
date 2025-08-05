@@ -73,6 +73,19 @@
             }
         },
         {
+            "key": "星河",
+            "name": "星河｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppSy",
+            "ext": {
+                "url": "http://192.140.161.171:2563",
+                "key1": "aassddwwxxllsx1x",
+                "key2": "aassddwwxxllsx1x",
+                "key3": "aassddwwxxllsx1x"
+            }
+        },
+        {
             "key": "云云",
             "name": "云云｜APP",
             "type": 3,
@@ -85,6 +98,20 @@
                 "dataIv": "staraugust123456",
                 "deviceId": "",
                 "version": "120"
+            }
+        },
+        {
+            "key": "光影",
+            "name": "光影｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.guangyingmi.com",
+                "dataKey": "230fnsodfsdhfon2",
+                "dataIv": "230fnsodfsdhfon2",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
