@@ -31,7 +31,7 @@ var rule = {
         img: 'img&&src',
         desc: '.card-text:eq(2)&&Text;;;;',
         content: 'body&&.semi-space-loose-vertical&&a&&href',
-        tabs: "js:TABS = ['懒盘']",
+        tabs: "js:TABS = ['爱搜']",
         lists: "js:\n            LISTS = [];\n            let lists1 = pdfa(html, 'body&&.semi-space-loose-vertical').map(it => {\n                let _tt = pdfh(it, 'span&&title');\n                let _uu = pdfh(it, 'a&&href');\n                return _tt + '$' + _uu;\n            });\n            LISTS.push(lists1);\n        ",
     },
     搜索: 'js:\n        let html = fetch(input);\n        let list = pdfa(html, "body&&.semi-space-medium-vertical");\n        VODS = list.map(x => {\n            let remarks = pdfh(x, "div&&img&&alt");\n            // 过滤掉包含"迅雷云盘"的内容\n            if(remarks.includes("迅雷云盘") || remarks.includes("115") || remarks.includes("阿里")) return null;let vodName = pdfh(x, "div&&a&&title");\n            // 过滤条件：迅雷云盘、.txt后缀、空名称\n            if(vodName.endsWith(".zip") || vodName.endsWith(".txt") || !vodName.trim()) return null;\n            return {\n                vod_name: pdfh(x, "div&&a&&title"),\n                vod_pic: \'\',\n                vod_remarks: remarks,\n                vod_content: remarks,\n                vod_id: pdfh(x, "div&&a&&href")\n            }\n        }).filter(x => x !== null);\n    ',
