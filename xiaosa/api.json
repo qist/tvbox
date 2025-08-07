@@ -324,6 +324,7 @@
             "key": "米诺",
             "name": "米诺｜APP",
             "type": 3,
+            "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "http://www.milkidc.cn",
@@ -815,7 +816,26 @@
             "type": 3,
             "api": "csp_TGSou",
             "searchable": 1,
-            "changeable": 0
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "音海",
+            "name": "音海｜搜索",
+            "type": 3,
+            "api": "csp_YinHai",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "盘搜",
+            "name": "盘搜｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "米搜",
@@ -1591,6 +1611,16 @@
             "type": 3,
             "api": "./js/cloud.min.js",
             "ext": "./js/短剧大全.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "短剧全网",
+            "name": "短剧｜全网",
+            "type": 3,
+            "api": "./js/cloud.min.js",
+            "ext": "./js/短剧全网.js",
             "style": {
                 "type": "list"
             }
