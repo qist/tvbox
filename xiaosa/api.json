@@ -764,18 +764,8 @@
             "key": "双星",
             "name": "双星｜4K弹幕",
             "type": 3,
-            "api": "./js/cloud.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/双星.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "百酷",
-            "name": "百酷｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/百酷.js",
             "style": {
                 "type": "list"
             }
@@ -784,7 +774,7 @@
             "key": "校长",
             "name": "校长｜4K弹幕",
             "type": 3,
-            "api": "./js/cloud.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/校长.js",
             "style": {
                 "type": "list"
@@ -794,7 +784,7 @@
             "key": "天堂",
             "name": "天堂｜4K弹幕",
             "type": 3,
-            "api": "./js/cloud.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/天堂.js",
             "style": {
                 "type": "list"
@@ -804,7 +794,7 @@
             "key": "人人电影网",
             "name": "人人｜4K弹幕",
             "type": 3,
-            "api": "./js/cloud.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/人人电影网.js",
             "style": {
                 "type": "list"
@@ -838,16 +828,34 @@
             "filterable": 1
         },
         {
+            "key": "百酷",
+            "name": "百酷｜搜索",
+            "type": 3,
+            "api": "csp_Baiku"
+        },
+        {
             "key": "米搜",
             "name": "米搜｜搜索",
             "type": 3,
             "api": "csp_MiSou"
         },
         {
+            "key": "短剧大全",
+            "name": "短剧｜大全",
+            "type": 3,
+            "api": "csp_DuanjuDQ"
+        },
+        {
+            "key": "短剧合集",
+            "name": "短剧｜合集",
+            "type": 3,
+            "api": "csp_DuanjuHJ"
+        },
+        {
             "key": "全盘",
             "name": "全盘｜搜索",
             "type": 3,
-            "api": "./js/cloud.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/全盘.js",
             "style": {
                 "type": "list"
@@ -1596,30 +1604,10 @@
             }
         },
         {
-            "key": "短剧合集",
-            "name": "短剧｜合集",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/短剧合集.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "短剧大全",
-            "name": "短剧｜大全",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/短剧大全.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "短剧全网",
             "name": "短剧｜全网",
             "type": 3,
-            "api": "./js/cloud.min.js",
+            "api": "./js/drpy2.min.js",
             "ext": "./js/短剧全网.js",
             "style": {
                 "type": "list"
