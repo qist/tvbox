@@ -86,6 +86,19 @@
             }
         },
         {
+            "key": "追忆",
+            "name": "追忆｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppSy",
+            "ext": {
+                "url": "http://110.42.7.130:1866",
+                "key1": "aassddwwxxllsx1x",
+                "key2": "1e765e9b09b4dbba",
+                "key3": "1e765e9b09b4dbba"
+            }
+        },
+        {
             "key": "乐达",
             "name": "乐达｜APP",
             "type": 3,
