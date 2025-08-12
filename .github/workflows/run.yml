@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest      
     steps:
       - name: Checkout the branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: wget the xiaosa 
         run: |
