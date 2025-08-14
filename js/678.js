@@ -14,7 +14,7 @@ var rule = {
     },
     play_parse:true,
     lazy:$js.toString(() => {
-        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=27.188.68.230'
+        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=121.16.47.94'
         var url = request(html).match(/push\('(.*?)'/)[1]
         url = url.replace(/https?:\/\/(?:[\d.]+|[\w\-]+)(?::\d+)?\//, rule.host + '/');
         input = {
