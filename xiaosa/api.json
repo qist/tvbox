@@ -99,18 +99,16 @@
             }
         },
         {
-            "key": "乐达",
-            "name": "乐达｜APP",
+            "key": "爱影",
+            "name": "爱影｜APP",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet",
+            "api": "csp_AppSy",
             "ext": {
-                "url": "https://ledayy.com",
-                "site": "",
-                "dataKey": "hjjp68c2okw12345",
-                "dataIv": "hjjp68c2okw12345",
-                "deviceId": "",
-                "version": ""
+                "url": "http://110.42.7.59:11822",
+                "key1": "aassddwwxxllsx1x",
+                "key2": "1e765e9b09b4dbba",
+                "key3": "1e765e9b09b4dbba"
             }
         },
         {
@@ -242,21 +240,6 @@
                 "dataIv": "ca94b06ca3c7d80e",
                 "deviceId": "",
                 "version": "119"
-            }
-        },
-        {
-            "key": "豆丁",
-            "name": "豆丁｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://vip.123pan.cn/1848451100/zl/xfdd.txt",
-                "dataKey": "xasdasdqwertyuio",
-                "dataIv": "xasdasdqwertyuio",
-                "deviceId": "",
-                "version": ""
             }
         },
         {
@@ -406,20 +389,6 @@
             }
         },
         {
-            "key": "小红",
-            "name": "小红｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.xiaohys.com",
-                "dataKey": "ENonBHeVBoYZhVUV",
-                "dataIv": "ENonBHeVBoYZhVUV",
-                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-                "version": "166"
-            }
-        },
-        {
             "key": "白蛇",
             "name": "白蛇｜APP",
             "type": 3,
@@ -444,20 +413,6 @@
                 "url": "http://110.40.59.188:9527",
                 "dataKey": "ebad3f1a58b13933",
                 "dataIv": "ebad3f1a58b13933",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "外剧",
-            "name": "外剧｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://guowaiju.com",
-                "dataKey": "7xv16h7qgkrs9b1p",
-                "dataIv": "7xv16h7qgkrs9b1p",
                 "deviceId": "",
                 "version": ""
             }
