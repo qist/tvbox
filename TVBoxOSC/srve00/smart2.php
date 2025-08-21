@@ -192,7 +192,7 @@ function getChannelList($forceRefresh = false) {
         $line = trim($line);
         if (!$line) continue;
 
-        if (strpos($line, '#genre#') !== false) {
+        if (strpos($line ?? '', '#genre#') !== false) {
             $currentGroup = trim(str_replace(',#genre#', '', $line));
             continue;
         }
@@ -363,8 +363,8 @@ function generateM3U8($channelId, $token) {
     
     $baseUrl = getBaseUrl() . '/' . basename(__FILE__);
     $content = preg_replace_callback('/(\S+\.ts)/', function($m) use ($baseUrl, $channelId, $token) {
-        return "$baseUrl?id=" . urlencode($channelId) . "&ts=" . urlencode($m[1]) . "&token=" . urlencode($token);
-    }, $content);
+    return "$baseUrl?id=" . urlencode($channelId) . "&ts=" . urlencode($m[1]) . "&token=" . urlencode($token);
+    }, $content ?? '');
     
     header('Content-Type: application/vnd.apple.mpegurl');
     header('Content-Disposition: inline; filename="' . $channelId . '.m3u8"');

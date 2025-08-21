@@ -5,10 +5,10 @@
    2. DNS by CloudFlare
    3. .net web hosted: https://freeasphosting.net 
 3. https://www1.RobYang.dpdns.org/VodLive/sb8ffa or http://2487.dpdns.org or http://RobYang.qzz.io 
-   1. 3 From https://domain.digitalplat.org/
+   1. All three are from https://domain.digitalplat.org/
    2. DNS hosters:
       1. DNS by cloudflake, 
-      2. DNS http://robyang.qzz.io DNS is hosted in jttp://Dynu.com
+      2. DNS http://robyang.qzz.io DNS is hosted in http://Dynu.com
    3. dotnet web hosted: https://freeasphosting.net 
 4. net https://RobYang.runasp.net
    1. dotnet web hosted: monsterasp.net
