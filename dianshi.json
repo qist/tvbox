@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;81614a4982ac5fd02d64f075e87c9150",
+  "spider": "./jar/fan.txt;md5;bcaa35ff60c87f537cf509da3c40411e",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://logo.ugigc.dpdns.org/{name}.png"}
   ],
@@ -103,6 +103,7 @@
     {"key": "drpy_js_菜狗","name": "官源 | 搜狗[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/菜狗.js"},
     {"key": "drpy_js_优酷","name": "官源 | 优酷[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/优酷.js"},
     {"key": "drpy_js_厂长资源","name": "影视 | 厂长资源[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/厂长资源.js","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
+    {"key": "drpy_js_农民","name": "影视 | 农民影视[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/农民影视.js"},
     {"key": "drpy_js_58动漫","name": "动漫 | 58动漫[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/58动漫.js"},
     {"key": "drpy_js_AGE动漫","name": "动漫 | AGE动漫[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/AGE动漫.js"},
     {"key": "drpy_js_AnFuns","name": "动漫 | AnFuns[js]","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/AnFuns.js"},
