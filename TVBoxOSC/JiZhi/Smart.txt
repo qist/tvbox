@@ -18,6 +18,8 @@ JET綜合,http://?id=jet
 壹新聞,http://?id=yinews
 amc電影,http://?id=starmoviesgold_twn
 緯來育樂,http://?id=videolandmax
+NHK,http://?id=NHK
+
 
 AXN, http://?id=axn_twn
 CINEMAX, http://?id=cinemax_twn
@@ -140,6 +142,7 @@ HBO Hits, http://?id=Hbohits
 NatGeo Wild HD, http://?id=Natgeowild
 Cartoon Network, http://?id=Cn
 Nickelodeon, http://?id=Nickelodeon
+Nickelodeon台灣, http://?id=Nickelodeon_twn
 Nick Jr, http://?id=Nickjr
 Citra, http://?id=Citra
 Sensasi, http://?id=Sensasi

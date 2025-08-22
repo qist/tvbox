@@ -19,8 +19,8 @@ Content-Type: application/json
 ###
 
 
-GET https://www1.RobYang.ggff.net/VodLive/jb8ffa
-#GET http://robyang.runasp.net/VodLive/jb8ffa
+#GET https://www1.RobYang.ggff.net/VodLive/jb8ffa-
+GET http://robyang.runasp.net/VodLive/jb8ffa
 User-Agent: okhttp/3.2.0
 User-Agent: okhttp/3.2.0
 CLIENT-IP: 127.0.0.1
@@ -42,5 +42,7 @@ Content-Type: application/json
 
 ###
 #GET http://livesmartphp.RobYang.ggff.net/smart2.php?id=starmoviesgold_twn
-GET http://livesmartphp.RobYang.ggff.net/smart.php?id=starmoviesgold_twn
+#GET http://livesmartphp.RobYang.ggff.net/smart.php?id=starmoviesgold_twn
+GET http://RobYang.serv00.net/smart.php?id=starmoviesgold_twn
+
 User-Agent: okhttp/3.2.0
