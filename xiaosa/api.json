@@ -209,6 +209,36 @@
             }
         },
         {
+            "key": "迪吧",
+            "name": "迪吧｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://154.37.152.97:5211",
+                "site": "",
+                "dataKey": "685bf108bc47b67d",
+                "dataIv": "685bf108bc47b67d",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "橙飞",
+            "name": "橙飞｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://172.247.189.145:8989",
+                "site": "",
+                "dataKey": "6d1061a50b656564",
+                "dataIv": "6d1061a50b656564",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "云端",
             "name": "云端｜APP",
             "type": 3,
@@ -1262,6 +1292,21 @@
                 "url": "https://qjappcms.acg.party",
                 "dataKey": "AmtMYFCJDPoTlK7z",
                 "dataIv": "AmtMYFCJDPoTlK7z",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "米饭",
+            "name": "米饭｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://get.mymifun.com",
+                "site": "",
+                "dataKey": "GETMIFUNGEIMIFUN",
+                "dataIv": "GETMIFUNGEIMIFUN",
                 "deviceId": "",
                 "version": ""
             }
