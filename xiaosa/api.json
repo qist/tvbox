@@ -787,16 +787,6 @@
             }
         },
         {
-            "key": "天堂",
-            "name": "天堂｜4K弹幕",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/天堂.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "人人电影网",
             "name": "人人｜4K弹幕",
             "type": 3,
@@ -1084,57 +1074,43 @@
             "key": "明星影视",
             "name": "明星｜影视",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/明星影视.json"
         },
         {
             "key": "麦田影视",
             "name": "麦田｜影视",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/麦田影视.json"
-        },
-        {
-            "key": "免费影视",
-            "name": "免费｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./XBPQ/免费影视.json"
         },
         {
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/面包影视.json"
         },
         {
             "key": "永乐影视",
             "name": "永乐｜影视",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/永乐影视.json"
         },
         {
             "key": "雪糕影视",
             "name": "雪糕｜影视",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/雪糕影视.json"
         },
         {
             "key": "三九影视",
             "name": "三九｜影视",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/三九影视.json"
-        },
-        {
-            "key": "三四影视",
-            "name": "三四｜影视",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./XBPQ/三四影视.json"
         },
         {
             "key": "盒子影视",
@@ -1176,7 +1152,7 @@
             "key": "哆啦新番社",
             "name": "哆啦｜新番社",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "style": {
                 "type": "list"
             },
@@ -1294,7 +1270,7 @@
             "key": "樱花动漫",
             "name": "樱花｜动漫",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/樱花动漫.json"
         },
         {
@@ -1378,7 +1354,7 @@
             "key": "修罗影视",
             "name": "修罗｜磁力",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1448,7 +1424,7 @@
             "key": "狐狸君",
             "name": "狐狸君｜磁力",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "changeable": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -1757,7 +1733,7 @@
             "key": "养生堂",
             "name": "养生｜知识",
             "type": 3,
-            "api": "csp_HBPQ",
+            "api": "csp_XBPQ",
             "ext": "./XBPQ/养生堂.json",
             "style": {
                 "type": "rect",
@@ -1907,6 +1883,102 @@
     ],
     "rules": [
         {
+            "name": "量子非凡",
+            "hosts": [
+                "lz",
+                "vip.lz",
+                "v.cdnlz",
+                "hd.lz",
+                "ffzy",
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "索尼",
+            "hosts": [
+                "suonizy",
+                "qrssv.com"
+            ],
+            "regex": [
+                "15.1666",
+                "15.2666"
+            ]
+        },
+        {
+            "name": "乐视",
+            "hosts": [
+                "leshiyun"
+            ],
+            "regex": [
+                "15.92"
+            ]
+        },
+        {
+            "name": "优质",
+            "hosts": [
+                "yzzy",
+                "playback"
+            ],
+            "regex": [
+                "16.63",
+                "18.66",
+                "17.66",
+                "19.13"
+            ]
+        },
+        {
+            "name": "快看",
+            "hosts": [
+                "kuaikan",
+                "vip.kuaikan"
+            ],
+            "regex": [
+                "15.32",
+                "15.231",
+                "18.066"
+            ]
+        },
+        {
+            "name": "360",
+            "hosts": [
+                "lyhuicheng"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
+                "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "开源棋牌",
+            "hosts": [
+                "askzycdn",
+                "jkunbf",
+                "bfikuncdn",
+                "bfaskcdn"
+            ],
+            "regex": [
+                "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "暴风",
+            "hosts": [
+                "bfengbf.com",
+                "bfzy",
+                "c1"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
             "name": "农民",
             "hosts": [
                 "toutiaovod.com"
@@ -1934,6 +2006,32 @@
             ]
         },
         {
+            "name": "磁力",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "更多",
+                "请访问",
+                "example",
+                "社 區",
+                "x u u",
+                "直 播",
+                "更 新",
+                "社 区",
+                "有趣",
+                "有 趣",
+                "英皇体育",
+                "全中文AV在线",
+                "澳门皇冠赌场",
+                "哥哥快来",
+                "美女荷官",
+                "裸聊",
+                "新片首发",
+                "UUE29"
+            ]
+        },
+        {
             "name": "饭团点击",
             "hosts": [
                 "dadagui",
@@ -1941,7 +2039,7 @@
                 "dadagui"
             ],
             "script": [
-                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+                "document.querySelector(\"#playleftiframe\").contentWindow.document.querySelector(\"#start\").click();"
             ]
         },
         {
@@ -1950,16 +2048,7 @@
                 "www.maolvys.com"
             ],
             "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-            ]
-        },
-        {
-            "name": "ofiii",
-            "hosts": [
-                "www.ofiii.com"
-            ],
-            "script": [
-                "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+                "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
             ]
         }
     ],
