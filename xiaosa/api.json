@@ -268,8 +268,8 @@
             }
         },
         {
-            "key": "漫国",
-            "name": "漫国丨APP",
+            "key": "爱影",
+            "name": "爱影丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -278,6 +278,22 @@
                 "site": "",
                 "dataKey": "e65144389e9361b5",
                 "dataIv": "e65144389e9361b5",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "柠檬",
+            "name": "柠檬丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://45.207.212.137",
+                "site": "",
+                "dataKey": "a006661b01bdebbd",
+                "dataIv": "a006661b01bdebbd",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
