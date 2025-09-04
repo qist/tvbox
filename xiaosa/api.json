@@ -268,6 +268,22 @@
             }
         },
         {
+            "key": "小猪",
+            "name": "小猪丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://xz4k.top/url.txt",
+                "dataKey": "1785acb6c963184b",
+                "dataIv": "1785acb6c963184b",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
             "key": "爱影",
             "name": "爱影丨APP",
             "type": 3,
@@ -979,16 +995,6 @@
             "name": "甜圈｜短剧",
             "type": 3,
             "api": "./py/甜圈短剧.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "偷乐短剧",
-            "name": "偷乐｜短剧",
-            "type": 3,
-            "api": "./py/偷乐短剧.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
