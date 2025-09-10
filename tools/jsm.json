@@ -14,7 +14,8 @@
 {"key":"cbh","name":"茶杯狐","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"分类url":"https://www.bnjxjd.com/movie/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html","分类":"电影$fenlei1#电视剧$fenlei2#综艺$fenlei3#动漫$fenlei4"},"header":{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"},"jar": "./jar/sx.jar;md5;6186f490eadf878ba5de21a7fa29e594"},
 
 {"key":"奇优","name":"影视 | ️奇优[直连]","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/奇优.json","jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"},
-
+{"key": "电影天堂","name": "影视 | 电影天堂","type": 1,"api": "http://caiji.dyttzyapi.com/api.php/provide/vod","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playerType":2},
+{"key": "天涯采集","name": "影视 | 天涯","type": 1,"api": "http://tyyszy.com/api.php/provide/vod","style": {"type": "rect","ratio": 1.33},"searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playerType":2},
 {"key":"量子","name":"影视 | 量子[直连]","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]},
 {"key":"非凡","name":"影视 | 非凡[直连]","type":1,"api":"http://ffzy.tv/api.php/provide/vod/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"]},    
 {"key":"索尼","name":"影视 | 索尼[直连]","type":0,"api":"https://suoniapi.com/api.php/provide/vod/at/xml/","searchable":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","欧美剧","港剧","台剧","韩剧","日剧","泰剧","纪录片","海外剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","影视解说"]},
