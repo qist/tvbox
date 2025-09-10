@@ -49,18 +49,6 @@
             }
         },
         {
-            "key": "天天影视",
-            "name": "天天｜APP",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://tt.ysdqjs.cn"
-            }
-        },
-        {
             "key": "浪酷影视",
             "name": "浪酷｜APP",
             "type": 3,
@@ -70,18 +58,6 @@
             "filterable": 0,
             "ext": {
                 "url": "http://v.lkuys.cn"
-            }
-        },
-        {
-            "key": "星河",
-            "name": "星河｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppSy",
-            "ext": {
-                "url": "http://192.140.161.171:2563",
-                "listKey": "aassddwwxxllsx1x",
-                "parsesKey": "aassddwwxxllsx1x"
             }
         },
         {
@@ -317,22 +293,6 @@
             }
         },
         {
-            "key": "零三",
-            "name": "零三丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://03macapp.01yy.top",
-                "site": "",
-                "dataKey": "sdfjiweunikfjofj",
-                "dataIv": "sdfjiweunikfjofj",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "万能",
             "name": "万能丨APP",
             "type": 3,
@@ -343,22 +303,6 @@
                 "site": "",
                 "dataKey": "5uBvur6znNUmE3zb",
                 "dataIv": "5uBvur6znNUmE3zb",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "缘梦",
-            "name": "缘梦丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.ymtv.fun",
-                "site": "",
-                "dataKey": "fdnwxwnkyylwdyqh",
-                "dataIv": "fdnwxwnkyylwdyqh",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -429,22 +373,6 @@
             }
         },
         {
-            "key": "柠檬",
-            "name": "柠檬丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://45.207.212.137",
-                "site": "",
-                "dataKey": "a006661b01bdebbd",
-                "dataIv": "a006661b01bdebbd",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "豆丁",
             "name": "豆丁丨APP",
             "type": 3,
@@ -474,21 +402,6 @@
                 "deviceId": "",
                 "version": "140",
                 "ua": ""
-            }
-        },
-        {
-            "key": "爱看",
-            "name": "爱看｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://114.134.185.234",
-                "site": "",
-                "dataKey": "uI1TkPJC8B46AyN3",
-                "dataIv": "uI1TkPJC8B46AyN3",
-                "deviceId": "",
-                "version": ""
             }
         },
         {
@@ -606,36 +519,6 @@
                 "dataIv": "4d83b87c4c5ea111",
                 "deviceId": "",
                 "version": "105"
-            }
-        },
-        {
-            "key": "瓜萌",
-            "name": "瓜萌｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://www.guahd.com/1.txt",
-                "dataKey": "f2A7D4B9E8C16531",
-                "dataIv": "f2A7D4B9E8C16531",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "橘子",
-            "name": "橘子｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://t.bffree.cn/1.txt",
-                "dataKey": "2015692015692015",
-                "dataIv": "2015692015692015",
-                "deviceId": "",
-                "version": "300"
             }
         },
         {
