@@ -959,16 +959,6 @@
             "filterable": 1
         },
         {
-            "key": "爱看短剧",
-            "name": "爱看｜短剧",
-            "type": 3,
-            "api": "./py/爱看短剧.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "锦鲤短剧",
             "name": "锦鲤｜短剧",
             "type": 3,
@@ -1088,12 +1078,6 @@
             "api": "csp_Jiaozi"
         },
         {
-            "key": "鸭梨影视",
-            "name": "鸭梨｜影视",
-            "type": 3,
-            "api": "csp_KmeiJu"
-        },
-        {
             "key": "低端影视",
             "name": "低端｜影视",
             "type": 3,
@@ -1183,26 +1167,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/三九影视.json"
-        },
-        {
-            "key": "盒子影视",
-            "name": "盒子｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/盒子影视.json"
-        },
-        {
-            "key": "电影牛",
-            "name": "影牛｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/电影牛.json"
         },
         {
             "key": "剧圈圈",
