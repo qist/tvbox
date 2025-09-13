@@ -174,9 +174,9 @@
             "api": "csp_AppQi",
             "ext": {
                 "url": "",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-                "dataKey": "Z98KXaLtO2wC1Pte",
-                "dataIv": "Z98KXaLtO2wC1Pte",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+                "dataKey": "da61247f5b662597",
+                "dataIv": "da61247f5b662597",
                 "deviceId": "",
                 "version": "120"
             }
@@ -213,18 +213,18 @@
             }
         },
         {
-            "key": "仓鼠",
-            "name": "仓鼠丨APP",
+            "key": "爱看",
+            "name": "爱看丨APP",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppQi",
+            "api": "csp_AppGet",
             "ext": {
-                "url": "",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-                "dataKey": "da61247f5b662597",
-                "dataIv": "da61247f5b662597",
+                "url": "https://aikan.my",
+                "site": "",
+                "dataKey": "hzxjRSmyTmSE4ENE",
+                "dataIv": "hzxjRSmyTmSE4ENE",
                 "deviceId": "",
-                "version": "120",
+                "version": "",
                 "ua": ""
             }
         },
@@ -646,6 +646,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "changeable": 1,
             "ext": "./json/wogg.json"
         },
         {
@@ -656,6 +657,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
+            "changeable": 1,
             "ext": "./json/mogg.json"
         },
         {
@@ -725,28 +727,6 @@
             "ext": "./json/hb.json"
         },
         {
-            "key": "闪电",
-            "name": "闪电｜4K",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/sd.json"
-        },
-        {
-            "key": "百家",
-            "name": "百家｜4K",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/bj.json"
-        },
-        {
             "key": "团长",
             "name": "团长｜4K",
             "type": 3,
@@ -802,21 +782,6 @@
             "ext": "./json/kf.json"
         },
         {
-            "key": "123",
-            "name": "123｜4K",
-            "type": 3,
-            "api": "csp_PanWebShareCloud123",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "./json/123.json"
-        },
-        {
             "key": "趣盘",
             "name": "趣盘｜4K",
             "type": 3,
@@ -831,19 +796,6 @@
             },
             "ext": {
                 "url": "https://www.qupanshe.com"
-            }
-        },
-        {
-            "key": "盘库",
-            "name": "盘库｜4K",
-            "type": 3,
-            "api": "csp_PanWebKuBa",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://panku8.com,https://yipanso.com"
             }
         },
         {
@@ -2089,7 +2041,7 @@
             ]
         },
         {
-            "name": "磁力",
+            "name": "磁力广告",
             "hosts": [
                 "magnet"
             ],

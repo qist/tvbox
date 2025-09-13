@@ -29,6 +29,10 @@
         {
             "type_name": "短剧",
             "type_id": "6"
+        },
+        {
+            "type_name": "123",
+            "type_id": "35"
         }
     ]
 }
