@@ -213,6 +213,38 @@
             }
         },
         {
+            "key": "热剧",
+            "name": "热剧丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "https://www.rebovod.com",
+                "site": "",
+                "dataKey": "8191A7F47B37882F",
+                "dataIv": "8191A7F47B37882F",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "稀饭",
+            "name": "稀饭丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "site": "",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
             "key": "爱看",
             "name": "爱看丨APP",
             "type": 3,
@@ -271,22 +303,6 @@
                 "site": "",
                 "dataKey": "vXeyuJFqTKqWUtWU",
                 "dataIv": "vXeyuJFqTKqWUtWU",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "追番",
-            "name": "追番丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://ysappapi.oss-cn-shenzhen.aliyuncs.com/getapi.txt",
-                "dataKey": "A1akVPQmnnE4Fz9Z",
-                "dataIv": "A1akVPQmnnE4Fz9Z",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -367,22 +383,6 @@
                 "site": "",
                 "dataKey": "e65144389e9361b5",
                 "dataIv": "e65144389e9361b5",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "豆丁",
-            "name": "豆丁丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://45.66.157.77:9427/dd.txt",
-                "dataKey": "Xasdasd!123123dd",
-                "dataIv": "Xasdasd!123123dd",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -488,20 +488,6 @@
                 "url": "http://tv.yy-fun.cc",
                 "dataKey": "qkxnwkfjwpcnwycl",
                 "dataIv": "qkxnwkfjwpcnwycl",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "米诺",
-            "name": "米诺｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://www.milkidc.cn",
-                "dataKey": "20c79c979da8db0f",
-                "dataIv": "20c79c979da8db0f",
                 "deviceId": "",
                 "version": ""
             }
@@ -1396,7 +1382,7 @@
             "name": "荐片｜磁力",
             "api": "csp_Jianpian",
             "type": 3,
-            "ext": "https://ij1men.slsw6.com"
+            "ext": "https://api.ztcgi.com"
         },
         {
             "key": "修罗",
