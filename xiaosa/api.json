@@ -229,6 +229,38 @@
             }
         },
         {
+            "key": "星星",
+            "name": "星星丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://starani.qcanime.xyz",
+                "site": "",
+                "dataKey": "123456789StarAni",
+                "dataIv": "123456789StarAni",
+                "deviceId": "",
+                "version": "",
+                "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
+            }
+        },
+        {
+            "key": "斗量",
+            "name": "斗量丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://app-cms-v10-1314306855.cos.ap-guangzhou.myqcloud.com/appcms.php",
+                "dataKey": "A1akVPQmnnE4Fz9Z",
+                "dataIv": "A1akVPQmnnE4Fz9Z",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
             "key": "魔方",
             "name": "魔方丨APP",
             "type": 3,
@@ -936,6 +968,24 @@
             "api": "csp_DuanjuGG"
         },
         {
+            "key": "夸克推送",
+            "name": "夸克｜推送",
+            "type": 4,
+            "api": "http://zling.online:12331/api.php?type=quark"
+        },
+        {
+            "key": "UC推送",
+            "name": "UC｜推送",
+            "type": 4,
+            "api": "http://zling.online:12331/api.php?type=uc"
+        },
+        {
+            "key": "百度推送",
+            "name": "百度｜推送",
+            "type": 4,
+            "api": "http://zling.online:12331/api.php?type=baidu"
+        },
+        {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
@@ -1005,16 +1055,6 @@
             "name": "猎手｜影视",
             "type": 3,
             "api": "./py/猎手影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "零度影视",
-            "name": "零度｜影视",
-            "type": 3,
-            "api": "./py/零度影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -1221,6 +1261,22 @@
                 "siteKey": "rectangleadsadxa",
                 "listKey": "aassddwwxxllsx1x",
                 "parsesKey": "aassddwwxxllsx1x"
+            }
+        },
+        {
+            "key": "方舟",
+            "name": "方舟丨动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.cyfz.vip",
+                "site": "",
+                "dataKey": "e72cdfd629e8895d",
+                "dataIv": "e72cdfd629e8895d",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
             }
         },
         {
