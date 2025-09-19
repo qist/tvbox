@@ -245,6 +245,38 @@
             }
         },
         {
+            "key": "像素",
+            "name": "像素丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://mcvod.top",
+                "site": "",
+                "dataKey": "cnmbknmbtounimab",
+                "dataIv": "cnmbknmbtounimab",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "豆丁",
+            "name": "豆丁丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://45.66.157.77:9427",
+                "site": "",
+                "dataKey": "Xasdasd!123123dd",
+                "dataIv": "Xasdasd!123123dd",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
             "key": "斗量",
             "name": "斗量丨APP",
             "type": 3,
