@@ -10,12 +10,16 @@
             "type_id": "2"
         },
         {
-            "type_name": "综艺",
-            "type_id": "5"
-        },
-        {
             "type_name": "动漫",
             "type_id": "3"
+        },
+        {
+            "type_name": "其它",
+            "type_id": "3"
+        },
+        {
+            "type_name": "综艺",
+            "type_id": "5"
         }
     ]
 }

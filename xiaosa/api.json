@@ -229,6 +229,54 @@
             }
         },
         {
+            "key": "影视",
+            "name": "影视丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "",
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+                "dataKey": "sada21321sdq231d",
+                "dataIv": "sada21321sdq231d",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "迪吧",
+            "name": "迪吧丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "",
+                "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
+                "dataKey": "685bf108bc47b67d",
+                "dataIv": "685bf108bc47b67d",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "米奇",
+            "name": "米奇丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://www.milkidc.cn",
+                "site": "",
+                "dataKey": "20c79c979da8db0f",
+                "dataIv": "20c79c979da8db0f",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
             "key": "星星",
             "name": "星星丨APP",
             "type": 3,
@@ -469,8 +517,8 @@
             }
         },
         {
-            "key": "蔬菜",
-            "name": "蔬菜丨APP",
+            "key": "火狐",
+            "name": "火狐丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -791,16 +839,6 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "./json/hb.json"
-        },
-        {
-            "key": "团长",
-            "name": "团长｜4K",
-            "type": 3,
-            "api": "csp_PanWebTz",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
         },
         {
             "key": "雷鲸",
@@ -1293,6 +1331,38 @@
                 "siteKey": "rectangleadsadxa",
                 "listKey": "aassddwwxxllsx1x",
                 "parsesKey": "aassddwwxxllsx1x"
+            }
+        },
+        {
+            "key": "冬日",
+            "name": "冬日丨动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://www.drdm.fun",
+                "site": "",
+                "dataKey": "qE2nD0rL1lH4uP9r",
+                "dataIv": "qE2nD0rL1lH4uP9r",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
+            }
+        },
+        {
+            "key": "漫屋",
+            "name": "漫屋丨动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.yunwuee.icu",
+                "site": "",
+                "dataKey": "ygcnb9bdcmb8aeiw",
+                "dataIv": "ygcnb9bdcmb8aeiw",
+                "deviceId": "",
+                "version": "",
+                "ua": ""
             }
         },
         {
