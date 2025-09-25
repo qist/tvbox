@@ -913,17 +913,7 @@
             }
         },
         {
-            "key": "校长",
-            "name": "校长｜4K",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/校长.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "人人电影网",
+            "key": "人人",
             "name": "人人｜4K",
             "type": 3,
             "api": "./js/drpy2.min.js",
@@ -1012,12 +1002,6 @@
             "name": "米搜｜搜索",
             "type": 3,
             "api": "csp_MiSou"
-        },
-        {
-            "key": "派派",
-            "name": "派派｜搜索",
-            "type": 3,
-            "api": "csp_PPQPan"
         },
         {
             "key": "短剧大全",
