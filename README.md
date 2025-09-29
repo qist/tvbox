@@ -162,3 +162,7 @@ V1.1.2版本以下
 自用仓库，如果喜欢，请Fork自用，谢谢！
 
 尽自己所能更新，不保证配置的有效性和时效性。
+
+### Star
+
+[![Star History Chart](https://api.star-history.com/svg?repos=qist/tvbox&type=Date)](https://www.star-history.com/#qist/tvbox&Date)
