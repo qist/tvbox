@@ -201,6 +201,22 @@
             }
         },
         {
+            "key": "小猪",
+            "name": "小猪丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "",
+                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
+                "dataKey": "seb5tq9mykp2w9ry",
+                "dataIv": "seb5tq9mykp2w9ry",
+                "deviceId": "",
+                "version": "",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "狂欢",
             "name": "狂欢丨APP",
             "type": 3,
@@ -1169,13 +1185,6 @@
             "ext": "./XBPQ/明星影视.json"
         },
         {
-            "key": "麦田影视",
-            "name": "麦田｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/麦田影视.json"
-        },
-        {
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
@@ -1188,13 +1197,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/永乐影视.json"
-        },
-        {
-            "key": "雪糕影视",
-            "name": "雪糕｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/雪糕影视.json"
         },
         {
             "key": "三九影视",
@@ -1343,22 +1345,6 @@
             }
         },
         {
-            "key": "凛冬",
-            "name": "凛冬丨动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://cydd.xyz",
-                "site": "",
-                "dataKey": "cyddkeyf774b3b39",
-                "dataIv": "cyddkeyf774b3b39",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "曼波动漫",
             "name": "曼波｜动漫",
             "type": 3,
@@ -1397,21 +1383,6 @@
                 "url": "https://www.gugu3.com",
                 "dataKey": "nKfZ8KX6JTNWRzTD",
                 "dataIv": "nKfZ8KX6JTNWRzTD",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
-            "key": "多多动漫",
-            "name": "多多｜动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://app.cf4k.xyz/1.txt",
-                "dataKey": "qqqqqqqqqqqqqqqq",
-                "dataIv": "qqqqqqqqqqqqqqqq",
                 "deviceId": "",
                 "version": ""
             }
@@ -1507,13 +1478,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/去看吧.js"
-        },
-        {
-            "key": "爱弹幕",
-            "name": "爱弹幕｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/爱弹幕.js"
         },
         {
             "key": "异世界",
