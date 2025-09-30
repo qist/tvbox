@@ -92,7 +92,7 @@ if ($ts) {
     $seed = "tvata nginx auth module";
     $path = parse_url($url, PHP_URL_PATH);
     //$tid = "mc42afe745533";
-    $tid = "mc42afe834703";
+    $tid = "mc42afe834700";
     $t = strval(intval(time() / 150));
     $str = $seed . $path . $tid . $t;
     $tsum = md5($str);
@@ -105,7 +105,7 @@ if ($ts) {
     
     // 检查返回结果
     if (empty($result) || strpos($result, "404 Not Found") !== false) {
-        header("Location: https://simate.pendy.dpdns.org/judy/output.m3u8");
+        header("Location: https://www.youtube.com/watch?v=MV9mI0GChwo");
         exit();
     }
 
