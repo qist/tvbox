@@ -1112,13 +1112,6 @@
             "ext": "https://www.wwgz.cn"
         },
         {
-            "key": "采集之王",
-            "name": "采集｜合集",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
-        },
-        {
             "key": "爱看机器人",
             "name": "爱看｜影视",
             "type": 3,
@@ -1163,6 +1156,13 @@
             "ext": "./js/剧圈圈.js"
         },
         {
+            "key": "采集之王",
+            "name": "采集｜合集",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
+        },
+        {
             "key": "1905",
             "name": "1905｜影视",
             "type": 3,
@@ -1189,18 +1189,18 @@
             "ext": "./js/56动漫.js"
         },
         {
-            "key": "NT动漫",
-            "name": "NT｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/NT动漫.js"
-        },
-        {
             "key": "Anime1",
             "name": "A1｜动漫",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/Anime1.js"
+        },
+        {
+            "key": "NT动漫",
+            "name": "NT｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/NT动漫.js"
         },
         {
             "key": "漫国",
