@@ -217,6 +217,22 @@
             }
         },
         {
+            "key": "云云",
+            "name": "云云丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "",
+                "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+                "dataKey": "staraugust123456",
+                "dataIv": "staraugust123456",
+                "deviceId": "",
+                "version": "120",
+                "ua": ""
+            }
+        },
+        {
             "key": "八天",
             "name": "八天丨APP",
             "type": 3,
@@ -275,54 +291,6 @@
                 "site": "",
                 "dataKey": "5a9w6x58dsq6z3a6",
                 "dataIv": "5a9w6x58dsq6z3a6",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "狂欢",
-            "name": "狂欢丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://m.m.m.kahzw.com",
-                "site": "",
-                "dataKey": "xnybssspqtwotuwj",
-                "dataIv": "xnybssspqtwotuwj",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "奈飞",
-            "name": "奈飞丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://movier.ink",
-                "site": "",
-                "dataKey": "moviermovierink9",
-                "dataIv": "moviermovierink9",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "迪吧",
-            "name": "迪吧丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
-                "dataKey": "685bf108bc47b67d",
-                "dataIv": "685bf108bc47b67d",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -393,22 +361,6 @@
             }
         },
         {
-            "key": "斗量",
-            "name": "斗量丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://app-cms-v10-1314306855.cos.ap-guangzhou.myqcloud.com/appcms.php",
-                "dataKey": "A1akVPQmnnE4Fz9Z",
-                "dataIv": "A1akVPQmnnE4Fz9Z",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "稀饭",
             "name": "稀饭丨APP",
             "type": 3,
@@ -419,22 +371,6 @@
                 "site": "",
                 "dataKey": "HM6Ly9yeS4ya3dvL",
                 "dataIv": "HM6Ly9yeS4ya3dvL",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "爱看",
-            "name": "爱看丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://aikan.my",
-                "site": "",
-                "dataKey": "hzxjRSmyTmSE4ENE",
-                "dataIv": "hzxjRSmyTmSE4ENE",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -568,20 +504,6 @@
             }
         },
         {
-            "key": "光影",
-            "name": "光影｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.guangyingmi.com",
-                "dataKey": "230fnsodfsdhfon2",
-                "dataIv": "230fnsodfsdhfon2",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "莱米",
             "name": "莱米｜APP",
             "type": 3,
@@ -638,21 +560,6 @@
                 "dataIv": "qkxnwkfjwpcnwycl",
                 "deviceId": "",
                 "version": ""
-            }
-        },
-        {
-            "key": "云速",
-            "name": "云速｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "http://59.153.167.137:7788/1.json",
-                "dataKey": "4d83b87c4c5ea111",
-                "dataIv": "4d83b87c4c5ea111",
-                "deviceId": "",
-                "version": "105"
             }
         },
         {
