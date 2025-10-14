@@ -233,6 +233,51 @@
             }
         },
         {
+            "key": "于浅",
+            "name": "于浅｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://202.140.143.116:88",
+                "site": "",
+                "dataKey": "leroulerop.lerom",
+                "dataIv": "leroulerop.lerom",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "火锅",
+            "name": "火锅｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://ios.hgyx.vip",
+                "site": "",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
+            "key": "爱看",
+            "name": "爱看｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.appdm.akandm.com",
+                "site": "",
+                "dataKey": "uI1TkPJC8B46AyN3",
+                "dataIv": "uI1TkPJC8B46AyN3",
+                "deviceId": "",
+                "version": ""
+            }
+        },
+        {
             "key": "万能",
             "name": "万能丨APP",
             "type": 3,
@@ -313,22 +358,6 @@
             }
         },
         {
-            "key": "刷剧",
-            "name": "刷剧丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://dingchaowangzhan.oss-cn-beijing.aliyuncs.com/1.txt",
-                "dataKey": "1387006363333333",
-                "dataIv": "1387006363333333",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
             "key": "九零",
             "name": "九零丨APP",
             "type": 3,
@@ -374,22 +403,6 @@
                 "deviceId": "",
                 "version": "",
                 "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
-            }
-        },
-        {
-            "key": "像素",
-            "name": "像素丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://mcvod.top",
-                "site": "",
-                "dataKey": "cnmbknmbtounimab",
-                "dataIv": "cnmbknmbtounimab",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
             }
         },
         {
@@ -499,22 +512,6 @@
                 "site": "",
                 "dataKey": "7xv16h7qgkrs9b1p",
                 "dataIv": "7xv16h7qgkrs9b1p",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "爱影",
-            "name": "爱影丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://app.lkdyw.cn",
-                "site": "",
-                "dataKey": "e65144389e9361b5",
-                "dataIv": "e65144389e9361b5",
                 "deviceId": "",
                 "version": "",
                 "ua": ""
@@ -989,7 +986,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzymovie.com/"
+            "ext": "https://www.czzymovie.com"
         },
         {
             "key": "金牌影视",
@@ -1167,6 +1164,21 @@
                 "siteKey": "rectangleadsadxa",
                 "listKey": "aassddwwxxllsx1x",
                 "parsesKey": "aassddwwxxllsx1x"
+            }
+        },
+        {
+            "key": "二三",
+            "name": "二三｜动漫",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "",
+                "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
+                "dataKey": "qwertyuiopqwerty",
+                "dataIv": "qwertyuiopqwerty",
+                "deviceId": "",
+                "version": "120"
             }
         },
         {
@@ -1552,6 +1564,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "阿里盘搜",
+            "name": "阿里｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "cloudDrives": "aliyun"
+            }
         },
         {
             "key": "夸克盘搜",
