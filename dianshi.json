@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;f6dd09061793aa1f499be0ffebaf5f67",
+  "spider": "./jar/fan.txt;md5;88cb103cc0693dbc8e30539714362e2d",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://logo.ugigc.dpdns.org/{name}.png"}
   ],
@@ -61,13 +61,13 @@
     {"key": "糯米","name": "🍓糯米┃秒播","type": 3,"api": "csp_NmyswvGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "比特","name": "🍄比特┃秒播","type": 3,"api": "csp_BttwooGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "立播","name": "🌟立播┃秒播","type": 3,"api": "csp_LibvioGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt","from": "4k|auto"}},
-    {"key": "鲸鱼","name": "👀鲸鱼┃秒播","type": 3,"api": "csp_AppSxGuard","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZ183jzSI6L432F1wEM1kc4mV87fQxIbwNi40y4T/RKJAUnj9z8A=="},
+    {"key": "鲸鱼","name": "👀鲸鱼┃秒播","type": 3,"api": "csp_AppSxGuard","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ=="},
     {"key": "原创","name": "☀原创┃不卡","type": 3,"api": "csp_YCyzGuard","timeout": 30,"playerType": 1,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "苹果","name": "🍎苹果┃不卡","type": 3,"api": "csp_LiteAppleGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "低端","name": "⏮️低端┃外剧","type": 3,"api": "csp_DdrkGuard","timeout": 15,"playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "欢视","name": "👓欢视┃多线","type": 3,"api": "csp_AppTTGuard","timeout": 15,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "uqGL1bNENExT9fFAy5mE5qU="},
     {"key": "热播","name": "📺热播┃多线","type": 3,"api": "csp_AppTTGuard","timeout": 15,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "uqGL1bNENExT7/hGxpSE5qU="},
-    {"key": "下饭","name": "🍙下饭┃多线","type": 3,"api": "csp_AppSxGuard","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuSlujLK3sriwSIhL5XjHg0adEYJpXZ48P0hOq5X1M8s5yKKbc1C2H4563JjH/01RZDAuqM="},
+    {"key": "下饭","name": "🍙下饭┃多线","type": 3,"api": "csp_AppSxGuard","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="},
     {"key": "奥特","name": "🏝奥特┃多线","type": 3,"api": "csp_AueteGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://auete.com/"},
     {"key": "荐片","name": "🐭荐片┃P2P","type": 3,"api": "csp_JPJGuard","timeout": 15,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 0},
     {"key": "新6V","name": "🧲新6V┃磁力","type": 3,"api": "csp_SixVGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "https://www.xb6v.com/"},
