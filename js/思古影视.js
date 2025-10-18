@@ -1,9 +1,9 @@
 // 一级筛选安全验证
-var rule={
-    title:'思古影视',
-    host:'https://xxmsrj.com',
-    homeUrl:'/index.php/label/ranking.html',
-    url:'/index.php/vod/type/id/fyclass/page/fypage.html',
+var rule = {
+    title: '思古影视',
+    host: 'https://xxmsrj.com',
+    homeUrl: '/index.php/label/ranking.html',
+    url: '/index.php/vod/type/id/fyclass/page/fypage.html',
     // url:'/index.php/vod/show/id/fyfilter.html',
     // filterable:1,//是否启用分类筛选,
     // filter_url:'{{fl.cateId}}{{fl.area}}{{fl.by}}{{fl.class}}{{fl.lang}}{{fl.letter}}/page/fypage{{fl.year}}',
@@ -19,17 +19,17 @@ var rule={
     //     3:{cateId:'3'},
     //     4:{cateId:'4'}
     // },
-    searchable:2,
-    quickSearch:0,
-    headers:{
-        'User-Agent':'MOBILE_UA'
+    searchable: 2,
+    quickSearch: 0,
+    headers: {
+        'User-Agent': 'MOBILE_UA'
     },
-    timeout:5000,
+    timeout: 5000,
     // class_parse: '.side-menu-nav&&div.ewave-accordion-toggle;a&&Text;a&&href;.*/(\\d+).html',
     class_parse: '.side-menu-nav&&a:lt(20);a&&Text;a&&href;(\\d+).html',
-    cate_exclude:'理论片',
-    play_parse:true,
-    lazy:`js:
+    cate_exclude: '理论片',
+    play_parse: true,
+    lazy: `js:
         var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
         var url = html.url;
         if (html.encrypt == '1') {
@@ -59,7 +59,7 @@ var rule={
         }
     `,
     推荐: '.new-list&&li:lt(20);.text-row-2&&Text;*;span.text-overflow&&Text;a&&href',
-    一级:'div.col-xs-4;h3&&Text;.lazyload&&data-original;span.text-row-1&&Text;a&&href',
+    一级: 'div.col-xs-4;h3&&Text;.lazyload&&data-original;span.text-row-1&&Text;a&&href',
     二级: {
         "title": "h1&&Text;li.hidden-sm--span:eq(0)&&Text",
         "img": ".detail-img&&img&&data-original",
@@ -69,7 +69,7 @@ var rule={
         "lists": ".ewave-tab-content:eq(#id)&&li"
     },
 
-    searchUrl:'/index.php/ajax/suggest?mid=1&wd=**&limit=50',
-    detailUrl:'/index.php/vod/detail/id/fyid.html', //非必填,二级详情拼接链接
+    searchUrl: '/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+    detailUrl: '/index.php/vod/detail/id/fyid.html', //非必填,二级详情拼接链接
     搜索: 'json:list;name;pic;;id',
 }

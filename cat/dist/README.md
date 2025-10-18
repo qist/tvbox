@@ -13,6 +13,6 @@ npm install && npm run build
 
 #### 新源地址
 ```text
-gitee://Token@gitee.com/qist/tvbox/cat/dist/index.js.md5
-github://Token@github.com/qist/tvbox/cat/dist/index.js.md5
+gitee://Token@gitee.com/xxxx/tvbox/cat/dist/index.js.md5
+github://Token@github.com/xxxx/tvbox/cat/dist/index.js.md5
 ```

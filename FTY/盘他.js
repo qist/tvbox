@@ -1,7 +1,7 @@
 var rule = {
     title: '盘他',
-    host: 'https://sousou.pro',
-    searchUrl: '/search?exact=false&page=fypage&q=**&share_time=&type=&user=',
+    host: 'https://panso.pro',
+    searchUrl: '/search?exact=false&format=video&page=fypage&q=**&share_time=&type=&user=',
     searchable: 2,
     quickSearch: 0,
     headers: {

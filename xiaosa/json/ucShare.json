@@ -1,0 +1,47 @@
+[
+    {
+        "name": "我的网盘",
+        "folders": [
+            {
+                "shareId": "",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "豆瓣TOP250部",
+        "folders": [
+            {
+                "shareId": "c0503fdee6644",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "日剧",
+        "folders": [
+            {
+                "shareId": "391b86c09cd24",
+                "folder": "9df4921d548841199e625765413f8bd6"
+            }
+        ]
+    },
+    {
+        "name": "韩剧",
+        "folders": [
+            {
+                "shareId": "21f04a22052f4",
+                "folder": "950f5ca7d5e54d528c0dae1fddec5c78"
+            }
+        ]
+    },
+    {
+        "name": "音乐",
+        "folders": [
+            {
+                "shareId": "369e30038dae4",
+                "folder": "1b8a55dc18a54fb7aea8ed2b6fd6ad53"
+            }
+        ]
+    }
+]

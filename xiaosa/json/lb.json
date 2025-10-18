@@ -1,0 +1,40 @@
+{
+    "SiteUrl": "http://www.labi88.sbs",
+    "Domains": [
+        "http://www.labi88.sbs",
+        "https://feimao666.fun",
+        "http://feimao888.fun"
+    ],
+    "SiteWord": "labi",
+    "SiteName": "蜡笔",
+    "Classes": [
+        {
+            "type_name": "蜡笔电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "蜡笔剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "蜡笔动漫",
+            "type_id": "3"
+        },
+        {
+            "type_name": "蜡笔综艺",
+            "type_id": "4"
+        },
+        {
+            "type_name": "蜡笔短剧",
+            "type_id": "5"
+        },
+        {
+            "type_name": "臻彩4K",
+            "type_id": "24"
+        },
+        {
+            "type_name": "蜡笔臻彩",
+            "type_id": "29"
+        }
+    ]
+}

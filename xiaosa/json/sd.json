@@ -1,0 +1,31 @@
+{
+    "SiteUrl": "",
+    "Domains": [
+        "http://1.95.79.193",
+        "http://1.95.79.193:666"
+    ],
+    "SiteWord": "sd",
+    "SiteName": "闪电",
+    "Classes": [
+        {
+            "type_name": "闪电电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "闪电剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "闪电综艺",
+            "type_id": "3"
+        },
+        {
+            "type_name": "闪电动漫",
+            "type_id": "4"
+        },
+        {
+            "type_name": "闪电短剧",
+            "type_id": "30"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "SiteUrl": "http://103.45.162.207:20720",
+    "Domains": [
+        "http://103.45.162.207:20720"
+    ],
+    "SiteWord": "hb",
+    "SiteName": "虎斑",
+    "Classes": [
+        {
+            "type_name": "小虎斑电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "小虎斑剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "小虎斑综艺",
+            "type_id": "3"
+        },
+        {
+            "type_name": "小虎斑动漫",
+            "type_id": "4"
+        },
+        {
+            "type_name": "小虎斑精品",
+            "type_id": "5"
+        },
+        {
+            "type_name": "小虎斑短剧",
+            "type_id": "6"
+        }
+    ]
+}

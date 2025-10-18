@@ -1,0 +1,105 @@
+[
+    {
+        "name": "我的网盘",
+        "folders": [
+            {
+                "shareId": "",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "短剧合集",
+        "folders": [
+            {
+                "shareId": "Y5wMKfVDD6K",
+                "folder": "6616613853041ba53f2842918e02346943d980b4"
+            }
+        ]
+    },
+    {
+        "name": "动漫合集",
+        "folders": [
+            {
+                "shareId": "LEaepiYfxcw",
+                "folder": "61019a966975bfef583449a39b36da512384b2d7"
+            }
+        ]
+    },
+    {
+        "name": "电影合集",
+        "folders": [
+            {
+                "shareId": "ZHNChQfiPfk",
+                "folder": "root"
+            },
+            {
+                "shareId": "e27BPgDwxeA",
+                "folder": "root"
+            },
+            {
+                "shareId": "XUH7r6BZuML",
+                "folder": "root"
+            },
+            {
+                "shareId": "qZ4f1i2EFW2",
+                "folder": "root"
+            },
+            {
+                "shareId": "ohJ68NV7iFw",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "电视剧合集",
+        "folders": [
+            {
+                "shareId": "ftMhRaKUfYp",
+                "folder": "root"
+            },
+            {
+                "shareId": "MLWPRHRt9W3",
+                "folder": "root"
+            },
+            {
+                "shareId": "8Fg4TNsd2A2",
+                "folder": "root"
+            },
+            {
+                "shareId": "ar8Kg9azw1S",
+                "folder": "root"
+            },
+            {
+                "shareId": "GMYSz3AHFaA",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "综艺合集",
+        "folders": [
+            {
+                "shareId": "UuHi9PeYSVz",
+                "folder": "root"
+            },
+            {
+                "shareId": "v9To3HC6vhs",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "其它合集",
+        "folders": [
+            {
+                "shareId": "4ydLxf7VgH7",
+                "folder": "root"
+            },
+            {
+                "shareId": "uWa9gbM3RJ7",
+                "folder": "root"
+            }
+        ]
+    }
+]

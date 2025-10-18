@@ -1,0 +1,41 @@
+{
+    "SiteUrl": "https://mihdr.top",
+    "Domains": [
+        "https://mihdr.top",
+        "http://xiaomi666.fun",
+        "http://www.miqk.cc",
+        "https://xiaomiai.site"
+    ],
+    "SiteWord": "zz",
+    "SiteName": "至臻",
+    "Classes": [
+        {
+            "type_name": "臻彩电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "臻彩剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "臻彩动漫",
+            "type_id": "3"
+        },
+        {
+            "type_name": "臻彩综艺",
+            "type_id": "4"
+        },
+        {
+            "type_name": "短剧吃到饱",
+            "type_id": "5"
+        },
+        {
+            "type_name": "老剧计划",
+            "type_id": "24"
+        },
+        {
+            "type_name": "臻彩严选",
+            "type_id": "26"
+        }
+    ]
+}
