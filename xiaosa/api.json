@@ -84,6 +84,23 @@
             }
         },
         {
+            "key": "余白",
+            "name": "余白丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.yb4k.top",
+                "site": "",
+                "dataKey": "pk5CemuwgQ4gh8dl",
+                "dataIv": "pk5CemuwgQ4gh8dl",
+                "deviceId": "",
+                "version": "",
+                "token": "71ef95295e56f3dfce2d008b1b07dc83f20f2bd8c5444202b6957587c9a5e57e",
+                "ua": ""
+            }
+        },
+        {
             "key": "咖啡",
             "name": "咖啡丨APP",
             "type": 3,
@@ -237,6 +254,21 @@
                 "deviceId": "",
                 "version": "120",
                 "ua": ""
+            }
+        },
+        {
+            "key": "星空",
+            "name": "星空｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://xkcms.xkgzs.xyz",
+                "site": "",
+                "dataKey": "AJcdjkAjkdJDkvcd",
+                "dataIv": "AJcdjkAjkdJDkvcd",
+                "deviceId": "",
+                "version": ""
             }
         },
         {
