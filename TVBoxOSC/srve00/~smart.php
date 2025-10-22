@@ -5,7 +5,7 @@ date_default_timezone_set("Asia/Shanghai");
 
 // 继续执行其他逻辑
 $name = $_GET["id"] ?? "";
-$port = 'http://50.7.234.10:8278/';
+$port = 'http://66.90.99.154:8278/';
 $ts = $_GET["ts"] ?? "";
 
 // 代理设置

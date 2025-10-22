@@ -99,7 +99,7 @@ class Spider(Spider):
         return [302, "text/plain", None, {'Location': 'https://sf1-cdn-tos.huoshanstatic.com/obj/media-fe/xgplayer_doc_video/mp4/xgplayer-demo-720p.mp4'}]
     def fun_smt(self, params):
         pid = params['pid']
-        url = f'http://50.7.234.10:8278/{pid}/playlist.m3u8'
+        url = f'http://66.90.99.154:8278/{pid}/playlist.m3u8'
         t = str(int(time.time() / 150))
         p = {
             'tid': 'mc42afe745533',

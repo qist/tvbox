@@ -1,3 +1,40 @@
+
+## Current dockers
+
+
+歐飛+雜(限台),直播點播混合,限台
+http://live1.robyang.ggff.net:50001/Sub?type=m3u 
+
+31臺而已
+http://live1.robyang.ggff.net:50002/Sub.txt
+http://live1.robyang.ggff.net:50002/Sub.m3u
+http://live1.robyang.ggff.net:50002/Sub.vod.m3u
+
+四季+雜(限台) 全世界,不要排序~
+http://live1.robyang.ggff.net:50003/?type=m3u 
+
+smart php, slow (convert to traditional chinese, sort needed)
+http://live1.robyang.ggff.net:50004/smart.m3u?token=RobYang 
+
+
+dead, no TV 2025-10-18, Judy v0.05
+http://live1.robyang.ggff.net:50008/?type=txt
+http://live1.robyang.ggff.net:50008/?type=m3u        
+
+
+dead, no TV!! 2025-10-18 三岁抬頭當王者
+http://live1.robyang.ggff.net:50009/?type=m3u         
+http://live1.robyang.ggff.net:50009/?type=txt
+
+四季+雜(限台) 
+http://live1.robyang.dpdns.org:50010/?type=m3u 
+
+
+
+
+
+
+
 ## sound fix: Update a file from a docker host:
 ======
 ```
@@ -44,7 +81,7 @@ echo "litv.yaml 更新成功，Docker 容器已重启。"
          - http://[IP:PORT]/tubi-ca.m3u (加拿大线路)
 一键修复:
 curl -sL https://x.tt8.us.kg/update_fourgtv.sh | bash
-
+ds
 修复now 获取新的mpd key。 整合多了个 now-self.m3u 等于free列表 详情 https://t.me/livednowgroup/386393
 目录更正 https://t.me/livednowgroup/387376
 网友的备份1: https://t.me/livednowgroup/387476
@@ -168,16 +205,6 @@ http://ip:port/Sub.txt
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Docker Instances / Accounts: 
 ======
 1. (bobyang.03 login) https://robyang-3487.koyeb.app/4gtv.m3u
@@ -274,7 +301,8 @@ https://t.me/livednowgroup/379194
 
 
 ## DDNS
-1. https://www.dynu.com/ (can created subdomain but can only hosted in dynu. they cannot change nameservers. up to 4 free third level domain per account)
+1. dynv6.com
+2. https://www.dynu.com/ (can created subdomain but can only hosted in dynu. they cannot change nameservers. up to 4 free third level domain per account)
    1. *.ooguy.com
    2. *.ddnsfree.com
    3. *.freeddns.org

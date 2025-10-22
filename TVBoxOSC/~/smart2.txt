@@ -83,7 +83,7 @@ Bloomberg News,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=b
 Al-Jazeera,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=aljazeera_twn
 Rock Entertainment,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Rockentertain
 Showcase,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Showcase_mega
-BolaArena 1,http://50.7.238.98:8278/Bolaarena1
+BolaArena 1,http://66.90.99.154:8278/Bolaarena1
 BolaArena 2,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Bolaarena2
 SmartTV-Singapore,#genre#
 Channel 5,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Channel5HD
@@ -245,7 +245,7 @@ CCTV-5+ 體育賽事 HD,http://cookies.elementfx.com/chaojidianshi/chaojidianshi
 RTM Sports HD,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Rtmsport
 Arena,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Arena
 Arena 2,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Arena2
-BolaArena 1,http://50.7.238.98:8278/Bolaarena1
+BolaArena 1,http://66.90.99.154:8278/Bolaarena1
 Bein 1 Sports,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bein1_mega
 Bein 2 Sports,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bein2_mega
 Bein 3 Sports,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bein3_mega
@@ -259,7 +259,7 @@ SmartTV-Taiwan,#genre#
 TVBS News 新聞,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=tvbs_n
 TVBS 歡樂台 （備份）,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=tvbshuanle_twn
 TVBS HD,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=tvbs
-中天新聞 HD,http://50.7.92.106:8278/ctinews
+中天新聞 HD,http://66.90.99.154:8278/ctinews
 中天娛樂 CTI Entertaiment,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ctient
 中天綜合 CTI Metro,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ctizhonghe
 中天亞洲台,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ctiasia_twn
@@ -389,8 +389,8 @@ AXN Taiwan,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=axn_t
 龍華洋片 Lunghua Western,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=lunghuawestern_twn
 龍詳時代,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=lungxiangtime_twn
 Animax,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Animax
-Movies Now HD,http://50.7.92.106:8278/moviesnow_raj
-Star Movies HD,http://50.7.92.106:8278/starmovies_raj
+Movies Now HD,http://66.90.99.154:8278/moviesnow_raj
+Star Movies HD,http://66.90.99.154:8278/starmovies_raj
 衛視中文台 Star Movies Chinese,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=weishichinese_twn
 HBO Family,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Hbofamily
 衛視電影台,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=weishimovie_twn
@@ -483,7 +483,7 @@ Amarin,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=amarin_pa
 Ch 8,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ch8_pat
 GmmOne,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=gmmone_pat
 Mono,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=mono_pat
-Thairath,http://50.7.92.106:8278/thairath_pat
+Thairath,http://66.90.99.154:8278/thairath_pat
 tpbs,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=tpbs_pat
 Workpoint,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=workpoint_pat
 Gmm Channel,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=gmmchannel_pat
@@ -495,9 +495,9 @@ TPTV,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=tptv_pat
 SmartTV-United Kingdom,#genre#
 BBC 1,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bbc1_antik
 BBC 2,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bbc2_antik
-CBBC,http://50.7.92.106:8278/cbbc_antik
+CBBC,http://66.90.99.154:8278/cbbc_antik
 More4,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=more4_antik
-Freesports,http://50.7.92.106:8278/freesports_antik
+Freesports,http://66.90.99.154:8278/freesports_antik
 Skynews,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=skynews_antik
 Pick TV,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=picktv_antik
 itv 1,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=itv1_antik
@@ -514,7 +514,7 @@ Boomerang,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Boomer
 BBC Earth HD,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bbcearth_twn
 BBC Earth Lifestyle,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bbclifestyle_twn
 MTV Live,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=mtvhd_twn
-Star Movies HD,http://50.7.92.106:8278/starmovies_raj
+Star Movies HD,http://66.90.99.154:8278/starmovies_raj
 NHK World,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=nhkworld_japan
 HBO HD,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Hbo
 Warner TV,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=WarnerTV
@@ -535,7 +535,7 @@ Hits Movie,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Hitsm
 Animal Planet (Eng),http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=AnimalPlanet
 CNBC,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=cnbc_twn
 TLC,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Tlc
-BBC World News,http://50.7.92.106:8278/bbcworldnews_antik
+BBC World News,http://66.90.99.154:8278/bbcworldnews_antik
 HGTV,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=HGTV
 Axn HD,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=Axn
 Bloomberg News,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=bloomberg_twn
@@ -557,8 +557,8 @@ SmartTV-Korea,#genre#
 Arirang HD,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=arirang_korea
 Yonhap News,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=yonhapnews_korea
 CBS,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=cbs_korea
-EBS 1,http://50.7.92.106:8278/ebs1_korea
-EBS2,http://50.7.92.106:8278/ebs2_korea
+EBS 1,http://66.90.99.154:8278/ebs1_korea
+EBS2,http://66.90.99.154:8278/ebs2_korea
 EBS Plus2,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ebsplus2_korea
 SBS Plus,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=sbsplus_korea
 YTN,http://cookies.elementfx.com/chaojidianshi/chaojidianshi.php?id=ytn_korea
