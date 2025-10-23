@@ -30,31 +30,38 @@
 
 ## 點播接口：
 1. Rob Yang 點直播線源: http://RobYang.ggff.net 或 http://RobYang.dpdns.org 或 https://RobYang.serv00.net
-2. Jack直播: https://php.946985.filegear-sg.me/jackTV.m3u
-3. 沐晨:https://py.doube.eu.org/static/t4.json 
-4. 寶盒=欧乐,泥巴　https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json
-5. 泥巴,独播库,小宝,欧乐,腐剧　https://raw.githubusercontent.com/qist/tvbox/master/jsm.json (https://github.com/qist/tvbox)
-6. https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json （https://github.com/gaotianliuyun/gao/tree/master） 
-7. http://home.jundie.top:81/top98.json
-8. https://raw.githubusercontent.com/jake3737/tvbox/master/js.json 
-9. 教學 https://gitlab.com/xmbjm/omg/-/raw/main/omg.json
-10. 欧乐,泥巴 (online js) https://gitlab.com/-/snippets/2343779/raw/main/snippetfile1.txt
+2. AnBox http://tv.anbox.ip-ddns.com/vod
+4. 沐晨: https://py.doube.eu.org/static/t4.json 
+5. 寶盒=欧乐,泥巴　https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json
+6. 泥巴,独播库,小宝,欧乐,腐剧　https://raw.githubusercontent.com/qist/tvbox/master/jsm.json (https://github.com/qist/tvbox)
+7. https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json （https://github.com/gaotianliuyun/gao/tree/master） 
+8. http://home.jundie.top:81/top98.json
+9. https://raw.githubusercontent.com/jake3737/tvbox/master/js.json 
+10. 教學 https://gitlab.com/xmbjm/omg/-/raw/main/omg.json
+11. 欧乐,泥巴 (online js) https://gitlab.com/-/snippets/2343779/raw/main/snippetfile1.txt
 
 
 ## 直播接口： 
-1. Rob Yang 點直播線源: http://RobYang.ggff.net 或 http://RobYang.rr.nu 或 http://RobYang.runasp.net 或 https://RobYang.serv00.net 或 http://robyang.zone.id
-5. https://www.juwanhezi.com/more/live 
+1. Rob Yang 點直播線源: http://RobYang.ggff.net 或 http://RobYang.dpdns.org 或 https://RobYang.serv00.net 或 http://robyang.zone.id 或 http://RobYang.runasp.net 
+2. AnBox http://tv.anbox.ip-ddns.com/live
+3. Jack直播: https://php.946985.filegear-sg.me/jackTV.m3u  (Taiwan IP only)
+4. https://www.juwanhezi.com/more/live 
+5. http://晓峰.azip.dpdns.org:5008/?type=m3u (Taiwan IP only)
+6. Judy: https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/4GTV.m3u  (Taiwan IP only)
+7. https://php.946985.filegear-sg.me/jackTV.m3u (slow.. change channels)
 
 
 ## 多接口List：
-1. https://raw.githubusercontent.com/cyalias/mytvs-github/refs/heads/main/myjk.json
-2. https://tvbox.youdu.fan
-3. https://www.upx8.com/4021
-4. https://xn--qoqw77q.top/dcjk.html
-5. http://www.52sw.top:678/play/oj1381/index.php?get=159169
-6. https://tianyastudio.blogspot.com/search/label/TV 
-7. https://github.com/li5bo5/TVBox?tab=readme-ov-file
-8. International: https://iptv-org.github.io/iptv/index.m3u (https://github.com/iptv-org/iptv)
+1. https://yang-1989.eu.org/
+2. https://raw.githubusercontent.com/cyalias/mytvs-github/refs/heads/main/myjk.json
+3. https://tvbox.youdu.fan
+4. https://www.upx8.com/4021
+5. https://xn--qoqw77q.top/dcjk.html
+6. http://www.52sw.top:678/play/oj1381/index.php?get=159169
+7. https://tianyastudio.blogspot.com/search/label/TV 
+8. https://github.com/li5bo5/TVBox?tab=readme-ov-file
+9. International: https://iptv-org.github.io/iptv/index.m3u (https://github.com/iptv-org/iptv)
+10. 
 
 ## 特別解析json:
 1. https://github.com/wnddwc/daiweichun
