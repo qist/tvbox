@@ -1,0 +1,19 @@
+{
+    "防丢url": "https://fuliwz.neocities.org/panda/",
+    "主页url": "https://www.panda9278.sbs/",
+    "分类url": "/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    "搜索url": "/index.php/vod/search/page/{pg}/wd/{wd}.html",
+    "分类": "国产$1#日韩$2#综合$3",
+    "类型": "国产自拍$6#主播诱惑$7#探花约炮$8#偷拍偷窥$9#网曝吃瓜$10#抖阴短片$11#传媒剧情$12||日韩主播$13#日韩无码$14#中文字幕$15#AV解说$16#换脸明星$20#强奸乱伦$21#女优明星$22||欧美激情$23#重口激情$24#三级伦理$25#剧情动漫$26#SM调教$27#女同性恋$28#VR视角$29",
+    "数组": "\"item-box\">&&</li>",
+    "编码": "UTF-8",
+    "图片": "src=\"&&\"",
+    "标题": "title=\"&&\"",
+    "链接": "href=\"&&\"",
+    "简介": "description\" content=\"&&\"",
+    "副标题": "20+添加时间:</small><small>&&</small>",
+    "请求头": "User-Agent$MOBILE_UA",
+    "搜索模式": "1",
+    "直接播放": "1",
+    "跳转播放链接": "var player_*\"url\":\"&&\""
+}

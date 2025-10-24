@@ -1,0 +1,21 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "主页url": "https://wap.mogudong.com/",
+    "首页": "120",
+    "起始页": "1",
+    "简介": "display: none;\">&&</span>",
+    "分类url": "https://wap.mogudong.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+    "分类": "电影&电视剧&综艺&动漫&短剧大全",
+    "分类值": "dianying&dianshiju&zongyi&dongman&duanju",
+    "跳转播放链接": "var player_*\"url\":\"&&\"",
+    "搜索请求头": "User-Agent$MOBILE_UA",
+    "搜索url": "https://wap.mogudong.com/vodsearch/{wd}----------{pg}---.html",
+    "搜索模式": "1",
+    "筛选": "1",
+    "类型": "动作片$dongzuopian#喜剧片$xijupian#爱情片$aiqingpian#科幻片$kehuanpian#恐怖片$kongbupian#剧情片$juqingpian#战争片$zhanzhengpian#动画片$dongman||国产剧$guochanju#韩国剧$gangtaiju#欧美剧$rihanju#香港剧$oumeiju#台湾剧$taiwanju#日本剧$ribenju#泰国剧$taiguoju||港台综艺$gangtaizongyi#大陆综艺$daluzongyi#日韩综艺$rihanzongyi#欧美综艺$oumeizongyi||国产动漫$guochandongman#日韩动漫$rihandongman#欧美动漫$oumeidongman||空",
+    "排序": "最新上映&超高人气&全网热播&高分好评",
+    "排序值": "time&hits&up&score",
+    "年份": "1950-2025",
+    "年份值": "*"
+}
