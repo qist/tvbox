@@ -893,7 +893,7 @@
 			"name": "🈲🔞Jable",
 			"type": 3,
 			"api": "csp_Jable",
-			"jar": "./fm.jar",
+			"jar": "./jar/fm.jar",
 			"searchable": 1,
 			"changeable": 0
 	},
