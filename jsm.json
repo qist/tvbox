@@ -13,8 +13,8 @@
 "sites":[
 // {"key":"robYang1","name":"🏠Rob Yang 就是我,我們不熟,有事嗎？","type":3,"api":"csp_LiteApple","searchable":0,"quickSearch":0,"changeable":0},
 //{"key":"robYang8","name":"🏘️點直播源 https://RobYang.serv00.net/VodLive/jb8ffa.php","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://4tvbox.ggff.net/ys.json","jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.ggff.net","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/ys.json","jar": "./jar/custom_spiderNY.jar"}, //,"jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
-// {"key":"robYang10小宝","name":"🏘️點直播源 http://RobYang.ggff.net","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
+{"key":"robYang9纽约","name":"🏘️點直播源 http://RobYang.dpdns.org","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/ys.json","jar": "./jar/custom_spiderNY.jar"}, //,"jar": "https://4tvbox.ggff.net/custom_spider.jar"}, //https://4tvbox.ggff.net/custom_spider.jar;
+// {"key":"robYang10小宝","name":"🏘️點直播源 http://RobYang.dpdns.org","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
 
 {"key":"drpy_js_小宝影院[飞]","name":"影視| 小宝[飛]","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/小宝影院[飞].js"},
 {"key":"nyys","name":"影視| 纽约[直连]","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/ys.json","jar": "./jar/custom_spiderNY.jar"}, //https://4tvbox.ggff.net/custom_spider.jar; "ext":"https://4tvbox.ggff.net/ys.json"
