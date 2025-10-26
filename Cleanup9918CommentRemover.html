@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Comment Remover</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        textarea {
+            width: 100%;
+            height: 400px;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+        .btn-secondary {
+            background: #2196F3;
+        }
+        .btn-secondary:hover {
+            background: #0b7dda;
+        }
+        .info {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .success {
+            background: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧹 JSON Comment Remover</h1>
+        <p class="subtitle">Remove // comments from your JSON file</p>
+        
+        <div class="info">
+            <strong>📋 Instructions:</strong>
+            <ol style="margin: 10px 0 0 20px; line-height: 1.8;">
+                <li>Paste your JSON content below</li>
+                <li>Click "Remove Comments"</li>
+                <li>Copy the cleaned output or download it</li>
+                <li>Use the cleaned JSON in the other tool to remove duplicates</li>
+            </ol>
+        </div>
+        
+        <h3>Input (with comments):</h3>
+        <textarea id="input" placeholder="Paste your JSON here..."></textarea>
+        
+        <button class="btn" onclick="cleanJSON()">Remove Comments</button>
+        <button class="btn btn-secondary" onclick="downloadCleaned()">Download Cleaned JSON</button>
+        
+        <div class="success" id="success">
+            ✓ Comments removed successfully! <span id="stats"></span>
+        </div>
+        
+        <h3>Output (cleaned):</h3>
+        <textarea id="output" placeholder="Cleaned JSON will appear here..." readonly></textarea>
+        
+        <button class="btn btn-secondary" onclick="copyToClipboard()">Copy to Clipboard</button>
+    </div>
+
+    <script>
+        let cleanedJSON = '';
+        
+        function cleanJSON() {
+            const input = document.getElementById('input').value;
+            
+            if (!input.trim()) {
+                alert('Please paste some JSON first!');
+                return;
+            }
+            
+            // Split into lines
+            let lines = input.split('\n');
+            let originalLines = lines.length;
+            
+            // Remove lines that start with // (after any whitespace)
+            let cleaned = [];
+            let removedCount = 0;
+            
+            for (let line of lines) {
+                const trimmed = line.trim();
+                
+                // Skip comment lines
+                if (trimmed.startsWith('//')) {
+                    removedCount++;
+                    continue;
+                }
+                
+                // For other lines, check for inline comments but preserve URLs
+                if (line.includes('//')) {
+                    // Check if it's a URL
+                    if (line.includes('http://') || line.includes('https://')) {
+                        cleaned.push(line);
+                    } else {
+                        // Remove inline comment
+                        const commentIndex = line.indexOf('//');
+                        const beforeComment = line.substring(0, commentIndex).trimEnd();
+                        if (beforeComment) {
+                            cleaned.push(beforeComment);
+                        }
+                        removedCount++;
+                    }
+                } else {
+                    cleaned.push(line);
+                }
+            }
+            
+            cleanedJSON = cleaned.join('\n');
+            
+            // Remove trailing commas before ] or }
+            cleanedJSON = cleanedJSON.replace(/,(\s*[}\]])/g, '$1');
+            
+            // Show output
+            document.getElementById('output').value = cleanedJSON;
+            
+            // Show success message
+            const success = document.getElementById('success');
+            success.style.display = 'block';
+            document.getElementById('stats').textContent = 
+                `(Removed ${removedCount} comment lines)`;
+            
+            // Try to validate
+            try {
+                JSON.parse(cleanedJSON);
+                document.getElementById('stats').textContent = 
+                    `(Removed ${removedCount} comment lines) ✓ Valid JSON!`;
+            } catch (e) {
+                document.getElementById('stats').textContent = 
+                    `(Removed ${removedCount} comment lines) ⚠️ Still has errors: ${e.message}`;
+            }
+        }
+        
+        function copyToClipboard() {
+            const output = document.getElementById('output');
+            output.select();
+            document.execCommand('copy');
+            alert('Copied to clipboard!');
+        }
+        
+        function downloadCleaned() {
+            if (!cleanedJSON) {
+                alert('Please clean the JSON first!');
+                return;
+            }
+            
+            const blob = new Blob([cleanedJSON], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = '9918_no_comments.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

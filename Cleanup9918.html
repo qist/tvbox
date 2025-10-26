@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Cleanup Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .upload-section {
+            background: #f8f9fa;
+            border: 3px dashed #667eea;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            transition: all 0.3s;
+        }
+        
+        .upload-section:hover {
+            border-color: #764ba2;
+            background: #f0f1ff;
+        }
+        
+        .upload-section input[type="file"] {
+            display: none;
+        }
+        
+        .upload-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .upload-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .results {
+            display: none;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .label {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+        
+        .duplicates-list {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+        
+        .duplicates-list h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .duplicate-item {
+            background: white;
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+            border-left: 4px solid #e74c3c;
+            font-size: 0.9em;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: #27ae60;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #229954;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: #3498db;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧹 JSON Cleanup Tool</h1>
+            <p>Remove duplicates and clean up your 9918.json file</p>
+        </div>
+        
+        <div class="content">
+            <div class="upload-section" id="uploadSection">
+                <h2>📁 Upload Your JSON File</h2>
+                <p style="margin: 20px 0; color: #666;">Select your 9918.json file to clean it up</p>
+                <input type="file" id="fileInput" accept=".json">
+                <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                    Choose File
+                </button>
+                <p id="fileName" style="margin-top: 15px; color: #667eea; font-weight: bold;"></p>
+                
+                <div style="margin-top: 30px; padding-top: 30px; border-top: 2px solid #ddd;">
+                    <h3 style="margin-bottom: 15px;">Or paste your JSON content:</h3>
+                    <textarea id="jsonInput" 
+                              style="width: 100%; height: 200px; padding: 15px; border: 2px solid #667eea; border-radius: 8px; font-family: monospace; font-size: 0.9em;"
+                              placeholder="Paste your JSON content here..."></textarea>
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <button class="upload-btn" onclick="processText()">
+                            Process Text
+                        </button>
+                        <button class="upload-btn" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);" onclick="previewCleaned()">
+                            Preview Cleaned
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Processing your file...</p>
+            </div>
+            
+            <div class="results" id="results">
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="number" id="originalCount">0</div>
+                        <div class="label">Original Sites</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="cleanedCount">0</div>
+                        <div class="label">Cleaned Sites</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="removedCount">0</div>
+                        <div class="label">Removed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number" id="reductionPercent">0%</div>
+                        <div class="label">Reduction</div>
+                    </div>
+                </div>
+                
+                <div class="duplicates-list">
+                    <h3>🗑️ Duplicates Removed:</h3>
+                    <div id="duplicatesList"></div>
+                </div>
+                
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="downloadCleaned()">
+                        ⬇️ Download Cleaned JSON
+                    </button>
+                    <button class="btn btn-secondary" onclick="reset()">
+                        🔄 Upload Another File
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let cleanedData = null;
+        let duplicatesRemoved = [];
+
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                document.getElementById('fileName').textContent = `Selected: ${file.name}`;
+                processFile(file);
+            }
+        });
+
+        function processFile(file) {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('uploadSection').style.display = 'none';
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    let content = e.target.result;
+                    
+                    // Try to fix common JSON errors
+                    content = fixCommonJSONErrors(content);
+                    
+                    const data = JSON.parse(content);
+                    cleanData(data);
+                } catch (error) {
+                    document.getElementById('loading').style.display = 'none';
+                    const errorDiv = document.createElement('div');
+                    errorDiv.style.cssText = 'background: #fee; border: 2px solid #e74c3c; padding: 20px; border-radius: 8px; margin: 20px 0;';
+                    errorDiv.innerHTML = `
+                        <h3 style="color: #e74c3c; margin-bottom: 10px;">❌ JSON Parsing Error</h3>
+                        <p style="margin-bottom: 10px;"><strong>Error:</strong> ${error.message}</p>
+                        <p style="color: #666; font-size: 0.9em;">The JSON file has syntax errors. Common issues:</p>
+                        <ul style="margin: 10px 0; padding-left: 20px; color: #666;">
+                            <li>Missing quotes around property names</li>
+                            <li>Trailing commas in arrays or objects</li>
+                            <li>Comments in JSON (// or /* */)</li>
+                            <li>Single quotes instead of double quotes</li>
+                        </ul>
+                        <p style="margin-top: 15px;">
+                            <button class="btn btn-secondary" onclick="reset()">Try Again</button>
+                        </p>
+                    `;
+                    document.getElementById('uploadSection').insertAdjacentElement('afterend', errorDiv);
+                }
+            };
+            reader.readAsText(file);
+        }
+        
+        function fixCommonJSONErrors(content) {
+            // Step 1: Remove all comment lines (lines starting with // after any whitespace)
+            let lines = content.split('\n');
+            lines = lines.filter(line => {
+                const trimmed = line.trim();
+                return !trimmed.startsWith('//');
+            });
+            content = lines.join('\n');
+            
+            // Step 2: Remove inline comments but preserve URLs (http:// and https://)
+            // Split by lines and process each
+            lines = content.split('\n');
+            lines = lines.map(line => {
+                // Don't touch lines with URLs
+                if (line.includes('http://') || line.includes('https://')) {
+                    return line;
+                }
+                // Remove // comments from other lines
+                const commentIndex = line.indexOf('//');
+                if (commentIndex !== -1) {
+                    return line.substring(0, commentIndex);
+                }
+                return line;
+            });
+            content = lines.join('\n');
+            
+            // Step 3: Remove block comments /* */
+            content = content.replace(/\/\*[\s\S]*?\*\//g, '');
+            
+            // Step 4: Remove control characters
+            content = content.replace(/[\x00-\x08\x0B-\x0C\x0E-\x1F\x7F]/g, '');
+            
+            // Step 5: Fix trailing commas before closing brackets
+            content = content.replace(/,(\s*[}\]])/g, '$1');
+            
+            // Step 6: Remove multiple consecutive commas
+            content = content.replace(/,(\s*),+/g, ',');
+            
+            // Step 7: Remove commas after opening brackets
+            content = content.replace(/(\[)\s*,/g, '$1');
+            content = content.replace(/(\{)\s*,/g, '$1');
+            
+            // Step 8: Fix property names that might not be quoted
+            // This is tricky - only fix obvious cases
+            content = content.replace(/([{,]\s*)([a-zA-Z_$][a-zA-Z0-9_$]*)\s*:/g, function(match, prefix, prop) {
+                // Don't quote if already quoted or if it's a number
+                if (prop.match(/^[0-9]+$/)) return match;
+                return prefix + '"' + prop + '":';
+            });
+            
+            return content;
+        }
+        
+        function processText() {
+            const content = document.getElementById('jsonInput').value;
+            if (!content.trim()) {
+                alert('Please paste some JSON content first!');
+                return;
+            }
+            
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('uploadSection').style.display = 'none';
+            
+            setTimeout(() => {
+                try {
+                    let fixedContent = fixCommonJSONErrors(content);
+                    
+                    // Try parsing
+                    const data = JSON.parse(fixedContent);
+                    cleanData(data);
+                } catch (error) {
+                    document.getElementById('loading').style.display = 'none';
+                    
+                    // Extract line and column info
+                    let lineInfo = '';
+                    const match = error.message.match(/position (\d+)|line (\d+)|column (\d+)/gi);
+                    if (match) {
+                        lineInfo = ` (${match.join(', ')})`;
+                    }
+                    
+                    const errorDiv = document.createElement('div');
+                    errorDiv.style.cssText = 'background: #fee; border: 2px solid #e74c3c; padding: 20px; border-radius: 8px; margin: 20px 0;';
+                    errorDiv.innerHTML = `
+                        <h3 style="color: #e74c3c; margin-bottom: 10px;">❌ JSON Parsing Error</h3>
+                        <p style="margin-bottom: 10px; background: white; padding: 10px; border-radius: 4px; font-family: monospace;">
+                            <strong>Error:</strong> ${error.message}
+                        </p>
+                        <div style="background: white; padding: 15px; border-radius: 4px; margin: 15px 0;">
+                            <p style="color: #666; font-size: 0.95em; margin-bottom: 10px;"><strong>Common solutions:</strong></p>
+                            <ol style="margin: 10px 0; padding-left: 20px; color: #555; line-height: 1.8;">
+                                <li>Remove all <code>//</code> comments from your JSON</li>
+                                <li>Check for unescaped newlines in string values</li>
+                                <li>Look for trailing commas before <code>}</code> or <code>]</code></li>
+                                <li>Ensure all property names are in double quotes</li>
+                                <li>Remove any special control characters</li>
+                                <li>Validate your JSON at <a href="https://jsonlint.com" target="_blank" style="color: #667eea;">jsonlint.com</a></li>
+                            </ol>
+                        </div>
+                        <details style="margin-top: 15px; background: white; padding: 10px; border-radius: 4px;">
+                            <summary style="cursor: pointer; font-weight: bold; color: #667eea;">View attempted fix (click to expand)</summary>
+                            <pre style="margin-top: 10px; padding: 10px; background: #f8f9fa; border-radius: 4px; overflow-x: auto; font-size: 0.85em; max-height: 300px; overflow-y: auto;">${escapeHtml(fixedContent.substring(0, 2000))}${fixedContent.length > 2000 ? '\n\n... (truncated)' : ''}</pre>
+                        </details>
+                        <p style="margin-top: 15px;">
+                            <button class="btn btn-secondary" onclick="reset()">Try Again</button>
+                            <button class="btn btn-primary" onclick="downloadFixedJSON()" style="margin-left: 10px;">Download Attempted Fix</button>
+                        </p>
+                    `;
+                    document.querySelector('.content').insertBefore(errorDiv, document.querySelector('.content').firstChild);
+                    
+                    // Store the attempted fix for download
+                    window.attemptedFix = fixedContent;
+                }
+            }, 100);
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function downloadFixedJSON() {
+            if (window.attemptedFix) {
+                const dataBlob = new Blob([window.attemptedFix], { type: 'application/json' });
+                const url = URL.createObjectURL(dataBlob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = '9918_attempted_fix.json';
+                link.click();
+                URL.revokeObjectURL(url);
+            }
+        }
+        
+        function previewCleaned() {
+            const content = document.getElementById('jsonInput').value;
+            if (!content.trim()) {
+                alert('Please paste some JSON content first!');
+                return;
+            }
+            
+            const cleaned = fixCommonJSONErrors(content);
+            
+            // Create preview modal
+            const modal = document.createElement('div');
+            modal.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 20px;';
+            modal.innerHTML = `
+                <div style="background: white; border-radius: 12px; max-width: 1000px; width: 100%; max-height: 90vh; display: flex; flex-direction: column;">
+                    <div style="padding: 20px; border-bottom: 2px solid #eee;">
+                        <h2 style="margin: 0;">Preview of Cleaned JSON</h2>
+                        <p style="margin: 10px 0 0 0; color: #666;">Comments and errors removed. Review before processing.</p>
+                    </div>
+                    <div style="flex: 1; overflow: auto; padding: 20px;">
+                        <pre style="margin: 0; padding: 15px; background: #f8f9fa; border-radius: 8px; font-size: 0.85em; white-space: pre-wrap; word-wrap: break-word;">${escapeHtml(cleaned)}</pre>
+                    </div>
+                    <div style="padding: 20px; border-top: 2px solid #eee; display: flex; gap: 10px; justify-content: flex-end;">
+                        <button class="btn btn-secondary" onclick="this.closest('[style*=fixed]').remove()">
+                            Close
+                        </button>
+                        <button class="btn btn-primary" onclick="downloadPreview()">
+                            Download This
+                        </button>
+                        <button class="btn btn-primary" style="background: #27ae60;" onclick="this.closest('[style*=fixed]').remove(); processText();">
+                            Process This
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+            
+            // Store for download
+            window.previewContent = cleaned;
+            
+            // Close on outside click
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.remove();
+                }
+            });
+        }
+        
+        function downloadPreview() {
+            if (window.previewContent) {
+                const dataBlob = new Blob([window.previewContent], { type: 'application/json' });
+                const url = URL.createObjectURL(dataBlob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = '9918_cleaned_preview.json';
+                link.click();
+                URL.revokeObjectURL(url);
+            }
+        }
+
+        function cleanData(data) {
+            const sites = data.sites || [];
+            const cleaned = [];
+            const seenKeys = new Set();
+            const seenCombos = new Set();
+            duplicatesRemoved = [];
+
+            const originalCount = sites.length;
+
+            sites.forEach((site, index) => {
+                const key = site.key || '';
+                const name = site.name || '';
+                const api = site.api || '';
+                const type = site.type || '';
+                
+                const comboId = `${name}|${api}|${type}`;
+                
+                let isDuplicate = false;
+                let reason = '';
+
+                if (key && seenKeys.has(key)) {
+                    isDuplicate = true;
+                    reason = `Duplicate key: "${key}"`;
+                } else if (seenCombos.has(comboId)) {
+                    isDuplicate = true;
+                    reason = `Duplicate name/api/type combo`;
+                }
+
+                if (isDuplicate) {
+                    duplicatesRemoved.push({
+                        name: name || 'Unknown',
+                        key: key || 'N/A',
+                        reason: reason
+                    });
+                } else {
+                    cleaned.push(site);
+                    if (key) seenKeys.add(key);
+                    seenCombos.add(comboId);
+                }
+            });
+
+            data.sites = cleaned;
+            cleanedData = data;
+
+            // Update UI
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('results').style.display = 'block';
+            
+            document.getElementById('originalCount').textContent = originalCount;
+            document.getElementById('cleanedCount').textContent = cleaned.length;
+            document.getElementById('removedCount').textContent = duplicatesRemoved.length;
+            document.getElementById('reductionPercent').textContent = 
+                ((duplicatesRemoved.length / originalCount) * 100).toFixed(1) + '%';
+
+            // Display duplicates
+            const dupList = document.getElementById('duplicatesList');
+            if (duplicatesRemoved.length === 0) {
+                dupList.innerHTML = '<p style="color: #27ae60; font-weight: bold;">✓ No duplicates found!</p>';
+            } else {
+                dupList.innerHTML = duplicatesRemoved.slice(0, 50).map((dup, i) => `
+                    <div class="duplicate-item">
+                        <strong>#${i + 1}</strong> - ${dup.name} 
+                        <span style="color: #888;">(${dup.reason})</span>
+                    </div>
+                `).join('');
+                
+                if (duplicatesRemoved.length > 50) {
+                    dupList.innerHTML += `<p style="text-align: center; color: #666; margin-top: 10px;">
+                        ... and ${duplicatesRemoved.length - 50} more
+                    </p>`;
+                }
+            }
+        }
+
+        function downloadCleaned() {
+            const dataStr = JSON.stringify(cleanedData, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = '9918_cleaned.json';
+            link.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function reset() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('results').style.display = 'none';
+            document.getElementById('uploadSection').style.display = 'block';
+            document.getElementById('fileName').textContent = '';
+            document.getElementById('fileInput').value = '';
+            document.getElementById('jsonInput').value = '';
+            
+            // Remove error messages
+            document.querySelectorAll('[style*="background: #fee"]').forEach(el => el.remove());
+            
+            cleanedData = null;
+            duplicatesRemoved = [];
+        }
+    </script>
+</body>
+</html>
