@@ -1,0 +1,15 @@
+ {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://wwww.cqifei.my/",
+                "数组": "<dt>&&</dl>",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"[替换:detail>>play#.html>>/sid/1/nid/1.html]",
+                "分类url": "https://wwww.cqifei.my/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z",
+                "分类二次截取": "menu clearfix&&wrap pre",
+                "分类数组": "<a&&/a>",
+                "分类标题": ">&&</a",
+                "分类ID": "/index.php/vod/type/id/&&.html"
+            }
+        },
