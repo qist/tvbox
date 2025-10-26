@@ -1,5 +1,5 @@
 {
-    "SiteUrl": "https://www.kuafuzy.com,https://www.kfzy.cc",
+    "SiteUrl": "https://www.kuakesou.com,https://www.kuafuzy.com,https://www.kfzy.cc",
     "Classes": [
         {
             "type_name": "电影",
@@ -26,5 +26,5 @@
             "type_id": "6"
         }
     ],
-    "Cookie": "bbs_token=zNQpYs_2BmC2e_2FcUM_2BmuihZ33Jswh_2Fj7sPtelqcw_3D_3D; bbs_sid=65idikju2chtl9sv5or02qlpjj"
+    "Cookie": "bbs_sid=tur6ogbmie3vktanq1kvtifc33; __mxau__c2-8eEZkze2=5a293d55-0c87-4289-8e97-3e3e9bdca127; __mxaf__c2-8eEZkze2=1761368720; isClose=yes; bbs_token=PHRxDgfvA34H_2B_2BsEtx_2B4CbdhqlAEtJvC0cPA_2Bo0LaoY_3D; __mxas__c2-8eEZkze2=%7B%22sid%22%3A%2271e3b1e3-3d01-4d84-ad2c-b86be311a876%22%2C%22vd%22%3A4%2C%22stt%22%3A136%2C%22dr%22%3A26%2C%22expires%22%3A1761370656%2C%22ct%22%3A1761368856%7D; __mxav__c2-8eEZkze2=4"
 }
