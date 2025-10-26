@@ -85,14 +85,7 @@
 			"order_num": 0,
 			"ext": "./js/36直播[密].js"
 		},
-        {
-            "key": "直播转点播1",
-            "name": "直播转点播",
-            "type": 3,
-            "api": "./js/直播转点播.js",
-            "jar": "./jar/xyq.jar",
-            "ext": "./wj/直播/直播.txt"
-        },
+
 //{"key":"drpy_js_Missav","name":"Missav","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Missav.js"},
 // {"key":"drpy_js_玩偶姐姐","name":"玩偶姐姐","type":3,"api":"./lib/drpy2.min.js","ext":"./js/玩偶姐姐.js"},
 {"key":"drpy_js_朱古力","name":"朱古力","type":3,"api":"./lib/drpy2.min.js","ext":"./js/朱古力.js"},
@@ -1950,21 +1943,7 @@
                 "ratio": 1.6
             }
         },
-                {
-            "key": "javffm",
-            "name": "JAVFFM",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "https://ghfast.top/https://raw.githubusercontent.com/xwyjc/lwang/main/XYQHike/javffm.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
+
                 {
             "key": "javtsunami",
             "name": "javtsunami",
@@ -1980,30 +1959,8 @@
                 "ratio": 1.6
             }
         },
-                {
-            "key": "色花堂",
-            "name": "色花堂",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "filterable": 1,
-            "ext": "./json/色花堂.json",
-            "jar": "./jar/XBPQ.jar"
-        },
-        {
-            "key": "苹果av",
-            "name": "苹果av",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "jar": "./jar/xyqxbpq.jar",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "./json/苹果av.json",
-            "style": {
-                "type": "rect",
-                "ratio": 1.6
-            }
-        },
+
+
                 {
             "key": "13AV",
             "name": "13AV",
