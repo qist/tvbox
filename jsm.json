@@ -3535,6 +3535,23 @@
       "changeable": 0,
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
     },
+        {
+      "key": "MTV",
+      "name": "🎧MTV明星",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed490195f7bf50ac60b9"
+      }
+    },
+
     {
       "key": "ksxjj",
       "name": "🎧KTV",
@@ -3559,21 +3576,17 @@
       "quickSearch": 0,
       "changeable": 0
     },
-    {
-      "key": "MTV",
-      "name": "🎧MTV明星",
+
+        {
+      "key": "播客[听]",
+      "name": "🎧播客[聽]",
       "type": 3,
-      "api": "csp_BiliGuard",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": {
-        "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed490195f7bf50ac60b9"
-      }
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./js/播客[听].js"
     },
     {
       "key": "drpy_js_虎牙直播",
@@ -3589,7 +3602,7 @@
     },
     {
       "key": "dr_兔小贝",
-      "name": "📚兒童| 啓蒙",
+      "name": "📚兒童| 啓蒙 兔小贝",
       "type": 3,
       "api": "./FTY/drpy2.min.js",
       "ext": "./FTY/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
@@ -3673,39 +3686,8 @@
       "filterable": 0,
       "api": "./lib/lf_search3_min.js"
     },
-    {
-      "key": "drpy_js_4KHDR",
-      "name": "240. 磁力| 4KHDR[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/4khdr.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "drpy_js_MP4US",
-      "name": "磁力| MP4電影[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/mp4us.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
-    {
-      "key": "drpy_js_电影港",
-      "name": "磁力| 電影港[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/dygang.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30
-    },
+
+    
     {
       "key": "drpy_js_xb6v",
       "name": "磁力| 新版6v[js]",
@@ -3717,6 +3699,18 @@
       "changeable": 1,
       "timeout": 30
     },
+        {
+      "key": "drpy_js_6V新版[磁]",
+      "name": "磁力| 新版6V[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "./js/6V新版[磁].js",
+      "timeout": 30
+    },
+
     {
       "key": "drpy_js_dydhhy",
       "name": "影視| dydhhy[js]",
@@ -3748,17 +3742,7 @@
       "ext": "./js/磁力熊[磁].js",
       "timeout": 30
     },
-    {
-      "key": "drpy_js_6V新版[磁]",
-      "name": "磁力| 6V新版[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "./js/6V新版[磁].js",
-      "timeout": 30
-    },
+
     {
       "key": "XBPQ_麻衣影院",
       "name": "影視| 麻衣",
@@ -6883,17 +6867,7 @@
       "ext": "./js/小白菜电影.js"
     },
 
-    {
-      "key": "旋风视频",
-      "name": "旋風視頻",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./js/旋风视频.js"
-    },
+
     {
       "key": "小鸡暴走",
       "name": "小雞暴走",
@@ -6927,27 +6901,7 @@
       "filterable": 1,
       "playerType": 2
     },
-    {
-      "key": "drpy_js_菜狗",
-      "name": "官源┃搜狗[js]",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/菜狗.js"
-    },
-    {
-      "key": "采集之王",
-      "name": "780. 採集之王.js",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./js/采集之王.js?type=url&params=../json/采集.json"
-    },
+
    
     {
       "key": "免费影院",
@@ -6986,17 +6940,7 @@
       "order_num": 0,
       "ext": "./js/贝乐虎[儿].js"
     },
-    {
-      "key": "播客[听]",
-      "name": "🎧播客[聽]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./js/播客[听].js"
-    },
+
     {
       "key": "养生堂",
       "name": "養生｜知識",
