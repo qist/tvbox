@@ -2028,21 +2028,45 @@
         "ratio": 1.597
       }
     },
+     
+
+
+
     {
-      "key": "drpy_js_童趣",
-      "name": "📚少兒| 童趣[js]",
+      "key": "drpy_js_相声随身听",
+      "name": "📚相聲| 相聲隨身聽[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
+      "changeable": 0,
+      "ext": "./js/相声随身听.js"
+    },
+    {
+      "key": "drpy_js_评书随身听",
+      "name": "📚評書| 評書隨身聽[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "changeable": 0,
+      "ext": "./js/评书随身听.js"
+    },
+    {
+      "key": "哔哩哔哩相声",
+      "name": "📚嗶哩｜相聲",
+      "type": 3,
+      "api": "csp_Bili",
+      "jar": "./jar/spider.jar",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "./json/哔哩哔哩相声.json"
+      },
       "style": {
         "type": "rect",
         "ratio": 1.597
-      },
-      "ext": "./js/童趣.js"
+      }
     },
-    {
+       {
       "key": "drpy_js_兔小贝",
       "name": "200. 📚少兒| 兔小貝[js]",
       "type": 3,
@@ -2070,9 +2094,9 @@
         "json": "./FTY/少儿教育.json"
       }
     },
-    {
+	    {
       "key": "兔小贝[儿]",
-      "name": "🐇兔小貝[兒]",
+      "name": "📚兔小貝[兒]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -2081,9 +2105,10 @@
       "order_num": 0,
       "ext": "./js/兔小贝[儿].js"
     },
-    {
+	
+	    {
       "key": "少儿教育",
-      "name": "810. 少兒｜教育",
+      "name": "📚少兒｜教育",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -2100,38 +2125,32 @@
       }
     },
     {
-      "key": "drpy_js_相声随身听",
-      "name": "📚相聲| 相聲隨身聽[js]",
+      "key": "drpy_js_童趣",
+      "name": "📚少兒| 童趣[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "changeable": 0,
-      "ext": "./js/相声随身听.js"
-    },
-    {
-      "key": "drpy_js_评书随身听",
-      "name": "📚評書| 評書隨身聽[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "changeable": 0,
-      "ext": "./js/评书随身听.js"
-    },
-    {
-      "key": "哔哩哔哩相声",
-      "name": "嗶哩｜相聲",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "./jar/spider.jar",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "./json/哔哩哔哩相声.json"
-      },
+      "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.597
-      }
+      },
+      "ext": "./js/童趣.js"
+    },
+        {
+      "key": "dr_兔小贝",
+      "name": "📚兒童| 啓蒙 兔小贝",
+      "type": 3,
+      "api": "./FTY/drpy2.min.js",
+      "ext": "./FTY/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "小学课堂",
@@ -2151,7 +2170,7 @@
     },
     {
       "key": "小学课堂2",
-      "name": "小學｜課堂",
+      "name": "📚小學｜課堂",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -2185,7 +2204,7 @@
     },
     {
       "key": "初中课堂2",
-      "name": "初中｜課堂",
+      "name": "📚初中｜課堂",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -2219,7 +2238,7 @@
     },
     {
       "key": "高中教育2",
-      "name": "高中｜課堂",
+      "name": "📚高中｜課堂",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -3600,20 +3619,7 @@
       "changeable": 0,
       "ext": "./js/虎牙直播.js"
     },
-    {
-      "key": "dr_兔小贝",
-      "name": "📚兒童| 啓蒙 兔小贝",
-      "type": 3,
-      "api": "./FTY/drpy2.min.js",
-      "ext": "./FTY/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
+
     {
       "key": "drpy_js_播客",
       "name": "聚合| 播客[js]",
