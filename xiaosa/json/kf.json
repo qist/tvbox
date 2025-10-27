@@ -1,5 +1,5 @@
 {
-    "SiteUrl": "https://www.kuakesou.com,https://www.kuafuzy.com,https://www.kfzy.cc",
+    "SiteUrl": "https://www.kuafuzy.com,https://www.kfzy.cc",
     "Classes": [
         {
             "type_name": "电影",
@@ -26,5 +26,5 @@
             "type_id": "6"
         }
     ],
-    "Cookie": "bbs_sid=tur6ogbmie3vktanq1kvtifc33; __mxau__c2-8eEZkze2=5a293d55-0c87-4289-8e97-3e3e9bdca127; __mxaf__c2-8eEZkze2=1761368720; isClose=yes; bbs_token=PHRxDgfvA34H_2B_2BsEtx_2B4CbdhqlAEtJvC0cPA_2Bo0LaoY_3D; __mxas__c2-8eEZkze2=%7B%22sid%22%3A%2271e3b1e3-3d01-4d84-ad2c-b86be311a876%22%2C%22vd%22%3A4%2C%22stt%22%3A136%2C%22dr%22%3A26%2C%22expires%22%3A1761370656%2C%22ct%22%3A1761368856%7D; __mxav__c2-8eEZkze2=4"
+    "Cookie": "bbs_sid=qtrfbfct9gs8e7qat96o3nf09t; isClose=yes; __mxau__c2-lS6GI0pR=de438e75-e385-47c4-acb1-6564b407c7b1; __mxaf__c2-lS6GI0pR=1761439615; bbs_token=9NqiBWxAvM2MN_2FST20QOg5g9gcyzm2Hqfd9YwaQjK6Y_3D; __mxas__c2-lS6GI0pR=%7B%22sid%22%3A%22e4f30c47-1290-431b-b228-b9116c4744bd%22%2C%22vd%22%3A5%2C%22stt%22%3A168%2C%22dr%22%3A3%2C%22expires%22%3A1761476207%2C%22ct%22%3A1761474407%7D; __mxav__c2-lS6GI0pR=13"
 }
