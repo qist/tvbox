@@ -7548,7 +7548,7 @@
   "logo": "https://epg.112114.xyz/logo/{name}.png"
  },    
 
-{"name":"Jack", "type": 0, "url": " https://php.946985.filegear-sg.me/jackTV.m3u", "ext": {} , "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
+{"name":"Jack", "ua": "Goiptv/8.8.8", "url": " https://php.946985.filegear-sg.me/jackTV.m3u", "ext": {} , "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 // {"name":"SmartTV| 台港中日韓", "type": 3, "api": "https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt.py", "ext": {} ,"logo": "https://epg.112114.xyz/logo/{name}.png","epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"       },
 {"name":"Cat Smart", "type": 0, "playerType": 1, "url": "http://live.catvod.com/tv.m3u", "ext": {} , "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
 {"name":"一盒1| 台港中日韓","type":0,"url":"http://tv.anbox.ip-ddns.com/live","logo": "https://epg.112114.xyz/logo/{name}.png","epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong"},
