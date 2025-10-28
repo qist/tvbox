@@ -3298,18 +3298,7 @@
       "type": 3,
       "api": "./py/lingdu.py"
     },
-    {
-      "key": "Guazi",
-      "name": "瓜子影視",
-      "type": 3,
-      "api": "csp_Guazi",
-      "jar": "./jar/pg.jar",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 60,
-      "ext": ""
-    },
+
 
     {
       "key": "csp_AppYsV2_腐剧",
@@ -3471,6 +3460,18 @@
       "filterable": 1,
       "jar": "./jar/spider.jar"
     },
+        {
+      "key": "Guazi",
+      "name": "瓜子影視",
+      "type": 3,
+      "api": "csp_Guazi",
+      "jar": "./jar/pg.jar",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": ""
+    },
     {
       "key": "88js",
       "name": "⚽體育| 88",
@@ -3483,6 +3484,18 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
+    },
+        {
+      "key": "drpy_js_88看球",
+      "name": "⚽體育| 88看球[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "ext": "./js/88看球.js"
     },
         {
       "key": "88",
@@ -3498,18 +3511,7 @@
       }
     },
     
-    {
-      "key": "drpy_js_88看球",
-      "name": "⚽體育| 88看球[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "./js/88看球.js"
-    },
+
     {
       "key": "drpy_js_武享吧",
       "name": "⚽格鬥| 武享吧[js]",
@@ -3518,18 +3520,7 @@
       "changeable": 0,
       "ext": "./js/武享吧.js"
     },
-    {
-      "key": "drpy_js_酷奇MV",
-      "name": "🎧MV| 酷奇[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1
-      },
-      "ext": "./js/酷奇MV.js"
-    },
+
     {
       "key": "MTV2",
       "name": "180. 🎧MTV",
@@ -3586,7 +3577,18 @@
       "quickSearch": 0,
       "changeable": 0
     },
-
+    {
+      "key": "drpy_js_酷奇MV",
+      "name": "🎧MV| 酷奇[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "ext": "./js/酷奇MV.js"
+    },
         {
       "key": "播客[听]",
       "name": "🎧播客[聽]",
@@ -3597,6 +3599,13 @@
       "filterable": 1,
       "order_num": 0,
       "ext": "./js/播客[听].js"
+    },
+        {
+      "key": "drpy_js_播客",
+      "name": "聚合| 播客[js]",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/播客.js"
     },
     {
       "key": "drpy_js_虎牙直播",
@@ -3611,13 +3620,7 @@
       "ext": "./js/虎牙直播.js"
     },
 
-    {
-      "key": "drpy_js_播客",
-      "name": "聚合| 播客[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/播客.js"
-    },
+
     {
       "key": "drpy_js_网易公版影像",
       "name": "聚合| 網易公版[js]",
