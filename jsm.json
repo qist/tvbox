@@ -62,7 +62,7 @@
 
     {
       "key": "csp_XBiu歐樂影院ORG",
-      "name": "影視| 歐樂 (濾)",
+      "name": "影視|歐樂 (濾)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -320,11 +320,11 @@
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/XBPQ.jar",
-      "searchable": 1,
+      "searchable": 0,
       "style": {
         "ratio": 1.43
       },
-      "quickSearch": 1,
+      "quickSearch": 0,
       "filterable": 1,
       "ext": "./json/麦田.json"
     },
@@ -340,7 +340,7 @@
       "ext": "./js/夕云影视.js"
     },
     {
-      "key": "暖影院2",
+      "key": "暖影院",
       "name": "影視| 暖影院(濾)",
       "type": 3,
       "api": "csp_XBPQ",
@@ -1283,17 +1283,7 @@
     },
 
     
-    {
-      "key": "天龙影院",
-      "name": "天龍影院",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./js/天龙影院.js"
-    },
+
     {
       "key": "drpy_js_无忧影视",
       "name": "影視| 無憂[JS]",
@@ -2233,7 +2223,8 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./FTY/高中课堂.json"
+        "json": "./FTY/高中课堂.json",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       }
     },
     {
