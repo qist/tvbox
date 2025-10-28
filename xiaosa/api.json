@@ -96,6 +96,20 @@
             }
         },
         {
+            "key": "清风",
+            "name": "清风丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://qfys.myqf.asia",
+                "dataKey": "vpsj6z4e7scbjbis",
+                "dataIv": "vpsj6z4e7scbjbis",
+                "token": "aecce83813a4d1cc04632200b8c5b46eef67487a934fd7377b7c19ef93520b79",
+                "ua": "Mozilla/5.0 (Linux; Android 13; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
             "key": "秒看",
             "name": "秒看丨APP",
             "type": 3,
@@ -294,19 +308,6 @@
                 "url": "https://www.appdm.akandm.com",
                 "dataKey": "uI1TkPJC8B46AyN3",
                 "dataIv": "uI1TkPJC8B46AyN3"
-            }
-        },
-        {
-            "key": "万能",
-            "name": "万能丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://wnvod.cc",
-                "dataKey": "5uBvur6znNUmE3zb",
-                "dataIv": "5uBvur6znNUmE3zb",
-                "ua": "myapp/1.0.3"
             }
         },
         {
