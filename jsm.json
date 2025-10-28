@@ -281,7 +281,7 @@
     
     {
       "key": "csp_XBiu神馬影院",
-      "name": "390. 神馬影院(濾)",
+      "name": "神馬影院(濾)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -441,7 +441,7 @@
 
     {
       "key": "drpy_js_低端",
-      "name": "170. 影視| 低端js(無濾)",
+      "name": "影視| 低端js(無濾)",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -522,7 +522,7 @@
 
    //  {
    //    "key": "csp_威士",
-   //    "name": "30. 影視| 威士",
+   //    "name": "影視| 威士",
    //    "type": 3,
    //    "api": "csp_XBPQ",
    //    "searchable": 1,
@@ -703,7 +703,7 @@
     
     {
       "key": "csp_XBiuGimyCC2",
-      "name": "410. 劇迷| CC(XB)(無濾)",
+      "name": "劇迷| CC(XB)(無濾)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -988,7 +988,7 @@
     
     {
       "key": "drpy_js_Anime1动畫",
-      "name": "230. 📔動漫 | Anime1動畫[js]",
+      "name": "📔動漫 | Anime1動畫[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/Anime1动畫.js"
@@ -1402,7 +1402,7 @@
     },
     {
       "key": "红牛资源(hnm3u8)",
-      "name": "580. 紅牛資源(hnm3u8)",
+      "name": "紅牛資源(hnm3u8)",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/",
       "jar": "./jar/panda.jar",
@@ -1420,7 +1420,7 @@
     },
     {
       "key": "暴风资源[资]",
-      "name": "750. 暴風資源[資]",
+      "name": "暴風資源[資]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1458,7 +1458,7 @@
     },
     {
       "key": "天翼资源",
-      "name": "590. 天翼資源",
+      "name": "天翼資源",
       "type": 1,
       "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
       "jar": "./jar/panda.jar",
@@ -1643,7 +1643,7 @@
     },
     {
       "key": "斗鱼js",
-      "name": "190. 📺直播| 鬥魚",
+      "name": "📺直播| 鬥魚",
       "type": 3,
       "api": "./js/drpy2.min.js",
       "ext": "./FTY/斗鱼直播.js",
@@ -1958,7 +1958,7 @@
     },
     {
       "key": "博看听书[听]",
-      "name": "800. 🎧博看聽書[聽]",
+      "name": "🎧博看聽書[聽]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -2058,7 +2058,7 @@
     },
        {
       "key": "drpy_js_兔小贝",
-      "name": "200. 📚少兒| 兔小貝[js]",
+      "name": "📚少兒| 兔小貝[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "style": {
@@ -2178,7 +2178,7 @@
     },
     {
       "key": "初中课堂",
-      "name": "210. 📚初中| 課堂",
+      "name": "📚初中| 課堂",
       "type": 3,
       "api": "csp_Bili",
       "style": {
@@ -2304,7 +2304,7 @@
     },
     {
       "key": "索尼",
-      "name": "150. 影視 | 索尼[直連]",
+      "name": "影視 | 索尼[直連]",
       "type": 0,
       "api": "https://suoniapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -2630,7 +2630,7 @@
     },
     {
       "key": "暴風",
-      "name": "160. 影視 | 暴風[直連]",
+      "name": "影視 | 暴風[直連]",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -2673,7 +2673,7 @@
     },
     {
       "key": "快车资源",
-      "name": "270. 影視| 快車",
+      "name": "影視| 快車",
       "type": 1,
       "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -2732,7 +2732,7 @@
     },
     {
       "key": "飘零影院",
-      "name": "280. 影視| 飄零",
+      "name": "影視| 飄零",
       "type": 1,
       "api": "https://p2100.net/api.php/provide/vod/",
       "searchable": 1,
@@ -2775,7 +2775,7 @@
     },
     {
       "key": "csp_统一影視",
-      "name": "360. 統一影視",
+      "name": "統一影視",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -2947,7 +2947,7 @@
     },
     {
       "key": "csp_XBiu蓝光影视",
-      "name": "440. 藍光影視CC(XB)",
+      "name": "藍光影視CC(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -3050,7 +3050,7 @@
     },
     {
       "key": "drpy_js_时光影院",
-      "name": "470. 影視| 時光[JS]",
+      "name": "影視| 時光[JS]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 0,
@@ -3102,7 +3102,7 @@
     },
     {
       "key": "drpy_js_539影视",
-      "name": "550. 539影視",
+      "name": "5539影視",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3170,7 +3170,7 @@
     },
     {
       "key": "云速影视.py",
-      "name": "660. 雲速影視.py",
+      "name": "雲速影視.py",
       "type": 3,
       "api": "./py/云速影视.py",
       "searchable": 1,
@@ -3523,7 +3523,7 @@
 
     {
       "key": "MTV2",
-      "name": "180. 🎧MTV",
+      "name": "🎧MTV",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/dokilwss.jar",
@@ -3774,7 +3774,7 @@
     },
     {
       "key": "爱坤资源json",
-      "name": "260. 愛坤資源json",
+      "name": "愛坤資源json",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json_now/",
       "jar": "./jar/panda1123.jar",
@@ -4110,7 +4110,7 @@
     },
     {
       "key": "csp_qimaoys",
-      "name": "290. 七貓",
+      "name": "七貓",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -4211,7 +4211,7 @@
     },
     {
       "key": "csp_白羊影院",
-      "name": "300. 白羊",
+      "name": "白羊",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -4342,7 +4342,7 @@
     },
     {
       "key": "csp_星辰影院",
-      "name": "310. 星辰",
+      "name": "星辰",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -4465,7 +4465,7 @@
     },
     {
       "key": "csp_影视大全",
-      "name": "320. 聚合",
+      "name": "聚合",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -4608,7 +4608,7 @@
     },
     {
       "key": "csp_樱花影视",
-      "name": "330. 櫻花",
+      "name": "櫻花",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -4762,7 +4762,7 @@
     },
     {
       "key": "大海影视③",
-      "name": "340. 大海③",
+      "name": "大海③",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -5085,7 +5085,7 @@
     },
     {
       "key": "csp_策驰影院",
-      "name": "350. 策馳",
+      "name": "策馳",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -5257,7 +5257,7 @@
     },
     {
       "key": "csp_咕咚電影網",
-      "name": "370. 咕咚電影",
+      "name": "咕咚電影",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -5404,7 +5404,7 @@
     },
     {
       "key": "csp_XBiuMMOV線上看",
-      "name": "400. MMOV線上看| (XB)",
+      "name": "MMOV線上看| (XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -5606,7 +5606,7 @@
 
     {
       "key": "drpy_js_努努影院1",
-      "name": "500. 努努",
+      "name": "努努",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -5629,7 +5629,7 @@
     },
     {
       "key": "drpy_js_爱迪影视",
-      "name": "520. 愛迪",
+      "name": "愛迪",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -5784,7 +5784,7 @@
 
     {
       "key": "hohaiemby",
-      "name": "620. hohai| EMBY",
+      "name": "hohai| EMBY",
       "type": 3,
       "api": "./py/emby.py",
       "searchable": 1,
@@ -5870,7 +5870,7 @@
     },
     {
       "key": "鲸鱼",
-      "name": "630. 鯨魚｜APP",
+      "name": "鯨魚｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -6022,7 +6022,7 @@
     },
     {
       "key": "驿站",
-      "name": "640. 驛站丨APP",
+      "name": "驛站丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6318,7 +6318,7 @@
     },
     {
       "key": "光速APP.py",
-      "name": "690. 光速APP.py",
+      "name": "光速APP.py",
       "type": 3,
       "api": "./py/光速APP.py",
       "searchable": 1,
@@ -6336,7 +6336,7 @@
     },
     {
       "key": "优酷视频",
-      "name": "700. 優酷｜視頻",
+      "name": "優酷｜視頻",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/优酷视频.js"
@@ -6439,7 +6439,7 @@
     },
     {
       "key": "光速资源",
-      "name": "710. 光速┃採集",
+      "name": "光速┃採集",
       "type": 0,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -6537,7 +6537,7 @@
     },
     {
       "key": "新浪资源采集",
-      "name": "720. 新浪資源採集",
+      "name": "新浪資源採集",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn",
       "searchable": 1,
@@ -6593,7 +6593,7 @@
     },
     {
       "key": "魔爪资源网",
-      "name": "730. 魔爪資源網",
+      "name": "魔爪資源網",
       "type": 1,
       "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6685,7 +6685,7 @@
     },
     {
       "key": "小绵羊资源",
-      "name": "740. 小綿羊資源",
+      "name": "小綿羊資源",
       "type": 1,
       "api": "https://vs.okcdn100.top/api.php/provide/vod/",
       "searchable": 1,
@@ -6798,7 +6798,7 @@
     },
     {
       "key": "4KVM.py",
-      "name": "760. 4KVM.py",
+      "name": "4KVM.py",
       "type": 3,
       "api": "./py/4KVM.py",
       "searchable": 1,
@@ -6857,7 +6857,7 @@
     },
     {
       "key": "小白菜电影",
-      "name": "770. 小白菜電影",
+      "name": "小白菜電影",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
