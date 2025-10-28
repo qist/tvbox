@@ -1645,7 +1645,7 @@
       "key": "斗鱼js",
       "name": "190. 📺直播| 鬥魚",
       "type": 3,
-      "api": "./FTY/drpy2.min.js",
+      "api": "./js/drpy2.min.js",
       "ext": "./FTY/斗鱼直播.js",
       "style": {
         "type": "rect",
@@ -1737,7 +1737,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./FTY/bilibili.json"
+        "json": "./json/bilibili.json"
       }
     },
     {
@@ -1753,7 +1753,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./FTY/biliych.json"
+        "json": "./json/biliych.json"
       }
     },
     {
@@ -1887,8 +1887,8 @@
       "key": "有声小说js",
       "name": "📚有聲| 小說",
       "type": 3,
-      "api": "./FTY/drpy2.min.js",
-      "ext": "./FTY/有声小说吧.js",
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/有声小说吧.js",
       "style": {
         "type": "rect",
         "ratio": 1
@@ -2081,7 +2081,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./FTY/少儿教育.json"
+        "json": "./json/少儿教育.json"
       }
     },
 	    {
@@ -2132,8 +2132,8 @@
       "key": "dr_兔小贝",
       "name": "📚兒童| 啓蒙 兔小贝",
       "type": 3,
-      "api": "./FTY/drpy2.min.js",
-      "ext": "./FTY/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/兔小贝.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -2155,7 +2155,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./FTY/小学课堂.json"
+        "json": "./json/小学课堂.json"
       }
     },
     {
@@ -2189,7 +2189,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./FTY/初中课堂.json"
+        "json": "./json/初中课堂.json"
       }
     },
     {
@@ -2223,7 +2223,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "./FTY/高中课堂.json",
+        "json": "./json/高中课堂.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       }
     },
@@ -3476,8 +3476,8 @@
       "key": "88js",
       "name": "⚽體育| 88",
       "type": 3,
-      "api": "./FTY/drpy2.min.js",
-      "ext": "./FTY/88看球.js",
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/88看球.js",
       "style": {
         "type": "list"
       },
@@ -3566,8 +3566,8 @@
       "key": "酷奇",
       "name": "🎧酷奇",
       "type": 3,
-      "api": "./FTY/drpy2.min.js",
-      "ext": "./FTY/酷奇MV.js",
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/酷奇MV.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
