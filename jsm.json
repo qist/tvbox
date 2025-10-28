@@ -29,6 +29,7 @@
         {
       "key": "drpy_js_小宝影院[飞]",
       "name": "影視| 小寶[JS]",
+      "name": "240. 影視| 天龍[JS]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -169,6 +170,7 @@
     {
       "key": "糯米",
       "name": "影視| 糯米(濾)",
+      "name": "1860. 糯米",
       "type": 3,
       "api": "csp_NmyswvGuard",
       "timeout": 10,
@@ -241,6 +243,7 @@
     {
       "key": "蛋蛋赞2",
       "name": "蛋蛋贊(濾)",
+      "name": "3350. 蛋蛋赞",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -317,6 +320,7 @@
     {
       "key": "麦田2",
       "name": "麥田2(濾)",
+      "name": "3790. 麦田",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/XBPQ.jar",
@@ -852,6 +856,7 @@
     {
       "key": "drpy_js_ikanbot32",
       "name": "影視| 愛看機器人3[js]",
+      "name": "70. 影視| 愛看機器人3[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -943,6 +948,7 @@
         {
       "key": "異界",
       "name": "📔動漫|異界影視",
+      "name": "3750. 異界影视",
       "type": 3,
       "api": "csp_Ysj",
       "jar": "./jar/pg.jar",
@@ -996,6 +1002,7 @@
     {
       "key": "drpy_js_NT动漫",
       "name": "📔動漫 | NT動漫[js]",
+      "name": "80. 📔動漫 | NT動漫[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/NT动漫.js"
@@ -1003,6 +1010,7 @@
         {
       "key": "NT动漫",
       "name": "📔動漫|NT",
+      "name": "3840. NT动漫",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/NTDM.js"
@@ -1234,6 +1242,7 @@
     {
       "key": "drpy_js_牌牌影院",
       "name": "影視| 牌牌[JS]",
+      "name": "730. 牌牌",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1330,6 +1339,7 @@
     {
       "key": "drpy_js_悠悠影视",
       "name": "影視| 悠悠[JS]",
+      "name": "690. 悠悠",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1403,6 +1413,7 @@
     {
       "key": "红牛资源(hnm3u8)",
       "name": "紅牛資源(hnm3u8)",
+      "name": "1560. 红牛资源(hnm3u8)",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/",
       "jar": "./jar/panda.jar",
@@ -1412,6 +1423,7 @@
     {
       "key": "暴风资源",
       "name": "暴風資源",
+      "name": "1700. 极速资源",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod",
       "jar": "./jar/panda.jar",
@@ -1421,6 +1433,7 @@
     {
       "key": "暴风资源[资]",
       "name": "暴風資源[資]",
+      "name": "3320. 暴风资源[资]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1432,6 +1445,7 @@
     {
       "key": "暴风资源采集",
       "name": "暴風資源採集",
+      "name": "3080. 暴风资源采集",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -1441,15 +1455,18 @@
     {
       "key": "光速资源",
       "name": "光速資源",
+      "name": "1620. 光速资源",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "jar": "./jar/panda.jar",
       "searchable": 0,
+      "name": "60. 量子資源(無濾)",
       "quickSearch": 0
     },
     {
       "key": "光速资源(gsm3u8)",
       "name": "光速資源(gsm3u8)",
+      "name": "1630. 光速资源(gsm3u8)",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
       "jar": "./jar/panda.jar",
@@ -1459,6 +1476,7 @@
     {
       "key": "天翼资源",
       "name": "天翼資源",
+      "name": "1670. 天翼资源",
       "type": 1,
       "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
       "jar": "./jar/panda.jar",
@@ -1468,6 +1486,7 @@
     {
       "key": "天翼资源(json)",
       "name": "天翼資源(json)",
+      "name": "1680. 天翼资源(json)",
       "type": 1,
       "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
       "jar": "./jar/panda.jar",
@@ -1541,6 +1560,7 @@
     {
       "key": "drpy_js_DJ音乐",
       "name": "🎧DJ音樂[js]",
+      "name": "3880. 🎵DJ音乐[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "changeable": 0,
@@ -1552,6 +1572,7 @@
     {
       "key": "🎧清风DJ[听]",
       "name": "🎧清風DJ[聽]",
+      "name": "3900. 🎵清风DJ[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1563,6 +1584,7 @@
     {
       "key": "YYmp3音乐网.py",
       "name": "YYmp3音樂網.py",
+      "name": "3910. YYmp3音乐网.py",
       "type": 3,
       "api": "./py/YYMP3音乐网.py",
       "searchable": 1,
@@ -1574,6 +1596,7 @@
     {
       "key": "啊哈DJ[听]",
       "name": "🎧啊哈DJ[聽]",
+      "name": "3950. 🎵啊哈DJ[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1585,6 +1608,7 @@
     {
       "key": "哔哩哔哩演唱会",
       "name": "🎧嗶哩｜音樂",
+      "name": "3980. 哔哩｜音乐",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -1619,6 +1643,7 @@
     {
       "key": "drpy_js_蜻蜓FM",
       "name": "🎧蜻蜓FM[js]",
+      "name": "3890. 🎵蜻蜓FM[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "changeable": 0,
@@ -1679,6 +1704,7 @@
     {
       "key": "drpy_js_哔哩直播",
       "name": "嗶哩直播",
+      "name": "1340. 哔哩直播",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1692,6 +1718,7 @@
     {
       "key": "drpy_js_好趣网",
       "name": "電視| 好趣網[js]",
+      "name": "1920. 电视| 好趣网[js]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "style": {
@@ -1704,6 +1731,7 @@
     {
       "key": "在线直播.py",
       "name": "在線直播.py",
+      "name": "2350. 在线直播.py",
       "type": 3,
       "api": "./py/lives.py",
       "searchable": 1,
@@ -1759,6 +1787,7 @@
     {
       "key": "drpy_js_爱弹幕[漫]",
       "name": "愛彈幕",
+      "name": "930. 爱弹幕",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1769,6 +1798,7 @@
     {
       "key": "drpy_js_哔哩影视",
       "name": "嗶哩影視",
+      "name": "1120. 哔哩影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1779,6 +1809,7 @@
     {
       "name": "嗷嗚彈幕",
       "key": "嗷呜弹幕",
+      "name": "1940. 嗷呜弹幕",
       "type": 3,
       "api": "csp_GoConfigAmns",
       "jar": "./jar/custom_spider.jar",
@@ -1792,6 +1823,7 @@
     {
       "key": "哔哩lz",
       "name": "嗶哩lz",
+      "name": "1960. 哔哩lz",
       "type": 3,
       "api": "csp_Bilibili",
       "style": {
@@ -1803,6 +1835,7 @@
     {
       "key": "哔哩合集",
       "name": "嗶哩｜合集",
+      "name": "1970. 哔哩｜合集",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -1822,6 +1855,7 @@
     {
       "key": "哔哩哔哩小品",
       "name": "嗶哩｜小品",
+      "name": "4010. 哔哩｜小品",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -1840,6 +1874,7 @@
     {
       "key": "哔哩哔哩戏曲",
       "name": "嗶哩｜戲曲",
+      "name": "4020. 哔哩｜戏曲",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -1871,6 +1906,7 @@
     {
       "key": "急救教学",
       "name": "急救｜教學",
+      "name": "4070. 急救｜教学",
       "type": 3,
       "api": "csp_FirstAid",
       "jar": "./jar/spider.jar",
@@ -1948,6 +1984,7 @@
     {
       "key": "酷我听书[听]",
       "name": "🎧酷我聽書[聽]",
+      "name": "3870. 🎵酷我听书[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1959,6 +1996,7 @@
     {
       "key": "博看听书[听]",
       "name": "🎧博看聽書[聽]",
+      "name": "3930. 🎵博看听书[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1970,6 +2008,7 @@
     {
       "key": "爱上你听书网[听]",
       "name": "🎧愛上你聽書網[聽]",
+      "name": "3940. 🎵爱上你听书网[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1981,6 +2020,7 @@
     {
       "key": "有声听书网[听]",
       "name": "🎧有聲聽書網[聽]",
+      "name": "3960. 🎵有声听书网[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -1992,6 +2032,7 @@
     {
       "key": "i275听书[听]",
       "name": "🎧i275聽書[聽]",
+      "name": "3970. 🎵i275听书[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -2003,6 +2044,7 @@
     {
       "key": "哔哩哔哩听书",
       "name": "嗶哩｜聽書",
+      "name": "3990. 哔哩｜听书",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -2041,6 +2083,7 @@
     {
       "key": "哔哩哔哩相声",
       "name": "📚嗶哩｜相聲",
+      "name": "4000. 哔哩｜相声",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -2087,6 +2130,7 @@
 	    {
       "key": "兔小贝[儿]",
       "name": "📚兔小貝[兒]",
+      "name": "3860. 🐇兔小贝[儿]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -2161,6 +2205,7 @@
     {
       "key": "小学课堂2",
       "name": "📚小學｜課堂",
+      "name": "4040. 小学｜课堂",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -2195,6 +2240,7 @@
     {
       "key": "初中课堂2",
       "name": "📚初中｜課堂",
+      "name": "4050. 初中｜课堂",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -2230,6 +2276,7 @@
     {
       "key": "高中教育2",
       "name": "📚高中｜課堂",
+      "name": "4060. 高中｜课堂",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/spider.jar",
@@ -3051,6 +3098,7 @@
     {
       "key": "drpy_js_时光影院",
       "name": "影視| 時光[JS]",
+      "name": "220. 影視| 泡泡[JS]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 0,
@@ -3062,6 +3110,7 @@
     {
       "key": "drpy_js_影视工场",
       "name": "影視| 影視工場[JS]",
+      "name": "130. 影視| 電影先生[JS]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3073,6 +3122,7 @@
     {
       "key": "drpy_js_一个g影视",
       "name": "易居影視",
+      "name": "1140. 易居影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3083,6 +3133,7 @@
     {
       "key": "drpy_js_111tv[自动]",
       "name": "111影視",
+      "name": "1150. 111影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3093,6 +3144,7 @@
     {
       "key": "drpy_js_348电影网",
       "name": "348影視",
+      "name": "1110. 电影先生",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3103,6 +3155,7 @@
     {
       "key": "drpy_js_539影视",
       "name": "5539影視",
+      "name": "1240. GO影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3113,6 +3166,7 @@
     {
       "key": "drpy_js_85k影视",
       "name": "85k影視",
+      "name": "850. B站",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3123,6 +3177,7 @@
     {
       "key": "drpy_js_GO影视",
       "name": "GO影視",
+      "name": "840. 暖光",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3149,6 +3204,7 @@
     {
       "key": "4K影视.py",
       "name": "4K影視.py",
+      "name": "2340. 4K影视.py",
       "type": 3,
       "api": "./py/4K影视.py",
       "searchable": 1,
@@ -3160,6 +3216,7 @@
     {
       "key": "界影视.py",
       "name": "界影視.py",
+      "name": "2360. 界影视.py",
       "type": 3,
       "api": "./py/界影视.py",
       "searchable": 1,
@@ -3171,6 +3228,7 @@
     {
       "key": "云速影视.py",
       "name": "雲速影視.py",
+      "name": "2390. 云速影视.py",
       "type": 3,
       "api": "./py/云速影视.py",
       "searchable": 1,
@@ -3182,6 +3240,7 @@
     {
       "key": "绝对影视",
       "name": "絕對影視.py",
+      "name": "2410. 绝对影视.py",
       "type": 3,
       "api": "./py/绝对影视.py",
       "searchable": 1,
@@ -3193,6 +3252,7 @@
     {
       "key": "云端PY",
       "name": "雲端影視.py",
+      "name": "2630. 云端影视.py",
       "type": 3,
       "api": "./py/云端影视.py",
       "searchable": 1,
@@ -3204,6 +3264,7 @@
     {
       "key": "光速影视.py",
       "name": "光速影視.py",
+      "name": "2710. 光速影视.py",
       "type": 3,
       "api": "./py/光速影视.py",
       "searchable": 1,
@@ -3215,6 +3276,7 @@
     {
       "key": "柯南影视.py",
       "name": "柯南影視.py",
+      "name": "2720. 柯南影视.py",
       "type": 3,
       "api": "./py/柯南影视.py",
       "searchable": 1,
@@ -3226,6 +3288,7 @@
     {
       "key": "北川影视",
       "name": "北川影視",
+      "name": "3560. 天天影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3237,6 +3300,7 @@
     {
       "key": "人人影视",
       "name": "人人影視",
+      "name": "3530. 人人影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3261,6 +3325,7 @@
     {
       "key": "人人电影网",
       "name": "人人電影網.js",
+      "name": "2620. 人人电影网.js",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -3284,6 +3349,7 @@
     {
       "key": "猎手影视",
       "name": "獵手影視",
+      "name": "3660. 猎手影视",
       "type": 3,
       "api": "./py/LSYS.py",
       "searchable": 1,
@@ -3500,6 +3566,7 @@
         {
       "key": "88",
       "name": "⚽88┃看球",
+      "name": "3810. ⚽88┃看球",
       "type": 3,
       "api": "csp_Sir88Guard",
       "jar": "./jar/fan.txt",
@@ -3592,6 +3659,7 @@
         {
       "key": "播客[听]",
       "name": "🎧播客[聽]",
+      "name": "3920. 🎵播客[听]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -5364,6 +5432,7 @@
     {
       "key": "csp_XBiu唐人街影院COM",
       "name": "唐人街影院COM(XB)",
+      "name": "170. 酷亞影院(XB)",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/xyqxbpq.jar",
@@ -5630,6 +5699,7 @@
     {
       "key": "drpy_js_爱迪影视",
       "name": "愛迪",
+      "name": "820. 爱优",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -5665,6 +5735,7 @@
     {
       "key": "非凡资源",
       "name": "非凡資源",
+      "name": "1470. 非凡资源",
       "type": 1,
       "api": "https://cj.ffzyapi.com/api.php/provide/vod",
       "jar": "./jar/panda.jar",
@@ -5722,6 +5793,7 @@
     {
       "key": "最大",
       "name": "最大",
+      "name": "1710. 最大",
       "type": 0,
       "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/xml",
       "jar": "./jar/panda.jar",
@@ -5731,6 +5803,7 @@
     {
       "key": "暴风(切)",
       "name": "暴風",
+      "name": "1720. 暴风",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "jar": "./jar/xyqxbpq.jar",
@@ -5768,6 +5841,7 @@
     {
       "key": "bili",
       "name": "B站 | Bili[jar]",
+      "name": "1950. B站 | Bili[jar]",
       "type": 3,
       "api": "csp_Bili",
       "jar": "./jar/pg.jar",
@@ -5820,6 +5894,7 @@
     {
       "key": "咖啡",
       "name": "咖啡丨APP",
+      "name": "2040. 咖啡丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -5855,6 +5930,7 @@
     {
       "key": "仓鼠",
       "name": "倉鼠｜APP",
+      "name": "2080. 仓鼠｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -5871,6 +5947,7 @@
     {
       "key": "鲸鱼",
       "name": "鯨魚｜APP",
+      "name": "2090. 鲸鱼｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -5887,6 +5964,7 @@
     {
       "key": "热剧",
       "name": "熱劇丨APP",
+      "name": "2100. 热剧丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -5904,6 +5982,7 @@
     {
       "key": "星星",
       "name": "星星丨APP",
+      "name": "2110. 星星丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -5921,6 +6000,7 @@
     {
       "key": "像素",
       "name": "像素丨APP",
+      "name": "2120. 像素丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -5938,6 +6018,7 @@
     {
       "key": "豆丁",
       "name": "豆丁丨APP",
+      "name": "2130. 豆丁丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -5955,6 +6036,7 @@
     {
       "key": "斗量",
       "name": "斗量丨APP",
+      "name": "2140. 斗量丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -5972,6 +6054,7 @@
     {
       "key": "布雷",
       "name": "佈雷丨APP",
+      "name": "2160. 布雷丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -5989,6 +6072,7 @@
     {
       "key": "五八",
       "name": "五八丨APP",
+      "name": "2170. 五八丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6006,6 +6090,7 @@
     {
       "key": "狂人",
       "name": "狂人丨APP",
+      "name": "2180. 狂人丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6023,6 +6108,7 @@
     {
       "key": "驿站",
       "name": "驛站丨APP",
+      "name": "2190. 驿站丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6040,6 +6126,7 @@
     {
       "key": "外剧",
       "name": "外劇丨APP",
+      "name": "2200. 外剧丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6057,6 +6144,7 @@
     {
       "key": "小猪",
       "name": "小豬丨APP",
+      "name": "2210. 小猪丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6074,6 +6162,7 @@
     {
       "key": "爱影",
       "name": "愛影丨APP",
+      "name": "2220. 爱影丨APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6091,6 +6180,7 @@
     {
       "key": "云端",
       "name": "雲端｜APP.jar",
+      "name": "2230. 云端｜APP.jar",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6125,6 +6215,7 @@
     {
       "key": "灵虎",
       "name": "靈虎｜APP",
+      "name": "2260. 灵虎｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6141,6 +6232,7 @@
     {
       "key": "旗星",
       "name": "旗星｜APP",
+      "name": "2270. 旗星｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6157,6 +6249,7 @@
     {
       "key": "丫丫",
       "name": "丫丫｜APP",
+      "name": "2280. 丫丫｜APP",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -6172,6 +6265,7 @@
     {
       "key": "移动",
       "name": "移動｜APP",
+      "name": "2310. 移动｜APP",
       "type": 3,
       "api": "csp_YD",
       "jar": "./jar/spider.jar",
@@ -6184,6 +6278,7 @@
     {
       "key": "剧王短剧.py",
       "name": "劇王短劇 py",
+      "name": "2320. 剧王短剧.py",
       "type": 3,
       "api": "./py/剧王短剧.py",
       "searchable": 1,
@@ -6195,6 +6290,7 @@
     {
       "key": "锦鲤短剧.py",
       "name": "錦鯉短劇 py",
+      "name": "2330. 锦鲤短剧.py",
       "type": 3,
       "api": "./py/锦鲤短剧.py",
       "searchable": 1,
@@ -6218,6 +6314,7 @@
         {
       "key": "drpy_js_电影猎手[自动]",
       "name": "電影獵手",
+      "name": "1050. 电影猎手",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6251,6 +6348,7 @@
     {
       "key": "看360（jar）",
       "name": "看360（jar）",
+      "name": "2440. 看360（jar）",
       "type": 3,
       "api": "csp_AuthKAN360",
       "jar": "./jar/spider.jar",
@@ -6275,6 +6373,7 @@
     {
       "key": "爱瓜PY",
       "name": "愛瓜｜APP",
+      "name": "2650. 爱瓜｜APP",
       "type": 3,
       "api": "./py/爱瓜影视.py",
       "searchable": 1,
@@ -6286,6 +6385,7 @@
     {
       "key": "actor.py",
       "name": "actor.py",
+      "name": "2660. actor.py",
       "type": 3,
       "api": "./py/actor.py",
       "searchable": 1,
@@ -6297,6 +6397,7 @@
     {
       "key": "骚火影视",
       "name": "騷火｜APP",
+      "name": "2670. 骚火｜APP",
       "type": 3,
       "api": "./py/骚火影视.py",
       "searchable": 1,
@@ -6308,6 +6409,7 @@
     {
       "key": "优酷视频.py",
       "name": "優酷視頻.py",
+      "name": "2690. 优酷视频.py",
       "type": 3,
       "api": "./py/优酷视频.py",
       "searchable": 1,
@@ -6319,6 +6421,7 @@
     {
       "key": "光速APP.py",
       "name": "光速APP.py",
+      "name": "2700. 光速APP.py",
       "type": 3,
       "api": "./py/光速APP.py",
       "searchable": 1,
@@ -6330,6 +6433,7 @@
     {
       "key": "腾讯视频",
       "name": "騰訊｜視頻",
+      "name": "2790. 腾讯｜视频",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/腾讯视频.js"
@@ -6337,6 +6441,7 @@
     {
       "key": "优酷视频",
       "name": "優酷｜視頻",
+      "name": "2800. 优酷｜视频",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/优酷视频.js"
@@ -6344,6 +6449,7 @@
     {
       "key": "芒果视频",
       "name": "芒果｜視頻",
+      "name": "2810. 芒果｜视频",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/芒果视频.js"
@@ -6351,6 +6457,7 @@
     {
       "key": "爱奇艺",
       "name": "愛奇異｜視頻",
+      "name": "2820. 爱奇异｜视频",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/爱奇艺.js"
@@ -6358,6 +6465,7 @@
     {
       "key": "芒果TV.py",
       "name": "芒果TV.py",
+      "name": "2830. 芒果TV.py",
       "type": 3,
       "api": "./py/Mang.py",
       "searchable": 1,
@@ -6369,6 +6477,7 @@
     {
       "key": "厂长资源",
       "name": "廠長資源",
+      "name": "2840. 厂长资源",
       "type": 3,
       "api": "./py/厂长资源.py",
       "searchable": 1,
@@ -6379,6 +6488,7 @@
     {
       "key": "红片网",
       "name": "紅片網",
+      "name": "2850. 红片网",
       "type": 3,
       "api": "./py/redflix.py",
       "searchable": 1,
@@ -6389,6 +6499,7 @@
     {
       "key": "旺旺资源",
       "name": "旺旺資源",
+      "name": "2860. 旺旺资源",
       "type": 1,
       "api": "https://ww.tyyszy5.com/api.php/provide/vod/?ac=lis",
       "playUrl": "",
@@ -6398,6 +6509,7 @@
     {
       "key": "天涯资源",
       "name": "天涯資源",
+      "name": "2870. 天涯资源",
       "type": 1,
       "api": "https://tyyszyapi.com/api.php/provide/vod/at/?ac=list",
       "playUrl": "",
@@ -6407,6 +6519,7 @@
     {
       "key": "视频采集",
       "name": "iKun採集視頻",
+      "name": "2890. iKun采集视频",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -6429,6 +6542,7 @@
     {
       "key": "极速资源",
       "name": "極速┃採集",
+      "name": "2900. 极速┃采集",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -6440,6 +6554,7 @@
     {
       "key": "光速资源",
       "name": "光速┃採集",
+      "name": "2910. 光速┃采集",
       "type": 0,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -6451,6 +6566,7 @@
     {
       "key": "红牛资源",
       "name": "紅牛┃採集",
+      "name": "2920. 红牛┃采集",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/josn/",
       "searchable": 1,
@@ -6462,6 +6578,7 @@
     {
       "key": "豪华资源采集",
       "name": "豪華資源採集",
+      "name": "2930. 豪华资源采集",
       "type": 0,
       "api": "https://hhzyapi.com/api.php/provide/vod/at/xml",
       "searchable": 1,
@@ -6473,6 +6590,7 @@
     {
       "key": "茅台资源",
       "name": "茅臺資源",
+      "name": "2940. 茅台资源",
       "type": 1,
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/josn/",
       "searchable": 1,
@@ -6482,6 +6600,7 @@
     {
       "key": "豆瓣采集",
       "name": "豆瓣採集",
+      "name": "2950. 豆瓣采集",
       "type": 1,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
       "searchable": 1,
@@ -6491,6 +6610,7 @@
     {
       "key": "索尼采集",
       "name": "索尼采集",
+      "name": "2960. 索尼采集",
       "type": 1,
       "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6500,6 +6620,7 @@
     {
       "key": "无尽采集",
       "name": "無盡採集",
+      "name": "2970. 无尽采集",
       "type": 1,
       "api": "https://wjzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6509,6 +6630,7 @@
     {
       "key": "速播采集",
       "name": "速播採集",
+      "name": "2980. 速播采集",
       "type": 1,
       "api": "https://subocj.com/api.php/provide/vod/at/json",
       "searchable": 1,
@@ -6520,6 +6642,7 @@
     {
       "key": "U酷采集",
       "name": "U酷採集",
+      "name": "2990. U酷采集",
       "type": 1,
       "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6529,6 +6652,7 @@
     {
       "key": "百度云采集",
       "name": "百度雲採集",
+      "name": "3000. 百度云采集",
       "type": 1,
       "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6538,6 +6662,7 @@
     {
       "key": "新浪资源采集",
       "name": "新浪資源採集",
+      "name": "3010. 新浪资源采集",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn",
       "searchable": 1,
@@ -6547,6 +6672,7 @@
     {
       "key": "快车资源采集",
       "name": "快車資源採集",
+      "name": "3030. 快车资源采集",
       "type": 0,
       "api": "https://caiji.kuaichezy.org/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -6558,6 +6684,7 @@
     {
       "key": "CK资源采集",
       "name": "CK資源採集",
+      "name": "3050. CK资源采集",
       "type": 1,
       "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6567,6 +6694,7 @@
     {
       "key": "鸭鸭资源采集",
       "name": "鴨鴨資源採集",
+      "name": "3060. 鸭鸭资源采集",
       "type": 1,
       "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6576,6 +6704,7 @@
     {
       "key": "非凡资源采集",
       "name": "非凡資源採集",
+      "name": "3090. 非凡资源采集",
       "type": 1,
       "api": "http://api.ffzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6585,6 +6714,7 @@
     {
       "key": "爱奇艺资源采集",
       "name": "愛奇藝資源採集",
+      "name": "3100. 爱奇艺资源采集",
       "type": 1,
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
@@ -6594,6 +6724,7 @@
     {
       "key": "魔爪资源网",
       "name": "魔爪資源網",
+      "name": "3110. 魔爪资源网",
       "type": 1,
       "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6603,6 +6734,7 @@
     {
       "key": "牛牛资源",
       "name": "牛牛資源",
+      "name": "3120. 牛牛资源",
       "type": 1,
       "api": "https://api2.niuniuzy.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6612,6 +6744,7 @@
     {
       "key": "猫眼资源采集",
       "name": "貓眼資源採集",
+      "name": "3130. 猫眼资源采集",
       "type": 1,
       "api": "https://api.maoyanapi.top/api.php/provide/vod/at/json",
       "searchable": 1,
@@ -6621,6 +6754,7 @@
     {
       "key": "虎牙资源网",
       "name": "虎牙資源網",
+      "name": "3140. 虎牙资源网",
       "type": 1,
       "api": "https://www.huyaapi.com/api.php/provide/vod/at/json",
       "searchable": 1,
@@ -6632,6 +6766,7 @@
     {
       "key": "魔都资源网",
       "name": "魔都資源網",
+      "name": "3150. 魔都资源网",
       "type": 1,
       "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6641,6 +6776,7 @@
     {
       "key": "360资源",
       "name": "360資源",
+      "name": "3170. 360资源",
       "type": 1,
       "api": "https://360zyzz.com/api.php/provide/vod/at/json",
       "searchable": 1,
@@ -6650,6 +6786,7 @@
     {
       "key": "优质资源库",
       "name": "優質資源庫",
+      "name": "3180. 优质资源库",
       "type": 1,
       "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
       "searchable": 1,
@@ -6659,6 +6796,7 @@
     {
       "key": "猫眼资源",
       "name": "貓眼資源",
+      "name": "3190. 猫眼资源",
       "type": 1,
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "searchable": 1,
@@ -6668,6 +6806,7 @@
     {
       "key": "OK资源",
       "name": "OK資源",
+      "name": "3200. OK资源",
       "type": 1,
       "api": "https://api.okzyw.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6677,6 +6816,7 @@
     {
       "key": "建安解析",
       "name": "建安解析",
+      "name": "3210. 建安解析",
       "type": 1,
       "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -6686,6 +6826,7 @@
     {
       "key": "小绵羊资源",
       "name": "小綿羊資源",
+      "name": "3220. 小绵羊资源",
       "type": 1,
       "api": "https://vs.okcdn100.top/api.php/provide/vod/",
       "searchable": 1,
@@ -6695,6 +6836,7 @@
     {
       "key": "飘零影院",
       "name": "飄零影院",
+      "name": "3230. 飘零影院",
       "type": 1,
       "api": "https://p2100.net/api.php/provide/vod/",
       "searchable": 1,
@@ -6704,6 +6846,7 @@
     {
       "key": "如意资源",
       "name": "如意資源",
+      "name": "3240. 如意资源",
       "type": 1,
       "api": "https://cj.rycjapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -6713,6 +6856,7 @@
     {
       "key": "白狐资源",
       "name": "白狐資源",
+      "name": "3250. 白狐资源",
       "type": 1,
       "api": "https://baihuzy.com/api.php/provide/vod/",
       "searchable": 1,
@@ -6722,6 +6866,7 @@
     {
       "key": "菜狗[官]",
       "name": "菜狗[官]",
+      "name": "3260. 菜狗[官]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6733,6 +6878,7 @@
     {
       "key": "优酷[官]",
       "name": "優酷[官]",
+      "name": "3280. 优酷[官]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6744,6 +6890,7 @@
     {
       "key": "348电影网",
       "name": "348電影網",
+      "name": "3310. 348电影网",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6755,6 +6902,7 @@
     {
       "key": "嘀哩嘀哩",
       "name": "嘀哩嘀哩",
+      "name": "3370. 嘀哩嘀哩",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6766,6 +6914,7 @@
     {
       "key": "老王电影[自动]",
       "name": "老王電影",
+      "name": "3420. 老王电影",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6777,6 +6926,7 @@
     {
       "key": "美剧窝",
       "name": "美劇窩",
+      "name": "3440. 美剧窝",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6788,6 +6938,7 @@
     {
       "key": "小鸭子看看.py",
       "name": "小鴨子看看.py",
+      "name": "3450. 小鸭子看看.py",
       "type": 3,
       "api": "./py/小鸭子看看.py",
       "searchable": 1,
@@ -6799,6 +6950,7 @@
     {
       "key": "4KVM.py",
       "name": "4KVM.py",
+      "name": "3460. 4KVM.py",
       "type": 3,
       "api": "./py/4KVM.py",
       "searchable": 1,
@@ -6810,6 +6962,7 @@
     {
       "key": "csp_小鴨影音TV",
       "name": "小鴨高清",
+      "name": "3470. 小鸭高清",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/XBPQ.jar",
@@ -6825,6 +6978,7 @@
     {
       "key": "csp_NIVODvip",
       "name": "泥視頻(json)",
+      "name": "3500. 泥视频（jar）",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jar/XBPQ.jar",
@@ -6836,6 +6990,7 @@
     {
       "key": "py_NIVOD.CC",
       "name": "泥視頻高清(py)",
+      "name": "3490. 泥視頻高清(py)",
       "type": 3,
       "api": "./py/py_nivod_cc.py",
       "searchable": 1,
@@ -6858,6 +7013,7 @@
     {
       "key": "小白菜电影",
       "name": "小白菜電影",
+      "name": "3600. 小白菜电影",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -6882,6 +7038,7 @@
     {
       "key": "4K影院.py",
       "name": "4K影院.py",
+      "name": "3690. 4K影院.py",
       "type": 3,
       "api": "./py/4K影院.py",
       "searchable": 1,
@@ -6893,6 +7050,7 @@
     {
       "key": "嗷呜4K影院.py",
       "name": "嗷嗚4K影院.py",
+      "name": "3700. 嗷呜4K影院.py",
       "type": 3,
       "api": "./py/嗷呜4K影院.py",
       "searchable": 1,
@@ -6932,6 +7090,7 @@
     {
       "key": "贝乐虎[儿]",
       "name": "🐯貝樂虎[兒]",
+      "name": "3850. 🐯贝乐虎[儿]",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
@@ -7019,6 +7178,7 @@
         {
       "key": "小苹果PY",
       "name": "小苹果 py",
+      "name": "2600. 水果｜APP",
       "type": 3,
       "api": "./py/小苹果影视.py",
       "searchable": 1,
@@ -7030,6 +7190,7 @@
 	{
       "key": "小苹果2",
       "name": "小蘋果",
+      "name": "2740. 小苹果",
       "type": 4,
       "api": "http://zhangqun1818.serv00.net/pingguo.php",
       "style": {
@@ -7386,6 +7547,7 @@
     {
       "key": "drpy_js_Alist",
       "name": "網盤| Alist[js]",
+      "name": "1910. 网盘| Alist[js]",
       "type": 3,
       "api": "./lib/alist.min.js",
       "changeable": 0,
