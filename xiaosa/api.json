@@ -311,18 +311,6 @@
             }
         },
         {
-            "key": "坚果",
-            "name": "坚果丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://a.ngdy1.cn",
-                "dataKey": "2015692015692015",
-                "dataIv": "2015692015692015"
-            }
-        },
-        {
             "key": "火花",
             "name": "火花丨APP",
             "type": 3,
@@ -356,18 +344,6 @@
                 "url": "http://www.zjcvod.com",
                 "dataKey": "ab4e9a421675f14b",
                 "dataIv": "ab4e9a421675f14b"
-            }
-        },
-        {
-            "key": "九零",
-            "name": "九零丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://65fs2d9awaa1d2a7ea8.019990.xyz",
-                "dataKey": "5a9w6x58dsq6z3a6",
-                "dataIv": "5a9w6x58dsq6z3a6"
             }
         },
         {
