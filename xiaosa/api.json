@@ -105,7 +105,7 @@
                 "url": "http://qfys.myqf.asia",
                 "dataKey": "vpsj6z4e7scbjbis",
                 "dataIv": "vpsj6z4e7scbjbis",
-                "token": "cea6598a6f09e3af6d583911a81d37f4070c9007eaf35d72dc3cf81e64357bbf",
+                "token": "7d7bc6b8bd0433079a6aa4f718a38a11945b15fce2875270ab96dd6272358288",
                 "ua": "Mozilla/5.0 (Linux; Android 13; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
             }
         },
@@ -121,6 +121,18 @@
                 "dataIv": "c60d88b2eep53za8",
                 "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
                 "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "爱影",
+            "name": "爱影｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+                "dataKey": "sada21321sdq231d",
+                "dataIv": "sada21321sdq231d"
             }
         },
         {
@@ -1781,35 +1793,6 @@
         }
     ],
     "parses": [
-        {
-            "name": "推荐",
-            "type": 1,
-            "url": "http://niiuma.qi-simple.top//nn.php?url=",
-            "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
         {
             "name": "无上",
             "type": "1",
