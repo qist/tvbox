@@ -83,44 +83,15 @@
             }
         },
         {
-            "key": "余白",
-            "name": "余白丨APP",
+            "key": "优势",
+            "name": "优势丨APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://dec.yb4k.top",
-                "dataKey": "KsmJgfp3MVQFKWRa",
-                "dataIv": "KsmJgfp3MVQFKWRa",
-                "token": "d51f0cf047e7d4c5f76e2720cfdcaa927055e77c5e8cc0a1a7e49ca198067161"
-            }
-        },
-        {
-            "key": "清风",
-            "name": "清风丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://qfys.myqf.asia",
-                "dataKey": "vpsj6z4e7scbjbis",
-                "dataIv": "vpsj6z4e7scbjbis",
-                "token": "7d7bc6b8bd0433079a6aa4f718a38a11945b15fce2875270ab96dd6272358288",
-                "ua": "Mozilla/5.0 (Linux; Android 13; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
-            }
-        },
-        {
-            "key": "秒看",
-            "name": "秒看丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://mk1080.top/get.txt",
-                "dataKey": "c60d88b2eep53za8",
-                "dataIv": "c60d88b2eep53za8",
-                "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
-                "ua": "okhttp/3.10.0"
+                "url": "http://zxy-ys.810211.dpdns.org",
+                "dataKey": "1234567890123456",
+                "dataIv": "1234567890123456"
             }
         },
         {
