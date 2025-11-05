@@ -11,19 +11,6 @@
             "searchable": 0
         },
         {
-            "key": "预告",
-            "name": "新片｜预告",
-            "type": 3,
-            "api": "csp_YGP",
-            "searchable": 0
-        },
-        {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
-        },
-        {
             "key": "配置中心",
             "name": "配置｜中心",
             "type": 3,
@@ -35,6 +22,19 @@
                 "type": "rect",
                 "ratio": 1.597
             }
+        },
+        {
+            "key": "本地",
+            "name": "本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+        {
+            "key": "预告",
+            "name": "新片｜预告",
+            "type": 3,
+            "api": "csp_YGP",
+            "searchable": 0
         },
         {
             "key": "热播影视",
@@ -59,6 +59,14 @@
             "ext": {
                 "url": "http://v.lkuys.cn"
             }
+        },
+        {
+            "key": "私人",
+            "name": "私人｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppYsV2",
+            "ext": "https://v.catcs.cc//api.php/v1.vod"
         },
         {
             "key": "冷心",
@@ -234,6 +242,18 @@
             }
         },
         {
+            "key": "坚果",
+            "name": "坚果｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
+                "dataKey": "2015692015692015",
+                "dataIv": "2015692015692015"
+            }
+        },
+        {
             "key": "星空",
             "name": "星空｜APP",
             "type": 3,
@@ -330,18 +350,6 @@
             }
         },
         {
-            "key": "米奇",
-            "name": "米奇丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://www.milkidc.cn",
-                "dataKey": "20c79c979da8db0f",
-                "dataIv": "20c79c979da8db0f"
-            }
-        },
-        {
             "key": "星星",
             "name": "星星丨APP",
             "type": 3,
@@ -400,19 +408,6 @@
                 "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
                 "dataKey": "dyyztvapiappyyds",
                 "dataIv": "dyyztvapiappyyds"
-            }
-        },
-        {
-            "key": "火狐",
-            "name": "火狐丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://huohu.yihn.cc",
-                "dataKey": "huohushipingetap",
-                "dataIv": "huohushipingetap",
-                "version": "140"
             }
         },
         {
@@ -895,6 +890,13 @@
             "filterable": 1
         },
         {
+            "key": "莫小影视",
+            "name": "莫小｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/莫小影视.json"
+        },
+        {
             "key": "明星影视",
             "name": "明星｜影视",
             "type": 3,
@@ -921,13 +923,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/三九影视.json"
-        },
-        {
-            "key": "剧圈圈",
-            "name": "剧圈｜影视",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/剧圈圈.js"
         },
         {
             "key": "采集之王",
@@ -977,7 +972,7 @@
             "ext": "./js/NT动漫.js"
         },
         {
-            "key": "漫国",
+            "key": "漫国动漫",
             "name": "漫国丨动漫",
             "type": 3,
             "api": "csp_AppSy",
@@ -989,98 +984,51 @@
             }
         },
         {
-            "key": "二三",
-            "name": "二三｜动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
-                "dataKey": "qwertyuiopqwerty",
-                "dataIv": "qwertyuiopqwerty",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-            "key": "冬日",
+            "key": "冬日动漫",
             "name": "冬日丨动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "http://www.drdm.fun",
-                "site": "",
                 "dataKey": "qE2nD0rL1lH4uP9r",
-                "dataIv": "qE2nD0rL1lH4uP9r",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "qE2nD0rL1lH4uP9r"
             }
         },
         {
-            "key": "漫屋",
-            "name": "漫屋丨动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.yunwuee.icu",
-                "site": "",
-                "dataKey": "ygcnb9bdcmb8aeiw",
-                "dataIv": "ygcnb9bdcmb8aeiw",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "方舟",
+            "key": "方舟动漫",
             "name": "方舟丨动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "https://www.cyfz.vip",
-                "site": "",
                 "dataKey": "e72cdfd629e8895d",
-                "dataIv": "e72cdfd629e8895d",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "e72cdfd629e8895d"
             }
         },
         {
-            "key": "元咲",
+            "key": "元咲动漫",
             "name": "元咲丨动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "http://cic.aicg.fun",
-                "site": "",
                 "dataKey": "2c4h36abd96se10u",
-                "dataIv": "2c4h36abd96se10u",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "2c4h36abd96se10u"
             }
         },
         {
-            "key": "番薯",
+            "key": "番薯动漫",
             "name": "番薯丨动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "https://new.app.bytegooty.com",
-                "site": "",
                 "dataKey": "N4yj7l7xKxHF4*gz",
-                "dataIv": "N4yj7l7xKxHF4*gz",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "N4yj7l7xKxHF4*gz"
             }
         },
         {
@@ -1092,9 +1040,7 @@
             "ext": {
                 "url": "https://app.omofun1.top",
                 "dataKey": "66dc309cbeeca454",
-                "dataIv": "66dc309cbeeca454",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "66dc309cbeeca454"
             }
         },
         {
@@ -1107,9 +1053,7 @@
                 "url": "",
                 "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
                 "dataKey": "1yZ2Spn9krnzVKoC",
-                "dataIv": "1yZ2Spn9krnzVKoC",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "1yZ2Spn9krnzVKoC"
             }
         },
         {
@@ -1121,9 +1065,7 @@
             "ext": {
                 "url": "https://www.gugu3.com",
                 "dataKey": "nKfZ8KX6JTNWRzTD",
-                "dataIv": "nKfZ8KX6JTNWRzTD",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "nKfZ8KX6JTNWRzTD"
             }
         },
         {
@@ -1135,9 +1077,7 @@
             "ext": {
                 "url": "https://qjappcms.acg.party",
                 "dataKey": "AmtMYFCJDPoTlK7z",
-                "dataIv": "AmtMYFCJDPoTlK7z",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "AmtMYFCJDPoTlK7z"
             }
         },
         {
@@ -1148,11 +1088,8 @@
             "api": "csp_AppGet",
             "ext": {
                 "url": "https://get.mymifun.com",
-                "site": "",
                 "dataKey": "GETMIFUNGEIMIFUN",
-                "dataIv": "GETMIFUNGEIMIFUN",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "GETMIFUNGEIMIFUN"
             }
         },
         {
@@ -1177,13 +1114,6 @@
             "ext": "./js/好看动漫.js"
         },
         {
-            "key": "奇米动漫",
-            "name": "奇米｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/奇米动漫.js"
-        },
-        {
             "key": "花子动漫",
             "name": "花子｜动漫",
             "type": 3,
@@ -1196,6 +1126,13 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/动画片大全.js"
+        },
+        {
+            "key": "爱动漫",
+            "name": "爱动漫｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱动漫.js"
         },
         {
             "key": "路漫漫",
@@ -1765,51 +1702,12 @@
     ],
     "parses": [
         {
-            "name": "无上",
-            "type": "1",
-            "url": "https://mfjx.iwsyy.xyz/?url=",
+            "name": "虾米",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
             "ext": {
-                "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "bilibili",
-                    "1905"
-                ],
                 "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
-        },
-        {
-            "name": "巧计",
-            "type": 1,
-            "url": "https://zy.qiaoji8.com/xiafan.php?url=",
-            "ext": {
-                "flag": [
-                    "QD4K",
-                    "iyf",
-                    "duanju",
-                    "gzcj",
-                    "GTV",
-                    "GZYS",
-                    "weggz",
-                    "Ace"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
                 }
             }
         },
@@ -1820,16 +1718,6 @@
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
-                }
-            }
-        },
-        {
-            "name": "虾米",
-            "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
                 }
             }
         },
@@ -1885,102 +1773,6 @@
         }
     ],
     "rules": [
-        {
-            "name": "量子非凡",
-            "hosts": [
-                "lz",
-                "vip.lz",
-                "v.cdnlz",
-                "hd.lz",
-                "ffzy",
-                "vip.ffzy",
-                "hd.ffzy"
-            ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "索尼",
-            "hosts": [
-                "suonizy",
-                "qrssv.com"
-            ],
-            "regex": [
-                "15.1666",
-                "15.2666"
-            ]
-        },
-        {
-            "name": "乐视",
-            "hosts": [
-                "leshiyun"
-            ],
-            "regex": [
-                "15.92"
-            ]
-        },
-        {
-            "name": "优质",
-            "hosts": [
-                "yzzy",
-                "playback"
-            ],
-            "regex": [
-                "16.63",
-                "18.66",
-                "17.66",
-                "19.13"
-            ]
-        },
-        {
-            "name": "快看",
-            "hosts": [
-                "kuaikan",
-                "vip.kuaikan"
-            ],
-            "regex": [
-                "15.32",
-                "15.231",
-                "18.066"
-            ]
-        },
-        {
-            "name": "360",
-            "hosts": [
-                "lyhuicheng"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
-                "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "开源棋牌",
-            "hosts": [
-                "askzycdn",
-                "jkunbf",
-                "bfikuncdn",
-                "bfaskcdn"
-            ],
-            "regex": [
-                "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "暴风",
-            "hosts": [
-                "bfengbf.com",
-                "bfzy",
-                "c1"
-            ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
-                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
         {
             "name": "农民",
             "hosts": [
@@ -2098,14 +1890,6 @@
                 "149.112.112.112"
             ]
         }
-    ],
-    "hosts": [
-        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
     ],
     "flags": [
         "youku",
