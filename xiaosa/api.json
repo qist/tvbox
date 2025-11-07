@@ -64,9 +64,9 @@
             "key": "私人",
             "name": "私人｜APP",
             "type": 3,
-            "changeable": 0,
+            "changeable": 1,
             "api": "csp_AppYsV2",
-            "ext": "https://v.catcs.cc//api.php/v1.vod"
+            "ext": "https://v.catcs.cc/api.php/v1.vod"
         },
         {
             "key": "冷心",
@@ -88,18 +88,6 @@
             "ext": {
                 "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
                 "name": "金牌影院（请断网再安装）"
-            }
-        },
-        {
-            "key": "优势",
-            "name": "优势丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://zxy-ys.810211.dpdns.org",
-                "dataKey": "1234567890123456",
-                "dataIv": "1234567890123456"
             }
         },
         {
@@ -239,6 +227,18 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
+            }
+        },
+        {
+            "key": "优势",
+            "name": "优势丨APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://zxy-ys.810211.dpdns.org",
+                "dataKey": "1234567890123456",
+                "dataIv": "1234567890123456"
             }
         },
         {
