@@ -752,16 +752,6 @@
             "filterable": 1
         },
         {
-            "key": "锦鲤短剧",
-            "name": "锦鲤｜短剧",
-            "type": 3,
-            "api": "./py/锦鲤短剧.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "剧王短剧",
             "name": "剧王｜短剧",
             "type": 3,
@@ -846,15 +836,6 @@
             "name": "饺子｜影视",
             "type": 3,
             "api": "csp_Jiaozi"
-        },
-        {
-            "key": "低端影视",
-            "name": "低端｜影视",
-            "type": 3,
-            "api": "csp_Ddys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "瓜子影视",
@@ -1330,17 +1311,8 @@
             }
         },
         {
-            "key": "糖果",
-            "name": "糖果｜搜索",
-            "type": 3,
-            "api": "csp_TGSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "阿里盘搜",
-            "name": "阿里｜搜索",
+            "name": "阿里｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1352,7 +1324,7 @@
         },
         {
             "key": "夸克盘搜",
-            "name": "夸克｜搜索",
+            "name": "夸克｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1364,7 +1336,7 @@
         },
         {
             "key": "UC盘搜",
-            "name": "UC｜搜索",
+            "name": "UC｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1376,7 +1348,7 @@
         },
         {
             "key": "天翼盘搜",
-            "name": "天翼｜搜索",
+            "name": "天翼｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1388,7 +1360,7 @@
         },
         {
             "key": "123盘搜",
-            "name": "123｜搜索",
+            "name": "123｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1400,7 +1372,7 @@
         },
         {
             "key": "百度盘搜",
-            "name": "百度｜搜索",
+            "name": "百度｜盘搜",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -1409,6 +1381,15 @@
             "ext": {
                 "cloudDrives": "baidu"
             }
+        },
+        {
+            "key": "糖果",
+            "name": "糖果｜搜索",
+            "type": 3,
+            "api": "csp_TGSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "百酷",
