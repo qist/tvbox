@@ -1,0 +1,36 @@
+{
+    "SiteUrl": "https://tv.yydsys.top",
+    "Domains": [
+        "https://tv.yydsys.top",
+        "https://tv.yydsys.cc",
+        "https://tv.214521.xyz"
+    ],
+    "SiteWord": "yyds",
+    "SiteName": "多多",
+    "Classes": [
+        {
+            "type_name": "多多电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "多多剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "综艺",
+            "type_id": "3"
+        },
+        {
+            "type_name": "动漫",
+            "type_id": "4"
+        },
+        {
+            "type_name": "短剧",
+            "type_id": "5"
+        },
+        {
+            "type_name": "纪录",
+            "type_id": "20"
+        }
+    ]
+}

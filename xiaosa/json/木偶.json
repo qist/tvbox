@@ -1,0 +1,28 @@
+{
+    "SiteUrl": "http://123.666291.xyz",
+    "Domains": [
+        "http://123.666291.xyz",
+        "https://www.muou.site",
+        "https://www.muou.asia"
+    ],
+    "SiteWord": "mogg",
+    "SiteName": "木偶",
+    "Classes": [
+        {
+            "type_name": "木偶电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "木偶剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "木偶动漫",
+            "type_id": "3"
+        },
+        {
+            "type_name": "木偶纪录片",
+            "type_id": "4"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "SiteUrl": "https://xhww.net",
+    "Domains": [
+        "https://xhww.net",
+        "https://erxiaofn.click",
+        "https://erxiaofn.site",
+        "https://www.xhww.net"
+    ],
+    "SiteWord": "ex",
+    "SiteName": "二小",
+    "Classes": [
+        {
+            "type_name": "热播资源",
+            "type_id": "22"
+        },
+        {
+            "type_name": "二小电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "二小剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "二小动漫",
+            "type_id": "3"
+        },
+        {
+            "type_name": "二小综艺",
+            "type_id": "17"
+        }
+    ]
+}
