@@ -1,0 +1,25 @@
+{
+    "SiteUrl": "https://www.haimianxz.com,https://www.hmxz.org",
+    "Classes": [
+        {
+            "type_name": "电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "动漫",
+            "type_id": "3"
+        },
+        {
+            "type_name": "其它",
+            "type_id": "3"
+        },
+        {
+            "type_name": "综艺",
+            "type_id": "5"
+        }
+    ]
+}

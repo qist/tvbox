@@ -862,6 +862,11 @@ var rule = {
             return !nonMainContentKeywords.some(keyword => title.includes(keyword));
         }
 
+        function isQQPlatform(playSites) {
+            if (!playSites || !Array.isArray(playSites)) return true; // 如果没有平台信息，默认保留
+            return playSites.some(site => site.enName && site.enName.toLowerCase() === 'qq');
+        }
+
         try {
             let html = vodSearch(keyword, 0);
             let json = JSON.parse(html);
@@ -870,7 +875,10 @@ var rule = {
                 if (!itemList) return;
 
                 itemList.forEach(it => {
-                    if (it.doc && it.doc.id && it.videoInfo && isMainContent(it.videoInfo.title)) {
+                    if (it.doc && it.doc.id && it.videoInfo &&
+                        isMainContent(it.videoInfo.title) &&
+                        isQQPlatform(it.videoInfo.playSites)) {
+
                         const itemId = it.doc.id;
                         if (!seenIds.has(itemId)) {
                             seenIds.add(itemId);
@@ -901,4 +909,5 @@ var rule = {
 
         setResult(d);
     })
+
 };

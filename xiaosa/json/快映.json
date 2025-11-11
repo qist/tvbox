@@ -1,0 +1,38 @@
+{
+    "SiteUrl": "http://xsayang.fun:12512",
+    "Domains": [
+        "http://xsayang.fun:12512"
+    ],
+    "SiteWord": "xbky",
+    "SiteName": "小斑快映",
+    "Classes": [
+        {
+            "type_name": "电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "剧集",
+            "type_id": "2"
+        },
+        {
+            "type_name": "综艺",
+            "type_id": "3"
+        },
+        {
+            "type_name": "动漫",
+            "type_id": "4"
+        },
+        {
+            "type_name": "精品",
+            "type_id": "5"
+        },
+        {
+            "type_name": "短剧",
+            "type_id": "6"
+        },
+        {
+            "type_name": "123",
+            "type_id": "35"
+        }
+    ]
+}
