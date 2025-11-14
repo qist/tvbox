@@ -241,6 +241,18 @@
             }
         },
         {
+            "key": "茉莉",
+            "name": "茉莉｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+                "dataKey": "88689667dce61725",
+                "dataIv": "88689667dce61725"
+            }
+        },
+        {
             "key": "坚果",
             "name": "坚果｜APP",
             "type": 3,
@@ -535,6 +547,25 @@
             "api": "csp_SP360"
         },
         {
+            "key": "玩偶",
+            "name": "玩偶｜4K",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://www.wogg.lol",
+                    "https://wogg.xxooo.cf",
+                    "https://www.wogg.one",
+                    "https://wogg.333232.xyz",
+                    "https://woggpan.888484.xyz"
+                ]
+            }
+        },
+        {
             "key": "快映",
             "name": "快映｜4K",
             "type": 3,
@@ -543,18 +574,11 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/快映.json"
-        },
-        {
-            "key": "玩偶",
-            "name": "玩偶｜4K",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/玩偶.json"
+            "ext": {
+                "site": [
+                    "http://xsayang.fun:12512"
+                ]
+            }
         },
         {
             "key": "木偶",
@@ -565,7 +589,14 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/木偶.json"
+            "ext": {
+                "site": [
+                    "https://123.666291.xyz",
+                    "https://666.666291.xyz",
+                    "https://www.muou.site",
+                    "https://www.muou.asia"
+                ]
+            }
         },
         {
             "key": "蜡笔",
@@ -576,7 +607,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/蜡笔.json"
+            "ext": {
+                "site": [
+                    "https://www.labi88.sbs",
+                    "https://feimao666.fun",
+                    "http://feimao888.fun"
+                ]
+            }
         },
         {
             "key": "至臻",
@@ -587,7 +624,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/至臻.json"
+            "ext": {
+                "site": [
+                    "https://mihdr.top",
+                    "https://www.miqk.cc",
+                    "https://xiaomiai.site",
+                    "https://xiaomi666.fun",
+                    "https://www.mihdr.top",
+                    "https://www.zhizhenpan.fun"
+                ]
+            }
         },
         {
             "key": "多多",
@@ -598,7 +644,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/多多.json"
+            "ext": {
+                "site": [
+                    "https://tv.yydsys.top",
+                    "https://tv.yydsys.cc",
+                    "https://tv.214521.xyz"
+                ]
+            }
         },
         {
             "key": "欧哥",
@@ -609,7 +661,11 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/欧哥.json"
+            "ext": {
+                "site": [
+                    "https://woog.nxog.eu.org"
+                ]
+            }
         },
         {
             "key": "二小",
@@ -620,7 +676,14 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/二小.json"
+            "ext": {
+                "site": [
+                    "https://xhww.net",
+                    "https://erxiaofn.site",
+                    "https://erxiaofn.click",
+                    "https://www.xhww.net"
+                ]
+            }
         },
         {
             "key": "虎斑",
@@ -631,7 +694,11 @@
             "quickSearch": 1,
             "filterable": 1,
             "changeable": 1,
-            "ext": "./json/虎斑.json"
+            "ext": {
+                "site": [
+                    "http://103.45.162.207:20720"
+                ]
+            }
         },
         {
             "key": "雷鲸",
