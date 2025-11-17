@@ -193,7 +193,33 @@
             }
         },
         {
-            "key": "小猫影视",
+            "key": "魔方",
+            "name": "魔方｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://app.ybn-ooo.top",
+                "dataKey": "vcfgytu7654rtyui",
+                "dataIv": "vcfgytu7654rtyui"
+            }
+        },
+        {
+            "key": "柒月",
+            "name": "柒月｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://www.ys.mk",
+                "dataKey": "mayday6770249ash",
+                "dataIv": "mayday6770249ash"
+            }
+        },
+        {
+            "key": "小猫",
             "name": "小猫｜APP",
             "type": 3,
             "searchable": 1,
