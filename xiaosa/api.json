@@ -193,6 +193,19 @@
             }
         },
         {
+            "key": "星空",
+            "name": "星空｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://43.154.4.75",
+                "dataKey": "HDk-7CnlK8SQUGLg",
+                "dataIv": "HDk-7CnlK8SQUGLg"
+            }
+        },
+        {
             "key": "魔方",
             "name": "魔方｜APP",
             "type": 3,
