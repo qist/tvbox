@@ -781,6 +781,21 @@
             }
         },
         {
+            "key": "清影",
+            "name": "清影｜4K",
+            "type": 3,
+            "api": "csp_PanWebShareCloudQY",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "http://www.revohd.com"
+                ]
+            }
+        },
+        {
             "key": "雷鲸",
             "name": "雷鲸｜4K",
             "type": 3,
@@ -832,6 +847,8 @@
             "api": "csp_PanWebShareCloudPT",
             "searchable": 1,
             "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
             "style": {
                 "type": "list"
             }
@@ -1288,7 +1305,7 @@
             "name": "荐片｜磁力",
             "api": "csp_Jianpian",
             "type": 3,
-            "ext": "https://api.ztcgi.com"
+            "ext": "https://ev5356.970xw.com"
         },
         {
             "key": "修罗",
