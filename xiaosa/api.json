@@ -61,14 +61,6 @@
             }
         },
         {
-            "key": "私人",
-            "name": "私人｜APP",
-            "type": 3,
-            "changeable": 1,
-            "api": "csp_AppYsV2",
-            "ext": "https://v.catcs.cc/api.php/v1.vod"
-        },
-        {
             "key": "羊羊",
             "name": "羊羊｜APP",
             "type": 3,
@@ -78,6 +70,15 @@
             "ext": {
                 "url": "https://ht.zhenxun.love",
                 "name": "羊羊学院"
+            }
+        },
+        {
+            "key": "吉米",
+            "name": "吉米｜APP",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://fox.tvmao.top"
             }
         },
         {
