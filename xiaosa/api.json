@@ -107,7 +107,8 @@
             "type": 3,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://www.mzd.asia"
+                "host": "https://www.dhxxfhsz.top",
+                "ver": 2
             }
         },
         {
@@ -130,6 +131,36 @@
                 "site": "https://dtqj1.gg1080.com:443/dtjp.txt",
                 "dataKey": "kecbio48dsq131ed",
                 "dataIv": "kecbio48dsq131ed"
+            }
+        },
+        {
+            "key": "爱盈",
+            "name": "爱盈｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
+                "dataKey": "sda1231sasddad21",
+                "dataIv": "sda1231sasddad21",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -920,7 +951,6 @@
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
-            "playerType": "2",
             "api": "csp_Czsapp",
             "searchable": 1,
             "quickSearch": 1,
@@ -939,7 +969,7 @@
             "name": "云播｜影视",
             "type": 3,
             "api": "csp_Tvyb",
-            "ext": "http://www.viptv01.com"
+            "ext": "http://www.viptv05.com"
         },
         {
             "key": "奇优影视",
@@ -991,7 +1021,7 @@
             "name": "农民｜影视",
             "type": 3,
             "api": "csp_Wwys",
-            "ext": "https://www.wwgz.cn"
+            "ext": "https://vip.wwgz.cn:5200"
         },
         {
             "key": "爱看机器人",
