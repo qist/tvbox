@@ -869,22 +869,6 @@
             "ext": "./XBPQ/番茄短剧.json"
         },
         {
-            "key": "天翼影视",
-            "name": "天翼｜影视",
-            "type": 1,
-            "api": "http://7.qqqtv.top/api.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "推荐",
-                "电影",
-                "电视剧",
-                "综艺",
-                "动漫"
-            ]
-        },
-        {
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
