@@ -916,26 +916,13 @@
             "key": "人人",
             "name": "人人｜4K",
             "type": 3,
-            "api": "csp_RenRen",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1
+            "api": "csp_RenRen"
         },
         {
             "key": "即刻",
             "name": "即刻｜4K",
             "type": 3,
             "api": "csp_Jike",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "双星",
-            "name": "双星｜4K",
-            "type": 3,
-            "api": "csp_ShuangXing",
             "style": {
                 "type": "list"
             }
@@ -1618,6 +1605,12 @@
             "name": "鬼鬼｜搜索",
             "type": 3,
             "api": "csp_GuiGui"
+        },
+        {
+            "key": "混合搜索",
+            "name": "混合｜搜索",
+            "type": 3,
+            "api": "csp_HunHePan"
         },
         {
             "key": "趣盘",
