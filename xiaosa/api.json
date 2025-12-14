@@ -235,18 +235,6 @@
             }
         },
         {
-            "key": "影视",
-            "name": "影视丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
-                "dataKey": "sada21321sdq231d",
-                "dataIv": "sada21321sdq231d"
-            }
-        },
-        {
             "key": "小猪",
             "name": "小猪丨APP",
             "type": 3,
@@ -1608,7 +1596,7 @@
             "api": "csp_MiSou"
         },
         {
-            "key": "酷乐搜l",
+            "key": "酷乐",
             "name": "酷乐｜搜索",
             "type": 3,
             "api": "csp_KuLe"
@@ -1630,6 +1618,12 @@
             "name": "兄弟｜搜索",
             "type": 3,
             "api": "csp_XiongDiPan"
+        },
+        {
+            "key": "天翼",
+            "name": "天翼｜搜索",
+            "type": 3,
+            "api": "csp_TianYiSo"
         },
         {
             "key": "趣盘",
