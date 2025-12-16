@@ -867,16 +867,6 @@
             "filterable": 1
         },
         {
-            "key": "甜圈短剧",
-            "name": "甜圈｜短剧",
-            "type": 3,
-            "api": "./py/甜圈短剧.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "剧王短剧",
             "name": "剧王｜短剧",
             "type": 3,
