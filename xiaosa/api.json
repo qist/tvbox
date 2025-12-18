@@ -847,10 +847,40 @@
             }
         },
         {
+            "key": "锦鲤短剧",
+            "name": "锦鲤｜短剧",
+            "type": 3,
+            "api": "csp_JinliDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "笒鬼短剧",
             "name": "笒鬼｜短剧",
             "type": 3,
             "api": "csp_CenguiDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "百度短剧",
+            "name": "百度｜短剧",
+            "type": 3,
+            "api": "csp_BaiduDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "星阁短剧",
+            "name": "星阁｜短剧",
+            "type": 3,
+            "api": "csp_XinggeDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -1802,6 +1832,11 @@
         }
     ],
     "parses": [
+        {
+            "name": "聚合",
+            "type": 3,
+            "url": "Web"
+        },
         {
             "name": "虾米",
             "type": 0,
