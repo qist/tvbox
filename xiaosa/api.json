@@ -77,6 +77,16 @@
             }
         },
         {
+            "key": "麒麟",
+            "name": "麒麟｜APP",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "https://www.70yyw.cc",
+                "ver": 2
+            }
+        },
+        {
             "key": "木瓜",
             "name": "木瓜｜APP",
             "type": 3,
@@ -280,19 +290,6 @@
                 "url": "http://49.235.114.19:150",
                 "dataKey": "q7gj4f9br3fls6nh",
                 "dataIv": "q7gj4f9br3fls6nh"
-            }
-        },
-        {
-            "key": "星空",
-            "name": "星空｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://43.154.4.75",
-                "dataKey": "HDk-7CnlK8SQUGLg",
-                "dataIv": "HDk-7CnlK8SQUGLg"
             }
         },
         {
