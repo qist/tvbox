@@ -844,6 +844,15 @@
             "ext": "./json/123.json"
         },
         {
+            "key": "双星",
+            "name": "双星｜4K",
+            "type": 3,
+            "api": "csp_ShuangXing",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "人人",
             "name": "人人｜4K",
             "type": 3,
@@ -1009,6 +1018,13 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "韩剧看看",
+            "name": "韩剧｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/韩剧看看.json"
         },
         {
             "key": "莫小影视",
