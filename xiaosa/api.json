@@ -703,7 +703,10 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "https://woog.nxog.eu.org"
+                    "https://woog.nxog.eu.org",
+                    "https://woog.nxog.fun",
+                    "https://woog.nxog.eu.org",
+                    "https://woog.430520.xyz"
                 ]
             }
         },
@@ -842,15 +845,6 @@
                 "ratio": 1.433
             },
             "ext": "./json/123.json"
-        },
-        {
-            "key": "双星",
-            "name": "双星｜4K",
-            "type": 3,
-            "api": "csp_ShuangXing",
-            "style": {
-                "type": "list"
-            }
         },
         {
             "key": "人人",
