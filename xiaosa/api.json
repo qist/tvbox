@@ -862,6 +862,15 @@
             }
         },
         {
+            "key": "双星",
+            "name": "双星｜4K",
+            "type": 3,
+            "api": "csp_ShuangXing",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "锦鲤短剧",
             "name": "锦鲤｜短剧",
             "type": 3,
