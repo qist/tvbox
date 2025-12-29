@@ -54,7 +54,7 @@
             "type": 3,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://fox.tvmao.top"
+                "host": "http://45.207.215.137:8006"
             }
         },
         {
@@ -151,15 +151,28 @@
             }
         },
         {
+            "key": "布雷",
+            "name": "布雷｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/blurl.txt",
+                "dataKey": "5f2b7ed203a3a581",
+                "dataIv": "5f2b7ed203a3a581",
+                "version": "120"
+            }
+        },
+        {
             "key": "仓鼠",
             "name": "仓鼠｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppQi",
             "ext": {
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-                "dataKey": "da61247f5b662597",
-                "dataIv": "da61247f5b662597",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi430.txt",
+                "dataKey": "7sKhdca8HXGuyZ4x",
+                "dataIv": "7sKhdca8HXGuyZ4x",
                 "version": "120"
             }
         },
@@ -1030,7 +1043,7 @@
             "name": "全看｜影视",
             "type": 3,
             "api": "csp_Quanwk",
-            "ext": "https://www.91qkw.com"
+            "ext": "https://888.qkw1.cc"
         },
         {
             "key": "饺子影视",
@@ -1105,13 +1118,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/永乐影视.json"
-        },
-        {
-            "key": "三九影视",
-            "name": "三九｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/三九影视.json"
         },
         {
             "key": "采集之王",
@@ -1289,13 +1295,6 @@
             "ext": "./XYQHiker/巴士动漫.json"
         },
         {
-            "key": "好看动漫",
-            "name": "好看｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/好看动漫.js"
-        },
-        {
             "key": "花子动漫",
             "name": "花子｜动漫",
             "type": 3,
@@ -1322,13 +1321,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/去看吧.js"
-        },
-        {
-            "key": "异世界",
-            "name": "异世界｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/异世界.js"
         },
         {
             "key": "荐片",
