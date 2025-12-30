@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;9b3e327c02439fe4e1d6223beca9ed17",
+  "spider": "./jar/fan.txt;md5;b45bba582136db7532d6ee2f14da6304",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -72,8 +72,8 @@
     {"key": "新6V","name": "🧲新6V┃磁力","type": 3,"api": "csp_SixVGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "https://www.xb6v.com/"},
     {"key": "Dm84","name": "🚌巴士┃动漫","type": 3,"api": "csp_Dm84Guard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "Anime1","name": "🐾日本┃动漫","type": 3,"api": "csp_Anime1Guard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
-    {"key": "超全","name": "⚽超全┃看球","type": 3,"api": "csp_ZbzGuard","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"},"ext": "uqGL1fpJNAUf8fdTwZCE5qSp+Q=="},
     {"key": "88","name": "⚽88┃看球","type": 3,"api": "csp_Sir88Guard","timeout": 10,"searchable": 0,"changeable": 0,"style": {"type": "list"}},
+    {"key": "超全","name": "⚽超全┃看球","type": 3,"api": "csp_ZbzGuard","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"},"ext": "uqGL1fpJNAUf8fdTwZCE5qSp+Q=="},
     {"key": "看球","name": "⚽手机┃看球","type": 3,"api": "csp_KanqiuGuard","timeout": 10,"searchable": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "MTV1","name": "🎙️易听┃音乐","type": 3,"api": "csp_MusicGuard","style": {"type": "rect","ratio": 1},"searchable": 1,"quickSearch": 0,"changeable": 0},
     {"key": "MTV","name": "🎶明星┃MV","type": 3,"api": "csp_BiliGuard","style": {"type": "rect","ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"}},
