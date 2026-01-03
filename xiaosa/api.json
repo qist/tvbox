@@ -49,12 +49,13 @@
             }
         },
         {
-            "key": "吉米",
-            "name": "吉米｜APP",
+            "key": "椰子",
+            "name": "椰子｜APP",
             "type": 3,
+            "changeable": 0,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://45.207.215.137:8006"
+                "host": "http://103.109.20.117:550"
             }
         },
         {
@@ -68,34 +69,14 @@
             }
         },
         {
-            "key": "麒麟",
-            "name": "麒麟｜APP",
+            "key": "椰子",
+            "name": "椰子｜APP",
             "type": 3,
+            "changeable": 0,
             "api": "csp_AppFox",
             "ext": {
-                "host": "https://www.70yyw.cc",
+                "host": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/yzysapp.json",
                 "ver": 2
-            }
-        },
-        {
-            "key": "木瓜",
-            "name": "木瓜｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://www.yezitv.top"
-            }
-        },
-        {
-            "key": "和友",
-            "name": "和友｜APP",
-            "type": 3,
-            "api": "csp_AppSy",
-            "ext": {
-                "site": "http://qcb.sxtzg.com/api.txt",
-                "siteKey": "rectangleadsadxa",
-                "listKey": "gHSLmx3JQRasgztO",
-                "parsesKey": "gHSLmx3JQRasgztO"
             }
         },
         {
@@ -206,6 +187,17 @@
             }
         },
         {
+            "key": "雨滴",
+            "name": "雨滴｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
+                "dataKey": "685bf108bc47b67d",
+                "dataIv": "685bf108bc47b67d"
+            }
+        },
+        {
             "key": "白鸽",
             "name": "白鸽｜APP",
             "type": 3,
@@ -229,19 +221,6 @@
                 "url": "http://103.236.61.192:8006",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg"
-            }
-        },
-        {
-            "key": "火花",
-            "name": "火花｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "http://php.itcxo.cn/txt/1.txt",
-                "dataKey": "PoiUytRedFghjklm",
-                "dataIv": "PoiUytRedFghjklm"
             }
         },
         {
@@ -284,17 +263,6 @@
             }
         },
         {
-            "key": "冷心",
-            "name": "冷心｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://dy.58ys.vip",
-                "dataKey": "JEWibY1AgWF0V1xx",
-                "dataIv": "JEWibY1AgWF0V1xx"
-            }
-        },
-        {
             "key": "魔方",
             "name": "魔方｜APP",
             "type": 3,
@@ -302,7 +270,7 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://www.mfsp4k.top",
+                "url": "https://www.26mf4k.top",
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321"
             }
@@ -403,30 +371,6 @@
                 "url": "http://www.zjcvod.com",
                 "dataKey": "ab4e9a421675f14b",
                 "dataIv": "ab4e9a421675f14b"
-            }
-        },
-        {
-            "key": "稀饭",
-            "name": "稀饭丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://app.xifanys.com",
-                "dataKey": "HM6Ly9yeS4ya3dvL",
-                "dataIv": "HM6Ly9yeS4ya3dvL"
-            }
-        },
-        {
-            "key": "五八",
-            "name": "五八丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://dy.58ys.vip",
-                "dataKey": "JEWibY1AgWF0V1xx",
-                "dataIv": "JEWibY1AgWF0V1xx"
             }
         },
         {
@@ -835,20 +779,10 @@
             "filterable": 1
         },
         {
-            "key": "笒鬼短剧",
-            "name": "笒鬼｜短剧",
+            "key": "七猫短剧",
+            "name": "七猫｜短剧",
             "type": 3,
-            "api": "csp_CenguiDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "百度短剧",
-            "name": "百度｜短剧",
-            "type": 3,
-            "api": "csp_BaiduDJ",
+            "api": "csp_QiMaoDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -906,7 +840,7 @@
             "name": "金牌｜影视",
             "type": 3,
             "api": "csp_Jpys",
-            "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            "ext": "https://hnytxj.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
             "key": "云播影视",
@@ -1299,26 +1233,6 @@
             "ext": "./XYQHiker/电影港.json"
         },
         {
-            "key": "狐狸君",
-            "name": "狐狸君｜磁力",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/狐狸君.json"
-        },
-        {
-            "key": "Mp4电影",
-            "name": "Mp4电影｜磁力",
-            "type": 3,
-            "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "美剧天堂",
             "name": "美剧天堂｜磁力",
             "type": 3,
@@ -1621,8 +1535,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩演唱会.json"
+                "json": "./json/哔哩哔哩演唱会.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1638,8 +1552,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩听书.json"
+                "json": "./json/哔哩哔哩听书.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1655,8 +1569,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩相声.json"
+                "json": "./json/哔哩哔哩相声.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1672,8 +1586,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩小品.json"
+                "json": "./json/哔哩哔哩小品.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1689,8 +1603,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩戏曲.json"
+                "json": "./json/哔哩哔哩戏曲.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
