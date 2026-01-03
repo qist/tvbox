@@ -219,6 +219,12 @@ var rule = {
                 'n': '全部',
                 'v': ''
             }, {
+                "n": "2025",
+                "v": 2025
+            }, {
+                "n": "2024",
+                "v": 2024
+            }, {
                 'n': '2023',
                 'v': 2023
             }, {
@@ -413,6 +419,12 @@ var rule = {
             'value': [{
                 'n': '全部',
                 'v': ''
+            }, {
+                "n": "2025",
+                "v": 2025
+            }, {
+                "n": "2024",
+                "v": 2024
             }, {
                 'n': '2023',
                 'v': 2023
@@ -635,6 +647,12 @@ var rule = {
             'value': [{
                 'n': '全部',
                 'v': ''
+            }, {
+                "n": "2025",
+                "v": 2025
+            }, {
+                "n": "2024",
+                "v": 2024
             }, {
                 'n': '2023',
                 'v': 2023
@@ -860,6 +878,12 @@ var rule = {
                 'n': '全部',
                 'v': ''
             }, {
+                "n": "2025",
+                "v": 2025
+            }, {
+                "n": "2024",
+                "v": 2024
+            }, {
                 'n': '2023',
                 'v': 2023
             }, {
@@ -1071,6 +1095,12 @@ var rule = {
                 'n': '全部',
                 'v': ''
             }, {
+                "n": "2025",
+                "v": 2025
+            }, {
+                "n": "2024",
+                "v": 2024
+            }, {
                 'n': '2023',
                 'v': 2023
             }, {
@@ -1243,6 +1273,12 @@ var rule = {
                 'n': '全部',
                 'v': ''
             }, {
+                "n": "2025",
+                "v": 2025
+            }, {
+                "n": "2024",
+                "v": 2024
+            }, {
                 'n': '2023',
                 'v': 2023
             }, {
@@ -1354,14 +1390,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -1369,7 +1405,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
             };
         }
     }),

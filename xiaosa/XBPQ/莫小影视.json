@@ -1,0 +1,6 @@
+{
+    "首页": "https://www.moxy.top",
+    "分类url": "https://www.moxy.top/show/id/{cateId}/page/{catePg}.html",
+    "分类": "电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju",
+    "图片": "data-src=\"&&\""
+}

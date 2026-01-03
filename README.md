@@ -101,9 +101,9 @@ V1.1.2版本以下
 
 （14）github代理地址： `https://github.moeyy.xyz https://mirror.ghproxy.com/ https://gh-proxy.com https://ghproxy.net` 选择一个速度快使用
 
-（15） 还可以使用域名: `https://qist.ugigc.dpdns.org/jsm.json` cloudflare Pages 构建
+（15） 还可以使用域名: `https://qist.wyfc.qzz.io/jsm.json` cloudflare Pages 构建
  
-（16） 添加潇洒 接口： https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json 或者 https://qist.ugigc.dpdns.org/xiaosa/api.json
+（16） 添加潇洒 接口： https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json 或者 https://qist.wyfc.qzz.io/xiaosa/api.json
 
 1. token.json格式说明：
 
@@ -145,7 +145,7 @@ V1.1.2版本以下
 "open_api_url":"https://api.xhofe.top/alist/ali_open/token",//这是alist的openapi接口地址,也可使用其他openapi提供商的地址。
 "danmu":true,//是否全局开启阿里云盘所有csp的弹幕支持,聚合类CSP仍需单独设置,例如Wogg,Wobg
 "quark_danmu":true,//是否全局开启夸克网盘的所有csp的弹幕支持,聚合类CSP仍需单独设置,例如Wogg,Wobg
-"quark_cookie":"这里填写通过https://pan.quark.cn网站获取到的cookie,会很长,全数填入即可。"
+"quark_cookie":"这里填写通过https://pan.quark.cn网站获取到的cookie,会很长,全数填入即可。",
 "uc_cookie":"这里填写通过https://drive.uc.cn网站登录获取的cookie",
 "thunder_username":"这里填入用户名或手机号,如果是手机号,记得是类似'+86 139123457'这样的格式,+86后有空格才对",
 "thunder_password":"密码",
@@ -162,3 +162,7 @@ V1.1.2版本以下
 自用仓库，如果喜欢，请Fork自用，谢谢！
 
 尽自己所能更新，不保证配置的有效性和时效性。
+
+### Star
+
+[![Star History Chart](https://api.star-history.com/svg?repos=qist/tvbox&type=Date)](https://www.star-history.com/#qist/tvbox&Date)
