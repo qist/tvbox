@@ -32,6 +32,9 @@ var rule = {
                 "n": "全部",
                 "v": "-1"
             }, {
+                "n": "2026",
+                "v": "2026"
+            }, {
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -143,6 +146,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": "-1"
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -259,6 +265,9 @@ var rule = {
                 "n": "全部",
                 "v": "-1"
             }, {
+                "n": "2026",
+                "v": "2026"
+            }, {
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -309,6 +318,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": "-1"
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -440,6 +452,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": "-1"
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -877,7 +892,8 @@ var rule = {
                 itemList.forEach(it => {
                     if (it.doc && it.doc.id && it.videoInfo &&
                         isMainContent(it.videoInfo.title) &&
-                        isQQPlatform(it.videoInfo.playSites)) {
+                        isQQPlatform(it.videoInfo.playSites) &&
+                        Object.keys(it.videoInfo.episodeSites || {}).length > 0) { // ← 新增条件：episodeSites 不为空对象
 
                         const itemId = it.doc.id;
                         if (!seenIds.has(itemId)) {
