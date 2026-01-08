@@ -2235,7 +2235,6 @@ var rule = {
             let json = /__INITIAL_DATA__/.test(html) ? html.split("window.__INITIAL_DATA__ =")[1].split(";")[0] : "{}";
             if (json === "{}") {
                 log("触发了优酷人机验证");
-                VOD.vod_remarks = ourl;
                 VOD.vod_pic = _img;
                 VOD.vod_name = video_lists[0].title.replace(/(\d+)/g, "");
                 VOD.vod_content = "触发了优酷人机验证,本次未获取详情,但不影响播放(" + ourl + ")"
