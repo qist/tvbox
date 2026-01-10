@@ -70,6 +70,39 @@
             }
         },
         {
+            "key": "爆炸",
+            "name": "爆炸｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
+                "dataKey": "37kj83zs1q16jk6t",
+                "dataIv": "37kj83zs1q16jk6t",
+                "search": "searchList4",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "橘子",
+            "name": "橘子｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "url": "https://juziapp.tpmbt.cn",
+                "dataKey": "K3h6YvSU8BTUfEcb",
+                "dataIv": "K3h6YvSU8BTUfEcb",
+                "version": "305",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "爱盈",
             "name": "爱盈｜APP",
             "type": 3,
@@ -78,9 +111,28 @@
             "quickSearch": 0,
             "filterable": 1,
             "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
-                "dataKey": "sda1231sasddad21",
-                "dataIv": "sda1231sasddad21",
+                "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
+                "dataKey": "sjvlwnhk6h9znl61",
+                "dataIv": "sjvlwnhk6h9znl61",
+                "version": "305",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "金牌",
+            "name": "金牌｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "site": "https://dtqj.ggtvb.cc/dtjp.txt",
+                "dataKey": "eecbio48dsq131ee",
+                "dataIv": "eecbio48dsq131ee",
+                "search": "searchList4",
+                "version": "305",
+                "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -96,6 +148,7 @@
                 "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
                 "dataKey": "ca94b06ca3c7d80e",
                 "dataIv": "ca94b06ca3c7d80e",
+                "version": "305",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -106,10 +159,11 @@
             "quickSearch": 1,
             "api": "csp_AppQi",
             "ext": {
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi430.txt",
-                "dataKey": "7sKhdca8HXGuyZ4x",
-                "dataIv": "7sKhdca8HXGuyZ4x",
-                "version": "120"
+                "url": "https://hk440cms.cs4k.top",
+                "dataKey": "fL7sY4zN4kB3pG4p",
+                "dataIv": "fL7sY4zN4kB3pG4p",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -134,6 +188,8 @@
                 "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
                 "dataKey": "seb5tq9mykp2w9ry",
                 "dataIv": "seb5tq9mykp2w9ry",
+                "search": "qearchList",
+                "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -148,6 +204,18 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
+            }
+        },
+        {
+            "key": "星星",
+            "name": "星星｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://110.81.153.7:1963/get.txt",
+                "dataKey": "k7L9mQ2xR4pW8n88",
+                "dataIv": "k7L9mQ2xR4pW8n88",
+                "version": "305"
             }
         },
         {
