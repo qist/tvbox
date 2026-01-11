@@ -274,7 +274,7 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://www.26mf4k.top",
+                "site": "https://snysw.xyz/mf4kzs327.txt",
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321"
             }
@@ -709,6 +709,16 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "甜圈短剧",
+            "name": "甜圈｜短剧",
+            "type": 3,
+            "api": "csp_TianquanDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "锦鲤短剧",
