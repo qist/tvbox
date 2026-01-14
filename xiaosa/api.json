@@ -49,6 +49,17 @@
             }
         },
         {
+            "key": "木瓜",
+            "name": "木瓜｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://www.yezitv.top/dtym.json",
+                "ver": 2
+            }
+        },
+        {
             "key": "花柳",
             "name": "花柳｜APP",
             "type": 3,
@@ -204,6 +215,17 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
+            }
+        },
+        {
+            "key": "奇奇",
+            "name": "奇奇｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
+                "dataKey": "123456789abcdefg",
+                "dataIv": "123456789abcdefg"
             }
         },
         {
@@ -561,6 +583,21 @@
             }
         },
         {
+            "key": "闪电",
+            "name": "闪电｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://sd.sduc.site"
+                ]
+            }
+        },
+        {
             "key": "夸克",
             "name": "夸克｜4K",
             "type": 3,
@@ -862,20 +899,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/韩剧看看.json"
-        },
-        {
-            "key": "莫小影视",
-            "name": "莫小｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/莫小影视.json"
-        },
-        {
-            "key": "明星影视",
-            "name": "明星｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/明星影视.json"
         },
         {
             "key": "面包影视",
