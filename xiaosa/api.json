@@ -901,6 +901,13 @@
             "ext": "./XBPQ/韩剧看看.json"
         },
         {
+            "key": "小镇影视",
+            "name": "小镇｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/小镇影视.json"
+        },
+        {
             "key": "面包影视",
             "name": "面包｜影视",
             "type": 3,
