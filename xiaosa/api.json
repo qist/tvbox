@@ -71,6 +71,28 @@
             }
         },
         {
+            "key": "麒麟",
+            "name": "麒麟｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "https://qh.70qh.top",
+                "ver": 2
+            }
+        },
+        {
+            "key": "粉象",
+            "name": "粉象｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://121.40.131.51:2556/host.json",
+                "ver": 2
+            }
+        },
+        {
             "key": "恋鱼",
             "name": "恋鱼｜APP",
             "type": 3,
@@ -86,7 +108,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
@@ -103,7 +125,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "url": "https://juziapp.tpmbt.cn",
@@ -119,7 +141,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
@@ -135,7 +157,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "site": "https://dtqj.ggtvb.cc/dtjp.txt",
@@ -153,7 +175,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
@@ -229,15 +251,26 @@
             }
         },
         {
-            "key": "星星",
-            "name": "星星｜APP",
+            "key": "火锅",
+            "name": "火锅｜APP",
             "type": 3,
             "api": "csp_AppGet",
             "ext": {
-                "site": "http://110.81.153.7:1963/get.txt",
-                "dataKey": "k7L9mQ2xR4pW8n88",
-                "dataIv": "k7L9mQ2xR4pW8n88",
-                "version": "305"
+                "url": "https://ios.hgyx.vip",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e",
+                "ua": "Dart/3.5 (dart:io)"
+            }
+        },
+        {
+            "key": "天峰",
+            "name": "天峰｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://zxy-ys.810211.dpdns.org",
+                "dataKey": "1234567890123456",
+                "dataIv": "1234567890123456"
             }
         },
         {
@@ -323,18 +356,6 @@
                 "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
                 "dataKey": "88689667dce61725",
                 "dataIv": "88689667dce61725"
-            }
-        },
-        {
-            "key": "八天",
-            "name": "八天丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://dy.8ttv.cn",
-                "dataKey": "1111111111111111",
-                "dataIv": "1111111111111111"
             }
         },
         {
@@ -455,7 +476,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xsayang.fun:12512"
+                    "http://xhban.xyz"
                 ]
             }
         },
