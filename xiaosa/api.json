@@ -120,22 +120,6 @@
             }
         },
         {
-            "key": "橘子",
-            "name": "橘子｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "url": "https://juziapp.tpmbt.cn",
-                "dataKey": "K3h6YvSU8BTUfEcb",
-                "dataIv": "K3h6YvSU8BTUfEcb",
-                "version": "305",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "爱盈",
             "name": "爱盈｜APP",
             "type": 3,
@@ -248,6 +232,42 @@
                 "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg"
+            }
+        },
+        {
+            "key": "方圆",
+            "name": "方圆｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://fyys1.fytd.top",
+                "dataKey": "0ef6fc92a64b4ee7",
+                "dataIv": "0ef6fc92a64b4ee7"
+            }
+        },
+        {
+            "key": "看呗",
+            "name": "看呗｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://www.winter1.fun",
+                "dataKey": "abcdefghigklmn11",
+                "dataIv": "abcdefghigklmn11"
+            }
+        },
+        {
+            "key": "小猫影视",
+            "name": "小猫｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
+                "dataKey": "xmyxmyxywlkjxywl",
+                "dataIv": "xmyxmyxywlkjxywl"
             }
         },
         {
@@ -476,7 +496,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xhban.xyz"
+                    "http://xsayang.fun:12512"
                 ]
             }
         },
@@ -599,7 +619,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://103.45.162.207:20720"
+                    "http://xhban.xyz:20720"
                 ]
             }
         },
@@ -867,13 +887,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "全网影视",
-            "name": "全看｜影视",
-            "type": 3,
-            "api": "csp_Quanwk",
-            "ext": "https://888.qkw1.cc"
         },
         {
             "key": "饺子影视",
