@@ -93,28 +93,18 @@
             }
         },
         {
-            "key": "恋鱼",
-            "name": "恋鱼｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
-                "ver": 2
-            }
-        },
-        {
-            "key": "爆炸",
-            "name": "爆炸｜APP",
+            "key": "奇奇",
+            "name": "奇奇｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
-                "dataKey": "37kj83zs1q16jk6t",
-                "dataIv": "37kj83zs1q16jk6t",
-                "search": "searchList4",
+                "url": "http://110.42.67.221:8006",
+                "dataKey": "123456789abcdefg",
+                "dataIv": "123456789abcdefg",
+                "search": "searchList7",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -154,36 +144,6 @@
             }
         },
         {
-            "key": "顾我",
-            "name": "顾我｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "changeable": "1",
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
-                "dataKey": "ca94b06ca3c7d80e",
-                "dataIv": "ca94b06ca3c7d80e",
-                "version": "305",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "仓鼠",
-            "name": "仓鼠｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://hk440cms.cs4k.top",
-                "dataKey": "fL7sY4zN4kB3pG4p",
-                "dataIv": "fL7sY4zN4kB3pG4p",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "鲸鱼",
             "name": "鲸鱼｜APP",
             "type": 3,
@@ -211,19 +171,6 @@
             }
         },
         {
-            "key": "云云",
-            "name": "云云丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
-                "dataKey": "staraugust123456",
-                "dataIv": "staraugust123456",
-                "version": "120"
-            }
-        },
-        {
             "key": "奇奇",
             "name": "奇奇｜APP",
             "type": 3,
@@ -232,18 +179,6 @@
                 "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg"
-            }
-        },
-        {
-            "key": "方圆",
-            "name": "方圆｜APP",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://fyys1.fytd.top",
-                "dataKey": "0ef6fc92a64b4ee7",
-                "dataIv": "0ef6fc92a64b4ee7"
             }
         },
         {
@@ -809,16 +744,6 @@
             "filterable": 1
         },
         {
-            "key": "七猫短剧",
-            "name": "七猫｜短剧",
-            "type": 3,
-            "api": "csp_QiMaoDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "星阁短剧",
             "name": "星阁｜短剧",
             "type": 3,
@@ -847,13 +772,6 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "番茄短剧",
-            "name": "番茄｜短剧",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/番茄短剧.json"
         },
         {
             "key": "厂长影视",
