@@ -88,7 +88,7 @@
             "changeable": 0,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://121.40.131.51:2556/host.json",
+                "host": "http://host1.sopython.top/host.json",
                 "ver": 2
             }
         },
@@ -179,6 +179,17 @@
                 "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg"
+            }
+        },
+        {
+            "key": "火狐",
+            "name": "火狐｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://122.114.171.79:568/huohushipin.txt",
+                "dataKey": "huohushipingetap",
+                "dataIv": "huohushipingetap"
             }
         },
         {
@@ -431,7 +442,8 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xsayang.fun:12512"
+                    "http://xsayang.fun:12512",
+                    "http://154.201.83.50:12512"
                 ]
             }
         },
@@ -554,7 +566,8 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xhban.xyz:20720"
+                    "http://xhban.xyz:20720",
+                    "http://154.222.27.33:20720"
                 ]
             }
         },
@@ -661,9 +674,9 @@
             },
             "ext": {
                 "site": [
-                    "https://www.kfzy.cc"
+                    "https://www.kfjwzz.com"
                 ],
-                "cookie": "bbs_sid=qtrfbfct9gs8e7qat96o3nf09t; isClose=yes; __mxau__c2-lS6GI0pR=de438e75-e385-47c4-acb1-6564b407c7b1; __mxaf__c2-lS6GI0pR=1761439615; bbs_token=9NqiBWxAvM2MN_2FST20QOg5g9gcyzm2Hqfd9YwaQjK6Y_3D; __mxas__c2-lS6GI0pR=%7B%22sid%22%3A%22e4f30c47-1290-431b-b228-b9116c4744bd%22%2C%22vd%22%3A5%2C%22stt%22%3A168%2C%22dr%22%3A3%2C%22expires%22%3A1761476207%2C%22ct%22%3A1761474407%7D; __mxav__c2-lS6GI0pR=13"
+                "cookie": "bbs_sid=bi7dpnm6vp31s38rjqlqq8vq84; bbs_token=TWiR3YUrGoVpbdTkjAJ0xMe_2B_2FiaFvd84V3_2FEZJRRSKU_3D"
             }
         },
         {
