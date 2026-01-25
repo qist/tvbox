@@ -93,11 +93,27 @@
             }
         },
         {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json",
+                "dataKey": "kj37zs29q22jk96t",
+                "dataIv": "kj37zs29q22jk96t",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "奇奇",
             "name": "奇奇｜APP",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "1",
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
@@ -114,7 +130,7 @@
             "name": "爱盈｜APP",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "1",
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
@@ -130,7 +146,7 @@
             "name": "金牌｜APP",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "1",
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
@@ -182,6 +198,17 @@
             }
         },
         {
+            "key": "芬奇",
+            "name": "芬奇｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://wsapi.dafenqi.mom/yuming.txt",
+                "dataKey": "bH5mI8iK0tK7aQ5x",
+                "dataIv": "bH5mI8iK0tK7aQ5x"
+            }
+        },
+        {
             "key": "火狐",
             "name": "火狐｜APP",
             "type": 3,
@@ -205,7 +232,18 @@
             }
         },
         {
-            "key": "小猫影视",
+            "key": "优兔",
+            "name": "优兔｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
+                "dataKey": "UrWKPnmQWJA8AQzd",
+                "dataIv": "UrWKPnmQWJA8AQzd"
+            }
+        },
+        {
+            "key": "小猫",
             "name": "小猫｜APP",
             "type": 3,
             "searchable": 1,
@@ -214,6 +252,18 @@
                 "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
                 "dataKey": "xmyxmyxywlkjxywl",
                 "dataIv": "xmyxmyxywlkjxywl"
+            }
+        },
+        {
+            "key": "小白",
+            "name": "小白｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://uutu.efjhl.cn",
+                "dataKey": "uXVVRRuaPnjEfsX5",
+                "dataIv": "uXVVRRuaPnjEfsX5"
             }
         },
         {
@@ -784,6 +834,21 @@
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "木兮影视",
+            "name": "木兮｜影视",
+            "type": 3,
+            "api": "csp_Symx",
+            "ext": "https://film.symx.club"
+        },
+        {
+            "key": "零度影视",
+            "name": "零度｜影视",
+            "type": 3,
+            "api": "csp_Lingdu",
+            "searchable": 1,
             "filterable": 1
         },
         {
