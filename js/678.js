@@ -1,12 +1,12 @@
 var rule = {
     title:'闪雷影视',
     编码:'gb2312',
-    host:'http://223.100.63.144:82',
-    url:'/www/List.asp?classid=fyclass&searchword=&page=fypage',
+    host:'http://114.100.48.52:18008',
+    url:'/jdl/List.asp?classid=fyclass&type=&searchword=&page=fypage',
     filterable:0,//是否启用分类筛选,
     class_name:'电影&电视剧&综艺&动漫&音乐',
-    class_url:'5000&10&8&6&12',
-    searchUrl:'/www/List.asp?classid=30&searchword=**&page=fypage',
+    class_url:'1&10&8&6&12',
+    searchUrl:'/jdl/List.asp?classid=30&type=&searchword=**&page=fypage',
     searchable:2,
     quickSearch:1,
     headers:{
@@ -14,7 +14,7 @@ var rule = {
     },
     play_parse:true,
     lazy:$js.toString(() => {
-        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=121.16.47.94'
+        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=114.100.48.52'
         var url = request(html).match(/push\('(.*?)'/)[1]
         url = url.replace(/https?:\/\/(?:[\d.]+|[\w\-]+)(?::\d+)?\//, rule.host + '/');
         input = {
