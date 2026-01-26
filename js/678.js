@@ -1,40 +1,62 @@
 var rule = {
     title:'闪雷影视',
     编码:'gb2312',
-    host:'http://223.100.63.144:82',
-    url:'/www/List.asp?classid=fyclass&searchword=&page=fypage',
-    filterable:0,//是否启用分类筛选,
-    class_name:'电影&电视剧&综艺&动漫&音乐',
-    class_url:'5000&10&8&6&12',
-    searchUrl:'/www/List.asp?classid=30&searchword=**&page=fypage',
-    searchable:2,
-    quickSearch:1,
-    headers:{
-        'User-Agent':'MOBILE_UA',
+    host: 'http://114.100.48.52:18008',
+
+    // 首页
+    homeUrl: '/jdl/index.asp',
+
+    // 分类页
+    url: '/jdl/List.asp?ClassID=fyclass&page=fypage',
+
+    // ================= 搜索 =================
+    // ClassId=30 是搜索页，关键词为 GBK
+    searchUrl: '/jdl/List.asp?ClassId=30&type=&searchword=**&page=fypage',
+    searchable: 1,
+    quickSearch: 0,
+
+    headers: {
+        'User-Agent': 'PC_UA',
+        'Referer': 'http://114.100.48.52:18008'
     },
-    play_parse:true,
-    lazy:$js.toString(() => {
-        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=121.16.47.94'
-        var url = request(html).match(/push\('(.*?)'/)[1]
-        url = url.replace(/https?:\/\/(?:[\d.]+|[\w\-]+)(?::\d+)?\//, rule.host + '/');
-        input = {
-            jx:0,
-            url:url,
-            parse:0
-        };
-    }),
-    limit:6,
-    推荐:'ul:eq(4)&&strong;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
-    一级:'ul:eq(5)&&strong;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
-    二级:{
-        title:"ul:eq(2)&&li:eq(0)&&Text",
-        img:"img:eq(1)&&src",
-        desc:"ul:eq(2)&&li:eq(1)&&Text;ul:eq(2)&&li:eq(2)&&Text;ul:eq(2)&&li:eq(3)&&Text",
-        content:"body&&div:has(p)&&p:eq(3)&&Text",
-        tabs:"",
-        lists:'body&&a[onclick^="senfe"]',
-        list_url:'a&&onclick',
-        list_text:'a&&Text'
+
+    timeout: 5000,
+
+    // ================= 分类 =================
+    class_name: '大陆地区&港台地区&日韩地区&欧美地区&其他地区&动作片&喜剧片&恐怖片&科幻片&战争片&动画片&爱情片&综艺片&剧情片&MTV&连续剧',
+    class_url:  '20&21&22&23&24&1&2&3&4&5&6&7&8&9&12&10',
+
+    // ================= 列表页（分类 & 搜索通用） =================
+    一级: `
+        table tr;
+        a&&Text;
+        img&&src;
+        ;
+        a&&href
+    `,
+
+    // ================= 详情页 =================
+    二级: {
+        title: 'h1&&Text',
+        img: 'img&&src',
+        desc: ';;span:eq(0)&&Text;span:eq(1)&&Text;span:eq(2)&&Text',
+        content: 'td&&Text',
+        tabs: '.playtitle',
+        lists: 'a'
     },
-    搜索:'*',
-}
+
+    // ================= 播放页 =================
+    play_parse: true,
+    lazy: `
+        var html = request(input);
+
+        // 兼容 ASP 老站播放变量
+        var url = html.match(/(http[^'"]+\\.(m3u8|mp4))/i);
+
+        if (url) {
+            input = url[1];
+        }
+    `,
+
+    limit: 6
+};
