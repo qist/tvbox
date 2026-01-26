@@ -93,6 +93,23 @@
             }
         },
         {
+            "key": "搜搜",
+            "name": "搜搜｜APP",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": "https://www.zjcvod.com"
+        },
+        {
+            "key": "火花",
+            "name": "火花｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://huohua.itcxo.cn"
+            }
+        },
+        {
             "key": "顾我",
             "name": "顾我｜APP",
             "type": 3,
@@ -240,6 +257,30 @@
                 "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
                 "dataKey": "UrWKPnmQWJA8AQzd",
                 "dataIv": "UrWKPnmQWJA8AQzd"
+            }
+        },
+        {
+            "key": "缘梦",
+            "name": "缘梦｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://165.99.42.137:5432",
+                "dataKey": "1234567890987654",
+                "dataIv": "1234567890987654"
+            }
+        },
+        {
+            "key": "王子",
+            "name": "王子｜APP",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.95112475.xyz",
+                "dataKey": "5a9w6x58dsq6z3a6",
+                "dataIv": "5a9w6x58dsq6z3a6"
             }
         },
         {
