@@ -1,40 +1,74 @@
 var rule = {
     title:'闪雷影视',
     编码:'gb2312',
+
     host:'http://114.100.48.52:18008',
-    url:'/jdl/List.asp?classid=fyclass&type=&searchword=&page=fypage',
-    filterable:0,//是否启用分类筛选,
-    class_name:'电影&电视剧&综艺&动漫&音乐',
-    class_url:'1&10&8&6&12',
-    searchUrl:'/jdl/List.asp?classid=30&type=&searchword=**&page=fypage',
+
+    // 列表页在 jdl 目录
+    url:'/jdl/List.asp?ClassID=fyclass&page=fypage',
+    searchUrl:'/jdl/List.asp?ClassID=30&searchword=**&page=fypage',
+
+    class_name:'动作片&喜剧片&恐怖片&科幻片&战争片&动画片&爱情片&综艺片&剧情片&MTV&连续剧',
+    class_url:'1&2&3&4&5&6&7&8&9&12&10',
+
+    filterable:0,
     searchable:2,
     quickSearch:1,
+
     headers:{
         'User-Agent':'MOBILE_UA',
     },
+
     play_parse:true,
+
+    // ⚠️ 重点：PlayMov 在根目录
     lazy:$js.toString(() => {
-        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=114.100.48.52'
-        var url = request(html).match(/push\('(.*?)'/)[1]
-        url = url.replace(/https?:\/\/(?:[\d.]+|[\w\-]+)(?::\d+)?\//, rule.host + '/');
+        let ids = input.split(",");
+        let classId = ids[2];
+        let movNo = ids[3];
+
+        let playUrl = rule.host + '/PlayMov.asp'
+            + '?ClassId=' + classId
+            + '&video=2&exe=0&down=0'
+            + '&movNo=' + movNo
+            + '&vgver=undefined'
+            + '&ClientIP=114.100.48.52';
+
+        let html = request(playUrl);
+        let real = html.match(/push\('(.*?)'/)[1];
+
+        // 修正相对路径
+        if(real.startsWith('/')){
+            real = rule.host + real;
+        }
+
         input = {
             jx:0,
-            url:url,
+            url:real,
             parse:0
         };
     }),
+
     limit:6,
-    推荐:'ul:eq(4)&&strong;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
-    一级:'ul:eq(5)&&strong;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
+
+    // 首页推荐
+    推荐:'ul.pic&&li;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
+
+    // 分类列表
+    一级:'ul.pic&&li;img&&alt;img&&src;span:eq(1)&&Text;a&&href',
+
     二级:{
-        title:"ul:eq(2)&&li:eq(0)&&Text",
-        img:"img:eq(1)&&src",
-        desc:"ul:eq(2)&&li:eq(1)&&Text;ul:eq(2)&&li:eq(2)&&Text;ul:eq(2)&&li:eq(3)&&Text",
-        content:"body&&div:has(p)&&p:eq(3)&&Text",
-        tabs:"",
-        lists:'body&&a[onclick^="senfe"]',
+        title:'body&&h1&&Text',
+        img:'img&&src',
+        desc:'body&&dd:eq(1)&&Text;body&&dd:eq(2)&&Text;body&&dd:eq(3)&&Text',
+        content:'body&&div:has(p)&&p&&Text',
+
+        // 集数按钮是 onclick="senfe(...)"
+        tabs:'',
+        lists:'a[onclick^="senfe"]',
         list_url:'a&&onclick',
         list_text:'a&&Text'
     },
-    搜索:'*',
+
+    搜索:'*'
 }
