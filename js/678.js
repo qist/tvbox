@@ -14,35 +14,54 @@ var rule = {
     },
     play_parse:true,
     lazy:$js.toString(() => {
-        let playHtml = request(rule.host + '/movie.asp?ClassID=' + input);
-        let urls = playHtml.match(/javascript:senfe\(this,\w+,\d+,(\d+),(\d+),"[\w\d]*"\)/);
-        if(urls && urls.length >= 3){
-            let video = urls[1];
-            let movNo = urls[2];
-            let playUrl = rule.host + `/PlayMov.asp?ClassId=${input}&video=${video}&exe=0&down=0&movNo=${movNo}&vgver=undefined`;
+        try {
+            // 获取播放页面
+            let playUrl = rule.host + `/PlayMov.asp?ClassId=${input}&video=2&exe=0&down=0&movNo=1&vgver=undefined`;
             let content = request(playUrl);
-            let extractedUrl = content.match(/push\('(.*?)'\)/);
-            if(extractedUrl && extractedUrl.length>1){
+            
+            // 从播放页面提取真实播放地址
+            let urls = content.match(/top\.location\.href\s*=\s*['"]([^'"]+)['"]/);
+            if (!urls) {
+                urls = content.match(/window\.open\(['"]([^'"]+)['"]/);
+            }
+            if (!urls) {
+                urls = content.match(/parent\.location\.href\s*=\s*['"]([^'"]+)['"]/);
+            }
+            if (!urls) {
+                urls = content.match(/location\.replace\(['"]([^'"]+)['"]/);
+            }
+            
+            if (urls && urls.length > 1) {
                 input = {
                     jx:0,
-                    url:extractedUrl[1],
+                    url: urls[1],
+                    parse:0
+                };
+            } else {
+                // 如果无法提取播放地址，尝试直接使用影片详情页
+                input = {
+                    jx:0,
+                    url: rule.host + `/movie.asp?ClassID=${input}`,
                     parse:0
                 };
             }
+        } catch(e) {
+            log('解析播放地址出错: ' + e.message);
+            input = '';
         }
     }),
     limit:6,
-    推荐:'div.lit&&dl;dt&&a&&title;dt&&img&&src;dd:eq(3)&&Text;a&&href',
-    一级:'div.lit&&dl;dt&&a&&title;dt&&img&&src;dd:eq(3)&&Text;a&&href',
+    推荐:'div.box&&div.all.border&&ul.pic&&li;a&&title;img&&src;span&&Text;a&&href',
+    一级:'div.lit&&dl;dt&&a&&title;dt&&img&&src;dd:eq(2)&&Text;a&&href',
     二级:{
-        title:"div.intro&&ul&&li.h4&&Text",
+        title:"div.intro&&ul&&li.h4&&Text;div.intro&&ul&&li:eq(0)&&Text",
         img:"div.intro&&div.img&&img&&src",
-        desc:"div.intro&&ul&&li:eq(2)&&Text;div.intro&&ul&&li:eq(4)&&Text;div.intro&&ul&&li:eq(3)&&Text;div.intro&&ul&&li:eq(5)&&Text",
+        desc:"div.intro&&ul&&li:eq(2)&&Text;div.intro&&ul&&li:eq(4)&&Text;div.intro&&ul&&li:eq(3)&&Text;div.intro&&ul&&li:eq(5)&&Text;div.intro&&ul&&li:eq(6)&&Text",
         content:"div.textnr&&Text",
-        tabs:"#content&&div.title&&h3&&Text",
+        tabs:"#content&&div.title&&h3:eq(0)&&Text",
         lists:"#content&&a[onclick^=\"senfe\"]",
         list_url:'a&&onclick',
         list_text:'a&&Text'
     },
-    搜索:'div.list&&dl;dt&&a&&title;dt&&img&&src;dd:eq(1)&&Text;dd&&a&&href',
+    搜索:'div.cont&&dl;dt&&a&&title;dt&&img&&src;dd:eq(1)&&Text;dd&&a&&href',
 }
