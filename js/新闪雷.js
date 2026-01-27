@@ -4,10 +4,10 @@ var rule = {
     host: 'http://114.100.48.52:18008',
     ip: '114.100.48.52',
     filterable: 0,
-    url: '/jdl/List.asp?ClassID=fyclass',
+    url: '/jdl/List.asp?ClassId=fyclass&searchword=&page=fypage',
     searchable: 2,
     quickSearch: 1,
-    searchUrl: '/jdl/List.asp?ClassId=30&type=&searchword=**',
+    searchUrl: '/jdl/List.asp?ClassId=30&type=&searchword=**&page=fypage',
 
     headers: {
         'User-Agent': 'MOBILE_UA',
