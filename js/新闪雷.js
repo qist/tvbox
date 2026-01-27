@@ -2,6 +2,7 @@ var rule = {
     title: '新闪雷',
     编码: 'gb2312',
     host: 'http://114.100.48.52:18008',
+    ip: '114.100.48.52',
     filterable: 0,
     url: '/jdl/List.asp?ClassID=fyclass',
     searchable: 2,
@@ -53,7 +54,7 @@ var rule = {
     // ===== 播放解析 =====
     play_parse: true,
     lazy: $js.toString(() => {
-        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP=121.16.47.94'
+        var html = rule.host + '/PlayMov.asp?ClassId=' + input.split(",")[2] + '&video=2&exe=0&down=0&movNo=' + input.split(",")[3] + '&vgver=undefined&ClientIP='+ rule.ip;
         var url = request(html).match(/videoarr\.push\('(.*?)'/)[1]
         url = url.replace(/https?:\/\/(?:[\d.]+|[\w\-]+)(?::\d+)?\//, rule.host + '/');
         input = {
