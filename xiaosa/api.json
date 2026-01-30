@@ -165,16 +165,15 @@
         },
         {
             "key": "小猪",
-            "name": "小猪丨APP",
+            "name": "小猪｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
-                "dataKey": "seb5tq9mykp2w9ry",
-                "dataIv": "seb5tq9mykp2w9ry",
-                "search": "qearchList",
+                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/zhuzhuxia.txt",
+                "dataKey": "j8sr6d93yp49db3p",
+                "dataIv": "j8sr6d93yp49db3p",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -187,9 +186,27 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
+                "url": "http://110.42.67.221:8007",
                 "dataKey": "123456789abcdefg",
-                "dataIv": "123456789abcdefg"
+                "dataIv": "123456789abcdefg",
+                "search": "searchList7",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "鲸鱼",
+            "name": "鲸鱼｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json",
+                "dataKey": "AAdgrdghjfgsABC1",
+                "dataIv": "AAdgrdghjfgsABC1",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -896,10 +913,7 @@
             "key": "苹果影视",
             "name": "苹果｜影视",
             "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "csp_LiteApple"
         },
         {
             "key": "饺子影视",
@@ -911,17 +925,13 @@
             "key": "瓜子影视",
             "name": "瓜子｜影视",
             "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "csp_Gz360"
         },
         {
             "key": "骚火影视",
             "name": "骚火｜影视",
             "type": 3,
             "api": "csp_SaoHuo",
-            "playerType": 2,
             "ext": "https://shdy5.us"
         },
         {
