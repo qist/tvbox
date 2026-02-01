@@ -3,7 +3,7 @@ muban.vfed.二级.desc = '.fed-col-md3:eq(3)&&Text;;;.fed-col-md6:eq(0)&&Text;.f
 var rule = {
     title: '去看吧',
     模板: 'vfed',
-    host: 'https://www.k9dm.com',
+    host: 'https://qkan8.com',
     // url: '/index.php/vod/show/id/fyclass/page/fypage.html',
     url: '/index.php/vod/show/id/fyclassfyfilter.html',
     filterable: 1, //是否启用分类筛选,
