@@ -1,6 +1,9 @@
 {
-    "简介": "",
-    "数组": "",
-    "分类url": "http://www.yinghuadm.cn/show_{cateId}--{by}-{class}-----{catePg}---{year}.html",
-    "分类": "日本动漫$ribendongman#国产动漫$guochandongman#动漫电影$dongmandianying#欧美动漫$oumeidongman"
+    "简介": "jianjie\">&&</p>",
+    "副标题": "zhuangtai\">&&</div>",
+    "数组": "u-movie\">&&</article>",
+    "线路标题": "ctitle\">&&在线播放",
+    "播放数组": "vlink&&</div>",
+    "分类url": "https://www.yinghuadongman.com.cn/sxvodshow/{cateId}-{year}/page/{catePg}/;;d0",
+    "分类": "国漫$2#日漫$1#美漫$3"
 }
