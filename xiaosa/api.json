@@ -49,6 +49,13 @@
             }
         },
         {
+            "key": "韩圈",
+            "name": "韩圈｜APP",
+            "type": 3,
+            "api": "csp_Hxq",
+            "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
+        },
+        {
             "key": "木瓜",
             "name": "木瓜｜APP",
             "type": 3,
@@ -927,7 +934,7 @@
             "name": "云播｜影视",
             "type": 3,
             "api": "csp_Tvyb",
-            "ext": "http://www.viptv05.com"
+            "ext": "http://www.tvyb03.com"
         },
         {
             "key": "苹果影视",
