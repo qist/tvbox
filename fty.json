@@ -1,8 +1,8 @@
 {
-  "spider": "./jar/fan.txt;md5;dd02508bff82cb8962ceaa52a58604f6",
+  "spider": "./jar/fan.txt;md5;4031d4da318c8eb32252aa4b51b04126",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
-    {"key": "豆","name": "修复所有，新公众号【太太太硬了】","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
+    {"key": "豆","name": "强化广告过滤，新公众号【太太太硬了】","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MDrive","name": "🗂我的云盘┃我配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},

@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;016ae9548ea27f5f48c95ec2b880c772",
+  "spider": "./jar/spider.jar;md5;ce93d7cb023a744ba5e2fe1df476b775",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -27,6 +27,7 @@
     {"key": "鲸鱼","name": "鲸鱼｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json","dataKey": "AAdgrdghjfgsABC1","dataIv": "AAdgrdghjfgsABC1","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "芬奇","name": "芬奇｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://wsapi.dafenqi.mom/yuming.txt","dataKey": "bH5mI8iK0tK7aQ5x","dataIv": "bH5mI8iK0tK7aQ5x"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd"}},
+    {"key": "旗星","name": "旗星｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "http://ys.qist.top/dtym.txt","dataKey": "2SWSPFxugBLPPOKo","dataIv": "2SWSPFxugBLPPOKo"}},
     {"key": "缘梦","name": "缘梦｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://165.99.42.137:5432","dataKey": "1234567890987654","dataIv": "1234567890987654"}},
     {"key": "王子","name": "王子｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "https://app.95112475.xyz","dataKey": "5a9w6x58dsq6z3a6","dataIv": "5a9w6x58dsq6z3a6"}},
     {"key": "小猫","name": "小猫｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt","dataKey": "xmyxmyxywlkjxywl","dataIv": "xmyxmyxywlkjxywl"}},
@@ -78,6 +79,8 @@
     {"key": "小镇影视","name": "小镇｜影视","type": 3,"api": "csp_XBPQ","ext": "./XBPQ/小镇影视.json"},
     {"key": "面包影视","name": "面包｜影视","type": 3,"api": "csp_XBPQ","ext": "./XBPQ/面包影视.json"},
     {"key": "永乐影视","name": "永乐｜影视","type": 3,"api": "csp_XBPQ","ext": "./XBPQ/永乐影视.json"},
+    {"key": "剧圈影视","name": "剧圈｜影视","type": 3,"api": "csp_XYQHiker","ext": "./XYQHiker/剧圈影视.json"},
+    {"key": "来看影视","name": "来看｜影视","type": 3,"api": "csp_XYQHiker","ext": "./XYQHiker/来看影视.json"},
     {"key": "采集之王","name": "采集｜合集","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"},
     {"key": "1905","name": "1905｜影视","type": 3,"api": "csp_Web1905","searchable": 1,"quickSearch": 0,"filterable": 0},
     {"key": "哆啦新番社","name": "哆啦｜新番社","type": 3,"api": "csp_XBPQ","style": {"type": "list"},"ext": "./XBPQ/哆啦新番社.json"},
