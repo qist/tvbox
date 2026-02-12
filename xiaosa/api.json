@@ -203,19 +203,6 @@
             }
         },
         {
-            "key": "旗星",
-            "name": "旗星｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "http://ys.qist.top/dtym.txt",
-                "dataKey": "2SWSPFxugBLPPOKo",
-                "dataIv": "2SWSPFxugBLPPOKo"
-            }
-        },
-        {
             "key": "缘梦",
             "name": "缘梦｜APP",
             "type": 3,
@@ -795,21 +782,6 @@
             "filterable": 1
         },
         {
-            "key": "木兮影视",
-            "name": "木兮｜影视",
-            "type": 3,
-            "api": "csp_Symx",
-            "ext": "https://film.symx.club"
-        },
-        {
-            "key": "零度影视",
-            "name": "零度｜影视",
-            "type": 3,
-            "api": "csp_Lingdu",
-            "searchable": 1,
-            "filterable": 1
-        },
-        {
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
@@ -950,13 +922,6 @@
             "ext": "./js/Anime1.js"
         },
         {
-            "key": "NT动漫",
-            "name": "NT｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/NT动漫.js"
-        },
-        {
             "key": "漫国动漫",
             "name": "漫国丨动漫",
             "type": 3,
@@ -967,18 +932,6 @@
                 "siteKey": "rectangleadsadxa",
                 "listKey": "aassddwwxxllsx1x",
                 "parsesKey": "aassddwwxxllsx1x"
-            }
-        },
-        {
-            "key": "云屋动漫",
-            "name": "云屋｜动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.yunwuee.icu",
-                "dataKey": "ygcnb9bdcmb8aeiw",
-                "dataIv": "ygcnb9bdcmb8aeiw"
             }
         },
         {
