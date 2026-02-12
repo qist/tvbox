@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;ecaf02655c93feb52fcb6ab4eeedd336",
+  "spider": "./jar/spider.jar;md5;1ae59d1b8ecfba80f045eb965080e62e",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -28,7 +28,6 @@
     {"key": "鲸鱼","name": "鲸鱼｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json","dataKey": "AAdgrdghjfgsABC1","dataIv": "AAdgrdghjfgsABC1","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "芬奇","name": "芬奇｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://wsapi.dafenqi.mom/yuming.txt","dataKey": "bH5mI8iK0tK7aQ5x","dataIv": "bH5mI8iK0tK7aQ5x"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd"}},
-    {"key": "旗星","name": "旗星｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "http://ys.qist.top/dtym.txt","dataKey": "2SWSPFxugBLPPOKo","dataIv": "2SWSPFxugBLPPOKo"}},
     {"key": "缘梦","name": "缘梦｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://165.99.42.137:5432","dataKey": "1234567890987654","dataIv": "1234567890987654"}},
     {"key": "王子","name": "王子｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "https://app.95112475.xyz","dataKey": "5a9w6x58dsq6z3a6","dataIv": "5a9w6x58dsq6z3a6"}},
     {"key": "小猫","name": "小猫｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt","dataKey": "xmyxmyxywlkjxywl","dataIv": "xmyxmyxywlkjxywl"}},
@@ -65,8 +64,6 @@
     {"key": "星阁短剧","name": "星阁｜短剧","type": 3,"api": "csp_XinggeDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "星芽短剧","name": "星芽｜短剧","type": 3,"api": "./py/星芽短剧.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "剧王短剧","name": "剧王｜短剧","type": 3,"api": "./py/剧王短剧.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1},
-    {"key": "木兮影视","name": "木兮｜影视","type": 3,"api": "csp_Symx","ext": "https://film.symx.club"},
-    {"key": "零度影视","name": "零度｜影视","type": 3,"api": "csp_Lingdu","searchable": 1,"filterable": 1},
     {"key": "厂长影视","name": "厂长｜影视","type": 3,"api": "csp_Czsapp","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.czzymovie.com"},
     {"key": "金牌影视","name": "金牌｜影视","type": 3,"api": "csp_Jpys","ext": "https://m.610pkea.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"},
     {"key": "云播影视","name": "云播｜影视","type": 3,"api": "csp_Tvyb","ext": "http://www.tvyb03.com"},
@@ -86,9 +83,7 @@
     {"key": "1905","name": "1905｜影视","type": 3,"api": "csp_Web1905","searchable": 1,"quickSearch": 0,"filterable": 0},
     {"key": "哆啦新番社","name": "哆啦｜新番社","type": 3,"api": "csp_XBPQ","style": {"type": "list"},"ext": "./XBPQ/哆啦新番社.json"},
     {"key": "Anime1","name": "A1｜动漫","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/Anime1.js"},
-    {"key": "NT动漫","name": "NT｜动漫","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/NT动漫.js"},
     {"key": "漫国动漫","name": "漫国丨动漫","type": 3,"searchable": 1,"api": "csp_AppSy","ext": {"site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt","siteKey": "rectangleadsadxa","listKey": "aassddwwxxllsx1x","parsesKey": "aassddwwxxllsx1x"}},
-    {"key": "云屋动漫","name": "云屋｜动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "https://www.yunwuee.icu","dataKey": "ygcnb9bdcmb8aeiw","dataIv": "ygcnb9bdcmb8aeiw"}},
     {"key": "卡卡动漫","name": "卡卡｜动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "http://154.201.90.53:8002","dataKey": "123456789abcdefg","dataIv": "123456789abcdefg"}},
     {"key": "丫丫动漫","name": "丫丫｜动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "http://tv.yy-fun.cc","dataKey": "qkxnwkfjwpcnwycl","dataIv": "qkxnwkfjwpcnwycl"}},
     {"key": "冬日动漫","name": "冬日丨动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "http://www.drdm.fun","dataKey": "qE2nD0rL1lH4uP9r","dataIv": "qE2nD0rL1lH4uP9r"}},
