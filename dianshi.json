@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;1ae59d1b8ecfba80f045eb965080e62e",
+  "spider": "./jar/spider.jar;md5;0591cf91b6303899342a0a0b01f695f4",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -16,6 +16,7 @@
     {"key": "cbh","name": "茶杯狐","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"分类url": "https://www.cupfox7.com/cupfox/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html","分类": "电影$fenlei1#电视剧$fenlei2#综艺$fenlei3#动漫$fenlei4"},"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
     {"key": "热播影视","name": "热播｜APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "韩圈","name": "韩圈｜APP","type": 3,"api": "csp_Hxq","ext": "https://fishapi.wya6.com/fish/fishhxq.php"},
+    {"key": "奴娜","name": "奴娜丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.nntv.in/api.php/v1.vod"},
     {"key": "花柳","name": "花柳｜APP","type": 3,"api": "csp_AppFox","searchable": 1,"changeable": 1,"ext": {"host": "http://nico.oiio.fun","ver": 2}},
     {"key": "麒麟","name": "麒麟｜APP","type": 3,"api": "csp_AppFox","searchable": 1,"changeable": 1,"ext": {"host": "https://qh.70qh.top","ver": 2}},
     {"key": "搜搜","name": "搜搜｜APP","type": 3,"api": "csp_AppFox","searchable": 1,"changeable": 1,"ext": "https://www.zjcvod.com"},
@@ -25,6 +26,8 @@
     {"key": "金牌","name": "金牌｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://dtqj.ggtvb.cc/dtjp.txt","dataKey": "eecbio48dsq131ee","dataIv": "eecbio48dsq131ee","search": "searchList4","version": "305","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "小猪","name": "小猪｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/zhuzhuxia.txt","dataKey": "j8sr6d93yp49db3p","dataIv": "j8sr6d93yp49db3p","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "鲸鱼","name": "鲸鱼｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json","dataKey": "AAdgrdghjfgsABC1","dataIv": "AAdgrdghjfgsABC1","init": "initV122","ua": "okhttp/3.10.0"}},
+    {"key": "小鸟","name": "小鸟｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://154.222.26.58:7788","dataKey": "guodan2004031600","dataIv": "guodan2004031600","token": "fd035ffa03d62775add295bfbb7d99c131e0bb49bb9451309b0ffc4df1631146"}},
+    {"key": "七月","name": "七月｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://99.jl8.top/1.txt","dataKey": "xnybssspqtwotuwj","dataIv": "xnybssspqtwotuwj"}},
     {"key": "芬奇","name": "芬奇｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://wsapi.dafenqi.mom/yuming.txt","dataKey": "bH5mI8iK0tK7aQ5x","dataIv": "bH5mI8iK0tK7aQ5x"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd"}},
     {"key": "缘梦","name": "缘梦｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://165.99.42.137:5432","dataKey": "1234567890987654","dataIv": "1234567890987654"}},
@@ -99,7 +102,7 @@
     {"key": "路漫漫","name": "路漫漫｜动漫","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/路漫漫.js"},
     {"key": "去看吧","name": "去看吧｜动漫","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/去看吧.js"},
     {"key": "荐片","name": "荐片｜磁力","api": "csp_JianPian","type": 3},
-    {"key": "修罗","name": "修罗｜磁力","api": "csp_Xlys","type": 3,"ext": "https://xl01.com.de"},
+    {"key": "修罗","name": "修罗｜磁力","api": "csp_Xlys","type": 3,"ext": "https://www.xlys02.com"},
     {"key": "七味","name": "七味｜磁力","type": 3,"api": "csp_QnMp4","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"}},
     {"key": "雪花","name": "雪花｜磁力","type": 3,"api": "csp_XBPQ","changeable": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XBPQ/雪花.json"},
     {"key": "80S","name": "80S｜磁力","type": 3,"api": "csp_BLSGod","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1},
