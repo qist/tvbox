@@ -56,6 +56,16 @@
             "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
         {
+            "key": "奴娜",
+            "name": "奴娜丨APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.nntv.in/api.php/v1.vod"
+        },
+        {
             "key": "花柳",
             "name": "花柳｜APP",
             "type": 3,
@@ -174,6 +184,33 @@
                 "dataIv": "AAdgrdghjfgsABC1",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "小鸟",
+            "name": "小鸟｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://154.222.26.58:7788",
+                "dataKey": "guodan2004031600",
+                "dataIv": "guodan2004031600",
+                "token": "fd035ffa03d62775add295bfbb7d99c131e0bb49bb9451309b0ffc4df1631146"
+            }
+        },
+        {
+            "key": "七月",
+            "name": "七月｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://99.jl8.top/1.txt",
+                "dataKey": "xnybssspqtwotuwj",
+                "dataIv": "xnybssspqtwotuwj"
             }
         },
         {
@@ -1095,7 +1132,7 @@
             "name": "修罗｜磁力",
             "api": "csp_Xlys",
             "type": 3,
-            "ext": "https://xl01.com.de"
+            "ext": "https://www.xlys02.com"
         },
         {
             "key": "七味",
