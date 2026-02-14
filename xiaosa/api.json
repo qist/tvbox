@@ -187,6 +187,19 @@
             }
         },
         {
+            "key": "优兔",
+            "name": "优兔｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
+                "dataKey": "UrWKPnmQWJA8AQzd",
+                "dataIv": "UrWKPnmQWJA8AQzd"
+            }
+        },
+        {
             "key": "小鸟",
             "name": "小鸟｜APP",
             "type": 3,
@@ -224,19 +237,6 @@
                 "site": "https://wsapi.dafenqi.mom/yuming.txt",
                 "dataKey": "bH5mI8iK0tK7aQ5x",
                 "dataIv": "bH5mI8iK0tK7aQ5x"
-            }
-        },
-        {
-            "key": "优兔",
-            "name": "优兔｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
-                "dataKey": "UrWKPnmQWJA8AQzd",
-                "dataIv": "UrWKPnmQWJA8AQzd"
             }
         },
         {
