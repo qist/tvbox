@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;83140196bc0f418ea89b2c97ba0f0e70",
+  "spider": "./jar/spider.jar;md5;1bc53a75c7bc9c040b1cf88250b240dc",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -29,6 +29,7 @@
     {"key": "鲸鱼","name": "鲸鱼｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json","dataKey": "AAdgrdghjfgsABC1","dataIv": "AAdgrdghjfgsABC1","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd"}},
     {"key": "小鸟","name": "小鸟｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://154.222.26.58:7788","dataKey": "guodan2004031600","dataIv": "guodan2004031600","token": "fd035ffa03d62775add295bfbb7d99c131e0bb49bb9451309b0ffc4df1631146"}},
+    {"key": "方源","name": "方源｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://fyys9.fytd.top/1.txt","dataKey": "0ef6fc92a64b4e74","dataIv": "0ef6fc92a64b4e74"}},
     {"key": "七月","name": "七月｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://99.jl8.top/1.txt","dataKey": "xnybssspqtwotuwj","dataIv": "xnybssspqtwotuwj"}},
     {"key": "芬奇","name": "芬奇｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://wsapi.dafenqi.mom/yuming.txt","dataKey": "bH5mI8iK0tK7aQ5x","dataIv": "bH5mI8iK0tK7aQ5x"}},
     {"key": "缘梦","name": "缘梦｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://165.99.42.137:5432","dataKey": "1234567890987654","dataIv": "1234567890987654"}},

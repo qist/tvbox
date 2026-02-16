@@ -214,6 +214,19 @@
             }
         },
         {
+            "key": "方源",
+            "name": "方源｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://fyys9.fytd.top/1.txt",
+                "dataKey": "0ef6fc92a64b4e74",
+                "dataIv": "0ef6fc92a64b4e74"
+            }
+        },
+        {
             "key": "七月",
             "name": "七月｜APP",
             "type": 3,
