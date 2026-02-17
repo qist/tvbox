@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;1bc53a75c7bc9c040b1cf88250b240dc",
+  "spider": "./jar/spider.jar;md5;7acab6fc93108714a4f2b6112e1be8e3",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -41,6 +41,9 @@
     {"key": "瑞奇","name": "瑞奇｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://rqxk.gdata.fun","dataKey": "yangruiqiYsapp00","dataIv": "yangruiqiYsapp00"}},
     {"key": "茉莉","name": "茉莉｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt","dataKey": "88689667dce61725","dataIv": "88689667dce61725"}},
     {"key": "驿站","name": "驿站丨APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt","dataKey": "dyyztvapiappyyds","dataIv": "dyyztvapiappyyds"}},
+    {"key": "蝴蝶","name": "蝴蝶｜APP","type": 3,"api": "csp_AppNox","ext": {"url": "http://111.170.7.114:8081","header": {"content-type": "application/json","x-app-signature": "1B:20:A2:57:B9:EB:EB:4E:09:0E:B3:5C:11:62:9E:B6:76:51:98:5A:31:68:05:58:E2:BF:E7:62:75:86:BA:51","x-app-package": "com.muyuesg.app","x-app-version-code": "7","x-app-version-name": "0.0.7"}}},
+    {"key": "片喵","name": "片喵｜APP","type": 3,"api": "csp_AppNox","ext": {"url": "https://svip.2video.cc","header": {"content-type": "application/json","x-app-signature": "70:DF:B1:2A:AE:C3:E3:73:6E:23:0F:67:B9:3B:C5:63:2D:EA:2A:2C:9E:9D:52:82:1D:3F:3C:3C:B9:10:9E:EE","x-app-package": "com.ds.wlss","x-app-version-code": "56","x-app-version-name": "1.2.6"}}},
+    {"key": "豆丁","name": "豆丁｜APP","type": 3,"api": "csp_AppNox","ext": {"url": "http://172.247.44.102:9924","header": {"content-type": "application/json","x-app-signature": "99:CA:F0:76:5A:92:1F:00:1A:60:96:2C:BB:AC:01:51:A6:4E:C6:28:EB:67:F5:82:9C:2C:78:66:91:C3:60:56","x-app-package": "com.ddsp.app","x-app-version-code": "2","x-app-version-name": "3.0.9"}}},
     {"key": "哔哩视频","name": "哔哩｜视频","type": 3,"api": "csp_BiliYS","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.433},"ext": {"json": "./json/哔哩视频.json","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"}},
     {"key": "玩偶","name": "玩偶｜4K","type": 3,"api": "csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://www.wogg.one","https://wogg.333232.xyz","https://woggpan.888484.xyz"]},"timeout": 60},
     {"key": "快映","name": "快映｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xsayang.fun:12512","http://154.201.83.50:12512"]},"timeout": 60},
