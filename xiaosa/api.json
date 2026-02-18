@@ -383,6 +383,54 @@
             }
         },
         {
+            "key": "蝴蝶",
+            "name": "蝴蝶｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "http://111.170.7.114:8081",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "1B:20:A2:57:B9:EB:EB:4E:09:0E:B3:5C:11:62:9E:B6:76:51:98:5A:31:68:05:58:E2:BF:E7:62:75:86:BA:51",
+                    "x-app-package": "com.muyuesg.app",
+                    "x-app-version-code": "7",
+                    "x-app-version-name": "0.0.7"
+                }
+            }
+        },
+        {
+            "key": "片喵",
+            "name": "片喵｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "https://svip.2video.cc",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "70:DF:B1:2A:AE:C3:E3:73:6E:23:0F:67:B9:3B:C5:63:2D:EA:2A:2C:9E:9D:52:82:1D:3F:3C:3C:B9:10:9E:EE",
+                    "x-app-package": "com.ds.wlss",
+                    "x-app-version-code": "56",
+                    "x-app-version-name": "1.2.6"
+                }
+            }
+        },
+        {
+            "key": "豆丁",
+            "name": "豆丁｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "http://172.247.44.102:9924",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "99:CA:F0:76:5A:92:1F:00:1A:60:96:2C:BB:AC:01:51:A6:4E:C6:28:EB:67:F5:82:9C:2C:78:66:91:C3:60:56",
+                    "x-app-package": "com.ddsp.app",
+                    "x-app-version-code": "2",
+                    "x-app-version-name": "3.0.9"
+                }
+            }
+        },
+        {
             "key": "哔哩视频",
             "name": "哔哩｜视频",
             "type": 3,
