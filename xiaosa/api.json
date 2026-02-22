@@ -110,21 +110,6 @@
             }
         },
         {
-            "key": "顾我",
-            "name": "顾我｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json",
-                "dataKey": "kj37zs29q22jk96t",
-                "dataIv": "kj37zs29q22jk96t",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "爱盈",
             "name": "爱盈｜APP",
             "type": 3,
@@ -164,9 +149,10 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/zhuzhuxia.txt",
-                "dataKey": "j8sr6d93yp49db3p",
-                "dataIv": "j8sr6d93yp49db3p",
+                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/aoteman.txt",
+                "dataKey": "lp3d4t53y9t5db8y",
+                "dataIv": "lp3d4t53y9t5db8y",
+                "search": "searchList9",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -200,17 +186,16 @@
             }
         },
         {
-            "key": "小鸟",
-            "name": "小鸟｜APP",
+            "key": "七壹",
+            "name": "七壹｜APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://154.222.26.58:7788",
-                "dataKey": "guodan2004031600",
-                "dataIv": "guodan2004031600",
-                "token": "fd035ffa03d62775add295bfbb7d99c131e0bb49bb9451309b0ffc4df1631146"
+                "url": "https://qiyiys.cc",
+                "dataKey": "45452893929B40D9",
+                "dataIv": "45452893929B40D9"
             }
         },
         {
@@ -383,18 +368,18 @@
             }
         },
         {
-            "key": "蝴蝶",
-            "name": "蝴蝶｜APP",
+            "key": "柒月",
+            "name": "柒月｜APP",
             "type": 3,
             "api": "csp_AppNox",
             "ext": {
-                "url": "http://111.170.7.114:8081",
+                "url": "https://nox.ggww.net",
                 "header": {
                     "content-type": "application/json",
-                    "x-app-signature": "1B:20:A2:57:B9:EB:EB:4E:09:0E:B3:5C:11:62:9E:B6:76:51:98:5A:31:68:05:58:E2:BF:E7:62:75:86:BA:51",
-                    "x-app-package": "com.muyuesg.app",
-                    "x-app-version-code": "7",
-                    "x-app-version-name": "0.0.7"
+                    "x-app-signature": "A4:0D:A8:0A:59:D1:70:CA:A9:50:CF:15:C1:8C:45:4D:47:A3:9B:26:98:9D:8B:64:0E:CD:74:5B:A7:1B:F5:DC",
+                    "x-app-package": "com.qyys.app",
+                    "x-app-version-code": "8",
+                    "x-app-version-name": "8"
                 }
             }
         },
@@ -411,6 +396,22 @@
                     "x-app-package": "com.ds.wlss",
                     "x-app-version-code": "56",
                     "x-app-version-name": "1.2.6"
+                }
+            }
+        },
+        {
+            "key": "金牌Fox",
+            "name": "金牌｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "https://jp5.ggtvb.cc",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "11:05:5B:0E:DD:14:6A:96:38:28:CB:29:7D:5F:04:57:3F:D6:EC:6A:C4:54:4F:4D:44:72:0A:C1:8E:DD:A9:58",
+                    "x-app-package": "cc.xzsc.user",
+                    "x-app-version-code": "12",
+                    "x-app-version-name": "5.2"
                 }
             }
         },
