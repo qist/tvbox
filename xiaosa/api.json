@@ -186,6 +186,20 @@
             }
         },
         {
+            "key": "爱影",
+            "name": "爱影｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q16.txt",
+                "dataKey": "dj382hsyqp98kqn8",
+                "dataIv": "dj382hsyqp98kqn8",
+                "search": "mineInfo"
+            }
+        },
+        {
             "key": "七壹",
             "name": "七壹｜APP",
             "type": 3,
@@ -400,7 +414,7 @@
             }
         },
         {
-            "key": "金牌Fox",
+            "key": "金牌Nox",
             "name": "金牌｜APP",
             "type": 3,
             "api": "csp_AppNox",
@@ -838,7 +852,8 @@
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "类型": "短剧"
         },
         {
             "key": "锦鲤短剧",
@@ -848,7 +863,8 @@
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "类型": "短剧"
         },
         {
             "key": "星阁短剧",
@@ -858,7 +874,8 @@
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "类型": "短剧"
         },
         {
             "key": "星芽短剧",
@@ -868,7 +885,8 @@
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "类型": "短剧"
         },
         {
             "key": "剧王短剧",
@@ -878,7 +896,8 @@
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "类型": "短剧"
         },
         {
             "key": "厂长影视",
