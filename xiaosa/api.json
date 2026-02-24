@@ -66,18 +66,6 @@
             "ext": "https://www.nntv.in/api.php/v1.vod"
         },
         {
-            "key": "花柳",
-            "name": "花柳｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "http://nico.oiio.fun",
-                "ver": 2
-            }
-        },
-        {
             "key": "麒麟",
             "name": "麒麟｜APP",
             "type": 3,
@@ -90,6 +78,18 @@
             }
         },
         {
+            "key": "咕噜",
+            "name": "咕噜｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://www.yingsw.top",
+                "key": "guluyinghua_123",
+                "sign": "679543610991810f19698c187e5e106e"
+            }
+        },
+        {
             "key": "搜搜",
             "name": "搜搜｜APP",
             "type": 3,
@@ -97,17 +97,6 @@
             "searchable": 1,
             "changeable": 1,
             "ext": "https://www.zjcvod.com"
-        },
-        {
-            "key": "火花",
-            "name": "火花｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "http://huohua.itcxo.cn"
-            }
         },
         {
             "key": "爱盈",
@@ -173,19 +162,6 @@
             }
         },
         {
-            "key": "优兔",
-            "name": "优兔｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
-                "dataKey": "UrWKPnmQWJA8AQzd",
-                "dataIv": "UrWKPnmQWJA8AQzd"
-            }
-        },
-        {
             "key": "爱影",
             "name": "爱影｜APP",
             "type": 3,
@@ -200,6 +176,20 @@
             }
         },
         {
+            "key": "优兔",
+            "name": "优兔｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
+                "dataKey": "UrWKPnmQWJA8AQzd",
+                "dataIv": "UrWKPnmQWJA8AQzd",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "七壹",
             "name": "七壹｜APP",
             "type": 3,
@@ -210,45 +200,6 @@
                 "url": "https://qiyiys.cc",
                 "dataKey": "45452893929B40D9",
                 "dataIv": "45452893929B40D9"
-            }
-        },
-        {
-            "key": "方源",
-            "name": "方源｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://fyys9.fytd.top/1.txt",
-                "dataKey": "0ef6fc92a64b4e74",
-                "dataIv": "0ef6fc92a64b4e74"
-            }
-        },
-        {
-            "key": "七月",
-            "name": "七月｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://99.jl8.top/1.txt",
-                "dataKey": "xnybssspqtwotuwj",
-                "dataIv": "xnybssspqtwotuwj"
-            }
-        },
-        {
-            "key": "芬奇",
-            "name": "芬奇｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://wsapi.dafenqi.mom/yuming.txt",
-                "dataKey": "bH5mI8iK0tK7aQ5x",
-                "dataIv": "bH5mI8iK0tK7aQ5x"
             }
         },
         {
@@ -288,19 +239,6 @@
                 "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
                 "dataKey": "xmyxmyxywlkjxywl",
                 "dataIv": "xmyxmyxywlkjxywl"
-            }
-        },
-        {
-            "key": "小白",
-            "name": "小白｜APP",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://uutu.efjhl.cn",
-                "dataKey": "uXVVRRuaPnjEfsX5",
-                "dataIv": "uXVVRRuaPnjEfsX5"
             }
         },
         {
@@ -382,18 +320,18 @@
             }
         },
         {
-            "key": "柒月",
-            "name": "柒月｜APP",
+            "key": "橘猫",
+            "name": "橘猫｜APP",
             "type": 3,
             "api": "csp_AppNox",
             "ext": {
-                "url": "https://nox.ggww.net",
+                "url": "https://nox.jm4k.top",
                 "header": {
                     "content-type": "application/json",
-                    "x-app-signature": "A4:0D:A8:0A:59:D1:70:CA:A9:50:CF:15:C1:8C:45:4D:47:A3:9B:26:98:9D:8B:64:0E:CD:74:5B:A7:1B:F5:DC",
-                    "x-app-package": "com.qyys.app",
-                    "x-app-version-code": "8",
-                    "x-app-version-name": "8"
+                    "x-app-signature": "6D:77:A5:59:EA:EA:2E:4E:CC:E3:FE:B9:5D:8D:B0:F0:12:17:11:AD:82:97:87:FA:F7:88:18:37:6A:63:4F:38",
+                    "x-app-package": "com.gnzhis.nru",
+                    "x-app-version-code": "2",
+                    "x-app-version-name": "2.4.1"
                 }
             }
         },
