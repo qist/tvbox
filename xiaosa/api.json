@@ -81,8 +81,9 @@
             "key": "咕噜",
             "name": "咕噜｜APP",
             "type": 3,
-            "changeable": 0,
             "api": "csp_AppFox",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
                 "host": "http://www.yingsw.top",
                 "key": "guluyinghua_123",
@@ -97,6 +98,22 @@
             "searchable": 1,
             "changeable": 1,
             "ext": "https://www.zjcvod.com"
+        },
+        {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "http://117.50.204.35:520",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "search": "gftvvvvklod",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
         },
         {
             "key": "爱盈",
@@ -193,9 +210,9 @@
             "key": "七壹",
             "name": "七壹｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "https://qiyiys.cc",
                 "dataKey": "45452893929B40D9",
@@ -206,9 +223,9 @@
             "key": "缘梦",
             "name": "缘梦｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "http://165.99.42.137:5432",
                 "dataKey": "1234567890987654",
@@ -219,9 +236,9 @@
             "key": "王子",
             "name": "王子｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "https://app.95112475.xyz",
                 "dataKey": "5a9w6x58dsq6z3a6",
@@ -232,9 +249,9 @@
             "key": "小猫",
             "name": "小猫｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
                 "dataKey": "xmyxmyxywlkjxywl",
@@ -245,9 +262,9 @@
             "key": "气球",
             "name": "气球｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "https://vv.229d.cn",
                 "dataKey": "8888888888888888",
@@ -258,9 +275,9 @@
             "key": "白鸽",
             "name": "白鸽｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "https://cy.baige.asia",
                 "dataKey": "599D0FE5178642FD",
@@ -271,9 +288,9 @@
             "key": "魔方",
             "name": "魔方｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "http://www.613mf4k12.top",
                 "dataKey": "1234567887654321",
@@ -284,9 +301,9 @@
             "key": "瑞奇",
             "name": "瑞奇｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "http://rqxk.gdata.fun",
                 "dataKey": "yangruiqiYsapp00",
@@ -297,9 +314,9 @@
             "key": "茉莉",
             "name": "茉莉｜APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
                 "dataKey": "88689667dce61725",
@@ -310,9 +327,9 @@
             "key": "驿站",
             "name": "驿站丨APP",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
                 "dataKey": "dyyztvapiappyyds",
@@ -352,8 +369,8 @@
             }
         },
         {
-            "key": "金牌Nox",
-            "name": "金牌｜APP",
+            "key": "火猫",
+            "name": "火猫｜APP",
             "type": 3,
             "api": "csp_AppNox",
             "ext": {
@@ -368,18 +385,82 @@
             }
         },
         {
-            "key": "豆丁",
-            "name": "豆丁｜APP",
+            "key": "幕悦",
+            "name": "幕悦｜APP",
             "type": 3,
             "api": "csp_AppNox",
             "ext": {
-                "url": "http://172.247.44.102:9924",
+                "url": "http://111.170.7.114:8989",
                 "header": {
                     "content-type": "application/json",
-                    "x-app-signature": "99:CA:F0:76:5A:92:1F:00:1A:60:96:2C:BB:AC:01:51:A6:4E:C6:28:EB:67:F5:82:9C:2C:78:66:91:C3:60:56",
-                    "x-app-package": "com.ddsp.app",
+                    "x-app-signature": "3D:D7:7B:07:B0:81:49:AF:90:5E:39:2B:B8:59:A9:99:89:EB:D5:35:6E:06:C0:A4:BE:44:B6:16:43:33:C4:C3",
+                    "x-app-package": "com.muyuesg.app",
+                    "x-app-version-code": "12",
+                    "x-app-version-name": "0.1.2"
+                }
+            }
+        },
+        {
+            "key": "随看",
+            "name": "随看｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "https://skapp.tpmbt.cn",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "28:FA:41:C9:95:6D:9A:36:0A:FC:FC:22:12:78:80:10:B7:47:0B:8F:CE:AB:A9:49:85:22:B3:EA:57:35:C2:D1",
+                    "x-app-package": "com.mfbrjy.aqb",
+                    "x-app-version-code": "320",
+                    "x-app-version-name": "3.2.0"
+                }
+            }
+        },
+        {
+            "key": "橘子",
+            "name": "橘子｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "https://nox.jm4k.top",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "6D:77:A5:59:EA:EA:2E:4E:CC:E3:FE:B9:5D:8D:B0:F0:12:17:11:AD:82:97:87:FA:F7:88:18:37:6A:63:4F:38",
+                    "x-app-package": "com.gnzhis.nru",
                     "x-app-version-code": "2",
-                    "x-app-version-name": "3.0.9"
+                    "x-app-version-name": "2.4.1"
+                }
+            }
+        },
+        {
+            "key": "星影",
+            "name": "星影｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "http://110.81.153.7:8081",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "65:10:73:C4:52:FE:2D:8B:88:76:C2:17:83:C1:D3:6B:E3:2D:E0:40:F4:49:05:92:02:AA:DF:C3:12:78:1C:0C",
+                    "x-app-package": "com.asxkkc.jbz",
+                    "x-app-version-code": "5",
+                    "x-app-version-name": "1.3.9"
+                }
+            }
+        },
+        {
+            "key": "回响",
+            "name": "回响｜APP",
+            "type": 3,
+            "api": "csp_AppNox",
+            "ext": {
+                "url": "http://110.42.37.69:8080",
+                "header": {
+                    "content-type": "application/json",
+                    "x-app-signature": "EB:19:FD:A7:8F:67:99:CD:6C:F0:6F:A4:72:3F:7A:C7:E9:2E:95:79:6F:5B:60:EA:CD:D8:05:CF:3E:06:D9:71",
+                    "x-app-package": "com.recall.app",
+                    "x-app-version-code": "22",
+                    "x-app-version-name": "2.2.0"
                 }
             }
         },
