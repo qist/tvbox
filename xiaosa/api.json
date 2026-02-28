@@ -100,6 +100,35 @@
             "ext": "https://www.zjcvod.com"
         },
         {
+            "key": "奇奇",
+            "name": "奇奇｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "http://110.42.67.221:8009",
+                "dataKey": "123456789abcdefg",
+                "dataIv": "123456789abcdefg",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "老鹰",
+            "name": "老鹰｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt",
+                "dataKey": "zxPtEUDGVllIUhDB",
+                "dataIv": "zxPtEUDGVllIUhDB",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "顾我",
             "name": "顾我｜APP",
             "type": 3,
@@ -186,10 +215,9 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q16.txt",
-                "dataKey": "dj382hsyqp98kqn8",
-                "dataIv": "dj382hsyqp98kqn8",
-                "search": "mineInfo"
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q18.txt",
+                "dataKey": "fff32466kkf87666",
+                "dataIv": "fff32466kkf87666"
             }
         },
         {
@@ -1104,18 +1132,6 @@
             }
         },
         {
-            "key": "卡卡动漫",
-            "name": "卡卡｜动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://154.201.90.53:8002",
-                "dataKey": "123456789abcdefg",
-                "dataIv": "123456789abcdefg"
-            }
-        },
-        {
             "key": "丫丫动漫",
             "name": "丫丫｜动漫",
             "type": 3,
@@ -1125,18 +1141,6 @@
                 "url": "http://tv.yy-fun.cc",
                 "dataKey": "qkxnwkfjwpcnwycl",
                 "dataIv": "qkxnwkfjwpcnwycl"
-            }
-        },
-        {
-            "key": "冬日动漫",
-            "name": "冬日丨动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://www.drdm.fun",
-                "dataKey": "qE2nD0rL1lH4uP9r",
-                "dataIv": "qE2nD0rL1lH4uP9r"
             }
         },
         {
