@@ -66,40 +66,6 @@
             "ext": "https://www.nntv.in/api.php/v1.vod"
         },
         {
-            "key": "麒麟",
-            "name": "麒麟｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "https://qh.70qh.top",
-                "ver": 2
-            }
-        },
-        {
-            "key": "咕噜",
-            "name": "咕噜｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "http://www.yingsw.top",
-                "key": "guluyinghua_123",
-                "sign": "679543610991810f19698c187e5e106e"
-            }
-        },
-        {
-            "key": "搜搜",
-            "name": "搜搜｜APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "https://www.zjcvod.com"
-        },
-        {
             "key": "奇奇",
             "name": "奇奇｜APP",
             "type": 3,
@@ -187,7 +153,7 @@
                 "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/aoteman.txt",
                 "dataKey": "lp3d4t53y9t5db8y",
                 "dataIv": "lp3d4t53y9t5db8y",
-                "search": "searchList9",
+                "search": "searchLisl3",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -205,19 +171,6 @@
                 "dataIv": "AAdgrdghjfgsABC1",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "爱影",
-            "name": "爱影｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q18.txt",
-                "dataKey": "fff32466kkf87666",
-                "dataIv": "fff32466kkf87666"
             }
         },
         {
@@ -251,6 +204,17 @@
             }
         },
         {
+            "key": "小羊",
+            "name": "小羊｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://xy4k.com/url.txt",
+                "dataKey": "7SDWjknU34zqFbVr",
+                "dataIv": "7SDWjknU34zqFbVr"
+            }
+        },
+        {
             "key": "七壹",
             "name": "七壹｜APP",
             "type": 3,
@@ -261,19 +225,6 @@
                 "url": "https://qiyiys.cc",
                 "dataKey": "45452893929B40D9",
                 "dataIv": "45452893929B40D9"
-            }
-        },
-        {
-            "key": "缘梦",
-            "name": "缘梦｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://165.99.42.137:5432",
-                "dataKey": "1234567890987654",
-                "dataIv": "1234567890987654"
             }
         },
         {
@@ -300,32 +251,6 @@
                 "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
                 "dataKey": "xmyxmyxywlkjxywl",
                 "dataIv": "xmyxmyxywlkjxywl"
-            }
-        },
-        {
-            "key": "气球",
-            "name": "气球｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://vv.229d.cn",
-                "dataKey": "8888888888888888",
-                "dataIv": "8888888888888888"
-            }
-        },
-        {
-            "key": "白鸽",
-            "name": "白鸽｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://cy.baige.asia",
-                "dataKey": "599D0FE5178642FD",
-                "dataIv": "599D0FE5178642FD"
             }
         },
         {
@@ -368,83 +293,6 @@
             }
         },
         {
-            "key": "驿站",
-            "name": "驿站丨APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
-                "dataKey": "dyyztvapiappyyds",
-                "dataIv": "dyyztvapiappyyds"
-            }
-        },
-        {
-            "key": "零度",
-            "name": "零度｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "http://ld.ldysapp.cn",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "70:DF:B1:2A:AE:C3:E3:73:6E:23:0F:67:B9:3B:C5:63:2D:EA:2A:2C:9E:9D:52:82:1D:3F:3C:3C:B9:10:9E:EE",
-                    "x-app-package": "com.mjyx.jhxq",
-                    "x-app-version-code": "36",
-                    "x-app-version-name": "2.2.6"
-                }
-            }
-        },
-        {
-            "key": "粉象",
-            "name": "粉象｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "http://64.64.252.93:8080",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "DD:78:90:EA:BD:D3:C2:EA:A4:E1:42:2B:CF:3E:A2:9F:9C:0E:BF:94:1E:85:43:B5:3C:FE:4E:1B:51:39:22:98",
-                    "x-app-package": "com.fenxiang.make",
-                    "x-app-version-code": "1",
-                    "x-app-version-name": "1.0.0"
-                }
-            }
-        },
-        {
-            "key": "橘猫",
-            "name": "橘猫｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "https://nox.jm4k.top",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "6D:77:A5:59:EA:EA:2E:4E:CC:E3:FE:B9:5D:8D:B0:F0:12:17:11:AD:82:97:87:FA:F7:88:18:37:6A:63:4F:38",
-                    "x-app-package": "com.gnzhis.nru",
-                    "x-app-version-code": "2",
-                    "x-app-version-name": "2.4.1"
-                }
-            }
-        },
-        {
-            "key": "片喵",
-            "name": "片喵｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "https://svip.2video.cc",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "70:DF:B1:2A:AE:C3:E3:73:6E:23:0F:67:B9:3B:C5:63:2D:EA:2A:2C:9E:9D:52:82:1D:3F:3C:3C:B9:10:9E:EE",
-                    "x-app-package": "com.ds.wlss",
-                    "x-app-version-code": "56",
-                    "x-app-version-name": "1.2.6"
-                }
-            }
-        },
-        {
             "key": "火猫",
             "name": "火猫｜APP",
             "type": 3,
@@ -457,38 +305,6 @@
                     "x-app-package": "cc.xzsc.user",
                     "x-app-version-code": "12",
                     "x-app-version-name": "5.2"
-                }
-            }
-        },
-        {
-            "key": "幕悦",
-            "name": "幕悦｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "http://111.170.7.114:8989",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "3D:D7:7B:07:B0:81:49:AF:90:5E:39:2B:B8:59:A9:99:89:EB:D5:35:6E:06:C0:A4:BE:44:B6:16:43:33:C4:C3",
-                    "x-app-package": "com.muyuesg.app",
-                    "x-app-version-code": "12",
-                    "x-app-version-name": "0.1.2"
-                }
-            }
-        },
-        {
-            "key": "随看",
-            "name": "随看｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "https://skapp.tpmbt.cn",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "28:FA:41:C9:95:6D:9A:36:0A:FC:FC:22:12:78:80:10:B7:47:0B:8F:CE:AB:A9:49:85:22:B3:EA:57:35:C2:D1",
-                    "x-app-package": "com.mfbrjy.aqb",
-                    "x-app-version-code": "320",
-                    "x-app-version-name": "3.2.0"
                 }
             }
         },
@@ -1001,12 +817,6 @@
             "type": 3,
             "api": "csp_Tvyb",
             "ext": "http://www.tvyb03.com"
-        },
-        {
-            "key": "苹果影视",
-            "name": "苹果｜影视",
-            "type": 3,
-            "api": "csp_LiteApple"
         },
         {
             "key": "饺子影视",
