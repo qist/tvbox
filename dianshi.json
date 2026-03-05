@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;4ec499356cfe24d4e573a87d68554b7b",
+  "spider": "./jar/spider.jar;md5;8674125c03034720e0866c52ceacad45",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -22,6 +22,8 @@
     {"key": "老鹰","name": "老鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt","dataKey": "zxPtEUDGVllIUhDB","dataIv": "zxPtEUDGVllIUhDB","ua": "okhttp/3.10.0"}},
     {"key": "顾我","name": "顾我｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"url": "http://117.50.204.35:520","dataKey": "ca94b06ca3c7d80e","dataIv": "ca94b06ca3c7d80e","search": "gftvvvvklod","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "爱盈","name": "爱盈｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt","dataKey": "sjvlwnhk6h9znl61","dataIv": "sjvlwnhk6h9znl61","version": "305","ua": "okhttp/3.10.0"}},
+    {"key": "爱影","name": "爱影｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q19.txt","dataKey": "fff32466kkfff616","dataIv": "fff32466kkfff616","ua": "okhttp/3.10.0"}},
+    {"key": "小猪","name": "小猪｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/xinjian.txt","dataKey": "k5t2fp3h9d25hn9y","dataIv": "k5t2fp3h9d25hn9y","ua": "okhttp/3.10.0"}},
     {"key": "金牌","name": "金牌｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://dtqj.ggtvb.cc/dtjp.txt","dataKey": "eecbio48dsq131ee","dataIv": "eecbio48dsq131ee","search": "searchList4","version": "305","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "鲸鱼","name": "鲸鱼｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json","dataKey": "AAdgrdghjfgsABC1","dataIv": "AAdgrdghjfgsABC1","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "橘子","name": "橘子｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt","dataKey": "jasaFBcdV3zrUDf2","dataIv": "jasaFBcdV3zrUDf2","version": "305","init": "initV122","ua": "okhttp/3.10.0"}},
@@ -117,6 +119,7 @@
     {"key": "UC云盘","name": "我的｜UC","type": 3,"api": "csp_PanUc","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433},"ext": "./json/ucShare.json"},
     {"key": "百度云盘","name": "我的｜百度","type": 3,"api": "csp_PanBaiDu","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "盘搜","name": "盘搜｜搜索","type": 3,"api": "csp_PanSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
+    {"key": "影链","name": "影链｜搜索","type": 3,"api": "csp_Yinglian","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "糖果","name": "糖果｜搜索","type": 3,"api": "csp_TGSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "百酷","name": "百酷｜搜索","type": 3,"api": "csp_Baiku","timeout": 60},
     {"key": "米搜","name": "米搜｜搜索","type": 3,"api": "csp_MiSou","timeout": 60},
