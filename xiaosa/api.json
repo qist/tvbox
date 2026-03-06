@@ -49,6 +49,18 @@
             }
         },
         {
+            "key": "三秋影视",
+            "name": "三秋｜APP",
+            "type": 3,
+            "api": "csp_App3Q"
+        },
+        {
+            "key": "坚果影视",
+            "name": "坚果｜APP",
+            "type": 3,
+            "api": "csp_AppJg"
+        },
+        {
             "key": "韩圈",
             "name": "韩圈｜APP",
             "type": 3,
