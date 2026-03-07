@@ -176,38 +176,6 @@
             }
         },
         {
-            "key": "金牌",
-            "name": "金牌｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://dtqj.ggtvb.cc/dtjp.txt",
-                "dataKey": "eecbio48dsq131ee",
-                "dataIv": "eecbio48dsq131ee",
-                "search": "searchList4",
-                "version": "305",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "鲸鱼",
-            "name": "鲸鱼｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json",
-                "dataKey": "AAdgrdghjfgsABC1",
-                "dataIv": "AAdgrdghjfgsABC1",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "橘子",
             "name": "橘子｜APP",
             "type": 3,
@@ -305,20 +273,6 @@
             }
         },
         {
-            "key": "缘梦",
-            "name": "缘梦｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://165.99.42.137:5432",
-                "dataKey": "1234567890987654",
-                "dataIv": "1234567890987654",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "小羊",
             "name": "小羊｜APP",
             "type": 3,
@@ -343,45 +297,6 @@
             }
         },
         {
-            "key": "王子",
-            "name": "王子｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://app.95112475.xyz",
-                "dataKey": "5a9w6x58dsq6z3a6",
-                "dataIv": "5a9w6x58dsq6z3a6"
-            }
-        },
-        {
-            "key": "小猫",
-            "name": "小猫｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
-                "dataKey": "xmyxmyxywlkjxywl",
-                "dataIv": "xmyxmyxywlkjxywl"
-            }
-        },
-        {
-            "key": "魔方",
-            "name": "魔方｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://www.613mf4k12.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321"
-            }
-        },
-        {
             "key": "瑞奇",
             "name": "瑞奇｜APP",
             "type": 3,
@@ -392,67 +307,6 @@
                 "url": "http://rqxk.gdata.fun",
                 "dataKey": "yangruiqiYsapp00",
                 "dataIv": "yangruiqiYsapp00"
-            }
-        },
-        {
-            "key": "茉莉",
-            "name": "茉莉｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
-                "dataKey": "88689667dce61725",
-                "dataIv": "88689667dce61725"
-            }
-        },
-        {
-            "key": "火猫",
-            "name": "火猫｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "https://jp5.ggtvb.cc",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "11:05:5B:0E:DD:14:6A:96:38:28:CB:29:7D:5F:04:57:3F:D6:EC:6A:C4:54:4F:4D:44:72:0A:C1:8E:DD:A9:58",
-                    "x-app-package": "cc.xzsc.user",
-                    "x-app-version-code": "12",
-                    "x-app-version-name": "5.2"
-                }
-            }
-        },
-        {
-            "key": "星影",
-            "name": "星影｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "http://110.81.153.7:8081",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "65:10:73:C4:52:FE:2D:8B:88:76:C2:17:83:C1:D3:6B:E3:2D:E0:40:F4:49:05:92:02:AA:DF:C3:12:78:1C:0C",
-                    "x-app-package": "com.asxkkc.jbz",
-                    "x-app-version-code": "5",
-                    "x-app-version-name": "1.3.9"
-                }
-            }
-        },
-        {
-            "key": "回响",
-            "name": "回响｜APP",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "http://110.42.37.69:8080",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "EB:19:FD:A7:8F:67:99:CD:6C:F0:6F:A4:72:3F:7A:C7:E9:2E:95:79:6F:5B:60:EA:CD:D8:05:CF:3E:06:D9:71",
-                    "x-app-package": "com.recall.app",
-                    "x-app-version-code": "22",
-                    "x-app-version-name": "2.2.0"
-                }
             }
         },
         {
@@ -825,13 +679,6 @@
                     "https://pan1.me"
                 ]
             },
-            "timeout": 60
-        },
-        {
-            "key": "盘链",
-            "name": "盘链｜4K",
-            "type": 3,
-            "api": "csp_PanLian",
             "timeout": 60
         },
         {
@@ -1353,16 +1200,6 @@
             "name": "盘搜｜搜索",
             "type": 3,
             "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "影链",
-            "name": "影链｜搜索",
-            "type": 3,
-            "api": "csp_Yinglian",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
