@@ -40,7 +40,6 @@
     {"key": "斗鱼js","name": "🐟斗鱼┃直播","type": 3,"api": "./FTY/drpy2.min.js","ext": "./FTY/斗鱼直播.js","style": {"type": "rect","ratio": 1.755},"timeout": 10,"playerType": "2","searchable": 1,"quickSearch": 0,"changeable": 0},
     {"key": "抠搜","name": "🍄抠抠┃搜搜","type": 3,"api": "csp_KkSsGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "UC","name": "🌈优汐┃搜搜","type": 3,"api": "csp_UuSsGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
-    {"key": "YiSo","name": "😹易搜┃三盘","type": 3,"api": "csp_YiSoGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt","yiSoCookie": "satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"}},
     {"key": "米搜","name": "🦋米搜┃优夸","type": 3,"api": "csp_MIPanSoGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YpanSo","name": "🐟盘她┃夸父","type": 3,"api": "csp_YpanSoGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_PushGuard","searchable": 0,"quickSearch": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
@@ -56,7 +55,8 @@
   ],
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "hosts": [
-  "img1.wsyzy.org=danmu.888484.xyz"
+  "img1.wsyzy.org=danmu.888484.xyz",
+  "fiizvfck.top=danmu.888484.xyz"
 ],
   "lives": [
     {"name": "Kimentanm","type": 0,"url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
