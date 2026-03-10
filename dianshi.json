@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;3a7f8013058d4422da788447cc06504b",
+  "spider": "./jar/spider.jar;md5;c4f899fee78d74a14549252b31118fbc",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -122,6 +122,7 @@
     {"key": "趣盘","name": "趣盘｜搜索","type": 3,"api": "csp_QuPanSo","timeout": 60},
     {"key": "AList","name": "AList｜合集","type": 3,"api": "csp_Alist","searchable": 1,"filterable": 1,"changeable": 0,"style": {"type": "list"},"ext": "./json/alist.json"},
     {"key": "88看球","name": "88｜看球","type": 3,"api": "csp_Kanqiu","gridview": 3,"style": {"type": "list"}},
+    {"key": "919体育","name": "919｜体育","type": 3,"api": "csp_919Tiyu","style": {"type": "list"}},
     {"key": "爱听音乐","name": "爱听｜音乐","type": 3,"api": "./py/爱听音乐.py"},
     {"key": "六月听书","name": "六月｜听书","type": 3,"api": "csp_TingBook","style": {"type": "list"}},
     {"key": "呦呦DJ","name": "呦呦｜DJ","type": 3,"api": "csp_Djuu","style": {"type": "list"}},
