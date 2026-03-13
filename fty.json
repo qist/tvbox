@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;36b84c6d1bb815279dbaf504ed0e5c2c",
+  "spider": "./jar/fan.txt;md5;ffa5c3d25aca89bc39e8e1ddf28e2ae5",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "弹幕大更新，修复所有源！新公众号【太太太硬了】","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
