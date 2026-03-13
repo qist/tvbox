@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;aa64635d1672f6fb5d1858cff2fb2c3a",
+  "spider": "./jar/spider.jar;md5;5cca460de7a78d0ae65e4472a055e7b8",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -33,6 +33,7 @@
     {"key": "橘子","name": "橘子｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt","dataKey": "jasaFBcdV3zrUDf2","dataIv": "jasaFBcdV3zrUDf2","version": "305","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd","ua": "okhttp/3.10.0"}},
     {"key": "蓝鹰","name": "蓝鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt","dataKey": "ca94b06ca359d80e","dataIv": "ca94b06ca359d80e","init": "initV120","ua": "okhttp/3.10.0"}},
+    {"key": "仓鼠","name": "仓鼠｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://cs450appcms.cs4k.top","dataKey": "cD7wZ7iY6qN3sU1z","dataIv": "cD7wZ7iY6qN3sU1z"}},
     {"key": "茉莉","name": "茉莉｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt","dataKey": "88689667dce61725","dataIv": "88689667dce61725"}},
     {"key": "段友","name": "段友｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://shangjihuoke.com","dataKey": "8E2DC386FD452D05","dataIv": "8E2DC386FD452D05"}},
     {"key": "黑猫","name": "黑猫｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "http://app1-0-0.87333.cc","dataKey": "VwsHxkCViDXEExWa","dataIv": "VwsHxkCViDXEExWa"}},
@@ -42,7 +43,7 @@
     {"key": "七壹","name": "七壹｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://qiyiys.cc","dataKey": "45452893929B40D9","dataIv": "45452893929B40D9"}},
     {"key": "瑞奇","name": "瑞奇｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "http://rqxk.gdata.fun","dataKey": "yangruiqiYsapp00","dataIv": "yangruiqiYsapp00"}},
     {"key": "哔哩视频","name": "哔哩｜视频","type": 3,"api": "csp_BiliYS","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.433},"ext": {"json": "./json/哔哩视频.json","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"}},
-    {"key": "玩偶","name": "玩偶｜4K","type": 3,"api": "csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://www.wogg.lol","https://wogg.xxooo.cf","https://woggpan.888484.xyz","https://wogg.333232.xyz","http://woggpan.xxooo.cf","https://www.wogg.one"]},"timeout": 60},
+    {"key": "玩偶","name": "玩偶｜4K","type": 3,"api": "csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://wogg.xxooo.cf","https://woggpan.888484.xyz","https://wogg.333232.xyz","http://woggpan.xxooo.cf","https://www.wogg.one"]},"timeout": 60},
     {"key": "快映","name": "快映｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xsayang.fun:12512","http://154.201.83.50:12512"]},"timeout": 60},
     {"key": "木偶","name": "木偶｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://123.666291.xyz","https://666.666291.xyz","https://www.muou.site","https://www.muou.asia"]},"timeout": 60},
     {"key": "蜡笔","name": "蜡笔｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xiaocge.fun","http://feimo.fun","https://feimao666.fun","http://feimao888.fun","http://www.labi88.sbs","http://fmao.site","http://fmao.shop","http://xiaocgege.shop"]},"timeout": 60},
