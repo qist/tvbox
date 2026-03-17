@@ -1,8 +1,8 @@
 {
-  "spider": "./jar/fan.txt;md5;5f3cf55afb559c8457a04bd214404e93",
+  "spider": "./jar/fan.txt;md5;c067633ea703159709d6c4e522c3dae5",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
-    {"key": "点我切源","name": "弹幕大更新，修复所有源！新公众号【太太太硬了】","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
+    {"key": "点我切源","name": "修复pro闪退！新公众号【太太太硬了】","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MDrive","name": "🗂我的云盘┃我配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -22,9 +22,9 @@
     {"key": "光影","name": "🌞光影┃多线","type": 3,"api": "csp_AppNoxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOK0+FRORAJ7epFxdCFsq+gvTWZ1sP1yzpkeoroQVYOZVlfpWUluKg1buFZwtJ5rmyCc81Gmm8l/S04VuIrB86duuDCHzDyAuvJgrr/FHH2zVFwcxAPv9axAVykEdoeQsdmsmBBVn6tRqGr8mrgSsRJijosUED4R2Xtk85EH548sG1Nbeo1PopGfRA7qeqjvsiagEdQQNFEFrDlXmXCbNzngfHUufLOOtGXYSYrfQ5KDQ0KZPIYt7ZALHJ+jMwWyPNP6zpvtA=="},
     {"key": "视界","name": "🍙视界┃多线","type": 3,"api": "csp_AppNoxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOK0+FRORAJ7epFjN2FsOb0+G+dnI+4lWpuLce9V0IYMxpf6yxk9eNgZeUKx9NtuGiHL8VT2Ch5q3FzA/wpUpTequjCAiOuXKzelf2sV2H63VJyZQ4c7pP8BFS7Fs0PEY8l0RhZXAOtNtyr8hvgS7hJiUAsUDP4QRvtkbFEb5s8uhxNaug1QfpGf2o72OyjvreagTpQQNBEaLPlXB3CE6LnhIbUuoXOOtSXE1grCABKC38KFogYurdAWX9+j7EWxPpX3A=="},
     {"key": "花花","name": "🥝花花┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TbEn4q2l2kibom2DB9cJ0IB72Vu7apib64Gl9Ew6WDTJcIVzWsluDxqEaBqWIyM77GBXCPqCPmCyOr3RGfwjlsjchkArMHzTFT1VY9QUooz8m8BXA2mSa/whkG7SpZP100qUm6hMmTjm8YQQ51m6mxEE7hhEK1eNQ=="},
-    {"key": "播客","name": "🦊播客┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwtCFsub18Wmenoi4l29kKsy7UEoRLhBVvSwnsuM5MO9ZiIJs6T6MfJNEk2ptvW4yXL42Edzeou/SGHg="},
-    {"key": "爱影","name": "👀爱影┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TrS2dv+1y8lL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0kvDImBOA4Uobe87udCDvyRKfZx+2mS22nhAooKRgLo9y7UE+qFZ1UBoc16Q=="},
-    {"key": "猫猫","name": "🐟猫猫┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuStr2HSytK11WwwcM/+XB8SbkBB4XYk/L52LroCiYRhoDrRLJ4ZkCh5q2RxCb5yUs6B5aCQVGSkR6zDgKLrFSDulg=="},
+    {"key": "播客","name": "🦊播客┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwtCFsub18Wmenoi4l29kKsy7X0oYIRBVvSwnsuM5MO9ZiIJs6T6MfJNEk2ptvW4yXL42Edzeou/SGHg="},
+    {"key": "爱影","name": "👀爱影┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuSjvW+entv+1zw7asviEE5HJ0IK62Vu7apib64Gl9FO4n+1Js16kn8HunxBQeZqCQ=="},
+    {"key": "猫猫","name": "🐟猫猫┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TXe0NPv1yt7LM60XkwYLA1No3EluLI1d/gV1t5vq2+PaJZO0X8y4XhhFKorB8fL8quaRzegVrmV3P39FC7u1UYsIlVb07zwEm/4Hc0/c9s1snJBF1/lWqakhRaj"},
     {"key": "奥特","name": "🏝奥特┃多线","type": 3,"api": "csp_AueteGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "荐片","name": "🐭荐片┃P2P","type": 3,"api": "csp_JPJGuard","timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 0},
     {"key": "新6V","name": "🧲新6V┃磁力","type": 3,"api": "csp_SixVGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "https://www.xb6v.com/"},
@@ -60,8 +60,8 @@
   "fiizvfck.top=danmu.888484.xyz"
 ],
   "lives": [
-    {"name": "Kimentanm","type": 0,"url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
-    {"name": "develop202","type": 0,"url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType": 2,"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+    {"name": "Kimentanm","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
+    {"name": "develop202","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType": 2,"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
     {"name": "范明明（需开启V6网络）","type": 0,"url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType": 2},
     {"name": "虎牙一起看","type": 0,"url": "https://sub.ottiptv.cc/huyayqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
     {"name": "斗鱼一起看","type": 0,"url": "https://sub.ottiptv.cc/douyuyqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
