@@ -109,6 +109,37 @@
             "ext": "http://app.hktvyb.cc"
         },
         {
+            "key": "影匣",
+            "name": "影匣｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
+                "dataKey": "kj37zs29q22jk96t",
+                "dataIv": "kj37zs29q22jk96t",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "爱影",
+            "name": "爱影｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q20.txt",
+                "dataKey": "ada211sdfsff3261",
+                "dataIv": "ada211sdfsff3261",
+                "init": "initV122",
+                "search": "mineInfo",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "星河",
             "name": "星河｜APP",
             "type": 3,
@@ -167,22 +198,6 @@
             }
         },
         {
-            "key": "顾我",
-            "name": "顾我｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://117.50.204.35:520",
-                "dataKey": "ca94b06ca3c7d80e",
-                "dataIv": "ca94b06ca3c7d80e",
-                "search": "gftvvvvklod",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "爱盈",
             "name": "爱盈｜APP",
             "type": 3,
@@ -194,20 +209,6 @@
                 "dataKey": "sjvlwnhk6h9znl61",
                 "dataIv": "sjvlwnhk6h9znl61",
                 "version": "305",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "爱影",
-            "name": "爱影｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q19.txt",
-                "dataKey": "fff32466kkfff616",
-                "dataIv": "fff32466kkfff616",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -279,6 +280,32 @@
                 "url": "https://qjappcms410.xy4k.com",
                 "dataKey": "mC6kG4mI1uM8tS4o",
                 "dataIv": "mC6kG4mI1uM8tS4o"
+            }
+        },
+        {
+            "key": "星空",
+            "name": "星空｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://xkos1.xkgzs.xyz",
+                "dataKey": "77jkcdvdodfcdkjk",
+                "dataIv": "77jkcdvdodfcdkjk"
+            }
+        },
+        {
+            "key": "火狐",
+            "name": "火狐｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "http://huohu.yihn.cc",
+                "dataKey": "huohushipingetap",
+                "dataIv": "huohushipingetap"
             }
         },
         {
@@ -957,6 +984,17 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/永乐影视.json"
+        },
+        {
+            "key": "星辰影视",
+            "name": "星辰｜影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.sdconglin.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电视剧$2#短剧$36#电影$1#综艺$3#动漫$4",
+                "简介": "display: none;\">&&<"
+            }
         },
         {
             "key": "剧圈影视",
