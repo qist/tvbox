@@ -106,7 +106,33 @@
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppFox",
-            "ext": "http://app.hktvyb.cc"
+            "ext": {
+                "host": "http://app.hktvyb.cc"
+            }
+        },
+        {
+            "key": "火猫",
+            "name": "火猫｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json"
+            }
+        },
+        {
+            "key": "云朵",
+            "name": "云朵｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://yd4kcms.yd4k.top",
+                "dataKey": "Tpmm9FD99lJ8Dexa",
+                "dataIv": "Tpmm9FD99lJ8Dexa"
+            }
         },
         {
             "key": "爱影",
@@ -267,6 +293,19 @@
                 "url": "https://qjappcms410.xy4k.com",
                 "dataKey": "mC6kG4mI1uM8tS4o",
                 "dataIv": "mC6kG4mI1uM8tS4o"
+            }
+        },
+        {
+            "key": "不错",
+            "name": "不错｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://zbc4kmcs.zbc4k.app",
+                "dataKey": "vE4kR7cF6jS6jH7a",
+                "dataIv": "vE4kR7cF6jS6jH7a"
             }
         },
         {
@@ -1287,8 +1326,7 @@
             "style": {
                 "type": "list",
                 "ratio": 1.433
-            },
-            "ext": "./json/quarkShare.json"
+            }
         },
         {
             "key": "UC云盘",
@@ -1301,8 +1339,7 @@
             "style": {
                 "type": "list",
                 "ratio": 1.433
-            },
-            "ext": "./json/ucShare.json"
+            }
         },
         {
             "key": "百度云盘",
@@ -1725,7 +1762,17 @@
             "url": "https://jx.xmflv.com/?url=",
             "ext": {
                 "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "云解",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
                 }
             }
         },
@@ -1735,7 +1782,7 @@
             "url": "https://jx.xymp4.cc/?url=",
             "ext": {
                 "header": {
-                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
                 }
             }
         },
