@@ -9,8 +9,7 @@ var rule = {
     filterable: 1,
     multi: 1,
     url: '/x/bu/pagesheet/list?_all=1&append=1&channel=fyclass&listpage=1&offset=((fypage-1)*21)&pagesize=21&iarea=-1',
-    filter_url: 'sort={{fl.sort or 75}}&iyear={{fl.iyear}}&year={{fl.year}}&itype={{fl.type}}&ifeature={{fl.feature}}&iarea={{fl.area}}&itrailer={{fl.itrailer}}&gender={{fl.sex}}',
-    filter_url: 'sort={{fl.sort or 75}}&iyear={{fl.iyear}}&year={{fl.year}}&itype={{fl.type}}&ifeature={{fl.feature}}&iarea={{fl.area}}&itrailer={{fl.itrailer}}&gender={{fl.sex}}',
+    filter_url: 'sort={{fl.sort or 75}}&iyear={{fl.iyear}}&year={{fl.year}}&itype={{fl.type}}&ifeature={{fl.feature}}&iarea={{fl.area}}&itrailer={{fl.itrailer}}&gender={{fl.sex}}&prefer={{fl.prefer}}&identity={{fl.identity}}&attraction={{fl.attraction}}&story={{fl.story}}',
     filter: {
         "choice": [{
             "key": "sort",
@@ -648,6 +647,59 @@ var rule = {
                 "n": "旅游",
                 "v": "11"
             }]
+        }],
+        "mini_series": [{
+            "key": "prefer",
+            "name": "频道",
+            "value": [{
+                "n": "全部",
+                "v": ""
+            }, {
+                "n": "女频",
+                "v": "1"
+            }, {
+                "n": "男频",
+                "v": "2"
+            }]
+        }, {
+            "key": "identity",
+            "name": "身份",
+            "value": [{
+                "n": "全部",
+                "v": ""
+            }, {
+                "n": "总裁",
+                "v": "1"
+            }, {
+                "n": "大女主",
+                "v": "2"
+            }, {
+                "n": "萌娃",
+                "v": "4"
+            }]
+        }, {
+            "key": "attraction",
+            "name": "看点",
+            "value": [{
+                "n": "全部",
+                "v": ""
+            }, {
+                "n": "先婚后爱",
+                "v": "1"
+            }, {
+                "n": "颜值逆袭",
+                "v": "45"
+            }]
+        }, {
+            "key": "story",
+            "name": "题材",
+            "value": [{
+                "n": "全部",
+                "v": ""
+            }, {
+                "n": "都市奇幻",
+                "v": "3"
+            }]
         }]
     },
     headers: {
@@ -655,8 +707,8 @@ var rule = {
     },
     timeout: 5000,
     cate_exclude: '会员|游戏|全部',
-    class_name: '精选&电影&电视剧&综艺&动漫&少儿&纪录片',
-    class_url: 'choice&movie&tv&variety&cartoon&child&doco',
+    class_name: '电影&电视剧&短剧&综艺&动漫&少儿&纪录片',
+    class_url: 'movie&tv&mini_series&variety&cartoon&child&doco',
     limit: 20,
     play_parse: true,
     lazy: $js.toString(() => {
@@ -671,7 +723,7 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=' + input.split("?")[0]
+                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
                 };
             } else {
                 input = {
@@ -681,7 +733,7 @@ var rule = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=' + input.split("?")[0]
+                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -692,13 +744,188 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=' + input.split("?")[0]
+                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
             };
         }
     }),
 
     推荐: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
-    一级: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
+    一级: $js.toString(() => {
+        let d = [];
+        let fyclass = MY_CATE;
+        let fypage = MY_PAGE;
+        let fl = MY_FL;
+
+        // 短剧分类特殊处理
+        if (fyclass === 'mini_series') {
+            let apiUrl = 'https://pbaccess.video.qq.com/trpc.vector_layout.page_view.PageService/getPage?video_appid=3000010&vversion_platform=2';
+            
+            // 构建筛选条件
+            let filterParts = [];
+            if (fl.prefer) filterParts.push('prefer=' + fl.prefer);
+            if (fl.identity) filterParts.push('identity=' + fl.identity);
+            if (fl.attraction) filterParts.push('attraction=' + fl.attraction);
+            if (fl.story) filterParts.push('story=' + fl.story);
+            let filterValue = filterParts.length > 0 ? filterParts.join('&') : 'sort=75';
+
+            // 获取或初始化分页上下文
+            let pageContext = null;
+            let cacheKey = 'mini_series_ctx_' + filterValue;
+            
+            if (fypage > 1) {
+                try {
+                    let cachedContext = storage0.getItem(cacheKey);
+                    if (cachedContext) {
+                        let contextObj = JSON.parse(cachedContext);
+                        if (contextObj.page === fypage - 1 && contextObj.nextContext) {
+                            pageContext = contextObj.nextContext;
+                        } else if (fypage === 1) {
+                            pageContext = null;
+                        }
+                    }
+                } catch (e) {
+                    log('读取缓存失败: ' + e.message);
+                }
+            } else {
+                // 第一页清除缓存
+                try {
+                    storage0.setItem(cacheKey, '');
+                } catch (e) {}
+            }
+
+            let requestBody = {
+                "page_params": {
+                    "page_type": "channel",
+                    "page_id": "120188",
+                    "scene": "channel",
+                    "new_mark_label_enabled": "1",
+                    "vl_to_mvl": "1",
+                    "free_watch_trans_info": "{\"ad_frequency_control_time_list\":{}}",
+                    "ad_exp_ids": "100000",
+                    "skip_privacy_types": "0",
+                    "support_click_scan": "1"
+                },
+                "page_bypass_params": {
+                    "params": {
+                        "platform_id": "2",
+                        "caller_id": "3000010",
+                        "data_mode": "default",
+                        "user_mode": "default",
+                        "page_type": "channel",
+                        "page_id": "120188",
+                        "scene": "channel",
+                        "new_mark_label_enabled": "1"
+                    },
+                    "scene": "channel",
+                    "app_version": ""
+                },
+                "page_context": pageContext
+            };
+
+            // 如果有筛选条件，添加filter_value
+            if (filterParts.length > 0) {
+                requestBody.page_bypass_params.params.filter_value = filterValue;
+            }
+
+            try {
+                let html = request(apiUrl, {
+                    body: JSON.stringify(requestBody),
+                    headers: {
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+                        'Content-Type': 'application/json',
+                        'Origin': 'https://v.qq.com',
+                        'Referer': 'https://v.qq.com/channel/mini_series'
+                    },
+                    method: 'POST'
+                });
+
+                let json = JSON.parse(html);
+                
+                if (json.ret === 0 && json.data && json.data.CardList) {
+                    // 保存下一页的上下文
+                    if (json.data.has_next_page && json.data.page_context) {
+                        try {
+                            storage0.setItem(cacheKey, JSON.stringify({
+                                page: fypage,
+                                nextContext: json.data.page_context
+                            }));
+                        } catch (e) {
+                            log('保存缓存失败: ' + e.message);
+                        }
+                    }
+
+                    // 解析视频列表
+                    json.data.CardList.forEach(function(card) {
+                        // 处理筛选卡片（跳过）
+                        if (card.type === 'pc_hot_filter') {
+                            return;
+                        }
+                        
+                        // 处理视频列表卡片
+                        if (card.type === '_eco_video_staggered' && card.children_list && card.children_list.card_list) {
+                            let cards = card.children_list.card_list.cards || [];
+                            cards.forEach(function(item) {
+                                if (item.type === '_eco_video_staggered_drama_item' && item.params) {
+                                    let params = item.params;
+                                    let cid = params.cid || '';
+                                    let posterInfo = {};
+                                    let markInfo = {};
+                                    
+                                    try {
+                                        posterInfo = JSON.parse(params.poster || '{}');
+                                    } catch (e) {}
+                                    
+                                    try {
+                                        markInfo = JSON.parse(params.mark_label_list || '{}');
+                                    } catch (e) {}
+
+                                    let title = posterInfo.title || '';
+                                    let img = posterInfo.image_url || '';
+                                    let remarks = '';
+                                    
+                                    if (markInfo.mark_label_list && markInfo.mark_label_list.length > 0) {
+                                        remarks = markInfo.mark_label_list[0].prime_text || '';
+                                    }
+
+                                    if (cid && title) {
+                                        d.push({
+                                            title: title,
+                                            img: img,
+                                            desc: remarks,
+                                            url: cid
+                                        });
+                                    }
+                                }
+                            });
+                        }
+                    });
+                }
+            } catch (e) {
+                log('短剧请求失败: ' + e.message);
+            }
+
+            setResult(d);
+        } else {
+            // 其他分类使用原有的HTML解析逻辑
+            let html = fetch(input, fetch_params);
+            let $ = pdfa(html, '.list_item');
+            $.forEach(function(it) {
+                let item = pdfh(it, 'a&&data-float');
+                let title = pdfh(it, 'img&&alt');
+                let img = pdfh(it, 'img&&src');
+                let desc = pdfh(it, 'a&&Text');
+                if (item && title) {
+                    d.push({
+                        title: title,
+                        img: img,
+                        desc: desc,
+                        url: item
+                    });
+                }
+            });
+            setResult(d);
+        }
+    }),
     二级: $js.toString(() => {
         VOD = {};
         let d = [];
@@ -866,7 +1093,7 @@ var rule = {
         }
 
         const nonMainContentKeywords = [
-            '：', '#', '特辑', '“', '剪辑', '片花', '独家', '专访', '纯享',
+            '：', '#', '特辑', '"', '剪辑', '片花', '独家', '专访', '纯享',
             '制作', '幕后', '宣传', 'MV', '主题曲', '插曲', '彩蛋',
             '精彩', '集锦', '盘点', '回顾', '解说', '评测', '反应', 'reaction'
         ];
@@ -878,7 +1105,7 @@ var rule = {
         }
 
         function isQQPlatform(playSites) {
-            if (!playSites || !Array.isArray(playSites)) return true; // 如果没有平台信息，默认保留
+            if (!playSites || !Array.isArray(playSites)) return true;
             return playSites.some(site => site.enName && site.enName.toLowerCase() === 'qq');
         }
 
@@ -893,7 +1120,7 @@ var rule = {
                     if (it.doc && it.doc.id && it.videoInfo &&
                         isMainContent(it.videoInfo.title) &&
                         isQQPlatform(it.videoInfo.playSites) &&
-                        Object.keys(it.videoInfo.episodeSites || {}).length > 0) { // ← 新增条件：episodeSites 不为空对象
+                        Object.keys(it.videoInfo.episodeSites || {}).length > 0) {
 
                         const itemId = it.doc.id;
                         if (!seenIds.has(itemId)) {
@@ -925,5 +1152,4 @@ var rule = {
 
         setResult(d);
     })
-
 };

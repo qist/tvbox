@@ -122,6 +122,19 @@
             }
         },
         {
+            "key": "火锅",
+            "name": "火锅｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://ios.hgyx.vip",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e"
+            }
+        },
+        {
             "key": "云朵",
             "name": "云朵｜APP",
             "type": 3,
@@ -132,6 +145,21 @@
                 "url": "https://yd4kcms.yd4k.top",
                 "dataKey": "Tpmm9FD99lJ8Dexa",
                 "dataIv": "Tpmm9FD99lJ8Dexa"
+            }
+        },
+        {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/gw7.txt",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -346,19 +374,6 @@
                 "dataKey": "c60d88b2eep53za8",
                 "dataIv": "c60d88b2eep53za8",
                 "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
-            }
-        },
-        {
-            "key": "仓鼠",
-            "name": "仓鼠｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://cs450appcms.cs4k.top",
-                "dataKey": "cD7wZ7iY6qN3sU1z",
-                "dataIv": "cD7wZ7iY6qN3sU1z"
             }
         },
         {
@@ -1312,8 +1327,7 @@
             "style": {
                 "type": "list",
                 "ratio": 1.433
-            },
-            "ext": "./json/aliShare.json"
+            }
         },
         {
             "key": "夸克云盘",
