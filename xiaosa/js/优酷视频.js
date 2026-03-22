@@ -1,5 +1,5 @@
 var rule = {
-    title: '优酷[官]',
+    title: '优酷',
     host: 'https://www.%79%6f%75%6b%75.com',
     homeUrl: '',
     searchUrl: 'https://search.%79%6f%75%6b%75.com/api/search?pg=fypage&keyword=**',
@@ -2121,6 +2121,211 @@ var rule = {
                 "n": "最新上线",
                 "v": "1"
             }]
+        }],
+        "短剧": [{
+            "key": "main_area",
+            "name": "全部地区",
+            "value": [{
+                "n": "全部地区",
+                "v": ""
+            }, {
+                "n": "内地剧",
+                "v": "中国内地"
+            }, {
+                "n": "港剧",
+                "v": "中国香港"
+            }, {
+                "n": "台剧",
+                "v": "中国台湾"
+            }, {
+                "n": "韩剧",
+                "v": "韩国"
+            }, {
+                "n": "美剧",
+                "v": "美国"
+            }, {
+                "n": "英剧",
+                "v": "英国"
+            }, {
+                "n": "日剧",
+                "v": "日本"
+            }, {
+                "n": "泰剧",
+                "v": "泰国"
+            }]
+        }, {
+            "key": "tags",
+            "name": "全部类型",
+            "value": [{
+                "n": "全部类型",
+                "v": ""
+            }, {
+                "n": "青春",
+                "v": "青春"
+            }, {
+                "n": "古装",
+                "v": "古装"
+            }, {
+                "n": "爱情",
+                "v": "爱情"
+            }, {
+                "n": "都市",
+                "v": "都市"
+            }, {
+                "n": "喜剧",
+                "v": "喜剧,搞笑"
+            }, {
+                "n": "战争",
+                "v": "战争"
+            }, {
+                "n": "军旅",
+                "v": "军旅"
+            }, {
+                "n": "谍战",
+                "v": "谍战"
+            }, {
+                "n": "偶像",
+                "v": "偶像"
+            }, {
+                "n": "警匪",
+                "v": "警匪"
+            }, {
+                "n": "冒险",
+                "v": "冒险"
+            }, {
+                "n": "穿越",
+                "v": "穿越"
+            }, {
+                "n": "仙侠",
+                "v": "仙侠"
+            }, {
+                "n": "武侠",
+                "v": "武侠"
+            }, {
+                "n": "悬疑",
+                "v": "悬疑"
+            }, {
+                "n": "罪案",
+                "v": "罪案"
+            }, {
+                "n": "家庭",
+                "v": "家庭"
+            }, {
+                "n": "历史",
+                "v": "历史"
+            }, {
+                "n": "年代",
+                "v": "年代"
+            }, {
+                "n": "农村",
+                "v": "农村"
+            }]
+        }, {
+            "key": "year",
+            "name": "全部年份",
+            "value": [{
+                "n": "全部年份",
+                "v": ""
+            }, {
+                "n": "2026",
+                "v": "2026"
+            }, {
+                "n": "2025",
+                "v": "2025"
+            }, {
+                "n": "2024",
+                "v": "2024"
+            }, {
+                "n": "2023",
+                "v": "2023"
+            }, {
+                "n": "2022",
+                "v": "2022"
+            }, {
+                "n": "2021",
+                "v": "2021"
+            }, {
+                "n": "2020",
+                "v": "2020"
+            }, {
+                "n": "2019",
+                "v": "2019"
+            }, {
+                "n": "2018",
+                "v": "2018"
+            }, {
+                "n": "2017",
+                "v": "2017"
+            }, {
+                "n": "2016",
+                "v": "2016"
+            }, {
+                "n": "2015",
+                "v": "2015"
+            }, {
+                "n": "2014-2011",
+                "v": "2011-2014"
+            }, {
+                "n": "更早",
+                "v": "-2010"
+            }]
+        }, {
+            "key": "status",
+            "name": "全部规格",
+            "value": [{
+                "n": "全部规格",
+                "v": ""
+            }, {
+                "n": "全网独播",
+                "v": "1"
+            }, {
+                "n": "优酷自制",
+                "v": "2"
+            }, {
+                "n": "已完结",
+                "v": "3"
+            }, {
+                "n": "即将上线",
+                "v": "4"
+            }, {
+                "n": "短剧",
+                "v": "5"
+            }]
+        }, {
+            "key": "pay_type",
+            "name": "付费类型",
+            "value": [{
+                "n": "付费类型",
+                "v": ""
+            }, {
+                "n": "免费",
+                "v": "0"
+            }, {
+                "n": "VIP",
+                "v": "2"
+            }, {
+                "n": "付费",
+                "v": "1"
+            }]
+        }, {
+            "key": "sort",
+            "name": "综合排序",
+            "value": [{
+                "n": "综合排序",
+                "v": ""
+            }, {
+                "n": "热度最高",
+                "v": "7"
+            }, {
+                "n": "最新上线",
+                "v": "1"
+            }, {
+                "n": "最好评",
+                "v": "3"
+            }, {
+                "n": "最多播放",
+                "v": "2"
+            }]
         }]
     },
     headers: {
@@ -2129,8 +2334,8 @@ var rule = {
         'Referer': 'https://www.youku.com',
     },
     timeout: 5000,
-    class_name: '电视剧&电影&综艺&动漫&少儿&纪录片&文化&亲子&教育&搞笑&生活&体育&音乐&游戏',
-    class_url: '电视剧&电影&综艺&动漫&少儿&纪录片&文化&亲子&教育&搞笑&生活&体育&音乐&游戏',
+    class_name: '电影&电视剧&动漫&短剧&综艺&少儿&纪录片&文化&亲子&教育&搞笑&生活&体育&音乐&游戏',
+    class_url: '电影&电视剧&动漫&短剧&综艺&少儿&纪录片&文化&亲子&教育&搞笑&生活&体育&音乐&游戏',
     limit: 20,
     play_parse: true,
     lazy: $js.toString(() => {
@@ -2194,10 +2399,14 @@ var rule = {
             }
             lists.forEach(function(it) {
                 let vid;
-                if (it.videoLink.includes("id_")) {
+                if (it.rightTagColor === "BLUE" && it.videoLink.includes("groupId=")) {
+                    // 短剧格式：通过rightTagColor判断，提取groupId
+                    let groupIdMatch = it.videoLink.match(/groupId=([^&]+)/);
+                    vid = groupIdMatch && groupIdMatch[1] ? groupIdMatch[1] : "msearch:";
+                } else if (it.videoLink.includes("id_")) {
                     vid = it.videoLink.split("id_")[1].split(".html")[0]
                 } else {
-                    vid = "msearch:"
+                    vid = "msearch:";
                 }
                 d.push({
                     title: it.title,
@@ -2212,6 +2421,7 @@ var rule = {
         }
         setResult(d);
     }),
+
     二级: $js.toString(() => {
         var d = [];
         VOD = {};
@@ -2234,7 +2444,6 @@ var rule = {
             });
             let json = /__INITIAL_DATA__/.test(html) ? html.split("window.__INITIAL_DATA__ =")[1].split(";")[0] : "{}";
             if (json === "{}") {
-                log("触发了优酷人机验证");
                 VOD.vod_pic = _img;
                 VOD.vod_name = video_lists[0].title.replace(/(\d+)/g, "");
                 VOD.vod_content = "触发了优酷人机验证,本次未获取详情,但不影响播放(" + ourl + ")"
@@ -2299,18 +2508,121 @@ var rule = {
         var d = [];
         let html = request(input);
         let json = JSON.parse(html);
+
+        let searchKeyword = '';
+        if (input.includes('keyword=')) {
+            searchKeyword = input.split('keyword=')[1].split('&')[0];
+            searchKeyword = decodeURIComponent(searchKeyword);
+        }
+
+        let titleFilterConfig = {
+            enabled: true,
+            keywords: ['精彩', '花絮', '预告', '晚会', '揭秘', '解说', '《', '解读', '动态漫', '9528', '杂谈', '十六部电影实验短片集', '片断', '公益', '音频'],
+            caseSensitive: false,
+            exactMatch: false
+        };
+
+        let contentFilterConfig = {
+            enabled: true,
+            keywords: ['游戏', '纪录片', '音频'],
+            caseSensitive: false,
+            exactMatch: false
+        };
+
+        let keywordMatchConfig = {
+            enabled: true,
+            matchType: 'contains',
+            caseSensitive: false
+        };
+
         json.pageComponentList.forEach(function(it) {
             if (it.hasOwnProperty("commonData")) {
                 it = it.commonData;
-                d.push({
-                    title: it.titleDTO.displayName,
+
+                let item = {
+                    title: it.titleDTO.displayName || '',
                     img: it.posterDTO.vThumbUrl,
-                    desc: it.stripeBottom,
-                    content: it.updateNotice + " " + it.feature,
+                    desc: it.stripeBottom || '',
+                    content: (it.updateNotice || '') + " " + (it.feature || ''),
                     url: "https://search.youku.com/api/search?appScene=show_episode&showIds=" + it.showId + "&appCaller=h5"
-                })
+                };
+
+                let titleFiltered = false;
+                if (titleFilterConfig.enabled && titleFilterConfig.keywords.length > 0) {
+                    for (let keyword of titleFilterConfig.keywords) {
+                        let titleText = item.title;
+                        let filterKeyword = keyword;
+
+                        if (!titleFilterConfig.caseSensitive) {
+                            titleText = titleText.toLowerCase();
+                            filterKeyword = filterKeyword.toLowerCase();
+                        }
+
+                        if (titleFilterConfig.exactMatch) {
+                            if (titleText === filterKeyword) {
+                                titleFiltered = true;
+                                break;
+                            }
+                        } else {
+                            if (titleText.includes(filterKeyword)) {
+                                titleFiltered = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                let contentFiltered = false;
+                if (contentFilterConfig.enabled && contentFilterConfig.keywords.length > 0) {
+                    for (let keyword of contentFilterConfig.keywords) {
+                        let contentText = item.content;
+                        let filterKeyword = keyword;
+
+                        if (!contentFilterConfig.caseSensitive) {
+                            contentText = contentText.toLowerCase();
+                            filterKeyword = filterKeyword.toLowerCase();
+                        }
+
+                        if (contentFilterConfig.exactMatch) {
+                            if (contentText === filterKeyword) {
+                                contentFiltered = true;
+                                break;
+                            }
+                        } else {
+                            if (contentText.includes(filterKeyword)) {
+                                contentFiltered = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                let keywordMatched = true;
+                if (keywordMatchConfig.enabled && searchKeyword) {
+                    let titleText = item.title;
+                    let searchKey = searchKeyword;
+
+                    if (!keywordMatchConfig.caseSensitive) {
+                        titleText = titleText.toLowerCase();
+                        searchKey = searchKey.toLowerCase();
+                    }
+
+                    if (keywordMatchConfig.matchType === 'exact') {
+                        keywordMatched = (titleText === searchKey);
+                    } else if (keywordMatchConfig.matchType === 'contains') {
+                        keywordMatched = titleText.includes(searchKey);
+                    } else if (keywordMatchConfig.matchType === 'any') {
+                        let keywords = searchKey.split(/\s+/);
+                        keywordMatched = keywords.some(keyword => titleText.includes(keyword));
+                    }
+                }
+
+                if (!titleFiltered && !contentFiltered && keywordMatched) {
+                    d.push(item);
+                }
             }
         });
-        setResult(d)
+
+        setResult(d);
     }),
 }
