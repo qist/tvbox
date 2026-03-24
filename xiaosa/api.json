@@ -88,6 +88,37 @@
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
         },
         {
+            "key": "极影",
+            "name": "极影｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://101.201.171.207:802/api.php/app/"
+        },
+        {
+            "key": "晓米",
+            "name": "晓米丨APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.170.58.23:802/api.php/app/"
+        },
+        {
+            "key": "超前",
+            "name": "超前丨APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": "http://chaoqianys.top:91/api.php/app/"
+        },
+        {
             "key": "恋鱼",
             "name": "恋鱼｜APP",
             "type": 3,
@@ -261,9 +292,9 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/wenxintishi.txt",
-                "dataKey": "h2t8fjo964j2sl6a",
-                "dataIv": "h2t8fjo964j2sl6a",
+                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt",
+                "dataKey": "h5w3d6g1j9s2h3f6",
+                "dataIv": "h5w3d6g1j9s2h3f6",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -742,28 +773,6 @@
             "timeout": 60
         },
         {
-            "key": "雷鲸",
-            "name": "雷鲸｜4K",
-            "type": 3,
-            "api": "csp_PanWebShareCloudLJ",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": {
-                "site": [
-                    "https://www.leijing.xyz",
-                    "https://www.leijing1.com",
-                    "https://leijing.xyz",
-                    "https://leijing1.com"
-                ]
-            },
-            "timeout": 60
-        },
-        {
             "key": "海绵",
             "name": "海绵｜4K",
             "type": 3,
@@ -885,32 +894,10 @@
             "genre": "shortdrama"
         },
         {
-            "key": "锦鲤短剧",
-            "name": "锦鲤｜短剧",
-            "type": 3,
-            "api": "csp_JinliDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-        {
             "key": "星阁短剧",
             "name": "星阁｜短剧",
             "type": 3,
             "api": "csp_XinggeDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-        {
-            "key": "碎片短剧",
-            "name": "碎片｜短剧",
-            "type": 3,
-            "api": "csp_SuipianDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
