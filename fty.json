@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;c067633ea703159709d6c4e522c3dae5",
+  "spider": "./jar/fan.txt;md5;96ea56039dad3f4c0438f9b1f949a66a",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "新公众号【太太太硬了】","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -24,7 +24,7 @@
     {"key": "花花","name": "🥝花花┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TbEn4q2l2kibom2DB9cJ0IB72Vu7apib64Gl9Ew6WDTJcIVzWsluDxqEaBqWIyM77GBXCPqCPmCyOr3RGfwjlsjchkArMHzTFT1VY9QUooz8m8BXA2mSa/whkG7SpZP100qUm6hMmTjm8YQQ51m6mxEE7hhEK1eNQ=="},
     {"key": "播客","name": "🦊播客┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuS1pGyZxdH63T1kep6jS1xHcE9fpWUnrqJhf/sMidJ9qDXccstMjiJz925iVqZ9QpyF"},
     {"key": "爱影","name": "👀爱影┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TrS2dv+1y8lL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0kuzsmBOA4Uobe87udCDvyT6nSxuqjBjOinAoodBQAqNy7UE+qFZ1UBoc16Q=="},
-    {"key": "猫猫","name": "🐟猫猫┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TXe0NPv1yt7LM60XkwYLA1No3EluLI1d/gV1t5vq2+PaJZO0X8y4XhhFKorB8fL8quaRzegVrmV3P39FC7u1UYsIlVb07zwEm/4Hc0/c9s1snJBF1/lWqakhRaj"},
+    {"key": "猫猫","name": "🐟猫猫┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwtCFsuH1+2mam468kW1kLMyyWUMcIwZft2UtrrwhKK5UwYFu7XDeKt0a3Dsx6zNtVrRqDs+OuuDVGDWp"},
     {"key": "奥特","name": "🏝奥特┃多线","type": 3,"api": "csp_AueteGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "荐片","name": "🐭荐片┃P2P","type": 3,"api": "csp_JPJGuard","timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 0},
     {"key": "新6V","name": "🧲新6V┃磁力","type": 3,"api": "csp_SixVGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "https://www.xb6v.com/"},
