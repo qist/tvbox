@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;3391e2cfe507240181ddef8db8879d17",
+  "spider": "./jar/spider.jar;md5;bddb34e01f0a19c22afee7ecaa6101bb",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -36,12 +36,11 @@
     {"key": "老鹰","name": "老鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt","dataKey": "zxPtEUDGVllIUhDB","dataIv": "zxPtEUDGVllIUhDB","ua": "okhttp/3.10.0"}},
     {"key": "爱盈","name": "爱盈｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt","dataKey": "sjvlwnhk6h9znl61","dataIv": "sjvlwnhk6h9znl61","version": "305","ua": "okhttp/3.10.0"}},
     {"key": "花猪","name": "花猪｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt","dataKey": "h5w3d6g1j9s2h3f6","dataIv": "h5w3d6g1j9s2h3f6","ua": "okhttp/3.10.0"}},
-    {"key": "橘子","name": "橘子｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt","dataKey": "jasaFBcdV3zrUDf2","dataIv": "jasaFBcdV3zrUDf2","version": "305","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd","ua": "okhttp/3.10.0"}},
     {"key": "蓝鹰","name": "蓝鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt","dataKey": "ca94b06ca359d80e","dataIv": "ca94b06ca359d80e","init": "initV120","ua": "okhttp/3.10.0"}},
     {"key": "小羊","name": "小羊｜APP","type": 3,"api": "csp_AppQi","ext": {"url": "https://qjappcms410.xy4k.com","dataKey": "mC6kG4mI1uM8tS4o","dataIv": "mC6kG4mI1uM8tS4o"}},
     {"key": "不错","name": "不错｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "https://zbc4kmcs.zbc4k.app","dataKey": "vE4kR7cF6jS6jH7a","dataIv": "vE4kR7cF6jS6jH7a"}},
-    {"key": "星空","name": "星空｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://xkos1.xkgzs.xyz","dataKey": "77jkcdvdodfcdkjk","dataIv": "77jkcdvdodfcdkjk"}},
+    {"key": "星空","name": "星空｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://xk7.xkgzs.xyz","dataKey": "107jkcdncofcdkjk","dataIv": "107jkcdncofcdkjk"}},
     {"key": "火狐","name": "火狐｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "http://huohu.yihn.cc","dataKey": "huohushipingetap","dataIv": "huohushipingetap"}},
     {"key": "秒看","name": "秒看｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://mk1080.top/get.txt","dataKey": "c60d88b2eep53za8","dataIv": "c60d88b2eep53za8","token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"}},
     {"key": "茉莉","name": "茉莉｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt","dataKey": "88689667dce61725","dataIv": "88689667dce61725"}},
@@ -65,7 +64,7 @@
     {"key": "夸克","name": "夸克｜4K","type": 3,"api": "csp_PanWebShareCloudKK","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://www.quarktv.cc"]},"timeout": 60},
     {"key": "清影","name": "清影｜4K","type": 3,"api": "csp_PanWebShareCloudQY","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://www.revohd.com"]},"timeout": 60},
     {"key": "海绵","name": "海绵｜4K","type": 3,"api": "csp_PanWebShareCloudHM","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["http://haimian.eu.org","https://www.hmxz.org","https://www.haimianxz.com"]},"timeout": 60},
-    {"key": "夸父","name": "夸父｜4K","type": 3,"api": "csp_PanWebShareCloudKF","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://www.kfjwzz.com"],"cookie": "bbs_sid=bi7dpnm6vp31s38rjqlqq8vq84; bbs_token=TWiR3YUrGoVpbdTkjAJ0xMe_2B_2FiaFvd84V3_2FEZJRRSKU_3D"},"timeout": 60},
+    {"key": "夸父","name": "夸父｜4K","type": 3,"api": "csp_PanWebShareCloudKF","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://www.kfzys.net"],"cookie": "bbs_sid=p5mugcm9r147o1d3qpi0su1ucm; bbs_token=gDMAOehNUQetTJv9Lnet0J_2FGJmgdvnx90iTZqzU_2FnO0_3D"},"timeout": 60},
     {"key": "盘它","name": "盘它｜4K","type": 3,"api": "csp_PanWebShareCloudPT","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "123","name": "123｜4K","type": 3,"api": "csp_PanWebShareCloud123","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://123panfx.com","https://pan1.me"]},"timeout": 60},
     {"key": "人人","name": "人人｜4K","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
