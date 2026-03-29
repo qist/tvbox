@@ -1478,10 +1478,10 @@
             "api": "./py/爱听音乐.py"
         },
         {
-            "key": "六月听书",
-            "name": "六月｜听书",
+            "key": "世界听书",
+            "name": "世界｜听书",
             "type": 3,
-            "api": "csp_TingBook",
+            "api": "csp_TingShijie",
             "style": {
                 "type": "list"
             }
