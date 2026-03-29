@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;bddb34e01f0a19c22afee7ecaa6101bb",
+  "spider": "./jar/spider.jar;md5;02bc0efd51ff20d79e842f72947c072e",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -135,7 +135,7 @@
     {"key": "88看球","name": "88｜看球","type": 3,"api": "csp_Kanqiu","gridview": 3,"style": {"type": "list"}},
     {"key": "919体育","name": "919｜体育","type": 3,"api": "csp_919Tiyu","style": {"type": "list"}},
     {"key": "爱听音乐","name": "爱听｜音乐","type": 3,"api": "./py/爱听音乐.py"},
-    {"key": "六月听书","name": "六月｜听书","type": 3,"api": "csp_TingBook","style": {"type": "list"}},
+    {"key": "世界听书","name": "世界｜听书","type": 3,"api": "csp_TingShijie","style": {"type": "list"}},
     {"key": "呦呦DJ","name": "呦呦｜DJ","type": 3,"api": "csp_Djuu","style": {"type": "list"}},
     {"key": "戏曲多多","name": "戏曲｜多多","type": 3,"api": "csp_AppLY","style": {"type": "list"}},
     {"key": "网络直播","name": "网络｜直播","type": 3,"api": "./py/网络直播.py"},
