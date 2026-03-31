@@ -166,6 +166,20 @@
             }
         },
         {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "http://117.50.204.35:8090",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "爱影",
             "name": "爱影｜APP",
             "type": 3,
@@ -173,9 +187,9 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q20.txt",
-                "dataKey": "ada211sdfsff3261",
-                "dataIv": "ada211sdfsff3261",
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q21.txt",
+                "dataKey": "okkfKgnc9JIBISh1",
+                "dataIv": "okkfKgnc9JIBISh1",
                 "init": "initV122",
                 "search": "mineInfo",
                 "ua": "okhttp/3.10.0"
@@ -277,7 +291,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+                "site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
                 "dataKey": "ca94b06ca359d80e",
                 "dataIv": "ca94b06ca359d80e",
                 "init": "initV120",
