@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;7fda80b9a0a5ebb21b6576c389bffe77",
+  "spider": "./jar/spider.jar;md5;b5c64ef1c2514dfc09f71878dd233b36",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -27,14 +27,15 @@
     {"key": "云播","name": "云播｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppFox","ext": {"host": "http://app.hktvyb.cc"}},
     {"key": "火猫","name": "火猫｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppFox","ext": {"host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json"}},
     {"key": "云朵","name": "云朵｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://yd4kcms.yd4k.top","dataKey": "Tpmm9FD99lJ8Dexa","dataIv": "Tpmm9FD99lJ8Dexa"}},
-    {"key": "爱影","name": "爱影｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q20.txt","dataKey": "ada211sdfsff3261","dataIv": "ada211sdfsff3261","init": "initV122","search": "mineInfo","ua": "okhttp/3.10.0"}},
+    {"key": "顾我","name": "顾我｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"url": "http://117.50.204.35:8090","dataKey": "ca94b06ca3c7d80e","dataIv": "ca94b06ca3c7d80e","ua": "okhttp/3.10.0"}},
+    {"key": "爱影","name": "爱影｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q21.txt","dataKey": "okkfKgnc9JIBISh1","dataIv": "okkfKgnc9JIBISh1","init": "initV122","search": "mineInfo","ua": "okhttp/3.10.0"}},
     {"key": "金牌","name": "金牌｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"url": "https://qj4.catbb.xyz","dataKey": "eecbio48dsq13kkk","dataIv": "eecbio48dsq13kkk","search": "searchList4","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "奇奇","name": "奇奇｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"url": "http://110.42.67.221:8009","dataKey": "123456789abcdefg","dataIv": "123456789abcdefg","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "老鹰","name": "老鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt","dataKey": "zxPtEUDGVllIUhDB","dataIv": "zxPtEUDGVllIUhDB","ua": "okhttp/3.10.0"}},
     {"key": "爱盈","name": "爱盈｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt","dataKey": "sjvlwnhk6h9znl61","dataIv": "sjvlwnhk6h9znl61","version": "305","ua": "okhttp/3.10.0"}},
     {"key": "花猪","name": "花猪｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt","dataKey": "h5w3d6g1j9s2h3f6","dataIv": "h5w3d6g1j9s2h3f6","ua": "okhttp/3.10.0"}},
     {"key": "优兔","name": "优兔｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","dataKey": "UrWKPnmQWJA8AQzd","dataIv": "UrWKPnmQWJA8AQzd","ua": "okhttp/3.10.0"}},
-    {"key": "蓝鹰","name": "蓝鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt","dataKey": "ca94b06ca359d80e","dataIv": "ca94b06ca359d80e","init": "initV120","ua": "okhttp/3.10.0"}},
+    {"key": "蓝鹰","name": "蓝鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt","dataKey": "ca94b06ca359d80e","dataIv": "ca94b06ca359d80e","init": "initV120","ua": "okhttp/3.10.0"}},
     {"key": "小羊","name": "小羊｜APP","type": 3,"api": "csp_AppQi","ext": {"url": "https://qjappcms410.xy4k.com","dataKey": "mC6kG4mI1uM8tS4o","dataIv": "mC6kG4mI1uM8tS4o"}},
     {"key": "不错","name": "不错｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "https://zbc4kmcs.zbc4k.app","dataKey": "vE4kR7cF6jS6jH7a","dataIv": "vE4kR7cF6jS6jH7a"}},
     {"key": "星空","name": "星空｜APP","type": 3,"searchable": 1,"changeable": 1,"api": "csp_AppGet","ext": {"url": "http://xk7.xkgzs.xyz","dataKey": "107jkcdncofcdkjk","dataIv": "107jkcdncofcdkjk"}},
