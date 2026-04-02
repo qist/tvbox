@@ -68,6 +68,16 @@
             "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
         {
+            "key": "久久",
+            "name": "久久｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://99cms.jj99.icu:8199/api.php/app/"
+        },
+        {
             "key": "奴娜",
             "name": "奴娜丨APP",
             "type": 3,

@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;b5c64ef1c2514dfc09f71878dd233b36",
+  "spider": "./jar/spider.jar;md5;a2e1537d223ad55e66dd0e403c94b3c8",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -19,6 +19,7 @@
     {"key": "三秋影视","name": "三秋｜APP","type": 3,"api": "csp_App3Q"},
     {"key": "坚果影视","name": "坚果｜APP","type": 3,"api": "csp_AppJg"},
     {"key": "韩圈","name": "韩圈｜APP","type": 3,"api": "csp_Hxq","ext": "https://fishapi.wya6.com/fish/fishhxq.php"},
+    {"key": "久久","name": "久久｜APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://99cms.jj99.icu:8199/api.php/app/"},
     {"key": "奴娜","name": "奴娜丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.nntv.in/api.php/v1.vod"},
     {"key": "闪影","name": "闪影｜APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"},
     {"key": "极影","name": "极影｜APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://101.201.171.207:802/api.php/app/"},
