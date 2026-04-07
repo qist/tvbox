@@ -108,16 +108,6 @@
             "ext": "http://101.201.171.207:802/api.php/app/"
         },
         {
-            "key": "晓米",
-            "name": "晓米丨APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://111.170.58.23:802/api.php/app/"
-        },
-        {
             "key": "超前",
             "name": "超前丨APP",
             "type": 3,
@@ -129,16 +119,14 @@
             "ext": "http://chaoqianys.top:91/api.php/app/"
         },
         {
-            "key": "云朵",
-            "name": "云朵｜APP",
+            "key": "云播",
+            "name": "云播｜APP",
             "type": 3,
-            "api": "csp_AppGet",
+            "api": "csp_AppFox",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "url": "https://yd4kcms.yd4k.top",
-                "dataKey": "Tpmm9FD99lJ8Dexa",
-                "dataIv": "Tpmm9FD99lJ8Dexa"
+                "host": "http://app.hktvyb.cc"
             }
         },
         {
@@ -195,7 +183,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "url": "http://110.42.67.221:8009",
+                "url": "http://110.42.67.221:8002",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg",
                 "init": "initV122",
@@ -228,20 +216,6 @@
                 "dataKey": "sjvlwnhk6h9znl61",
                 "dataIv": "sjvlwnhk6h9znl61",
                 "version": "305",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "花猪",
-            "name": "花猪｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt",
-                "dataKey": "h5w3d6g1j9s2h3f6",
-                "dataIv": "h5w3d6g1j9s2h3f6",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -286,16 +260,16 @@
             }
         },
         {
-            "key": "不错",
-            "name": "不错｜APP",
+            "key": "王子",
+            "name": "王子｜APP",
             "type": 3,
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://zbc4kmcs.zbc4k.app",
-                "dataKey": "vE4kR7cF6jS6jH7a",
-                "dataIv": "vE4kR7cF6jS6jH7a"
+                "url": "https://app.95112475.xyz",
+                "dataKey": "5a9w6x58dsq6z3a6",
+                "dataIv": "5a9w6x58dsq6z3a6"
             }
         },
         {
@@ -375,19 +349,6 @@
                 "site": "https://bind.315999.xyz/89.txt",
                 "dataKey": "#getapp@TMD@2025",
                 "dataIv": "#getapp@TMD@2025"
-            }
-        },
-        {
-            "key": "七壹",
-            "name": "七壹｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://qiyiys.cc",
-                "dataKey": "45452893929B40D9",
-                "dataIv": "45452893929B40D9"
             }
         },
         {
@@ -933,13 +894,6 @@
             "ext": "./XYQHiker/来看影视.json"
         },
         {
-            "key": "采集之王",
-            "name": "采集｜合集",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
-        },
-        {
             "key": "1905",
             "name": "1905｜影视",
             "type": 3,
@@ -1003,18 +957,6 @@
             }
         },
         {
-            "key": "元咲动漫",
-            "name": "元咲丨动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://cic.aicg.fun",
-                "dataKey": "2c4h36abd96se10u",
-                "dataIv": "2c4h36abd96se10u"
-            }
-        },
-        {
             "key": "番薯动漫",
             "name": "番薯丨动漫",
             "type": 3,
@@ -1049,25 +991,6 @@
                 "dataKey": "nKfZ8KX6JTNWRzTD",
                 "dataIv": "nKfZ8KX6JTNWRzTD"
             }
-        },
-        {
-            "key": "米饭动漫",
-            "name": "米饭｜动漫",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://get.mymifun.com",
-                "dataKey": "GETMIFUNGEIMIFUN",
-                "dataIv": "GETMIFUNGEIMIFUN"
-            }
-        },
-        {
-            "key": "樱花动漫",
-            "name": "樱花｜动漫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/樱花动漫.json"
         },
         {
             "key": "巴士动漫",
@@ -1188,7 +1111,7 @@
         },
         {
             "key": "阿里云盘",
-            "name": "我的｜阿里",
+            "name": "阿里｜云盘",
             "type": 3,
             "api": "csp_PanAli",
             "searchable": 0,
@@ -1200,8 +1123,8 @@
             }
         },
         {
-            "key": "夸克云盘",
-            "name": "我的｜夸克",
+            "key": "夸克网盘",
+            "name": "夸克｜网盘",
             "type": 3,
             "api": "csp_PanQuark",
             "searchable": 0,
@@ -1213,8 +1136,8 @@
             }
         },
         {
-            "key": "UC云盘",
-            "name": "我的｜UC",
+            "key": "UC网盘",
+            "name": "UC｜网盘",
             "type": 3,
             "api": "csp_PanUC",
             "searchable": 0,
@@ -1226,8 +1149,8 @@
             }
         },
         {
-            "key": "百度云盘",
-            "name": "我的｜百度",
+            "key": "百度网盘",
+            "name": "百度｜网盘",
             "type": 3,
             "api": "csp_PanBaidu",
             "searchable": 0,
@@ -1337,19 +1260,6 @@
             "quickSearch": 0,
             "filterable": 0,
             "timeout": 60
-        },
-        {
-            "key": "AList",
-            "name": "AList｜合集",
-            "type": 3,
-            "api": "csp_Alist",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "./json/alist.json"
         },
         {
             "key": "88看球",
