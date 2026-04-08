@@ -98,16 +98,6 @@
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
         },
         {
-            "key": "极影",
-            "name": "极影｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://101.201.171.207:802/api.php/app/"
-        },
-        {
             "key": "超前",
             "name": "超前丨APP",
             "type": 3,
@@ -793,6 +783,12 @@
             "genre": "shortdrama"
         },
         {
+            "key": "独播影视",
+            "name": "独播｜影视",
+            "type": 3,
+            "api": "csp_Duboku"
+        },
+        {
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
@@ -815,12 +811,6 @@
             "type": 3,
             "api": "csp_Tvyb",
             "ext": "http://www.tvyb03.com"
-        },
-        {
-            "key": "饺子影视",
-            "name": "饺子｜影视",
-            "type": 3,
-            "api": "csp_Jiaozi"
         },
         {
             "key": "瓜子影视",
@@ -1196,16 +1186,6 @@
             "name": "米搜｜搜索",
             "type": 3,
             "api": "csp_MiSou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "酷乐",
-            "name": "酷乐｜搜索",
-            "type": 3,
-            "api": "csp_KuLe",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
