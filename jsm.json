@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;29f7c82adb38a4fa4d15fd39267eabdf",
+  "spider": "./jar/spider.jar;md5;c3ca37e99b9a334c67c6646ca1f04d89",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -17,7 +17,6 @@
     {"key": "cbh","name": "茶杯狐","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"分类url": "www.cupfox7.com/cupfox/{cateId}/area/{area}/by/{by}/class/{class}/lang/{lang}/page/{catePg}/year/{year}.html","分类": "电影$fenlei1#电视剧$fenlei2#综艺$fenlei3#动漫$fenlei4"},"header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
     {"key": "热播影视","name": "热播｜APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "三秋影视","name": "三秋｜APP","type": 3,"api": "csp_App3Q"},
-    {"key": "坚果影视","name": "坚果｜APP","type": 3,"api": "csp_AppJg"},
     {"key": "韩圈","name": "韩圈｜APP","type": 3,"api": "csp_Hxq","ext": "https://fishapi.wya6.com/fish/fishhxq.php"},
     {"key": "久久","name": "久久｜APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://99cms.jj99.icu:8199/api.php/app/"},
     {"key": "奴娜","name": "奴娜丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.nntv.in/api.php/v1.vod"},
@@ -62,7 +61,6 @@
     {"key": "即刻","name": "即刻｜4K","type": 3,"api": "csp_Jike","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "双星","name": "双星｜4K","type": 3,"api": "csp_ShuangXing","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "甜圈短剧","name": "甜圈｜短剧","type": 3,"api": "csp_TianquanDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
-    {"key": "星阁短剧","name": "星阁｜短剧","type": 3,"api": "csp_XinggeDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "星芽短剧","name": "星芽｜短剧","type": 3,"api": "./py/星芽短剧.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "剧王短剧","name": "剧王｜短剧","type": 3,"api": "./py/剧王短剧.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "独播影视","name": "独播｜影视","type": 3,"api": "csp_Duboku"},
@@ -112,7 +110,6 @@
     {"key": "米搜","name": "米搜｜搜索","type": 3,"api": "csp_MiSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "鬼鬼","name": "鬼鬼｜搜索","type": 3,"api": "csp_GuiGui","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "混合","name": "混合｜搜索","type": 3,"api": "csp_HunHePan","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
-    {"key": "兄弟","name": "兄弟｜搜索","type": 3,"api": "csp_XiongDiPan","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "天翼","name": "天翼｜搜索","type": 3,"api": "csp_TianYiSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "趣盘","name": "趣盘｜搜索","type": 3,"api": "csp_QuPanSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "88看球","name": "88｜看球","type": 3,"api": "csp_Kanqiu","gridview": 3,"style": {"type": "list"}},
