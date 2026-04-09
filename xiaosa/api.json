@@ -55,12 +55,6 @@
             "api": "csp_App3Q"
         },
         {
-            "key": "坚果影视",
-            "name": "坚果｜APP",
-            "type": 3,
-            "api": "csp_AppJg"
-        },
-        {
             "key": "韩圈",
             "name": "韩圈｜APP",
             "type": 3,
@@ -750,17 +744,6 @@
             "genre": "shortdrama"
         },
         {
-            "key": "星阁短剧",
-            "name": "星阁｜短剧",
-            "type": 3,
-            "api": "csp_XinggeDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-        {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,
@@ -1206,16 +1189,6 @@
             "name": "混合｜搜索",
             "type": 3,
             "api": "csp_HunHePan",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "兄弟",
-            "name": "兄弟｜搜索",
-            "type": 3,
-            "api": "csp_XiongDiPan",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
