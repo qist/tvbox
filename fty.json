@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;96ea56039dad3f4c0438f9b1f949a66a",
+  "spider": "./jar/fan.txt;md5;596fe0f8b20d34e041cb3727b64ec13e",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "新公众号【太太太硬了】","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -7,8 +7,8 @@
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MTV1","name": "🎙️易听音乐┃带歌词","type": 3,"api": "csp_MusicGuard","style": {"type": "rect","ratio": 1},"playerType": 2,"searchable": 1,"quickSearch": 0,"changeable": 0},
-    {"key": "seed","name": "💡聚剧剧┃三盘","type": 3,"api": "csp_SeedhubGuard","ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5","searchable": 1,"quickSearch": 1,"changeable": 0,"indexs": 0,"style": {"type": "list"}},
-    {"key": "ZPan","name": "🎈聚盘搜┃三盘","type": 3,"api": "csp_S_zpsGuard","searchable": 1,"quickSearch": 0,"changeable": 0,"ext": {"siteUrl": "http://38.55.131.86:82/"},"indexs": 0,"style": {"type": "list"}},
+    {"key": "seed","name": "💡聚剧剧┃四盘","type": 3,"api": "csp_SeedhubGuard","ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5","searchable": 1,"quickSearch": 1,"changeable": 0,"indexs": 0,"style": {"type": "list"}},
+    {"key": "ZPan","name": "🎈聚盘搜┃四盘","type": 3,"api": "csp_S_zpsGuard","searchable": 1,"quickSearch": 0,"changeable": 0,"ext": {"siteUrl": "http://38.55.131.86:82/"},"indexs": 0,"style": {"type": "list"}},
     {"key": "云播","name": "⛅️云播┃无搜索","type": 3,"api": "csp_T4Guard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CKrShL75AiGhjhdkfX0cfnI/kIpThjDhEZ0lc8r7irE4mRMelQz4llfmVMCtjIFNIHP1T3XqwSmYZd34DfAtnkbgrpiMBiYW36CCI5rTkC3Rtg1wQQjazUZyVHx4Zz5bWbmPv4G8q7PfHWYStVeDannVT2lmLzKbGEDahyxvLhNZRjXO5rPlruB0ydDcR/e/g5nx8N3JhG0oucfv6xVDl0XxYy0K2bY3plgqx32kfnS63xa8sQDbGlYoPtdHQCi2cAvEOaqMb5a6r2D3yvcLXYLjk37CJgQObzK0bCggZPm3B3YenAuunxl5OQmXrzLHjys6I2isL5AwTS2YAjD/R3f4FYWBp+4RdwMBAChatxjEHcaFhCUb0nfTgYKQ4a1pZ4j6+d4YHa0GaMYHO5NZQ0tDRZfAZPcfYaWLSW8iIUx6G2e0JnI6bLAN1TR0AVer8lxfU0zAzAODbKVrt8Oafq0IQ6MeGFcFRGMu4QWrzaublQ=="},
     {"key": "立播","name": "🌟立播┃秒播","type": 3,"api": "csp_LibvioGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "奶酪","name": "🧀奶酪┃秒播","type": 3,"api": "csp_T4Guard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="},
@@ -41,7 +41,7 @@
     {"key": "斗鱼js","name": "🐟斗鱼┃直播","type": 3,"api": "./FTY/drpy2.min.js","ext": "./FTY/斗鱼直播.js","style": {"type": "rect","ratio": 1.755},"timeout": 10,"playerType": "2","searchable": 1,"quickSearch": 0,"changeable": 0},
     {"key": "抠搜","name": "🍄抠抠┃搜搜","type": 3,"api": "csp_KkSsGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "UC","name": "🌈优汐┃搜搜","type": 3,"api": "csp_UuSsGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
-    {"key": "米搜","name": "🦋米搜┃优夸","type": 3,"api": "csp_MIPanSoGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
+    {"key": "米搜","name": "🦋米搜┃夸嘟","type": 3,"api": "csp_MIPanSoGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YpanSo","name": "🐟盘她┃夸父","type": 3,"api": "csp_YpanSoGuard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "push_agent","name": "🛴手机┃推送","type": 3,"api": "csp_PushGuard","searchable": 0,"quickSearch": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "Bili","name": "🅱哔哔合集┃弹幕","type": 3,"api": "csp_BiliGuard","style": {"type": "rect","ratio": 1.597},"searchable": 1,"quickSearch": 0,"changeable": 0,"ext": {"json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"}},
