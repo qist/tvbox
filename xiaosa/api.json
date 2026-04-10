@@ -99,8 +99,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "playerType": 2,
             "ext": "http://chaoqianys.top:91/api.php/app/"
+        },
+        {
+            "key": "飞飞",
+            "name": "飞飞丨APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://qpcj.69mini.com/api.php/app/"
         },
         {
             "key": "云播",
@@ -241,6 +250,18 @@
                 "url": "https://qjappcms410.xy4k.com",
                 "dataKey": "mC6kG4mI1uM8tS4o",
                 "dataIv": "mC6kG4mI1uM8tS4o"
+            }
+        },
+        {
+            "key": "坚果",
+            "name": "坚果｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
+                "dataKey": "2015692015692015",
+                "dataIv": "2015692015692015"
             }
         },
         {
@@ -585,6 +606,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
+                    "https://shandian.blog",
                     "https://sd.sduc.site"
                 ]
             },
@@ -1149,6 +1171,26 @@
             "name": "糖果｜搜索",
             "type": 3,
             "api": "csp_TGSou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "兄弟",
+            "name": "兄弟｜搜索",
+            "type": 3,
+            "api": "csp_XiongdiPan",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "九七",
+            "name": "九七｜搜索",
+            "type": 3,
+            "api": "csp_97Sou",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
