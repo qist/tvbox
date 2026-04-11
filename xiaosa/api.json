@@ -755,6 +755,17 @@
             "timeout": 60
         },
         {
+            "key": "围观短剧",
+            "name": "围观｜短剧",
+            "type": 3,
+            "api": "csp_WeiguanDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "genre": "shortdrama"
+        },
+        {
             "key": "甜圈短剧",
             "name": "甜圈｜短剧",
             "type": 3,

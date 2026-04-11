@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;41f0ceb286b2b3deca5625eab84c24e0",
+  "spider": "./jar/spider.jar;md5;a367b60be5d99c61ee013cbd0320f8e5",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -61,6 +61,7 @@
     {"key": "人人","name": "人人｜4K","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "即刻","name": "即刻｜4K","type": 3,"api": "csp_Jike","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "双星","name": "双星｜4K","type": 3,"api": "csp_ShuangXing","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
+    {"key": "围观短剧","name": "围观｜短剧","type": 3,"api": "csp_WeiguanDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "甜圈短剧","name": "甜圈｜短剧","type": 3,"api": "csp_TianquanDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "星芽短剧","name": "星芽｜短剧","type": 3,"api": "./py/星芽短剧.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "剧王短剧","name": "剧王｜短剧","type": 3,"api": "./py/剧王短剧.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
