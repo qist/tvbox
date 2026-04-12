@@ -331,19 +331,6 @@
             }
         },
         {
-            "key": "黑猫",
-            "name": "黑猫｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://app1-0-0.87333.cc",
-                "dataKey": "VwsHxkCViDXEExWa",
-                "dataIv": "VwsHxkCViDXEExWa"
-            }
-        },
-        {
             "key": "灵虎",
             "name": "灵虎｜APP",
             "type": 3,
@@ -719,13 +706,23 @@
             "timeout": 60
         },
         {
+            "key": "指南",
+            "name": "指南｜4K",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60
+        },
+        {
             "key": "人人",
             "name": "人人｜4K",
             "type": 3,
             "api": "csp_RenRen",
             "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
             "timeout": 60
         },
         {
@@ -1278,10 +1275,28 @@
             }
         },
         {
+            "key": "球通体育",
+            "name": "球通｜体育",
+            "type": 3,
+            "api": "csp_QiutongTY",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "瓜子体育",
+            "name": "瓜子｜体育",
+            "type": 3,
+            "api": "csp_GuaziTY",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "919体育",
             "name": "919｜体育",
             "type": 3,
-            "api": "csp_919Tiyu",
+            "api": "csp_919TY",
             "style": {
                 "type": "list"
             }
