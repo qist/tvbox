@@ -603,7 +603,7 @@
             "key": "夸克",
             "name": "夸克｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudKK",
+            "api": "csp_PanWebShareKK",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -619,7 +619,7 @@
             "key": "清影",
             "name": "清影｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudQY",
+            "api": "csp_PanWebShareQY",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -635,7 +635,7 @@
             "key": "海绵",
             "name": "海绵｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudHM",
+            "api": "csp_PanWebShareHM",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -656,7 +656,7 @@
             "key": "夸父",
             "name": "夸父｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudKF",
+            "api": "csp_PanWebShareKF",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -676,7 +676,7 @@
             "key": "盘它",
             "name": "盘它｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudPT",
+            "api": "csp_PanWebSharePT",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -689,7 +689,7 @@
             "key": "123",
             "name": "123｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloud123",
+            "api": "csp_PanWebShare123",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -1302,25 +1302,37 @@
             }
         },
         {
-            "key": "爱听音乐",
-            "name": "爱听｜音乐",
+            "key": "呦呦DJ",
+            "name": "呦呦｜DJ",
             "type": 3,
-            "api": "./py/爱听音乐.py"
+            "api": "csp_Djuu",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "轮回DJ",
+            "name": "轮回｜DJ",
+            "type": 3,
+            "api": "csp_Djlh",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "蜻蜓FM",
+            "name": "蜻蜓｜FM",
+            "type": 3,
+            "api": "csp_QingtingFM",
+            "style": {
+                "type": "list"
+            }
         },
         {
             "key": "世界听书",
             "name": "世界｜听书",
             "type": 3,
             "api": "csp_TingShijie",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "呦呦DJ",
-            "name": "呦呦｜DJ",
-            "type": 3,
-            "api": "csp_Djuu",
             "style": {
                 "type": "list"
             }
@@ -1333,6 +1345,12 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "爱听音乐",
+            "name": "爱听｜音乐",
+            "type": 3,
+            "api": "./py/爱听音乐.py"
         },
         {
             "key": "网络直播",
