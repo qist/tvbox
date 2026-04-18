@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;66c8320a11411420db914bba8b77e34b",
+  "spider": "./jar/fan.txt;md5;927158dd12133ed25e056d3659a6b3ca",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "新增嘟嘟盘，到【太太太硬了】领免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -8,7 +8,7 @@
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MTV1","name": "🎙️易听音乐┃带歌词","type": 3,"api": "csp_MusicGuard","style": {"type": "rect","ratio": 1},"playerType": 2,"searchable": 1,"quickSearch": 0,"changeable": 0},
     {"key": "seed","name": "💡聚剧剧┃四盘","type": 3,"api": "csp_SeedhubGuard","ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5","searchable": 1,"quickSearch": 1,"changeable": 0,"indexs": 0,"style": {"type": "list"}},
-    {"key": "ZPan","name": "🎈聚盘搜┃四盘","type": 3,"api": "csp_S_zpsGuard","searchable": 1,"quickSearch": 0,"changeable": 0,"ext": {"siteUrl": "http://38.55.131.86:82/"},"indexs": 0,"style": {"type": "list"}},
+    {"key": "ZPan","name": "🎈聚盘搜┃四盘","type": 3,"api": "csp_S_zpsGuard","searchable": 1,"quickSearch": 0,"changeable": 0,"ext": {"siteUrl": "http://107.148.176.74:8383/"},"indexs": 0,"style": {"type": "list"}},
     {"key": "云播","name": "⛅️云播┃无搜索","type": 3,"api": "csp_T4Guard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CKrShL75AiGhjhdkfX0cfnI/kIpThjDhEZ0lc8r7irE4mRMelQz4llfmVMCtjIFNIHP1T3XqwSmYZd34DfAtnkbgrpiMBiYW36CCI5rTkC3Rtg1wQQjazUZyVHx4Zz5bWbmPv4G8q7PfHWYStVeDannVT2lmLzKbGEDahyxvLhNZRjXO5rPlruB0ydDcR/e/g5nx8N3JhG0oucfv6xVDl0XxYy0K2bY3plgqx32kfnS63xa8sQDbGlYoPtdHQCi2cAvEOaqMb5a6r2D3yvcLXYLjk37CJgQObzK0bCggZPm3B3YenAuunxl5OQmXrzLHjys6I2isL5AwTS2YAjD/R3f4FYWBp+4RdwMBAChatxjEHcaFhCUb0nfTgYKQ4a1pZ4j6+d4YHa0GaMYHO5NZQ0tDRZfAZPcfYaWLSW8iIUx6G2e0JnI6bLAN1TR0AVer8lxfU0zAzAODbKVrt8Oafq0IQ6MeGFcFRGMu4QWrzaublQ=="},
     {"key": "立播","name": "🌟立播┃秒播","type": 3,"api": "csp_LibvioGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "奶酪","name": "🧀奶酪┃秒播","type": 3,"api": "csp_T4Guard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="},
@@ -19,12 +19,12 @@
     {"key": "糯米","name": "🍓糯米┃多线","type": 3,"api": "csp_NmyswvGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "热播","name": "📺热播┃多线","type": 3,"api": "csp_AppTTGuard","timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "uqGL1bNENExT7/hGxpSE5qU="},
     {"key": "剧圈","name": "🐻剧圈┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"},
-    {"key": "光影","name": "🌞光影┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwtCFsub18Wmenoi4l29kKsy7X0oRJRBVvSwnsuM5MO9ZiIJs6T6MfJNEk2ptvW4yXL42Edzeou/SHng="},
-    {"key": "视界","name": "🍙视界┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuS1pDrb3t3j0G9nLcv9Hk5HJ1EK9mVu7apib64Gl9tN42ugKclqmXsYtX9DROtqWIyC+ajCEDTiGLA="},
-    {"key": "花花","name": "🥝花花┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+SLV183v12klao6oAAgFfVcL8D0quLA1d+RRyMN4vnPZetdOm08F3TlgCOxqWIyX+afCECO7aPaKnovDOCeMkxglOhlDv9axDFC5RYVbAYd+"},
-    {"key": "播客","name": "🦊播客┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuS1pDrb3t3j0G9nLcv9Hk5HJ1EK9mVu7apib64Gl9tN42ugKclqmXsYtX9DROtqWIyC+ajCEDTiHrA="},
-    {"key": "爱影","name": "👀爱影┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprGv+T3+22cnI+1lW1gL8i1UUQeJQBMqCc2+bF/Yq4Ul9lvoCLVO51Skm9i8zNvRa47T5uA+erCUw=="},
-    {"key": "猫猫","name": "🐟猫猫┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TrS2dv+1y8lL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0kuzomBOA4Uobe87udCDvyXaLcmpT5AzDxpSkECnVSqNy7UE+qFZ1UBoc16Q=="},
+    {"key": "光影","name": "🌞光影┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TDC2t/rlTwlcMr+ChdbeV8Q9y9xsKxqfbtO0M05tGWcacFVm2c45jhyH6t1Rt6A6PjICGqxV+uN1uOqS2/x0Vp5J0Vfo8usQADpHg=="},
+    {"key": "视界","name": "🍙视界┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A=="},
+    {"key": "花花","name": "🥝花花┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TbEn4q2l2kibom2DB9cJ0IB72Vu7apib64Gl9Ew6WDTJcIVzWsluDxqEaBqWIyM77GBXCPqCPmCyOr3RGfwjlsjchkArMHzTFT1VY9QUooz8m8BXA2mSa/whkG7SpZP100qUm6hMmTjm8YQQ51m6mxEE7hhEK1eNQ=="},
+    {"key": "播客","name": "🦊播客┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru"},
+    {"key": "爱影","name": "👀爱影┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOb1uAWbkRHp7hdxprG9un3+TbK3c790iI/b5LtEhxNfAQK7DRvrLcqbf1Q0MQntXLZfMhK0Xsn6nwmF+shR8eZ76qXW3y9XKbblunmCSPux0YtJlscp9zpDmW7Ju4ufOtv+BcyBX7VWrSzyUWoVcxGhUtv"},
+    {"key": "猫猫","name": "🐟猫猫┃多线","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A=="},
     {"key": "奥特","name": "🏝奥特┃多线","type": 3,"api": "csp_AueteGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "荐片","name": "🐭荐片┃P2P","type": 3,"api": "csp_JPJGuard","timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 0},
     {"key": "新6V","name": "🧲新6V┃磁力","type": 3,"api": "csp_SixVGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "https://www.xb6v.com/"},
@@ -54,6 +54,9 @@
     {"key": "高中教育","name": "📚高中┃课堂","type": 3,"api": "csp_BiliGuard","style": {"type": "rect","ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"}},
     {"key": "fan","name": "导航 www.饭太硬.com","type": 3,"api": "csp_XPathGuard","searchable": 1,"quickSearch": 0,"changeable": 0},
     {"key": "cc","name": "请勿相信视频中广告","type": 3,"api": "csp_XPathGuard","searchable": 1,"quickSearch": 0,"changeable": 0}
+  ],
+  "rules": [
+    {"name": "cdn.ryplay","hosts": ["cdn.ryplay"],"regex": ["5.480000","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]}
   ],
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "hosts": [
