@@ -72,7 +72,6 @@
             "ext": {
                 "appName": "电影天堂",
                 "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "publicIv": "ed5fdsgucxumegqa",
                 "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
                 "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
                 "pkg": "com.dytiantang.one",
@@ -93,7 +92,6 @@
             "ext": {
                 "appName": "橘汁",
                 "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-                "publicIv": "ed5fdsgucxumegqa",
                 "dataKey": "RTRTUJZWWMO0ZWV6EFBOSURNCTK4PQ==",
                 "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
                 "pkg": "com.tjjiangh.android",
@@ -114,7 +112,6 @@
             "ext": {
                 "appName": "华谊",
                 "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
-                "publicIv": "ed5fdsgucxumegqa",
                 "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
                 "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
                 "pkg": "com.muyue.tool",
@@ -135,7 +132,6 @@
             "ext": {
                 "appName": "小苹果",
                 "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "publicIv": "ed5fdsgucxumegqa",
                 "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
                 "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
                 "pkg": "com.juechufsh.android.xpg1",
@@ -156,7 +152,6 @@
             "ext": {
                 "appName": "顾我追剧",
                 "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "publicIv": "ed5fdsgucxumegqa",
                 "dataKey": "QK40VUWYWE45L0DOSTVOTEP0AM44PQ==",
                 "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
                 "pkg": "com.bingewatch.android",
@@ -177,7 +172,6 @@
             "ext": {
                 "appName": "薯条影视",
                 "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "publicIv": "ed5fdsgucxumegqa",
                 "dataKey": "A1VACZJWDKRZY1P3MFV0DDRAZ3F3PT0=",
                 "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
                 "pkg": "com.st.standroid",
@@ -353,7 +347,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "url": "http://xk7.xkgzs.xyz",
+                "site": "http://xk7.xkgzs.xyz/1/1234.txt",
                 "dataKey": "107jkcdncofcdkjk",
                 "dataIv": "107jkcdncofcdkjk"
             }
