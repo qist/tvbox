@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;427721a1497c71587dca53a2d80f2b42",
+  "spider": "./jar/spider.jar;md5;379d625875024e9b6e18c08e3fc398f4",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -96,7 +96,7 @@
     {"key": "80S","name": "80S｜磁力","type": 3,"api": "csp_BLSGod","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "New6v","name": "New6V｜磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.xb6v.com"},
     {"key": "美剧迷","name": "美剧迷｜磁力","type": 3,"api": "csp_MeijuMi","searchable": 1,"quickSearch": 1,"filterable": 1},
-    {"key": "迅雷吧","name": "迅雷吧｜磁力","type": 3,"api": "csp_Xunlei8","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "迅雷吧","name": "迅雷吧｜磁力","type": 3,"api": "csp_Xunlei8","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://xunlei8.me"},
     {"key": "电影港","name": "电影港｜磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/电影港.json"},
     {"key": "电影天堂","name": "电影天堂｜磁力","type": 3,"api": "csp_DyGod","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "阿里云盘","name": "阿里｜云盘","type": 3,"api": "csp_PanAli","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},

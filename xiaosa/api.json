@@ -1091,7 +1091,8 @@
             "api": "csp_Xunlei8",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://xunlei8.me"
         },
         {
             "key": "电影港",
