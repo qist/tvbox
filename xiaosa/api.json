@@ -232,6 +232,36 @@
             "ext": "https://qpcj.69mini.com/api.php/app/"
         },
         {
+            "key": "大米",
+            "name": "大米丨APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.dmo6o1a9a3.shop/api.php/app/"
+        },
+        {
+            "key": "酷九",
+            "name": "酷九丨APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.55z9g0t0p3.shop/api.php/app/"
+        },
+        {
+            "key": "空气",
+            "name": "空气丨APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.airfun.fun/xgapp.php/v2/"
+        },
+        {
             "key": "云播",
             "name": "云播｜APP",
             "type": 3,
