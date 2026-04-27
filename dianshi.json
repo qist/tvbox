@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;379d625875024e9b6e18c08e3fc398f4",
+  "spider": "./jar/spider.jar;md5;87a88e3b3f2e600ba89dbde2fc05642a",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -28,6 +28,9 @@
     {"key": "闪影","name": "闪影｜APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"},
     {"key": "超前","name": "超前丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://chaoqianys.top:91/api.php/app/"},
     {"key": "飞飞","name": "飞飞丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qpcj.69mini.com/api.php/app/"},
+    {"key": "大米","name": "大米丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.dmo6o1a9a3.shop/api.php/app/"},
+    {"key": "酷九","name": "酷九丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.55z9g0t0p3.shop/api.php/app/"},
+    {"key": "空气","name": "空气丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.airfun.fun/xgapp.php/v2/"},
     {"key": "云播","name": "云播｜APP","type": 3,"api": "csp_AppFox","searchable": 1,"changeable": 1,"ext": {"host": "http://app.hktvyb.cc"}},
     {"key": "金牌","name": "金牌｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"url": "https://qj4.catbb.xyz","dataKey": "eecbio48dsq13kkk","dataIv": "eecbio48dsq13kkk","search": "searchList4","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "老鹰","name": "老鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt","dataKey": "zxPtEUDGVllIUhDB","dataIv": "zxPtEUDGVllIUhDB","ua": "okhttp/3.10.0"}},
