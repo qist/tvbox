@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;87a88e3b3f2e600ba89dbde2fc05642a",
+  "spider": "./jar/spider.jar;md5;a1dce64436efeb48819cd124df8a41c4",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -46,9 +46,9 @@
     {"key": "灵虎","name": "灵虎｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://bind.315999.xyz/89.txt","dataKey": "#getapp@TMD@2025","dataIv": "#getapp@TMD@2025"}},
     {"key": "哔哩视频","name": "哔哩｜视频","type": 3,"api": "csp_BiliYS","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.433},"ext": {"cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"}},
     {"key": "玩偶","name": "玩偶｜4K","type": 3,"api": "csp_Wogg","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://wogg.xxooo.cf","https://woggpan.888484.xyz","https://wogg.333232.xyz","http://woggpan.xxooo.cf","https://www.wogg.one"]},"timeout": 60},
-    {"key": "快映","name": "快映｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xsayang.fun:12512","http://154.201.83.50:12512"]},"timeout": 60},
+    {"key": "快映","name": "快映｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://103.45.162.207:12512"]},"timeout": 60},
     {"key": "木偶","name": "木偶｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://123.666291.xyz","https://666.666291.xyz","https://www.muou.site","https://www.muou.asia"]},"timeout": 60},
-    {"key": "蜡笔","name": "蜡笔｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xiaocge.fun","http://feimo.fun","https://feimao666.fun","http://feimao888.fun","http://www.labi88.sbs","http://fmao.site","http://fmao.shop","http://xiaocgege.shop"]},"timeout": 60},
+    {"key": "蜡笔","name": "蜡笔｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://www.xiaocgege.shop","http://xiaocge.fun","http://feimo.fun","https://feimao666.fun","http://feimao888.fun","http://www.labi88.sbs","http://fmao.site","http://fmao.shop","http://xiaocgege.shop"]},"timeout": 60},
     {"key": "至臻","name": "至臻｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://mihdr.top","https://www.miqk.cc","https://xiaomiai.site","https://xiaomi666.fun","https://www.mihdr.top","https://www.zhizhenpan.fun"]},"timeout": 60},
     {"key": "多多","name": "多多｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://tv.yydsys.top","https://tv.yydsys.cc","https://tv.214521.xyz"]},"timeout": 60},
     {"key": "欧哥","name": "欧哥｜4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://woog.nxog.eu.org","https://woog.nxog.fun","https://woog.nxog.eu.org","https://woog.430520.xyz"]},"timeout": 60},
