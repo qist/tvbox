@@ -2,7 +2,7 @@ name: Sync Fork
 
 on:
   schedule:
-    - cron: "0 */1 * * *"  # 每1小时
+    - cron: "0 */1 * * *"  # 每1小时同步一次
   workflow_dispatch:
 
 jobs:
@@ -15,4 +15,4 @@ jobs:
           repo: tvbox
           head: main
           base: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
