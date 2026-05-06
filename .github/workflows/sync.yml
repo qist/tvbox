@@ -32,3 +32,5 @@ jobs:
           projectName: tvbox  # 你CF Pages的项目名
           directory: ./      # 根目录
           buildCommand: ""
+          branch: main   # 这里固定写 main！！！
+
