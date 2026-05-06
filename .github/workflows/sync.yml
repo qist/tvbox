@@ -1,18 +1,34 @@
-name: Sync Fork
+name: Sync + Auto Deploy to CF Pages
 
 on:
   schedule:
-    - cron: "0 */1 * * *"
-  workflow_dispatch:
+    - cron: "0 */1 * * *"  # 每小时自动同步+部署
+  workflow_dispatch:       # 手动也能触发
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: tgymnich/fork-sync@v2
+      - name: Sync Fork
+        uses: tgymnich/fork-sync@v2
         with:
           owner: qist
           repo: tvbox
           head: master
           base: master
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 自动部署到 Cloudflare Pages
+      - name: Deploy to CF Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: tvbox  # 你CF Pages的项目名
+          directory: ./      # 根目录
+          buildCommand: ""
