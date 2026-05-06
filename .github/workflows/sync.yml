@@ -1,0 +1,18 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: "0 */1 * * *"  # 每1小时
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v2
+        with:
+          owner: qist
+          repo: tvbox
+          head: main
+          base: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
