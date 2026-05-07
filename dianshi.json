@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;e05436bdbed170e00d2537ffd032778e",
+  "spider": "./jar/spider.jar;md5;1ef63e706dcdb4b08eea4fe3549ac112",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -28,9 +28,6 @@
     {"key": "闪影","name": "闪影｜APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"},
     {"key": "超前","name": "超前丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://chaoqianys.top:91/api.php/app/"},
     {"key": "飞飞","name": "飞飞丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qpcj.69mini.com/api.php/app/"},
-    {"key": "大米","name": "大米丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.dmo6o1a9a3.shop/api.php/app/"},
-    {"key": "酷九","name": "酷九丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.55z9g0t0p3.shop/api.php/app/"},
-    {"key": "空气","name": "空气丨APP","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.airfun.fun/xgapp.php/v2/"},
     {"key": "云播","name": "云播｜APP","type": 3,"api": "csp_AppFox","searchable": 1,"changeable": 1,"ext": {"host": "http://app.hktvyb.cc"}},
     {"key": "金牌","name": "金牌｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"url": "https://qj4.catbb.xyz","dataKey": "eecbio48dsq13kkk","dataIv": "eecbio48dsq13kkk","search": "searchList4","init": "initV122","ua": "okhttp/3.10.0"}},
     {"key": "老鹰","name": "老鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt","dataKey": "zxPtEUDGVllIUhDB","dataIv": "zxPtEUDGVllIUhDB","ua": "okhttp/3.10.0"}},
@@ -39,7 +36,6 @@
     {"key": "猎豹","name": "猎豹｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://444421.xyz","dataKey": "#getapp@TMD@2025","dataIv": "#getapp@TMD@2025"}},
     {"key": "映画","name": "映画｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://cms140.yhg.one/","dataKey": "bM7iC9eA3oZ1nB7z","dataIv": "bM7iC9eA3oZ1nB7z"}},
     {"key": "王子","name": "王子｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://app.95112475.xyz","dataKey": "5a9w6x58dsq6z3a6","dataIv": "5a9w6x58dsq6z3a6"}},
-    {"key": "星空","name": "星空｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "http://xk7.xkgzs.xyz/1/1234.txt","dataKey": "107jkcdncofcdkjk","dataIv": "107jkcdncofcdkjk"}},
     {"key": "秒看","name": "秒看｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://mk1080.top/get.txt","dataKey": "c60d88b2eep53za8","dataIv": "c60d88b2eep53za8","token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"}},
     {"key": "茉莉","name": "茉莉｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt","dataKey": "88689667dce61725","dataIv": "88689667dce61725"}},
     {"key": "灵虎","name": "灵虎｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://bind.315999.xyz/89.txt","dataKey": "#getapp@TMD@2025","dataIv": "#getapp@TMD@2025"}},
