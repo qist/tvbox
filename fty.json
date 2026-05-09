@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;1218c829b0edd8e3447b686468dc38fc",
+  "spider": "./jar/fan.txt;md5;448a9f26f33109f6aa148971c3adab46",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "新增嘟嘟盘，到【太太太硬了】领免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -63,8 +63,8 @@
   "fiizvfck.top=danmu.888484.xyz"
 ],
   "lives": [
-    {"name": "Kimentanm","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
     {"name": "develop202","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType": 2,"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+    {"name": "Kimentanm","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
     {"name": "范明明（需开启V6网络）","type": 0,"url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType": 2},
     {"name": "虎牙一起看","type": 0,"url": "https://sub.ottiptv.cc/huyayqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
     {"name": "斗鱼一起看","type": 0,"url": "https://sub.ottiptv.cc/douyuyqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
