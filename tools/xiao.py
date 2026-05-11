@@ -116,7 +116,7 @@ if __name__ == "__main__":
     if remove_keys:
         filtered_sites = [s for s in filtered_sites if s.get("key") not in remove_keys]
     filtered_sites = dedupe_by_name(dianshi_sites, filtered_sites)
-    dianshi["sites"] = insert_sites_at_key(dianshi_sites, filtered_sites, "cbh")
+    dianshi["sites"] = insert_sites_at_key(dianshi_sites, filtered_sites, "qiletv")
 
     # 6. 删除指定的站点
     # before_count = len(dianshi["sites"])
