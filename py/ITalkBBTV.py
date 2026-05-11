@@ -3,7 +3,8 @@
 """
 ITalkBB TV - 海外华人影视
 """
-import json
+import time
+import uuid
 import requests
 from base.spider import Spider
 
@@ -13,7 +14,7 @@ class Spider(Spider):
         return 'ITalkBB TV'
 
     def init(self, extend=""):
-        pass
+        self._login()
 
     def isVideoFormat(self, url):
         pass
@@ -28,14 +29,40 @@ class Spider(Spider):
         self.name = 'ITalkBB TV'
         self.host = 'https://www.italkbbtv.com'
         self.api = 'https://api.italkbbtv.com/classictv'
-        self.token = 'Bearer 9e370010ea624adfbc1c50a7622ec1ee'
+        self.token = ''
         self.header = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0',
             'Referer': 'https://www.italkbbtv.com/',
             'Origin': 'https://www.italkbbtv.com',
-            'Authorization': self.token,
         }
         self.timeout = 20
+        self._token = ''
+        self._expire = 0
+        self._device_id = str(uuid.uuid4())
+
+    def _login(self):
+        now = int(time.time() * 1000)
+        if self._token and now < self._expire - 60000:
+            return
+        data = {
+            'login_type': 'password', 'grant_type': 'tv_login_in',
+            'device_id': self._device_id,
+            'login_name': f'{self._device_id}@web.visitor.italkbb.com',
+            'password': 'visitor_secret',
+            'device_type': 'web', 'device_model': 'Chrome148', 'app_version': '305013',
+        }
+        try:
+            r = requests.post('https://api.italkbbtv.com/auth/v1/token', headers=self.header, data=data, timeout=self.timeout)
+            if r.status_code == 200:
+                self._set_token(r.json().get('access', {}))
+        except:
+            pass
+
+    def _set_token(self, acc):
+        self._token = acc.get('token', '')
+        self._expire = acc.get('expire_time', 0)
+        if self._token:
+            self.header['Authorization'] = 'Bearer ' + self._token
 
         self.cats = {
             'drama': ('62ac4df64beefe53586474ff', '62c670dc1dca2d424404499c'),
@@ -48,6 +75,7 @@ class Spider(Spider):
         self.class_urls = 'drama&movie&variety&cartoon&shorts&live'.split('&')
 
     def _api_get(self, path, params=None):
+        self._login()
         try:
             r = requests.get(self.api + path, headers=self.header, params=params, timeout=self.timeout)
             if r.status_code == 200:
@@ -57,6 +85,7 @@ class Spider(Spider):
         return None
 
     def _get_live_stream(self, ch_id):
+        self._login()
         try:
             r = requests.get('https://api.italkbbtv.com/playauth/v1/live', headers=self.header, params={'series_id': ch_id, 'hl': 'zh_CN'}, timeout=self.timeout)
             if r.status_code == 200:
