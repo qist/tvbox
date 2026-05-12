@@ -219,16 +219,17 @@ class Spider(Spider):
         return result
 
     def playerContent(self, flag, id, vipFlags):
+        h = {'User-Agent': self.header['User-Agent']}
         # 直播: 直接用m3u8地址
         if id.startswith('live@'):
             m3u8 = id.replace('live@', '')
             if m3u8.startswith('http'):
-                return {'parse': 0, 'url': m3u8, 'header': {}, 'playUrl': ''}
+                return {'parse': 0, 'url': m3u8, 'header': h, 'playUrl': ''}
             stream = self._get_live_stream(m3u8)
-            return {'parse': 0, 'url': stream, 'header': {}, 'playUrl': ''}
-        # m3u8直链（从detailContent传过来的）
+            return {'parse': 0, 'url': stream, 'header': h, 'playUrl': ''}
+        # m3u8直链
         if id.startswith('http'):
-            return {'parse': 0, 'url': id, 'header': {}, 'playUrl': ''}
+            return {'parse': 0, 'url': id, 'header': h, 'playUrl': ''}
         # 点播
         parts = id.split('@')
         route = parts[0] if len(parts) > 1 else 'play'

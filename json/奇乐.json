@@ -29,7 +29,7 @@
 "播放链接前缀":"https://www.qiletv.net",
 "跳转播放链接":"data-play=\"&&\"",
 "嗅探词":".m3u8#.mp4#.flv#.mp3#.m4a",
-"分类url":"https://www.qiletv.net/fox/{cateId}_{catePg}.html",
+"分类url":"https://www.qiletv.net/fox/{cateId}-{catePg}.html",
 "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
 "筛选":
 {
