@@ -1,57 +1,29 @@
-name: Update xiaosa
+name: Sync upstream
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "20 5 * * *"
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - "**/README.md"
-jobs:
-  build:
-    runs-on: ubuntu-latest      
-    steps:
-      - name: Checkout the branch
-        uses: actions/checkout@v6
 
-      - name: wget the xiaosa 
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync from qist/tvbox
         run: |
-           pwd
-           cd xiaosa/
-           wget https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/local/%E5%8D%95%E7%BA%BF%E8%B7%AF.zip -O xiaosa.zip
-           unzip xiaosa.zip
-           \cp -pdr TVBoxOSC/tvbox/* ./
-           rm -rf xiaosa.zip TVBoxOSC
-           cd ../
-        shell: bash
-      - name: tools
-        run: |
-          pwd 
-          cd tools/
-          pip install demjson3 --break-system-packages
-          python fty.py
-          python xiao.py ../xiaosa/api.json dianshi.json
-          python xiao.py ../xiaosa/api.json jsm.json
-          \cp -pdr tvbox_cleaned.json ../fty.json
-          \cp -pdr dianshi_with_app_sites.json ../dianshi.json
-          \cp -pdr jsm_with_app_sites.json ../jsm.json
-          \cp -pdr fan.txt ../jar/fan.txt
-          \cp -pdr ../xiaosa/spider.jar ../jar/spider.jar
-          git clone --depth=1 --recursive https://github.com/fantaiying7/EXT.git
-          \cp -pdr EXT/* ../FTY/
-          python copy_xbpq.py dianshi_with_app_sites.json
-          rm -rf dianshi_with_app_sites.json jsm_with_app_sites.json tvbox_cleaned.json fan.txt EXT
-          cd ../
-        shell: bash
-      - name: Git push assets to "release" branch
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "87984115+github-actions[bot]@users.noreply.github.com"
-          git add .
-          if ! git diff-index --quiet HEAD --; then
-            git commit -m "更新源 $(date +%Y%m%d%H%M)"
-            git push -f origin master
-          else
-            echo "没有文件更新，不执行 git push"
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/qist/tvbox.git
+          git fetch upstream master
+          git checkout master
+          git reset --hard upstream/master
+          git push origin master --force
