@@ -59,7 +59,7 @@
             "name": "韩圈｜APP",
             "type": 3,
             "api": "csp_Hxq",
-            "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
+            "ext": "http://www.小不点.com/api/2026/fishhxq.php"
         },
         {
             "key": "听心99",
@@ -75,6 +75,22 @@
                 "package": "com.iksp.adsys.jjsp",
                 "buildNumber": "2001",
                 "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
+            }
+        },
+        {
+            "key": "橙子99",
+            "name": "橙子丨APP",
+            "type": 3,
+            "api": "csp_App99",
+            "ext": {
+                "host": "http://113.31.180.218:19987/app/bn",
+                "LoginPath": "/app/log",
+                "appkey": "6e8f3764a0644f3686ab5cdd57bcdf48",
+                "versionName": "4.3.1",
+                "name": "小橙子",
+                "package": "com.xchengzix.app",
+                "buildNumber": "2001",
+                "buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"
             }
         },
         {
@@ -584,7 +600,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://103.45.162.207:12512"
+                    "http://38.76.197.172:12521"
                 ]
             },
             "timeout": 60
@@ -721,8 +737,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xhban.xyz:20720",
-                    "http://154.222.27.33:20720"
+                    "http://38.76.197.172:16969"
                 ]
             },
             "timeout": 60
