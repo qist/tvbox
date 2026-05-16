@@ -5,23 +5,27 @@ on:
     - cron: "0 */1 * * *"  # 每小时自动同步+部署
   workflow_dispatch:       # 手动也能触发
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - name: Sync Fork
-        uses: tgymnich/fork-sync@v2
-        with:
-          owner: qist
-          repo: tvbox
-          head: master
-          base: master
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge upstream
+        run: |
+          git remote add upstream https://github.com/qist/tvbox.git
+          git fetch upstream master
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git merge upstream/master --allow-unrelated-histories --no-edit
+          git push origin master
 
       # 自动部署到 Cloudflare Pages
       - name: Deploy to CF Pages
