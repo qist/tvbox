@@ -253,26 +253,6 @@
             }
         },
         {
-            "key": "顾我",
-            "name": "顾我｜APP",
-            "type": 3,
-            "api": "csp_AppDrama",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "appName": "顾我追剧",
-                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "dataKey": "QK40VUWYWE45L0DOSTVOTEP0AM44PQ==",
-                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-                "pkg": "com.bingewatch.android",
-                "host": "",
-                "site": "https://guwoandroid-1372779881.cos.ap-guangzhou.myqcloud.com/app_guwozhuijuandroid.txt",
-                "version": "2.0.0.1",
-                "decrypt": "0"
-            }
-        },
-        {
             "key": "薯条",
             "name": "薯条｜APP",
             "type": 3,
