@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;0fbc678a0d45eb6ef3efee883d5167bf",
+  "spider": "./jar/fan.txt;md5;1d7a5147033044a81f91d5f4a510f9ed",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "嘟嘟盘容量，到【太太太硬了】领取","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -58,8 +58,8 @@
   ],
   "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
   "hosts": [
-  "img1.wsyzy.org=danmu.888484.xyz",
-  "fiizvfck.top=danmu.888484.xyz"
+  "img1.wsyzy.org=fan.cloudflare.182682.xyz",
+  "fiizvfck.top=fan.cloudflare.182682.xyz"
 ],
   "lives": [
     {"name": "develop202","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType": 2,"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
