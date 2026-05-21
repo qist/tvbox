@@ -17,9 +17,12 @@ class Spider(Spider):
         self.host = "https://czzyv.com"
         self.timeout = 20
         self._proxy = ""
+        self._debug = True
         self._hosts = [
             "https://czzyv.com",
             "https://www.cz4k.com",
+            "https://cz01.vip",
+            "https://cz01.tv",
         ]
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
@@ -30,7 +33,7 @@ class Spider(Spider):
         self.session = None
         self._text_cache = {}
         self._text_cache_ttl = 300
-        self._last = {"url": "", "status": 0, "len": 0, "host": "", "ua": "", "proxy": "", "err": ""}
+        self._last = {"url": "", "final_url": "", "status": 0, "len": 0, "host": "", "ua": "", "proxy": "", "err": ""}
         self._api_base = ""
         self._use_api = False
         self._ua_fallback = "Dalvik/2.1.0 (Linux; U; Android 10)"
@@ -56,13 +59,30 @@ class Spider(Spider):
     def getName(self):
         return "厂长资源"
 
+    def _log(self, data):
+        if not self._debug:
+            return
+        try:
+            fn = getattr(self, "log", None)
+            if callable(fn):
+                fn(data)
+            else:
+                if isinstance(data, (dict, list)):
+                    print(json.dumps(data, ensure_ascii=False))
+                else:
+                    print(str(data))
+        except Exception:
+            pass
+
     def init(self, extend=""):
         proxy = ""
+        debug = None
         if isinstance(extend, dict):
             host = (extend.get("host") or extend.get("site") or "").strip()
             if host:
                 self.host = host.rstrip("/")
             proxy = (extend.get("proxy") or extend.get("http_proxy") or extend.get("https_proxy") or "").strip()
+            debug = extend.get("debug")
         elif isinstance(extend, str) and extend.strip():
             ext_str = extend.strip()
             if (ext_str.startswith("{") and ext_str.endswith("}")) or (ext_str.startswith("[") and ext_str.endswith("]")):
@@ -73,10 +93,14 @@ class Spider(Spider):
                         if host:
                             self.host = host.rstrip("/")
                         proxy = (ext_obj.get("proxy") or ext_obj.get("http_proxy") or ext_obj.get("https_proxy") or "").strip()
+                        debug = ext_obj.get("debug")
                 except Exception:
                     pass
             elif ext_str.startswith("http"):
                 self.host = ext_str.rstrip("/")
+
+        if debug is not None:
+            self._debug = bool(debug)
 
         self.headers["Referer"] = self.host + "/"
         self.headers["Origin"] = self.host
@@ -85,6 +109,7 @@ class Spider(Spider):
         self._proxy = proxy
         if proxy:
             self.session.proxies.update({"http": proxy, "https": proxy})
+        self._log({"event": "init", "host": self.host, "proxy": self._proxy, "ua": self.session.headers.get("User-Agent", "")})
         self._choose_host()
         self._detect_api()
         self._warmup()
@@ -114,26 +139,33 @@ class Spider(Spider):
             try:
                 r = self.session.get(h + "/", timeout=self.timeout, allow_redirects=True, verify=False)
                 if not r or r.status_code != 200:
+                    self._log({"event": "choose_host", "try": h, "status": int(r.status_code) if r else 0, "final_url": r.url if r else ""})
                     continue
                 try:
                     if urlparse(r.url).netloc != urlparse(h).netloc:
+                        self._log({"event": "choose_host", "try": h, "status": int(r.status_code), "final_url": r.url, "skip": "redirect"})
                         continue
                 except Exception:
                     pass
                 r.encoding = "utf-8"
                 text = r.text or ""
                 if "访问已被拦截" in text or "已被拦截" in text:
+                    self._log({"event": "choose_host", "try": h, "status": int(r.status_code), "final_url": r.url, "skip": "blocked"})
                     continue
                 if ("公告" in text and "域名" in text) or ("最新发布" in text) or ("备用网址" in text):
+                    self._log({"event": "choose_host", "try": h, "status": int(r.status_code), "final_url": r.url, "skip": "notice"})
                     continue
                 self.host = h
                 self.headers["Referer"] = self.host + "/"
                 self.headers["Origin"] = self.host
                 self.session.headers.update(self.headers)
                 self._text_cache.clear()
+                self._log({"event": "choose_host", "ok": True, "host": self.host, "final_url": r.url})
                 return
             except Exception:
+                self._log({"event": "choose_host", "try": h, "ok": False, "err": "exception"})
                 continue
+        self._log({"event": "choose_host", "ok": False, "host": self.host})
 
     def _detect_api(self):
         candidates = [
@@ -177,6 +209,19 @@ class Spider(Spider):
                 except Exception as e:
                     last_exc = f"{type(e).__name__}: {e}"
                     time.sleep(1)
+            if r is None:
+                try:
+                    r = requests.get(
+                        url,
+                        headers=(self.session.headers if self.session else self.headers),
+                        timeout=self.timeout,
+                        allow_redirects=True,
+                        verify=False,
+                        proxies=(self.session.proxies if self.session else None),
+                    )
+                except Exception as e:
+                    if not last_exc:
+                        last_exc = f"{type(e).__name__}: {e}"
             if not r or r.status_code != 200:
                 if r and r.status_code in (403, 406, 412):
                     self.session.headers["User-Agent"] = self._ua_fallback
@@ -187,13 +232,15 @@ class Spider(Spider):
                 if not r or r.status_code != 200:
                     self._last = {
                         "url": url,
+                        "final_url": r.url if r else "",
                         "status": int(r.status_code) if r else 0,
                         "len": 0,
                         "host": self.host,
                         "ua": (self.session.headers.get("User-Agent") if self.session else ""),
                         "proxy": self._proxy,
-                        "err": last_exc or "bad_status",
+                        "err": last_exc or ("no_response" if r is None else "bad_status"),
                     }
+                    self._log({"event": "fetch", **self._last})
                     return ""
             r.encoding = "utf-8"
             text = r.text or ""
@@ -208,6 +255,7 @@ class Spider(Spider):
                     pass
             self._last = {
                 "url": url,
+                "final_url": r.url if r else "",
                 "status": int(r.status_code) if r else 0,
                 "len": len(text),
                 "host": self.host,
@@ -215,12 +263,15 @@ class Spider(Spider):
                 "proxy": self._proxy,
                 "err": "",
             }
+            if not text:
+                self._log({"event": "fetch", **self._last, "warn": "empty_text"})
             if text:
                 self._text_cache[url] = (now + self._text_cache_ttl, text)
             return text
         except Exception as e:
             self._last = {
                 "url": url,
+                "final_url": "",
                 "status": 0,
                 "len": 0,
                 "host": self.host,
@@ -228,6 +279,7 @@ class Spider(Spider):
                 "proxy": self._proxy,
                 "err": f"{type(e).__name__}: {e}",
             }
+            self._log({"event": "fetch", **self._last})
             return ""
 
     def _debug_item(self, tag):
