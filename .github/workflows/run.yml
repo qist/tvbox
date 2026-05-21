@@ -6,10 +6,8 @@ on:
   push:
     branches:
       - master
-    paths-ignore:
-      - "**/README.md"
-      - "**/js/"
-      - "**/py/"
+    paths:
+      - "tools/**"
 jobs:
   build:
     runs-on: ubuntu-latest      

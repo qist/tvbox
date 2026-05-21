@@ -3,6 +3,7 @@ czzyv.com - 厂长资源
 """
 
 import re
+import json
 import time
 from urllib.parse import urljoin, quote, unquote, urlparse, parse_qs
 
@@ -15,6 +16,13 @@ class Spider(Spider):
     def __init__(self):
         self.host = "https://czzyv.com"
         self.timeout = 20
+        self._hosts = [
+            "https://czzyv.com",
+            "https://www.czzy.site",
+            "https://www.cz4k.com",
+            "https://cz01.vip",
+            "https://cz01.tv",
+        ]
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
             "Referer": "https://czzyv.com/",
@@ -49,12 +57,24 @@ class Spider(Spider):
             if host:
                 self.host = host.rstrip("/")
         elif isinstance(extend, str) and extend.strip():
-            self.host = extend.strip().rstrip("/")
+            ext_str = extend.strip()
+            if (ext_str.startswith("{") and ext_str.endswith("}")) or (ext_str.startswith("[") and ext_str.endswith("]")):
+                try:
+                    ext_obj = json.loads(ext_str)
+                    if isinstance(ext_obj, dict):
+                        host = (ext_obj.get("host") or ext_obj.get("site") or "").strip()
+                        if host:
+                            self.host = host.rstrip("/")
+                except Exception:
+                    pass
+            elif ext_str.startswith("http"):
+                self.host = ext_str.rstrip("/")
 
         self.headers["Referer"] = self.host + "/"
         self.headers["Origin"] = self.host
         self.session = requests.Session()
         self.session.headers.update(self.headers)
+        self._choose_host()
         self._detect_api()
         self._warmup()
 
@@ -67,6 +87,36 @@ class Spider(Spider):
     def destroy(self):
         pass
 
+    def _choose_host(self):
+        if not self.session:
+            return
+
+        candidates = []
+        if self.host:
+            candidates.append(self.host.rstrip("/"))
+        for h in self._hosts:
+            h = (h or "").rstrip("/")
+            if h and h not in candidates:
+                candidates.append(h)
+
+        for h in candidates:
+            try:
+                r = self.session.get(h + "/", timeout=self.timeout, allow_redirects=True, verify=False)
+                if not r or r.status_code != 200:
+                    continue
+                r.encoding = "utf-8"
+                text = r.text or ""
+                if "访问已被拦截" in text or "已被拦截" in text:
+                    continue
+                self.host = h
+                self.headers["Referer"] = self.host + "/"
+                self.headers["Origin"] = self.host
+                self.session.headers.update(self.headers)
+                self._text_cache.clear()
+                return
+            except Exception:
+                continue
+
     def _detect_api(self):
         candidates = [
             "/api.php/provide/vod?ac=list",
@@ -76,7 +126,7 @@ class Spider(Spider):
         for p in candidates:
             url = urljoin(self.host + "/", p.lstrip("/"))
             try:
-                r = self.session.get(url, timeout=self.timeout, allow_redirects=True)
+                r = self.session.get(url, timeout=self.timeout, allow_redirects=True, verify=False)
                 ct = (r.headers.get("Content-Type") or "").lower()
                 if r.status_code == 200 and (("json" in ct) or ("xml" in ct) or r.text.strip().startswith(("{", "<"))):
                     self._api_base = url.split("?", 1)[0]
@@ -89,7 +139,7 @@ class Spider(Spider):
 
     def _warmup(self):
         try:
-            self.session.get(self.host + "/", timeout=self.timeout, allow_redirects=True)
+            self.session.get(self.host + "/", timeout=self.timeout, allow_redirects=True, verify=False)
         except Exception:
             pass
 
@@ -103,7 +153,7 @@ class Spider(Spider):
             r = None
             for _ in range(3):
                 try:
-                    r = self.session.get(url, timeout=self.timeout, allow_redirects=True)
+                    r = self.session.get(url, timeout=self.timeout, allow_redirects=True, verify=False)
                     break
                 except Exception:
                     time.sleep(1)
@@ -111,7 +161,7 @@ class Spider(Spider):
                 if r and r.status_code in (403, 406, 412):
                     self.session.headers["User-Agent"] = self._ua_fallback
                     try:
-                        r = self.session.get(url, timeout=self.timeout, allow_redirects=True)
+                        r = self.session.get(url, timeout=self.timeout, allow_redirects=True, verify=False)
                     except Exception:
                         r = None
                 if not r or r.status_code != 200:
@@ -121,7 +171,7 @@ class Spider(Spider):
             if "访问已被拦截" in text or "已被拦截" in text:
                 self.session.headers["User-Agent"] = self._ua_fallback
                 try:
-                    r2 = self.session.get(url, timeout=self.timeout, allow_redirects=True)
+                    r2 = self.session.get(url, timeout=self.timeout, allow_redirects=True, verify=False)
                     if r2 and r2.status_code == 200:
                         r2.encoding = "utf-8"
                         text = r2.text or ""
