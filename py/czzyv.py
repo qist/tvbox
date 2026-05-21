@@ -7,7 +7,6 @@ import time
 from urllib.parse import urljoin, quote, unquote, urlparse, parse_qs
 
 import requests
-from bs4 import BeautifulSoup
 
 from base.spider import Spider
 
@@ -27,6 +26,7 @@ class Spider(Spider):
         self._text_cache_ttl = 300
         self._api_base = ""
         self._use_api = False
+        self._ua_fallback = "Dalvik/2.1.0 (Linux; U; Android 10)"
 
         self._class_map = [
             ("最新电影", "/zuixindianying"),
@@ -44,9 +44,14 @@ class Spider(Spider):
         return "厂长资源"
 
     def init(self, extend=""):
-        if extend:
+        if isinstance(extend, dict):
+            host = (extend.get("host") or extend.get("site") or "").strip()
+            if host:
+                self.host = host.rstrip("/")
+        elif isinstance(extend, str) and extend.strip():
             self.host = extend.strip().rstrip("/")
-            self.headers["Referer"] = self.host + "/"
+
+        self.headers["Referer"] = self.host + "/"
         self.headers["Origin"] = self.host
         self.session = requests.Session()
         self.session.headers.update(self.headers)
@@ -103,9 +108,25 @@ class Spider(Spider):
                 except Exception:
                     time.sleep(1)
             if not r or r.status_code != 200:
-                return ""
+                if r and r.status_code in (403, 406, 412):
+                    self.session.headers["User-Agent"] = self._ua_fallback
+                    try:
+                        r = self.session.get(url, timeout=self.timeout, allow_redirects=True)
+                    except Exception:
+                        r = None
+                if not r or r.status_code != 200:
+                    return ""
             r.encoding = "utf-8"
             text = r.text or ""
+            if "访问已被拦截" in text or "已被拦截" in text:
+                self.session.headers["User-Agent"] = self._ua_fallback
+                try:
+                    r2 = self.session.get(url, timeout=self.timeout, allow_redirects=True)
+                    if r2 and r2.status_code == 200:
+                        r2.encoding = "utf-8"
+                        text = r2.text or ""
+                except Exception:
+                    pass
             if text:
                 self._text_cache[url] = (now + self._text_cache_ttl, text)
             return text
@@ -123,60 +144,36 @@ class Spider(Spider):
         return 999
 
     def _parse_vod_list(self, html):
-        soup = BeautifulSoup(html or "", "html.parser")
+        html = html or ""
         vods = []
-        for li in soup.select("div.bt_img ul li"):
-            a = None
-            for x in li.select("a[href]"):
-                href = x.get("href") or ""
-                if "/movie/" in href and ".html" in href:
-                    a = x
-                    break
-            if not a:
-                continue
-            href = a.get("href") or ""
-            href = self._abs(href)
-            mid = ""
-            mm = re.search(r"/movie/(\d+)\.html", href)
-            if mm:
-                mid = mm.group(1)
-            if not mid:
-                continue
 
-            img = li.select_one("img")
-            pic = ""
-            name = ""
-            if img:
-                name = (img.get("alt") or "").strip()
-                pic = (
-                    (img.get("data-original") or "")
-                    or (img.get("data-src") or "")
-                    or (img.get("data-lazy-src") or "")
-                    or (img.get("src") or "")
-                ).strip()
-            if not name:
-                h3a = li.select_one("h3 a") or li.select_one("a")
-                name = (h3a.get_text(strip=True) if h3a else "").strip()
-            if pic.endswith("/blank.gif") and img and img.get("data-original"):
-                pic = (img.get("data-original") or "").strip()
+        blocks = re.findall(r"(?is)<li\b[^>]*>.*?</li>", html)
+        for b in blocks:
+            if "/movie/" not in b:
+                continue
+            m_id = re.search(r'(?is)href=["\'](?:https?://[^"\']+)?/movie/(\d+)\.html["\']', b)
+            if not m_id:
+                continue
+            mid = m_id.group(1)
 
-            qb = li.select_one(".hdinfo .qb") or li.select_one(".hdinfo")
-            rating = li.select_one(".rating")
-            remark = (qb.get_text(" ", strip=True) if qb else "").strip()
-            score = (rating.get_text(" ", strip=True) if rating else "").strip()
+            m_alt = re.search(r'(?is)<img\b[^>]*\balt=["\']([^"\']+)["\']', b)
+            name = (m_alt.group(1).strip() if m_alt else "") or mid
+
+            m_pic = re.search(r'(?is)<img\b[^>]*(?:data-original|data-src|data-lazy-src|src)=["\']([^"\']+)["\']', b)
+            pic = (m_pic.group(1).strip() if m_pic else "")
+
+            remark = ""
+            m_qb = re.search(r'(?is)<div\b[^>]*class=["\'][^"\']*\bhdinfo\b[^"\']*["\'][^>]*>.*?<span\b[^>]*>(.*?)</span>', b)
+            if m_qb:
+                remark = re.sub(r"(?is)<[^>]+>", "", m_qb.group(1)).strip()
+            m_score = re.search(r'(?is)<div\b[^>]*class=["\'][^"\']*\brating\b[^"\']*["\'][^>]*>\s*([^<]+)\s*</div>', b)
+            score = (m_score.group(1).strip() if m_score else "")
             if remark and score and score not in remark:
                 remark = f"{remark} {score}"
             elif not remark:
                 remark = score
 
-            vods.append(
-                {
-                    "vod_id": mid,
-                    "vod_name": name or mid,
-                    "vod_pic": pic,
-                    "vod_remarks": remark,
-                }
-            )
+            vods.append({"vod_id": mid, "vod_name": name, "vod_pic": pic, "vod_remarks": remark})
 
         seen = set()
         unique = []
@@ -238,45 +235,37 @@ class Spider(Spider):
             url = f"{self.host}/movie/{vid}.html"
 
         html = self._fetch_text(url)
-        soup = BeautifulSoup(html or "", "html.parser")
+        name = ""
+        m_title = re.search(r"(?is)<h1[^>]*>\s*([^<]+)\s*</h1>", html or "")
+        if m_title:
+            name = m_title.group(1).strip()
 
-        h1 = soup.select_one("h1")
-        name = (h1.get_text(" ", strip=True) if h1 else "").strip()
-
-        img = soup.select_one(".dyimg img") or soup.select_one(".movimg img") or soup.select_one("img")
         pic = ""
-        if img:
-            pic = (
-                (img.get("data-original") or "")
-                or (img.get("data-src") or "")
-                or (img.get("data-lazy-src") or "")
-                or (img.get("src") or "")
-            ).strip()
+        m_pic = re.search(r'(?is)<div\b[^>]*class=["\'][^"\']*\bdyimg\b[^"\']*["\'][^>]*>[\s\S]*?<img\b[^>]*(?:data-original|data-src|data-lazy-src|src)=["\']([^"\']+)["\']', html or "")
+        if not m_pic:
+            m_pic = re.search(r'(?is)<img\b[^>]*(?:data-original|data-src|data-lazy-src|src)=["\']([^"\']+)["\']', html or "")
+        if m_pic:
+            pic = m_pic.group(1).strip()
 
         desc = ""
-        desc_div = soup.select_one("div.yp_context")
-        if desc_div:
-            desc = desc_div.get_text("\n", strip=True)
+        m_desc = re.search(r'(?is)<div\b[^>]*class=["\'][^"\']*\byp_context\b[^"\']*["\'][^>]*>\s*([\s\S]*?)\s*</div>', html or "")
+        if m_desc:
+            desc = re.sub(r"(?is)<[^>]+>", "", m_desc.group(1)).strip()
 
-        text_lines = [x.strip() for x in soup.get_text("\n", strip=True).split("\n") if x.strip()]
-
-        def pick(prefix):
-            for line in text_lines:
-                if line.startswith(prefix):
-                    return line.split("：", 1)[-1].strip()
-            return ""
-
-        actor = pick("主演：")
-        director = pick("导演：")
+        actor = ""
+        director = ""
+        m_actor = re.search(r"(?is)主演：\s*([^<\n\r]+)", html or "")
+        if m_actor:
+            actor = m_actor.group(1).strip()
+        m_director = re.search(r"(?is)导演：\s*([^<\n\r]+)", html or "")
+        if m_director:
+            director = m_director.group(1).strip()
 
         play_items = []
-        for a in soup.select('a[href*="/v_play/"]'):
-            t = a.get_text(" ", strip=True).strip()
-            href = a.get("href") or ""
-            if not href:
-                continue
-            href = self._abs(href)
-            if t:
+        for m in re.finditer(r'(?is)<a\b[^>]*href=["\']([^"\']*/v_play/[^"\']+)["\'][^>]*>\s*([^<]+)\s*</a>', html or ""):
+            href = self._abs(m.group(1).strip())
+            t = m.group(2).strip()
+            if t and href:
                 play_items.append(f"{t}${href}")
 
         if not play_items:
@@ -326,11 +315,9 @@ class Spider(Spider):
             return {"parse": 1, "url": play_url, "header": h, "playUrl": ""}
 
         html = self._fetch_text(play_url)
-        soup = BeautifulSoup(html or "", "html.parser")
-
-        iframe = soup.select_one("iframe.viframe") or soup.find("iframe")
-        if iframe:
-            src = (iframe.get("src") or "").strip()
+        m_iframe = re.search(r'(?is)<iframe\b[^>]*\bsrc=["\']([^"\']+)["\']', html or "")
+        if m_iframe:
+            src = m_iframe.group(1).strip()
             if src:
                 qs = parse_qs(urlparse(src).query)
                 raw = (qs.get("url") or [""])[0]
