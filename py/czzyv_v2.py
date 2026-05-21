@@ -18,6 +18,7 @@ class Spider(Spider):
         self.timeout = 20
         self._proxy = ""
         self._debug = True
+        self._cookies = "myannoun=1"
         self._hosts = [
             "https://czzyv.com",
             "https://www.cz4k.com",
@@ -29,6 +30,7 @@ class Spider(Spider):
             "Referer": "https://czzyv.com/",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
             "Accept-Language": "zh-CN,zh;q=0.9",
+            "Cookie": "myannoun=1",
         }
         self.session = None
         self._text_cache = {}
@@ -77,12 +79,14 @@ class Spider(Spider):
     def init(self, extend=""):
         proxy = ""
         debug = None
+        cookies = ""
         if isinstance(extend, dict):
             host = (extend.get("host") or extend.get("site") or "").strip()
             if host:
                 self.host = host.rstrip("/")
             proxy = (extend.get("proxy") or extend.get("http_proxy") or extend.get("https_proxy") or "").strip()
             debug = extend.get("debug")
+            cookies = (extend.get("cookie") or extend.get("cookies") or "").strip()
         elif isinstance(extend, str) and extend.strip():
             ext_str = extend.strip()
             if (ext_str.startswith("{") and ext_str.endswith("}")) or (ext_str.startswith("[") and ext_str.endswith("]")):
@@ -94,6 +98,7 @@ class Spider(Spider):
                             self.host = host.rstrip("/")
                         proxy = (ext_obj.get("proxy") or ext_obj.get("http_proxy") or ext_obj.get("https_proxy") or "").strip()
                         debug = ext_obj.get("debug")
+                        cookies = (ext_obj.get("cookie") or ext_obj.get("cookies") or "").strip()
                 except Exception:
                     pass
             elif ext_str.startswith("http"):
@@ -101,15 +106,18 @@ class Spider(Spider):
 
         if debug is not None:
             self._debug = bool(debug)
+        if cookies:
+            self._cookies = cookies
 
         self.headers["Referer"] = self.host + "/"
         self.headers["Origin"] = self.host
+        self.headers["Cookie"] = self._cookies
         self.session = requests.Session()
         self.session.headers.update(self.headers)
         self._proxy = proxy
         if proxy:
             self.session.proxies.update({"http": proxy, "https": proxy})
-        self._log({"event": "init", "host": self.host, "proxy": self._proxy, "ua": self.session.headers.get("User-Agent", "")})
+        self._log({"event": "init", "host": self.host, "proxy": self._proxy, "ua": self.session.headers.get("User-Agent", ""), "cookie": self._cookies})
         self._choose_host()
         self._detect_api()
         self._warmup()
