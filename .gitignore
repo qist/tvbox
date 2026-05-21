@@ -8,3 +8,4 @@ dianshi_merged.json
 jsm_merged.json
 tvbox_cleaned.json
 tools/fan.txt
+py/__pycache__/
