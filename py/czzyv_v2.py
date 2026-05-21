@@ -19,8 +19,6 @@ class Spider(Spider):
         self._hosts = [
             "https://czzyv.com",
             "https://www.cz4k.com",
-            "https://cz01.vip",
-            "https://cz01.tv",
         ]
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
