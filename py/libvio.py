@@ -446,6 +446,9 @@ class Spider(Spider):
                         play_from_list.append(source_name)
                         ep_urls = []
                         for netdisk_url, text in netdisk_items:
+                            netdisk_url = (netdisk_url or '').strip()
+                            if netdisk_url.startswith('//'):
+                                netdisk_url = 'https:' + netdisk_url
                             ep_name = text.strip() if text.strip() else '网盘下载'
                             ep_urls.append(f"{ep_name}${netdisk_url}")
                         play_url_list.append('#'.join(ep_urls))
@@ -473,9 +476,28 @@ class Spider(Spider):
 
     def playerContent(self, flag, id, vipFlags):
         try:
+            if isinstance(id, str):
+                id = id.strip()
+                if id.startswith('//'):
+                    id = 'https:' + id
+                if id.startswith('magnet:') or id.startswith('thunder:') or id.startswith('ed2k:'):
+                    return {
+                        "parse": 1,
+                        "url": id,
+                        "header": dict(self.header),
+                        "playUrl": ""
+                    }
+                if id.startswith('http') and not id.startswith(self.host):
+                    return {
+                        "parse": 1,
+                        "url": id,
+                        "header": dict(self.header),
+                        "playUrl": ""
+                    }
+
             resp = self._safe_get(id)
             if not resp or resp.status_code != 200:
-                return {"parse": 1, "url": id}
+                return {"parse": 1, "url": id, "header": dict(self.header), "playUrl": ""}
 
             html = resp.text
             player_match = re.search(r'var player_aaaa=(\{[^}]+\})', html)
@@ -504,10 +526,10 @@ class Spider(Spider):
                 except:
                     pass
 
-            return {"parse": 1, "url": id}
+            return {"parse": 1, "url": id, "header": dict(self.header), "playUrl": ""}
         except Exception as e:
             print(f"Error in playerContent: {str(e)}")
-            return {"parse": 1, "url": id}
+            return {"parse": 1, "url": id, "header": dict(self.header), "playUrl": ""}
 
     def localProxy(self, param):
         return None
