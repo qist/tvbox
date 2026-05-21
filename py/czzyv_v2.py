@@ -216,11 +216,11 @@ class Spider(Spider):
 
     def _debug_item(self, tag):
         last = self._last or {}
-        remark = f'{tag} status={last.get("status")} len={last.get("len")} host={last.get("host")} ua={last.get("ua")}'
+        remark = f'{tag} status={last.get("status")} len={last.get("len")} host={last.get("host")}'
         err = last.get("err") or ""
         if err:
             remark = remark + f" err={err}"
-        return {"vod_id": "debug", "vod_name": "DEBUG", "vod_pic": "", "vod_remarks": remark}
+        return {"vod_id": f"debug@{tag}", "vod_name": f"DEBUG-{tag}", "vod_pic": "", "vod_remarks": remark}
 
     def _abs(self, href):
         return urljoin(self.host + "/", href or "")
@@ -327,6 +327,30 @@ class Spider(Spider):
         if not ids or not ids[0]:
             return {"list": []}
         vid = ids[0]
+        if isinstance(vid, str) and vid.startswith("debug@"):
+            last = self._last or {}
+            content = json.dumps(last, ensure_ascii=False)
+            play_url = last.get("url") or ""
+            play_url = play_url if isinstance(play_url, str) else ""
+            play_from = "DEBUG"
+            play = f'请求URL${play_url}' if play_url else ""
+            return {
+                "list": [
+                    {
+                        "vod_id": vid,
+                        "vod_name": "DEBUG",
+                        "vod_pic": "",
+                        "vod_remarks": "",
+                        "vod_year": "",
+                        "type_name": "",
+                        "vod_content": content,
+                        "vod_actor": "",
+                        "vod_director": "",
+                        "vod_play_from": play_from,
+                        "vod_play_url": play,
+                    }
+                ]
+            }
         if vid.startswith("http"):
             url = vid
         else:
