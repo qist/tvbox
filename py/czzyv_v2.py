@@ -32,6 +32,7 @@ class Spider(Spider):
         self.session = None
         self._text_cache = {}
         self._text_cache_ttl = 300
+        self._last = {"url": "", "status": 0, "len": 0, "host": "", "ua": "", "err": ""}
         self._api_base = ""
         self._use_api = False
         self._ua_fallback = "Dalvik/2.1.0 (Linux; U; Android 10)"
@@ -171,6 +172,14 @@ class Spider(Spider):
                     except Exception:
                         r = None
                 if not r or r.status_code != 200:
+                    self._last = {
+                        "url": url,
+                        "status": int(r.status_code) if r else 0,
+                        "len": 0,
+                        "host": self.host,
+                        "ua": (self.session.headers.get("User-Agent") if self.session else ""),
+                        "err": "bad_status",
+                    }
                     return ""
             r.encoding = "utf-8"
             text = r.text or ""
@@ -183,11 +192,35 @@ class Spider(Spider):
                         text = r2.text or ""
                 except Exception:
                     pass
+            self._last = {
+                "url": url,
+                "status": int(r.status_code) if r else 0,
+                "len": len(text),
+                "host": self.host,
+                "ua": (self.session.headers.get("User-Agent") if self.session else ""),
+                "err": "",
+            }
             if text:
                 self._text_cache[url] = (now + self._text_cache_ttl, text)
             return text
         except Exception:
+            self._last = {
+                "url": url,
+                "status": 0,
+                "len": 0,
+                "host": self.host,
+                "ua": (self.session.headers.get("User-Agent") if self.session else ""),
+                "err": "exception",
+            }
             return ""
+
+    def _debug_item(self, tag):
+        last = self._last or {}
+        remark = f'{tag} status={last.get("status")} len={last.get("len")} host={last.get("host")} ua={last.get("ua")}'
+        err = last.get("err") or ""
+        if err:
+            remark = remark + f" err={err}"
+        return {"vod_id": "debug", "vod_name": "DEBUG", "vod_pic": "", "vod_remarks": remark}
 
     def _abs(self, href):
         return urljoin(self.host + "/", href or "")
@@ -256,7 +289,10 @@ class Spider(Spider):
         if self._use_api:
             return {}
         html = self._fetch_text(self.host + "/")
-        return {"list": self._parse_vod_list(html)[:24]}
+        vods = self._parse_vod_list(html)[:24]
+        if not vods:
+            vods = [self._debug_item("home")]
+        return {"list": vods}
 
     def categoryContent(self, tid, pg, filter, extend):
         pg = int(pg or 1)
@@ -281,6 +317,8 @@ class Spider(Spider):
 
         html = self._fetch_text(url)
         result["list"] = self._parse_vod_list(html)
+        if not result["list"]:
+            result["list"] = [self._debug_item("cate")]
         result["pagecount"] = self._parse_pagecount(html, pg)
         result["total"] = result["pagecount"] * result["limit"]
         return result
