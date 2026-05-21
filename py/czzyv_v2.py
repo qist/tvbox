@@ -18,7 +18,6 @@ class Spider(Spider):
         self.timeout = 20
         self._hosts = [
             "https://czzyv.com",
-            "https://www.czzy.site",
             "https://www.cz4k.com",
             "https://cz01.vip",
             "https://cz01.tv",
@@ -111,9 +110,16 @@ class Spider(Spider):
                 r = self.session.get(h + "/", timeout=self.timeout, allow_redirects=True, verify=False)
                 if not r or r.status_code != 200:
                     continue
+                try:
+                    if urlparse(r.url).netloc != urlparse(h).netloc:
+                        continue
+                except Exception:
+                    pass
                 r.encoding = "utf-8"
                 text = r.text or ""
                 if "访问已被拦截" in text or "已被拦截" in text:
+                    continue
+                if ("公告" in text and "域名" in text) or ("最新发布" in text) or ("备用网址" in text):
                     continue
                 self.host = h
                 self.headers["Referer"] = self.host + "/"
@@ -158,11 +164,13 @@ class Spider(Spider):
 
         try:
             r = None
+            last_exc = ""
             for _ in range(3):
                 try:
                     r = self.session.get(url, timeout=self.timeout, allow_redirects=True, verify=False)
                     break
                 except Exception:
+                    last_exc = "exception"
                     time.sleep(1)
             if not r or r.status_code != 200:
                 if r and r.status_code in (403, 406, 412):
@@ -178,7 +186,7 @@ class Spider(Spider):
                         "len": 0,
                         "host": self.host,
                         "ua": (self.session.headers.get("User-Agent") if self.session else ""),
-                        "err": "bad_status",
+                        "err": last_exc or "bad_status",
                     }
                     return ""
             r.encoding = "utf-8"
