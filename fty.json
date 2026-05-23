@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;40b4eca61202f95bee1d864015b10e84",
+  "spider": "./jar/fan.txt;md5;e25131330e48e729864434147c857f41",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "嘟嘟盘容量，到【太太太硬了】领取","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
