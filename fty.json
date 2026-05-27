@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;e25131330e48e729864434147c857f41",
+  "spider": "./jar/fan.txt;md5;4905535609a9c0ce9cc2f652d6d90bda",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "嘟嘟盘容量，到【太太太硬了】领取","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -31,7 +31,6 @@
     {"key": "Dm84","name": "🚌巴士┃动漫","type": 3,"api": "csp_Dm84Guard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "Anime1","name": "🐾日本┃动漫","type": 3,"api": "csp_Anime1Guard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "超全","name": "⚽吃瓜┃看球","type": 3,"api": "csp_LiveGzGuard","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
-    {"key": "看球","name": "⚽手机┃看球","type": 3,"api": "csp_KanqiuGuard","timeout": 10,"searchable": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "MTV","name": "🎶明星┃MV","type": 3,"api": "csp_BiliGuard","style": {"type": "rect","ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"}},
     {"key": "有声小说","name": "🎧有声┃小说","type": 3,"api": "csp_Tingshu275Guard","style": {"type": "rect","ratio": 1},"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "Aid","name": "🚑急救┃教学","type": 3,"api": "csp_FirstAidGuard","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8}},
