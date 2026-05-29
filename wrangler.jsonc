@@ -1,0 +1,8 @@
+name = "tttn"                  # 必须和项目名称一致
+compatibility_date = "2026-05-01"   # 用当前日期或较新的日期
+
+# 如果你只有 Worker 代码，没有静态文件，就不需要 assets 配置
+main = "src/index.ts"          # 或者你的入口文件路径（js/ts）
+
+# 如果你有静态文件（HTML/CSS/JS），才需要加下面这部分：
+# assets = { directory = "./dist" }   # 改成你的静态文件目录
