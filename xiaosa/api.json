@@ -977,6 +977,13 @@
             "ext": "./XYQHiker/巴士动漫.json"
         },
         {
+            "key": "爱动漫",
+            "name": "爱动漫｜动漫",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱动漫.js"
+        },
+        {
             "key": "路漫漫",
             "name": "路漫漫｜动漫",
             "type": 3,
