@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;d5718c6781a440b2aa526a30e908bd0b",
+  "spider": "./jar/spider.jar;md5;324b8999b62ea3c216db920f696a838a",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -114,6 +114,7 @@
     {"key": "88看球","name": "88｜看球","type": 3,"api": "csp_Kanqiu","gridview": 3,"style": {"type": "list"}},
     {"key": "球通体育","name": "球通｜体育","type": 3,"api": "csp_QiutongTY","style": {"type": "list"}},
     {"key": "瓜子体育","name": "瓜子｜体育","type": 3,"api": "csp_GuaziTY","style": {"type": "list"}},
+    {"key": "咖啡体育","name": "咖啡｜体育","type": 3,"api": "csp_KafeiTY","style": {"type": "list"}},
     {"key": "919体育","name": "919｜体育","type": 3,"api": "csp_919TY","style": {"type": "list"}},
     {"key": "呦呦DJ","name": "呦呦｜DJ","type": 3,"api": "csp_Djuu","style": {"type": "list"}},
     {"key": "轮回DJ","name": "轮回｜DJ","type": 3,"api": "csp_Djlh","style": {"type": "list"}},
