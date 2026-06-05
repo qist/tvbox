@@ -1,8 +1,8 @@
 {
-  "spider": "./jar/fan.txt;md5;9c7cab7a3cf5e68b944be17a450da377",
+  "spider": "./jar/fan.txt;md5;84c5cfb802143bafa1d92334c7c8fce8",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
-    {"key": "点我切源","name": "嘟嘟盘容量，到【太太太硬了】领取","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
+    {"key": "点我切源","name": "去【太太太硬了】领取嘟嘟盘免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MDrive","name": "🗂我的云盘┃我配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
