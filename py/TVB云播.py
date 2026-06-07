@@ -20,7 +20,7 @@ class Spider(Spider):  # 直接继承Spider基类
 
     def __init__(self):
         self.name = 'TVB云播'
-        self.host = 'http://www.tvyb03.com'
+        self.host = 'http://www.viptvb06.com'
         self.timeout = 25
         self.header = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
