@@ -9,13 +9,14 @@ on:
     paths:
       - "tools/**"
 jobs:
-  build:
-    runs-on: ubuntu-latest      
+  xiaosa:
+    runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Checkout the branch
         uses: actions/checkout@v6
 
-      - name: wget the xiaosa 
+      - name: wget the xiaosa
         run: |
            pwd
            cd xiaosa/
@@ -25,29 +26,87 @@ jobs:
            rm -rf xiaosa.zip TVBoxOSC
            cd ../
         shell: bash
-      - name: tools
+      - name: xiaosa tools
         run: |
-          pwd 
+          pwd
+          cd tools/
+          pip install demjson3 --break-system-packages
+          python xiao.py ../xiaosa/api.json dianshi.json
+          python xiao.py ../xiaosa/api.json jsm.json
+          python copy_xbpq.py dianshi_with_app_sites.json
+          \cp -pdr dianshi_with_app_sites.json ../dianshi.json
+          \cp -pdr jsm_with_app_sites.json ../jsm.json
+          \cp -pdr ../xiaosa/spider.jar ../jar/spider.jar
+          rm -rf dianshi_with_app_sites.json jsm_with_app_sites.json
+          cd ../
+        shell: bash
+      - name: Upload xiaosa artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: xiaosa-output
+          path: |
+            dianshi.json
+            jsm.json
+            jar/spider.jar
+            xiaosa/
+            XBPQ/
+            XYQHiker/
+            py/
+            js/
+
+  fty:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout the branch
+        uses: actions/checkout@v6
+
+      - name: fty tools
+        run: |
+          pwd
           cd tools/
           pip install demjson3 --break-system-packages
           python fty.py
-          python xiao.py ../xiaosa/api.json dianshi.json
-          python xiao.py ../xiaosa/api.json jsm.json
           \cp -pdr tvbox_cleaned.json ../fty.json
-          \cp -pdr dianshi_with_app_sites.json ../dianshi.json
-          \cp -pdr jsm_with_app_sites.json ../jsm.json
           \cp -pdr fan.txt ../jar/fan.txt
-          \cp -pdr ../xiaosa/spider.jar ../jar/spider.jar
           git clone --depth=1 --recursive https://github.com/fantaiying7/EXT.git
           \cp -pdr EXT/* ../FTY/
-          python copy_xbpq.py dianshi_with_app_sites.json
-          rm -rf dianshi_with_app_sites.json jsm_with_app_sites.json tvbox_cleaned.json fan.txt EXT
+          rm -rf tvbox_cleaned.json fan.txt EXT
           cd ../
         shell: bash
+      - name: Upload fty artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: fty-output
+          path: |
+            fty.json
+            jar/fan.txt
+            FTY/
+
+  git-push:
+    needs: [xiaosa, fty]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Checkout the branch
+        uses: actions/checkout@v6
+
+      - name: Download xiaosa artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: xiaosa-output
+        continue-on-error: true
+
+      - name: Download fty artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: fty-output
+        continue-on-error: true
+
       - name: Git push assets to "release" branch
         run: |
           git config --local user.name "github-actions[bot]"
-          git config --local user.email "87984115+github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           if ! git diff-index --quiet HEAD --; then
             git commit -m "更新源 $(date +%Y%m%d%H%M)"
