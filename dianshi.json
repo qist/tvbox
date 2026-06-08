@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;c9ab69944d02263529eeef038fe609e1",
+  "spider": "./jar/spider.jar;md5;8599a715437d21e6660ad75f36967e70",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -40,7 +40,6 @@
     {"key": "老鹰","name": "老鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt","dataKey": "zxPtEUDGVllIUhDB","dataIv": "zxPtEUDGVllIUhDB","ua": "okhttp/3.10.0"}},
     {"key": "蓝鹰","name": "蓝鹰｜APP","type": 3,"api": "csp_AppQi","searchable": 1,"changeable": 1,"ext": {"site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt","dataKey": "ca94b06ca359d80e","dataIv": "ca94b06ca359d80e","init": "initV120","ua": "okhttp/3.10.0"}},
     {"key": "猎豹","name": "猎豹｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://444421.xyz","dataKey": "#getapp@TMD@2025","dataIv": "#getapp@TMD@2025"}},
-    {"key": "映画","name": "映画｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://cms140.yhg.one","dataKey": "bM7iC9eA3oZ1nB7z","dataIv": "bM7iC9eA3oZ1nB7z"}},
     {"key": "王子","name": "王子｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"url": "https://app.95112475.xyz","dataKey": "5a9w6x58dsq6z3a6","dataIv": "5a9w6x58dsq6z3a6"}},
     {"key": "秒看","name": "秒看｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://mk1080.top/get.txt","dataKey": "c60d88b2eep53za8","dataIv": "c60d88b2eep53za8","token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"}},
     {"key": "茉莉","name": "茉莉｜APP","type": 3,"api": "csp_AppGet","searchable": 1,"changeable": 1,"ext": {"site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt","dataKey": "88689667dce61725","dataIv": "88689667dce61725"}},
@@ -88,14 +87,12 @@
     {"key": "路漫漫","name": "路漫漫｜动漫","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/路漫漫.js"},
     {"key": "去看吧","name": "去看吧｜动漫","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/去看吧.js"},
     {"key": "荐片","name": "荐片｜磁力","api": "csp_JianPian","type": 3},
-    {"key": "修罗","name": "修罗｜磁力","api": "csp_Xlys","type": 3,"ext": "https://xl02.com.de"},
-    {"key": "七味","name": "七味｜磁力","type": 3,"api": "csp_QnMp4","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"url": "https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com,https://www.qncool.com"}},
-    {"key": "80S","name": "80S｜磁力","type": 3,"api": "csp_BLSGod","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "修罗","name": "修罗｜磁力","api": "csp_Xlys","type": 3,"ext": "https://www.xlysw.ggff.net"},
+    {"key": "七味","name": "七味｜磁力","type": 3,"api": "csp_QnMp4","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.qwshow.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qwfun.com,https://www.qnnull.com,https://www.qnnull.com"},
     {"key": "New6v","name": "New6V｜磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.xb6v.com"},
     {"key": "美剧迷","name": "美剧迷｜磁力","type": 3,"api": "csp_MeijuMi","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "迅雷吧","name": "迅雷吧｜磁力","type": 3,"api": "csp_Xunlei8","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://xunlei8.me"},
     {"key": "电影港","name": "电影港｜磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./XYQHiker/电影港.json"},
-    {"key": "电影天堂","name": "电影天堂｜磁力","type": 3,"api": "csp_DyGod","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "阿里云盘","name": "阿里｜云盘","type": 3,"api": "csp_PanAli","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "夸克网盘","name": "夸克｜网盘","type": 3,"api": "csp_PanQuark","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "UC网盘","name": "UC｜网盘","type": 3,"api": "csp_PanUC","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
