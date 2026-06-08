@@ -127,22 +127,6 @@
             }
         },
         {
-            "key": "咕噜99",
-            "name": "咕噜丨APP",
-            "type": 3,
-            "api": "csp_App99",
-            "ext": {
-                "host": "http://103.45.132.22:19987/app/bn",
-                "LoginPath": "/app/log",
-                "appkey": "d1f0c269eab74d93821fffc9befdbbba",
-                "versionName": "1.9.5",
-                "name": "咕噜咕噜",
-                "package": "com.bd.tool.gulu",
-                "buildNumber": "2001",
-                "buildSignature": "B07C8F6DBEBD3ABEE6A4A4DE2BFBBF29A0AC3F984D532A39448EC3BF5DD36311"
-            }
-        },
-        {
             "key": "剧圈99",
             "name": "剧圈丨APP",
             "type": 3,
@@ -401,19 +385,6 @@
                 "url": "https://444421.xyz",
                 "dataKey": "#getapp@TMD@2025",
                 "dataIv": "#getapp@TMD@2025"
-            }
-        },
-        {
-            "key": "映画",
-            "name": "映画｜APP",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://cms140.yhg.one",
-                "dataKey": "bM7iC9eA3oZ1nB7z",
-                "dataIv": "bM7iC9eA3oZ1nB7z"
             }
         },
         {
@@ -753,6 +724,17 @@
             "timeout": 60
         },
         {
+            "key": "好看短剧",
+            "name": "好看｜短剧",
+            "type": 3,
+            "api": "csp_HaokanDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "genre": "shortdrama"
+        },
+        {
             "key": "围观短剧",
             "name": "围观｜短剧",
             "type": 3,
@@ -788,7 +770,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzy89.com"
+            "ext": "https://cz01.vip"
         },
         {
             "key": "金牌影视",
@@ -802,6 +784,12 @@
             "name": "瓜子｜影视",
             "type": 3,
             "api": "csp_Gz360"
+        },
+        {
+            "key": "云播影视",
+            "name": "云播｜影视",
+            "type": 3,
+            "api": "csp_Tvyb"
         },
         {
             "key": "骚火影视",
@@ -961,7 +949,7 @@
             "name": "修罗｜磁力",
             "api": "csp_Xlys",
             "type": 3,
-            "ext": "https://xl02.com.de"
+            "ext": "https://www.xlysw.ggff.net"
         },
         {
             "key": "七味",
@@ -971,19 +959,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": {
-                "url": "https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com,https://www.qncool.com"
-            }
-        },
-        {
-            "key": "80S",
-            "name": "80S｜磁力",
-            "type": 3,
-            "api": "csp_BLSGod",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "ext": "https://www.qwshow.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qwfun.com,https://www.qnnull.com,https://www.qnnull.com"
         },
         {
             "key": "New6v",
@@ -1023,15 +999,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XYQHiker/电影港.json"
-        },
-        {
-            "key": "电影天堂",
-            "name": "电影天堂｜磁力",
-            "type": 3,
-            "api": "csp_DyGod",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "阿里云盘",
@@ -1473,8 +1440,10 @@
             "key": "养生堂",
             "name": "养生｜知识",
             "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/养生堂.json",
+            "api": "csp_YST",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
