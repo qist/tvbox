@@ -41,7 +41,7 @@ jobs:
           cd ../
         shell: bash
       - name: Upload xiaosa artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: xiaosa-output
           path: |
@@ -75,7 +75,7 @@ jobs:
           cd ../
         shell: bash
       - name: Upload fty artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: fty-output
           path: |
