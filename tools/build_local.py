@@ -73,21 +73,52 @@ class TVBox本地构建器:
         return url
 
     def 下载文件(self, url, 保存路径):
-        """下载文件"""
-        try:
-            # 替换代理域名为直接访问
-            url = self.替换代理域名(url)
+        """下载文件，支持大小写文件名重试"""
+        # 替换代理域名为直接访问
+        url = self.替换代理域名(url)
 
-            print(f"  下载: {url}")
-            resp = self.session.get(url, timeout=30, allow_redirects=True)
-            resp.raise_for_status()
-            with open(保存路径, 'wb') as f:
-                f.write(resp.content)
-            print(f"  ✓ 保存到: {保存路径}")
-            return True
-        except Exception as e:
-            print(f"  ✗ 下载失败: {e}")
-            return False
+        # 解析 URL 获取文件名
+        parsed = urlparse(url)
+        path = parsed.path
+        文件名 = Path(path).name
+        目录 = Path(path).parent
+        保存目录 = Path(保存路径).parent
+
+        # 尝试的文件名列表：原始 -> 大写 -> 小写
+        尝试列表 = [文件名]
+
+        # 如果文件名有扩展名，尝试大小写变体
+        if '.' in 文件名:
+            名称部分, 扩展名 = 文件名.rsplit('.', 1)
+            大写文件名 = f"{名称部分.upper()}.{扩展名}"
+            小写文件名 = f"{名称部分.lower()}.{扩展名}"
+
+            if 大写文件名 != 文件名:
+                尝试列表.append(大写文件名)
+            if 小写文件名 != 文件名 and 小写文件名 != 大写文件名:
+                尝试列表.append(小写文件名)
+
+        for 尝试文件名 in 尝试列表:
+            # 构建尝试的 URL
+            尝试路径 = str(目录 / 尝试文件名)
+            尝试url = parsed._replace(path=尝试路径).geturl()
+            # 用实际文件名构建保存路径
+            实际保存路径 = 保存目录 / 尝试文件名
+
+            try:
+                print(f"  下载: {尝试url}")
+                resp = self.session.get(尝试url, timeout=30, allow_redirects=True)
+                resp.raise_for_status()
+                with open(实际保存路径, 'wb') as f:
+                    f.write(resp.content)
+                print(f"  ✓ 保存到: {实际保存路径}")
+                # 返回实际下载的文件名（用于更新配置）
+                return True, 尝试文件名
+            except Exception as e:
+                print(f"  ✗ 下载失败: {e}")
+                continue
+
+        return False, None
 
     def 下载spider(self):
         """下载 spider 文件"""
@@ -101,12 +132,22 @@ class TVBox本地构建器:
         spider_path = self.输出目录 / 'spider.jar'
 
         print(f"\n=== 下载 Spider ===")
-        if self.下载文件(url, spider_path):
+        url = self.替换代理域名(url)
+
+        try:
+            print(f"  下载: {url}")
+            resp = self.session.get(url, timeout=30, allow_redirects=True)
+            resp.raise_for_status()
+            with open(spider_path, 'wb') as f:
+                f.write(resp.content)
+            print(f"  ✓ 保存到: {spider_path}")
             md5 = self.计算MD5(spider_path)
             print(f"  MD5: {md5}")
             self.数据['spider'] = f"./spider.jar;md5;{md5}"
             return True
-        return False
+        except Exception as e:
+            print(f"  ✗ 下载失败: {e}")
+            return False
 
     def 是URL(self, 路径):
         """判断是否为URL"""
@@ -139,13 +180,15 @@ class TVBox本地构建器:
                 # 根据扩展名决定保存目录
                 if 文件名.endswith('.json'):
                     保存路径 = self.输出目录 / 'json' / 文件名
-                    if self.下载文件(ext, 保存路径):
-                        site['ext'] = f"./json/{文件名}"
+                    成功, 实际文件名 = self.下载文件(ext, 保存路径)
+                    if 成功:
+                        site['ext'] = f"./json/{实际文件名}"
                         下载计数 += 1
                 elif 文件名.endswith('.js'):
                     保存路径 = self.输出目录 / 'js' / 文件名
-                    if self.下载文件(ext, 保存路径):
-                        site['ext'] = f"./js/{文件名}"
+                    成功, 实际文件名 = self.下载文件(ext, 保存路径)
+                    if 成功:
+                        site['ext'] = f"./js/{实际文件名}"
                         下载计数 += 1
 
             # 处理字典类型的 ext
@@ -155,8 +198,9 @@ class TVBox本地构建器:
                         文件名 = self.提取文件名(value)
                         if 文件名.endswith('.json'):
                             保存路径 = self.输出目录 / 'json' / 文件名
-                            if self.下载文件(value, 保存路径):
-                                ext[key] = f"./json/{文件名}"
+                            成功, 实际文件名 = self.下载文件(value, 保存路径)
+                            if 成功:
+                                ext[key] = f"./json/{实际文件名}"
                                 下载计数 += 1
 
         print(f"  共下载 {下载计数} 个 ext 文件")
@@ -175,8 +219,9 @@ class TVBox本地构建器:
                 文件名 = self.提取文件名(api)
                 if 文件名.endswith('.py'):
                     保存路径 = self.输出目录 / 'py' / 文件名
-                    if self.下载文件(api, 保存路径):
-                        site['api'] = f"./py/{文件名}"
+                    成功, 实际文件名 = self.下载文件(api, 保存路径)
+                    if 成功:
+                        site['api'] = f"./py/{实际文件名}"
                         下载计数 += 1
                 elif 文件名.endswith('.js'):
                     # JS 文件不下载，保持原链接
@@ -195,8 +240,9 @@ class TVBox本地构建器:
             if isinstance(url, str) and self.是URL(url):
                 文件名 = self.提取文件名(url)
                 保存路径 = self.输出目录 / 'json' / 文件名
-                if self.下载文件(url, 保存路径):
-                    live['url'] = f"./json/{文件名}"
+                成功, 实际文件名 = self.下载文件(url, 保存路径)
+                if 成功:
+                    live['url'] = f"./json/{实际文件名}"
                     下载计数 += 1
 
         print(f"  共下载 {下载计数} 个 lives 文件")
