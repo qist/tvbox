@@ -44,7 +44,7 @@ jobs:
           cd ../
         shell: bash
       - name: Upload xiaosa artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: xiaosa-output
           path: |
@@ -79,7 +79,7 @@ jobs:
           cd ../
         shell: bash
       - name: Upload fty artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: fty-output
           path: |
@@ -96,13 +96,13 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Download xiaosa artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: xiaosa-output
         continue-on-error: true
 
       - name: Download fty artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: fty-output
         continue-on-error: true
