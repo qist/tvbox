@@ -75,7 +75,7 @@
     {"key": "方舟动漫","name": "方舟丨动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "https://www.cyfz.top","dataKey": "e72cdfd629e8895d","dataIv": "e72cdfd629e8895d"}},
     {"key": "曼波动漫","name": "曼波｜动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "https://app.omofun1.top","dataKey": "66dc309cbeeca454","dataIv": "66dc309cbeeca454"}},
     {"key": "咕咕动漫","name": "咕咕｜动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "https://www.gugu3.com","dataKey": "nKfZ8KX6JTNWRzTD","dataIv": "nKfZ8KX6JTNWRzTD"}},
-    {"key": "巴士动漫","name": "巴士｜动漫","type": 3,"api": "csp_XYQHiker","ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/json/bsdm.json"},
+    {"key": "巴士动漫","name": "巴士｜动漫","type": 3,"api": "csp_XYQHiker","ext": "./json/BSDM.json"},
     {"key": "路漫漫","name": "路漫漫｜动漫","type": 3,"api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js","ext": "./js/LMM.js"},
     {"key": "去看吧","name": "去看吧｜动漫","type": 3,"api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js","ext": "./js/QKB.js"},
     {"key": "荐片","name": "荐片｜磁力","api": "csp_JianPian","type": 3},
