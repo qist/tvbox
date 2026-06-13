@@ -1,0 +1,32 @@
+{
+    "class": [
+        {
+            "type_name": "单口相声",
+            "type_id": "单口相声"
+        },
+        {
+            "type_name": "群口相声",
+            "type_id": "群口相声"
+        },
+        {
+            "type_name": "德云社",
+            "type_id": "德云社"
+        },
+        {
+            "type_name": "青曲社",
+            "type_id": "青曲社"
+        },
+        {
+            "type_name": "郭德纲",
+            "type_id": "郭德纲"
+        },
+        {
+            "type_name": "岳云鹏",
+            "type_id": "岳云鹏"
+        },
+        {
+            "type_name": "曹云金",
+            "type_id": "曹云金"
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "class": [
+        {
+            "type_name": "潮剧",
+            "type_id": "潮剧"
+        },
+        {
+            "type_name": "粤剧",
+            "type_id": "粤剧"
+        },
+        {
+            "type_name": "京剧",
+            "type_id": "京剧"
+        },
+        {
+            "type_name": "越剧",
+            "type_id": "越剧"
+        },
+        {
+            "type_name": "芗剧",
+            "type_id": "芗剧"
+        },
+        {
+            "type_name": "蒲剧",
+            "type_id": "蒲剧"
+        },
+        {
+            "type_name": "闽剧",
+            "type_id": "闽剧"
+        },
+        {
+            "type_name": "喊麦",
+            "type_id": "喊麦"
+        },
+        {
+            "type_name": "陕北说书",
+            "type_id": "陕北说书"
+        },
+        {
+            "type_name": "庐剧",
+            "type_id": "庐剧"
+        },
+        {
+            "type_name": "吕剧",
+            "type_id": "吕剧"
+        },
+        {
+            "type_name": "眉户",
+            "type_id": "眉户"
+        },
+        {
+            "type_name": "歌仔戏",
+            "type_id": "歌仔戏"
+        },
+        {
+            "type_name": "黄梅戏",
+            "type_id": "黄梅戏"
+        },
+        {
+            "type_name": "黄梅戏",
+            "type_id": "黄梅戏"
+        },
+        {
+            "type_name": "评剧",
+            "type_id": "评剧"
+        },
+        {
+            "type_name": "豫剧",
+            "type_id": "豫剧"
+        },
+        {
+            "type_name": "沪剧",
+            "type_id": "沪剧"
+        },
+        {
+            "type_name": "昆曲",
+            "type_id": "昆曲"
+        },
+        {
+            "type_name": "花鼓戏",
+            "type_id": "花鼓戏"
+        },
+        {
+            "type_name": "超清潮剧",
+            "type_id": "超清潮剧"
+        },
+        {
+            "type_name": "百花潮剧院",
+            "type_id": "百花潮剧院"
+        },
+        {
+            "type_name": "香港潮剧",
+            "type_id": "香港潮剧"
+        },
+        {
+            "type_name": "潮剧院",
+            "type_id": "潮剧院"
+        },
+        {
+            "type_name": "潮剧团",
+            "type_id": "潮剧团"
+        },
+        {
+            "type_name": "潮剧全剧",
+            "type_id": "潮剧全剧"
+        },
+        {
+            "type_name": "潮剧选段",
+            "type_id": "潮剧选段"
+        },
+        {
+            "type_name": "名家潮剧",
+            "type_id": "名家潮剧"
+        },
+        {
+            "type_name": "潮汕小品",
+            "type_id": "潮汕小品"
+        },
+        {
+            "type_name": "潮汕讲古",
+            "type_id": "潮汕讲古"
+        },
+        {
+            "type_name": "河北梆子",
+            "type_id": "河北梆子"
+        },
+        {
+            "type_name": "梆子腔",
+            "type_id": "梆子腔"
+        },
+        {
+            "type_name": "晋剧",
+            "type_id": "晋剧"
+        },
+        {
+            "type_name": "龙江剧",
+            "type_id": "龙江剧"
+        },
+        {
+            "type_name": "越调",
+            "type_id": "越调"
+        },
+        {
+            "type_name": "河南曲剧",
+            "type_id": "河南曲剧"
+        },
+        {
+            "type_name": "山东梆子",
+            "type_id": "山东梆子"
+        },
+        {
+            "type_name": "淮剧",
+            "type_id": "淮剧"
+        },
+        {
+            "type_name": "滑稽戏",
+            "type_id": "滑稽戏"
+        },
+        {
+            "type_name": "婺剧",
+            "type_id": "婺剧"
+        },
+        {
+            "type_name": "绍剧",
+            "type_id": "绍剧"
+        },
+        {
+            "type_name": "徽剧",
+            "type_id": "徽剧"
+        },
+        {
+            "type_name": "雁剧",
+            "type_id": "雁剧"
+        },
+        {
+            "type_name": "上党梆子",
+            "type_id": "上党梆子"
+        },
+        {
+            "type_name": "秦腔",
+            "type_id": "秦腔"
+        },
+        {
+            "type_name": "武安平调",
+            "type_id": "武安平调"
+        },
+        {
+            "type_name": "二人台",
+            "type_id": "二人台"
+        },
+        {
+            "type_name": "吉剧",
+            "type_id": "吉剧"
+        },
+        {
+            "type_name": "高腔",
+            "type_id": "高腔"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "class": [
+        {
+            "type_name": "春晚小品",
+            "type_id": "春晚小品"
+        },
+        {
+            "type_name": "赵本山",
+            "type_id": "赵本山"
+        },
+        {
+            "type_name": "陈佩斯",
+            "type_id": "陈佩斯"
+        },
+        {
+            "type_name": "冯巩",
+            "type_id": "冯巩"
+        },
+        {
+            "type_name": "宋小宝",
+            "type_id": "宋小宝"
+        },
+        {
+            "type_name": "赵丽蓉",
+            "type_id": "赵丽蓉"
+        },
+        {
+            "type_name": "郭达",
+            "type_id": "郭达"
+        },
+        {
+            "type_name": "潘长江",
+            "type_id": "潘长江"
+        },
+        {
+            "type_name": "郭冬临",
+            "type_id": "郭冬临"
+        },
+        {
+            "type_name": "严顺开",
+            "type_id": "严顺开"
+        },
+        {
+            "type_name": "文松",
+            "type_id": "文松"
+        },
+        {
+            "type_name": "开心麻花",
+            "type_id": "开心麻花"
+        }
+    ]
+}
