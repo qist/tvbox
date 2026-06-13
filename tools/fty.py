@@ -3,6 +3,9 @@ import re
 import demjson3 as demjson
 import json
 import hashlib
+import sys
+import os
+from pathlib import Path
 
 # 创建全局 session 并设置浏览器 UA
 session = requests.Session()
@@ -18,6 +21,53 @@ def fetch_raw_json():
     resp = session.get(url, timeout=30, allow_redirects=True)
     resp.encoding = 'utf-8'
     return resp.text
+
+# 读取本地 JSON 文件
+def read_local_json(file_path):
+    """读取本地JSON文件，支持带注释的JSON和图片中的base64数据"""
+    with open(file_path, 'rb') as f:
+        raw_content = f.read()
+
+    # 检查是否为图片文件
+    image_headers = [
+        b'\xff\xd8\xff\xe0',  # JPEG
+        b'\xff\xd8\xff\xe1',  # JPEG
+        b'\x89PNG',           # PNG
+        b'GIF87a',            # GIF
+        b'GIF89a',            # GIF
+        b'BM',                # BMP
+    ]
+    is_image = False
+    for header in image_headers:
+        if raw_content.startswith(header):
+            is_image = True
+            break
+
+    # 如果是图片，尝试提取嵌入的base64数据
+    if is_image:
+        import base64
+        print(f"  检测到图片文件，尝试提取嵌入的base64数据...")
+        try:
+            text_content = raw_content.decode('latin-1')
+            # 查找长base64字符串（至少50个字符）
+            base64_pattern = r'[A-Za-z0-9+/=]{50,}'
+            match = re.search(base64_pattern, text_content)
+            if match:
+                base64_str = match.group(0)
+                print(f"  找到base64数据，长度: {len(base64_str)}")
+                decoded = base64.b64decode(base64_str)
+                content = decoded.decode('utf-8')
+                # 移除JavaScript风格的注释
+                content = re.sub(r'^//.*$', '', content, flags=re.MULTILINE).strip()
+                return content
+        except Exception as e:
+            print(f"  提取图片数据失败: {e}")
+
+    # 普通文本文件处理
+    content = raw_content.decode('utf-8')
+    # 移除JavaScript风格的注释
+    content = re.sub(r'^//.*$', '', content, flags=re.MULTILINE).strip()
+    return content
 
 # 下载 spider 文件
 def extract_and_save_spider(json_text):
@@ -91,7 +141,26 @@ def save_json(data, filename="tvbox_cleaned.json"):
 # 主流程
 if __name__ == "__main__":
     try:
-        raw_text = fetch_raw_json()
+        # 判断输入源
+        if len(sys.argv) > 1:
+            input_path = sys.argv[1]
+            if input_path in ['-h', '--help']:
+                print("用法:")
+                print("  python fty.py [输入文件]")
+                print("  python fty.py              # 从URL获取数据")
+                print("  python fty.py input.json   # 从本地JSON文件读取")
+                print("  python fty.py fff.json     # 从本地图片文件读取（自动提取base64数据）")
+                sys.exit(0)
+            if os.path.isfile(input_path):
+                print(f"📂 读取本地文件: {input_path}")
+                raw_text = read_local_json(input_path)
+            else:
+                print(f"❌ 文件不存在: {input_path}")
+                sys.exit(1)
+        else:
+            print("🌐 从URL获取数据...")
+            raw_text = fetch_raw_json()
+
         extract_and_save_spider(raw_text)
         data = clean_data(raw_text)
         # 更新 spider 为本地 fan.txt + 最新 MD5

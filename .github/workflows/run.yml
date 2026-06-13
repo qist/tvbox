@@ -30,14 +30,17 @@ jobs:
         run: |
           pwd
           cd tools/
-          pip install demjson3 --break-system-packages
+          pip install demjson3 pycryptodome requests --break-system-packages
+          python tvbox.py https://9877.kstore.space/ONE/one.json xs.json dec
+          python build_local.py xs.json output
+          \cp -pdr output/* ../xiaosa/
           python xiao.py ../xiaosa/api.json dianshi.json
           python xiao.py ../xiaosa/api.json jsm.json
           python copy_xbpq.py dianshi_with_app_sites.json
           \cp -pdr dianshi_with_app_sites.json ../dianshi.json
           \cp -pdr jsm_with_app_sites.json ../jsm.json
           \cp -pdr ../xiaosa/spider.jar ../jar/spider.jar
-          rm -rf dianshi_with_app_sites.json jsm_with_app_sites.json
+          rm -rf dianshi_with_app_sites.json jsm_with_app_sites.json output xs.json
           cd ../
         shell: bash
       - name: Upload xiaosa artifacts
@@ -65,13 +68,14 @@ jobs:
         run: |
           pwd
           cd tools/
-          pip install demjson3 --break-system-packages
-          python fty.py
+          pip install demjson3 pycryptodome requests --break-system-packages
+          python tvbox.py http://www.饭太硬.art/tv ty.json dec
+          python fty.py ty.json
           \cp -pdr tvbox_cleaned.json ../fty.json
           \cp -pdr fan.txt ../jar/fan.txt
           git clone --depth=1 --recursive https://github.com/fantaiying7/EXT.git
           \cp -pdr EXT/* ../FTY/
-          rm -rf tvbox_cleaned.json fan.txt EXT
+          rm -rf tvbox_cleaned.json fan.txt EXT ty.json
           cd ../
         shell: bash
       - name: Upload fty artifacts
