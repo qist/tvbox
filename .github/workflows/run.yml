@@ -70,9 +70,9 @@ jobs:
           pwd
           cd tools/
           pip install demjson3 pycryptodome requests --break-system-packages
-          # python tvbox.py http://www.饭太硬.art/tv ty.json dec
-          # python fty.py ty.json
-          python fty.py
+          python tvbox.py https://www.xn--sss604efuw.net/tv ty.json dec
+          python fty.py ty.json
+          # python fty.py
           \cp -pdr tvbox_cleaned.json ../fty.json
           \cp -pdr fan.txt ../jar/fan.txt
           git clone --depth=1 --recursive https://github.com/fantaiying7/EXT.git
