@@ -14,7 +14,7 @@ jobs:
     continue-on-error: true
     steps:
       - name: Checkout the branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       # - name: wget the xiaosa
       #   run: |
@@ -63,7 +63,7 @@ jobs:
     continue-on-error: true
     steps:
       - name: Checkout the branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: fty tools
         run: |
@@ -95,7 +95,7 @@ jobs:
     if: always()
     steps:
       - name: Checkout the branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download xiaosa artifacts
         uses: actions/download-artifact@v8
