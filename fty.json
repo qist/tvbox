@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;357636f9e5add95f79fc7de2e84a2517",
+  "spider": "./jar/fan.txt;md5;592dc49c783d89dcde066bf1b72ad0d3",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "去【太太太硬了】领取嘟嘟盘免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
