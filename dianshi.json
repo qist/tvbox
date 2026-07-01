@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;5a5c64f87f0b0066919fa9b499912e4e",
+  "spider": "./jar/spider.jar;md5;feb3dd35be7c31aa2a39bea423961279",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -97,9 +97,8 @@
     {"key": "百度网盘","name": "百度 • 网盘","type": 3,"api": "csp_PanBaidu","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "盘搜","name": "盘搜 • 搜索","type": 3,"api": "csp_PanSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "古哥","name": "古哥 • 搜索","type": 3,"api": "csp_GugeSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
-    {"key": "兄弟","name": "兄弟 • 搜索","type": 3,"api": "csp_XiongdiPan","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "百酷","name": "百酷 • 搜索","type": 3,"api": "csp_Baiku","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
-    {"key": "米搜","name": "米搜 • 搜索","type": 3,"api": "csp_MiSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
+    {"key": "米搜","name": "米搜 • 搜索","type": 3,"api": "csp_MiSou","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": {"site": ["https://misoso.shop","http://www.misoso.shop"]},"timeout": 60},
     {"key": "鬼鬼","name": "鬼鬼 • 搜索","type": 3,"api": "csp_GuiGui","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "混合","name": "混合 • 搜索","type": 3,"api": "csp_HunHePan","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "天翼","name": "天翼 • 搜索","type": 3,"api": "csp_TianYiSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
