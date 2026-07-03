@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;06f0745454bc729dd74a12f72163ff71",
+  "spider": "./spider.jar;md5;4d5396e138c2da61c1a846575586b972",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "sites": [
     {"key": "豆瓣","name": "豆瓣 • 首页","type": 3,"api": "csp_Douban","searchable": 0},
