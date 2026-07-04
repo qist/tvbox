@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;4d5396e138c2da61c1a846575586b972",
+  "spider": "./jar/spider.jar;md5;e049ac239245dd11ee439f109cb257b6",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -218,7 +218,7 @@
     {"name": "U酷资源广告","hosts": ["ukzy"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:.*?,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
     {"name": "ikun资源","hosts": ["bfikuncdn"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:.*?,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
     {"name": "卧龙影视资源","hosts": ["cdn.wl*"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:.*?,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-    {"name": "暴风广告","hosts": ["bfzy","bfbfvip","bfengbf"],"regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]},
+    {"name": "暴风广告","hosts": ["bfzy","bfbfvip","bfengbf","baofeng"],"regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]},
     {"name": "火山嗅探","hosts": ["huoshan.com"],"regex": ["item_id="]},
     {"name": "抖音嗅探","hosts": ["douyin.com"],"regex": ["is_play_url="]},
     {"name": "農民嗅探","hosts": ["toutiaovod.com"],"regex": ["video/tos/cn"]},
