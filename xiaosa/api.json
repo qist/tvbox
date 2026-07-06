@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;f9ce4d4bd91c0a2832213479c829da1f",
+  "spider": "./spider.jar;md5;51cef5110bdb8e3a6e12e28aeddc82c5",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "sites": [
     {"key": "豆瓣","name": "豆瓣 • 首页","type": 3,"api": "csp_Douban","searchable": 0},
@@ -39,7 +39,6 @@
     {"key": "二小","name": "二小 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://2xiaopan.fun ","https://www.erxiaozhan.top","https://www.2xiaozhan.top","https://wexwp.cc"]},"timeout": 60},
     {"key": "虎斑","name": "虎斑 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://38.76.197.172:16969"]},"timeout": 60},
     {"key": "夸父","name": "夸父 • 4K","type": 3,"api": "csp_PanWebShareKF","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://www.kfzys.net"],"cookie": "bbs_sid=p5mugcm9r147o1d3qpi0su1ucm; bbs_token=gDMAOehNUQetTJv9Lnet0J_2FGJmgdvnx90iTZqzU_2FnO0_3D"},"timeout": 60},
-    {"key": "盘它","name": "盘它 • 4K","type": 3,"api": "csp_PanWebSharePT","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "123","name": "123 • 4K","type": 3,"api": "csp_PanWebShare123","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://123panfx.com","https://pan1.me"]},"timeout": 60},
     {"key": "指南","name": "指南 • 4K","type": 3,"api": "csp_4KZhinan","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "人人","name": "人人 • 4K","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
