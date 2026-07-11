@@ -122,7 +122,7 @@
 {"name":"U酷资源广告","hosts":["ukzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:.*?,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"ikun资源","hosts":["bfikuncdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:.*?,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"卧龙影视资源","hosts":["cdn.wl*"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:.*?,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-{"name":"暴风广告","hosts":["bfzy","bfbfvip","bfengbf","baofeng"],"regex":["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]},
+{"name":"暴风广告","hosts":["bfzy","bfbfvip","bfengbf","baofeng","fengbao"],"regex":["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
 {"name":"農民嗅探","hosts":["toutiaovod.com"],"regex":["video/tos/cn"]},
