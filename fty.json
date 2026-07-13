@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;22b7154a36907cabc183fcc53044d025",
+  "spider": "./jar/fan.txt;md5;dd8f442e52e1a2136d435707d3d743c9",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "修复简易安装,【太太太硬了】领取嘟嘟盘免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
