@@ -1,5 +1,5 @@
 {
-  "spider": "https://oss-v1.wangmeipo.cn/236/07131523.png;md5;dc774ec05ddb2be146f3fee027d5b51a",
+  "spider": "./spider.jar;md5;dc774ec05ddb2be146f3fee027d5b51a",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
