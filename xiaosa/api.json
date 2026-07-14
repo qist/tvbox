@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;89b3fa7699d53ed25653183eafd8a89f",
+  "spider": "./spider.jar;md5;dc774ec05ddb2be146f3fee027d5b51a",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
