@@ -1,8 +1,8 @@
 {
-  "spider": "./jar/fan.txt;md5;dd8f442e52e1a2136d435707d3d743c9",
+  "spider": "./jar/fan.txt;md5;7e3ad194f8f1898506604a0972223c3b",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
-    {"key": "点我切源","name": "修复简易安装,【太太太硬了】领取嘟嘟盘免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
+    {"key": "点我切源","name": "修复瓜子,【太太太硬了】领取嘟嘟盘免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MDrive","name": "🗂我的云盘┃我配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
