@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;caf13acdcd0c44bd9477034c4533315a",
+  "spider": "./jar/fan.txt;md5;7e3ad194f8f1898506604a0972223c3b",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
     {"key": "点我切源","name": "修复瓜子,【太太太硬了】领取嘟嘟盘免费容量","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
