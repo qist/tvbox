@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;74921f63f5f1996dfe473f3a563a2ce3",
+  "spider": "./jar/spider.jar;md5;373af0a66bdecff3a7baedf380496f2b",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -55,8 +55,8 @@
     {"key": "双星","name": "双星 • 4K","type": 3,"api": "csp_ShuangXing","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "笒鬼短剧","name": "笒鬼 • 短剧","type": 3,"api": "csp_CenguiDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "好看短剧","name": "好看 • 短剧","type": 3,"api": "csp_HaokanDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
-    {"key": "围观短剧","name": "围观 • 短剧","type": 3,"api": "csp_WeiguanDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "星芽短剧","name": "星芽 • 短剧","type": 3,"api": "./py/XYDJ.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
+    {"key": "果果短剧","name": "果果 • 短剧","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8","分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"}},
     {"key": "瓜子影视","name": "瓜子 • 影视","type": 3,"api": "csp_Gz360"},
     {"key": "山楂影视","name": "山楂 • 影视","type": 3,"api": "csp_PianKu8"},
     {"key": "飞娱影视","name": "飞娱 • 影视","type": 3,"api": "csp_Feiyu"},
