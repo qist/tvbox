@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;4d211c65be41bb6c20986c64db53c72f",
+  "spider": "./spider.jar;md5;ecc3f366f3269da24efcf938b460c600",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
@@ -11,7 +11,6 @@
     {"key": "三秋影视","name": "三秋 • APP","type": 3,"api": "csp_App3Q"},
     {"key": "马猴影视","name": "马猴 • APP","type": 3,"api": "csp_AppMH"},
     {"key": "韩圈","name": "韩圈 • APP","type": 3,"api": "csp_Hxq","ext": "http://www.小不点.com/api/2026/fishhxq.php"},
-    {"key": "无极99","name": "无极 • APP","type": 3,"api": "csp_App99","ext": {"host": "http://111.170.140.70:19987/app/bn","LoginPath": "/app/log","version": "","appkey": "c403317c2a2946659b0bcbabdd5de43a","versionName": "1.0.1","name": "无极影视","package": "com.wujiys.app","buildNumber": "2001","buildSignature": "A0859BDC35AD3E81D4051E2A4678C77C62773EDB3423DDF1DEFF94CB331D398E"}},
     {"key": "橙子99","name": "橙子 • APP","type": 3,"api": "csp_App99","ext": {"host": "http://113.31.180.218:19987/app/bn","LoginPath": "/app/log","appkey": "6e8f3764a0644f3686ab5cdd57bcdf48","versionName": "4.3.1","name": "小橙子","package": "com.xchengzix.app","buildNumber": "2001","buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"}},
     {"key": "剧圈99","name": "剧圈 • APP","type": 3,"api": "csp_App99","ext": {"host": "http://124.221.3.182:19987/app/bn","appkey": "d1f0c269eab74d93821fffc9befdbbba","versionName": "1.2.0","name": "剧圈圈","package": "com.qingtangxiaozhuan.xyz","buildNumber": "2002","buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
     {"key": "双星99","name": "双星 • APP","type": 3,"api": "csp_App99","ext": {"host": "http://175.178.65.250:19987/app/bn","LoginPath": "/app/log","appkey": "f66f65db127e48449f073c2c6eb0f993","versionName": "6.4.5","name": "双子星动漫","package": "com.yingfu.mobile.android.pgsp","buildNumber": "2003","buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
