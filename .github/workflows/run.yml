@@ -31,7 +31,7 @@ jobs:
           pwd
           cd tools/
           pip install demjson3 pycryptodome requests --break-system-packages
-          python tvbox.py https://9877.kstore.space/ONE/one.json xs.json dec
+          python tvbox.py https://9877.kstore.space/one.json xs.json dec
           python build_local.py xs.json output
           \cp -pdr output/* ../xiaosa/
           python xiao.py ../xiaosa/api.json dianshi.json
