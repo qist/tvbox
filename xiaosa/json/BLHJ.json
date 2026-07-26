@@ -1,6 +1,18 @@
 {
     "class": [
         {
+            "type_name": "我的关注",
+            "type_id": "我的关注"
+        },
+        {
+            "type_name": "最新动态",
+            "type_id": "最新动态"
+        },
+        {
+            "type_name": "历史记录",
+            "type_id": "历史记录"
+        },
+        {
             "type_name": "沙雕动漫",
             "type_id": "一口气沙雕动漫"
         },
