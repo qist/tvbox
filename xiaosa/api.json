@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;e2c95d03234769407f05f3de984d6d7f",
+  "spider": "./spider.jar;md5;16e47f71bf07c147eaba17f9c2808343",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -38,7 +38,7 @@
     {"key": "欧哥","name": "欧哥 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://woog.nxog.eu.org","https://woog.nxog.fun","https://woog.nxog.eu.org","https://woog.430520.xyz"]},"timeout": 60},
     {"key": "二小","name": "二小 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://www.2xiaopan.top","https://2xiaopan.top","https://www.erxiaozhan.top","https://www.2xiaozhan.top","https://wexwp.cc"]},"timeout": 60},
     {"key": "虎斑","name": "虎斑 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://38.76.197.172:16969"]},"timeout": 60},
-    {"key": "短木","name": "短木 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://duanmu.laozhangone.top"]},"timeout": 60},
+    {"key": "鸭社","name": "鸭社 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://www.guangyashe.top"]},"timeout": 60},
     {"key": "种子","name": "种子 • 4K","type": 3,"api": "csp_SeedHub","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://sidhub.cc","https://seeduck.cc","https://hubdog.cc","http://104.243.25.80"]},"timeout": 60},
     {"key": "夸父","name": "夸父 • 4K","type": 3,"api": "csp_PanWebShareKF","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://www.kfzy.net"],"cookie": "bbs_sid=qovfaruectri75sqq38blhqt7o; bbs_token=Bvf498_2FJNbnAe_2Fse39EweDe_2BlQnFYo4s_2FpFtyHueqcGKOssB"},"timeout": 60},
     {"key": "123","name": "123 • 4K","type": 3,"api": "csp_PanWebShare123","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://123panfx.com","https://pan1.me"]},"timeout": 60},
