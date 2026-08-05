@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;16e47f71bf07c147eaba17f9c2808343",
+  "spider": "./jar/spider.jar;md5;60776d7c3d35a4fc090ea1e14a4f6d2a",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -16,6 +16,7 @@
     {"key": "italkbbtv","name": "ITalkBB | 外","type": 3,"api": "./py/ITalkBBTV.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
     {"key": "qiletv","name": "奇乐影视","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": "./json/奇乐.json","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
+    {"key": "一起影视","name": "一起 • APP","type": 3,"api": "csp_AppYQK","searchable": 1,"quickSearch": 1,"filterable": 0},
     {"key": "三秋影视","name": "三秋 • APP","type": 3,"api": "csp_App3Q","ext": {"host": "https://asd123sx23xdacsx.top","finger": "SF-C3B2B41F6EFFFF9869176CF68F6790E8F07506FC88632C94B4F5F0430D5498CA","updateId": "38b0ddfd-9aa3-8e42-5c92-a7fddd3d36e7","deviceBrand": "vivo","deviceModel": "V2309A","pkg": "com.sunshine.tv","sk": "SK-thanks","ver": "6"}},
     {"key": "马猴影视","name": "马猴 • APP","type": 3,"api": "csp_App3Q","ext": {"host": "https://45.150.167.18:8000","finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F","updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee","deviceBrand": "vivo","deviceModel": "V2309A","pkg": "com.damahou.tv","sk": "SK-woniu-thanks","ver": "1"}},
     {"key": "云朵影视","name": "云朵 • APP","type": 3,"api": "csp_App3Q","ext": {"host": "https://ds3xy2yunsa.xyz","finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776","updateId": "175070c3-075c-468b-950a-bf575769f4f1","deviceBrand": "vivo","deviceModel": "V2309A","pkg": "com.tvcloud.io","sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO","ver": "1"}},
@@ -69,8 +70,8 @@
     {"key": "修罗影视","name": "修罗 • 影视","api": "csp_Xlys","type": 3,"ext": "https://www.xlysw.ggff.net"},
     {"key": "骚火影视","name": "骚火 • 影视","type": 3,"api": "csp_SaoHuo","ext": "https://shdy5.us"},
     {"key": "农民影视","name": "农民 • 影视","type": 3,"api": "csp_Wwys","ext": "https://vip.wwgz.cn:5200"},
+    {"key": "枫叶影视","name": "枫叶 • 影视","type": 3,"api": "csp_FengYe","ext": "https://www.vip1949.com/"},
     {"key": "爱看机器人","name": "爱看 • 影视","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
-    {"key": "枫叶影视","name": "枫叶 • 影视","type": 3,"api": "csp_XBPQ","ext": {"请求头": "手机","简介": "text cor3\">[*],&&</div>","图片": "data-src=\"&&\"[替换:amp;>>空]","主页url": "https://www.cd-zj.com/label/qq.html","副标题": "ft2\">&&</i>","线路数组": "<i class=\"fa ds-dianying\">&&</span>","播放数组": "anthology-list-play size\">&&</ul>","分类url": "https://www.cd-zj.com/cupfox-list/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"}},
     {"key": "小镇影视","name": "小镇 • 影视","type": 3,"api": "csp_XBPQ","ext": {"线路数组": "<a data-toggle=\"tab\"&&/a>","线路标题": ">&&<","分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html","分类": "电影$1#电视剧$2#动漫$3#综艺$4"}},
     {"key": "面包影视","name": "面包 • 影视","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html","分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47","简介": "简介：&&"}},
     {"key": "永乐影视","name": "永乐 • 影视","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "电影$1#电视剧$2#综艺$3#动漫$4","类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43","分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"}},
@@ -98,7 +99,7 @@
     {"key": "夸克网盘","name": "夸克 • 网盘","type": 3,"api": "csp_PanQuark","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "UC网盘","name": "UC • 网盘","type": 3,"api": "csp_PanUC","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "百度网盘","name": "百度 • 网盘","type": 3,"api": "csp_PanBaidu","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
-    {"key": "聚合","name": "聚合• 搜索","type": 3,"api": "csp_JuheSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
+    {"key": "聚合","name": "聚合 • 搜索","type": 3,"api": "csp_JuheSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "盘搜","name": "盘搜 • 搜索","type": 3,"api": "csp_PanSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "米搜","name": "米搜 • 搜索","type": 3,"api": "csp_MiSou","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": {"site": ["https://misoso.shop","http://www.misoso.shop"]},"timeout": 60},
     {"key": "百酷","name": "百酷 • 搜索","type": 3,"api": "csp_Baiku","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
@@ -115,6 +116,8 @@
     {"key": "蜻蜓FM","name": "蜻蜓 • FM","type": 3,"api": "csp_QingtingFM","style": {"type": "list"}},
     {"key": "世界听书","name": "世界 • 听书","type": 3,"api": "csp_TingShijie","style": {"type": "list"}},
     {"key": "戏曲多多","name": "戏曲 • 多多","type": 3,"api": "csp_AppLY","style": {"type": "list"}},
+    {"key": "兔小贝","name": "兔小贝 • 儿童","type": 3,"api": "csp_TuXiaoBei","style": {"type": "rect","ratio": 1.597}},
+    {"key": "贝乐虎","name": "贝乐虎 • 儿童","type": 3,"api": "csp_BeiLeHu","style": {"type": "rect","ratio": 1.597}},
     {"key": "爱听音乐","name": "爱听 • 音乐","type": 3,"api": "./py/爱听音乐.py"},
     {"key": "网络直播","name": "网络 • 直播","type": 3,"api": "./py/WLZB.py"},
     {"key": "哔哩直播","name": "哔哩 • 直播","type": 3,"api": "./py/BLZB.py"},
