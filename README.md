@@ -126,4 +126,4 @@ V1.1.2版本以下
 
 ### Star
 
-[![Star History Chart](https://api.star-history.com/svg?repos=qist/tvbox&type=Date)](https://www.star-history.com/#qist/tvbox&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=qist/tvbox&type=Date)](https://star-history.dera.page/#qist/tvbox&Date)
