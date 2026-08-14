@@ -4,6 +4,7 @@
     {"name":"live","boot": false,"type":0,"url":"./tv.txt","playerType":2,"ua":"okhttp/3.8.1","timeout":20,"epg":"https://epg.cdn.loc.cc/?ch={name}&date={date}","logo":"https://logo.wyfc.qzz.io/{name}.png"}
 ],
 "wallpaper":"https://qist.cc/api/api.php",
+"danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 • 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.597}},
