@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;a932698717d44bbf1780212ff05e3d6e",
+  "spider": "./jar/spider.jar;md5;b574393d2a830bec263b80f10553dddd",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
