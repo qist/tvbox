@@ -124,6 +124,7 @@ V1.1.2版本以下
 
 尽自己所能更新，不保证配置的有效性和时效性。
 
+一定要给app 存储权限不然认证会丢失不能写盘的
 ### Star
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=qist/tvbox&type=Date)](https://star-history.dera.page/#qist/tvbox&Date)

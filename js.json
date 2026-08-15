@@ -4,7 +4,7 @@
 {"name":"live","type":0,"url":"./tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.cdn.loc.cc/?ch={name}&date={date}","logo":"https://logo.wyfc.qzz.io/{name}.png"},
 {"name":"Ray","type":0,"url":"https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt","playerType":1,"ua":"okhttp/3.15","epg":"http://epg.cdn.loc.cc/?ch={name}&date={date}","logo":"https://logo.wyfc.qzz.io/{name}.png"}
  ],
-"wallpaper":"https://jianbian.chuqiuyu.workers.dev",
+"wallpaper":"https://wallpaper-1tg.pages.dev/",
 "sites":[
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js","searchable":1,"quickSearch":0,"changeable":0},
 {"key":"drpy_js_磁力熊搜索","name":"搜索 | 磁力熊[js]","type":3,"api":"./lib/drpy2.min.js","indexs":1,"ext":"./js/cilixiong.js","searchable":0,"quickSearch":0,"changeable":1},
