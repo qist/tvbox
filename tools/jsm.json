@@ -61,7 +61,7 @@
 {"key":"drpy_js_网易公版影像","name":"聚合 • 网易公版[js]","type":3,"api":"./lib/drpy2.min.js","changeable":0,"style":{"type":"rect","ratio":1.597},"ext":"./js/网易公版影像.js"},
 {"key": "push_agent","name": "手机｜推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0},
 
-{"key":"應用商店","name":"應用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext": "./json/market.json","jar":"./jar/pg.jar"},
+{"key":"應用商店","name":"應用商店","type":3,"api":"csp_Market","searchable":0,"changeable":0,"ext": "./json/market.json","jar":"./jar/pg_upgraded.jar"},
 {"key":"bb","name":"配置接口完全免费","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
 {"key":"cc","name":"请勿相信视频中任何广告","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"}
 ],
