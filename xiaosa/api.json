@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;a148eb406043b0f99999014a9c961b32",
+  "spider": "./spider.jar;md5;80fdf044891d9d848e13e4fbf6ad83f3",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
