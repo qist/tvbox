@@ -40,24 +40,17 @@ class 文件加解密器:
                     encoded_netloc = quote(parsed.netloc, safe='')
                     url = parsed._replace(netloc=encoded_netloc).geturl()
 
-            # 优先通过 CF Worker 代理下载
-            cf_proxy = 'https://wild-butterfly-88a5.juestnow.workers.dev'
-            proxy_url = f"{cf_proxy}?q={url}"
-            try:
-                req = Request(proxy_url, headers={
-                    'User-Agent': 'okhttp/3.12.0',
-                    'Accept-Encoding': 'gzip, deflate'
-                })
-                with urlopen(req, timeout=30) as response:
-                    raw_content = response.read()
-            except Exception as cf_err:
-                print(f"  CF代理失败，尝试直连: {cf_err}")
-                req = Request(url, headers={
-                    'User-Agent': 'okhttp/3.12.0',
-                    'Accept-Encoding': 'gzip, deflate'
-                })
-                with urlopen(req, timeout=30) as response:
-                    raw_content = response.read()
+            req = Request(url, headers={
+                'User-Agent': 'okhttp/3.12.0',
+                'Accept-Encoding': 'gzip, deflate'
+            })
+            with urlopen(req, timeout=30) as response:
+                raw_content = response.read()
+
+                # 检查是否为图片或二进制文件
+                content_type = response.headers.get('Content-Type', '')
+                if content_type.startswith('image/') or content_type.startswith('video/') or content_type.startswith('audio/'):
+                    print(f"  检测到{content_type}类型，尝试提取嵌入的数据...")
 
             # 检查文件头是否为常见图片格式
             image_headers = [
