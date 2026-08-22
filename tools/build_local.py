@@ -152,7 +152,30 @@ class TVBox本地构建器:
         except Exception as e:
             print(f"  ✗ requests下载失败: {e}")
 
-        # 方案2: 使用已有的 spider.jar（从上级目录查找）
+        # 方案2: 通过 CF Worker 代理下载
+        cf_proxy = os.environ.get('CF_PROXY_URL', '')
+        if cf_proxy:
+            try:
+                proxy_url = f"{cf_proxy}?q={url}"
+                print(f"  下载(cf-proxy): {proxy_url[:80]}...")
+                resp = self.session.get(proxy_url, timeout=60, allow_redirects=True)
+                resp.raise_for_status()
+                content = resp.content
+                # 检查是否为有效 jar 文件（PK 开头 = zip/jar）
+                if len(content) > 1000 and content[:2] == b'PK':
+                    with open(spider_path, 'wb') as f:
+                        f.write(content)
+                    md5 = self.计算MD5(spider_path)
+                    print(f"  ✓ cf-proxy保存到: {spider_path}")
+                    print(f"  MD5: {md5}")
+                    self.数据['spider'] = f"./spider.jar;md5;{md5}"
+                    return True
+                else:
+                    print(f"  ✗ cf-proxy返回内容非有效jar (大小: {len(content)})")
+            except Exception as e:
+                print(f"  ✗ cf-proxy下载失败: {e}")
+
+        # 方案3: 使用已有的 spider.jar（从上级目录查找）
         import shutil
         for candidate in [Path('../xiaosa/spider.jar'), Path('../jar/spider.jar'), Path('spider.jar')]:
             candidate = candidate.resolve() if not candidate.is_absolute() else candidate
