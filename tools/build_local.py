@@ -152,28 +152,7 @@ class TVBox本地构建器:
         except Exception as e:
             print(f"  ✗ requests下载失败: {e}")
 
-        # 方案2: 用 curl 命令行下载（绕过 WAF 对 requests 的拦截）
-        try:
-            import subprocess
-            print(f"  下载(curl): {url}")
-            result = subprocess.run(
-                ['curl', '-sL', '-o', str(spider_path),
-                 '-H', 'User-Agent: okhttp/3.12.0',
-                 '--connect-timeout', '30', '--max-time', '60', url],
-                capture_output=True, timeout=90
-            )
-            if spider_path.exists() and spider_path.stat().st_size > 1000:
-                md5 = self.计算MD5(spider_path)
-                print(f"  ✓ curl保存到: {spider_path}")
-                print(f"  MD5: {md5}")
-                self.数据['spider'] = f"./spider.jar;md5;{md5}"
-                return True
-            else:
-                print(f"  ✗ curl下载文件过小或不存在")
-        except Exception as e:
-            print(f"  ✗ curl下载失败: {e}")
-
-        # 方案3: 使用已有的 spider.jar（从上级目录查找）
+        # 方案2: 使用已有的 spider.jar（从上级目录查找）
         import shutil
         for candidate in [Path('../xiaosa/spider.jar'), Path('../jar/spider.jar'), Path('spider.jar')]:
             candidate = candidate.resolve() if not candidate.is_absolute() else candidate
