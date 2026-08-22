@@ -27,8 +27,6 @@ jobs:
       #      cd ../
       #   shell: bash
       - name: xiaosa tools
-        env:
-          CF_PROXY_URL: ${{ secrets.CF_PROXY_URL }}
         run: |
           pwd
           cd tools/

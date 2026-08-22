@@ -40,107 +40,110 @@ class 文件加解密器:
                     encoded_netloc = quote(parsed.netloc, safe='')
                     url = parsed._replace(netloc=encoded_netloc).geturl()
 
-            req = Request(url, headers={
-                'User-Agent': 'okhttp/3.12.0',
-                'Accept-Encoding': 'gzip, deflate'
-            })
-            with urlopen(req, timeout=30) as response:
-                raw_content = response.read()
+            # 优先通过 CF Worker 代理下载
+            cf_proxy = 'https://wild-butterfly-88a5.juestnow.workers.dev'
+            proxy_url = f"{cf_proxy}?q={url}"
+            try:
+                req = Request(proxy_url, headers={
+                    'User-Agent': 'okhttp/3.12.0',
+                    'Accept-Encoding': 'gzip, deflate'
+                })
+                with urlopen(req, timeout=30) as response:
+                    raw_content = response.read()
+            except Exception as cf_err:
+                print(f"  CF代理失败，尝试直连: {cf_err}")
+                req = Request(url, headers={
+                    'User-Agent': 'okhttp/3.12.0',
+                    'Accept-Encoding': 'gzip, deflate'
+                })
+                with urlopen(req, timeout=30) as response:
+                    raw_content = response.read()
 
-                # 检查是否为图片或二进制文件
-                content_type = response.headers.get('Content-Type', '')
-                if content_type.startswith('image/') or content_type.startswith('video/') or content_type.startswith('audio/'):
-                    print(f"  检测到{content_type}类型，尝试提取嵌入的数据...")
+            # 检查文件头是否为常见图片格式
+            image_headers = [
+                b'\xff\xd8\xff\xe0',  # JPEG
+                b'\xff\xd8\xff\xe1',  # JPEG
+                b'\x89PNG',           # PNG
+                b'GIF87a',            # GIF
+                b'GIF89a',            # GIF
+                b'BM',                # BMP
+            ]
+            is_image = False
+            for header in image_headers:
+                if raw_content.startswith(header):
+                    is_image = True
+                    break
 
-                # 检查文件头是否为常见图片格式
-                image_headers = [
-                    b'\xff\xd8\xff\xe0',  # JPEG
-                    b'\xff\xd8\xff\xe1',  # JPEG
-                    b'\x89PNG',           # PNG
-                    b'GIF87a',            # GIF
-                    b'GIF89a',            # GIF
-                    b'BM',                # BMP
-                ]
-                is_image = False
-                for header in image_headers:
-                    if raw_content.startswith(header):
-                        is_image = True
-                        break
+            # 如果是图片，尝试提取嵌入的base64数据
+            if is_image:
+                print(f"  检测到图片文件，尝试提取嵌入的base64数据...")
+                try:
+                    # 转为文本查找base64数据
+                    text_content = raw_content.decode('latin-1')
+                    # 查找长base64字符串（至少50个字符）
+                    base64_pattern = r'[A-Za-z0-9+/=]{50,}'
+                    match = re.search(base64_pattern, text_content)
+                    if match:
+                        base64_str = match.group(0)
+                        print(f"  找到base64数据，长度: {len(base64_str)}")
+                        decoded = base64.b64decode(base64_str)
+                        # 将解码后的内容转为字符串
+                        for encoding in ['utf-8', 'gbk', 'gb2312', 'latin-1']:
+                            try:
+                                content = decoded.decode(encoding)
+                                print(f"✓ 成功提取图片中的base64数据 ({len(content)} 字节)")
+                                return content
+                            except UnicodeDecodeError:
+                                continue
+                except Exception as e:
+                    print(f"  提取图片数据失败: {e}")
 
-                # 如果是图片，尝试提取嵌入的base64数据
-                if is_image:
-                    print(f"  检测到图片文件，尝试提取嵌入的base64数据...")
+            # 处理gzip解压
+            if 处理gzip:
+                try:
+                    raw_content = gzip.decompress(raw_content)
+                    print(f"  ✓ gzip解压成功")
+                except:
+                    # 不是gzip格式，继续处理
+                    pass
+
+            # 尝试多种编码解码
+            content = None
+            for encoding in ['utf-8', 'gbk', 'gb2312', 'latin-1']:
+                try:
+                    content = raw_content.decode(encoding)
+                    break
+                except UnicodeDecodeError:
+                    continue
+
+            if content is None:
+                content = raw_content.decode('latin-1')
+
+            # 处理base64解码（仅当内容看起来像base64且不是hex数据时）
+            if 处理base64:
+                # 检查是否为hex数据（只包含0-9, a-f, A-F）
+                stripped = content.strip()
+                is_hex = re.match(r'^[0-9a-fA-F]+$', stripped) is not None
+
+                if not is_hex:
                     try:
-                        # 转为文本查找base64数据
-                        text_content = raw_content.decode('latin-1')
-                        # 查找长base64字符串（至少50个字符）
-                        base64_pattern = r'[A-Za-z0-9+/=]{50,}'
-                        match = re.search(base64_pattern, text_content)
-                        if match:
-                            base64_str = match.group(0)
-                            print(f"  找到base64数据，长度: {len(base64_str)}")
-                            decoded = base64.b64decode(base64_str)
-                            # 将解码后的内容转为字符串
-                            for encoding in ['utf-8', 'gbk', 'gb2312', 'latin-1']:
-                                try:
-                                    content = decoded.decode(encoding)
-                                    print(f"✓ 成功提取图片中的base64数据 ({len(content)} 字节)")
-                                    return content
-                                except UnicodeDecodeError:
-                                    continue
-                    except Exception as e:
-                        print(f"  提取图片数据失败: {e}")
-
-                # 处理gzip解压
-                if 处理gzip:
-                    try:
-                        raw_content = gzip.decompress(raw_content)
-                        print(f"  ✓ gzip解压成功")
+                        decoded = base64.b64decode(content)
+                        try:
+                            decoded = gzip.decompress(decoded)
+                            print(f"  ✓ base64+gzip解码成功")
+                        except:
+                            print(f"  ✓ base64解码成功")
+                        for encoding in ['utf-8', 'gbk', 'gb2312', 'latin-1']:
+                            try:
+                                content = decoded.decode(encoding)
+                                break
+                            except UnicodeDecodeError:
+                                continue
                     except:
-                        # 不是gzip格式，继续处理
                         pass
 
-                # 尝试多种编码解码
-                content = None
-                for encoding in ['utf-8', 'gbk', 'gb2312', 'latin-1']:
-                    try:
-                        content = raw_content.decode(encoding)
-                        break
-                    except UnicodeDecodeError:
-                        continue
-
-                if content is None:
-                    content = raw_content.decode('latin-1')
-
-                # 处理base64解码（仅当内容看起来像base64且不是hex数据时）
-                if 处理base64:
-                    # 检查是否为hex数据（只包含0-9, a-f, A-F）
-                    stripped = content.strip()
-                    is_hex = re.match(r'^[0-9a-fA-F]+$', stripped) is not None
-
-                    if not is_hex:
-                        try:
-                            # 尝试base64解码
-                            decoded = base64.b64decode(content)
-                            # 解码后再次尝试gzip解压
-                            try:
-                                decoded = gzip.decompress(decoded)
-                                print(f"  ✓ base64+gzip解码成功")
-                            except:
-                                print(f"  ✓ base64解码成功")
-                            # 将解码后的内容转为字符串
-                            for encoding in ['utf-8', 'gbk', 'gb2312', 'latin-1']:
-                                try:
-                                    content = decoded.decode(encoding)
-                                    break
-                                except UnicodeDecodeError:
-                                    continue
-                        except:
-                            # 不是base64格式，继续使用原内容
-                            pass
-
-                print(f"✓ 成功获取URL内容 ({len(content)} 字节)")
-                return content
+            print(f"✓ 成功获取URL内容 ({len(content)} 字节)")
+            return content
         except Exception as e:
             print(f"✗ 获取URL内容失败: {e}")
             return None
