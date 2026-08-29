@@ -7,6 +7,7 @@ import re
 import json
 import base64
 import zlib
+import random
 import requests
 from Crypto.Cipher import AES
 from base.spider import Spider  # 继承基础Spider类
@@ -55,6 +56,23 @@ def _line_cn(name):
     return _LINE_CN.get(name, name)
 
 
+# 随机机型池：观看端一般是电视盒 / 手机，混合使用以模拟真实 UA。
+_DEVICE_MODELS = [
+    # 电视盒
+    'ZXV10S100V7', 'MIBOX4', 'MIBOX3', 'ADT-2', 'ADT-3',
+    'HWVTR-H', 'EC6108V9', 'Q21A', 'B860H', 'S905X3',
+    'FiberHome-HG680', 'ZTE-B860AV2.1', 'Skyworth-E900V21E',
+    # 手机
+    'SM-S918B', 'SM-G998B', 'SM-S901B', 'Pixel-7', 'Pixel-8-Pro',
+    '2201123G', 'M2012K11AG', 'PHK110', 'PAHM00', 'RMX3370',
+]
+
+
+def _rand_device_model():
+    """随机选一个机型，模拟电视盒 / 手机观看端。"""
+    return random.choice(_DEVICE_MODELS)
+
+
 class Spider(Spider):
     def getName(self):
         return 'HKTV影视'
@@ -68,6 +86,8 @@ class Spider(Spider):
         self.name = 'HKTV影视'
         self.host = 'http://app.tuxianimg.com'
         self.timeout = 25
+        # 随机机型（电视盒 / 手机混合），每台实例固定一次，模拟真实观看端 UA。
+        self.device_model = _rand_device_model()
         # 注：Host / Content-Length 由 requests 按 URL 与 body 自动生成，不在此手动设置。
         self.header = {
             'App-Device-Id': '2c84565e46955353d875e3d964d87e1c6',
@@ -82,7 +102,7 @@ class Spider(Spider):
         # 由 playerContent 作为“全局播放 header”返回，框架会透传到所有直链请求。
         # 注：host 字段由 requests/框架按 URL 自动生成，不在此手动设置（否则跨域名会错）。
         self.play_header = {
-            'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 15; ZXV10S100V7 Build/b5cc949.1)',
+            'User-Agent': f'Dalvik/2.1.0 (Linux; U; Android 15; {self.device_model} Build/b5cc949.1)',
             'accept-encoding': 'gzip',
             'allowcrossprotocolredirects': 'true',
             'connection': 'Keep-Alive',
