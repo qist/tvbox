@@ -16,6 +16,7 @@
 {"key":"cupfox_in","name":"茶杯狐 • cupfox.in","type":3,"api":"./lib/drpy2.min.js","ext":"./js/茶杯狐.js","searchable":1,"quickSearch":1,"filterable":0,"changeable":1,"header":{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
 {"key":"italkbbtv","name":"ITalkBB • 外","type":3,"api":"./py/ITalkBBTV.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":1},
 {"key": "OleLive","name": "欧乐影院 • 外","type": 3,"api": "./py/OleLive.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1},
+{"key": "Didahd","name": "嘀嗒影视","type": 3,"api": "./py/Didahd.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
 {"key": "TVB云播","name": "TVB云播","type": 3,"api": "./py/TVB云播.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
 
 {"key": "电影天堂","name": "影视 • 电影天堂","type": 1,"api": "http://caiji.dyttzyapi.com/api.php/provide/vod","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"playerType":2},
@@ -34,6 +35,7 @@
 {"key":"率率","name":"影视 • 率率[直连]","type":1,"api":"https://suoniapi.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"changeable":1,"categories":["国产剧","韩剧","日剧","港剧","台剧","动作片","喜剧片","爱情片","科幻片","战争片","恐怖片","剧情片","国产动漫","日韩动漫","欧美动漫","大陆综艺","日韩综艺"]},
 {"key":"百度","name":"百度","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod?ac=list","searchable":1,"filterable":0,"categories":["国产动漫","日韩动漫","大陆剧","欧美剧","韩剧","日剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片"],"header":{"User-Agent":"Mozilla/5.0"}},
 {"key":"暴風","name":"影视 • 暴風[直连]","type":1,"api":"https://bfzyapi.com/api.php/provide/vod/?ac=list","searchable":1,"changeable":1},
+{"key": "Ncat","name": "网飞猫 • 外","type": 3,"api": "./py/Ncat.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
 
 {"key":"drpy_js_360影视","name":"官源 • 360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_百忙无果","name":"官源 • 芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
