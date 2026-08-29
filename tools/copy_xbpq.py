@@ -9,55 +9,42 @@ def load_json(path):
         return json.load(f)
 
 
-def find_index_by_key(sites, key):
-    for i, item in enumerate(sites):
-        if isinstance(item, dict) and item.get("key") == key:
-            return i
-    return -1
-
-
 def extract_local_paths(value):
-    """提取字符串中的本地路径（支持 ./ 和 ../），忽略 URL"""
+    """提取字符串中的本地路径（支持 ./ 和 ../），忽略 URL。按 ? 与常见分隔符切分。"""
     if not isinstance(value, str):
         return []
     paths = []
-    # 先按 ? 切分，保留路径及查询参数里的路径
-    parts = value.split("?")
-    for part in parts:
-        # 再按常见分隔符切
+    for part in value.split("?"):
         for token in part.replace("&", " ").replace("$", " ").split():
             token = token.strip()
             if token.startswith("./") or token.startswith("../"):
-                # 去掉可能的尾部参数
-                token = token.split("&", 1)[0]
-                token = token.split("$", 1)[0]
+                token = token.split("&", 1)[0].split("$", 1)[0]
                 paths.append(token)
     return paths
 
 
-def iter_paths_between(sites, start_key, end_key):
-    start_idx = find_index_by_key(sites, start_key)
-    end_idx = find_index_by_key(sites, end_key)
-    if start_idx == -1 or end_idx == -1 or start_idx >= end_idx:
-        return []
-    subset = sites[start_idx + 1 : end_idx]
+def collect_local_paths(obj):
+    """递归收集任意结构（dict/list/str）中的本地路径字符串"""
+    found = []
+    if isinstance(obj, str):
+        found.extend(extract_local_paths(obj))
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            found.extend(collect_local_paths(v))
+    elif isinstance(obj, list):
+        for v in obj:
+            found.extend(collect_local_paths(v))
+    return found
+
+
+def iter_all_local_paths(sites):
+    """提取整份 sites 里所有本地路径（不限制区间），递归含 ext 字典"""
     all_paths = []
-    for item in subset:
-        if not isinstance(item, dict):
-            continue
-        # api 仅拷贝 .py
-        api_val = item.get("api")
-        if isinstance(api_val, str):
-            for p in extract_local_paths(api_val):
-                if p.endswith(".py"):
-                    all_paths.append(p)
-        # ext 拷贝所有本地路径
-        ext_val = item.get("ext")
-        if isinstance(ext_val, str):
-            all_paths.extend(extract_local_paths(ext_val))
+    for item in sites:
+        if isinstance(item, dict):
+            all_paths.extend(collect_local_paths(item))
     # 去重，保留顺序
-    seen = set()
-    deduped = []
+    seen, deduped = set(), []
     for p in all_paths:
         if p not in seen:
             seen.add(p)
@@ -66,38 +53,41 @@ def iter_paths_between(sites, start_key, end_key):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("用法: python copy_xbpq.py <json路径>")
-        print("示例: python copy_xbpq.py jsm_with_app_sites.json")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    if len(sys.argv) >= 2:
+        json_path = sys.argv[1]
+    else:
+        json_path = os.path.join(base_dir, "output", "api.json")
+    if not os.path.exists(json_path):
+        print(f"⚠️ 找不到文件: {json_path}")
         sys.exit(1)
 
-    json_path = sys.argv[1]
     data = load_json(json_path)
     sites = data.get("sites", [])
 
-    paths = iter_paths_between(sites, "qiletv", "电影天堂")
+    # 直接提取整份 json 的全部本地路径，不做区间判断
+    paths = iter_all_local_paths(sites)
     if not paths:
-        print("⚠️ 未找到 qiletv 到 电影天堂 之间的 ./XBPQ/ 电影天堂")
+        print("⚠️ 未在 sites 中找到任何本地文件")
         return
 
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    src_base = os.path.normpath(os.path.join(base_dir, "..", "xiaosa"))
+    # 源来自 output 目录，按 json 相对路径复制到项目根（保留子目录，避免 404 且 py/js/json 不混淆）
+    src_base = os.path.normpath(os.path.join(base_dir, "output"))
     dst_base = os.path.normpath(os.path.join(base_dir, ".."))
 
     copied = 0
     missing = 0
     for path in paths:
-        rel_path = path.replace("./", "", 1)
-        rel_path = rel_path.replace("../", "", 1)
-        src = os.path.join(src_base, rel_path)
-        dst = os.path.join(dst_base, rel_path)
+        rel = path.replace("./", "", 1).replace("../", "", 1)
+        src = os.path.join(src_base, rel)
+        dst = os.path.join(dst_base, rel)
         if not os.path.exists(src):
             print(f"⚠️ 源文件不存在: {src}")
             missing += 1
             continue
         os.makedirs(os.path.dirname(dst), exist_ok=True)
         shutil.copy2(src, dst)
-        print(f"✅ 已覆盖: {dst}")
+        print(f"✅ 已复制: {dst}")
         copied += 1
 
     print(f"完成: 复制 {copied} 个，缺失 {missing} 个")

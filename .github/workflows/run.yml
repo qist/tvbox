@@ -34,12 +34,12 @@ jobs:
           python tvbox.py https://9877.kstore.space/one.json xs.json dec
           python build_local.py xs.json output
           \cp -pdr output/* ../xiaosa/
-          python xiao.py ../xiaosa/api.json dianshi.json
-          python xiao.py ../xiaosa/api.json jsm.json
-          python copy_xbpq.py dianshi_with_app_sites.json
+          python xiao.py ./output/api.json dianshi.json
+          python xiao.py ./output/api.json jsm.json
+          python copy_xbpq.py ./output/api.json
           \cp -pdr dianshi_with_app_sites.json ../dianshi.json
           \cp -pdr jsm_with_app_sites.json ../jsm.json
-          \cp -pdr ../xiaosa/spider.jar ../jar/spider.jar
+          \cp -pdr ./output/spider.jar ../jar/spider.jar
           rm -rf dianshi_with_app_sites.json jsm_with_app_sites.json output xs.json
           cd ../
         shell: bash

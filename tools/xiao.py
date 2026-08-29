@@ -62,7 +62,7 @@ def replace_drpy_path(site):
 def insert_sites_at_key(base_sites, insert_sites, key_marker):
     for i, item in enumerate(base_sites):
         if item.get("key") == key_marker:
-            return base_sites[:i + 1] + insert_sites + base_sites[i + 1:]
+            return base_sites[:i] + insert_sites + base_sites[i:]
     print(f"⚠️ 未找到 key 为 {key_marker} 的插入点，追加到末尾")
     return base_sites + insert_sites
 
@@ -110,13 +110,13 @@ if __name__ == "__main__":
     with open(local_file, "r", encoding="utf-8") as f:
         dianshi = json.load(f)
 
-    # 5. 插入到 key="cbh" 之后（按 name 去重，保留本地）
+    # 5. 插入到 key="电影天堂" 之后（按 name 去重，保留本地）
     dianshi_sites = dianshi.get("sites", [])
     # 先按 key 删除来源站点
     if remove_keys:
         filtered_sites = [s for s in filtered_sites if s.get("key") not in remove_keys]
     filtered_sites = dedupe_by_name(dianshi_sites, filtered_sites)
-    dianshi["sites"] = insert_sites_at_key(dianshi_sites, filtered_sites, "qiletv")
+    dianshi["sites"] = insert_sites_at_key(dianshi_sites, filtered_sites, "电影天堂")
 
     # 6. 删除指定的站点
     # before_count = len(dianshi["sites"])
