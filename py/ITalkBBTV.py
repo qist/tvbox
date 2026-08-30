@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # by @Qist
 """
-ITalkBB TV - 海外华人影视
+ITalkBB TV - 海外华人影视 内容均从互联网收集而来 仅供交流学习使用 严禁用于商业用途 请于24小时内删除
 """
 import time
 import uuid
