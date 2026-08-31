@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;13d3366f435f4fc803eac635786812d7",
+  "spider": "./jar/spider.jar;md5;759a5870c8a6e4415023f1c3e8b2cb7c",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -22,6 +22,9 @@
     {"key": "TVB云播","name": "TVB云播","type": 3,"api": "./py/TVB云播.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "一起影视","name": "一起 • APP","type": 3,"api": "csp_AppYQK","searchable": 1,"quickSearch": 1,"filterable": 0},
+    {"key": "爱看","name": "爱看 • APP","type": 3,"api": "csp_AiKan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://43.248.117.123:4680"},
+    {"key": "咕噜","name": "咕噜 • APP","type": 3,"api": "csp_Gulu","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "布布","name": "布布 • APP","type": 3,"api": "csp_YunDuo","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "https://323433ssdfd.top","finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2","aid": "com.web.player","sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1","client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a","sign": "ddtvf65f3a83d6d9ad6f"}},
     {"key": "马猴影视","name": "马猴 • APP","type": 3,"api": "csp_App3Q","ext": {"host": "https://45.150.167.18:8000","finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F","updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee","deviceBrand": "vivo","deviceModel": "V2309A","pkg": "com.damahou.tv","sk": "SK-woniu-thanks","ver": "1"}},
     {"key": "韩圈","name": "韩圈 • APP","type": 3,"api": "csp_Hxq","ext": "http://www.小不点.com/api/2026/fishhxq.php"},
     {"key": "剧圈99","name": "剧圈 • APP","type": 3,"api": "csp_App99","ext": {"host": "http://124.221.3.182:19987/app/bn","versionName": "1.2.0","name": "剧圈圈","package": "com.qingtangxiaozhuan.xyz","buildNumber": "2002","buildSignature": "054FA8DDA4319C6B6A9B954CA5777541C993F00B1B0BD4394F7EDE48184C4594"}},
@@ -63,7 +66,9 @@
     {"key": "围观短剧","name": "围观 • 短剧","type": 3,"api": "csp_ShortWeiguan","genre": "shortdrama"},
     {"key": "好看短剧","name": "好看 • 短剧","type": 3,"api": "csp_ShortHaokan","genre": "shortdrama"},
     {"key": "星芽短剧","name": "星芽 • 短剧","type": 3,"api": "csp_ShortXingya","genre": "shortdrama"},
-    {"key": "果果短剧","name": "果果 • 短剧","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8","分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"}},
+    {"key": "果果短剧","name": "果果 • 短剧","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8","分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"},"genre": "shortdrama"},
+    {"key": "世界影视","name": "世界 • 影视","type": 3,"api": "csp_HkybSpider","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "壹壹影视","name": "壹壹 • 影视","type": 3,"api": "csp_YiYs","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "瓜子影视","name": "瓜子 • 影视","type": 3,"api": "csp_Gz360"},
     {"key": "山楂影视","name": "山楂 • 影视","type": 3,"api": "csp_PianKu8"},
     {"key": "飞娱影视","name": "飞娱 • 影视","type": 3,"api": "csp_Feiyu"},
