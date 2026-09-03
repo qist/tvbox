@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;c86f7dceed9cf4edc5d14189bd2ef123",
+  "spider": "./spider.jar;md5;afb927772af9cb73b0b7639943542882",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -90,6 +90,10 @@
     {"key": "夸克网盘","name": "夸克 • 网盘","type": 3,"api": "csp_PanQuark","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "UC网盘","name": "UC • 网盘","type": 3,"api": "csp_PanUC","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "百度网盘","name": "百度 • 网盘","type": 3,"api": "csp_PanBaidu","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
+    {"key": "迅雷云盘","name": "迅雷 • 云盘","type": 3,"api": "csp_PanXunlei","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
+    {"key": "光鸭网盘","name": "光鸭 • 网盘","type": 3,"api": "csp_PanGuangya","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
+    {"key": "天翼云盘","name": "天翼 • 云盘","type": 3,"api": "csp_PanTianyi","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
+    {"key": "123云盘","name": "123 • 云盘","type": 3,"api": "csp_Pan123","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "聚合","name": "聚合 • 搜索","type": 3,"api": "csp_JuheSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "盘搜","name": "盘搜 • 搜索","type": 3,"api": "csp_PanSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "米搜","name": "米搜 • 搜索","type": 3,"api": "csp_MiSou","searchable": 1,"quickSearch": 0,"filterable": 0,"ext": {"site": ["http://gesoso.fun","http://www.misoso.shop"]},"timeout": 60},
