@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;afb927772af9cb73b0b7639943542882",
+  "spider": "./spider.jar;md5;ac037e008306b2f338c759a8968cd067",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -78,8 +78,8 @@
     {"key": "曼波动漫","name": "曼波 • 动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "https://app.omofun1.top","dataKey": "66dc309cbeeca454","dataIv": "66dc309cbeeca454"}},
     {"key": "咕咕动漫","name": "咕咕 • 动漫","type": 3,"searchable": 1,"api": "csp_AppGet","ext": {"url": "https://www.gugu3.com","dataKey": "nKfZ8KX6JTNWRzTD","dataIv": "nKfZ8KX6JTNWRzTD"}},
     {"key": "巴士动漫","name": "巴士 • 动漫","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA#Accept$text/html#accept-language$zh-CN,zh;q=0.8","分类url": "https://dmbus.cc/show-{cateId}--{by}-{class}--{year}-{catePg}.html","分类": "国漫$1#日漫$2#欧美动漫$3#电影$4","数组": "class=\"item\">&&</li>","简介": "剧情：&&</p>","标题": "title=\"&&在线观看\"","副标题": "desc\">&&</span>","图片": "data-bg=\"&&\"","搜索url": "https://dmbus.cc/s----------.html?wd={wd}","倒序": "1"}},
-    {"key": "路漫漫","name": "路漫漫 • 动漫","type": 3,"api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js","ext": "./js/LMM.js"},
-    {"key": "去看吧","name": "去看吧 • 动漫","type": 3,"api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js","ext": "./js/QKB.js"},
+    {"key": "路漫漫","name": "路漫漫 • 动漫","type": 3,"api": "https://pan.29o.cn/down.php/136fd915b6164bb2dcec424a091bb699.js","ext": "./js/LMM.js"},
+    {"key": "去看吧","name": "去看吧 • 动漫","type": 3,"api": "https://pan.29o.cn/down.php/136fd915b6164bb2dcec424a091bb699.js","ext": "./js/QKB.js"},
     {"key": "荐片","name": "荐片 • 磁力","api": "csp_JianPian","type": 3},
     {"key": "七味","name": "七味 • 磁力","type": 3,"api": "csp_QnMp4","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.qwshow.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qwfun.com,https://www.qnnull.com,https://www.qnnull.com"},
     {"key": "New6v","name": "New6V • 磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.xb6v.com"},
