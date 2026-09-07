@@ -1,8 +1,8 @@
 {
-  "spider": "./jar/fan.txt;md5;185b2fa185871f1d5b626b41304134d8",
+  "spider": "./jar/fan.txt;md5;9bf5c1f491cc633ff14e1fee5c91daa9",
   "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "sites": [
-    {"key": "点我切源","name": "<9.04更新> 修复立播","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
+    {"key": "点我切源","name": "<9.07更新> 修复海绵 奥特","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MDrive","name": "🗂我的云盘┃我配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YGP","name": "🚀叨观荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -67,7 +67,6 @@
     {"name": "范明明（需开启V6网络）","type": 0,"url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType": 2},
     {"name": "虎牙一起看","type": 0,"url": "https://sub.ottiptv.cc/huyayqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
     {"name": "斗鱼一起看","type": 0,"url": "https://sub.ottiptv.cc/douyuyqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
-    {"name": "B站直播","type": 0,"url": "https://file.icve.com.cn/file_doc/220/1003/370FAE41BD301F89BA1FCD6FDB8D5BD6.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
     {"name": "YY轮播","type": 0,"url": "https://sub.ottiptv.cc/yylunbo.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"}
   ]
 }
