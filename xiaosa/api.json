@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;9e5592497fe68e612486d0426b33a8bc",
+  "spider": "./spider.jar;md5;c0de87bb3f38b2ffc17ca643d2ce5eaf",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -50,6 +50,7 @@
     {"key": "人人","name": "人人 • 4K","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "即刻","name": "即刻 • 4K","type": 3,"api": "csp_Jike","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "双星","name": "双星 • 4K","type": 3,"api": "csp_ShuangXing","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
+    {"key": "红果短剧","name": "红果 • 短剧","type": 3,"api": "https://pizazz.us.ci/movie/py/红果短剧.py","genre": "shortdrama"},
     {"key": "七猫短剧","name": "七猫 • 短剧","type": 3,"api": "csp_ShortQimao","genre": "shortdrama"},
     {"key": "河马短剧","name": "河马 • 短剧","type": 3,"api": "csp_ShortHema","genre": "shortdrama"},
     {"key": "围观短剧","name": "围观 • 短剧","type": 3,"api": "csp_ShortWeiguan","genre": "shortdrama"},
@@ -128,7 +129,7 @@
     {"key": "高中课堂","name": "高中 • 课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "./json/GZKT.json","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"},"style": {"type": "rect","ratio": 1.618}},
     {"key": "急救教学","name": "急救 • 教学","type": 3,"api": "csp_FirstAid","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8},"gridview": "0-0-4.1"},
     {"key": "养生堂","name": "养生 • 知识","type": 3,"api": "csp_YST","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.618}},
-    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0}
+    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1}
   ],
   "lives": [
     {}
