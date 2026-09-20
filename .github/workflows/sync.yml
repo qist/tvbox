@@ -22,7 +22,7 @@ jobs:
           git config --global user.email "action@github.com"
           
           # 添加 qist/tvbox 为远程上游仓库
-          git remote add upstream https://github.com
+          git remote add upstream https://github.com/qist/tvbox
           
           # 获取上游仓库的所有分支和更新
           git fetch upstream
