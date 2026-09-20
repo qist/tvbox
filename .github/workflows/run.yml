@@ -2,117 +2,49 @@ name: Update xiaosa
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 5 * * *"
+    - cron: "30 3 * * *"
   push:
     branches:
       - master
-    paths:
-      - "tools/**"
+    paths-ignore:
+      - "**/README.md"
 jobs:
-  xiaosa:
-    runs-on: ubuntu-latest
-    continue-on-error: true
+  build:
+    runs-on: ubuntu-latest      
     steps:
       - name: Checkout the branch
-        uses: actions/checkout@v7
+        uses: actions/checkout@v6
 
-      # - name: wget the xiaosa
-      #   run: |
-      #      pwd
-      #      cd xiaosa/
-      #      wget https://raw.githubusercontent.com/PizazzGY/NewTVBox/main/local/%E5%8D%95%E7%BA%BF%E8%B7%AF.zip -O xiaosa.zip
-      #      unzip xiaosa.zip
-      #      \cp -pdr TVBoxOSC/tvbox/* ./
-      #      rm -rf xiaosa.zip TVBoxOSC
-      #      cd ../
-      #   shell: bash
-      - name: xiaosa tools
+      - name: wget the xiaosa 
         run: |
-          pwd
-          cd tools/
-          pip install demjson3 pycryptodome requests --break-system-packages
-          python tvbox.py https://9877.kstore.space/sun.json xs.json dec
-          python build_local.py xs.json output
-          \cp -pdr output/* ../xiaosa/
-          python xiao.py ./output/api.json dianshi.json
-          python xiao.py ./output/api.json jsm.json
-          python copy_xbpq.py ./output/api.json
-          \cp -pdr dianshi_with_app_sites.json ../dianshi.json
-          \cp -pdr jsm_with_app_sites.json ../jsm.json
-          \cp -pdr ./output/spider.jar ../jar/spider.jar
-          rm -rf dianshi_with_app_sites.json jsm_with_app_sites.json output xs.json
-          cd ../
+           pwd
+           cd xiaosa/
+           wget https://github.com/PizazzGY/NewTVBox/raw/main/%E5%8D%95%E7%BA%BF%E8%B7%AF.zip -O xiaosa.zip
+           unzip xiaosa.zip
+           \cp -pdr TVBoxOSC/tvbox/* ./
+           rm -rf xiaosa.zip TVBoxOSC
+           cd ../
         shell: bash
-      - name: Upload xiaosa artifacts
-        uses: actions/upload-artifact@v7
-        with:
-          name: xiaosa-output
-          path: |
-            dianshi.json
-            jsm.json
-            jar/spider.jar
-            xiaosa/
-            XBPQ/
-            XYQHiker/
-            json/
-            py/
-            js/
-
-  fty:
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - name: Checkout the branch
-        uses: actions/checkout@v7
-
-      - name: fty tools
+      - name: tools
         run: |
-          pwd
+          pwd 
           cd tools/
-          pip install demjson3 pycryptodome requests --break-system-packages
-          python tvbox.py https://www.xn--sss604efuw.net/tv ty.json dec
-          python fty.py ty.json
-          # python fty.py
-          \cp -pdr tvbox_cleaned.json ../fty.json
+          pip install demjson3 --break-system-packages
+          python fty.py
+          python hebing.py dianshi.json tvbox_cleaned.json
+          python hebing.py jsm.json tvbox_cleaned.json
+          python xiao.py ../xiaosa/api.json dianshi_merged.json
+          python xiao.py ../xiaosa/api.json jsm_merged.json
+          \cp -pdr dianshi_merged_with_app_sites.json ../dianshi.json
+          \cp -pdr jsm_merged_with_app_sites.json ../jsm.json
           \cp -pdr fan.txt ../jar/fan.txt
-          git clone --depth=1 --recursive https://github.com/fantaiying7/EXT.git
-          \cp -pdr EXT/* ../FTY/
-          rm -rf tvbox_cleaned.json fan.txt EXT ty.json
+          rm -rf dianshi_merged_with_app_sites.json jsm_merged_with_app_sites.json dianshi_merged.json jsm_merged.json tvbox_cleaned.json fan.txt
           cd ../
         shell: bash
-      - name: Upload fty artifacts
-        uses: actions/upload-artifact@v7
-        with:
-          name: fty-output
-          path: |
-            fty.json
-            jar/fan.txt
-            FTY/
-
-  git-push:
-    needs: [xiaosa, fty]
-    runs-on: ubuntu-latest
-    if: always()
-    steps:
-      - name: Checkout the branch
-        uses: actions/checkout@v7
-
-      - name: Download xiaosa artifacts
-        uses: actions/download-artifact@v8
-        with:
-          name: xiaosa-output
-        continue-on-error: true
-
-      - name: Download fty artifacts
-        uses: actions/download-artifact@v8
-        with:
-          name: fty-output
-        continue-on-error: true
-
       - name: Git push assets to "release" branch
         run: |
           git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "87984115+github-actions[bot]@users.noreply.github.com"
           git add .
           if ! git diff-index --quiet HEAD --; then
             git commit -m "更新源 $(date +%Y%m%d%H%M)"
