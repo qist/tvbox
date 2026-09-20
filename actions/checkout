@@ -1,0 +1,10 @@
+steps:
+  - name: Checkout repository code
+    uses: actions/checkout@v4
+
+  - name: Install dependencies
+    run: |
+      pip install demjson3 pycryptodome
+
+  - name: Run script
+    run: python tools/tvbox.py
