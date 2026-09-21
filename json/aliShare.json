@@ -1,0 +1,59 @@
+[
+    {
+        "name": "我的网盘",
+        "folders": [
+            {
+                "shareId": "",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "短剧合集",
+        "folders": [
+            {
+                "shareId": "Y5wMKfVDD6K",
+                "folder": "6616613853041ba53f2842918e02346943d980b4"
+            }
+        ]
+    },
+    {
+        "name": "动漫合集",
+        "folders": [
+            {
+                "shareId": "LEaepiYfxcw",
+                "folder": "61019a966975bfef583449a39b36da512384b2d7"
+            }
+        ]
+    },
+    {
+        "name": "电影合集",
+        "folders": [
+            {
+                "shareId": "ZHNChQfiPfk",
+                "folder": "root"
+            },
+            {
+                "shareId": "XUH7r6BZuML",
+                "folder": "root"
+            }
+        ]
+    },
+    {
+        "name": "电视剧合集",
+        "folders": [
+            {
+                "shareId": "ftMhRaKUfYp",
+                "folder": "root"
+            },
+            {
+                "shareId": "8Fg4TNsd2A2",
+                "folder": "root"
+            },
+            {
+                "shareId": "GMYSz3AHFaA",
+                "folder": "root"
+            }
+        ]
+    }
+]

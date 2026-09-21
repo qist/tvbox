@@ -7,16 +7,16 @@
           "type":"0",
           "pass": true,
           "url":"http://127.0.0.1:9978/file/XYQTVBox/live.txt",
-          "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
-          "logo": "https://epg.112114.xyz/logo/{name}.png"
+          "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",     
+          "logo": "https://logo.wyfc.qzz.io/{name}.png"
         },
         {
           "name": "FMM_IPV6",
           "type":"0",
           "pass": true,
           "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",
-          "epg": "https://epg.112114.xyz/?ch={name}&date={date}",     
-          "logo": "https://epg.112114.xyz/logo/{name}.png"
+          "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",     
+          "logo": "https://logo.wyfc.qzz.io/{name}.png"
         }
     ],
     "sites": [

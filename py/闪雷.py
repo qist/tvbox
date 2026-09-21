@@ -53,7 +53,8 @@ class Spider(Spider):
                         pic = self.host + '/' + pic.replace('../', '')
                     elif pic and not pic.startswith('http'):
                         pic = self.host + '/' + pic.lstrip('/')
-                    
+                    remarks = dl('dt span').eq(1).text() or ''
+
                     href = h4_dd('a').attr('href')
                     if href:
                         # 从href中提取ClassId
@@ -63,7 +64,7 @@ class Spider(Spider):
                             'vod_id': vid,
                             'vod_name': title,
                             'vod_pic': pic,
-                            'vod_remarks': ''
+                            'vod_remarks': remarks
                         })
             
             result['list'] = videos[:10]  # 只取前10个
@@ -97,7 +98,8 @@ class Spider(Spider):
                         pic = self.host + '/' + pic.replace('../', '')
                     elif pic and not pic.startswith('http'):
                         pic = self.host + '/' + pic.lstrip('/')
-                    
+                    remarks = dl('dt span').eq(1).text() or ''
+
                     href = h4_dd('a').attr('href')
                     if href:
                         # 从href中提取ClassId
@@ -107,7 +109,7 @@ class Spider(Spider):
                             'vod_id': vid,
                             'vod_name': title,
                             'vod_pic': pic,
-                            'vod_remarks': ''
+                            'vod_remarks': remarks
                         })
             
             result['list'] = videos
@@ -209,7 +211,8 @@ class Spider(Spider):
                         pic = self.host + '/' + pic.replace('../', '')
                     elif pic and not pic.startswith('http'):
                         pic = self.host + '/' + pic.lstrip('/')
-                    
+                    remarks = dl('dt span').eq(1).text() or ''
+
                     href = h4_dd('a').attr('href')
                     if href:
                         # 从href中提取ClassId
@@ -219,7 +222,7 @@ class Spider(Spider):
                             'vod_id': vid,
                             'vod_name': title,
                             'vod_pic': pic,
-                            'vod_remarks': ''
+                            'vod_remarks': remarks
                         })
             
             return {'list': videos, 'page': pg}

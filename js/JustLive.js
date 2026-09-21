@@ -160,7 +160,7 @@ var rule = {
                 d.push(
                     {
                         title: "解析1",
-                        url: 'http://epg.112114.xyz/' + jo.platForm +'/' + jo.roomId
+                        url: 'http://epg.cdn.loc.cc/' + jo.platForm +'/' + jo.roomId
                     },
                     {
                         title: "解析2",

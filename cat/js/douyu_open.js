@@ -172,7 +172,7 @@ async function detail(id) {
         },
         {
             title: "112114",
-            url: "http://epg.112114.xyz/douyu/" + video.roomId
+            url: "http://epg.cdn.loc.cc/douyu/" + video.roomId
         },
         {
             title: "AOIS",

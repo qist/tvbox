@@ -1,6 +1,6 @@
 var rule = {
     title: "路漫漫",
-    host: "http://www.lmm58.com",
+    host: "https://www.lmm85.com",
     url: "/vod/show/id/fyclassfyfilter.html",
     searchUrl: '/vod/search/page/fypage/wd/**.html',
     searchable: 2,
@@ -13,6 +13,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "/year/2026"
             }, {
                 "n": "2025",
                 "v": "/year/2025"
@@ -74,6 +77,9 @@ var rule = {
                 "n": "全部",
                 "v": ""
             }, {
+                "n": "2026",
+                "v": "/year/2026"
+            }, {
                 "n": "2025",
                 "v": "/year/2025"
             }, {
@@ -133,6 +139,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "/year/2026"
             }, {
                 "n": "2025",
                 "v": "/year/2025"
@@ -194,6 +203,9 @@ var rule = {
                 "n": "全部",
                 "v": ""
             }, {
+                "n": "2026",
+                "v": "/year/2026"
+            }, {
                 "n": "2025",
                 "v": "/year/2025"
             }, {
@@ -254,6 +266,9 @@ var rule = {
                 "n": "全部",
                 "v": ""
             }, {
+                "n": "2026",
+                "v": "/year/2026"
+            }, {
                 "n": "2025",
                 "v": "/year/2025"
             }, {
@@ -313,6 +328,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "/year/2026"
             }, {
                 "n": "2025",
                 "v": "/year/2025"

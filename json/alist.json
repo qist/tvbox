@@ -1,57 +1,21 @@
 {
-  "vodPic": "https://x.imgs.ovh/x/2023/09/05/64f680bb030b4.png",
-  "drives": [
-    {
-      "name": "弱水",
-      "server": "http://shicheng.wang:555/"
-    },
-    {
-      "name": "NICS",
-      "server": "https://nics.eu.org"
-    },
-    {
-      "name": "ECVE",
-      "server": "https://pan.ecve.cn"
-    },
-    {
-      "name": "小雅",
-      "server": "http://alist.xiaoya.pro"
-    },
-    {
-      "name": "觸光",
-      "server": "https://pan.ichuguang.com"
-    },
-    {
-      "name": "一只魚",
-      "server": "https://vtok.pp.ua/"
-    },
-    {
-      "name": "七米藍",
-      "server": "https://al.chirmyram.com"
-    },
-    {
-      "name": "神族九帝",
-      "server": "https://alist.shenzjd.com"
-    },
-    {
-      "name": "梓澪",
-      "server": "https://zi0.cc"
-    },
-    {
-      "name": "网盘1",
-      "server": "http://223.167.75.227:5678/"
-    },
-    {
-      "name": "网盘2",
-      "server": "http://123.249.94.196:5678/"
-    },
-    {
-      "name": "网盘3",
-      "server": "http://101.204.33.244:5678/"
-    },
-    {
-      "name": "网盘4",
-      "server": "http://175.152.57.102:5678/"
-    }
-  ]
+    "vodPic": "https://rogsoft.ddnsto.com/softcenter/softcenter/res/icon-alist.png",
+    "drives": [
+        {
+            "name": "小雅",
+            "server": "http://alist.xiaoya.pro"
+        },
+        {
+            "name": "触光",
+            "server": "https://pan.ichuguang.com"
+        },
+        {
+            "name": "魔都云",
+            "server": "https://cdn.modupan.com"
+        },
+        {
+            "name": "七米蓝",
+            "server": "https://al.chirmyram.com"
+        }
+    ]
 }

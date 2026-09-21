@@ -1,0 +1,111 @@
+[
+    {
+        "name": "我的网盘",
+        "folders": [
+            {
+                "shareId": "",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "幼儿教育",
+        "folders": [
+            {
+                "shareId": "a08f66152533",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "短剧合集",
+        "folders": [
+            {
+                "shareId": "885fd4ba2d92",
+                "folder": "0"
+            },
+            {
+                "shareId": "a1cda418984f",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "电影合集",
+        "folders": [
+            {
+                "shareId": "49ab75d52e00",
+                "folder": "0"
+            },
+            {
+                "shareId": "a632967760cf",
+                "folder": "0"
+            },
+            {
+                "shareId": "2f59bb5d96b9",
+                "folder": "0"
+            },
+            {
+                "shareId": "50828c368def",
+                "folder": "0"
+            },
+            {
+                "shareId": "e07e26aecc08",
+                "folder": "0"
+            },
+            {
+                "shareId": "0536a38a356e",
+                "folder": "0"
+            },
+            {
+                "shareId": "e273ef697403",
+                "folder": "0"
+            },
+            {
+                "shareId": "c8ac6c88e5d8",
+                "folder": "0"
+            }
+        ]
+    },
+    {
+        "name": "电视剧合集",
+        "folders": [
+            {
+                "shareId": "d19c4ebe1ff7",
+                "folder": "0"
+            },
+            {
+                "shareId": "cd4c5ac7e830",
+                "folder": "0"
+            },
+            {
+                "shareId": "e1b2ba8b6d6c",
+                "folder": "0"
+            },
+            {
+                "shareId": "166fa0a7ca6f",
+                "folder": "0"
+            },
+            {
+                "shareId": "37a92c0b7f10",
+                "folder": "0"
+            },
+            {
+                "shareId": "fb3386e42af2",
+                "folder": "0"
+            },
+            {
+                "shareId": "46ce214f4ed7",
+                "folder": "0"
+            },
+            {
+                "shareId": "fe4681d7fb43",
+                "folder": "0"
+            },
+            {
+                "shareId": "8d65e885b059",
+                "folder": "0"
+            }
+        ]
+    }
+]

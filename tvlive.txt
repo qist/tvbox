@@ -1129,7 +1129,7 @@ HTV-5青少.体育,http://183.129.242.178:3333/tsfile/live/1019_1.m3u8
 都江堰高清,http://gcalic.v.myalicdn.com/gc/ipanda1000_1td/index.m3u8
 
 DJ音乐,#genre#
-斗鱼音乐一FHD,http://epg.112114.xyz/douyu/9588891
+斗鱼音乐一FHD,http://epg.cdn.loc.cc/douyu/9588891
 热火斯卡拉,https://vd4.bdstatic.com/mda-nk3qfbxhf5dqpywt/sc/cae_h264/1667582665910576925/mda-nk3qfbxhf5dqpywt.mp4
 怒击摇,https://vd2.bdstatic.com/mda-mkibx9zvknj8d2fu/sc/cae_h264_nowatermark/1637355659217322910/mda-mkibx9zvknj8d2fu.mp4
 新送情郎,https://vd4.bdstatic.com/mda-meq936zru7niwvd2/sc/cae_h264/1621924823247730000/mda-meq936zru7niwvd2.mp4

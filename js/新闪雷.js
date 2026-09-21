@@ -23,7 +23,7 @@ var rule = {
     dl:has(dd[classid=h4]);
     dd[classid=h4] a&&Text;
     dt img&&src;
-    dt img&&alt;
+    dt span:eq(1)&&Text;
     dd[classid=h4] a&&href
     `,
 

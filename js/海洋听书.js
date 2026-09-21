@@ -33,7 +33,7 @@ var rule = {
             let v = pd(html, ".booksite&&script&&Html");
             var document = {};
             var VideoListJson;
-            VideoListJson = eval(v.split("VideoListJson=")[1].split(",urlinfo")[0]);
+            VideoListJson = JSON.parse(v.split("VideoListJson=")[1].split(",urlinfo")[0]);
             // log(typeof VideoListJson);
             let list1 = VideoListJson[0][1];
             LISTS = [list1];
