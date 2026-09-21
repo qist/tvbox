@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;cfab59e847b219aeb1806bff51a68a52",
+  "spider": "./jar/spider.jar;md5;af187c2a2be1bcbb5e183d77e740b21b",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -50,7 +50,6 @@
     {"key": "虎斑","name": "虎斑 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xhban.xyz","http://38.76.197.172:16969"]},"timeout": 60},
     {"key": "花卷","name": "花卷 • 4K","type": 3,"api": "csp_PanWebShareHJ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://www.hjzhencai.top"]},"timeout": 60},
     {"key": "种子","name": "种子 • 4K","type": 3,"api": "csp_SeedHub","searchable": 1,"quickSearch": 0,"ext": {"site": ["https://sidhub.cc","https://seeduck.cc","https://hubdog.cc","http://104.243.25.80"]},"timeout": 60},
-    {"key": "夸父","name": "夸父 • 4K","type": 3,"api": "csp_PanWebShareKF","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://www.kfzy.net"],"cookie": "bbs_sid=qovfaruectri75sqq38blhqt7o; bbs_token=Bvf498_2FJNbnAe_2Fse39EweDe_2BlQnFYo4s_2FpFtyHueqcGKOssB"},"timeout": 60},
     {"key": "123","name": "123 • 4K","type": 3,"api": "csp_PanWebShare123","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://123panfx.com","https://pan1.me"]},"timeout": 60},
     {"key": "指南","name": "指南 • 4K","type": 3,"api": "csp_4KZhinan","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "爱盼","name": "爱盼 • 4K","type": 3,"api": "csp_AiPan","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
@@ -90,7 +89,7 @@
     {"key": "光鸭云盘","name": "光鸭 • 云盘","type": 3,"api": "csp_PanGuangya","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "天翼云盘","name": "天翼 • 云盘","type": 3,"api": "csp_PanTianyi","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "123云盘","name": "123 • 云盘","type": 3,"api": "csp_Pan123","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
-    {"key": "聚合","name": "聚合 • 搜索","type": 3,"api": "csp_JuheSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
+    {"key": "觅盘","name": "觅盘 • 搜索","type": 3,"api": "csp_MiPan","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "盘搜","name": "盘搜 • 搜索","type": 3,"api": "csp_PanSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "百酷","name": "百酷 • 搜索","type": 3,"api": "csp_Baiku","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "酷乐","name": "酷乐 • 搜索","type": 3,"api": "csp_KuLe","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
