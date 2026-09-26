@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;af187c2a2be1bcbb5e183d77e740b21b",
+  "spider": "./jar/spider.jar;md5;6b9c6a14398f00b90d7dfac3d0129b6f",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -23,7 +23,7 @@
     {"key": "TVB云播","name": "TVB云播","type": 3,"api": "./py/TVB云播.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "一起影视","name": "一起 • APP","type": 3,"api": "csp_AppYQK","searchable": 1,"quickSearch": 1,"filterable": 0},
-    {"key": "爱看","name": "爱看 • APP","type": 3,"api": "csp_AiKan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://43.248.117.123:4680"},
+    {"key": "爱看","name": "爱看 • APP","type": 3,"api": "csp_AiKan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "http://43.248.117.123:14680"},
     {"key": "咕噜","name": "咕噜 • APP","type": 3,"api": "csp_Gulu","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "布布","name": "布布 • APP","type": 3,"api": "csp_YunDuo","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "https://323433ssdfd.top","finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2","aid": "com.web.player","sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1","client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a","sign": "ddtvf65f3a83d6d9ad6f"}},
     {"key": "马猴影视","name": "马猴 • APP","type": 3,"api": "csp_App3Q","ext": {"host": "https://45.150.167.18:8000","finger": "SF-A962FEC75DA28D7514F2A16580334272A78AC0A8429F10C94F47C1BAFC876E3F","updateId": "43c1ef69-3748-aaeb-317f-c621c77653ee","deviceBrand": "vivo","deviceModel": "V2309A","pkg": "com.damahou.tv","sk": "SK-woniu-thanks","ver": "1"}},
@@ -51,7 +51,6 @@
     {"key": "虎斑","name": "虎斑 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xhban.xyz","http://38.76.197.172:16969"]},"timeout": 60},
     {"key": "花卷","name": "花卷 • 4K","type": 3,"api": "csp_PanWebShareHJ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://www.hjzhencai.top"]},"timeout": 60},
     {"key": "种子","name": "种子 • 4K","type": 3,"api": "csp_SeedHub","searchable": 1,"quickSearch": 0,"ext": {"site": ["https://sidhub.cc","https://seeduck.cc","https://hubdog.cc","http://104.243.25.80"]},"timeout": 60},
-    {"key": "123","name": "123 • 4K","type": 3,"api": "csp_PanWebShare123","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list","ratio": 1.433},"ext": {"site": ["https://123panfx.com","https://pan1.me"]},"timeout": 60},
     {"key": "指南","name": "指南 • 4K","type": 3,"api": "csp_4KZhinan","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "爱盼","name": "爱盼 • 4K","type": 3,"api": "csp_AiPan","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "移动","name": "移动 • 4K","type": 3,"api": "csp_Yidong4K","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
