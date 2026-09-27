@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;6b9c6a14398f00b90d7dfac3d0129b6f",
+  "spider": "./spider.jar;md5;abc13beac287a298e6b7ca91af7404cd",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -45,6 +45,7 @@
     {"key": "人人","name": "人人 • 4K","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "即刻","name": "即刻 • 4K","type": 3,"api": "csp_Jike","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "双星","name": "双星 • 4K","type": 3,"api": "csp_ShuangXing","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
+    {"key": "卡卡","name": "卡卡 • 4K","type": 3,"api": "csp_KKPan","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "七猫短剧","name": "七猫 • 短剧","type": 3,"api": "csp_ShortQimao","genre": "shortdrama"},
     {"key": "河马短剧","name": "河马 • 短剧","type": 3,"api": "csp_ShortHema","genre": "shortdrama"},
     {"key": "围观短剧","name": "围观 • 短剧","type": 3,"api": "csp_ShortWeiguan","genre": "shortdrama"},
@@ -59,7 +60,6 @@
     {"key": "枫叶影视","name": "枫叶 • 影视","type": 3,"api": "csp_FengYe","ext": "https://www.vip1949.com/"},
     {"key": "爱看机器人","name": "爱看 • 影视","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "面包影视","name": "面包 • 影视","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html","分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47","简介": "简介：&&"}},
-    {"key": "永乐影视","name": "永乐 • 影视","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "电影$1#电视剧$2#综艺$3#动漫$4","类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43","分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"}},
     {"key": "1905","name": "1905 • 影视","type": 3,"api": "csp_Web1905","searchable": 1,"quickSearch": 0,"filterable": 0},
     {"key": "番社动漫","name": "番社 • 动漫","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","主页url": "https://dora.xiaoxinbk.com/","数组": "class=\"card-img-bili\"&&</a>","标题": "alt=\"&&\"","图片": "data-url=\"&&\"","链接": "href=\"&&\"","线路标题": "mt-0\">&&</h3>","播放数组": "class=\"card-body button-list\"&&</div>","播放列表": "<a&&a>","播放链接": "href=\"&&\"","播放标题": ">&&</","分类url": "https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}","分类": "全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30","剧情": "哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33","排序": "全部$0#完结$2#连载$1#待定$-1"},"style": {"type": "list"}},
     {"key": "双星99","name": "双星 • 动漫","type": 3,"api": "csp_App99","ext": {"host": "http://111.180.139.119:19987/app/bn","LoginPath": "/app/log","versionName": "6.4.9","name": "双子星动漫","package": "com.haiwang.liangxia.my.ym","buildNumber": "2001","buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"}},
