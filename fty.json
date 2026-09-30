@@ -1,6 +1,6 @@
 {
-  "spider": "./jar/fan.txt;md5;e959d9455533a04af01a15c4eb1b78ea",
-  "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
+  "spider": "./jar/fan.txt;md5;2cc088afa757ba8bafffcfbab4b73ccc",
+  "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {"key": "点我切源","name": "豆豆┃片单","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MDrive","name": "🗂我的云盘┃配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
