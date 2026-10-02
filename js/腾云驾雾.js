@@ -906,24 +906,121 @@ var rule = {
 
             setResult(d);
         } else {
-            // 其他分类使用原有的HTML解析逻辑
-            let html = fetch(input, fetch_params);
-            let $ = pdfa(html, '.list_item');
-            $.forEach(function(it) {
-                let item = pdfh(it, 'a&&data-float');
-                let title = pdfh(it, 'img&&alt');
-                let img = pdfh(it, 'img&&src');
-                let desc = pdfh(it, 'a&&Text');
-                if (item && title) {
-                    d.push({
-                        title: title,
-                        img: img,
-                        desc: desc,
-                        url: item
-                    });
+            // 其他分类：腾讯频道新版接口 pbaccess getPage（旧 /x/bu/pagesheet/list 已全 404，
+            // 故此前仅短剧有数据）。首页请求拿锚点 page_context，再带筛选请求其“第二页”
+            // 即影片网格；page_context 续页。
+            let channelMap = {
+                movie: '100173', tv: '100113', mini_series: '120188',
+                variety: '100109', cartoon: '100119', child: '100150', doco: '100105'
+            };
+            let pageId = channelMap[fyclass] || fyclass;
+            let apiUrl = 'https://pbaccess.video.qq.com/trpc.vector_layout.page_view.PageService/getPage?video_appid=3000010&vversion_platform=2';
+            let apiHdr = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+                'Content-Type': 'application/json',
+                'Origin': 'https://v.qq.com',
+                'Referer': 'https://v.qq.com/channel/' + fyclass
+            };
+            let mkBody = function(ctx, filterValue) {
+                let pp = {
+                    page_type: 'channel', page_id: pageId, scene: 'channel',
+                    new_mark_label_enabled: '1', vl_to_mvl: '1'
+                };
+                let bp = {
+                    platform_id: '2', caller_id: '3000010', data_mode: 'default',
+                    user_mode: 'default', page_type: 'channel', page_id: pageId,
+                    scene: 'channel', new_mark_label_enabled: '1'
+                };
+                if (filterValue) {
+                    pp.filter_value = filterValue;
+                    bp.filter_value = filterValue;
+                }
+                return {
+                    page_params: pp,
+                    page_bypass_params: { params: bp, scene: 'channel', app_version: '' },
+                    page_context: ctx || null
+                };
+            };
+            // filter_value（新接口键：sort/itype/characteristic/iyear/year/iarea…）
+            let flKeys = ['sort', 'itype', 'characteristic', 'iyear', 'year', 'iarea', 'area', 'sex', 'prefer', 'identity', 'attraction', 'story', 'feature'];
+            let fparts = [];
+            flKeys.forEach(function(k) {
+                if (fl && fl[k] !== undefined && fl[k] !== null && fl[k] !== '' && fl[k] !== '-1') {
+                    fparts.push(k + '=' + fl[k]);
                 }
             });
-            setResult(d);
+            if (fparts.length === 0) fparts.push('sort=75');
+            let filterValue = fparts.join('&');
+            let cacheKey = 'ty_ctx_' + pageId + '_' + filterValue;
+            let ctx = null;
+            if (fypage > 1) {
+                try {
+                    let cached = storage0.getItem(cacheKey);
+                    if (cached) {
+                        let o = JSON.parse(cached);
+                        if (o.page === fypage - 1 && o.next) ctx = o.next;
+                    }
+                } catch (e) {}
+            } else {
+                try { storage0.setItem(cacheKey, ''); } catch (e) {}
+            }
+            if (!ctx) {
+                // 首页请求取锚点（网格在其 page_context 之后）
+                let home = JSON.parse(request(apiUrl, {
+                    body: JSON.stringify(mkBody(null, '')),
+                    headers: apiHdr,
+                    method: 'POST'
+                }));
+                ctx = (home.data && home.data.page_context) || null;
+            }
+            let resp = JSON.parse(request(apiUrl, {
+                body: JSON.stringify(mkBody(ctx, filterValue)),
+                headers: apiHdr,
+                method: 'POST'
+            }));
+            let data = resp.data || {};
+            if (data.has_next_page && data.page_context) {
+                try {
+                    storage0.setItem(cacheKey, JSON.stringify({ page: fypage, next: data.page_context }));
+                } catch (e) {}
+            }
+            // 递归收集视频条目（各频道卡片结构不一：pc_video/pc_shelves/…，统一按
+            // params.cid + 标题识别）
+            let items = [];
+            let walk = function(o) {
+                if (!o || typeof o !== 'object') return;
+                if (Array.isArray(o)) {
+                    for (let i = 0; i < o.length; i++) walk(o[i]);
+                    return;
+                }
+                let p = o.params;
+                if (p && typeof p === 'object' && p.cid) {
+                    let title = p.title || p.name || '';
+                    if (title) {
+                        let img = p.cut_image_url || p.image_url || p.pic || p.cover || '';
+                        if (typeof img === 'string' && img.indexOf('http://') === 0) img = 'https://' + img.slice(7);
+                        let desc = '';
+                        try {
+                            if (p.mark_label_list) {
+                                let m = typeof p.mark_label_list === 'string' ? JSON.parse(p.mark_label_list) : p.mark_label_list;
+                                if (m && m.mark_label_list && m.mark_label_list.length > 0) desc = m.mark_label_list[0].prime_text || '';
+                            }
+                        } catch (e) {}
+                        items.push({ title: title, img: img, desc: desc, url: p.cid });
+                    }
+                }
+                for (let k in o) walk(o[k]);
+            };
+            walk(data.CardList || data);
+            let seen = {};
+            let dd = [];
+            items.forEach(function(it) {
+                if (!seen[it.url]) {
+                    seen[it.url] = 1;
+                    dd.push(it);
+                }
+            });
+            setResult(dd);
         }
     }),
     二级: $js.toString(() => {
