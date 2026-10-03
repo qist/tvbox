@@ -27,6 +27,7 @@ class Spider(Spider):
         self.session = requests.Session()
         self.session.headers.update(self.header)
         self._token = ''
+        self._res = ''  # 封面资源域（window.RDUL 里测速选出的最快 vres.* 主机）
         self.host = self.hosts[0]
         self._ensure_host()
 
@@ -99,7 +100,41 @@ class Spider(Spider):
             return ''
         if src.startswith('http'):
             return src
-        return self.host + src
+        # 封面是站内相对路径 /vod1/vod/cover/...，真实主机在 window.RDUL
+        # （vres.* 资源域，站点测速选最快；直挂站内域会 403/挑战页）。
+        return self._res_base() + src
+
+    def _res_base(self):
+        """选一个可用的封面资源域（window.RDUL 候选 → heartbeat 测速取最快）。"""
+        if self._res:
+            return self._res
+        hosts = []
+        try:
+            r = self.session.get(
+                'https://vf.esadj.com/vod_pc_static_ncat/js/rdul.js',
+                timeout=8)
+            m = re.search(r'RDUL\s*=\s*\[(.*?)\]', r.text, re.S)
+            if m:
+                hosts = re.findall(r'"(https?://[^"]+)"', m.group(1))
+        except Exception:
+            pass
+        if not hosts:
+            hosts = ['https://vres.cyscyy.com',
+                     'https://vres.enbymae.com',
+                     'https://vres.zyxpedu.com']
+        best, best_t = '', 1e9
+        for h in hosts:
+            try:
+                t0 = time.time()
+                rr = self.session.get(h + '/vod1/heartbeat.check', timeout=5)
+                if rr.status_code == 200:
+                    dt = time.time() - t0
+                    if dt < best_t:
+                        best, best_t = h, dt
+            except Exception:
+                continue
+        self._res = best or hosts[0]
+        return self._res
 
     def _parse_videos(self, html):
         """解析 module-item 列表 / search-result-item 搜索项"""
