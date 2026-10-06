@@ -354,6 +354,11 @@ class TVBox本地构建器:
         if not self.加载数据():
             return False
 
+        # sites 为空时直接报错终止，避免后续步骤执行
+        if not self.数据.get('sites'):
+            print("✗ 配置错误: \"sites\" 为空，终止构建")
+            return False
+
         # 创建目录结构
         self.创建目录结构()
 
@@ -393,7 +398,8 @@ def main():
     输出目录 = sys.argv[2] if len(sys.argv) > 2 else "output"
 
     构建器 = TVBox本地构建器(输入文件, 输出目录)
-    构建器.构建()
+    if not 构建器.构建():
+        sys.exit(1)
 
 
 if __name__ == "__main__":
