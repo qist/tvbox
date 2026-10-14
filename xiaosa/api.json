@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;7d204aeb2bc2d6c89aaa18460492b67d",
+  "spider": "./spider.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -91,6 +91,7 @@
     {"key": "咖啡体育","name": "咖啡 • 体育","type": 3,"api": "csp_SportsKafei","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "呦呦DJ","name": "呦呦 • DJ","type": 3,"api": "csp_Djuu","searchable": 1,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "蜻蜓FM","name": "蜻蜓 • FM","type": 3,"api": "csp_QingtingFM","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
+    {"key": "听友听书","name": "听友 • 听书","type": 3,"api": "csp_TingTingyou","searchable": 1,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "世界听书","name": "世界 • 听书","type": 3,"api": "csp_TingShijie","searchable": 1,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "堇夏听书","name": "堇夏 • 听书","type": 3,"api": "csp_TingJinxia","searchable": 1,"quickSearch": 0,"changeable": 0,"ext": "https://m.ting15.com","style": {"type": "list"}},
     {"key": "博看听书","name": "博看 • 听书","type": 3,"api": "csp_TingBokan","searchable": 1,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
