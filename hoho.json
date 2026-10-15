@@ -7,7 +7,7 @@
   "wallpaper": "https://wallpaper-1tg.pages.dev/",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
-    {"key": "豆瓣","name": "火火 • 首页","type": 3,"api": "csp_Douban","searchable": 0},
+    {"key": "豆瓣","name": "豆瓣• 首页","type": 3,"api": "csp_Douban","searchable": 0},
     {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.597}},
     {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
     {"key": "预告","name": "新片 • 预告","type": 3,"api": "csp_YGP","searchable": 0},
