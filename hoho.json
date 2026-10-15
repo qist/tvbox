@@ -97,12 +97,6 @@
   "images.67c6c7a.com=fan.cloudflare.182682.xyz"
 ],
   "lives": [
-    {"name": "火火直播","type": 0,"url": "https://gitee.com/huohuo8/tv/raw/master/zhibo.txt","ua": "bingcha/1.1 (mianfeifenxiang)","playerType": 2},
-    {"name": "综合直播","type": 0,"url": "http://193.123.86.190:14888/TV/iptv.php","playerType": 2},
-    {"name": "Guovin","type": 0,"url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u","playerType": 2},
-    {"name": "天浪线路","type": 0,"url": "http://210.245.166.84:1299/live/live1.txt","playerType": 2},
-    {"name": "易发线路","type": 0,"url": "https://wget.la/https://github.com/fafa002/yf2025/blob/main/yiyifafa.txt","playerType": 2},
-    {"name": "天牧线路","type": 0,"url": "https://wget.la/https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt","playerType": 2},
-    {"name": "Kimentanm","type": 0,"url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2}
+    {"name": "火火直播","type": 0,"url": "https://gitee.com/huohuo8/tv/raw/master/zhibo.txt","ua": "bingcha/1.1 (mianfeifenxiang)","playerType": 2}
   ]
 }
