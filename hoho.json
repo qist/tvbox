@@ -1,14 +1,13 @@
 {
   "spider": "./jar/spider.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
   "lives": [
-    {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
-    {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
-    {"name": "ipv6","type": 0,"url": "./tvboxtv.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
+    {"name": "火火直播","type": 0,"url": "https://gitee.com/huohuo8/tv/raw/master/zhibo.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
+    {"name": "Guovin","type": 0,"url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
   "wallpaper": "https://wallpaper-1tg.pages.dev/",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
-    {"key": "drpy_js_豆瓣","name": "搜索 • 豆瓣","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/drpy.js","searchable": 1,"quickSearch": 0,"changeable": 0},
+    {"key": "点我切源","name": "火火┃主页","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.597}},
     {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
     {"key": "预告","name": "新片 • 预告","type": 3,"api": "csp_YGP","searchable": 0},
