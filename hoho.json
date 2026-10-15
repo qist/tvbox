@@ -1,7 +1,7 @@
 {
   "spider": "./jar/spider.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
   "lives": [
-    {"name": "火火直播","type": 0,"url": "https://gitee.com/huohuo8/tv/raw/master/zhibo.txt","ua": "bingcha/1.1 (mianfeifenxiang)","playerType": 2}
+    {"name": "火火直播","type": 0,"url": "https://gitee.com/huohuo8/tv/raw/master/zhibo.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
   "wallpaper": "https://wallpaper-1tg.pages.dev/",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
