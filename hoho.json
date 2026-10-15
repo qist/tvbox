@@ -1,7 +1,11 @@
 {
-  "spider": "./spider.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
-  "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
-  "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
+  "spider": "./jar/spider.jar;md5;bf32cf121ae92e49326a9fed7a82b76b",
+  "lives": [
+    {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
+    {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
+    {"name": "ipv6","type": 0,"url": "./tvboxtv.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
+  ],
+  "wallpaper": "https://wallpaper-1tg.pages.dev/",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
     {"key": "豆瓣","name": "豆瓣 • 首页","type": 3,"api": "csp_Douban","searchable": 0},
@@ -15,7 +19,6 @@
     {"key": "苹果","name": "苹果 • APP","type": 3,"api": "csp_AppDrama","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"appName": "小苹果","commonKey": "ed5fdsgucxumegqa","publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB","dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==","dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E","pkg": "com.juechufsh.android.xpg1","host": "","site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt","version": "1.0.0.3","decrypt": "0"}},
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "瓜子影视","name": "瓜子 • 影视","type": 3,"api": "csp_Gz360"},
-    {"key": "厂长影视","name": "厂长 • 影视","type": 3,"api": "csp_Czsapp","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://cz01.vip"},
     {"key": "金牌影视","name": "金牌 • 影视","type": 3,"api": "csp_Jpys","ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"},
     {"key": "指南","name": "指南 • 4K","type": 3,"api": "csp_4KZhinan","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "蜡笔","name": "蜡笔 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://www.fmcf.fun","https://www.mmpanpan.site","http://tvpanpan.site","http://www.tvpanpan.site"]},"timeout": 60},
@@ -35,6 +38,7 @@
     {"key": "双星","name": "双星 • 4K","type": 3,"api": "csp_ShuangXing","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "卡卡","name": "卡卡 • 4K","type": 3,"api": "csp_KKPan","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "一起影视","name": "一起 • APP","type": 3,"api": "csp_AppYQK","searchable": 1,"quickSearch": 1,"filterable": 0},
+    {"key": "厂长影视","name": "厂长 • 影视","type": 3,"api": "csp_Czsapp","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://cz01.vip"},
     {"key": "半日99","name": "半日 • APP","type": 3,"api": "csp_App99","ext": {"host": "http://103.217.190.91:19987/app/bn","versionName": "3.5.8","name": "半日闲","package": "com.yf.lelian","buildNumber": "2001","buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"}},
     {"key": "布布","name": "布布 • APP","type": 3,"api": "csp_YunDuo","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "https://323433ssdfd.top","finger": "WF-2c064bc5b3400788f31b848849bc3a60f835423ba2dfe69d7ea93974c216e4f2","aid": "com.web.player","sk": "WEB-50a8e9c84a1dc05669a692ded99a2dac46527229e607a7be15db88dbc59059d1","client": "8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a","sign": "ddtvf65f3a83d6d9ad6f"}},
     {"key": "天堂","name": "天堂 • APP","type": 3,"api": "csp_AppDrama","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"appName": "电影天堂","publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB","dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==","dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E","pkg": "com.dytiantang.one","host": "","site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt","version": "3.0.0.7","decrypt": "0"}},
