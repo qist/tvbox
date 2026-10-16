@@ -1,8 +1,8 @@
 {
-  "spider": "./jar/fan.txt;md5;25f4460aed52987f02865f02a1e83aa8",
+  "spider": "./jar/fan.txt;md5;aa8d37525617af470b3b8dfc91db8669",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
-    {"key": "点我切源","name": "豆豆┃片单","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
+    {"key": "点我切源","name": "豆豆┃片单 <修复漫剧、海绵>","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
     {"key": "MDrive","name": "🗂我的云盘┃配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "玩偶","name": "👽玩偶哥哥┃4K弹幕","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
     {"key": "YGP","name": "🚀荐影┃预告片","type": 3,"api": "csp_YGPGuard","searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -11,6 +11,7 @@
     {"key": "光影","name": "🌞光影┃不卡","type": 3,"api": "csp_T4Guard","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="},
     {"key": "原创","name": "👒原创┃不卡","type": 3,"api": "csp_YCyzGuard","timeout": 15,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "厂长","name": "📔厂长┃不卡","type": 3,"api": "csp_NewCzGuard","timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key": "海绵","name": "🐬海绵┃不卡","type": 3,"api": "csp_HmysGuard","timeout": 10,"playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "立播","name": "🌟立播┃不卡","type": 3,"api": "csp_LibvioGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt","siteUrl": "https://www.libvio.pw/"}},
     {"key": "瓜子","name": "👀瓜子┃不卡","type": 3,"api": "csp_AppgzGuard","timeout": 15,"playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "比特","name": "🍄比特┃不卡","type": 3,"api": "csp_BttwooGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
@@ -23,7 +24,7 @@
     {"key": "荐片","name": "🥝荐片┃多线","type": 3,"api": "csp_JPJGuard","timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 0},
     {"key": "奥特","name": "🏝奥特┃多线","type": 3,"api": "csp_AueteGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "新6V","name": "🧲新6V┃磁力","type": 3,"api": "csp_SixVGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": "https://www.xb6v.com/"},
-    {"key": "AiDj","name": "❤️AI┃短漫剧","type": 3,"api": "csp_AiDjGuard","ext": {"type": "video","name": "短剧","DanMu": false},"indexs": 0,"quickSearch": 1,"searchable": 1,"changeable": 0},
+    {"key": "AiDj","name": "❤️AI┃短漫剧","type": 3,"api": "csp_AiDjGuard","ext": {"type": "video","name": "短剧","danMu": false},"indexs": 0,"quickSearch": 1,"searchable": 1,"changeable": 0},
     {"key": "咕咕","name": "🦉咕咕┃动漫","type": 3,"api": "csp_AppSxGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo"},
     {"key": "Dm84","name": "🚌巴士┃动漫","type": 3,"api": "csp_Dm84Guard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
     {"key": "看球","name": "⚽八八┃看球","type": 3,"api": "csp_KanqiuGuard","timeout": 10,"searchable": 0,"changeable": 0,"style": {"type": "list"}},
