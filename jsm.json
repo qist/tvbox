@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+  "spider": "./jar/spider.jar;md5;ea98a70ee6967e433c24e4941ede7fd8",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -100,6 +100,7 @@
     {"key": "飞球体育","name": "飞球 • 体育","type": 3,"api": "csp_SportsFeiqiu","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "瓜子体育","name": "瓜子 • 体育","type": 3,"api": "csp_SportsGuazi","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "咖啡体育","name": "咖啡 • 体育","type": 3,"api": "csp_SportsKafei","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
+    {"key": "球通体育","name": "球通 • 体育","type": 3,"api": "csp_SportQiutong","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "呦呦DJ","name": "呦呦 • DJ","type": 3,"api": "csp_Djuu","searchable": 1,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "蜻蜓FM","name": "蜻蜓 • FM","type": 3,"api": "csp_QingtingFM","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "听友听书","name": "听友 • 听书","type": 3,"api": "csp_TingTingyou","searchable": 1,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
