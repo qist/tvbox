@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;f302b3d8b3b84ad823a720966d9a1dfc",
+  "spider": "./jar/spider.jar;md5;c1978e5cec469f66f07efd37d39ec26a",
   "lives": [
     {"name": "migu","type": 0,"url": "https://develop202.github.io/migu_video/interface.txt","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
     {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"},
@@ -50,6 +50,7 @@
     {"key": "虎斑","name": "虎斑 • 4K","type": 3,"api": "csp_PanWebShare","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["http://xhban.xyz","http://38.76.197.172:16969"]},"timeout": 60},
     {"key": "花卷","name": "花卷 • 4K","type": 3,"api": "csp_PanWebShareHJ","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"site": ["https://www.hjzhencai.top","https://www.huanjuanwp.shop"]},"timeout": 60},
     {"key": "种子","name": "种子 • 4K","type": 3,"api": "csp_SeedHub","searchable": 1,"quickSearch": 0,"ext": {"site": ["https://sidhub.cc","https://seeduck.cc","https://hubdog.cc","http://104.243.25.80"]},"timeout": 60},
+    {"key": "搬运","name": "搬运 • 4K","type": 3,"api": "csp_BanYunDao","searchable": 1,"quickSearch": 1,"filterable": 1,"timeout": 60},
     {"key": "指南","name": "指南 • 4K","type": 3,"api": "csp_4KZhinan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"site": ["https://4kzn.cc"]},"timeout": 60},
     {"key": "小丑","name": "小丑 • 4K","type": 3,"api": "csp_4KZhinan","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"site": ["https://4kxc.com"]},"timeout": 60},
     {"key": "茉莉","name": "茉莉 • 4K","type": 3,"api": "csp_HDmoli","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"site": ["https://www.hdmoli.com","https://www.hdmoli.pro"]},"timeout": 60},
@@ -92,9 +93,6 @@
     {"key": "123云盘","name": "123 • 云盘","type": 3,"api": "csp_Pan123","searchable": 0,"filterable": 0,"changeable": 0,"style": {"type": "list","ratio": 1.433}},
     {"key": "觅盘","name": "觅盘 • 搜索","type": 3,"api": "csp_MiPan","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "盘搜","name": "盘搜 • 搜索","type": 3,"api": "csp_PanSou","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
-    {"key": "百酷","name": "百酷 • 搜索","type": 3,"api": "csp_Baiku","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
-    {"key": "酷乐","name": "酷乐 • 搜索","type": 3,"api": "csp_KuLe","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
-    {"key": "鬼鬼","name": "鬼鬼 • 搜索","type": 3,"api": "csp_GuiGui","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "趣盘","name": "趣盘 • 搜索","type": 3,"api": "csp_QuPanSo","searchable": 1,"quickSearch": 0,"filterable": 0,"timeout": 60},
     {"key": "88看球","name": "88 • 看球","type": 3,"api": "csp_Sports88","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
     {"key": "飞球体育","name": "飞球 • 体育","type": 3,"api": "csp_SportsFeiqiu","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
