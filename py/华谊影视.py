@@ -24,16 +24,29 @@ except Exception:
 
 
 # ==================== 配置参数 ====================
+# 逆向自 华谊影视_1.0.0.9.apk (com.muyue.tool, versionCode 1004)
 CONFIG = {
     "appName": "华谊",
-    "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
+    # 1.0.0.9 新版 RSA 公钥 (APK: MaxApplication HIJLKMO 参数, AES解密获得)
+    "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
     "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
     "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
     "pkg": "com.muyue.tool",
-    "version": "1.0.0.4",
+    "version": "1.0.0.9",
     "decrypt": "1",
-    "site": "https://vip.123pan.cn/1851089669/oss/az5.txt"
+    # 域名发现地址列表 (APK 内置 OSS_URLS 解密获得, 腾讯云COS优先, 全部失败时逐个尝试)
+    "site": [
+        "https://az1-1358827124.cos.ap-shanghai.myqcloud.com/az1.txt",
+        "https://az2-1358827124.cos.ap-guangzhou.myqcloud.com/az2.txt",
+        "https://az3-1358827124.cos.ap-beijing.myqcloud.com/az3.txt",
+        "https://vip.123pan.cn/1851089669/oss/az4.txt",
+        "https://vip.123pan.cn/1851089669/oss/az5.txt",
+        "https://az4-1358827124.cos.ap-hongkong.myqcloud.com/az4.txt"
+    ]
 }
+
+# 域名发现地址全部失效时的兜底 host (当前上游已停服)
+DEFAULT_HOST = "http://43.240.158.156:8002"
 
 # 固定AES密钥 (用于publicParams头加密)
 PARAMS_AES_KEY = "ed5fdsgucxumegqa"
@@ -345,7 +358,7 @@ class Spider(_BaseSpider):
         self.data_key = ""
         self.data_iv = ""
         self.version = ""
-        self.site = ""
+        self.sites = []
         self.session = requests.Session()
         self.session.verify = False
         self.session.headers.update({'User-Agent': 'okhttp/3.12.1'})
@@ -362,36 +375,43 @@ class Spider(_BaseSpider):
         if not isinstance(ext, dict):
             ext = CONFIG
 
-        self.public_key = ext.get("publicKey", CONFIG["publicKey"])
-        self.data_key = ext.get("dataKey", CONFIG["dataKey"])
-        self.data_iv = ext.get("dataIv", CONFIG["dataIv"])
-        self.pkg = ext.get("pkg", CONFIG["pkg"])
-        self.app_name = ext.get("appName", CONFIG["appName"])
-        self.decrypt_flag = ext.get("decrypt", CONFIG["decrypt"])
-        self.version = ext.get("version", CONFIG["version"])
-        self.site = ext.get("site", CONFIG["site"])
-        self.host = ext.get("host", "")
+        self.public_key = str(ext.get("publicKey", CONFIG["publicKey"]))
+        self.data_key = str(ext.get("dataKey", CONFIG["dataKey"]))
+        self.data_iv = str(ext.get("dataIv", CONFIG["dataIv"]))
+        self.pkg = str(ext.get("pkg", CONFIG["pkg"]))
+        self.app_name = str(ext.get("appName", CONFIG["appName"]))
+        self.decrypt_flag = str(ext.get("decrypt", CONFIG["decrypt"]))
+        self.version = str(ext.get("version", CONFIG["version"]))
+        sites = ext.get("site", CONFIG["site"])
+        if isinstance(sites, str):
+            sites = [sites]
+        self.sites = [str(s) for s in sites if s]
+        self.host = str(ext.get("host", ""))
 
-        # 从 site URL 获取域名 (TVBox环境可能无法访问,失败则用默认)
-        if not self.host and self.site:
-            try:
-                resp = self.session.get(self.site, timeout=10)
-                domain = resp.json().get("domain", "")
-                if domain:
-                    self.host = domain
-            except:
-                pass
+        # 从 site URL 列表获取域名 (逐个尝试, 全部失败则用默认)
+        if not self.host:
+            for site in self.sites:
+                try:
+                    resp = self.session.get(site, timeout=10)
+                    domain = resp.json().get("domain", "")
+                    if domain:
+                        self.host = domain
+                        break
+                except Exception as e:
+                    print(f"get domain from {site} failed: {e}")
 
         if not self.host:
-            self.host = "http://43.240.158.156:8002"
+            self.host = DEFAULT_HOST
 
-        # Protobuf端点使用publicKey直接签名即可工作
-        # zone key获取失败不影响protobuf请求(publicKey作为fallback)
-        self.use_proto = True
+        # Protobuf端点需要RSA密钥交换(zone key)成功后才启用;
+        # 失败时回落JSON端点(无需RSA, 已验证可用)
+        self.use_proto = False
         try:
             self._get_zone_key()
-        except Exception:
-            pass
+            if self.zone_key:
+                self.use_proto = True
+        except Exception as e:
+            print(f"_get_zone_key failed: {e}, fallback to JSON endpoints")
 
     def _get_device_info(self):
         uid = uuid.uuid4().hex.upper()
@@ -437,7 +457,7 @@ class Spider(_BaseSpider):
         resp = self.session.post(f"{self.host}/api/v5/find/app/zone", data=rsa_req, headers=headers, timeout=15)
         code, msg, data_bytes = decode_api_result(resp.content)
         if code != 200:
-            raise Exception(f"zone key failed: {msg}")
+            raise Exception(f"zone key failed (host={self.host}): {msg}")
         rsa_public = decode_rsa_public(data_bytes)
         self.zone_key = rsa_public['str2'] + rsa_public['str3'] + rsa_public['str4'] + rsa_public['str5']
 
