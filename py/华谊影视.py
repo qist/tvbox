@@ -24,32 +24,31 @@ except Exception:
 
 
 # ==================== 配置参数 ====================
-# 逆向自 华谊影视_1.0.0.9.apk (com.muyue.tool, versionCode 1004)
+# 对齐 spider.jar 中 csp_AppDrama (华谊 • APP) 的 ext 配置 (v6.0.0.1)
 CONFIG = {
     "appName": "华谊",
-    # 1.0.0.9 新版 RSA 公钥 (APK: MaxApplication HIJLKMO 参数, AES解密获得)
     "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-    "dataKey": "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
+    "dataKey": "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
     "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-    "pkg": "com.muyue.tool",
-    "version": "1.0.0.9",
-    "decrypt": "1",
-    # 域名发现地址列表 (APK 内置 OSS_URLS 解密获得, 腾讯云COS优先, 全部失败时逐个尝试)
+    "pkg": "com.lxf.sncgtzxyx",
+    "version": "6.0.0.1",
+    "decrypt": "0",
+    # 域名发现地址 (首个为 csp_AppDrama 同源, 其余为备份; 返回 {"domain": ..., "enabled": ...})
     "site": [
+        "https://1851089669.cdn.123clouddisk.com/1851089669/44107727",
         "https://az1-1358827124.cos.ap-shanghai.myqcloud.com/az1.txt",
-        "https://az2-1358827124.cos.ap-guangzhou.myqcloud.com/az2.txt",
-        "https://az3-1358827124.cos.ap-beijing.myqcloud.com/az3.txt",
-        "https://vip.123pan.cn/1851089669/oss/az4.txt",
-        "https://vip.123pan.cn/1851089669/oss/az5.txt",
-        "https://az4-1358827124.cos.ap-hongkong.myqcloud.com/az4.txt"
+        "https://vip.123pan.cn/1851089669/oss/az4.txt"
     ]
 }
 
-# 域名发现地址全部失效时的兜底 host (当前上游已停服)
-DEFAULT_HOST = "http://43.240.158.156:8002"
+# 域名发现地址全部失效时的兜底 host
+DEFAULT_HOST = "http://43.240.158.154:18004"
 
 # 固定AES密钥 (用于publicParams头加密)
 PARAMS_AES_KEY = "ed5fdsgucxumegqa"
+
+# 网页型播放地址 (需WebView/嗅探, parse=1)
+WEBPAGE_URL_RE = r'(youku\.com|v\.qq\.com|bilibili\.com|iqiyi\.com|mgtv\.com|sohu\.com|le\.com)'
 
 
 # ==================== AES 加密工具 ====================
@@ -362,7 +361,6 @@ class Spider(_BaseSpider):
         self.session = requests.Session()
         self.session.verify = False
         self.session.headers.update({'User-Agent': 'okhttp/3.12.1'})
-        self.use_proto = False  # 是否使用protobuf端点
 
     def init(self, ext_text=""):
         if not ext_text:
@@ -403,15 +401,16 @@ class Spider(_BaseSpider):
         if not self.host:
             self.host = DEFAULT_HOST
 
-        # Protobuf端点需要RSA密钥交换(zone key)成功后才启用;
-        # 失败时回落JSON端点(无需RSA, 已验证可用)
-        self.use_proto = False
+        # RSA密钥交换(zone key), 失败重试一次; 网页型解析与
+        # category/detail/search/player 均依赖 proto v5 端点
         try:
             self._get_zone_key()
-            if self.zone_key:
-                self.use_proto = True
         except Exception as e:
-            print(f"_get_zone_key failed: {e}, fallback to JSON endpoints")
+            print(f"_get_zone_key failed: {e}, retry once")
+            try:
+                self._get_zone_key()
+            except Exception as e2:
+                print(f"_get_zone_key retry failed: {e2}")
 
     def _get_device_info(self):
         uid = uuid.uuid4().hex.upper()
@@ -466,7 +465,7 @@ class Spider(_BaseSpider):
         device_info = self._get_device_info()
         timestamp = int(time.time() * 1000)
         random_str = random_string(16)
-        v_app = device_info.get("vApp", "1009")
+        v_app = device_info.get("vApp", "3019")
         sig = rsa_encrypt(f"{timestamp}{random_str}{v_app}", rsa_key)
         sig_encrypted = aes_ecb_encrypt(f"{timestamp}{random_str}", self.data_iv)
         device_info["sig"] = sig
@@ -507,12 +506,6 @@ class Spider(_BaseSpider):
         combined = random_str + encrypted
         return encode_secure_request(combined[:20], combined[20:], fake_str, timestamp, random_str)
 
-    def _decrypt_response_data(self, data_str):
-        if self.decrypt_flag == "0":
-            return data_str
-        intermediate = aes_ecb_decrypt(data_str, self.data_key)
-        return aes_ecb_decrypt(intermediate, self.data_iv)
-
     def _get_json(self, path):
         url = f"{self.host}{path}"
         headers = self._build_json_headers()
@@ -526,13 +519,14 @@ class Spider(_BaseSpider):
         resp = self.session.post(url, data=body, headers=headers, timeout=15)
         return resp.content
 
-    def _get_json_decrypted(self, path):
+    def _get_json_data(self, path):
         resp_text = self._get_json(path)
         data = json.loads(resp_text)
         data_val = data.get("data", "")
         # data 可能是加密字符串、明文JSON、列表或None
         if isinstance(data_val, str) and data_val and self.decrypt_flag != "0":
-            return self._decrypt_response_data(data_val)
+            intermediate = aes_ecb_decrypt(data_val, self.data_key)
+            return aes_ecb_decrypt(intermediate, self.data_iv)
         return data_val
 
     # ==================== TVBox 接口实现 ====================
@@ -542,7 +536,7 @@ class Spider(_BaseSpider):
         filters = {}
 
         try:
-            data_val = self._get_json_decrypted("/api/v3/drama/getCategory?orderBy=type_id")
+            data_val = self._get_json_data("/api/v3/drama/getCategory?orderBy=type_id")
             if isinstance(data_val, str):
                 categories = json.loads(data_val)
             elif isinstance(data_val, list):
@@ -589,13 +583,13 @@ class Spider(_BaseSpider):
     def homeVideoContent(self):
         videos = []
         try:
-            data_val = self._get_json_decrypted("/api/ex/v3/security/tag/list")
+            data_val = self._get_json_data("/api/ex/v3/security/tag/list")
             tags = json.loads(data_val) if isinstance(data_val, str) else (data_val if isinstance(data_val, list) else [])
             if isinstance(tags, list):
                 for tag in tags:
-                    for section in tag.get("sections", []):
-                        for vod in section.get("vodList", []):
-                            cover = vod.get("coverImage", {})
+                    for section in (tag.get("sections") or []):
+                        for vod in (section.get("vodList") or []):
+                            cover = vod.get("coverImage") or {}
                             videos.append({
                                 "vod_id": str(vod.get("id", "")),
                                 "vod_name": vod.get("name", ""),
@@ -611,40 +605,27 @@ class Spider(_BaseSpider):
         videos = []
 
         try:
-            if self.use_proto:
-                params = {
-                    "pagesize": "21",
-                    "typeId1": str(tid),
-                    "page": page,
-                    "vodOrderBy": extend.get("extend_sort", "最新") if extend else "最新",
-                    "vodArea": extend.get("area", "") if extend else "",
-                    "vodLang": extend.get("lang", "") if extend else "",
-                    "vodClass": extend.get("class", "") if extend else "",
-                    "vodYear": extend.get("year", "") if extend else ""
-                }
-                resp_data = self._post_proto("/api/proto/v5/drama/category", params)
-                code, msg, data_bytes = decode_api_result(resp_data)
-                drama_list = decode_drama_bean_page(data_bytes)
-                for drama in drama_list:
-                    cover = drama.get("cover_image", {})
-                    videos.append({
-                        "vod_id": str(drama.get("id", "")),
-                        "vod_name": drama.get("name", ""),
-                        "vod_pic": cover.get("thumbnail_path", cover.get("path", "")),
-                        "vod_remarks": drama.get("remark", "")
-                    })
-            else:
-                params = f"typeId1={tid}&page={page}&pagesize=21"
-                data_val = self._get_json_decrypted(f"/api/ex/v3/security/drama/list?{params}")
-                d = json.loads(data_val) if isinstance(data_val, str) else (data_val if isinstance(data_val, dict) else {"list": []})
-                for item in d.get("list", []):
-                    cover = item.get("coverImage", {})
-                    videos.append({
-                        "vod_id": str(item.get("id", "")),
-                        "vod_name": item.get("name", ""),
-                        "vod_pic": cover.get("thumbnailPath", cover.get("path", "")),
-                        "vod_remarks": item.get("remark", "")
-                    })
+            params = {
+                "pagesize": "21",
+                "typeId1": str(tid),
+                "page": page,
+                "vodOrderBy": extend.get("extend_sort", "最新") if extend else "最新",
+                "vodArea": extend.get("area", "") if extend else "",
+                "vodLang": extend.get("lang", "") if extend else "",
+                "vodClass": extend.get("class", "") if extend else "",
+                "vodYear": extend.get("year", "") if extend else ""
+            }
+            resp_data = self._post_proto("/api/proto/v5/drama/category", params)
+            code, msg, data_bytes = decode_api_result(resp_data)
+            drama_list = decode_drama_bean_page(data_bytes)
+            for drama in drama_list:
+                cover = drama.get("cover_image", {})
+                videos.append({
+                    "vod_id": str(drama.get("id", "")),
+                    "vod_name": drama.get("name", ""),
+                    "vod_pic": cover.get("thumbnail_path", cover.get("path", "")),
+                    "vod_remarks": drama.get("remark", "")
+                })
         except Exception as e:
             print(f"categoryContent error: {e}")
 
@@ -653,34 +634,10 @@ class Spider(_BaseSpider):
     def detailContent(self, ids):
         try:
             vod_id = str(ids[0])
-
-            if self.use_proto:
-                resp_data = self._post_proto("/api/proto/v5/drama/getDetail", {"id": vod_id})
-                code, msg, data_bytes = decode_api_result(resp_data)
-                detail = decode_drama_detail_bean(data_bytes)
-                videos = detail.get("videos", [])
-            else:
-                data_val = self._get_json_decrypted(f"/api/ex/v3/security/drama/list?vodId={vod_id}&page=1&pagesize=1")
-                d = json.loads(data_val) if isinstance(data_val, str) else (data_val if isinstance(data_val, dict) else {"list": []})
-                items = d.get("list", [])
-                if not items:
-                    return {"list": []}
-                item = items[0]
-                detail = {
-                    'id': item.get("id", 0),
-                    'name': item.get("name", ""),
-                    'area': item.get("area", ""),
-                    'year': item.get("year", 0),
-                    'director': item.get("director", ""),
-                    'actor': item.get("actor", ""),
-                    'intro': item.get("intro", ""),
-                    'brief': item.get("brief", ""),
-                    'tag': item.get("clazz", ""),
-                    'remark': item.get("remark", ""),
-                    'cover_image': item.get("coverImage", {}),
-                    'videos': item.get("videos", []),
-                }
-                videos = detail.get("videos", [])
+            resp_data = self._post_proto("/api/proto/v5/drama/getDetail", {"id": vod_id})
+            code, msg, data_bytes = decode_api_result(resp_data)
+            detail = decode_drama_detail_bean(data_bytes)
+            videos = detail.get("videos", [])
 
             # 构建播放源 - 按画质排序(4K优先)
             play_sources = {}
@@ -730,36 +687,21 @@ class Spider(_BaseSpider):
 
     def searchContentPage(self, key, quick, pg="1"):
         videos = []
+        page = int(pg) if pg else 1
         try:
-            page = int(pg) if pg else 1
-            if self.use_proto:
-                resp_data = self._post_proto("/api/proto/v5/drama/search", {
-                    "searchKeys": key, "page": str(page), "pagesize": "21"
+            resp_data = self._post_proto("/api/proto/v5/drama/search", {
+                "searchKeys": key, "page": str(page), "pagesize": "21"
+            })
+            code, msg, data_bytes = decode_api_result(resp_data)
+            drama_list = decode_drama_bean_page(data_bytes)
+            for drama in drama_list:
+                cover = drama.get("cover_image", {})
+                videos.append({
+                    "vod_id": str(drama.get("id", "")),
+                    "vod_name": drama.get("name", ""),
+                    "vod_pic": cover.get("thumbnail_path", cover.get("path", "")),
+                    "vod_remarks": drama.get("remark", "")
                 })
-                code, msg, data_bytes = decode_api_result(resp_data)
-                drama_list = decode_drama_bean_page(data_bytes)
-                for drama in drama_list:
-                    cover = drama.get("cover_image", {})
-                    videos.append({
-                        "vod_id": str(drama.get("id", "")),
-                        "vod_name": drama.get("name", ""),
-                        "vod_pic": cover.get("thumbnail_path", cover.get("path", "")),
-                        "vod_remarks": drama.get("remark", "")
-                    })
-            else:
-                encoded_key = quote(key)
-                data_val = self._get_json_decrypted(
-                    f"/api/ex/v3/security/drama/list?searchKeys={encoded_key}&page={page}&pagesize=21"
-                )
-                d = json.loads(data_val) if isinstance(data_val, str) else (data_val if isinstance(data_val, dict) else {"list": []})
-                for item in d.get("list", []):
-                    cover = item.get("coverImage", {})
-                    videos.append({
-                        "vod_id": str(item.get("id", "")),
-                        "vod_name": item.get("name", ""),
-                        "vod_pic": cover.get("thumbnailPath", cover.get("path", "")),
-                        "vod_remarks": item.get("remark", "")
-                    })
         except Exception as e:
             print(f"searchContent error: {e}")
         hasmore = 1 if len(videos) >= 21 else 0
@@ -781,32 +723,22 @@ class Spider(_BaseSpider):
             vod_play_from = play_info.get("vodPlayFrom", "")
             play_url = play_info.get("playUrl", "")
 
-            if self.use_proto:
-                resp_data = self._post_proto("/api/proto/v5/videoUsableUrl", {
-                    "vodPlayFrom": vod_play_from, "playUrl": play_url
-                })
-                code, msg, data_bytes = decode_api_result(resp_data)
-                play_data = decode_parse_play_url(data_bytes)
-                result_url = play_data.get("play_url", "")
-                play_msg = play_data.get("msg", "")
-                # 如果解析失败(返回原始path或错误信息),设置parse=1让播放器嗅探
-                if result_url and result_url != play_url and not play_msg:
-                    return {"parse": 0, "url": result_url, "header": play_data.get("headers", {})}
-                else:
-                    return {"parse": 1, "url": play_url, "header": {}}
-            else:
-                encoded_source = quote(vod_play_from)
-                encoded_path = quote(play_url)
-                data_val = self._get_json_decrypted(
-                    f"/api/ex/v3/security/videoUsableUrl?vodPlayFrom={encoded_source}&playUrl={encoded_path}"
-                )
-                play_data = json.loads(data_val) if isinstance(data_val, str) else (data_val if isinstance(data_val, dict) else {})
-                result_url = play_data.get("playUrl", play_data.get("play_url", ""))
-                play_msg = play_data.get("msg", "")
-                if result_url and result_url != play_url and not play_msg:
-                    return {"parse": 0, "url": result_url, "header": play_data.get("headers", {})}
-                else:
-                    return {"parse": 1, "url": play_url, "header": {}}
+            resp_data = self._post_proto("/api/proto/v5/videoUsableUrl", {
+                "vodPlayFrom": vod_play_from, "playUrl": play_url
+            })
+            code, msg, data_bytes = decode_api_result(resp_data)
+            play_data = decode_parse_play_url(data_bytes)
+            result_url = play_data.get("play_url", "")
+            play_msg = play_data.get("msg", "")
+
+            # 网页型地址(youku/qq/bilibili等)需WebView嗅探, 其余(含direct=1的
+            # 无扩展名直链、m3u8等)直接播放; 解析失败时回退原地址嗅探
+            if (result_url and re.search(WEBPAGE_URL_RE, result_url)
+                    and play_data.get("direct", 0) != 1):
+                return {"parse": 1, "url": result_url, "header": {}}
+            if result_url and not play_msg:
+                return {"parse": 0, "url": result_url, "header": play_data.get("headers", {})}
+            return {"parse": 1, "url": play_url, "header": {}}
         except Exception as e:
             print(f"playerContent error: {e}")
             return {"parse": 0, "url": id, "header": {}}
