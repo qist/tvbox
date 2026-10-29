@@ -3839,7 +3839,31 @@ def _video_list_from_model(model: Mapping[str, Any]) -> Any:
     if isinstance(data, Mapping):
         return _video_list_from_model(data)
     return None
+EPISODE_PREFIX = "hg-episode-v1:"
+# 画质线路（TVBox 多线路展示：$$$ 分隔每个清晰度）
+_HG_QUALITY_LINES = (
+    ("1080", "红果超清"),
+    ("720",  "红果高清"),
+    ("540",  "红果标准"),
+    ("480",  "红果流畅"),
+    ("360",  "红果极速"),
+)
+_QUALITY_LINE_NAME_TO_Q = {
+    "超清": "1080", "高清": "720", "标准": "540",
+    "流畅": "480", "极速": "360", "1080": "1080", "720": "720",
+    "540": "540", "480": "480", "360": "360",
+}
 _QUALITY_ORDER = ("2160", "1440", "1080", "720", "576", "540", "480", "360")
+def _split_episode_token(token: str) -> tuple[str, str]:
+    """把 'hg-episode-v1:<q>:<vid>' 解析为 (清晰度, vid)；兼容旧格式。"""
+    body = str(token or "")
+    if body.startswith(EPISODE_PREFIX):
+        body = body[len(EPISODE_PREFIX):]
+    if ":" in body:
+        head, tail = body.split(":", 1)
+        if head.isdigit():
+            return head, tail
+    return "1080", body
 def _int(value: Any) -> int:
     match = re.search(r"\d+", _text(value))
     return int(match.group()) if match else 0
@@ -4956,15 +4980,22 @@ class Spider(_BaseSpider):
             raise HongguoPluginError("multi_video_detail 无数据")
         video_data = entry.get("video_data") or {}
         vlist = video_data.get("video_list") or []
-        eps = []
-        for idx, item in enumerate(vlist):
+        vids = []
+        for item in vlist:
             if not isinstance(item, Mapping):
                 continue
             vid = _text(item.get("vid"))
-            if not vid:
-                continue
-            order = _int(item.get("vid_index")) or (idx + 1)
-            eps.append("第%d集$hgapp://%s" % (order, vid))
+            if vid:
+                vids.append(vid)
+        # 画质线路排序: 有原生AES先给最高清; 纯Python AES先给最轻(360公开直链兜底最稳)
+        order = ("1080", "720", "540", "480", "360") if _aes_is_fast() else ("360", "480", "540", "720", "1080")
+        q_name = dict((_q, n) for _q, n in _HG_QUALITY_LINES)
+        play_from, play_url = [], []
+        for q in order:
+            eps = ["%d$%s%s:%s" % (i + 1, EPISODE_PREFIX, q, vid) for i, vid in enumerate(vids)]
+            if eps:
+                play_from.append(q_name.get(q, q))
+                play_url.append("#".join(eps))
         title = _text(video_data.get("title"))
         pic = _text(video_data.get("cover"))
         desc = _text(video_data.get("video_desc"))
@@ -4990,12 +5021,12 @@ class Spider(_BaseSpider):
             "vod_name": title or sid,
             "vod_pic": pic,
             "type_name": "、".join(tags[:3]) or "短剧",
-            "vod_remarks": ("全%d集" % len(eps)) if eps else "",
+            "vod_remarks": ("全%d集" % len(vids)) if vids else "",
             "vod_content": desc,
             "vod_actor": "",
             "vod_director": "",
-            "vod_play_from": "播放正片" if eps else "",
-            "vod_play_url": "#".join(eps),
+            "vod_play_from": "$$$".join(play_from) if play_from else "播放正片",
+            "vod_play_url": "$$$".join(play_url),
         }
     def _detail_web(self, sid: str) -> dict[str, Any]:
         """网页版详情（App 接口失败时的兜底）。"""
@@ -5029,26 +5060,31 @@ class Spider(_BaseSpider):
         for cm in re.finditer(
                 r'<(a|div)\b[^>]*class="[^"]*pc-episode-item[^"]*"[^>]*>', html):
             cell_kinds.append(cm.group(1) == "a")
-        eps = []
+        web_vids = []
         for idx, vid in enumerate(vids):
             vid = str(vid).strip()
-            if not vid:
-                continue
-            free = bool(cell_kinds[idx]) if idx < len(cell_kinds) else False
-            eu = ("hgapp://" + vid) if not free \
-                else (self.host + "/player/" + sid + "/" + vid)
-            eps.append("%d$%s" % (len(eps) + 1, eu))
+            if vid:
+                web_vids.append(vid)
+        # 网页版画质线路（同 App 端格式，统一多线路）
+        order = ("1080", "720", "540", "480", "360") if _aes_is_fast() else ("360", "480", "540", "720", "1080")
+        q_name = dict((_q, n) for _q, n in _HG_QUALITY_LINES)
+        play_from, play_url = [], []
+        for q in order:
+            eps = ["%d$%s%s:%s" % (i + 1, EPISODE_PREFIX, q, vid) for i, vid in enumerate(web_vids)]
+            if eps:
+                play_from.append(q_name.get(q, q))
+                play_url.append("#".join(eps))
         return {
             "vod_id": sid,
             "vod_name": title or sid,
             "vod_pic": pic,
             "type_name": "、".join(tags[:3]) or "短剧",
-            "vod_remarks": ("全%d集" % len(eps)) if eps else "",
+            "vod_remarks": ("全%d集" % len(web_vids)) if web_vids else "",
             "vod_content": desc,
             "vod_actor": "",
             "vod_director": "",
-            "vod_play_from": "播放正片" if eps else "",
-            "vod_play_url": "#".join(eps),
+            "vod_play_from": "$$$".join(play_from) if play_from else "播放正片",
+            "vod_play_url": "$$$".join(play_url),
         }
     def _pick_cover(self, html):
         """详情海报：统一走 _pick_img（过滤占位图，优先 novel-pic/byteimg 域图）。"""
@@ -5101,9 +5137,20 @@ class Spider(_BaseSpider):
     def searchContentPage(self, key, quick=False, pg=1):
         return self.searchContent(key, quick, pg)
     def playerContent(self, flag, id, vipFlags=None):
+        """多线路播放：URL 格式 hg-episode-v1:<q>:<vid>，q=清晰度(1080/720/540/480/360)"""
         url = str(id or "").strip()
-        if url.startswith("hgapp://"):
-            return self._locked_play(url[8:].strip())
+        # 新格式：hg-episode-v1:<q>:<vid>
+        if url.startswith(EPISODE_PREFIX) or url.startswith("hgapp://"):
+            token = url[len(EPISODE_PREFIX):] if url.startswith(EPISODE_PREFIX) else url[8:]
+            q, vid = _split_episode_token(token)
+            # 线路名兜底 (旧壳只传线路名时)
+            if str(flag or ""):
+                for nk, cq in _QUALITY_LINE_NAME_TO_Q.items():
+                    if nk in str(flag) and cq in ("1080", "720", "540", "480", "360"):
+                        q = cq
+                        break
+            q = q if q in ("1080", "720", "540", "480", "360") else "1080"
+            return self._locked_play(vid, q)
         html = self._get(url) if url.startswith("http") else ""
         real = ""
         mm = re.search(r'"main_url":"([^"]+)"', html or "")
@@ -5115,17 +5162,17 @@ class Spider(_BaseSpider):
                 real = raw.replace("\\u002F", "/")
         if real:
             return {"parse": 0, "playUrl": "", "url": real,
-                    "header": {"User-Agent": UA, "Referer": self.host + "/"}}
+                    "header": {"User-Agent": MEDIA_UA, "Referer": self.host + "/"}}
         m = re.search(r"/player/\d+(?:/(\d{15,21}))?", url)
         if m and m.group(1):
-            return self._locked_play(m.group(1))
+            return self._locked_play(m.group(1), "1080")
         return {"parse": 1, "playUrl": "", "url": url or self.host,
-                "header": {"User-Agent": UA}}
-    def _locked_play(self, vid):
+                "header": {"User-Agent": MEDIA_UA}}
+    def _locked_play(self, vid, q="1080"):
         vid = str(vid or "").strip()
+        hdrs = {"User-Agent": MEDIA_UA, "Referer": "https://novel.snssdk.com/"}
         if not vid.isdigit():
-            return {"parse": 1, "playUrl": "", "url": self.host,
-                    "header": {"User-Agent": UA}}
+            return {"parse": 1, "playUrl": "", "url": self.host, "header": hdrs}
         proxy = ""
         try:
             if hasattr(self, "getProxyUrl"):
@@ -5135,23 +5182,21 @@ class Spider(_BaseSpider):
         if proxy:
             sep = "&" if "?" in proxy else "?"
             purl = proxy + sep + urlencode({
-                "vid": vid, "hg": "cenc",
+                "vid": vid, "q": q, "hg": "cenc",
                 "did": self.device_id, "iid": self.install_id,
             })
-            return {"parse": 0, "playUrl": "", "url": purl,
-                    "header": {"User-Agent": UA}}
+            return {"parse": 0, "playUrl": "", "url": purl, "header": hdrs}
         try:
             port = _start_stream_server()
         except Exception:
             port = 0
         if port:
-            return {"parse": 0, "playUrl": "", "header": {"User-Agent": UA},
+            return {"parse": 0, "playUrl": "", "header": hdrs,
                     "url": "http://127.0.0.1:%d/hg.mp4?%s" % (
-                        port, urlencode({"vid": vid,
+                        port, urlencode({"vid": vid, "q": q,
                                          "did": self.device_id,
                                          "iid": self.install_id}))}
-        return {"parse": 1, "playUrl": "", "url": self.host,
-                "header": {"User-Agent": UA}}
+        return {"parse": 1, "playUrl": "", "url": self.host, "header": hdrs}
     def proxy(self, param):
         return self.localProxy(param)
     def localProxy(self, param):
@@ -5176,11 +5221,11 @@ class Spider(_BaseSpider):
                    "install_id": str(param.get("iid") or self.install_id or "")}
             user_q = str(param.get("q") or param.get("quality") or "").strip()
             if user_q:
-                order = [user_q, "1080", "720", "480", "360"]
+                order = [user_q, "1080", "720", "540", "480", "360"]
             elif _aes_is_fast():
-                order = ["1080", "720", "480", "360"]
+                order = ["1080", "720", "540", "480", "360"]
             else:
-                order = ["720", "480", "1080", "360"]
+                order = ["360", "480", "540", "720", "1080"]
             seen, quals = set(), []
             for q in order:
                 if q and q not in seen:
@@ -5221,9 +5266,10 @@ class Spider(_BaseSpider):
                     if not body:
                         last_err = "empty body q=%s" % wanted
                         continue
-                    if (not _aes_is_fast()) and wanted in ("1080", "4k") \
-                            and len(body) > 45 * 1024 * 1024:
-                        last_err = "skip large %s size=%s" % (wanted, len(body))
+                    # 非快速AES降级到低清晰度（360/480最稳）
+                    if (not _aes_is_fast()) and wanted not in ("360", "480") \
+                            and len(body) > 25 * 1024 * 1024:
+                        last_err = "skip %s (size=%s, use fast AES for HD)" % (wanted, len(body))
                         continue
                     plain = None
                     if spade:
