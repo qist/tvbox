@@ -4011,13 +4011,39 @@ class Spider(_BaseSpider):
     host = "https://hongguoduanju.com"
     name = "红果短剧"
     CATS = [
-        ("real-drama", "真人剧"),
+        ("real-drama", "真人短剧"),
         ("comic-drama", "漫剧"),
-        ("ai", "AI漫剧"),
+        ("comic", "漫画"),
+        ("ai", "AI剧"),
+        ("real-drama/romance", "爱情"),
+        ("real-drama/period", "年代"),
+        ("real-drama/comeback", "逆袭"),
+        ("real-drama/legend", "传奇"),
+        ("real-drama/growth", "成长"),
+        ("real-drama/family", "家庭"),
+        ("real-drama/clan", "家族"),
+        ("real-drama/cute-kids", "萌宝"),
+        ("real-drama/suspense", "悬疑"),
+        ("real-drama/thriller", "惊悚"),
+        ("real-drama/horror", "恐怖"),
+        ("real-drama/supernatural", "志怪"),
+        ("real-drama/costume", "古装"),
+        ("real-drama/fantasy", "玄幻"),
+        ("real-drama/wonder", "奇幻"),
+        ("real-drama/urban", "都市"),
+        ("real-drama/youth", "青春"),
+        ("real-drama/comedy", "喜剧"),
+        ("real-drama/sci-fi", "科幻"),
+        ("real-drama/disaster", "灾难"),
+        ("real-drama/action-adventure", "动作冒险"),
+        ("real-drama/war", "战争"),
+        ("real-drama/variety", "综艺"),
+        ("real-drama/drama", "剧情"),
     ]
     TID_MAP = {
         "real-drama": ("landing", 130),
         "comic-drama": ("comic", None),
+        "comic": ("comic", None),
         "ai": ("ai", None),
     }
     _AI_TAB = 24
@@ -4302,7 +4328,7 @@ class Spider(_BaseSpider):
         self._sel_cache[key] = out
         return out
     def _resolve_tid(self, tid: str, extend: Mapping[str, Any]) -> tuple[str, Any]:
-        """type_id/筛选值 → (mode, arg)。mode: tab / landing / ai"""
+        """type_id/筛选值 → (mode, arg)。mode: tab / landing / ai / comic"""
         code = str(extend.get("sub") or "").strip() if extend else ""
         if not code:
             code = str(tid or "").strip()
@@ -4318,6 +4344,8 @@ class Spider(_BaseSpider):
             return "landing", _int(code.split(":", 1)[1]) or 130
         if code == "ai":
             return "ai", None
+        if code.startswith("real-drama/"):
+            return "landing", 130
         mapped = self.TID_MAP.get(code)
         if mapped:
             return mapped
@@ -4853,6 +4881,9 @@ class Spider(_BaseSpider):
                 return self._category_tab(self._AI_TAB, pg)
             if mode == "landing" and not (genre_raw or role_raw or epoch_raw
                                           or order_v or gender_v or year_v):
+                _tid_path = str(tid or "real-drama").strip()
+                if _tid_path.startswith("real-drama/"):
+                    return self._category_web("/category/" + _tid_path, pg)
                 return self._category_web("/category/real-drama", pg)
             if (mode == "landing" or genre_raw or role_raw or epoch_raw
                     or order_v or gender_v or year_v):
