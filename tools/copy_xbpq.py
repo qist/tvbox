@@ -78,6 +78,10 @@ def main():
     copied = 0
     missing = 0
     for path in paths:
+        # 过滤掉红果短剧相关文件
+        if "红果" in path or "hongguo" in path.lower():
+            print(f"⏭️ 跳过红果: {path}")
+            continue
         rel = path.replace("./", "", 1).replace("../", "", 1)
         src = os.path.join(src_base, rel)
         dst = os.path.join(dst_base, rel)
