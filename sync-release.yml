@@ -1,0 +1,23 @@
+name: Sync Upstream Release
+on:
+  # 定时检查上游有没有新release，每30分钟跑一次
+  schedule:
+    - cron: '*/30 * * * *'
+  # 支持手动点 Run workflow 立即同步（很方便，推荐保留）
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror release
+        uses: yi-Xu-0100/release-mirror-action@v1.4.0
+        with:
+          # ========== 这里改成你的信息 ==========
+          source_repo: "原作者/上游仓库名"
+          target_repo: "你的用户名/你的fork仓库名"
+          # 同名release文件直接覆盖
+          overwrite: true
+        env:
+          # 重点：PAT Token，下面教你怎么生成
+          GH_TOKEN: ${{ secrets.RELEASE_MIRROR_PAT }}
