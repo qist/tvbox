@@ -14,8 +14,8 @@ jobs:
         uses: yi-Xu-0100/release-mirror-action@v1.4.0
         with:
           # ========== 这里改成你的信息 ==========
-          source_repo: "原作者/上游仓库名"
-          target_repo: "你的用户名/你的fork仓库名"
+          source_repo: "qist/tvbox"
+          target_repo: "ho668/tvbox"
           # 同名release文件直接覆盖
           overwrite: true
         env:
