@@ -5253,7 +5253,10 @@ class Spider(_BaseSpider):
                 if q and q not in seen:
                     seen.add(q)
                     quals.append(q)
-            for q in quals:
+            # 用户指定清晰度时只认该清晰度缓存，不能回退命中其它清晰度缓存，
+            # 否则第一次播过的画质会一直命中缓存，切换画质不生效
+            primary = [user_q] if user_q else quals
+            for q in primary:
                 cached = _hg_cache_get(vid, q)
                 if cached:
                     return [200, "video/mp4", cached]
