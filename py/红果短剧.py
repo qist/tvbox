@@ -1339,18 +1339,39 @@ class _StreamSession:
             block = self.read_range(cursor, stop)
             yield block
             cursor += len(block)
-def _stream_session(video_id: str, config: Mapping[str, Any]) -> "_StreamSession":
+def _stream_session(video_id: str, config: Mapping[str, Any], wanted_quality: str = "") -> "_StreamSession":
+    # 缓存 key 必须包含清晰度, 否则切换清晰度会命中旧 session
+    cache_key = "%s|%s" % (video_id, wanted_quality or "default")
     with _STREAM_LOCK:
         sessions = _STREAM_STATE["sessions"]
         for key in [key for key, item in sessions.items() if item.expired()]:
             sessions.pop(key, None)
-        session = sessions.get(video_id)
+        session = sessions.get(cache_key)
     if session is not None:
         return session
     model = _video_model(video_id, config)
-    _, item = _select_quality(_video_list_from_model(model), "1080")
-    url = _media_url(item)
-    spade = _spade_value(item)
+    user_q = str(wanted_quality or "").strip()
+    if user_q:
+        # 用户选了清晰度: 优先该清晰度, 失败则降级
+        order = [user_q] + [q for q in _QUALITY_ORDER if q != user_q]
+        last_err = None
+        for q in order:
+            try:
+                _, item = _select_quality(_video_list_from_model(model), q)
+                url = _media_url(item)
+                spade = _spade_value(item)
+                if url and spade:
+                    break
+            except Exception as e:
+                last_err = e
+                continue
+        else:
+            raise HongguoPluginError("无可用清晰度: %s" % (last_err or "empty"))
+    else:
+        # 未指定: 按默认优先级选
+        _, item = _select_quality(_video_list_from_model(model), "1080")
+        url = _media_url(item)
+        spade = _spade_value(item)
     if not url or not spade:
         raise HongguoPluginError("播放模型缺少地址或密钥材料")
     key_seed = _key_seed_from_model(model)
@@ -1365,7 +1386,7 @@ def _stream_session(video_id: str, config: Mapping[str, Any]) -> "_StreamSession
         sessions = _STREAM_STATE["sessions"]
         while len(sessions) >= _STREAM_MAX_SESSIONS:
             sessions.pop(next(iter(sessions)), None)
-        sessions[video_id] = session
+        sessions[cache_key] = session
     return session
 _RANGE_UNSATISFIABLE = "unsatisfiable"
 def _parse_range(value: str, total: int) -> Any:
@@ -1408,6 +1429,7 @@ class _StreamHandler(BaseHTTPRequestHandler):
             "bid": (query.get("bid") or [""])[0],
             "device_id": (query.get("did") or [""])[0],
             "install_id": (query.get("iid") or [""])[0],
+            "q": (query.get("q") or [""])[0],
         }
     def _fail(self, code: int, message: bytes) -> None:
         self.send_response(code)
@@ -1437,7 +1459,7 @@ class _StreamHandler(BaseHTTPRequestHandler):
             "install_id": params["install_id"],
         }
         try:
-            session = _stream_session(params["vid"], cfg)
+            session = _stream_session(params["vid"], cfg, params.get("q", ""))
         except Exception:
             self._fail(502, b"media session failed")
             return
