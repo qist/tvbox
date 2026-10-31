@@ -1056,16 +1056,36 @@ def _looks_like_mp4(data) -> bool:
     if b"ftyp" in bytes(data[:64]):
         return True
     return b"moov" in bytes(data[:4_000_000])
-# hdlr box: 4B size + 'hdlr' + 4B version/flags + 4B pre_defined + handler_type
-# 红果视频/音频轨的样本条目都可能用 encv/enca，handler_type 才可靠
-_HDLR_VIDEO_RE = re.compile(rb"hdlr.{8}vide", re.S)
+# 真实视频编码 fourcc（stsd/frma 内）。听书音频资源会带一个空壳视频轨
+# （hdlr=vide、frma=bvc2 私有编码、tkhd 宽高为 0），按 hdlr 判断会误判，
+# 只认 ExoPlayer 可播的真实视频编码；匹配范围限定 moov，避免 mdat 密文撞码。
+_VIDEO_CODEC_RE = re.compile(rb"(avc1|avc3|hvc1|hev1|dvh1|dvhe|av01)")
 def _mp4_has_video(data) -> bool:
-    """判断 MP4（整文件或 moov 片段）是否含视频轨。
-    红果 CDN 偶发把个别集数的某清晰度错发成纯音频（听书）资源，
+    """判断 MP4（整文件或 moov 片段）是否含可播放的视频轨。
+    红果 CDN 偶发把个别集数的某清晰度错发成听书纯音频资源，
     不校验直接回给播放器就是"只有声音没图像"。"""
     if not data:
         return False
-    return bool(_HDLR_VIDEO_RE.search(bytes(data)))
+    buf = bytes(data)
+    n = len(buf)
+    spans = []
+    if n >= 8 and buf[4:8] == b"moov":
+        spans.append((0, n))
+    else:
+        pos = 0
+        while pos + 8 <= n:
+            try:
+                size = struct.unpack(">I", buf[pos:pos + 4])[0]
+            except Exception:
+                break
+            if size < 8:
+                break
+            if buf[pos + 4:pos + 8] == b"moov":
+                spans.append((pos + 8, min(pos + size, n)))
+            pos += size
+    if not spans:
+        spans.append((0, n))
+    return any(_VIDEO_CODEC_RE.search(buf[s:e]) for s, e in spans)
 def decrypt_mp4_cenc(data: bytes, content_key: bytes) -> bytes:
     if len(content_key) != 16:
         raise HongguoPluginError("CENC 密钥长度错误")
@@ -5311,7 +5331,10 @@ class Spider(_BaseSpider):
                 try:
                     cached = _hg_cache_get(vid, wanted)
                     if cached:
-                        return [200, "video/mp4", cached]
+                        if _mp4_has_video(cached):
+                            return [200, "video/mp4", cached]
+                        # CDN 错发的纯音频缓存, 剔除后走重新下载
+                        _hg_cache_drop(vid, wanted)
                     _q, item = _select_quality(rows, wanted)
                     url = _media_url(item)
                     spade = _spade_value(item)
