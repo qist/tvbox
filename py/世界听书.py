@@ -1,3 +1,59 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @file    : 听书世界.py  (hipy-server T4 版; 与 听书世界_T3.py 同源)
+"""
+听书世界 (275听书 + 拾音盘) TVBox py 爬虫 —— T4 hipy-server 运行时
+
+原理 (逆向自 拾音盘APP com.shiyinpan.app 与 TingShijie java 爬虫):
+1. 275听书官方接口 (app.365ting.com/listen/Apitzg2025/) 书单/搜索/详情正常,
+   但其播放地址接口 AppGetChapterUrl2023 已损坏 (所有章节返回同一占位音频,
+   网页版 api_chapter.php 同样返回 url:null) —— 原 java 版
+   "获取不到播放地址/起播不成功" 的根因。
+2. 拾音盘APP (275官方配套播放器) 使用另一套接口:
+   - 搜索:  GET  https://api.365ting.com/tingyou-app/search?keyword=xx
+   - 提取:  POST https://api.365ting.com/tingyou-app/import {user_id, album_id}
+            -> task_id -> GET import/status?task_id= 轮询 (热门书有克隆缓存秒回)
+   - 曲目:  GET  https://api.365ting.com/api/albums/{platform_album_id}/tracks?user_id=
+   - 播放:  GET  https://api.365ting.com/tingyou/stream?album={tingyou_id}&idx={序号}
+            匿名直连, 支持 Range 拖动
+3. 设备登录: POST /api/auth/device-login {device_id} 免注册, 同 device_id 恒定同 user_id。
+
+分类/首页/详情元数据走 275 官方接口, 播放走拾音盘 stream 直链;
+275 bookId 与拾音盘专辑 id 体系不同, 详情时按"书名+演播"自动匹配拾音盘专辑。
+
+详情提速 (对比上一版):
+- device_id 固定落盘 -> 跨启动同一 user_id, 已提取专辑直接命中歌单, 跳过 import 轮询;
+- 275->拾音盘 映射与专辑 platform_id 落盘 -> 重复打开直接拿曲目列表;
+- 轮询"先查后睡"(0.4s) 替代固定 sleep(1) x2, 去掉提取完成后的多余歌单回查;
+- 启动探活默认地址优先 (原分发地址已失效, 每次白等 3s 超时)。
+
+稳健性 (修"偶发选集/暂无播放数据"):
+- 所有请求走 _req: 网络抖动/超时/429/5xx 退避重试 3 次;
+- 提取轮询单次异常只记日志不中断, 整个提取失败再提交一轮;
+- 曲目列表瞬时异常/空列表重试 3 次, 仍空则重置 plat 重新提取 1 次;
+- 曲目彻底拿不到时按元数据集数合成选集 (第N集), 详情页永不出空;
+- detailContent 整体重试 2 轮;
+- playerContent 不再探活 (探活抖动=空url="暂无播放数据"), 直接给拼好的直链。
+
+- 拾音盘搜索没有 TME 独家书 (我弟是神棍/盗墓笔记/雨村笔记/祖祀/重启之极海听雷等
+  演播方为 TME有声剧场 的书全部 0 结果), 原逻辑匹配失败 -> 详情页空;
+- 现在匹配不到/提取失败/曲目为空时, 自动改走 275 官方章节接口
+  chapter?size=1000&page=&sort=asc&bookId= 拉真实选集;
+- 播放走 AppGetChapterUrl (老接口, xmcdn 源, 实测 12/12 全成功), 需 timeStamp+盐
+  双重 md5 签名 addItParapet (签名缺失服务端回 data:null); AppGetChapterUrl2023
+  (自家 audio.tingshijie.com 源) 常年 status:1 只当备用;
+  音频 CDN 拦截官方 UA (Access Denied: Please use the official App),
+  播放 header 用 okhttp UA 即可, 支持 Range 拖动;
+- 搜索同步合并 275 appSearch (需 app_token=abcSEARCH-2025), 拾音盘搜不到的书也能搜。
+
+配置示例 (hipy-server T4):
+{
+  "key": "hipy_tingshijie", "name": "听书世界", "type": 4,
+  "api": "http://127.0.0.1:5707/api/v1/vod/听书世界",
+  "searchable": 1, "quickSearch": 1, "filterable": 0
+}
+可选 ext: {"name":"自定义源名"} —— 不传则用默认名。
+"""
 
 import hashlib
 import json
@@ -26,6 +82,8 @@ except Exception:
 
 UA = 'TingShiJie/1.8.8 (m.i275.com)'
 APP_UA = 'okhttp/4.9.3'
+BROWSER_UA = ('Mozilla/5.0 (Linux; Android 13; M2102K1C) AppleWebKit/537.36 '
+              '(KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36')
 DEFAULT_BASE = 'https://app.365ting.com/listen/Apitzg2025/'
 CONFIG_URLS = ['http://101.43.48.231:8090/config/tingchina2025.txt']
 API = 'https://api.365ting.com'
@@ -627,8 +685,9 @@ class Spider(A):
     def playerContent(self, flag, pid, vipFlags):
         # 直链由 album+idx 规则拼出, 不做探活: 探活请求一旦抖动就返回空 url,
         # 播放器必然报"暂无播放数据" —— 交给播放器自己拉流即可。
-        # header 用 okhttp UA: audio.tingshijie.com 会拦截官方 UA
-        # (Access Denied: Please use the official App), okhttp/浏览器 UA 放行
+        # 275 原生源: okhttp UA (audio.tingshijie.com 拦官方 UA, okhttp 放行)
+        # 拾音盘直链: 浏览器 UA —— api.365ting.com/tingyou/stream 对 okhttp UA
+        # 会卡死 (0 KB/s), 浏览器 UA 可正常播放; xmcdn 源不受影响
         S = {'parse': 0, 'jx': 0, 'playUrl': '', 'url': '', 'header': {'User-Agent': APP_UA}}
         try:
             parts = str(pid).split('|')
@@ -637,6 +696,7 @@ class Spider(A):
                 if not S['url']:
                     LOG('playerContent 275 播放地址获取失败: %s' % pid)
             elif len(parts) == 2 and parts[1].isdigit():     # 拾音盘直链
+                S['header']['User-Agent'] = BROWSER_UA
                 S['url'] = '%s/tingyou/stream?album=%s&idx=%s' % (API, parts[0], parts[1])
             else:
                 LOG('playerContent 参数异常: %s' % pid)
