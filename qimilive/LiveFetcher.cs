@@ -4,6 +4,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Linq;
 using System.Net;
+using System.Numerics;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -124,14 +125,25 @@ class Program
             else IngestTxt(text, f.Key);
         }
 
+        // 追加来源: 咕噜 APP 直播源 (协议加密, 失败不影响 qmtv 主流程)
+        try { FetchGulu(); }
+        catch (Exception gex) { Console.WriteLine("[咕噜] 获取失败(不影响主流程): " + gex.Message); }
+
         if (groups.Count == 0) throw new Exception("没有解析到任何频道");
         string json = BuildJson(epg);
         File.WriteAllText(outFile, json, new UTF8Encoding(false));
 
         int chTotal = groups.Sum(g => g.Chs.Count);
         int urlTotal = groups.Sum(g => g.Chs.Values.Sum(v => v.Count));
+        int qmtvG = 0, qmtvC = 0, guluG = 0, guluC = 0;
+        foreach (Group g in groups)
+        {
+            if (g.Name.StartsWith("咕噜·")) { guluG++; guluC += g.Chs.Count; }
+            else { qmtvG++; qmtvC += g.Chs.Count; }
+        }
         Console.WriteLine("\n--------------------------------------------------------");
-        Console.WriteLine("分组 " + groups.Count + " | 频道 " + chTotal + " | 线路 " + urlTotal + " | 已过滤广告 " + filteredCount);
+        Console.WriteLine("总计 分组 " + groups.Count + " | 频道 " + chTotal + " | 线路 " + urlTotal + " | 已过滤广告 " + filteredCount);
+        Console.WriteLine("qmtv 来源: 分组 " + qmtvG + " | 频道 " + qmtvC + "    咕噜来源: 分组 " + guluG + " | 频道 " + guluC);
         Console.WriteLine("EPG: " + epg);
         Console.WriteLine("已生成: " + outFile);
         Console.WriteLine("在 FongMi TV / 影视仓 中以本 JSON 文件作为直播配置导入即可");
@@ -481,6 +493,38 @@ class Program
         return n;
     }
 
+    // ==================== 咕噜 APP 直播源 (移植自 MyTv GuluClient.java) ====================
+    static void FetchGulu()
+    {
+        Console.WriteLine("\n[咕噜] 拉取 咕噜APP 直播源: " + GuluClient.ENDPOINT);
+        string did = GuluCrypto.RandomHex(8);   // 16 位 hex deviceId
+        GuluClient client = new GuluClient(did);
+        client.Handshake();
+        Console.WriteLine("[咕噜] 握手成功 session=" + Brief(client.Session, 24));
+        client.Boot();
+        Console.WriteLine("[咕噜] 设备注册 code=0 deviceId=" + did);
+        GuluClient.Resp resp = client.Request(3, 76, new byte[0]);   // 直播列表
+        if (resp.code != 0) throw new Exception("直播列表 code=" + resp.code + " " + resp.msg);
+        Console.WriteLine("[咕噜] 直播列表 code=0 data=" + (resp.data == null ? 0 : resp.data.Length) + " 字节");
+        List<GuluClient.LiveCh> chs = GuluClient.ParseLive(resp.data);
+        foreach (GuluClient.LiveCh ch in chs)
+            AddCh("咕噜·" + ch.group, ch.name, new List<string> { ch.url });
+        int gg = 0, gc = 0, gu = 0;
+        foreach (Group g in groups)
+            if (g.Name.StartsWith("咕噜·"))
+            {
+                gg++; gc += g.Chs.Count;
+                foreach (List<string> v in g.Chs.Values) gu += v.Count;
+            }
+        Console.WriteLine("[咕噜] 入库: 分组 " + gg + " | 频道 " + gc + " | 线路 " + gu);
+    }
+
+    static string Brief(string s, int n)
+    {
+        if (string.IsNullOrEmpty(s)) return "";
+        return s.Length <= n ? s : s.Substring(0, n) + "...";
+    }
+
     // ==================== 生成 FongMi LiveConfig JSON ====================
     static string Esc(string s)
     {
@@ -537,5 +581,684 @@ class Program
         }
         sb.Append("\n    ]\n  }]\n}");
         return sb.ToString();
+    }
+}
+
+// ==================== 咕噜 APP 协议: 极简 protobuf (移植自 MyTv GuluProto.java) ====================
+static class GuluProto
+{
+    public static byte[] Vint(long n)
+    {
+        ulong v = (ulong)n;
+        using (var o = new MemoryStream())
+        {
+            do
+            {
+                uint b = (uint)(v & 0x7f);
+                v >>= 7;
+                if (v != 0) b |= 0x80u;
+                o.WriteByte((byte)b);
+            } while (v != 0);
+            return o.ToArray();
+        }
+    }
+
+    public static byte[] Tag(int field, int wire) { return Vint((long)(((ulong)(uint)field << 3) | ((ulong)(uint)wire))); }
+    public static byte[] V(int f, long val) { return Concat(Tag(f, 0), Vint(val)); }
+    public static byte[] S(int f, string str) { byte[] b = Encoding.UTF8.GetBytes(str); return Concat(Tag(f, 2), Concat(Vint(b.Length), b)); }
+    public static byte[] B(int f, byte[] bytes) { if (bytes == null) bytes = new byte[0]; return Concat(Tag(f, 2), Concat(Vint(bytes.Length), bytes)); }
+    public static byte[] M(int f, byte[] msg) { return B(f, msg); }
+
+    public static byte[] Slice(byte[] src, int off, int len)
+    {
+        if (src == null || off >= src.Length || len <= 0) return new byte[0];
+        if (off < 0) off = 0;
+        if (off + len > src.Length) len = src.Length - off;
+        byte[] outB = new byte[len];
+        Buffer.BlockCopy(src, off, outB, 0, len);
+        return outB;
+    }
+
+    public static byte[] Concat(params byte[][] arrs)
+    {
+        int n = 0;
+        foreach (byte[] a in arrs) n += a.Length;
+        byte[] t = new byte[n];
+        int o = 0;
+        foreach (byte[] a in arrs) { Buffer.BlockCopy(a, 0, t, o, a.Length); o += a.Length; }
+        return t;
+    }
+
+    // 单个解码后的 protobuf 字段
+    public class F
+    {
+        public int f;      // 字段号
+        public int w;      // wire type
+        public long vi;    // wire=0 时的 varint 值
+        public byte[] bb;  // wire=2 时的原始字节
+        public F(int f, int w, long vi, byte[] bb) { this.f = f; this.w = w; this.vi = vi; this.bb = bb; }
+    }
+
+    public static List<F> Decode(byte[] b)
+    {
+        var outL = new List<F>();
+        int i = 0;
+        while (i < b.Length)
+        {
+            long[] t = ReadVint(b, i);
+            i = (int)t[1];
+            int f = (int)(t[0] >> 3);
+            int w = (int)(t[0] & 7);
+            if (f == 0) throw new Exception("bad field 0");
+            if (w == 0)
+            {
+                long[] r = ReadVint(b, i);
+                i = (int)r[1];
+                outL.Add(new F(f, w, r[0], null));
+            }
+            else if (w == 1)
+            {
+                if (i + 8 > b.Length) throw new Exception("truncated");
+                outL.Add(new F(f, w, 0, Slice(b, i, 8)));
+                i += 8;
+            }
+            else if (w == 2)
+            {
+                long[] l = ReadVint(b, i);
+                i = (int)l[1];
+                int len = (int)l[0];
+                if (len < 0 || i + len > b.Length) throw new Exception("truncated");
+                outL.Add(new F(f, w, 0, Slice(b, i, len)));
+                i += len;
+            }
+            else if (w == 5)
+            {
+                if (i + 4 > b.Length) throw new Exception("truncated");
+                outL.Add(new F(f, w, 0, Slice(b, i, 4)));
+                i += 4;
+            }
+            else throw new Exception("bad wire " + w);
+        }
+        return outL;
+    }
+
+    static long[] ReadVint(byte[] b, int o)
+    {
+        long r = 0; int s = 0; int i = o;
+        for (; ; )
+        {
+            if (i >= b.Length) throw new Exception("truncated varint");
+            int x = b[i++];
+            r |= (long)(x & 0x7f) << s;
+            if ((x & 0x80) == 0) return new long[] { r, i };
+            s += 7;
+        }
+    }
+
+    public static F Find(List<F> fs, int field, int wire)
+    {
+        if (fs == null) return null;
+        foreach (F x in fs) if (x.f == field && x.w == wire) return x;
+        return null;
+    }
+
+    public static List<F> All(List<F> fs, int field)
+    {
+        var outL = new List<F>();
+        if (fs == null) return outL;
+        foreach (F x in fs) if (x.f == field) outL.Add(x);
+        return outL;
+    }
+
+    // 严格 UTF-8 且无控制字符才视为可读文本
+    public static string LooksText(byte[] b)
+    {
+        if (b == null || b.Length == 0) return null;
+        string s;
+        try { s = new UTF8Encoding(false, true).GetString(b); }
+        catch { return null; }
+        foreach (char c in s)
+            if ((c >= 0x00 && c <= 0x08) || c == 0x0b || c == 0x0c || (c >= 0x0e && c <= 0x1f)) return null;
+        return s;
+    }
+
+    public static string Text(F x) { return (x != null && x.w == 2) ? LooksText(x.bb) : null; }
+}
+
+// ==================== 咕噜 APP 协议: 加密套件 (移植自 MyTv GuluCrypto.java) ====================
+// ECDH P-256 手写点乘 + AES-256-CBC/GCM 手写 + HMAC-SHA256 + zlib(裸 deflate 加头尾包装)
+static class GuluCrypto
+{
+    static readonly RandomNumberGenerator Rng = RandomNumberGenerator.Create();
+
+    // P-256 (secp256r1) 域参数
+    static readonly BigInteger P = Big("ffffffff00000001000000000000000000000000ffffffffffffffffffffffff");
+    static readonly BigInteger A = P - 3;
+    static readonly BigInteger Gx = Big("6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296");
+    static readonly BigInteger Gy = Big("4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5");
+    static readonly BigInteger N = Big("ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551");
+
+    public static byte[] RandomBytes(int n) { byte[] b = new byte[n]; Rng.GetBytes(b); return b; }
+    public static string RandomHex(int nBytes) { var sb = new StringBuilder(); foreach (byte x in RandomBytes(nBytes)) sb.Append(x.ToString("x2")); return sb.ToString(); }
+
+    // ---------------- 字节序: 大端无符号 <-> BigInteger ----------------
+    static BigInteger Big(string hex)
+    {
+        byte[] be = new byte[hex.Length / 2];
+        for (int i = 0; i < be.Length; i++) be[i] = Convert.ToByte(hex.Substring(i * 2, 2), 16);
+        return FromBE(be);
+    }
+
+    static BigInteger FromBE(byte[] be)
+    {
+        byte[] le = new byte[be.Length + 1];
+        for (int i = 0; i < be.Length; i++) le[i] = be[be.Length - 1 - i];
+        le[be.Length] = 0;   // 保证正数
+        return new BigInteger(le);
+    }
+
+    // 取 32 字节大端表示 (高位补零), 与 Java pad32/ecdhSecret 归一化一致
+    static byte[] ToBE32(BigInteger v)
+    {
+        byte[] tmp = v.ToByteArray();   // 小端, 可能带符号 0x00
+        int tlen = tmp.Length;
+        while (tlen > 1 && tmp[tlen - 1] == 0) tlen--;
+        byte[] outB = new byte[32];
+        int n = Math.Min(tlen, 32);
+        for (int i = 0; i < n; i++) outB[31 - i] = tmp[i];
+        return outB;
+    }
+
+    // ---------------- zlib ----------------
+
+    // 握手压缩: zlib 包装 = 0x78 0x9C + 裸 deflate + adler32(原文)
+    public static byte[] DeflateZlib(byte[] data)
+    {
+        byte[] raw = RawDeflate(data);
+        byte[] outB = new byte[raw.Length + 6];
+        outB[0] = 0x78; outB[1] = 0x9c;
+        Buffer.BlockCopy(raw, 0, outB, 2, raw.Length);
+        uint ad = Adler32(data);
+        outB[outB.Length - 4] = (byte)(ad >> 24);
+        outB[outB.Length - 3] = (byte)(ad >> 16);
+        outB[outB.Length - 2] = (byte)(ad >> 8);
+        outB[outB.Length - 1] = (byte)ad;
+        return outB;
+    }
+
+    // 握手解压: 剥 zlib 头尾 + 裸 inflate
+    public static byte[] InflateZlib(byte[] data)
+    {
+        if (data.Length < 6) throw new Exception("zlib 数据过短");
+        return RawInflate(GuluProto.Slice(data, 2, data.Length - 6));
+    }
+
+    public static byte[] RawDeflate(byte[] data)
+    {
+        using (var ms = new MemoryStream())
+        {
+            using (var ds = new DeflateStream(ms, CompressionMode.Compress))
+            {
+                ds.Write(data, 0, data.Length);
+            }
+            return ms.ToArray();
+        }
+    }
+
+    public static byte[] RawInflate(byte[] data)
+    {
+        using (var ms = new MemoryStream(data))
+        using (var ds = new DeflateStream(ms, CompressionMode.Decompress))
+        using (var outMs = new MemoryStream())
+        {
+            ds.CopyTo(outMs);
+            return outMs.ToArray();
+        }
+    }
+
+    static uint Adler32(byte[] data)
+    {
+        uint a = 1, b = 0;
+        foreach (byte x in data)
+        {
+            a = (a + x) % 65521;
+            b = (b + a) % 65521;
+        }
+        return (b << 16) | a;
+    }
+
+    // ---------------- ECDH P-256 (手写点乘, .NET Framework 拿不到裸 X 坐标共享密钥) ----------------
+
+    // 生成密钥对: 返回 65B 非压缩公钥 0x04||X||Y, 私钥经 out 带出
+    public static byte[] EcNewKeyPair(out BigInteger priv)
+    {
+        byte[] buf = new byte[32];
+        Rng.GetBytes(buf);
+        priv = FromBE(buf) % (N - 1) + 1;
+        BigInteger[] pub = EcMul(priv, new BigInteger[] { Gx, Gy });
+        byte[] out65 = new byte[65];
+        out65[0] = 4;
+        Buffer.BlockCopy(ToBE32(pub[0]), 0, out65, 1, 32);
+        Buffer.BlockCopy(ToBE32(pub[1]), 0, out65, 33, 32);
+        return out65;
+    }
+
+    // ECDH 共享密钥 = 共享点 X 坐标, 32B 大端高位补零
+    public static byte[] EcShared(BigInteger priv, byte[] peerRaw65)
+    {
+        if (peerRaw65 == null || peerRaw65.Length != 65 || peerRaw65[0] != 4) throw new Exception("无效的 EC 公钥");
+        BigInteger x = FromBE(GuluProto.Slice(peerRaw65, 1, 32));
+        BigInteger y = FromBE(GuluProto.Slice(peerRaw65, 33, 32));
+        BigInteger[] p = EcMul(priv, new BigInteger[] { x, y });
+        if (p == null) throw new Exception("ECDH 得到无穷远点");
+        return ToBE32(p[0]);
+    }
+
+    static BigInteger EcMod(BigInteger v) { BigInteger r = v % P; return r.Sign >= 0 ? r : r + P; }
+
+    static BigInteger EcInv(BigInteger v) { return BigInteger.ModPow(EcMod(v), P - 2, P); }
+
+    // 仿射点加/倍点, null = 无穷远点
+    static BigInteger[] EcAdd(BigInteger[] p1, BigInteger[] p2)
+    {
+        if (p1 == null) return p2;
+        if (p2 == null) return p1;
+        BigInteger x1 = p1[0], y1 = p1[1], x2 = p2[0], y2 = p2[1];
+        if (x1 == x2)
+        {
+            if (EcMod(y1 + y2) == BigInteger.Zero) return null;
+            BigInteger lam = EcMod(EcMod(3 * x1 * x1 + A) * EcInv(EcMod(2 * y1)));
+            BigInteger x3 = EcMod(lam * lam - 2 * x1);
+            BigInteger y3 = EcMod(lam * (x1 - x3) - y1);
+            return new BigInteger[] { x3, y3 };
+        }
+        BigInteger l = EcMod(EcMod(y2 - y1) * EcInv(EcMod(x2 - x1)));
+        BigInteger xr = EcMod(l * l - x1 - x2);
+        BigInteger yr = EcMod(l * (x1 - xr) - y1);
+        return new BigInteger[] { xr, yr };
+    }
+
+    // 双加标量乘
+    static BigInteger[] EcMul(BigInteger k, BigInteger[] pt)
+    {
+        BigInteger[] r = null;
+        BigInteger[] add = pt;
+        while (k.Sign > 0)
+        {
+            if (!k.IsEven) r = EcAdd(r, add);
+            add = EcAdd(add, add);
+            k >>= 1;
+        }
+        return r;
+    }
+
+    // ---------------- HMAC / AES ----------------
+
+    public static byte[] HmacSha256(byte[] key, byte[] msg)
+    {
+        using (var h = new HMACSHA256(key)) return h.ComputeHash(msg);
+    }
+
+    public static byte[] AesCbcEncrypt(byte[] key, byte[] iv, byte[] plain)
+    {
+        using (var aes = Aes.Create())
+        {
+            aes.Key = key; aes.IV = iv; aes.Mode = CipherMode.CBC; aes.Padding = PaddingMode.PKCS7;
+            using (var enc = aes.CreateEncryptor()) return enc.TransformFinalBlock(plain, 0, plain.Length);
+        }
+    }
+
+    public static byte[] AesCbcDecrypt(byte[] key, byte[] iv, byte[] ct)
+    {
+        using (var aes = Aes.Create())
+        {
+            aes.Key = key; aes.IV = iv; aes.Mode = CipherMode.CBC; aes.Padding = PaddingMode.PKCS7;
+            using (var dec = aes.CreateDecryptor()) return dec.TransformFinalBlock(ct, 0, ct.Length);
+        }
+    }
+
+    // ---------------- AES-256-GCM (12B nonce, 128b tag, 无 AAD; .NET Framework 无 AesGcm, 手写 GHASH+CTR) ----------------
+
+    public static byte[] AesGcmEncrypt(byte[] key, byte[] nonce, byte[] plain)
+    {
+        using (var aes = Aes.Create())
+        {
+            aes.Key = key; aes.Mode = CipherMode.ECB; aes.Padding = PaddingMode.None;
+            using (var enc = aes.CreateEncryptor())
+            {
+                byte[] h = AesBlock(enc, new byte[16]);
+                byte[] j0 = J0(nonce);
+                byte[] ct = GcmCtr(enc, j0, plain);
+                byte[] s = Ghash(h, ct);
+                byte[] mask = AesBlock(enc, j0);
+                byte[] outB = new byte[ct.Length + 16];
+                Buffer.BlockCopy(ct, 0, outB, 0, ct.Length);
+                for (int i = 0; i < 16; i++) outB[ct.Length + i] = (byte)(s[i] ^ mask[i]);
+                return outB;
+            }
+        }
+    }
+
+    public static byte[] AesGcmDecrypt(byte[] key, byte[] nonce, byte[] ctWithTag)
+    {
+        if (ctWithTag.Length < 16) throw new Exception("GCM 密文过短");
+        int ctLen = ctWithTag.Length - 16;
+        byte[] ct = GuluProto.Slice(ctWithTag, 0, ctLen);
+        byte[] tag = GuluProto.Slice(ctWithTag, ctLen, 16);
+        using (var aes = Aes.Create())
+        {
+            aes.Key = key; aes.Mode = CipherMode.ECB; aes.Padding = PaddingMode.None;
+            using (var enc = aes.CreateEncryptor())
+            {
+                byte[] h = AesBlock(enc, new byte[16]);
+                byte[] j0 = J0(nonce);
+                byte[] s = Ghash(h, ct);
+                byte[] mask = AesBlock(enc, j0);
+                for (int i = 0; i < 16; i++)
+                    if (tag[i] != (byte)(s[i] ^ mask[i])) throw new Exception("GCM 校验失败");
+                return GcmCtr(enc, j0, ct);
+            }
+        }
+    }
+
+    static byte[] J0(byte[] nonce)
+    {
+        byte[] j0 = new byte[16];
+        Buffer.BlockCopy(nonce, 0, j0, 0, 12);
+        j0[15] = 1;
+        return j0;
+    }
+
+    static byte[] AesBlock(ICryptoTransform enc, byte[] block)
+    {
+        byte[] outB = new byte[16];
+        enc.TransformBlock(block, 0, 16, outB, 0);
+        return outB;
+    }
+
+    // GHASH(仅密文, AAD 恒为空)
+    static byte[] Ghash(byte[] h, byte[] ct)
+    {
+        int padC = (16 - ct.Length % 16) % 16;
+        byte[] all = new byte[ct.Length + padC + 16];
+        Buffer.BlockCopy(ct, 0, all, 0, ct.Length);
+        ulong cBits = (ulong)ct.Length * 8;
+        for (int i = 0; i < 8; i++) all[all.Length - 8 + i] = (byte)(cBits >> (56 - 8 * i));
+        byte[] y = new byte[16];
+        for (int off = 0; off < all.Length; off += 16)
+        {
+            for (int i = 0; i < 16; i++) y[i] ^= all[off + i];
+            y = GfMul(y, h);
+        }
+        return y;
+    }
+
+    // GF(2^128) 乘法, R = 0xE1 << 120
+    static byte[] GfMul(byte[] x, byte[] y)
+    {
+        byte[] z = new byte[16];
+        byte[] v = (byte[])y.Clone();
+        for (int i = 0; i < 128; i++)
+        {
+            if ((x[i >> 3] & (0x80 >> (i & 7))) != 0)
+                for (int k = 0; k < 16; k++) z[k] ^= v[k];
+            bool lsb = (v[15] & 1) != 0;
+            for (int k = 15; k > 0; k--) v[k] = (byte)((v[k] >> 1) | ((v[k - 1] & 1) << 7));
+            v[0] >>= 1;
+            if (lsb) v[0] ^= 0xe1;
+        }
+        return z;
+    }
+
+    static void Inc32(byte[] ctr)
+    {
+        for (int i = 15; i >= 12; i--)
+        {
+            ctr[i]++;
+            if (ctr[i] != 0) break;
+        }
+    }
+
+    static byte[] GcmCtr(ICryptoTransform enc, byte[] j0, byte[] data)
+    {
+        byte[] outB = new byte[data.Length];
+        byte[] ctr = (byte[])j0.Clone();
+        for (int off = 0; off < data.Length; off += 16)
+        {
+            Inc32(ctr);
+            byte[] ks = AesBlock(enc, ctr);
+            int n = Math.Min(16, data.Length - off);
+            for (int i = 0; i < n; i++) outB[off + i] = (byte)(data[off + i] ^ ks[i]);
+        }
+        return outB;
+    }
+}
+
+// ==================== 咕噜 APP 协议: 客户端 (移植自 MyTv GuluClient.java) ====================
+// 链路: ECDH 握手 -> 设备注册(boot, 免登录) -> 直播列表 cat=3 m=76
+class GuluClient
+{
+    public const string ENDPOINT = "http://103.45.132.22:19987/app/bn/v2";
+    const string TAG_VERSION = "1.0.0";
+    const long CODE_CLOCK = 10002;   // 时钟偏移被拒, 重同步后重试一次
+
+    public readonly string DeviceId;   // 16 位 hex
+    public string Session;
+    public byte[] SessionKey;
+    long seq = 1;
+    long clockOffset = 0;
+
+    public GuluClient(string deviceId) { DeviceId = deviceId; }
+
+    // ECDH 握手: pb{1:pub,2:"1.0.0",3:{1:0,2:1,3:1}} -> zlib -> IV||AES-CBC -> base64(IV||CT)
+    public void Handshake()
+    {
+        BigInteger priv;
+        byte[] pub = GuluCrypto.EcNewKeyPair(out priv);
+        string hsKeyHex = GuluCrypto.RandomHex(16);
+        byte[] hsKey = Encoding.UTF8.GetBytes(hsKeyHex);   // 32 位 hex 字符串的 UTF-8 32 字节作 AES-256 key
+
+        byte[] cap = GuluProto.V(1, 0);
+        cap = GuluProto.Concat(cap, GuluProto.V(2, 1), GuluProto.V(3, 1));
+        byte[] payload = GuluProto.B(1, pub);
+        payload = GuluProto.Concat(payload, GuluProto.S(2, TAG_VERSION), GuluProto.M(3, cap));
+
+        byte[] zipped = GuluCrypto.DeflateZlib(payload);
+        byte[] iv = GuluCrypto.RandomBytes(16);
+        byte[] ct = GuluCrypto.AesCbcEncrypt(hsKey, iv, zipped);
+        byte[] body = Encoding.UTF8.GetBytes(Convert.ToBase64String(GuluProto.Concat(iv, ct)));
+
+        var headers = new Dictionary<string, string>();
+        headers["X-Handshake-Key"] = hsKeyHex;
+        byte[] resp = HttpPost(body, headers);
+
+        // 响应 base64 -> IV||CT -> CBC 解密 -> inflate -> pb{1:session, 2:服务器 65B 公钥}
+        byte[] bin = Convert.FromBase64String(Encoding.UTF8.GetString(resp).Trim());
+        byte[] plain = GuluCrypto.InflateZlib(GuluCrypto.AesCbcDecrypt(hsKey,
+            GuluProto.Slice(bin, 0, 16), GuluProto.Slice(bin, 16, bin.Length - 16)));
+        List<GuluProto.F> msg = GuluProto.Decode(plain);
+        GuluProto.F sess = GuluProto.Find(msg, 1, 2);
+        GuluProto.F spub = GuluProto.Find(msg, 2, 2);
+        if (sess == null || spub == null || spub.bb.Length != 65 || spub.bb[0] != 4)
+            throw new Exception("握手响应结构异常");
+
+        Session = Encoding.UTF8.GetString(sess.bb);
+        // 派生: secret32 -> prk=HMAC(key=sessionUTF8, msg=secret32) -> sessionKey=HMAC(prk, "v2-session"||0x01)
+        byte[] secret = GuluCrypto.EcShared(priv, spub.bb);
+        byte[] prk = GuluCrypto.HmacSha256(Encoding.UTF8.GetBytes(Session), secret);
+        SessionKey = GuluCrypto.HmacSha256(prk, GuluProto.Concat(Encoding.UTF8.GetBytes("v2-session"), new byte[] { 1 }));
+    }
+
+    // 设备注册 (免登录关键): cat=1 m=0, 握手成功后必须立即调用
+    public void Boot()
+    {
+        Resp r = Request(1, 0, BuildBootPayload(DeviceId));
+        if (r.code != 0) throw new Exception("设备注册失败 code=" + r.code + " " + r.msg);
+    }
+
+    // envelope{1:seq,2:cat,3:method,4:deviceId,5:空,6:payload,7:毫秒时间戳}
+    public Resp Request(int cat, int method, byte[] payload)
+    {
+        if (Session == null || SessionKey == null) Handshake();
+        Resp outR = SendOnce(cat, method, payload);
+        if (outR.code == CODE_CLOCK) outR = SendOnce(cat, method, payload);   // 时钟重同步后重试一次
+        return outR;
+    }
+
+    Resp SendOnce(int cat, int method, byte[] payload)
+    {
+        long sq = seq++;
+        byte[] env = GuluProto.V(1, sq);
+        env = GuluProto.Concat(env, GuluProto.V(2, cat), GuluProto.V(3, method),
+            GuluProto.B(4, Encoding.UTF8.GetBytes(DeviceId)));
+        env = GuluProto.Concat(env, GuluProto.B(5, new byte[0]));
+        env = GuluProto.Concat(env, GuluProto.B(6, payload));
+        env = GuluProto.Concat(env, GuluProto.V(7,
+            (long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalMilliseconds + clockOffset));
+
+        byte[] z = GuluCrypto.RawDeflate(env);
+        byte[] nonce = GuluCrypto.RandomBytes(12);
+        byte[] ct = GuluCrypto.AesGcmEncrypt(SessionKey, nonce, z);
+        byte[] body = GuluProto.Concat(GuluProto.V(1, sq), GuluProto.B(2, GuluProto.Concat(nonce, ct)));
+
+        var headers = new Dictionary<string, string>();
+        headers["X-Session-Id"] = Session;
+        headers["X-Player-Page-Protection"] = "1";
+        byte[] resp = HttpPost(body, headers);
+
+        // 响应 pb{2:nonce||CT} -> GCM 解密 -> inflate-raw -> envelope{2:code,3:msg,4:data}
+        List<GuluProto.F> top = GuluProto.Decode(resp);
+        GuluProto.F enc = GuluProto.Find(top, 2, 2);
+        if (enc == null) throw new Exception("响应无 field2 密文");
+        byte[] nb = GuluProto.Slice(enc.bb, 0, 12);
+        byte[] ctb = GuluProto.Slice(enc.bb, 12, enc.bb.Length - 12);
+        byte[] envPlain = GuluCrypto.RawInflate(GuluCrypto.AesGcmDecrypt(SessionKey, nb, ctb));
+        List<GuluProto.F> e = GuluProto.Decode(envPlain);
+        Resp r = new Resp();
+        GuluProto.F code = GuluProto.Find(e, 2, 0);
+        r.code = code == null ? 0 : code.vi;
+        GuluProto.F msg = GuluProto.Find(e, 3, 2);
+        r.msg = msg == null ? "" : Encoding.UTF8.GetString(msg.bb);
+        GuluProto.F data = GuluProto.Find(e, 4, 2);
+        r.data = data == null ? null : data.bb;
+        return r;
+    }
+
+    public class Resp { public long code; public string msg; public byte[] data; }
+
+    // 设备注册 payload (csp_Gulu boot 设备指纹)
+    public static byte[] BuildBootPayload(string deviceId)
+    {
+        byte[] app = GuluProto.S(1, "咕噜咕噜");
+        app = GuluProto.Concat(app, GuluProto.S(2, "2.1.2"), GuluProto.S(3, "com.jymqfh.xee"),
+            GuluProto.S(4, deviceId), GuluProto.S(5, "212"));
+        byte[] dev = GuluProto.S(1, deviceId);
+        dev = GuluProto.Concat(dev, GuluProto.V(2, 0), GuluProto.S(3, "11"), GuluProto.S(4, "Pixel 4"),
+            GuluProto.S(5, "google/redfin/redfin:11/RQ3A.211001.001"), GuluProto.S(6, "google"),
+            GuluProto.S(7, "redfin"), GuluProto.V(8, 0), GuluProto.S(9, "unknown"),
+            GuluProto.S(10, "unknown"), GuluProto.V(11, 0), GuluProto.V(12, 30));
+        byte[] p = GuluProto.S(1, "v1");
+        p = GuluProto.Concat(p, GuluProto.S(2, "Android 11"), GuluProto.S(3, "gulu"),
+            GuluProto.M(4, app), GuluProto.M(5, dev));
+        return p;
+    }
+
+    // 直播频道: 分组名 + 频道名 + 播放直链
+    public class LiveCh { public string group; public string name; public string url; }
+
+    // 直播列表 data: {1:{1:typeId,3:"直播"}, 2:(repeated 包装){1:卡片{1:id, 5/6/12:分组名,
+    //   75:{1:"zhibo", 2:(repeated){1:序号, 3:m3u8直链, 4:频道名}}}}}
+    public static List<LiveCh> ParseLive(byte[] data)
+    {
+        var outL = new List<LiveCh>();
+        if (data == null || data.Length == 0) return outL;
+        List<GuluProto.F> top;
+        try { top = GuluProto.Decode(data); } catch { return outL; }
+        foreach (GuluProto.F card in GuluProto.All(top, 2))
+        {
+            if (card.w != 2) continue;
+            List<GuluProto.F> cm;
+            try
+            {
+                // 顶层 #2 是包装消息, 真实卡片在其 #1 内
+                List<GuluProto.F> wrap = GuluProto.Decode(card.bb);
+                GuluProto.F inner = GuluProto.Find(wrap, 1, 2);
+                cm = inner == null ? wrap : GuluProto.Decode(inner.bb);
+            }
+            catch { continue; }
+            string group = GuluProto.Text(GuluProto.Find(cm, 5, 2));
+            if (group == null) group = GuluProto.Text(GuluProto.Find(cm, 6, 2));
+            if (group == null) group = GuluProto.Text(GuluProto.Find(cm, 12, 2));
+            if (group == null || group.Length == 0) group = "直播";
+            foreach (GuluProto.F g in GuluProto.All(cm, 75))
+            {
+                if (g.w != 2) continue;
+                List<GuluProto.F> gm;
+                try { gm = GuluProto.Decode(g.bb); } catch { continue; }
+                foreach (GuluProto.F e in GuluProto.All(gm, 2))
+                {
+                    if (e.w != 2) continue;
+                    List<GuluProto.F> em;
+                    try { em = GuluProto.Decode(e.bb); } catch { continue; }
+                    string url = GuluProto.Text(GuluProto.Find(em, 3, 2));
+                    string name = GuluProto.Text(GuluProto.Find(em, 4, 2));
+                    if (url == null || url.Length == 0) continue;
+                    if (name == null || name.Length == 0) name = "未命名频道";
+                    outL.Add(new LiveCh { group = group, name = name, url = url });
+                }
+            }
+        }
+        return outL;
+    }
+
+    byte[] HttpPost(byte[] body, Dictionary<string, string> headers)
+    {
+        HttpWebRequest req = (HttpWebRequest)WebRequest.Create(ENDPOINT);
+        req.Method = "POST";
+        req.UserAgent = "okhttp/3.12.0";
+        req.ContentType = "application/x-protobuf";
+        req.Timeout = 20000;
+        req.ReadWriteTimeout = 20000;
+        req.Proxy = null;
+        req.ServicePoint.Expect100Continue = false;
+        if (headers != null)
+            foreach (KeyValuePair<string, string> kv in headers) req.Headers[kv.Key] = kv.Value;
+        req.ContentLength = body.Length;
+        using (Stream rs = req.GetRequestStream()) rs.Write(body, 0, body.Length);
+        try
+        {
+            using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
+            {
+                SyncClock(resp);
+                using (var ms = new MemoryStream())
+                using (Stream s = resp.GetResponseStream())
+                {
+                    byte[] buf = new byte[65536]; int n;
+                    while ((n = s.Read(buf, 0, buf.Length)) > 0) ms.Write(buf, 0, n);
+                    return ms.ToArray();
+                }
+            }
+        }
+        catch (WebException ex)
+        {
+            var rsp = ex.Response as HttpWebResponse;
+            if (rsp != null) throw new Exception("HTTP " + (int)rsp.StatusCode + " " + rsp.StatusDescription);
+            throw;
+        }
+    }
+
+    // 从 HTTP Date 头同步时钟, 规避本机时间偏移导致的 10002
+    void SyncClock(HttpWebResponse resp)
+    {
+        try
+        {
+            string d = resp.Headers[HttpResponseHeader.Date];
+            if (string.IsNullOrEmpty(d)) return;
+            DateTime p;
+            if (DateTime.TryParseExact(d, "R", System.Globalization.CultureInfo.InvariantCulture,
+                System.Globalization.DateTimeStyles.AssumeUniversal | System.Globalization.DateTimeStyles.AdjustToUniversal, out p))
+                clockOffset = (long)(p - DateTime.UtcNow).TotalMilliseconds;
+        }
+        catch { }
     }
 }
