@@ -1,0 +1,2501 @@
+{
+  "lives": [{
+    "name": "直播",
+    "epg": "http://116.62.107.79/utu/diyp.php?ch={name}&date={date}",
+    "groups": [
+      {
+        "name": "咕噜·体育频道",
+        "channel": [
+          {
+            "name": "CCTV5体育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv5&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV5+体育赛事",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv5p&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV16奥林匹克",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv16&zy.m3u8"
+            ]
+          },
+          {
+            "name": "快乐垂钓",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=klcd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "先锋乒羽",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xfpy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海五星体育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shwxty&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxtyxxpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "武术世界",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wspd&zy.m3u8",
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wssj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆体育健康",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjty&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdtyxx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南文旅体育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jnwlty&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsxx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "辽宁广播电视台体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lngbdsttyxxpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "赛事最经典",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sszjd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "体坛名栏汇",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ttmlh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "四海钓鱼",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shdy&zy.m3u8"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "咕噜·少儿频道",
+        "channel": [
+          {
+            "name": "CCTV14少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv14&zy.m3u8"
+            ]
+          },
+          {
+            "name": "嘉佳卡通",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jjkt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "优漫卡通",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ymkt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjse&zy.m3u8"
+            ]
+          },
+          {
+            "name": "金鹰卡通",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jykt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gssepd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjse&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdsepd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jnsepd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdtv6&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjse&zy.m3u8"
+            ]
+          },
+          {
+            "name": "经典动画大集合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jddhdjh&zy.m3u8"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "咕噜·地方卫视",
+        "channel": [
+          {
+            "name": "浙江卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "北京卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=bjws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hunws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "东方卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dfws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "广东卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gdws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江西卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jxws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=henws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖北卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hubws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吉林卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jlws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "青海卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qhws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "海南卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hainws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "辽宁卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lnws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "宁夏卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nxws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "重庆卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cqws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "东南卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dnws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大湾区卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dwqws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "三沙卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ssws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "嘉佳卡通",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jjkt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "优漫卡通",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ymkt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏教育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsjy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东教育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdjy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "兵团卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=btws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河北卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hebws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黑龙江卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hljws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "延边卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ybws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "西藏卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xzws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "西藏藏语卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xzzy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山西卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shanxws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "农林卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nlws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "内蒙古卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nmgws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "内蒙古蒙语卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nmmyws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "海峡卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hxws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "厦门卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xmws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gsws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "云南卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ynws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "深圳卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=szws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "天津卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tjws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "安徽卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ahws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "广西卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gxws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "四川卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=scws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "青海安多卫视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qhadws&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江钱江",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjqj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江经济生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjjjsh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江教科影视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjjkys&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江民生休闲",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjmsxx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江新闻",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjxw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjse&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江国际",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjgj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江好易购",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjhyg&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浙江之江纪录",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zjzjjl&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南经视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hunjs&zy.m3u8"
+            ]
+          },
+          {
+            "name": "金鹰卡通",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jykt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "金鹰纪实",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jyjs&zy.m3u8"
+            ]
+          },
+          {
+            "name": "快乐垂钓",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=klcd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "先锋乒羽",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xfpy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南都市",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hunds&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南电视剧",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hndsj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南公共",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hungg&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南国际",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hungj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南娱乐",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hunyl&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南快乐购",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=klg&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南茶频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "湖南电影",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hndy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "长沙新闻",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=csxw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "长沙政法",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cszf&zy.m3u8"
+            ]
+          },
+          {
+            "name": "长沙女性",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=csnx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CETV1",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cetv1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CETV2",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cetv2&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CETV4",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cetv4&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海新纪实",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shxjs&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海魔都眼",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shmdy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海第一财经",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shdycj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海都市频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shdspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海五星体育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shwxty&zy.m3u8"
+            ]
+          },
+          {
+            "name": "东方财经",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dfcj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海生活时尚",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shss&zy.m3u8"
+            ]
+          },
+          {
+            "name": "金色学堂",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsxt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上海教育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=shjy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "游戏风云",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=yxfy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "法治天地",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fztd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "上视东方影视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ssdfys&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山西经济",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxjj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山西影视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxys&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山西社会与法治",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxfz&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山西文体生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxwt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山西黄河",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxhh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxtyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "阳泉新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxyqxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "长治新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxczxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "晋城新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxjcxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "朔州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxszxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "晋中新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxjzxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "运城新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxycxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "忻州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxxzzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "临汾新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxlfxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吕梁新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxllxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原经济生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tyjjsh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原社教法制",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tysjfz&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原影视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tyyspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原文体",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tywtpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原佰乐购",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tyblg&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原城市",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tycssh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "太原教育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tyjypd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大同新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dtxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大同公共频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dtggpd'&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大同煤都生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dtmdsh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西新闻资讯",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xwzx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西都市青春",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dsqc&zy.m3u8"
+            ]
+          },
+          {
+            "name": "秦腔频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qqpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "乐家购物",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ljgw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "移动电视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ydds&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西都市青春频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxdsqcpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西秦腔频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxqkpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西新闻资讯频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxxwzxpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陕西体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sxtyxxpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃文化影视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gswsys&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃公共应急",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gsggyj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gssepd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃科教频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gskjpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃移动电视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gsydds&zy.m3u8"
+            ]
+          },
+          {
+            "name": "甘肃证券服务",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gszjfw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "云南娱乐频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ynylpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "保山一套频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=bsytpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "巍山综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wszhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "云龙综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ylzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "陆良电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lldst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "元江综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=yjzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "红河新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hhxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "临沧一套",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lc1t&zy.m3u8"
+            ]
+          },
+          {
+            "name": "临沧二套",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lc2t&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福贡综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fgzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贡山综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gszhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "沪水综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hszhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "易门综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ymzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "绿春综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lczhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "丘北电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qbdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "昆明教育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=kmjy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "普洱1台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=per1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "麻栗坡电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=mlpdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "绥江电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=suijdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "迪庆综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dqzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "迪庆藏语频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dqzypd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南都市",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hnds&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南民生",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hnms&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南法治",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hmfz&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南电视剧",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hndsj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南新闻",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hnxw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "欢腾购物",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=htgw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南公共",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hngg&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南乡村",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hnxc&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南国际",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hngj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河南梨园",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hnly&zy.m3u8"
+            ]
+          },
+          {
+            "name": "文物宝库",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wwbk&zy.m3u8"
+            ]
+          },
+          {
+            "name": "武术世界",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "晴彩中原",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jczy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "移动戏曲",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ydxj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "象视界",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xsj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "国学频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gxpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "郑州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zzxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "开封新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=kfxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "洛阳新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "平顶山新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=pdsxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "安阳新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ayxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "鹤壁新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hbxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新乡新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xxxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "焦作新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jzxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "濮阳新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=pyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "许昌新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xcxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "漯河新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lhxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "三门峡新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=smxxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南阳新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "商丘新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sqxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "信阳新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "周口新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zkxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "驻马店新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zmdxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济源新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆维语新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjwyzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆哈语新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjhyzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆综艺",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjzy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆维语影视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjwyys&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆经济生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjjjsh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆哈语综艺",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjhyzy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆维语经济生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjwyjj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆体育健康",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjty&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆信息服务",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjxxfw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新疆少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xjse&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吉林都市频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jldspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吉林生活频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jlshpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吉林影视频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jlyspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吉林乡村频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jlxcpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吉林综艺文化频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jlzywhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "松原新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=syzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "长春综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cczhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "吉林新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jlxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "四平新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=spxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "辽源新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lyxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "白城新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=bcxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "通化新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=thxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "白山新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=bsxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黑龙江文体频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hljwtpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黑龙江影视频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hljyspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黑龙江新闻法治频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hljxwfzpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黑龙江都市频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hljdspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黑龙江农业・科教频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hljnykjpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "齐齐哈尔新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qqhexwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "鹤岗新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hgxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黑河新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hhxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大兴安岭新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dxalxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东新闻频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdxwpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东齐鲁频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdqlpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdtyxx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东生活频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdshpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东综艺频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdzypd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东文旅频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdwlpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东农科频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdnkpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "山东少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sdsepd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jndst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "淄博电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zbdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "枣庄电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zzdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "东营电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dydst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "烟台电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ytdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "潍坊电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wfdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "泰安电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=tadst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "威海电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=whdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "日照电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=rzdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "临沂电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lydst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "德州电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dzdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "聊城电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lcdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "滨州电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=bzdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "菏泽电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hzdst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南都市",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jndspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南文旅体育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jnwlty&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jnshpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jnsepd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "济南鲁中",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jnlzpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏综艺频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jszy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏城市频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jscs&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏国际",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsgj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏影视频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsys&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏公共新闻频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsxw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏财富天下",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cftx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江苏体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jsxx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "无锡新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wxxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "无锡娱乐",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wxyl&zy.m3u8"
+            ]
+          },
+          {
+            "name": "无锡都市资讯",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wxdszx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "无锡生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wxsh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "无锡经济",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wxjj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "盐城新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ycxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "淮安新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=haxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "泰州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qzxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "连云港新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lygxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "宿迁新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sqxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "徐州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xzxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "江阴新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南通新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ntxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "宜兴新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=yxxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "溧水新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lsxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南京新闻综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=njxwzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南京教科频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=njjkpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南京十八频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nj18pd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都新闻频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdtv1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都经济频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdtv2&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都生活频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdtv3&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都影视频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdtv4&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都公共频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdtv5&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都少儿频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdtv6&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成都蓉城先锋",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cdrcxf&zy.m3u8"
+            ]
+          },
+          {
+            "name": "成华有线电视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=chyx&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大邑电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dytv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "高新电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gxtv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "第295集",
+            "urls": [
+              "锦江电视台http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jjtv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "金牛电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jntv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "金堂电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jttv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "简阳新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=jyxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "郫都新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=pdxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "浦江电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=pjtv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "彭州电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=pztv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "青白江电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qbjtv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "邛崃电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qltv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "青羊电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qytv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "双流综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=slzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "武侯电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=whtv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "温江电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=wjtv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "新都电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xdtv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "绵阳江油新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=myjyxw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "绵阳北川综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=mybczh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "绵阳盐亭综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=myytzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "绵阳梓潼综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=myztzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "阿坝新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=abxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "阿坝藏语综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=abzyzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "阿坝若尔盖综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=abregzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "内江东兴新闻",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=njdxxw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "内江资中综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=njzzzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "德阳广汉综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=dyghzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "凉山甘洛综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lsglzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "凉山冕宁电视",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lsmnds&zy.m3u8"
+            ]
+          },
+          {
+            "name": "广安邻水综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=galszh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "广安武胜综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gawszh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "眉山丹棱综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=msdlzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "遂宁蓬溪新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=snpxxwzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南充综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nczh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南充科教生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nckjsh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "西藏影视文化",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xzys&zy.m3u8"
+            ]
+          },
+          {
+            "name": "察隅电视台",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=xzcydst&zy.m3u8"
+            ]
+          },
+          {
+            "name": "日喀则汉语综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=rkzhyzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "日喀则藏语综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=rkzzyzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "拉萨综合频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lszhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "拉萨文化旅游",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lswhlypd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "第334集",
+            "urls": [
+              "拉萨藏语综合频道http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lszyzhpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州公共频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzggpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州影视频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzyspd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州生活频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzshpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州乡村频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzxcpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州科教频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzkjpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "第341集",
+            "urls": [
+              "贵州经济频道http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzjjpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州家有购物",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzjygwpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "贵州移动频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzydpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黔西南综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qxnzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "黔西南公共",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qxngg&zy.m3u8"
+            ]
+          },
+          {
+            "name": "辽宁广播电视台公共频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lngbdstggpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "辽宁广播电视台生活频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lngbdsttshpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "辽宁广播电视台体育休闲频道",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lngbdsttyxxpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "第350集",
+            "urls": [
+              "辽宁广播电视台影视剧频道http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lngbdstysjpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大连新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lldlzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大连生活",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lldlsh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大连文体",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lldlwt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "大连乐天购物",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=lldlgw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建新闻",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjxw&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建乡村振兴公共",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjxc&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建电视剧",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjdsj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建旅游",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjly&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建经济",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjjj&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建文体",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjwt&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福建少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fjse&zy.m3u8"
+            ]
+          },
+          {
+            "name": "福州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=fz1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "漳州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zz1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "泉州新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=qz1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "三明综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=sm1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "莆田综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=pt1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "南平综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=np1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "龙岩综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=ly1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "宁德新闻综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=nd1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "平潭综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=pttv&zy.m3u8"
+            ]
+          },
+          {
+            "name": "广州综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=gzzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "河源综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=hyzh&zy.m3u8"
+            ]
+          },
+          {
+            "name": "中山综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=zszh&zy.m3u8"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "咕噜·CCTV",
+        "channel": [
+          {
+            "name": "CCTV1综合",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv1&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV2财经",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv2&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV3综艺",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv3&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV4中文国际",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv4&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV5体育",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv5&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV5+体育赛事",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv5p&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV6电影",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv6&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV7国防军事",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv7&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV8电视剧",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv8&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV9纪录",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv9&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV10科教",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv10&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV11戏曲",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv11&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV12社会与法",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv12&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV13新闻",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv13&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV14少儿",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv14&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV15音乐",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv15&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV16奥林匹克",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv16&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV17农业农村",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv17&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV4欧洲",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv4oz&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV4美洲",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv4mz&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CGTN外语记录",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cgtnwyjl&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CGTN阿拉伯语",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cgtnalby&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CGTN西班牙语",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cgtnxbyy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CGTN法语",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cgtnfy&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CGTN俄语",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cgtney&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CGTN",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cgtn&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV4K",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv4k&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV8K",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctv8k&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV风云剧场",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctvfyjcpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV第一剧场",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctvdyjcpd&zy.m3u8"
+            ]
+          },
+          {
+            "name": "CCTV怀旧剧场",
+            "urls": [
+              "http://110.42.52.180:6688/live/live.php?token=SB7GrY6k8n&id=cctvhjjcpd&zy.m3u8"
+            ]
+          }
+        ]
+      }
+    ]
+  }]
+}
