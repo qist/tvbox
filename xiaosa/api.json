@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;c6c7cbd14359dee31a97abb7ec27df19",
+  "spider": "./spider.jar;md5;356ad46efe5d2b44a9cb4a6deb9ef0df",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -70,7 +70,7 @@
     {"key": "巴士动漫","name": "巴士 • 动漫","type": 3,"api": "csp_AnimeBashi"},
     {"key": "吉里动漫","name": "吉里 • 动漫","type": 3,"api": "csp_AnimeGiri"},
     {"key": "花子动漫","name": "花子 • 动漫","type": 3,"api": "csp_AnimeHuazi"},
-    {"key": "荐片","name": "荐片 • 磁力","api": "csp_JianPian","type": 3},
+    {"key": "荐片","name": "荐片 • 磁力","api": "csp_JianPian","type": 3,"ext": {"site": ["https://www.whhyn.com","https://www.zxfmj.com"]}},
     {"key": "New6v","name": "New6V • 磁力","type": 3,"api": "csp_New6v","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.xb6v.com"},
     {"key": "美剧迷","name": "美剧迷 • 磁力","type": 3,"api": "csp_MeijuMi","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "迅雷吧","name": "迅雷吧 • 磁力","type": 3,"api": "csp_Xunlei8","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://xunlei8.me"},
