@@ -125,13 +125,27 @@ class Program
             else IngestTxt(text, f.Key);
         }
 
+        // qmtv 单源快照 (必须在 FetchGulu 之前拍, 保证单源文件纯净)
+        List<Group> qmtvGroups = groups.ToList();
+
         // 追加来源: 咕噜 APP 直播源 (协议加密, 失败不影响 qmtv 主流程)
         try { FetchGulu(); }
         catch (Exception gex) { Console.WriteLine("[咕噜] 获取失败(不影响主流程): " + gex.Message); }
 
         if (groups.Count == 0) throw new Exception("没有解析到任何频道");
-        string json = BuildJson(epg);
+        string json = BuildJson(groups, epg);
+
+        // 三个输出: 合并 / 仅 qmtv / 仅咕噜 (文件名跟随 -o 参数派生)
+        string baseDir = Path.GetDirectoryName(outFile);
+        if (string.IsNullOrEmpty(baseDir)) baseDir = AppDomain.CurrentDomain.BaseDirectory;
+        string stem = Path.GetFileNameWithoutExtension(outFile);
+        string ext = Path.GetExtension(outFile);
+        if (string.IsNullOrEmpty(ext)) ext = ".json";
+        string qimiFile = Path.Combine(baseDir, stem + "_qimi" + ext);
+        string guluFile = Path.Combine(baseDir, stem + "_gulu" + ext);
         File.WriteAllText(outFile, json, new UTF8Encoding(false));
+        File.WriteAllText(qimiFile, BuildJson(qmtvGroups, epg), new UTF8Encoding(false));
+        File.WriteAllText(guluFile, BuildJson(groups.Where(g => g.Name.StartsWith("咕噜·")).ToList(), epg), new UTF8Encoding(false));
 
         int chTotal = groups.Sum(g => g.Chs.Count);
         int urlTotal = groups.Sum(g => g.Chs.Values.Sum(v => v.Count));
@@ -145,7 +159,9 @@ class Program
         Console.WriteLine("总计 分组 " + groups.Count + " | 频道 " + chTotal + " | 线路 " + urlTotal + " | 已过滤广告 " + filteredCount);
         Console.WriteLine("qmtv 来源: 分组 " + qmtvG + " | 频道 " + qmtvC + "    咕噜来源: 分组 " + guluG + " | 频道 " + guluC);
         Console.WriteLine("EPG: " + epg);
-        Console.WriteLine("已生成: " + outFile);
+        Console.WriteLine("已生成: " + outFile + "  (合并)");
+        Console.WriteLine("已生成: " + qimiFile + "  (仅 qmtv)");
+        Console.WriteLine("已生成: " + guluFile + "  (仅咕噜)");
         Console.WriteLine("在 FongMi TV / 影视仓 中以本 JSON 文件作为直播配置导入即可");
         Console.WriteLine("--------------------------------------------------------");
     }
@@ -549,7 +565,7 @@ class Program
         return sb.ToString();
     }
 
-    static string BuildJson(string epg)
+    static string BuildJson(List<Group> gs, string epg)
     {
         var sb = new StringBuilder();
         sb.Append("{\n  \"lives\": [{\n");
@@ -557,7 +573,7 @@ class Program
         if (!string.IsNullOrEmpty(epg)) sb.Append("    \"epg\": \"").Append(Esc(epg)).Append("\",\n");
         sb.Append("    \"groups\": [");
         bool firstGroup = true;
-        foreach (Group g in groups)
+        foreach (Group g in gs)
         {
             if (!firstGroup) sb.Append(",");
             firstGroup = false;
