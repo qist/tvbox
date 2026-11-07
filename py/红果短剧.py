@@ -1568,7 +1568,10 @@ def _stream_session(video_id: str, config: Mapping[str, Any], wanted_quality: st
                         except HongguoPluginError:
                             url = raw_url
                     total, moov_start, moov = _fetch_moov(url)
-                    if _moov_has_video_track(moov):
+                    # 视轨双重校验: hdlr=vide 且 moov 内 stsd/frma 含真实视频 fourcc。
+                    # 坏流会带空壳视频轨(hdlr=vide 但 frma=bvc2 私有编码、tkhd 宽高 0),
+                    # 只查 hdlr 会误判成有画面, 播出来就是"有声音没图像"。
+                    if _moov_has_video_track(moov) and _mp4_has_video(moov):
                         session = _StreamSession(url, derive_content_key(spade), total, moov_start, moov)
                         break
                     reason = "该清晰度没有视轨 q=%s" % want
