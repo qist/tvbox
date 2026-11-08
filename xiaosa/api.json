@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;96ae86a8139a92009c4d83d1c6d7fac1",
+  "spider": "./spider.jar;md5;22f033e29be68cd8aac3280c364903f8",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -54,6 +54,7 @@
     {"key": "好看短剧","name": "好看 • 短剧","type": 3,"api": "csp_ShortHaokan","genre": "shortdrama"},
     {"key": "星芽短剧","name": "星芽 • 短剧","type": 3,"api": "csp_ShortXingya","genre": "shortdrama"},
     {"key": "果果短剧","name": "果果 • 短剧","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8","分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"},"genre": "shortdrama"},
+    {"key": "星辰影视","name": "星辰 • 影视","type": 3,"api": "csp_XingChen"},
     {"key": "飞娱影视","name": "飞娱 • 影视","type": 3,"api": "csp_Feiyu"},
     {"key": "旺旺影视","name": "旺旺 • 影视","type": 3,"api": "csp_Wwys","ext": "https://vip.wwgz.cn:5200"},
     {"key": "独播影视","name": "独播 • 影视","type": 3,"api": "csp_Duboku"},
@@ -63,7 +64,6 @@
     {"key": "骚火影视","name": "骚火 • 影视","type": 3,"api": "csp_SaoHuo","ext": "https://shdy5.us"},
     {"key": "枫叶影视","name": "枫叶 • 影视","type": 3,"api": "csp_FengYe","ext": "https://www.vip1949.com/"},
     {"key": "爱看机器人","name": "爱看 • 影视","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
-    {"key": "面包影视","name": "面包 • 影视","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html","分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47","简介": "简介：&&"}},
     {"key": "1905","name": "1905 • 影视","type": 3,"api": "csp_Web1905","searchable": 1,"quickSearch": 0,"filterable": 0},
     {"key": "番社动漫","name": "番社 • 动漫","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","主页url": "https://dora.xiaoxinbk.com/","数组": "class=\"card-img-bili\"&&</a>","标题": "alt=\"&&\"","图片": "data-url=\"&&\"","链接": "href=\"&&\"","线路标题": "mt-0\">&&</h3>","播放数组": "class=\"card-body button-list\"&&</div>","播放列表": "<a&&a>","播放链接": "href=\"&&\"","播放标题": ">&&</","分类url": "https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}","分类": "全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30","剧情": "哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33","排序": "全部$0#完结$2#连载$1#待定$-1"},"style": {"type": "list"}},
     {"key": "稀饭","name": "稀饭 • 动漫","type": 3,"api": "csp_AnimeXifan"},
