@@ -8,9 +8,18 @@
     {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.618}},
     {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
     {"key": "预告","name": "新片 • 预告","type": 3,"api": "csp_YGP","searchable": 0},
-
+  { "key": "酷我音乐",
+            "name": "酷我音乐",
+            "type": 3,
+            "api": "./py/酷我音乐.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },  
+           
 {
-            "key": "新韩剧网",
+ "key": "新韩剧网",
             "name": "新韩剧网",
             "type": 3,
             "api": "./py/新韩剧网.min.py",
