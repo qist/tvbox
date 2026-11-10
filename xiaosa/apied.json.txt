@@ -69,6 +69,47 @@
   "style": {"type": "rect","ratio": 1.433},
             "ext": {}
        },
+
+
+    
+{
+            "key": "影探4K",
+            "name": "影探4K",
+            "type": 3,
+            "api": "./py/影探4K.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+
+   
+{
+            "key": "山楂4K",
+            "name": "山楂4K",
+            "type": 3,
+            "api": "./py/山楂4K.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+
+   
+{
+            "key": "片帝4K",
+            "name": "片帝4K",
+            "type": 3,
+            "api": "./py/片帝4K.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "快映fox","name": "快映 • APP","type": 3,"api": "csp_AppFox","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./json/ky4kbgq7b273.json"},
     {"key": "一起影视","name": "一起 • APP","type": 3,"api": "csp_AppYQK","searchable": 1,"quickSearch": 1,"filterable": 0},
