@@ -42,6 +42,17 @@
             "changeable": 0,
             "ext": {}
        },
+
+    { "key": "菠菜园",
+            "name": "菠菜园",
+            "type": 3,
+            "api": "./py/菠菜园.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
     
 {
             "key": "懂片帝",
