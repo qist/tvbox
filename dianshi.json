@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/spider.jar;md5;9f7227651023177d2a036830180add15",
+  "spider": "./jar/spider.jar;md5;a2928946eb00e5fee87663c94ae37bff",
   "lives": [
     {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}","logo": "https://logo.wyfc.qzz.io/{name}.png"}
   ],
@@ -21,6 +21,8 @@
     {"key": "Didahd","name": "嘀嗒影视","type": 3,"api": "./py/Didahd.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
     {"key": "TVB云播","name": "TVB云播","type": 3,"api": "./py/TVB云播.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1},
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
+    {"key": "米诺","name": "米诺 • APP","type": 3,"api": "csp_AppMN","searchable": 1,"quickSearch": 1,"filterable": 0},
+    {"key": "下饭","name": "下饭 • APP","type": 3,"api": "csp_JuXiaFan","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "快映fox","name": "快映 • APP","type": 3,"api": "csp_AppFox","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./json/ky4kbgq7b273.json"},
     {"key": "一起影视","name": "一起 • APP","type": 3,"api": "csp_AppYQK","searchable": 1,"quickSearch": 1,"filterable": 0},
     {"key": "咕噜","name": "咕噜 • APP","type": 3,"api": "csp_Gulu","searchable": 1,"quickSearch": 1,"filterable": 1},
@@ -65,6 +67,8 @@
     {"key": "好看短剧","name": "好看 • 短剧","type": 3,"api": "csp_ShortHaokan","genre": "shortdrama"},
     {"key": "星芽短剧","name": "星芽 • 短剧","type": 3,"api": "csp_ShortXingya","genre": "shortdrama"},
     {"key": "果果短剧","name": "果果 • 短剧","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8","分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"},"genre": "shortdrama"},
+    {"key": "懂片","name": "懂片 • 影视","type": 3,"api": "csp_DongPian"},
+    {"key": "杜北","name": "杜北 • 影视","type": 3,"api": "csp_Dubk"},
     {"key": "星辰影视","name": "星辰 • 影视","type": 3,"api": "csp_XingChen"},
     {"key": "飞娱影视","name": "飞娱 • 影视","type": 3,"api": "csp_Feiyu"},
     {"key": "旺旺影视","name": "旺旺 • 影视","type": 3,"api": "csp_Wwys","ext": "https://vip.wwgz.cn:5200"},
