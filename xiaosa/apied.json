@@ -5,8 +5,6 @@
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
     {"key": "豆瓣","name": "豆瓣 • 首页","type": 3,"api": "csp_Douban","searchable": 0},
-    {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.618}},
-    {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
     {"key": "预告","name": "新片 • 预告","type": 3,"api": "csp_YGP","searchable": 0},
 
 {
@@ -22,124 +20,12 @@
        },
    {"key": "韩圈","name": "韩圈 • APP","type": 3,"api": "csp_Hxq"},
 
-{ "key": "影探聚合",
-            "name": "影探聚合",
-            "type": 3,
-            "api": "./py/影探聚合.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
-{ "key": "多线影视",
-            "name": "多线影视",
-            "type": 3,
-            "api": "./py/多线影视.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
 
-    { "key": "菠菜园",
-            "name": "菠菜园",
-            "type": 3,
-            "api": "./py/菠菜园.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
     
-{
-            "key": "懂片帝",
-            "name": "懂片帝",
-            "type": 3,
-            "api": "./py/懂片帝.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
-{
-            "key": "文才",
-            "name": "文才",
-            "type": 3,
-            "api": "./py/文才.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
-{
-            "key": "多多",
-            "name": "多多",
-            "type": 3,
-            "api": "./py/多多.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
-    
-{
-            "key": "腾讯4K",
-            "name": "腾讯4K",
-            "type": 3,
-            "api": "./py/腾讯4K.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-  "style": {"type": "rect","ratio": 1.433},
-            "ext": {}
-       },
 
 
     
-{
-            "key": "影探4K",
-            "name": "影探4K",
-            "type": 3,
-            "api": "./py/影探4K.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
 
-   
-{
-            "key": "山楂4K",
-            "name": "山楂4K",
-            "type": 3,
-            "api": "./py/山楂4K.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
-
-   
-{
-            "key": "片帝4K",
-            "name": "片帝4K",
-            "type": 3,
-            "api": "./py/片帝4K.py",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {}
-       },
 
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "快映fox","name": "快映 • APP","type": 3,"api": "csp_AppFox","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./json/ky4kbgq7b273.json"},
@@ -180,6 +66,58 @@
     {"key": "即刻","name": "即刻 • 4K","type": 3,"api": "csp_Jike","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "双星","name": "双星 • 4K","type": 3,"api": "csp_ShuangXing","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
     {"key": "卡卡","name": "卡卡 • 4K","type": 3,"api": "csp_KKPan","searchable": 1,"quickSearch": 0,"filterable": 0,"style": {"type": "list"},"timeout": 60},
+    {
+            "key": "腾讯4K",
+            "name": "腾讯 • 4K",
+            "type": 3,
+            "api": "./py/腾讯4K.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+  "style": {"type": "rect","ratio": 1.433},
+            "ext": {}
+       },
+
+
+    
+{
+            "key": "影探4K",
+            "name": "影探 • 4K",
+            "type": 3,
+            "api": "./py/影探4K.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+
+   
+{
+            "key": "山楂4K",
+            "name": "山楂 • 4K",
+            "type": 3,
+            "api": "./py/山楂4K.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+
+   
+{
+            "key": "片帝4K",
+            "name": "片帝 • 4K",
+            "type": 3,
+            "api": "./py/片帝4K.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
     {"key": "红果短剧","name": "红果 • 短剧","type": 3,"api": "./py/红果短剧.py","genre": "shortdrama"},
     {"key": "七猫短剧","name": "七猫 • 短剧","type": 3,"api": "csp_ShortQimao","genre": "shortdrama"},
     {"key": "河马短剧","name": "河马 • 短剧","type": 3,"api": "csp_ShortHema","genre": "shortdrama"},
@@ -198,6 +136,70 @@
     {"key": "爱看机器人","name": "爱看 • 影视","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "面包影视","name": "面包 • 影视","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html","分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47","简介": "简介：&&"}},
     {"key": "1905","name": "1905 • 影视","type": 3,"api": "csp_Web1905","searchable": 1,"quickSearch": 0,"filterable": 0},
+{
+            "key": "文才影视",
+            "name": "文才 • 影视",
+            "type": 3,
+            "api": "./py/文才.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+{
+            "key": "多多影视",
+            "name": "多多 • 影视",
+            "type": 3,
+            "api": "./py/多多.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+{
+            "key": "懂片帝影视",
+            "name": "懂片帝 • 影视",
+            "type": 3,
+            "api": "./py/懂片帝.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+    { "key": "影探聚合",
+            "name": "影探聚合 • 聚合",
+            "type": 3,
+            "api": "./py/影探聚合.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+{ "key": "多线影视",
+            "name": "多线影视 • 聚合",
+            "type": 3,
+            "api": "./py/多线影视.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+
+    { "key": "菠菜园",
+            "name": "菠菜园 • 聚合",
+            "type": 3,
+            "api": "./py/菠菜园.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
     {"key": "番社动漫","name": "番社 • 动漫","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","主页url": "https://dora.xiaoxinbk.com/","数组": "class=\"card-img-bili\"&&</a>","标题": "alt=\"&&\"","图片": "data-url=\"&&\"","链接": "href=\"&&\"","线路标题": "mt-0\">&&</h3>","播放数组": "class=\"card-body button-list\"&&</div>","播放列表": "<a&&a>","播放链接": "href=\"&&\"","播放标题": ">&&</","分类url": "https://www.dora-video.cn/search/sy/?niandai={year}&cat={class}&tag={cateId}&gaojijiansuo=1&zhuangtai={by}","分类": "全部$0#动画$20#剧场版$21#MV$22#预告片$23#直播$27#同人$25#民间$26#目录$28#中篇$30","剧情": "哆啦A梦新番$1#新哆啦A梦 台湾配音$2#哆啦A梦剧场版$3#最新预告片$6#剧场版集合$7#哆啦A梦MV$4#哆啦A梦七小子集合$11#生日特别篇$19#哆啦A梦生日特别篇$12#哆啦美生日特别篇$14#大雄生日特别篇$13#静香生日特别篇$15#胖虎生日特别篇$16#小夫生日特别篇$17#24小时直播$24#哆啦A梦中篇附映$29#哆啦A梦大山版 - 哆啦a梦1979版国语旧版 - 旧版$31#哆啦A梦大山修复&补档区$32#藤子·F·不二雄【其它动画】$33","排序": "全部$0#完结$2#连载$1#待定$-1"},"style": {"type": "list"}},
     {"key": "稀饭","name": "稀饭 • 动漫","type": 3,"api": "csp_AnimeXifan"},
     {"key": "巴士动漫","name": "巴士 • 动漫","type": 3,"api": "csp_AnimeBashi"},
@@ -247,7 +249,9 @@
     {"key": "高中课堂","name": "高中 • 课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "./json/GZKT.json","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"},"style": {"type": "rect","ratio": 1.618}},
     {"key": "急救教学","name": "急救 • 教学","type": 3,"api": "csp_FirstAid","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8},"gridview": "0-0-4.1"},
     {"key": "养生堂","name": "养生 • 知识","type": 3,"api": "csp_YST","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.618}},
-    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1}
+    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1},
+    {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.618}},
+    {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"}
   ],
   "lives": [
     {
