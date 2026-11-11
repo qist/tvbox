@@ -32,6 +32,17 @@
             "changeable": 0,
             "ext": {}
        },
+{ "key": "多线影视",
+            "name": "多线影视",
+            "type": 3,
+            "api": "./py/多线影视.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+    
 {
             "key": "懂片帝",
             "name": "懂片帝",
