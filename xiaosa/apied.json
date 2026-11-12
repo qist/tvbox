@@ -24,7 +24,17 @@
     
 
 
-    
+       {
+            "key": "五大平台",
+            "name": "五大平台",
+            "type": 3,
+            "api": "./py/五大平台.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
 
 
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
