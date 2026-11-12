@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/fan.txt;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a",
+  "spider": "./jar/fan.txt;md5;164fa61b160f3119f4f21489b9dfaf56",
   "wallpaper": "https://动态壁纸.饭.eu.org/",
   "sites": [
     {"key": "点我切源","name": "豆豆┃片单 <兼容安卓4>","type": 3,"api": "csp_DouDouGuard","indexs": 1,"searchable": 0,"quickSearch": 0,"changeable": 0},
@@ -58,14 +58,14 @@
   "hosts": [
   "img1.wsyzy.org=cmcc.vvvv.ee",
   "fiizvfck.top=cmcc.vvvv.ee",
-  "images.67c6c7a.com=cmcc.vvvv.ee"
+  "images.67c6c7a.com=cmcc.vvvv.ee",
+  "sub.ottiptv.cc=cmcc.vvvv.ee"
 ],
   "lives": [
     {"name": "综合","type": 0,"url": "http://193.123.86.190:14888/TV/iptv.php","ua": "bingcha/1.1 (mianfeifenxiang)","playerType": 2},
     {"name": "牛播一","url": "http://127.0.0.1:9978/proxy?do=cctva","timeZone": "Asia/Shanghai"},
     {"name": "Kimentanm","type": 0,"url": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
     {"name": "虎牙一起看","type": 0,"url": "https://sub.ottiptv.cc/huyayqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
-    {"name": "斗鱼一起看","type": 0,"url": "https://sub.ottiptv.cc/douyuyqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"},
-    {"name": "YY轮播","type": 0,"url": "https://sub.ottiptv.cc/yylunbo.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"}
+    {"name": "斗鱼一起看","type": 0,"url": "https://sub.ottiptv.cc/douyuyqk.m3u","playerType": 2,"timeout": 10,"ua": "okHttp/Mod-1.5.0.0"}
   ]
 }
