@@ -5,8 +5,7 @@
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
     {"key": "豆瓣","name": "豆瓣 • 首页","type": 3,"api": "csp_Douban","searchable": 0},
-    {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.618}},
-    {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
+
     {"key": "预告","name": "新片 • 预告","type": 3,"api": "csp_YGP","searchable": 0},
 
 {
@@ -225,7 +224,20 @@
     {"key": "高中课堂","name": "高中 • 课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"changeable": 0,"ext": {"json": "./json/GZKT.json","cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"},"style": {"type": "rect","ratio": 1.618}},
     {"key": "急救教学","name": "急救 • 教学","type": 3,"api": "csp_FirstAid","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 3.8},"gridview": "0-0-4.1"},
     {"key": "养生堂","name": "养生 • 知识","type": 3,"api": "csp_YST","searchable": 0,"quickSearch": 0,"changeable": 0,"style": {"type": "rect","ratio": 1.618}},
-    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1}
+        {"key": "配置中心","name": "配置 • 中心","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"indexs": 0,"style": {"type": "rect","ratio": 1.618}},
+    {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
+    {"key": "push_agent","name": "手机 • 推送","type": 3,"api": "csp_Push","searchable": 0,"filterable": 0,"changeable": 0,"hide": 1},
+    {
+            "key": "资源管理",
+            "name": "资源管理",
+            "type": 3,
+            "api": "./py/资源管理.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       }
   ],
   "lives": [
     {
