@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;a2928946eb00e5fee87663c94ae37bff",
+  "spider": "./spider.jar;md5;d2c9caaaeba20f00baac53295dbed29e",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -57,7 +57,6 @@
     {"key": "星芽短剧","name": "星芽 • 短剧","type": 3,"api": "csp_ShortXingya","genre": "shortdrama"},
     {"key": "果果短剧","name": "果果 • 短剧","type": 3,"api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8","分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"},"genre": "shortdrama"},
     {"key": "懂片","name": "懂片 • 影视","type": 3,"api": "csp_DongPian"},
-    {"key": "杜北","name": "杜北 • 影视","type": 3,"api": "csp_Dubk"},
     {"key": "星辰影视","name": "星辰 • 影视","type": 3,"api": "csp_XingChen"},
     {"key": "飞娱影视","name": "飞娱 • 影视","type": 3,"api": "csp_Feiyu"},
     {"key": "旺旺影视","name": "旺旺 • 影视","type": 3,"api": "csp_Wwys","ext": "https://vip.wwgz.cn:5200"},
