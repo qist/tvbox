@@ -25,17 +25,27 @@
 
 
        {
-            "key": "五大平台",
-            "name": "五大平台",
+            "key": "豆播AI",
+            "name": "豆播AI",
             "type": 3,
-            "api": "./py/五大平台.py",
+            "api": "./py/豆播AI.py",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
             "changeable": 0,
             "ext": {}
        },
-
+   {
+            "key": "演唱会",
+            "name": "演唱会",
+            "type": 3,
+            "api": "./py/演唱会.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
 
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
     {"key": "快映fox","name": "快映 • APP","type": 3,"api": "csp_AppFox","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./json/ky4kbgq7b273.json"},
