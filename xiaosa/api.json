@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;85c2c38467d85bb4e98c426af4519eab",
+  "spider": "./spider.jar;md5;decb609b673019e18512dc3a96b6a252",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20251224/dJkT/1080X1080/logo.jpg/webp",
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -9,7 +9,8 @@
     {"key": "本地","name": "本地 • 视频","type": 3,"api": "csp_LocalFile"},
     {"key": "预告","name": "新片 • 预告","type": 3,"api": "csp_YGP","searchable": 0},
     {"key": "热播影视","name": "热播 • APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"}},
-    {"key": "米诺","name": "米诺 • APP","type": 3,"api": "csp_AppMN","searchable": 1,"quickSearch": 1,"filterable": 0},
+    {"key": "云播","name": "云播 • APP","type": 3,"api": "csp_AppYB","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "未来","name": "未来 • APP","type": 3,"api": "csp_AppWL","searchable": 1,"quickSearch": 1,"filterable": 0},
     {"key": "下饭","name": "下饭 • APP","type": 3,"api": "csp_JuXiaFan","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key": "快映fox","name": "快映 • APP","type": 3,"api": "csp_AppFox","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "./json/ky4kbgq7b273.json"},
     {"key": "一起影视","name": "一起 • APP","type": 3,"api": "csp_AppYQK","searchable": 1,"quickSearch": 1,"filterable": 0},
