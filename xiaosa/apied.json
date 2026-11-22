@@ -36,10 +36,10 @@
             "ext": {}
        },
    {
-            "key": "演唱会",
-            "name": "演唱会",
+            "key": "看看鸭",
+            "name": "看看鸭",
             "type": 3,
-            "api": "./py/演唱会.py",
+            "api": "./py/看看鸭_omnibox.py",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
