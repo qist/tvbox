@@ -1,0 +1,53 @@
+
+name: Sync Upstream
+
+on:
+  schedule:
+    - cron: '0 2 */2 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/qist/tvbox.git
+          git fetch --no-tags upstream master
+
+      - name: Sync files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TEMP_DIR=$(mktemp -d)
+          trap 'rm -rf "$TEMP_DIR"' EXIT
+
+          git archive upstream/master | tar -x -C "$TEMP_DIR"
+
+          rsync -a --delete \
+            --exclude='/.git/' \
+            --exclude='/.github/workflows/' \
+            "$TEMP_DIR/" ./
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to sync."
+            exit 0
+          fi
+
+          git commit -m "Sync upstream qist/tvbox"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
