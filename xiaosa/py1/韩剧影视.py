@@ -23,10 +23,10 @@ class Spider(E):
         A.debug = False
         A.name = '新韩剧网'
         A.error_play_url = 'https://kjjsaas-sh.oss-cn-shanghai.aliyuncs.com/u/3401405881/20240818-936952-fc31b16575e80a7562cdb1f81a39c6b0.mp4'
-        A.home_url = 'https://www.hanju7.com'
+        A.home_url = 'https://www.9hanju.com'
         A.headers = {
             'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'Referer': 'https://www.hanju7.com/'
+            'Referer': 'https://www.9hanju.com/'
         }
 
     def getName(A):
