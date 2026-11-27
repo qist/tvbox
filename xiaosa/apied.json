@@ -18,6 +18,20 @@
             "changeable": 0,
             "ext": {}
        },
+
+{
+            "key": "韩剧影视",
+            "name": "韩剧影视",
+            "type": 3,
+            "api": "./py1/韩剧影视.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {}
+       },
+
+    
    {"key": "韩圈","name": "韩圈 • APP","type": 3,"api": "csp_Hxq"},
 
 
