@@ -1,6 +1,7 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-kr.xml"
 #EXT-X-APP APTV
-#EXT-X-APTV-TYPE local
+#EXT-X-APTV-TYPE remote
+#EXT-X-SUB-URL 
 
 #EXTINF:-1 group-title="韩国",YTN
 https://backup.760515.xyz/playlist/YTN-playlist.m3u8
