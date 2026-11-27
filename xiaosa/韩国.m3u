@@ -1,0 +1,136 @@
+#EXTM3U
+#EXT-X-APP APTV
+#EXT-X-APTV-TYPE local
+
+#EXTINF:-1 group-title="韩国",YTN
+https://backup.760515.xyz/playlist/YTN-playlist.m3u8
+#EXTINF:-1 group-title="韩国",YTN2
+https://backup.760515.xyz/playlist/YTN2-playlist.m3u8
+#EXTINF:-1 group-title="韩国",YTN사이언스
+https://backup.760515.xyz/playlist/YTN%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4-playlist.m3u8
+#EXTINF:-1 group-title="韩国",연합뉴스TV
+https://backup.760515.xyz/playlist/%EC%97%B0%ED%95%A9%EB%89%B4%EC%8A%A4TV-playlist.m3u8
+#EXTINF:-1 group-title="韩国",JTBC
+https://backup.760515.xyz/playlist/JTBC-playlist.m3u8
+#EXTINF:-1 group-title="韩国",JTBC2
+https://backup.760515.xyz/playlist/JTBC2-playlist.m3u8
+#EXTINF:-1 group-title="韩国",JTBC4
+https://backup.760515.xyz/playlist/JTBC4-playlist.m3u8
+#EXTINF:-1 group-title="韩国",tvN
+https://backup.760515.xyz/playlist/tvN-playlist.m3u8
+#EXTINF:-1 group-title="韩国",tvN SHOW
+https://backup.760515.xyz/playlist/tvN%20SHOW-playlist.m3u8
+#EXTINF:-1 group-title="韩国",tvN DRAMA
+https://backup.760515.xyz/playlist/tvN%20DRAMA-playlist.m3u8
+#EXTINF:-1 group-title="韩国",tvN STORY
+https://backup.760515.xyz/playlist/tvN%20STORY-playlist.m3u8
+#EXTINF:-1 group-title="韩国",채널A
+https://backup.760515.xyz/playlist/%EC%B1%84%EB%84%90A-playlist.m3u8
+#EXTINF:-1 group-title="韩国",채널A플러스
+https://backup.760515.xyz/playlist/%EC%B1%84%EB%84%90A%ED%94%8C%EB%9F%AC%EC%8A%A4-playlist.m3u8
+#EXTINF:-1 group-title="韩国",TV CHOSUN
+https://backup.760515.xyz/playlist/TV%20CHOSUN-playlist.m3u8
+#EXTINF:-1 group-title="韩国",TV CHOSUN 2
+https://backup.760515.xyz/playlist/TV%20CHOSUN%202-playlist.m3u8
+#EXTINF:-1 group-title="韩国",Mnet
+https://backup.760515.xyz/playlist/Mnet-playlist.m3u8
+#EXTINF:-1 group-title="韩国",MBN
+https://backup.760515.xyz/playlist/MBN-playlist.m3u8
+#EXTINF:-1 group-title="韩国",MBN 플러스
+https://backup.760515.xyz/playlist/MBN%20%ED%94%8C%EB%9F%AC%EC%8A%A4-playlist.m3u8
+#EXTINF:-1 group-title="韩国",LIFETIME
+https://backup.760515.xyz/playlist/LIFETIME-playlist.m3u8
+#EXTINF:-1 group-title="韩国",중화TV
+https://backup.760515.xyz/playlist/%EC%A4%91%ED%99%94TV-playlist.m3u8
+#EXTINF:-1 group-title="韩国",히스토리
+https://backup.760515.xyz/playlist/%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC-playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS1
+https://backup.760515.xyz/playlist/EBS1-playlist.m3u8
+#EXTINF:-1 group-title="韩国",국회방송(NATV)
+https://backup.760515.xyz/playlist/%EA%B5%AD%ED%9A%8C%EB%B0%A9%EC%86%A1%28NATV%29-playlist.m3u8
+#EXTINF:-1 group-title="韩国",ANIBOX
+https://backup.760515.xyz/playlist/ANIBOX-playlist.m3u8
+#EXTINF:-1 group-title="韩国",애니맥스
+https://backup.760515.xyz/playlist/%EC%95%A0%EB%8B%88%EB%A7%A5%EC%8A%A4-playlist.m3u8
+#EXTINF:-1 group-title="韩国",투니버스
+https://backup.760515.xyz/playlist/%ED%88%AC%EB%8B%88%EB%B2%84%EC%8A%A4-playlist.m3u8
+#EXTINF:-1 group-title="韩国",KBS1
+https://backup.760515.xyz/playlist/KBS1-playlist.m3u8
+#EXTINF:-1 group-title="韩国",KBS2
+https://backup.760515.xyz/playlist/KBS2-playlist.m3u8
+#EXTINF:-1 group-title="韩国",KBS드라마
+https://kbsndrama.gscdn.kbs.co.kr/kbsndrama-01/kbsndrama-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNuZHJhbWEuZ3NjZG4ua2JzLmNvLmtyL2tic25kcmFtYS0wMS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk1ODQ1NTY4fX19XX0_&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=AvAzPxUEI02T8DFm3NhSUmgLJKvrxJ6rLXCQYXW9yURmH3vNVZFtNQbEQSsD89vX~dXu6OcpOaw3QlDO44zyz7uAsarilqdhONq8rMcufCekixX~AJSMzXcbzNNQhXvQKjALuNNnw55qLwqJmE2Ee8U36zsTb4QgYtvUylBGlAB414eIHy9W7lpnpw-3UbikNJGUwMctPv0RTcCQ5qbDX59pEy8hj2NHMtVnuhvcgfz9ZgW06BMy5cV3CUfVINw965BDTbsDbJI-VA26-S7VXvJkCNdjYWfE6r7NX1Y9JvpYbFg3t2dYtXJF8LSqiDU5HBmEbV6nqdGAfhv6rjb6dA__
+#EXTINF:-1 group-title="韩国",KBS조이
+https://kbsnjoy.gscdn.kbs.co.kr/kbsnjoy-02/kbsnjoy-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNuam95LmdzY2RuLmticy5jby5rci9rYnNuam95LTAyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTU4NDU1NjJ9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=Mqta9epom6j24VtUN-~t7rFGEU0x1g2RMVDGoRWf4IJWMxjpo7ECG4RnDgggn4R2gZ0AIlMVyhvLipJnDdktJNpAT1eJ0gOV6ZxFE6qnfSBoG5mRE27FelOAglRGanCeNzxbsG--HWU09yHI7iN41QPOzMPwMUh8HohwQyA9GYAxQsNzx9EEesSDHyOfJTLevJ-dSgdrIWOLzqa9P3fyD2uxMCclvwObrDnMPVATQWkQznpnH5PUCFcCqRFKN9JenMuXjLbaSWqksaW9KD02JfKmMogzxtMtaOguPdnOHsJsY0ti-fwD3IOawhRmX-DjYYsyE05Nr7~PsOO0gAuZzQ__
+#EXTINF:-1 group-title="韩国",KBS키즈
+https://kbsnkids.gscdn.kbs.co.kr/kbsnkids-01/kbsnkids-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNua2lkcy5nc2Nkbi5rYnMuY28ua3Iva2JzbmtpZHMtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NTg0NTU2OH19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=RjARecb2d7RYhUQaVjn6Sj~QIFfVjlyP0ZgcbQSpp9VCT4IR5xCJ-iSPrHXqXFz9jNwpwPDGT5vY9e9XDSg6r4kZQ4cOd6p0jbL1HxcB7kwajQpC~3taGdp1iRq1BLWy30Vlnl~8eF31kHl10qqHJlRCNWVEkyh8ytFZSZIVW0YDwhRi9zD7oZrxELzteCGtKC5FqFEo4xFkfsptjyCdhQzkqr3uEwxQIQywtumgXde7T1nwkVuP4ljeN1Of2rqRj6QZvIQdoGVDwQiNlhTGsLPu4Ad23Hc9v7sjPkPnFynTXQ-ZqoGzMPsTmsp0ci1nUmZueXTwIaJTSK7rO~SWpQ__
+#EXTINF:-1 group-title="韩国",KBS LIFE
+https://kbsnlife.gscdn.kbs.co.kr/kbsnlife-01/kbsnlife-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNubGlmZS5nc2Nkbi5rYnMuY28ua3Iva2JzbmxpZmUtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NTg0NTU2OH19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=TnipoPdDl8D7sh2Cqve18q8exL-KCcjJ4cxoapT~MgZgP7yVRS5iyq8xoMUY2PgU484GBtq4Xshva10asl07vV6mJE20sql1jyAp3qUXIGuBfUXAXiw30fXj~DrILZWZ5dWInLnl2FesqBUcsGK-xvgKDjIJ9X5AVGLAI-q8SH5a~KN0XyajzECZcgZQnFyD01tmN5svxjEdWtWsmy8nHQC2zsLQ49ILfAEKw5Wxp7ZANpdVB63U9Ja7Y4clZWD5LQoc3txDuTNyJ10NbXClfEuderwq6nLGpPAKuKSFMzUf0lfPjpYc7hI1otOrFOv1P1ZNGXJhgnhPL4wVZdJvLg__
+#EXTINF:-1 group-title="韩国",KBS Story
+https://kbsnw.gscdn.kbs.co.kr/kbsnw-01/kbsnw-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNudy5nc2Nkbi5rYnMuY28ua3Iva2JzbnctMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NTg0NTYxMX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=WCSA3DdT4hOc3H07iv9lD401QWOIYmCA9o3mkLBAFZ5nkSL8am1oFiAFEBbIsa2xmwPoj46Z2SUfp53nYwxuZN963A7t1xIOpZeKm901CvpsrlTHw7XrSQyaA2mbMevkjNpl1Ca8Vv7hG2mSkbyEubY1Mx0XBpxmZDoDsHvJrVOHLd4iP02ftlXwxk8Hcrpeiul23ylW5ZIHPfW~xgJuxEdaCPXBrQaJYrCZsuaDC36vmE-0Nv5CeOPM7bvOgMR6uhduu5XBd42~XbQxaUZsW7ekXNmToxgBs0BkO6cjl3vMR9wdAXKG6Zl9L6JNr92l-~2517q0H7tzS5suIdYKww__
+#EXTINF:-1 group-title="韩国",KBS WORLD
+https://world.gscdn.kbs.co.kr/world-01/world-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5NTg0NTU1NH19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=h~sRmREBcXczyud5InGi7zfbhO0b4zGfCrKE3-xymBn2LTMTO6kYreWgtSLzmDtJ~JfG1WUPz4BPS9wy3NztzKTzaGjlrVJQg~Zzw~ZuNhNo9fzcUwg2OzlD5ydfNu3q-GAZHrUdzEN8~9oHM9WIOWKYvMJG5F9rBDEPAnI7h-qtJsQb5DlWkgVub5Ce4Sci9SmS7giua9xNfvddc775pc~YtwUo~CGFJy5HxMjnoqPtFIq7C~g12syOuPRvgFwhJjydK0zKpJm5Wd489iVLvF5KNFu7QgEleEhlglD3HWtBWxtoVQLlGuMhvzEGUX-j2G1i7IbvkZwGNrPFNP9BCA__
+#EXTINF:-1 group-title="韩国",KBS뉴스
+https://news24.gscdn.kbs.co.kr/news24-02/news24-02_hd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9uZXdzMjQuZ3NjZG4ua2JzLmNvLmtyL25ld3MyNC0wMi8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk1ODQ1NTczfX19XX0_&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=gFmKheX2omyJEEt1TgDtNw6qdBGzYoOS8AsKBlZMrNT~WuvnKtvJPgGP7RDh9aoARb3aigJm3YVtgXAO92fV8rOpZQnOs2im-EDjFo4BlkYHa4BKGaWyFpQ0JKwHaMIJLqglxcec6gssRZkkuSHCf~D0NgXgT-ZAOMWtqVQNj1JJB7NCcZK8qxiGLeSfkoQ74H80nGctlZ8dJXrRjJ50HQptQq3YpwVzo1EWVMeCgHdz6H~Nhu3ozwSBDSc3wzHUaxfFZeEfJBJ6HOSLwC7FMd89BeJTQ6WAQIFk6Ula-Aq2LIqZp65keIctIp72zvRbKJUYdMnkO5m5ZAVPG5APxQ__
+#EXTINF:-1 group-title="韩国",SBS
+https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTgwMDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjEwMWRhYTc5LWNkMGUtNDA0NS1hZmVkLWU4YjBjMDc1YjZmMiIsImlhdCI6MTc5NTY5MDgwMn0.GyswM4Mw36ot_zFpTJRp38lDXu3q4uDpQmOgR_4MSRM
+#EXTINF:-1 group-title="韩国",SBS플러스
+https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTA4MDUsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI2ZWM0MDc0My02YzMyLTQxYzctYjg3Ni02ZmMwYzkwNWYxNmEiLCJpYXQiOjE3OTU2ODM2MDV9.suAn4I3f_YUnNBQlMCwGQiApXadVY8QGGnmjcKulhKs
+#EXTINF:-1 group-title="韩国",SBS퍼니
+https://tvlive.sbs.co.kr/sbsetvpc/sbsetv1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTgwMTMsInBhdGgiOiIvc2JzZXR2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjUwZWIwOGEwLTBiMzYtNGQyYi1hNTJmLTFiYzEwNjVhZWEwZSIsImlhdCI6MTc5NTY5MDgxM30.FhLqjrt5ZZ6sop99aulK3zveu_Tio9VlRTjt30Nk_Xw
+#EXTINF:-1 group-title="韩国",SBS LIFE
+https://tvlive.sbs.co.kr/sbsfil/sbsfil1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTgwMTYsInBhdGgiOiIvc2JzZmlsMS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImVhZWIxZDVlLTU4YjAtNGM0NS05M2JiLTVmZDY4Nzk1ZDdhNCIsImlhdCI6MTc5NTY5MDgxNn0.kcrKl7pH0uJSqIUojbRxmLPknzgBMT-RuMDQP5-NvC0
+#EXTINF:-1 group-title="韩国",SBS KPOP
+https://tvlive.sbs.co.kr/sbskpop/sbskpop1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTA3NTUyNzcsInBhdGgiOiIvc2Jza3BvcDEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI2YWNiOTJkNC05OGE0LTQ3NmUtODZlMC0wM2QzOTEwYjMwMmYiLCJpYXQiOjE3OTA3NDgwNzd9.8VWWfCCv2KNbqSzOX2r7gSnQAH7VeDeHijaL2lysBKk
+#EXTINF:-1 group-title="韩国",SBS골프
+https://tvlive.sbs.co.kr/sbsgolf/sbsgolf1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTgwMjQsInBhdGgiOiIvc2JzZ29sZjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIyYWExMDE0NS0wMDE4LTRiOGEtYWIxYi1jNzY4ZDE2OWI0ZTAiLCJpYXQiOjE3OTU2OTA4MjR9.AGX3uBpC4qcjHxwSiZA9N0r779NGbYPK-o_OJmGrLp8
+#EXTINF:-1 group-title="韩国",SBS Golf2
+https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTgwMjcsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiMzE4NmQ1YjItNjRkZC00MzQ5LTkyMDktZGUzMzM4OGFmMGM5IiwiaWF0IjoxNzk1NjkwODI3fQ.iiCSzPLGBWD3hANITjpUIfsDgGddNmJ3-OiaNzELiPI
+#EXTINF:-1 group-title="韩国",SBS스포츠
+https://tvlive.sbs.co.kr/sbsespn/sbsespn1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTgwMjAsInBhdGgiOiIvc2JzZXNwbjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJjZTA4OWNjOC00ZTE4LTQzZTMtYTRiMi0wNTQ2NzNkZGU4YjAiLCJpYXQiOjE3OTU2OTA4MjB9.TJfjnfbYE0PU6jkE0hQPqjs13lKpwn9CzN_THipPvi8
+#EXTINF:-1 group-title="韩国",SBS Biz
+https://tvlive.sbs.co.kr/sbscnbc/sbscnbc1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTU2OTgwMDksInBhdGgiOiIvc2JzY25iYzEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI5NjRlZWY4Ny0yNDYyLTRjYmItOGM1YS03NmNjNzYwMjUyMGMiLCJpYXQiOjE3OTU2OTA4MDl9.bEh4O5k_eLBl8WnlK6ExqURwI3sA4gy-HKtri0SzK1Q
+#EXTINF:-1 group-title="韩国",MBC
+https://backup.760515.xyz/playlist/MBC-playlist.m3u8
+#EXTINF:-1 group-title="韩国",MBC드라마넷
+https://dramaottsd.imbc.com/plus_drama_sd/_definst_/drama_sd.stream/chunklist.m3u8?_lsu_sa_=6AC1B014131D3C84B54B555733010E4E45993A35570DD2BD3510A4aB567637E601aAA3863CC2FE4300AA302103b8B1EE291377A1CD3FEDFBE4370DD60245F97D57E29B844D32FDD075A17638C82E67419E4194BBBCFD5AF1D87A38A2BD30985FAA86A7A80EED796D76464EA555F466BAF6AC2B26286F89226519AA2AD3DDD1EB&v=3
+#EXTINF:-1 group-title="韩国",MBC에브리원
+https://every1ottsd.imbc.com/plus_every1_sd/_definst_/every1_sd.stream/chunklist.m3u8?_lsu_sa_=60C1831293473254344D15FE3821BC49452934B5BD0E420A316012a156F636D684aA433838B2844580CA36F1B8b2F1603107628E5473F37B52584761EA77C07F084CDFE68CA191422E5B19B694BF64A1A5CE2392DD739FBF0BFD13C2B7534D8E62DA2940F9C41C206E096478EA80C8DA85589B0955D22D249809F6001431AE87&v=3
+#EXTINF:-1 group-title="韩国",MBC M
+https://mbcmottsd.imbc.com/plus_mbcm_sd/_definst_/mbcm_sd.stream/chunklist.m3u8?_lsu_sa_=6A01E81D730F3D94A44635BD3D81D94105093315710BB2733E008FaE66E4342667a443FB3B02F24F306B375122b9C12776767C4469DE62B96C1CB913EFEF2ACBCCE1BCEBB740CC5722CEB011FEBF5B471DE4AFDE0253747AD8A9C434EB746D884B7AFA45CB35B0721C9B0D15CDAE0813&v=3
+#EXTINF:-1 group-title="韩国",MBC ON
+https://mbconottsd.imbc.com/plus_mbcon_sd/_definst_/mbcon_sd.stream/chunklist.m3u8?_lsu_sa_=62C1491B73283984F14E451B3591CC40B52937D5950BF2A93980DBaCF60A348622a9331034727446108E31F1FAb161F1AD97A9EA9BC7E0DB485ECC82ACD8D37D4F9BB439F955EFF3D8A2483455741636F1C81EE82CE2679E9640084B20C540DFC26C42D943AEF4BA70EA6E12F2B3DD60A4B41486A9F72C716759D4941E6C3308&v=3
+#EXTINF:-1 group-title="韩国",MBCNET
+https://m-mbcnetlive.imbc.com/mbcnet_onair/_definst_/mbcnet_500k.stream/chunklist.m3u8?_lsu_sa_=63C1981363F433B44D4855613091B940C5303765DD0A825B3F806Ea156003136C1aE23BE3C727F44600E3311FFb101B215ABBF6BDDDBB535E4CD25FC6BB1C9F26D5EAE4A7A3F4ACC8CDDAA7CB0E5FBB7382C5A45BBC4C267E30FA680E6621F1AB05FF8B7F423CBCCFE4E39743E07706AC923C0E5BB6B5D999A22C8F20FA61FE6&v=3
+#EXTINF:-1 group-title="韩国",아리랑TV
+https://epg.pw/stream/f71b00bffdc25476502479870351e7f801879a9b7bbce6bc77332b7f8b0dbd7a.m3u8
+#EXTINF:-1 group-title="韩国",TBSTV
+https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
+#EXTINF:-1 group-title="韩国",ABN
+https://vod2.abn.co.kr/IPHONE/abn.m3u8
+#EXTINF:-1 group-title="韩国",농협TV
+http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8
+#EXTINF:-1 group-title="韩国",복지TV
+https://cdnlive179.smartucc.kr/smartlive/312/46324be24454bd98f785039457ac695d/playlist.m3u8
+#EXTINF:-1 group-title="韩国",국민방송
+https://mlive.ktv.go.kr/live/klive_m.stream/playlist.m3u8
+#EXTINF:-1 group-title="韩国",문화유산채널
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=14
+#EXTINF:-1 group-title="韩国",방송대학TV
+https://live.knou.ac.kr/knou1/live1/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS1
+https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS2
+https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS+1
+https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS+2
+https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="韩国",EBS English
+https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 group-title="韩国",한국영화1
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
+#EXTINF:-1 group-title="韩国",한국영화2
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+#EXTINF:-1 group-title="韩国",한국영화3
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=742
