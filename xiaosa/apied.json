@@ -308,6 +308,12 @@
             "name": "IPTV",
             "type": 0,
             "url": "./udpiptvm.m3u"
+    },
+       {
+
+            "name": "한국채널",
+            "type": 0,
+            "url": "./韩国.m3u"
     }
   ],
   "parses": [
